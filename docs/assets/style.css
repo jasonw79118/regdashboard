@@ -1,1 +1,73 @@
-body { font-family: Arial, sans-serif; }
+body {
+  font-family: system-ui, Segoe UI, Roboto, Arial;
+  margin: 24px;
+  line-height: 1.45;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.window {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.nav a {
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+section {
+  margin: 28px 0;
+}
+
+h2 {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 6px;
+}
+
+.items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.headline {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.source {
+  font-weight: 600;
+}
+
+.date {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.summary {
+  margin-top: 4px;
+  color: #222;
+}
+
+.empty {
+  color: #777;
+  font-style: italic;
+}
+
+.disclaimer {
+  color: #555;
+  font-size: 0.9em;
+  font-size: 0.9rem;
+}

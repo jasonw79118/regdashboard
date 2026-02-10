@@ -1,11 +1,107 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>RegDashboard</title>
+  <meta charset="utf-8" />
+  <title>RegDashboard – Regulatory Intelligence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
+
 <body>
-  <h1>RegDashboard</h1>
-  <p>If you see this, GitHub Pages is working.</p>
+  <header>
+    <h1>RegDashboard</h1>
+    <div class="subtitle">Rolling Regulatory Intelligence</div>
+    <div id="window" class="window"></div>
+
+    <nav class="nav">
+      <a href="#ofac">OFAC</a>
+      <a href="#irs">IRS</a>
+      <a href="#payments">Payments</a>
+      <a href="#banking">Banking</a>
+      <a href="#mortgage">Mortgage</a>
+      <a href="#usda">USDA</a>
+      <a href="#exec">Legislative & Executive</a>
+    </nav>
+  </header>
+
+  <main id="content"></main>
+
+  <footer>
+    <hr />
+    <p class="disclaimer">
+      RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
+      Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
+    </p>
+  </footer>
+
+  <script>
+    const GROUPS = [
+      { id: "ofac", title: "OFAC – Sanctions & AML", sources: ["OFAC"] },
+      { id: "irs", title: "IRS – Tax Administration", sources: ["IRS"] },
+      { id: "payments", title: "Payments – Nacha & Federal Reserve", sources: ["NACHA", "FRB"] },
+      { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", sources: ["OCC", "FDIC", "FRB"] },
+      { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", sources: ["FHLB MPF", "Fannie Mae", "Freddie Mac"] },
+      { id: "usda", title: "USDA – APHIS", sources: ["USDA APHIS"] },
+      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", sources: ["Senate Banking", "White House", "Federal Register"] }
+    ];
+
+    function fmtDate(iso) {
+      const d = new Date(iso);
+      return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
+    }
+
+    fetch("data/items.json", { cache: "no-store" })
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById("window").textContent =
+          `Rolling window: ${fmtDate(data.window_start)} → ${fmtDate(data.window_end)} (UTC)`;
+
+        const content = document.getElementById("content");
+
+        GROUPS.forEach(group => {
+          const section = document.createElement("section");
+          section.id = group.id;
+
+          const h2 = document.createElement("h2");
+          h2.textContent = group.title;
+          section.appendChild(h2);
+
+          const items = data.items
+            .filter(i => group.sources.includes(i.source))
+            .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+
+          if (!items.length) {
+            const empty = document.createElement("div");
+            empty.className = "empty";
+            empty.textContent = "No items in the current rolling window.";
+            section.appendChild(empty);
+          } else {
+            const ul = document.createElement("ul");
+            ul.className = "items";
+
+            items.forEach(i => {
+              const li = document.createElement("li");
+              li.innerHTML = `
+                <div class="headline">
+                  <span class="source">[${i.source}]</span>
+                  <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
+                  <span class="date">${fmtDate(i.published_at)}</span>
+                </div>
+                ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
+              `;
+              ul.appendChild(li);
+            });
+
+            section.appendChild(ul);
+          }
+
+          content.appendChild(section);
+        });
+      })
+      .catch(() => {
+        document.getElementById("content").innerHTML =
+          "<p>Error loading data/items.json. Run the build script.</p>";
+      });
+  </script>
 </body>
 </html>
