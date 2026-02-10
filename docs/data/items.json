@@ -1,0 +1,13 @@
+{
+  "window_start": "2026-01-27T22:29:23.991226Z",
+  "window_end": "2026-02-10T22:29:23.991226Z",
+  "items": [
+    {
+      "source": "TEST",
+      "title": "RegDashboard build script is working",
+      "published_at": "2026-02-10T22:29:23.991226Z",
+      "url": "https://github.com/jasonw79118/regdashboard",
+      "summary": "This confirms the local build process works."
+    }
+  ]
+}
