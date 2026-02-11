@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 import warnings
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
+from html import escape
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urljoin, urldefrag, urlparse
 
@@ -21,6 +23,14 @@ from dateutil import parser as dtparser
 # ============================
 
 OUT_PATH = "docs/data/items.json"
+
+# --- Copilot-friendly static exports (no JS required) ---
+RAW_DIR = "docs/raw"
+RAW_HTML_PATH = f"{RAW_DIR}/index.html"
+RAW_MD_PATH = f"{RAW_DIR}/items.md"
+RAW_TXT_PATH = f"{RAW_DIR}/items.txt"
+RAW_NDJSON_PATH = f"{RAW_DIR}/items.ndjson"
+
 WINDOW_DAYS = 14
 
 MAX_LISTING_LINKS = 180
@@ -304,6 +314,129 @@ def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
     except Exception as e:
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
         return None
+
+
+# ============================
+# STATIC EXPORT HELPERS (NEW)
+# ============================
+
+def ensure_dir(p: str) -> None:
+    os.makedirs(p, exist_ok=True)
+
+
+def render_raw_html(payload: Dict[str, Any]) -> str:
+    ws = payload.get("window_start", "")
+    we = payload.get("window_end", "")
+    items = payload.get("items", [])
+
+    cards: List[str] = []
+    for it in items:
+        src = escape(str(it.get("source", "")))
+        title = escape(str(it.get("title", "")))
+        url = escape(str(it.get("url", "")))
+        pub = escape(str(it.get("published_at", "")))
+        summary = escape(str(it.get("summary", "") or ""))
+
+        cards.append(f"""
+        <article class="card">
+          <div class="meta">
+            <span class="src">[{src}]</span>
+            <span class="pub">{pub}</span>
+          </div>
+          <h2 class="title"><a href="{url}">{title}</a></h2>
+          {"<p class='sum'>" + summary + "</p>" if summary else ""}
+          <p class="url">{url}</p>
+        </article>
+        """)
+
+    body = "\n".join(cards) if cards else "<p>No items in window.</p>"
+
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RegDashboard – Static Export</title>
+  <meta name="description" content="Static export of RegDashboard items (no JavaScript required)." />
+  <style>
+    body {{ font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; line-height: 1.35; }}
+    header {{ margin-bottom: 18px; }}
+    .small {{ color: #444; font-size: 13px; }}
+    .links a {{ margin-right: 12px; }}
+    .card {{ border: 1px solid #ddd; border-radius: 10px; padding: 14px; margin: 12px 0; }}
+    .meta {{ display: flex; gap: 12px; font-size: 12px; color: #555; margin-bottom: 6px; }}
+    .title {{ margin: 0 0 6px 0; font-size: 16px; }}
+    .sum {{ margin: 0 0 6px 0; color: #222; }}
+    .url {{ margin: 0; font-size: 12px; color: #666; word-break: break-word; }}
+    a {{ text-decoration: none; }}
+    a:hover {{ text-decoration: underline; }}
+    code {{ background: #f4f4f4; padding: 2px 6px; border-radius: 6px; }}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RegDashboard — Static Export</h1>
+    <div class="small">Window: <code>{escape(str(ws))}</code> → <code>{escape(str(we))}</code> (UTC)</div>
+    <div class="small">Generated at build time (Copilot/indexer friendly).</div>
+    <div class="small links">
+      <a href="./items.md">items.md</a>
+      <a href="./items.txt">items.txt</a>
+      <a href="./items.ndjson">items.ndjson</a>
+      <a href="../">Back to app</a>
+    </div>
+  </header>
+
+  {body}
+</body>
+</html>
+"""
+
+
+def render_raw_md(payload: Dict[str, Any]) -> str:
+    ws = payload.get("window_start", "")
+    we = payload.get("window_end", "")
+    items = payload.get("items", [])
+
+    lines: List[str] = []
+    lines.append("# RegDashboard — Export")
+    lines.append("")
+    lines.append(f"Window: `{ws}` → `{we}` (UTC)")
+    lines.append("")
+
+    for it in items:
+        title = (it.get("title") or "").strip()
+        source = (it.get("source") or "").strip()
+        pub = (it.get("published_at") or "").strip()
+        url = (it.get("url") or "").strip()
+        summary = (it.get("summary") or "").strip()
+
+        lines.append(f"## {title}")
+        lines.append(f"- Source: {source}")
+        lines.append(f"- Published: {pub}")
+        lines.append(f"- URL: {url}")
+        if summary:
+            lines.append("")
+            lines.append(summary)
+        lines.append("")
+
+    return "\n".join(lines).strip() + "\n"
+
+
+def render_raw_txt(payload: Dict[str, Any]) -> str:
+    items = payload.get("items", [])
+    out: List[str] = []
+
+    for it in items:
+        out.append(str(it.get("source", "")).strip())
+        out.append(str(it.get("published_at", "")).strip())
+        out.append(str(it.get("title", "")).strip())
+        out.append(str(it.get("url", "")).strip())
+        summary = str(it.get("summary", "") or "").strip()
+        if summary:
+            out.append(summary)
+        out.append("-" * 60)
+
+    return "\n".join(out).strip() + "\n"
 
 
 # ============================
@@ -633,10 +766,33 @@ def build():
         "items": items,
     }
 
+    # Ensure output dirs exist
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    ensure_dir(RAW_DIR)
+
+    # Write main JSON payload (used by the JS app)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"\n[ok] wrote {OUT_PATH} with {len(items)} items | detail fetches: {global_detail_fetches}", flush=True)
+    # Write Copilot-friendly static exports (no JS required)
+    with open(RAW_HTML_PATH, "w", encoding="utf-8") as f:
+        f.write(render_raw_html(payload))
+
+    with open(RAW_MD_PATH, "w", encoding="utf-8") as f:
+        f.write(render_raw_md(payload))
+
+    with open(RAW_TXT_PATH, "w", encoding="utf-8") as f:
+        f.write(render_raw_txt(payload))
+
+    with open(RAW_NDJSON_PATH, "w", encoding="utf-8") as f:
+        for it in payload.get("items", []):
+            f.write(json.dumps(it, ensure_ascii=False) + "\n")
+
+    print(
+        f"\n[ok] wrote {OUT_PATH} with {len(items)} items | detail fetches: {global_detail_fetches}\n"
+        f"[ok] wrote static exports: {RAW_HTML_PATH}, {RAW_MD_PATH}, {RAW_TXT_PATH}, {RAW_NDJSON_PATH}",
+        flush=True
+    )
 
 
 if __name__ == "__main__":
