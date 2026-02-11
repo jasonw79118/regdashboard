@@ -12,6 +12,7 @@
     <h1>RegDashboard</h1>
     <div class="subtitle">Rolling Regulatory Intelligence</div>
     <div id="window" class="window"></div>
+    <div id="count" class="window"></div>
 
     <nav class="nav">
       <a href="#ofac">OFAC</a>
@@ -24,11 +25,12 @@
       <a href="#infosec">Information Security</a>
       <a href="#fintech">Fintech Watch</a>
       <a href="#cardnet">Payment Card Networks</a>
-
     </nav>
   </header>
 
-  <main id="content"></main>
+  <main id="content">
+    <p id="loading">Loading items…</p>
+  </main>
 
   <footer>
     <hr />
@@ -46,10 +48,11 @@
       { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", sources: ["OCC", "FDIC", "FRB"] },
       { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", sources: ["FHLB MPF", "Fannie Mae", "Freddie Mac"] },
       { id: "usda", title: "USDA – APHIS", sources: ["USDA APHIS"] },
-      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", sources: ["Senate Banking", "White House", "Federal Register"] }{ id: "infosec", title: "Information Security", sources: ["CISA KEV", "BleepingComputer", "Microsoft MSRC", "Microsoft Learn Security Updates"] },
-{ id: "fintech", title: "Fintech Watch", sources: ["FIS", "Fiserv", "Jack Henry", "Temenos", "Mambu", "Finastra", "TCS"] },
-{ id: "cardnet", title: "Payment Card Networks", sources: ["Visa", "Mastercard"] },
+      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", sources: ["Senate Banking", "White House", "Federal Register"] },
 
+      { id: "infosec", title: "Information Security", sources: ["CISA KEV", "BleepingComputer", "Microsoft MSRC", "Microsoft Learn Security Updates"] },
+      { id: "fintech", title: "Fintech Watch", sources: ["FIS", "Fiserv", "Jack Henry", "Temenos", "Mambu", "Finastra", "TCS"] },
+      { id: "cardnet", title: "Payment Card Networks", sources: ["Visa", "Mastercard"] },
     ];
 
     function fmtDate(iso) {
@@ -57,58 +60,69 @@
       return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
     }
 
-    fetch("data/items.json", { cache: "no-store" })
-      .then(r => r.json())
-      .then(data => {
+    function renderSection(group, items, content) {
+      const section = document.createElement("section");
+      section.id = group.id;
+
+      const h2 = document.createElement("h2");
+      h2.textContent = group.title;
+      section.appendChild(h2);
+
+      const groupItems = items
+        .filter(i => group.sources.includes(i.source))
+        .sort((a,b) => new Date(b.published_at) - new Date(a.published_at));
+
+      if (!groupItems.length) {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.textContent = "No items in the current rolling window.";
+        section.appendChild(empty);
+      } else {
+        const ul = document.createElement("ul");
+        ul.className = "items";
+
+        groupItems.forEach(i => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+            <div class="headline">
+              <span class="source">[${i.source}]</span>
+              <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
+              <span class="date">${fmtDate(i.published_at)}</span>
+            </div>
+            ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
+          `;
+          ul.appendChild(li);
+        });
+
+        section.appendChild(ul);
+      }
+
+      content.appendChild(section);
+    }
+
+    (async () => {
+      const content = document.getElementById("content");
+      const loading = document.getElementById("loading");
+
+      try {
+        const r = await fetch("data/items.json", { cache: "no-store" });
+        if (!r.ok) throw new Error(`HTTP ${r.status} loading data/items.json`);
+        const data = await r.json();
+
         document.getElementById("window").textContent =
           `Rolling window: ${fmtDate(data.window_start)} → ${fmtDate(data.window_end)} (UTC)`;
 
-        const content = document.getElementById("content");
+        document.getElementById("count").textContent =
+          `Total items loaded: ${(data.items || []).length}`;
 
-        GROUPS.forEach(group => {
-          const section = document.createElement("section");
-          section.id = group.id;
-
-          const h2 = document.createElement("h2");
-          h2.textContent = group.title;
-          section.appendChild(h2);
-
-          const items = data.items
-            .filter(i => group.sources.includes(i.source))
-            .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-
-          if (!items.length) {
-            const empty = document.createElement("div");
-            empty.className = "empty";
-            empty.textContent = "No items in the current rolling window.";
-            section.appendChild(empty);
-          } else {
-            const ul = document.createElement("ul");
-            ul.className = "items";
-
-            items.forEach(i => {
-              const li = document.createElement("li");
-              li.innerHTML = `
-                <div class="headline">
-                  <span class="source">[${i.source}]</span>
-                  <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
-                  <span class="date">${fmtDate(i.published_at)}</span>
-                </div>
-                ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
-              `;
-              ul.appendChild(li);
-            });
-
-            section.appendChild(ul);
-          }
-
-          content.appendChild(section);
-        });
-      })
-      .catch(() => {
-        document.getElementById("content").innerHTML =
-          "<p>Error loading data/items.json. Run the build script.</p>";
-      });
+        content.innerHTML = "";
+        GROUPS.forEach(g => renderSection(g, data.items || [], content));
+      } catch (e) {
+        if (loading) loading.remove();
+        content.innerHTML = `<p><strong>Could not load items.json.</strong><br/>${String(e)}</p>`;
+        console.error(e);
+      }
+    })();
   </script>
 </body>
 </html>
