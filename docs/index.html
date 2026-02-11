@@ -22,6 +22,22 @@
       · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
     </div>
 
+    <!-- FORCE UPDATE BUTTON (opens GitHub Actions so you can click "Run workflow") -->
+    <div class="window" style="font-size: 0.95em;">
+      <a
+        href="https://github.com/jasonw79118/regdashboard/actions/workflows/regdashboard-build.yml"
+        target="_blank"
+        rel="noopener"
+        class="btn"
+        style="display:inline-block;padding:8px 12px;border:1px solid #ddd;border-radius:10px;text-decoration:none;"
+      >
+        Force update (Run workflow)
+      </a>
+      <span style="margin-left:10px;color:#555;">
+        Opens GitHub Actions — click <strong>Run workflow</strong> to rebuild now.
+      </span>
+    </div>
+
     <nav class="nav">
       <a href="#ofac">OFAC</a>
       <a href="#irs">IRS</a>
@@ -57,7 +73,9 @@
       { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", sources: ["OCC", "FDIC", "FRB"] },
       { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", sources: ["FHLB MPF", "Fannie Mae", "Freddie Mac"] },
       { id: "usda", title: "USDA – APHIS", sources: ["USDA APHIS"] },
-      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", sources: ["Senate Banking", "White House", "Federal Register"] },
+
+      // IMPORTANT: changed "Federal Register" -> "GovInfo Federal Register"
+      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", sources: ["Senate Banking", "White House", "GovInfo Federal Register"] },
 
       { id: "infosec", title: "Information Security", sources: ["CISA KEV", "BleepingComputer", "Microsoft MSRC", "Microsoft Learn Security Updates"] },
       { id: "fintech", title: "Fintech Watch", sources: ["FIS", "Fiserv", "Jack Henry", "Temenos", "Mambu", "Finastra", "TCS"] },
