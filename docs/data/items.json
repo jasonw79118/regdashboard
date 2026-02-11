@@ -1,7 +1,14 @@
 {
-  "window_start": "2026-01-28T17:27:07Z",
-  "window_end": "2026-02-11T17:27:07Z",
+  "window_start": "2026-01-28T17:41:54Z",
+  "window_end": "2026-02-11T17:41:54Z",
   "items": [
+    {
+      "source": "BleepingComputer",
+      "title": "Proactive strategies for cyber resilience with Wazuh",
+      "published_at": "2026-02-11T17:40:28Z",
+      "url": "https://www.bleepingcomputer.com/news/security/proactive-strategies-for-cyber-resilience-with-wazuh/",
+      "summary": "Cyber resilience means anticipating threats, detecting them early, and recovering fast when incidents occur. Wazuh shows how its open source SIEM and XDR unify visibility, detection, and automated response to strengthen proactive defense. [...]"
+    },
     {
       "source": "NACHA",
       "title": "Payments Consulting",
@@ -29,20 +36,6 @@
       "published_at": "2026-02-11T00:00:00Z",
       "url": "https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules",
       "summary": ""
-    },
-    {
-      "source": "FRB",
-      "title": "Recent Postings",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.federalreserve.gov/recentpostings.htm",
-      "summary": "The Federal Reserve Board of Governors in Washington DC."
-    },
-    {
-      "source": "FRB",
-      "title": "Publications",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.federalreserve.gov/publications.htm",
-      "summary": "The Federal Reserve Board of Governors in Washington DC."
     },
     {
       "source": "Fannie Mae",
@@ -80,25 +73,46 @@
       "summary": ""
     },
     {
-      "source": "Fannie Mae",
-      "title": "Current page 1",
+      "source": "CISA KEV",
+      "title": "CVE-2026-21513",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news?page=%2C%2C%2C0",
-      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21513",
+      "summary": ""
     },
     {
-      "source": "Fannie Mae",
-      "title": "News",
+      "source": "CISA KEV",
+      "title": "CVE-2026-21525",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news",
-      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21525",
+      "summary": ""
     },
     {
-      "source": "Fannie Mae",
-      "title": "Investor Relations",
+      "source": "CISA KEV",
+      "title": "CVE-2026-21510",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.fanniemae.com/about-us/investor-relations",
-      "summary": "Fannie Mae Investor Relations website provides investors information about our SEC filings quarterly and annual financial results, and stock."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21510",
+      "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21533",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21533",
+      "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21519",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21519",
+      "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21514",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21514",
+      "summary": ""
     },
     {
       "source": "BleepingComputer",
@@ -185,13 +199,6 @@
       "summary": "A new commercial mobile spyware platform dubbed ZeroDayRAT is being advertised to cybercriminals on Telegram as a tool that provides full remote control over compromised Android and iOS devices. [...]"
     },
     {
-      "source": "BleepingComputer",
-      "title": "Fugitive behind $73M 'pig butchering' scheme gets 20 years in prison",
-      "published_at": "2026-02-10T08:17:54Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fugitive-behind-73m-pig-butchering-scheme-gets-20-years-in-prison/",
-      "summary": "A dual Chinese and St. Kitts and Nevis national was sentenced to 20 years in prison in absentia for his role in an international cryptocurrency investment scheme (also known as pig butchering or romance baiting) that defrauded victims of more than $73 million. [...]"
-    },
-    {
       "source": "OFAC",
       "title": "Recent Actions",
       "published_at": "2026-02-10T00:00:00Z",
@@ -241,11 +248,11 @@
       "summary": ""
     },
     {
-      "source": "Finastra",
-      "title": "Feb 10, 2026, 04:00 ET AI tipping point reached as just 2% of financial institutions report no AI use, finds Finastra Research Financial services has reached a decisive AI tipping point, according to new research from F…",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://www.prnewswire.com/news-releases/ai-tipping-point-reached-as-just-2-of-financial-institutions-report-no-ai-use-finds-finastra-research-302683484.html",
-      "summary": ""
+      "source": "IRS",
+      "title": "IRS announces next expansion of Tax Pro Account to support tax professional businesses",
+      "published_at": "2026-02-09T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-announces-next-expansion-of-tax-pro-account-to-support-tax-professional-businesses",
+      "summary": "IR-2026-22, Feb. 9, 2026 — The Internal Revenue Service today announced a new expansion of Tax Pro Account, introducing business-level digital capabilities for tax professionals who work in tax-preparation companies, accounting firms, or other organizations."
     },
     {
       "source": "NACHA",
@@ -281,6 +288,13 @@
       "published_at": "2026-02-09T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/new-report-finds-trumps-attack-on-the-cfpb-has-cost-americans-19-billion-in-one-year-alone",
       "summary": ""
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-02-06T20:25:00Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/4082a4d",
+      "summary": "PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would impleme…"
     },
     {
       "source": "OFAC",
@@ -319,10 +333,66 @@
     },
     {
       "source": "FRB",
-      "title": "Back to Home",
+      "title": "Home",
       "published_at": "2026-02-06T00:00:00Z",
       "url": "https://www.federalreserve.gov/default.htm",
       "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
+      "source": "White House",
+      "title": "Modifying Duties to Address Threats to the United States by the Government of the Russian Federation",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Establishing an America First Arms Transfer Strategy",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/establishing-an-america-first-arms-transfer-strategy/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Protecting the National Security and Welfare of the United States and its Citizens from Criminal Actors and Other Public Safety Threats",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/protecting-the-national-security-and-welfare-of-the-united-states-and-its-citizens-from-criminal-actors-and-other-public-safety-threats/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Addressing Threats to the United States by the Government of Iran",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/addressing-threats-to-the-united-states-by-the-government-of-iran/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Unleashing American Commercial Fishing in the Atlantic",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/unleashing-american-commercial-fishing-in-the-atlantic/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Ensuring Affordable Beef for the American Consumer",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Next",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/page/2/",
+      "summary": ""
+    },
+    {
+      "source": "FDIC",
+      "title": "Press Release: FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-02-05T15:15:50Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/407cc7a",
+      "summary": "PRESS RELEASE | FEBRUARY 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in November 2025. The CRA is a 1…"
     },
     {
       "source": "NACHA",
@@ -346,6 +416,13 @@
       "summary": ""
     },
     {
+      "source": "FRB",
+      "title": "2026",
+      "published_at": "2026-02-04T00:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
       "source": "Fannie Mae",
       "title": "Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025",
       "published_at": "2026-02-04T00:00:00Z",
@@ -353,11 +430,46 @@
       "summary": "Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025"
     },
     {
+      "source": "White House",
+      "title": "Nominations Sent to the Senate",
+      "published_at": "2026-02-04T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/",
+      "summary": ""
+    },
+    {
       "source": "OFAC",
       "title": "Issuance of Venezuela-related General License",
       "published_at": "2026-02-03T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260203",
       "summary": ""
+    },
+    {
+      "source": "IRS",
+      "title": "Create an IRS Individual Online Account today for security and convenience",
+      "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/create-an-irs-individual-online-account-today-for-security-and-convenience",
+      "summary": "IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS Individual Online Account to access their tax account information securely online and to help protect against identity theft and fraud."
+    },
+    {
+      "source": "IRS",
+      "title": "Treasury, IRS issue proposed regulations on the clean fuel production credit under the One, Big, Beautiful Bill",
+      "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-clean-fuel-production-credit-under-the-one-big-beautiful-bill",
+      "summary": "IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations for domestic producers of clean transportation fuel to determine their eligibility for and calculate the clean fuel production credit under the One, Big, Beautiful Bill."
+    },
+    {
+      "source": "White House",
+      "title": "National Black History Month, 2026",
+      "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/",
+      "summary": ""
+    },
+    {
+      "source": "IRS",
+      "title": "IRS statements and announcements",
+      "published_at": "2026-02-02T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-statements-and-announcements",
+      "summary": "Agency statements, comments and additional information."
     },
     {
       "source": "OCC",
@@ -374,11 +486,11 @@
       "summary": "The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations."
     },
     {
-      "source": "Finastra",
-      "title": "Feb 02, 2026, 09:00 ET Finastra Enhances Commercial Loan Origination with Cloud-Native LaserPro Evaluate Finastra, a global leader in financial services software, today announced the launch of LaserPro Evaluate, a moder…",
-      "published_at": "2026-02-02T00:00:00Z",
-      "url": "https://www.prnewswire.com/news-releases/finastra-enhances-commercial-loan-origination-with-cloud-native-laserpro-evaluate-302676221.html",
-      "summary": ""
+      "source": "FDIC",
+      "title": "Press Release: First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
+      "published_at": "2026-01-30T23:12:07Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/406eba7",
+      "summary": "PRESS RELEASE | JANUARY 30, 2026 First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois WASHINGTON — Metropolitan Capital Bank & Trust was closed today by the Illinois Department of Financial and Professional Regulation, which appointed the Federal Deposit Insurance Corporation (FDIC) as receiver. The FDIC enter…"
     },
     {
       "source": "FRB",
@@ -386,6 +498,20 @@
       "published_at": "2026-01-30T21:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260130a.htm",
       "summary": "Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc."
+    },
+    {
+      "source": "FDIC",
+      "title": "Press Release: FDIC Publishes Enforcement Orders for December 2025",
+      "published_at": "2026-01-30T15:02:09Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/406ad43",
+      "summary": "PRESS RELEASE | JANUARY 30, 2026 FDIC Publishes Enforcement Orders for December 2025 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025. There are no administrative hearings scheduled for February 2026. Orders Terminating Consent Orders: Luana…"
+    },
+    {
+      "source": "IRS",
+      "title": "IRS announces 2026 Tax Counseling for the Elderly and Volunteer Income Tax Assistance Program Grants",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-announces-2026-tax-counseling-for-the-elderly-and-volunteer-income-tax-assistance-program-grants",
+      "summary": "IR-2026-19, Jan. 30, 2026 — The Internal Revenue Service announced today the award of $53 million in Tax Counseling for the Elderly and Volunteer Income Tax Assistance grants to organizations that provide federal tax return preparation at no cost."
     },
     {
       "source": "FDIC",
@@ -528,11 +654,32 @@
       "summary": "The FDIC today issued the list of institutions scheduled for a CRA examination during the first quarter 2026. CRA regulations require each federal bank and thr"
     },
     {
+      "source": "White House",
+      "title": "Celebrating American Greatness with American Motor Racing",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/01/celebrating-american-greatness-with-american-motor-racing/",
+      "summary": ""
+    },
+    {
       "source": "FRB",
       "title": "Federal Reserve Board announces appointment of seven members, including four new members, to its Insurance Policy Advisory Committee (IPAC)",
       "published_at": "2026-01-29T18:30:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260129a.htm",
       "summary": "Federal Reserve Board announces appointment of seven members, including four new members, to its Insurance Policy Advisory Committee (IPAC)"
+    },
+    {
+      "source": "IRS",
+      "title": "IRS requests applications for 2026 ETAAC membership",
+      "published_at": "2026-01-29T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-requests-applications-for-2026-etaac-membership",
+      "summary": "IR-2026-18, Jan. 29, 2026 — The Internal Revenue Service is accepting applications for the Electronic Tax Administration Advisory Committee through Feb. 28, 2026."
+    },
+    {
+      "source": "IRS",
+      "title": "Tax Pros: Get Ready for the filing season and save time with Tax Pro Account; encourage clients to use their IRS individual online account",
+      "published_at": "2026-01-29T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/tax-pros-get-ready-for-the-filing-season-and-save-time-with-tax-pro-account-encourage-clients-to-use-their-irs-individual-online-account",
+      "summary": "IR-2026-17, Jan. 29, 2026 — With the 2026 filing season fast approaching, the Internal Revenue Service encourages tax professionals to help their clients prepare now by sharing helpful tips and tools available at IRS.gov/GetReady."
     },
     {
       "source": "NACHA",
@@ -546,6 +693,13 @@
       "title": "Same Day ACH and Business-to-Business Payments Propel ACH Network Volume Growth in 2025",
       "published_at": "2026-01-29T00:00:00Z",
       "url": "https://www.nacha.org/news/same-day-ach-and-business-business-payments-propel-ach-network-volume-growth-2025",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Addressing Threats to the United States by the Government of Cuba",
+      "published_at": "2026-01-29T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba/",
       "summary": ""
     },
     {

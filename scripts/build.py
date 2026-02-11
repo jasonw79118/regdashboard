@@ -1,22 +1,19 @@
 from __future__ import annotations
 
 import json
-import os
 import re
 import time
 import warnings
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional, Tuple
-from urllib.parse import urljoin, urldefrag, urlparse, parse_qs
+from urllib.parse import urljoin, urldefrag, urlparse
 
 import feedparser
 import requests
 from bs4 import BeautifulSoup
 from bs4 import XMLParsedAsHTMLWarning
 from dateutil import parser as dtparser
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 
 # ============================
@@ -26,12 +23,10 @@ from urllib3.util.retry import Retry
 OUT_PATH = "docs/data/items.json"
 WINDOW_DAYS = 14
 
-# Performance controls
 MAX_LISTING_LINKS = 180
 GLOBAL_DETAIL_FETCH_CAP = 140
-REQUEST_DELAY_SEC = 0.10
+REQUEST_DELAY_SEC = 0.10  # slightly slower = fewer timeouts / blocks
 
-# Per-source detail caps
 PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "IRS": 70,
     "USDA APHIS": 45,
@@ -44,23 +39,16 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "Jack Henry": 25,
     "Temenos": 25,
     "Mambu": 20,
-    "Finastra": 25,
+    "Finastra": 20,
     "TCS": 25,
     "OFAC": 20,
     "OCC": 20,
     "FDIC": 20,
     "FRB": 25,
-    "Federal Register": 25,
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-# IMPORTANT: SEC requires a User-Agent that includes contact info (email).
-# Set this env var in PowerShell:
-#   $env:REGDASH_CONTACT="Jason Williams <[jasonw79118@gmail.com]>"
-CONTACT = os.getenv("REGDASH_CONTACT", "").strip()
-
-BASE_UA = "regdashboard/1.6 (+https://github.com/jasonw79118/regdashboard)"
-UA = f"{BASE_UA} {CONTACT}".strip() if CONTACT else BASE_UA
+UA = "regdashboard/1.6 (+https://github.com/jasonw79118/regdashboard)"
 
 
 @dataclass
@@ -70,13 +58,12 @@ class SourcePage:
 
 
 START_PAGES: List[SourcePage] = [
-    # --- Regulatory / Government ---
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
 
     SourcePage("IRS", "https://www.irs.gov/newsroom"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
-    # Directory (HTML), not a feed
+    # IMPORTANT: this is an HTML directory page (NOT a feed). We will parse it for real feeds.
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
 
     SourcePage("NACHA", "https://www.nacha.org/news"),
@@ -96,6 +83,7 @@ START_PAGES: List[SourcePage] = [
 
     SourcePage("Freddie Mac", "https://www.freddiemac.com/media-room"),
     SourcePage("USDA APHIS", "https://www.aphis.usda.gov/news"),
+
     SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
     SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
 
@@ -108,49 +96,51 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Federal Register", "https://www.federalregister.gov/topics/truth-lending"),
     SourcePage("Federal Register", "https://www.federalregister.gov/topics/truth-savings"),
 
-    # --- Information Security ---
+    SourcePage("CISA KEV", "https://github.com/cryptogennepal/cve-kev-rss/"),
     SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
     SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/update-guide/rss"),
 
-    # --- Fintech Watch ---
     SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases"),
     SourcePage("Fiserv", "https://investors.fiserv.com/news-events/news-releases"),
     SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
     SourcePage("Temenos", "https://www.temenos.com/press-releases/"),
     SourcePage("Mambu", "https://mambu.com/en/insights/press"),
-    SourcePage("Finastra", "https://www.prnewswire.com/news/Finastra/"),
+    SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
     SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
 
-    # --- Payment Networks ---
     SourcePage("Visa", "https://investor.visa.com/news/default.aspx"),
     SourcePage("Mastercard", "https://investor.mastercard.com/investor-news/default.aspx"),
 ]
 
-
-# ============================
-# SESSION + RETRIES
-# ============================
 
 SESSION = requests.Session()
 SESSION.headers.update({
     "User-Agent": UA,
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
 })
 
-retry = Retry(
-    total=3,
-    connect=3,
-    read=3,
-    backoff_factor=0.8,
-    status_forcelist=(429, 500, 502, 503, 504),
-    allowed_methods=("GET",),
-    raise_on_status=False,
-)
-adapter = HTTPAdapter(max_retries=retry, pool_connections=20, pool_maxsize=20)
-SESSION.mount("https://", adapter)
-SESSION.mount("http://", adapter)
+
+# ============================
+# RULES: keep scrapes focused (prevents burning budget on 401/403 junk)
+# ============================
+
+SOURCE_RULES: Dict[str, Dict[str, Any]] = {
+    "IRS": {
+        "allow_domains": {"www.irs.gov"},
+        "allow_path_prefixes": {"/newsroom/"},
+        "deny_domains": {"sa.www4.irs.gov"},
+    },
+    "FRB": {
+        "deny_domains": {"www.facebook.com"},
+    },
+}
+
+GLOBAL_DENY_DOMAINS = {
+    "www.facebook.com",
+}
+GLOBAL_DENY_SCHEMES = {"mailto", "tel", "javascript"}
 
 
 # ============================
@@ -192,81 +182,106 @@ def canonical_url(url: str) -> str:
 
 def is_http_url(url: str) -> bool:
     try:
-        scheme = urlparse(url).scheme.lower()
-        return scheme in ("http", "https")
+        u = urlparse(url)
+        return u.scheme.lower() in ("http", "https")
     except Exception:
         return False
 
+def scheme(url: str) -> str:
+    try:
+        return urlparse(url).scheme.lower()
+    except Exception:
+        return ""
+
+def host(url: str) -> str:
+    try:
+        return urlparse(url).netloc.lower()
+    except Exception:
+        return ""
+
+def path(url: str) -> str:
+    try:
+        return urlparse(url).path or "/"
+    except Exception:
+        return "/"
+
+def allowed_for_source(source: str, url: str) -> bool:
+    if not is_http_url(url):
+        return False
+    if scheme(url) in GLOBAL_DENY_SCHEMES:
+        return False
+
+    h = host(url)
+    if h in GLOBAL_DENY_DOMAINS:
+        return False
+
+    rules = SOURCE_RULES.get(source, {})
+    deny = set(rules.get("deny_domains", set()))
+    if h in deny:
+        return False
+
+    allow_domains = rules.get("allow_domains")
+    if allow_domains and h not in set(allow_domains):
+        return False
+
+    allow_paths = rules.get("allow_path_prefixes")
+    if allow_paths:
+        p = path(url)
+        ok = any(p.startswith(pref) for pref in set(allow_paths))
+        if not ok:
+            return False
+
+    return True
+
+# STRICT feed detection (fixes IRS /downloads/rss being mis-classified)
+FEED_SUFFIX_RE = re.compile(r"(\.rss|\.xml|\.atom)$", re.I)
+
 def looks_like_feed_url(url: str) -> bool:
-    """
-    STRICT feed detection:
-    - Don't treat "contains rss" as a feed (fixes https://www.irs.gov/downloads/rss)
-    """
-    u = urlparse(url)
-    path = (u.path or "").lower()
-    qs = parse_qs(u.query or "")
-
-    if path.endswith((".xml", ".rss", ".atom")):
+    u = url.strip()
+    if not is_http_url(u):
+        return False
+    p = path(u).lower()
+    if FEED_SUFFIX_RE.search(p):
         return True
-
-    # common feed endpoints
-    if path.endswith("/feed") or path.endswith("/feed/"):
+    # common true-feed endpoints
+    if p.endswith("/feed") or p.endswith("/feed/"):
         return True
-
-    # SEC / EDGAR atom style, only if output=atom explicitly
-    if qs.get("output", [""])[0].lower() == "atom":
+    # SEC/EDGAR style
+    q = (urlparse(u).query or "").lower()
+    if "output=atom" in q:
         return True
-
-    # federalregister API rss links usually end with .rss
     return False
-
-
-# --- domain hygiene ---
-DENY_DETAIL_HOST_SUBSTRINGS = [
-    "sa.www4.irs.gov",          # IRS auth portals (403/401)
-    "www.facebook.com",         # FRB social link noise
-    "facebook.com",
-    "twitter.com",
-    "x.com",
-    "linkedin.com",
-]
-
-def should_skip_detail(url: str) -> bool:
-    host = (urlparse(url).netloc or "").lower()
-    for bad in DENY_DETAIL_HOST_SUBSTRINGS:
-        if bad in host:
-            return True
-    return False
-
 
 def polite_get(url: str, timeout: int = 25) -> Optional[str]:
     if not is_http_url(url):
         return None
-    if should_skip_detail(url):
-        return None
 
-    host = urlparse(url).netloc.lower()
-
-    # per-domain tuning
-    connect_timeout = 10
+    h = host(url)
     read_timeout = timeout
-    if "ofac.treasury.gov" in host:
+    if "fanniemae.com" in h:
         read_timeout = 40
-    if "aphis.usda.gov" in host:
-        read_timeout = 40
-    if "fanniemae.com" in host:
-        read_timeout = 40
-    if "investor" in host or "investors." in host:
+    if "federalreserve.gov" in h:
         read_timeout = 35
-    if "federalreserve.gov" in host:
+    if "irs.gov" in h:
         read_timeout = 35
 
     try:
         time.sleep(REQUEST_DELAY_SEC)
-        r = SESSION.get(url, timeout=(connect_timeout, read_timeout), allow_redirects=True)
-        if r.status_code >= 400:
-            raise requests.HTTPError(f"HTTP {r.status_code}")
+        r = SESSION.get(url, timeout=(10, read_timeout), allow_redirects=True)
+        r.raise_for_status()
         return r.text
+    except Exception as e:
+        print(f"[warn] GET failed: {url} :: {e}", flush=True)
+        return None
+
+def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
+    if not is_http_url(url):
+        return None
+    try:
+        time.sleep(REQUEST_DELAY_SEC)
+        r = SESSION.get(url, timeout=(10, timeout), allow_redirects=True)
+        r.raise_for_status()
+        return r.content
     except Exception as e:
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
         return None
@@ -283,25 +298,21 @@ ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
 def extract_any_date(text: str) -> Optional[datetime]:
     if not text:
         return None
-
     m = MONTH_DATE_RE.search(text)
     if m:
         dt = parse_date(m.group("md"))
         if dt:
             return dt
-
     m = SLASH_DATE_RE.search(text)
     if m:
         dt = parse_date(m.group("sd"))
         if dt:
             return dt
-
     m = ISO_DATE_RE.search(text)
     if m:
         dt = parse_date(m.group("id"))
         if dt:
             return dt
-
     return None
 
 
@@ -310,12 +321,14 @@ def extract_any_date(text: str) -> Optional[datetime]:
 # ============================
 
 def discover_feeds(page_url: str, html: str) -> List[str]:
-    if looks_like_feed_url(page_url):
-        return [page_url]
-
+    """
+    Discover RSS/Atom feeds from HTML pages.
+    Also supports "RSS directory" pages by scanning anchor tags.
+    """
     soup = BeautifulSoup(html, "html.parser")
     feeds: List[str] = []
 
+    # <link rel="alternate" type="application/rss+xml" ...>
     for link in soup.find_all("link"):
         rel = " ".join(link.get("rel", [])).lower()
         typ = (link.get("type") or "").lower()
@@ -325,18 +338,36 @@ def discover_feeds(page_url: str, html: str) -> List[str]:
         if "alternate" in rel and ("rss" in typ or "atom" in typ or href.lower().endswith((".xml", ".rss", ".atom"))):
             feeds.append(urljoin(page_url, href))
 
-    out = []
+    # ALSO: scan <a href="...xml"> on directory pages (IRS /downloads/rss)
+    for a in soup.find_all("a", href=True):
+        href = (a.get("href") or "").strip()
+        if not href:
+            continue
+        if href.lower().endswith((".xml", ".rss", ".atom")):
+            feeds.append(urljoin(page_url, href))
+
+    out: List[str] = []
     seen = set()
     for f in feeds:
-        if f not in seen:
+        f = canonical_url(f)
+        if f not in seen and looks_like_feed_url(f):
             seen.add(f)
             out.append(f)
     return out
 
-
 def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) -> List[Dict[str, Any]]:
+    """
+    IMPORTANT: fetch feed content with our SESSION (UA/headers),
+    then parse bytes with feedparser. This fixes sites that block
+    feedparser's default fetch.
+    """
     out: List[Dict[str, Any]] = []
-    fp = feedparser.parse(feed_url)
+
+    b = fetch_bytes(feed_url, timeout=35)
+    if not b:
+        return out
+
+    fp = feedparser.parse(b)
 
     for e in fp.entries:
         title = clean_text(e.get("title", ""), 220)
@@ -369,85 +400,6 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
             "url": canonical_url(link),
             "summary": summary,
         })
-
-    return out
-
-
-# ============================
-# SEC: BETTER THAN EDGAR ATOM (403 FIX)
-# ============================
-
-SEC_FORMS_DEFAULT = ["8-K"]
-
-def sec_headers() -> Dict[str, str]:
-    # SEC expects declared UA with contact info; enforce if you want:
-    # if not CONTACT: raise RuntimeError("Set REGDASH_CONTACT for SEC requests.")
-    return {
-        "User-Agent": UA,
-        "Accept-Encoding": "gzip, deflate, br",
-        "Accept": "application/json,text/html,*/*",
-        "Connection": "keep-alive",
-    }
-
-def pad_cik(cik: str) -> str:
-    s = re.sub(r"\D", "", str(cik))
-    return s.zfill(10)
-
-def sec_recent_filings(source: str, cik: str, start: datetime, end: datetime, forms: Optional[List[str]] = None, limit: int = 30) -> List[Dict[str, Any]]:
-    """
-    Pull recent filings via SEC submissions JSON:
-      https://data.sec.gov/submissions/CIK##########.json
-    """
-    forms = forms or SEC_FORMS_DEFAULT
-    cik10 = pad_cik(cik)
-    cik_int = str(int(cik10))  # used in Archives path
-
-    url = f"https://data.sec.gov/submissions/CIK{cik10}.json"
-    try:
-        time.sleep(REQUEST_DELAY_SEC)
-        r = SESSION.get(url, headers=sec_headers(), timeout=(10, 35))
-        if r.status_code >= 400:
-            raise requests.HTTPError(f"HTTP {r.status_code}")
-        data = r.json()
-    except Exception as e:
-        print(f"[warn] SEC submissions failed: {url} :: {e}", flush=True)
-        return []
-
-    recent = (((data or {}).get("filings") or {}).get("recent") or {})
-    forms_list = recent.get("form") or []
-    dates_list = recent.get("filingDate") or []
-    acc_list = recent.get("accessionNumber") or []
-    prim_list = recent.get("primaryDocument") or []
-
-    out: List[Dict[str, Any]] = []
-    for i in range(min(len(forms_list), len(dates_list), len(acc_list), len(prim_list))):
-        form = str(forms_list[i] or "")
-        if form not in forms:
-            continue
-
-        dt = parse_date(dates_list[i])
-        if not dt or not in_window(dt, start, end):
-            continue
-
-        acc = str(acc_list[i] or "")
-        prim = str(prim_list[i] or "")
-        if not acc or not prim:
-            continue
-
-        acc_nodash = acc.replace("-", "")
-        filing_url = f"https://www.sec.gov/Archives/edgar/data/{cik_int}/{acc_nodash}/{prim}"
-
-        title = f"{source} {form} filing"
-        out.append({
-            "source": source,
-            "title": title,
-            "published_at": iso_z(dt),
-            "url": filing_url,
-            "summary": f"SEC filing ({form}) on {dt.date().isoformat()}",
-        })
-
-        if len(out) >= limit:
-            break
 
     return out
 
@@ -511,9 +463,18 @@ def extract_published_from_detail(detail_url: str, html: str) -> Tuple[Optional[
 # LISTING EXTRACTION
 # ============================
 
-def main_content_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+def pick_container(soup: BeautifulSoup) -> Optional[Any]:
+    return (
+        soup.find("main")
+        or soup.find(attrs={"role": "main"})
+        or soup.find(id=re.compile(r"(main|content)", re.I))
+        or soup.find("article")
+        or soup.find("body")
+    )
+
+def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
-    container = soup.find("main") or soup.find("article") or soup.find("body")
+    container = pick_container(soup)
     if not container:
         return []
 
@@ -523,16 +484,16 @@ def main_content_links(page_url: str, html: str) -> List[Tuple[str, str, Optiona
         title = clean_text(a.get_text(" ", strip=True), 220)
         if not href or not title:
             continue
-        if href.startswith(("javascript:", "#", "mailto:", "tel:")):
+
+        if scheme(href) in GLOBAL_DENY_SCHEMES or href.startswith("#"):
             continue
 
         url = canonical_url(urljoin(page_url, href))
-        if not is_http_url(url):
+        if not allowed_for_source(source, url):
             continue
 
         parent = a.find_parent(["li", "article", "div", "p", "section"]) or a.parent
         near = clean_text(parent.get_text(" ", strip=True) if parent else "", 700)
-
         dt = extract_any_date(near)
 
         links.append((title, url, dt))
@@ -555,15 +516,10 @@ def build():
     global_detail_fetches = 0
     per_source_detail_fetches: Dict[str, int] = {}
 
-    # --- Add SEC-based items for sources that keep 403'ing on PR pages ---
-    # Mastercard CIK 0001141391, Visa CIK 0001403161
-    # (These give you “something reliable” even if newsroom is blocked.)
-    all_items.extend(sec_recent_filings("Mastercard", "0001141391", window_start, window_end, forms=["8-K"], limit=25))
-    all_items.extend(sec_recent_filings("Visa", "0001403161", window_start, window_end, forms=["8-K"], limit=25))
-
     for sp in START_PAGES:
         print(f"\n[source] {sp.source} :: {sp.url}", flush=True)
 
+        # Feed URL directly
         if looks_like_feed_url(sp.url):
             got = items_from_feed(sp.source, sp.url, window_start, window_end)
             all_items.extend(got)
@@ -575,7 +531,7 @@ def build():
             print("[skip] no html", flush=True)
             continue
 
-        # FEEDS discovered from this HTML page
+        # Discover feeds from this HTML page
         feed_urls = discover_feeds(sp.url, html)
         feed_items_total = 0
         for fu in feed_urls:
@@ -589,8 +545,8 @@ def build():
                 print(f"[warn] feed parse failed: {fu} :: {e}", flush=True)
         print(f"[feed] total: {feed_items_total} | feeds found: {len(feed_urls)}", flush=True)
 
-        # LISTING EXTRACTION
-        listing_links = main_content_links(sp.url, html)
+        # Listing extraction (HTML links)
+        listing_links = main_content_links(sp.source, sp.url, html)
         print(f"[list] links captured: {len(listing_links)}", flush=True)
 
         src_used = per_source_detail_fetches.get(sp.source, 0)
@@ -599,10 +555,7 @@ def build():
         for title, url, dt in listing_links:
             snippet = ""
 
-            # Don’t waste detail budget on known-bad domains
-            if should_skip_detail(url):
-                continue
-
+            # If no date near the link, do a detail fetch (bounded by caps)
             if dt is None:
                 if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                     continue
@@ -636,7 +589,7 @@ def build():
 
         print(f"[detail] {sp.source}: used {src_used}/{src_cap} | global {global_detail_fetches}/{GLOBAL_DETAIL_FETCH_CAP}", flush=True)
 
-    # DE-DUPE by URL
+    # De-dupe by URL
     dedup: Dict[str, Dict[str, Any]] = {}
     for it in sorted(all_items, key=lambda x: x["published_at"], reverse=True):
         key = canonical_url(it["url"])
