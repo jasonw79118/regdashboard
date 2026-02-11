@@ -1,26 +1,68 @@
 {
-  "window_start": "2026-01-27T22:59:46.731382Z",
-  "window_end": "2026-02-10T22:59:46.731382Z",
+  "window_start": "2026-01-28T14:12:48.413628Z",
+  "window_end": "2026-02-11T14:12:48.413628Z",
   "items": [
     {
       "source": "OFAC",
-      "title": "Sanctions List Updates",
-      "url": "https://ofac.treasury.gov/recent-actions/sanctions-list-updates",
+      "title": "Counter Terrorism Designations",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210",
       "published_at": "2026-02-10T00:00:00Z",
       "summary": ""
     },
     {
       "source": "OFAC",
-      "title": "General Licenses",
-      "url": "https://ofac.treasury.gov/recent-actions/general-licenses",
+      "title": "Issuance of New and Amended Venezuela-related General Licenses",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210_33",
       "published_at": "2026-02-10T00:00:00Z",
       "summary": ""
     },
     {
       "source": "OFAC",
-      "title": "Miscellaneous",
-      "url": "https://ofac.treasury.gov/recent-actions/miscellaneous",
+      "title": "Iran-related Designations",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206",
       "published_at": "2026-02-06T00:00:00Z",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Launch of Voluntary Self-Disclosure Portal",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206_33",
+      "published_at": "2026-02-06T00:00:00Z",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related Frequently Asked Questions",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206_66",
+      "published_at": "2026-02-06T00:00:00Z",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License",
+      "url": "https://ofac.treasury.gov/recent-actions/20260203",
+      "published_at": "2026-02-03T00:00:00Z",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License and Amended Frequently Asked Question",
+      "url": "https://ofac.treasury.gov/recent-actions/20260202",
+      "published_at": "2026-02-02T00:00:00Z",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Iran-related Designations; Counter Terrorism Designations; Non-Proliferation Designation Update and Designation Removal",
+      "url": "https://ofac.treasury.gov/recent-actions/20260130",
+      "published_at": "2026-01-30T00:00:00Z",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License",
+      "url": "https://ofac.treasury.gov/recent-actions/20260129",
+      "published_at": "2026-01-29T00:00:00Z",
       "summary": ""
     }
   ]
