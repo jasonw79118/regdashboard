@@ -1,7 +1,21 @@
 {
-  "window_start": "2026-01-28T15:20:00Z",
-  "window_end": "2026-02-11T15:20:00Z",
+  "window_start": "2026-01-28T17:27:07Z",
+  "window_end": "2026-02-11T17:27:07Z",
   "items": [
+    {
+      "source": "NACHA",
+      "title": "Payments Consulting",
+      "published_at": "2026-02-11T17:23:18Z",
+      "url": "https://www.nacha.org/taxonomy/term/362",
+      "summary": ""
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "LummaStealer infections surge after CastleLoader malware campaigns",
+      "published_at": "2026-02-11T17:02:29Z",
+      "url": "https://www.bleepingcomputer.com/news/security/lummastealer-infections-surge-after-castleloader-malware-campaigns/",
+      "summary": "A surge in LummaStealer infections has been observed, driven by social engineering campaigns leveraging the ClickFix technique to deliver the CastleLoader malware. [...]"
+    },
     {
       "source": "BleepingComputer",
       "title": "Microsoft releases Windows 11 26H1 for select and upcoming CPUs",
@@ -17,6 +31,48 @@
       "summary": ""
     },
     {
+      "source": "FRB",
+      "title": "Recent Postings",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.federalreserve.gov/recentpostings.htm",
+      "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
+      "source": "FRB",
+      "title": "Publications",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.federalreserve.gov/publications.htm",
+      "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
+      "source": "Fannie Mae",
+      "title": "Newsroom",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom",
+      "summary": "Access the latest Fannie Mae news, get in touch with media contacts and stay connected with the latest company innovations."
+    },
+    {
+      "source": "Fannie Mae",
+      "title": "Date",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news?start_date=&end_date=&order=field_date&sort=desc",
+      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
+    },
+    {
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Reports Net Income of $3.5 Billion for Fourth Quarter 2025 and $14.4 Billion for Full-Year 2025",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results",
+      "summary": "Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission."
+    },
+    {
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast",
+      "summary": "Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C."
+    },
+    {
       "source": "Fannie Mae",
       "title": "Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026",
       "published_at": "2026-02-11T00:00:00Z",
@@ -25,52 +81,24 @@
     },
     {
       "source": "Fannie Mae",
-      "title": "See all news",
+      "title": "Current page 1",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news?page=%2C%2C%2C0",
+      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
+    },
+    {
+      "source": "Fannie Mae",
+      "title": "News",
       "published_at": "2026-02-11T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news",
-      "summary": ""
+      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
     },
     {
-      "source": "CISA KEV",
-      "title": "CVE-2026-21513",
+      "source": "Fannie Mae",
+      "title": "Investor Relations",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21513",
-      "summary": ""
-    },
-    {
-      "source": "CISA KEV",
-      "title": "CVE-2026-21525",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21525",
-      "summary": ""
-    },
-    {
-      "source": "CISA KEV",
-      "title": "CVE-2026-21510",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21510",
-      "summary": ""
-    },
-    {
-      "source": "CISA KEV",
-      "title": "CVE-2026-21533",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21533",
-      "summary": ""
-    },
-    {
-      "source": "CISA KEV",
-      "title": "CVE-2026-21519",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21519",
-      "summary": ""
-    },
-    {
-      "source": "CISA KEV",
-      "title": "CVE-2026-21514",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21514",
-      "summary": ""
+      "url": "https://www.fanniemae.com/about-us/investor-relations",
+      "summary": "Fannie Mae Investor Relations website provides investors information about our SEC filings quarterly and annual financial results, and stock."
     },
     {
       "source": "BleepingComputer",
@@ -172,9 +200,23 @@
     },
     {
       "source": "OFAC",
+      "title": "Counter Terrorism Designations",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
       "title": "Sanctions List Updates",
       "published_at": "2026-02-10T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/sanctions-list-updates",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Issuance of New and Amended Venezuela-related General Licenses",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210_33",
       "summary": ""
     },
     {
@@ -185,13 +227,6 @@
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "Current page 1",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions?page=0",
-      "summary": ""
-    },
-    {
       "source": "NACHA",
       "title": "Inaugural National Nacha Accreditation Day Honors Nearly 6,000 Payments Professionals",
       "published_at": "2026-02-10T00:00:00Z",
@@ -199,18 +234,18 @@
       "summary": ""
     },
     {
-      "source": "Freddie Mac",
-      "title": "February 10, 2026 Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results Freddie Mac (OTCQB:FMCC) announced today that it plans to report its Fourth Quarter and Full-Year 2025 financi…",
+      "source": "Fiserv",
+      "title": "Fiserv to Release Fourth Quarter Earnings Results on February 10, 2026",
       "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/freddie-mac-announces-release-date-fourth-quarter-and-full-8",
+      "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-release-fourth-quarter-earnings-results-february-10-2026",
       "summary": ""
     },
     {
-      "source": "BleepingComputer",
-      "title": "Chinese cyberspies breach Singapore's four largest telcos",
-      "published_at": "2026-02-09T22:47:53Z",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breach-singapores-four-largest-telcos/",
-      "summary": "The Chinese threat actor tracked as UNC3886 breached Singapore's four largest telecommunication service providers, Singtel, StarHub, M1, and Simba, at least once last year. [...]"
+      "source": "Finastra",
+      "title": "Feb 10, 2026, 04:00 ET AI tipping point reached as just 2% of financial institutions report no AI use, finds Finastra Research Financial services has reached a decisive AI tipping point, according to new research from F…",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://www.prnewswire.com/news-releases/ai-tipping-point-reached-as-just-2-of-financial-institutions-report-no-ai-use-finds-finastra-research-302683484.html",
+      "summary": ""
     },
     {
       "source": "NACHA",
@@ -249,59 +284,45 @@
     },
     {
       "source": "OFAC",
+      "title": "Iran-related Designations",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Launch of Voluntary Self-Disclosure Portal",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206_33",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
       "title": "Miscellaneous",
       "published_at": "2026-02-06T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/miscellaneous",
       "summary": ""
     },
     {
-      "source": "White House",
-      "title": "Modifying Duties to Address Threats to the United States by the Government of the Russian Federation",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related Frequently Asked Questions",
       "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206_66",
       "summary": ""
     },
     {
-      "source": "White House",
-      "title": "Establishing an America First Arms Transfer Strategy",
+      "source": "OCC",
+      "title": "Comptroller Discusses Importance of Financial Education",
       "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/establishing-an-america-first-arms-transfer-strategy/",
-      "summary": ""
+      "url": "https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s",
+      "summary": "Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu..."
     },
     {
-      "source": "White House",
-      "title": "Protecting the National Security and Welfare of the United States and its Citizens from Criminal Actors and Other Public Safety Threats",
+      "source": "FRB",
+      "title": "Back to Home",
       "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/protecting-the-national-security-and-welfare-of-the-united-states-and-its-citizens-from-criminal-actors-and-other-public-safety-threats/",
-      "summary": ""
-    },
-    {
-      "source": "White House",
-      "title": "Addressing Threats to the United States by the Government of Iran",
-      "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/addressing-threats-to-the-united-states-by-the-government-of-iran/",
-      "summary": ""
-    },
-    {
-      "source": "White House",
-      "title": "Unleashing American Commercial Fishing in the Atlantic",
-      "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/unleashing-american-commercial-fishing-in-the-atlantic/",
-      "summary": ""
-    },
-    {
-      "source": "White House",
-      "title": "Ensuring Affordable Beef for the American Consumer",
-      "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/",
-      "summary": ""
-    },
-    {
-      "source": "White House",
-      "title": "Next",
-      "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/page/2/",
-      "summary": ""
+      "url": "https://www.federalreserve.gov/default.htm",
+      "summary": "The Federal Reserve Board of Governors in Washington DC."
     },
     {
       "source": "NACHA",
@@ -311,11 +332,11 @@
       "summary": ""
     },
     {
-      "source": "Freddie Mac",
-      "title": "February 5, 2026 Mortgage Rates Continue to Show Stability, Hovering Near 6%",
-      "published_at": "2026-02-05T00:00:00Z",
-      "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-show-stability-hovering-near-6",
-      "summary": ""
+      "source": "FRB",
+      "title": "Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered",
+      "published_at": "2026-02-04T21:30:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260204a.htm",
+      "summary": "Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered"
     },
     {
       "source": "NACHA",
@@ -325,17 +346,17 @@
       "summary": ""
     },
     {
-      "source": "White House",
-      "title": "Nominations Sent to the Senate",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025",
       "published_at": "2026-02-04T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/",
-      "summary": ""
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-expands-rental-supply-nearly-74-billion-volume-2025",
+      "summary": "Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025"
     },
     {
-      "source": "White House",
-      "title": "National Black History Month, 2026",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License",
       "published_at": "2026-02-03T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/",
+      "url": "https://ofac.treasury.gov/recent-actions/20260203",
       "summary": ""
     },
     {
@@ -346,11 +367,172 @@
       "summary": ""
     },
     {
-      "source": "White House",
-      "title": "Celebrating American Greatness with American Motor Racing",
-      "published_at": "2026-01-30T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/01/celebrating-american-greatness-with-american-motor-racing/",
+      "source": "OCC",
+      "title": "Supervision & Examination",
+      "published_at": "2026-02-02T00:00:00Z",
+      "url": "https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html",
+      "summary": "The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations."
+    },
+    {
+      "source": "Finastra",
+      "title": "Feb 02, 2026, 09:00 ET Finastra Enhances Commercial Loan Origination with Cloud-Native LaserPro Evaluate Finastra, a global leader in financial services software, today announced the launch of LaserPro Evaluate, a moder…",
+      "published_at": "2026-02-02T00:00:00Z",
+      "url": "https://www.prnewswire.com/news-releases/finastra-enhances-commercial-loan-origination-with-cloud-native-laserpro-evaluate-302676221.html",
       "summary": ""
+    },
+    {
+      "source": "FRB",
+      "title": "Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc.",
+      "published_at": "2026-01-30T21:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260130a.htm",
+      "summary": "Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc."
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-extends-comment-period-proposal-establish-genius-act-application",
+      "summary": "The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi"
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-0",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
+    },
+    {
+      "source": "FDIC",
+      "title": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/first-independence-bank-detroit-michigan-assumes-all-deposits-metropolitan",
+      "summary": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois"
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Publishes December Enforcement Actions",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-publishes-december-enforcement-actions",
+      "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025."
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-applications-ford-credit-bank-salt-lake",
+      "summary": "The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM"
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-final-rule-amend-official-signs-and-advertising",
+      "summary": "The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage."
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Establishes Office of Supervisory Appeals",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-establishes-office-supervisory-appeals",
+      "summary": "The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations."
+    },
+    {
+      "source": "FDIC",
+      "title": "Travis Hill Sworn in as the 23rd Chairman of the FDIC",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/travis-hill-sworn-23rd-chairman-fdic",
+      "summary": "Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC)."
+    },
+    {
+      "source": "FDIC",
+      "title": "Agencies Issue 2025 Shared National Credit Program Report",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/agencies-issue-2025-shared-national-credit-program-report",
+      "summary": "Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans"
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
+    },
+    {
+      "source": "FDIC",
+      "title": "Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/agencies-release-annual-asset-size-thresholds-under-community-reinvestment",
+      "summary": "The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds."
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Publishes November Enforcement Actions",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-publishes-november-enforcement-actions",
+      "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025."
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-deposit-insurance-application-erebor-bank-na-columbus-ohio",
+      "summary": "The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered.."
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Board Approves 2026 Operating Budget",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-approves-2026-operating-budget",
+      "summary": "The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions."
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-approves-final-rule-establishment-and-relocation",
+      "summary": "The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices."
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-issues-interim-final-rule-amend-collection-special",
+      "summary": "The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu"
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-proposal-establish-genius-act-application-procedures-fdic",
+      "summary": "The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act."
+    },
+    {
+      "source": "FDIC",
+      "title": "Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged",
+      "summary": "The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan"
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-issues-list-banks-examined-cra-compliance-10",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the CRA. The list covers evaluation ratings that the FDIC assign"
+    },
+    {
+      "source": "FDIC",
+      "title": "FDIC Issues CRA Examination Schedule for First Quarter 2026",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-issues-cra-examination-schedule-first-quarter-2026",
+      "summary": "The FDIC today issued the list of institutions scheduled for a CRA examination during the first quarter 2026. CRA regulations require each federal bank and thr"
+    },
+    {
+      "source": "FRB",
+      "title": "Federal Reserve Board announces appointment of seven members, including four new members, to its Insurance Policy Advisory Committee (IPAC)",
+      "published_at": "2026-01-29T18:30:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260129a.htm",
+      "summary": "Federal Reserve Board announces appointment of seven members, including four new members, to its Insurance Policy Advisory Committee (IPAC)"
     },
     {
       "source": "NACHA",
@@ -367,18 +549,18 @@
       "summary": ""
     },
     {
-      "source": "Freddie Mac",
-      "title": "January 29, 2026 Mortgage Rates Remain Lower and Steady",
-      "published_at": "2026-01-29T00:00:00Z",
-      "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-remain-lower-and-steady",
-      "summary": ""
+      "source": "FRB",
+      "title": "Federal Reserve issues FOMC statement",
+      "published_at": "2026-01-28T19:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+      "summary": "Federal Reserve issues FOMC statement"
     },
     {
-      "source": "White House",
-      "title": "Addressing Threats to the United States by the Government of Cuba",
-      "published_at": "2026-01-29T00:00:00Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba/",
-      "summary": ""
+      "source": "FRB",
+      "title": "Federal Open Market Committee reaffirms its \"Statement on Longer-Run Goals and Monetary Policy Strategy\"",
+      "published_at": "2026-01-28T19:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128b.htm",
+      "summary": "Federal Open Market Committee reaffirms its \"Statement on Longer-Run Goals and Monetary Policy Strategy\""
     }
   ]
 }
