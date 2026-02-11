@@ -30,6 +30,11 @@ RAW_HTML_PATH = f"{RAW_DIR}/index.html"
 RAW_MD_PATH = f"{RAW_DIR}/items.md"
 RAW_TXT_PATH = f"{RAW_DIR}/items.txt"
 RAW_NDJSON_PATH = f"{RAW_DIR}/items.ndjson"
+RAW_ROBOTS_PATH = f"{RAW_DIR}/robots.txt"
+RAW_SITEMAP_PATH = f"{RAW_DIR}/sitemap.xml"
+
+# Public base (used for <base> tag + sitemap). Keep trailing /regdashboard
+PUBLIC_BASE = "https://jasonw79118.github.io/regdashboard"
 
 WINDOW_DAYS = 14
 
@@ -58,7 +63,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/1.7 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/1.8 (+https://github.com/jasonw79118/regdashboard)"
 
 
 @dataclass
@@ -120,9 +125,6 @@ START_PAGES: List[SourcePage] = [
 
     # ------------------------------------------------------------------
     # PAYMENT NETWORKS (FIX)
-    # Investor Relations "news/default.aspx" pages are JS-rendered (the HTML
-    # your scraper receives contains "Loading" and no article links).
-    # Use server-rendered press-release listing pages instead.
     # ------------------------------------------------------------------
     SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
     SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
@@ -325,9 +327,13 @@ def ensure_dir(p: str) -> None:
 
 
 def render_raw_html(payload: Dict[str, Any]) -> str:
-    ws = payload.get("window_start", "")
-    we = payload.get("window_end", "")
-    items = payload.get("items", [])
+    """
+    A fully static HTML page containing the full item list in the initial HTML.
+    No JavaScript required. Includes a <base> tag to help crawlers resolve links.
+    """
+    ws = str(payload.get("window_start", ""))
+    we = str(payload.get("window_end", ""))
+    items = payload.get("items", []) or []
 
     cards: List[str] = []
     for it in items:
@@ -337,19 +343,23 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
         pub = escape(str(it.get("published_at", "")))
         summary = escape(str(it.get("summary", "") or ""))
 
-        cards.append(f"""
-        <article class="card">
-          <div class="meta">
-            <span class="src">[{src}]</span>
-            <span class="pub">{pub}</span>
-          </div>
-          <h2 class="title"><a href="{url}">{title}</a></h2>
-          {"<p class='sum'>" + summary + "</p>" if summary else ""}
-          <p class="url">{url}</p>
-        </article>
-        """)
+        cards.append(
+            "\n".join([
+                '<article class="card">',
+                '  <div class="meta">',
+                f'    <span class="src">[{src}]</span>',
+                f'    <span class="pub">{pub}</span>',
+                "  </div>",
+                f'  <h2 class="title"><a href="{url}">{title}</a></h2>',
+                (f"  <p class='sum'>{summary}</p>" if summary else ""),
+                f'  <p class="url">{url}</p>',
+                "</article>",
+            ])
+        )
 
     body = "\n".join(cards) if cards else "<p>No items in window.</p>"
+
+    base_href = f"{PUBLIC_BASE.rstrip('/')}/raw/"
 
     return f"""<!doctype html>
 <html lang="en">
@@ -358,6 +368,7 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>RegDashboard – Static Export</title>
   <meta name="description" content="Static export of RegDashboard items (no JavaScript required)." />
+  <base href="{escape(base_href)}">
   <style>
     body {{ font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; line-height: 1.35; }}
     header {{ margin-bottom: 18px; }}
@@ -376,13 +387,14 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
 <body>
   <header>
     <h1>RegDashboard — Static Export</h1>
-    <div class="small">Window: <code>{escape(str(ws))}</code> → <code>{escape(str(we))}</code> (UTC)</div>
-    <div class="small">Generated at build time (Copilot/indexer friendly).</div>
+    <div class="small">Window: <code>{escape(ws)}</code> → <code>{escape(we)}</code> (UTC)</div>
+    <div class="small">Generated at build time (Copilot/indexer friendly). No JavaScript required.</div>
     <div class="small links">
-      <a href="./items.md">items.md</a>
-      <a href="./items.txt">items.txt</a>
-      <a href="./items.ndjson">items.ndjson</a>
-      <a href="../">Back to app</a>
+      <a href="{escape(base_href)}index.html">index.html</a>
+      <a href="{escape(base_href)}items.md">items.md</a>
+      <a href="{escape(base_href)}items.txt">items.txt</a>
+      <a href="{escape(base_href)}items.ndjson">items.ndjson</a>
+      <a href="{escape(PUBLIC_BASE.rstrip('/') + '/')}">Back to app</a>
     </div>
   </header>
 
@@ -395,7 +407,7 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
 def render_raw_md(payload: Dict[str, Any]) -> str:
     ws = payload.get("window_start", "")
     we = payload.get("window_end", "")
-    items = payload.get("items", [])
+    items = payload.get("items", []) or []
 
     lines: List[str] = []
     lines.append("# RegDashboard — Export")
@@ -423,7 +435,7 @@ def render_raw_md(payload: Dict[str, Any]) -> str:
 
 
 def render_raw_txt(payload: Dict[str, Any]) -> str:
-    items = payload.get("items", [])
+    items = payload.get("items", []) or []
     out: List[str] = []
 
     for it in items:
@@ -439,13 +451,35 @@ def render_raw_txt(payload: Dict[str, Any]) -> str:
     return "\n".join(out).strip() + "\n"
 
 
+def write_raw_aux_files() -> None:
+    """
+    Extra crawler hints: robots.txt + sitemap.xml.
+    (Not strictly required for Copilot, but helps some indexers.)
+    """
+    base = PUBLIC_BASE.rstrip("/")
+    raw_base = f"{base}/raw"
+
+    with open(RAW_ROBOTS_PATH, "w", encoding="utf-8") as f:
+        f.write("User-agent: *\nAllow: /\n")
+
+    with open(RAW_SITEMAP_PATH, "w", encoding="utf-8") as f:
+        f.write(f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{raw_base}/index.html</loc></url>
+  <url><loc>{raw_base}/items.md</loc></url>
+  <url><loc>{raw_base}/items.txt</loc></url>
+  <url><loc>{raw_base}/items.ndjson</loc></url>
+</urlset>
+""")
+
+
 # ============================
 # DATE PATTERNS
 # ============================
 
-MONTH_DATE_RE = re.compile(r"(?P<md>([A-Z][a-z]{2,9})\.?\s+\d{1,2},\s+\d{4})")
-SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{1,2}/\d{1,2}/\d{2,4}\b)")
-ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
+MONTH_DATE_RE = re.compile(r"(?P<md>([A-Z][a-z]{{2,9}})\.?\s+\d{{1,2}},\s+\d{{4}})")
+SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{{1,2}}/\d{{1,2}}/\d{{2,4}}\b)")
+ISO_DATE_RE = re.compile(r"(?P<id>\b\d{{4}}-\d{{2}}-\d{{2}}\b)")
 
 
 def extract_any_date(text: str) -> Optional[datetime]:
@@ -617,8 +651,6 @@ def pick_container(soup: BeautifulSoup) -> Optional[Any]:
 
 
 def looks_js_rendered(html: str) -> bool:
-    # Heuristic: Q4Web and similar IR sites often ship “Loading” shells
-    # and populate lists via JS after page load.
     s = (html or "").lower()
     if "select year" in s and "loading" in s:
         return True
@@ -788,9 +820,13 @@ def build():
         for it in payload.get("items", []):
             f.write(json.dumps(it, ensure_ascii=False) + "\n")
 
+    # robots.txt + sitemap.xml for crawler discovery
+    write_raw_aux_files()
+
     print(
         f"\n[ok] wrote {OUT_PATH} with {len(items)} items | detail fetches: {global_detail_fetches}\n"
-        f"[ok] wrote static exports: {RAW_HTML_PATH}, {RAW_MD_PATH}, {RAW_TXT_PATH}, {RAW_NDJSON_PATH}",
+        f"[ok] wrote static exports: {RAW_HTML_PATH}, {RAW_MD_PATH}, {RAW_TXT_PATH}, {RAW_NDJSON_PATH}\n"
+        f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}",
         flush=True
     )
 
