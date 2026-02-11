@@ -3,7 +3,7 @@ name: RegDashboard Build
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"   # hourly UTC (build.py gates to ~7am CT)
+    - cron: "0 * * * *"   # hourly UTC (build.py gate runs once/day around 7am CT)
 
 permissions:
   contents: write
@@ -37,4 +37,3 @@ jobs:
           git add docs/data docs/raw docs/print || true
           git diff --cached --quiet || git commit -m "Automated dashboard update"
           git push
-
