@@ -1,57 +1,172 @@
+from __future__ import annotations
+
 import json
 import re
+import time
+from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
+from urllib.parse import urljoin, urldefrag
+
+import feedparser
 import requests
 from bs4 import BeautifulSoup
-import feedparser
-from dateutil import parser as dateparser
+from dateutil import parser as dtparser
 
-OUTPUT_PATH = "docs/data/items.json"
+
+# ============================
+# CONFIG (performance + window)
+# ============================
+
+OUT_PATH = "docs/data/items.json"
 WINDOW_DAYS = 14
-UA = "regdashboard/1.0 (+https://github.com/jasonw79118/regdashboard)"
+
+# Performance controls (keeps runs from “hanging”)
+MAX_LISTING_LINKS = 80        # max links collected per start page
+MAX_DETAIL_FETCHES = 25       # max detail pages fetched per entire run
+REQUEST_DELAY_SEC = 0.10      # small politeness delay
+
+UA = "regdashboard/1.2 (+https://github.com/jasonw79118/regdashboard)"
+
+
+@dataclass
+class SourcePage:
+    source: str
+    url: str
+
+
+START_PAGES: List[SourcePage] = [
+    SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
+
+    SourcePage("IRS", "https://www.irs.gov/newsroom"),
+    SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
+    SourcePage("IRS", "https://www.irs.gov/newsroom/irs-newswire-rss-feed"),
+
+    SourcePage("NACHA", "https://www.nacha.org/news"),
+    SourcePage("NACHA", "https://www.nacha.org/rules"),
+
+    SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
+
+    SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
+
+    SourcePage("FRB", "https://www.federalreserve.gov/news-events/press-releases.htm"),
+    SourcePage("FRB", "https://www.federalreserve.gov/feed.xml"),
+
+    SourcePage("FHLB MPF", "https://www.fhlbmpf.com/about-us/news"),
+
+    SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom"),
+
+    SourcePage("Freddie Mac", "https://www.freddiemac.com/media-room"),
+
+    SourcePage("USDA APHIS", "https://www.aphis.usda.gov/news"),
+
+    SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
+
+    SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
+
+    SourcePage("Federal Register", "https://www.federalregister.gov/topics/banks-banking"),
+    SourcePage("Federal Register", "https://www.federalregister.gov/topics/executive-orders"),
+    SourcePage("Federal Register", "https://www.federalregister.gov/topics/federal-reserve-system"),
+    SourcePage("Federal Register", "https://www.federalregister.gov/topics/national-banks"),
+    SourcePage("Federal Register", "https://www.federalregister.gov/topics/securities"),
+    SourcePage("Federal Register", "https://www.federalregister.gov/topics/mortgages"),
+    SourcePage("Federal Register", "https://www.federalregister.gov/topics/truth-lending"),
+    SourcePage("Federal Register", "https://www.federalregister.gov/topics/truth-savings"),
+]
+
+
+SESSION = requests.Session()
+SESSION.headers.update({"User-Agent": UA})
+
+
+# ============================
+# HELPERS
+# ============================
 
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
 
 def iso_z(dt: datetime) -> str:
-    return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+    dt = dt.astimezone(timezone.utc).replace(microsecond=0)
+    return dt.isoformat().replace("+00:00", "Z")
 
-def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
-    return start <= dt <= end
+def clean_text(s: str, max_len: int = 320) -> str:
+    s = re.sub(r"\s+", " ", (s or "").strip())
+    if len(s) > max_len:
+        s = s[: max_len - 1].rstrip() + "…"
+    return s
 
-def safe_get(url: str, timeout: int = 30) -> str:
-    r = requests.get(url, headers={"User-Agent": UA}, timeout=timeout)
-    r.raise_for_status()
-    return r.text
-
-def parse_date(text: str) -> Optional[datetime]:
+def parse_date(s: str) -> Optional[datetime]:
+    if not s:
+        return None
     try:
-        dt = dateparser.parse(text)
-        if not dt:
-            return None
+        dt = dtparser.parse(str(s), fuzzy=True)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         return dt.astimezone(timezone.utc)
     except Exception:
         return None
 
-def add_item(items: List[Dict[str, Any]], source: str, title: str, url: str,
-             published_at: datetime, summary: str = ""):
-    items.append({
-        "source": source,
-        "title": title.strip(),
-        "url": url.strip(),
-        "published_at": iso_z(published_at),
-        "summary": summary.strip()
-    })
+def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
+    return start <= dt <= end
 
-def rss_source(source_name: str, feed_url: str, start: datetime, end: datetime) -> List[Dict[str, Any]]:
+def canonical_url(url: str) -> str:
+    url, _frag = urldefrag(url)
+    return url.strip()
+
+def polite_get(url: str, timeout: int = 25) -> Optional[str]:
+    """
+    HARD TIMEOUTS so we never “hang forever”.
+    timeout=(connect_timeout, read_timeout)
+    """
+    try:
+        time.sleep(REQUEST_DELAY_SEC)
+        r = SESSION.get(url, timeout=(10, timeout), allow_redirects=True)
+        r.raise_for_status()
+        return r.text
+    except Exception as e:
+        print(f"[warn] GET failed: {url} :: {e}", flush=True)
+        return None
+
+
+# ============================
+# FEED DISCOVERY + PARSING
+# ============================
+
+def discover_feeds(page_url: str, html: str) -> List[str]:
+    soup = BeautifulSoup(html, "html.parser")
+    feeds: List[str] = []
+
+    for link in soup.find_all("link"):
+        rel = " ".join(link.get("rel", [])).lower()
+        typ = (link.get("type") or "").lower()
+        href = link.get("href")
+        if not href:
+            continue
+        if "alternate" in rel and ("rss" in typ or "atom" in typ or href.endswith(".xml")):
+            feeds.append(urljoin(page_url, href))
+
+    if page_url.endswith(".xml") or "feed" in page_url.lower():
+        feeds.append(page_url)
+
+    out = []
+    seen = set()
+    for f in feeds:
+        if f not in seen:
+            seen.add(f)
+            out.append(f)
+    return out
+
+
+def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
-    feed = feedparser.parse(feed_url)
-    for e in feed.entries:
-        title = (e.get("title") or "").strip()
+    fp = feedparser.parse(feed_url)
+
+    for e in fp.entries:
+        title = clean_text(e.get("title", ""), 220)
         link = (e.get("link") or "").strip()
+        if not title or not link:
+            continue
 
         dt = None
         if e.get("published"):
@@ -59,219 +174,231 @@ def rss_source(source_name: str, feed_url: str, start: datetime, end: datetime) 
         elif e.get("updated"):
             dt = parse_date(e.get("updated"))
         elif e.get("published_parsed"):
-            dt = datetime(*e.published_parsed[:6], tzinfo=timezone.utc)
+            try:
+                dt = datetime(*e.published_parsed[:6], tzinfo=timezone.utc)
+            except Exception:
+                dt = None
 
-        if not (title and link and dt):
-            continue
-        if not in_window(dt, start, end):
+        if not dt or not in_window(dt, start, end):
             continue
 
         summary = ""
         if e.get("summary"):
-            summary = BeautifulSoup(e.get("summary"), "html.parser").get_text(" ", strip=True)
+            summary = clean_text(BeautifulSoup(e["summary"], "html.parser").get_text(" ", strip=True), 380)
 
-        add_item(out, source_name, title, link, dt, summary)
+        out.append({
+            "source": source,
+            "title": title,
+            "published_at": iso_z(dt),
+            "url": canonical_url(link),
+            "summary": summary,
+        })
+
     return out
 
-def fdic_press_releases(start: datetime, end: datetime) -> List[Dict[str, Any]]:
-    url = "https://www.fdic.gov/news/press-releases/"
-    html = safe_get(url)
+
+# ============================
+# DETAIL PAGE EXTRACTION
+# ============================
+
+def extract_published_from_detail(detail_url: str, html: str) -> Tuple[Optional[datetime], str]:
     soup = BeautifulSoup(html, "html.parser")
 
-    out: List[Dict[str, Any]] = []
-    # The page lists items with date text near links; we’ll scan for links that look like press release titles.
-    for a in soup.select("a[href]"):
-        href = a.get("href", "")
-        text = a.get_text(" ", strip=True)
-        if not text or len(text) < 8:
-            continue
-        # Press release detail pages typically include "/news/press-releases/" or "/news/press-releases/"
-        if "/news/press-releases/" not in href and not href.startswith("https://www.fdic.gov/news/press-releases/"):
-            continue
+    # Prefer meta description as snippet
+    snippet = ""
+    meta_desc = soup.find("meta", attrs={"name": "description"})
+    if meta_desc and meta_desc.get("content"):
+        snippet = clean_text(meta_desc.get("content"), 380)
 
-        # try to find a date nearby (parent text often contains it)
-        context = a.parent.get_text(" ", strip=True) if a.parent else ""
-        # Example: "Feb 6, 2026 FDIC Extends Comment Period ..."
-        m = re.search(r"([A-Z][a-z]{2}\s+\d{1,2},\s+\d{4})", context)
-        if not m:
-            continue
-        dt = parse_date(m.group(1))
-        if not dt or not in_window(dt, start, end):
-            continue
+    # <time datetime>
+    t = soup.find("time")
+    if t:
+        dt = parse_date(t.get("datetime") or t.get_text(" ", strip=True))
+        if dt:
+            return dt, snippet
 
-        full_url = href
-        if full_url.startswith("/"):
-            full_url = "https://www.fdic.gov" + full_url
-
-        add_item(out, "FDIC", text, full_url, dt, "")
-    return out
-
-def ofac_recent_actions(start: datetime, end: datetime) -> List[Dict[str, Any]]:
-    """
-    OFAC Recent Actions page has a clear "results list" under the main content.
-    We intentionally scrape only the results rows and ignore all other links.
-    """
-    url = "https://ofac.treasury.gov/recent-actions"
-    html = safe_get(url)
-    soup = BeautifulSoup(html, "html.parser")
-    out: List[Dict[str, Any]] = []
-
-    # The actual results are usually rendered as a "views" list with repeating rows.
-    # We target rows that contain BOTH:
-    # - a detail link to /recent-actions/YYYYMMDD
-    # - a date line like "February 10, 2026 - Sanctions List Updates"
-    rows = soup.select(".views-row") or soup.select("article") or []
-
-    for row in rows:
-        a = row.find("a", href=True)
-        if not a:
-            continue
-
-        href = a["href"]
-        full_url = href
-        if full_url.startswith("/"):
-            full_url = "https://ofac.treasury.gov" + full_url
-
-        # Keep only real recent-actions detail pages
-        if "/recent-actions/" not in full_url:
-            continue
-
-        # Title should be the link text
-        title = a.get_text(" ", strip=True)
-        if not title or len(title) < 6:
-            # Sometimes the title is in attributes; use as fallback
-            title = (a.get("title") or a.get("aria-label") or "").strip()
-
-        if not title or len(title) < 6:
-            continue
-
-        # Find the date line inside the row
-        row_text = row.get_text(" ", strip=True)
-        m = re.search(r"([A-Z][a-z]+ \d{1,2}, \d{4})\s*-\s*", row_text)
-        if not m:
-            continue
-
-        dt = parse_date(m.group(1))
-        if not dt:
-            continue
-
-        if not in_window(dt, start, end):
-            continue
-
-        add_item(out, "OFAC", title, full_url, dt, "")
-
-    return out
-
-
-    # OFAC page includes result cards; grab any link + date-looking text around it.
-    for a in soup.select("a[href]"):
-        title = a.get_text(" ", strip=True)
-        href = a.get("href", "")
-        if not title or len(title) < 8:
-            continue
-        if not href.startswith("http"):
-            if href.startswith("/"):
-                href = "https://ofac.treasury.gov" + href
-            else:
-                continue
-
-        parent_text = a.parent.get_text(" ", strip=True) if a.parent else ""
-        # Look for "February 10, 2026" pattern
-        m = re.search(r"([A-Z][a-z]+ \d{1,2}, \d{4})", parent_text)
-        if not m:
-            continue
-        dt = parse_date(m.group(1))
-        if not dt or not in_window(dt, start, end):
-            continue
-
-        # Avoid nav/footer links by requiring OFAC recent-actions detail links often include /recent-actions/
-        if "/recent-actions/" not in href:
-            continue
-
-        add_item(out, "OFAC", title, href, dt, "")
-    return out
-
-def federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
-    topics = [
-        ("Federal Register", "https://www.federalregister.gov/topics/banks-banking"),
-        ("Federal Register", "https://www.federalregister.gov/topics/executive-orders"),
-        ("Federal Register", "https://www.federalregister.gov/topics/federal-reserve-system"),
-        ("Federal Register", "https://www.federalregister.gov/topics/national-banks"),
-        ("Federal Register", "https://www.federalregister.gov/topics/securities"),
-        ("Federal Register", "https://www.federalregister.gov/topics/mortgages"),
-        ("Federal Register", "https://www.federalregister.gov/topics/truth-lending"),
-        ("Federal Register", "https://www.federalregister.gov/topics/truth-savings"),
+    # common meta publish tags
+    meta_keys = [
+        ("property", "article:published_time"),
+        ("name", "article:published_time"),
+        ("name", "pubdate"),
+        ("name", "publish-date"),
+        ("name", "date"),
+        ("property", "og:updated_time"),
     ]
-    out: List[Dict[str, Any]] = []
+    for k, v in meta_keys:
+        m = soup.find("meta", attrs={k: v})
+        if m and m.get("content"):
+            dt = parse_date(m.get("content"))
+            if dt:
+                return dt, snippet
 
-    for source_name, url in topics:
-        html = safe_get(url)
-        soup = BeautifulSoup(html, "html.parser")
-
-        # Entries appear as document listings with links; we’ll grab listing titles and “Publication Date” nearby.
-        for a in soup.select("a[href]"):
-            href = a.get("href", "")
-            title = a.get_text(" ", strip=True)
-            if not title or len(title) < 10:
-                continue
-            if not href.startswith("http"):
-                if href.startswith("/"):
-                    href = "https://www.federalregister.gov" + href
-                else:
-                    continue
-            # Heuristic: document pages often contain "/documents/"
-            if "/documents/" not in href:
-                continue
-
-            # Look for date in the nearest container
-            container = a.find_parent(["li", "article", "div"])
-            if not container:
-                continue
-            ctxt = container.get_text(" ", strip=True)
-            # Federal Register listings often include "Publication Date" or a month/day/year
-            m = re.search(r"([A-Z][a-z]+ \d{1,2}, \d{4})", ctxt)
-            if not m:
-                continue
-            dt = parse_date(m.group(1))
-            if not dt or not in_window(dt, start, end):
-                continue
-
-            add_item(out, source_name, title, href, dt, "")
-    return out
-
-def main():
-    end = utc_now()
-    start = end - timedelta(days=WINDOW_DAYS)
-
-    items: List[Dict[str, Any]] = []
-
-    # RSS (easy wins)
-    items += rss_source("FRB", "https://www.federalreserve.gov/feed.xml", start, end)
-
-    # HTML scrapes (no RSS / retired RSS / easiest listings)
-    items += fdic_press_releases(start, end)
-    items += ofac_recent_actions(start, end)
-    items += federal_register_topics(start, end)
-
-    # De-dupe by URL
-    seen = set()
-    deduped = []
-    for it in sorted(items, key=lambda x: x["published_at"], reverse=True):
-        if it["url"] in seen:
+    # JSON-LD datePublished/dateModified
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        try:
+            data = json.loads(script.get_text(strip=True) or "{}")
+        except Exception:
             continue
-        seen.add(it["url"])
-        deduped.append(it)
+        candidates = data if isinstance(data, list) else [data]
+        for obj in candidates:
+            if not isinstance(obj, dict):
+                continue
+            for k in ["datePublished", "dateModified"]:
+                if k in obj:
+                    dt = parse_date(obj.get(k))
+                    if dt:
+                        return dt, snippet
 
-    data = {
-        "window_start": iso_z(start),
-        "window_end": iso_z(end),
-        "items": deduped
+    # fallback: scan visible text for "February 10, 2026"
+    text = soup.get_text(" ", strip=True)
+    m = re.search(r"([A-Z][a-z]+ \d{1,2}, \d{4})", text)
+    if m:
+        dt = parse_date(m.group(1))
+        if dt:
+            return dt, snippet
+
+    return None, snippet
+
+
+# ============================
+# LISTING EXTRACTION  ✅ THIS IS IT
+# ============================
+
+def main_content_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    LISTING EXTRACTION:
+    - Collect a bunch of links from the page's main content.
+    - Try to grab a date from nearby text if present.
+    Returns: (title, absolute_url, date_or_none)
+    """
+    soup = BeautifulSoup(html, "html.parser")
+
+    container = soup.find("main") or soup.find("article") or soup.find("body")
+    if not container:
+        return []
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    for a in container.find_all("a", href=True):
+        href = a["href"].strip()
+        title = clean_text(a.get_text(" ", strip=True), 220)
+        if not href or not title:
+            continue
+        if href.startswith("javascript:") or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+
+        parent = a.find_parent(["li", "article", "div", "p"]) or a.parent
+        near = clean_text(parent.get_text(" ", strip=True) if parent else "", 500)
+
+        dt = None
+        m = re.search(r"([A-Z][a-z]{2,9}\s+\d{1,2},\s+\d{4})", near)
+        if m:
+            dt = parse_date(m.group(1))
+        if not dt:
+            m2 = re.search(r"(\d{4}-\d{2}-\d{2})", near)
+            if m2:
+                dt = parse_date(m2.group(1))
+
+        links.append((title, url, dt))
+
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
+
+# ============================
+# BUILD
+# ============================
+
+def build():
+    now = utc_now()
+    window_start = now - timedelta(days=WINDOW_DAYS)
+    window_end = now
+
+    all_items: List[Dict[str, Any]] = []
+    detail_fetches = 0
+
+    for sp in START_PAGES:
+        print(f"\n[source] {sp.source} :: {sp.url}", flush=True)
+
+        html = polite_get(sp.url)
+        if not html:
+            print("[skip] no html", flush=True)
+            continue
+
+        # ---- FEEDS ----
+        feed_urls = discover_feeds(sp.url, html)
+        feed_items_total = 0
+
+        for fu in feed_urls:
+            try:
+                got = items_from_feed(sp.source, fu, window_start, window_end)
+                feed_items_total += len(got)
+                all_items.extend(got)
+                if got:
+                    print(f"[feed] {len(got)} items from {fu}", flush=True)
+            except Exception as e:
+                print(f"[warn] feed parse failed: {fu} :: {e}", flush=True)
+
+        print(f"[feed] total: {feed_items_total} | feeds found: {len(feed_urls)}", flush=True)
+
+        # ---- LISTING EXTRACTION ----
+        listing_links = main_content_links(sp.url, html)
+        print(f"[list] links captured: {len(listing_links)} | detail fetches used: {detail_fetches}/{MAX_DETAIL_FETCHES}", flush=True)
+
+        for title, url, dt in listing_links:
+            snippet = ""
+
+            if dt is None:
+                if detail_fetches >= MAX_DETAIL_FETCHES:
+                    continue
+                detail_html = polite_get(url)
+                if not detail_html:
+                    continue
+                detail_fetches += 1
+                dt2, snippet2 = extract_published_from_detail(url, detail_html)
+                dt = dt2
+                snippet = snippet2
+
+            if not dt:
+                continue
+            if not in_window(dt, window_start, window_end):
+                continue
+
+            all_items.append({
+                "source": sp.source,
+                "title": title,
+                "published_at": iso_z(dt),
+                "url": url,
+                "summary": snippet,
+            })
+
+    # de-dupe by URL (keep newest; prefer summary)
+    dedup: Dict[str, Dict[str, Any]] = {}
+    for it in sorted(all_items, key=lambda x: x["published_at"], reverse=True):
+        key = canonical_url(it["url"])
+        if key not in dedup:
+            dedup[key] = it
+        else:
+            if (not dedup[key].get("summary")) and it.get("summary"):
+                dedup[key] = it
+
+    items = list(dedup.values())
+    items.sort(key=lambda x: x["published_at"], reverse=True)
+
+    payload = {
+        "window_start": iso_z(window_start),
+        "window_end": iso_z(window_end),
+        "items": items,
     }
 
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"[ok] wrote {OUTPUT_PATH} with {len(deduped)} items (window {data['window_start']} → {data['window_end']})")
+    print(f"\n[ok] wrote {OUT_PATH} with {len(items)} items | detail fetches: {detail_fetches}", flush=True)
+
 
 if __name__ == "__main__":
-    main()
+    build()

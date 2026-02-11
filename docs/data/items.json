@@ -1,68 +1,236 @@
 {
-  "window_start": "2026-01-28T14:12:48.413628Z",
-  "window_end": "2026-02-11T14:12:48.413628Z",
+  "window_start": "2026-01-28T14:43:22Z",
+  "window_end": "2026-02-11T14:43:22Z",
   "items": [
     {
+      "source": "NACHA",
+      "title": "How the Industry Is Adapting to Nacha’s New Risk Management Rules",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules",
+      "summary": ""
+    },
+    {
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results",
+      "summary": ""
+    },
+    {
+      "source": "Fannie Mae",
+      "title": "See all news",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news",
+      "summary": ""
+    },
+    {
       "source": "OFAC",
-      "title": "Counter Terrorism Designations",
-      "url": "https://ofac.treasury.gov/recent-actions/20260210",
+      "title": "Recent Actions",
       "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions",
       "summary": ""
     },
     {
       "source": "OFAC",
-      "title": "Issuance of New and Amended Venezuela-related General Licenses",
-      "url": "https://ofac.treasury.gov/recent-actions/20260210_33",
+      "title": "Sanctions List Updates",
       "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/sanctions-list-updates",
       "summary": ""
     },
     {
       "source": "OFAC",
-      "title": "Iran-related Designations",
-      "url": "https://ofac.treasury.gov/recent-actions/20260206",
+      "title": "General Licenses",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/general-licenses",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Current page 1",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions?page=0",
+      "summary": ""
+    },
+    {
+      "source": "NACHA",
+      "title": "Inaugural National Nacha Accreditation Day Honors Nearly 6,000 Payments Professionals",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://www.nacha.org/news/inaugural-national-nacha-accreditation-day-honors-nearly-6000-payments-professionals",
+      "summary": ""
+    },
+    {
+      "source": "Freddie Mac",
+      "title": "February 10, 2026 Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results Freddie Mac (OTCQB:FMCC) announced today that it plans to report its Fourth Quarter and Full-Year 2025 financi…",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/freddie-mac-announces-release-date-fourth-quarter-and-full-8",
+      "summary": ""
+    },
+    {
+      "source": "NACHA",
+      "title": "Nacha Announces Board of Directors for 2026",
+      "published_at": "2026-02-09T00:00:00Z",
+      "url": "https://www.nacha.org/news/nacha-announces-board-directors-2026",
+      "summary": ""
+    },
+    {
+      "source": "Senate Banking",
+      "title": "Press Releases",
+      "published_at": "2026-02-09T00:00:00Z",
+      "url": "https://www.banking.senate.gov/news/press-releases",
+      "summary": ""
+    },
+    {
+      "source": "Senate Banking",
+      "title": "Warren, Schumer, Waters Lead Nearly 200 Members of Congress in Amicus Brief Challenging the Trump Administration's Illegal Efforts to Dismantle the CFPB",
+      "published_at": "2026-02-09T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-schumer-waters-lead-nearly-200-members-of-congress-in-amicus-brief-challenging-the-trump-administrations-illegal-efforts-to-dismantle-the-cfpb",
+      "summary": ""
+    },
+    {
+      "source": "Senate Banking",
+      "title": "Statement by Senator Warren on Recent Crypto Volatility",
+      "published_at": "2026-02-09T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/statement-by-senator-warren-on-recent-crypto-volatility",
+      "summary": ""
+    },
+    {
+      "source": "Senate Banking",
+      "title": "New Report Finds Trump's Attack on the CFPB Has Cost Americans $19 Billion in One Year Alone",
+      "published_at": "2026-02-09T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/new-report-finds-trumps-attack-on-the-cfpb-has-cost-americans-19-billion-in-one-year-alone",
+      "summary": ""
+    },
+    {
+      "source": "OFAC",
+      "title": "Miscellaneous",
       "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/miscellaneous",
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "Launch of Voluntary Self-Disclosure Portal",
-      "url": "https://ofac.treasury.gov/recent-actions/20260206_33",
+      "source": "White House",
+      "title": "Modifying Duties to Address Threats to the United States by the Government of the Russian Federation",
       "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/",
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related Frequently Asked Questions",
-      "url": "https://ofac.treasury.gov/recent-actions/20260206_66",
+      "source": "White House",
+      "title": "Establishing an America First Arms Transfer Strategy",
       "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/establishing-an-america-first-arms-transfer-strategy/",
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related General License",
-      "url": "https://ofac.treasury.gov/recent-actions/20260203",
+      "source": "White House",
+      "title": "Protecting the National Security and Welfare of the United States and its Citizens from Criminal Actors and Other Public Safety Threats",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/protecting-the-national-security-and-welfare-of-the-united-states-and-its-citizens-from-criminal-actors-and-other-public-safety-threats/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Addressing Threats to the United States by the Government of Iran",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/addressing-threats-to-the-united-states-by-the-government-of-iran/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Unleashing American Commercial Fishing in the Atlantic",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/unleashing-american-commercial-fishing-in-the-atlantic/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Ensuring Affordable Beef for the American Consumer",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Next",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/page/2/",
+      "summary": ""
+    },
+    {
+      "source": "NACHA",
+      "title": "Phixius by Nacha and Kinexys by J.P. Morgan Integration Goes Live, Expanding Multi-Responder Account Validation Network",
+      "published_at": "2026-02-05T00:00:00Z",
+      "url": "https://www.nacha.org/news/phixius-nacha-and-kinexys-jp-morgan-integration-goes-live-expanding-multi-responder-account",
+      "summary": ""
+    },
+    {
+      "source": "Freddie Mac",
+      "title": "February 5, 2026 Mortgage Rates Continue to Show Stability, Hovering Near 6%",
+      "published_at": "2026-02-05T00:00:00Z",
+      "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-show-stability-hovering-near-6",
+      "summary": ""
+    },
+    {
+      "source": "NACHA",
+      "title": "Nacha’s Payments Innovation Alliance Announces 2026-2027 Advisory Committee",
+      "published_at": "2026-02-04T00:00:00Z",
+      "url": "https://www.nacha.org/news/nachas-payments-innovation-alliance-announces-2026-2027-advisory-committee",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Nominations Sent to the Senate",
+      "published_at": "2026-02-04T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "National Black History Month, 2026",
       "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/",
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related General License and Amended Frequently Asked Question",
-      "url": "https://ofac.treasury.gov/recent-actions/20260202",
+      "source": "OCC",
+      "title": "OCC Releases CRA Performance Evaluations for 29 National Banks and Federal Savings Associations",
       "published_at": "2026-02-02T00:00:00Z",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-5.html",
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "Iran-related Designations; Counter Terrorism Designations; Non-Proliferation Designation Update and Designation Removal",
-      "url": "https://ofac.treasury.gov/recent-actions/20260130",
+      "source": "White House",
+      "title": "Celebrating American Greatness with American Motor Racing",
       "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/01/celebrating-american-greatness-with-american-motor-racing/",
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related General License",
-      "url": "https://ofac.treasury.gov/recent-actions/20260129",
+      "source": "NACHA",
+      "title": "From New Rules to a New Accreditation and More, a Busy 2026 Ahead at Nacha",
       "published_at": "2026-01-29T00:00:00Z",
+      "url": "https://www.nacha.org/news/new-rules-new-accreditation-and-more-busy-2026-ahead-nacha",
+      "summary": ""
+    },
+    {
+      "source": "NACHA",
+      "title": "Same Day ACH and Business-to-Business Payments Propel ACH Network Volume Growth in 2025",
+      "published_at": "2026-01-29T00:00:00Z",
+      "url": "https://www.nacha.org/news/same-day-ach-and-business-business-payments-propel-ach-network-volume-growth-2025",
+      "summary": ""
+    },
+    {
+      "source": "Freddie Mac",
+      "title": "January 29, 2026 Mortgage Rates Remain Lower and Steady",
+      "published_at": "2026-01-29T00:00:00Z",
+      "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-remain-lower-and-steady",
+      "summary": ""
+    },
+    {
+      "source": "White House",
+      "title": "Addressing Threats to the United States by the Government of Cuba",
+      "published_at": "2026-01-29T00:00:00Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba/",
       "summary": ""
     }
   ]
