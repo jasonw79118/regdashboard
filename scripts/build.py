@@ -48,7 +48,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/1.6 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/1.7 (+https://github.com/jasonw79118/regdashboard)"
 
 
 @dataclass
@@ -108,8 +108,14 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
     SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
 
-    SourcePage("Visa", "https://investor.visa.com/news/default.aspx"),
-    SourcePage("Mastercard", "https://investor.mastercard.com/investor-news/default.aspx"),
+    # ------------------------------------------------------------------
+    # PAYMENT NETWORKS (FIX)
+    # Investor Relations "news/default.aspx" pages are JS-rendered (the HTML
+    # your scraper receives contains "Loading" and no article links).
+    # Use server-rendered press-release listing pages instead.
+    # ------------------------------------------------------------------
+    SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
+    SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
 ]
 
 
@@ -123,7 +129,7 @@ SESSION.headers.update({
 
 
 # ============================
-# RULES: keep scrapes focused (prevents burning budget on 401/403 junk)
+# RULES: keep scrapes focused
 # ============================
 
 SOURCE_RULES: Dict[str, Dict[str, Any]] = {
@@ -149,18 +155,22 @@ GLOBAL_DENY_SCHEMES = {"mailto", "tel", "javascript"}
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
+
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
+
 
 def iso_z(dt: datetime) -> str:
     dt = dt.astimezone(timezone.utc).replace(microsecond=0)
     return dt.isoformat().replace("+00:00", "Z")
+
 
 def clean_text(s: str, max_len: int = 320) -> str:
     s = re.sub(r"\s+", " ", (s or "").strip())
     if len(s) > max_len:
         s = s[: max_len - 1].rstrip() + "…"
     return s
+
 
 def parse_date(s: str) -> Optional[datetime]:
     if not s:
@@ -173,12 +183,15 @@ def parse_date(s: str) -> Optional[datetime]:
     except Exception:
         return None
 
+
 def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
     return start <= dt <= end
+
 
 def canonical_url(url: str) -> str:
     url, _frag = urldefrag(url)
     return url.strip()
+
 
 def is_http_url(url: str) -> bool:
     try:
@@ -187,11 +200,13 @@ def is_http_url(url: str) -> bool:
     except Exception:
         return False
 
+
 def scheme(url: str) -> str:
     try:
         return urlparse(url).scheme.lower()
     except Exception:
         return ""
+
 
 def host(url: str) -> str:
     try:
@@ -199,11 +214,13 @@ def host(url: str) -> str:
     except Exception:
         return ""
 
+
 def path(url: str) -> str:
     try:
         return urlparse(url).path or "/"
     except Exception:
         return "/"
+
 
 def allowed_for_source(source: str, url: str) -> bool:
     if not is_http_url(url):
@@ -233,8 +250,10 @@ def allowed_for_source(source: str, url: str) -> bool:
 
     return True
 
-# STRICT feed detection (fixes IRS /downloads/rss being mis-classified)
+
+# STRICT-ish feed detection (kept)
 FEED_SUFFIX_RE = re.compile(r"(\.rss|\.xml|\.atom)$", re.I)
+
 
 def looks_like_feed_url(url: str) -> bool:
     u = url.strip()
@@ -243,14 +262,13 @@ def looks_like_feed_url(url: str) -> bool:
     p = path(u).lower()
     if FEED_SUFFIX_RE.search(p):
         return True
-    # common true-feed endpoints
     if p.endswith("/feed") or p.endswith("/feed/"):
         return True
-    # SEC/EDGAR style
     q = (urlparse(u).query or "").lower()
     if "output=atom" in q:
         return True
     return False
+
 
 def polite_get(url: str, timeout: int = 25) -> Optional[str]:
     if not is_http_url(url):
@@ -274,6 +292,7 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
         return None
 
+
 def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
     if not is_http_url(url):
         return None
@@ -294,6 +313,7 @@ def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
 MONTH_DATE_RE = re.compile(r"(?P<md>([A-Z][a-z]{2,9})\.?\s+\d{1,2},\s+\d{4})")
 SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{1,2}/\d{1,2}/\d{2,4}\b)")
 ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
+
 
 def extract_any_date(text: str) -> Optional[datetime]:
     if not text:
@@ -321,14 +341,9 @@ def extract_any_date(text: str) -> Optional[datetime]:
 # ============================
 
 def discover_feeds(page_url: str, html: str) -> List[str]:
-    """
-    Discover RSS/Atom feeds from HTML pages.
-    Also supports "RSS directory" pages by scanning anchor tags.
-    """
     soup = BeautifulSoup(html, "html.parser")
     feeds: List[str] = []
 
-    # <link rel="alternate" type="application/rss+xml" ...>
     for link in soup.find_all("link"):
         rel = " ".join(link.get("rel", [])).lower()
         typ = (link.get("type") or "").lower()
@@ -338,7 +353,6 @@ def discover_feeds(page_url: str, html: str) -> List[str]:
         if "alternate" in rel and ("rss" in typ or "atom" in typ or href.lower().endswith((".xml", ".rss", ".atom"))):
             feeds.append(urljoin(page_url, href))
 
-    # ALSO: scan <a href="...xml"> on directory pages (IRS /downloads/rss)
     for a in soup.find_all("a", href=True):
         href = (a.get("href") or "").strip()
         if not href:
@@ -355,12 +369,8 @@ def discover_feeds(page_url: str, html: str) -> List[str]:
             out.append(f)
     return out
 
+
 def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) -> List[Dict[str, Any]]:
-    """
-    IMPORTANT: fetch feed content with our SESSION (UA/headers),
-    then parse bytes with feedparser. This fixes sites that block
-    feedparser's default fetch.
-    """
     out: List[Dict[str, Any]] = []
 
     b = fetch_bytes(feed_url, timeout=35)
@@ -472,6 +482,18 @@ def pick_container(soup: BeautifulSoup) -> Optional[Any]:
         or soup.find("body")
     )
 
+
+def looks_js_rendered(html: str) -> bool:
+    # Heuristic: Q4Web and similar IR sites often ship “Loading” shells
+    # and populate lists via JS after page load.
+    s = (html or "").lower()
+    if "select year" in s and "loading" in s:
+        return True
+    if "loading" in s and "news" in s and "default.aspx" in s:
+        return True
+    return False
+
+
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup)
@@ -530,6 +552,9 @@ def build():
         if not html:
             print("[skip] no html", flush=True)
             continue
+
+        if looks_js_rendered(html):
+            print("[note] page looks JS-rendered (may have no links in raw HTML)", flush=True)
 
         # Discover feeds from this HTML page
         feed_urls = discover_feeds(sp.url, html)
