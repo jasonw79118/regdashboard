@@ -26,7 +26,7 @@ MAX_LISTING_LINKS = 80        # max links collected per start page
 MAX_DETAIL_FETCHES = 25       # max detail pages fetched per entire run
 REQUEST_DELAY_SEC = 0.10      # small politeness delay
 
-UA = "regdashboard/1.2 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/1.3 (+https://github.com/jasonw79118/regdashboard)"
 
 
 @dataclass
@@ -36,6 +36,7 @@ class SourcePage:
 
 
 START_PAGES: List[SourcePage] = [
+    # --- Regulatory / Government ---
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
 
     SourcePage("IRS", "https://www.irs.gov/newsroom"),
@@ -72,6 +73,29 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Federal Register", "https://www.federalregister.gov/topics/mortgages"),
     SourcePage("Federal Register", "https://www.federalregister.gov/topics/truth-lending"),
     SourcePage("Federal Register", "https://www.federalregister.gov/topics/truth-savings"),
+
+    # --- Information Security ---
+    SourcePage("CISA KEV", "https://github.com/cryptogennepal/cve-kev-rss/"),
+    SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/rss-feeds/"),
+    SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/feed"),
+    SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
+    SourcePage("BleepingComputer", "https://rss.app/rss-feed/bleepingcomputer-rss-feed"),
+    SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/update-guide/rss"),
+    SourcePage("Microsoft MSRC", "https://www.microsoft.com/en-us/msrc/technical-security-notifications"),
+    SourcePage("Microsoft Learn Security Updates", "https://learn.microsoft.com/en-us/security-updates/"),
+
+    # --- Fintech Watch ---
+    SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases"),
+    SourcePage("Fiserv", "https://www.fiserv.com/en/about/newsroom.html"),
+    SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
+    SourcePage("Temenos", "https://www.temenos.com/press-releases/"),
+    SourcePage("Mambu", "https://mambu.com/en/insights/press"),
+    SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
+    SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
+
+    # --- Payment Card Networks ---
+    SourcePage("Visa", "https://corporate.visa.com/en/sites/visa-perspectives/newsroom.html"),
+    SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and/trends/press.html"),
 ]
 
 

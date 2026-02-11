@@ -1,7 +1,14 @@
 {
-  "window_start": "2026-01-28T14:43:22Z",
-  "window_end": "2026-02-11T14:43:22Z",
+  "window_start": "2026-01-28T15:20:00Z",
+  "window_end": "2026-02-11T15:20:00Z",
   "items": [
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft releases Windows 11 26H1 for select and upcoming CPUs",
+      "published_at": "2026-02-11T02:06:42Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-26h1-for-select-and-upcoming-cpus/",
+      "summary": "Microsoft has announced Windows 11 26H1, but it's not for existing PCs. Instead, it will ship on devices with Snapdragon X2 processors and possibly other rumored ARM chips.w [...]"
+    },
     {
       "source": "NACHA",
       "title": "How the Industry Is Adapting to Nacha’s New Risk Management Rules",
@@ -22,6 +29,139 @@
       "published_at": "2026-02-11T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news",
       "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21513",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21513",
+      "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21525",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21525",
+      "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21510",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21510",
+      "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21533",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21533",
+      "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21519",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21519",
+      "summary": ""
+    },
+    {
+      "source": "CISA KEV",
+      "title": "CVE-2026-21514",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21514",
+      "summary": ""
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "New Linux botnet SSHStalker uses old-school IRC for C2 comms",
+      "published_at": "2026-02-10T23:09:48Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-linux-botnet-sshstalker-uses-old-school-irc-for-c2-comms/",
+      "summary": "A newly documented Linux botnet named SSHStalker is using the IRC (Internet Relay Chat) communication protocol for command-and-control (C2) operations. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "North Korean hackers use new macOS malware in crypto-theft attacks",
+      "published_at": "2026-02-10T22:17:35Z",
+      "url": "https://www.bleepingcomputer.com/news/security/north-korean-hackers-use-new-macos-malware-in-crypto-theft-attacks/",
+      "summary": "North Korean hackers are running tailored campaigns using AI-generated video and the ClickFix technique to deliver malware for macOS and Windows to targets in the cryptocurrency sector. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Malicious 7-Zip site distributes installer laced with proxy tool",
+      "published_at": "2026-02-10T19:12:55Z",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-7-zip-site-distributes-installer-laced-with-proxy-tool/",
+      "summary": "A fake 7-Zip website is distributing a trojanized installer of the popular archiving tool that turns the user's computer into a residential proxy node. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft releases Windows 10 KB5075912 extended security update",
+      "published_at": "2026-02-10T19:06:13Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5075912-extended-security-update/",
+      "summary": "Microsoft has released the Windows 10 KB5075912 extended security update to fix February 2026 Patch Tuesday vulnerabilities, including six zero-days, and continue rolling out replacements for expiring Secure Boot certificates. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws",
+      "published_at": "2026-02-10T18:51:46Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-february-2026-patch-tuesday-fixes-6-zero-days-58-flaws/",
+      "summary": "Today is Microsoft's February 2026 Patch Tuesday with security updates for 58 flaws, including 6 actively exploited and three publicly disclosed zero-day vulnerabilities. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Windows 11 KB5077181 & KB5075941 cumulative updates released",
+      "published_at": "2026-02-10T18:43:53Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-and-kb5075941-cumulative-updates-released/",
+      "summary": "Microsoft has released Windows 11 KB5077181 and KB5075941 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Volvo Group North America customer data exposed in Conduent hack",
+      "published_at": "2026-02-10T17:04:18Z",
+      "url": "https://www.bleepingcomputer.com/news/security/volvo-group-north-america-customer-data-exposed-in-conduent-hack/",
+      "summary": "Volvo Group North America disclosed that it suffered an indirect data breach stemming from the compromise of IT systems at American business services giant Conduent, of which Volvo is a customer. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft rolls out new Secure Boot certificates before June expiration",
+      "published_at": "2026-02-10T17:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-new-secure-boot-certificates-before-june-expiration/",
+      "summary": "Microsoft has begun rolling out updated Secure Boot certificates through monthly Windows updates to replace the original 2011 certificates that will expire in late June 2026. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft 365 outage takes down admin center in North America",
+      "published_at": "2026-02-10T15:45:15Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-takes-down-admin-center-in-north-america/",
+      "summary": "Microsoft is investigating an outage that blocks some administrators with business or enterprise subscriptions from accessing the Microsoft 365 admin center. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "How to Automate AWS Incident Investigation with Tines and AI",
+      "published_at": "2026-02-10T15:01:11Z",
+      "url": "https://www.bleepingcomputer.com/news/security/how-to-automate-aws-incident-investigation-with-tines-and-ai/",
+      "summary": "Cloud incidents drag on when analysts have to leave cases to hunt through AWS consoles and CLIs. Tines shows how automated agents pull AWS CLI data directly into cases, reducing MTTR and manual investigation work. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft announces new mobile-style Windows security controls",
+      "published_at": "2026-02-10T13:16:32Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-mobile-style-windows-security-controls/",
+      "summary": "Microsoft wants to introduce smartphone-style app permission prompts in Windows 11 to request user consent before apps can access sensitive resources such as files, cameras, and microphones. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "ZeroDayRAT malware grants full access to Android, iOS devices",
+      "published_at": "2026-02-10T13:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/zerodayrat-malware-grants-full-access-to-android-ios-devices/",
+      "summary": "A new commercial mobile spyware platform dubbed ZeroDayRAT is being advertised to cybercriminals on Telegram as a tool that provides full remote control over compromised Android and iOS devices. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Fugitive behind $73M 'pig butchering' scheme gets 20 years in prison",
+      "published_at": "2026-02-10T08:17:54Z",
+      "url": "https://www.bleepingcomputer.com/news/security/fugitive-behind-73m-pig-butchering-scheme-gets-20-years-in-prison/",
+      "summary": "A dual Chinese and St. Kitts and Nevis national was sentenced to 20 years in prison in absentia for his role in an international cryptocurrency investment scheme (also known as pig butchering or romance baiting) that defrauded victims of more than $73 million. [...]"
     },
     {
       "source": "OFAC",
@@ -64,6 +204,13 @@
       "published_at": "2026-02-10T00:00:00Z",
       "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/freddie-mac-announces-release-date-fourth-quarter-and-full-8",
       "summary": ""
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Chinese cyberspies breach Singapore's four largest telcos",
+      "published_at": "2026-02-09T22:47:53Z",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breach-singapores-four-largest-telcos/",
+      "summary": "The Chinese threat actor tracked as UNC3886 breached Singapore's four largest telecommunication service providers, Singtel, StarHub, M1, and Simba, at least once last year. [...]"
     },
     {
       "source": "NACHA",
