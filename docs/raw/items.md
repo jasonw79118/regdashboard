@@ -1,6 +1,20 @@
 # RegDashboard — Export
 
-Window: `2026-01-28T18:21:44Z` → `2026-02-11T18:21:44Z` (UTC)
+Window: `2026-01-28T19:38:30Z` → `2026-02-11T19:38:30Z` (UTC)
+
+## Crazy ransomware gang abuses employee monitoring tool in attacks
+- Source: BleepingComputer
+- Published: 2026-02-11T19:29:14Z
+- URL: https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
+
+A member of the Crazy ransomware gang is abusing legitimate employee monitoring software and the SimpleHelp remote support tool to maintain persistence in corporate networks, evade detection, and prepare for ransomware deployment. [...]
+
+## Police arrest seller of JokerOTP MFA passcode capturing tool
+- Source: BleepingComputer
+- Published: 2026-02-11T19:14:32Z
+- URL: https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
+
+The Netherlands Police have arrested a a 21-year-old man from Dordrecht, suspected of selling access to the JokerOTP phishing automation tool that can intercept one-time passwords (OTP) for hijacking accounts. [...]
 
 ## Proactive strategies for cyber resilience with Wazuh
 - Source: BleepingComputer
@@ -185,20 +199,6 @@ Microsoft is investigating an outage that blocks some administrators with busine
 - URL: https://www.bleepingcomputer.com/news/security/how-to-automate-aws-incident-investigation-with-tines-and-ai/
 
 Cloud incidents drag on when analysts have to leave cases to hunt through AWS consoles and CLIs. Tines shows how automated agents pull AWS CLI data directly into cases, reducing MTTR and manual investigation work. [...]
-
-## Microsoft announces new mobile-style Windows security controls
-- Source: BleepingComputer
-- Published: 2026-02-10T13:16:32Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-mobile-style-windows-security-controls/
-
-Microsoft wants to introduce smartphone-style app permission prompts in Windows 11 to request user consent before apps can access sensitive resources such as files, cameras, and microphones. [...]
-
-## ZeroDayRAT malware grants full access to Android, iOS devices
-- Source: BleepingComputer
-- Published: 2026-02-10T13:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/zerodayrat-malware-grants-full-access-to-android-ios-devices/
-
-A new commercial mobile spyware platform dubbed ZeroDayRAT is being advertised to cybercriminals on Telegram as a tool that provides full remote control over compromised Android and iOS devices. [...]
 
 ## Recent Actions
 - Source: OFAC
@@ -652,17 +652,3 @@ IR-2026-17, Jan. 29, 2026 — With the 2026 filing season fast approaching, the 
 - Source: Visa
 - Published: 2026-01-29T00:00:00Z
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
-
-## Federal Reserve issues FOMC statement
-- Source: FRB
-- Published: 2026-01-28T19:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm
-
-Federal Reserve issues FOMC statement
-
-## Federal Open Market Committee reaffirms its "Statement on Longer-Run Goals and Monetary Policy Strategy"
-- Source: FRB
-- Published: 2026-01-28T19:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128b.htm
-
-Federal Open Market Committee reaffirms its "Statement on Longer-Run Goals and Monetary Policy Strategy"

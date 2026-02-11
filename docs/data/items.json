@@ -1,7 +1,21 @@
 {
-  "window_start": "2026-01-28T18:21:44Z",
-  "window_end": "2026-02-11T18:21:44Z",
+  "window_start": "2026-01-28T19:38:30Z",
+  "window_end": "2026-02-11T19:38:30Z",
   "items": [
+    {
+      "source": "BleepingComputer",
+      "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
+      "published_at": "2026-02-11T19:29:14Z",
+      "url": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/",
+      "summary": "A member of the Crazy ransomware gang is abusing legitimate employee monitoring software and the SimpleHelp remote support tool to maintain persistence in corporate networks, evade detection, and prepare for ransomware deployment. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Police arrest seller of JokerOTP MFA passcode capturing tool",
+      "published_at": "2026-02-11T19:14:32Z",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
+      "summary": "The Netherlands Police have arrested a a 21-year-old man from Dordrecht, suspected of selling access to the JokerOTP phishing automation tool that can intercept one-time passwords (OTP) for hijacking accounts. [...]"
+    },
     {
       "source": "BleepingComputer",
       "title": "Proactive strategies for cyber resilience with Wazuh",
@@ -211,20 +225,6 @@
       "published_at": "2026-02-10T15:01:11Z",
       "url": "https://www.bleepingcomputer.com/news/security/how-to-automate-aws-incident-investigation-with-tines-and-ai/",
       "summary": "Cloud incidents drag on when analysts have to leave cases to hunt through AWS consoles and CLIs. Tines shows how automated agents pull AWS CLI data directly into cases, reducing MTTR and manual investigation work. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft announces new mobile-style Windows security controls",
-      "published_at": "2026-02-10T13:16:32Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-mobile-style-windows-security-controls/",
-      "summary": "Microsoft wants to introduce smartphone-style app permission prompts in Windows 11 to request user consent before apps can access sensitive resources such as files, cameras, and microphones. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "ZeroDayRAT malware grants full access to Android, iOS devices",
-      "published_at": "2026-02-10T13:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/zerodayrat-malware-grants-full-access-to-android-ios-devices/",
-      "summary": "A new commercial mobile spyware platform dubbed ZeroDayRAT is being advertised to cybercriminals on Telegram as a tool that provides full remote control over compromised Android and iOS devices. [...]"
     },
     {
       "source": "OFAC",
@@ -750,20 +750,6 @@
       "published_at": "2026-01-29T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html",
       "summary": ""
-    },
-    {
-      "source": "FRB",
-      "title": "Federal Reserve issues FOMC statement",
-      "published_at": "2026-01-28T19:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
-      "summary": "Federal Reserve issues FOMC statement"
-    },
-    {
-      "source": "FRB",
-      "title": "Federal Open Market Committee reaffirms its \"Statement on Longer-Run Goals and Monetary Policy Strategy\"",
-      "published_at": "2026-01-28T19:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128b.htm",
-      "summary": "Federal Open Market Committee reaffirms its \"Statement on Longer-Run Goals and Monetary Policy Strategy\""
     }
   ]
 }
