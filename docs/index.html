@@ -63,11 +63,20 @@
       RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
       Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
     </p>
+
+    <details class="window" style="font-size:0.9em; max-width: 980px; margin: 12px auto; padding: 10px 12px;">
+      <summary style="cursor:pointer;">Debug: category counts (helps fix blank tiles)</summary>
+      <div id="debug-cats" style="margin-top:8px; white-space: pre-wrap;"></div>
+      <div style="margin-top:6px; color:#666;">
+        If USDA / Fintech / Card Networks are missing here, the issue is in <code>build.py</code> (no items or wrong category names).
+        If they appear here but the tile is blank, the issue is in <code>index.html</code> mapping.
+      </div>
+    </details>
+
     <p id="last-updated" style="margin:18px 0;text-align:center;font-size:12px;opacity:.75;"></p>
   </footer>
 
 <script>
-  // Run only after DOM is ready (prevents null element errors)
   window.addEventListener("DOMContentLoaded", () => {
     const GROUPS = [
       { id: "ofac",    title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
@@ -75,14 +84,25 @@
       { id: "payments",title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
       { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
       { id: "mortgage",title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
-      { id: "usda",    title: "USDA – Rural Development (Housing)", keys: ["USDA"] },
-      { id: "exec",    title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
-      { id: "infosec", title: "Information Security", keys: ["Information Security"] },
-      { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch"] },
 
-      // Keep your section id and nav label the same; keys are the important part.
-      // build.py outputs "Payment Card Network" (singular) — we accept a few variants just in case.
-      { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Network", "Payment Card Networks", "Card Network", "Card Networks"] },
+      // USDA varies a lot depending on scraper naming; accept common variants
+      { id: "usda",    title: "USDA – Rural Development (Housing)", keys: ["USDA", "USDA Rural Development", "Rural Development"] },
+
+      { id: "exec",    title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
+      { id: "infosec", title: "Information Security", keys: ["Information Security", "IS", "InfoSec"] },
+
+      // Fintech varies by scraper naming
+      { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch", "Fintech", "FinTech Watch"] },
+
+      // Card networks vary by scraper naming
+      { id: "cardnet", title: "Payment Card Networks", keys: [
+        "Payment Card Network",
+        "Payment Card Networks",
+        "Card Network",
+        "Card Networks",
+        "Payment Networks",
+        "Cardnet"
+      ]},
     ];
 
     function $(id) { return document.getElementById(id); }
@@ -93,21 +113,39 @@
       return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
     }
 
-    // Normalize category keys so small naming changes don't cause empty sections.
     function normalizeKey(k) {
       const s = String(k || "").trim();
       if (!s) return "";
+
       const lower = s.toLowerCase();
 
-      if (lower === "is" || lower === "info sec" || lower === "infosec") return "Information Security";
-      if (lower === "cardnet" || lower === "card network" || lower === "card networks") return "Payment Card Network";
-      if (lower === "payment card networks") return "Payment Card Network"; // normalize plural -> singular
+      // InfoSec normalization
+      if (lower === "is" || lower === "info sec" || lower === "infosec" || lower === "information security") {
+        return "Information Security";
+      }
+
+      // USDA normalization
+      if (lower === "usda rural development" || lower === "rural development") {
+        return "USDA";
+      }
+
+      // Fintech normalization
+      if (lower === "fintech" || lower === "fintech watch" || lower === "fintech-watch") {
+        return "Fintech Watch";
+      }
+
+      // Card network normalization
+      if (lower === "cardnet" || lower === "card network" || lower === "card networks" ||
+          lower === "payment card networks" || lower === "payment card network" || lower === "payment networks") {
+        return "Payment Card Network";
+      }
 
       return s;
     }
 
     function itemKey(i) {
       if (!i) return "";
+      // prefer category, fall back to source
       return normalizeKey(i.category || i.source || "");
     }
 
@@ -119,8 +157,10 @@
       h2.textContent = group.title;
       section.appendChild(h2);
 
+      const groupKeys = (group.keys || []).map(normalizeKey);
+
       const groupItems = (items || [])
-        .filter(i => group.keys.map(normalizeKey).includes(itemKey(i)))
+        .filter(i => groupKeys.includes(itemKey(i)))
         .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
       if (!groupItems.length) {
@@ -158,6 +198,21 @@
       return u.toString();
     }
 
+    function renderCategoryDebug(items) {
+      const el = $("debug-cats");
+      if (!el) return;
+
+      const counts = new Map();
+      for (const i of (items || [])) {
+        const raw = (i && (i.category || i.source)) ? (i.category || i.source) : "(missing)";
+        const key = String(raw);
+        counts.set(key, (counts.get(key) || 0) + 1);
+      }
+
+      const sorted = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
+      el.textContent = sorted.map(([k, n]) => `${String(n).padStart(4, " ")}  ${k}`).join("\n") || "(no items)";
+    }
+
     (async () => {
       const content = $("content");
       if (!content) {
@@ -188,7 +243,8 @@
             : (utc ? `Last updated: ${utc} (UTC)` : "");
         }
 
-        // Remove loading first (before clearing content)
+        renderCategoryDebug(data.items || []);
+
         if (loading) loading.remove();
 
         content.innerHTML = "";

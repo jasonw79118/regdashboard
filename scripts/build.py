@@ -77,7 +77,7 @@ UA = "regdashboard/3.0 (+https://github.com/jasonw79118/regdashboard)"
 
 # ============================
 # CATEGORY MAPPING (for tiles)
-#   IMPORTANT: these strings must match docs/index.html tile keys EXACTLY.
+#   IMPORTANT: these strings must match your index.html tile keys EXACTLY.
 # ============================
 
 CATEGORY_BY_SOURCE: Dict[str, str] = {
@@ -102,7 +102,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "White House": "Legislative",
     "Federal Register": "Legislative",
 
-    # USDA tile
+    # USDA tile (Rural Development)
     "USDA Rural Development": "USDA",
 
     # Fintech Watch tile
@@ -118,9 +118,9 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Visa": "Payment Card Network",
     "Mastercard": "Payment Card Network",
 
-    # Information Security tile
-    "BleepingComputer": "Information Security",
-    "Microsoft MSRC": "Information Security",
+    # InfoSec tile
+    "BleepingComputer": "IS",
+    "Microsoft MSRC": "IS",
 }
 
 
@@ -165,18 +165,32 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "deny_domains": {"sa.www4.irs.gov"},
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
+
+    # NOTE: RD site is JS-heavy; we switch to GovDelivery bulletins (below)
     "USDA Rural Development": {
-        "allow_domains": {"www.rd.usda.gov"},
-        # FIX: USDA uses both plural and singular here
-        "allow_path_prefixes": {"/newsroom/news-releases", "/newsroom/news-release/"},
+        "allow_domains": {"content.govdelivery.com"},
+        "allow_path_prefixes": {"/accounts/USDARD/bulletins"},
     },
+
     "OFAC": {"allow_domains": {"ofac.treasury.gov"}},
-    "Visa": {"allow_domains": {"usa.visa.com"}},
-    "Mastercard": {"allow_domains": {"www.mastercard.com"}},
+
+    # UPDATED: allow common Visa subdomains in case of redirects
+    "Visa": {"allow_domains": {"usa.visa.com", "www.visa.com"}},
+
+    # UPDATED: Mastercard often redirects to newsroom.* or regional domains
+    "Mastercard": {"allow_domains": {"www.mastercard.com", "newsroom.mastercard.com"}},
+
     "Federal Register": {
         "allow_domains": {"www.federalregister.gov"},
         "allow_path_prefixes": {"/documents/"},
     },
+    "FIS": {"allow_domains": {"investor.fisglobal.com"}},
+    "Fiserv": {"allow_domains": {"investors.fiserv.com"}},
+    "Jack Henry": {"allow_domains": {"ir.jackhenry.com"}},
+    "Temenos": {"allow_domains": {"www.temenos.com"}},
+    "Mambu": {"allow_domains": {"mambu.com"}},
+    "Finastra": {"allow_domains": {"www.finastra.com"}},
+    "TCS": {"allow_domains": {"www.tcs.com"}},
 }
 
 GLOBAL_DENY_DOMAINS = {"www.facebook.com"}
@@ -191,11 +205,13 @@ warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 LAST_RUN_PATH = "docs/data/last_run.json"
 
+
 def _safe_central_tz():
     try:
         return ZoneInfo("America/Chicago")
     except Exception:
         return timezone(timedelta(hours=-6))
+
 
 CENTRAL_TZ = _safe_central_tz()
 
@@ -413,6 +429,7 @@ MONTH_DATE_RE = re.compile(r"(?P<md>([A-Z][a-z]{2,9})\.?\s+\d{1,2},\s+\d{4})")
 SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{1,2}/\d{1,2}/\d{2,4}\b)")
 ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
 
+# Visa newsroom uses dd/mm/yyyy (at least on the press releases listing)
 DAYFIRST_SOURCES = {"Visa"}
 
 
@@ -442,7 +459,7 @@ def extract_any_date(text: str, source: str = "") -> Optional[datetime]:
 
 
 # ============================
-# NAV / PAGINATION + JUNK FILTERS
+# NAV / PAGINATION / GENERIC LINK FILTERS
 # ============================
 
 NAV_TITLE_RE = re.compile(
@@ -451,23 +468,11 @@ NAV_TITLE_RE = re.compile(
     re.I,
 )
 
-JUNK_TITLE_RE = re.compile(
-    r"^\s*("
-    r"date|newsroom|news|press releases?|press release|recent postings|"
-    r"home|investor relations|corporate|resources|supervision\s*&\s*examination|"
-    r"economics|consumers\s*&\s*communities|multifamily division|"
-    r"current page\s*\d+"
-    r")\s*$",
-    re.I,
-)
-
-def is_junk_title(title: str) -> bool:
-    t = (title or "").strip()
-    if not t:
-        return True
-    if JUNK_TITLE_RE.match(t):
-        return True
-    return False
+GENERIC_TITLES = {
+    "home", "news", "newsroom", "press releases", "press release", "recent postings",
+    "date", "investor relations", "supervision & examination", "economics",
+    "consumers & communities", "general licenses", "miscellaneous",
+}
 
 
 def is_probably_nav_link(source: str, title: str, url: str) -> bool:
@@ -490,12 +495,40 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
         if NAV_TITLE_RE.search(t) or re.fullmatch(r"\d+", t):
             return True
 
+    # OFAC: avoid category directory links
     if source == "OFAC":
         if "page" in q:
             return True
         if u.path.rstrip("/").endswith("/recent-actions"):
             return True
         if u.path.rstrip("/").endswith("/recent-actions/enforcement-actions"):
+            return True
+
+    return False
+
+
+def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
+    tl = (title or "").strip().lower()
+    if tl in GENERIC_TITLES:
+        return True
+
+    u = urlparse(url)
+    p = (u.path or "/").rstrip("/")
+
+    # never treat domain root as an "item"
+    if p == "":
+        return True
+
+    # common generic hubs
+    for hub in ["/newsroom", "/news", "/press-releases", "/pressreleases", "/media-room", "/media", "/about-us"]:
+        if p.endswith(hub):
+            return True
+
+    # govdelivery non-bulletin actions
+    if source == "USDA Rural Development":
+        if "/accounts/usdard/bulletins" not in p.lower():
+            return True
+        if any(x in p.lower() for x in ["/subscriptions/", "/subscriber/", "/preferences/"]):
             return True
 
     return False
@@ -571,13 +604,13 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
         link = (e.get("link") or "").strip()
         if not title or not link:
             continue
-        if is_junk_title(title):
-            continue
 
         url = canonical_url(link)
         if not allowed_for_source(source, url):
             continue
         if is_probably_nav_link(source, title, url):
+            continue
+        if is_generic_listing_or_home(source, title, url):
             continue
 
         dt = None
@@ -661,8 +694,6 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                 pub_s = str(r.get("publication_date") or "").strip()
                 url = str(r.get("html_url") or "").strip()
                 if not title or not pub_s or not url:
-                    continue
-                if is_junk_title(title):
                     continue
 
                 dt = parse_date(pub_s)
@@ -750,7 +781,7 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
 
 
 # ============================
-# LISTING EXTRACTION
+# LISTING EXTRACTION (STRICTER)
 # ============================
 
 def pick_container(soup: BeautifulSoup) -> Optional[Any]:
@@ -765,11 +796,105 @@ def pick_container(soup: BeautifulSoup) -> Optional[Any]:
 
 def looks_js_rendered(html: str) -> bool:
     s = (html or "").lower()
+    if "you have javascript disabled" in s:
+        return True
     if "loading" in s and "press release" in s:
         return True
     if "select year" in s and "loading" in s:
         return True
     return False
+
+
+def strip_nav_like(container: Any) -> None:
+    for tag in container.find_all(["header", "footer", "nav", "aside"]):
+        try:
+            tag.decompose()
+        except Exception:
+            pass
+
+
+def _text_for_node(n: Any, max_len: int = 600) -> str:
+    try:
+        return clean_text(n.get_text(" ", strip=True), max_len)
+    except Exception:
+        return ""
+
+
+def _scan_siblings_for_date(node: Any, source: str) -> Optional[datetime]:
+    """
+    IMPORTANT FIX:
+    Many sites show the date as a sibling element (not inside the <a>’s parent).
+    Example: Visa press releases list has the date above/near the headline link.
+    """
+    # Look at previous siblings
+    try:
+        cur = node
+        for _ in range(6):
+            sib = cur.previous_sibling
+            cur = sib if sib is not None else cur
+            if sib is None:
+                break
+            if isinstance(sib, str):
+                dt = extract_any_date(sib, source=source)
+                if dt:
+                    return dt
+                continue
+            txt = _text_for_node(sib, 400)
+            dt = extract_any_date(txt, source=source)
+            if dt:
+                return dt
+    except Exception:
+        pass
+
+    # Look at parent's previous siblings (common pattern: <div class=date> then <h3><a>...</a></h3>)
+    try:
+        p = node.parent
+        if p is not None:
+            cur = p
+            for _ in range(6):
+                sib = cur.previous_sibling
+                cur = sib if sib is not None else cur
+                if sib is None:
+                    break
+                if isinstance(sib, str):
+                    dt = extract_any_date(sib, source=source)
+                    if dt:
+                        return dt
+                    continue
+                txt = _text_for_node(sib, 450)
+                dt = extract_any_date(txt, source=source)
+                if dt:
+                    return dt
+    except Exception:
+        pass
+
+    return None
+
+
+def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
+    parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td", "h2", "h3"]) or a.parent
+    if not parent:
+        return None
+
+    # Prefer <time> tag close by
+    t = parent.find("time")
+    if t:
+        dt = parse_date(t.get("datetime") or t.get_text(" ", strip=True), dayfirst=(source in DAYFIRST_SOURCES))
+        if dt:
+            return dt
+
+    # Try date in parent text (tight)
+    near = _text_for_node(parent, 650)
+    dt = extract_any_date(near, source=source)
+    if dt:
+        return dt
+
+    # UPDATED: scan siblings (fixes Visa/Mastercard/USDA GovDelivery patterns)
+    dt = _scan_siblings_for_date(a, source)
+    if dt:
+        return dt
+
+    return None
 
 
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
@@ -778,7 +903,11 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     if not container:
         return []
 
+    strip_nav_like(container)
+
     links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
     for a in container.find_all("a", href=True):
         href = (a.get("href") or "").strip()
         if not href:
@@ -800,26 +929,20 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         if not title:
             continue
 
-        if is_junk_title(title):
-            continue
-
         if title.lower() in {"read more", "learn more", "more", "details"}:
             continue
-
         if is_probably_nav_link(source, title, url):
             continue
+        if is_generic_listing_or_home(source, title, url):
+            continue
 
-        parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
-        near = clean_text(parent.get_text(" ", strip=True) if parent else "", 900)
-        dt = extract_any_date(near, source=source)
+        if url in seen:
+            continue
+        seen.add(url)
 
-        # HARDENING: if no date in the surrounding block, skip obvious "directory" links
-        if dt is None:
-            up = urlparse(url)
-            if up.path.rstrip("/").endswith(("/newsroom", "/press-releases", "/press", "/media-room", "/news")):
-                continue
-
+        dt = find_time_near_anchor(a, source)
         links.append((title, url, dt))
+
         if len(links) >= MAX_LISTING_LINKS:
             break
 
@@ -843,6 +966,9 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
     ],
     "BleepingComputer": ["https://www.bleepingcomputer.com/feed/"],
     "Microsoft MSRC": ["https://api.msrc.microsoft.com/update-guide/rss"],
+
+    # Fintech watch: Fiserv provides RSS here (reliable)
+    "Fiserv": ["https://investors.fiserv.com/newsroom/rss"],
 }
 
 START_PAGES: List[SourcePage] = [
@@ -856,8 +982,8 @@ START_PAGES: List[SourcePage] = [
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
 
-    # USDA Rural Development
-    SourcePage("USDA Rural Development", "https://www.rd.usda.gov/newsroom/news-releases"),
+    # USDA Rural Development (GovDelivery bulletins, non-JS list)
+    SourcePage("USDA Rural Development", "https://content.govdelivery.com/accounts/USDARD/bulletins"),
 
     # Banking regulators
     SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
@@ -878,10 +1004,10 @@ START_PAGES: List[SourcePage] = [
     SourcePage("NACHA", "https://www.nacha.org/taxonomy/term/362"),
 
     # Fintech vendors
-    SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases"),
-    SourcePage("Fiserv", "https://investors.fiserv.com/news-events/news-releases"),
+    SourcePage("FIS", "https://investor.fisglobal.com/press-releases"),
+    SourcePage("Fiserv", "https://investors.fiserv.com/newsroom/news-releases"),
     SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
-    SourcePage("Temenos", "https://www.temenos.com/press-releases/"),
+    SourcePage("Temenos", "https://www.temenos.com/news/press-releases/"),
     SourcePage("Mambu", "https://mambu.com/en/insights/press"),
     SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
     SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
@@ -890,7 +1016,7 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
     SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
 
-    # InfoSec (feed-only; page keeps loop stable)
+    # InfoSec (feed-only)
     SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/"),
     SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/"),
 ]
@@ -1126,7 +1252,6 @@ def build() -> None:
         print(f"\n===== SOURCE: {source} =====", flush=True)
         source_items_before = len(all_items)
 
-        # 0) Federal Register API (topics)
         if source == "Federal Register":
             got = items_from_federal_register_topics(window_start, window_end)
             if got:
@@ -1159,9 +1284,8 @@ def build() -> None:
                 continue
 
             if looks_js_rendered(html):
-                print("[note] page looks JS-rendered (may have limited links)", flush=True)
+                print("[note] page looks JS-rendered; using strict extraction (may be limited)", flush=True)
 
-            # Discover feeds
             feed_urls = discover_feeds(page_url, html)
             feed_items_total = 0
             for fu in feed_urls:
@@ -1172,7 +1296,6 @@ def build() -> None:
                     print(f"[feed] {len(got)} items from {fu}", flush=True)
             print(f"[feed] total: {feed_items_total} | feeds found: {len(feed_urls)}", flush=True)
 
-            # Listing links
             listing_links = main_content_links(source, page_url, html)
             print(f"[list] links captured: {len(listing_links)}", flush=True)
 
@@ -1182,11 +1305,12 @@ def build() -> None:
             for title, url, dt in listing_links:
                 if is_probably_nav_link(source, title, url):
                     continue
-                if is_junk_title(title):
+                if is_generic_listing_or_home(source, title, url):
                     continue
 
                 snippet = ""
 
+                # Only fetch detail if we STILL couldn't infer a date
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
