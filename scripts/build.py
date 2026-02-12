@@ -6,7 +6,7 @@ import re
 import time
 import warnings
 from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone, date
 from html import escape
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urljoin, urldefrag, urlparse, parse_qs
@@ -39,7 +39,6 @@ RAW_SITEMAP_PATH = f"{RAW_DIR}/sitemap.xml"
 PRINT_DIR = "docs/print"
 PRINT_HTML_PATH = f"{PRINT_DIR}/items.html"
 
-# GitHub Pages project URL
 PUBLIC_BASE = "https://jasonw79118.github.io/regdashboard"
 
 WINDOW_DAYS = 14
@@ -66,19 +65,21 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "OCC": 25,
     "FDIC": 25,
     "FRB": 30,
-    "GovInfo Federal Register": 0,  # feed-only
     "NACHA": 25,
+    "Federal Register": 0,  # API only
+    "BleepingComputer": 0,  # feed-only
+    "Microsoft MSRC": 0,     # feed-only
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/2.8 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/2.9 (+https://github.com/jasonw79118/regdashboard)"
 
 
 # ============================
 # CATEGORY MAPPING (for tiles)
+#   IMPORTANT: these strings must match your index.html tile keys EXACTLY.
 # ============================
 
-# IMPORTANT: These must match your index.html GROUPS keys.
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
     "IRS": "IRS",
@@ -99,9 +100,9 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     # Legislative tile
     "Senate Banking": "Legislative",
     "White House": "Legislative",
-    "GovInfo Federal Register": "Legislative",
+    "Federal Register": "Legislative",
 
-    # USDA tile
+    # USDA tile (Rural Development)
     "USDA Rural Development": "USDA",
 
     # Fintech Watch tile
@@ -113,14 +114,31 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Finastra": "Fintech Watch",
     "TCS": "Fintech Watch",
 
-    # Payment Card Networks tile (MATCHES index.html: "Payment Card Networks")
-    "Visa": "Payment Card Networks",
-    "Mastercard": "Payment Card Networks",
+    # Payment Card Network tile (NOTE: singular to match your tile label)
+    "Visa": "Payment Card Network",
+    "Mastercard": "Payment Card Network",
 
-    # InfoSec tile
-    "BleepingComputer": "Information Security",
-    "Microsoft MSRC": "Information Security",
+    # InfoSec tile (NOTE: short key to match your tile label)
+    "BleepingComputer": "IS",
+    "Microsoft MSRC": "IS",
 }
+
+
+# ============================
+# FEDERAL REGISTER API (topics)
+# ============================
+
+FEDREG_API_BASE = "https://www.federalregister.gov/api/v1"
+FEDREG_TOPICS = [
+    "banks-banking",
+    "executive-orders",
+    "federal-reserve-system",
+    "national-banks",
+    "securities",
+    "mortgages",
+    "truth-lending",
+    "truth-savings",
+]
 
 
 # ============================
@@ -141,27 +159,22 @@ SESSION.headers.update({
 # ============================
 
 SOURCE_RULES: Dict[str, Dict[str, Any]] = {
-    # IRS: allow newsroom pages + rss directory pages.
     "IRS": {
         "allow_domains": {"www.irs.gov"},
         "allow_path_prefixes": {"/newsroom/", "/downloads/rss", "/downloads/rss/"},
         "deny_domains": {"sa.www4.irs.gov"},
     },
-    "FRB": {
-        "deny_domains": {"www.facebook.com"},
-    },
+    "FRB": {"deny_domains": {"www.facebook.com"}},
     "USDA Rural Development": {
         "allow_domains": {"www.rd.usda.gov"},
         "allow_path_prefixes": {"/newsroom/news-releases"},
     },
-    "OFAC": {
-        "allow_domains": {"ofac.treasury.gov"},
-    },
-    "Visa": {
-        "allow_domains": {"usa.visa.com"},
-    },
-    "Mastercard": {
-        "allow_domains": {"www.mastercard.com"},
+    "OFAC": {"allow_domains": {"ofac.treasury.gov"}},
+    "Visa": {"allow_domains": {"usa.visa.com"}},
+    "Mastercard": {"allow_domains": {"www.mastercard.com"}},
+    "Federal Register": {
+        "allow_domains": {"www.federalregister.gov"},
+        "allow_path_prefixes": {"/documents/"},
     },
 }
 
@@ -342,8 +355,21 @@ def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
         return None
 
 
+def fetch_json(url: str, params: Optional[Dict[str, Any]] = None, timeout: int = 35) -> Optional[Dict[str, Any]]:
+    try:
+        time.sleep(REQUEST_DELAY_SEC)
+        r = SESSION.get(url, params=params or {}, timeout=(10, timeout), allow_redirects=True)
+        if r.status_code >= 400:
+            print(f"[warn] GET {r.status_code}: {r.url}", flush=True)
+            return None
+        return r.json()
+    except Exception as e:
+        print(f"[warn] JSON GET failed: {url} :: {e}", flush=True)
+        return None
+
+
 # ============================
-# SCHEDULER GATE
+# SCHEDULER GATE (GitHub Actions friendly)
 # ============================
 
 def _load_last_run_date() -> str:
@@ -530,6 +556,7 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
             continue
 
         url = canonical_url(link)
+        # feeds can include off-domain tracking links; keep allow rules
         if not allowed_for_source(source, url):
             continue
         if is_probably_nav_link(source, title, url):
@@ -561,6 +588,91 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
             "url": url,
             "summary": summary,
         })
+
+    return out
+
+
+# ============================
+# FEDERAL REGISTER API ITEMS
+# ============================
+
+def items_from_federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
+    """
+    Uses FederalRegister.gov API v1:
+      GET /documents.json
+      with conditions[topics][]=<slug>
+      and publication_date gte/lte
+    """
+    out: List[Dict[str, Any]] = []
+
+    start_d = start.date().isoformat()
+    end_d = end.date().isoformat()
+
+    endpoint = f"{FEDREG_API_BASE.rstrip('/')}/documents.json"
+
+    # We’ll pull each topic separately to keep things simple + predictable.
+    for topic in FEDREG_TOPICS:
+        params: Dict[str, Any] = {
+            "per_page": 200,  # enough for 14 days per topic
+            "page": 1,
+            "order": ["publication_date", "desc"],
+            "conditions[publication_date][gte]": start_d,
+            "conditions[publication_date][lte]": end_d,
+            "conditions[topics][]": topic,
+            # keep payload reasonable but useful
+            "fields[]": [
+                "title",
+                "publication_date",
+                "html_url",
+                "document_number",
+                "type",
+                "abstract",
+                "agencies",
+            ],
+        }
+
+        j = fetch_json(endpoint, params=params, timeout=40)
+        if not j:
+            continue
+
+        results = j.get("results") or []
+        if not isinstance(results, list):
+            continue
+
+        for r in results:
+            try:
+                title = clean_text(str(r.get("title") or ""), 220)
+                pub_s = str(r.get("publication_date") or "").strip()
+                url = str(r.get("html_url") or "").strip()
+                if not title or not pub_s or not url:
+                    continue
+
+                dt = parse_date(pub_s)
+                if not dt or not in_window(dt, start, end):
+                    continue
+
+                # If html_url is missing domain (rare), normalize
+                if url.startswith("/"):
+                    url = "https://www.federalregister.gov" + url
+                url = canonical_url(url)
+
+                if not allowed_for_source("Federal Register", url):
+                    continue
+
+                abstract = clean_text(str(r.get("abstract") or ""), 380)
+
+                out.append({
+                    "category": CATEGORY_BY_SOURCE.get("Federal Register", "Legislative"),
+                    "source": "Federal Register",
+                    "title": title,
+                    "published_at": iso_z(dt),
+                    "url": url,
+                    "summary": abstract,
+                })
+            except Exception:
+                continue
+
+        print(f"[api] Federal Register topic '{topic}': {len(results)} raw results", flush=True)
 
     return out
 
@@ -699,11 +811,6 @@ class SourcePage:
 
 
 KNOWN_FEEDS: Dict[str, List[str]] = {
-    # GovInfo: old /rss/collection/fr.xml now 404; use these
-    "GovInfo Federal Register": [
-        "https://www.govinfo.gov/rss/fr.xml",
-        "https://www.govinfo.gov/rss/fr-bulkdata.xml",
-    ],
     "FRB": [
         "https://www.federalreserve.gov/feeds/press_all.xml",
         "https://www.federalreserve.gov/feeds/press_bcreg.xml",
@@ -713,30 +820,38 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 }
 
 START_PAGES: List[SourcePage] = [
+    # OFAC
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
 
+    # IRS
     SourcePage("IRS", "https://www.irs.gov/newsroom"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
 
+    # USDA Rural Development (Housing-focused)
     SourcePage("USDA Rural Development", "https://www.rd.usda.gov/newsroom/news-releases"),
 
+    # Banking regulators
     SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
     SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
     SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
 
+    # Mortgage / housing GSEs
     SourcePage("FHLB MPF", "https://www.fhlbmpf.com/about-us/news"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
     SourcePage("Freddie Mac", "https://www.freddiemac.com/media-room"),
 
+    # Legislative / exec
     SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
     SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
 
+    # Payments
     SourcePage("NACHA", "https://www.nacha.org/taxonomy/term/362"),
 
+    # Fintech vendors
     SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases"),
     SourcePage("Fiserv", "https://investors.fiserv.com/news-events/news-releases"),
     SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
@@ -745,10 +860,13 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
     SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
 
+    # Payment Networks
     SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
     SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
 
-    SourcePage("GovInfo Federal Register", "https://www.govinfo.gov/app/collection/fr"),
+    # InfoSec (feed-only, but adding a page keeps the source loop stable)
+    SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/"),
+    SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/"),
 ]
 
 
@@ -956,17 +1074,6 @@ def write_raw_aux_files() -> None:
 """)
 
 
-def write_nojekyll() -> None:
-    # Helps prevent Pages/Jekyll from doing anything weird; serves files as-is.
-    ensure_dir("docs")
-    p = "docs/.nojekyll"
-    try:
-        with open(p, "w", encoding="utf-8") as f:
-            f.write("")
-    except Exception:
-        pass
-
-
 # ============================
 # BUILD
 # ============================
@@ -982,13 +1089,30 @@ def build() -> None:
     global_detail_fetches = 0
     per_source_detail_fetches: Dict[str, int] = {}
 
+    # Build pages_by_source from START_PAGES
     pages_by_source: Dict[str, List[str]] = {}
     for sp in START_PAGES:
         pages_by_source.setdefault(sp.source, []).append(sp.url)
 
+    # CRITICAL FIX:
+    # Ensure sources that are "feed-only" (or API-only) still get processed,
+    # even if START_PAGES doesn't list them for some reason.
+    for src in set(KNOWN_FEEDS.keys()) | {"Federal Register"}:
+        pages_by_source.setdefault(src, [])
+
     for source, pages in pages_by_source.items():
         print(f"\n===== SOURCE: {source} =====", flush=True)
         source_items_before = len(all_items)
+
+        # 0) Federal Register API (topics)
+        if source == "Federal Register":
+            got = items_from_federal_register_topics(window_start, window_end)
+            if got:
+                all_items.extend(got)
+                print(f"[api] Federal Register: {len(got)} items (topics)", flush=True)
+            else:
+                print(f"[note] Federal Register: no qualifying items in window (or API issue).", flush=True)
+            continue
 
         # 1) Known feeds
         for fu in KNOWN_FEEDS.get(source, []):
@@ -1015,6 +1139,7 @@ def build() -> None:
             if looks_js_rendered(html):
                 print("[note] page looks JS-rendered (may have limited links)", flush=True)
 
+            # Discover feeds
             feed_urls = discover_feeds(page_url, html)
             feed_items_total = 0
             for fu in feed_urls:
@@ -1025,6 +1150,7 @@ def build() -> None:
                     print(f"[feed] {len(got)} items from {fu}", flush=True)
             print(f"[feed] total: {feed_items_total} | feeds found: {len(feed_urls)}", flush=True)
 
+            # Listing links
             listing_links = main_content_links(source, page_url, html)
             print(f"[list] links captured: {len(listing_links)}", flush=True)
 
@@ -1094,19 +1220,11 @@ def build() -> None:
         "generated_at_utc": iso_z(now_utc),
         "generated_at_ct": now_ct.isoformat(),
         "items": items,
-        "build_meta": {
-            "ua": UA,
-            "window_days": WINDOW_DAYS,
-            "global_detail_fetch_cap": GLOBAL_DETAIL_FETCH_CAP,
-            "generated_by": "scripts/build.py",
-        },
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     ensure_dir(RAW_DIR)
     ensure_dir(PRINT_DIR)
-
-    write_nojekyll()
 
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -1133,16 +1251,12 @@ def build() -> None:
         f"\n[ok] wrote {OUT_PATH} with {len(items)} items | detail fetches: {global_detail_fetches}\n"
         f"[ok] wrote raw exports: {RAW_HTML_PATH}, {RAW_MD_PATH}, {RAW_TXT_PATH}, {RAW_NDJSON_PATH}\n"
         f"[ok] wrote print export: {PRINT_HTML_PATH}\n"
-        f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}\n"
-        f"[ok] wrote docs/.nojekyll",
+        f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}",
         flush=True
     )
 
 
 if __name__ == "__main__":
-    # KEY CHANGE:
-    # - Local runs: ALWAYS build (so you can test)
-    # - GitHub Actions: keep the daily gate unless FORCE_RUN=1
     if running_in_github_actions():
         if force_run_enabled():
             print("[run] FORCE_RUN enabled -> building now", flush=True)
@@ -1154,6 +1268,6 @@ if __name__ == "__main__":
         else:
             print("[skip] Not in 7:00 AM CT window or already ran today. Set FORCE_RUN=1 to override.", flush=True)
     else:
-        # local/dev
-        print("[run] local execution -> building now", flush=True)
+        print("[run] Local execution -> building now", flush=True)
         build()
+        _save_last_run_date(datetime.now(CENTRAL_TZ).date().isoformat())
