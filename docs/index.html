@@ -20,7 +20,6 @@
       · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
       · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
       · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
-      · <a href="print/items.html" target="_blank" rel="noopener">Print view</a>
     </div>
 
     <div class="window" style="font-size: 0.95em;">
@@ -44,7 +43,7 @@
       <a href="#payments">Payments</a>
       <a href="#banking">Banking</a>
       <a href="#mortgage">Mortgage</a>
-      <a href="#usda">USDA RD</a>
+      <a href="#usda">USDA</a>
       <a href="#exec">Legislative & Executive</a>
       <a href="#infosec">Information Security</a>
       <a href="#fintech">Fintech Watch</a>
@@ -63,32 +62,21 @@
       RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
       Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
     </p>
-    <div id="last-updated" style="margin:18px 0;text-align:center;font-size:12px;opacity:.75;"></div>
+    <p id="last-updated" style="margin:18px 0;text-align:center;font-size:12px;opacity:.75;"></p>
   </footer>
 
   <script>
     const GROUPS = [
-      { id: "ofac", title: "OFAC – Sanctions & AML", sources: ["OFAC"] },
-      { id: "irs", title: "IRS – Tax Administration", sources: ["IRS"] },
-
-      // Payments (your dashboard sources)
-      { id: "payments", title: "Payments – Nacha & Federal Reserve", sources: ["NACHA", "FRB"] },
-
-      { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", sources: ["OCC", "FDIC", "FRB"] },
-
-      { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", sources: ["FHLB MPF", "Fannie Mae", "Freddie Mac"] },
-
-      // USDA Rural Development
-      { id: "usda", title: "USDA – Rural Development (Housing)", sources: ["USDA RD"] },
-
-      // Legislative & Executive (Federal Register now comes from API as source "Federal Register")
-      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", sources: ["Senate Banking", "White House", "Federal Register"] },
-
-      { id: "infosec", title: "Information Security", sources: ["BleepingComputer", "Microsoft MSRC"] },
-
-      { id: "fintech", title: "Fintech Watch", sources: ["FIS", "Fiserv", "Jack Henry", "Temenos", "Mambu", "Finastra", "TCS"] },
-
-      { id: "cardnet", title: "Payment Card Networks", sources: ["Visa", "Mastercard"] },
+      { id: "ofac", title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
+      { id: "irs", title: "IRS – Tax Administration", keys: ["IRS"] },
+      { id: "payments", title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
+      { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
+      { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
+      { id: "usda", title: "USDA – Rural Development (Housing)", keys: ["USDA"] },
+      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
+      { id: "infosec", title: "Information Security", keys: ["Information Security"] },
+      { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch"] },
+      { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Network"] },
     ];
 
     function fmtDate(iso) {
@@ -97,13 +85,9 @@
       return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
     }
 
-    function escapeHtml(s) {
-      return String(s || "")
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+    function itemKey(i) {
+      // Prefer build.py category, fall back to source.
+      return (i && (i.category || i.source)) ? (i.category || i.source) : "";
     }
 
     function renderSection(group, items, content) {
@@ -114,8 +98,8 @@
       h2.textContent = group.title;
       section.appendChild(h2);
 
-      const groupItems = items
-        .filter(i => group.sources.includes(i.source))
+      const groupItems = (items || [])
+        .filter(i => group.keys.includes(itemKey(i)))
         .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
       if (!groupItems.length) {
@@ -129,19 +113,13 @@
 
         groupItems.forEach(i => {
           const li = document.createElement("li");
-          const title = escapeHtml(i.title);
-          const source = escapeHtml(i.source);
-          const url = escapeHtml(i.url);
-          const date = fmtDate(i.published_at);
-          const summary = i.summary ? `<div class="summary">${escapeHtml(i.summary)}</div>` : "";
-
           li.innerHTML = `
             <div class="headline">
-              <span class="source">[${source}]</span>
-              <a href="${url}" target="_blank" rel="noopener">${title}</a>
-              <span class="date">${date}</span>
+              <span class="source">[${i.source}]</span>
+              <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
+              <span class="date">${fmtDate(i.published_at)}</span>
             </div>
-            ${summary}
+            ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
           `;
           ul.appendChild(li);
         });
