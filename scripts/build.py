@@ -49,11 +49,12 @@ REQUEST_DELAY_SEC = 0.12
 
 PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "IRS": 70,
-    "USDA APHIS": 55,
+    "USDA RD": 55,
     "Mastercard": 45,
     "Visa": 45,
     "Fannie Mae": 35,
     "Freddie Mac": 25,
+    "FHLB MPF": 25,
     "FIS": 25,
     "Fiserv": 25,
     "Jack Henry": 25,
@@ -69,7 +70,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/2.2 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/2.3 (+https://github.com/jasonw79118/regdashboard)"
 
 
 # ============================
@@ -91,8 +92,8 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "White House": "Legislative",
     "GovInfo Federal Register": "Legislative",
 
-    # USDA tile
-    "USDA APHIS": "USDA",
+    # USDA tile (Rural Development only)
+    "USDA RD": "USDA",
 
     # Fintech Watch tile
     "FIS": "Fintech Watch",
@@ -133,8 +134,29 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/newsroom/", "/downloads/rss", "/downloads/rss/"},
         "deny_domains": {"sa.www4.irs.gov"},
     },
+
+    # OFAC: only within Recent Actions
+    "OFAC": {
+        "allow_domains": {"ofac.treasury.gov"},
+        "allow_path_prefixes": {"/recent-actions"},
+    },
+
+    # Senate Banking: within their site news pages
+    "Senate Banking": {
+        "allow_domains": {"www.banking.senate.gov"},
+        "allow_path_prefixes": {"/news", "/newsroom"},
+    },
+
+    # FRB: keep within federalreserve.gov; exclude facebook
     "FRB": {
+        "allow_domains": {"www.federalreserve.gov"},
         "deny_domains": {"www.facebook.com"},
+    },
+
+    # USDA Rural Development
+    "USDA RD": {
+        "allow_domains": {"www.rd.usda.gov"},
+        "allow_path_prefixes": {"/newsroom/"},
     },
 }
 
@@ -275,6 +297,8 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         read_timeout = 35
     if "irs.gov" in h:
         read_timeout = 35
+    if "rd.usda.gov" in h:
+        read_timeout = 40
 
     try:
         time.sleep(REQUEST_DELAY_SEC)
@@ -354,7 +378,6 @@ MONTH_DATE_RE = re.compile(r"(?P<md>([A-Z][a-z]{2,9})\.?\s+\d{1,2},\s+\d{4})")
 SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{1,2}/\d{1,2}/\d{2,4}\b)")
 ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
 
-
 # Sources that commonly show dd/mm/yyyy (Visa listing is a big one)
 DAYFIRST_SOURCES = {"Visa"}
 
@@ -382,6 +405,74 @@ def extract_any_date(text: str, source: str = "") -> Optional[datetime]:
             return dt
 
     return None
+
+
+# ============================
+# LISTING LINK FILTERING (systemic)
+# ============================
+
+PAGINATION_TEXT_RE = re.compile(r"^(current page\s*\d+|page\s*\d+|next|previous|prev|first|last)$", re.I)
+GLOBAL_SKIP_TITLES = {
+    "home", "press releases", "news releases", "recent actions",
+    "view all", "program updates", "sanctions list updates",
+    "general licenses", "enforcement actions",
+}
+
+def should_skip_listing_link(source: str, title: str, url: str) -> bool:
+    t = (title or "").strip()
+    u = (url or "").strip().lower()
+    p = path(u)
+    tl = t.lower()
+
+    if not t or not u:
+        return True
+
+    # Common nav / UI junk
+    if PAGINATION_TEXT_RE.match(t):
+        return True
+
+    if tl in {"read more", "learn more", "more", "details"}:
+        return True
+
+    # Global directory / index page titles
+    if tl in GLOBAL_SKIP_TITLES:
+        return True
+
+    # Block obvious home/root pages
+    if p in {"/", ""}:
+        return True
+    if p.endswith("/default.htm"):
+        return True
+
+    # Block common pagination query navigation across all sources
+    if "page=" in u:
+        return True
+
+    # Source-specific directory pages that are not articles
+    if source == "OFAC":
+        if p.rstrip("/") in {
+            "/recent-actions",
+            "/recent-actions/enforcement-actions",
+            "/recent-actions/sanctions-list-updates",
+            "/recent-actions/general-licenses",
+        }:
+            return True
+
+    if source == "Senate Banking":
+        if p.rstrip("/") in {"/news/press-releases"}:
+            return True
+
+    if source == "FRB":
+        if p.rstrip("/") in {"/default.htm", "/newsevents/pressreleases.htm"}:
+            return True
+        if re.search(r"/newsevents/pressreleases/\d{4}-press\.htm$", p, re.I):
+            return True
+
+    if source == "USDA RD":
+        if p.rstrip("/") in {"/newsroom/news-releases"}:
+            return True
+
+    return False
 
 
 # ============================
@@ -600,8 +691,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         if not title:
             continue
 
-        # Skip generic CTA links
-        if title.lower() in {"read more", "learn more", "more", "details"}:
+        # Global skip filter (directory/pagination/home links)
+        if should_skip_listing_link(source, title, url):
             continue
 
         parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
@@ -649,9 +740,8 @@ START_PAGES: List[SourcePage] = [
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),  # directory – discover real feeds
 
-    # USDA APHIS (multiple entry points – their /news page doesn’t always list newest first)
-    SourcePage("USDA APHIS", "https://www.aphis.usda.gov/news"),
-    SourcePage("USDA APHIS", "https://www.aphis.usda.gov/aphis/newsroom/news"),
+    # USDA Rural Development (news releases)
+    SourcePage("USDA RD", "https://www.rd.usda.gov/newsroom/news-releases"),
 
     # Banking regulators
     SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
@@ -972,6 +1062,10 @@ def build() -> None:
             for title, url, dt in listing_links:
                 snippet = ""
 
+                # Final safety net: don't allow directory/home/pagination URLs into items
+                if should_skip_listing_link(source, title, url):
+                    continue
+
                 # If no date near the link, optionally detail-fetch (bounded by caps)
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
@@ -1071,6 +1165,80 @@ def build() -> None:
         f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}",
         flush=True
     )
+
+
+# ============================
+# SOURCES (multi-path + resilience)
+# ============================
+
+@dataclass
+class SourcePage:
+    source: str
+    url: str
+
+
+# Known “good” feeds you can count on (in addition to discovery)
+KNOWN_FEEDS: Dict[str, List[str]] = {
+    # GovInfo is reliable and avoids FederalRegister.gov bot-blocking
+    "GovInfo Federal Register": ["https://www.govinfo.gov/rss/collection/fr.xml"],
+
+    # FRB feeds already in your start pages, but keeping is fine
+    "FRB": [
+        "https://www.federalreserve.gov/feeds/press_all.xml",
+        "https://www.federalreserve.gov/feeds/press_bcreg.xml",
+    ],
+}
+
+# Pages to attempt per source (listing pages + directories)
+START_PAGES: List[SourcePage] = [
+    # OFAC
+    SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
+    SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
+
+    # IRS
+    SourcePage("IRS", "https://www.irs.gov/newsroom"),
+    SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
+    SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
+    SourcePage("IRS", "https://www.irs.gov/downloads/rss"),  # directory – discover real feeds
+
+    # USDA RD
+    SourcePage("USDA RD", "https://www.rd.usda.gov/newsroom/news-releases"),
+
+    # Banking regulators
+    SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
+    SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
+    SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
+
+    # Mortgage / housing GSEs
+    SourcePage("FHLB MPF", "https://www.fhlbmpf.com/about-us/news"),
+    SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
+    SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
+    SourcePage("Freddie Mac", "https://www.freddiemac.com/media-room"),
+
+    # Legislative / exec
+    SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
+    SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
+
+    # Security / cyber
+    SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
+    SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/update-guide/rss"),
+
+    # Fintech vendors
+    SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases"),
+    SourcePage("Fiserv", "https://investors.fiserv.com/news-events/news-releases"),
+    SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
+    SourcePage("Temenos", "https://www.temenos.com/press-releases/"),
+    SourcePage("Mambu", "https://mambu.com/en/insights/press"),
+    SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
+    SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
+
+    # Payment Networks
+    SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
+    SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
+
+    # GovInfo Federal Register (feed-only)
+    SourcePage("GovInfo Federal Register", "https://www.govinfo.gov/app/collection/fr"),
+]
 
 
 if __name__ == "__main__":
