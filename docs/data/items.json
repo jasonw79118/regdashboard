@@ -1,22 +1,792 @@
 {
-  "window_start": "2026-01-29T15:58:21Z",
-  "window_end": "2026-02-12T15:58:21Z",
-  "generated_at_utc": "2026-02-12T15:58:21Z",
-  "generated_at_ct": "2026-02-12T09:58:21-06:00",
+  "window_start": "2026-01-29T16:54:36Z",
+  "window_end": "2026-02-12T16:54:36Z",
+  "generated_at_utc": "2026-02-12T16:54:36Z",
+  "generated_at_ct": "2026-02-12T10:54:36-06:00",
   "items": [
     {
-      "source": "Federal Register",
-      "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/02/11/2026-02765/chartering-and-field-of-membership-for-federal-credit-unions-interpretive-rulings-and-policy",
-      "summary": "The NCUA Board proposes to rescind its Interpretative Ruling and Policy Statement 06-1 (IRPS 06-1). Rescinding IRPS 06-1 would ease the compliance burden on Federal credit unions (FCUs) by limiting the number of sources that FCUs must check to ensure compliance with applicable chartering and field of membership (FOM) requirements."
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Press Release: FDIC Releases Economic Scenarios for 2026 Stress Testing",
+      "published_at": "2026-02-12T16:02:11Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/4098769",
+      "summary": "PRESS RELEASE | FEBRUARY 12, 2026 FDIC Releases Economic Scenarios for 2026 Stress Testing WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covered institutions with total consolidated assets of more than $250 billion. The Dodd-Frank Wall Street Reform and Consumer Protecti…"
     },
     {
-      "source": "Federal Register",
-      "title": "Fair Lending, Fair Housing, and Equitable Housing Finance Plans",
+      "category": "Payments",
+      "source": "FRB",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
+      "published_at": "2026-02-12T16:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260212a.htm",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Regions Bank"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.29, February 12, 2026",
+      "published_at": "2026-02-12T10:57:19Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-12",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-12",
+      "published_at": "2026-02-12T07:41:55Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-12.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html",
+      "summary": "The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions."
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "Supervision & Examination",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html",
+      "summary": "The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations."
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "Economics",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.occ.gov/topics/economics/index-economics.html",
+      "summary": "The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development."
+    },
+    {
+      "category": "Payments",
+      "source": "FRB",
+      "title": "Recent Postings",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.federalreserve.gov/recentpostings.htm",
+      "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Freddie Mac Home",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/",
+      "summary": "We are supporting America's homeowners and renters while serving as a stabilizing force in the U.S. housing finance system."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Corporate February 12, 2026 Transcript: Freddie Mac CFO Discusses Fourth Quarter and Full-Year 2025 Financial and Business Results The company delivered a strong financial performance for 2025, our third consecutive yea…",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/perspectives/jim-whitlinger/transcript-freddie-mac-cfo-discusses-fourth-quarter-and-full-year-2025",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Press Releases",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.banking.senate.gov/news/press-releases",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Ahead of Hearing, Warren Presses SEC Chair Paul Atkins on Implementation of Trump Executive Order To Weaken Shareholder Rights",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-warren-presses-sec-chair-paul-atkins-on-implementation-of-trump-executive-order-to-weaken-shareholder-rights",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren, Warner Press Commerce Secretary Lutnick on Reportedly Pushing Out Key Officials Working to Counter Cyber Threats Posed by China",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-warner-press-commerce-secretary-lutnick-on-reportedly-pushing-out-key-officials-working-to-counter-cyber-threats-posed-by-china",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Following Push from Warren Oversight, Majority of Sports Gambling Market Will Restrict Credit Card Companies From Ripping Off Americans",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/following-push-from-warren-oversight-majority-of-sports-gambling-market-will-restrict-credit-card-companies-from-ripping-off-americans",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "How the Industry Is Adapting to Nacha’s New Risk Management Rules",
+      "published_at": "2026-02-11T17:23:18Z",
+      "url": "https://www.nacha.org/resources/how-industry-adapting-nachas-new-risk-management-rules",
+      "summary": "How the Industry Is Adapting to Nacha’s New Risk Management Rules droth@nacha.org Wed, 02/11/2026 - 12:23 Image Nacha Consulting group in office talking meeting"
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "How the Industry Is Adapting to Nacha’s New Risk Management Rules",
+      "published_at": "2026-02-11T13:46:30Z",
+      "url": "https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules",
+      "summary": "How the Industry Is Adapting to Nacha’s New Risk Management Rules droth@nacha.org Wed, 02/11/2026 - 08:46 Image Media Nacha Consulting group in office talking meeting"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.28, February 11, 2026",
+      "published_at": "2026-02-11T12:39:38Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-11",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-11",
+      "published_at": "2026-02-11T11:55:17Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-11.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Newsroom",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom",
+      "summary": "Access the latest Fannie Mae news, get in touch with media contacts and stay connected with the latest company innovations."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Date",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news?start_date=&end_date=&order=field_date&sort=desc",
+      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Reports Net Income of $3.5 Billion for Fourth Quarter 2025 and $14.4 Billion for Full-Year 2025",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results",
+      "summary": "Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast",
+      "summary": "Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results",
+      "summary": ""
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Current page 1",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news?page=%2C%2C%2C0",
+      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "News",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news",
+      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Investor Relations",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/about-us/investor-relations",
+      "summary": "Fannie Mae Investor Relations website provides investors information about our SEC filings quarterly and annual financial results, and stock."
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.27, February 10, 2026",
+      "published_at": "2026-02-10T10:47:01Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-10",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-10",
+      "published_at": "2026-02-10T10:46:01Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-10.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Counter Terrorism Designations",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Sanctions List Updates",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/sanctions-list-updates",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of New and Amended Venezuela-related General Licenses",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210_33",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "General Licenses",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/general-licenses",
+      "summary": ""
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "IRS announces next expansion of Tax Pro Account to support tax professional businesses",
+      "published_at": "2026-02-09T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-announces-next-expansion-of-tax-pro-account-to-support-tax-professional-businesses",
+      "summary": "IR-2026-22, Feb. 9, 2026 — The Internal Revenue Service today announced a new expansion of Tax Pro Account, introducing business-level digital capabilities for tax professionals who work in tax-preparation companies, accounting firms, or other organizations."
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.26, February 9, 2026",
+      "published_at": "2026-02-07T14:21:59Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-09",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-09",
+      "published_at": "2026-02-07T07:01:18Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-09.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-02-06T20:25:00Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/4082a4d",
+      "summary": "PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would impleme…"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.25, February 6, 2026",
+      "published_at": "2026-02-06T16:27:00Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-06",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-06",
+      "published_at": "2026-02-06T16:27:00Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-06.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Iran-related Designations",
       "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/02/06/2026-02325/fair-lending-fair-housing-and-equitable-housing-finance-plans",
-      "summary": "The Federal Housing Finance Agency (\"FHFA\" or the \"Agency\") is issuing this final rule to repeal the Fair Lending, Fair Housing, and Equitable Housing Finance Plans regulation (\"part 1293\"). After considering public comments received in response to the proposed rule FHFA published on July 28, 2025, this final rule adopts the proposed rule without change."
+      "url": "https://ofac.treasury.gov/recent-actions/20260206",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Launch of Voluntary Self-Disclosure Portal",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206_33",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Miscellaneous",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/miscellaneous",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related Frequently Asked Questions",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206_66",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "Comptroller Discusses Importance of Financial Education",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s",
+      "summary": "Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu..."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Multifamily Division",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://mf.freddiemac.com",
+      "summary": "Multifamily supports affordable rental housing throughout the United States and provides a reliable source of mortgage funding."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Press Release: FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-02-05T15:15:50Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/407cc7a",
+      "summary": "PRESS RELEASE | FEBRUARY 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in November 2025. The CRA is a 1…"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.24, February 5, 2026",
+      "published_at": "2026-02-05T11:58:05Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-05",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-05",
+      "published_at": "2026-02-05T11:26:18Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-05.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 88, No.154, August 11, 2023",
+      "published_at": "2026-02-05T11:24:45Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2023-08-11",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2023-08-11",
+      "published_at": "2026-02-05T01:54:59Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2023/08/FR-2023-08-11.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "My Home by Freddie Mac ® Resources to help you rent, buy, and own your home.",
+      "published_at": "2026-02-05T00:00:00Z",
+      "url": "https://myhome.freddiemac.com",
+      "summary": "Whether you're looking to buy, sell, refinance, rent or maintain your current home, we have the tools and resources to help you through the process."
+    },
+    {
+      "category": "Payments",
+      "source": "FRB",
+      "title": "Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered",
+      "published_at": "2026-02-04T21:30:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260204a.htm",
+      "summary": "Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.23, February 4, 2026",
+      "published_at": "2026-02-04T16:32:09Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-04",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-04",
+      "published_at": "2026-02-04T13:02:10Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-04.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2024-04-08",
+      "published_at": "2026-02-04T13:02:00Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2024/04/FR-2024-04-08.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 89, No.68, April 8, 2024",
+      "published_at": "2026-02-04T13:01:56Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2024-04-08",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Payments",
+      "source": "FRB",
+      "title": "Regulatory Reform",
+      "published_at": "2026-02-04T00:00:00Z",
+      "url": "https://www.federalreserve.gov/reform.htm",
+      "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025",
+      "published_at": "2026-02-04T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-expands-rental-supply-nearly-74-billion-volume-2025",
+      "summary": "Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.22, February 3, 2026",
+      "published_at": "2026-02-03T10:26:00Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-03",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-03",
+      "published_at": "2026-02-03T10:25:56Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-03.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License",
+      "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260203",
+      "summary": ""
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "Create an IRS Individual Online Account today for security and convenience",
+      "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/create-an-irs-individual-online-account-today-for-security-and-convenience",
+      "summary": "IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS Individual Online Account to access their tax account information securely online and to help protect against identity theft and fraud."
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "Treasury, IRS issue proposed regulations on the clean fuel production credit under the One, Big, Beautiful Bill",
+      "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-clean-fuel-production-credit-under-the-one-big-beautiful-bill",
+      "summary": "IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations for domestic producers of clean transportation fuel to determine their eligibility for and calculate the clean fuel production credit under the One, Big, Beautiful Bill."
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.21, February 2, 2026",
+      "published_at": "2026-02-02T20:18:00Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-02-02",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-02-02",
+      "published_at": "2026-02-02T20:18:00Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-02.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "IRS statements and announcements",
+      "published_at": "2026-02-02T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-statements-and-announcements",
+      "summary": "Agency statements, comments and additional information."
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "OCC Releases CRA Performance Evaluations for 29 National Banks and Federal Savings Associations",
+      "published_at": "2026-02-02T00:00:00Z",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-5.html",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "Consumers & Communities",
+      "published_at": "2026-02-02T00:00:00Z",
+      "url": "https://www.occ.gov/topics/consumers-and-communities/index-consumers-and-communities.html",
+      "summary": "Ensuring fair and equal treatment to bank customers is key to the OCC’s mission. To promote a vibrant banking system, the agency helps banks identify community finance opportunities and ways to make financial services accessible to underserved communities."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Multifamily Selling and Servicing Guide Forms",
+      "published_at": "2026-02-02T00:00:00Z",
+      "url": "https://mfguide.fanniemae.com/",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.20, January 30, 2026",
+      "published_at": "2026-01-31T12:47:54Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-01-30",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-01-30",
+      "published_at": "2026-01-31T00:47:41Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/01/FR-2026-01-30.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "Federal Register Vol. 91, No.19, January 29, 2026",
+      "published_at": "2026-01-31T00:46:15Z",
+      "url": "https://www.govinfo.gov/app/details/FR-2026-01-29",
+      "summary": "Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Press Release: First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
+      "published_at": "2026-01-30T23:12:07Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/406eba7",
+      "summary": "PRESS RELEASE | JANUARY 30, 2026 First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois WASHINGTON — Metropolitan Capital Bank & Trust was closed today by the Illinois Department of Financial and Professional Regulation, which appointed the Federal Deposit Insurance Corporation (FDIC) as receiver. The FDIC enter…"
+    },
+    {
+      "category": "Payments",
+      "source": "FRB",
+      "title": "Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc.",
+      "published_at": "2026-01-30T21:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260130a.htm",
+      "summary": "Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Press Release: FDIC Publishes Enforcement Orders for December 2025",
+      "published_at": "2026-01-30T15:02:09Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/406ad43",
+      "summary": "PRESS RELEASE | JANUARY 30, 2026 FDIC Publishes Enforcement Orders for December 2025 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025. There are no administrative hearings scheduled for February 2026. Orders Terminating Consent Orders: Luana…"
+    },
+    {
+      "category": "Legislative",
+      "source": "GovInfo Federal Register",
+      "title": "FR-2026-01-29",
+      "published_at": "2026-01-30T07:33:02Z",
+      "url": "https://www.govinfo.gov/bulkdata/FR/2026/01/FR-2026-01-29.xml",
+      "summary": "Content Files XML"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Iran-related Designations; Counter Terrorism Designations; Non-Proliferation Designation Update and Designation Removal",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260130",
+      "summary": ""
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "IRS announces 2026 Tax Counseling for the Elderly and Volunteer Income Tax Assistance Program Grants",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-announces-2026-tax-counseling-for-the-elderly-and-volunteer-income-tax-assistance-program-grants",
+      "summary": "IR-2026-19, Jan. 30, 2026 — The Internal Revenue Service announced today the award of $53 million in Tax Counseling for the Elderly and Volunteer Income Tax Assistance grants to organizations that provide federal tax return preparation at no cost."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Releases Economic Scenarios for 2026 Stress Testing",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing",
+      "summary": "WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-extends-comment-period-proposal-establish-genius-act-application",
+      "summary": "The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-0",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/first-independence-bank-detroit-michigan-assumes-all-deposits-metropolitan",
+      "summary": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Publishes December Enforcement Actions",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-publishes-december-enforcement-actions",
+      "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-applications-ford-credit-bank-salt-lake",
+      "summary": "The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-final-rule-amend-official-signs-and-advertising",
+      "summary": "The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Establishes Office of Supervisory Appeals",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-establishes-office-supervisory-appeals",
+      "summary": "The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Travis Hill Sworn in as the 23rd Chairman of the FDIC",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/travis-hill-sworn-23rd-chairman-fdic",
+      "summary": "Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Agencies Issue 2025 Shared National Credit Program Report",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/agencies-issue-2025-shared-national-credit-program-report",
+      "summary": "Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/agencies-release-annual-asset-size-thresholds-under-community-reinvestment",
+      "summary": "The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Publishes November Enforcement Actions",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-publishes-november-enforcement-actions",
+      "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-deposit-insurance-application-erebor-bank-na-columbus-ohio",
+      "summary": "The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered.."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-approves-final-rule-establishment-and-relocation",
+      "summary": "The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board Approves 2026 Operating Budget",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-approves-2026-operating-budget",
+      "summary": "The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-issues-interim-final-rule-amend-collection-special",
+      "summary": "The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-proposal-establish-genius-act-application-procedures-fdic",
+      "summary": "The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged",
+      "summary": "The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-01-30T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-issues-list-banks-examined-cra-compliance-10",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the CRA. The list covers evaluation ratings that the FDIC assign"
+    },
+    {
+      "category": "Payments",
+      "source": "FRB",
+      "title": "Federal Reserve Board announces appointment of seven members, including four new members, to its Insurance Policy Advisory Committee (IPAC)",
+      "published_at": "2026-01-29T18:30:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260129a.htm",
+      "summary": "Federal Reserve Board announces appointment of seven members, including four new members, to its Insurance Policy Advisory Committee (IPAC)"
     }
   ]
 }

@@ -1,167 +1,119 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>RegDashboard – Regulatory Intelligence</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="assets/style.css" />
-</head>
+<script>
+  const GROUPS = [
+    { id: "ofac", title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
+    { id: "irs", title: "IRS – Tax Administration", keys: ["IRS"] },
+    { id: "payments", title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
+    { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
+    { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
+    { id: "usda", title: "USDA – Rural Development (Housing)", keys: ["USDA"] },
+    { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
+    { id: "infosec", title: "Information Security", keys: ["Information Security"] },
+    { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch"] },
+    { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Networks"] },
+  ];
 
-<body>
-  <header>
-    <h1>RegDashboard</h1>
-    <div class="subtitle">Rolling Regulatory Intelligence</div>
-    <div id="window" class="window"></div>
-    <div id="count" class="window"></div>
+  function fmtDate(iso) {
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return "";
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
+  }
 
-    <div class="window" style="font-size: 0.95em;">
-      Copilot-friendly exports:
-      <a href="raw/" target="_blank" rel="noopener">Static Export</a>
-      · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
-      · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
-      · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
-    </div>
+  function itemKey(i) {
+    return (i && (i.category || i.source)) ? (i.category || i.source) : "";
+  }
 
-    <div class="window" style="font-size: 0.95em;">
-      <a
-        href="https://github.com/jasonw79118/regdashboard/actions/workflows/regdashboard-build.yml"
-        target="_blank"
-        rel="noopener"
-        class="btn"
-        style="display:inline-block;padding:8px 12px;border:1px solid #ddd;border-radius:10px;text-decoration:none;"
-      >
-        Force update (Run workflow)
-      </a>
-      <span style="margin-left:10px;color:#555;">
-        Opens GitHub Actions — click <strong>Run workflow</strong> to rebuild now.
-      </span>
-    </div>
+  function renderSection(group, items, content) {
+    const section = document.createElement("section");
+    section.id = group.id;
 
-    <nav class="nav">
-      <a href="#ofac">OFAC</a>
-      <a href="#irs">IRS</a>
-      <a href="#payments">Payments</a>
-      <a href="#banking">Banking</a>
-      <a href="#mortgage">Mortgage</a>
-      <a href="#usda">USDA</a>
-      <a href="#exec">Legislative & Executive</a>
-      <a href="#infosec">Information Security</a>
-      <a href="#fintech">Fintech Watch</a>
-      <a href="#cardnet">Payment Card Networks</a>
-      <a href="raw/" target="_blank" rel="noopener">Static Export (Copilot)</a>
-    </nav>
-  </header>
+    const h2 = document.createElement("h2");
+    h2.textContent = group.title;
+    section.appendChild(h2);
 
-  <main id="content">
-    <p id="loading">Loading items…</p>
-  </main>
+    const groupItems = (items || [])
+      .filter(i => group.keys.includes(itemKey(i)))
+      .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
-  <footer>
-    <hr />
-    <p class="disclaimer">
-      RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
-      Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
-    </p>
-    <p id="last-updated" style="margin:18px 0;text-align:center;font-size:12px;opacity:.75;"></p>
-  </footer>
+    if (!groupItems.length) {
+      const empty = document.createElement("div");
+      empty.className = "empty";
+      empty.textContent = "No items in the current rolling window.";
+      section.appendChild(empty);
+    } else {
+      const ul = document.createElement("ul");
+      ul.className = "items";
 
-  <script>
-    const GROUPS = [
-      { id: "ofac", title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
-      { id: "irs", title: "IRS – Tax Administration", keys: ["IRS"] },
-      { id: "payments", title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
-      { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
-      { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
-      { id: "usda", title: "USDA – Rural Development (Housing)", keys: ["USDA"] },
-      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
-      { id: "infosec", title: "Information Security", keys: ["Information Security"] },
-      { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch"] },
-      { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Network"] },
-    ];
+      groupItems.forEach(i => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+          <div class="headline">
+            <span class="source">[${i.source}]</span>
+            <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
+            <span class="date">${fmtDate(i.published_at)}</span>
+          </div>
+          ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
+        `;
+        ul.appendChild(li);
+      });
 
-    function fmtDate(iso) {
-      const d = new Date(iso);
-      if (Number.isNaN(d.getTime())) return "";
-      return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
+      section.appendChild(ul);
     }
 
-    function itemKey(i) {
-      // Prefer build.py category, fall back to source.
-      return (i && (i.category || i.source)) ? (i.category || i.source) : "";
-    }
+    content.appendChild(section);
+  }
 
-    function renderSection(group, items, content) {
-      const section = document.createElement("section");
-      section.id = group.id;
+  function dataUrl() {
+    // robust for GitHub Pages project sites; also cache-bust
+    const base = new URL(window.location.href);
+    const u = new URL("data/items.json", base);
+    u.searchParams.set("v", String(Date.now()));
+    return u.toString();
+  }
 
-      const h2 = document.createElement("h2");
-      h2.textContent = group.title;
-      section.appendChild(h2);
+  (async () => {
+    const content = document.getElementById("content");
+    const loading = document.getElementById("loading");
 
-      const groupItems = (items || [])
-        .filter(i => group.keys.includes(itemKey(i)))
-        .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    try {
+      const url = dataUrl();
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) throw new Error(`HTTP ${r.status} loading ${url}`);
+      const data = await r.json();
 
-      if (!groupItems.length) {
-        const empty = document.createElement("div");
-        empty.className = "empty";
-        empty.textContent = "No items in the current rolling window.";
-        section.appendChild(empty);
-      } else {
-        const ul = document.createElement("ul");
-        ul.className = "items";
+      document.getElementById("window").textContent =
+        `Rolling window: ${fmtDate(data.window_start)} → ${fmtDate(data.window_end)} (UTC)`;
 
-        groupItems.forEach(i => {
-          const li = document.createElement("li");
-          li.innerHTML = `
-            <div class="headline">
-              <span class="source">[${i.source}]</span>
-              <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
-              <span class="date">${fmtDate(i.published_at)}</span>
-            </div>
-            ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
-          `;
-          ul.appendChild(li);
-        });
+      document.getElementById("count").textContent =
+        `Total items loaded: ${(data.items || []).length}`;
 
-        section.appendChild(ul);
+      const last = document.getElementById("last-updated");
+      if (last) {
+        const ct = data.generated_at_ct || "";
+        const utc = data.generated_at_utc || "";
+        last.textContent = ct
+          ? `Last updated: ${ct} (CT)${utc ? " — " + utc + " (UTC)" : ""}`
+          : (utc ? `Last updated: ${utc} (UTC)` : "");
       }
 
-      content.appendChild(section);
+      content.innerHTML = "";
+      GROUPS.forEach(g => renderSection(g, data.items || [], content));
+      if (loading) loading.remove();
+    } catch (e) {
+      if (loading) loading.remove();
+      console.error(e);
+
+      content.innerHTML = `
+        <div class="empty" style="border:1px solid #f2c; padding:12px; border-radius:10px;">
+          <p><strong>Could not load dashboard data.</strong></p>
+          <p style="margin:6px 0 12px 0;">${String(e)}</p>
+          <p style="margin:0;">
+            Try:
+            <a href="raw/" target="_blank" rel="noopener">Static Export</a> ·
+            <a href="raw/index.html" target="_blank" rel="noopener">raw/index.html</a> ·
+            <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
+          </p>
+        </div>
+      `;
     }
-
-    (async () => {
-      const content = document.getElementById("content");
-      const loading = document.getElementById("loading");
-
-      try {
-        const r = await fetch("data/items.json", { cache: "no-store" });
-        if (!r.ok) throw new Error(`HTTP ${r.status} loading data/items.json`);
-        const data = await r.json();
-
-        document.getElementById("window").textContent =
-          `Rolling window: ${fmtDate(data.window_start)} → ${fmtDate(data.window_end)} (UTC)`;
-
-        document.getElementById("count").textContent =
-          `Total items loaded: ${(data.items || []).length}`;
-
-        const last = document.getElementById("last-updated");
-        if (last) {
-          const ct = data.generated_at_ct || "";
-          const utc = data.generated_at_utc || "";
-          last.textContent = ct
-            ? `Last updated: ${ct} (CT)${utc ? " — " + utc + " (UTC)" : ""}`
-            : (utc ? `Last updated: ${utc} (UTC)` : "");
-        }
-
-        content.innerHTML = "";
-        GROUPS.forEach(g => renderSection(g, data.items || [], content));
-      } catch (e) {
-        if (loading) loading.remove();
-        content.innerHTML = `<p><strong>Could not load items.json.</strong><br/>${String(e)}</p>`;
-        console.error(e);
-      }
-    })();
-  </script>
-</body>
-</html>
+  })();
+</script>

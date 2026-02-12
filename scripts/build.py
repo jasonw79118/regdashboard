@@ -70,7 +70,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/2.6 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/2.7 (+https://github.com/jasonw79118/regdashboard)"
 
 
 # ============================
@@ -111,9 +111,9 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Finastra": "Fintech Watch",
     "TCS": "Fintech Watch",
 
-    # Payment Card Networks tile
-    "Visa": "Payment Card Network",
-    "Mastercard": "Payment Card Network",
+    # Payment Card Networks tile (must match index.html group key)
+    "Visa": "Payment Card Networks",
+    "Mastercard": "Payment Card Networks",
 
     # InfoSec tile
     "BleepingComputer": "Information Security",
@@ -175,6 +175,7 @@ warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 LAST_RUN_PATH = "docs/data/last_run.json"
 
+
 def _safe_central_tz():
     # Windows Python often needs `pip install tzdata` for ZoneInfo.
     try:
@@ -182,6 +183,7 @@ def _safe_central_tz():
     except Exception:
         # Fallback: fixed offset (won’t handle DST perfectly but prevents crashes)
         return timezone(timedelta(hours=-6))
+
 
 CENTRAL_TZ = _safe_central_tz()
 
@@ -420,6 +422,7 @@ NAV_TITLE_RE = re.compile(
     re.I,
 )
 
+
 def is_probably_nav_link(source: str, title: str, url: str) -> bool:
     t = (title or "").strip()
     if not t:
@@ -461,6 +464,7 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
 # ============================
 
 FEED_SUFFIX_RE = re.compile(r"(\.rss|\.xml|\.atom)$", re.I)
+
 
 def looks_like_feed_url(url: str) -> bool:
     u = url.strip()
@@ -699,7 +703,11 @@ class SourcePage:
 
 
 KNOWN_FEEDS: Dict[str, List[str]] = {
-    "GovInfo Federal Register": ["https://www.govinfo.gov/rss/collection/fr.xml"],
+    # GovInfo changed; old /rss/collection/fr.xml now 404
+    "GovInfo Federal Register": [
+        "https://www.govinfo.gov/rss/fr.xml",
+        "https://www.govinfo.gov/rss/fr-bulkdata.xml",
+    ],
     "FRB": [
         "https://www.federalreserve.gov/feeds/press_all.xml",
         "https://www.federalreserve.gov/feeds/press_bcreg.xml",
