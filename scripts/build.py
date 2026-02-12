@@ -73,6 +73,43 @@ UA = "regdashboard/2.2 (+https://github.com/jasonw79118/regdashboard)"
 
 
 # ============================
+# CATEGORY MAPPING (for tiles)
+# ============================
+
+# Ensures your UI can filter by a stable "category" field, even if source names differ.
+CATEGORY_BY_SOURCE: Dict[str, str] = {
+    "OFAC": "OFAC",
+    "IRS": "IRS",
+
+    # Mortgage tile
+    "FHLB MPF": "Mortgage",
+    "Fannie Mae": "Mortgage",
+    "Freddie Mac": "Mortgage",
+
+    # Legislative tile
+    "Senate Banking": "Legislative",
+    "White House": "Legislative",
+    "GovInfo Federal Register": "Legislative",
+
+    # USDA tile
+    "USDA APHIS": "USDA",
+
+    # Fintech Watch tile
+    "FIS": "Fintech Watch",
+    "Fiserv": "Fintech Watch",
+    "Jack Henry": "Fintech Watch",
+    "Temenos": "Fintech Watch",
+    "Mambu": "Fintech Watch",
+    "Finastra": "Fintech Watch",
+    "TCS": "Fintech Watch",
+
+    # Payment Card Network tile
+    "Visa": "Payment Card Network",
+    "Mastercard": "Payment Card Network",
+}
+
+
+# ============================
 # HTTP SESSION
 # ============================
 
@@ -438,6 +475,7 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
             summary = clean_text(BeautifulSoup(e["summary"], "html.parser").get_text(" ", strip=True), 380)
 
         out.append({
+            "category": CATEGORY_BY_SOURCE.get(source, source),
             "source": source,
             "title": title,
             "published_at": iso_z(dt),
@@ -535,8 +573,7 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     links: List[Tuple[str, str, Optional[datetime]]] = []
     for a in container.find_all("a", href=True):
         href = (a.get("href") or "").strip()
-        title = clean_text(a.get_text(" ", strip=True), 220)
-        if not href or not title:
+        if not href:
             continue
 
         if scheme(href) in GLOBAL_DENY_SCHEMES or href.startswith("#"):
@@ -544,6 +581,27 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
 
         url = canonical_url(urljoin(page_url, href))
         if not allowed_for_source(source, url):
+            continue
+
+        # Robust title extraction (some sites use empty <a> with aria-label)
+        raw_title = a.get_text(" ", strip=True) or ""
+        if not raw_title:
+            raw_title = (a.get("aria-label") or "").strip()
+        if not raw_title:
+            raw_title = (a.get("title") or "").strip()
+        if not raw_title:
+            # Sometimes title is in the card heading, not inside the link text
+            parent = a.find_parent()
+            h = parent.find(["h1", "h2", "h3", "h4"]) if parent else None
+            if h:
+                raw_title = h.get_text(" ", strip=True)
+
+        title = clean_text(raw_title, 220)
+        if not title:
+            continue
+
+        # Skip generic CTA links
+        if title.lower() in {"read more", "learn more", "more", "details"}:
             continue
 
         parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
@@ -639,11 +697,14 @@ START_PAGES: List[SourcePage] = [
 def render_raw_html(payload: Dict[str, Any]) -> str:
     ws = str(payload.get("window_start", ""))
     we = str(payload.get("window_end", ""))
+    gen_ct = escape(str(payload.get("generated_at_ct", "")))
+    gen_utc = escape(str(payload.get("generated_at_utc", "")))
     items = payload.get("items", []) or []
     base_href = f"{PUBLIC_BASE.rstrip('/')}/raw/"
 
     parts: List[str] = []
     for it in items:
+        cat = escape(str(it.get("category", "")))
         src = escape(str(it.get("source", "")))
         title = escape(str(it.get("title", "")))
         url = escape(str(it.get("url", "")))
@@ -655,6 +716,7 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
                 '<article class="card">',
                 '  <div class="meta">',
                 f'    <span class="src">[{src}]</span>',
+                (f'    <span class="cat">{cat}</span>' if cat else ""),
                 f'    <span class="pub">{pub}</span>',
                 "  </div>",
                 f'  <h2 class="title"><a href="{url}">{title}</a></h2>',
@@ -680,7 +742,7 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
     .small {{ color: #444; font-size: 13px; }}
     .links a {{ margin-right: 12px; }}
     .card {{ border: 1px solid #ddd; border-radius: 10px; padding: 14px; margin: 12px 0; }}
-    .meta {{ display: flex; gap: 12px; font-size: 12px; color: #555; margin-bottom: 6px; }}
+    .meta {{ display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: #555; margin-bottom: 6px; }}
     .title {{ margin: 0 0 6px 0; font-size: 16px; }}
     .sum {{ margin: 0 0 6px 0; color: #222; }}
     .url {{ margin: 0; font-size: 12px; color: #666; word-break: break-word; }}
@@ -694,6 +756,7 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
   <header>
     <h1>RegDashboard — Static Export</h1>
     <div class="small">Window: <code>{escape(ws)}</code> → <code>{escape(we)}</code> (UTC)</div>
+    <div class="small">Last updated: <code>{gen_ct}</code> (CT) — <code>{gen_utc}</code> (UTC)</div>
     <div class="small">Generated at build time. No JavaScript required.</div>
     <div class="small links">
       <a href="./items.md">items.md</a>
@@ -712,23 +775,30 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
 def render_raw_md(payload: Dict[str, Any]) -> str:
     ws = payload.get("window_start", "")
     we = payload.get("window_end", "")
+    gen_ct = str(payload.get("generated_at_ct", "")).strip()
+    gen_utc = str(payload.get("generated_at_utc", "")).strip()
     items = payload.get("items", []) or []
 
     lines: List[str] = []
     lines.append("# RegDashboard — Export")
     lines.append("")
     lines.append(f"Window: `{ws}` → `{we}` (UTC)")
+    if gen_ct or gen_utc:
+        lines.append(f"Last updated: `{gen_ct}` (CT) — `{gen_utc}` (UTC)")
     lines.append("")
 
     for it in items:
         title = (it.get("title") or "").strip()
         source = (it.get("source") or "").strip()
+        category = (it.get("category") or "").strip()
         pub = (it.get("published_at") or "").strip()
         url = (it.get("url") or "").strip()
         summary = (it.get("summary") or "").strip()
 
         lines.append(f"## {title}")
         lines.append(f"- Source: {source}")
+        if category:
+            lines.append(f"- Category: {category}")
         lines.append(f"- Published: {pub}")
         lines.append(f"- URL: {url}")
         if summary:
@@ -743,6 +813,7 @@ def render_raw_txt(payload: Dict[str, Any]) -> str:
     items = payload.get("items", []) or []
     out: List[str] = []
     for it in items:
+        out.append(str(it.get("category", "")).strip())
         out.append(str(it.get("source", "")).strip())
         out.append(str(it.get("published_at", "")).strip())
         out.append(str(it.get("title", "")).strip())
@@ -757,6 +828,8 @@ def render_raw_txt(payload: Dict[str, Any]) -> str:
 def render_print_html(payload: Dict[str, Any]) -> str:
     ws = str(payload.get("window_start", ""))
     we = str(payload.get("window_end", ""))
+    gen_ct = escape(str(payload.get("generated_at_ct", "")))
+    gen_utc = escape(str(payload.get("generated_at_utc", "")))
     items = payload.get("items", []) or []
 
     header = f"""<!doctype html>
@@ -769,7 +842,7 @@ def render_print_html(payload: Dict[str, Any]) -> str:
   <style>
     body {{ font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 28px; line-height: 1.35; }}
     h1 {{ margin: 0 0 6px 0; }}
-    .meta {{ color: #444; font-size: 13px; margin-bottom: 18px; }}
+    .meta {{ color: #444; font-size: 13px; margin-bottom: 10px; }}
     article {{ border-top: 1px solid #e5e5e5; padding-top: 12px; margin-top: 12px; }}
     .k {{ display: inline-block; min-width: 90px; color: #555; }}
     .v {{ color: #111; }}
@@ -779,10 +852,12 @@ def render_print_html(payload: Dict[str, Any]) -> str:
 <body>
   <h1>RegDashboard — Print (All Items)</h1>
   <div class="meta">Window: <strong>{escape(ws)}</strong> → <strong>{escape(we)}</strong> (UTC)</div>
+  <div class="meta">Last updated: <strong>{gen_ct}</strong> (CT) — <strong>{gen_utc}</strong> (UTC)</div>
   <div class="meta">This page is fully static HTML (no JavaScript). Newest items appear first.</div>
 """
     parts: List[str] = [header]
     for it in items:
+        cat = escape(str(it.get("category", "")).strip())
         src = escape(str(it.get("source", "")).strip())
         pub = escape(str(it.get("published_at", "")).strip())
         title = escape(str(it.get("title", "")).strip())
@@ -791,6 +866,8 @@ def render_print_html(payload: Dict[str, Any]) -> str:
         summary = escape(str(it.get("summary", "") or "").strip())
 
         parts.append("<article>")
+        if cat:
+            parts.append(f"<div><span class='k'>Category</span><span class='v'>{cat}</span></div>")
         parts.append(f"<div><span class='k'>Source</span><span class='v'>{src}</span></div>")
         parts.append(f"<div><span class='k'>Published</span><span class='v'>{pub}</span></div>")
         parts.append(f"<div><span class='k'>Title</span><span class='v'><a href='{url_esc}'>{title}</a></span></div>")
@@ -828,9 +905,11 @@ def write_raw_aux_files() -> None:
 # ============================
 
 def build() -> None:
-    now = utc_now()
-    window_start = now - timedelta(days=WINDOW_DAYS)
-    window_end = now
+    now_utc = utc_now()
+    now_ct = now_utc.astimezone(CENTRAL_TZ).replace(microsecond=0)
+
+    window_start = now_utc - timedelta(days=WINDOW_DAYS)
+    window_end = now_utc
 
     all_items: List[Dict[str, Any]] = []
     global_detail_fetches = 0
@@ -918,6 +997,7 @@ def build() -> None:
                     continue
 
                 all_items.append({
+                    "category": CATEGORY_BY_SOURCE.get(source, source),
                     "source": source,
                     "title": title,
                     "published_at": iso_z(dt),
@@ -948,6 +1028,11 @@ def build() -> None:
     payload = {
         "window_start": iso_z(window_start),
         "window_end": iso_z(window_end),
+
+        # Verifiable "last updated" timestamps
+        "generated_at_utc": iso_z(now_utc),
+        "generated_at_ct": now_ct.isoformat(),
+
         "items": items,
     }
 
