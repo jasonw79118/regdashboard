@@ -9,14 +9,13 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from html import escape
 from typing import Any, Dict, List, Optional, Tuple
-from urllib.parse import urljoin, urldefrag, urlparse
+from urllib.parse import urljoin, urldefrag, urlparse, parse_qs
 
 import feedparser
 import requests
 from bs4 import BeautifulSoup
 from bs4 import XMLParsedAsHTMLWarning
 from dateutil import parser as dtparser
-
 
 # ============================
 # CONFIG
@@ -41,102 +40,47 @@ PUBLIC_BASE = "https://jasonw79118.github.io/regdashboard"
 
 WINDOW_DAYS = 14
 
-MAX_LISTING_LINKS = 220
-GLOBAL_DETAIL_FETCH_CAP = 160
+MAX_LISTING_LINKS = 240
+GLOBAL_DETAIL_FETCH_CAP = 120
 REQUEST_DELAY_SEC = 0.12
 
+# Detail fetch caps: keep these modest—detail fetch is where many sites block.
 PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
-    "IRS": 70,
-    "USDA Rural Development": 55,
-    "Mastercard": 45,
-    "Visa": 45,
-    "Fannie Mae": 35,
-    "Freddie Mac": 25,
-    "FHLB MPF": 25,
-    "FIS": 25,
-    "Fiserv": 25,
-    "Jack Henry": 25,
-    "Temenos": 25,
-    "Mambu": 20,
-    "Finastra": 20,
-    "TCS": 25,
-    "OFAC": 30,
-    "OCC": 25,
-    "FDIC": 25,
-    "FRB": 30,
+    "IRS": 40,
+    "USDA RD": 25,
+    "Visa": 20,
+    "Mastercard": 20,
+    "Fannie Mae": 20,
+    "Freddie Mac": 15,
+    "FIS": 15,
+    "Fiserv": 15,
+    "Jack Henry": 15,
+    "Temenos": 15,
+    "Mambu": 12,
+    "Finastra": 12,
+    "TCS": 12,
+    "OFAC": 20,
+    "OCC": 20,
+    "FDIC": 20,
+    "FRB": 20,
     "Federal Register": 0,  # API-only
-    "GovInfo Federal Register": 0,  # feed-only (optional)
-    "NACHA": 0,  # feed-only if you add one later
 }
-DEFAULT_SOURCE_DETAIL_CAP = 15
+DEFAULT_SOURCE_DETAIL_CAP = 10
 
 UA = "regdashboard/2.4 (+https://github.com/jasonw79118/regdashboard)"
 
-
 # ============================
-# TIMEZONE (Windows-safe)
+# TIMEZONE (robust: no tzdata required)
 # ============================
 
-# On Windows, ZoneInfo needs the "tzdata" package sometimes.
-# We fall back to a fixed Central offset so the script runs no matter what.
 try:
-    from zoneinfo import ZoneInfo  # type: ignore
+    from zoneinfo import ZoneInfo  # py3.9+
     CENTRAL_TZ = ZoneInfo("America/Chicago")
 except Exception:
-    CENTRAL_TZ = timezone(timedelta(hours=-6))  # CT fallback (no DST)
-
+    # Fallback to fixed offset (approx CT). Good enough for a "last updated" label.
+    CENTRAL_TZ = timezone(timedelta(hours=-6))
 
 LAST_RUN_PATH = "docs/data/last_run.json"
-
-
-# ============================
-# CATEGORY MAPPING (for tiles)
-# ============================
-
-CATEGORY_BY_SOURCE: Dict[str, str] = {
-    "OFAC": "OFAC",
-    "IRS": "IRS",
-
-    # Payments tile
-    "NACHA": "Payments",
-    "FRB": "Payments",
-
-    # Banking tile
-    "OCC": "Banking",
-    "FDIC": "Banking",
-
-    # Mortgage tile
-    "FHLB MPF": "Mortgage",
-    "Fannie Mae": "Mortgage",
-    "Freddie Mac": "Mortgage",
-
-    # USDA tile (Rural Housing focus)
-    "USDA Rural Development": "USDA",
-
-    # Legislative tile
-    "Senate Banking": "Legislative",
-    "White House": "Legislative",
-    "Federal Register": "Legislative",
-    "GovInfo Federal Register": "Legislative",
-
-    # InfoSec
-    "BleepingComputer": "Information Security",
-    "Microsoft MSRC": "Information Security",
-
-    # Fintech Watch tile
-    "FIS": "Fintech Watch",
-    "Fiserv": "Fintech Watch",
-    "Jack Henry": "Fintech Watch",
-    "Temenos": "Fintech Watch",
-    "Mambu": "Fintech Watch",
-    "Finastra": "Fintech Watch",
-    "TCS": "Fintech Watch",
-
-    # Payment Card Networks tile
-    "Visa": "Payment Card Network",
-    "Mastercard": "Payment Card Network",
-}
-
 
 # ============================
 # HTTP SESSION
@@ -150,58 +94,102 @@ SESSION.headers.update({
     "Connection": "keep-alive",
 })
 
-
 # ============================
-# RULES: keep scrapes focused
+# RULES / FILTERS
 # ============================
 
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+GLOBAL_DENY_DOMAINS = {"www.facebook.com"}
+GLOBAL_DENY_SCHEMES = {"mailto", "tel", "javascript"}
+
+# Titles that are almost always nav/pagination/utility, not articles
+GENERIC_TITLE_RE = re.compile(
+    r"^\s*("
+    r"home|"
+    r"current\s*page\s*\d+|"
+    r"page\s*\d+|"
+    r"next|previous|prev|back|top|"
+    r"subscribe|sign\s*up|"
+    r"filter|sort|search|"
+    r"view\s*all|see\s*all|all\s*news|"
+    r"more|more\s*results|"
+    r"download|print|"
+    r"skip\s*to\s*content"
+    r")\s*$",
+    re.I,
+)
+
+# A title that is only digits (like "1", "2", "3") is pagination
+DIGITS_ONLY_TITLE_RE = re.compile(r"^\s*\d{1,3}\s*$")
+
+# URL patterns to ignore (pagination, tag listings, etc.)
+GLOBAL_DENY_URL_RE = re.compile(
+    r"("
+    r"[?&](page|p|start|offset|from|s|sort|order|search)=|"
+    r"/page/\d+/?$|"
+    r"#|"
+    r"/taxonomy/term/|"
+    r"/tags?/|"
+    r"/topics?/|"
+    r")",
+    re.I,
+)
+
+# Per-source allow/deny
 SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     "IRS": {
         "allow_domains": {"www.irs.gov"},
         "allow_path_prefixes": {"/newsroom/", "/downloads/rss", "/downloads/rss/"},
         "deny_domains": {"sa.www4.irs.gov"},
     },
-    # Federal Register topic pages are blocked; we use API instead.
-    "Federal Register": {
-        "allow_domains": {"www.federalregister.gov"},
+    "USDA RD": {
+        "allow_domains": {"www.rd.usda.gov", "rd.usda.gov"},
+        "allow_path_prefixes": {"/newsroom/"},
+    },
+    "OFAC": {
+        "allow_domains": {"ofac.treasury.gov"},
+        # OFAC pages have lots of nav links—this helps
+        "deny_url_regexes": [
+            re.compile(r"/recent-actions(\?|/)?page=", re.I),
+        ],
+    },
+    "Visa": {
+        "deny_url_regexes": [
+            re.compile(r"/press-releases-listing\.html(\?|#)", re.I),
+        ],
+    },
+    "Mastercard": {
+        "deny_url_regexes": [
+            re.compile(r"/press\.html(\?|#)", re.I),
+            re.compile(r"/stories\.html(\?|#)", re.I),
+        ],
     },
 }
-
-GLOBAL_DENY_DOMAINS = {"www.facebook.com"}
-GLOBAL_DENY_SCHEMES = {"mailto", "tel", "javascript"}
-
 
 # ============================
 # HELPERS
 # ============================
 
-warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
-
-
 def ensure_dir(p: str) -> None:
     os.makedirs(p, exist_ok=True)
 
-
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
-
 
 def iso_z(dt: datetime) -> str:
     dt = dt.astimezone(timezone.utc).replace(microsecond=0)
     return dt.isoformat().replace("+00:00", "Z")
 
-
 def canonical_url(url: str) -> str:
     url, _frag = urldefrag(url)
     return url.strip()
-
 
 def clean_text(s: str, max_len: int = 320) -> str:
     s = re.sub(r"\s+", " ", (s or "").strip())
     if len(s) > max_len:
         s = s[: max_len - 1].rstrip() + "…"
     return s
-
 
 def is_http_url(url: str) -> bool:
     try:
@@ -210,13 +198,11 @@ def is_http_url(url: str) -> bool:
     except Exception:
         return False
 
-
 def scheme(url: str) -> str:
     try:
         return urlparse(url).scheme.lower()
     except Exception:
         return ""
-
 
 def host(url: str) -> str:
     try:
@@ -224,22 +210,21 @@ def host(url: str) -> str:
     except Exception:
         return ""
 
-
 def path(url: str) -> str:
     try:
         return urlparse(url).path or "/"
     except Exception:
         return "/"
 
-
 def looks_like_error_html(html: str) -> bool:
     if not html:
         return True
     s = html.lower()
-    if "page not found" in s or "<title>404" in s:
+    if "404" in s and ("page not found" in s or "not found" in s):
+        return True
+    if "<title>404" in s:
         return True
     return False
-
 
 def allowed_for_source(source: str, url: str) -> bool:
     if not is_http_url(url):
@@ -252,8 +237,8 @@ def allowed_for_source(source: str, url: str) -> bool:
         return False
 
     rules = SOURCE_RULES.get(source, {})
-    deny = set(rules.get("deny_domains", set()))
-    if h in deny:
+    deny_domains = set(rules.get("deny_domains", set()))
+    if h in deny_domains:
         return False
 
     allow_domains = rules.get("allow_domains")
@@ -267,8 +252,26 @@ def allowed_for_source(source: str, url: str) -> bool:
         if not ok:
             return False
 
+    for rx in rules.get("deny_url_regexes", []) or []:
+        if rx.search(url):
+            return False
+
     return True
 
+def looks_like_junk_link(title: str, url: str) -> bool:
+    t = (title or "").strip()
+    if not t:
+        return True
+    if GENERIC_TITLE_RE.match(t):
+        return True
+    if DIGITS_ONLY_TITLE_RE.match(t):
+        return True
+    if len(t) < 4 and t.lower() in {"go", "ok"}:
+        return True
+    if GLOBAL_DENY_URL_RE.search(url or ""):
+        # NOTE: we only deny-by-url for *global* patterns that are nearly always junk/pagination.
+        return True
+    return False
 
 def parse_date(s: str, *, dayfirst: bool = False) -> Optional[datetime]:
     if not s:
@@ -281,18 +284,25 @@ def parse_date(s: str, *, dayfirst: bool = False) -> Optional[datetime]:
     except Exception:
         return None
 
-
 def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
     return start <= dt <= end
-
 
 def polite_get(url: str, timeout: int = 25) -> Optional[str]:
     if not is_http_url(url):
         return None
 
+    h = host(url)
+    read_timeout = timeout
+    if "fanniemae.com" in h:
+        read_timeout = 35
+    if "federalreserve.gov" in h:
+        read_timeout = 35
+    if "irs.gov" in h:
+        read_timeout = 35
+
     try:
         time.sleep(REQUEST_DELAY_SEC)
-        r = SESSION.get(url, timeout=(10, timeout), allow_redirects=True)
+        r = SESSION.get(url, timeout=(10, read_timeout), allow_redirects=True)
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
             return None
@@ -304,7 +314,6 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
     except Exception as e:
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
         return None
-
 
 def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
     if not is_http_url(url):
@@ -320,7 +329,6 @@ def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
         return None
 
-
 # ============================
 # SCHEDULER GATE (GitHub Actions friendly)
 # ============================
@@ -332,16 +340,15 @@ def _load_last_run_date() -> str:
     except Exception:
         return ""
 
-
 def _save_last_run_date(date_str: str) -> None:
     os.makedirs(os.path.dirname(LAST_RUN_PATH), exist_ok=True)
     with open(LAST_RUN_PATH, "w", encoding="utf-8") as f:
         json.dump({"date": date_str, "saved_at_utc": iso_z(utc_now())}, f)
 
-
 def should_run_daily_ct(target_hour: int = 7, window_minutes: int = 40) -> bool:
     now_ct = datetime.now(CENTRAL_TZ)
     today = now_ct.date().isoformat()
+
     if _load_last_run_date() == today:
         return False
 
@@ -349,10 +356,11 @@ def should_run_daily_ct(target_hour: int = 7, window_minutes: int = 40) -> bool:
     end = start + timedelta(minutes=window_minutes)
     return start <= now_ct <= end
 
-
 def force_run_enabled() -> bool:
-    return os.getenv("FORCE_RUN", "").strip() in {"1", "true", "TRUE", "yes", "YES"}
+    return os.getenv("FORCE_RUN", "").strip().lower() in {"1", "true", "yes"}
 
+def running_on_github_actions() -> bool:
+    return os.getenv("GITHUB_ACTIONS", "").strip().lower() == "true"
 
 # ============================
 # DATE PATTERNS
@@ -363,7 +371,6 @@ SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{1,2}/\d{1,2}/\d{2,4}\b)")
 ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
 
 DAYFIRST_SOURCES = {"Visa"}
-
 
 def extract_any_date(text: str, source: str = "") -> Optional[datetime]:
     if not text:
@@ -389,13 +396,11 @@ def extract_any_date(text: str, source: str = "") -> Optional[datetime]:
 
     return None
 
-
 # ============================
 # FEED DETECTION + DISCOVERY
 # ============================
 
 FEED_SUFFIX_RE = re.compile(r"(\.rss|\.xml|\.atom)$", re.I)
-
 
 def looks_like_feed_url(url: str) -> bool:
     u = url.strip()
@@ -410,7 +415,6 @@ def looks_like_feed_url(url: str) -> bool:
     if "output=atom" in q:
         return True
     return False
-
 
 def discover_feeds(page_url: str, html: str) -> List[str]:
     soup = BeautifulSoup(html, "html.parser")
@@ -427,6 +431,8 @@ def discover_feeds(page_url: str, html: str) -> List[str]:
 
     for a in soup.find_all("a", href=True):
         href = (a.get("href") or "").strip()
+        if not href:
+            continue
         if href.lower().endswith((".xml", ".rss", ".atom")):
             feeds.append(urljoin(page_url, href))
 
@@ -439,9 +445,9 @@ def discover_feeds(page_url: str, html: str) -> List[str]:
             out.append(f)
     return out
 
-
 def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
+
     b = fetch_bytes(feed_url, timeout=40)
     if not b:
         return out
@@ -456,6 +462,12 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
         title = clean_text(e.get("title", ""), 220)
         link = (e.get("link") or "").strip()
         if not title or not link:
+            continue
+
+        link = canonical_url(link)
+
+        # Skip nav/junk even if it appears in feeds
+        if looks_like_junk_link(title, link):
             continue
 
         dt = None
@@ -477,106 +489,14 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
             summary = clean_text(BeautifulSoup(e["summary"], "html.parser").get_text(" ", strip=True), 380)
 
         out.append({
-            "category": CATEGORY_BY_SOURCE.get(source, source),
             "source": source,
             "title": title,
             "published_at": iso_z(dt),
-            "url": canonical_url(link),
+            "url": link,
             "summary": summary,
         })
 
     return out
-
-
-# ============================
-# FEDERAL REGISTER (API-only; avoids CAPTCHA)
-# ============================
-
-FR_API = "https://www.federalregister.gov/api/v1/documents.json"
-
-# Your requested Topics (CFR Indexing Terms) slugs:
-FR_TOPICS = [
-    "banks-banking",
-    "executive-orders",
-    "federal-reserve-system",
-    "national-banks",
-    "securities",
-    "mortgages",
-    "truth-lending",
-    "truth-savings",
-]
-
-
-def items_from_federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
-    out: List[Dict[str, Any]] = []
-    start_date = start.date().isoformat()
-    end_date = end.date().isoformat()
-
-    for topic in FR_TOPICS:
-        page = 1
-        while page <= 3:  # safety cap
-            params = {
-                "per_page": 100,
-                "page": page,
-                "order": "newest",
-                "conditions[topics][]": topic,
-                "conditions[publication_date][gte]": start_date,
-                "conditions[publication_date][lte]": end_date,
-                # keep results relevant-ish to banking/mortgage/compliance (optional, can remove)
-                # "conditions[type][]": ["RULE", "PROPOSED_RULE", "NOTICE"],
-            }
-
-            try:
-                time.sleep(REQUEST_DELAY_SEC)
-                r = SESSION.get(FR_API, params=params, timeout=(10, 35))
-                if r.status_code >= 400:
-                    print(f"[warn] FR API {r.status_code} for topic={topic} page={page}", flush=True)
-                    break
-                data = r.json() or {}
-            except Exception as e:
-                print(f"[warn] FR API failed for topic={topic} page={page} :: {e}", flush=True)
-                break
-
-            results = data.get("results") or []
-            if not results:
-                break
-
-            for d in results:
-                title = clean_text(d.get("title") or "", 220)
-                url = (d.get("html_url") or d.get("document_url") or "").strip()
-                pub = (d.get("publication_date") or "").strip()
-                if not title or not url or not pub:
-                    continue
-
-                dt = parse_date(pub)
-                if not dt:
-                    # publication_date is yyyy-mm-dd; parse_date should work, but just in case:
-                    try:
-                        dt = datetime.fromisoformat(pub).replace(tzinfo=timezone.utc)
-                    except Exception:
-                        dt = None
-
-                if not dt or not in_window(dt, start, end):
-                    continue
-
-                summary = clean_text(d.get("abstract") or "", 380)
-
-                out.append({
-                    "category": CATEGORY_BY_SOURCE.get("Federal Register", "Legislative"),
-                    "source": "Federal Register",
-                    "title": title,
-                    "published_at": iso_z(dt),
-                    "url": canonical_url(url),
-                    "summary": summary,
-                })
-
-            total_pages = int(data.get("total_pages") or 1)
-            if page >= total_pages:
-                break
-            page += 1
-
-    return out
-
 
 # ============================
 # DETAIL PAGE EXTRACTION
@@ -632,21 +552,9 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
 
     return None, snippet
 
-
 # ============================
-# LISTING EXTRACTION (filters nav/pagination)
+# LISTING EXTRACTION
 # ============================
-
-NAV_TEXT_RE = re.compile(
-    r"^(current page|home|next|previous|prev|back|forward|first|last|more|\d+|page\s*\d+)$",
-    re.I
-)
-NAV_URL_HINTS_RE = re.compile(
-    r"(\/page\/\d+\/?|[?&](page|p)=\d+|\/pagination\/|\/pager\/|#page=)",
-    re.I
-)
-BAD_CONTAINER_CLASS_HINTS = ("pagination", "pager", "breadcrumb", "crumb", "nav", "menu")
-
 
 def pick_container(soup: BeautifulSoup) -> Optional[Any]:
     return (
@@ -657,28 +565,13 @@ def pick_container(soup: BeautifulSoup) -> Optional[Any]:
         or soup.find("body")
     )
 
-
-def looks_js_rendered(html: str) -> bool:
-    s = (html or "").lower()
-    if "please enable javascript" in s:
-        return True
-    if "loading" in s and "press release" in s:
-        return True
-    return False
-
-
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup)
     if not container:
         return []
 
-    # Remove obvious nav blocks inside the chosen container
-    for tag in container.find_all(["nav", "header", "footer", "aside", "form", "script", "style"]):
-        tag.decompose()
-
     links: List[Tuple[str, str, Optional[datetime]]] = []
-
     for a in container.find_all("a", href=True):
         href = (a.get("href") or "").strip()
         if not href:
@@ -686,38 +579,28 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         if scheme(href) in GLOBAL_DENY_SCHEMES or href.startswith("#"):
             continue
 
-        # Skip if inside a breadcrumb/pagination container
-        p = a.find_parent()
-        if p:
-            cls = " ".join(p.get("class", [])).lower()
-            if any(h in cls for h in BAD_CONTAINER_CLASS_HINTS):
-                continue
-        if a.find_parent("nav"):
-            continue
-
         url = canonical_url(urljoin(page_url, href))
         if not allowed_for_source(source, url):
             continue
 
-        # URL-based nav/pagination skipping
-        if NAV_URL_HINTS_RE.search(url):
-            continue
-
-        # Robust title extraction
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        # Title extraction (handles aria-label/title/heading cards)
+        raw_title = a.get_text(" ", strip=True) or ""
         if not raw_title:
             raw_title = (a.get("aria-label") or "").strip()
         if not raw_title:
             raw_title = (a.get("title") or "").strip()
+        if not raw_title:
+            parent0 = a.find_parent()
+            h = parent0.find(["h1", "h2", "h3", "h4"]) if parent0 else None
+            if h:
+                raw_title = h.get_text(" ", strip=True)
 
         title = clean_text(raw_title, 220)
         if not title:
             continue
 
-        # Text-based nav/pagination skipping
-        if NAV_TEXT_RE.match(title):
-            continue
-        if title.lower() in {"read more", "learn more", "details"}:
+        # Hard skip: generic CTA + pagination + nav links
+        if looks_like_junk_link(title, url):
             continue
 
         parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
@@ -730,6 +613,70 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
 
     return links
 
+# ============================
+# FEDERAL REGISTER API (topics)
+# ============================
+
+FR_TOPICS = [
+    "banks-banking",
+    "executive-orders",
+    "federal-reserve-system",
+    "national-banks",
+    "securities",
+    "mortgages",
+    "truth-lending",
+    "truth-savings",
+]
+
+def federal_register_api_items(start: datetime, end: datetime, per_page: int = 100) -> List[Dict[str, Any]]:
+    """
+    FederalRegister.gov blocks scraping of topic pages. Use the official API instead.
+    """
+    out: List[Dict[str, Any]] = []
+    base = "https://www.federalregister.gov/api/v1/documents.json"
+
+    for topic in FR_TOPICS:
+        params = {
+            "order": "newest",
+            "per_page": str(per_page),
+            "page": "1",
+            "conditions[topics][]": topic,
+        }
+        try:
+            time.sleep(REQUEST_DELAY_SEC)
+            r = SESSION.get(base, params=params, timeout=(10, 35))
+            if r.status_code >= 400:
+                print(f"[warn] Federal Register API {r.status_code} for topic={topic}", flush=True)
+                continue
+            data = r.json() or {}
+        except Exception as e:
+            print(f"[warn] Federal Register API failed topic={topic} :: {e}", flush=True)
+            continue
+
+        results = data.get("results") or []
+        for doc in results:
+            title = clean_text(str(doc.get("title") or ""), 220)
+            url = str(doc.get("html_url") or "").strip()
+            pub = str(doc.get("publication_date") or "").strip()
+
+            if not title or not url or not pub:
+                continue
+
+            dt = parse_date(pub)
+            if not dt or not in_window(dt, start, end):
+                continue
+
+            summary = clean_text(str(doc.get("abstract") or ""), 380)
+
+            out.append({
+                "source": "Federal Register",
+                "title": title,
+                "published_at": iso_z(dt),
+                "url": canonical_url(url),
+                "summary": summary,
+            })
+
+    return out
 
 # ============================
 # SOURCES
@@ -740,22 +687,12 @@ class SourcePage:
     source: str
     url: str
 
-
-# Known “good” feeds you can count on (in addition to discovery)
 KNOWN_FEEDS: Dict[str, List[str]] = {
-    # FRB feeds
     "FRB": [
         "https://www.federalreserve.gov/feeds/press_all.xml",
         "https://www.federalreserve.gov/feeds/press_bcreg.xml",
     ],
-    # BleepingComputer
-    "BleepingComputer": ["https://www.bleepingcomputer.com/feed/"],
-    # MSRC
-    "Microsoft MSRC": ["https://api.msrc.microsoft.com/update-guide/rss"],
-    # USDA RD (sometimes works via feed discovery; leaving explicit makes it reliable)
-    "USDA Rural Development": [
-        "https://www.rd.usda.gov/rss.xml",
-    ],
+    # BleepingComputer is already a feed start page, so fine.
 }
 
 START_PAGES: List[SourcePage] = [
@@ -767,10 +704,10 @@ START_PAGES: List[SourcePage] = [
     SourcePage("IRS", "https://www.irs.gov/newsroom"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
-    SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
+    SourcePage("IRS", "https://www.irs.gov/downloads/rss"),  # directory – discover real feeds
 
-    # USDA Rural Development (Housing-related focus)
-    SourcePage("USDA Rural Development", "https://www.rd.usda.gov/newsroom/news-releases"),
+    # USDA Rural Development (Housing related) — requested change
+    SourcePage("USDA RD", "https://www.rd.usda.gov/newsroom/news-releases"),
 
     # Banking regulators
     SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
@@ -783,11 +720,11 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
     SourcePage("Freddie Mac", "https://www.freddiemac.com/media-room"),
 
-    # Legislative / exec
+    # Legislative / exec (Federal Register handled by API above)
     SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
     SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
 
-    # Information security
+    # Security / cyber
     SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
     SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/update-guide/rss"),
 
@@ -805,7 +742,6 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
 ]
 
-
 # ============================
 # STATIC EXPORTS (NO JS)
 # ============================
@@ -820,7 +756,6 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
 
     parts: List[str] = []
     for it in items:
-        cat = escape(str(it.get("category", "")))
         src = escape(str(it.get("source", "")))
         title = escape(str(it.get("title", "")))
         url = escape(str(it.get("url", "")))
@@ -832,7 +767,6 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
                 '<article class="card">',
                 '  <div class="meta">',
                 f'    <span class="src">[{src}]</span>',
-                (f'    <span class="cat">{cat}</span>' if cat else ""),
                 f'    <span class="pub">{pub}</span>',
                 "  </div>",
                 f'  <h2 class="title"><a href="{url}">{title}</a></h2>',
@@ -865,7 +799,6 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
     a {{ text-decoration: none; }}
     a:hover {{ text-decoration: underline; }}
     code {{ background: #f4f4f4; padding: 2px 6px; border-radius: 6px; }}
-    .btn {{ display:inline-block; padding:8px 12px; border:1px solid #ddd; border-radius:10px; }}
   </style>
 </head>
 <body>
@@ -873,7 +806,6 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
     <h1>RegDashboard — Static Export</h1>
     <div class="small">Window: <code>{escape(ws)}</code> → <code>{escape(we)}</code> (UTC)</div>
     <div class="small">Last updated: <code>{gen_ct}</code> (CT) — <code>{gen_utc}</code> (UTC)</div>
-    <div class="small">Generated at build time. No JavaScript required.</div>
     <div class="small links">
       <a href="./items.md">items.md</a>
       <a href="./items.txt">items.txt</a>
@@ -887,7 +819,6 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
 </html>
 """
 
-
 def render_raw_md(payload: Dict[str, Any]) -> str:
     ws = payload.get("window_start", "")
     we = payload.get("window_end", "")
@@ -899,22 +830,18 @@ def render_raw_md(payload: Dict[str, Any]) -> str:
     lines.append("# RegDashboard — Export")
     lines.append("")
     lines.append(f"Window: `{ws}` → `{we}` (UTC)")
-    if gen_ct or gen_utc:
-        lines.append(f"Last updated: `{gen_ct}` (CT) — `{gen_utc}` (UTC)")
+    lines.append(f"Last updated: `{gen_ct}` (CT) — `{gen_utc}` (UTC)")
     lines.append("")
 
     for it in items:
         title = (it.get("title") or "").strip()
         source = (it.get("source") or "").strip()
-        category = (it.get("category") or "").strip()
         pub = (it.get("published_at") or "").strip()
         url = (it.get("url") or "").strip()
         summary = (it.get("summary") or "").strip()
 
         lines.append(f"## {title}")
         lines.append(f"- Source: {source}")
-        if category:
-            lines.append(f"- Category: {category}")
         lines.append(f"- Published: {pub}")
         lines.append(f"- URL: {url}")
         if summary:
@@ -924,12 +851,10 @@ def render_raw_md(payload: Dict[str, Any]) -> str:
 
     return "\n".join(lines).strip() + "\n"
 
-
 def render_raw_txt(payload: Dict[str, Any]) -> str:
     items = payload.get("items", []) or []
     out: List[str] = []
     for it in items:
-        out.append(str(it.get("category", "")).strip())
         out.append(str(it.get("source", "")).strip())
         out.append(str(it.get("published_at", "")).strip())
         out.append(str(it.get("title", "")).strip())
@@ -939,7 +864,6 @@ def render_raw_txt(payload: Dict[str, Any]) -> str:
             out.append(summary)
         out.append("-" * 60)
     return "\n".join(out).strip() + "\n"
-
 
 def render_print_html(payload: Dict[str, Any]) -> str:
     ws = str(payload.get("window_start", ""))
@@ -973,7 +897,6 @@ def render_print_html(payload: Dict[str, Any]) -> str:
 """
     parts: List[str] = [header]
     for it in items:
-        cat = escape(str(it.get("category", "")).strip())
         src = escape(str(it.get("source", "")).strip())
         pub = escape(str(it.get("published_at", "")).strip())
         title = escape(str(it.get("title", "")).strip())
@@ -982,8 +905,6 @@ def render_print_html(payload: Dict[str, Any]) -> str:
         summary = escape(str(it.get("summary", "") or "").strip())
 
         parts.append("<article>")
-        if cat:
-            parts.append(f"<div><span class='k'>Category</span><span class='v'>{cat}</span></div>")
         parts.append(f"<div><span class='k'>Source</span><span class='v'>{src}</span></div>")
         parts.append(f"<div><span class='k'>Published</span><span class='v'>{pub}</span></div>")
         parts.append(f"<div><span class='k'>Title</span><span class='v'><a href='{url_esc}'>{title}</a></span></div>")
@@ -994,7 +915,6 @@ def render_print_html(payload: Dict[str, Any]) -> str:
 
     parts.append("</body></html>\n")
     return "\n".join(parts)
-
 
 def write_raw_aux_files() -> None:
     base = PUBLIC_BASE.rstrip("/")
@@ -1015,7 +935,6 @@ def write_raw_aux_files() -> None:
 </urlset>
 """)
 
-
 # ============================
 # BUILD
 # ============================
@@ -1031,52 +950,46 @@ def build() -> None:
     global_detail_fetches = 0
     per_source_detail_fetches: Dict[str, int] = {}
 
-    # 0) Federal Register: API-only (avoids CAPTCHA)
-    fr_items = items_from_federal_register_topics(window_start, window_end)
+    # 0) Federal Register via API (topic pages are blocked)
+    fr_items = federal_register_api_items(window_start, window_end, per_page=100)
     if fr_items:
         all_items.extend(fr_items)
-        print(f"[fr-api] {len(fr_items)} items from Federal Register topics", flush=True)
+        print(f"\n[api] Federal Register: {len(fr_items)} items (topics)", flush=True)
     else:
-        print("[fr-api] no items (or API issue)", flush=True)
+        print("\n[note] Federal Register: 0 items (API returned none in window or request issue).", flush=True)
 
-    # Group pages by source so we can apply fallback logic and track success
+    # Group pages by source
     pages_by_source: Dict[str, List[str]] = {}
     for sp in START_PAGES:
         pages_by_source.setdefault(sp.source, []).append(sp.url)
 
     for source, pages in pages_by_source.items():
         print(f"\n===== SOURCE: {source} =====", flush=True)
-
         source_items_before = len(all_items)
 
-        # 1) Try known feeds first
+        # 1) Known feeds first
         for fu in KNOWN_FEEDS.get(source, []):
             got = items_from_feed(source, fu, window_start, window_end)
             if got:
                 all_items.extend(got)
                 print(f"[feed-known] {len(got)} items from {fu}", flush=True)
 
-        # 2) Iterate pages; for each page: feed-direct → discover feeds → listing scrape
+        # 2) For each start page: feed-direct -> discover feeds -> listing scrape
         for page_url in pages:
             print(f"\n[source] {source} :: {page_url}", flush=True)
 
-            # feed direct
             if looks_like_feed_url(page_url):
                 got = items_from_feed(source, page_url, window_start, window_end)
-                if got:
-                    all_items.extend(got)
+                all_items.extend(got)
                 print(f"[feed-direct] {len(got)} items from {page_url}", flush=True)
                 continue
 
-            html = polite_get(page_url, timeout=35)
+            html = polite_get(page_url)
             if not html:
                 print("[skip] no html", flush=True)
                 continue
 
-            if looks_js_rendered(html):
-                print("[note] page looks JS-rendered (may have limited links)", flush=True)
-
-            # discover feeds on this page and parse them
+            # discover feeds
             feed_urls = discover_feeds(page_url, html)
             feed_items_total = 0
             for fu in feed_urls:
@@ -1087,7 +1000,7 @@ def build() -> None:
                     print(f"[feed] {len(got)} items from {fu}", flush=True)
             print(f"[feed] total: {feed_items_total} | feeds found: {len(feed_urls)}", flush=True)
 
-            # listing links (now filtered against nav/pagination)
+            # listing links
             listing_links = main_content_links(source, page_url, html)
             print(f"[list] links captured: {len(listing_links)}", flush=True)
 
@@ -1095,16 +1008,20 @@ def build() -> None:
             src_cap = PER_SOURCE_DETAIL_CAP.get(source, DEFAULT_SOURCE_DETAIL_CAP)
 
             for title, url, dt in listing_links:
+                # If our filters failed and it still looks junk, drop it.
+                if looks_like_junk_link(title, url):
+                    continue
+
                 snippet = ""
 
-                # If no date near the link, optionally detail-fetch (bounded by caps)
+                # If no date near the link, optionally detail-fetch (bounded)
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
                     if src_used >= src_cap:
                         continue
 
-                    detail_html = polite_get(url, timeout=35)
+                    detail_html = polite_get(url)
                     if not detail_html:
                         continue
 
@@ -1122,22 +1039,20 @@ def build() -> None:
                     continue
 
                 all_items.append({
-                    "category": CATEGORY_BY_SOURCE.get(source, source),
                     "source": source,
                     "title": title,
                     "published_at": iso_z(dt),
-                    "url": canonical_url(url),
+                    "url": url,
                     "summary": snippet,
                 })
 
             print(f"[detail] {source}: used {src_used}/{src_cap} | global {global_detail_fetches}/{GLOBAL_DETAIL_FETCH_CAP}", flush=True)
 
-        source_items_after = len(all_items)
-        gained = source_items_after - source_items_before
+        gained = len(all_items) - source_items_before
         if gained == 0:
-            print(f"[note] {source}: no qualifying items in the last {WINDOW_DAYS} days (or blocked/changed).", flush=True)
+            print(f"[note] {source}: no qualifying items in last {WINDOW_DAYS} days (or blocked/changed).", flush=True)
 
-    # De-dupe by URL
+    # De-dupe by URL (keep first/newest)
     dedup: Dict[str, Dict[str, Any]] = {}
     for it in sorted(all_items, key=lambda x: x["published_at"], reverse=True):
         key = canonical_url(it["url"])
@@ -1153,20 +1068,17 @@ def build() -> None:
     payload = {
         "window_start": iso_z(window_start),
         "window_end": iso_z(window_end),
-
-        # Verifiable "last updated" timestamps
         "generated_at_utc": iso_z(now_utc),
         "generated_at_ct": now_ct.isoformat(),
-
         "items": items,
     }
 
-    # Ensure output dirs exist
+    # Ensure dirs exist
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     ensure_dir(RAW_DIR)
     ensure_dir(PRINT_DIR)
 
-    # Write main JSON payload
+    # Write main JSON
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
@@ -1197,11 +1109,14 @@ def build() -> None:
         flush=True
     )
 
-
 if __name__ == "__main__":
-    # Daily run near 7:00 AM Central (hourly workflow schedule) OR manual force-run.
-    if force_run_enabled() or should_run_daily_ct(target_hour=7, window_minutes=40):
+    # Local: ALWAYS run (no more “skip” frustration).
+    # GitHub Actions: run daily near 7:00 AM CT (hourly schedule) OR manual FORCE_RUN=1.
+    if not running_on_github_actions():
         build()
-        _save_last_run_date(datetime.now(CENTRAL_TZ).date().isoformat())
     else:
-        print("[skip] Not in 7:00 AM CT window or already ran today. Set FORCE_RUN=1 to override.", flush=True)
+        if force_run_enabled() or should_run_daily_ct(target_hour=7, window_minutes=40):
+            build()
+            _save_last_run_date(datetime.now(CENTRAL_TZ).date().isoformat())
+        else:
+            print("[skip] Not in 7:00 AM CT window or already ran today. Set FORCE_RUN=1 to override.", flush=True)
