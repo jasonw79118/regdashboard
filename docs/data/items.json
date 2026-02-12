@@ -1,8 +1,27 @@
 {
-  "window_start": "2026-01-29T13:09:23Z",
-  "window_end": "2026-02-12T13:09:23Z",
+  "window_start": "2026-01-29T15:07:24Z",
+  "window_end": "2026-02-12T15:07:24Z",
+  "generated_at_utc": "2026-02-12T15:07:24Z",
+  "generated_at_ct": "2026-02-12T09:07:24-06:00",
   "items": [
     {
+      "category": "Information Security",
+      "source": "BleepingComputer",
+      "title": "AMOS infostealer targets macOS through a popular AI app",
+      "published_at": "2026-02-12T14:25:38Z",
+      "url": "https://www.bleepingcomputer.com/news/security/amos-infostealer-targets-macos-through-a-popular-ai-app/",
+      "summary": "AMOS infostealer is targeting macOS users by abusing popular AI apps and extension marketplaces to harvest credentials. Flare examines how AMOS operates, spreads through AI-driven lures, and feeds the broader stealer-log cybercrime economy. [...]"
+    },
+    {
+      "category": "Information Security",
+      "source": "BleepingComputer",
+      "title": "Fake AI Chrome extensions with 300K users steal credentials, emails",
+      "published_at": "2026-02-12T13:41:55Z",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-ai-chrome-extensions-with-300k-users-steal-credentials-emails/",
+      "summary": "A set of 30 malicious Chrome extensions that have been installed by more than 300,000 users are masquerading as AI assistants to steal credentials, email content, and browsing information. [...]"
+    },
+    {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Google says hackers are abusing Gemini AI for all attacks stages",
       "published_at": "2026-02-12T07:00:00Z",
@@ -10,6 +29,7 @@
       "summary": "Google Threat Intelligence Group (GTIG) has published a new report warning about AI model extraction/distillation attacks, in which private-sector firms and researchers use legitimate API access to systematically probe models and replicate their logic and reasoning. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Apple fixes zero-day flaw used in 'extremely sophisticated' attacks",
       "published_at": "2026-02-12T01:06:05Z",
@@ -17,6 +37,71 @@
       "summary": "Apple has released security updates to fix a zero-day vulnerability that was exploited in an \"extremely sophisticated attack\" targeting specific individuals. [...]"
     },
     {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "About",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/about",
+      "summary": "Our mission is to provide liquidity, stability and affordability to the U.S. housing market in all economic environments."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Our Business",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/about/business",
+      "summary": "Freddie Mac's core divisions provide a constant source of mortgage funding for the nation's housing and rental market."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Research & Perspectives",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/research-and-perspectives",
+      "summary": "Gain key insights into the housing industry from our original research and perspectives from our company’s leaders."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Search",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/search-results",
+      "summary": "Search for the content you are looking for."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Our Leaders",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/about/leaders",
+      "summary": "Meet Freddie Mac's executive leaders and board of directors."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Corporate Governance",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/governance",
+      "summary": "Freddie Mac's corporate governance under conservatorship, including the board composition, the authority of the board, information about board committees, and governance documents."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Annual Meeting",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/governance/annualmtg",
+      "summary": "Annual reports, proxy statements and information statements for the 2007 and 2008 annual meeting of stockholders. Beginning in 2009, under conservatorship, stockholder meetings are not held and statements are not prepared."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Corporate February 12, 2026 Transcript: Freddie Mac CFO Discusses Fourth Quarter and Full-Year 2025 Financial and Business Results The company delivered a strong financial performance for 2025, our third consecutive yea…",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.freddiemac.com/perspectives/jim-whitlinger/transcript-freddie-mac-cfo-discusses-fourth-quarter-and-full-year-2025",
+      "summary": ""
+    },
+    {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Windows 11 Notepad flaw let files execute silently via Markdown links",
       "published_at": "2026-02-11T23:15:41Z",
@@ -24,6 +109,7 @@
       "summary": "Microsoft has fixed a \"remote code execution\" vulnerability in Windows 11 Notepad that allowed attackers to execute local or remote programs by tricking users into clicking specially crafted Markdown links, without displaying any Windows security warnings. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts",
       "published_at": "2026-02-11T21:53:58Z",
@@ -31,6 +117,7 @@
       "summary": "The AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
       "published_at": "2026-02-11T19:29:14Z",
@@ -38,6 +125,7 @@
       "summary": "A member of the Crazy ransomware gang is abusing legitimate employee monitoring software and the SimpleHelp remote support tool to maintain persistence in corporate networks, evade detection, and prepare for ransomware deployment. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Police arrest seller of JokerOTP MFA passcode capturing tool",
       "published_at": "2026-02-11T19:14:32Z",
@@ -45,6 +133,7 @@
       "summary": "The Netherlands Police have arrested a a 21-year-old man from Dordrecht, suspected of selling access to the JokerOTP phishing automation tool that can intercept one-time passwords (OTP) for hijacking accounts. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Proactive strategies for cyber resilience with Wazuh",
       "published_at": "2026-02-11T17:40:28Z",
@@ -52,6 +141,7 @@
       "summary": "Cyber resilience means anticipating threats, detecting them early, and recovering fast when incidents occur. Wazuh shows how its open source SIEM and XDR unify visibility, detection, and automated response to strengthen proactive defense. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "LummaStealer infections surge after CastleLoader malware campaigns",
       "published_at": "2026-02-11T17:02:29Z",
@@ -59,6 +149,7 @@
       "summary": "A surge in LummaStealer infections has been observed, driven by social engineering campaigns leveraging the ClickFix technique to deliver the CastleLoader malware. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Microsoft releases Windows 11 26H1 for select and upcoming CPUs",
       "published_at": "2026-02-11T02:06:42Z",
@@ -66,13 +157,39 @@
       "summary": "Microsoft has announced Windows 11 26H1, but it's not for existing PCs. Instead, it will ship on devices with Snapdragon X2 processors and possibly other rumored ARM chips.w [...]"
     },
     {
+      "category": "Banking",
       "source": "FRB",
-      "title": "Home",
+      "title": "Recent Postings",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.federalreserve.gov/default.htm",
+      "url": "https://www.federalreserve.gov/recentpostings.htm",
       "summary": "The Federal Reserve Board of Governors in Washington DC."
     },
     {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Date",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news?start_date=&end_date=&order=field_date&sort=desc",
+      "summary": "Fannie Mae provides easy access to its financial news, corporate news, statements, and speeches."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Reports Net Income of $3.5 Billion for Fourth Quarter 2025 and $14.4 Billion for Full-Year 2025",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results",
+      "summary": "Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast",
+      "summary": "Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C."
+    },
+    {
+      "category": "Mortgage",
       "source": "Fannie Mae",
       "title": "Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026",
       "published_at": "2026-02-11T00:00:00Z",
@@ -80,13 +197,15 @@
       "summary": ""
     },
     {
-      "source": "Senate Banking",
-      "title": "Press Releases",
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Investor Relations",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.banking.senate.gov/news/press-releases",
-      "summary": ""
+      "url": "https://www.fanniemae.com/about-us/investor-relations",
+      "summary": "Fannie Mae Investor Relations website provides investors information about our SEC filings quarterly and annual financial results, and stock."
     },
     {
+      "category": "Legislative",
       "source": "Senate Banking",
       "title": "Warren, Warner Press Commerce Secretary Lutnick on Reportedly Pushing Out Key Officials Working to Counter Cyber Threats Posed by China",
       "published_at": "2026-02-11T00:00:00Z",
@@ -94,6 +213,7 @@
       "summary": ""
     },
     {
+      "category": "Legislative",
       "source": "Senate Banking",
       "title": "Following Push from Warren Oversight, Majority of Sports Gambling Market Will Restrict Credit Card Companies From Ripping Off Americans",
       "published_at": "2026-02-11T00:00:00Z",
@@ -101,6 +221,7 @@
       "summary": ""
     },
     {
+      "category": "Legislative",
       "source": "Senate Banking",
       "title": "In Responses to Warren, Trump CYBERCOM and NSA Nominee Warns About China Seeking Advanced American AI Chips",
       "published_at": "2026-02-11T00:00:00Z",
@@ -108,6 +229,7 @@
       "summary": ""
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "New Linux botnet SSHStalker uses old-school IRC for C2 comms",
       "published_at": "2026-02-10T23:09:48Z",
@@ -115,6 +237,7 @@
       "summary": "A newly documented Linux botnet named SSHStalker is using the IRC (Internet Relay Chat) communication protocol for command-and-control (C2) operations. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "North Korean hackers use new macOS malware in crypto-theft attacks",
       "published_at": "2026-02-10T22:17:35Z",
@@ -122,6 +245,7 @@
       "summary": "North Korean hackers are running tailored campaigns using AI-generated video and the ClickFix technique to deliver malware for macOS and Windows to targets in the cryptocurrency sector. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Malicious 7-Zip site distributes installer laced with proxy tool",
       "published_at": "2026-02-10T19:12:55Z",
@@ -129,6 +253,7 @@
       "summary": "A fake 7-Zip website is distributing a trojanized installer of the popular archiving tool that turns the user's computer into a residential proxy node. [...]"
     },
     {
+      "category": "Information Security",
       "source": "BleepingComputer",
       "title": "Microsoft releases Windows 10 KB5075912 extended security update",
       "published_at": "2026-02-10T19:06:13Z",
@@ -136,27 +261,7 @@
       "summary": "Microsoft has released the Windows 10 KB5075912 extended security update to fix February 2026 Patch Tuesday vulnerabilities, including six zero-days, and continue rolling out replacements for expiring Secure Boot certificates. [...]"
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws",
-      "published_at": "2026-02-10T18:51:46Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-february-2026-patch-tuesday-fixes-6-zero-days-58-flaws/",
-      "summary": "Today is Microsoft's February 2026 Patch Tuesday with security updates for 58 flaws, including 6 actively exploited and three publicly disclosed zero-day vulnerabilities. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Windows 11 KB5077181 & KB5075941 cumulative updates released",
-      "published_at": "2026-02-10T18:43:53Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-and-kb5075941-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11 KB5077181 and KB5075941 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]"
-    },
-    {
-      "source": "OFAC",
-      "title": "Recent Actions",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions",
-      "summary": ""
-    },
-    {
+      "category": "OFAC",
       "source": "OFAC",
       "title": "Counter Terrorism Designations",
       "published_at": "2026-02-10T00:00:00Z",
@@ -164,13 +269,7 @@
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "Sanctions List Updates",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/sanctions-list-updates",
-      "summary": ""
-    },
-    {
+      "category": "OFAC",
       "source": "OFAC",
       "title": "Issuance of New and Amended Venezuela-related General Licenses",
       "published_at": "2026-02-10T00:00:00Z",
@@ -178,41 +277,7 @@
       "summary": ""
     },
     {
-      "source": "OFAC",
-      "title": "General Licenses",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/general-licenses",
-      "summary": ""
-    },
-    {
-      "source": "OFAC",
-      "title": "Current page 1",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions?page=0",
-      "summary": ""
-    },
-    {
-      "source": "USDA APHIS",
-      "title": "View All",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://www.aphis.usda.gov/news/releases",
-      "summary": "Stay updated on livestock diseases, wildlife threats, and USDA actions. Monitor new cases, vaccination efforts, and leadership changes."
-    },
-    {
-      "source": "USDA APHIS",
-      "title": "Program Updates Stay informed about relevant program-related news and information.",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://www.aphis.usda.gov/news/program-updates",
-      "summary": "Explore APHIS program updates. Stay current on disease control, quarantine changes, biotechnology news, and regulatory announcements."
-    },
-    {
-      "source": "Fiserv",
-      "title": "Fiserv to Release Fourth Quarter Earnings Results on February 10, 2026",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-release-fourth-quarter-earnings-results-february-10-2026",
-      "summary": ""
-    },
-    {
+      "category": "IRS",
       "source": "IRS",
       "title": "IRS announces next expansion of Tax Pro Account to support tax professional businesses",
       "published_at": "2026-02-09T00:00:00Z",
@@ -220,20 +285,7 @@
       "summary": "IR-2026-22, Feb. 9, 2026 — The Internal Revenue Service today announced a new expansion of Tax Pro Account, introducing business-level digital capabilities for tax professionals who work in tax-preparation companies, accounting firms, or other organizations."
     },
     {
-      "source": "USDA APHIS",
-      "title": "Home",
-      "published_at": "2026-02-09T00:00:00Z",
-      "url": "https://www.aphis.usda.gov/",
-      "summary": "USDA's Animal and Plant Health Inspection Service (APHIS) protects the health and value of U.S. agriculture and natural resources."
-    },
-    {
-      "source": "USDA APHIS",
-      "title": "USDA Announces Completion of Sterile Fly Dispersal Facility in Texas",
-      "published_at": "2026-02-09T00:00:00Z",
-      "url": "https://www.aphis.usda.gov/news/agency-announcements/usda-announces-completion-sterile-fly-dispersal-facility-texas",
-      "summary": "Today at Moore Air Base, U.S. Secretary of Agriculture Brooke L. Rollins and Governor of Texas Greg Abbott celebrated a significant achievement in the fight against New World Screwworm (NWS) with the completion of a U.S.-based sterile fly dispersal facility in Edinburg, Texas."
-    },
-    {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
       "published_at": "2026-02-06T20:25:00Z",
@@ -241,6 +293,7 @@
       "summary": "PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would impleme…"
     },
     {
+      "category": "OFAC",
       "source": "OFAC",
       "title": "Iran-related Designations",
       "published_at": "2026-02-06T00:00:00Z",
@@ -248,6 +301,7 @@
       "summary": ""
     },
     {
+      "category": "OFAC",
       "source": "OFAC",
       "title": "Launch of Voluntary Self-Disclosure Portal",
       "published_at": "2026-02-06T00:00:00Z",
@@ -255,6 +309,7 @@
       "summary": ""
     },
     {
+      "category": "OFAC",
       "source": "OFAC",
       "title": "Miscellaneous",
       "published_at": "2026-02-06T00:00:00Z",
@@ -262,6 +317,7 @@
       "summary": ""
     },
     {
+      "category": "OFAC",
       "source": "OFAC",
       "title": "Issuance of Venezuela-related Frequently Asked Questions",
       "published_at": "2026-02-06T00:00:00Z",
@@ -269,6 +325,15 @@
       "summary": ""
     },
     {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "Comptroller Discusses Importance of Financial Education",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s",
+      "summary": "Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu..."
+    },
+    {
+      "category": "Banking",
       "source": "FDIC",
       "title": "1",
       "published_at": "2026-02-06T00:00:00Z",
@@ -276,6 +341,7 @@
       "summary": ""
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "Press Release: FDIC Issues List of Banks Examined for CRA Compliance",
       "published_at": "2026-02-05T15:15:50Z",
@@ -283,13 +349,7 @@
       "summary": "PRESS RELEASE | FEBRUARY 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in November 2025. The CRA is a 1…"
     },
     {
-      "source": "USDA APHIS",
-      "title": "FDA Issues Emergency Use Authorization for Over-the-Counter Injectable Drug to Prevent New World Screwworm in Cattle",
-      "published_at": "2026-02-05T00:00:00Z",
-      "url": "https://www.aphis.usda.gov/news/agency-announcements/fda-issues-emergency-use-authorization-over-counter-injectable-drug",
-      "summary": "Washington, D.C., February 5, 2026 Today the U.S. Food and Drug Administration issued an Emergency Use Authorization (EUA) for Ivomec (ivermectin) injectable solution against New World screwworm (NWS)."
-    },
-    {
+      "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered",
       "published_at": "2026-02-04T21:30:00Z",
@@ -297,13 +357,23 @@
       "summary": "Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered"
     },
     {
+      "category": "Banking",
       "source": "FRB",
-      "title": "2026",
+      "title": "Regulatory Reform",
       "published_at": "2026-02-04T00:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "url": "https://www.federalreserve.gov/reform.htm",
       "summary": "The Federal Reserve Board of Governors in Washington DC."
     },
     {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025",
+      "published_at": "2026-02-04T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-expands-rental-supply-nearly-74-billion-volume-2025",
+      "summary": "Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025"
+    },
+    {
+      "category": "OFAC",
       "source": "OFAC",
       "title": "Issuance of Venezuela-related General License",
       "published_at": "2026-02-03T00:00:00Z",
@@ -311,6 +381,7 @@
       "summary": ""
     },
     {
+      "category": "IRS",
       "source": "IRS",
       "title": "Create an IRS Individual Online Account today for security and convenience",
       "published_at": "2026-02-03T00:00:00Z",
@@ -318,6 +389,7 @@
       "summary": "IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS Individual Online Account to access their tax account information securely online and to help protect against identity theft and fraud."
     },
     {
+      "category": "IRS",
       "source": "IRS",
       "title": "Treasury, IRS issue proposed regulations on the clean fuel production credit under the One, Big, Beautiful Bill",
       "published_at": "2026-02-03T00:00:00Z",
@@ -325,6 +397,7 @@
       "summary": "IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations for domestic producers of clean transportation fuel to determine their eligibility for and calculate the clean fuel production credit under the One, Big, Beautiful Bill."
     },
     {
+      "category": "IRS",
       "source": "IRS",
       "title": "IRS statements and announcements",
       "published_at": "2026-02-02T00:00:00Z",
@@ -332,6 +405,7 @@
       "summary": "Agency statements, comments and additional information."
     },
     {
+      "category": "Banking",
       "source": "OCC",
       "title": "OCC Releases CRA Performance Evaluations for 29 National Banks and Federal Savings Associations",
       "published_at": "2026-02-02T00:00:00Z",
@@ -339,6 +413,7 @@
       "summary": ""
     },
     {
+      "category": "Banking",
       "source": "OCC",
       "title": "Supervision & Examination",
       "published_at": "2026-02-02T00:00:00Z",
@@ -346,6 +421,7 @@
       "summary": "The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations."
     },
     {
+      "category": "Banking",
       "source": "OCC",
       "title": "Consumers & Communities",
       "published_at": "2026-02-02T00:00:00Z",
@@ -353,6 +429,7 @@
       "summary": "Ensuring fair and equal treatment to bank customers is key to the OCC’s mission. To promote a vibrant banking system, the agency helps banks identify community finance opportunities and ways to make financial services accessible to underserved communities."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "Press Release: First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
       "published_at": "2026-01-30T23:12:07Z",
@@ -360,6 +437,7 @@
       "summary": "PRESS RELEASE | JANUARY 30, 2026 First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois WASHINGTON — Metropolitan Capital Bank & Trust was closed today by the Illinois Department of Financial and Professional Regulation, which appointed the Federal Deposit Insurance Corporation (FDIC) as receiver. The FDIC enter…"
     },
     {
+      "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc.",
       "published_at": "2026-01-30T21:00:00Z",
@@ -367,6 +445,7 @@
       "summary": "Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "Press Release: FDIC Publishes Enforcement Orders for December 2025",
       "published_at": "2026-01-30T15:02:09Z",
@@ -374,6 +453,7 @@
       "summary": "PRESS RELEASE | JANUARY 30, 2026 FDIC Publishes Enforcement Orders for December 2025 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025. There are no administrative hearings scheduled for February 2026. Orders Terminating Consent Orders: Luana…"
     },
     {
+      "category": "OFAC",
       "source": "OFAC",
       "title": "Iran-related Designations; Counter Terrorism Designations; Non-Proliferation Designation Update and Designation Removal",
       "published_at": "2026-01-30T00:00:00Z",
@@ -381,6 +461,7 @@
       "summary": ""
     },
     {
+      "category": "IRS",
       "source": "IRS",
       "title": "IRS announces 2026 Tax Counseling for the Elderly and Volunteer Income Tax Assistance Program Grants",
       "published_at": "2026-01-30T00:00:00Z",
@@ -388,13 +469,7 @@
       "summary": "IR-2026-19, Jan. 30, 2026 — The Internal Revenue Service announced today the award of $53 million in Tax Counseling for the Elderly and Volunteer Income Tax Assistance grants to organizations that provide federal tax return preparation at no cost."
     },
     {
-      "source": "USDA APHIS",
-      "title": "USDA Shifts Sterile Fly Dispersal Efforts to Defend U.S. Border",
-      "published_at": "2026-01-30T00:00:00Z",
-      "url": "https://www.aphis.usda.gov/news/agency-announcements/usda-shifts-sterile-fly-dispersal-efforts-defend-us-border",
-      "summary": "USDA's Animal and Plant Health Inspection Service (APHIS) is announcing a shift in its sterile fly dispersal efforts to stop the northern spread of New World screwworm (NWS). USDA will reallocate aircraft and sterile insects to reinforce coverage along the U.S.-Mexico border."
-    },
-    {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
       "published_at": "2026-01-30T00:00:00Z",
@@ -402,6 +477,7 @@
       "summary": "The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi"
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Issues List of Banks Examined for CRA Compliance",
       "published_at": "2026-01-30T00:00:00Z",
@@ -409,6 +485,7 @@
       "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
       "published_at": "2026-01-30T00:00:00Z",
@@ -416,6 +493,7 @@
       "summary": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois"
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Publishes December Enforcement Actions",
       "published_at": "2026-01-30T00:00:00Z",
@@ -423,6 +501,7 @@
       "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah",
       "published_at": "2026-01-30T00:00:00Z",
@@ -430,6 +509,7 @@
       "summary": "The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM"
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements",
       "published_at": "2026-01-30T00:00:00Z",
@@ -437,6 +517,7 @@
       "summary": "The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Board of Directors Establishes Office of Supervisory Appeals",
       "published_at": "2026-01-30T00:00:00Z",
@@ -444,6 +525,7 @@
       "summary": "The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "Travis Hill Sworn in as the 23rd Chairman of the FDIC",
       "published_at": "2026-01-30T00:00:00Z",
@@ -451,6 +533,7 @@
       "summary": "Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC)."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "Agencies Issue 2025 Shared National Credit Program Report",
       "published_at": "2026-01-30T00:00:00Z",
@@ -458,6 +541,7 @@
       "summary": "Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans"
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Issues List of Banks Examined for CRA Compliance",
       "published_at": "2026-01-30T00:00:00Z",
@@ -465,6 +549,7 @@
       "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations",
       "published_at": "2026-01-30T00:00:00Z",
@@ -472,6 +557,7 @@
       "summary": "The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Publishes November Enforcement Actions",
       "published_at": "2026-01-30T00:00:00Z",
@@ -479,6 +565,7 @@
       "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio",
       "published_at": "2026-01-30T00:00:00Z",
@@ -486,6 +573,7 @@
       "summary": "The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered.."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Board Approves 2026 Operating Budget",
       "published_at": "2026-01-30T00:00:00Z",
@@ -493,6 +581,7 @@
       "summary": "The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices",
       "published_at": "2026-01-30T00:00:00Z",
@@ -500,6 +589,7 @@
       "summary": "The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment",
       "published_at": "2026-01-30T00:00:00Z",
@@ -507,6 +597,7 @@
       "summary": "The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu"
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
       "published_at": "2026-01-30T00:00:00Z",
@@ -514,6 +605,7 @@
       "summary": "The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act."
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances",
       "published_at": "2026-01-30T00:00:00Z",
@@ -521,6 +613,7 @@
       "summary": "The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan"
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Issues List of Banks Examined for CRA Compliance",
       "published_at": "2026-01-30T00:00:00Z",
@@ -528,6 +621,7 @@
       "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the CRA. The list covers evaluation ratings that the FDIC assign"
     },
     {
+      "category": "Banking",
       "source": "FDIC",
       "title": "FDIC Issues CRA Examination Schedule for First Quarter 2026",
       "published_at": "2026-01-30T00:00:00Z",
@@ -535,6 +629,7 @@
       "summary": "The FDIC today issued the list of institutions scheduled for a CRA examination during the first quarter 2026. CRA regulations require each federal bank and thr"
     },
     {
+      "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces appointment of seven members, including four new members, to its Insurance Policy Advisory Committee (IPAC)",
       "published_at": "2026-01-29T18:30:00Z",
