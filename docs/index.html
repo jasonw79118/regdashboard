@@ -1,120 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>RegDashboard – Regulatory Intelligence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>RegDashboard</h1>
+    <div class="subtitle">Rolling Regulatory Intelligence</div>
+    <div id="window" class="window"></div>
+    <div id="count" class="window"></div>
+
+    <div class="window" style="font-size: 0.95em;">
+      Copilot-friendly exports:
+      <a href="raw/" target="_blank" rel="noopener">Static Export</a>
+      · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
+      · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
+      · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
+    </div>
+
+    <div class="window" style="font-size: 0.95em;">
+      <a
+        href="https://github.com/jasonw79118/regdashboard/actions/workflows/regdashboard-build.yml"
+        target="_blank"
+        rel="noopener"
+        class="btn"
+        style="display:inline-block;padding:8px 12px;border:1px solid #ddd;border-radius:10px;text-decoration:none;"
+      >
+        Force update (Run workflow)
+      </a>
+      <span style="margin-left:10px;color:#555;">
+        Opens GitHub Actions — click <strong>Run workflow</strong> to rebuild now.
+      </span>
+    </div>
+
+    <nav class="nav">
+      <a href="#ofac">OFAC</a>
+      <a href="#irs">IRS</a>
+      <a href="#payments">Payments</a>
+      <a href="#banking">Banking</a>
+      <a href="#mortgage">Mortgage</a>
+      <a href="#usda">USDA</a>
+      <a href="#exec">Legislative & Executive</a>
+      <a href="#infosec">Information Security</a>
+      <a href="#fintech">Fintech Watch</a>
+      <a href="#cardnet">Payment Card Networks</a>
+      <a href="raw/" target="_blank" rel="noopener">Static Export (Copilot)</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <p id="loading">Loading items…</p>
+  </main>
+
+  <footer>
+    <hr />
+    <p class="disclaimer">
+      RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
+      Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
+    </p>
+    <p id="last-updated" style="margin:18px 0;text-align:center;font-size:12px;opacity:.75;"></p>
+  </footer>
+
 <script>
-  const GROUPS = [
-    { id: "ofac", title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
-    { id: "irs", title: "IRS – Tax Administration", keys: ["IRS"] },
-    { id: "payments", title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
-    { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
-    { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
-    { id: "usda", title: "USDA – Rural Development (Housing)", keys: ["USDA"] },
-    { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
-    { id: "infosec", title: "Information Security", keys: ["Information Security"] },
-    { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch"] },
+  // Run only after DOM is ready (prevents null element errors)
+  window.addEventListener("DOMContentLoaded", () => {
+    const GROUPS = [
+      { id: "ofac", title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
+      { id: "irs", title: "IRS – Tax Administration", keys: ["IRS"] },
+      { id: "payments", title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
+      { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
+      { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
+      { id: "usda", title: "USDA – Rural Development (Housing)", keys: ["USDA"] },
+      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
+      { id: "infosec", title: "Information Security", keys: ["Information Security"] },
+      { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch"] },
+      { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Networks"] },
+    ];
 
-    // ✅ FIX: build.py outputs "Payment Card Network" (singular)
-    // Keep both to be future-proof.
-    { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Network", "Payment Card Networks"] },
-  ];
+    function $(id) { return document.getElementById(id); }
 
-  function fmtDate(iso) {
-    const d = new Date(iso);
-    if (Number.isNaN(d.getTime())) return "";
-    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
-  }
-
-  function itemKey(i) {
-    const k = (i && (i.category || i.source)) ? (i.category || i.source) : "";
-    return String(k || "").trim();
-  }
-
-  function renderSection(group, items, content) {
-    const section = document.createElement("section");
-    section.id = group.id;
-
-    const h2 = document.createElement("h2");
-    h2.textContent = group.title;
-    section.appendChild(h2);
-
-    const groupItems = (items || [])
-      .filter(i => group.keys.includes(itemKey(i)))
-      .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-
-    if (!groupItems.length) {
-      const empty = document.createElement("div");
-      empty.className = "empty";
-      empty.textContent = "No items in the current rolling window.";
-      section.appendChild(empty);
-    } else {
-      const ul = document.createElement("ul");
-      ul.className = "items";
-
-      groupItems.forEach(i => {
-        const li = document.createElement("li");
-        li.innerHTML = `
-          <div class="headline">
-            <span class="source">[${i.source}]</span>
-            <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
-            <span class="date">${fmtDate(i.published_at)}</span>
-          </div>
-          ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
-        `;
-        ul.appendChild(li);
-      });
-
-      section.appendChild(ul);
+    function fmtDate(iso) {
+      const d = new Date(iso);
+      if (Number.isNaN(d.getTime())) return "";
+      return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
     }
 
-    content.appendChild(section);
-  }
+    function itemKey(i) {
+      return (i && (i.category || i.source)) ? (i.category || i.source) : "";
+    }
 
-  function dataUrl() {
-    // ✅ simplest + reliable for GitHub Pages project sites
-    return `data/items.json?v=${Date.now()}`;
-  }
+    function renderSection(group, items, content) {
+      const section = document.createElement("section");
+      section.id = group.id;
 
-  (async () => {
-    const content = document.getElementById("content");
-    const loading = document.getElementById("loading");
+      const h2 = document.createElement("h2");
+      h2.textContent = group.title;
+      section.appendChild(h2);
 
-    try {
-      const url = dataUrl();
-      const r = await fetch(url, { cache: "no-store" });
-      if (!r.ok) throw new Error(`HTTP ${r.status} loading ${url}`);
-      const data = await r.json();
+      const groupItems = (items || [])
+        .filter(i => group.keys.includes(itemKey(i)))
+        .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
-      document.getElementById("window").textContent =
-        `Rolling window: ${fmtDate(data.window_start)} → ${fmtDate(data.window_end)} (UTC)`;
+      if (!groupItems.length) {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.textContent = "No items in the current rolling window.";
+        section.appendChild(empty);
+      } else {
+        const ul = document.createElement("ul");
+        ul.className = "items";
 
-      document.getElementById("count").textContent =
-        `Total items loaded: ${(data.items || []).length}`;
+        groupItems.forEach(i => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+            <div class="headline">
+              <span class="source">[${i.source}]</span>
+              <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
+              <span class="date">${fmtDate(i.published_at)}</span>
+            </div>
+            ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
+          `;
+          ul.appendChild(li);
+        });
 
-      const last = document.getElementById("last-updated");
-      if (last) {
-        const ct = data.generated_at_ct || "";
-        const utc = data.generated_at_utc || "";
-        last.textContent = ct
-          ? `Last updated: ${ct} (CT)${utc ? " — " + utc + " (UTC)" : ""}`
-          : (utc ? `Last updated: ${utc} (UTC)` : "");
+        section.appendChild(ul);
       }
 
-      content.innerHTML = "";
-      GROUPS.forEach(g => renderSection(g, data.items || [], content));
-      if (loading) loading.remove();
-    } catch (e) {
-      if (loading) loading.remove();
-      console.error(e);
-
-      content.innerHTML = `
-        <div class="empty" style="border:1px solid #f2c; padding:12px; border-radius:10px;">
-          <p><strong>Could not load dashboard data.</strong></p>
-          <p style="margin:6px 0 12px 0;">${String(e)}</p>
-          <p style="margin:0;">
-            Try:
-            <a href="raw/" target="_blank" rel="noopener">Static Export</a> ·
-            <a href="raw/index.html" target="_blank" rel="noopener">raw/index.html</a> ·
-            <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
-          </p>
-        </div>
-      `;
+      content.appendChild(section);
     }
-  })();
+
+    function dataUrl() {
+      const base = new URL(window.location.href);
+      const u = new URL("data/items.json", base);
+      u.searchParams.set("v", String(Date.now())); // cache-bust
+      return u.toString();
+    }
+
+    (async () => {
+      const content = $("content");
+      if (!content) {
+        console.error("Missing <main id='content'> in index.html");
+        return;
+      }
+
+      const loading = $("loading");
+
+      try {
+        const url = dataUrl();
+        const r = await fetch(url, { cache: "no-store" });
+        if (!r.ok) throw new Error(`HTTP ${r.status} loading ${url}`);
+        const data = await r.json();
+
+        const w = $("window");
+        if (w) w.textContent = `Rolling window: ${fmtDate(data.window_start)} → ${fmtDate(data.window_end)} (UTC)`;
+
+        const c = $("count");
+        if (c) c.textContent = `Total items loaded: ${(data.items || []).length}`;
+
+        const last = $("last-updated");
+        if (last) {
+          const ct = data.generated_at_ct || "";
+          const utc = data.generated_at_utc || "";
+          last.textContent = ct
+            ? `Last updated: ${ct} (CT)${utc ? " — " + utc + " (UTC)" : ""}`
+            : (utc ? `Last updated: ${utc} (UTC)` : "");
+        }
+
+        content.innerHTML = "";
+        GROUPS.forEach(g => renderSection(g, data.items || [], content));
+        if (loading) loading.remove();
+      } catch (e) {
+        if (loading) loading.remove();
+        console.error(e);
+
+        content.innerHTML = `
+          <div class="empty" style="border:1px solid #f2c; padding:12px; border-radius:10px;">
+            <p><strong>Could not load dashboard data.</strong></p>
+            <p style="margin:6px 0 12px 0;">${String(e)}</p>
+            <p style="margin:0;">
+              Try:
+              <a href="raw/" target="_blank" rel="noopener">Static Export</a> ·
+              <a href="raw/index.html" target="_blank" rel="noopener">raw/index.html</a> ·
+              <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
+            </p>
+          </div>
+        `;
+      }
+    })();
+  });
 </script>
+</body>
+</html>
+
