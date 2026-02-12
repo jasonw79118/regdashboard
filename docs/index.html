@@ -20,6 +20,7 @@
       · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
       · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
       · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
+      · <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
     </div>
 
     <div class="window" style="font-size: 0.95em;">
@@ -69,16 +70,19 @@
   // Run only after DOM is ready (prevents null element errors)
   window.addEventListener("DOMContentLoaded", () => {
     const GROUPS = [
-      { id: "ofac", title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
-      { id: "irs", title: "IRS – Tax Administration", keys: ["IRS"] },
-      { id: "payments", title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
+      { id: "ofac",    title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
+      { id: "irs",     title: "IRS – Tax Administration", keys: ["IRS"] },
+      { id: "payments",title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
       { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
-      { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
-      { id: "usda", title: "USDA – Rural Development (Housing)", keys: ["USDA"] },
-      { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
+      { id: "mortgage",title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
+      { id: "usda",    title: "USDA – Rural Development (Housing)", keys: ["USDA"] },
+      { id: "exec",    title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
       { id: "infosec", title: "Information Security", keys: ["Information Security"] },
       { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch"] },
-      { id: "cardnet", title: "Payment Card Network", keys: ["Payment Card Network"] },
+
+      // Keep your section id and nav label the same; keys are the important part.
+      // build.py outputs "Payment Card Network" (singular) — we accept a few variants just in case.
+      { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Network", "Payment Card Networks", "Card Network", "Card Networks"] },
     ];
 
     function $(id) { return document.getElementById(id); }
@@ -89,8 +93,22 @@
       return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
     }
 
+    // Normalize category keys so small naming changes don't cause empty sections.
+    function normalizeKey(k) {
+      const s = String(k || "").trim();
+      if (!s) return "";
+      const lower = s.toLowerCase();
+
+      if (lower === "is" || lower === "info sec" || lower === "infosec") return "Information Security";
+      if (lower === "cardnet" || lower === "card network" || lower === "card networks") return "Payment Card Network";
+      if (lower === "payment card networks") return "Payment Card Network"; // normalize plural -> singular
+
+      return s;
+    }
+
     function itemKey(i) {
-      return (i && (i.category || i.source)) ? (i.category || i.source) : "";
+      if (!i) return "";
+      return normalizeKey(i.category || i.source || "");
     }
 
     function renderSection(group, items, content) {
@@ -102,7 +120,7 @@
       section.appendChild(h2);
 
       const groupItems = (items || [])
-        .filter(i => group.keys.includes(itemKey(i)))
+        .filter(i => group.keys.map(normalizeKey).includes(itemKey(i)))
         .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
       if (!groupItems.length) {
@@ -170,9 +188,11 @@
             : (utc ? `Last updated: ${utc} (UTC)` : "");
         }
 
+        // Remove loading first (before clearing content)
+        if (loading) loading.remove();
+
         content.innerHTML = "";
         GROUPS.forEach(g => renderSection(g, data.items || [], content));
-        if (loading) loading.remove();
       } catch (e) {
         if (loading) loading.remove();
         console.error(e);
@@ -195,4 +215,3 @@
 </script>
 </body>
 </html>
-
