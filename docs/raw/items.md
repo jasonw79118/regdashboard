@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-01-29T16:54:36Z` → `2026-02-12T16:54:36Z` (UTC)
-Last updated: `2026-02-12T10:54:36-06:00` (CT) — `2026-02-12T16:54:36Z` (UTC)
+Window: `2026-01-29T18:27:51Z` → `2026-02-12T18:27:51Z` (UTC)
+Last updated: `2026-02-12T12:27:51-06:00` (CT) — `2026-02-12T18:27:51Z` (UTC)
 
 ## Press Release: FDIC Releases Economic Scenarios for 2026 Stress Testing
 - Source: FDIC
@@ -34,6 +34,12 @@ Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation
 - URL: https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-12.xml
 
 Content Files XML
+
+## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-12T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260212
 
 ## OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
 - Source: OCC
@@ -75,6 +81,14 @@ The Federal Reserve Board of Governors in Washington DC.
 
 We are supporting America's homeowners and renters while serving as a stabilizing force in the U.S. housing finance system.
 
+## My Home by Freddie Mac ® Resources to help you rent, buy, and own your home.
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-02-12T00:00:00Z
+- URL: https://myhome.freddiemac.com
+
+Whether you're looking to buy, sell, refinance, rent or maintain your current home, we have the tools and resources to help you through the process.
+
 ## Corporate February 12, 2026 Transcript: Freddie Mac CFO Discusses Fourth Quarter and Full-Year 2025 Financial and Business Results The company delivered a strong financial performance for 2025, our third consecutive yea…
 - Source: Freddie Mac
 - Category: Mortgage
@@ -87,6 +101,12 @@ We are supporting America's homeowners and renters while serving as a stabilizin
 - Published: 2026-02-12T00:00:00Z
 - URL: https://www.banking.senate.gov/news/press-releases
 
+## Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair
+
 ## Ahead of Hearing, Warren Presses SEC Chair Paul Atkins on Implementation of Trump Executive Order To Weaken Shareholder Rights
 - Source: Senate Banking
 - Category: Legislative
@@ -98,12 +118,6 @@ We are supporting America's homeowners and renters while serving as a stabilizin
 - Category: Legislative
 - Published: 2026-02-12T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-warner-press-commerce-secretary-lutnick-on-reportedly-pushing-out-key-officials-working-to-counter-cyber-threats-posed-by-china
-
-## Following Push from Warren Oversight, Majority of Sports Gambling Market Will Restrict Credit Card Companies From Ripping Off Americans
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/following-push-from-warren-oversight-majority-of-sports-gambling-market-will-restrict-credit-card-companies-from-ripping-off-americans
 
 ## How the Industry Is Adapting to Nacha’s New Risk Management Rules
 - Source: NACHA
@@ -366,14 +380,6 @@ Content Files PDF XML Metadata download Descriptive Metadata (MODS) Preservation
 - URL: https://www.govinfo.gov/bulkdata/FR/2023/08/FR-2023-08-11.xml
 
 Content Files XML
-
-## My Home by Freddie Mac ® Resources to help you rent, buy, and own your home.
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-05T00:00:00Z
-- URL: https://myhome.freddiemac.com
-
-Whether you're looking to buy, sell, refinance, rent or maintain your current home, we have the tools and resources to help you through the process.
 
 ## Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
 - Source: FRB

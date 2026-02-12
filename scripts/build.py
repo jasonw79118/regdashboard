@@ -39,6 +39,7 @@ RAW_SITEMAP_PATH = f"{RAW_DIR}/sitemap.xml"
 PRINT_DIR = "docs/print"
 PRINT_HTML_PATH = f"{PRINT_DIR}/items.html"
 
+# GitHub Pages project URL
 PUBLIC_BASE = "https://jasonw79118.github.io/regdashboard"
 
 WINDOW_DAYS = 14
@@ -70,13 +71,14 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/2.7 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/2.8 (+https://github.com/jasonw79118/regdashboard)"
 
 
 # ============================
 # CATEGORY MAPPING (for tiles)
 # ============================
 
+# IMPORTANT: These must match your index.html GROUPS keys.
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
     "IRS": "IRS",
@@ -99,7 +101,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "White House": "Legislative",
     "GovInfo Federal Register": "Legislative",
 
-    # USDA tile (Rural Development)
+    # USDA tile
     "USDA Rural Development": "USDA",
 
     # Fintech Watch tile
@@ -111,7 +113,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Finastra": "Fintech Watch",
     "TCS": "Fintech Watch",
 
-    # Payment Card Networks tile (must match index.html group key)
+    # Payment Card Networks tile (MATCHES index.html: "Payment Card Networks")
     "Visa": "Payment Card Networks",
     "Mastercard": "Payment Card Networks",
 
@@ -177,11 +179,9 @@ LAST_RUN_PATH = "docs/data/last_run.json"
 
 
 def _safe_central_tz():
-    # Windows Python often needs `pip install tzdata` for ZoneInfo.
     try:
         return ZoneInfo("America/Chicago")
     except Exception:
-        # Fallback: fixed offset (won’t handle DST perfectly but prevents crashes)
         return timezone(timedelta(hours=-6))
 
 
@@ -343,7 +343,7 @@ def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
 
 
 # ============================
-# SCHEDULER GATE (GitHub Actions friendly)
+# SCHEDULER GATE
 # ============================
 
 def _load_last_run_date() -> str:
@@ -374,6 +374,10 @@ def should_run_daily_ct(target_hour: int = 7, window_minutes: int = 40) -> bool:
 
 def force_run_enabled() -> bool:
     return os.getenv("FORCE_RUN", "").strip().lower() in {"1", "true", "yes"}
+
+
+def running_in_github_actions() -> bool:
+    return os.getenv("GITHUB_ACTIONS", "").strip().lower() == "true"
 
 
 # ============================
@@ -431,7 +435,6 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
     if NAV_TITLE_RE.match(t):
         return True
 
-    # very short numeric-only / arrow-only titles
     if re.fullmatch(r"[\d]+", t):
         return True
     if re.fullmatch(r"[«»‹›→←]+", t):
@@ -440,17 +443,13 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
     u = urlparse(url)
     q = parse_qs(u.query or "")
 
-    # Generic pagination params
     if any(k in q for k in ["page", "p", "start", "offset"]):
-        # Some legitimate sites paginate real article listings; we only reject if title looks nav-ish too.
         if NAV_TITLE_RE.search(t) or re.fullmatch(r"\d+", t):
             return True
 
-    # OFAC: pagination on recent-actions commonly uses ?page=
     if source == "OFAC":
         if "page" in q:
             return True
-        # If it’s literally the listing page itself, don’t treat as article
         if u.path.rstrip("/").endswith("/recent-actions"):
             return True
         if u.path.rstrip("/").endswith("/recent-actions/enforcement-actions"):
@@ -662,7 +661,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         if not allowed_for_source(source, url):
             continue
 
-        # Title extraction (handles empty <a> with aria-label)
         raw_title = a.get_text(" ", strip=True) or ""
         if not raw_title:
             raw_title = (a.get("aria-label") or "").strip()
@@ -673,11 +671,9 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         if not title:
             continue
 
-        # Skip generic CTA links
         if title.lower() in {"read more", "learn more", "more", "details"}:
             continue
 
-        # Skip nav/pagination/breadcrumb style links
         if is_probably_nav_link(source, title, url):
             continue
 
@@ -703,7 +699,7 @@ class SourcePage:
 
 
 KNOWN_FEEDS: Dict[str, List[str]] = {
-    # GovInfo changed; old /rss/collection/fr.xml now 404
+    # GovInfo: old /rss/collection/fr.xml now 404; use these
     "GovInfo Federal Register": [
         "https://www.govinfo.gov/rss/fr.xml",
         "https://www.govinfo.gov/rss/fr-bulkdata.xml",
@@ -717,38 +713,30 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 }
 
 START_PAGES: List[SourcePage] = [
-    # OFAC
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
 
-    # IRS
     SourcePage("IRS", "https://www.irs.gov/newsroom"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
 
-    # USDA Rural Development (Housing-focused)
     SourcePage("USDA Rural Development", "https://www.rd.usda.gov/newsroom/news-releases"),
 
-    # Banking regulators
     SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
     SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
     SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
 
-    # Mortgage / housing GSEs
     SourcePage("FHLB MPF", "https://www.fhlbmpf.com/about-us/news"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
     SourcePage("Freddie Mac", "https://www.freddiemac.com/media-room"),
 
-    # Legislative / exec
     SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
     SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
 
-    # Payments (NACHA taxonomy page you already have in items.json)
     SourcePage("NACHA", "https://www.nacha.org/taxonomy/term/362"),
 
-    # Fintech vendors
     SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases"),
     SourcePage("Fiserv", "https://investors.fiserv.com/news-events/news-releases"),
     SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
@@ -757,11 +745,9 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
     SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
 
-    # Payment Networks
     SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
     SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
 
-    # GovInfo Federal Register (feed-only)
     SourcePage("GovInfo Federal Register", "https://www.govinfo.gov/app/collection/fr"),
 ]
 
@@ -970,6 +956,17 @@ def write_raw_aux_files() -> None:
 """)
 
 
+def write_nojekyll() -> None:
+    # Helps prevent Pages/Jekyll from doing anything weird; serves files as-is.
+    ensure_dir("docs")
+    p = "docs/.nojekyll"
+    try:
+        with open(p, "w", encoding="utf-8") as f:
+            f.write("")
+    except Exception:
+        pass
+
+
 # ============================
 # BUILD
 # ============================
@@ -1018,7 +1015,6 @@ def build() -> None:
             if looks_js_rendered(html):
                 print("[note] page looks JS-rendered (may have limited links)", flush=True)
 
-            # Discover feeds
             feed_urls = discover_feeds(page_url, html)
             feed_items_total = 0
             for fu in feed_urls:
@@ -1029,7 +1025,6 @@ def build() -> None:
                     print(f"[feed] {len(got)} items from {fu}", flush=True)
             print(f"[feed] total: {feed_items_total} | feeds found: {len(feed_urls)}", flush=True)
 
-            # Listing links
             listing_links = main_content_links(source, page_url, html)
             print(f"[list] links captured: {len(listing_links)}", flush=True)
 
@@ -1037,13 +1032,11 @@ def build() -> None:
             src_cap = PER_SOURCE_DETAIL_CAP.get(source, DEFAULT_SOURCE_DETAIL_CAP)
 
             for title, url, dt in listing_links:
-                # Hard-stop nav links (again) — extra safety
                 if is_probably_nav_link(source, title, url):
                     continue
 
                 snippet = ""
 
-                # If no date near the link, detail-fetch (bounded)
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
@@ -1101,12 +1094,19 @@ def build() -> None:
         "generated_at_utc": iso_z(now_utc),
         "generated_at_ct": now_ct.isoformat(),
         "items": items,
+        "build_meta": {
+            "ua": UA,
+            "window_days": WINDOW_DAYS,
+            "global_detail_fetch_cap": GLOBAL_DETAIL_FETCH_CAP,
+            "generated_by": "scripts/build.py",
+        },
     }
 
-    # Ensure output dirs exist
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     ensure_dir(RAW_DIR)
     ensure_dir(PRINT_DIR)
+
+    write_nojekyll()
 
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -1133,18 +1133,27 @@ def build() -> None:
         f"\n[ok] wrote {OUT_PATH} with {len(items)} items | detail fetches: {global_detail_fetches}\n"
         f"[ok] wrote raw exports: {RAW_HTML_PATH}, {RAW_MD_PATH}, {RAW_TXT_PATH}, {RAW_NDJSON_PATH}\n"
         f"[ok] wrote print export: {PRINT_HTML_PATH}\n"
-        f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}",
+        f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}\n"
+        f"[ok] wrote docs/.nojekyll",
         flush=True
     )
 
 
 if __name__ == "__main__":
-    if force_run_enabled():
-        print("[run] FORCE_RUN enabled -> building now", flush=True)
-        build()
-        _save_last_run_date(datetime.now(CENTRAL_TZ).date().isoformat())
-    elif should_run_daily_ct(target_hour=7, window_minutes=40):
-        build()
-        _save_last_run_date(datetime.now(CENTRAL_TZ).date().isoformat())
+    # KEY CHANGE:
+    # - Local runs: ALWAYS build (so you can test)
+    # - GitHub Actions: keep the daily gate unless FORCE_RUN=1
+    if running_in_github_actions():
+        if force_run_enabled():
+            print("[run] FORCE_RUN enabled -> building now", flush=True)
+            build()
+            _save_last_run_date(datetime.now(CENTRAL_TZ).date().isoformat())
+        elif should_run_daily_ct(target_hour=7, window_minutes=40):
+            build()
+            _save_last_run_date(datetime.now(CENTRAL_TZ).date().isoformat())
+        else:
+            print("[skip] Not in 7:00 AM CT window or already ran today. Set FORCE_RUN=1 to override.", flush=True)
     else:
-        print("[skip] Not in 7:00 AM CT window or already ran today. Set FORCE_RUN=1 to override.", flush=True)
+        # local/dev
+        print("[run] local execution -> building now", flush=True)
+        build()

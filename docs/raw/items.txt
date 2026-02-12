@@ -26,6 +26,12 @@ FR-2026-02-12
 https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-12.xml
 Content Files XML
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-02-12T00:00:00Z
+Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
+https://ofac.treasury.gov/recent-actions/20260212
+------------------------------------------------------------
 Banking
 OCC
 2026-02-12T00:00:00Z
@@ -64,6 +70,13 @@ We are supporting America's homeowners and renters while serving as a stabilizin
 Mortgage
 Freddie Mac
 2026-02-12T00:00:00Z
+My Home by Freddie Mac ® Resources to help you rent, buy, and own your home.
+https://myhome.freddiemac.com
+Whether you're looking to buy, sell, refinance, rent or maintain your current home, we have the tools and resources to help you through the process.
+------------------------------------------------------------
+Mortgage
+Freddie Mac
+2026-02-12T00:00:00Z
 Corporate February 12, 2026 Transcript: Freddie Mac CFO Discusses Fourth Quarter and Full-Year 2025 Financial and Business Results The company delivered a strong financial performance for 2025, our third consecutive yea…
 https://www.freddiemac.com/perspectives/jim-whitlinger/transcript-freddie-mac-cfo-discusses-fourth-quarter-and-full-year-2025
 ------------------------------------------------------------
@@ -76,6 +89,12 @@ https://www.banking.senate.gov/news/press-releases
 Legislative
 Senate Banking
 2026-02-12T00:00:00Z
+Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair
+https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-12T00:00:00Z
 Ahead of Hearing, Warren Presses SEC Chair Paul Atkins on Implementation of Trump Executive Order To Weaken Shareholder Rights
 https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-warren-presses-sec-chair-paul-atkins-on-implementation-of-trump-executive-order-to-weaken-shareholder-rights
 ------------------------------------------------------------
@@ -84,12 +103,6 @@ Senate Banking
 2026-02-12T00:00:00Z
 Warren, Warner Press Commerce Secretary Lutnick on Reportedly Pushing Out Key Officials Working to Counter Cyber Threats Posed by China
 https://www.banking.senate.gov/newsroom/minority/warren-warner-press-commerce-secretary-lutnick-on-reportedly-pushing-out-key-officials-working-to-counter-cyber-threats-posed-by-china
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-12T00:00:00Z
-Following Push from Warren Oversight, Majority of Sports Gambling Market Will Restrict Credit Card Companies From Ripping Off Americans
-https://www.banking.senate.gov/newsroom/minority/following-push-from-warren-oversight-majority-of-sports-gambling-market-will-restrict-credit-card-companies-from-ripping-off-americans
 ------------------------------------------------------------
 Payments
 NACHA
@@ -326,13 +339,6 @@ GovInfo Federal Register
 FR-2023-08-11
 https://www.govinfo.gov/bulkdata/FR/2023/08/FR-2023-08-11.xml
 Content Files XML
-------------------------------------------------------------
-Mortgage
-Freddie Mac
-2026-02-05T00:00:00Z
-My Home by Freddie Mac ® Resources to help you rent, buy, and own your home.
-https://myhome.freddiemac.com
-Whether you're looking to buy, sell, refinance, rent or maintain your current home, we have the tools and resources to help you through the process.
 ------------------------------------------------------------
 Payments
 FRB

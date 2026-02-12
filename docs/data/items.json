@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-01-29T16:54:36Z",
-  "window_end": "2026-02-12T16:54:36Z",
-  "generated_at_utc": "2026-02-12T16:54:36Z",
-  "generated_at_ct": "2026-02-12T10:54:36-06:00",
+  "window_start": "2026-01-29T18:27:51Z",
+  "window_end": "2026-02-12T18:27:51Z",
+  "generated_at_utc": "2026-02-12T18:27:51Z",
+  "generated_at_ct": "2026-02-12T12:27:51-06:00",
   "items": [
     {
       "category": "Banking",
@@ -35,6 +35,14 @@
       "published_at": "2026-02-12T07:41:55Z",
       "url": "https://www.govinfo.gov/bulkdata/FR/2026/02/FR-2026-02-12.xml",
       "summary": "Content Files XML"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260212",
+      "summary": ""
     },
     {
       "category": "Banking",
@@ -79,6 +87,14 @@
     {
       "category": "Mortgage",
       "source": "Freddie Mac",
+      "title": "My Home by Freddie Mac ® Resources to help you rent, buy, and own your home.",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://myhome.freddiemac.com",
+      "summary": "Whether you're looking to buy, sell, refinance, rent or maintain your current home, we have the tools and resources to help you through the process."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
       "title": "Corporate February 12, 2026 Transcript: Freddie Mac CFO Discusses Fourth Quarter and Full-Year 2025 Financial and Business Results The company delivered a strong financial performance for 2025, our third consecutive yea…",
       "published_at": "2026-02-12T00:00:00Z",
       "url": "https://www.freddiemac.com/perspectives/jim-whitlinger/transcript-freddie-mac-cfo-discusses-fourth-quarter-and-full-year-2025",
@@ -95,6 +111,14 @@
     {
       "category": "Legislative",
       "source": "Senate Banking",
+      "title": "Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
       "title": "Ahead of Hearing, Warren Presses SEC Chair Paul Atkins on Implementation of Trump Executive Order To Weaken Shareholder Rights",
       "published_at": "2026-02-12T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-warren-presses-sec-chair-paul-atkins-on-implementation-of-trump-executive-order-to-weaken-shareholder-rights",
@@ -106,14 +130,6 @@
       "title": "Warren, Warner Press Commerce Secretary Lutnick on Reportedly Pushing Out Key Officials Working to Counter Cyber Threats Posed by China",
       "published_at": "2026-02-12T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/warren-warner-press-commerce-secretary-lutnick-on-reportedly-pushing-out-key-officials-working-to-counter-cyber-threats-posed-by-china",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Following Push from Warren Oversight, Majority of Sports Gambling Market Will Restrict Credit Card Companies From Ripping Off Americans",
-      "published_at": "2026-02-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/following-push-from-warren-oversight-majority-of-sports-gambling-market-will-restrict-credit-card-companies-from-ripping-off-americans",
       "summary": ""
     },
     {
@@ -395,14 +411,6 @@
       "published_at": "2026-02-05T01:54:59Z",
       "url": "https://www.govinfo.gov/bulkdata/FR/2023/08/FR-2023-08-11.xml",
       "summary": "Content Files XML"
-    },
-    {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "My Home by Freddie Mac ® Resources to help you rent, buy, and own your home.",
-      "published_at": "2026-02-05T00:00:00Z",
-      "url": "https://myhome.freddiemac.com",
-      "summary": "Whether you're looking to buy, sell, refinance, rent or maintain your current home, we have the tools and resources to help you through the process."
     },
     {
       "category": "Payments",
@@ -788,5 +796,11 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260129a.htm",
       "summary": "Federal Reserve Board announces appointment of seven members, including four new members, to its Insurance Policy Advisory Committee (IPAC)"
     }
-  ]
+  ],
+  "build_meta": {
+    "ua": "regdashboard/2.8 (+https://github.com/jasonw79118/regdashboard)",
+    "window_days": 14,
+    "global_detail_fetch_cap": 160,
+    "generated_by": "scripts/build.py"
+  }
 }
