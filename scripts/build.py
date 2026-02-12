@@ -68,11 +68,16 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "NACHA": 25,
     "Federal Register": 0,  # API only
     "BleepingComputer": 0,  # feed-only
-    "Microsoft MSRC": 0,     # feed-only
+    "Microsoft MSRC": 0,    # feed-only
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/2.9 (+https://github.com/jasonw79118/regdashboard)"
+# Use a real browser UA (helps reduce 403/WAF blocks on IR sites)
+UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/122.0.0.0 Safari/537.36"
+)
 
 
 # ============================
@@ -100,7 +105,8 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     # Legislative tile
     "Senate Banking": "Legislative",
     "White House": "Legislative",
-    "Federal Register": "Legislative",
+    # If you have a separate FR tile, change this to "Federal Register"
+    "Federal Register": "Federal Register",
 
     # USDA tile (Rural Development)
     "USDA Rural Development": "USDA",
@@ -114,13 +120,13 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Finastra": "Fintech Watch",
     "TCS": "Fintech Watch",
 
-    # Payment Card Network tile (NOTE: singular to match your tile label)
+    # Payment Card Network tile
     "Visa": "Payment Card Network",
     "Mastercard": "Payment Card Network",
 
-    # InfoSec tile (NOTE: short key to match your tile label)
-    "BleepingComputer": "IS",
-    "Microsoft MSRC": "IS",
+    # InfoSec tile (your tab label is "Information Security")
+    "BleepingComputer": "Information Security",
+    "Microsoft MSRC": "Information Security",
 }
 
 
@@ -151,6 +157,8 @@ SESSION.headers.update({
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
     "Connection": "keep-alive",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
 })
 
 
@@ -170,8 +178,26 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/newsroom/news-releases"},
     },
     "OFAC": {"allow_domains": {"ofac.treasury.gov"}},
-    "Visa": {"allow_domains": {"usa.visa.com"}},
-    "Mastercard": {"allow_domains": {"www.mastercard.com"}},
+
+    # Tighten these to avoid "date links / downloads / random anchors" polluting tiles
+    "Fannie Mae": {
+        "allow_domains": {"www.fanniemae.com"},
+        "allow_path_prefixes": {"/newsroom/"},
+    },
+    "Freddie Mac": {
+        "allow_domains": {"www.freddiemac.com"},
+        "allow_path_prefixes": {"/media-room", "/media-room/"},
+    },
+
+    "Visa": {
+        "allow_domains": {"usa.visa.com"},
+        "allow_path_prefixes": {"/about-visa/newsroom/press-releases"},
+    },
+    "Mastercard": {
+        "allow_domains": {"www.mastercard.com"},
+        "allow_path_prefixes": {"/us/en/news-and-trends/press"},
+    },
+
     "Federal Register": {
         "allow_domains": {"www.federalregister.gov"},
         "allow_path_prefixes": {"/documents/"},
@@ -345,7 +371,12 @@ def fetch_bytes(url: str, timeout: int = 25) -> Optional[bytes]:
         return None
     try:
         time.sleep(REQUEST_DELAY_SEC)
-        r = SESSION.get(url, timeout=(10, timeout), allow_redirects=True)
+        r = SESSION.get(
+            url,
+            timeout=(10, timeout),
+            allow_redirects=True,
+            headers={"Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8"},
+        )
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
             return None
@@ -485,6 +516,37 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
 
 
 # ============================
+# "JUNK LINK" FILTERS (stops date/metadata/download links polluting tiles)
+# ============================
+
+FILE_EXT_DENY_RE = re.compile(r"\.(pdf|xml|zip|doc|docx|xls|xlsx|ppt|pptx|csv|json)(\?|$)", re.I)
+JUNK_TITLE_RE = re.compile(
+    r"\b(content files|metadata|mods|premis|download|zip|xml|pdf|all content|granules)\b",
+    re.I,
+)
+DATE_ONLY_TITLE_RE = re.compile(
+    r"^\s*(\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2}/\d{2,4}|[A-Z][a-z]{2,9}\.?\s+\d{1,2},\s+\d{4})\s*$"
+)
+
+
+def is_junk_link(title: str, url: str) -> bool:
+    t = (title or "").strip()
+    u = (url or "").strip()
+    if not t or not u:
+        return True
+    if FILE_EXT_DENY_RE.search(u):
+        return True
+    ul = u.lower()
+    if any(x in ul for x in ["/download", "download?", "format=xml", "format=pdf", "format=zip"]):
+        return True
+    if JUNK_TITLE_RE.search(t):
+        return True
+    if DATE_ONLY_TITLE_RE.match(t):
+        return True
+    return False
+
+
+# ============================
 # FEED DETECTION + DISCOVERY
 # ============================
 
@@ -556,10 +618,12 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
             continue
 
         url = canonical_url(link)
-        # feeds can include off-domain tracking links; keep allow rules
+
         if not allowed_for_source(source, url):
             continue
         if is_probably_nav_link(source, title, url):
+            continue
+        if is_junk_link(title, url):
             continue
 
         dt = None
@@ -597,47 +661,38 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
 # ============================
 
 def items_from_federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
-    """
-    Uses FederalRegister.gov API v1:
-      GET /documents.json
-      with conditions[topics][]=<slug>
-      and publication_date gte/lte
-    """
     out: List[Dict[str, Any]] = []
 
     start_d = start.date().isoformat()
     end_d = end.date().isoformat()
-
     endpoint = f"{FEDREG_API_BASE.rstrip('/')}/documents.json"
 
-    # We’ll pull each topic separately to keep things simple + predictable.
     for topic in FEDREG_TOPICS:
         params: Dict[str, Any] = {
-            "per_page": 200,  # enough for 14 days per topic
+            "per_page": 200,
             "page": 1,
             "order": ["publication_date", "desc"],
             "conditions[publication_date][gte]": start_d,
             "conditions[publication_date][lte]": end_d,
             "conditions[topics][]": topic,
-            # keep payload reasonable but useful
             "fields[]": [
                 "title",
                 "publication_date",
                 "html_url",
-                "document_number",
-                "type",
                 "abstract",
-                "agencies",
             ],
         }
 
         j = fetch_json(endpoint, params=params, timeout=40)
         if not j:
+            print(f"[api-warn] Federal Register topic '{topic}': no response", flush=True)
             continue
 
         results = j.get("results") or []
         if not isinstance(results, list):
             continue
+
+        print(f"[api] Federal Register topic '{topic}': {len(results)} raw results", flush=True)
 
         for r in results:
             try:
@@ -651,18 +706,19 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                 if not dt or not in_window(dt, start, end):
                     continue
 
-                # If html_url is missing domain (rare), normalize
                 if url.startswith("/"):
                     url = "https://www.federalregister.gov" + url
                 url = canonical_url(url)
 
                 if not allowed_for_source("Federal Register", url):
                     continue
+                if is_junk_link(title, url):
+                    continue
 
                 abstract = clean_text(str(r.get("abstract") or ""), 380)
 
                 out.append({
-                    "category": CATEGORY_BY_SOURCE.get("Federal Register", "Legislative"),
+                    "category": CATEGORY_BY_SOURCE.get("Federal Register", "Federal Register"),
                     "source": "Federal Register",
                     "title": title,
                     "published_at": iso_z(dt),
@@ -671,8 +727,6 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                 })
             except Exception:
                 continue
-
-        print(f"[api] Federal Register topic '{topic}': {len(results)} raw results", flush=True)
 
     return out
 
@@ -787,6 +841,10 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
             continue
 
         if is_probably_nav_link(source, title, url):
+            continue
+
+        # CRITICAL: stop pulling "date links", "download links", "metadata links", etc.
+        if is_junk_link(title, url):
             continue
 
         parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
@@ -1094,9 +1152,7 @@ def build() -> None:
     for sp in START_PAGES:
         pages_by_source.setdefault(sp.source, []).append(sp.url)
 
-    # CRITICAL FIX:
-    # Ensure sources that are "feed-only" (or API-only) still get processed,
-    # even if START_PAGES doesn't list them for some reason.
+    # Ensure feed-only and API-only sources still get processed
     for src in set(KNOWN_FEEDS.keys()) | {"Federal Register"}:
         pages_by_source.setdefault(src, [])
 
@@ -1104,14 +1160,14 @@ def build() -> None:
         print(f"\n===== SOURCE: {source} =====", flush=True)
         source_items_before = len(all_items)
 
-        # 0) Federal Register API (topics)
+        # 0) Federal Register API (topics) — NO GovInfo scraping
         if source == "Federal Register":
             got = items_from_federal_register_topics(window_start, window_end)
             if got:
                 all_items.extend(got)
                 print(f"[api] Federal Register: {len(got)} items (topics)", flush=True)
             else:
-                print(f"[note] Federal Register: no qualifying items in window (or API issue).", flush=True)
+                print("[note] Federal Register: no qualifying items (or API issue).", flush=True)
             continue
 
         # 1) Known feeds
@@ -1159,6 +1215,8 @@ def build() -> None:
 
             for title, url, dt in listing_links:
                 if is_probably_nav_link(source, title, url):
+                    continue
+                if is_junk_link(title, url):
                     continue
 
                 snippet = ""
