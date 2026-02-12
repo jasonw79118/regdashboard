@@ -9,7 +9,10 @@
     { id: "exec", title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
     { id: "infosec", title: "Information Security", keys: ["Information Security"] },
     { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch"] },
-    { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Networks"] },
+
+    // ✅ FIX: build.py outputs "Payment Card Network" (singular)
+    // Keep both to be future-proof.
+    { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Network", "Payment Card Networks"] },
   ];
 
   function fmtDate(iso) {
@@ -19,7 +22,8 @@
   }
 
   function itemKey(i) {
-    return (i && (i.category || i.source)) ? (i.category || i.source) : "";
+    const k = (i && (i.category || i.source)) ? (i.category || i.source) : "";
+    return String(k || "").trim();
   }
 
   function renderSection(group, items, content) {
@@ -63,11 +67,8 @@
   }
 
   function dataUrl() {
-    // robust for GitHub Pages project sites; also cache-bust
-    const base = new URL(window.location.href);
-    const u = new URL("data/items.json", base);
-    u.searchParams.set("v", String(Date.now()));
-    return u.toString();
+    // ✅ simplest + reliable for GitHub Pages project sites
+    return `data/items.json?v=${Date.now()}`;
   }
 
   (async () => {
