@@ -1,5 +1,25 @@
 IS
 BleepingComputer
+2026-02-13T12:35:09Z
+CISA flags critical Microsoft SCCM flaw as exploited in attacks
+https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
+CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-13T09:31:01Z
+Microsoft fixes bug that blocked Google Chrome from launching
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
+Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-13T00:00:00Z
+Block ads and trackers on 9 devices for $16 in this AdGuard deal
+https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-12T22:57:54Z
 Russia tries to block WhatsApp, Telegram in communication blockade
 https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/
@@ -102,12 +122,6 @@ BleepingComputer
 Apple fixes zero-day flaw used in 'extremely sophisticated' attacks
 https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-12T00:00:00Z
-Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
-https://ofac.treasury.gov/recent-actions/20260212
 ------------------------------------------------------------
 IRS
 IRS
@@ -332,6 +346,12 @@ https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduce
 Fintech Watch
 Jack Henry
 2026-02-12T00:00:00Z
+Key Ratios
+https://ir.jackhenry.com/financials/key-ratios
+------------------------------------------------------------
+Fintech Watch
+Jack Henry
+2026-02-12T00:00:00Z
 Earnings Estimates
 https://ir.jackhenry.com/financials/earnings-estimates
 ------------------------------------------------------------
@@ -360,20 +380,6 @@ BleepingComputer
 Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
 https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
 The AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-11T19:29:14Z
-Crazy ransomware gang abuses employee monitoring tool in attacks
-https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
-A member of the Crazy ransomware gang is abusing legitimate employee monitoring software and the SimpleHelp remote support tool to maintain persistence in corporate networks, evade detection, and prepare for ransomware deployment. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-11T19:14:32Z
-Police arrest seller of JokerOTP MFA passcode capturing tool
-https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
-The Netherlands Police have arrested a a 21-year-old man from Dordrecht, suspected of selling access to the JokerOTP phishing automation tool that can intercept one-time passwords (OTP) for hijacking accounts. [...]
 ------------------------------------------------------------
 Payments
 NACHA
@@ -408,12 +414,14 @@ Fannie Mae
 2026-02-11T00:00:00Z
 Fannie Mae Reports Net Income of $3.5 Billion for Fourth Quarter 2025 and $14.4 Billion for Full-Year 2025
 https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results
+Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission.
 ------------------------------------------------------------
 Mortgage
 Fannie Mae
 2026-02-11T00:00:00Z
 Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast
 https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast
+Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C.
 ------------------------------------------------------------
 Mortgage
 Fannie Mae
@@ -421,41 +429,17 @@ Fannie Mae
 Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026
 https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 ------------------------------------------------------------
-Payments
-NACHA
+IS
+BleepingComputer
 2026-02-11T00:00:00Z
-Subscribe to Payments Consulting
-https://www.nacha.org/taxonomy/term/362/feed
-------------------------------------------------------------
-Fintech Watch
-Jack Henry
-2026-02-11T00:00:00Z
-Key Ratios
-https://ir.jackhenry.com/financials/key-ratios
-------------------------------------------------------------
-Payment Card Network
-Visa
-2026-02-11T00:00:00Z
-Visa to Participate in Upcoming Investor Conferences
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
+Crazy ransomware gang abuses employee monitoring tool in attacks
+https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-11T00:00:00Z
-JBL Tune Buds 2 open-box deal drops earbuds to $39.99
-https://www.bleepingcomputer.com/offer/deals/jbl-tune-buds-2-open-box-deal-drops-earbuds-to-3999/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-11T00:00:00Z
-Proactive strategies for cyber resilience with Wazuh
-https://www.bleepingcomputer.com/news/security/proactive-strategies-for-cyber-resilience-with-wazuh/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-11T00:00:00Z
-LummaStealer infections surge after CastleLoader malware campaigns
-https://www.bleepingcomputer.com/news/security/lummastealer-infections-surge-after-castleloader-malware-campaigns/
+Police arrest seller of JokerOTP MFA passcode capturing tool
+https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
 ------------------------------------------------------------
 Legislative
 Federal Register
@@ -849,24 +833,6 @@ CVE-2025-2884 Cert CC: CVE-2025-2884 Out-of-Bounds read vulnerability in TCG TPM
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2884
 Added Affected Software for Windows packages
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-02-10T00:00:00Z
-Counter Terrorism Designations
-https://ofac.treasury.gov/recent-actions/20260210
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-10T00:00:00Z
-Sanctions List Updates
-https://ofac.treasury.gov/recent-actions/sanctions-list-updates
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-10T00:00:00Z
-Issuance of New and Amended Venezuela-related General Licenses
-https://ofac.treasury.gov/recent-actions/20260210_33
-------------------------------------------------------------
 Fintech Watch
 Fiserv
 2026-02-10T00:00:00Z
@@ -905,31 +871,6 @@ Jack Henry
 2026-02-06T05:00:00Z
 SEC Filings
 https://ir.jackhenry.com/financials/sec-filings
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-06T00:00:00Z
-Iran-related Designations
-https://ofac.treasury.gov/recent-actions/20260206
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-06T00:00:00Z
-Launch of Voluntary Self-Disclosure Portal
-https://ofac.treasury.gov/recent-actions/20260206_33
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-06T00:00:00Z
-Issuance of Venezuela-related Frequently Asked Questions
-https://ofac.treasury.gov/recent-actions/20260206_66
-------------------------------------------------------------
-Banking
-OCC
-2026-02-06T00:00:00Z
-Comptroller Discusses Importance of Financial Education
-https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
-Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 ------------------------------------------------------------
 Legislative
 Federal Register
@@ -980,12 +921,6 @@ CVE-2026-0391 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0391
 User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network.
 ------------------------------------------------------------
-Payment Card Network
-Visa
-2026-02-05T00:00:00Z
-Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-------------------------------------------------------------
 Payments
 FRB
 2026-02-04T21:30:00Z
@@ -1005,18 +940,13 @@ Fannie Mae
 2026-02-04T00:00:00Z
 Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025
 https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-expands-rental-supply-nearly-74-billion-volume-2025
+Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025
 ------------------------------------------------------------
 Fintech Watch
 Jack Henry
 2026-02-04T00:00:00Z
 Corporate Events & Presentations
 https://ir.jackhenry.com/corporate-events-and-presentations
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-03T00:00:00Z
-Issuance of Venezuela-related General License
-https://ofac.treasury.gov/recent-actions/20260203
 ------------------------------------------------------------
 IRS
 IRS
@@ -1037,12 +967,6 @@ Fiserv
 2026-02-03T00:00:00Z
 January Deep Freeze Impacts Small Business Foot Traffic, New Fiserv Data Shows
 https://investors.fiserv.com/news-releases/news-release-details/january-deep-freeze-impacts-small-business-foot-traffic-new
-------------------------------------------------------------
-Payment Card Network
-Visa
-2026-02-03T00:00:00Z
-Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
 ------------------------------------------------------------
 IRS
 IRS
@@ -1084,11 +1008,4 @@ FDIC
 Press Release: FDIC Publishes Enforcement Orders for December 2025
 https://content.govdelivery.com/accounts/USFDIC/bulletins/406ad43
 PRESS RELEASE | JANUARY 30, 2026 FDIC Publishes Enforcement Orders for December 2025 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025. There are no administrative hearings scheduled for February 2026. Orders Terminating Consent Orders: Luana…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-01-30T03:20:43Z
-Chromium: CVE-2026-1504 Inappropriate implementation in Background Fetch API
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1504
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 ------------------------------------------------------------

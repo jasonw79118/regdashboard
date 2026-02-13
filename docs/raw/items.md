@@ -1,7 +1,29 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T01:30:32Z` → `2026-02-13T01:30:32Z` (UTC)
-Last updated: `2026-02-12T19:30:32-06:00` (CT) — `2026-02-13T01:30:32Z` (UTC)
+Window: `2026-01-30T13:00:57Z` → `2026-02-13T13:00:57Z` (UTC)
+Last updated: `2026-02-13T07:00:57-06:00` (CT) — `2026-02-13T13:00:57Z` (UTC)
+
+## CISA flags critical Microsoft SCCM flaw as exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T12:35:09Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
+
+CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]
+
+## Microsoft fixes bug that blocked Google Chrome from launching
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T09:31:01Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
+
+Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
+
+## Block ads and trackers on 9 devices for $16 in this AdGuard deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
 
 ## Russia tries to block WhatsApp, Telegram in communication blockade
 - Source: BleepingComputer
@@ -122,12 +144,6 @@ Google Threat Intelligence Group (GTIG) has published a new report warning about
 - URL: https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
 
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
-
-## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-12T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260212
 
 ## Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill
 - Source: IRS
@@ -377,6 +393,12 @@ Contact information for Freddie Mac contacts for shareholders, investors, member
 - Published: 2026-02-12T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduces-indx-real-time-cash-settlement-platform
 
+## Key Ratios
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-02-12T00:00:00Z
+- URL: https://ir.jackhenry.com/financials/key-ratios
+
 ## Earnings Estimates
 - Source: Jack Henry
 - Category: Fintech Watch
@@ -410,22 +432,6 @@ Microsoft has fixed a "remote code execution" vulnerability in Windows 11 Notepa
 - URL: https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
 
 The AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. [...]
-
-## Crazy ransomware gang abuses employee monitoring tool in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T19:29:14Z
-- URL: https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
-
-A member of the Crazy ransomware gang is abusing legitimate employee monitoring software and the SimpleHelp remote support tool to maintain persistence in corporate networks, evade detection, and prepare for ransomware deployment. [...]
-
-## Police arrest seller of JokerOTP MFA passcode capturing tool
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T19:14:32Z
-- URL: https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
-
-The Netherlands Police have arrested a a 21-year-old man from Dordrecht, suspected of selling access to the JokerOTP phishing automation tool that can intercept one-time passwords (OTP) for hijacking accounts. [...]
 
 ## How the Industry Is Adapting to Nacha’s New Risk Management Rules
 - Source: NACHA
@@ -465,11 +471,15 @@ Changes made to the security updates links and information. This is an informati
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results
 
+Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission.
+
 ## Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast
 - Source: Fannie Mae
 - Category: Mortgage
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast
+
+Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C.
 
 ## Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026
 - Source: Fannie Mae
@@ -477,41 +487,17 @@ Changes made to the security updates links and information. This is an informati
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 
-## Subscribe to Payments Consulting
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.nacha.org/taxonomy/term/362/feed
-
-## Key Ratios
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-02-11T00:00:00Z
-- URL: https://ir.jackhenry.com/financials/key-ratios
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Network
-- Published: 2026-02-11T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## JBL Tune Buds 2 open-box deal drops earbuds to $39.99
+## Crazy ransomware gang abuses employee monitoring tool in attacks
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/jbl-tune-buds-2-open-box-deal-drops-earbuds-to-3999/
+- URL: https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
 
-## Proactive strategies for cyber resilience with Wazuh
+## Police arrest seller of JokerOTP MFA passcode capturing tool
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/proactive-strategies-for-cyber-resilience-with-wazuh/
-
-## LummaStealer infections surge after CastleLoader malware campaigns
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/lummastealer-infections-surge-after-castleloader-malware-campaigns/
+- URL: https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
 
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
@@ -961,24 +947,6 @@ Added Affected Software for Windows packages
 
 Added Affected Software for Windows packages
 
-## Counter Terrorism Designations
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260210
-
-## Sanctions List Updates
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/sanctions-list-updates
-
-## Issuance of New and Amended Venezuela-related General Licenses
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260210_33
-
 ## Fiserv Reports Fourth Quarter and Full Year 2025 Results
 - Source: Fiserv
 - Category: Fintech Watch
@@ -1020,32 +988,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: Fintech Watch
 - Published: 2026-02-06T05:00:00Z
 - URL: https://ir.jackhenry.com/financials/sec-filings
-
-## Iran-related Designations
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206
-
-## Launch of Voluntary Self-Disclosure Portal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206_33
-
-## Issuance of Venezuela-related Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206_66
-
-## Comptroller Discusses Importance of Financial Education
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-06T00:00:00Z
-- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
-
-Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register
@@ -1103,12 +1045,6 @@ Information published.
 
 User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network.
 
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Network
-- Published: 2026-02-05T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
 ## Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
 - Source: FRB
 - Category: Payments
@@ -1131,17 +1067,13 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-02-04T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-expands-rental-supply-nearly-74-billion-volume-2025
 
+Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025
+
 ## Corporate Events & Presentations
 - Source: Jack Henry
 - Category: Fintech Watch
 - Published: 2026-02-04T00:00:00Z
 - URL: https://ir.jackhenry.com/corporate-events-and-presentations
-
-## Issuance of Venezuela-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-03T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260203
 
 ## Create an IRS Individual Online Account today for security and convenience
 - Source: IRS
@@ -1164,12 +1096,6 @@ IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Rev
 - Category: Fintech Watch
 - Published: 2026-02-03T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/january-deep-freeze-impacts-small-business-foot-traffic-new
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Network
-- Published: 2026-02-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
 
 ## IRS statements and announcements
 - Source: IRS
@@ -1216,11 +1142,3 @@ Federal Reserve Board announces approval of application by Cornerstone Capital B
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/406ad43
 
 PRESS RELEASE | JANUARY 30, 2026 FDIC Publishes Enforcement Orders for December 2025 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025. There are no administrative hearings scheduled for February 2026. Orders Terminating Consent Orders: Luana…
-
-## Chromium: CVE-2026-1504 Inappropriate implementation in Background Fetch API
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-01-30T03:20:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1504
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
