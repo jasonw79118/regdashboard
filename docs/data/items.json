@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-01-30T18:12:34Z",
-  "window_end": "2026-02-13T18:12:34Z",
-  "generated_at_utc": "2026-02-13T18:12:34Z",
-  "generated_at_ct": "2026-02-13T12:12:34-06:00",
+  "window_start": "2026-01-30T18:49:11Z",
+  "window_end": "2026-02-13T18:49:11Z",
+  "generated_at_utc": "2026-02-13T18:49:11Z",
+  "generated_at_ct": "2026-02-13T12:49:11-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
+      "published_at": "2026-02-13T18:35:15Z",
+      "url": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
+      "summary": "South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Couture, and Tiffany $25 million for failing to implement adequate security measures, which facilitated unauthorized access and the exposure of data belonging to more than 5.5 million customers. [...]"
+    },
+    {
+      "category": "Legislative",
+      "source": "White House",
+      "title": "President Trump Delivers Biggest Regulatory Relief in History",
+      "published_at": "2026-02-13T18:13:07Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-delivers-biggest-regulatory-relief-in-history/",
+      "summary": ""
+    },
     {
       "category": "Legislative",
       "source": "White House",
@@ -333,14 +349,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Windows 11 Notepad flaw let files execute silently via Markdown links",
-      "published_at": "2026-02-11T23:15:41Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/",
-      "summary": "Microsoft has fixed a \"remote code execution\" vulnerability in Windows 11 Notepad that allowed attackers to execute local or remote programs by tricking users into clicking specially crafted Markdown links, without displaying any Windows security warnings. [...]"
-    },
-    {
       "category": "Legislative",
       "source": "White House",
       "title": "Nominations Sent to the Senate",
@@ -415,17 +423,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts",
+      "title": "Windows 11 Notepad flaw let files execute silently via Markdown links",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
+      "title": "Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/",
       "summary": ""
     },
     {

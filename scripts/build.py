@@ -168,7 +168,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     "FRB": {"deny_domains": {"www.facebook.com"}},
 
     # Freddie Mac (WORKING SOURCE): GlobeNewswire organization page + release pages
-    # IMPORTANT: Use the server-rendered /search/organization/ and allow both /news-release/ and /en/news-release/
     "Freddie Mac": {
         "allow_domains": {"www.globenewswire.com"},
         "allow_path_prefixes": {
@@ -187,7 +186,7 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
 
     "OFAC": {"allow_domains": {"ofac.treasury.gov"}},
 
-    # White House (News + post types)
+    # White House
     "White House": {
         "allow_domains": {"www.whitehouse.gov"},
         "allow_path_prefixes": {
@@ -202,15 +201,23 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
 
     # Payment networks
+    # FIX #1: Visa press releases are often /press-releases.releaseId.XXXXX.html (dot, not slash),
+    # so allow /about-visa/newsroom/press-releases (no trailing slash) to match both forms.
     "Visa": {
         "allow_domains": {"usa.visa.com"},
-        "allow_path_prefixes": {"/about-visa/newsroom/press-releases/"},
+        "allow_path_prefixes": {
+            "/about-visa/newsroom/press-releases",  # matches /press-releases/ and /press-releases.releaseId.*
+        },
     },
 
-    # Mastercard
+    # FIX #2: Mastercard press releases often use /global/en/news-and-trends/press/...
     "Mastercard": {
         "allow_domains": {"www.mastercard.com"},
-        "allow_path_prefixes": {"/us/en/news-and-trends/press/", "/news-and-trends/press/"},
+        "allow_path_prefixes": {
+            "/us/en/news-and-trends/press/",
+            "/global/en/news-and-trends/press/",
+            "/news-and-trends/press/",
+        },
     },
 
     "Federal Register": {
@@ -305,10 +312,6 @@ def path(url: str) -> str:
 
 
 def looks_like_error_html(html: str) -> bool:
-    """
-    Conservative "is this an error page?" detector.
-    Avoid false-positives from sites that embed '404'/'not found' in scripts/templates.
-    """
     if not html:
         return True
 
@@ -507,7 +510,8 @@ MONTH_DATE_RE = re.compile(r"(?P<md>([A-Z][a-z]{2,9})\.?\s+\d{1,2},\s+\d{4})")
 SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{1,2}/\d{1,2}/\d{2,4}\b)")
 ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
 
-DAYFIRST_SOURCES = {"Visa"}
+# FIX #3: Visa US dates are month/day/year, so DO NOT set dayfirst=True for Visa.
+DAYFIRST_SOURCES: set[str] = set()
 
 
 def extract_any_date(text: str, source: str = "") -> Optional[datetime]:
@@ -611,7 +615,6 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
         if any(x in pl for x in ["/subscriptions/", "/subscriber/", "/preferences/"]):
             return True
 
-    # Freddie Mac (GlobeNewswire) — allow org-search + news-release items (both /en and non-/en)
     if source == "Freddie Mac":
         pl = p.lower()
         if pl.startswith("/search/organization/"):
@@ -1021,8 +1024,71 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     return links
 
 
+def visa_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    Visa listing pages frequently link to:
+      /about-visa/newsroom/press-releases.releaseId.XXXXX.html
+    and sometimes /about-visa/newsroom/press-releases/...
+    This extractor targets those anchors directly.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    selectors = [
+        'a[href*="/about-visa/newsroom/press-releases.releaseId."]',
+        'a[href*="/about-visa/newsroom/press-releases/"]',
+        'a[href*="press-releases.releaseId."]',
+        'a[href*="/press-releases.releaseId."]',
+    ]
+
+    for sel in selectors:
+        for a in container.select(sel):
+            href = (a.get("href") or "").strip()
+            if not href or href.startswith("#"):
+                continue
+
+            url = canonical_url(urljoin(page_url, href))
+            if not allowed_for_source("Visa", url):
+                continue
+
+            raw_title = (a.get_text(" ", strip=True) or "").strip()
+            if not raw_title:
+                raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
+            title = clean_text(raw_title, 220)
+            if not title or len(title) < 8:
+                continue
+
+            if title.lower() in {"read more", "learn more", "more", "details"}:
+                continue
+            if is_probably_nav_link("Visa", title, url):
+                continue
+            if is_generic_listing_or_home("Visa", title, url):
+                continue
+
+            if url in seen:
+                continue
+            seen.add(url)
+
+            dt = find_time_near_anchor(a, "Visa")
+            if dt is None:
+                wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
+                if wrap:
+                    dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="Visa")
+
+            links.append((title, url, dt))
+            if len(links) >= MAX_LISTING_LINKS:
+                return links
+
+    return links
+
+
 # ============================
-# Freddie Mac (GlobeNewswire) — server-rendered org page + improved dt capture
+# Freddie Mac (GlobeNewswire)
 # ============================
 
 def _globenewswire_find_date_near(a: Any, source: str) -> Optional[datetime]:
@@ -1089,7 +1155,6 @@ def freddiemac_globenewswire_links(page_url: str, html: str) -> List[Tuple[str, 
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
-    # Include both /news-release/ and /en/news-release/
     for a in container.select('a[href*="/news-release/"], a[href*="/en/news-release/"]'):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1134,6 +1199,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return whitehouse_links(page_url, html)
     if source == "Mastercard":
         return mastercard_links(page_url, html)
+    if source == "Visa":
+        return visa_links(page_url, html)
     if source == "Freddie Mac":
         return freddiemac_globenewswire_links(page_url, html)
 
@@ -1211,41 +1278,32 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 }
 
 START_PAGES: List[SourcePage] = [
-    # OFAC
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
 
-    # IRS
     SourcePage("IRS", "https://www.irs.gov/newsroom"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
 
-    # USDA Rural Development (GovDelivery)
     SourcePage("USDA Rural Development", "https://content.govdelivery.com/accounts/USDARD/bulletins"),
 
-    # Banking regulators
     SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
     SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
     SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
 
-    # Mortgage / housing GSEs
     SourcePage("FHLB MPF", "https://www.fhlbmpf.com/about-us/news"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
 
-    # Freddie Mac (IMPORTANT: use server-rendered endpoint; /en/ version is often JS-rendered)
     SourcePage("Freddie Mac", "https://www.globenewswire.com/search/organization/Freddie%20Mac"),
 
-    # Legislative / exec
     SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
     SourcePage("White House", "https://www.whitehouse.gov/news/"),
     SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
 
-    # Payments
     SourcePage("NACHA", "https://www.nacha.org/taxonomy/term/362"),
 
-    # Fintech vendors
     SourcePage("FIS", "https://investor.fisglobal.com/press-releases"),
     SourcePage("Fiserv", "https://investors.fiserv.com/newsroom/news-releases"),
     SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),

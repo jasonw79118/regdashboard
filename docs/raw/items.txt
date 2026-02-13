@@ -1,3 +1,16 @@
+IS
+BleepingComputer
+2026-02-13T18:35:15Z
+Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
+https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
+South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Couture, and Tiffany $25 million for failing to implement adequate security measures, which facilitated unauthorized access and the exposure of data belonging to more than 5.5 million customers. [...]
+------------------------------------------------------------
+Legislative
+White House
+2026-02-13T18:13:07Z
+President Trump Delivers Biggest Regulatory Relief in History
+https://www.whitehouse.gov/articles/2026/02/president-trump-delivers-biggest-regulatory-relief-in-history/
+------------------------------------------------------------
 Legislative
 White House
 2026-02-13T17:26:30Z
@@ -267,13 +280,6 @@ BleepingComputer
 This $30 AI training bundle shows you how to automate your tasks
 https://www.bleepingcomputer.com/offer/deals/this-30-ai-training-bundle-shows-you-how-to-automate-your-tasks/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-11T23:15:41Z
-Windows 11 Notepad flaw let files execute silently via Markdown links
-https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
-Microsoft has fixed a "remote code execution" vulnerability in Windows 11 Notepad that allowed attackers to execute local or remote programs by tricking users into clicking specially crafted Markdown links, without displaying any Windows security warnings. [...]
-------------------------------------------------------------
 Legislative
 White House
 2026-02-11T22:17:58Z
@@ -337,14 +343,14 @@ https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quar
 IS
 BleepingComputer
 2026-02-11T00:00:00Z
-Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
-https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
+Windows 11 Notepad flaw let files execute silently via Markdown links
+https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-11T00:00:00Z
-Crazy ransomware gang abuses employee monitoring tool in attacks
-https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
+Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
+https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
 ------------------------------------------------------------
 Legislative
 Federal Register

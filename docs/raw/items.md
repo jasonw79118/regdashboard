@@ -1,7 +1,21 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T18:12:34Z` → `2026-02-13T18:12:34Z` (UTC)
-Last updated: `2026-02-13T12:12:34-06:00` (CT) — `2026-02-13T18:12:34Z` (UTC)
+Window: `2026-01-30T18:49:11Z` → `2026-02-13T18:49:11Z` (UTC)
+Last updated: `2026-02-13T12:49:11-06:00` (CT) — `2026-02-13T18:49:11Z` (UTC)
+
+## Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T18:35:15Z
+- URL: https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
+
+South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Couture, and Tiffany $25 million for failing to implement adequate security measures, which facilitated unauthorized access and the exposure of data belonging to more than 5.5 million customers. [...]
+
+## President Trump Delivers Biggest Regulatory Relief in History
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-13T18:13:07Z
+- URL: https://www.whitehouse.gov/articles/2026/02/president-trump-delivers-biggest-regulatory-relief-in-history/
 
 ## Presidential Message on Career and Technical Education Month
 - Source: White House
@@ -295,14 +309,6 @@ The OCC's economists support the OCC mission through economic thought leadership
 - Published: 2026-02-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-30-ai-training-bundle-shows-you-how-to-automate-your-tasks/
 
-## Windows 11 Notepad flaw let files execute silently via Markdown links
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T23:15:41Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
-
-Microsoft has fixed a "remote code execution" vulnerability in Windows 11 Notepad that allowed attackers to execute local or remote programs by tricking users into clicking specially crafted Markdown links, without displaying any Windows security warnings. [...]
-
 ## Nominations Sent to the Senate
 - Source: White House
 - Category: Legislative
@@ -369,17 +375,17 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 
+## Windows 11 Notepad flaw let files execute silently via Markdown links
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
+
 ## Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
-
-## Crazy ransomware gang abuses employee monitoring tool in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
 
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
