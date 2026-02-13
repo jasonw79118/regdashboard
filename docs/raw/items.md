@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T15:04:15Z` → `2026-02-13T15:04:15Z` (UTC)
-Last updated: `2026-02-13T09:04:15-06:00` (CT) — `2026-02-13T15:04:15Z` (UTC)
+Window: `2026-01-30T15:36:06Z` → `2026-02-13T15:36:06Z` (UTC)
+Last updated: `2026-02-13T09:36:06-06:00` (CT) — `2026-02-13T15:36:06Z` (UTC)
+
+## Turning IBM QRadar Alerts into Action with Criminal IP
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T15:05:15Z
+- URL: https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
+
+Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-based threat intelligence directly into detection and response workflows. See how risk scoring and automated enrichment help SOC teams prioritize high-risk IPs and accelerate investigations without leaving QRadar. [...]
 
 ## President Trump Delivers Another Inflation Win: Real Wages Surge, Price Relief Reaches Americans
 - Source: White House
@@ -24,6 +32,12 @@ CISA ordered federal agencies on Thursday to secure their systems against a crit
 - URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 
 Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
+
+## Issuance of Venezuela-related General Licenses
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-13T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260213
 
 ## Earnings Estimates
 - Source: Jack Henry
@@ -181,6 +195,12 @@ Google Threat Intelligence Group (GTIG) has published a new report warning about
 
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
 
+## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-12T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260212
+
 ## Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill
 - Source: IRS
 - Category: IRS
@@ -281,14 +301,6 @@ Microsoft has fixed a "remote code execution" vulnerability in Windows 11 Notepa
 - Published: 2026-02-11T21:57:59Z
 - URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-strengthens-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
 
-## Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T21:53:58Z
-- URL: https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
-
-The AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. [...]
-
 ## First Lady Melania Trump Visits Children with Rare and Serious Diseases at The Children’s Inn at NIH for Valentine’s Day
 - Source: White House
 - Category: Legislative
@@ -355,17 +367,17 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 
+## Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
+
 ## Crazy ransomware gang abuses employee monitoring tool in attacks
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
-
-## Police arrest seller of JokerOTP MFA passcode capturing tool
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
 
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
@@ -815,6 +827,24 @@ Added Affected Software for Windows packages
 
 Added Affected Software for Windows packages
 
+## Counter Terrorism Designations
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-10T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260210
+
+## Sanctions List Updates
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-10T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/sanctions-list-updates
+
+## Issuance of New and Amended Venezuela-related General Licenses
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-10T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260210_33
+
 ## Fiserv Reports Fourth Quarter and Full Year 2025 Results
 - Source: Fiserv
 - Category: Fintech Watch
@@ -892,6 +922,24 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: Fintech Watch
 - Published: 2026-02-06T05:00:00Z
 - URL: https://ir.jackhenry.com/financials/sec-filings
+
+## Iran-related Designations
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-06T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260206
+
+## Launch of Voluntary Self-Disclosure Portal
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-06T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260206_33
+
+## Issuance of Venezuela-related Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-06T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260206_66
 
 ## Comptroller Discusses Importance of Financial Education
 - Source: OCC
@@ -998,6 +1046,12 @@ Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Mult
 - Category: Legislative
 - Published: 2026-02-03T19:56:11Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
+
+## Issuance of Venezuela-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-03T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260203
 
 ## Create an IRS Individual Online Account today for security and convenience
 - Source: IRS

@@ -199,7 +199,10 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     # Payment networks (tighten to newsroom/press paths to reduce “every link” noise)
     "Visa": {
         "allow_domains": {"usa.visa.com"},
-        "allow_path_prefixes": {"/about-visa/newsroom/press-releases/"},
+        "allow_path_prefixes": {
+            "/about-visa/newsroom/press-releases/",
+            "/about-visa/newsroom/press-releases-listing.html",
+        },
     },
     "Mastercard": {
         "allow_domains": {"www.mastercard.com"},
@@ -315,6 +318,7 @@ def looks_like_error_html(html: str) -> bool:
     if "<title>404" in s or "<title>page not found" in s:
         return True
 
+    # Common error headings (tight match)
     if re.search(r">(\s*)page not found(\s*)<", s):
         return True
     if re.search(r">(\s*)404(\s*)<", s) and ("not found" in s):
@@ -393,29 +397,35 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
     try:
         time.sleep(REQUEST_DELAY_SEC)
 
-        headers = {}
+        headers: Dict[str, str] = {}
         if "whitehouse.gov" in h:
+            # whitehouse.gov is picky sometimes; mimic a real browser navigation
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Referer": "https://www.whitehouse.gov/",
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "same-origin",
+                "Upgrade-Insecure-Requests": "1",
             }
 
-        r = SESSION.get(
-            url,
-            headers=headers if headers else None,
-            timeout=(10, read_timeout),
-            allow_redirects=True
-        )
-
+        r = SESSION.get(url, headers=headers or None, timeout=(10, read_timeout), allow_redirects=True)
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
             return None
+
         txt = r.text or ""
+
+        # IMPORTANT: don't over-reject White House pages due to false-positive "error" heuristics
         if looks_like_error_html(txt):
+            if "whitehouse.gov" in h:
+                print(f"[note] looks-like-error heuristic triggered, but keeping HTML for: {url}", flush=True)
+                return txt
             print(f"[warn] looks-like-error HTML: {url}", flush=True)
             return None
+
         return txt
     except Exception as e:
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
@@ -602,43 +612,40 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
             return False
         if pl.startswith("/accounts/usdard/bulletins"):
             return False
-        # block preference/subscribe flows
         if any(x in pl for x in ["/subscriptions/", "/subscriber/", "/preferences/"]):
             return True
 
-    # Freddie Mac: block non-article hubs even if they appear in /media-room/
+    # Freddie Mac: block obvious non-article hubs, but keep real /media-room/* content pages
     if source == "Freddie Mac":
         u2 = urlparse(url)
-        pl = (u2.path or "/").lower()
+        pl = (u2.path or "/").lower().rstrip("/")
 
-        # common non-article titles
         if tl in {
             "about", "our business", "our-business", "business",
             "careers", "investors", "contact", "media room", "media-room",
-            "topics", "topic", "research", "reports"
+            "topics", "topic"
         }:
             return True
 
-        # block obvious hub sections / navigation
-        if any(x in pl for x in [
-            "/about/",
-            "/our-business/",
-            "/investors/",
-            "/careers/",
-            "/contact/",
-            "/topics/",
-            "/topic/",
-            "/research/",
-            "/reports/",
-            "/media-room",          # landing page and category pages
-            "/single-family/",
-            "/multifamily/",
-            "/capital-markets/",
-        ]):
-            # allow deeper media-room "article-like" pages
-            if pl.startswith("/media-room/") and any(seg in pl for seg in ["/news", "/news-releases", "/press", "/release", "/article"]):
-                return False
+        # If it's exactly the media-room landing page, block it.
+        if pl == "/media-room":
             return True
+
+        # Block clearly non-article hub sections
+        if any(pl.startswith(x) for x in [
+            "/about",
+            "/our-business",
+            "/investors",
+            "/careers",
+            "/contact",
+        ]):
+            return True
+
+        # If it's under /media-room/, generally allow it unless it looks like a category hub
+        if pl.startswith("/media-room/"):
+            if any(seg in pl for seg in ["/topics", "/topic", "/categories", "/category", "/tag", "/tags"]):
+                return True
+            return False
 
     return False
 
@@ -932,15 +939,14 @@ def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
 
 def find_date_in_neighbors(a: Any, source: str) -> Optional[datetime]:
     """
-    Whitehouse /news/ often renders the date as a nearby sibling block,
+    whitehouse.gov/news often renders the date as a nearby sibling block,
     not inside the same node as the headline link.
     """
     containers = [
         a.find_parent(["li", "article"]) or a.parent,
         a.find_parent(["div", "section"]),
         (a.find_parent(["div", "section"]) or a.parent).find_parent(["div", "section"])
-        if (a.find_parent(["div", "section"]) or a.parent)
-        else None,
+        if (a.find_parent(["div", "section"]) or a.parent) else None,
     ]
 
     seen = set()
@@ -981,16 +987,31 @@ def find_date_in_neighbors(a: Any, source: str) -> Optional[datetime]:
     return None
 
 
-def is_likely_article_anchor(a: Any) -> bool:
+def is_likely_article_anchor(a: Any, source: str = "") -> bool:
+    """
+    Heuristic: some sites (OFAC/Visa/Mastercard/Freddie) don't put headline links in h2/h3,
+    so we allow a broader set for those sources while still excluding nav/junk elsewhere.
+    """
     for tag in ["h1", "h2", "h3"]:
         if a.find_parent(tag) is not None:
             return True
+
     cls = " ".join(a.get("class", [])).lower()
-    if any(k in cls for k in ["title", "headline", "card", "teaser", "post"]):
+    if any(k in cls for k in ["title", "headline", "card", "teaser", "post", "entry", "result"]):
         return True
-    p = a.find_parent(["article", "li"])
-    if p is not None:
+
+    if a.find_parent(["article", "li"]) is not None:
         return True
+
+    if source in {"OFAC", "Visa", "Mastercard", "Freddie Mac"}:
+        href = (a.get("href") or "").strip().lower()
+        if not href:
+            return False
+        if any(x in href for x in [
+            "/news", "/press", "/media-room", "/recent-actions", "/enforcement-actions", "/press-releases"
+        ]):
+            return True
+
     return False
 
 
@@ -1003,6 +1024,7 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
+    # The site usually uses h2/h3 headlines for posts
     for a in container.select("h2 a[href], h3 a[href]"):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1050,7 +1072,7 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     seen = set()
 
     for a in container.find_all("a", href=True):
-        if not is_likely_article_anchor(a):
+        if not is_likely_article_anchor(a, source=source):
             continue
 
         href = (a.get("href") or "").strip()

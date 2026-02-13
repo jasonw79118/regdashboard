@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-02-13T15:05:15Z
+Turning IBM QRadar Alerts into Action with Criminal IP
+https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
+Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-based threat intelligence directly into detection and response workflows. See how risk scoring and automated enrichment help SOC teams prioritize high-risk IPs and accelerate investigations without leaving QRadar. [...]
+------------------------------------------------------------
 Legislative
 White House
 2026-02-13T14:54:20Z
@@ -17,6 +24,12 @@ BleepingComputer
 Microsoft fixes bug that blocked Google Chrome from launching
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-13T00:00:00Z
+Issuance of Venezuela-related General Licenses
+https://ofac.treasury.gov/recent-actions/20260213
 ------------------------------------------------------------
 Fintech Watch
 Jack Henry
@@ -159,6 +172,12 @@ Apple fixes zero-day flaw used in 'extremely sophisticated' attacks
 https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-02-12T00:00:00Z
+Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
+https://ofac.treasury.gov/recent-actions/20260212
+------------------------------------------------------------
 IRS
 IRS
 2026-02-12T00:00:00Z
@@ -254,13 +273,6 @@ White House
 Fact Sheet: President Donald J. Trump Strengthens United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
 https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-strengthens-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-11T21:53:58Z
-Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
-https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
-The AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. [...]
-------------------------------------------------------------
 Legislative
 White House
 2026-02-11T20:04:28Z
@@ -324,14 +336,14 @@ https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quar
 IS
 BleepingComputer
 2026-02-11T00:00:00Z
-Crazy ransomware gang abuses employee monitoring tool in attacks
-https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
+Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
+https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-11T00:00:00Z
-Police arrest seller of JokerOTP MFA passcode capturing tool
-https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
+Crazy ransomware gang abuses employee monitoring tool in attacks
+https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
 ------------------------------------------------------------
 Legislative
 Federal Register
@@ -725,6 +737,24 @@ CVE-2025-2884 Cert CC: CVE-2025-2884 Out-of-Bounds read vulnerability in TCG TPM
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2884
 Added Affected Software for Windows packages
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-02-10T00:00:00Z
+Counter Terrorism Designations
+https://ofac.treasury.gov/recent-actions/20260210
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-10T00:00:00Z
+Sanctions List Updates
+https://ofac.treasury.gov/recent-actions/sanctions-list-updates
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-10T00:00:00Z
+Issuance of New and Amended Venezuela-related General Licenses
+https://ofac.treasury.gov/recent-actions/20260210_33
+------------------------------------------------------------
 Fintech Watch
 Fiserv
 2026-02-10T00:00:00Z
@@ -799,6 +829,24 @@ Jack Henry
 2026-02-06T05:00:00Z
 SEC Filings
 https://ir.jackhenry.com/financials/sec-filings
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-06T00:00:00Z
+Iran-related Designations
+https://ofac.treasury.gov/recent-actions/20260206
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-06T00:00:00Z
+Launch of Voluntary Self-Disclosure Portal
+https://ofac.treasury.gov/recent-actions/20260206_33
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-06T00:00:00Z
+Issuance of Venezuela-related Frequently Asked Questions
+https://ofac.treasury.gov/recent-actions/20260206_66
 ------------------------------------------------------------
 Banking
 OCC
@@ -894,6 +942,12 @@ White House
 2026-02-03T19:56:11Z
 National Black History Month, 2026
 https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-03T00:00:00Z
+Issuance of Venezuela-related General License
+https://ofac.treasury.gov/recent-actions/20260203
 ------------------------------------------------------------
 IRS
 IRS

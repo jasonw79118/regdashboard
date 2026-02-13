@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-01-30T15:04:15Z",
-  "window_end": "2026-02-13T15:04:15Z",
-  "generated_at_utc": "2026-02-13T15:04:15Z",
-  "generated_at_ct": "2026-02-13T09:04:15-06:00",
+  "window_start": "2026-01-30T15:36:06Z",
+  "window_end": "2026-02-13T15:36:06Z",
+  "generated_at_utc": "2026-02-13T15:36:06Z",
+  "generated_at_ct": "2026-02-13T09:36:06-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Turning IBM QRadar Alerts into Action with Criminal IP",
+      "published_at": "2026-02-13T15:05:15Z",
+      "url": "https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/",
+      "summary": "Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-based threat intelligence directly into detection and response workflows. See how risk scoring and automated enrichment help SOC teams prioritize high-risk IPs and accelerate investigations without leaving QRadar. [...]"
+    },
     {
       "category": "Legislative",
       "source": "White House",
@@ -27,6 +35,14 @@
       "published_at": "2026-02-13T09:31:01Z",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
       "summary": "Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General Licenses",
+      "published_at": "2026-02-13T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260213",
+      "summary": ""
     },
     {
       "category": "Fintech Watch",
@@ -197,6 +213,14 @@
       "summary": "Apple has released security updates to fix a zero-day vulnerability that was exploited in an \"extremely sophisticated attack\" targeting specific individuals. [...]"
     },
     {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260212",
+      "summary": ""
+    },
+    {
       "category": "IRS",
       "source": "IRS",
       "title": "Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill",
@@ -317,14 +341,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts",
-      "published_at": "2026-02-11T21:53:58Z",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/",
-      "summary": "The AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. [...]"
-    },
-    {
       "category": "Legislative",
       "source": "White House",
       "title": "First Lady Melania Trump Visits Children with Rare and Serious Diseases at The Children’s Inn at NIH for Valentine’s Day",
@@ -399,17 +415,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
+      "title": "Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Police arrest seller of JokerOTP MFA passcode capturing tool",
+      "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
       "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
+      "url": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/",
       "summary": ""
     },
     {
@@ -861,6 +877,30 @@
       "summary": "Added Affected Software for Windows packages"
     },
     {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Counter Terrorism Designations",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Sanctions List Updates",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/sanctions-list-updates",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of New and Amended Venezuela-related General Licenses",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210_33",
+      "summary": ""
+    },
+    {
       "category": "Fintech Watch",
       "source": "Fiserv",
       "title": "Fiserv Reports Fourth Quarter and Full Year 2025 Results",
@@ -954,6 +994,30 @@
       "title": "SEC Filings",
       "published_at": "2026-02-06T05:00:00Z",
       "url": "https://ir.jackhenry.com/financials/sec-filings",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Iran-related Designations",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Launch of Voluntary Self-Disclosure Portal",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206_33",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related Frequently Asked Questions",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206_66",
       "summary": ""
     },
     {
@@ -1066,6 +1130,14 @@
       "title": "National Black History Month, 2026",
       "published_at": "2026-02-03T19:56:11Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License",
+      "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260203",
       "summary": ""
     },
     {
