@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-01-30T18:49:11Z",
-  "window_end": "2026-02-13T18:49:11Z",
-  "generated_at_utc": "2026-02-13T18:49:11Z",
-  "generated_at_ct": "2026-02-13T12:49:11-06:00",
+  "window_start": "2026-01-30T19:07:06Z",
+  "window_end": "2026-02-13T19:07:06Z",
+  "generated_at_utc": "2026-02-13T19:07:06Z",
+  "generated_at_ct": "2026-02-13T13:07:06-06:00",
   "items": [
     {
       "category": "IS",
@@ -67,6 +67,22 @@
       "published_at": "2026-02-13T09:31:01Z",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
       "summary": "Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]"
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Jack Henry",
+      "title": "SEC Filings",
+      "published_at": "2026-02-13T05:00:00Z",
+      "url": "https://ir.jackhenry.com/financials/sec-filings",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General Licenses",
+      "published_at": "2026-02-13T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260213",
+      "summary": ""
     },
     {
       "category": "IRS",
@@ -267,6 +283,14 @@
       "published_at": "2026-02-12T01:06:05Z",
       "url": "https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/",
       "summary": "Apple has released security updates to fix a zero-day vulnerability that was exploited in an \"extremely sophisticated attack\" targeting specific individuals. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260212",
+      "summary": ""
     },
     {
       "category": "IRS",
@@ -885,6 +909,14 @@
       "summary": "Added Affected Software for Windows packages"
     },
     {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Counter Terrorism Designations",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260210",
+      "summary": ""
+    },
+    {
       "category": "Mortgage",
       "source": "Freddie Mac",
       "title": "Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results",
@@ -981,11 +1013,11 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
     },
     {
-      "category": "Fintech Watch",
-      "source": "Jack Henry",
-      "title": "SEC Filings",
-      "published_at": "2026-02-06T05:00:00Z",
-      "url": "https://ir.jackhenry.com/financials/sec-filings",
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Iran-related Designations",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260206",
       "summary": ""
     },
     {
@@ -1106,6 +1138,14 @@
       "title": "National Black History Month, 2026",
       "published_at": "2026-02-03T19:56:11Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License",
+      "published_at": "2026-02-03T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260203",
       "summary": ""
     },
     {

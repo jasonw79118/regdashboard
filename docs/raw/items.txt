@@ -50,6 +50,18 @@ Microsoft fixes bug that blocked Google Chrome from launching
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
 ------------------------------------------------------------
+Fintech Watch
+Jack Henry
+2026-02-13T05:00:00Z
+SEC Filings
+https://ir.jackhenry.com/financials/sec-filings
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-13T00:00:00Z
+Issuance of Venezuela-related General Licenses
+https://ofac.treasury.gov/recent-actions/20260213
+------------------------------------------------------------
 IRS
 IRS
 2026-02-13T00:00:00Z
@@ -215,6 +227,12 @@ BleepingComputer
 Apple fixes zero-day flaw used in 'extremely sophisticated' attacks
 https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-12T00:00:00Z
+Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
+https://ofac.treasury.gov/recent-actions/20260212
 ------------------------------------------------------------
 IRS
 IRS
@@ -744,6 +762,12 @@ CVE-2025-2884 Cert CC: CVE-2025-2884 Out-of-Bounds read vulnerability in TCG TPM
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2884
 Added Affected Software for Windows packages
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-02-10T00:00:00Z
+Counter Terrorism Designations
+https://ofac.treasury.gov/recent-actions/20260210
+------------------------------------------------------------
 Mortgage
 Freddie Mac
 2026-02-10T00:00:00Z
@@ -819,11 +843,11 @@ Chromium: CVE-2026-1862 Type Confusion in V8
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1862
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 ------------------------------------------------------------
-Fintech Watch
-Jack Henry
-2026-02-06T05:00:00Z
-SEC Filings
-https://ir.jackhenry.com/financials/sec-filings
+OFAC
+OFAC
+2026-02-06T00:00:00Z
+Iran-related Designations
+https://ofac.treasury.gov/recent-actions/20260206
 ------------------------------------------------------------
 Banking
 OCC
@@ -925,6 +949,12 @@ White House
 2026-02-03T19:56:11Z
 National Black History Month, 2026
 https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-03T00:00:00Z
+Issuance of Venezuela-related General License
+https://ofac.treasury.gov/recent-actions/20260203
 ------------------------------------------------------------
 IRS
 IRS

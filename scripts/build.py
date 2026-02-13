@@ -53,7 +53,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "Mastercard": 45,
     "Visa": 45,
     "Fannie Mae": 35,
-    "Freddie Mac": 10,   # GlobeNewswire org page usually has dates in listing; keep small for occasional detail fetch
+    "Freddie Mac": 10,  # GlobeNewswire org page usually has dates in listing; keep small for occasional detail fetch
     "FIS": 25,
     "Fiserv": 25,
     "Jack Henry": 25,
@@ -67,9 +67,9 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "FRB": 30,
     "NACHA": 25,
     "White House": 45,
-    "Federal Register": 0,   # API only
-    "BleepingComputer": 0,   # feed-only
-    "Microsoft MSRC": 0,     # feed-only
+    "Federal Register": 0,  # API only
+    "BleepingComputer": 0,  # feed-only
+    "Microsoft MSRC": 0,  # feed-only
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
@@ -84,28 +84,22 @@ UA = "regdashboard/3.1 (+https://github.com/jasonw79118/regdashboard)"
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
     "IRS": "IRS",
-
     # Payments tile
     "NACHA": "Payments",
     "FRB": "Payments",
-
     # Banking tile
     "OCC": "Banking",
     "FDIC": "Banking",
-
     # Mortgage tile
     "FHLB MPF": "Mortgage",
     "Fannie Mae": "Mortgage",
     "Freddie Mac": "Mortgage",
-
     # Legislative tile
     "Senate Banking": "Legislative",
     "White House": "Legislative",
     "Federal Register": "Legislative",
-
-    # USDA tile (Rural Development)
+    # USDA tile
     "USDA Rural Development": "USDA",
-
     # Fintech Watch tile
     "FIS": "Fintech Watch",
     "Fiserv": "Fintech Watch",
@@ -114,11 +108,9 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Mambu": "Fintech Watch",
     "Finastra": "Fintech Watch",
     "TCS": "Fintech Watch",
-
-    # Payment Card Network tile
-    "Visa": "Payment Card Network",
-    "Mastercard": "Payment Card Network",
-
+    # Payment Card Networks tile
+    "Visa": "Payment Card Networks",
+    "Mastercard": "Payment Card Networks",
     # InfoSec tile
     "BleepingComputer": "IS",
     "Microsoft MSRC": "IS",
@@ -147,12 +139,14 @@ FEDREG_TOPICS = [
 # ============================
 
 SESSION = requests.Session()
-SESSION.headers.update({
-    "User-Agent": UA,
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Connection": "keep-alive",
-})
+SESSION.headers.update(
+    {
+        "User-Agent": UA,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+    }
+)
 
 
 # ============================
@@ -166,8 +160,7 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "deny_domains": {"sa.www4.irs.gov"},
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
-
-    # Freddie Mac (WORKING SOURCE): GlobeNewswire organization page + release pages
+    # Freddie Mac (WORKING SOURCE): GlobeNewswire org page + release pages
     "Freddie Mac": {
         "allow_domains": {"www.globenewswire.com"},
         "allow_path_prefixes": {
@@ -177,15 +170,16 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
             "/en/news-release/",
         },
     },
-
-    # USDA Rural Development (GovDelivery)
+    # USDA RD (GovDelivery)
     "USDA Rural Development": {
         "allow_domains": {"content.govdelivery.com"},
         "allow_path_prefixes": {"/accounts/USDARD/bulletins", "/bulletins/"},
     },
-
-    "OFAC": {"allow_domains": {"ofac.treasury.gov"}},
-
+    # OFAC (FIX: allow /recent-actions/ item pages)
+    "OFAC": {
+        "allow_domains": {"ofac.treasury.gov"},
+        "allow_path_prefixes": {"/recent-actions/"},
+    },
     # White House
     "White House": {
         "allow_domains": {"www.whitehouse.gov"},
@@ -199,18 +193,13 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
             "/articles/",
         },
     },
-
     # Payment networks
-    # FIX #1: Visa press releases are often /press-releases.releaseId.XXXXX.html (dot, not slash),
-    # so allow /about-visa/newsroom/press-releases (no trailing slash) to match both forms.
+    # FIX: Visa press releases often use /press-releases.releaseId.XXXXX.html (dot)
     "Visa": {
         "allow_domains": {"usa.visa.com"},
-        "allow_path_prefixes": {
-            "/about-visa/newsroom/press-releases",  # matches /press-releases/ and /press-releases.releaseId.*
-        },
+        "allow_path_prefixes": {"/about-visa/newsroom/press-releases"},
     },
-
-    # FIX #2: Mastercard press releases often use /global/en/news-and-trends/press/...
+    # FIX: Mastercard press releases often use /global/en/news-and-trends/press/...
     "Mastercard": {
         "allow_domains": {"www.mastercard.com"},
         "allow_path_prefixes": {
@@ -219,12 +208,10 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
             "/news-and-trends/press/",
         },
     },
-
     "Federal Register": {
         "allow_domains": {"www.federalregister.gov"},
         "allow_path_prefixes": {"/documents/"},
     },
-
     "FIS": {"allow_domains": {"investor.fisglobal.com"}},
     "Fiserv": {"allow_domains": {"investors.fiserv.com"}},
     "Jack Henry": {"allow_domains": {"ir.jackhenry.com"}},
@@ -414,6 +401,13 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Referer": "https://www.globenewswire.com/",
             }
+        if "ofac.treasury.gov" in h:
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Referer": "https://ofac.treasury.gov/",
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            }
 
         r = SESSION.get(
             url,
@@ -510,7 +504,7 @@ MONTH_DATE_RE = re.compile(r"(?P<md>([A-Z][a-z]{2,9})\.?\s+\d{1,2},\s+\d{4})")
 SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{1,2}/\d{1,2}/\d{2,4}\b)")
 ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
 
-# FIX #3: Visa US dates are month/day/year, so DO NOT set dayfirst=True for Visa.
+# FIX: Visa US dates are month/day/year, so keep empty (no dayfirst sources)
 DAYFIRST_SOURCES: set[str] = set()
 
 
@@ -550,9 +544,19 @@ NAV_TITLE_RE = re.compile(
 )
 
 GENERIC_TITLES = {
-    "home", "news", "newsroom", "press releases", "press release", "recent postings",
-    "date", "investor relations", "supervision & examination", "economics",
-    "consumers & communities", "general licenses", "miscellaneous",
+    "home",
+    "news",
+    "newsroom",
+    "press releases",
+    "press release",
+    "recent postings",
+    "date",
+    "investor relations",
+    "supervision & examination",
+    "economics",
+    "consumers & communities",
+    "general licenses",
+    "miscellaneous",
 }
 
 
@@ -726,14 +730,16 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
         if e.get("summary"):
             summary = clean_text(BeautifulSoup(e["summary"], "html.parser").get_text(" ", strip=True), 380)
 
-        out.append({
-            "category": CATEGORY_BY_SOURCE.get(source, source),
-            "source": source,
-            "title": title,
-            "published_at": iso_z(dt),
-            "url": url,
-            "summary": summary,
-        })
+        out.append(
+            {
+                "category": CATEGORY_BY_SOURCE.get(source, source),
+                "source": source,
+                "title": title,
+                "published_at": iso_z(dt),
+                "url": url,
+                "summary": summary,
+            }
+        )
 
     return out
 
@@ -797,14 +803,16 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
 
                 abstract = clean_text(str(r.get("abstract") or ""), 380)
 
-                out.append({
-                    "category": CATEGORY_BY_SOURCE.get("Federal Register", "Legislative"),
-                    "source": "Federal Register",
-                    "title": title,
-                    "published_at": iso_z(dt),
-                    "url": url,
-                    "summary": abstract,
-                })
+                out.append(
+                    {
+                        "category": CATEGORY_BY_SOURCE.get("Federal Register", "Legislative"),
+                        "source": "Federal Register",
+                        "title": title,
+                        "published_at": iso_z(dt),
+                        "url": url,
+                        "summary": abstract,
+                    }
+                )
             except Exception:
                 continue
 
@@ -929,6 +937,56 @@ def is_likely_article_anchor(a: Any) -> bool:
     return False
 
 
+# ----------------------------
+# OFAC (FIX): site structure doesn't reliably match is_likely_article_anchor()
+# Target item pages: /recent-actions/YYYYMMDD
+# ----------------------------
+OFAC_ITEM_RE = re.compile(r"^/recent-actions/\d{8}(/)?$")
+
+
+def ofac_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    for a in container.select('a[href^="/recent-actions/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        if not OFAC_ITEM_RE.match(href):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("OFAC", url):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        title = clean_text(raw_title, 220)
+        if not title or len(title) < 8:
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = find_time_near_anchor(a, "OFAC")
+        if dt is None:
+            wrap = a.find_parent(["div", "article", "section", "p"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="OFAC")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
+
 def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -1025,12 +1083,6 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 
 
 def visa_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    """
-    Visa listing pages frequently link to:
-      /about-visa/newsroom/press-releases.releaseId.XXXXX.html
-    and sometimes /about-visa/newsroom/press-releases/...
-    This extractor targets those anchors directly.
-    """
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
     if not container:
@@ -1107,8 +1159,14 @@ def _globenewswire_find_date_near(a: Any, source: str) -> Optional[datetime]:
 
         try:
             for sel in [
-                ".date", ".release-date", ".releaseDate", ".timestamp", ".time",
-                "[class*='date']", "[class*='time']", "[class*='timestamp']",
+                ".date",
+                ".release-date",
+                ".releaseDate",
+                ".timestamp",
+                ".time",
+                "[class*='date']",
+                "[class*='time']",
+                "[class*='timestamp']",
             ]:
                 el = cur.select_one(sel)
                 if el and getattr(el, "get_text", None):
@@ -1195,6 +1253,8 @@ def freddiemac_globenewswire_links(page_url: str, html: str) -> List[Tuple[str, 
 
 
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    if source == "OFAC":
+        return ofac_links(page_url, html)
     if source == "White House":
         return whitehouse_links(page_url, html)
     if source == "Mastercard":
@@ -1278,32 +1338,32 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 }
 
 START_PAGES: List[SourcePage] = [
+    # OFAC
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
-
+    # IRS
     SourcePage("IRS", "https://www.irs.gov/newsroom"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
-
+    # USDA RD
     SourcePage("USDA Rural Development", "https://content.govdelivery.com/accounts/USDARD/bulletins"),
-
+    # Banking regulators
     SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
     SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
     SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
-
+    # Mortgage / housing GSEs
     SourcePage("FHLB MPF", "https://www.fhlbmpf.com/about-us/news"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
-
     SourcePage("Freddie Mac", "https://www.globenewswire.com/search/organization/Freddie%20Mac"),
-
+    # Legislative / exec
     SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
     SourcePage("White House", "https://www.whitehouse.gov/news/"),
     SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
-
+    # Payments
     SourcePage("NACHA", "https://www.nacha.org/taxonomy/term/362"),
-
+    # Fintech vendors
     SourcePage("FIS", "https://investor.fisglobal.com/press-releases"),
     SourcePage("Fiserv", "https://investors.fiserv.com/newsroom/news-releases"),
     SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
@@ -1311,11 +1371,9 @@ START_PAGES: List[SourcePage] = [
     SourcePage("Mambu", "https://mambu.com/en/insights/press"),
     SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
     SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
-
     # Payment Networks
     SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
     SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
-
     # InfoSec (feed-only)
     SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/"),
     SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/"),
@@ -1344,18 +1402,20 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
         summary = escape(str(it.get("summary", "") or ""))
 
         parts.append(
-            "\n".join([
-                '<article class="card">',
-                '  <div class="meta">',
-                f'    <span class="src">[{src}]</span>',
-                (f'    <span class="cat">{cat}</span>' if cat else ""),
-                f'    <span class="pub">{pub}</span>',
-                "  </div>",
-                f'  <h2 class="title"><a href="{url}">{title}</a></h2>',
-                (f'  <p class="sum">{summary}</p>' if summary else ""),
-                f'  <p class="url">{url}</p>',
-                "</article>",
-            ])
+            "\n".join(
+                [
+                    '<article class="card">',
+                    '  <div class="meta">',
+                    f'    <span class="src">[{src}]</span>',
+                    (f'    <span class="cat">{cat}</span>' if cat else ""),
+                    f'    <span class="pub">{pub}</span>',
+                    "  </div>",
+                    f'  <h2 class="title"><a href="{url}">{title}</a></h2>',
+                    (f'  <p class="sum">{summary}</p>' if summary else ""),
+                    f'  <p class="url">{url}</p>',
+                    "</article>",
+                ]
+            )
         )
 
     body = "\n".join(parts) if parts else "<p>No items in window.</p>"
@@ -1515,7 +1575,8 @@ def write_raw_aux_files() -> None:
         f.write("User-agent: *\nAllow: /\n")
 
     with open(RAW_SITEMAP_PATH, "w", encoding="utf-8") as f:
-        f.write(f"""<?xml version="1.0" encoding="UTF-8"?>
+        f.write(
+            f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{raw_base}/index.html</loc></url>
   <url><loc>{raw_base}/items.md</loc></url>
@@ -1523,7 +1584,8 @@ def write_raw_aux_files() -> None:
   <url><loc>{raw_base}/items.ndjson</loc></url>
   <url><loc>{print_base}/items.html</loc></url>
 </urlset>
-""")
+"""
+        )
 
 
 # ============================
@@ -1631,16 +1693,21 @@ def build() -> None:
                 if not in_window(dt, window_start, window_end):
                     continue
 
-                all_items.append({
-                    "category": CATEGORY_BY_SOURCE.get(source, source),
-                    "source": source,
-                    "title": title,
-                    "published_at": iso_z(dt),
-                    "url": url,
-                    "summary": snippet,
-                })
+                all_items.append(
+                    {
+                        "category": CATEGORY_BY_SOURCE.get(source, source),
+                        "source": source,
+                        "title": title,
+                        "published_at": iso_z(dt),
+                        "url": url,
+                        "summary": snippet,
+                    }
+                )
 
-            print(f"[detail] {source}: used {src_used}/{src_cap} | global {global_detail_fetches}/{GLOBAL_DETAIL_FETCH_CAP}", flush=True)
+            print(
+                f"[detail] {source}: used {src_used}/{src_cap} | global {global_detail_fetches}/{GLOBAL_DETAIL_FETCH_CAP}",
+                flush=True,
+            )
 
         gained = len(all_items) - source_items_before
         if gained == 0:
@@ -1696,7 +1763,7 @@ def build() -> None:
         f"[ok] wrote raw exports: {RAW_HTML_PATH}, {RAW_MD_PATH}, {RAW_TXT_PATH}, {RAW_NDJSON_PATH}\n"
         f"[ok] wrote print export: {PRINT_HTML_PATH}\n"
         f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}",
-        flush=True
+        flush=True,
     )
 
 

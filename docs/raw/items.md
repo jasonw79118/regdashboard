@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T18:49:11Z` → `2026-02-13T18:49:11Z` (UTC)
-Last updated: `2026-02-13T12:49:11-06:00` (CT) — `2026-02-13T18:49:11Z` (UTC)
+Window: `2026-01-30T19:07:06Z` → `2026-02-13T19:07:06Z` (UTC)
+Last updated: `2026-02-13T13:07:06-06:00` (CT) — `2026-02-13T19:07:06Z` (UTC)
 
 ## Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
 - Source: BleepingComputer
@@ -58,6 +58,18 @@ CISA ordered federal agencies on Thursday to secure their systems against a crit
 - URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 
 Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
+
+## SEC Filings
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-02-13T05:00:00Z
+- URL: https://ir.jackhenry.com/financials/sec-filings
+
+## Issuance of Venezuela-related General Licenses
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-13T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260213
 
 ## Avoid waiting on hold; use IRS online tools for faster help
 - Source: IRS
@@ -240,6 +252,12 @@ Google Threat Intelligence Group (GTIG) has published a new report warning about
 - URL: https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
 
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
+
+## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-12T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260212
 
 ## Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill
 - Source: IRS
@@ -835,6 +853,12 @@ Added Affected Software for Windows packages
 
 Added Affected Software for Windows packages
 
+## Counter Terrorism Designations
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-10T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260210
+
 ## Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results
 - Source: Freddie Mac
 - Category: Mortgage
@@ -913,11 +937,11 @@ PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Esta
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 
-## SEC Filings
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-02-06T05:00:00Z
-- URL: https://ir.jackhenry.com/financials/sec-filings
+## Iran-related Designations
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-06T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260206
 
 ## Comptroller Discusses Importance of Financial Education
 - Source: OCC
@@ -1030,6 +1054,12 @@ Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Mult
 - Category: Legislative
 - Published: 2026-02-03T19:56:11Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
+
+## Issuance of Venezuela-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-03T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260203
 
 ## Create an IRS Individual Online Account today for security and convenience
 - Source: IRS
