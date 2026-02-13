@@ -1,3 +1,15 @@
+Legislative
+White House
+2026-02-13T17:26:30Z
+Presidential Message on Career and Technical Education Month
+https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-career-and-technical-education-month/
+------------------------------------------------------------
+Legislative
+White House
+2026-02-13T16:33:45Z
+Presidential Message on American Heart Month
+https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-american-heart-month/
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-13T15:05:15Z
@@ -25,11 +37,30 @@ Microsoft fixes bug that blocked Google Chrome from launching
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
 ------------------------------------------------------------
-OFAC
-OFAC
+IRS
+IRS
 2026-02-13T00:00:00Z
-Issuance of Venezuela-related General Licenses
-https://ofac.treasury.gov/recent-actions/20260213
+Avoid waiting on hold; use IRS online tools for faster help
+https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help
+IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-13T00:00:00Z
+Senator Warren Statement on January 2026 CPI
+https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-cpi
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-13T00:00:00Z
+At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks
+https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-13T00:00:00Z
+Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair
+https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair
 ------------------------------------------------------------
 Fintech Watch
 Jack Henry
@@ -172,12 +203,6 @@ Apple fixes zero-day flaw used in 'extremely sophisticated' attacks
 https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-02-12T00:00:00Z
-Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
-https://ofac.treasury.gov/recent-actions/20260212
-------------------------------------------------------------
 IRS
 IRS
 2026-02-12T00:00:00Z
@@ -206,23 +231,17 @@ More More
 https://www.occ.gov/topics/economics/index-economics.html
 The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 ------------------------------------------------------------
-Legislative
-Senate Banking
+Mortgage
+Freddie Mac
 2026-02-12T00:00:00Z
-At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks
-https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks
+Mortgage Rates Inch Down
+https://www.globenewswire.com/news-release/2026/02/12/3237519/0/en/Mortgage-Rates-Inch-Down.html
 ------------------------------------------------------------
-Legislative
-Senate Banking
+Mortgage
+Freddie Mac
 2026-02-12T00:00:00Z
-Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair
-https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-12T00:00:00Z
-Ahead of Hearing, Warren Presses SEC Chair Paul Atkins on Implementation of Trump Executive Order To Weaken Shareholder Rights
-https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-warren-presses-sec-chair-paul-atkins-on-implementation-of-trump-executive-order-to-weaken-shareholder-rights
+Freddie Mac Announces Fourth Quarter and Full-Year 2025 Financial Results
+https://www.globenewswire.com/news-release/2026/02/12/3237170/0/en/Freddie-Mac-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html
 ------------------------------------------------------------
 Fintech Watch
 Fiserv
@@ -266,24 +285,6 @@ White House
 2026-02-11T22:03:51Z
 Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
 https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
-------------------------------------------------------------
-Legislative
-White House
-2026-02-11T21:57:59Z
-Fact Sheet: President Donald J. Trump Strengthens United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
-https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-strengthens-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
-------------------------------------------------------------
-Legislative
-White House
-2026-02-11T20:04:28Z
-First Lady Melania Trump Visits Children with Rare and Serious Diseases at The Children’s Inn at NIH for Valentine’s Day
-https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-visits-children-with-rare-and-serious-diseases-at-the-childrens-inn-at-nih-for-valentines-day/
-------------------------------------------------------------
-Legislative
-White House
-2026-02-11T17:37:15Z
-ICYMI: “Violent crime plummets across major U.S. cities”
-https://www.whitehouse.gov/articles/2026/02/icymi-violent-crime-plummets-across-major-u-s-cities/
 ------------------------------------------------------------
 Payments
 NACHA
@@ -737,23 +738,11 @@ CVE-2025-2884 Cert CC: CVE-2025-2884 Out-of-Bounds read vulnerability in TCG TPM
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2884
 Added Affected Software for Windows packages
 ------------------------------------------------------------
-OFAC
-OFAC
+Mortgage
+Freddie Mac
 2026-02-10T00:00:00Z
-Counter Terrorism Designations
-https://ofac.treasury.gov/recent-actions/20260210
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-10T00:00:00Z
-Sanctions List Updates
-https://ofac.treasury.gov/recent-actions/sanctions-list-updates
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-10T00:00:00Z
-Issuance of New and Amended Venezuela-related General Licenses
-https://ofac.treasury.gov/recent-actions/20260210_33
+Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results
+https://www.globenewswire.com/news-release/2026/02/10/3235794/0/en/Freddie-Mac-Announces-Release-Date-for-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html
 ------------------------------------------------------------
 Fintech Watch
 Fiserv
@@ -830,24 +819,6 @@ Jack Henry
 SEC Filings
 https://ir.jackhenry.com/financials/sec-filings
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-02-06T00:00:00Z
-Iran-related Designations
-https://ofac.treasury.gov/recent-actions/20260206
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-06T00:00:00Z
-Launch of Voluntary Self-Disclosure Portal
-https://ofac.treasury.gov/recent-actions/20260206_33
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-06T00:00:00Z
-Issuance of Venezuela-related Frequently Asked Questions
-https://ofac.treasury.gov/recent-actions/20260206_66
-------------------------------------------------------------
 Banking
 OCC
 2026-02-06T00:00:00Z
@@ -904,6 +875,12 @@ CVE-2026-0391 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0391
 User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network.
 ------------------------------------------------------------
+Mortgage
+Freddie Mac
+2026-02-05T00:00:00Z
+Mortgage Rates Continue to Show Stability, Hovering Near 6%
+https://www.globenewswire.com/news-release/2026/02/05/3233311/0/en/Mortgage-Rates-Continue-to-Show-Stability-Hovering-Near-6.html
+------------------------------------------------------------
 Payments
 FRB
 2026-02-04T21:30:00Z
@@ -942,12 +919,6 @@ White House
 2026-02-03T19:56:11Z
 National Black History Month, 2026
 https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-03T00:00:00Z
-Issuance of Venezuela-related General License
-https://ofac.treasury.gov/recent-actions/20260203
 ------------------------------------------------------------
 IRS
 IRS

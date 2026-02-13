@@ -53,7 +53,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "Mastercard": 45,
     "Visa": 45,
     "Fannie Mae": 35,
-    "Freddie Mac": 25,
+    "Freddie Mac": 10,   # GlobeNewswire org page usually has dates in listing; keep small for occasional detail fetch
     "FIS": 25,
     "Fiserv": 25,
     "Jack Henry": 25,
@@ -167,14 +167,19 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
 
+    # Freddie Mac (WORKING SOURCE): GlobeNewswire organization page + release pages
+    # IMPORTANT: Use the server-rendered /search/organization/ and allow both /news-release/ and /en/news-release/
     "Freddie Mac": {
-        "allow_domains": {"www.freddiemac.com"},
-        "allow_path_prefixes": {"/media-room/"},
+        "allow_domains": {"www.globenewswire.com"},
+        "allow_path_prefixes": {
+            "/search/organization/",
+            "/en/search/organization/",
+            "/news-release/",
+            "/en/news-release/",
+        },
     },
 
-    # USDA Rural Development (GovDelivery) — IMPORTANT:
-    # - Listing is /accounts/USDARD/bulletins
-    # - Bulletins themselves are /bulletins/<id> (or /bulletins/gd/<id>)
+    # USDA Rural Development (GovDelivery)
     "USDA Rural Development": {
         "allow_domains": {"content.govdelivery.com"},
         "allow_path_prefixes": {"/accounts/USDARD/bulletins", "/bulletins/"},
@@ -196,17 +201,16 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         },
     },
 
-    # Payment networks (tighten to newsroom/press paths to reduce “every link” noise)
+    # Payment networks
     "Visa": {
         "allow_domains": {"usa.visa.com"},
-        "allow_path_prefixes": {
-            "/about-visa/newsroom/press-releases/",
-            "/about-visa/newsroom/press-releases-listing.html",
-        },
+        "allow_path_prefixes": {"/about-visa/newsroom/press-releases/"},
     },
+
+    # Mastercard
     "Mastercard": {
         "allow_domains": {"www.mastercard.com"},
-        "allow_path_prefixes": {"/news-and-trends/press/"},
+        "allow_path_prefixes": {"/us/en/news-and-trends/press/", "/news-and-trends/press/"},
     },
 
     "Federal Register": {
@@ -314,17 +318,14 @@ def looks_like_error_html(html: str) -> bool:
     has_title = "<title" in s
     has_main = "<main" in s or 'role="main"' in s
 
-    # Strong signals: explicit 404 title or common error headings
     if "<title>404" in s or "<title>page not found" in s:
         return True
 
-    # Common error headings (tight match)
     if re.search(r">(\s*)page not found(\s*)<", s):
         return True
     if re.search(r">(\s*)404(\s*)<", s) and ("not found" in s):
         return True
 
-    # If we have a normal document structure, don't treat it as error.
     if has_html and (has_title or has_main):
         return False
 
@@ -391,38 +392,38 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         read_timeout = 35
     if "irs.gov" in h:
         read_timeout = 35
-    if "whitehouse.gov" in h:
-        read_timeout = 45
+    if "globenewswire.com" in h:
+        read_timeout = 40
 
     try:
         time.sleep(REQUEST_DELAY_SEC)
 
         headers: Dict[str, str] = {}
         if "whitehouse.gov" in h:
-            # whitehouse.gov is picky sometimes; mimic a real browser navigation
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Referer": "https://www.whitehouse.gov/",
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
-                "Sec-Fetch-Dest": "document",
-                "Sec-Fetch-Mode": "navigate",
-                "Sec-Fetch-Site": "same-origin",
-                "Upgrade-Insecure-Requests": "1",
+            }
+        if "globenewswire.com" in h:
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Referer": "https://www.globenewswire.com/",
             }
 
-        r = SESSION.get(url, headers=headers or None, timeout=(10, read_timeout), allow_redirects=True)
+        r = SESSION.get(
+            url,
+            headers=headers if headers else None,
+            timeout=(10, read_timeout),
+            allow_redirects=True,
+        )
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
             return None
 
         txt = r.text or ""
-
-        # IMPORTANT: don't over-reject White House pages due to false-positive "error" heuristics
         if looks_like_error_html(txt):
-            if "whitehouse.gov" in h:
-                print(f"[note] looks-like-error heuristic triggered, but keeping HTML for: {url}", flush=True)
-                return txt
             print(f"[warn] looks-like-error HTML: {url}", flush=True)
             return None
 
@@ -571,7 +572,6 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
         if NAV_TITLE_RE.search(t) or re.fullmatch(r"\d+", t):
             return True
 
-    # OFAC: avoid category directory links
     if source == "OFAC":
         if "page" in q:
             return True
@@ -580,7 +580,6 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
         if u.path.rstrip("/").endswith("/recent-actions/enforcement-actions"):
             return True
 
-    # White House: avoid category selector + menus
     if source == "White House":
         if t.lower() in {"all", "featured", "news", "gallery", "livestream", "contact"}:
             return True
@@ -596,16 +595,13 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
     u = urlparse(url)
     p = (u.path or "/").rstrip("/")
 
-    # never treat domain root as an "item"
     if p == "":
         return True
 
-    # common generic hubs
     for hub in ["/newsroom", "/news", "/press-releases", "/pressreleases", "/media-room", "/media", "/about-us"]:
         if p.endswith(hub):
             return True
 
-    # USDA GovDelivery: allow /bulletins/* and /accounts/USDARD/bulletins*
     if source == "USDA Rural Development":
         pl = p.lower()
         if pl.startswith("/bulletins/"):
@@ -615,36 +611,16 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
         if any(x in pl for x in ["/subscriptions/", "/subscriber/", "/preferences/"]):
             return True
 
-    # Freddie Mac: block obvious non-article hubs, but keep real /media-room/* content pages
+    # Freddie Mac (GlobeNewswire) — allow org-search + news-release items (both /en and non-/en)
     if source == "Freddie Mac":
-        u2 = urlparse(url)
-        pl = (u2.path or "/").lower().rstrip("/")
-
-        if tl in {
-            "about", "our business", "our-business", "business",
-            "careers", "investors", "contact", "media room", "media-room",
-            "topics", "topic"
-        }:
-            return True
-
-        # If it's exactly the media-room landing page, block it.
-        if pl == "/media-room":
-            return True
-
-        # Block clearly non-article hub sections
-        if any(pl.startswith(x) for x in [
-            "/about",
-            "/our-business",
-            "/investors",
-            "/careers",
-            "/contact",
-        ]):
-            return True
-
-        # If it's under /media-room/, generally allow it unless it looks like a category hub
-        if pl.startswith("/media-room/"):
-            if any(seg in pl for seg in ["/topics", "/topic", "/categories", "/category", "/tag", "/tags"]):
-                return True
+        pl = p.lower()
+        if pl.startswith("/search/organization/"):
+            return False
+        if pl.startswith("/en/search/organization/"):
+            return False
+        if pl.startswith("/news-release/"):
+            return False
+        if pl.startswith("/en/news-release/"):
             return False
 
     return False
@@ -933,85 +909,20 @@ def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
         if dt:
             return dt
 
-    near = clean_text(parent.get_text(" ", strip=True) if parent else "", 700)
+    near = clean_text(parent.get_text(" ", strip=True) if parent else "", 900)
     return extract_any_date(near, source=source)
 
 
-def find_date_in_neighbors(a: Any, source: str) -> Optional[datetime]:
-    """
-    whitehouse.gov/news often renders the date as a nearby sibling block,
-    not inside the same node as the headline link.
-    """
-    containers = [
-        a.find_parent(["li", "article"]) or a.parent,
-        a.find_parent(["div", "section"]),
-        (a.find_parent(["div", "section"]) or a.parent).find_parent(["div", "section"])
-        if (a.find_parent(["div", "section"]) or a.parent) else None,
-    ]
-
-    seen = set()
-    for c in containers:
-        if not c:
-            continue
-        if id(c) in seen:
-            continue
-        seen.add(id(c))
-
-        txt = clean_text(c.get_text(" ", strip=True), 900)
-        dt = extract_any_date(txt, source=source)
-        if dt:
-            return dt
-
-        for sib in list(c.next_siblings)[:8]:
-            try:
-                if not getattr(sib, "get_text", None):
-                    continue
-                st = clean_text(sib.get_text(" ", strip=True), 400)
-                dt = extract_any_date(st, source=source)
-                if dt:
-                    return dt
-            except Exception:
-                pass
-
-        for sib in list(c.previous_siblings)[:8]:
-            try:
-                if not getattr(sib, "get_text", None):
-                    continue
-                st = clean_text(sib.get_text(" ", strip=True), 400)
-                dt = extract_any_date(st, source=source)
-                if dt:
-                    return dt
-            except Exception:
-                pass
-
-    return None
-
-
-def is_likely_article_anchor(a: Any, source: str = "") -> bool:
-    """
-    Heuristic: some sites (OFAC/Visa/Mastercard/Freddie) don't put headline links in h2/h3,
-    so we allow a broader set for those sources while still excluding nav/junk elsewhere.
-    """
+def is_likely_article_anchor(a: Any) -> bool:
     for tag in ["h1", "h2", "h3"]:
         if a.find_parent(tag) is not None:
             return True
-
     cls = " ".join(a.get("class", [])).lower()
-    if any(k in cls for k in ["title", "headline", "card", "teaser", "post", "entry", "result"]):
+    if any(k in cls for k in ["title", "headline", "card", "teaser", "post"]):
         return True
-
-    if a.find_parent(["article", "li"]) is not None:
+    p = a.find_parent(["article", "li"])
+    if p is not None:
         return True
-
-    if source in {"OFAC", "Visa", "Mastercard", "Freddie Mac"}:
-        href = (a.get("href") or "").strip().lower()
-        if not href:
-            return False
-        if any(x in href for x in [
-            "/news", "/press", "/media-room", "/recent-actions", "/enforcement-actions", "/press-releases"
-        ]):
-            return True
-
     return False
 
 
@@ -1024,7 +935,6 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
-    # The site usually uses h2/h3 headlines for posts
     for a in container.select("h2 a[href], h3 a[href]"):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1048,9 +958,171 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 
         dt = find_time_near_anchor(a, "White House")
         if dt is None:
-            dt = find_date_in_neighbors(a, "White House")
+            wrap = a.find_parent(["div", "article", "li", "section"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="White House")
 
         links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
+
+def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    for a in container.select('a[href*="/news-and-trends/press/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("Mastercard", url):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        if not raw_title:
+            raw_title = (a.get("aria-label") or "").strip()
+        if not raw_title:
+            raw_title = (a.get("title") or "").strip()
+
+        title = clean_text(raw_title, 220)
+        if not title or len(title) < 10:
+            continue
+
+        if title.lower() in {"read more", "learn more", "more", "details"}:
+            continue
+        if is_probably_nav_link("Mastercard", title, url):
+            continue
+        if is_generic_listing_or_home("Mastercard", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = find_time_near_anchor(a, "Mastercard")
+        if dt is None:
+            wrap = a.find_parent(["li", "article", "div", "section"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="Mastercard")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
+
+# ============================
+# Freddie Mac (GlobeNewswire) — server-rendered org page + improved dt capture
+# ============================
+
+def _globenewswire_find_date_near(a: Any, source: str) -> Optional[datetime]:
+    if not a:
+        return None
+
+    dt = find_time_near_anchor(a, source)
+    if dt:
+        return dt
+
+    cur = a
+    for _ in range(0, 5):
+        cur = cur.parent if getattr(cur, "parent", None) is not None else None
+        if not cur or not getattr(cur, "get_text", None):
+            break
+
+        try:
+            for sel in [
+                ".date", ".release-date", ".releaseDate", ".timestamp", ".time",
+                "[class*='date']", "[class*='time']", "[class*='timestamp']",
+            ]:
+                el = cur.select_one(sel)
+                if el and getattr(el, "get_text", None):
+                    dt2 = extract_any_date(clean_text(el.get_text(" ", strip=True), 240), source=source)
+                    if dt2:
+                        return dt2
+        except Exception:
+            pass
+
+        try:
+            blob = clean_text(cur.get_text(" ", strip=True), 1200)
+            dt2 = extract_any_date(blob, source=source)
+            if dt2:
+                return dt2
+        except Exception:
+            pass
+
+    try:
+        parent = a.parent
+        if parent:
+            checked = 0
+            for sib in parent.previous_siblings:
+                if checked >= 10:
+                    break
+                if not getattr(sib, "get_text", None):
+                    continue
+                checked += 1
+                st = clean_text(sib.get_text(" ", strip=True), 600)
+                dt2 = extract_any_date(st, source=source)
+                if dt2:
+                    return dt2
+    except Exception:
+        pass
+
+    return None
+
+
+def freddiemac_globenewswire_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    # Include both /news-release/ and /en/news-release/
+    for a in container.select('a[href*="/news-release/"], a[href*="/en/news-release/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("Freddie Mac", url):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        if not raw_title:
+            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
+        if not raw_title:
+            continue
+
+        title = clean_text(raw_title, 220)
+        if not title or len(title) < 8:
+            continue
+
+        if title.lower() in {"read more", "learn more", "more", "details"}:
+            continue
+        if is_probably_nav_link("Freddie Mac", title, url):
+            continue
+        if is_generic_listing_or_home("Freddie Mac", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = _globenewswire_find_date_near(a, "Freddie Mac")
+        links.append((title, url, dt))
+
         if len(links) >= MAX_LISTING_LINKS:
             break
 
@@ -1060,6 +1132,10 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     if source == "White House":
         return whitehouse_links(page_url, html)
+    if source == "Mastercard":
+        return mastercard_links(page_url, html)
+    if source == "Freddie Mac":
+        return freddiemac_globenewswire_links(page_url, html)
 
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup)
@@ -1072,7 +1148,7 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     seen = set()
 
     for a in container.find_all("a", href=True):
-        if not is_likely_article_anchor(a, source=source):
+        if not is_likely_article_anchor(a):
             continue
 
         href = (a.get("href") or "").strip()
@@ -1157,7 +1233,9 @@ START_PAGES: List[SourcePage] = [
     SourcePage("FHLB MPF", "https://www.fhlbmpf.com/about-us/news"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
-    SourcePage("Freddie Mac", "https://www.freddiemac.com/media-room"),
+
+    # Freddie Mac (IMPORTANT: use server-rendered endpoint; /en/ version is often JS-rendered)
+    SourcePage("Freddie Mac", "https://www.globenewswire.com/search/organization/Freddie%20Mac"),
 
     # Legislative / exec
     SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
@@ -1409,7 +1487,6 @@ def build() -> None:
     for sp in START_PAGES:
         pages_by_source.setdefault(sp.source, []).append(sp.url)
 
-    # Ensure feed-only + API-only sources still get processed
     for src in set(KNOWN_FEEDS.keys()) | {"Federal Register"}:
         pages_by_source.setdefault(src, [])
 
@@ -1417,7 +1494,6 @@ def build() -> None:
         print(f"\n===== SOURCE: {source} =====", flush=True)
         source_items_before = len(all_items)
 
-        # 0) Federal Register API (topics)
         if source == "Federal Register":
             got = items_from_federal_register_topics(window_start, window_end)
             if got:
@@ -1427,14 +1503,12 @@ def build() -> None:
                 print(f"[note] Federal Register: no qualifying items in window (or API issue).", flush=True)
             continue
 
-        # 1) Known feeds
         for fu in KNOWN_FEEDS.get(source, []):
             got = items_from_feed(source, fu, window_start, window_end)
             if got:
                 all_items.extend(got)
                 print(f"[feed-known] {len(got)} items from {fu}", flush=True)
 
-        # 2) Listing pages
         for page_url in pages:
             print(f"\n[source] {source} :: {page_url}", flush=True)
 
@@ -1452,7 +1526,6 @@ def build() -> None:
             if looks_js_rendered(html):
                 print("[note] page looks JS-rendered; using strict extraction (may be limited)", flush=True)
 
-            # Discover feeds
             feed_urls = discover_feeds(page_url, html)
             feed_items_total = 0
             for fu in feed_urls:
@@ -1463,7 +1536,6 @@ def build() -> None:
                     print(f"[feed] {len(got)} items from {fu}", flush=True)
             print(f"[feed] total: {feed_items_total} | feeds found: {len(feed_urls)}", flush=True)
 
-            # Listing links (STRICT)
             listing_links = main_content_links(source, page_url, html)
             print(f"[list] links captured: {len(listing_links)}", flush=True)
 
@@ -1516,7 +1588,6 @@ def build() -> None:
         if gained == 0:
             print(f"[note] {source}: no qualifying items in the last {WINDOW_DAYS} days (or blocked/changed).", flush=True)
 
-    # De-dupe by URL
     dedup: Dict[str, Dict[str, Any]] = {}
     for it in sorted(all_items, key=lambda x: x["published_at"], reverse=True):
         key = canonical_url(it["url"])

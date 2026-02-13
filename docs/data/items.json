@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-01-30T15:36:06Z",
-  "window_end": "2026-02-13T15:36:06Z",
-  "generated_at_utc": "2026-02-13T15:36:06Z",
-  "generated_at_ct": "2026-02-13T09:36:06-06:00",
+  "window_start": "2026-01-30T18:12:34Z",
+  "window_end": "2026-02-13T18:12:34Z",
+  "generated_at_utc": "2026-02-13T18:12:34Z",
+  "generated_at_ct": "2026-02-13T12:12:34-06:00",
   "items": [
+    {
+      "category": "Legislative",
+      "source": "White House",
+      "title": "Presidential Message on Career and Technical Education Month",
+      "published_at": "2026-02-13T17:26:30Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-career-and-technical-education-month/",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "White House",
+      "title": "Presidential Message on American Heart Month",
+      "published_at": "2026-02-13T16:33:45Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-american-heart-month/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -37,11 +53,35 @@
       "summary": "Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]"
     },
     {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related General Licenses",
+      "category": "IRS",
+      "source": "IRS",
+      "title": "Avoid waiting on hold; use IRS online tools for faster help",
       "published_at": "2026-02-13T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260213",
+      "url": "https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help",
+      "summary": "IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold."
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Senator Warren Statement on January 2026 CPI",
+      "published_at": "2026-02-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-cpi",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks",
+      "published_at": "2026-02-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair",
+      "published_at": "2026-02-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair",
       "summary": ""
     },
     {
@@ -213,14 +253,6 @@
       "summary": "Apple has released security updates to fix a zero-day vulnerability that was exploited in an \"extremely sophisticated attack\" targeting specific individuals. [...]"
     },
     {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC",
-      "published_at": "2026-02-12T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260212",
-      "summary": ""
-    },
-    {
       "category": "IRS",
       "source": "IRS",
       "title": "Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill",
@@ -253,27 +285,19 @@
       "summary": "The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development."
     },
     {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks",
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Mortgage Rates Inch Down",
       "published_at": "2026-02-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks",
+      "url": "https://www.globenewswire.com/news-release/2026/02/12/3237519/0/en/Mortgage-Rates-Inch-Down.html",
       "summary": ""
     },
     {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair",
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Freddie Mac Announces Fourth Quarter and Full-Year 2025 Financial Results",
       "published_at": "2026-02-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Ahead of Hearing, Warren Presses SEC Chair Paul Atkins on Implementation of Trump Executive Order To Weaken Shareholder Rights",
-      "published_at": "2026-02-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-warren-presses-sec-chair-paul-atkins-on-implementation-of-trump-executive-order-to-weaken-shareholder-rights",
+      "url": "https://www.globenewswire.com/news-release/2026/02/12/3237170/0/en/Freddie-Mac-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
       "summary": ""
     },
     {
@@ -330,30 +354,6 @@
       "title": "Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet",
       "published_at": "2026-02-11T22:03:51Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "White House",
-      "title": "Fact Sheet: President Donald J. Trump Strengthens United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet",
-      "published_at": "2026-02-11T21:57:59Z",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-strengthens-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "White House",
-      "title": "First Lady Melania Trump Visits Children with Rare and Serious Diseases at The Children’s Inn at NIH for Valentine’s Day",
-      "published_at": "2026-02-11T20:04:28Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-visits-children-with-rare-and-serious-diseases-at-the-childrens-inn-at-nih-for-valentines-day/",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "White House",
-      "title": "ICYMI: “Violent crime plummets across major U.S. cities”",
-      "published_at": "2026-02-11T17:37:15Z",
-      "url": "https://www.whitehouse.gov/articles/2026/02/icymi-violent-crime-plummets-across-major-u-s-cities/",
       "summary": ""
     },
     {
@@ -877,27 +877,11 @@
       "summary": "Added Affected Software for Windows packages"
     },
     {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Counter Terrorism Designations",
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results",
       "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260210",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Sanctions List Updates",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/sanctions-list-updates",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of New and Amended Venezuela-related General Licenses",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260210_33",
+      "url": "https://www.globenewswire.com/news-release/2026/02/10/3235794/0/en/Freddie-Mac-Announces-Release-Date-for-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
       "summary": ""
     },
     {
@@ -997,30 +981,6 @@
       "summary": ""
     },
     {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Iran-related Designations",
-      "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260206",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Launch of Voluntary Self-Disclosure Portal",
-      "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260206_33",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related Frequently Asked Questions",
-      "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260206_66",
-      "summary": ""
-    },
-    {
       "category": "Banking",
       "source": "OCC",
       "title": "Comptroller Discusses Importance of Financial Education",
@@ -1085,6 +1045,14 @@
       "summary": "User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network."
     },
     {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Mortgage Rates Continue to Show Stability, Hovering Near 6%",
+      "published_at": "2026-02-05T00:00:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/02/05/3233311/0/en/Mortgage-Rates-Continue-to-Show-Stability-Hovering-Near-6.html",
+      "summary": ""
+    },
+    {
       "category": "Payments",
       "source": "FRB",
       "title": "Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered",
@@ -1130,14 +1098,6 @@
       "title": "National Black History Month, 2026",
       "published_at": "2026-02-03T19:56:11Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related General License",
-      "published_at": "2026-02-03T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260203",
       "summary": ""
     },
     {

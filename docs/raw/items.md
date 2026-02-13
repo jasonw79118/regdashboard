@@ -1,7 +1,19 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T15:36:06Z` → `2026-02-13T15:36:06Z` (UTC)
-Last updated: `2026-02-13T09:36:06-06:00` (CT) — `2026-02-13T15:36:06Z` (UTC)
+Window: `2026-01-30T18:12:34Z` → `2026-02-13T18:12:34Z` (UTC)
+Last updated: `2026-02-13T12:12:34-06:00` (CT) — `2026-02-13T18:12:34Z` (UTC)
+
+## Presidential Message on Career and Technical Education Month
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-13T17:26:30Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-career-and-technical-education-month/
+
+## Presidential Message on American Heart Month
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-13T16:33:45Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-american-heart-month/
 
 ## Turning IBM QRadar Alerts into Action with Criminal IP
 - Source: BleepingComputer
@@ -33,11 +45,31 @@ CISA ordered federal agencies on Thursday to secure their systems against a crit
 
 Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
 
-## Issuance of Venezuela-related General Licenses
-- Source: OFAC
-- Category: OFAC
+## Avoid waiting on hold; use IRS online tools for faster help
+- Source: IRS
+- Category: IRS
 - Published: 2026-02-13T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260213
+- URL: https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help
+
+IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
+
+## Senator Warren Statement on January 2026 CPI
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-cpi
+
+## At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks
+
+## Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair
 
 ## Earnings Estimates
 - Source: Jack Henry
@@ -195,12 +227,6 @@ Google Threat Intelligence Group (GTIG) has published a new report warning about
 
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
 
-## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-12T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260212
-
 ## Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill
 - Source: IRS
 - Category: IRS
@@ -233,23 +259,17 @@ The core of bank supervision is the bank examination process, carried out by mor
 
 The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 
-## At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks
-- Source: Senate Banking
-- Category: Legislative
+## Mortgage Rates Inch Down
+- Source: Freddie Mac
+- Category: Mortgage
 - Published: 2026-02-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks
+- URL: https://www.globenewswire.com/news-release/2026/02/12/3237519/0/en/Mortgage-Rates-Inch-Down.html
 
-## Chairman Scott Charts Path Forward on Digital Assets and Capital Formation at Hearing with SEC Chair
-- Source: Senate Banking
-- Category: Legislative
+## Freddie Mac Announces Fourth Quarter and Full-Year 2025 Financial Results
+- Source: Freddie Mac
+- Category: Mortgage
 - Published: 2026-02-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair
-
-## Ahead of Hearing, Warren Presses SEC Chair Paul Atkins on Implementation of Trump Executive Order To Weaken Shareholder Rights
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-warren-presses-sec-chair-paul-atkins-on-implementation-of-trump-executive-order-to-weaken-shareholder-rights
+- URL: https://www.globenewswire.com/news-release/2026/02/12/3237170/0/en/Freddie-Mac-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html
 
 ## Fiserv Introduces INDX, a Real-Time Cash Settlement Platform for Digital Asset Companies
 - Source: Fiserv
@@ -294,24 +314,6 @@ Microsoft has fixed a "remote code execution" vulnerability in Windows 11 Notepa
 - Category: Legislative
 - Published: 2026-02-11T22:03:51Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
-
-## Fact Sheet: President Donald J. Trump Strengthens United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
-- Source: White House
-- Category: Legislative
-- Published: 2026-02-11T21:57:59Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-strengthens-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
-
-## First Lady Melania Trump Visits Children with Rare and Serious Diseases at The Children’s Inn at NIH for Valentine’s Day
-- Source: White House
-- Category: Legislative
-- Published: 2026-02-11T20:04:28Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-visits-children-with-rare-and-serious-diseases-at-the-childrens-inn-at-nih-for-valentines-day/
-
-## ICYMI: “Violent crime plummets across major U.S. cities”
-- Source: White House
-- Category: Legislative
-- Published: 2026-02-11T17:37:15Z
-- URL: https://www.whitehouse.gov/articles/2026/02/icymi-violent-crime-plummets-across-major-u-s-cities/
 
 ## How the Industry Is Adapting to Nacha’s New Risk Management Rules
 - Source: NACHA
@@ -827,23 +829,11 @@ Added Affected Software for Windows packages
 
 Added Affected Software for Windows packages
 
-## Counter Terrorism Designations
-- Source: OFAC
-- Category: OFAC
+## Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results
+- Source: Freddie Mac
+- Category: Mortgage
 - Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260210
-
-## Sanctions List Updates
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/sanctions-list-updates
-
-## Issuance of New and Amended Venezuela-related General Licenses
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260210_33
+- URL: https://www.globenewswire.com/news-release/2026/02/10/3235794/0/en/Freddie-Mac-Announces-Release-Date-for-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html
 
 ## Fiserv Reports Fourth Quarter and Full Year 2025 Results
 - Source: Fiserv
@@ -923,24 +913,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-02-06T05:00:00Z
 - URL: https://ir.jackhenry.com/financials/sec-filings
 
-## Iran-related Designations
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206
-
-## Launch of Voluntary Self-Disclosure Portal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206_33
-
-## Issuance of Venezuela-related Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206_66
-
 ## Comptroller Discusses Importance of Financial Education
 - Source: OCC
 - Category: Banking
@@ -1005,6 +977,12 @@ Information published.
 
 User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network.
 
+## Mortgage Rates Continue to Show Stability, Hovering Near 6%
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-02-05T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/02/05/3233311/0/en/Mortgage-Rates-Continue-to-Show-Stability-Hovering-Near-6.html
+
 ## Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
 - Source: FRB
 - Category: Payments
@@ -1046,12 +1024,6 @@ Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Mult
 - Category: Legislative
 - Published: 2026-02-03T19:56:11Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
-
-## Issuance of Venezuela-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-03T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260203
 
 ## Create an IRS Individual Online Account today for security and convenience
 - Source: IRS
