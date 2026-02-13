@@ -167,7 +167,7 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
 
- "Freddie Mac": {
+    "Freddie Mac": {
         "allow_domains": {"www.freddiemac.com"},
         "allow_path_prefixes": {"/media-room/"},
     },
@@ -298,13 +298,35 @@ def path(url: str) -> str:
 
 
 def looks_like_error_html(html: str) -> bool:
+    """
+    Conservative "is this an error page?" detector.
+    Avoid false-positives from sites that embed '404'/'not found' in scripts/templates.
+    """
     if not html:
         return True
+
     s = html.lower()
-    if "404" in s and ("page not found" in s or "not found" in s):
+
+    has_html = "<html" in s or "<!doctype html" in s
+    has_title = "<title" in s
+    has_main = "<main" in s or 'role="main"' in s
+
+    # Strong signals: explicit 404 title or common error headings
+    if "<title>404" in s or "<title>page not found" in s:
         return True
-    if "<title>404" in s:
+
+    if re.search(r">(\s*)page not found(\s*)<", s):
         return True
+    if re.search(r">(\s*)404(\s*)<", s) and ("not found" in s):
+        return True
+
+    # If we have a normal document structure, don't treat it as error.
+    if has_html and (has_title or has_main):
+        return False
+
+    if ("page not found" in s or "404 not found" in s) and not has_html:
+        return True
+
     return False
 
 
@@ -365,10 +387,28 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         read_timeout = 35
     if "irs.gov" in h:
         read_timeout = 35
+    if "whitehouse.gov" in h:
+        read_timeout = 45
 
     try:
         time.sleep(REQUEST_DELAY_SEC)
-        r = SESSION.get(url, timeout=(10, read_timeout), allow_redirects=True)
+
+        headers = {}
+        if "whitehouse.gov" in h:
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Referer": "https://www.whitehouse.gov/",
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            }
+
+        r = SESSION.get(
+            url,
+            headers=headers if headers else None,
+            timeout=(10, read_timeout),
+            allow_redirects=True
+        )
+
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
             return None
@@ -566,12 +606,38 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
         if any(x in pl for x in ["/subscriptions/", "/subscriber/", "/preferences/"]):
             return True
 
-  # Freddie Mac: block common non-article hubs even if they appear in media-room pages
+    # Freddie Mac: block non-article hubs even if they appear in /media-room/
     if source == "Freddie Mac":
-        if tl in {"about", "our business", "our-business", "business", "careers", "investors", "contact"}:
+        u2 = urlparse(url)
+        pl = (u2.path or "/").lower()
+
+        # common non-article titles
+        if tl in {
+            "about", "our business", "our-business", "business",
+            "careers", "investors", "contact", "media room", "media-room",
+            "topics", "topic", "research", "reports"
+        }:
             return True
-        pl = p.lower()
-        if any(x in pl for x in ["/about/", "/our-business/", "/investors/", "/careers/", "/contact/"]):
+
+        # block obvious hub sections / navigation
+        if any(x in pl for x in [
+            "/about/",
+            "/our-business/",
+            "/investors/",
+            "/careers/",
+            "/contact/",
+            "/topics/",
+            "/topic/",
+            "/research/",
+            "/reports/",
+            "/media-room",          # landing page and category pages
+            "/single-family/",
+            "/multifamily/",
+            "/capital-markets/",
+        ]):
+            # allow deeper media-room "article-like" pages
+            if pl.startswith("/media-room/") and any(seg in pl for seg in ["/news", "/news-releases", "/press", "/release", "/article"]):
+                return False
             return True
 
     return False
@@ -863,16 +929,18 @@ def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
     near = clean_text(parent.get_text(" ", strip=True) if parent else "", 700)
     return extract_any_date(near, source=source)
 
+
 def find_date_in_neighbors(a: Any, source: str) -> Optional[datetime]:
     """
     Whitehouse /news/ often renders the date as a nearby sibling block,
     not inside the same node as the headline link.
     """
-    # try a few likely containers from tight to broad
     containers = [
         a.find_parent(["li", "article"]) or a.parent,
         a.find_parent(["div", "section"]),
-        (a.find_parent(["div", "section"]) or a.parent).find_parent(["div", "section"]) if (a.find_parent(["div", "section"]) or a.parent) else None,
+        (a.find_parent(["div", "section"]) or a.parent).find_parent(["div", "section"])
+        if (a.find_parent(["div", "section"]) or a.parent)
+        else None,
     ]
 
     seen = set()
@@ -883,13 +951,11 @@ def find_date_in_neighbors(a: Any, source: str) -> Optional[datetime]:
             continue
         seen.add(id(c))
 
-        # 1) Try within this container (sometimes date is inside it)
         txt = clean_text(c.get_text(" ", strip=True), 900)
         dt = extract_any_date(txt, source=source)
         if dt:
             return dt
 
-        # 2) Try a few next/prev siblings (common on whitehouse.gov/news)
         for sib in list(c.next_siblings)[:8]:
             try:
                 if not getattr(sib, "get_text", None):
@@ -914,8 +980,8 @@ def find_date_in_neighbors(a: Any, source: str) -> Optional[datetime]:
 
     return None
 
+
 def is_likely_article_anchor(a: Any) -> bool:
-    # reduce “every link” noise: prefer headline-like anchors
     for tag in ["h1", "h2", "h3"]:
         if a.find_parent(tag) is not None:
             return True
@@ -934,7 +1000,6 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     if not container:
         return []
 
-    # ONLY grab post-title links: the page uses headings for each post
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
@@ -960,12 +1025,8 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
         seen.add(url)
 
         dt = find_time_near_anchor(a, "White House")
-        # NEW: /news/ often places the date as a nearby sibling block
         if dt is None:
-            # widen the search a little: look at the nearest div wrapper text
-            wrap = a.find_parent(["div", "article", "li", "section"]) or a.parent
-            if wrap:
-                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 900), source="White House")
+            dt = find_date_in_neighbors(a, "White House")
 
         links.append((title, url, dt))
         if len(links) >= MAX_LISTING_LINKS:
