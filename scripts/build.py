@@ -415,6 +415,8 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         time.sleep(REQUEST_DELAY_SEC)
 
         headers: Dict[str, str] = {}
+
+        # Existing per-site header tweaks
         if "whitehouse.gov" in h:
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -431,6 +433,33 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Referer": "https://ofac.treasury.gov/",
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            }
+
+        # ✅ Payment Card Networks: make requests look like a real browser (scoped only to these domains)
+        browser_ua = (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/122.0.0.0 Safari/537.36"
+        )
+
+        if h == "usa.visa.com":
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Referer": "https://usa.visa.com/",
+                "User-Agent": browser_ua,
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            }
+
+        if h == "www.mastercard.com":
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Referer": "https://www.mastercard.com/",
+                "User-Agent": browser_ua,
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
             }
