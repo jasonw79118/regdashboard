@@ -167,6 +167,11 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
 
+ "Freddie Mac": {
+        "allow_domains": {"www.freddiemac.com"},
+        "allow_path_prefixes": {"/media-room/"},
+    },
+
     # USDA Rural Development (GovDelivery) — IMPORTANT:
     # - Listing is /accounts/USDARD/bulletins
     # - Bulletins themselves are /bulletins/<id> (or /bulletins/gd/<id>)
@@ -561,6 +566,14 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
         if any(x in pl for x in ["/subscriptions/", "/subscriber/", "/preferences/"]):
             return True
 
+  # Freddie Mac: block common non-article hubs even if they appear in media-room pages
+    if source == "Freddie Mac":
+        if tl in {"about", "our business", "our-business", "business", "careers", "investors", "contact"}:
+            return True
+        pl = p.lower()
+        if any(x in pl for x in ["/about/", "/our-business/", "/investors/", "/careers/", "/contact/"]):
+            return True
+
     return False
 
 
@@ -850,6 +863,56 @@ def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
     near = clean_text(parent.get_text(" ", strip=True) if parent else "", 700)
     return extract_any_date(near, source=source)
 
+def find_date_in_neighbors(a: Any, source: str) -> Optional[datetime]:
+    """
+    Whitehouse /news/ often renders the date as a nearby sibling block,
+    not inside the same node as the headline link.
+    """
+    # try a few likely containers from tight to broad
+    containers = [
+        a.find_parent(["li", "article"]) or a.parent,
+        a.find_parent(["div", "section"]),
+        (a.find_parent(["div", "section"]) or a.parent).find_parent(["div", "section"]) if (a.find_parent(["div", "section"]) or a.parent) else None,
+    ]
+
+    seen = set()
+    for c in containers:
+        if not c:
+            continue
+        if id(c) in seen:
+            continue
+        seen.add(id(c))
+
+        # 1) Try within this container (sometimes date is inside it)
+        txt = clean_text(c.get_text(" ", strip=True), 900)
+        dt = extract_any_date(txt, source=source)
+        if dt:
+            return dt
+
+        # 2) Try a few next/prev siblings (common on whitehouse.gov/news)
+        for sib in list(c.next_siblings)[:8]:
+            try:
+                if not getattr(sib, "get_text", None):
+                    continue
+                st = clean_text(sib.get_text(" ", strip=True), 400)
+                dt = extract_any_date(st, source=source)
+                if dt:
+                    return dt
+            except Exception:
+                pass
+
+        for sib in list(c.previous_siblings)[:8]:
+            try:
+                if not getattr(sib, "get_text", None):
+                    continue
+                st = clean_text(sib.get_text(" ", strip=True), 400)
+                dt = extract_any_date(st, source=source)
+                if dt:
+                    return dt
+            except Exception:
+                pass
+
+    return None
 
 def is_likely_article_anchor(a: Any) -> bool:
     # reduce “every link” noise: prefer headline-like anchors
@@ -896,8 +959,8 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
             continue
         seen.add(url)
 
-        # the date is usually very close in surrounding block text
         dt = find_time_near_anchor(a, "White House")
+        # NEW: /news/ often places the date as a nearby sibling block
         if dt is None:
             # widen the search a little: look at the nearest div wrapper text
             wrap = a.find_parent(["div", "article", "li", "section"]) or a.parent

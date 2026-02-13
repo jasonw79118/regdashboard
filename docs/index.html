@@ -12,35 +12,9 @@
     <h1>Compliance &amp; Regulatory Quick-Access Dashboard</h1>
     <div class="subtitle">Rolling Regulatory Intelligence</div>
 
+    <!-- Keep only the rolling window in the top banner -->
     <div class="header-meta">
       <div id="window" class="window"></div>
-      <div id="count" class="window"></div>
-      <div id="debug-counts" class="window" style="font-size:12px; opacity:.92;"></div>
-    </div>
-
-    <div class="header-actions">
-      <div class="window" style="font-size: 13px;">
-        Copilot-friendly exports:
-        <a href="raw/" target="_blank" rel="noopener">Static Export</a>
-        · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
-        · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
-        · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
-        · <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
-      </div>
-
-      <div>
-        <a
-          href="https://github.com/jasonw79118/regdashboard/actions/workflows/regdashboard-build.yml"
-          target="_blank"
-          rel="noopener"
-          class="btn"
-        >
-          Force update (Run workflow)
-        </a>
-        <span style="margin-left:10px; color: rgba(255,255,255,.90); font-size:13px;">
-          Opens GitHub Actions — click <strong>Run workflow</strong> to rebuild now.
-        </span>
-      </div>
     </div>
 
     <nav class="nav">
@@ -64,6 +38,42 @@
 
   <footer>
     <hr />
+
+    <!-- MOVED FROM HEADER: counts + exports (except print) + force update -->
+    <div class="footer-tools" style="display:grid; gap:10px; margin: 10px 0 16px 0;">
+      <div id="count" style="font-size:13px; opacity:.9;"></div>
+      <div id="debug-counts" style="font-size:12px; opacity:.85;"></div>
+
+      <div style="font-size:13px;">
+        Copilot-friendly exports:
+        <a href="raw/" target="_blank" rel="noopener">Static Export</a>
+        · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
+        · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
+        · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
+      </div>
+
+      <div style="font-size:13px;">
+        <a
+          href="https://github.com/jasonw79118/regdashboard/actions/workflows/regdashboard-build.yml"
+          target="_blank"
+          rel="noopener"
+          class="btn"
+          style="display:inline-block;"
+        >
+          Force update (Run workflow)
+        </a>
+        <span style="margin-left:10px; opacity:.85;">
+          Opens GitHub Actions — click <strong>Run workflow</strong> to rebuild now.
+        </span>
+      </div>
+
+      <!-- Keep print separate (as requested) -->
+      <div style="font-size:13px;">
+        Print:
+        <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
+      </div>
+    </div>
+
     <p class="disclaimer">
       RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
       Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
