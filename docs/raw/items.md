@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T19:43:45Z` → `2026-02-13T19:43:45Z` (UTC)
-Last updated: `2026-02-13T13:43:45-06:00` (CT) — `2026-02-13T19:43:45Z` (UTC)
+Window: `2026-01-30T20:49:17Z` → `2026-02-13T20:49:17Z` (UTC)
+Last updated: `2026-02-13T14:49:17-06:00` (CT) — `2026-02-13T20:49:17Z` (UTC)
+
+## Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T20:21:43Z
+- URL: https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
+
+Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]
 
 ## Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
 - Source: BleepingComputer
@@ -28,6 +36,22 @@ South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Coutur
 - Category: Legislative
 - Published: 2026-02-13T16:33:45Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-american-heart-month/
+
+## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-13T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59213
+
+Updated information to include CVSS scores. This is an informational change only.
+
+## CVE-2026-21517 Windows App for Mac Installer Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-13T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21517
+
+Download links fixed
 
 ## Turning IBM QRadar Alerts into Action with Criminal IP
 - Source: BleepingComputer
@@ -245,14 +269,6 @@ Added an FAQ and updated the CVSS score. This is an informational change only.
 
 Google Threat Intelligence Group (GTIG) has published a new report warning about AI model extraction/distillation attacks, in which private-sector firms and researchers use legitimate API access to systematically probe models and replicate their logic and reasoning. [...]
 
-## Apple fixes zero-day flaw used in 'extremely sophisticated' attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T01:06:05Z
-- URL: https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
-
-Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
-
 ## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
 - Source: OFAC
 - Category: OFAC
@@ -339,6 +355,14 @@ The OCC's economists support the OCC mission through economic thought leadership
 - Published: 2026-02-11T22:03:51Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
 
+## Visa to Participate in Upcoming Investor Conferences
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-11T21:05:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
+
+SAN FRANCISCO --(BUSINESS WIRE)--Feb. 11, 2026-- Visa (NYSE: V) today announced its participation in the following investor conferences. On Tuesday, March 3, Jack Forestell, Chief Product and Strategy Officer, will present at the Morgan Stanley Technology, Media & Telecom Conference.
+
 ## How the Industry Is Adapting to Nacha’s New Risk Management Rules
 - Source: NACHA
 - Category: Payments
@@ -393,17 +417,17 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 
+## Apple fixes zero-day flaw used in 'extremely sophisticated' attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
+
 ## Windows 11 Notepad flaw let files execute silently via Markdown links
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
-
-## Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/
 
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
@@ -821,14 +845,6 @@ A heap‑based buffer overflow exists in libjpeg‑turbo’s h2v2_merged_upsampl
 
 Acknowledgement Updated
 
-## CVE-2026-21517 Windows App for Mac Installer Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21517
-
-Improper link resolution before file access ('link following') in Windows App for Mac allows an authorized attacker to elevate privileges locally.
-
 ## CVE-2024-30098 Windows Cryptographic Services Security Feature Bypass Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -975,6 +991,14 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 PRESS RELEASE | FEBRUARY 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in November 2025. The CRA is a 1…
 
+## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-05T12:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
+
+New program aims to tackle biggest challenges for entrepreneurs across three pillars: Business Capital, Business Connect and Business Essentials Visa &amp; Main launches $100M working capital facility SAN FRANCISCO &amp; ATLANTA --(BUSINESS WIRE)--Feb. 5, 2026-- Visa (NYSE: V) today announced the launch of
+
 ## CVE-2026-24302 Azure Arc Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -1054,6 +1078,14 @@ Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Mult
 - Category: Legislative
 - Published: 2026-02-03T19:56:11Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
+
+## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-03T12:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
+
+By connecting Visa Direct’s card network to UnionPay International’s (UPI) MoneyExpress platform, Visa Direct will unlock real‑time 1 cross‑border money movement in one of the world’s largest remittance corridors SAN FRANCISCO &amp; DOHA, Qatar --(BUSINESS WIRE)--Feb.
 
 ## Issuance of Venezuela-related General License
 - Source: OFAC

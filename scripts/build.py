@@ -994,7 +994,8 @@ def is_likely_article_anchor(a: Any) -> bool:
         if a.find_parent(tag) is not None:
             return True
     cls = " ".join(a.get("class", [])).lower()
-    if any(k in cls for k in ["title", "headline", "card", "teaser", "post"]:
+    # ✅ FIXED: missing closing bracket/paren caused your SyntaxError
+    if any(k in cls for k in ["title", "headline", "card", "teaser", "post"]):
         return True
     p = a.find_parent(["article", "li"])
     if p is not None:
@@ -1147,22 +1148,14 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     return links
 
 
-# ✅ NEW: Visa listing date is often a standalone text line ABOVE the <h2><a> headline
+# ✅ NEW: Visa listing pages often have the date as a standalone line ABOVE the headline anchor.
 def visa_date_from_listing_context(a: Any) -> Optional[datetime]:
-    """
-    Visa listing page often renders as:
-      11/02/2026
-      <h2><a ...>Title</a></h2>
-
-    The date is usually a previous sibling text node of the heading,
-    not inside the <a>'s parent container.
-    """
     if not a:
         return None
 
     head = a.find_parent(["h1", "h2", "h3"]) or a
 
-    # Walk backwards through previous siblings of the heading
+    # Scan previous siblings for a nearby date line
     try:
         checked = 0
         for sib in head.previous_siblings:
@@ -1192,7 +1185,7 @@ def visa_date_from_listing_context(a: Any) -> Optional[datetime]:
     except Exception:
         pass
 
-    # Broader fallback: walk backwards from the anchor through previous elements
+    # Fallback: scan prior elements (small bounded)
     try:
         checked = 0
         for el in a.previous_elements:
@@ -1265,15 +1258,8 @@ def visa_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dateti
             seen.add(url)
 
             dt = find_time_near_anchor(a, "Visa")
-
-            # ✅ Visa fix: the date is often a standalone line ABOVE the headline
             if dt is None:
                 dt = visa_date_from_listing_context(a)
-
-            if dt is None:
-                wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
-                if wrap:
-                    dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="Visa")
 
             links.append((title, url, dt))
             if len(links) >= MAX_LISTING_LINKS:
@@ -1812,6 +1798,22 @@ def build() -> None:
                     continue
 
                 snippet = ""
+
+                # ✅ Visa-only rescue:
+                # If listing produced a date but it's outside the window, try detail fetch to correct it.
+                if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
+                    if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
+                        detail_html = polite_get(url)
+                        if detail_html:
+                            global_detail_fetches += 1
+                            src_used += 1
+                            per_source_detail_fetches[source] = src_used
+
+                            dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
+                            if dt2:
+                                dt = dt2
+                            if snippet2:
+                                snippet = snippet2
 
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
