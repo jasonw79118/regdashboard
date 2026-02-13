@@ -366,6 +366,32 @@ def parse_date(s: str, *, dayfirst: bool = False) -> Optional[datetime]:
         return None
 
 
+# --- FIX (Visa only): Visa listing pages can be DD/MM/YYYY while detail pages may be M/D/YYYY ---
+def parse_slash_date_best(s: str) -> Optional[datetime]:
+    """
+    Visa listing pages often use DD/MM/YYYY, but Visa detail pages often use M/D/YYYY.
+    Try both and choose the interpretation that isn't implausibly far in the future.
+    """
+    if not s:
+        return None
+
+    now = utc_now()
+    dt_dayfirst = parse_date(s, dayfirst=True)
+    dt_monthfirst = parse_date(s, dayfirst=False)
+
+    cands = [d for d in [dt_dayfirst, dt_monthfirst] if d is not None]
+    if not cands:
+        return None
+
+    not_far_future = [d for d in cands if d <= (now + timedelta(days=30))]
+    if len(not_far_future) == 1:
+        return not_far_future[0]
+    if len(not_far_future) > 1:
+        return min(not_far_future, key=lambda d: abs((now - d).total_seconds()))
+
+    return min(cands, key=lambda d: abs((now - d).total_seconds()))
+
+
 def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
     return start <= dt <= end
 
@@ -520,7 +546,12 @@ def extract_any_date(text: str, source: str = "") -> Optional[datetime]:
 
     m = SLASH_DATE_RE.search(text)
     if m:
-        dt = parse_date(m.group("sd"), dayfirst=(source in DAYFIRST_SOURCES))
+        sd = m.group("sd")
+        # FIX (Visa only): listing often DD/MM/YYYY, detail can be M/D/YYYY
+        if source == "Visa":
+            dt = parse_slash_date_best(sd)
+        else:
+            dt = parse_date(sd, dayfirst=(source in DAYFIRST_SOURCES))
         if dt:
             return dt
 
@@ -916,7 +947,12 @@ def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
 
     t = parent.find("time")
     if t:
-        dt = parse_date(t.get("datetime") or t.get_text(" ", strip=True), dayfirst=(source in DAYFIRST_SOURCES))
+        raw = (t.get("datetime") or t.get_text(" ", strip=True) or "").strip()
+        # FIX (Visa only): handle DD/MM/YYYY vs M/D/YYYY ambiguity safely
+        if source == "Visa" and SLASH_DATE_RE.search(raw):
+            dt = parse_slash_date_best(raw)
+        else:
+            dt = parse_date(raw, dayfirst=(source in DAYFIRST_SOURCES))
         if dt:
             return dt
 
