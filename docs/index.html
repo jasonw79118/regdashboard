@@ -14,6 +14,8 @@
     <div id="window" class="window"></div>
     <div id="count" class="window"></div>
 
+    <div id="debug-counts" class="window" style="font-size:0.9em; opacity:.85;"></div>
+
     <div class="window" style="font-size: 0.95em;">
       Copilot-friendly exports:
       <a href="raw/" target="_blank" rel="noopener">Static Export</a>
@@ -63,45 +65,37 @@
       RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
       Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
     </p>
-
-    <details class="window" style="font-size:0.9em; max-width: 980px; margin: 12px auto; padding: 10px 12px;">
-      <summary style="cursor:pointer;">Debug: category counts (helps fix blank tiles)</summary>
-      <div id="debug-cats" style="margin-top:8px; white-space: pre-wrap;"></div>
-      <div style="margin-top:6px; color:#666;">
-        If USDA / Fintech / Card Networks are missing here, the issue is in <code>build.py</code> (no items or wrong category names).
-        If they appear here but the tile is blank, the issue is in <code>index.html</code> mapping.
-      </div>
-    </details>
-
     <p id="last-updated" style="margin:18px 0;text-align:center;font-size:12px;opacity:.75;"></p>
   </footer>
 
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     const GROUPS = [
-      { id: "ofac",    title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
-      { id: "irs",     title: "IRS – Tax Administration", keys: ["IRS"] },
-      { id: "payments",title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
-      { id: "banking", title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
-      { id: "mortgage",title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
+      { id: "ofac",     title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
+      { id: "irs",      title: "IRS – Tax Administration", keys: ["IRS"] },
+      { id: "payments", title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
+      { id: "banking",  title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
+      { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
 
-      // USDA varies a lot depending on scraper naming; accept common variants
-      { id: "usda",    title: "USDA – Rural Development (Housing)", keys: ["USDA", "USDA Rural Development", "Rural Development"] },
+      // USDA can arrive as "USDA" or "USDA Rural Development" depending on build.py mapping
+      { id: "usda",     title: "USDA – Rural Development (Housing)", keys: ["USDA", "USDA Rural Development"] },
 
-      { id: "exec",    title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
-      { id: "infosec", title: "Information Security", keys: ["Information Security", "IS", "InfoSec"] },
+      { id: "exec",     title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
 
-      // Fintech varies by scraper naming
-      { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch", "Fintech", "FinTech Watch"] },
+      // IS vs Information Security (we normalize both directions)
+      { id: "infosec",  title: "Information Security", keys: ["IS", "Information Security"] },
 
-      // Card networks vary by scraper naming
-      { id: "cardnet", title: "Payment Card Networks", keys: [
+      // Sometimes this ends up as "Fintech" depending on earlier scripts
+      { id: "fintech",  title: "Fintech Watch", keys: ["Fintech Watch", "Fintech"] },
+
+      // Card networks have lots of name variants; normalize them all
+      { id: "cardnet",  title: "Payment Card Networks", keys: [
         "Payment Card Network",
         "Payment Card Networks",
         "Card Network",
         "Card Networks",
-        "Payment Networks",
-        "Cardnet"
+        "Visa",
+        "Mastercard"
       ]},
     ];
 
@@ -116,36 +110,28 @@
     function normalizeKey(k) {
       const s = String(k || "").trim();
       if (!s) return "";
-
       const lower = s.toLowerCase();
 
-      // InfoSec normalization
-      if (lower === "is" || lower === "info sec" || lower === "infosec" || lower === "information security") {
-        return "Information Security";
-      }
+      // Information security variants
+      if (lower === "infosec" || lower === "info sec" || lower === "information security") return "IS";
+      if (lower === "is") return "IS";
 
-      // USDA normalization
-      if (lower === "usda rural development" || lower === "rural development") {
-        return "USDA";
-      }
+      // Fintech variants
+      if (lower === "fintech watch" || lower === "fintech") return "Fintech Watch";
 
-      // Fintech normalization
-      if (lower === "fintech" || lower === "fintech watch" || lower === "fintech-watch") {
-        return "Fintech Watch";
-      }
+      // USDA variants
+      if (lower === "usda rural development") return "USDA";
+      if (lower === "usda") return "USDA";
 
-      // Card network normalization
-      if (lower === "cardnet" || lower === "card network" || lower === "card networks" ||
-          lower === "payment card networks" || lower === "payment card network" || lower === "payment networks") {
-        return "Payment Card Network";
-      }
+      // Card network variants
+      if (lower === "payment card networks" || lower === "payment card network" || lower === "card networks" || lower === "card network") return "Payment Card Network";
+      if (lower === "visa" || lower === "mastercard") return "Payment Card Network";
 
       return s;
     }
 
     function itemKey(i) {
       if (!i) return "";
-      // prefer category, fall back to source
       return normalizeKey(i.category || i.source || "");
     }
 
@@ -158,7 +144,6 @@
       section.appendChild(h2);
 
       const groupKeys = (group.keys || []).map(normalizeKey);
-
       const groupItems = (items || [])
         .filter(i => groupKeys.includes(itemKey(i)))
         .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
@@ -191,34 +176,33 @@
       content.appendChild(section);
     }
 
+    // Make sure relative fetch works even if someone visits without trailing slash
     function dataUrl() {
-      const base = new URL(window.location.href);
-      const u = new URL("data/items.json", base);
-      u.searchParams.set("v", String(Date.now())); // cache-bust
+      const here = new URL(window.location.href);
+      // force base to "directory" form
+      const dir = here.href.endsWith("/") ? here.href : (here.href + "/");
+      const u = new URL("data/items.json", dir);
+      u.searchParams.set("v", String(Date.now()));
       return u.toString();
     }
 
-    function renderCategoryDebug(items) {
-      const el = $("debug-cats");
+    function renderDebugCounts(items) {
+      const el = $("debug-counts");
       if (!el) return;
-
-      const counts = new Map();
-      for (const i of (items || [])) {
-        const raw = (i && (i.category || i.source)) ? (i.category || i.source) : "(missing)";
-        const key = String(raw);
-        counts.set(key, (counts.get(key) || 0) + 1);
-      }
-
-      const sorted = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
-      el.textContent = sorted.map(([k, n]) => `${String(n).padStart(4, " ")}  ${k}`).join("\n") || "(no items)";
+      const counts = {};
+      (items || []).forEach(it => {
+        const k = String(it.category || it.source || "").trim();
+        counts[k] = (counts[k] || 0) + 1;
+      });
+      const keys = Object.keys(counts).sort((a,b)=>counts[b]-counts[a]);
+      el.textContent = keys.length
+        ? ("Loaded categories: " + keys.map(k => `${k}=${counts[k]}`).join(" · "))
+        : "Loaded categories: (none)";
     }
 
     (async () => {
       const content = $("content");
-      if (!content) {
-        console.error("Missing <main id='content'> in index.html");
-        return;
-      }
+      if (!content) return;
 
       const loading = $("loading");
 
@@ -243,10 +227,9 @@
             : (utc ? `Last updated: ${utc} (UTC)` : "");
         }
 
-        renderCategoryDebug(data.items || []);
+        renderDebugCounts(data.items || []);
 
         if (loading) loading.remove();
-
         content.innerHTML = "";
         GROUPS.forEach(g => renderSection(g, data.items || [], content));
       } catch (e) {

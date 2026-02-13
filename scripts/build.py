@@ -168,9 +168,13 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
 
     # NOTE: RD site is JS-heavy; we switch to GovDelivery bulletins (below)
     "USDA Rural Development": {
-        "allow_domains": {"content.govdelivery.com"},
-        "allow_path_prefixes": {"/accounts/USDARD/bulletins"},
+    "allow_domains": {"content.govdelivery.com"},
+    "allow_path_prefixes": {
+        "/accounts/USDARD/bulletins",
+        "/accounts/USDARD/rss",
+        "/accounts/USDARD/rss.xml",
     },
+},
 
     "OFAC": {"allow_domains": {"ofac.treasury.gov"}},
 
@@ -969,6 +973,12 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 
     # Fintech watch: Fiserv provides RSS here (reliable)
     "Fiserv": ["https://investors.fiserv.com/newsroom/rss"],
+
+    # USDA Rural Development (GovDelivery RSS is usually available even when pages are JS-ish)
+    "USDA Rural Development": [
+        "https://content.govdelivery.com/accounts/USDARD/rss.xml",
+    ],
+
 }
 
 START_PAGES: List[SourcePage] = [
