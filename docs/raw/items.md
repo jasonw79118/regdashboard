@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T19:07:06Z` → `2026-02-13T19:07:06Z` (UTC)
-Last updated: `2026-02-13T13:07:06-06:00` (CT) — `2026-02-13T19:07:06Z` (UTC)
+Window: `2026-01-30T19:43:45Z` → `2026-02-13T19:43:45Z` (UTC)
+Last updated: `2026-02-13T13:43:45-06:00` (CT) — `2026-02-13T19:43:45Z` (UTC)
 
 ## Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
 - Source: BleepingComputer
