@@ -9,35 +9,38 @@
 
 <body>
   <header>
-    <h1>RegDashboard</h1>
+    <h1>Compliance &amp; Regulatory Quick-Access Dashboard</h1>
     <div class="subtitle">Rolling Regulatory Intelligence</div>
-    <div id="window" class="window"></div>
-    <div id="count" class="window"></div>
 
-    <div id="debug-counts" class="window" style="font-size:0.9em; opacity:.85;"></div>
-
-    <div class="window" style="font-size: 0.95em;">
-      Copilot-friendly exports:
-      <a href="raw/" target="_blank" rel="noopener">Static Export</a>
-      · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
-      · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
-      · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
-      · <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
+    <div class="header-meta">
+      <div id="window" class="window"></div>
+      <div id="count" class="window"></div>
+      <div id="debug-counts" class="window" style="font-size:12px; opacity:.92;"></div>
     </div>
 
-    <div class="window" style="font-size: 0.95em;">
-      <a
-        href="https://github.com/jasonw79118/regdashboard/actions/workflows/regdashboard-build.yml"
-        target="_blank"
-        rel="noopener"
-        class="btn"
-        style="display:inline-block;padding:8px 12px;border:1px solid #ddd;border-radius:10px;text-decoration:none;"
-      >
-        Force update (Run workflow)
-      </a>
-      <span style="margin-left:10px;color:#555;">
-        Opens GitHub Actions — click <strong>Run workflow</strong> to rebuild now.
-      </span>
+    <div class="header-actions">
+      <div class="window" style="font-size: 13px;">
+        Copilot-friendly exports:
+        <a href="raw/" target="_blank" rel="noopener">Static Export</a>
+        · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
+        · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
+        · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
+        · <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
+      </div>
+
+      <div>
+        <a
+          href="https://github.com/jasonw79118/regdashboard/actions/workflows/regdashboard-build.yml"
+          target="_blank"
+          rel="noopener"
+          class="btn"
+        >
+          Force update (Run workflow)
+        </a>
+        <span style="margin-left:10px; color: rgba(255,255,255,.90); font-size:13px;">
+          Opens GitHub Actions — click <strong>Run workflow</strong> to rebuild now.
+        </span>
+      </div>
     </div>
 
     <nav class="nav">
@@ -47,7 +50,7 @@
       <a href="#banking">Banking</a>
       <a href="#mortgage">Mortgage</a>
       <a href="#usda">USDA</a>
-      <a href="#exec">Legislative & Executive</a>
+      <a href="#exec">Legislative &amp; Executive</a>
       <a href="#infosec">Information Security</a>
       <a href="#fintech">Fintech Watch</a>
       <a href="#cardnet">Payment Card Networks</a>
@@ -71,32 +74,75 @@
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     const GROUPS = [
-      { id: "ofac",     title: "OFAC – Sanctions & AML", keys: ["OFAC"] },
-      { id: "irs",      title: "IRS – Tax Administration", keys: ["IRS"] },
-      { id: "payments", title: "Payments – Nacha & Federal Reserve", keys: ["Payments"] },
-      { id: "banking",  title: "Federal Banking Agencies – OCC, FDIC, FRB", keys: ["Banking"] },
-      { id: "mortgage", title: "Mortgage – MPF, Fannie Mae, Freddie Mac", keys: ["Mortgage"] },
-
-      // USDA can arrive as "USDA" or "USDA Rural Development" depending on build.py mapping
-      { id: "usda",     title: "USDA – Rural Development (Housing)", keys: ["USDA", "USDA Rural Development"] },
-
-      { id: "exec",     title: "Legislative & Executive – Senate, White House, Federal Register", keys: ["Legislative"] },
-
-      // IS vs Information Security (we normalize both directions)
-      { id: "infosec",  title: "Information Security", keys: ["IS", "Information Security"] },
-
-      // Sometimes this ends up as "Fintech" depending on earlier scripts
-      { id: "fintech",  title: "Fintech Watch", keys: ["Fintech Watch", "Fintech"] },
-
-      // Card networks have lots of name variants; normalize them all
+      { id: "ofac",     title: "OFAC, Sanctions & AML", keys: ["OFAC"], accent: "#2563eb",
+        sources: [
+          ["OFAC Recent Actions", "https://ofac.treasury.gov/recent-actions"],
+          ["Treasury Newsroom", "https://home.treasury.gov/news"]
+        ]
+      },
+      { id: "irs",      title: "Taxes (IRS)", keys: ["IRS"], accent: "#16a34a",
+        sources: [
+          ["IRS Newsroom", "https://www.irs.gov/newsroom"],
+          ["News Releases – Current Month", "https://www.irs.gov/newsroom/news-releases-for-current-month"],
+          ["IRS Newswire (RSS)", "https://www.irs.gov/downloads/rss"]
+        ]
+      },
+      { id: "payments", title: "Payments (Nacha & FRB)", keys: ["Payments"], accent: "#2563eb",
+        sources: [
+          ["NACHA News", "https://www.nacha.org/news"],
+          ["NACHA Rules", "https://www.nacha.org/rules"],
+          ["FRB Press Releases", "https://www.federalreserve.gov/newsevents/pressreleases.htm"],
+          ["Fed360", "https://fed360.org/"]
+        ]
+      },
+      { id: "banking",  title: "Federal Banking Agencies", keys: ["Banking"], accent: "#16a34a",
+        sources: [
+          ["OCC News Releases", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"],
+          ["FDIC Press Releases", "https://www.fdic.gov/news/press-releases/"],
+          ["FRB Press Releases", "https://www.federalreserve.gov/newsevents/pressreleases.htm"]
+        ]
+      },
+      { id: "mortgage", title: "Mortgage (MPF / GSE)", keys: ["Mortgage"], accent: "#16a34a",
+        sources: [
+          ["FHLB MPF News", "https://www.fhlbmpf.com/about-us/news"],
+          ["Fannie Mae Newsroom", "https://www.fanniemae.com/newsroom/fannie-mae-news"],
+          ["Freddie Mac Media Room", "https://www.freddiemac.com/media-room"]
+        ]
+      },
+      { id: "usda",     title: "USDA (Rural Development)", keys: ["USDA", "USDA Rural Development"], accent: "#2563eb",
+        sources: [
+          ["USDA RD Bulletins", "https://content.govdelivery.com/accounts/USDARD/bulletins"]
+        ]
+      },
+      { id: "exec",     title: "Legislative & Executive", keys: ["Legislative"], accent: "#16a34a",
+        sources: [
+          ["Senate Banking Newsroom", "https://www.banking.senate.gov/newsroom"],
+          ["White House News", "https://www.whitehouse.gov/news/"],
+          ["Federal Register", "https://www.federalregister.gov/"]
+        ]
+      },
+      { id: "infosec",  title: "Information Security", keys: ["IS", "Information Security"], accent: "#2563eb",
+        sources: [
+          ["BleepingComputer", "https://www.bleepingcomputer.com/"],
+          ["Microsoft MSRC", "https://msrc.microsoft.com/"]
+        ]
+      },
+      { id: "fintech",  title: "Fintech Watch", keys: ["Fintech Watch", "Fintech"], accent: "#16a34a",
+        sources: [
+          ["FIS Investor News", "https://investor.fisglobal.com/press-releases"],
+          ["Fiserv Newsroom", "https://investors.fiserv.com/newsroom/news-releases"],
+          ["Jack Henry IR", "https://ir.jackhenry.com/press-releases"],
+          ["Temenos Press Releases", "https://www.temenos.com/news/press-releases/"]
+        ]
+      },
       { id: "cardnet",  title: "Payment Card Networks", keys: [
-        "Payment Card Network",
-        "Payment Card Networks",
-        "Card Network",
-        "Card Networks",
-        "Visa",
-        "Mastercard"
-      ]},
+        "Payment Card Network","Payment Card Networks","Card Network","Card Networks","Visa","Mastercard"
+      ], accent: "#2563eb",
+        sources: [
+          ["Visa Press Releases", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"],
+          ["Mastercard Press", "https://www.mastercard.com/us/en/news-and-trends/press.html"]
+        ]
+      },
     ];
 
     function $(id) { return document.getElementById(id); }
@@ -112,18 +158,14 @@
       if (!s) return "";
       const lower = s.toLowerCase();
 
-      // Information security variants
       if (lower === "infosec" || lower === "info sec" || lower === "information security") return "IS";
       if (lower === "is") return "IS";
 
-      // Fintech variants
       if (lower === "fintech watch" || lower === "fintech") return "Fintech Watch";
 
-      // USDA variants
       if (lower === "usda rural development") return "USDA";
       if (lower === "usda") return "USDA";
 
-      // Card network variants
       if (lower === "payment card networks" || lower === "payment card network" || lower === "card networks" || lower === "card network") return "Payment Card Network";
       if (lower === "visa" || lower === "mastercard") return "Payment Card Network";
 
@@ -135,13 +177,26 @@
       return normalizeKey(i.category || i.source || "");
     }
 
-    function renderSection(group, items, content) {
+    function renderSources(group) {
+      const srcs = group.sources || [];
+      if (!srcs.length) return "";
+      const links = srcs.map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener">${label}</a>`).join(" · ");
+      return `Sources: ${links}`;
+    }
+
+    function renderSection(group, items, tilesWrap) {
       const section = document.createElement("section");
       section.id = group.id;
+      section.className = "tile";
+      section.style.setProperty("--accent", group.accent || "#2563eb");
 
-      const h2 = document.createElement("h2");
-      h2.textContent = group.title;
-      section.appendChild(h2);
+      const head = document.createElement("div");
+      head.className = "tile-head";
+      head.innerHTML = `<h2>${group.title}</h2>`;
+      section.appendChild(head);
+
+      const body = document.createElement("div");
+      body.className = "tile-body";
 
       const groupKeys = (group.keys || []).map(normalizeKey);
       const groupItems = (items || [])
@@ -152,7 +207,7 @@
         const empty = document.createElement("div");
         empty.className = "empty";
         empty.textContent = "No items in the current rolling window.";
-        section.appendChild(empty);
+        body.appendChild(empty);
       } else {
         const ul = document.createElement("ul");
         ul.className = "items";
@@ -161,8 +216,10 @@
           const li = document.createElement("li");
           li.innerHTML = `
             <div class="headline">
-              <span class="source">[${i.source}]</span>
-              <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
+              <div>
+                <span class="source">[${i.source}]</span>
+                <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
+              </div>
               <span class="date">${fmtDate(i.published_at)}</span>
             </div>
             ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
@@ -170,16 +227,21 @@
           ul.appendChild(li);
         });
 
-        section.appendChild(ul);
+        body.appendChild(ul);
       }
 
-      content.appendChild(section);
+      section.appendChild(body);
+
+      const foot = document.createElement("div");
+      foot.className = "tile-foot";
+      foot.innerHTML = renderSources(group);
+      section.appendChild(foot);
+
+      tilesWrap.appendChild(section);
     }
 
-    // Make sure relative fetch works even if someone visits without trailing slash
     function dataUrl() {
       const here = new URL(window.location.href);
-      // force base to "directory" form
       const dir = here.href.endsWith("/") ? here.href : (here.href + "/");
       const u = new URL("data/items.json", dir);
       u.searchParams.set("v", String(Date.now()));
@@ -231,21 +293,29 @@
 
         if (loading) loading.remove();
         content.innerHTML = "";
-        GROUPS.forEach(g => renderSection(g, data.items || [], content));
+
+        const tilesWrap = document.createElement("div");
+        tilesWrap.className = "tiles";
+        content.appendChild(tilesWrap);
+
+        GROUPS.forEach(g => renderSection(g, data.items || [], tilesWrap));
       } catch (e) {
         if (loading) loading.remove();
         console.error(e);
 
         content.innerHTML = `
-          <div class="empty" style="border:1px solid #f2c; padding:12px; border-radius:10px;">
-            <p><strong>Could not load dashboard data.</strong></p>
-            <p style="margin:6px 0 12px 0;">${String(e)}</p>
-            <p style="margin:0;">
-              Try:
-              <a href="raw/" target="_blank" rel="noopener">Static Export</a> ·
-              <a href="raw/index.html" target="_blank" rel="noopener">raw/index.html</a> ·
-              <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
-            </p>
+          <div class="tile" style="--accent:#ff2aa3;">
+            <div class="tile-head"><h2>Could not load dashboard data</h2></div>
+            <div class="tile-body">
+              <div class="empty" style="color:#8a004d;"><strong>${String(e)}</strong></div>
+              <p style="margin:12px 0 0 0; font-size:13px; color:rgba(2,6,23,.75);">
+                Try:
+                <a href="raw/" target="_blank" rel="noopener">Static Export</a> ·
+                <a href="raw/index.html" target="_blank" rel="noopener">raw/index.html</a> ·
+                <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
+              </p>
+            </div>
+            <div class="tile-foot"></div>
           </div>
         `;
       }
