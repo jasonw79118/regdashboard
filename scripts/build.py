@@ -994,7 +994,7 @@ def is_likely_article_anchor(a: Any) -> bool:
         if a.find_parent(tag) is not None:
             return True
     cls = " ".join(a.get("class", [])).lower()
-    if any(k in cls for k in ["title", "headline", "card", "teaser", "post"]):
+    if any(k in cls for k in ["title", "headline", "card", "teaser", "post"]:
         return True
     p = a.find_parent(["article", "li"])
     if p is not None:
@@ -1147,6 +1147,79 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     return links
 
 
+# ✅ NEW: Visa listing date is often a standalone text line ABOVE the <h2><a> headline
+def visa_date_from_listing_context(a: Any) -> Optional[datetime]:
+    """
+    Visa listing page often renders as:
+      11/02/2026
+      <h2><a ...>Title</a></h2>
+
+    The date is usually a previous sibling text node of the heading,
+    not inside the <a>'s parent container.
+    """
+    if not a:
+        return None
+
+    head = a.find_parent(["h1", "h2", "h3"]) or a
+
+    # Walk backwards through previous siblings of the heading
+    try:
+        checked = 0
+        for sib in head.previous_siblings:
+            if checked >= 25:
+                break
+            checked += 1
+
+            txt = ""
+            if isinstance(sib, str):
+                txt = sib.strip()
+            else:
+                try:
+                    txt = (sib.get_text(" ", strip=True) or "").strip()
+                except Exception:
+                    txt = ""
+
+            if not txt:
+                continue
+
+            m = SLASH_DATE_RE.search(txt)
+            if m:
+                return parse_slash_date_best(m.group("sd"))
+
+            dt = extract_any_date(txt, source="Visa")
+            if dt:
+                return dt
+    except Exception:
+        pass
+
+    # Broader fallback: walk backwards from the anchor through previous elements
+    try:
+        checked = 0
+        for el in a.previous_elements:
+            if checked >= 120:
+                break
+            checked += 1
+
+            if not getattr(el, "get_text", None) and not isinstance(el, str):
+                continue
+
+            txt = el.strip() if isinstance(el, str) else (el.get_text(" ", strip=True) or "").strip()
+            if not txt:
+                continue
+
+            m = SLASH_DATE_RE.search(txt)
+            if m:
+                return parse_slash_date_best(m.group("sd"))
+
+            dt = extract_any_date(txt, source="Visa")
+            if dt:
+                return dt
+    except Exception:
+        pass
+
+    return None
+
+
 def visa_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -1192,6 +1265,11 @@ def visa_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dateti
             seen.add(url)
 
             dt = find_time_near_anchor(a, "Visa")
+
+            # ✅ Visa fix: the date is often a standalone line ABOVE the headline
+            if dt is None:
+                dt = visa_date_from_listing_context(a)
+
             if dt is None:
                 wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
                 if wrap:
