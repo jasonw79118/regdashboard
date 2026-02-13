@@ -66,13 +66,14 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "FDIC": 25,
     "FRB": 30,
     "NACHA": 25,
-    "Federal Register": 0,  # API only
-    "BleepingComputer": 0,  # feed-only
+    "White House": 45,
+    "Federal Register": 0,   # API only
+    "BleepingComputer": 0,   # feed-only
     "Microsoft MSRC": 0,     # feed-only
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/3.0 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/3.1 (+https://github.com/jasonw79118/regdashboard)"
 
 
 # ============================
@@ -166,28 +167,45 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
 
-    # NOTE: RD site is JS-heavy; we switch to GovDelivery bulletins (below)
+    # USDA Rural Development (GovDelivery) — IMPORTANT:
+    # - Listing is /accounts/USDARD/bulletins
+    # - Bulletins themselves are /bulletins/<id> (or /bulletins/gd/<id>)
     "USDA Rural Development": {
-    "allow_domains": {"content.govdelivery.com"},
-    "allow_path_prefixes": {
-        "/accounts/USDARD/bulletins",
-        "/accounts/USDARD/rss",
-        "/accounts/USDARD/rss.xml",
+        "allow_domains": {"content.govdelivery.com"},
+        "allow_path_prefixes": {"/accounts/USDARD/bulletins", "/bulletins/"},
     },
-},
 
     "OFAC": {"allow_domains": {"ofac.treasury.gov"}},
 
-    # UPDATED: allow common Visa subdomains in case of redirects
-    "Visa": {"allow_domains": {"usa.visa.com", "www.visa.com"}},
+    # White House (News + post types)
+    "White House": {
+        "allow_domains": {"www.whitehouse.gov"},
+        "allow_path_prefixes": {
+            "/news/",
+            "/briefings-statements/",
+            "/presidential-actions/",
+            "/fact-sheets/",
+            "/remarks/",
+            "/research/",
+            "/articles/",
+        },
+    },
 
-    # UPDATED: Mastercard often redirects to newsroom.* or regional domains
-    "Mastercard": {"allow_domains": {"www.mastercard.com", "newsroom.mastercard.com"}},
+    # Payment networks (tighten to newsroom/press paths to reduce “every link” noise)
+    "Visa": {
+        "allow_domains": {"usa.visa.com"},
+        "allow_path_prefixes": {"/about-visa/newsroom/press-releases/"},
+    },
+    "Mastercard": {
+        "allow_domains": {"www.mastercard.com"},
+        "allow_path_prefixes": {"/news-and-trends/press/"},
+    },
 
     "Federal Register": {
         "allow_domains": {"www.federalregister.gov"},
         "allow_path_prefixes": {"/documents/"},
     },
+
     "FIS": {"allow_domains": {"investor.fisglobal.com"}},
     "Fiserv": {"allow_domains": {"investors.fiserv.com"}},
     "Jack Henry": {"allow_domains": {"ir.jackhenry.com"}},
@@ -433,7 +451,6 @@ MONTH_DATE_RE = re.compile(r"(?P<md>([A-Z][a-z]{2,9})\.?\s+\d{1,2},\s+\d{4})")
 SLASH_DATE_RE = re.compile(r"(?P<sd>\b\d{1,2}/\d{1,2}/\d{2,4}\b)")
 ISO_DATE_RE = re.compile(r"(?P<id>\b\d{4}-\d{2}-\d{2}\b)")
 
-# Visa newsroom uses dd/mm/yyyy (at least on the press releases listing)
 DAYFIRST_SOURCES = {"Visa"}
 
 
@@ -508,6 +525,11 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
         if u.path.rstrip("/").endswith("/recent-actions/enforcement-actions"):
             return True
 
+    # White House: avoid category selector + menus
+    if source == "White House":
+        if t.lower() in {"all", "featured", "news", "gallery", "livestream", "contact"}:
+            return True
+
     return False
 
 
@@ -528,11 +550,15 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
         if p.endswith(hub):
             return True
 
-    # govdelivery non-bulletin actions
+    # USDA GovDelivery: allow /bulletins/* and /accounts/USDARD/bulletins*
     if source == "USDA Rural Development":
-        if "/accounts/usdard/bulletins" not in p.lower():
-            return True
-        if any(x in p.lower() for x in ["/subscriptions/", "/subscriber/", "/preferences/"]):
+        pl = p.lower()
+        if pl.startswith("/bulletins/"):
+            return False
+        if pl.startswith("/accounts/usdard/bulletins"):
+            return False
+        # block preference/subscribe flows
+        if any(x in pl for x in ["/subscriptions/", "/subscriber/", "/preferences/"]):
             return True
 
     return False
@@ -652,17 +678,10 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
 # ============================
 
 def items_from_federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
-    """
-    Uses FederalRegister.gov API v1:
-      GET /documents.json
-      with conditions[topics][]=<slug>
-      and publication_date gte/lte
-    """
     out: List[Dict[str, Any]] = []
 
     start_d = start.date().isoformat()
     end_d = end.date().isoformat()
-
     endpoint = f"{FEDREG_API_BASE.rstrip('/')}/documents.json"
 
     for topic in FEDREG_TOPICS:
@@ -817,91 +836,85 @@ def strip_nav_like(container: Any) -> None:
             pass
 
 
-def _text_for_node(n: Any, max_len: int = 600) -> str:
-    try:
-        return clean_text(n.get_text(" ", strip=True), max_len)
-    except Exception:
-        return ""
-
-
-def _scan_siblings_for_date(node: Any, source: str) -> Optional[datetime]:
-    """
-    IMPORTANT FIX:
-    Many sites show the date as a sibling element (not inside the <a>’s parent).
-    Example: Visa press releases list has the date above/near the headline link.
-    """
-    # Look at previous siblings
-    try:
-        cur = node
-        for _ in range(6):
-            sib = cur.previous_sibling
-            cur = sib if sib is not None else cur
-            if sib is None:
-                break
-            if isinstance(sib, str):
-                dt = extract_any_date(sib, source=source)
-                if dt:
-                    return dt
-                continue
-            txt = _text_for_node(sib, 400)
-            dt = extract_any_date(txt, source=source)
-            if dt:
-                return dt
-    except Exception:
-        pass
-
-    # Look at parent's previous siblings (common pattern: <div class=date> then <h3><a>...</a></h3>)
-    try:
-        p = node.parent
-        if p is not None:
-            cur = p
-            for _ in range(6):
-                sib = cur.previous_sibling
-                cur = sib if sib is not None else cur
-                if sib is None:
-                    break
-                if isinstance(sib, str):
-                    dt = extract_any_date(sib, source=source)
-                    if dt:
-                        return dt
-                    continue
-                txt = _text_for_node(sib, 450)
-                dt = extract_any_date(txt, source=source)
-                if dt:
-                    return dt
-    except Exception:
-        pass
-
-    return None
-
-
 def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
-    parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td", "h2", "h3"]) or a.parent
+    parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
     if not parent:
         return None
 
-    # Prefer <time> tag close by
     t = parent.find("time")
     if t:
         dt = parse_date(t.get("datetime") or t.get_text(" ", strip=True), dayfirst=(source in DAYFIRST_SOURCES))
         if dt:
             return dt
 
-    # Try date in parent text (tight)
-    near = _text_for_node(parent, 650)
-    dt = extract_any_date(near, source=source)
-    if dt:
-        return dt
+    near = clean_text(parent.get_text(" ", strip=True) if parent else "", 700)
+    return extract_any_date(near, source=source)
 
-    # UPDATED: scan siblings (fixes Visa/Mastercard/USDA GovDelivery patterns)
-    dt = _scan_siblings_for_date(a, source)
-    if dt:
-        return dt
 
-    return None
+def is_likely_article_anchor(a: Any) -> bool:
+    # reduce “every link” noise: prefer headline-like anchors
+    for tag in ["h1", "h2", "h3"]:
+        if a.find_parent(tag) is not None:
+            return True
+    cls = " ".join(a.get("class", [])).lower()
+    if any(k in cls for k in ["title", "headline", "card", "teaser", "post"]):
+        return True
+    p = a.find_parent(["article", "li"])
+    if p is not None:
+        return True
+    return False
+
+
+def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    # ONLY grab post-title links: the page uses headings for each post
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    for a in container.select("h2 a[href], h3 a[href]"):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("White House", url):
+            continue
+
+        title = clean_text(a.get_text(" ", strip=True) or "", 220)
+        if not title:
+            continue
+        if is_probably_nav_link("White House", title, url):
+            continue
+        if is_generic_listing_or_home("White House", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        # the date is usually very close in surrounding block text
+        dt = find_time_near_anchor(a, "White House")
+        if dt is None:
+            # widen the search a little: look at the nearest div wrapper text
+            wrap = a.find_parent(["div", "article", "li", "section"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 900), source="White House")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
 
 
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    if source == "White House":
+        return whitehouse_links(page_url, html)
+
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup)
     if not container:
@@ -913,6 +926,9 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     seen = set()
 
     for a in container.find_all("a", href=True):
+        if not is_likely_article_anchor(a):
+            continue
+
         href = (a.get("href") or "").strip()
         if not href:
             continue
@@ -946,7 +962,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
 
         dt = find_time_near_anchor(a, source)
         links.append((title, url, dt))
-
         if len(links) >= MAX_LISTING_LINKS:
             break
 
@@ -970,15 +985,7 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
     ],
     "BleepingComputer": ["https://www.bleepingcomputer.com/feed/"],
     "Microsoft MSRC": ["https://api.msrc.microsoft.com/update-guide/rss"],
-
-    # Fintech watch: Fiserv provides RSS here (reliable)
     "Fiserv": ["https://investors.fiserv.com/newsroom/rss"],
-
-    # USDA Rural Development (GovDelivery RSS is usually available even when pages are JS-ish)
-    "USDA Rural Development": [
-        "https://content.govdelivery.com/accounts/USDARD/rss.xml",
-    ],
-
 }
 
 START_PAGES: List[SourcePage] = [
@@ -992,7 +999,7 @@ START_PAGES: List[SourcePage] = [
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
 
-    # USDA Rural Development (GovDelivery bulletins, non-JS list)
+    # USDA Rural Development (GovDelivery)
     SourcePage("USDA Rural Development", "https://content.govdelivery.com/accounts/USDARD/bulletins"),
 
     # Banking regulators
@@ -1008,6 +1015,7 @@ START_PAGES: List[SourcePage] = [
 
     # Legislative / exec
     SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
+    SourcePage("White House", "https://www.whitehouse.gov/news/"),
     SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
 
     # Payments
@@ -1255,6 +1263,7 @@ def build() -> None:
     for sp in START_PAGES:
         pages_by_source.setdefault(sp.source, []).append(sp.url)
 
+    # Ensure feed-only + API-only sources still get processed
     for src in set(KNOWN_FEEDS.keys()) | {"Federal Register"}:
         pages_by_source.setdefault(src, [])
 
@@ -1262,6 +1271,7 @@ def build() -> None:
         print(f"\n===== SOURCE: {source} =====", flush=True)
         source_items_before = len(all_items)
 
+        # 0) Federal Register API (topics)
         if source == "Federal Register":
             got = items_from_federal_register_topics(window_start, window_end)
             if got:
@@ -1296,6 +1306,7 @@ def build() -> None:
             if looks_js_rendered(html):
                 print("[note] page looks JS-rendered; using strict extraction (may be limited)", flush=True)
 
+            # Discover feeds
             feed_urls = discover_feeds(page_url, html)
             feed_items_total = 0
             for fu in feed_urls:
@@ -1306,6 +1317,7 @@ def build() -> None:
                     print(f"[feed] {len(got)} items from {fu}", flush=True)
             print(f"[feed] total: {feed_items_total} | feeds found: {len(feed_urls)}", flush=True)
 
+            # Listing links (STRICT)
             listing_links = main_content_links(source, page_url, html)
             print(f"[list] links captured: {len(listing_links)}", flush=True)
 
@@ -1320,7 +1332,6 @@ def build() -> None:
 
                 snippet = ""
 
-                # Only fetch detail if we STILL couldn't infer a date
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
