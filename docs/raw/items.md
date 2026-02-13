@@ -1,7 +1,41 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T01:30:32Z` → `2026-02-13T01:30:32Z` (UTC)
-Last updated: `2026-02-12T19:30:32-06:00` (CT) — `2026-02-13T01:30:32Z` (UTC)
+Window: `2026-01-30T15:04:15Z` → `2026-02-13T15:04:15Z` (UTC)
+Last updated: `2026-02-13T09:04:15-06:00` (CT) — `2026-02-13T15:04:15Z` (UTC)
+
+## President Trump Delivers Another Inflation Win: Real Wages Surge, Price Relief Reaches Americans
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-13T14:54:20Z
+- URL: https://www.whitehouse.gov/articles/2026/02/president-trump-delivers-another-inflation-win-real-wages-surge-price-relief-reaches-americans/
+
+## CISA flags critical Microsoft SCCM flaw as exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T12:35:09Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
+
+CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]
+
+## Microsoft fixes bug that blocked Google Chrome from launching
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T09:31:01Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
+
+Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
+
+## Earnings Estimates
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-02-13T00:00:00Z
+- URL: https://ir.jackhenry.com/financials/earnings-estimates
+
+## Block ads and trackers on 9 devices for $16 in this AdGuard deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
 
 ## Russia tries to block WhatsApp, Telegram in communication blockade
 - Source: BleepingComputer
@@ -43,6 +77,12 @@ Today, at Wild West Hackin' Fest, security researcher Wietze Beukema disclosed m
 
 Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 
+## Joint Statement on a Framework for United States-North Macedonia Agreement on Reciprocal, Fair, and Balanced Trade
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-12T19:37:57Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/joint-statement-on-a-framework-for-united-states-north-macedonia-agreement-on-reciprocal-fair-and-balanced-trade/
+
 ## Romania's oil pipeline operator Conpet confirms data stolen in attack
 - Source: BleepingComputer
 - Category: IS
@@ -58,6 +98,12 @@ Romania's national oil pipeline operator, Conpet S.A., confirmed that the Qilin 
 - URL: https://www.bleepingcomputer.com/news/security/odido-data-breach-exposes-personal-info-of-62-million-customers/
 
 Dutch telecommunications provider Odido is warning that it suffered a cyberattack that reportedly exposed the personal data of 6.2 million customers. [...]
+
+## “Champion of Beautiful, Clean Coal”: President Trump Celebrates Industry Revival
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-12T17:48:45Z
+- URL: https://www.whitehouse.gov/articles/2026/02/champion-of-beautiful-clean-coal-president-trump-celebrates-industry-revival/
 
 ## WordPress plugin with 900k installs vulnerable to critical RCE flaw
 - Source: BleepingComputer
@@ -82,6 +128,18 @@ PRESS RELEASE | FEBRUARY 12, 2026 FDIC Releases Economic Scenarios for 2026 Stre
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260212a.htm
 
 Federal Reserve Board issues enforcement action with former employee of Regions Bank
+
+## Birthday of President Abraham Lincoln, 2026
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-12T15:48:42Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/birthday-of-president-abraham-lincoln-2026/
+
+## First Lady Melania Trump Secures Another Russian – Ukrainian Child Reunification
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-12T15:03:04Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-secures-another-russian-ukrainian-child-reunification/
 
 ## AMOS infostealer targets macOS through a popular AI app
 - Source: BleepingComputer
@@ -123,12 +181,6 @@ Google Threat Intelligence Group (GTIG) has published a new report warning about
 
 Apple has released security updates to fix a zero-day vulnerability that was exploited in an "extremely sophisticated attack" targeting specific individuals. [...]
 
-## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-12T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260212
-
 ## Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill
 - Source: IRS
 - Category: IRS
@@ -161,198 +213,6 @@ The core of bank supervision is the bank examination process, carried out by mor
 
 The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 
-## About
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/about
-
-Our mission is to provide liquidity, stability and affordability to the U.S. housing market in all economic environments.
-
-## Our Business
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/about/business
-
-Freddie Mac's core divisions provide a constant source of mortgage funding for the nation's housing and rental market.
-
-## Research & Perspectives
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/research-and-perspectives
-
-Gain key insights into the housing industry from our original research and perspectives from our company’s leaders.
-
-## Search
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/search-results
-
-Search for the content you are looking for.
-
-## Our Leaders
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/about/leaders
-
-Meet Freddie Mac's executive leaders and board of directors.
-
-## Corporate Governance
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/governance
-
-Freddie Mac's corporate governance under conservatorship, including the board composition, the authority of the board, information about board committees, and governance documents.
-
-## Annual Meeting
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/governance/annualmtg
-
-Annual reports, proxy statements and information statements for the 2007 and 2008 annual meeting of stockholders. Beginning in 2009, under conservatorship, stockholder meetings are not held and statements are not prepared.
-
-## Authority of Board
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/governance/board-authority
-
-Read and understand the authority of Freddie Mac’s Board and Board Committees.
-
-## Board Committees
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/governance/board-committees
-
-Learn about Freddie Mac’s Board Committees and their roles in organizational governance.
-
-## Board of Directors
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/governance/board-directors
-
-See a list of Freddie Mac's Board of Directors to learn about the leaders guiding our company.
-
-## Codes of Conduct
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/governance/code-conduct
-
-Freddie Mac’s Codes of Conduct set critical expectations for our behavior, with separate versions that apply to employees and Directors.
-
-## Contact the Board
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/governance/contact
-
-Any investor, employee or other interested party may contact the Board of Directors by writing, emailing, calling or via the Freddie Mac Ethics Helpline with the contact information on this page.
-
-## Corporate Financials
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/financials
-
-Access Freddie Mac's latest corporate financial reports, including the most recent annual report 10-K, earnings releases for the most recent quarter, the monthly volume summary, and all SEC filings since July 18, 2008.
-
-## Annual Reports
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/financials/annual-reports
-
-Freddie Mac annual reports, 10-K forms, consolidated financial statements and information statements from 2002 to the present.
-
-## Earnings Releases
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/financials/earnings-releases
-
-See financial results highlights, earnings press releases, financial results supplements and 10-Q reports for each quarter since 2013.
-
-## Monthly Volume Summaries
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/financials/monthly-volume-summaries
-
-Access Freddie Mac's monthly volume summaries for regular updates on our business activities.
-
-## SEC Filings
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/financials/sec-filings
-
-Freddie Mac's filings with the Securities and Exchange Commission (SEC) from 1996 to the present including 8K related, annual reports, quarterly reports, insider trading, proxies and information statements, registration statements and XBRL.
-
-## Request Financial Documents
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/publication_ordering
-
-Use our request form to obtain Freddie Mac financial documents for your research or analysis.
-
-## Common Stock
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/stock
-
-Complete current and historical common stock data for Freddie Mac that provides detailed information about daily trade activity, interactive stock charting, historical stock lookup, and a cost basis calculator for FMCC.
-
-## Preferred Stock
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/preferred-stock
-
-Variable rate and preferred stock offerings in Freddie Mac from 1996 to 2007. As announced on September 7, 2008, all future common and preferred stock dividends would be eliminated, other than dividends on the senior preferred stock issued to the U.S. Department of the Treasury.
-
-## Investor Resources
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/resources
-
-Access key resources and information for Freddie Mac investors, including credit ratings, Dodd-Frank stress test results, the proposed capital framework and an Investor FAQ.
-
-## Investor FAQ
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/faq
-
-Find answers to frequently asked investor questions about Freddie Mac. Learn about our corporate structure, business operations, and regulations.
-
-## Credit Ratings
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/credit-ratings
-
-Credit ratings for Freddie Mac, including senior long-term debt, short-term debt, preferred stock and outlook, from nationally recognized statistical rating organization S&P, Moody's and Fitch.
-
-## Contact Information
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.freddiemac.com/investors/contact
-
-Contact information for Freddie Mac contacts for shareholders, investors, members of the media, real estate profressionals, homebuyers and homeowners.
-
 ## At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks
 - Source: Senate Banking
 - Category: Legislative
@@ -377,11 +237,11 @@ Contact information for Freddie Mac contacts for shareholders, investors, member
 - Published: 2026-02-12T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduces-indx-real-time-cash-settlement-platform
 
-## Earnings Estimates
+## Key Ratios
 - Source: Jack Henry
 - Category: Fintech Watch
 - Published: 2026-02-12T00:00:00Z
-- URL: https://ir.jackhenry.com/financials/earnings-estimates
+- URL: https://ir.jackhenry.com/financials/key-ratios
 
 ## This $20 CISSP course bundle helps you study for this grueling certification
 - Source: BleepingComputer
@@ -403,6 +263,24 @@ Contact information for Freddie Mac contacts for shareholders, investors, member
 
 Microsoft has fixed a "remote code execution" vulnerability in Windows 11 Notepad that allowed attackers to execute local or remote programs by tricking users into clicking specially crafted Markdown links, without displaying any Windows security warnings. [...]
 
+## Nominations Sent to the Senate
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-11T22:17:58Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-b65f/
+
+## Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-11T22:03:51Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
+
+## Fact Sheet: President Donald J. Trump Strengthens United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-11T21:57:59Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-strengthens-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
+
 ## Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts
 - Source: BleepingComputer
 - Category: IS
@@ -411,21 +289,17 @@ Microsoft has fixed a "remote code execution" vulnerability in Windows 11 Notepa
 
 The AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. [...]
 
-## Crazy ransomware gang abuses employee monitoring tool in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T19:29:14Z
-- URL: https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
+## First Lady Melania Trump Visits Children with Rare and Serious Diseases at The Children’s Inn at NIH for Valentine’s Day
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-11T20:04:28Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-visits-children-with-rare-and-serious-diseases-at-the-childrens-inn-at-nih-for-valentines-day/
 
-A member of the Crazy ransomware gang is abusing legitimate employee monitoring software and the SimpleHelp remote support tool to maintain persistence in corporate networks, evade detection, and prepare for ransomware deployment. [...]
-
-## Police arrest seller of JokerOTP MFA passcode capturing tool
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T19:14:32Z
-- URL: https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
-
-The Netherlands Police have arrested a a 21-year-old man from Dordrecht, suspected of selling access to the JokerOTP phishing automation tool that can intercept one-time passwords (OTP) for hijacking accounts. [...]
+## ICYMI: “Violent crime plummets across major U.S. cities”
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-11T17:37:15Z
+- URL: https://www.whitehouse.gov/articles/2026/02/icymi-violent-crime-plummets-across-major-u-s-cities/
 
 ## How the Industry Is Adapting to Nacha’s New Risk Management Rules
 - Source: NACHA
@@ -465,11 +339,15 @@ Changes made to the security updates links and information. This is an informati
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results
 
+Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission.
+
 ## Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast
 - Source: Fannie Mae
 - Category: Mortgage
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast
+
+Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C.
 
 ## Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026
 - Source: Fannie Mae
@@ -477,41 +355,17 @@ Changes made to the security updates links and information. This is an informati
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 
-## Subscribe to Payments Consulting
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.nacha.org/taxonomy/term/362/feed
-
-## Key Ratios
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-02-11T00:00:00Z
-- URL: https://ir.jackhenry.com/financials/key-ratios
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Network
-- Published: 2026-02-11T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## JBL Tune Buds 2 open-box deal drops earbuds to $39.99
+## Crazy ransomware gang abuses employee monitoring tool in attacks
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/jbl-tune-buds-2-open-box-deal-drops-earbuds-to-3999/
+- URL: https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
 
-## Proactive strategies for cyber resilience with Wazuh
+## Police arrest seller of JokerOTP MFA passcode capturing tool
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/proactive-strategies-for-cyber-resilience-with-wazuh/
-
-## LummaStealer infections surge after CastleLoader malware campaigns
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/lummastealer-infections-surge-after-castleloader-malware-campaigns/
+- URL: https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/
 
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
@@ -961,24 +815,6 @@ Added Affected Software for Windows packages
 
 Added Affected Software for Windows packages
 
-## Counter Terrorism Designations
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260210
-
-## Sanctions List Updates
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/sanctions-list-updates
-
-## Issuance of New and Amended Venezuela-related General Licenses
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260210_33
-
 ## Fiserv Reports Fourth Quarter and Full Year 2025 Results
 - Source: Fiserv
 - Category: Fintech Watch
@@ -998,6 +834,42 @@ IR-2026-22, Feb. 9, 2026 — The Internal Revenue Service today announced a new 
 - Category: Fintech Watch
 - Published: 2026-02-09T00:00:00Z
 - URL: https://ir.jackhenry.com/stock-info/historic-stock-lookup
+
+## Modifying Duties to Address Threats to the United States by the Government of the Russian Federation
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-06T23:30:12Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/
+
+## Establishing an America First Arms Transfer Strategy
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-06T22:08:25Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/establishing-an-america-first-arms-transfer-strategy/
+
+## Protecting the National Security and Welfare of the United States and its Citizens from Criminal Actors and Other Public Safety Threats
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-06T21:51:16Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/protecting-the-national-security-and-welfare-of-the-united-states-and-its-citizens-from-criminal-actors-and-other-public-safety-threats/
+
+## Addressing Threats to the United States by the Government of Iran
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-06T21:47:01Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/addressing-threats-to-the-united-states-by-the-government-of-iran/
+
+## Unleashing American Commercial Fishing in the Atlantic
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-06T21:33:14Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/unleashing-american-commercial-fishing-in-the-atlantic/
+
+## Ensuring Affordable Beef for the American Consumer
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-06T21:18:13Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/
 
 ## FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
 - Source: FDIC
@@ -1020,24 +892,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: Fintech Watch
 - Published: 2026-02-06T05:00:00Z
 - URL: https://ir.jackhenry.com/financials/sec-filings
-
-## Iran-related Designations
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206
-
-## Launch of Voluntary Self-Disclosure Portal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206_33
-
-## Issuance of Venezuela-related Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260206_66
 
 ## Comptroller Discusses Importance of Financial Education
 - Source: OCC
@@ -1103,12 +957,6 @@ Information published.
 
 User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network.
 
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Network
-- Published: 2026-02-05T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
 ## Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
 - Source: FRB
 - Category: Payments
@@ -1116,6 +964,12 @@ User interface (ui) misrepresentation of critical information in Microsoft Edge 
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260204a.htm
 
 Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
+
+## Nominations Sent to the Senate
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-04T17:59:12Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/
 
 ## Regulatory Reform
 - Source: FRB
@@ -1131,17 +985,19 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-02-04T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-expands-rental-supply-nearly-74-billion-volume-2025
 
+Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Multifamily Loan Production Volume in 2025
+
 ## Corporate Events & Presentations
 - Source: Jack Henry
 - Category: Fintech Watch
 - Published: 2026-02-04T00:00:00Z
 - URL: https://ir.jackhenry.com/corporate-events-and-presentations
 
-## Issuance of Venezuela-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-03T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260203
+## National Black History Month, 2026
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-03T19:56:11Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
 
 ## Create an IRS Individual Online Account today for security and convenience
 - Source: IRS
@@ -1164,12 +1020,6 @@ IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Rev
 - Category: Fintech Watch
 - Published: 2026-02-03T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/january-deep-freeze-impacts-small-business-foot-traffic-new
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Network
-- Published: 2026-02-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
 
 ## IRS statements and announcements
 - Source: IRS
@@ -1208,19 +1058,3 @@ PRESS RELEASE | JANUARY 30, 2026 First Independence Bank, Detroit, Michigan, Ass
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260130a.htm
 
 Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc.
-
-## Press Release: FDIC Publishes Enforcement Orders for December 2025
-- Source: FDIC
-- Category: Banking
-- Published: 2026-01-30T15:02:09Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/406ad43
-
-PRESS RELEASE | JANUARY 30, 2026 FDIC Publishes Enforcement Orders for December 2025 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025. There are no administrative hearings scheduled for February 2026. Orders Terminating Consent Orders: Luana…
-
-## Chromium: CVE-2026-1504 Inappropriate implementation in Background Fetch API
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-01-30T03:20:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1504
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
