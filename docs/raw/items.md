@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T16:52:57Z` → `2026-02-16T16:52:57Z` (UTC)
-Last updated: `2026-02-16T10:52:57-06:00` (CT) — `2026-02-16T16:52:57Z` (UTC)
+Window: `2026-02-02T17:41:31Z` → `2026-02-16T17:41:31Z` (UTC)
+Last updated: `2026-02-16T11:41:31-06:00` (CT) — `2026-02-16T17:41:31Z` (UTC)
+
+## Infostealer malware found stealing OpenClaw secrets for first time
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T17:32:26Z
+- URL: https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/
+
+With the massive adoption of the OpenClaw agentic AI assistant, information-stealing malware has been spotted stealing files associated with the framework that contain API keys, authentication tokens, and other secrets. [...]
 
 ## Passwords to passkeys: Staying ISO 27001 compliant in a passwordless era
 - Source: BleepingComputer
@@ -205,14 +213,6 @@ Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-ba
 - Published: 2026-02-13T14:54:20Z
 - URL: https://www.whitehouse.gov/articles/2026/02/president-trump-delivers-another-inflation-win-real-wages-surge-price-relief-reaches-americans/
 
-## CISA flags critical Microsoft SCCM flaw as exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T12:35:09Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
-
-CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]
-
 ## SEC Filings
 - Source: Jack Henry
 - Category: Fintech Watch
@@ -263,17 +263,17 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Published: 2026-02-13T00:00:00Z
 - URL: https://ir.jackhenry.com/financials/earnings-estimates
 
+## CISA flags critical Microsoft SCCM flaw as exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
+
 ## Block ads and trackers on 9 devices for $16 in this AdGuard deal
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-13T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
-
-## Microsoft fixes bug that blocked Google Chrome from launching
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB
@@ -332,30 +332,6 @@ Added an FAQ and updated the CVSS score. This is an informational change only.
 - URL: https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill
 
 IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Revenue Service today issued a notice providing guidance for determining whether electricity-producing qualified facilities, energy storage technologies, or eligible components are receiving material assistance from a prohibited foreign entity (PFE) and would be ineligible for certain energy tax credit…
-
-## OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
-
-The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html
-
-The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations.
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.occ.gov/topics/economics/index-economics.html
-
-The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 
 ## Mortgage Rates Inch Down
 - Source: Freddie Mac

@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-02-16T17:32:26Z
+Infostealer malware found stealing OpenClaw secrets for first time
+https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/
+With the massive adoption of the OpenClaw agentic AI assistant, information-stealing malware has been spotted stealing files associated with the framework that contain API keys, authentication tokens, and other secrets. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-16T15:02:12Z
 Passwords to passkeys: Staying ISO 27001 compliant in a passwordless era
 https://www.bleepingcomputer.com/news/security/passwords-to-passkeys-staying-iso-27001-compliant-in-a-passwordless-era/
@@ -183,13 +190,6 @@ White House
 President Trump Delivers Another Inflation Win: Real Wages Surge, Price Relief Reaches Americans
 https://www.whitehouse.gov/articles/2026/02/president-trump-delivers-another-inflation-win-real-wages-surge-price-relief-reaches-americans/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-13T12:35:09Z
-CISA flags critical Microsoft SCCM flaw as exploited in attacks
-https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
-CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]
-------------------------------------------------------------
 Fintech Watch
 Jack Henry
 2026-02-13T05:00:00Z
@@ -242,14 +242,14 @@ https://ir.jackhenry.com/financials/earnings-estimates
 IS
 BleepingComputer
 2026-02-13T00:00:00Z
-Block ads and trackers on 9 devices for $16 in this AdGuard deal
-https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
+CISA flags critical Microsoft SCCM flaw as exploited in attacks
+https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-13T00:00:00Z
-Microsoft fixes bug that blocked Google Chrome from launching
-https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
+Block ads and trackers on 9 devices for $16 in this AdGuard deal
+https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
 ------------------------------------------------------------
 Payments
 FRB
@@ -303,27 +303,6 @@ IRS
 Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill
 https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill
 IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Revenue Service today issued a notice providing guidance for determining whether electricity-producing qualified facilities, energy storage technologies, or eligible components are receiving material assistance from a prohibited foreign entity (PFE) and would be ineligible for certain energy tax credit…
-------------------------------------------------------------
-Banking
-OCC
-2026-02-12T00:00:00Z
-OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
-https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
-The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
-------------------------------------------------------------
-Banking
-OCC
-2026-02-12T00:00:00Z
-More More
-https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html
-The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations.
-------------------------------------------------------------
-Banking
-OCC
-2026-02-12T00:00:00Z
-More More
-https://www.occ.gov/topics/economics/index-economics.html
-The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 ------------------------------------------------------------
 Mortgage
 Freddie Mac
