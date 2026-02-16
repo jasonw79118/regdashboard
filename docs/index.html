@@ -126,14 +126,14 @@
         ]
       },
 
-      <!-- ✅ NEW: Federal Register-only tile -->
+      // Federal Register-only tile
       { id: "fedreg",   title: "Federal Register", keys: ["Federal Register"], accent: "#2563eb",
         sources: [
           ["Federal Register", "https://www.federalregister.gov/"]
         ]
       },
 
-      <!-- ✅ FIX: include Executive so White House items appear -->
+      // Legislative + Executive (include Executive so White House items appear)
       { id: "exec",     title: "Legislative & Executive", keys: ["Legislative", "Executive"], accent: "#16a34a",
         sources: [
           ["Senate Banking Newsroom", "https://www.banking.senate.gov/newsroom"],
@@ -156,7 +156,7 @@
         ]
       },
 
-      <!-- ✅ HARDEN: normalize Payment Card Networks to plural everywhere -->
+      // Payment Card Networks (normalize to plural everywhere)
       { id: "cardnet",  title: "Payment Card Networks", keys: ["Payment Card Networks"], accent: "#2563eb",
         sources: [
           ["Visa Press Releases", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"],
@@ -186,7 +186,7 @@
       if (lower === "usda rural development") return "USDA";
       if (lower === "usda") return "USDA";
 
-      // ✅ normalize all card-network variations to ONE canonical key
+      // normalize all card-network variations to ONE canonical key
       if (lower === "payment card networks" || lower === "payment card network" || lower === "card networks" || lower === "card network") return "Payment Card Networks";
       if (lower === "visa" || lower === "mastercard") return "Payment Card Networks";
 
