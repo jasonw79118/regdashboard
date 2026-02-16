@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T18:52:54Z` → `2026-02-16T18:52:54Z` (UTC)
-Last updated: `2026-02-16T12:52:54-06:00` (CT) — `2026-02-16T18:52:54Z` (UTC)
+Window: `2026-02-02T19:35:06Z` → `2026-02-16T19:35:06Z` (UTC)
+Last updated: `2026-02-16T13:35:06-06:00` (CT) — `2026-02-16T19:35:06Z` (UTC)
+
+## Eurail says stolen traveler data now up for sale on dark web
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T19:19:09Z
+- URL: https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
+
+Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web. [...]
+
+## Man arrested for demanding reward after accidental police data leak
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T19:13:39Z
+- URL: https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
+
+Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received "something in return." [...]
 
 ## Infostealer malware found stealing OpenClaw secrets for first time
 - Source: BleepingComputer
@@ -157,14 +173,6 @@ A new variation of the fake recruiter campaign from North Korean threat actors i
 
 Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]
 
-## Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T18:35:15Z
-- URL: https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
-
-South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Couture, and Tiffany $25 million for failing to implement adequate security measures, which facilitated unauthorized access and the exposure of data belonging to more than 5.5 million customers. [...]
-
 ## President Trump Delivers Biggest Regulatory Relief in History
 - Source: White House
 - Category: Legislative
@@ -198,14 +206,6 @@ Updated information to include CVSS scores. This is an informational change only
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21517
 
 Download links fixed
-
-## Turning IBM QRadar Alerts into Action with Criminal IP
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T15:05:15Z
-- URL: https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
-
-Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-based threat intelligence directly into detection and response workflows. See how risk scoring and automated enrichment help SOC teams prioritize high-risk IPs and accelerate investigations without leaving QRadar. [...]
 
 ## President Trump Delivers Another Inflation Win: Real Wages Surge, Price Relief Reaches Americans
 - Source: White House
@@ -263,17 +263,17 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Published: 2026-02-13T00:00:00Z
 - URL: https://ir.jackhenry.com/financials/earnings-estimates
 
-## CISA flags critical Microsoft SCCM flaw as exploited in attacks
+## Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
+- URL: https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
 
-## Block ads and trackers on 9 devices for $16 in this AdGuard deal
+## Turning IBM QRadar Alerts into Action with Criminal IP
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
+- URL: https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB

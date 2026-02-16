@@ -1,5 +1,19 @@
 IS
 BleepingComputer
+2026-02-16T19:19:09Z
+Eurail says stolen traveler data now up for sale on dark web
+https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
+Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-16T19:13:39Z
+Man arrested for demanding reward after accidental police data leak
+https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
+Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received "something in return." [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-16T17:32:26Z
 Infostealer malware found stealing OpenClaw secrets for first time
 https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/
@@ -138,13 +152,6 @@ Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
 https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
 Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-13T18:35:15Z
-Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
-https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
-South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Couture, and Tiffany $25 million for failing to implement adequate security measures, which facilitated unauthorized access and the exposure of data belonging to more than 5.5 million customers. [...]
-------------------------------------------------------------
 Legislative
 White House
 2026-02-13T18:13:07Z
@@ -176,13 +183,6 @@ Microsoft MSRC
 CVE-2026-21517 Windows App for Mac Installer Elevation of Privilege Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21517
 Download links fixed
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-13T15:05:15Z
-Turning IBM QRadar Alerts into Action with Criminal IP
-https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
-Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-based threat intelligence directly into detection and response workflows. See how risk scoring and automated enrichment help SOC teams prioritize high-risk IPs and accelerate investigations without leaving QRadar. [...]
 ------------------------------------------------------------
 Legislative
 White House
@@ -242,14 +242,14 @@ https://ir.jackhenry.com/financials/earnings-estimates
 IS
 BleepingComputer
 2026-02-13T00:00:00Z
-CISA flags critical Microsoft SCCM flaw as exploited in attacks
-https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
+Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
+https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-13T00:00:00Z
-Block ads and trackers on 9 devices for $16 in this AdGuard deal
-https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
+Turning IBM QRadar Alerts into Action with Criminal IP
+https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
 ------------------------------------------------------------
 Payments
 FRB
