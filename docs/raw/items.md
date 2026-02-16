@@ -1,7 +1,155 @@
 # RegDashboard — Export
 
-Window: `2026-01-30T20:49:17Z` → `2026-02-13T20:49:17Z` (UTC)
-Last updated: `2026-02-13T14:49:17-06:00` (CT) — `2026-02-13T20:49:17Z` (UTC)
+Window: `2026-02-02T13:58:11Z` → `2026-02-16T13:58:11Z` (UTC)
+Last updated: `2026-02-16T07:58:11-06:00` (CT) — `2026-02-16T13:58:11Z` (UTC)
+
+## CISA gives feds 3 days to patch actively exploited BeyondTrust flaw
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T12:33:11Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-beyondtrust-flaw-within-three-days/
+
+CISA ordered U.S. government agencies on Friday to secure their BeyondTrust Remote Support instances against an actively exploited vulnerability within three days. [...]
+
+## Google patches first Chrome zero-day exploited in attacks this year
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T08:19:19Z
+- URL: https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/
+
+Google has released emergency updates to fix a high-severity Chrome vulnerability exploited in zero-day attacks, marking the first such security flaw patched since the start of the year. [...]
+
+## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-16T08:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
+
+Northern Italy sees more than 60% increase in Visa cardholder visitors from overseas, with an increase in purchases up 80% compared to the same period in 2025 Significant increase in spending from Visa cardholders in many areas of commerce including Clothing & Accessories, Restaurants and Mobility
+
+## Canada Goose investigating as hackers leak 600K customer records
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T04:45:32Z
+- URL: https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/
+
+ShinyHunters, a well-known data extortion group, claims to have stolen more than 600,000 Canada Goose customer records containing personal and payment-related data. Canada Goose told BleepingComputer the dataset appears to relate to past customer transactions and that it has not found evidence of a breach of its own systems. [...]
+
+## New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T00:29:00Z
+- URL: https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/
+
+Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]
+
+## View MPF Program Guides
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-02-16T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/guides
+
+## View Knowledge Articles
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-02-16T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/knowledge-articles
+
+## View MPF Program Updates
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-02-16T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates
+
+## Turn 15 minutes into daily learning with this Headway deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/turn-15-minutes-into-daily-learning-with-this-headway-deal/
+
+## Windows 11 KB5077181 fixes boot failures linked to failed updates
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-15T22:08:53Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-fixes-boot-failures-linked-to-failed-updates/
+
+Microsoft says it has resolved a Windows 11 bug that caused some commercial systems to fail to boot with an "UNMOUNTABLE_BOOT_VOLUME" error after installing recent security updates, with the fix delivered in the February 2026 Patch Tuesday update. [...]
+
+## Presidential Message on Susan B. Anthony Day
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-15T22:00:59Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-susan-b-anthony-day/
+
+## CTM360: Lumma Stealer and Ninja Browser malware campaign abusing Google Groups
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-15T16:30:41Z
+- URL: https://www.bleepingcomputer.com/news/security/ctm360-lumma-stealer-and-ninja-browser-malware-campaign-abusing-google-groups/
+
+CTM360 reports 4,000+ malicious Google Groups and 3,500+ Google-hosted URLs used to spread the Lumma Stealer infostealing malware and a trojanized "Ninja Browser." The report details how attackers abuse trusted Google services to steal credentials and maintain persistence across Windows and Linux systems. [...]
+
+## Presidential Message on the Daytona 500
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-15T15:39:15Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-the-daytona-500/
+
+## Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-15T15:17:27Z
+- URL: https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/
+
+Threat actors are abusing Pastebin comments to distribute a new ClickFix-style attack that tricks cryptocurrency users into executing malicious JavaScript in their browser, allowing attackers to hijack Bitcoin swap transactions and redirect funds to attacker-controlled wallets. [...]
+
+## In Munich, Secretary Rubio Calls on Allies to Embrace Shared Heritage, Meet Challenges of New Era
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-15T02:55:57Z
+- URL: https://www.whitehouse.gov/articles/2026/02/in-munich-secretary-rubio-calls-on-allies-to-embrace-shared-heritage-meet-challenges-of-new-era/
+
+## This refurbished Microsoft Surface Pro 6 is on sale for just $230
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-15T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-refurbished-microsoft-surface-pro-6-is-on-sale-for-just-230/
+
+## One threat actor responsible for 83% of recent Ivanti RCE attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-14T16:02:34Z
+- URL: https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/
+
+Threat intelligence observations show that a single threat actor is responsible for most of the active exploitation of two critical vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM), tracked as CVE-2026-1281 and CVE-2026-1340. [...]
+
+## Snail mail letters target Trezor and Ledger users in crypto-theft attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-14T15:15:25Z
+- URL: https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/
+
+Threat actors are sending physical letters pretending to be from Trezor and Ledger, makers of cryptocurrency hardware wallets, to trick users into submitting recovery phrases in crypto theft attacks. [...]
+
+## Pay once and get 1TB of Koofr cloud storage for life
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-14T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/pay-once-and-get-1tb-of-koofr-cloud-storage-for-life/
+
+## Fake job recruiters hide malware in developer coding challenges
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T22:35:37Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/
+
+A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks. [...]
+
+## First Lady Melania Trump Embraces Love of Country & Family to United States Armed Forces
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-13T20:49:46Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-embraces-love-of-country-family-to-united-states-armed-forces/
 
 ## Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
 - Source: BleepingComputer
@@ -121,6 +269,12 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Published: 2026-02-13T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-charts-path-forward-on-digital-assets-and-capital-formation-at-hearing-with-sec-chair
 
+## Key Ratios
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-02-13T00:00:00Z
+- URL: https://ir.jackhenry.com/financials/key-ratios
+
 ## Earnings Estimates
 - Source: Jack Henry
 - Category: Fintech Watch
@@ -132,38 +286,6 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Category: IS
 - Published: 2026-02-13T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
-
-## Russia tries to block WhatsApp, Telegram in communication blockade
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T22:57:54Z
-- URL: https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/
-
-The Russian government is attempting to block WhatsApp in the country as its crackdown on communication platforms not under its control intensifies. [...]
-
-## Bitwarden introduces ‘Cupid Vault’ for secure password sharing
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T21:55:24Z
-- URL: https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/
-
-Bitwarden has launched a new system called 'Cupid Vault' that allows users to safely share passwords with trusted email addresses. [...]
-
-## Critical BeyondTrust RCE flaw now exploited in attacks, patch now
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T21:34:12Z
-- URL: https://www.bleepingcomputer.com/news/security/critical-beyondtrust-rce-flaw-now-exploited-in-attacks-patch-now/
-
-A critical pre-authentication remote code execution vulnerability in BeyondTrust Remote Support and Privileged Remote Access appliances is now being exploited in attacks after a PoC was published online. [...]
-
-## Microsoft: New Windows LNK spoofing issues aren't vulnerabilities
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T21:01:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-lnk-spoofing-issues-arent-vulnerabilities/
-
-Today, at Wild West Hackin' Fest, security researcher Wietze Beukema disclosed multiple vulnerabilities in Windows LK shortcut files that allow attackers to deploy malicious payloads. [...]
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB
@@ -179,35 +301,11 @@ Federal Reserve Board announces approval of application by Cooperativa de Ahorro
 - Published: 2026-02-12T19:37:57Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/02/joint-statement-on-a-framework-for-united-states-north-macedonia-agreement-on-reciprocal-fair-and-balanced-trade/
 
-## Romania's oil pipeline operator Conpet confirms data stolen in attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T19:16:38Z
-- URL: https://www.bleepingcomputer.com/news/security/romanias-oil-pipeline-operator-conpet-confirms-data-stolen-in-attack/
-
-Romania's national oil pipeline operator, Conpet S.A., confirmed that the Qilin ransomware gang stole company data in an attack last week. [...]
-
-## Odido data breach exposes personal info of 6.2 million customers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T18:18:14Z
-- URL: https://www.bleepingcomputer.com/news/security/odido-data-breach-exposes-personal-info-of-62-million-customers/
-
-Dutch telecommunications provider Odido is warning that it suffered a cyberattack that reportedly exposed the personal data of 6.2 million customers. [...]
-
 ## “Champion of Beautiful, Clean Coal”: President Trump Celebrates Industry Revival
 - Source: White House
 - Category: Legislative
 - Published: 2026-02-12T17:48:45Z
 - URL: https://www.whitehouse.gov/articles/2026/02/champion-of-beautiful-clean-coal-president-trump-celebrates-industry-revival/
-
-## WordPress plugin with 900k installs vulnerable to critical RCE flaw
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T17:09:41Z
-- URL: https://www.bleepingcomputer.com/news/security/wordpress-plugin-with-900k-installs-vulnerable-to-critical-rce-flaw/
-
-A critical vulnerability in the WPvivid Backup & Migration plugin for WordPress, installed on more than 900,000 websites, can be exploited to achieve remote code execution by uploading arbitrary files without authentication. [...]
 
 ## Press Release: FDIC Releases Economic Scenarios for 2026 Stress Testing
 - Source: FDIC
@@ -225,34 +323,6 @@ PRESS RELEASE | FEBRUARY 12, 2026 FDIC Releases Economic Scenarios for 2026 Stre
 
 Federal Reserve Board issues enforcement action with former employee of Regions Bank
 
-## Birthday of President Abraham Lincoln, 2026
-- Source: White House
-- Category: Legislative
-- Published: 2026-02-12T15:48:42Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/birthday-of-president-abraham-lincoln-2026/
-
-## First Lady Melania Trump Secures Another Russian – Ukrainian Child Reunification
-- Source: White House
-- Category: Legislative
-- Published: 2026-02-12T15:03:04Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-secures-another-russian-ukrainian-child-reunification/
-
-## AMOS infostealer targets macOS through a popular AI app
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T14:25:38Z
-- URL: https://www.bleepingcomputer.com/news/security/amos-infostealer-targets-macos-through-a-popular-ai-app/
-
-AMOS infostealer is targeting macOS users by abusing popular AI apps and extension marketplaces to harvest credentials. Flare examines how AMOS operates, spreads through AI-driven lures, and feeds the broader stealer-log cybercrime economy. [...]
-
-## Fake AI Chrome extensions with 300K users steal credentials, emails
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T13:41:55Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-ai-chrome-extensions-with-300k-users-steal-credentials-emails/
-
-A set of 30 malicious Chrome extensions that have been installed by more than 300,000 users are masquerading as AI assistants to steal credentials, email content, and browsing information. [...]
-
 ## CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -260,14 +330,6 @@ A set of 30 malicious Chrome extensions that have been installed by more than 30
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
 
 Added an FAQ and updated the CVSS score. This is an informational change only.
-
-## Google says hackers are abusing Gemini AI for all attacks stages
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T07:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/google-says-hackers-are-abusing-gemini-ai-for-all-attacks-stages/
-
-Google Threat Intelligence Group (GTIG) has published a new report warning about AI model extraction/distillation attacks, in which private-sector firms and researchers use legitimate API access to systematically probe models and replicate their logic and reasoning. [...]
 
 ## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
 - Source: OFAC
@@ -325,23 +387,11 @@ The OCC's economists support the OCC mission through economic thought leadership
 - Published: 2026-02-12T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduces-indx-real-time-cash-settlement-platform
 
-## Key Ratios
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-02-12T00:00:00Z
-- URL: https://ir.jackhenry.com/financials/key-ratios
-
-## This $20 CISSP course bundle helps you study for this grueling certification
+## Russia tries to block WhatsApp, Telegram in communication blockade
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-20-cissp-course-bundle-helps-you-study-for-this-grueling-certification/
-
-## This $30 AI training bundle shows you how to automate your tasks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-30-ai-training-bundle-shows-you-how-to-automate-your-tasks/
+- URL: https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/
 
 ## Nominations Sent to the Senate
 - Source: White House
@@ -416,18 +466,6 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 - Category: Mortgage
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
-
-## Apple fixes zero-day flaw used in 'extremely sophisticated' attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
-
-## Windows 11 Notepad flaw let files execute silently via Markdown links
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
 
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
@@ -1093,14 +1131,6 @@ By connecting Visa Direct’s card network to UnionPay International’s (UPI) M
 - Published: 2026-02-03T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260203
 
-## Create an IRS Individual Online Account today for security and convenience
-- Source: IRS
-- Category: IRS
-- Published: 2026-02-03T00:00:00Z
-- URL: https://www.irs.gov/newsroom/create-an-irs-individual-online-account-today-for-security-and-convenience
-
-IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS Individual Online Account to access their tax account information securely online and to help protect against identity theft and fraud.
-
 ## Treasury, IRS issue proposed regulations on the clean fuel production credit under the One, Big, Beautiful Bill
 - Source: IRS
 - Category: IRS
@@ -1109,46 +1139,16 @@ IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS I
 
 IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations for domestic producers of clean transportation fuel to determine their eligibility for and calculate the clean fuel production credit under the One, Big, Beautiful Bill.
 
+## Create an IRS Individual Online Account today for security and convenience
+- Source: IRS
+- Category: IRS
+- Published: 2026-02-03T00:00:00Z
+- URL: https://www.irs.gov/newsroom/create-an-irs-individual-online-account-today-for-security-and-convenience
+
+IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS Individual Online Account to access their tax account information securely online and to help protect against identity theft and fraud.
+
 ## January Deep Freeze Impacts Small Business Foot Traffic, New Fiserv Data Shows
 - Source: Fiserv
 - Category: Fintech Watch
 - Published: 2026-02-03T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/january-deep-freeze-impacts-small-business-foot-traffic-new
-
-## IRS statements and announcements
-- Source: IRS
-- Category: IRS
-- Published: 2026-02-02T00:00:00Z
-- URL: https://www.irs.gov/newsroom/irs-statements-and-announcements
-
-Agency statements, comments and additional information.
-
-## OCC Releases CRA Performance Evaluations for 29 National Banks and Federal Savings Associations
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-02T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-5.html
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-02T00:00:00Z
-- URL: https://www.occ.gov/topics/consumers-and-communities/index-consumers-and-communities.html
-
-Ensuring fair and equal treatment to bank customers is key to the OCC’s mission. To promote a vibrant banking system, the agency helps banks identify community finance opportunities and ways to make financial services accessible to underserved communities.
-
-## Press Release: First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois
-- Source: FDIC
-- Category: Banking
-- Published: 2026-01-30T23:12:07Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/406eba7
-
-PRESS RELEASE | JANUARY 30, 2026 First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois WASHINGTON — Metropolitan Capital Bank & Trust was closed today by the Illinois Department of Financial and Professional Regulation, which appointed the Federal Deposit Insurance Corporation (FDIC) as receiver. The FDIC enter…
-
-## Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc.
-- Source: FRB
-- Category: Payments
-- Published: 2026-01-30T21:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260130a.htm
-
-Federal Reserve Board announces approval of application by Cornerstone Capital Bancorp, Inc.
