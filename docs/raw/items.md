@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T22:34:40Z` → `2026-02-16T22:34:40Z` (UTC)
-Last updated: `2026-02-16T16:34:40-06:00` (CT) — `2026-02-16T22:34:40Z` (UTC)
+Window: `2026-02-02T23:34:44Z` → `2026-02-16T23:34:44Z` (UTC)
+Last updated: `2026-02-16T17:34:44-06:00` (CT) — `2026-02-16T23:34:44Z` (UTC)
 
 ## Washington Hotel in Japan discloses ransomware infection incident
 - Source: BleepingComputer
