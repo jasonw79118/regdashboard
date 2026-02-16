@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T14:16:27Z` → `2026-02-16T14:16:27Z` (UTC)
-Last updated: `2026-02-16T08:16:27-06:00` (CT) — `2026-02-16T14:16:27Z` (UTC)
+Window: `2026-02-02T14:35:32Z` → `2026-02-16T14:35:32Z` (UTC)
+Last updated: `2026-02-16T08:35:32-06:00` (CT) — `2026-02-16T14:35:32Z` (UTC)
 
 ## CISA gives feds 3 days to patch actively exploited BeyondTrust flaw
 - Source: BleepingComputer

@@ -1476,7 +1476,7 @@ START_PAGES: List[SourcePage] = [
     SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
     SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
     # USDA RD
-    SourcePage("USDA Rural Development", "https://content.govdelivery.com/accounts/USDARD/bulletins"),
+    SourcePage("USDA Rural Development", "https://www.rd.usda.gov/newsroom/news-releases"),
     # Banking regulators
     SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
     SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
