@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T19:35:06Z` → `2026-02-16T19:35:06Z` (UTC)
-Last updated: `2026-02-16T13:35:06-06:00` (CT) — `2026-02-16T19:35:06Z` (UTC)
+Window: `2026-02-02T20:37:47Z` → `2026-02-16T20:37:47Z` (UTC)
+Last updated: `2026-02-16T14:37:47-06:00` (CT) — `2026-02-16T20:37:47Z` (UTC)
 
 ## Eurail says stolen traveler data now up for sale on dark web
 - Source: BleepingComputer
