@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T15:46:56Z` → `2026-02-16T15:46:56Z` (UTC)
-Last updated: `2026-02-16T09:46:56-06:00` (CT) — `2026-02-16T15:46:56Z` (UTC)
+Window: `2026-02-02T16:52:57Z` → `2026-02-16T16:52:57Z` (UTC)
+Last updated: `2026-02-16T10:52:57-06:00` (CT) — `2026-02-16T16:52:57Z` (UTC)
 
 ## Passwords to passkeys: Staying ISO 27001 compliant in a passwordless era
 - Source: BleepingComputer
