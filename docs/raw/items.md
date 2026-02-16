@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T21:07:14Z` → `2026-02-16T21:07:14Z` (UTC)
-Last updated: `2026-02-16T15:07:14-06:00` (CT) — `2026-02-16T21:07:14Z` (UTC)
+Window: `2026-02-02T21:34:28Z` → `2026-02-16T21:34:28Z` (UTC)
+Last updated: `2026-02-16T15:34:28-06:00` (CT) — `2026-02-16T21:34:28Z` (UTC)
+
+## Washington Hotel in Japan discloses ransomware infection incident
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T21:10:38Z
+- URL: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
+
+The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]
 
 ## Eurail says stolen traveler data now up for sale on dark web
 - Source: BleepingComputer
@@ -74,12 +82,6 @@ ShinyHunters, a well-known data extortion group, claims to have stolen more than
 - URL: https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/
 
 Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]
-
-## Washington Hotel in Japan discloses ransomware infection incident
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
 
 ## Turn 15 minutes into daily learning with this Headway deal
 - Source: BleepingComputer
@@ -976,14 +978,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: OFAC
 - Published: 2026-02-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260206
-
-## Comptroller Discusses Importance of Financial Education
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-06T00:00:00Z
-- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
-
-Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register

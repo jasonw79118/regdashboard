@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-02-16T21:10:38Z
+Washington Hotel in Japan discloses ransomware infection incident
+https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
+The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-16T19:19:09Z
 Eurail says stolen traveler data now up for sale on dark web
 https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
@@ -60,12 +67,6 @@ BleepingComputer
 New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS
 https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/
 Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-16T00:00:00Z
-Washington Hotel in Japan discloses ransomware infection incident
-https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -880,13 +881,6 @@ OFAC
 2026-02-06T00:00:00Z
 Iran-related Designations
 https://ofac.treasury.gov/recent-actions/20260206
-------------------------------------------------------------
-Banking
-OCC
-2026-02-06T00:00:00Z
-Comptroller Discusses Importance of Financial Education
-https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
-Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 ------------------------------------------------------------
 Legislative
 Federal Register
