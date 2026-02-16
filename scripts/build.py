@@ -1482,7 +1482,7 @@ START_PAGES: List[SourcePage] = [
     SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
     SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
     # Mortgage / housing GSEs
-    SourcePage("FHLB MPF", "https://www.fhlbmpf.com/about-us/news"),
+    SourcePage("FHLB MPF", "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
     SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
     SourcePage("Freddie Mac", "https://www.globenewswire.com/search/organization/Freddie%20Mac"),

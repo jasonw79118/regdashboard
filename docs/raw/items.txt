@@ -33,24 +33,6 @@ New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS
 https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/
 Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]
 ------------------------------------------------------------
-Mortgage
-FHLB MPF
-2026-02-16T00:00:00Z
-View MPF Program Guides
-https://www.fhlbmpf.com/program-guidelines/guides
-------------------------------------------------------------
-Mortgage
-FHLB MPF
-2026-02-16T00:00:00Z
-View Knowledge Articles
-https://www.fhlbmpf.com/program-guidelines/knowledge-articles
-------------------------------------------------------------
-Mortgage
-FHLB MPF
-2026-02-16T00:00:00Z
-View MPF Program Updates
-https://www.fhlbmpf.com/program-guidelines/mpf-program-updates
-------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-16T00:00:00Z

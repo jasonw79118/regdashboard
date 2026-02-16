@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-02T13:58:11Z",
-  "window_end": "2026-02-16T13:58:11Z",
-  "generated_at_utc": "2026-02-16T13:58:11Z",
-  "generated_at_ct": "2026-02-16T07:58:11-06:00",
+  "window_start": "2026-02-02T14:16:27Z",
+  "window_end": "2026-02-16T14:16:27Z",
+  "generated_at_utc": "2026-02-16T14:16:27Z",
+  "generated_at_ct": "2026-02-16T08:16:27-06:00",
   "items": [
     {
       "category": "IS",
@@ -43,30 +43,6 @@
       "published_at": "2026-02-16T00:29:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/",
       "summary": "Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]"
-    },
-    {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
-      "title": "View MPF Program Guides",
-      "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/guides",
-      "summary": ""
-    },
-    {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
-      "title": "View Knowledge Articles",
-      "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/knowledge-articles",
-      "summary": ""
-    },
-    {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
-      "title": "View MPF Program Updates",
-      "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates",
-      "summary": ""
     },
     {
       "category": "IS",

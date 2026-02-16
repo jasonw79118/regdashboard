@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T13:58:11Z` → `2026-02-16T13:58:11Z` (UTC)
-Last updated: `2026-02-16T07:58:11-06:00` (CT) — `2026-02-16T13:58:11Z` (UTC)
+Window: `2026-02-02T14:16:27Z` → `2026-02-16T14:16:27Z` (UTC)
+Last updated: `2026-02-16T08:16:27-06:00` (CT) — `2026-02-16T14:16:27Z` (UTC)
 
 ## CISA gives feds 3 days to patch actively exploited BeyondTrust flaw
 - Source: BleepingComputer
@@ -42,24 +42,6 @@ ShinyHunters, a well-known data extortion group, claims to have stolen more than
 - URL: https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/
 
 Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]
-
-## View MPF Program Guides
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/guides
-
-## View Knowledge Articles
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/knowledge-articles
-
-## View MPF Program Updates
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates
 
 ## Turn 15 minutes into daily learning with this Headway deal
 - Source: BleepingComputer
