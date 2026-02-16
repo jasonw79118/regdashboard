@@ -1470,6 +1470,7 @@ START_PAGES: List[SourcePage] = [
     # OFAC
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
     SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
+    SourcePage("OFAC", "https://home.treasury.gov/news/press-releases"),
     # IRS
     SourcePage("IRS", "https://www.irs.gov/newsroom"),
     SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
@@ -1506,6 +1507,7 @@ START_PAGES: List[SourcePage] = [
     # InfoSec (feed-only)
     SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/"),
     SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/"),
+    SourcePage("Microsoft MSRC", "https://www.microsoft.com/en-us/msrc/blog")
 ]
 
 
