@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "window_start": "2026-02-02T22:34:40Z",
   "window_end": "2026-02-16T22:34:40Z",
   "generated_at_utc": "2026-02-16T22:34:40Z",
   "generated_at_ct": "2026-02-16T16:34:40-06:00",
+=======
+  "window_start": "2026-02-02T22:08:37Z",
+  "window_end": "2026-02-16T22:08:37Z",
+  "generated_at_utc": "2026-02-16T22:08:37Z",
+  "generated_at_ct": "2026-02-16T16:08:37-06:00",
+>>>>>>> 48eb8a1 (Federal Register: more topics + separate tile; add Compliance Watch/CDIA/FASB tiles)
   "items": [
     {
       "category": "IS",

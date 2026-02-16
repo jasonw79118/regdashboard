@@ -24,6 +24,7 @@
       <a href="#banking">Banking</a>
       <a href="#mortgage">Mortgage</a>
       <a href="#usda">USDA</a>
+      <a href="#fedreg">Federal Register</a>
       <a href="#exec">Legislative &amp; Executive</a>
       <a href="#infosec">Information Security</a>
       <a href="#fintech">Fintech Watch</a>
@@ -124,13 +125,22 @@
           ["USDA RD Bulletins", "https://www.rd.usda.gov/newsroom/news-releases"]
         ]
       },
-      { id: "exec",     title: "Legislative & Executive", keys: ["Legislative"], accent: "#16a34a",
+
+      <!-- ✅ NEW: Federal Register-only tile -->
+      { id: "fedreg",   title: "Federal Register", keys: ["Federal Register"], accent: "#2563eb",
         sources: [
-          ["Senate Banking Newsroom", "https://www.banking.senate.gov/newsroom"],
-          ["White House News", "https://www.whitehouse.gov/news/"],
           ["Federal Register", "https://www.federalregister.gov/"]
         ]
       },
+
+      <!-- ✅ FIX: include Executive so White House items appear -->
+      { id: "exec",     title: "Legislative & Executive", keys: ["Legislative", "Executive"], accent: "#16a34a",
+        sources: [
+          ["Senate Banking Newsroom", "https://www.banking.senate.gov/newsroom"],
+          ["White House News", "https://www.whitehouse.gov/news/"]
+        ]
+      },
+
       { id: "infosec",  title: "Information Security", keys: ["IS", "Information Security"], accent: "#2563eb",
         sources: [
           ["BleepingComputer", "https://www.bleepingcomputer.com/"],
@@ -145,9 +155,9 @@
           ["Temenos Press Releases", "https://www.temenos.com/news/press-releases/"]
         ]
       },
-      { id: "cardnet",  title: "Payment Card Networks", keys: [
-        "Payment Card Network","Payment Card Networks","Card Network","Card Networks","Visa","Mastercard"
-      ], accent: "#2563eb",
+
+      <!-- ✅ HARDEN: normalize Payment Card Networks to plural everywhere -->
+      { id: "cardnet",  title: "Payment Card Networks", keys: ["Payment Card Networks"], accent: "#2563eb",
         sources: [
           ["Visa Press Releases", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"],
           ["Mastercard Press", "https://www.mastercard.com/us/en/news-and-trends/press.html"]
@@ -176,8 +186,9 @@
       if (lower === "usda rural development") return "USDA";
       if (lower === "usda") return "USDA";
 
-      if (lower === "payment card networks" || lower === "payment card network" || lower === "card networks" || lower === "card network") return "Payment Card Network";
-      if (lower === "visa" || lower === "mastercard") return "Payment Card Network";
+      // ✅ normalize all card-network variations to ONE canonical key
+      if (lower === "payment card networks" || lower === "payment card network" || lower === "card networks" || lower === "card network") return "Payment Card Networks";
+      if (lower === "visa" || lower === "mastercard") return "Payment Card Networks";
 
       return s;
     }
