@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T14:35:32Z` → `2026-02-16T14:35:32Z` (UTC)
-Last updated: `2026-02-16T08:35:32-06:00` (CT) — `2026-02-16T14:35:32Z` (UTC)
+Window: `2026-02-02T15:46:56Z` → `2026-02-16T15:46:56Z` (UTC)
+Last updated: `2026-02-16T09:46:56-06:00` (CT) — `2026-02-16T15:46:56Z` (UTC)
+
+## Passwords to passkeys: Staying ISO 27001 compliant in a passwordless era
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T15:02:12Z
+- URL: https://www.bleepingcomputer.com/news/security/passwords-to-passkeys-staying-iso-27001-compliant-in-a-passwordless-era/
+
+Password-based authentication is increasingly risky as organizations adopt passkeys to strengthen security and meet ISO/IEC 27001 requirements. Passwork explains how to align passwordless adoption with Annex A controls, risk assessments, and secure implementation practices. [...]
 
 ## CISA gives feds 3 days to patch actively exploited BeyondTrust flaw
 - Source: BleepingComputer
@@ -205,14 +213,6 @@ Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-ba
 
 CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]
 
-## Microsoft fixes bug that blocked Google Chrome from launching
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T09:31:01Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
-
-Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
-
 ## SEC Filings
 - Source: Jack Henry
 - Category: Fintech Watch
@@ -268,6 +268,12 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Category: IS
 - Published: 2026-02-13T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
+
+## Microsoft fixes bug that blocked Google Chrome from launching
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB
@@ -368,12 +374,6 @@ The OCC's economists support the OCC mission through economic thought leadership
 - Category: Fintech Watch
 - Published: 2026-02-12T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduces-indx-real-time-cash-settlement-platform
-
-## Russia tries to block WhatsApp, Telegram in communication blockade
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/
 
 ## Nominations Sent to the Senate
 - Source: White House
@@ -978,14 +978,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: OFAC
 - Published: 2026-02-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260206
-
-## Comptroller Discusses Importance of Financial Education
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-06T00:00:00Z
-- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
-
-Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register

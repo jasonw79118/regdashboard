@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-02-16T15:02:12Z
+Passwords to passkeys: Staying ISO 27001 compliant in a passwordless era
+https://www.bleepingcomputer.com/news/security/passwords-to-passkeys-staying-iso-27001-compliant-in-a-passwordless-era/
+Password-based authentication is increasingly risky as organizations adopt passkeys to strengthen security and meet ISO/IEC 27001 requirements. Passwork explains how to align passwordless adoption with Annex A controls, risk assessments, and secure implementation practices. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-16T12:33:11Z
 CISA gives feds 3 days to patch actively exploited BeyondTrust flaw
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-beyondtrust-flaw-within-three-days/
@@ -183,13 +190,6 @@ CISA flags critical Microsoft SCCM flaw as exploited in attacks
 https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
 CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-13T09:31:01Z
-Microsoft fixes bug that blocked Google Chrome from launching
-https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
-Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]
-------------------------------------------------------------
 Fintech Watch
 Jack Henry
 2026-02-13T05:00:00Z
@@ -244,6 +244,12 @@ BleepingComputer
 2026-02-13T00:00:00Z
 Block ads and trackers on 9 devices for $16 in this AdGuard deal
 https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-16-in-this-adguard-deal/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-13T00:00:00Z
+Microsoft fixes bug that blocked Google Chrome from launching
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 ------------------------------------------------------------
 Payments
 FRB
@@ -336,12 +342,6 @@ Fiserv
 2026-02-12T00:00:00Z
 Fiserv Introduces INDX, a Real-Time Cash Settlement Platform for Digital Asset Companies
 https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduces-indx-real-time-cash-settlement-platform
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-12T00:00:00Z
-Russia tries to block WhatsApp, Telegram in communication blockade
-https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/
 ------------------------------------------------------------
 Legislative
 White House
@@ -881,13 +881,6 @@ OFAC
 2026-02-06T00:00:00Z
 Iran-related Designations
 https://ofac.treasury.gov/recent-actions/20260206
-------------------------------------------------------------
-Banking
-OCC
-2026-02-06T00:00:00Z
-Comptroller Discusses Importance of Financial Education
-https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
-Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 ------------------------------------------------------------
 Legislative
 Federal Register
