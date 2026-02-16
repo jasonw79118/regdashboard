@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T17:41:31Z` → `2026-02-16T17:41:31Z` (UTC)
-Last updated: `2026-02-16T11:41:31-06:00` (CT) — `2026-02-16T17:41:31Z` (UTC)
+Window: `2026-02-02T18:52:54Z` → `2026-02-16T18:52:54Z` (UTC)
+Last updated: `2026-02-16T12:52:54-06:00` (CT) — `2026-02-16T18:52:54Z` (UTC)
 
 ## Infostealer malware found stealing OpenClaw secrets for first time
 - Source: BleepingComputer
@@ -332,6 +332,30 @@ Added an FAQ and updated the CVSS score. This is an informational change only.
 - URL: https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill
 
 IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Revenue Service today issued a notice providing guidance for determining whether electricity-producing qualified facilities, energy storage technologies, or eligible components are receiving material assistance from a prohibited foreign entity (PFE) and would be ineligible for certain energy tax credit…
+
+## OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
+
+The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
+
+## More More
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html
+
+The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations.
+
+## More More
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.occ.gov/topics/economics/index-economics.html
+
+The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 
 ## Mortgage Rates Inch Down
 - Source: Freddie Mac
