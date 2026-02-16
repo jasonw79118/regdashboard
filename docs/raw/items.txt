@@ -64,6 +64,18 @@ Threat actors are now abusing DNS queries as part of ClickFix social engineering
 IS
 BleepingComputer
 2026-02-16T00:00:00Z
+Eurail says stolen traveler data now up for sale on dark web
+https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-16T00:00:00Z
+Man arrested for demanding reward after accidental police data leak
+https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-16T00:00:00Z
 Turn 15 minutes into daily learning with this Headway deal
 https://www.bleepingcomputer.com/offer/deals/turn-15-minutes-into-daily-learning-with-this-headway-deal/
 ------------------------------------------------------------
@@ -881,6 +893,13 @@ OFAC
 2026-02-06T00:00:00Z
 Iran-related Designations
 https://ofac.treasury.gov/recent-actions/20260206
+------------------------------------------------------------
+Banking
+OCC
+2026-02-06T00:00:00Z
+Comptroller Discusses Importance of Financial Education
+https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
+Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 ------------------------------------------------------------
 Legislative
 Federal Register
