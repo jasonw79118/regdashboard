@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T19:10:24Z` → `2026-02-16T19:10:24Z` (UTC)
-Last updated: `2026-02-16T13:10:24-06:00` (CT) — `2026-02-16T19:10:24Z` (UTC)
+Window: `2026-02-02T21:07:14Z` → `2026-02-16T21:07:14Z` (UTC)
+Last updated: `2026-02-16T15:07:14-06:00` (CT) — `2026-02-16T21:07:14Z` (UTC)
+
+## Eurail says stolen traveler data now up for sale on dark web
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T19:19:09Z
+- URL: https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
+
+Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web. [...]
+
+## Man arrested for demanding reward after accidental police data leak
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T19:13:39Z
+- URL: https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
+
+Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received "something in return." [...]
 
 ## Infostealer malware found stealing OpenClaw secrets for first time
 - Source: BleepingComputer
@@ -59,17 +75,11 @@ ShinyHunters, a well-known data extortion group, claims to have stolen more than
 
 Threat actors are now abusing DNS queries as part of ClickFix social engineering attacks to deliver malware, making this the first known use of DNS as a channel in these campaigns. [...]
 
-## Eurail says stolen traveler data now up for sale on dark web
+## Washington Hotel in Japan discloses ransomware infection incident
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
-
-## Man arrested for demanding reward after accidental police data leak
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
+- URL: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
 
 ## Turn 15 minutes into daily learning with this Headway deal
 - Source: BleepingComputer
@@ -161,14 +171,6 @@ A new variation of the fake recruiter campaign from North Korean threat actors i
 - Published: 2026-02-13T20:49:46Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-embraces-love-of-country-family-to-united-states-armed-forces/
 
-## Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T20:21:43Z
-- URL: https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
-
-Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]
-
 ## President Trump Delivers Biggest Regulatory Relief in History
 - Source: White House
 - Category: Legislative
@@ -259,17 +261,17 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Published: 2026-02-13T00:00:00Z
 - URL: https://ir.jackhenry.com/financials/earnings-estimates
 
+## Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
+
 ## Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-13T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
-
-## Turning IBM QRadar Alerts into Action with Criminal IP
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB

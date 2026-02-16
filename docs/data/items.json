@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-02-02T19:10:24Z",
-  "window_end": "2026-02-16T19:10:24Z",
-  "generated_at_utc": "2026-02-16T19:10:24Z",
-  "generated_at_ct": "2026-02-16T13:10:24-06:00",
+  "window_start": "2026-02-02T21:07:14Z",
+  "window_end": "2026-02-16T21:07:14Z",
+  "generated_at_utc": "2026-02-16T21:07:14Z",
+  "generated_at_ct": "2026-02-16T15:07:14-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Eurail says stolen traveler data now up for sale on dark web",
+      "published_at": "2026-02-16T19:19:09Z",
+      "url": "https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/",
+      "summary": "Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Man arrested for demanding reward after accidental police data leak",
+      "published_at": "2026-02-16T19:13:39Z",
+      "url": "https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/",
+      "summary": "Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received \"something in return.\" [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -63,17 +79,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Eurail says stolen traveler data now up for sale on dark web",
+      "title": "Washington Hotel in Japan discloses ransomware infection incident",
       "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Man arrested for demanding reward after accidental police data leak",
-      "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/",
+      "url": "https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/",
       "summary": ""
     },
     {
@@ -179,14 +187,6 @@
       "published_at": "2026-02-13T20:49:46Z",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-embraces-love-of-country-family-to-united-states-armed-forces/",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
-      "published_at": "2026-02-13T20:21:43Z",
-      "url": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
-      "summary": "Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]"
     },
     {
       "category": "Legislative",
@@ -303,17 +303,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
+      "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
       "published_at": "2026-02-13T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
+      "url": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Turning IBM QRadar Alerts into Action with Criminal IP",
+      "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
       "published_at": "2026-02-13T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/",
+      "url": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
       "summary": ""
     },
     {

@@ -64,14 +64,8 @@ Threat actors are now abusing DNS queries as part of ClickFix social engineering
 IS
 BleepingComputer
 2026-02-16T00:00:00Z
-Eurail says stolen traveler data now up for sale on dark web
-https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-16T00:00:00Z
-Man arrested for demanding reward after accidental police data leak
-https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
+Washington Hotel in Japan discloses ransomware infection incident
+https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -156,13 +150,6 @@ White House
 2026-02-13T20:49:46Z
 First Lady Melania Trump Embraces Love of Country & Family to United States Armed Forces
 https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-embraces-love-of-country-family-to-united-states-armed-forces/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-13T20:21:43Z
-Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
-https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
-Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]
 ------------------------------------------------------------
 Legislative
 White House
@@ -254,14 +241,14 @@ https://ir.jackhenry.com/financials/earnings-estimates
 IS
 BleepingComputer
 2026-02-13T00:00:00Z
-Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
-https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
+Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
+https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-13T00:00:00Z
-Turning IBM QRadar Alerts into Action with Criminal IP
-https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
+Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
+https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
 ------------------------------------------------------------
 Payments
 FRB
