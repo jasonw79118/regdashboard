@@ -88,12 +88,15 @@
       { id: "ofac",     title: "OFAC, Sanctions & AML", keys: ["OFAC"], accent: "#2563eb",
         sources: [
           ["OFAC Recent Actions", "https://ofac.treasury.gov/recent-actions"],
-          ["Treasury Newsroom", "https://home.treasury.gov/news"]
+          // ✅ align with build.py (Treasury Press Releases)
+          ["Treasury Press Releases", "https://home.treasury.gov/news/press-releases"]
         ]
       },
       { id: "irs",      title: "Taxes (IRS)", keys: ["IRS"], accent: "#16a34a",
         sources: [
           ["IRS Newsroom", "https://www.irs.gov/newsroom"],
+          // NOTE: build.py uses a month-specific URL like /news-releases-for-january-2026
+          // this link is fine as a general source reference
           ["News Releases – Current Month", "https://www.irs.gov/newsroom/news-releases-for-current-month"],
           ["IRS Newswire (RSS)", "https://www.irs.gov/downloads/rss"]
         ]
@@ -117,12 +120,13 @@
         sources: [
           ["FHLB MPF News", "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"],
           ["Fannie Mae Newsroom", "https://www.fanniemae.com/newsroom/fannie-mae-news"],
-          ["Freddie Mac Media Room", "https://www.freddiemac.com/media-room"]
+          // ✅ align with build.py (Freddie Mac via GlobeNewswire)
+          ["Freddie Mac (GlobeNewswire)", "https://www.globenewswire.com/search/organization/Freddie%20Mac"]
         ]
       },
       { id: "usda",     title: "USDA (Rural Development)", keys: ["USDA", "USDA Rural Development"], accent: "#2563eb",
         sources: [
-          ["USDA RD Bulletins", "https://www.rd.usda.gov/newsroom/news-releases"]
+          ["USDA RD News Releases", "https://www.rd.usda.gov/newsroom/news-releases"]
         ]
       },
 

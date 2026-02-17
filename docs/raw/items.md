@@ -1,7 +1,19 @@
 # RegDashboard — Export
 
-Window: `2026-02-02T23:34:44Z` → `2026-02-16T23:34:44Z` (UTC)
-Last updated: `2026-02-16T17:34:44-06:00` (CT) — `2026-02-16T23:34:44Z` (UTC)
+Window: `2026-02-03T01:32:33Z` → `2026-02-17T01:32:33Z` (UTC)
+Last updated: `2026-02-16T19:32:33-06:00` (CT) — `2026-02-17T01:32:33Z` (UTC)
+
+## President George Washington’s Birthday, 2026
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-17T01:09:15Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/president-george-washingtons-birthday-2026/
+
+## President Trump Celebrates America’s New Golden Age on Presidents’ Day
+- Source: White House
+- Category: Legislative
+- Published: 2026-02-17T00:14:26Z
+- URL: https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-americas-new-golden-era-on-presidents-day/
 
 ## Washington Hotel in Japan discloses ransomware infection incident
 - Source: BleepingComputer
@@ -282,18 +294,6 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260212a.htm
 
 Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
-
-## Joint Statement on a Framework for United States-North Macedonia Agreement on Reciprocal, Fair, and Balanced Trade
-- Source: White House
-- Category: Legislative
-- Published: 2026-02-12T19:37:57Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/joint-statement-on-a-framework-for-united-states-north-macedonia-agreement-on-reciprocal-fair-and-balanced-trade/
-
-## “Champion of Beautiful, Clean Coal”: President Trump Celebrates Industry Revival
-- Source: White House
-- Category: Legislative
-- Published: 2026-02-12T17:48:45Z
-- URL: https://www.whitehouse.gov/articles/2026/02/champion-of-beautiful-clean-coal-president-trump-celebrates-industry-revival/
 
 ## Press Release: FDIC Releases Economic Scenarios for 2026 Stress Testing
 - Source: FDIC
@@ -979,6 +979,14 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-02-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260206
 
+## Comptroller Discusses Importance of Financial Education
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
+
+Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
+
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register
 - Category: Legislative
@@ -1085,12 +1093,6 @@ Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Mult
 - Published: 2026-02-04T00:00:00Z
 - URL: https://ir.jackhenry.com/corporate-events-and-presentations
 
-## National Black History Month, 2026
-- Source: White House
-- Category: Legislative
-- Published: 2026-02-03T19:56:11Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
-
 ## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
 - Source: Visa
 - Category: Payment Card Networks
@@ -1098,31 +1100,3 @@ Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Mult
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
 
 By connecting Visa Direct’s card network to UnionPay International’s (UPI) MoneyExpress platform, Visa Direct will unlock real‑time 1 cross‑border money movement in one of the world’s largest remittance corridors SAN FRANCISCO &amp; DOHA, Qatar --(BUSINESS WIRE)--Feb.
-
-## Issuance of Venezuela-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-03T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260203
-
-## Treasury, IRS issue proposed regulations on the clean fuel production credit under the One, Big, Beautiful Bill
-- Source: IRS
-- Category: IRS
-- Published: 2026-02-03T00:00:00Z
-- URL: https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-clean-fuel-production-credit-under-the-one-big-beautiful-bill
-
-IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations for domestic producers of clean transportation fuel to determine their eligibility for and calculate the clean fuel production credit under the One, Big, Beautiful Bill.
-
-## Create an IRS Individual Online Account today for security and convenience
-- Source: IRS
-- Category: IRS
-- Published: 2026-02-03T00:00:00Z
-- URL: https://www.irs.gov/newsroom/create-an-irs-individual-online-account-today-for-security-and-convenience
-
-IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS Individual Online Account to access their tax account information securely online and to help protect against identity theft and fraud.
-
-## January Deep Freeze Impacts Small Business Foot Traffic, New Fiserv Data Shows
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-02-03T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/january-deep-freeze-impacts-small-business-foot-traffic-new

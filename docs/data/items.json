@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-02-02T23:34:44Z",
-  "window_end": "2026-02-16T23:34:44Z",
-  "generated_at_utc": "2026-02-16T23:34:44Z",
-  "generated_at_ct": "2026-02-16T17:34:44-06:00",
+  "window_start": "2026-02-03T01:32:33Z",
+  "window_end": "2026-02-17T01:32:33Z",
+  "generated_at_utc": "2026-02-17T01:32:33Z",
+  "generated_at_ct": "2026-02-16T19:32:33-06:00",
   "items": [
+    {
+      "category": "Legislative",
+      "source": "White House",
+      "title": "President George Washington’s Birthday, 2026",
+      "published_at": "2026-02-17T01:09:15Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/president-george-washingtons-birthday-2026/",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "White House",
+      "title": "President Trump Celebrates America’s New Golden Age on Presidents’ Day",
+      "published_at": "2026-02-17T00:14:26Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-americas-new-golden-era-on-presidents-day/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -323,22 +339,6 @@
       "published_at": "2026-02-12T21:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260212a.htm",
       "summary": "Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda."
-    },
-    {
-      "category": "Legislative",
-      "source": "White House",
-      "title": "Joint Statement on a Framework for United States-North Macedonia Agreement on Reciprocal, Fair, and Balanced Trade",
-      "published_at": "2026-02-12T19:37:57Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/joint-statement-on-a-framework-for-united-states-north-macedonia-agreement-on-reciprocal-fair-and-balanced-trade/",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "White House",
-      "title": "“Champion of Beautiful, Clean Coal”: President Trump Celebrates Industry Revival",
-      "published_at": "2026-02-12T17:48:45Z",
-      "url": "https://www.whitehouse.gov/articles/2026/02/champion-of-beautiful-clean-coal-president-trump-celebrates-industry-revival/",
-      "summary": ""
     },
     {
       "category": "Banking",
@@ -1061,6 +1061,14 @@
       "summary": ""
     },
     {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "Comptroller Discusses Importance of Financial Education",
+      "published_at": "2026-02-06T00:00:00Z",
+      "url": "https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s",
+      "summary": "Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu..."
+    },
+    {
       "category": "Legislative",
       "source": "Federal Register",
       "title": "Fair Lending, Fair Housing, and Equitable Housing Finance Plans",
@@ -1173,52 +1181,12 @@
       "summary": ""
     },
     {
-      "category": "Legislative",
-      "source": "White House",
-      "title": "National Black History Month, 2026",
-      "published_at": "2026-02-03T19:56:11Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/",
-      "summary": ""
-    },
-    {
       "category": "Payment Card Networks",
       "source": "Visa",
       "title": "Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland",
       "published_at": "2026-02-03T12:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html",
       "summary": "By connecting Visa Direct’s card network to UnionPay International’s (UPI) MoneyExpress platform, Visa Direct will unlock real‑time 1 cross‑border money movement in one of the world’s largest remittance corridors SAN FRANCISCO &amp; DOHA, Qatar --(BUSINESS WIRE)--Feb."
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related General License",
-      "published_at": "2026-02-03T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260203",
-      "summary": ""
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "Treasury, IRS issue proposed regulations on the clean fuel production credit under the One, Big, Beautiful Bill",
-      "published_at": "2026-02-03T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-clean-fuel-production-credit-under-the-one-big-beautiful-bill",
-      "summary": "IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations for domestic producers of clean transportation fuel to determine their eligibility for and calculate the clean fuel production credit under the One, Big, Beautiful Bill."
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "Create an IRS Individual Online Account today for security and convenience",
-      "published_at": "2026-02-03T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/create-an-irs-individual-online-account-today-for-security-and-convenience",
-      "summary": "IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS Individual Online Account to access their tax account information securely online and to help protect against identity theft and fraud."
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Fiserv",
-      "title": "January Deep Freeze Impacts Small Business Foot Traffic, New Fiserv Data Shows",
-      "published_at": "2026-02-03T00:00:00Z",
-      "url": "https://investors.fiserv.com/news-releases/news-release-details/january-deep-freeze-impacts-small-business-foot-traffic-new",
-      "summary": ""
     }
   ]
 }
