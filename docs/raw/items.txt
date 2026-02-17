@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-02-17T10:02:21Z
+Ireland now also investigating X over Grok-made sexual images
+https://www.bleepingcomputer.com/news/security/ireland-now-also-investigating-x-over-grok-made-sexual-images/
+Ireland's Data Protection Commission (DPC), the country's data protection authority, has opened a formal investigation into X over the use of the platform's Grok artificial intelligence tool to generate non-consensual sexual images of real people, including children. [...]
+------------------------------------------------------------
 Legislative
 White House
 2026-02-17T01:09:15Z
@@ -151,13 +158,6 @@ BleepingComputer
 Pay once and get 1TB of Koofr cloud storage for life
 https://www.bleepingcomputer.com/offer/deals/pay-once-and-get-1tb-of-koofr-cloud-storage-for-life/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-13T22:35:37Z
-Fake job recruiters hide malware in developer coding challenges
-https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/
-A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks. [...]
-------------------------------------------------------------
 Legislative
 White House
 2026-02-13T20:49:46Z
@@ -254,14 +254,14 @@ https://ir.jackhenry.com/financials/earnings-estimates
 IS
 BleepingComputer
 2026-02-13T00:00:00Z
-Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
-https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
+Fake job recruiters hide malware in developer coding challenges
+https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-13T00:00:00Z
-Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
-https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
+Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
+https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
 ------------------------------------------------------------
 Payments
 FRB

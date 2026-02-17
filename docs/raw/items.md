@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-03T09:55:59Z` → `2026-02-17T09:55:59Z` (UTC)
-Last updated: `2026-02-17T03:55:59-06:00` (CT) — `2026-02-17T09:55:59Z` (UTC)
+Window: `2026-02-03T10:54:48Z` → `2026-02-17T10:54:48Z` (UTC)
+Last updated: `2026-02-17T04:54:48-06:00` (CT) — `2026-02-17T10:54:48Z` (UTC)
+
+## Ireland now also investigating X over Grok-made sexual images
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T10:02:21Z
+- URL: https://www.bleepingcomputer.com/news/security/ireland-now-also-investigating-x-over-grok-made-sexual-images/
+
+Ireland's Data Protection Commission (DPC), the country's data protection authority, has opened a formal investigation into X over the use of the platform's Grok artificial intelligence tool to generate non-consensual sexual images of real people, including children. [...]
 
 ## President George Washington’s Birthday, 2026
 - Source: White House
@@ -171,14 +179,6 @@ Threat actors are sending physical letters pretending to be from Trezor and Ledg
 - Published: 2026-02-14T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/pay-once-and-get-1tb-of-koofr-cloud-storage-for-life/
 
-## Fake job recruiters hide malware in developer coding challenges
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T22:35:37Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/
-
-A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks. [...]
-
 ## First Lady Melania Trump Embraces Love of Country & Family to United States Armed Forces
 - Source: White House
 - Category: Legislative
@@ -275,17 +275,17 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Published: 2026-02-13T00:00:00Z
 - URL: https://ir.jackhenry.com/financials/earnings-estimates
 
+## Fake job recruiters hide malware in developer coding challenges
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/
+
 ## Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-13T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
-
-## Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB
