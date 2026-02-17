@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-03T10:54:48Z` → `2026-02-17T10:54:48Z` (UTC)
-Last updated: `2026-02-17T04:54:48-06:00` (CT) — `2026-02-17T10:54:48Z` (UTC)
+Window: `2026-02-03T11:42:40Z` → `2026-02-17T11:42:40Z` (UTC)
+Last updated: `2026-02-17T05:42:40-06:00` (CT) — `2026-02-17T11:42:40Z` (UTC)
+
+## Poland arrests suspect linked to Phobos ransomware operation
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T11:31:37Z
+- URL: https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/
+
+Polish police have detained a 47-year-old man suspected of ties to the Phobos ransomware group and seized computers and mobile phones containing stolen credentials, credit card numbers, and server access data. [...]
 
 ## Ireland now also investigating X over Grok-made sexual images
 - Source: BleepingComputer
@@ -168,10 +176,8 @@ Threat intelligence observations show that a single threat actor is responsible 
 ## Snail mail letters target Trezor and Ledger users in crypto-theft attacks
 - Source: BleepingComputer
 - Category: IS
-- Published: 2026-02-14T15:15:25Z
+- Published: 2026-02-14T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/
-
-Threat actors are sending physical letters pretending to be from Trezor and Ledger, makers of cryptocurrency hardware wallets, to trick users into submitting recovery phrases in crypto theft attacks. [...]
 
 ## Pay once and get 1TB of Koofr cloud storage for life
 - Source: BleepingComputer
@@ -280,12 +286,6 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Category: IS
 - Published: 2026-02-13T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/
-
-## Claude LLM artifacts abused to push Mac infostealers in ClickFix attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB

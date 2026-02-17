@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-03T10:54:48Z",
-  "window_end": "2026-02-17T10:54:48Z",
-  "generated_at_utc": "2026-02-17T10:54:48Z",
-  "generated_at_ct": "2026-02-17T04:54:48-06:00",
+  "window_start": "2026-02-03T11:42:40Z",
+  "window_end": "2026-02-17T11:42:40Z",
+  "generated_at_utc": "2026-02-17T11:42:40Z",
+  "generated_at_ct": "2026-02-17T05:42:40-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Poland arrests suspect linked to Phobos ransomware operation",
+      "published_at": "2026-02-17T11:31:37Z",
+      "url": "https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/",
+      "summary": "Polish police have detained a 47-year-old man suspected of ties to the Phobos ransomware group and seized computers and mobile phones containing stolen credentials, credit card numbers, and server access data. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -184,9 +192,9 @@
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Snail mail letters target Trezor and Ledger users in crypto-theft attacks",
-      "published_at": "2026-02-14T15:15:25Z",
+      "published_at": "2026-02-14T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/",
-      "summary": "Threat actors are sending physical letters pretending to be from Trezor and Ledger, makers of cryptocurrency hardware wallets, to trick users into submitting recovery phrases in crypto theft attacks. [...]"
+      "summary": ""
     },
     {
       "category": "IS",
@@ -322,14 +330,6 @@
       "title": "Fake job recruiters hide malware in developer coding challenges",
       "published_at": "2026-02-13T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
-      "published_at": "2026-02-13T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
       "summary": ""
     },
     {
