@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
 Window: `2026-01-01T06:00:00Z` → `2026-02-01T05:59:59Z` (UTC)
-Last updated: `2026-02-17T09:57:55-06:00` (CT) — `2026-02-17T15:57:55Z` (UTC)
+Last updated: `2026-02-17T11:08:43-06:00` (CT) — `2026-02-17T17:08:43Z` (UTC)
 
 ## Press Release: First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois
 - Source: FDIC
@@ -490,14 +490,6 @@ IR-2026-14, Jan. 27, 2026 — The Taxpayer Advocate Service today announced the 
 - URL: https://www.cdiaonline.org/news/2026/01/26/the-unspoken-risks-of-abandoning-tri-merge/
 
 By: Dan Smith, CDIA President and CEO The Mortgage Bankers Association is at it again, calling for an end to the... The post The Unspoken Risks of Abandoning Tri-Merge appeared first on CDIA .
-
-## FIND YOUR WAY WITH CDIA’S METRO 2® FORMAT TRAINING ROADMAP
-- Source: CDIA
-- Category: CDIA
-- Published: 2026-01-26T10:00:30Z
-- URL: https://www.cdiaonline.org/events/2026/01/26/find-your-way-with-cdias-metro-2-format-training-roadmap/
-
-Not sure where to start with Metro 2® training? CDIA has you covered. We’re excited to introduce the CDIA Metro 2®... The post FIND YOUR WAY WITH CDIA’S METRO 2® FORMAT TRAINING ROADMAP appeared first on CDIA .
 
 ## IRS opens 2026 filing season
 - Source: IRS
