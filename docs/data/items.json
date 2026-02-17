@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-03T11:42:40Z",
-  "window_end": "2026-02-17T11:42:40Z",
-  "generated_at_utc": "2026-02-17T11:42:40Z",
-  "generated_at_ct": "2026-02-17T05:42:40-06:00",
+  "window_start": "2026-02-03T13:15:51Z",
+  "window_end": "2026-02-17T13:15:51Z",
+  "generated_at_utc": "2026-02-17T13:15:51Z",
+  "generated_at_ct": "2026-02-17T07:15:51-06:00",
   "items": [
     {
       "category": "IS",
@@ -34,6 +34,14 @@
       "title": "President Trump Celebrates America’s New Golden Age on Presidents’ Day",
       "published_at": "2026-02-17T00:14:26Z",
       "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-americas-new-golden-era-on-presidents-day/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "3 years of web hosting is currently just $50 in this lifetime deal",
+      "published_at": "2026-02-17T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/",
       "summary": ""
     },
     {
@@ -322,14 +330,6 @@
       "title": "Earnings Estimates",
       "published_at": "2026-02-13T00:00:00Z",
       "url": "https://ir.jackhenry.com/financials/earnings-estimates",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Fake job recruiters hide malware in developer coding challenges",
-      "published_at": "2026-02-13T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
       "summary": ""
     },
     {
@@ -1171,14 +1171,6 @@
       "published_at": "2026-02-04T00:00:00Z",
       "url": "https://ir.jackhenry.com/corporate-events-and-presentations",
       "summary": ""
-    },
-    {
-      "category": "Payment Card Networks",
-      "source": "Visa",
-      "title": "Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland",
-      "published_at": "2026-02-03T12:00:00Z",
-      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html",
-      "summary": "By connecting Visa Direct’s card network to UnionPay International’s (UPI) MoneyExpress platform, Visa Direct will unlock real‑time 1 cross‑border money movement in one of the world’s largest remittance corridors SAN FRANCISCO &amp; DOHA, Qatar --(BUSINESS WIRE)--Feb."
     }
   ]
 }

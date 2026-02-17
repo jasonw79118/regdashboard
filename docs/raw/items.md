@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-03T11:42:40Z` → `2026-02-17T11:42:40Z` (UTC)
-Last updated: `2026-02-17T05:42:40-06:00` (CT) — `2026-02-17T11:42:40Z` (UTC)
+Window: `2026-02-03T13:15:51Z` → `2026-02-17T13:15:51Z` (UTC)
+Last updated: `2026-02-17T07:15:51-06:00` (CT) — `2026-02-17T13:15:51Z` (UTC)
 
 ## Poland arrests suspect linked to Phobos ransomware operation
 - Source: BleepingComputer
@@ -30,6 +30,12 @@ Ireland's Data Protection Commission (DPC), the country's data protection author
 - Category: Legislative
 - Published: 2026-02-17T00:14:26Z
 - URL: https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-americas-new-golden-era-on-presidents-day/
+
+## 3 years of web hosting is currently just $50 in this lifetime deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
 
 ## Washington Hotel in Japan discloses ransomware infection incident
 - Source: BleepingComputer
@@ -280,12 +286,6 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - Category: Fintech Watch
 - Published: 2026-02-13T00:00:00Z
 - URL: https://ir.jackhenry.com/financials/earnings-estimates
-
-## Fake job recruiters hide malware in developer coding challenges
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB
@@ -1084,11 +1084,3 @@ Fannie Mae Expands U.S. Rental Housing Supply Through Nearly $74 Billion in Mult
 - Category: Fintech Watch
 - Published: 2026-02-04T00:00:00Z
 - URL: https://ir.jackhenry.com/corporate-events-and-presentations
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-03T12:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-By connecting Visa Direct’s card network to UnionPay International’s (UPI) MoneyExpress platform, Visa Direct will unlock real‑time 1 cross‑border money movement in one of the world’s largest remittance corridors SAN FRANCISCO &amp; DOHA, Qatar --(BUSINESS WIRE)--Feb.

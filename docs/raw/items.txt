@@ -26,6 +26,12 @@ https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-americas-
 ------------------------------------------------------------
 IS
 BleepingComputer
+2026-02-17T00:00:00Z
+3 years of web hosting is currently just $50 in this lifetime deal
+https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-16T21:10:38Z
 Washington Hotel in Japan discloses ransomware infection incident
 https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
@@ -256,12 +262,6 @@ Jack Henry
 2026-02-13T00:00:00Z
 Earnings Estimates
 https://ir.jackhenry.com/financials/earnings-estimates
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-13T00:00:00Z
-Fake job recruiters hide malware in developer coding challenges
-https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/
 ------------------------------------------------------------
 Payments
 FRB
@@ -976,11 +976,4 @@ Jack Henry
 2026-02-04T00:00:00Z
 Corporate Events & Presentations
 https://ir.jackhenry.com/corporate-events-and-presentations
-------------------------------------------------------------
-Payment Card Networks
-Visa
-2026-02-03T12:00:00Z
-Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-By connecting Visa Direct’s card network to UnionPay International’s (UPI) MoneyExpress platform, Visa Direct will unlock real‑time 1 cross‑border money movement in one of the world’s largest remittance corridors SAN FRANCISCO &amp; DOHA, Qatar --(BUSINESS WIRE)--Feb.
 ------------------------------------------------------------
