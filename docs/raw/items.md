@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-03T01:32:33Z` → `2026-02-17T01:32:33Z` (UTC)
-Last updated: `2026-02-16T19:32:33-06:00` (CT) — `2026-02-17T01:32:33Z` (UTC)
+Window: `2026-02-03T02:36:06Z` → `2026-02-17T02:36:06Z` (UTC)
+Last updated: `2026-02-16T20:36:06-06:00` (CT) — `2026-02-17T02:36:06Z` (UTC)
 
 ## President George Washington’s Birthday, 2026
 - Source: White House
@@ -978,14 +978,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: OFAC
 - Published: 2026-02-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260206
-
-## Comptroller Discusses Importance of Financial Education
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-06T00:00:00Z
-- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
-
-Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register
