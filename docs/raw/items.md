@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-03T02:36:06Z` → `2026-02-17T02:36:06Z` (UTC)
-Last updated: `2026-02-16T20:36:06-06:00` (CT) — `2026-02-17T02:36:06Z` (UTC)
+Window: `2026-02-03T04:57:23Z` → `2026-02-17T04:57:23Z` (UTC)
+Last updated: `2026-02-16T22:57:23-06:00` (CT) — `2026-02-17T04:57:23Z` (UTC)
 
 ## President George Washington’s Birthday, 2026
 - Source: White House
