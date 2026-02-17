@@ -741,23 +741,9 @@ Microsoft Edge Elevation Service exposes a privileged COM interface that inadequ
 Banking
 OCC
 2026-01-16T00:00:00Z
-Comptroller Gould Discusses Resolution Planning
-https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-4.html
-Comptroller of the Currency Jonathan V. Gould today discussed bank resolution planning in remarks prepared for delivery at the American Bar Association Banking Law Committee Meeting.
-------------------------------------------------------------
-Banking
-OCC
-2026-01-16T00:00:00Z
 Featured Publications View All Publications
 https://www.occ.gov/publications-and-resources/publications/index-publications.html
 Publications
-------------------------------------------------------------
-Banking
-OCC
-2026-01-16T00:00:00Z
-More More
-https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html
-National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities.
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -779,13 +765,6 @@ FRB
 Federal Reserve Board issues enforcement action with former employee of PrimeLending
 https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260115a.htm
 Federal Reserve Board issues enforcement action with former employee of PrimeLending
-------------------------------------------------------------
-Mortgage
-Fannie Mae
-2026-01-15T00:00:00Z
-Data and Insights
-https://www.fanniemae.com/data-and-insights
-Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 ------------------------------------------------------------
 Mortgage
 Freddie Mac

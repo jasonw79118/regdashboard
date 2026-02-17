@@ -1,8 +1,8 @@
 {
   "window_start": "2026-01-01T06:00:00Z",
   "window_end": "2026-02-01T05:59:59Z",
-  "generated_at_utc": "2026-02-17T14:52:21Z",
-  "generated_at_ct": "2026-02-17T08:52:21-06:00",
+  "generated_at_utc": "2026-02-17T15:57:55Z",
+  "generated_at_ct": "2026-02-17T09:57:55-06:00",
   "items": [
     {
       "category": "Banking",
@@ -871,26 +871,10 @@
     {
       "category": "Banking",
       "source": "OCC",
-      "title": "Comptroller Gould Discusses Resolution Planning",
-      "published_at": "2026-01-16T00:00:00Z",
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-4.html",
-      "summary": "Comptroller of the Currency Jonathan V. Gould today discussed bank resolution planning in remarks prepared for delivery at the American Bar Association Banking Law Committee Meeting."
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
       "title": "Featured Publications View All Publications",
       "published_at": "2026-01-16T00:00:00Z",
       "url": "https://www.occ.gov/publications-and-resources/publications/index-publications.html",
       "summary": "Publications"
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "More More",
-      "published_at": "2026-01-16T00:00:00Z",
-      "url": "https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html",
-      "summary": "National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities."
     },
     {
       "category": "Federal Register",
@@ -915,14 +899,6 @@
       "published_at": "2026-01-15T16:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260115a.htm",
       "summary": "Federal Reserve Board issues enforcement action with former employee of PrimeLending"
-    },
-    {
-      "category": "Mortgage",
-      "source": "Fannie Mae",
-      "title": "Data and Insights",
-      "published_at": "2026-01-15T00:00:00Z",
-      "url": "https://www.fanniemae.com/data-and-insights",
-      "summary": "Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow."
     },
     {
       "category": "Mortgage",

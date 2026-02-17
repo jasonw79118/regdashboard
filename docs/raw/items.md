@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
 Window: `2026-01-01T06:00:00Z` → `2026-02-01T05:59:59Z` (UTC)
-Last updated: `2026-02-17T08:52:21-06:00` (CT) — `2026-02-17T14:52:21Z` (UTC)
+Last updated: `2026-02-17T09:57:55-06:00` (CT) — `2026-02-17T15:57:55Z` (UTC)
 
 ## Press Release: First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois
 - Source: FDIC
@@ -835,14 +835,6 @@ Federal Reserve Board announces approval of application by Banco Inter, S.A.
 
 Microsoft Edge Elevation Service exposes a privileged COM interface that inadequately validates the privileges of the calling process. A standard (non‑administrator) local user can invoke the IElevatorEdge interface method LaunchUpdateCmdElevatedAndWait, causing the service to execute privileged update commands as LocalSystem. This allows a non‑administrator to enable or disab…
 
-## Comptroller Gould Discusses Resolution Planning
-- Source: OCC
-- Category: Banking
-- Published: 2026-01-16T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-4.html
-
-Comptroller of the Currency Jonathan V. Gould today discussed bank resolution planning in remarks prepared for delivery at the American Bar Association Banking Law Committee Meeting.
-
 ## Featured Publications View All Publications
 - Source: OCC
 - Category: Banking
@@ -850,14 +842,6 @@ Comptroller of the Currency Jonathan V. Gould today discussed bank resolution pl
 - URL: https://www.occ.gov/publications-and-resources/publications/index-publications.html
 
 Publications
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-01-16T00:00:00Z
-- URL: https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html
-
-National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities.
 
 ## Improving Continuity for Religious Organizations and Their Employees
 - Source: Federal Register
@@ -882,14 +866,6 @@ SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open ses
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260115a.htm
 
 Federal Reserve Board issues enforcement action with former employee of PrimeLending
-
-## Data and Insights
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-01-15T00:00:00Z
-- URL: https://www.fanniemae.com/data-and-insights
-
-Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 
 ## The Average 30-Year Fixed-Rate Mortgage Hits Lowest Level in Over Three Years
 - Source: Freddie Mac
