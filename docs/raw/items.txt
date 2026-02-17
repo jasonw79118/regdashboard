@@ -1,3 +1,9 @@
+Legislative
+White House
+2026-02-17T00:14:26Z
+President Trump Celebrates America’s New Golden Age on Presidents’ Day
+https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-americas-new-golden-era-on-presidents-day/
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-16T21:10:38Z
@@ -257,18 +263,6 @@ FRB
 Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 https://www.federalreserve.gov/newsevents/pressreleases/orders20260212a.htm
 Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
-------------------------------------------------------------
-Legislative
-White House
-2026-02-12T19:37:57Z
-Joint Statement on a Framework for United States-North Macedonia Agreement on Reciprocal, Fair, and Balanced Trade
-https://www.whitehouse.gov/briefings-statements/2026/02/joint-statement-on-a-framework-for-united-states-north-macedonia-agreement-on-reciprocal-fair-and-balanced-trade/
-------------------------------------------------------------
-Legislative
-White House
-2026-02-12T17:48:45Z
-“Champion of Beautiful, Clean Coal”: President Trump Celebrates Industry Revival
-https://www.whitehouse.gov/articles/2026/02/champion-of-beautiful-clean-coal-president-trump-celebrates-industry-revival/
 ------------------------------------------------------------
 Banking
 FDIC
@@ -882,6 +876,13 @@ OFAC
 Iran-related Designations
 https://ofac.treasury.gov/recent-actions/20260206
 ------------------------------------------------------------
+Banking
+OCC
+2026-02-06T00:00:00Z
+Comptroller Discusses Importance of Financial Education
+https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
+Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
+------------------------------------------------------------
 Legislative
 Federal Register
 2026-02-06T00:00:00Z
@@ -977,42 +978,10 @@ Jack Henry
 Corporate Events & Presentations
 https://ir.jackhenry.com/corporate-events-and-presentations
 ------------------------------------------------------------
-Legislative
-White House
-2026-02-03T19:56:11Z
-National Black History Month, 2026
-https://www.whitehouse.gov/presidential-actions/2026/02/national-black-history-month-2026/
-------------------------------------------------------------
 Payment Card Networks
 Visa
 2026-02-03T12:00:00Z
 Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
 https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
 By connecting Visa Direct’s card network to UnionPay International’s (UPI) MoneyExpress platform, Visa Direct will unlock real‑time 1 cross‑border money movement in one of the world’s largest remittance corridors SAN FRANCISCO &amp; DOHA, Qatar --(BUSINESS WIRE)--Feb.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-03T00:00:00Z
-Issuance of Venezuela-related General License
-https://ofac.treasury.gov/recent-actions/20260203
-------------------------------------------------------------
-IRS
-IRS
-2026-02-03T00:00:00Z
-Treasury, IRS issue proposed regulations on the clean fuel production credit under the One, Big, Beautiful Bill
-https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-clean-fuel-production-credit-under-the-one-big-beautiful-bill
-IR-2026-20, Feb. 3, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations for domestic producers of clean transportation fuel to determine their eligibility for and calculate the clean fuel production credit under the One, Big, Beautiful Bill.
-------------------------------------------------------------
-IRS
-IRS
-2026-02-03T00:00:00Z
-Create an IRS Individual Online Account today for security and convenience
-https://www.irs.gov/newsroom/create-an-irs-individual-online-account-today-for-security-and-convenience
-IR-2026-21, Feb. 3, 2026 — The IRS encourages all taxpayers to create an IRS Individual Online Account to access their tax account information securely online and to help protect against identity theft and fraud.
-------------------------------------------------------------
-Fintech Watch
-Fiserv
-2026-02-03T00:00:00Z
-January Deep Freeze Impacts Small Business Foot Traffic, New Fiserv Data Shows
-https://investors.fiserv.com/news-releases/news-release-details/january-deep-freeze-impacts-small-business-foot-traffic-new
 ------------------------------------------------------------
