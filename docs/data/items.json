@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
-  "window_start": "2026-02-04T14:51:25Z",
-  "window_end": "2026-02-18T14:51:25Z",
-  "generated_at_utc": "2026-02-18T14:51:25Z",
-  "generated_at_ct": "2026-02-18T08:51:25-06:00",
-=======
-  "window_start": "2026-02-04T15:02:12Z",
-  "window_end": "2026-02-18T15:02:12Z",
-  "generated_at_utc": "2026-02-18T15:02:12Z",
-  "generated_at_ct": "2026-02-18T09:02:12-06:00",
->>>>>>> 28afccc (fix mastercard link.)
+  "window_start": "2026-02-04T15:57:23Z",
+  "window_end": "2026-02-18T15:57:23Z",
+  "generated_at_utc": "2026-02-18T15:57:23Z",
+  "generated_at_ct": "2026-02-18T09:57:23-06:00",
   "items": [
     {
       "category": "Executive",
@@ -8654,8 +8647,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-<<<<<<< HEAD
-=======
       "title": "CVE-2025-1734 Streams HTTP wrapper does not fail for headers with invalid name and no colon",
       "published_at": "2026-02-18T09:44:20Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1734",
@@ -8672,7 +8663,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
->>>>>>> 28afccc (fix mastercard link.)
       "title": "CVE-2022-3171 Memory handling vulnerability in ProtocolBuffers Java core and lite",
       "published_at": "2026-02-18T09:44:15Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-3171",
@@ -13388,14 +13378,6 @@
       "title": "Nominations Sent to the Senate",
       "published_at": "2026-02-04T17:59:12Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Statement from Secretary of the Treasury Scott Bessent Before the United States House Financial Services Committee",
-      "published_at": "2026-02-04T15:30:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0387",
       "summary": ""
     }
   ]

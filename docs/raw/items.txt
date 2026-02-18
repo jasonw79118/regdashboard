@@ -7559,8 +7559,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-<<<<<<< HEAD
-=======
 2026-02-18T09:44:20Z
 CVE-2025-1734 Streams HTTP wrapper does not fail for headers with invalid name and no colon
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1734
@@ -7575,7 +7573,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
->>>>>>> 28afccc (fix mastercard link.)
 2026-02-18T09:44:15Z
 CVE-2022-3171 Memory handling vulnerability in ProtocolBuffers Java core and lite
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-3171
@@ -11645,10 +11642,4 @@ White House
 2026-02-04T17:59:12Z
 Nominations Sent to the Senate
 https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/
-------------------------------------------------------------
-OFAC
-Treasury
-2026-02-04T15:30:00Z
-Statement from Secretary of the Treasury Scott Bessent Before the United States House Financial Services Committee
-https://home.treasury.gov/news/press-releases/sb0387
 ------------------------------------------------------------

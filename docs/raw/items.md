@@ -1,12 +1,7 @@
 # RegDashboard — Export
 
-<<<<<<< HEAD
-Window: `2026-02-04T14:51:25Z` → `2026-02-18T14:51:25Z` (UTC)
-Last updated: `2026-02-18T08:51:25-06:00` (CT) — `2026-02-18T14:51:25Z` (UTC)
-=======
-Window: `2026-02-04T15:02:12Z` → `2026-02-18T15:02:12Z` (UTC)
-Last updated: `2026-02-18T09:02:12-06:00` (CT) — `2026-02-18T15:02:12Z` (UTC)
->>>>>>> 28afccc (fix mastercard link.)
+Window: `2026-02-04T15:57:23Z` → `2026-02-18T15:57:23Z` (UTC)
+Last updated: `2026-02-18T09:57:23-06:00` (CT) — `2026-02-18T15:57:23Z` (UTC)
 
 ## Presidential Message on Ash Wednesday
 - Source: White House
@@ -8646,8 +8641,6 @@ Information published.
 
 Information published.
 
-<<<<<<< HEAD
-=======
 ## CVE-2025-1734 Streams HTTP wrapper does not fail for headers with invalid name and no colon
 - Source: Microsoft MSRC
 - Category: IS
@@ -8664,7 +8657,6 @@ Information published.
 
 Information published.
 
->>>>>>> 28afccc (fix mastercard link.)
 ## CVE-2022-3171 Memory handling vulnerability in ProtocolBuffers Java core and lite
 - Source: Microsoft MSRC
 - Category: IS
@@ -13268,9 +13260,3 @@ Federal Reserve Board finalizes hypothetical scenarios for its annual stress tes
 - Category: Executive
 - Published: 2026-02-04T17:59:12Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/
-
-## Statement from Secretary of the Treasury Scott Bessent Before the United States House Financial Services Committee
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-04T15:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0387
