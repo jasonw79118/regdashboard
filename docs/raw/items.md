@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T15:57:23Z` → `2026-02-18T15:57:23Z` (UTC)
-Last updated: `2026-02-18T09:57:23-06:00` (CT) — `2026-02-18T15:57:23Z` (UTC)
+Window: `2026-02-04T17:13:45Z` → `2026-02-18T17:13:45Z` (UTC)
+Last updated: `2026-02-18T11:13:45-06:00` (CT) — `2026-02-18T17:13:45Z` (UTC)
+
+## Telegram channels expose rapid weaponization of SmarterMail flaws
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-18T16:27:38Z
+- URL: https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-weaponization-of-smartermail-flaws/
+
+Underground Telegram channels shared SmarterMail exploit PoCs and stolen admin credentials within days of disclosure. Flare explains how monitoring these communities reveals rapid weaponization of CVE-2026-24423 and CVE-2026-23760 tied to ransomware activity. [...]
+
+## Microsoft: Anti-phishing rules mistakenly blocked emails, Teams messages
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-18T16:26:53Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/
+
+Microsoft says an Exchange Online issue that mistakenly quarantined legitimate emails last week was triggered by faulty heuristic detection rules designed to block credential phishing campaigns. [...]
 
 ## Presidential Message on Ash Wednesday
 - Source: White House
@@ -12251,22 +12267,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 
 The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]
 
-## Eurail says stolen traveler data now up for sale on dark web
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-16T19:19:09Z
-- URL: https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
-
-Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web. [...]
-
-## Man arrested for demanding reward after accidental police data leak
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-16T19:13:39Z
-- URL: https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
-
-Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received "something in return." [...]
-
 ## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
 - Source: Visa
 - Category: Payment Card Networks
@@ -12275,17 +12275,17 @@ Dutch authorities arrested a 40-year-old man after he downloaded confidential do
 
 Northern Italy sees more than 60% increase in Visa cardholder visitors from overseas, with an increase in purchases up 80% compared to the same period in 2025 Significant increase in spending from Visa cardholders in many areas of commerce including Clothing & Accessories, Restaurants and Mobility
 
-## Infostealer malware found stealing OpenClaw secrets for first time
+## Eurail says stolen traveler data now up for sale on dark web
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/
+- URL: https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
 
-## Passwords to passkeys: Staying ISO 27001 compliant in a passwordless era
+## Man arrested for demanding reward after accidental police data leak
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/passwords-to-passkeys-staying-iso-27001-compliant-in-a-passwordless-era/
+- URL: https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
 
 ## Presidential Message on Susan B. Anthony Day
 - Source: White House

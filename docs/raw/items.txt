@@ -1,3 +1,17 @@
+IS
+BleepingComputer
+2026-02-18T16:27:38Z
+Telegram channels expose rapid weaponization of SmarterMail flaws
+https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-weaponization-of-smartermail-flaws/
+Underground Telegram channels shared SmarterMail exploit PoCs and stolen admin credentials within days of disclosure. Flare explains how monitoring these communities reveals rapid weaponization of CVE-2026-24423 and CVE-2026-23760 tied to ransomware activity. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-18T16:26:53Z
+Microsoft: Anti-phishing rules mistakenly blocked emails, Teams messages
+https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/
+Microsoft says an Exchange Online issue that mistakenly quarantined legitimate emails last week was triggered by faulty heuristic detection rules designed to block credential phishing campaigns. [...]
+------------------------------------------------------------
 Executive
 White House
 2026-02-18T14:37:50Z
@@ -10727,20 +10741,6 @@ Washington Hotel in Japan discloses ransomware infection incident
 https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
 The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-16T19:19:09Z
-Eurail says stolen traveler data now up for sale on dark web
-https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
-Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-16T19:13:39Z
-Man arrested for demanding reward after accidental police data leak
-https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
-Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received "something in return." [...]
-------------------------------------------------------------
 Payment Card Networks
 Visa
 2026-02-16T08:00:00Z
@@ -10751,14 +10751,14 @@ Northern Italy sees more than 60% increase in Visa cardholder visitors from over
 IS
 BleepingComputer
 2026-02-16T00:00:00Z
-Infostealer malware found stealing OpenClaw secrets for first time
-https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/
+Eurail says stolen traveler data now up for sale on dark web
+https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-16T00:00:00Z
-Passwords to passkeys: Staying ISO 27001 compliant in a passwordless era
-https://www.bleepingcomputer.com/news/security/passwords-to-passkeys-staying-iso-27001-compliant-in-a-passwordless-era/
+Man arrested for demanding reward after accidental police data leak
+https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
 ------------------------------------------------------------
 Executive
 White House

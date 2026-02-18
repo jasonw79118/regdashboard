@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-02-04T15:57:23Z",
-  "window_end": "2026-02-18T15:57:23Z",
-  "generated_at_utc": "2026-02-18T15:57:23Z",
-  "generated_at_ct": "2026-02-18T09:57:23-06:00",
+  "window_start": "2026-02-04T17:13:45Z",
+  "window_end": "2026-02-18T17:13:45Z",
+  "generated_at_utc": "2026-02-18T17:13:45Z",
+  "generated_at_ct": "2026-02-18T11:13:45-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Telegram channels expose rapid weaponization of SmarterMail flaws",
+      "published_at": "2026-02-18T16:27:38Z",
+      "url": "https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-weaponization-of-smartermail-flaws/",
+      "summary": "Underground Telegram channels shared SmarterMail exploit PoCs and stolen admin credentials within days of disclosure. Flare explains how monitoring these communities reveals rapid weaponization of CVE-2026-24423 and CVE-2026-23760 tied to ransomware activity. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft: Anti-phishing rules mistakenly blocked emails, Teams messages",
+      "published_at": "2026-02-18T16:26:53Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/",
+      "summary": "Microsoft says an Exchange Online issue that mistakenly quarantined legitimate emails last week was triggered by faulty heuristic detection rules designed to block credential phishing campaigns. [...]"
+    },
     {
       "category": "Executive",
       "source": "White House",
@@ -12285,22 +12301,6 @@
       "summary": "The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Eurail says stolen traveler data now up for sale on dark web",
-      "published_at": "2026-02-16T19:19:09Z",
-      "url": "https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/",
-      "summary": "Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Man arrested for demanding reward after accidental police data leak",
-      "published_at": "2026-02-16T19:13:39Z",
-      "url": "https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/",
-      "summary": "Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received \"something in return.\" [...]"
-    },
-    {
       "category": "Payment Card Networks",
       "source": "Visa",
       "title": "Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026",
@@ -12311,17 +12311,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Infostealer malware found stealing OpenClaw secrets for first time",
+      "title": "Eurail says stolen traveler data now up for sale on dark web",
       "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/",
+      "url": "https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Passwords to passkeys: Staying ISO 27001 compliant in a passwordless era",
+      "title": "Man arrested for demanding reward after accidental police data leak",
       "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/passwords-to-passkeys-staying-iso-27001-compliant-in-a-passwordless-era/",
+      "url": "https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/",
       "summary": ""
     },
     {
