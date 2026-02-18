@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-02-18T20:18:24Z
+AI platforms can be abused for stealthy malware communication
+https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
+AI assistants like Grok and Microsoft Copilot with web browsing and URL-fetching capabilities can be abused to intermediate command-and-control (C2) activity. [...]
+------------------------------------------------------------
 Payments
 FRB
 2026-02-18T19:00:00Z
@@ -10564,6 +10571,24 @@ News & Events
 https://www.federalreserve.gov/newsevents.htm
 The Federal Reserve Board of Governors in Washington DC.
 ------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-18T00:00:00Z
+Warren Calls Jamie Dimon's Bluff on Credit Card Affordability, Asks Him to Publicly Support Bill Allowing States to Impose Interest Rate Caps
+https://www.banking.senate.gov/newsroom/minority/warren-calls-jamie-dimons-bluff-on-credit-card-affordability-asks-him-to-publicly-support-bill-allowing-states-to-impose-interest-rate-caps
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-18T00:00:00Z
+Warren Raises Concerns With Neptune's Private Flood Insurance Business Model as Insurance Costs Soar for Americans
+https://www.banking.senate.gov/newsroom/minority/warren-raises-concerns-with-neptunes-private-flood-insurance-business-model-as-insurance-costs-soar-for-americans
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-18T00:00:00Z
+Warren Joins Cotton on Bill to Prevent Diversion of Advanced AI Chips to China
+https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china
+------------------------------------------------------------
 Fintech Watch
 Jack Henry
 2026-02-18T00:00:00Z
@@ -10730,24 +10755,6 @@ Data and Insights
 https://www.fanniemae.com/data-and-insights
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 ------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-17T00:00:00Z
-Warren Joins Cotton on Bill to Prevent Diversion of Advanced AI Chips to China
-https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-17T00:00:00Z
-Senator Warren Statement on January 2026 CPI
-https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-cpi
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-17T00:00:00Z
-At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks
-https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks
-------------------------------------------------------------
 Fintech Watch
 Jack Henry
 2026-02-17T00:00:00Z
@@ -10772,13 +10779,6 @@ BleepingComputer
 3 years of web hosting is currently just $50 in this lifetime deal
 https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-16T21:10:38Z
-Washington Hotel in Japan discloses ransomware infection incident
-https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
-The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]
-------------------------------------------------------------
 Payment Card Networks
 Visa
 2026-02-16T08:00:00Z
@@ -10789,8 +10789,8 @@ Northern Italy sees more than 60% increase in Visa cardholder visitors from over
 IS
 BleepingComputer
 2026-02-16T00:00:00Z
-Eurail says stolen traveler data now up for sale on dark web
-https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
+Washington Hotel in Japan discloses ransomware infection incident
+https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
 ------------------------------------------------------------
 Executive
 White House
@@ -11655,6 +11655,18 @@ NACHA
 2026-02-05T00:00:00Z
 Phixius by Nacha and Kinexys by J.P. Morgan Integration Goes Live, Expanding Multi-Responder Account Validation Network
 https://www.nacha.org/news/phixius-nacha-and-kinexys-jp-morgan-integration-goes-live-expanding-multi-responder-account
+------------------------------------------------------------
+Payments
+NACHA
+2026-02-05T00:00:00Z
+Feb. 5, 2026 Recording
+https://register.gotowebinar.com/recording/8907755478278927106
+------------------------------------------------------------
+Payments
+NACHA
+2026-02-05T00:00:00Z
+April 19, 2024 Recording
+https://attendee.gotowebinar.com/recording/2886098614812357380
 ------------------------------------------------------------
 Payments
 FRB

@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T19:03:04Z` → `2026-02-18T19:03:04Z` (UTC)
-Last updated: `2026-02-18T13:03:04-06:00` (CT) — `2026-02-18T19:03:04Z` (UTC)
+Window: `2026-02-04T20:47:47Z` → `2026-02-18T20:47:47Z` (UTC)
+Last updated: `2026-02-18T14:47:47-06:00` (CT) — `2026-02-18T20:47:47Z` (UTC)
+
+## AI platforms can be abused for stealthy malware communication
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-18T20:18:24Z
+- URL: https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
+
+AI assistants like Grok and Microsoft Copilot with web browsing and URL-fetching capabilities can be abused to intermediate command-and-control (C2) activity. [...]
 
 ## Minutes of the Federal Open Market Committee, January 27–28, 2026
 - Source: FRB
@@ -12075,6 +12083,24 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 The Federal Reserve Board of Governors in Washington DC.
 
+## Warren Calls Jamie Dimon's Bluff on Credit Card Affordability, Asks Him to Publicly Support Bill Allowing States to Impose Interest Rate Caps
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-jamie-dimons-bluff-on-credit-card-affordability-asks-him-to-publicly-support-bill-allowing-states-to-impose-interest-rate-caps
+
+## Warren Raises Concerns With Neptune's Private Flood Insurance Business Model as Insurance Costs Soar for Americans
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-raises-concerns-with-neptunes-private-flood-insurance-business-model-as-insurance-costs-soar-for-americans
+
+## Warren Joins Cotton on Bill to Prevent Diversion of Advanced AI Chips to China
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china
+
 ## Earnings Estimates
 - Source: Jack Henry
 - Category: Fintech Watch
@@ -12257,24 +12283,6 @@ National banks are among the most highly regulated institutions in the country, 
 
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 
-## Warren Joins Cotton on Bill to Prevent Diversion of Advanced AI Chips to China
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china
-
-## Senator Warren Statement on January 2026 CPI
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-cpi
-
-## At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks
-
 ## Key Ratios
 - Source: Jack Henry
 - Category: Fintech Watch
@@ -12299,14 +12307,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
 
-## Washington Hotel in Japan discloses ransomware infection incident
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-16T21:10:38Z
-- URL: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
-
-The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]
-
 ## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
 - Source: Visa
 - Category: Payment Card Networks
@@ -12315,11 +12315,11 @@ The Washington Hotel brand in Japan has announced that that its servers were com
 
 Northern Italy sees more than 60% increase in Visa cardholder visitors from overseas, with an increase in purchases up 80% compared to the same period in 2025 Significant increase in spending from Visa cardholders in many areas of commerce including Clothing & Accessories, Restaurants and Mobility
 
-## Eurail says stolen traveler data now up for sale on dark web
+## Washington Hotel in Japan discloses ransomware infection incident
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
+- URL: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
 
 ## Presidential Message on Susan B. Anthony Day
 - Source: White House
@@ -13274,6 +13274,18 @@ User interface (ui) misrepresentation of critical information in Microsoft Edge 
 - Category: Payments
 - Published: 2026-02-05T00:00:00Z
 - URL: https://www.nacha.org/news/phixius-nacha-and-kinexys-jp-morgan-integration-goes-live-expanding-multi-responder-account
+
+## Feb. 5, 2026 Recording
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-05T00:00:00Z
+- URL: https://register.gotowebinar.com/recording/8907755478278927106
+
+## April 19, 2024 Recording
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-05T00:00:00Z
+- URL: https://attendee.gotowebinar.com/recording/2886098614812357380
 
 ## Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
 - Source: FRB

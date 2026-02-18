@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-04T19:03:04Z",
-  "window_end": "2026-02-18T19:03:04Z",
-  "generated_at_utc": "2026-02-18T19:03:04Z",
-  "generated_at_ct": "2026-02-18T13:03:04-06:00",
+  "window_start": "2026-02-04T20:47:47Z",
+  "window_end": "2026-02-18T20:47:47Z",
+  "generated_at_utc": "2026-02-18T20:47:47Z",
+  "generated_at_ct": "2026-02-18T14:47:47-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "AI platforms can be abused for stealthy malware communication",
+      "published_at": "2026-02-18T20:18:24Z",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/",
+      "summary": "AI assistants like Grok and Microsoft Copilot with web browsing and URL-fetching capabilities can be abused to intermediate command-and-control (C2) activity. [...]"
+    },
     {
       "category": "Payments",
       "source": "FRB",
@@ -12085,6 +12093,30 @@
       "summary": "The Federal Reserve Board of Governors in Washington DC."
     },
     {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Calls Jamie Dimon's Bluff on Credit Card Affordability, Asks Him to Publicly Support Bill Allowing States to Impose Interest Rate Caps",
+      "published_at": "2026-02-18T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-calls-jamie-dimons-bluff-on-credit-card-affordability-asks-him-to-publicly-support-bill-allowing-states-to-impose-interest-rate-caps",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Raises Concerns With Neptune's Private Flood Insurance Business Model as Insurance Costs Soar for Americans",
+      "published_at": "2026-02-18T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-raises-concerns-with-neptunes-private-flood-insurance-business-model-as-insurance-costs-soar-for-americans",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Joins Cotton on Bill to Prevent Diversion of Advanced AI Chips to China",
+      "published_at": "2026-02-18T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china",
+      "summary": ""
+    },
+    {
       "category": "Fintech Watch",
       "source": "Jack Henry",
       "title": "Earnings Estimates",
@@ -12285,30 +12317,6 @@
       "summary": "Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow."
     },
     {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Joins Cotton on Bill to Prevent Diversion of Advanced AI Chips to China",
-      "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Senator Warren Statement on January 2026 CPI",
-      "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-cpi",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks",
-      "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks",
-      "summary": ""
-    },
-    {
       "category": "Fintech Watch",
       "source": "Jack Henry",
       "title": "Key Ratios",
@@ -12341,14 +12349,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Washington Hotel in Japan discloses ransomware infection incident",
-      "published_at": "2026-02-16T21:10:38Z",
-      "url": "https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/",
-      "summary": "The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]"
-    },
-    {
       "category": "Payment Card Networks",
       "source": "Visa",
       "title": "Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026",
@@ -12359,9 +12359,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Eurail says stolen traveler data now up for sale on dark web",
+      "title": "Washington Hotel in Japan discloses ransomware infection incident",
       "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/",
+      "url": "https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/",
       "summary": ""
     },
     {
@@ -13394,6 +13394,22 @@
       "title": "Phixius by Nacha and Kinexys by J.P. Morgan Integration Goes Live, Expanding Multi-Responder Account Validation Network",
       "published_at": "2026-02-05T00:00:00Z",
       "url": "https://www.nacha.org/news/phixius-nacha-and-kinexys-jp-morgan-integration-goes-live-expanding-multi-responder-account",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Feb. 5, 2026 Recording",
+      "published_at": "2026-02-05T00:00:00Z",
+      "url": "https://register.gotowebinar.com/recording/8907755478278927106",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "April 19, 2024 Recording",
+      "published_at": "2026-02-05T00:00:00Z",
+      "url": "https://attendee.gotowebinar.com/recording/2886098614812357380",
       "summary": ""
     },
     {
