@@ -1,7 +1,631 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T22:10:07Z` → `2026-02-18T22:10:07Z` (UTC)
-Last updated: `2026-02-18T16:10:07-06:00` (CT) — `2026-02-18T22:10:07Z` (UTC)
+Window: `2026-02-04T22:42:37Z` → `2026-02-18T22:42:37Z` (UTC)
+Last updated: `2026-02-18T16:42:37-06:00` (CT) — `2026-02-18T22:42:37Z` (UTC)
+
+## CVE-2025-71119 powerpc/kexec: Enable SMT before waking offline CPUs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:40:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71119
+
+Information published.
+
+## CVE-2025-71118 ACPICA: Avoid walking the Namespace if start_node is NULL
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:39:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71118
+
+Information published.
+
+## CVE-2025-71111 hwmon: (w83791d) Convert macros to functions to avoid TOCTOU
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:39:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71111
+
+Information published.
+
+## CVE-2025-71136 media: adv7842: Avoid possible out-of-bounds array accesses in adv7842_cp_log_status()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:38:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71136
+
+Information published.
+
+## CVE-2025-71116 libceph: make decode_pool() more resilient against corrupted osdmaps
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:38:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71116
+
+Information published.
+
+## CVE-2026-0861 Integer overflow in memalign leads to heap corruption
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:37:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0861
+
+Information published.
+
+## CVE-2017-1000097 On Darwin, user's trust preferences for root certificates were not honored. If the user had a root certificate loaded in their Keychain that was explicitly not trusted, a Go program would still verify a…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:37:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-1000097
+
+Information published.
+
+## CVE-2025-68780 sched/deadline: only set free_cpus for online runqueues
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:37:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68780
+
+Information published.
+
+## CVE-2025-71069 f2fs: invalidate dentry cache on failed whiteout creation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:37:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71069
+
+Information published.
+
+## CVE-2025-68794 iomap: adjust read range correctly for non-block-aligned positions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:36:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68794
+
+Information published.
+
+## CVE-2025-71094 net: usb: asix: validate PHY address before use
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:36:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71094
+
+Information published.
+
+## CVE-2025-71091 team: fix check for port enabled in team_queue_override_port_prio_changed()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:35:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71091
+
+Information published.
+
+## CVE-2025-68776 net/hsr: fix NULL pointer dereference in prp_get_untagged_frame()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:35:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68776
+
+Information published.
+
+## CVE-2025-71098 ip6_gre: make ip6gre_header() robust
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:35:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71098
+
+Information published.
+
+## CVE-2025-68797 char: applicom: fix NULL pointer dereference in ac_ioctl
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:34:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68797
+
+Information published.
+
+## CVE-2025-68775 net/handshake: duplicate handshake cancellations leak socket
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:34:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68775
+
+Information published.
+
+## CVE-2025-71088 mptcp: fallback earlier on simult connection
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:33:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71088
+
+Information published.
+
+## CVE-2025-68777 Input: ti_am335x_tsc - fix off-by-one error in wire_order validation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:33:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68777
+
+Information published.
+
+## CVE-2025-68788 fsnotify: do not generate ACCESS/MODIFY events on child for special files
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:32:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68788
+
+Information published.
+
+## CVE-2025-68774 hfsplus: fix missing hfs_bnode_get() in __hfs_bnode_create
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:32:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68774
+
+Information published.
+
+## CVE-2025-71077 tpm: Cap the number of PCR banks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:32:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71077
+
+Information published.
+
+## CVE-2025-68816 net/mlx5: fw_tracer, Validate format string parameters
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:31:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68816
+
+Information published.
+
+## CVE-2025-68815 net/sched: ets: Remove drr class from the active list if it changes to strict
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:31:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68815
+
+Information published.
+
+## CVE-2025-68809 ksmbd: vfs: fix race on m_flags in vfs_cache
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:30:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68809
+
+Information published.
+
+## CVE-2025-71072 shmem: fix recovery on rename failures
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:30:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71072
+
+Information published.
+
+## CVE-2025-71084 RDMA/cm: Fix leaking the multicast GID table reference
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:30:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71084
+
+Information published.
+
+## CVE-2025-68773 spi: fsl-cpm: Check length parity before switching to 16 bit mode
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:29:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68773
+
+Information published.
+
+## CVE-2025-68795 ethtool: Avoid overflowing userspace buffer on stats query
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:29:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68795
+
+Information published.
+
+## CVE-2025-68818 scsi: Revert "scsi: qla2xxx: Perform lockless command completion in abort path"
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:28:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68818
+
+Information published.
+
+## CVE-2025-71097 ipv4: Fix reference count leak when using error routes with nexthop objects
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:28:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71097
+
+Information published.
+
+## CVE-2025-71075 scsi: aic94xx: fix use-after-free in device removal path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:27:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71075
+
+Information published.
+
+## CVE-2025-68769 f2fs: fix return value of f2fs_recover_fsync_data()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:27:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68769
+
+Information published.
+
+## Type Confusion in V8 in Google Chrome prior to 142.0.7444.59 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:27:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-13227
+
+Information published.
+
+## CVE-2025-68787 netrom: Fix memory leak in nr_sendmsg()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:26:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68787
+
+Information published.
+
+## Type Confusion in V8 in Google Chrome prior to 142.0.7444.59 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:26:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-13226
+
+Information published.
+
+## CVE-2025-68772 f2fs: fix to avoid updating compression context during writeback
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:26:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68772
+
+Information published.
+
+## Type Confusion in V8 in Google Chrome prior to 142.0.7444.59 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:26:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-13230
+
+Information published.
+
+## CVE-2025-71065 f2fs: fix to avoid potential deadlock
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:25:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71065
+
+Information published.
+
+## CVE-2025-68814 io_uring: fix filename leak in __io_openat_prep()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:25:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68814
+
+Information published.
+
+## CVE-2025-68800 mlxsw: spectrum_mr: Fix use-after-free when updating multicast route stats
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:24:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68800
+
+Information published.
+
+## CVE-2020-0569 Out of bounds write in Intel(R) PROSet/Wireless WiFi products on Windows 10 may allow an authenticated user to potentially enable denial of service via local access.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:24:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-0569
+
+Information published.
+
+## CVE-2025-71068 svcrdma: bound check rq_pages index in inline path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:24:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71068
+
+Information published.
+
+## CVE-2025-68783 ALSA: usb-mixer: us16x08: validate meter packet indices
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:23:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68783
+
+Information published.
+
+## CVE-2025-71083 drm/ttm: Avoid NULL pointer deref for evicted BOs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:23:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71083
+
+Information published.
+
+## CVE-2025-68801 mlxsw: spectrum_router: Fix neighbour use-after-free
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:22:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68801
+
+Information published.
+
+## CVE-2025-68782 scsi: target: Reset t_task_cdb pointer in error case
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:22:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68782
+
+Information published.
+
+## CVE-2025-12748 Libvirt: denial of service in xml parsing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:22:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12748
+
+Information published.
+
+## CVE-2025-68768 inet: frags: flush pending skbs in fqdir_pre_exit()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:21:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68768
+
+Information published.
+
+## CVE-2020-14378 An integer underflow in dpdk versions before 18.11.10 and before 19.11.5 in the `move_desc` function can lead to large amounts of CPU cycles being eaten up in a long running loop. An attacker could cause…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:21:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-14378
+
+Information published.
+
+## CVE-2025-68798 perf/x86/amd: Check event before enable to avoid GPF
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:21:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68798
+
+Information published.
+
+## CVE-2025-12818 PostgreSQL libpq undersizes allocations, via integer wraparound
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:20:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12818
+
+Information published.
+
+## CVE-2025-71073 Input: lkkbd - disable pending work before freeing device
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:20:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71073
+
+Information published.
+
+## CVE-2025-71096 RDMA/core: Check for the presence of LS_NLA_TYPE_DGID correctly
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:20:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71096
+
+Information published.
+
+## CVE-2025-68778 btrfs: don't log conflicting inode if it's a dir moved in the current transaction
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:19:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68778
+
+Information published.
+
+## CVE-2025-71082 Bluetooth: btusb: revert use of devm_kzalloc in btusb
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:19:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71082
+
+Information published.
+
+## CVE-2025-71079 net: nfc: fix deadlock between nfc_unregister_device and rfkill_fop_write
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:18:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71079
+
+Information published.
+
+## CVE-2025-68785 net: openvswitch: fix middle attribute validation in push_nsh() action
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:18:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68785
+
+Information published.
+
+## CVE-2025-71093 e1000: fix OOB in e1000_tbi_should_accept()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:17:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71093
+
+Information published.
+
+## CVE-2025-71089 iommu: disable SVA when CONFIG_X86 is set
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:17:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71089
+
+Information published.
+
+## CVE-2025-71087 iavf: fix off-by-one issues in iavf_config_rss_reg()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:16:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71087
+
+Information published.
+
+## CVE-2025-68789 hwmon: (ibmpex) fix use-after-free in high/low store
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:16:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68789
+
+Information published.
+
+## CVE-2025-68767 hfsplus: Verify inode mode when loading from disk
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:15:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68767
+
+Information published.
+
+## CVE-2025-68806 ksmbd: fix buffer validation by including null terminator size in EA length
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:15:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68806
+
+Information published.
+
+## CVE-2025-68796 f2fs: fix to avoid updating zero-sized extent in extent cache
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:14:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68796
+
+Information published.
+
+## CVE-2025-71095 net: stmmac: fix the crash issue for zero copy XDP_TX action
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:14:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71095
+
+Information published.
+
+## CVE-2025-40180 mailbox: zynqmp-ipi: Fix out-of-bounds access in mailbox cleanup loop
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:14:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40180
+
+Information published.
+
+## CVE-2025-68822 Input: alps - fix use-after-free bugs caused by dev3_register_work
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:13:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68822
+
+Information published.
+
+## CVE-2025-68803 NFSD: NFSv4 file creation neglects setting ACL
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:13:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68803
+
+Information published.
+
+## CVE-2021-33503 An issue was discovered in urllib3 before 1.26.5. When provided with a URL containing many @ characters in the authority component the authority regular expression exhibits catastrophic backtracking causi…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:13:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-33503
+
+Information published.
+
+## CVE-2025-68471 Avahi has a reachable assertion in lookup_start
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:12:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68471
+
+Information published.
+
+## CVE-2025-68468 Avahi has a reachable assertion in lookup_multicast_callback
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:12:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68468
+
+Information published.
+
+## CVE-2025-40158 ipv6: use RCU in ip6_output()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:12:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40158
+
+Information published.
+
+## CVE-2025-40170 net: use dst_dev_rcu() in sk_setup_caps()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:11:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40170
+
+Information published.
+
+## CVE-2025-68276 Avahi has a reachable assertion in avahi_wide_area_scan_cache
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:11:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68276
+
+Information published.
+
+## CVE-2022-42916 In curl before 7.86.0 the HSTS check could be bypassed to trick it into staying with HTTP. Using its HSTS support curl can be instructed to use HTTPS directly (instead of using an insecure cleartext HTTP…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:10:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-42916
+
+Information published.
+
+## CVE-2025-40168 smc: Use __sk_dst_get() and dst_dev_rcu() in smc_clc_prfx_match().
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:10:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40168
+
+Information published.
+
+## CVE-2025-40164 usbnet: Fix using smp_processor_id() in preemptible code warnings
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:10:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40164
+
+Information published.
+
+## CVE-2026-22801 LIBPNG has an integer truncation causing heap buffer over-read in png_image_write_*
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:10:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22801
+
+Information published.
 
 ## CVE-2025-40146 blk-mq: fix potential deadlock while nr_requests grown
 - Source: Microsoft MSRC

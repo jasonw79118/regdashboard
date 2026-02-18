@@ -298,17 +298,16 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/about-visa/newsroom/press-releases"},
     },
 
-    # ✅ Mastercard fixes:
-    #  - allow multiple regional press-release paths (US blocks requests sometimes)
-    #  - allow /news/press/ style pages too
+    # ✅ broaden prefixes (Mastercard changes paths often)
     "Mastercard": {
         "allow_domains": {"www.mastercard.com"},
         "allow_path_prefixes": {
             "/us/en/news-and-trends/press/",
             "/global/en/news-and-trends/press/",
+            "/news-and-trends/press/",
+            "/en/news-and-trends/press/",
             "/gb/en/news-and-trends/press/",
             "/mea/en/news-and-trends/press/",
-            "/news/press/",
         },
     },
 
@@ -527,6 +526,22 @@ def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
     return start <= dt <= end
 
 
+# ============================
+# ✅ NEW: Mastercard 403 fallback via r.jina.ai proxy
+# ============================
+def _jina_proxy_url(url: str) -> str:
+    """
+    Build a r.jina.ai proxy URL that often bypasses 403 bot walls.
+    We try both http:// and https:// forms.
+    """
+    u = url.strip()
+    if u.startswith("https://"):
+        return "https://r.jina.ai/https://" + u[len("https://") :]
+    if u.startswith("http://"):
+        return "https://r.jina.ai/http://" + u[len("http://") :]
+    return "https://r.jina.ai/http://" + u
+
+
 def polite_get(url: str, timeout: int = 25) -> Optional[str]:
     if not is_http_url(url):
         return None
@@ -609,29 +624,29 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
             allow_redirects=True,
         )
 
-        # ✅ Mastercard: US press listing sometimes blocks non-browser clients (403).
-        # If the request is for the press listing, retry alternate regional listing pages.
-        if (
-            r.status_code == 403
-            and h == "www.mastercard.com"
-            and "news-and-trends/press.html" in (urlparse(r.url).path or "")
-        ):
-            for alt in [
-                "https://www.mastercard.com/gb/en/news-and-trends/press.html",
-                "https://www.mastercard.com/mea/en/news-and-trends/press.html",
-            ]:
-                try:
-                    r2 = SESSION.get(
-                        alt,
-                        headers=headers if headers else None,
-                        timeout=(10, read_timeout),
-                        allow_redirects=True,
-                    )
-                    if r2.status_code < 400 and not looks_like_error_html(r2.text or ""):
-                        r = r2
-                        break
-                except Exception:
-                    pass
+        # ✅ Mastercard often 403's bot traffic; retry via proxy fetch
+        if r.status_code == 403 and h == "www.mastercard.com":
+            print(f"[warn] GET 403: {url} (retrying via proxy)", flush=True)
+            proxy_url = _jina_proxy_url(url)
+            try:
+                time.sleep(REQUEST_DELAY_SEC)
+                pr = SESSION.get(
+                    proxy_url,
+                    headers={"User-Agent": browser_ua, "Accept": "text/plain,*/*"},
+                    timeout=(10, max(read_timeout, 40)),
+                    allow_redirects=True,
+                )
+                if pr.status_code < 400:
+                    txtp = pr.text or ""
+                    if not looks_like_error_html(txtp):
+                        return txtp
+                    else:
+                        print(f"[warn] proxy returned error-like content: {url}", flush=True)
+                else:
+                    print(f"[warn] proxy GET {pr.status_code}: {proxy_url}", flush=True)
+            except Exception as e:
+                print(f"[warn] proxy GET failed: {proxy_url} :: {e}", flush=True)
+            return None
 
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
@@ -846,10 +861,7 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
 
     # ✅ Mastercard listing page itself should not be treated as "home"
     if source == "Mastercard":
-        pl = p.lower()
-        if pl.endswith("/news-and-trends/press"):
-            return False
-        if pl.endswith("/news-and-trends/press.html"):
+        if p.endswith("/news-and-trends/press"):
             return False
 
     # ✅ FHLB MPF listing page is valid
@@ -1190,9 +1202,6 @@ def is_likely_article_anchor(a: Any) -> bool:
 
 # ============================
 # FHLB MPF (Program Updates)
-#   Page format is typically:
-#     Jan 30, 2026
-#     <a>MPF Announcement 2026-06</a>
 # ============================
 
 FHLBMPF_LISTING_PATH = "/program-guidelines/mpf-program-updates"
@@ -1210,13 +1219,11 @@ def fhlbmpf_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dat
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
-    # Target only detail pages under the Program Updates prefix
     for a in container.select(f'a[href^="{FHLBMPF_DETAIL_PREFIX}"]'):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
             continue
 
-        # Skip the listing page itself if it appears
         if href.rstrip("/") == FHLBMPF_LISTING_PATH.rstrip("/"):
             continue
 
@@ -1243,10 +1250,8 @@ def fhlbmpf_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dat
             continue
         seen.add(url)
 
-        # Date usually lives near the anchor (same card/row)
         dt = find_time_near_anchor(a, "FHLB MPF")
 
-        # If still none, scan a few previous siblings for a Month Day, Year string
         if dt is None:
             try:
                 checked = 0
@@ -1387,13 +1392,11 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 
 
 # ============================
-# Mastercard: make sure we capture press-release links on /press.html
+# Mastercard: capture press-release links on /press.html
 # ============================
 
-# ✅ Update: allow optional month folder and regional variants; allow /news/press/... too
 MASTERCARD_PR_PATH_RE = re.compile(
-    r"^/(?:us|global|gb|mea)/en/news-and-trends/press/\d{4}/(?:[a-z]+/)?[a-z0-9\-]+\.html$"
-    r"|^/news/press/(?:press-releases/)?\d{4}/[a-z]+/[a-z0-9\-]+/?$",
+    r"^/(us|global|gb|mea)/en/news-and-trends/press/\d{4}/[a-z0-9\-]+\.html$",
     re.I,
 )
 
@@ -1407,7 +1410,6 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
-    # Prefer anchors that look like actual press release pages
     for a in container.select("a[href]"):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1968,11 +1970,7 @@ def get_start_pages() -> List[SourcePage]:
 
         # Payment Networks
         SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
-
-        # ✅ Mastercard: try multiple listing pages (US sometimes 403s)
         SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
-        SourcePage("Mastercard", "https://www.mastercard.com/gb/en/news-and-trends/press.html"),
-        SourcePage("Mastercard", "https://www.mastercard.com/mea/en/news-and-trends/press.html"),
 
         # InfoSec (feed-only)
         SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/"),
