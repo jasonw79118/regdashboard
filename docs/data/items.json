@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "window_start": "2026-02-04T14:51:25Z",
   "window_end": "2026-02-18T14:51:25Z",
   "generated_at_utc": "2026-02-18T14:51:25Z",
   "generated_at_ct": "2026-02-18T08:51:25-06:00",
+=======
+  "window_start": "2026-02-04T15:02:12Z",
+  "window_end": "2026-02-18T15:02:12Z",
+  "generated_at_utc": "2026-02-18T15:02:12Z",
+  "generated_at_ct": "2026-02-18T09:02:12-06:00",
+>>>>>>> 28afccc (fix mastercard link.)
   "items": [
     {
       "category": "Executive",
@@ -351,6 +358,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-46219 When saving HSTS data to an excessively long file name curl could end up removing all contents making subsequent requests using that file unaware of the HSTS status they should otherwise use.",
+      "published_at": "2026-02-18T11:12:39Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-46219",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2020-18032 Buffer Overflow in Graphviz Graph Visualization Tools from commit ID f8b9e035 and earlier allows remote attackers to execute arbitrary code or cause a denial of service (application crash) by loading a cr…",
       "published_at": "2026-02-18T11:12:39Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-18032",
@@ -466,6 +481,14 @@
       "title": "CVE-2024-20985 Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: UDF). Supported versions that are affected are 8.0.35 and prior and 8.2.0 and prior. Easily exploitable vulnerability allows l…",
       "published_at": "2026-02-18T11:11:15Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20985",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-49292 Possible private key restoration in go package github.com/ecies/go",
+      "published_at": "2026-02-18T11:11:09Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-49292",
       "summary": "Information published."
     },
     {
@@ -623,6 +646,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2018-19416 An issue was discovered in sysstat 12.1.1. The remap_struct function in sa_common.c has an out-of-bounds read during a memmove call, as demonstrated by sadf.",
+      "published_at": "2026-02-18T11:10:03Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2018-19416",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2022-48619 An issue was discovered in drivers/input/input.c in the Linux kernel before 5.17.10. An attacker can cause a denial of service (panic) because input_set_capability mishandles the situation in which an eve…",
       "published_at": "2026-02-18T11:10:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-48619",
@@ -722,6 +753,14 @@
       "title": "CVE-2022-46457 NASM v2.16 was discovered to contain a segmentation violation in the component ieee_write_file at /output/outieee.c.",
       "published_at": "2026-02-18T11:09:19Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-46457",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-39326 Denial of service via chunk extensions in net/http",
+      "published_at": "2026-02-18T11:09:08Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-39326",
       "summary": "Information published."
     },
     {
@@ -943,9 +982,25 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-27810 Mbed TLS before 2.28.10 and 3.x before 3.6.3, in some cases of failed memory allocation or hardware errors, uses uninitialized stack memory to compose the TLS Finished message, potentially leading to auth…",
+      "published_at": "2026-02-18T11:06:46Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27810",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-21672 afs: Fix merge preference rule failure condition",
       "published_at": "2026-02-18T11:06:44Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21672",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-60753 An issue was discovered in libarchive bsdtar before version 3.8.1 in function apply_substitution in file tar/subst.c when processing crafted -s substitution rules. This can cause unbounded memory allocati…",
+      "published_at": "2026-02-18T11:06:43Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60753",
       "summary": "Information published."
     },
     {
@@ -1255,6 +1310,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2020-36424 An issue was discovered in Arm Mbed TLS before 2.24.0. An attacker can recover a private key (for RSA or static Diffie-Hellman) via a side-channel attack against generation of base blinding/unblinding val…",
+      "published_at": "2026-02-18T11:03:08Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-36424",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38239 scsi: megaraid_sas: Fix invalid node index",
       "published_at": "2026-02-18T11:03:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38239",
@@ -1391,6 +1454,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-64436 KubeVirt Excessive Role Permissions Could Enable Unauthorized VMI Migrations Between Nodes",
+      "published_at": "2026-02-18T11:01:44Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-64436",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-42068 bpf: Take return from set_memory_ro() into account with bpf_prog_lock_ro()",
       "published_at": "2026-02-18T11:01:44Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-42068",
@@ -1498,6 +1569,14 @@
       "title": "CVE-2025-37758 ata: pata_pxa: Fix potential NULL pointer dereference in pxa_ata_probe()",
       "published_at": "2026-02-18T11:00:33Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37758",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-10966 missing SFTP host verification with wolfSSH",
+      "published_at": "2026-02-18T11:00:31Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-10966",
       "summary": "Information published."
     },
     {
@@ -1903,6 +1982,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-27809 Mbed TLS before 2.28.10 and 3.x before 3.6.3, on the client side, accepts servers that have trusted certificates for arbitrary hostnames unless the TLS client application calls mbedtls_ssl_set_hostname.",
+      "published_at": "2026-02-18T10:56:16Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27809",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-37810 usb: dwc3: gadget: check that event count does not exceed event buffer length",
       "published_at": "2026-02-18T10:56:12Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37810",
@@ -2175,6 +2262,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-51781 An issue was discovered in the Linux kernel before 6.6.8. atalk_ioctl in net/appletalk/ddp.c has a use-after-free because of an atalk_recvmsg race condition.",
+      "published_at": "2026-02-18T10:53:08Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-51781",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38212 ipc: fix to protect IPCS lookups using RCU",
       "published_at": "2026-02-18T10:53:07Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38212",
@@ -2226,6 +2321,14 @@
       "title": "CVE-2024-42080 RDMA/restrack: Fix potential invalid address access",
       "published_at": "2026-02-18T10:52:47Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-42080",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-51782 An issue was discovered in the Linux kernel before 6.6.8. rose_ioctl in net/rose/af_rose.c has a use-after-free because of a rose_accept race condition.",
+      "published_at": "2026-02-18T10:52:36Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-51782",
       "summary": "Information published."
     },
     {
@@ -2290,6 +2393,14 @@
       "title": "CVE-2025-37886 pds_core: make wait_context part of q_info",
       "published_at": "2026-02-18T10:51:58Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37886",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-45285 Command 'go get' may unexpectedly fallback to insecure git in cmd/go",
+      "published_at": "2026-02-18T10:51:57Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-45285",
       "summary": "Information published."
     },
     {
@@ -2474,6 +2585,14 @@
       "title": "CVE-2024-42230 powerpc/pseries: Fix scv instruction crash with kexec",
       "published_at": "2026-02-18T10:50:24Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-42230",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-45287 Before Go 1.20, the RSA based key exchange methods in crypto/tls may exhibit a timing side channel",
+      "published_at": "2026-02-18T10:50:19Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-45287",
       "summary": "Information published."
     },
     {
@@ -2719,6 +2838,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2020-36422 An issue was discovered in Arm Mbed TLS before 2.23.0. A side channel allows recovery of an ECC private key, related to mbedtls_ecp_check_pub_priv, mbedtls_pk_parse_key, mbedtls_pk_parse_keyfile, mbedtls_…",
+      "published_at": "2026-02-18T10:47:21Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-36422",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38180 net: atm: fix /proc/net/atm/lec handling",
       "published_at": "2026-02-18T10:47:14Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38180",
@@ -2778,6 +2905,14 @@
       "title": "CVE-2024-8354 Qemu-kvm: usb: assertion failure in usb_ep_get()",
       "published_at": "2026-02-18T10:46:40Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-8354",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-6337 Vault May be Vulnerable to a Denial of Service Through Memory Exhaustion When Handling Large HTTP Requests",
+      "published_at": "2026-02-18T10:46:33Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-6337",
       "summary": "Information published."
     },
     {
@@ -2898,6 +3033,14 @@
       "title": "CVE-2024-49920 drm/amd/display: Check null pointers before multiple uses",
       "published_at": "2026-02-18T10:45:21Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49920",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2020-36425 An issue was discovered in Arm Mbed TLS before 2.24.0. It incorrectly uses a revocationDate check when deciding whether to honor certificate revocation via a CRL. In some situations, an attacker can explo…",
+      "published_at": "2026-02-18T10:45:16Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-36425",
       "summary": "Information published."
     },
     {
@@ -3362,6 +3505,14 @@
       "title": "CVE-2024-45025 fix bitmap corruption on close_range() with CLOSE_RANGE_UNSHARE",
       "published_at": "2026-02-18T10:40:19Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-45025",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-3001 PyTorch torch.lstm_cell memory corruption",
+      "published_at": "2026-02-18T10:40:12Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-3001",
       "summary": "Information published."
     },
     {
@@ -4175,6 +4326,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-21844 smb: client: Add check for next_buffer in receive_encrypted_standard()",
+      "published_at": "2026-02-18T10:31:38Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21844",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-21171 Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.37 and prior and 8.4.0 and prior. Easily exploitable vulnerability al…",
       "published_at": "2026-02-18T10:31:30Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21171",
@@ -4210,6 +4369,14 @@
       "title": "CVE-2025-49180 Xorg-x11-server-xwayland: xorg-x11-server: tigervnc: integer overflow in x resize, rotate and reflect (randr) extension",
       "published_at": "2026-02-18T10:30:58Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-49180",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21858 geneve: Fix use-after-free in geneve_find_dev().",
+      "published_at": "2026-02-18T10:30:55Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21858",
       "summary": "Information published."
     },
     {
@@ -4311,6 +4478,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2024-9042 This CVE affects only Windows worker nodes. Your worker node is vulnerable to this issue if it is running one of the affected versions listed below.",
+      "published_at": "2026-02-18T10:29:50Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-9042",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-68356 gfs2: Prevent recursive memory reclaim",
       "published_at": "2026-02-18T10:29:44Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68356",
@@ -4354,6 +4529,14 @@
       "title": "CVE-2025-21949 LoongArch: Set hugetlb mmap base address aligned with pmd size",
       "published_at": "2026-02-18T10:29:10Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21949",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21857 net/sched: cls_api: fix error handling causing NULL dereference",
+      "published_at": "2026-02-18T10:29:04Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21857",
       "summary": "Information published."
     },
     {
@@ -4426,6 +4609,14 @@
       "title": "CVE-2024-35853 mlxsw: spectrum_acl_tcam: Fix memory leak during rehash",
       "published_at": "2026-02-18T10:28:33Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35853",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21854 sockmap, vsock: For connectible sockets allow only connected",
+      "published_at": "2026-02-18T10:28:24Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21854",
       "summary": "Information published."
     },
     {
@@ -4570,6 +4761,14 @@
       "title": "CVE-2025-68744 bpf: Free special fields when update [lru_,]percpu_hash maps",
       "published_at": "2026-02-18T10:26:56Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68744",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21862 drop_monitor: fix incorrect initialization order",
+      "published_at": "2026-02-18T10:26:54Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21862",
       "summary": "Information published."
     },
     {
@@ -4730,6 +4929,14 @@
       "title": "CVE-2024-43796 express vulnerable to XSS via response.redirect()",
       "published_at": "2026-02-18T10:25:27Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43796",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21848 nfp: bpf: Add check for nfp_app_ctrl_msg_alloc()",
+      "published_at": "2026-02-18T10:25:19Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21848",
       "summary": "Information published."
     },
     {
@@ -4911,6 +5118,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-21859 USB: gadget: f_midi: f_midi_complete to call queue_work",
+      "published_at": "2026-02-18T10:24:08Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21859",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38215 fbdev: Fix do_register_framebuffer to prevent null-ptr-deref in fb_videomode_to_var",
       "published_at": "2026-02-18T10:24:02Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38215",
@@ -4938,6 +5153,14 @@
       "title": "CVE-2024-29041 Express.js Open Redirect in malformed URLs",
       "published_at": "2026-02-18T10:23:33Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29041",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2021-3636 It was found in OpenShift before version 4.8 that the generated certificate for the in-cluster Service CA incorrectly included additional certificates. The Service CA is automatically mounted into all pods…",
+      "published_at": "2026-02-18T10:23:27Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-3636",
       "summary": "Information published."
     },
     {
@@ -4986,6 +5209,14 @@
       "title": "CVE-2025-3360 Glibc: glib prior to 2.82.5 is vulnerable to integer overflow and buffer under-read when parsing a very long invalid iso 8601 timestamp with g_date_time_new_from_iso8601().",
       "published_at": "2026-02-18T10:23:09Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-3360",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21865 gtp: Suppress list corruption splat in gtp_net_exit_batch_rtnl().",
+      "published_at": "2026-02-18T10:22:59Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21865",
       "summary": "Information published."
     },
     {
@@ -5090,6 +5321,14 @@
       "title": "CVE-2022-30629 Session tickets lack random ticket_age_add in crypto/tls",
       "published_at": "2026-02-18T10:22:12Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-30629",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21853 bpf: avoid holding freeze_mutex during mmap operation",
+      "published_at": "2026-02-18T10:22:05Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21853",
       "summary": "Information published."
     },
     {
@@ -5343,6 +5582,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-47100 In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to unallocated space because a property name associated with a \\p{...} regular expression construct is mishandled. The earliest affecte…",
+      "published_at": "2026-02-18T10:19:21Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-47100",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-21791 vrf: use RCU protection in l3mdev_l3_out()",
       "published_at": "2026-02-18T10:19:19Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21791",
@@ -5410,6 +5657,14 @@
       "title": "CVE-2025-38352 posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()",
       "published_at": "2026-02-18T10:18:24Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38352",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-51780 An issue was discovered in the Linux kernel before 6.6.8. do_vcc_ioctl in net/atm/ioctl.c has a use-after-free because of a vcc_recvmsg race condition.",
+      "published_at": "2026-02-18T10:18:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-51780",
       "summary": "Information published."
     },
     {
@@ -5631,6 +5886,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-22870 HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+      "published_at": "2026-02-18T10:16:11Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-22870",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2018-10906 In fuse before versions 2.9.8 and 3.x before 3.2.5 fusermount is vulnerable to a restriction bypass when SELinux is active. This allows non-root users to mount a FUSE file system with the 'allow_other' mo…",
       "published_at": "2026-02-18T10:16:05Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2018-10906",
@@ -5810,6 +6073,14 @@
       "title": "CVE-2022-2602 io_uring UAF Unix SCM garbage collection",
       "published_at": "2026-02-18T10:14:18Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2602",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2015-2158 Off-by-one error in the pngcrush_measure_idat function in pngcrush.c in pngcrush before 1.7.84 allows remote attackers to cause a denial of service",
+      "published_at": "2026-02-18T10:14:10Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2015-2158",
       "summary": "Information published."
     },
     {
@@ -6487,9 +6758,25 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-49993 Espeak-ng 1.52-dev was discovered to contain a Buffer Overflow",
+      "published_at": "2026-02-18T10:06:30Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-49993",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-61725 Excessive CPU consumption in ParseAddress in net/mail",
       "published_at": "2026-02-18T10:06:29Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61725",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-41913 strongSwan before 5.9.12 has a buffer overflow and possible unauthenticated remote code execution via a DH public value that exceeds the internal buffer in charon-tkm's DH proxy. The earliest affected ver…",
+      "published_at": "2026-02-18T10:06:21Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-41913",
       "summary": "Information published."
     },
     {
@@ -6546,6 +6833,14 @@
       "title": "CVE-2025-38127 ice: fix Tx scheduler error handling in XDP callback",
       "published_at": "2026-02-18T10:05:27Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38127",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-49992 Espeak-ng 1.52-dev was discovered to contain a Stack Buffer Overflow via the function RemoveEnding at dictionary.c.",
+      "published_at": "2026-02-18T10:05:24Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-49992",
       "summary": "Information published."
     },
     {
@@ -6671,6 +6966,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-49994 Espeak-ng 1.52-dev was discovered to contain a Floating Point Exception via the function PeaksToHarmspect at wavegen.c.",
+      "published_at": "2026-02-18T10:04:21Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-49994",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38170 arm64/fpsimd: Discard stale CPU state when handling SME traps",
       "published_at": "2026-02-18T10:04:13Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38170",
@@ -6738,6 +7041,14 @@
       "title": "CVE-2025-22060 net: mvpp2: Prevent parser TCAM memory corruption",
       "published_at": "2026-02-18T10:03:25Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-22060",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-49991 Espeak-ng 1.52-dev was discovered to contain a Stack Buffer Underflow via the function CountVowelPosition at synthdata.c.",
+      "published_at": "2026-02-18T10:03:17Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-49991",
       "summary": "Information published."
     },
     {
@@ -6975,6 +7286,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-7104 SQLite SQLite3 make alltest sqlite3session.c sessionReadRecord heap-based overflow",
+      "published_at": "2026-02-18T10:01:02Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-7104",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38160 clk: bcm: rpi: Add NULL check in raspberrypi_clk_register()",
       "published_at": "2026-02-18T10:01:01Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38160",
@@ -7063,6 +7382,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-51764 Postfix through 3.8.5 allows SMTP smuggling unless configured with smtpd_data_restrictions=reject_unauth_pipelining and smtpd_discard_ehlo_keywords=chunking (or certain other options that exist in recent…",
+      "published_at": "2026-02-18T10:00:04Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-51764",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-49992 drm/stm: Avoid use-after-free issues with crtc and plane",
       "published_at": "2026-02-18T10:00:01Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49992",
@@ -7082,6 +7409,14 @@
       "title": "CVE-2024-25176 LuaJIT through 2.1 and OpenRusty luajit2 before v2.1-20240626 have a stack-buffer-overflow in lj_strfmt_wfnum in lj_strfmt_num.c.",
       "published_at": "2026-02-18T09:59:57Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-25176",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21867 bpf, test_run: Fix use-after-free issue in eth_skb_pkt_type()",
+      "published_at": "2026-02-18T09:59:55Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21867",
       "summary": "Information published."
     },
     {
@@ -7135,6 +7470,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-27363 An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable fo…",
+      "published_at": "2026-02-18T09:59:01Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27363",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2022-50230 arm64: set UXN on swapper page tables",
       "published_at": "2026-02-18T09:58:55Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-50230",
@@ -7167,6 +7510,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-51714 An issue was discovered in the HTTP2 implementation in Qt before 5.15.17 6.x before 6.2.11 6.3.x through 6.5.x before 6.5.4 and 6.6.x before 6.6.2. network/access/http2/hpacktable.cpp has an incorrect HPa…",
+      "published_at": "2026-02-18T09:58:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-51714",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-56596 jfs: fix array-index-out-of-bounds in jfs_readdir",
       "published_at": "2026-02-18T09:58:18Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-56596",
@@ -7186,6 +7537,14 @@
       "title": "CVE-2025-21941 drm/amd/display: Fix null check for pipe_ctx->plane_state in resource_build_scaling_params",
       "published_at": "2026-02-18T09:58:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21941",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2024-58083 KVM: Explicitly verify target vCPU is online in kvm_get_vcpu()",
+      "published_at": "2026-02-18T09:57:57Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58083",
       "summary": "Information published."
     },
     {
@@ -7319,6 +7678,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-6546 Kernel: gsm multiplexing race condition leads to privilege escalation",
+      "published_at": "2026-02-18T09:56:22Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-6546",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2023-4504 OpenPrinting CUPS/libppd Postscript Parsing Heap Overflow",
       "published_at": "2026-02-18T09:56:09Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4504",
@@ -7330,6 +7697,14 @@
       "title": "CVE-2024-38541 of: module: add buffer overflow check in of_modalias()",
       "published_at": "2026-02-18T09:56:03Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38541",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-27152 Possible SSRF and Credential Leakage via Absolute URL in axios Requests",
+      "published_at": "2026-02-18T09:56:01Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27152",
       "summary": "Information published."
     },
     {
@@ -7386,6 +7761,14 @@
       "title": "CVE-2024-49883 ext4: aovid use-after-free in ext4_ext_insert_extent()",
       "published_at": "2026-02-18T09:55:27Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49883",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-5115 Ansible: malicious role archive can cause ansible-galaxy to overwrite arbitrary files",
+      "published_at": "2026-02-18T09:55:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5115",
       "summary": "Information published."
     },
     {
@@ -7527,6 +7910,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-52284 Bytecode Alliance wasm-micro-runtime (aka WebAssembly Micro Runtime or WAMR) before 1.3.0 can have an \"double free or corruption\" error for a valid WebAssembly module because push_pop_frame_ref_offset is…",
+      "published_at": "2026-02-18T09:53:36Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-52284",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2021-33195 Go before 1.15.13 and 1.16.x before 1.16.5 has functions for DNS lookups that do not validate replies from DNS servers and thus a return value may contain an unsafe injection (e.g. XSS) that does not conf…",
       "published_at": "2026-02-18T09:53:33Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-33195",
@@ -7607,6 +7998,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-7008 Systemd-resolved: unsigned name response in signed zone is not refused when dnssec=yes",
+      "published_at": "2026-02-18T09:52:31Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-7008",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-47730 crypto: hisilicon/qm - inject error before stopping queue",
       "published_at": "2026-02-18T09:52:31Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-47730",
@@ -7618,6 +8017,14 @@
       "title": "CVE-2025-12058 Vulnerability in Keras Model.load_model Leading to Arbitrary Local File Loading and SSRF",
       "published_at": "2026-02-18T09:52:30Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12058",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-21887 ovl: fix UAF in ovl_dentry_update_reval by moving dput() in ovl_link_up",
+      "published_at": "2026-02-18T09:52:27Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21887",
       "summary": "Information published."
     },
     {
@@ -7791,6 +8198,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2024-12905 An Improper Link Resolution Before File Access (\"Link Following\") and Improper Limitation of a Pathname to a Restricted Directory (\"Path Traversal\"). This vulnerability occurs when extracting a maliciousl…",
+      "published_at": "2026-02-18T09:49:59Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-12905",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-34156 Stack exhaustion in Decoder.Decode in encoding/gob",
       "published_at": "2026-02-18T09:49:58Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-34156",
@@ -7938,6 +8353,14 @@
       "title": "CVE-2024-41009 bpf: Fix overrunning reservations in ringbuf",
       "published_at": "2026-02-18T09:48:05Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-41009",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-30211 KEX init error results with excessive memory usage",
+      "published_at": "2026-02-18T09:48:02Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-30211",
       "summary": "Information published."
     },
     {
@@ -8119,6 +8542,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2024-48615 Null Pointer Dereference vulnerability in libarchive 3.7.6 and earlier when running program bsdtar in function header_pax_extension at rchive_read_support_format_tar.c:1844:8.",
+      "published_at": "2026-02-18T09:45:40Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-48615",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2023-3255 Qemu: vnc: infinite loop in inflate_buffer() leads to denial of service",
       "published_at": "2026-02-18T09:45:38Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3255",
@@ -8223,6 +8654,25 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+<<<<<<< HEAD
+=======
+      "title": "CVE-2025-1734 Streams HTTP wrapper does not fail for headers with invalid name and no colon",
+      "published_at": "2026-02-18T09:44:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1734",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-2861 Qemu: 9pfs: improper access control on special files",
+      "published_at": "2026-02-18T09:44:19Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2861",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+>>>>>>> 28afccc (fix mastercard link.)
       "title": "CVE-2022-3171 Memory handling vulnerability in ProtocolBuffers Java core and lite",
       "published_at": "2026-02-18T09:44:15Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-3171",
@@ -8351,6 +8801,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-1861 Stream HTTP wrapper truncates redirect location to 1024 bytes",
+      "published_at": "2026-02-18T09:42:09Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1861",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-29018 External DNS requests from 'internal' networks could lead to data exfiltration",
       "published_at": "2026-02-18T09:41:59Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29018",
@@ -8439,6 +8897,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-1736 Stream HTTP wrapper header check might omit basic auth header",
+      "published_at": "2026-02-18T09:41:05Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1736",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-1753 Buildah: full container escape at build time",
       "published_at": "2026-02-18T09:40:58Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-1753",
@@ -8511,6 +8977,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-1219 libxml streams use wrong content-type header when requesting a redirected resource",
+      "published_at": "2026-02-18T09:40:05Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1219",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38131 coresight: prevent deactivate active config while enabling the config",
       "published_at": "2026-02-18T09:39:48Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38131",
@@ -8578,6 +9052,14 @@
       "title": "CVE-2024-44997 net: ethernet: mtk_wed: fix use-after-free panic in mtk_wed_setup_tc_block_cb()",
       "published_at": "2026-02-18T09:38:51Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-44997",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-1217 Header parser of http stream wrapper does not handle folded headers",
+      "published_at": "2026-02-18T09:38:35Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1217",
       "summary": "Information published."
     },
     {
@@ -8687,6 +9169,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-30219 RabbitMQ has XSS Vulnerability in an Error Message in Management UI",
+      "published_at": "2026-02-18T09:37:27Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-30219",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-50086 Vulnerability in the MySQL Server product of Oracle MySQL",
       "published_at": "2026-02-18T09:37:27Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-50086",
@@ -8770,6 +9260,14 @@
       "title": "CVE-2025-38142 hwmon: (asus-ec-sensors) check sensor index in read_string()",
       "published_at": "2026-02-18T09:36:27Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38142",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-2312 cifs.upcall makes an upcall to the wrong namespace in containerized environments",
+      "published_at": "2026-02-18T09:36:26Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2312",
       "summary": "Information published."
     },
     {
@@ -8914,6 +9412,14 @@
       "title": "CVE-2024-26814 vfio/fsl-mc: Block calling interrupt handler without trigger",
       "published_at": "2026-02-18T09:34:46Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26814",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-6507 Groups not dropped before running subprocess when using empty 'extra_groups' parameter",
+      "published_at": "2026-02-18T09:34:44Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-6507",
       "summary": "Information published."
     },
     {
@@ -9295,6 +9801,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-30204 jwt-go allows excessive memory allocation during header parsing",
+      "published_at": "2026-02-18T09:30:15Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-30204",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-44990 bonding: fix null pointer deref in bond_ipsec_offload_ok",
       "published_at": "2026-02-18T09:30:09Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-44990",
@@ -9431,6 +9945,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-5870 Postgresql: role pg_signal_backend can signal certain superuser processes.",
+      "published_at": "2026-02-18T09:28:35Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5870",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-21787 team: better TEAM_OPTION_TYPE_STRING validation",
       "published_at": "2026-02-18T09:28:32Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21787",
@@ -9535,6 +10057,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-27219 In the CGI gem before 0.4.2 for Ruby, the CGI::Cookie.parse method in the CGI library contains a potential Denial of Service (DoS) vulnerability. The method does not impose any limit on the length of the…",
+      "published_at": "2026-02-18T09:26:43Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27219",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2023-44488 VP9 in libvpx before 1.13.1 mishandles widths leading to a crash related to encoding.",
       "published_at": "2026-02-18T09:26:41Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44488",
@@ -9618,6 +10148,14 @@
       "title": "CVE-2024-39472 xfs: fix log recovery buffer allocation for the legacy h_size fixup",
       "published_at": "2026-02-18T09:25:52Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-39472",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-46218 This flaw allows a malicious HTTP server to set \"super cookies\" in curl that are then passed back to more origins than what is otherwise allowed or possible. This allows a site to set cookies that then wo…",
+      "published_at": "2026-02-18T09:25:48Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-46218",
       "summary": "Information published."
     },
     {
@@ -9863,6 +10401,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-51385 In ssh in OpenSSH before 9.6 OS command injection might occur if a user name or host name has shell metacharacters and this name is referenced by an expansion token in certain situations. For example an u…",
+      "published_at": "2026-02-18T09:22:41Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-51385",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-21776 USB: hub: Ignore non-compliant devices with too many configs or interfaces",
       "published_at": "2026-02-18T09:22:28Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21776",
@@ -9906,6 +10452,14 @@
       "title": "CVE-2024-47726 f2fs: fix to wait dio completion",
       "published_at": "2026-02-18T09:22:11Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-47726",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-51384 In ssh-agent in OpenSSH before 9.6 certain destination constraints can be incompletely applied. When destination constraints are specified during addition of PKCS#11-hosted private keys these constraints…",
+      "published_at": "2026-02-18T09:22:01Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-51384",
       "summary": "Information published."
     },
     {
@@ -9967,6 +10521,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2024-58071 team: prevent adding a device which is already a team device lower",
+      "published_at": "2026-02-18T09:20:40Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58071",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-58017 printk: Fix signed integer overflow when defining LOG_BUF_LEN_MAX",
       "published_at": "2026-02-18T09:20:40Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58017",
@@ -10015,6 +10577,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2024-58069 rtc: pcf85063: fix potential OOB write in PCF85063 NVMEM read",
+      "published_at": "2026-02-18T09:20:01Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58069",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2023-40661 Opensc: multiple memory issues with pkcs15-init (enrollment tool)",
       "published_at": "2026-02-18T09:20:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-40661",
@@ -10039,6 +10609,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-27516 Jinja sandbox breakout through attr filter selecting format method",
+      "published_at": "2026-02-18T09:19:32Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27516",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-47252 Apache HTTP Server: mod_ssl error log variable escaping",
       "published_at": "2026-02-18T09:19:23Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-47252",
@@ -10050,6 +10628,14 @@
       "title": "CVE-2023-40660 Opensc: potential pin bypass when card tracks its own login state",
       "published_at": "2026-02-18T09:19:19Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-40660",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2024-58058 ubifs: skip dumping tnc tree when zroot is null",
+      "published_at": "2026-02-18T09:19:05Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58058",
       "summary": "Information published."
     },
     {
@@ -10106,6 +10692,14 @@
       "title": "CVE-2023-27538 An authentication bypass vulnerability exists in libcurl prior to v8.0.0 where it reuses a previously established SSH connection despite the fact that an SSH option was modified which should have prevente…",
       "published_at": "2026-02-18T09:18:34Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-27538",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2024-58063 wifi: rtlwifi: fix memory leaks and invalid access at probe error path",
+      "published_at": "2026-02-18T09:18:23Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58063",
       "summary": "Information published."
     },
     {
@@ -10215,6 +10809,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2024-58055 usb: gadget: f_tcm: Don't free command immediately",
+      "published_at": "2026-02-18T09:17:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58055",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-20506 ClamAV Privilege Handling Escalation Vulnerability",
       "published_at": "2026-02-18T09:17:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20506",
@@ -10263,6 +10865,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2024-58076 clk: qcom: gcc-sm6350: Add missing parent_map for two clocks",
+      "published_at": "2026-02-18T09:16:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58076",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-23048 Apache HTTP Server: mod_ssl access control bypass with session resumption",
       "published_at": "2026-02-18T09:16:15Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-23048",
@@ -10274,6 +10884,14 @@
       "title": "CVE-2025-38088 powerpc/powernv/memtrace: Fix out of bounds issue in memtrace mmap",
       "published_at": "2026-02-18T09:16:08Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38088",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-27220 In the CGI gem before 0.4.2 for Ruby, a Regular Expression Denial of Service (ReDoS) vulnerability exists in the Util#escapeElement method.",
+      "published_at": "2026-02-18T09:16:01Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27220",
       "summary": "Information published."
     },
     {
@@ -10314,6 +10932,14 @@
       "title": "CVE-2024-47706 block bfq: fix possible UAF for bfqq->bic with merge chain",
       "published_at": "2026-02-18T09:15:43Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-47706",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2024-58052 drm/amdgpu: Fix potential NULL pointer dereference in atomctrl_get_smc_sclk_range_table",
+      "published_at": "2026-02-18T09:15:35Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-58052",
       "summary": "Information published."
     },
     {
@@ -10455,6 +11081,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2023-50495 NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().",
+      "published_at": "2026-02-18T09:13:56Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-50495",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-39732 wifi: ath11k: fix sleeping-in-atomic in ath11k_mac_op_set_bitrate_mask()",
       "published_at": "2026-02-18T09:13:54Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-39732",
@@ -10506,6 +11140,14 @@
       "title": "CVE-2024-37298 Potential memory exhaustion attack due to sparse slice deserialization",
       "published_at": "2026-02-18T09:13:12Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-37298",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-27221 In the URI gem before 1.0.3 for Ruby, the URI handling methods (URI.join, URI#merge, URI#+) have an inadvertent leakage of authentication credentials because userinfo is retained even after changing the h…",
+      "published_at": "2026-02-18T09:13:11Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27221",
       "summary": "Information published."
     },
     {
@@ -10943,6 +11585,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2021-22918 Node.js before 16.4.1 14.17.2 12.22.2 is vulnerable to an out-of-bounds read when uv__idna_toascii() is used to convert strings to ASCII. The pointer p is read and increased without checking whether it is…",
+      "published_at": "2026-02-18T09:07:13Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-22918",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2023-28938 Uncontrolled resource consumption in some Intel(R) SSD Tools software before version mdadm-4.2-rc2 may allow a priviledged user to potentially enable denial of service via local access.",
       "published_at": "2026-02-18T09:07:13Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28938",
@@ -10991,6 +11641,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-27423 Improper Input Validation in Vim",
+      "published_at": "2026-02-18T09:06:28Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-27423",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2023-28736 Buffer overflow in some Intel(R) SSD Tools software before version mdadm-4.2-rc2 may allow a privileged user to potentially enable escalation of privilege via local access.",
       "published_at": "2026-02-18T09:06:28Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28736",
@@ -11002,6 +11660,14 @@
       "title": "CVE-2025-22104 ibmvnic: Use kernel helpers for hex dumps",
       "published_at": "2026-02-18T09:06:27Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-22104",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-52979 squashfs: harden sanity check in squashfs_read_xattr_id_table",
+      "published_at": "2026-02-18T09:06:23Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-52979",
       "summary": "Information published."
     },
     {
@@ -11138,6 +11804,14 @@
       "title": "CVE-2024-53103 hv_sock: Initializing vsk->trans to NULL to prevent a dangling pointer",
       "published_at": "2026-02-18T09:04:03Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-53103",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-25724 list_item_verbose in tar/util.c in libarchive through 3.7.7 does not check an strftime return value, which can lead to a denial of service or unspecified other impact via a crafted TAR archive that is rea…",
+      "published_at": "2026-02-18T09:03:55Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-25724",
       "summary": "Information published."
     },
     {
@@ -11757,14 +12431,6 @@
       "summary": "Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda."
     },
     {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "Mortgage Rates Inch Down",
-      "published_at": "2026-02-12T17:00:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/02/12/3237519/0/en/Mortgage-Rates-Inch-Down.html",
-      "summary": "MCLEAN, Va., Feb. 12, 2026 (GLOBE NEWSWIRE) -- Freddie Mac (OTCQB: FMCC) today released the results of its Primary Mortgage Market Survey® (PMMS®),..."
-    },
-    {
       "category": "Banking",
       "source": "FDIC",
       "title": "Press Release: FDIC Releases Economic Scenarios for 2026 Stress Testing",
@@ -11779,14 +12445,6 @@
       "published_at": "2026-02-12T16:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260212a.htm",
       "summary": "Federal Reserve Board issues enforcement action with former employee of Regions Bank"
-    },
-    {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "Freddie Mac Announces Fourth Quarter and Full-Year 2025 Financial Results",
-      "published_at": "2026-02-12T13:07:01Z",
-      "url": "https://www.globenewswire.com/news-release/2026/02/12/3237170/0/en/Freddie-Mac-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
-      "summary": "MCLEAN, Va., Feb. 12, 2026 (GLOBE NEWSWIRE) -- Freddie Mac (OTCQB: FMCC) today reported its Fourth Quarter and Full-Year 2025 financial results and filed..."
     },
     {
       "category": "IS",
@@ -11831,9 +12489,17 @@
     {
       "category": "Mortgage",
       "source": "Freddie Mac",
-      "title": "Freddie Mac",
+      "title": "Mortgage Rates Inch Down",
       "published_at": "2026-02-12T00:00:00Z",
-      "url": "https://www.globenewswire.com/en/search/organization/Freddie%2520Mac?page=1",
+      "url": "https://www.globenewswire.com/news-release/2026/02/12/3237519/0/en/Mortgage-Rates-Inch-Down.html",
+      "summary": ""
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Freddie Mac Announces Fourth Quarter and Full-Year 2025 Financial Results",
+      "published_at": "2026-02-12T00:00:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/02/12/3237170/0/en/Freddie-Mac-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
       "summary": ""
     },
     {
@@ -11879,18 +12545,18 @@
     {
       "category": "Payments",
       "source": "NACHA",
-      "title": "How the Industry Is Adapting to Nacha’s New Risk Management Rules",
+      "title": "Payments Consulting",
       "published_at": "2026-02-11T17:23:18Z",
-      "url": "https://www.nacha.org/resources/how-industry-adapting-nachas-new-risk-management-rules",
-      "summary": "How the Industry Is Adapting to Nacha’s New Risk Management Rules droth@nacha.org Wed, 02/11/2026 - 12:23 Image Nacha Consulting group in office talking meeting"
+      "url": "https://www.nacha.org/taxonomy/term/362",
+      "summary": ""
     },
     {
       "category": "Payments",
       "source": "NACHA",
-      "title": "How the Industry Is Adapting to Nacha’s New Risk Management Rules",
+      "title": "Blog",
       "published_at": "2026-02-11T13:46:30Z",
-      "url": "https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules",
-      "summary": "How the Industry Is Adapting to Nacha’s New Risk Management Rules droth@nacha.org Wed, 02/11/2026 - 08:46 Image Media Nacha Consulting group in office talking meeting"
+      "url": "https://www.nacha.org/taxonomy/term/41",
+      "summary": ""
     },
     {
       "category": "CDIA",
@@ -11941,6 +12607,14 @@
       "summary": ""
     },
     {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "How the Industry Is Adapting to Nacha’s New Risk Management Rules",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules",
+      "summary": ""
+    },
+    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements",
@@ -11963,14 +12637,6 @@
       "published_at": "2026-02-11T00:00:00Z",
       "url": "https://www.federalregister.gov/documents/2026/02/11/2026-02763/bank-conversions-and-mergers-subpart-a-conversion-of-insured-credit-unions-to-mutual-savings-banks",
       "summary": "The NCUA Board (Board) is proposing to amend its regulations governing the conversion of insured credit unions into banks. The NCUA Board proposes to eliminate certain prescriptive procedural, disclosure, and communication requirements. This action reduces unnecessary regulatory burdens and provides credit union boards of directors with greater flexibility to exercise their bu…"
-    },
-    {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results",
-      "published_at": "2026-02-10T21:12:37Z",
-      "url": "https://www.globenewswire.com/news-release/2026/02/10/3235794/0/en/Freddie-Mac-Announces-Release-Date-for-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
-      "summary": "MCLEAN, Va., Feb. 10, 2026 (GLOBE NEWSWIRE) -- Freddie Mac (OTCQB:FMCC) announced today that it plans to report its Fourth Quarter and Full-Year 2025..."
     },
     {
       "category": "OFAC",
@@ -12429,11 +13095,35 @@
       "summary": "Added Affected Software for Windows packages"
     },
     {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Accreditation",
+      "published_at": "2026-02-10T06:24:41Z",
+      "url": "https://www.nacha.org/taxonomy/term/346",
+      "summary": ""
+    },
+    {
       "category": "OFAC",
       "source": "OFAC",
       "title": "Counter Terrorism Designations",
       "published_at": "2026-02-10T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260210",
+      "summary": ""
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/02/10/3235794/0/en/Freddie-Mac-Announces-Release-Date-for-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Inaugural National Nacha Accreditation Day Honors Nearly 6,000 Payments Professionals",
+      "published_at": "2026-02-10T00:00:00Z",
+      "url": "https://www.nacha.org/news/inaugural-national-nacha-accreditation-day-honors-nearly-6000-payments-professionals",
       "summary": ""
     },
     {
@@ -12453,6 +13143,14 @@
       "summary": "Liability Reform & Competition and Impact on Risk to the Lender March 17, 2026 | 12:00 PM ET | CDIA Webinar (60 min)... The post New Webinar Alert! appeared first on CDIA ."
     },
     {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Nacha Organization",
+      "published_at": "2026-02-09T08:26:53Z",
+      "url": "https://www.nacha.org/taxonomy/term/387",
+      "summary": ""
+    },
+    {
       "category": "Compliance Watch",
       "source": "TBA",
       "title": "Texas Bankers Annual Hall of Fame Gala set for April 23",
@@ -12467,6 +13165,14 @@
       "published_at": "2026-02-09T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/irs-announces-next-expansion-of-tax-pro-account-to-support-tax-professional-businesses",
       "summary": "IR-2026-22, Feb. 9, 2026 — The Internal Revenue Service today announced a new expansion of Tax Pro Account, introducing business-level digital capabilities for tax professionals who work in tax-preparation companies, accounting firms, or other organizations."
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Nacha Announces Board of Directors for 2026",
+      "published_at": "2026-02-09T00:00:00Z",
+      "url": "https://www.nacha.org/news/nacha-announces-board-directors-2026",
+      "summary": ""
     },
     {
       "category": "Executive",
@@ -12589,14 +13295,6 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
     },
     {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "Mortgage Rates Continue to Show Stability, Hovering Near 6%",
-      "published_at": "2026-02-05T17:00:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/02/05/3233311/0/en/Mortgage-Rates-Continue-to-Show-Stability-Hovering-Near-6.html",
-      "summary": "MCLEAN, Va., Feb. 05, 2026 (GLOBE NEWSWIRE) -- Freddie Mac (OTCQB: FMCC) today released the results of its Primary Mortgage Market Survey® (PMMS®),..."
-    },
-    {
       "category": "Compliance Watch",
       "source": "TBA",
       "title": "TBA to offer pilot access for tokenized deposit capabilities following Vantage Bank launch",
@@ -12659,6 +13357,22 @@
       "published_at": "2026-02-05T08:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0391",
       "summary": "User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Mortgage Rates Continue to Show Stability, Hovering Near 6%",
+      "published_at": "2026-02-05T00:00:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/02/05/3233311/0/en/Mortgage-Rates-Continue-to-Show-Stability-Hovering-Near-6.html",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Phixius by Nacha and Kinexys by J.P. Morgan Integration Goes Live, Expanding Multi-Responder Account Validation Network",
+      "published_at": "2026-02-05T00:00:00Z",
+      "url": "https://www.nacha.org/news/phixius-nacha-and-kinexys-jp-morgan-integration-goes-live-expanding-multi-responder-account",
+      "summary": ""
     },
     {
       "category": "Payments",
