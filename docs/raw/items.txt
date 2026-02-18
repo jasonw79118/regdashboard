@@ -1,3 +1,120 @@
+IS
+Microsoft MSRC
+2026-02-18T22:09:53Z
+CVE-2025-40146 blk-mq: fix potential deadlock while nr_requests grown
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40146
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:09:31Z
+CVE-2025-40149 tls: Use __sk_dst_get() and dst_dev_rcu() in get_netdev_for_sock().
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40149
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:09:01Z
+CVE-2025-40139 smc: Use __sk_dst_get() and dst_dev_rcu() in in smc_clc_prfx_set().
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40139
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:09:01Z
+CVE-2026-22701 filelock Time-of-Check-Time-of-Use (TOCTOU) Symlink Vulnerability in SoftFileLock
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22701
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:08:39Z
+CVE-2025-40135 ipv6: use RCU in ip6_xmit()
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40135
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:08:28Z
+CVE-2026-22702 virtualenv Has TOCTOU Vulnerabilities in Directory Creation
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22702
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:08:15Z
+CVE-2025-66471 urllib3 Streaming API improperly handles highly compressed data
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-66471
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:07:50Z
+CVE-2025-60876 BusyBox wget thru 1.3.7 accepted raw CR (0x0D)/LF (0x0A) and other C0 control bytes in the HTTP request-target (path/query), allowing the request line to be split and attacker-controlled headers to be inj…
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60876
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:07:49Z
+CVE-2025-14524 bearer token leak on cross-protocol redirect
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-14524
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:07:08Z
+CVE-2025-15079 libssh global known_hosts override
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-15079
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:06:12Z
+CVE-2025-68291 mptcp: Initialise rcv_mss before calling tcp_send_active_reset() in mptcp_do_fastclose().
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68291
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:05:33Z
+CVE-2025-15224 libssh key passphrase bypass without agent set
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-15224
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:05:21Z
+CVE-2022-43680 In libexpat through 2.4.9 there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-43680
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:04:00Z
+CVE-2025-40339 drm/amdgpu: fix nullptr err of vm_handle_moved
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40339
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-18T22:01:45Z
+CVE-2020-28493 Regular Expression Denial of Service (ReDoS)
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-28493
+Information published.
+------------------------------------------------------------
+OFAC
+Treasury
+2026-02-18T21:57:31Z
+Treasury Issues Interim CAMT Guidance to Reduce Burdens, Support U.S. Investment, and Maximize Growth
+https://home.treasury.gov/news/press-releases/sb0397
+------------------------------------------------------------
+Executive
+White House
+2026-02-18T21:29:42Z
+Congressional Bills H.J.Res. 142 and S. 3705 Signed into Law
+https://www.whitehouse.gov/briefings-statements/2026/02/congressional-bills-h-j-res-142-and-s-3705-signed-into-law/
+------------------------------------------------------------
 OFAC
 Treasury
 2026-02-18T21:00:00Z
@@ -10835,12 +10952,6 @@ White House
 Presidential Message on the Daytona 500
 https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-the-daytona-500/
 ------------------------------------------------------------
-Executive
-White House
-2026-02-15T02:55:57Z
-In Munich, Secretary Rubio Calls on Allies to Embrace Shared Heritage, Meet Challenges of New Era
-https://www.whitehouse.gov/articles/2026/02/in-munich-secretary-rubio-calls-on-allies-to-embrace-shared-heritage-meet-challenges-of-new-era/
-------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-02-13T16:00:00Z
@@ -11693,11 +11804,4 @@ NACHA
 2026-02-05T00:00:00Z
 Phixius by Nacha and Kinexys by J.P. Morgan Integration Goes Live, Expanding Multi-Responder Account Validation Network
 https://www.nacha.org/news/phixius-nacha-and-kinexys-jp-morgan-integration-goes-live-expanding-multi-responder-account
-------------------------------------------------------------
-Payments
-FRB
-2026-02-04T21:30:00Z
-Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
-https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260204a.htm
-Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
 ------------------------------------------------------------

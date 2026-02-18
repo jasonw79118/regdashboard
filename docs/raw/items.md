@@ -1,7 +1,139 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T21:14:04Z` → `2026-02-18T21:14:04Z` (UTC)
-Last updated: `2026-02-18T15:14:04-06:00` (CT) — `2026-02-18T21:14:04Z` (UTC)
+Window: `2026-02-04T22:10:07Z` → `2026-02-18T22:10:07Z` (UTC)
+Last updated: `2026-02-18T16:10:07-06:00` (CT) — `2026-02-18T22:10:07Z` (UTC)
+
+## CVE-2025-40146 blk-mq: fix potential deadlock while nr_requests grown
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:09:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40146
+
+Information published.
+
+## CVE-2025-40149 tls: Use __sk_dst_get() and dst_dev_rcu() in get_netdev_for_sock().
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:09:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40149
+
+Information published.
+
+## CVE-2025-40139 smc: Use __sk_dst_get() and dst_dev_rcu() in in smc_clc_prfx_set().
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:09:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40139
+
+Information published.
+
+## CVE-2026-22701 filelock Time-of-Check-Time-of-Use (TOCTOU) Symlink Vulnerability in SoftFileLock
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:09:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22701
+
+Information published.
+
+## CVE-2025-40135 ipv6: use RCU in ip6_xmit()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:08:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40135
+
+Information published.
+
+## CVE-2026-22702 virtualenv Has TOCTOU Vulnerabilities in Directory Creation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:08:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22702
+
+Information published.
+
+## CVE-2025-66471 urllib3 Streaming API improperly handles highly compressed data
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:08:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-66471
+
+Information published.
+
+## CVE-2025-60876 BusyBox wget thru 1.3.7 accepted raw CR (0x0D)/LF (0x0A) and other C0 control bytes in the HTTP request-target (path/query), allowing the request line to be split and attacker-controlled headers to be inj…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:07:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60876
+
+Information published.
+
+## CVE-2025-14524 bearer token leak on cross-protocol redirect
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:07:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-14524
+
+Information published.
+
+## CVE-2025-15079 libssh global known_hosts override
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:07:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-15079
+
+Information published.
+
+## CVE-2025-68291 mptcp: Initialise rcv_mss before calling tcp_send_active_reset() in mptcp_do_fastclose().
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:06:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68291
+
+Information published.
+
+## CVE-2025-15224 libssh key passphrase bypass without agent set
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:05:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-15224
+
+Information published.
+
+## CVE-2022-43680 In libexpat through 2.4.9 there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:05:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-43680
+
+Information published.
+
+## CVE-2025-40339 drm/amdgpu: fix nullptr err of vm_handle_moved
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:04:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-40339
+
+Information published.
+
+## CVE-2020-28493 Regular Expression Denial of Service (ReDoS)
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:01:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-28493
+
+Information published.
+
+## Treasury Issues Interim CAMT Guidance to Reduce Burdens, Support U.S. Investment, and Maximize Growth
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-18T21:57:31Z
+- URL: https://home.treasury.gov/news/press-releases/sb0397
+
+## Congressional Bills H.J.Res. 142 and S. 3705 Signed into Law
+- Source: White House
+- Category: Executive
+- Published: 2026-02-18T21:29:42Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/congressional-bills-h-j-res-142-and-s-3705-signed-into-law/
 
 ## Treasury International Capital Data for December
 - Source: Treasury
@@ -12365,12 +12497,6 @@ Northern Italy sees more than 60% increase in Visa cardholder visitors from over
 - Published: 2026-02-15T15:39:15Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-the-daytona-500/
 
-## In Munich, Secretary Rubio Calls on Allies to Embrace Shared Heritage, Meet Challenges of New Era
-- Source: White House
-- Category: Executive
-- Published: 2026-02-15T02:55:57Z
-- URL: https://www.whitehouse.gov/articles/2026/02/in-munich-secretary-rubio-calls-on-allies-to-embrace-shared-heritage-meet-challenges-of-new-era/
-
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -13314,11 +13440,3 @@ User interface (ui) misrepresentation of critical information in Microsoft Edge 
 - Category: Payments
 - Published: 2026-02-05T00:00:00Z
 - URL: https://www.nacha.org/news/phixius-nacha-and-kinexys-jp-morgan-integration-goes-live-expanding-multi-responder-account
-
-## Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
-- Source: FRB
-- Category: Payments
-- Published: 2026-02-04T21:30:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260204a.htm
-
-Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered

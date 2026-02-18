@@ -298,14 +298,17 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/about-visa/newsroom/press-releases"},
     },
 
-    # ✅ broaden prefixes (Mastercard changes paths often)
+    # ✅ Mastercard fixes:
+    #  - allow multiple regional press-release paths (US blocks requests sometimes)
+    #  - allow /news/press/ style pages too
     "Mastercard": {
         "allow_domains": {"www.mastercard.com"},
         "allow_path_prefixes": {
             "/us/en/news-and-trends/press/",
             "/global/en/news-and-trends/press/",
-            "/news-and-trends/press/",
-            "/en/news-and-trends/press/",
+            "/gb/en/news-and-trends/press/",
+            "/mea/en/news-and-trends/press/",
+            "/news/press/",
         },
     },
 
@@ -605,6 +608,31 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
             timeout=(10, read_timeout),
             allow_redirects=True,
         )
+
+        # ✅ Mastercard: US press listing sometimes blocks non-browser clients (403).
+        # If the request is for the press listing, retry alternate regional listing pages.
+        if (
+            r.status_code == 403
+            and h == "www.mastercard.com"
+            and "news-and-trends/press.html" in (urlparse(r.url).path or "")
+        ):
+            for alt in [
+                "https://www.mastercard.com/gb/en/news-and-trends/press.html",
+                "https://www.mastercard.com/mea/en/news-and-trends/press.html",
+            ]:
+                try:
+                    r2 = SESSION.get(
+                        alt,
+                        headers=headers if headers else None,
+                        timeout=(10, read_timeout),
+                        allow_redirects=True,
+                    )
+                    if r2.status_code < 400 and not looks_like_error_html(r2.text or ""):
+                        r = r2
+                        break
+                except Exception:
+                    pass
+
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
             return None
@@ -818,7 +846,10 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
 
     # ✅ Mastercard listing page itself should not be treated as "home"
     if source == "Mastercard":
-        if p.endswith("/news-and-trends/press"):
+        pl = p.lower()
+        if pl.endswith("/news-and-trends/press"):
+            return False
+        if pl.endswith("/news-and-trends/press.html"):
             return False
 
     # ✅ FHLB MPF listing page is valid
@@ -1359,8 +1390,10 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 # Mastercard: make sure we capture press-release links on /press.html
 # ============================
 
+# ✅ Update: allow optional month folder and regional variants; allow /news/press/... too
 MASTERCARD_PR_PATH_RE = re.compile(
-    r"^/(us|global)/en/news-and-trends/press/\d{4}/[a-z0-9\-]+\.html$",
+    r"^/(?:us|global|gb|mea)/en/news-and-trends/press/\d{4}/(?:[a-z]+/)?[a-z0-9\-]+\.html$"
+    r"|^/news/press/(?:press-releases/)?\d{4}/[a-z]+/[a-z0-9\-]+/?$",
     re.I,
 )
 
@@ -1374,13 +1407,12 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
-    # Prefer anchors that look like actual press release pages (year + slug + .html)
+    # Prefer anchors that look like actual press release pages
     for a in container.select("a[href]"):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
             continue
 
-        # Only keep canonical Mastercard press-release hrefs
         u = urlparse(urljoin(page_url, href))
         if u.netloc.lower() != "www.mastercard.com":
             continue
@@ -1936,7 +1968,11 @@ def get_start_pages() -> List[SourcePage]:
 
         # Payment Networks
         SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
+
+        # ✅ Mastercard: try multiple listing pages (US sometimes 403s)
         SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
+        SourcePage("Mastercard", "https://www.mastercard.com/gb/en/news-and-trends/press.html"),
+        SourcePage("Mastercard", "https://www.mastercard.com/mea/en/news-and-trends/press.html"),
 
         # InfoSec (feed-only)
         SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/"),
