@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-04T14:14:31Z",
-  "window_end": "2026-02-18T14:14:31Z",
-  "generated_at_utc": "2026-02-18T14:14:31Z",
-  "generated_at_ct": "2026-02-18T08:14:31-06:00",
+  "window_start": "2026-02-04T14:29:05Z",
+  "window_end": "2026-02-18T14:29:05Z",
+  "generated_at_utc": "2026-02-18T14:29:05Z",
+  "generated_at_ct": "2026-02-18T08:29:05-06:00",
   "items": [
     {
       "category": "IS",
@@ -2543,6 +2543,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2021-28210 An unlimited recursion in DxeCore in EDK II.",
+      "published_at": "2026-02-18T10:48:45Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-28210",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-69277 libsodium before ad3004e, in atypical use cases involving certain custom cryptography or untrusted data to crypto_core_ed25519_is_valid_point, mishandles checks for whether an elliptic curve point is vali…",
       "published_at": "2026-02-18T10:48:42Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69277",
@@ -3210,6 +3218,14 @@
       "title": "CVE-2022-2795 Processing large delegations may severely degrade resolver performance",
       "published_at": "2026-02-18T10:40:58Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2795",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2021-28211 A heap overflow in LzmaUefiDecompressGetInfo function in EDK II.",
+      "published_at": "2026-02-18T10:40:57Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-28211",
       "summary": "Information published."
     },
     {
@@ -5527,6 +5543,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2020-25576 An issue was discovered in the rand_core crate before 0.4.2 for Rust. Casting of byte slices to integer slices mishandles alignment constraints.",
+      "published_at": "2026-02-18T10:16:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-25576",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38213 Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "published_at": "2026-02-18T10:15:45Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38213",
@@ -6258,6 +6282,14 @@
       "title": "CVE-2024-47692 nfsd: return -EINVAL when namelen is 0",
       "published_at": "2026-02-18T10:07:26Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-47692",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2021-32923 HashiCorp Vault and Vault Enterprise allowed the renewal of nearly-expired token leases and dynamic secret leases (specifically those within 1 second of their maximum TTL) which caused them to be incorrec…",
+      "published_at": "2026-02-18T10:07:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-32923",
       "summary": "Information published."
     },
     {
@@ -7895,6 +7927,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2019-19076 A memory leak in the nfp_abm_u32_knode_replace() function in drivers/net/ethernet/netronome/nfp/abm/cls.c in the Linux kernel before 5.3.6 allows attackers to cause a denial of service (memory consumption…",
+      "published_at": "2026-02-18T09:46:48Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-19076",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-57981 usb: xhci: Fix NULL pointer dereference on certain command aborts",
       "published_at": "2026-02-18T09:46:48Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-57981",
@@ -7970,6 +8010,14 @@
       "title": "CVE-2023-3255 Qemu: vnc: infinite loop in inflate_buffer() leads to denial of service",
       "published_at": "2026-02-18T09:45:38Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3255",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2014-10402 An issue was discovered in the DBI module through 1.643 for Perl. DBD::File drivers can open files from folders other than those specifically passed via the f_dir attribute in the data source name (DSN).…",
+      "published_at": "2026-02-18T09:45:33Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2014-10402",
       "summary": "Information published."
     },
     {
@@ -9879,6 +9927,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2021-23840 Integer overflow in CipherUpdate",
+      "published_at": "2026-02-18T09:19:03Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-23840",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-43913 nvme: apple: fix device reference counting",
       "published_at": "2026-02-18T09:19:03Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43913",
@@ -9946,6 +10002,14 @@
       "title": "CVE-2024-44987 ipv6: prevent UAF in ip6_send_skb()",
       "published_at": "2026-02-18T09:18:07Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-44987",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2020-26160 jwt-go before 4.0.0-preview1 allows attackers to bypass intended access restrictions in situations with []string{} for m[\"aud\"] (which is allowed by the specification). Because the type assertion fails \"\"…",
+      "published_at": "2026-02-18T09:18:04Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-26160",
       "summary": "Information published."
     },
     {

@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T14:14:31Z` → `2026-02-18T14:14:31Z` (UTC)
-Last updated: `2026-02-18T08:14:31-06:00` (CT) — `2026-02-18T14:14:31Z` (UTC)
+Window: `2026-02-04T14:29:05Z` → `2026-02-18T14:29:05Z` (UTC)
+Last updated: `2026-02-18T08:29:05-06:00` (CT) — `2026-02-18T14:29:05Z` (UTC)
 
 ## Data breach at fintech firm Figure affects nearly 1 million accounts
 - Source: BleepingComputer
@@ -2539,6 +2539,14 @@ Information published.
 
 Information published.
 
+## CVE-2021-28210 An unlimited recursion in DxeCore in EDK II.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:48:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-28210
+
+Information published.
+
 ## CVE-2025-69277 libsodium before ad3004e, in atypical use cases involving certain custom cryptography or untrusted data to crypto_core_ed25519_is_valid_point, mishandles checks for whether an elliptic curve point is vali…
 - Source: Microsoft MSRC
 - Category: IS
@@ -3208,6 +3216,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:40:58Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2795
+
+Information published.
+
+## CVE-2021-28211 A heap overflow in LzmaUefiDecompressGetInfo function in EDK II.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:40:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-28211
 
 Information published.
 
@@ -5523,6 +5539,14 @@ Information published.
 
 Information published.
 
+## CVE-2020-25576 An issue was discovered in the rand_core crate before 0.4.2 for Rust. Casting of byte slices to integer slices mishandles alignment constraints.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:16:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-25576
+
+Information published.
+
 ## CVE-2025-38213 Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 - Source: Microsoft MSRC
 - Category: IS
@@ -6256,6 +6280,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:07:26Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-47692
+
+Information published.
+
+## CVE-2021-32923 HashiCorp Vault and Vault Enterprise allowed the renewal of nearly-expired token leases and dynamic secret leases (specifically those within 1 second of their maximum TTL) which caused them to be incorrec…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:07:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-32923
 
 Information published.
 
@@ -7891,6 +7923,14 @@ Information published.
 
 Information published.
 
+## CVE-2019-19076 A memory leak in the nfp_abm_u32_knode_replace() function in drivers/net/ethernet/netronome/nfp/abm/cls.c in the Linux kernel before 5.3.6 allows attackers to cause a denial of service (memory consumption…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T09:46:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-19076
+
+Information published.
+
 ## CVE-2024-57981 usb: xhci: Fix NULL pointer dereference on certain command aborts
 - Source: Microsoft MSRC
 - Category: IS
@@ -7968,6 +8008,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T09:45:38Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3255
+
+Information published.
+
+## CVE-2014-10402 An issue was discovered in the DBI module through 1.643 for Perl. DBD::File drivers can open files from folders other than those specifically passed via the f_dir attribute in the data source name (DSN).…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T09:45:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2014-10402
 
 Information published.
 
@@ -9875,6 +9923,14 @@ Information published.
 
 Information published.
 
+## CVE-2021-23840 Integer overflow in CipherUpdate
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T09:19:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-23840
+
+Information published.
+
 ## CVE-2024-43913 nvme: apple: fix device reference counting
 - Source: Microsoft MSRC
 - Category: IS
@@ -9944,6 +10000,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T09:18:07Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-44987
+
+Information published.
+
+## CVE-2020-26160 jwt-go before 4.0.0-preview1 allows attackers to bypass intended access restrictions in situations with []string{} for m["aud"] (which is allowed by the specification). Because the type assertion fails ""…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T09:18:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-26160
 
 Information published.
 
