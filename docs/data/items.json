@@ -1,8 +1,8 @@
 {
   "window_start": "2026-01-01T06:00:00Z",
   "window_end": "2026-02-01T05:59:59Z",
-  "generated_at_utc": "2026-02-17T23:34:51Z",
-  "generated_at_ct": "2026-02-17T17:34:51-06:00",
+  "generated_at_utc": "2026-02-18T02:40:17Z",
+  "generated_at_ct": "2026-02-17T20:40:17-06:00",
   "items": [
     {
       "category": "Banking",
@@ -859,14 +859,6 @@
       "published_at": "2026-01-16T08:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21223",
       "summary": "Microsoft Edge Elevation Service exposes a privileged COM interface that inadequately validates the privileges of the calling process. A standard (non‑administrator) local user can invoke the IElevatorEdge interface method LaunchUpdateCmdElevatedAndWait, causing the service to execute privileged update commands as LocalSystem. This allows a non‑administrator to enable or disab…"
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "Featured Publications View All Publications",
-      "published_at": "2026-01-16T00:00:00Z",
-      "url": "https://www.occ.gov/publications-and-resources/publications/index-publications.html",
-      "summary": "Publications"
     },
     {
       "category": "Federal Register",
@@ -3315,22 +3307,6 @@
       "published_at": "2026-01-08T01:01:14Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38480",
       "summary": "Information published."
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "National Bank Chartering: Notice of Proposed Rulemaking",
-      "published_at": "2026-01-08T00:00:00Z",
-      "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-1.html",
-      "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "More More",
-      "published_at": "2026-01-08T00:00:00Z",
-      "url": "https://www.occ.gov/topics/charters-and-licensing/index-charters-licensing.html",
-      "summary": "The OCC ensures that the corporate structures of national banks and federal savings associations are established and maintained in accordance with the principles of a safe and sound banking system."
     },
     {
       "category": "Mortgage",

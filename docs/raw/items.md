@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
 Window: `2026-01-01T06:00:00Z` → `2026-02-01T05:59:59Z` (UTC)
-Last updated: `2026-02-17T17:34:51-06:00` (CT) — `2026-02-17T23:34:51Z` (UTC)
+Last updated: `2026-02-17T20:40:17-06:00` (CT) — `2026-02-18T02:40:17Z` (UTC)
 
 ## Press Release: First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois
 - Source: FDIC
@@ -826,14 +826,6 @@ Federal Reserve Board announces approval of application by Banco Inter, S.A.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21223
 
 Microsoft Edge Elevation Service exposes a privileged COM interface that inadequately validates the privileges of the calling process. A standard (non‑administrator) local user can invoke the IElevatorEdge interface method LaunchUpdateCmdElevatedAndWait, causing the service to execute privileged update commands as LocalSystem. This allows a non‑administrator to enable or disab…
-
-## Featured Publications View All Publications
-- Source: OCC
-- Category: Banking
-- Published: 2026-01-16T00:00:00Z
-- URL: https://www.occ.gov/publications-and-resources/publications/index-publications.html
-
-Publications
 
 ## Improving Continuity for Religious Organizations and Their Employees
 - Source: Federal Register
@@ -3276,20 +3268,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38480
 
 Information published.
-
-## National Bank Chartering: Notice of Proposed Rulemaking
-- Source: OCC
-- Category: Banking
-- Published: 2026-01-08T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-1.html
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-01-08T00:00:00Z
-- URL: https://www.occ.gov/topics/charters-and-licensing/index-charters-licensing.html
-
-The OCC ensures that the corporate structures of national banks and federal savings associations are established and maintained in accordance with the principles of a safe and sound banking system.
 
 ## Mortgage Rates Stable, Purchase Demand Rising
 - Source: Freddie Mac
