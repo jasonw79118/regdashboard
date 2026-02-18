@@ -1,35 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T20:47:47Z` → `2026-02-18T20:47:47Z` (UTC)
-Last updated: `2026-02-18T14:47:47-06:00` (CT) — `2026-02-18T20:47:47Z` (UTC)
-
-## AI platforms can be abused for stealthy malware communication
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-18T20:18:24Z
-- URL: https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
-
-AI assistants like Grok and Microsoft Copilot with web browsing and URL-fetching capabilities can be abused to intermediate command-and-control (C2) activity. [...]
-
-## Minutes of the Federal Open Market Committee, January 27–28, 2026
-- Source: FRB
-- Category: Payments
-- Published: 2026-02-18T19:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm
-
-Minutes of the Federal Open Market Committee, January 27–28, 2026
-
-## Treasury Announces Public-Private Initiative to Strengthen Cybersecurity and Risk Management for AI
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-18T18:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0395
-
-## President Trump Celebrates Black History Month: Advancing Opportunity and Prosperity for Every American
-- Source: White House
-- Category: Executive
-- Published: 2026-02-18T17:25:08Z
-- URL: https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-black-history-month-advancing-opportunity-and-prosperity-for-every-american/
+Window: `2026-02-04T16:51:28Z` → `2026-02-18T16:51:28Z` (UTC)
+Last updated: `2026-02-18T10:51:28-06:00` (CT) — `2026-02-18T16:51:28Z` (UTC)
 
 ## Telegram channels expose rapid weaponization of SmarterMail flaws
 - Source: BleepingComputer
@@ -12069,50 +12041,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 
-## Issuance of Venezuela-related Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-18T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260218
-
-## News & Events
-- Source: FRB
-- Category: Payments
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.federalreserve.gov/newsevents.htm
-
-The Federal Reserve Board of Governors in Washington DC.
-
-## Warren Calls Jamie Dimon's Bluff on Credit Card Affordability, Asks Him to Publicly Support Bill Allowing States to Impose Interest Rate Caps
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-jamie-dimons-bluff-on-credit-card-affordability-asks-him-to-publicly-support-bill-allowing-states-to-impose-interest-rate-caps
-
-## Warren Raises Concerns With Neptune's Private Flood Insurance Business Model as Insurance Costs Soar for Americans
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-raises-concerns-with-neptunes-private-flood-insurance-business-model-as-insurance-costs-soar-for-americans
-
-## Warren Joins Cotton on Bill to Prevent Diversion of Advanced AI Chips to China
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china
-
-## Earnings Estimates
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-02-18T00:00:00Z
-- URL: https://ir.jackhenry.com/financials/earnings-estimates
-
-## These Sony ANC earbuds dropped to just $70
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/these-sony-anc-earbuds-dropped-to-just-70/
-
 ## If you need a spare laptop, this refurbished Chromebook is just $80
 - Source: BleepingComputer
 - Category: IS
@@ -12283,11 +12211,35 @@ National banks are among the most highly regulated institutions in the country, 
 
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 
+## Warren Joins Cotton on Bill to Prevent Diversion of Advanced AI Chips to China
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china
+
+## Senator Warren Statement on January 2026 CPI
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-cpi
+
+## At Hearing with SEC Chair Atkins, Warren Calls Out Trump Administration for Corruption As It Drops Cases Against Corporate Crooks
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-with-sec-chair-atkins-warren-calls-out-trump-administration-for-corruption-as-it-drops-cases-against-corporate-crooks
+
 ## Key Ratios
 - Source: Jack Henry
 - Category: Fintech Watch
 - Published: 2026-02-17T00:00:00Z
 - URL: https://ir.jackhenry.com/financials/key-ratios
+
+## Earnings Estimates
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-02-17T00:00:00Z
+- URL: https://ir.jackhenry.com/financials/earnings-estimates
 
 ## Historic Stock Lookup
 - Source: Jack Henry
@@ -12307,6 +12259,14 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
 
+## Washington Hotel in Japan discloses ransomware infection incident
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T21:10:38Z
+- URL: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
+
+The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]
+
 ## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
 - Source: Visa
 - Category: Payment Card Networks
@@ -12315,11 +12275,17 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 
 Northern Italy sees more than 60% increase in Visa cardholder visitors from overseas, with an increase in purchases up 80% compared to the same period in 2025 Significant increase in spending from Visa cardholders in many areas of commerce including Clothing & Accessories, Restaurants and Mobility
 
-## Washington Hotel in Japan discloses ransomware infection incident
+## Eurail says stolen traveler data now up for sale on dark web
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
+- URL: https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
+
+## Man arrested for demanding reward after accidental police data leak
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-16T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
 
 ## Presidential Message on Susan B. Anthony Day
 - Source: White House
@@ -12338,6 +12304,12 @@ Northern Italy sees more than 60% increase in Visa cardholder visitors from over
 - Category: Executive
 - Published: 2026-02-15T02:55:57Z
 - URL: https://www.whitehouse.gov/articles/2026/02/in-munich-secretary-rubio-calls-on-allies-to-embrace-shared-heritage-meet-challenges-of-new-era/
+
+## First Lady Melania Trump Embraces Love of Country & Family to United States Armed Forces
+- Source: White House
+- Category: Executive
+- Published: 2026-02-13T20:49:46Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-embraces-love-of-country-family-to-united-states-armed-forces/
 
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -13185,6 +13157,14 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-02-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260206
 
+## Comptroller Discusses Importance of Financial Education
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
+
+Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
+
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register
 - Category: Federal Register
@@ -13275,18 +13255,6 @@ User interface (ui) misrepresentation of critical information in Microsoft Edge 
 - Published: 2026-02-05T00:00:00Z
 - URL: https://www.nacha.org/news/phixius-nacha-and-kinexys-jp-morgan-integration-goes-live-expanding-multi-responder-account
 
-## Feb. 5, 2026 Recording
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-05T00:00:00Z
-- URL: https://register.gotowebinar.com/recording/8907755478278927106
-
-## April 19, 2024 Recording
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-05T00:00:00Z
-- URL: https://attendee.gotowebinar.com/recording/2886098614812357380
-
 ## Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
 - Source: FRB
 - Category: Payments
@@ -13294,3 +13262,9 @@ User interface (ui) misrepresentation of critical information in Microsoft Edge 
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260204a.htm
 
 Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
+
+## Nominations Sent to the Senate
+- Source: White House
+- Category: Executive
+- Published: 2026-02-04T17:59:12Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/
