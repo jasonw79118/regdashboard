@@ -731,6 +731,13 @@ CVE-2026-21223 Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerabi
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21223
 Microsoft Edge Elevation Service exposes a privileged COM interface that inadequately validates the privileges of the calling process. A standard (non‑administrator) local user can invoke the IElevatorEdge interface method LaunchUpdateCmdElevatedAndWait, causing the service to execute privileged update commands as LocalSystem. This allows a non‑administrator to enable or disab…
 ------------------------------------------------------------
+Banking
+OCC
+2026-01-16T00:00:00Z
+Featured Publications View All Publications
+https://www.occ.gov/publications-and-resources/publications/index-publications.html
+Publications
+------------------------------------------------------------
 Federal Register
 Federal Register
 2026-01-16T00:00:00Z
@@ -2869,6 +2876,19 @@ Microsoft MSRC
 CVE-2025-38480 comedi: Fix use of uninitialized data in insn_rw_emulate_bits()
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38480
 Information published.
+------------------------------------------------------------
+Banking
+OCC
+2026-01-08T00:00:00Z
+National Bank Chartering: Notice of Proposed Rulemaking
+https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-1.html
+------------------------------------------------------------
+Banking
+OCC
+2026-01-08T00:00:00Z
+More More
+https://www.occ.gov/topics/charters-and-licensing/index-charters-licensing.html
+The OCC ensures that the corporate structures of national banks and federal savings associations are established and maintained in accordance with the principles of a safe and sound banking system.
 ------------------------------------------------------------
 Mortgage
 Freddie Mac
