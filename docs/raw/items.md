@@ -1,7 +1,27 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T17:13:45Z` → `2026-02-18T17:13:45Z` (UTC)
-Last updated: `2026-02-18T11:13:45-06:00` (CT) — `2026-02-18T17:13:45Z` (UTC)
+Window: `2026-02-04T19:03:04Z` → `2026-02-18T19:03:04Z` (UTC)
+Last updated: `2026-02-18T13:03:04-06:00` (CT) — `2026-02-18T19:03:04Z` (UTC)
+
+## Minutes of the Federal Open Market Committee, January 27–28, 2026
+- Source: FRB
+- Category: Payments
+- Published: 2026-02-18T19:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm
+
+Minutes of the Federal Open Market Committee, January 27–28, 2026
+
+## Treasury Announces Public-Private Initiative to Strengthen Cybersecurity and Risk Management for AI
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-18T18:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0395
+
+## President Trump Celebrates Black History Month: Advancing Opportunity and Prosperity for Every American
+- Source: White House
+- Category: Executive
+- Published: 2026-02-18T17:25:08Z
+- URL: https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-black-history-month-advancing-opportunity-and-prosperity-for-every-american/
 
 ## Telegram channels expose rapid weaponization of SmarterMail flaws
 - Source: BleepingComputer
@@ -12041,6 +12061,32 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 
+## Issuance of Venezuela-related Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-18T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260218
+
+## News & Events
+- Source: FRB
+- Category: Payments
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalreserve.gov/newsevents.htm
+
+The Federal Reserve Board of Governors in Washington DC.
+
+## Earnings Estimates
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-02-18T00:00:00Z
+- URL: https://ir.jackhenry.com/financials/earnings-estimates
+
+## These Sony ANC earbuds dropped to just $70
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/these-sony-anc-earbuds-dropped-to-just-70/
+
 ## If you need a spare laptop, this refurbished Chromebook is just $80
 - Source: BleepingComputer
 - Category: IS
@@ -12235,12 +12281,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://ir.jackhenry.com/financials/key-ratios
 
-## Earnings Estimates
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-02-17T00:00:00Z
-- URL: https://ir.jackhenry.com/financials/earnings-estimates
-
 ## Historic Stock Lookup
 - Source: Jack Henry
 - Category: Fintech Watch
@@ -12281,12 +12321,6 @@ Northern Italy sees more than 60% increase in Visa cardholder visitors from over
 - Published: 2026-02-16T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
 
-## Man arrested for demanding reward after accidental police data leak
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/
-
 ## Presidential Message on Susan B. Anthony Day
 - Source: White House
 - Category: Executive
@@ -12304,12 +12338,6 @@ Northern Italy sees more than 60% increase in Visa cardholder visitors from over
 - Category: Executive
 - Published: 2026-02-15T02:55:57Z
 - URL: https://www.whitehouse.gov/articles/2026/02/in-munich-secretary-rubio-calls-on-allies-to-embrace-shared-heritage-meet-challenges-of-new-era/
-
-## First Lady Melania Trump Embraces Love of Country & Family to United States Armed Forces
-- Source: White House
-- Category: Executive
-- Published: 2026-02-13T20:49:46Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-embraces-love-of-country-family-to-united-states-armed-forces/
 
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -13254,9 +13282,3 @@ User interface (ui) misrepresentation of critical information in Microsoft Edge 
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260204a.htm
 
 Federal Reserve Board finalizes hypothetical scenarios for its annual stress test and votes to maintain the current stress test-related capital requirements until public feedback can be considered
-
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-02-04T17:59:12Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-2f25/
