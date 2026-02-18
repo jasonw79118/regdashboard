@@ -42,18 +42,19 @@ PRINT_HTML_PATH = f"{PRINT_DIR}/items.html"
 # ✅ IMPORTANT: base for regdashboard (your live site)
 PUBLIC_BASE = "https://jasonw79118.github.io/regdashboard"
 
-# ✅ RegDashboard should be a rolling 2-week window
+# ✅ RegDashboard MUST be a rolling window (2 weeks)
 WINDOW_DAYS = 14
 
-MAX_LISTING_LINKS = 220
-GLOBAL_DETAIL_FETCH_CAP = 180
+# Bump caps so Visa/Mastercard can resolve dates for more listing links
+MAX_LISTING_LINKS = 260
+GLOBAL_DETAIL_FETCH_CAP = 260
 REQUEST_DELAY_SEC = 0.12
 
 PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "IRS": 70,
     "USDA Rural Development": 55,
-    "Mastercard": 45,
-    "Visa": 45,
+    "Mastercard": 120,   # ✅ increased
+    "Visa": 160,         # ✅ increased (Visa listing dates often missing)
     "Fannie Mae": 35,
     "Freddie Mac": 10,
     "FIS": 25,
@@ -63,8 +64,8 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "Mambu": 20,
     "Finastra": 20,
     "TCS": 25,
-    "OFAC": 35,
-    "Treasury": 45,  # ✅ NEW
+    "OFAC": 45,
+    "Treasury": 60,
     "OCC": 25,
     "FDIC": 25,
     "FRB": 30,
@@ -75,12 +76,12 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "Microsoft MSRC": 0,  # feed-only
 
     # New tiles/sources
-    "CDIA": 20,
+    "CDIA": 25,
     "FASB": 25,
     "ABA": 25,
     "TBA": 25,
     "Wolters Kluwer": 25,
-    "Bankers Online": 20,
+    "Bankers Online": 25,
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
@@ -94,7 +95,7 @@ UA = "regdashboard/4.2 (+https://github.com/jasonw79118/regdashboard)"
 
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
-    "Treasury": "OFAC",  # ✅ Treasury press releases show under OFAC tile
+    "Treasury": "OFAC",  # Treasury press releases show under OFAC tile
     "IRS": "IRS",
 
     # Payments tile
@@ -295,12 +296,15 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_domains": {"usa.visa.com"},
         "allow_path_prefixes": {"/about-visa/newsroom/press-releases"},
     },
+
+    # ✅ broaden prefixes (Mastercard changes paths often)
     "Mastercard": {
         "allow_domains": {"www.mastercard.com"},
         "allow_path_prefixes": {
             "/us/en/news-and-trends/press/",
             "/global/en/news-and-trends/press/",
             "/news-and-trends/press/",
+            "/en/news-and-trends/press/",
         },
     },
 
@@ -513,19 +517,6 @@ def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
     return start <= dt <= end
 
 
-def rolling_window_utc(now_utc: datetime, days: int) -> Tuple[datetime, datetime, datetime]:
-    """
-    Rolling window anchored at 'now' in UTC.
-    Returns (window_start_utc, window_end_utc, window_start_ct_for_helpers)
-    """
-    end_utc = now_utc.replace(microsecond=0)
-    start_utc = (end_utc - timedelta(days=max(1, int(days)))).replace(microsecond=0)
-
-    # Helpful CT anchor for month-based IRS URLs etc.
-    start_ct = start_utc.astimezone(CENTRAL_TZ)
-    return start_utc, end_utc, start_ct
-
-
 def polite_get(url: str, timeout: int = 25) -> Optional[str]:
     if not is_http_url(url):
         return None
@@ -666,27 +657,13 @@ def fetch_json(
 
 
 # ============================
-# IRS helpers (rolling window)
+# WINDOW (Rolling 2-week)
 # ============================
 
-def irs_news_releases_for_month_url(month_ct: datetime) -> str:
-    month = month_ct.strftime("%B").lower()
-    year = month_ct.year
-    return f"https://www.irs.gov/newsroom/news-releases-for-{month}-{year}"
-
-
-def months_touched_by_window_ct(start_ct: datetime, end_ct: datetime) -> List[datetime]:
-    """
-    Return list of CT datetimes representing the 1st of each month touched by the window.
-    Usually 1–2 months for a 14-day window.
-    """
-    s = start_ct.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-    e = end_ct.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-
-    out = [s]
-    if (e.year, e.month) != (s.year, s.month):
-        out.append(e)
-    return out
+def rolling_window_utc(now_utc: datetime) -> Tuple[datetime, datetime]:
+    end = now_utc.replace(microsecond=0)
+    start = (end - timedelta(days=WINDOW_DAYS)).replace(microsecond=0)
+    return start, end
 
 
 # ============================
@@ -830,6 +807,11 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
 
     if source == "Treasury":
         if p.endswith("/news/press-releases"):
+            return False
+
+    # ✅ Mastercard listing page itself should not be treated as "home"
+    if source == "Mastercard":
+        if p.endswith("/news-and-trends/press"):
             return False
 
     return False
@@ -1164,7 +1146,7 @@ def is_likely_article_anchor(a: Any) -> bool:
 
 
 # ----------------------------
-# OFAC
+# OFAC: item pages are /recent-actions/YYYYMMDD
 # ----------------------------
 OFAC_ITEM_RE = re.compile(r"^/recent-actions/\d{8}(/)?$")
 OFAC_URL_DATE_RE = re.compile(r"/recent-actions/(?P<ymd>\d{8})(?:/)?$")
@@ -1271,6 +1253,16 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     return links
 
 
+# ============================
+# Mastercard: make sure we capture press-release links on /press.html
+# ============================
+
+MASTERCARD_PR_PATH_RE = re.compile(
+    r"^/(us|global)/en/news-and-trends/press/\d{4}/[a-z0-9\-]+\.html$",
+    re.I,
+)
+
+
 def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -1280,20 +1272,26 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
-    for a in container.select('a[href*="/news-and-trends/press/"]'):
+    # Prefer anchors that look like actual press release pages (year + slug + .html)
+    for a in container.select("a[href]"):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
             continue
 
-        url = canonical_url(urljoin(page_url, href))
+        # Only keep canonical Mastercard press-release hrefs
+        u = urlparse(urljoin(page_url, href))
+        if u.netloc.lower() != "www.mastercard.com":
+            continue
+        if not MASTERCARD_PR_PATH_RE.match(u.path):
+            continue
+
+        url = canonical_url(u.geturl())
         if not allowed_for_source("Mastercard", url):
             continue
 
         raw_title = (a.get_text(" ", strip=True) or "").strip()
         if not raw_title:
-            raw_title = (a.get("aria-label") or "").strip()
-        if not raw_title:
-            raw_title = (a.get("title") or "").strip()
+            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
 
         title = clean_text(raw_title, 220)
         if not title or len(title) < 10:
@@ -1322,6 +1320,10 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 
     return links
 
+
+# ============================
+# Visa
+# ============================
 
 def visa_date_from_listing_context(a: Any) -> Optional[datetime]:
     if not a:
@@ -1507,11 +1509,135 @@ def treasury_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
         if len(links) >= MAX_LISTING_LINKS:
             break
 
+    if not links:
+        for a in container.select("h2 a[href], h3 a[href]"):
+            href = (a.get("href") or "").strip()
+            if not href or not href.startswith("/news/press-releases/"):
+                continue
+            if not TREASURY_PR_PATH_RE.match(href):
+                continue
+
+            url = canonical_url(urljoin(page_url, href))
+            if not allowed_for_source("Treasury", url):
+                continue
+
+            title = clean_text(a.get_text(" ", strip=True) or "", 220)
+            if not title:
+                continue
+
+            if url in seen:
+                continue
+            seen.add(url)
+
+            dt = find_time_near_anchor(a, "Treasury")
+            if dt is None:
+                dt = treasury_date_from_listing_context(a)
+
+            links.append((title, url, dt))
+            if len(links) >= MAX_LISTING_LINKS:
+                break
+
     return links
 
 
 # ============================
-# CDIA helper
+# Freddie Mac (GlobeNewswire)
+# ============================
+
+def _globenewswire_find_date_near(a: Any, source: str) -> Optional[datetime]:
+    if not a:
+        return None
+
+    dt = find_time_near_anchor(a, source)
+    if dt:
+        return dt
+
+    cur = a
+    for _ in range(0, 5):
+        cur = cur.parent if getattr(cur, "parent", None) is not None else None
+        if not cur or not getattr(cur, "get_text", None):
+            break
+
+        try:
+            for sel in [
+                ".date",
+                ".release-date",
+                ".releaseDate",
+                ".timestamp",
+                ".time",
+                "[class*='date']",
+                "[class*='time']",
+                "[class*='timestamp']",
+            ]:
+                el = cur.select_one(sel)
+                if el and getattr(el, "get_text", None):
+                    dt2 = extract_any_date(clean_text(el.get_text(" ", strip=True), 240), source=source)
+                    if dt2:
+                        return dt2
+        except Exception:
+            pass
+
+        try:
+            blob = clean_text(cur.get_text(" ", strip=True), 1200)
+            dt2 = extract_any_date(blob, source=source)
+            if dt2:
+                return dt2
+        except Exception:
+            pass
+
+    return None
+
+
+def freddiemac_globenewswire_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    for a in container.select('a[href*="/news-release/"], a[href*="/en/news-release/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("Freddie Mac", url):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        if not raw_title:
+            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
+        if not raw_title:
+            continue
+
+        title = clean_text(raw_title, 220)
+        if not title or len(title) < 8:
+            continue
+
+        if title.lower() in {"read more", "learn more", "more", "details"}:
+            continue
+        if is_probably_nav_link("Freddie Mac", title, url):
+            continue
+        if is_generic_listing_or_home("Freddie Mac", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = _globenewswire_find_date_near(a, "Freddie Mac")
+        links.append((title, url, dt))
+
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
+
+# ============================
+# CDIA
 # ============================
 
 def cdia_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
@@ -1580,6 +1706,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return mastercard_links(page_url, html)
     if source == "Visa":
         return visa_links(page_url, html)
+    if source == "Freddie Mac":
+        return freddiemac_globenewswire_links(page_url, html)
     if source == "CDIA":
         return cdia_links(page_url, html)
 
@@ -1657,12 +1785,8 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 }
 
 
-def get_start_pages(window_start_ct: datetime, window_end_ct: datetime) -> List[SourcePage]:
-    # IRS month pages for any months touched by window
-    month_anchors = months_touched_by_window_ct(window_start_ct, window_end_ct)
-    irs_month_pages = [irs_news_releases_for_month_url(m) for m in month_anchors]
-
-    pages: List[SourcePage] = [
+def get_start_pages() -> List[SourcePage]:
+    return [
         # OFAC
         SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
         SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
@@ -1670,11 +1794,9 @@ def get_start_pages(window_start_ct: datetime, window_end_ct: datetime) -> List[
         # Treasury Press Releases (OFAC tile)
         SourcePage("Treasury", "https://home.treasury.gov/news/press-releases"),
 
-        # IRS (include both current-month hub and month-specific pages)
+        # IRS
         SourcePage("IRS", "https://www.irs.gov/newsroom"),
         SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
-        *[SourcePage("IRS", u) for u in irs_month_pages],
-        SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
         SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
 
         # USDA RD
@@ -1697,7 +1819,7 @@ def get_start_pages(window_start_ct: datetime, window_end_ct: datetime) -> List[
         SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
 
         # Payments
-        SourcePage("NACHA", "https://www.nacha.org/taxonomy/term/362"),
+        SourcePage("NACHA", "https://www.nacha.org/news"),
 
         # Fintech vendors
         SourcePage("FIS", "https://investor.fisglobal.com/press-releases"),
@@ -1728,17 +1850,6 @@ def get_start_pages(window_start_ct: datetime, window_end_ct: datetime) -> List[
         SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news?f:contenttype=News%20Page%7CPress%20Release%20Page"),
         SourcePage("Bankers Online", "https://www.bankersonline.com/topstory"),
     ]
-
-    # Dedup URLs per source (in case IRS adds the same page twice)
-    seen = set()
-    out: List[SourcePage] = []
-    for sp in pages:
-        k = (sp.source, sp.url)
-        if k in seen:
-            continue
-        seen.add(k)
-        out.append(sp)
-    return out
 
 
 # ============================
@@ -1957,15 +2068,14 @@ def build() -> None:
     now_utc = utc_now()
     now_ct = now_utc.astimezone(CENTRAL_TZ).replace(microsecond=0)
 
-    window_start, window_end, window_start_ct = rolling_window_utc(now_utc, WINDOW_DAYS)
-    window_end_ct = window_end.astimezone(CENTRAL_TZ)
+    window_start, window_end = rolling_window_utc(now_utc)
 
     all_items: List[Dict[str, Any]] = []
     global_detail_fetches = 0
     per_source_detail_fetches: Dict[str, int] = {}
 
     pages_by_source: Dict[str, List[str]] = {}
-    for sp in get_start_pages(window_start_ct, window_end_ct):
+    for sp in get_start_pages():
         pages_by_source.setdefault(sp.source, []).append(sp.url)
 
     for src in set(KNOWN_FEEDS.keys()) | {"Federal Register"}:
@@ -2031,6 +2141,7 @@ def build() -> None:
 
                 snippet = ""
 
+                # If Visa has a date but outside window, let detail override
                 if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
@@ -2045,6 +2156,7 @@ def build() -> None:
                             if snippet2:
                                 snippet = snippet2
 
+                # If we still don't have a date, use detail page (bounded by caps)
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
@@ -2142,20 +2254,6 @@ def build() -> None:
     )
 
 
-def force_run_enabled() -> bool:
-    return os.getenv("FORCE_RUN", "").strip().lower() in {"1", "true", "yes"}
-
-
-def running_in_github_actions() -> bool:
-    return os.getenv("GITHUB_ACTIONS", "").strip().lower() == "true"
-
-
 if __name__ == "__main__":
-    # ✅ RegDashboard should build on each run (rolling window).
-    # Keep FORCE_RUN as a manual override for debugging—otherwise just run.
-    if running_in_github_actions():
-        print("[run] GitHub Actions -> building (rolling window)", flush=True)
-        build()
-    else:
-        print("[run] Local execution -> building (rolling window)", flush=True)
-        build()
+    # ✅ No monthly gating for regdashboard: always build in Actions and locally.
+    build()
