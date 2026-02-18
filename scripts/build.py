@@ -42,7 +42,7 @@ PRINT_HTML_PATH = f"{PRINT_DIR}/items.html"
 # ✅ IMPORTANT: base for regdashboard (your live site)
 PUBLIC_BASE = "https://jasonw79118.github.io/regdashboard"
 
-# (Legacy) Rolling-window config is no longer used; window is now previous calendar month (CT)
+# ✅ RegDashboard should be a rolling 2-week window
 WINDOW_DAYS = 14
 
 MAX_LISTING_LINKS = 220
@@ -84,7 +84,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
 }
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
-UA = "regdashboard/4.1 (+https://github.com/jasonw79118/regdashboard)"
+UA = "regdashboard/4.2 (+https://github.com/jasonw79118/regdashboard)"
 
 
 # ============================
@@ -94,7 +94,7 @@ UA = "regdashboard/4.1 (+https://github.com/jasonw79118/regdashboard)"
 
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
-    "Treasury": "OFAC",  # ✅ NEW: Treasury press releases show under OFAC tile
+    "Treasury": "OFAC",  # ✅ Treasury press releases show under OFAC tile
     "IRS": "IRS",
 
     # Payments tile
@@ -153,7 +153,6 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
 
 FEDREG_API_BASE = "https://www.federalregister.gov/api/v1"
 
-# ✅ Keep the topic set exactly as you requested (normalize format, but don’t “alias away” your entries).
 RAW_FEDREG_TOPICS = [
     "banks-banking",
     "executive-orders",
@@ -274,7 +273,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/recent-actions/"},
     },
 
-    # ✅ NEW: Treasury newsroom press releases
     "Treasury": {
         "allow_domains": {"home.treasury.gov"},
         "allow_path_prefixes": {"/news/press-releases"},
@@ -324,7 +322,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/news", "/news-events-blogs", "/events", "/blog", "/"},
     },
 
-    # Allow both fasb.org and www.fasb.org (some links vary)
     "FASB": {
         "allow_domains": {"www.fasb.org", "fasb.org"},
         "allow_path_prefixes": {"/news-and-meetings/in-the-news", "/news-and-meetings/"},
@@ -516,6 +513,19 @@ def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
     return start <= dt <= end
 
 
+def rolling_window_utc(now_utc: datetime, days: int) -> Tuple[datetime, datetime, datetime]:
+    """
+    Rolling window anchored at 'now' in UTC.
+    Returns (window_start_utc, window_end_utc, window_start_ct_for_helpers)
+    """
+    end_utc = now_utc.replace(microsecond=0)
+    start_utc = (end_utc - timedelta(days=max(1, int(days)))).replace(microsecond=0)
+
+    # Helpful CT anchor for month-based IRS URLs etc.
+    start_ct = start_utc.astimezone(CENTRAL_TZ)
+    return start_utc, end_utc, start_ct
+
+
 def polite_get(url: str, timeout: int = 25) -> Optional[str]:
     if not is_http_url(url):
         return None
@@ -632,11 +642,6 @@ def fetch_json(
     params: Optional[Dict[str, Any]] = None,
     timeout: int = 35,
 ) -> Optional[Dict[str, Any]]:
-    """
-    ✅ Fix for Federal Register tile going empty:
-    - Force Accept: application/json
-    - Debug non-JSON responses rather than silently returning None
-    """
     try:
         time.sleep(REQUEST_DELAY_SEC)
         r = SESSION.get(
@@ -661,67 +666,27 @@ def fetch_json(
 
 
 # ============================
-# SCHEDULER GATE (GitHub Actions friendly)
+# IRS helpers (rolling window)
 # ============================
 
-def _load_last_run_month() -> str:
-    try:
-        with open("docs/data/last_run.json", "r", encoding="utf-8") as f:
-            return (json.load(f) or {}).get("month", "")
-    except Exception:
-        return ""
-
-
-def _save_last_run_month(month_str: str) -> None:
-    os.makedirs(os.path.dirname("docs/data/last_run.json"), exist_ok=True)
-    with open("docs/data/last_run.json", "w", encoding="utf-8") as f:
-        json.dump({"month": month_str, "saved_at_utc": iso_z(utc_now())}, f)
-
-
-def should_run_monthly_ct(target_hour: int = 7, window_minutes: int = 180) -> bool:
-    now_ct = datetime.now(CENTRAL_TZ)
-    if now_ct.day != 1:
-        return False
-
-    ym = now_ct.strftime("%Y-%m")
-    if _load_last_run_month() == ym:
-        return False
-
-    start = now_ct.replace(hour=target_hour, minute=0, second=0, microsecond=0)
-    end = start + timedelta(minutes=window_minutes)
-    return start <= now_ct <= end
-
-
-def force_run_enabled() -> bool:
-    return os.getenv("FORCE_RUN", "").strip().lower() in {"1", "true", "yes"}
-
-
-def running_in_github_actions() -> bool:
-    return os.getenv("GITHUB_ACTIONS", "").strip().lower() == "true"
-
-
-# ============================
-# MONTH WINDOW (previous calendar month in CT)
-# ============================
-
-def monthly_window_utc(now_utc: datetime) -> Tuple[datetime, datetime, datetime]:
-    now_ct = now_utc.astimezone(CENTRAL_TZ)
-
-    first_of_this_month_ct = now_ct.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-    end_prev_month_ct = first_of_this_month_ct - timedelta(seconds=1)
-    start_prev_month_ct = end_prev_month_ct.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-
-    return (
-        start_prev_month_ct.astimezone(timezone.utc),
-        end_prev_month_ct.astimezone(timezone.utc),
-        start_prev_month_ct,
-    )
-
-
-def irs_news_releases_for_month_url(window_start_ct: datetime) -> str:
-    month = window_start_ct.strftime("%B").lower()
-    year = window_start_ct.year
+def irs_news_releases_for_month_url(month_ct: datetime) -> str:
+    month = month_ct.strftime("%B").lower()
+    year = month_ct.year
     return f"https://www.irs.gov/newsroom/news-releases-for-{month}-{year}"
+
+
+def months_touched_by_window_ct(start_ct: datetime, end_ct: datetime) -> List[datetime]:
+    """
+    Return list of CT datetimes representing the 1st of each month touched by the window.
+    Usually 1–2 months for a 14-day window.
+    """
+    s = start_ct.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    e = end_ct.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+
+    out = [s]
+    if (e.year, e.month) != (s.year, s.month):
+        out.append(e)
+    return out
 
 
 # ============================
@@ -863,7 +828,6 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
         if pl.startswith("/en/news-release/"):
             return False
 
-    # Treasury listing hub should not be treated as "home" if it includes real items
     if source == "Treasury":
         if p.endswith("/news/press-releases"):
             return False
@@ -1020,7 +984,6 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
 
             j = fetch_json(endpoint, params=params, timeout=45)
             if not j:
-                # If the API errors for this topic, break pagination for this topic and move on.
                 break
 
             results = j.get("results") or []
@@ -1150,7 +1113,6 @@ def pick_container(soup: BeautifulSoup) -> Optional[Any]:
 
 
 def looks_js_rendered(html: str) -> bool:
-    # Keep heuristic, but don’t assume Treasury is JS just because of generic words.
     s = (html or "").lower()
     if "you have javascript disabled" in s:
         return True
@@ -1202,7 +1164,7 @@ def is_likely_article_anchor(a: Any) -> bool:
 
 
 # ----------------------------
-# OFAC: item pages are /recent-actions/YYYYMMDD
+# OFAC
 # ----------------------------
 OFAC_ITEM_RE = re.compile(r"^/recent-actions/\d{8}(/)?$")
 OFAC_URL_DATE_RE = re.compile(r"/recent-actions/(?P<ymd>\d{8})(?:/)?$")
@@ -1455,22 +1417,16 @@ def visa_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dateti
 
 
 # ============================
-# ✅ Treasury (home.treasury.gov) press releases
-#   Page structure lists dates as text blocks near headlines.
-#   Links are typically /news/press-releases/<slug>
+# Treasury press releases
 # ============================
 
 TREASURY_PR_PATH_RE = re.compile(r"^/news/press-releases/[a-z0-9\-]+$", re.I)
 
+
 def treasury_date_from_listing_context(a: Any) -> Optional[datetime]:
-    """
-    Treasury listing often has the date (e.g., 'February 13, 2026') near the headline.
-    Scan nearby parent text and previous siblings for a month-date pattern.
-    """
     if not a:
         return None
 
-    # Look inside a reasonable wrapper (li/article/div)
     wrap = a.find_parent(["li", "article", "div", "section"]) or a.parent
     if wrap:
         blob = clean_text(wrap.get_text(" ", strip=True), 900)
@@ -1478,7 +1434,6 @@ def treasury_date_from_listing_context(a: Any) -> Optional[datetime]:
         if dt:
             return dt
 
-    # Then scan previous siblings of the heading
     head = a.find_parent(["h1", "h2", "h3", "h4"]) or a
     try:
         checked = 0
@@ -1514,12 +1469,10 @@ def treasury_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
-    # Target typical press release anchors
     for a in container.select('a[href^="/news/press-releases/"]'):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
             continue
-        # Exclude category pages like /news/press-releases/readouts
         if not TREASURY_PR_PATH_RE.match(href):
             continue
 
@@ -1554,136 +1507,11 @@ def treasury_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
         if len(links) >= MAX_LISTING_LINKS:
             break
 
-    # Fallback: sometimes headlines are in h3/h2 with links
-    if not links:
-        for a in container.select("h2 a[href], h3 a[href]"):
-            href = (a.get("href") or "").strip()
-            if not href or not href.startswith("/news/press-releases/"):
-                continue
-            if not TREASURY_PR_PATH_RE.match(href):
-                continue
-
-            url = canonical_url(urljoin(page_url, href))
-            if not allowed_for_source("Treasury", url):
-                continue
-
-            title = clean_text(a.get_text(" ", strip=True) or "", 220)
-            if not title:
-                continue
-
-            if url in seen:
-                continue
-            seen.add(url)
-
-            dt = find_time_near_anchor(a, "Treasury")
-            if dt is None:
-                dt = treasury_date_from_listing_context(a)
-
-            links.append((title, url, dt))
-            if len(links) >= MAX_LISTING_LINKS:
-                break
-
     return links
 
 
 # ============================
-# Freddie Mac (GlobeNewswire)
-# ============================
-
-def _globenewswire_find_date_near(a: Any, source: str) -> Optional[datetime]:
-    if not a:
-        return None
-
-    dt = find_time_near_anchor(a, source)
-    if dt:
-        return dt
-
-    cur = a
-    for _ in range(0, 5):
-        cur = cur.parent if getattr(cur, "parent", None) is not None else None
-        if not cur or not getattr(cur, "get_text", None):
-            break
-
-        try:
-            for sel in [
-                ".date",
-                ".release-date",
-                ".releaseDate",
-                ".timestamp",
-                ".time",
-                "[class*='date']",
-                "[class*='time']",
-                "[class*='timestamp']",
-            ]:
-                el = cur.select_one(sel)
-                if el and getattr(el, "get_text", None):
-                    dt2 = extract_any_date(clean_text(el.get_text(" ", strip=True), 240), source=source)
-                    if dt2:
-                        return dt2
-        except Exception:
-            pass
-
-        try:
-            blob = clean_text(cur.get_text(" ", strip=True), 1200)
-            dt2 = extract_any_date(blob, source=source)
-            if dt2:
-                return dt2
-        except Exception:
-            pass
-
-    return None
-
-
-def freddiemac_globenewswire_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    soup = BeautifulSoup(html, "html.parser")
-    container = pick_container(soup) or soup
-    if not container:
-        return []
-
-    links: List[Tuple[str, str, Optional[datetime]]] = []
-    seen = set()
-
-    for a in container.select('a[href*="/news-release/"], a[href*="/en/news-release/"]'):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#"):
-            continue
-
-        url = canonical_url(urljoin(page_url, href))
-        if not allowed_for_source("Freddie Mac", url):
-            continue
-
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
-        if not raw_title:
-            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
-        if not raw_title:
-            continue
-
-        title = clean_text(raw_title, 220)
-        if not title or len(title) < 8:
-            continue
-
-        if title.lower() in {"read more", "learn more", "more", "details"}:
-            continue
-        if is_probably_nav_link("Freddie Mac", title, url):
-            continue
-        if is_generic_listing_or_home("Freddie Mac", title, url):
-            continue
-
-        if url in seen:
-            continue
-        seen.add(url)
-
-        dt = _globenewswire_find_date_near(a, "Freddie Mac")
-        links.append((title, url, dt))
-
-        if len(links) >= MAX_LISTING_LINKS:
-            break
-
-    return links
-
-
-# ============================
-# ✅ CDIA: listing uses "Read More" links; capture title from nearby text
+# CDIA helper
 # ============================
 
 def cdia_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
@@ -1752,8 +1580,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return mastercard_links(page_url, html)
     if source == "Visa":
         return visa_links(page_url, html)
-    if source == "Freddie Mac":
-        return freddiemac_globenewswire_links(page_url, html)
     if source == "CDIA":
         return cdia_links(page_url, html)
 
@@ -1831,18 +1657,23 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 }
 
 
-def get_start_pages(window_start_ct: datetime) -> List[SourcePage]:
-    return [
+def get_start_pages(window_start_ct: datetime, window_end_ct: datetime) -> List[SourcePage]:
+    # IRS month pages for any months touched by window
+    month_anchors = months_touched_by_window_ct(window_start_ct, window_end_ct)
+    irs_month_pages = [irs_news_releases_for_month_url(m) for m in month_anchors]
+
+    pages: List[SourcePage] = [
         # OFAC
         SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
         SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
 
-        # ✅ Treasury Press Releases (OFAC tile)
+        # Treasury Press Releases (OFAC tile)
         SourcePage("Treasury", "https://home.treasury.gov/news/press-releases"),
 
-        # IRS
+        # IRS (include both current-month hub and month-specific pages)
         SourcePage("IRS", "https://www.irs.gov/newsroom"),
-        SourcePage("IRS", irs_news_releases_for_month_url(window_start_ct)),
+        SourcePage("IRS", "https://www.irs.gov/newsroom/news-releases-for-current-month"),
+        *[SourcePage("IRS", u) for u in irs_month_pages],
         SourcePage("IRS", "https://www.irs.gov/newsroom/irs-tax-tips"),
         SourcePage("IRS", "https://www.irs.gov/downloads/rss"),
 
@@ -1888,15 +1719,26 @@ def get_start_pages(window_start_ct: datetime) -> List[SourcePage]:
         # CDIA
         SourcePage("CDIA", "https://www.cdiaonline.org/news-events-blogs"),
 
-        # FASB (use the user-requested URL)
+        # FASB
         SourcePage("FASB", "https://www.fasb.org/news-and-meetings/in-the-news"),
 
-        # Compliance Watch sources (use the user-requested URLs)
+        # Compliance Watch sources
         SourcePage("ABA", "https://www.aba.com/news-research/all-news#sort=%40fcontentdate%20descending"),
         SourcePage("TBA", "https://www.texasbankers.com/news/"),
         SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news?f:contenttype=News%20Page%7CPress%20Release%20Page"),
         SourcePage("Bankers Online", "https://www.bankersonline.com/topstory"),
     ]
+
+    # Dedup URLs per source (in case IRS adds the same page twice)
+    seen = set()
+    out: List[SourcePage] = []
+    for sp in pages:
+        k = (sp.source, sp.url)
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(sp)
+    return out
 
 
 # ============================
@@ -2115,14 +1957,15 @@ def build() -> None:
     now_utc = utc_now()
     now_ct = now_utc.astimezone(CENTRAL_TZ).replace(microsecond=0)
 
-    window_start, window_end, window_start_ct = monthly_window_utc(now_utc)
+    window_start, window_end, window_start_ct = rolling_window_utc(now_utc, WINDOW_DAYS)
+    window_end_ct = window_end.astimezone(CENTRAL_TZ)
 
     all_items: List[Dict[str, Any]] = []
     global_detail_fetches = 0
     per_source_detail_fetches: Dict[str, int] = {}
 
     pages_by_source: Dict[str, List[str]] = {}
-    for sp in get_start_pages(window_start_ct):
+    for sp in get_start_pages(window_start_ct, window_end_ct):
         pages_by_source.setdefault(sp.source, []).append(sp.url)
 
     for src in set(KNOWN_FEEDS.keys()) | {"Federal Register"}:
@@ -2243,7 +2086,7 @@ def build() -> None:
 
         gained = len(all_items) - source_items_before
         if gained == 0:
-            print("[note] no qualifying items in month window (or blocked/changed).", flush=True)
+            print("[note] no qualifying items in rolling window (or blocked/changed).", flush=True)
 
     dedup: Dict[str, Dict[str, Any]] = {}
     for it in sorted(all_items, key=lambda x: x["published_at"], reverse=True):
@@ -2299,18 +2142,20 @@ def build() -> None:
     )
 
 
+def force_run_enabled() -> bool:
+    return os.getenv("FORCE_RUN", "").strip().lower() in {"1", "true", "yes"}
+
+
+def running_in_github_actions() -> bool:
+    return os.getenv("GITHUB_ACTIONS", "").strip().lower() == "true"
+
+
 if __name__ == "__main__":
+    # ✅ RegDashboard should build on each run (rolling window).
+    # Keep FORCE_RUN as a manual override for debugging—otherwise just run.
     if running_in_github_actions():
-        if force_run_enabled():
-            print("[run] FORCE_RUN enabled -> building now", flush=True)
-            build()
-            _save_last_run_month(datetime.now(CENTRAL_TZ).strftime("%Y-%m"))
-        elif should_run_monthly_ct(target_hour=7, window_minutes=180):
-            build()
-            _save_last_run_month(datetime.now(CENTRAL_TZ).strftime("%Y-%m"))
-        else:
-            print("[skip] Not in monthly window (1st of month, CT) or already ran this month. Set FORCE_RUN=1 to override.", flush=True)
-    else:
-        print("[run] Local execution -> building now", flush=True)
+        print("[run] GitHub Actions -> building (rolling window)", flush=True)
         build()
-        _save_last_run_month(datetime.now(CENTRAL_TZ).strftime("%Y-%m"))
+    else:
+        print("[run] Local execution -> building (rolling window)", flush=True)
+        build()
