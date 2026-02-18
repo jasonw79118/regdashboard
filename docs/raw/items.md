@@ -1,7 +1,21 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T20:27:28Z` → `2026-02-18T20:27:28Z` (UTC)
-Last updated: `2026-02-18T14:27:28-06:00` (CT) — `2026-02-18T20:27:28Z` (UTC)
+Window: `2026-02-04T21:14:04Z` → `2026-02-18T21:14:04Z` (UTC)
+Last updated: `2026-02-18T15:14:04-06:00` (CT) — `2026-02-18T21:14:04Z` (UTC)
+
+## Treasury International Capital Data for December
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-18T21:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0396
+
+## Critical infra Honeywell CCTVs vulnerable to auth bypass flaw
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-18T20:58:20Z
+- URL: https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a critical vulnerability in multiple Honeywell CCTV products that allows unauthorized access to feeds or account hijacking. [...]
 
 ## AI platforms can be abused for stealthy malware communication
 - Source: BleepingComputer
@@ -12153,6 +12167,14 @@ A Spanish court has granted precautionary measures against NordVPN and ProtonVPN
 
 Vulnerabilities with high to critical severity ratings affecting popular Visual Studio Code (VSCode) extensions collectively downloaded more than 128 million times could be exploited to steal local files and execute code remotely. [...]
 
+## FinCEN issues exceptive relief on due diligence
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-02-17T20:55:53Z
+- URL: https://www.texasbankers.com/fincen-issues-exceptive-relief-on-due-diligence/
+
+The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued an order granting exceptive relief to covered financial institutions from certain requirements under FinCEN’s Customer Due Diligence Requirements for Financial Institutions rule (the “2016 CDD Rule”). The order exempts covered financial institutions from the requirement to identify and v…
+
 ## Chinese hackers exploiting Dell zero-day flaw since mid-2024
 - Source: BleepingComputer
 - Category: IS
@@ -12243,14 +12265,6 @@ A newly discovered and sophisticated Android malware called Keenadu has been fou
 
 Polish police have detained a 47-year-old man suspected of ties to the Phobos ransomware group and seized computers and mobile phones containing stolen credentials, credit card numbers, and server access data. [...]
 
-## Ireland now also investigating X over Grok-made sexual images
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T10:02:21Z
-- URL: https://www.bleepingcomputer.com/news/security/ireland-now-also-investigating-x-over-grok-made-sexual-images/
-
-Ireland's Data Protection Commission (DPC), the country's data protection authority, has opened a formal investigation into X over the use of the platform's Grok artificial intelligence tool to generate non-consensual sexual images of real people, including children. [...]
-
 ## President George Washington’s Birthday, 2026
 - Source: White House
 - Category: Executive
@@ -12325,6 +12339,12 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
 
+## Ireland now also investigating X over Grok-made sexual images
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/ireland-now-also-investigating-x-over-grok-made-sexual-images/
+
 ## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
 - Source: Visa
 - Category: Payment Card Networks
@@ -12332,12 +12352,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
 
 Northern Italy sees more than 60% increase in Visa cardholder visitors from overseas, with an increase in purchases up 80% compared to the same period in 2025 Significant increase in spending from Visa cardholders in many areas of commerce including Clothing & Accessories, Restaurants and Mobility
-
-## Washington Hotel in Japan discloses ransomware infection incident
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
 
 ## Presidential Message on Susan B. Anthony Day
 - Source: White House
