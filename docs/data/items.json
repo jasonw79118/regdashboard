@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-04T14:29:05Z",
-  "window_end": "2026-02-18T14:29:05Z",
-  "generated_at_utc": "2026-02-18T14:29:05Z",
-  "generated_at_ct": "2026-02-18T08:29:05-06:00",
+  "window_start": "2026-02-04T14:51:25Z",
+  "window_end": "2026-02-18T14:51:25Z",
+  "generated_at_utc": "2026-02-18T14:51:25Z",
+  "generated_at_ct": "2026-02-18T08:51:25-06:00",
   "items": [
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Presidential Message on Ash Wednesday",
+      "published_at": "2026-02-18T14:37:50Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-ash-wednesday/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -231,6 +239,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2022-32149 Denial of service via crafted Accept-Language header in golang.org/x/text/language",
+      "published_at": "2026-02-18T11:15:40Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-32149",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2023-32067 0-byte UDP payload DoS in c-ares",
       "published_at": "2026-02-18T11:15:32Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32067",
@@ -266,6 +282,14 @@
       "title": "CVE-2022-4904 A flaw was found in the c-ares package. The ares_set_sortlist is missing checks about the validity of the input string which allows a possible arbitrary length stack overflow. This issue may cause a denial…",
       "published_at": "2026-02-18T11:14:26Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-4904",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2021-44716 net/http in Go before 1.16.12 and 1.17.x before 1.17.5 allows uncontrolled memory consumption in the header canonicalization cache via HTTP/2 requests.",
+      "published_at": "2026-02-18T11:14:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-44716",
       "summary": "Information published."
     },
     {
@@ -618,6 +642,14 @@
       "title": "CVE-2025-31344 The giflib open-source component has a buffer overflow vulnerability",
       "published_at": "2026-02-18T11:09:55Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-31344",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2022-42915 curl before 7.86.0 has a double free. If curl is told to use an HTTP proxy for a transfer with a non-HTTP(S) URL it sets up the connection to the remote server by issuing a CONNECT request to the proxy an…",
+      "published_at": "2026-02-18T11:09:47Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-42915",
       "summary": "Information published."
     },
     {
@@ -2055,6 +2087,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-68756 block: Use RCU in blk_mq_[un]quiesce_tagset() instead of set->tag_list_lock",
+      "published_at": "2026-02-18T10:54:14Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68756",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38197 platform/x86: dell_rbu: Fix list usage",
       "published_at": "2026-02-18T10:54:12Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38197",
@@ -2106,6 +2146,14 @@
       "title": "CVE-2024-42077 ocfs2: fix DIO failure due to insufficient transaction credits",
       "published_at": "2026-02-18T10:53:37Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-42077",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-68757 drm/vgem-fence: Fix potential deadlock on release",
+      "published_at": "2026-02-18T10:53:29Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68757",
       "summary": "Information published."
     },
     {
@@ -2207,6 +2255,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2025-68759 wifi: rtl818x: Fix potential memory leaks in rtl8180_init_rx_ring()",
+      "published_at": "2026-02-18T10:52:26Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68759",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38214 fbdev: Fix fb_set_var to prevent null-ptr-deref in fb_videomode_to_var",
       "published_at": "2026-02-18T10:52:01Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38214",
@@ -2258,6 +2314,14 @@
       "title": "CVE-2024-49767 Werkzeug possible resource exhaustion when parsing file data in forms",
       "published_at": "2026-02-18T10:51:45Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49767",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-68765 mt76: mt7615: Fix memory leak in mt7615_mcu_wtbl_sta_add()",
+      "published_at": "2026-02-18T10:51:33Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68765",
       "summary": "Information published."
     },
     {
@@ -2362,6 +2426,14 @@
       "title": "CVE-2024-0567 Gnutls: rejects certificate chain with distributed trust",
       "published_at": "2026-02-18T10:50:48Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0567",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-68764 NFS: Automounted filesystems should inherit ro,noexec,nodev,sync flags",
+      "published_at": "2026-02-18T10:50:46Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68764",
       "summary": "Information published."
     },
     {
@@ -3351,6 +3423,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2022-2879 Unbounded memory consumption when reading headers in archive/tar",
+      "published_at": "2026-02-18T10:39:51Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2879",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2023-29406 Insufficient sanitization of Host header in net/http",
       "published_at": "2026-02-18T10:39:40Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29406",
@@ -3658,6 +3738,14 @@
       "title": "CVE-2025-39789 crypto: x86/aegis - Add missing error checks",
       "published_at": "2026-02-18T10:36:22Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-39789",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2022-2880 Incorrect sanitization of forwarded query parameters in net/http/httputil",
+      "published_at": "2026-02-18T10:36:17Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2880",
       "summary": "Information published."
     },
     {
@@ -3986,6 +4074,14 @@
       "title": "CVE-2025-39779 btrfs: subpage: keep TOWRITE tag until folio is cleaned",
       "published_at": "2026-02-18T10:32:44Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-39779",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2022-41715 Memory exhaustion when compiling regular expressions in regexp/syntax",
+      "published_at": "2026-02-18T10:32:43Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41715",
       "summary": "Information published."
     },
     {
@@ -4746,6 +4842,14 @@
       "title": "CVE-2025-39694 s390/sclp: Fix SCCB present check",
       "published_at": "2026-02-18T10:24:38Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-39694",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2021-4160 BN_mod_exp may produce incorrect results on MIPS",
+      "published_at": "2026-02-18T10:24:18Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-4160",
       "summary": "Information published."
     },
     {
@@ -5786,6 +5890,14 @@
       "title": "CVE-2025-37883 s390/sclp: Add check for get_zeroed_page()",
       "published_at": "2026-02-18T10:13:21Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37883",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2020-28367 Arbitrary code execution via the go command with cgo in cmd/go",
+      "published_at": "2026-02-18T10:13:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-28367",
       "summary": "Information published."
     },
     {
@@ -8111,6 +8223,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2022-3171 Memory handling vulnerability in ProtocolBuffers Java core and lite",
+      "published_at": "2026-02-18T09:44:15Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-3171",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2025-38117 Bluetooth: MGMT: Protect mgmt_pending list with its own lock",
       "published_at": "2026-02-18T09:44:07Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38117",
@@ -8623,6 +8743,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2022-2929 DHCP memory leak",
+      "published_at": "2026-02-18T09:36:43Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2929",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-44998 atm: idt77252: prevent use after free in dequeue_rx()",
       "published_at": "2026-02-18T09:36:37Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-44998",
@@ -8690,6 +8818,14 @@
       "title": "CVE-2024-39480 kdb: Fix buffer overflow during tab-complete",
       "published_at": "2026-02-18T09:36:06Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-39480",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2022-2928 An option refcount overflow exists in dhcpd",
+      "published_at": "2026-02-18T09:36:05Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2928",
       "summary": "Information published."
     },
     {
@@ -10487,6 +10623,14 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
+      "title": "CVE-2020-28362 Go before 1.14.12 and 1.15.x before 1.15.4 allows Denial of Service.",
+      "published_at": "2026-02-18T09:11:30Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-28362",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
       "title": "CVE-2024-24791 Denial of service due to improper 100-continue handling in net/http",
       "published_at": "2026-02-18T09:11:21Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-24791",
@@ -11549,14 +11693,6 @@
       "summary": ""
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "President Trump Delivers Biggest Regulatory Relief in History",
-      "published_at": "2026-02-13T18:13:07Z",
-      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-delivers-biggest-regulatory-relief-in-history/",
-      "summary": ""
-    },
-    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability",
@@ -12435,14 +12571,6 @@
       "published_at": "2026-02-06T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260206",
       "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "Comptroller Discusses Importance of Financial Education",
-      "published_at": "2026-02-06T00:00:00Z",
-      "url": "https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s",
-      "summary": "Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu..."
     },
     {
       "category": "Federal Register",

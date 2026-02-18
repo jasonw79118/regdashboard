@@ -1,7 +1,13 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T14:29:05Z` → `2026-02-18T14:29:05Z` (UTC)
-Last updated: `2026-02-18T08:29:05-06:00` (CT) — `2026-02-18T14:29:05Z` (UTC)
+Window: `2026-02-04T14:51:25Z` → `2026-02-18T14:51:25Z` (UTC)
+Last updated: `2026-02-18T08:51:25-06:00` (CT) — `2026-02-18T14:51:25Z` (UTC)
+
+## Presidential Message on Ash Wednesday
+- Source: White House
+- Category: Executive
+- Published: 2026-02-18T14:37:50Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-ash-wednesday/
 
 ## Data breach at fintech firm Figure affects nearly 1 million accounts
 - Source: BleepingComputer
@@ -227,6 +233,14 @@ Information published.
 
 Information published.
 
+## CVE-2022-32149 Denial of service via crafted Accept-Language header in golang.org/x/text/language
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T11:15:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-32149
+
+Information published.
+
 ## CVE-2023-32067 0-byte UDP payload DoS in c-ares
 - Source: Microsoft MSRC
 - Category: IS
@@ -264,6 +278,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T11:14:26Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-4904
+
+Information published.
+
+## CVE-2021-44716 net/http in Go before 1.16.12 and 1.17.x before 1.17.5 allows uncontrolled memory consumption in the header canonicalization cache via HTTP/2 requests.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T11:14:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-44716
 
 Information published.
 
@@ -616,6 +638,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T11:09:55Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-31344
+
+Information published.
+
+## CVE-2022-42915 curl before 7.86.0 has a double free. If curl is told to use an HTTP proxy for a transfer with a non-HTTP(S) URL it sets up the connection to the remote server by issuing a CONNECT request to the proxy an…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T11:09:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-42915
 
 Information published.
 
@@ -2051,6 +2081,14 @@ Information published.
 
 Information published.
 
+## CVE-2025-68756 block: Use RCU in blk_mq_[un]quiesce_tagset() instead of set->tag_list_lock
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:54:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68756
+
+Information published.
+
 ## CVE-2025-38197 platform/x86: dell_rbu: Fix list usage
 - Source: Microsoft MSRC
 - Category: IS
@@ -2104,6 +2142,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:53:37Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-42077
+
+Information published.
+
+## CVE-2025-68757 drm/vgem-fence: Fix potential deadlock on release
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:53:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68757
 
 Information published.
 
@@ -2203,6 +2249,14 @@ Information published.
 
 Information published.
 
+## CVE-2025-68759 wifi: rtl818x: Fix potential memory leaks in rtl8180_init_rx_ring()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:52:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68759
+
+Information published.
+
 ## CVE-2025-38214 fbdev: Fix fb_set_var to prevent null-ptr-deref in fb_videomode_to_var
 - Source: Microsoft MSRC
 - Category: IS
@@ -2256,6 +2310,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:51:45Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49767
+
+Information published.
+
+## CVE-2025-68765 mt76: mt7615: Fix memory leak in mt7615_mcu_wtbl_sta_add()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:51:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68765
 
 Information published.
 
@@ -2360,6 +2422,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:50:48Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0567
+
+Information published.
+
+## CVE-2025-68764 NFS: Automounted filesystems should inherit ro,noexec,nodev,sync flags
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:50:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68764
 
 Information published.
 
@@ -3347,6 +3417,14 @@ Information published.
 
 Information published.
 
+## CVE-2022-2879 Unbounded memory consumption when reading headers in archive/tar
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:39:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2879
+
+Information published.
+
 ## CVE-2023-29406 Insufficient sanitization of Host header in net/http
 - Source: Microsoft MSRC
 - Category: IS
@@ -3656,6 +3734,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:36:22Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-39789
+
+Information published.
+
+## CVE-2022-2880 Incorrect sanitization of forwarded query parameters in net/http/httputil
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:36:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2880
 
 Information published.
 
@@ -3984,6 +4070,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:32:44Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-39779
+
+Information published.
+
+## CVE-2022-41715 Memory exhaustion when compiling regular expressions in regexp/syntax
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:32:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41715
 
 Information published.
 
@@ -4744,6 +4838,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:24:38Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-39694
+
+Information published.
+
+## CVE-2021-4160 BN_mod_exp may produce incorrect results on MIPS
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:24:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-4160
 
 Information published.
 
@@ -5784,6 +5886,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T10:13:21Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37883
+
+Information published.
+
+## CVE-2020-28367 Arbitrary code execution via the go command with cgo in cmd/go
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T10:13:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-28367
 
 Information published.
 
@@ -8107,6 +8217,14 @@ Information published.
 
 Information published.
 
+## CVE-2022-3171 Memory handling vulnerability in ProtocolBuffers Java core and lite
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T09:44:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-3171
+
+Information published.
+
 ## CVE-2025-38117 Bluetooth: MGMT: Protect mgmt_pending list with its own lock
 - Source: Microsoft MSRC
 - Category: IS
@@ -8619,6 +8737,14 @@ Information published.
 
 Information published.
 
+## CVE-2022-2929 DHCP memory leak
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T09:36:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2929
+
+Information published.
+
 ## CVE-2024-44998 atm: idt77252: prevent use after free in dequeue_rx()
 - Source: Microsoft MSRC
 - Category: IS
@@ -8688,6 +8814,14 @@ Information published.
 - Category: IS
 - Published: 2026-02-18T09:36:06Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-39480
+
+Information published.
+
+## CVE-2022-2928 An option refcount overflow exists in dhcpd
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T09:36:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-2928
 
 Information published.
 
@@ -10483,6 +10617,14 @@ Information published.
 
 Information published.
 
+## CVE-2020-28362 Go before 1.14.12 and 1.15.x before 1.15.4 allows Denial of Service.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T09:11:30Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-28362
+
+Information published.
+
 ## CVE-2024-24791 Denial of service due to improper 100-continue handling in net/http
 - Source: Microsoft MSRC
 - Category: IS
@@ -11505,12 +11647,6 @@ Northern Italy sees more than 60% increase in Visa cardholder visitors from over
 - Published: 2026-02-13T20:49:46Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-embraces-love-of-country-family-to-united-states-armed-forces/
 
-## President Trump Delivers Biggest Regulatory Relief in History
-- Source: White House
-- Category: Executive
-- Published: 2026-02-13T18:13:07Z
-- URL: https://www.whitehouse.gov/articles/2026/02/president-trump-delivers-biggest-regulatory-relief-in-history/
-
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -12342,14 +12478,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: OFAC
 - Published: 2026-02-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260206
-
-## Comptroller Discusses Importance of Financial Education
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-06T00:00:00Z
-- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
-
-Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register
