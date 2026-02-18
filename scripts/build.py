@@ -527,58 +527,11 @@ def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
 
 
 # ============================
-# ✅ NEW: markdown/plain-text link extraction (for r.jina.ai proxy output)
-# ============================
-
-MD_LINK_RE = re.compile(r"\[(?P<title>[^\]]{1,300})\]\((?P<url>https?://[^\s)]+)\)")
-URL_RE = re.compile(r"(?P<url>https?://www\.mastercard\.com/[^\s)\"'<>]+)")
-
-
-def extract_md_links(text: str, *, base_url: str) -> List[Tuple[str, str]]:
-    """
-    Extract (title, url) pairs from markdown-ish text.
-    Used when a proxy returns plain text with [Title](https://...) links.
-    Falls back to raw URL capture if no markdown links exist.
-    """
-    out: List[Tuple[str, str]] = []
-    seen: set[str] = set()
-
-    if not text:
-        return out
-
-    for m in MD_LINK_RE.finditer(text):
-        title = clean_text(m.group("title") or "", 220)
-        url = canonical_url(m.group("url") or "")
-        if not url:
-            continue
-        if url in seen:
-            continue
-        seen.add(url)
-        out.append((title, url))
-
-    if out:
-        return out
-
-    # Fallback: raw URL capture (no title)
-    for m in URL_RE.finditer(text):
-        url = canonical_url(m.group("url") or "")
-        if not url:
-            continue
-        if url in seen:
-            continue
-        seen.add(url)
-        out.append(("", url))
-
-    return out
-
-
-# ============================
-# ✅ NEW: Mastercard 403 fallback via r.jina.ai proxy
+# ✅ Mastercard 403 fallback via r.jina.ai proxy
 # ============================
 def _jina_proxy_url(url: str) -> str:
     """
     Build a r.jina.ai proxy URL that often bypasses 403 bot walls.
-    We try both http:// and https:// forms.
     """
     u = url.strip()
     if u.startswith("https://"):
@@ -678,8 +631,8 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 time.sleep(REQUEST_DELAY_SEC)
                 pr = SESSION.get(
                     proxy_url,
-                    # accept html OR text because r.jina.ai sometimes returns markdown/plaintext
-                    headers={"User-Agent": browser_ua, "Accept": "text/html,text/plain,*/*"},
+                    # ✅ ask for HTML-ish output; r.jina.ai may still return text/markdown but this helps
+                    headers={"User-Agent": browser_ua, "Accept": "text/html,application/xhtml+xml,*/*"},
                     timeout=(10, max(read_timeout, 40)),
                     allow_redirects=True,
                 )
@@ -1439,45 +1392,89 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 
 
 # ============================
-# Mastercard: capture press-release links on /press.html
+# Mastercard: capture press-release links
 # ============================
 
+# ✅ UPDATED:
+# - allow month folders like /press/2026/february/slug.html
+# - still allow older style /press/2025/slug.html
 MASTERCARD_PR_PATH_RE = re.compile(
-    r"^/(us|global|gb|mea)/en/news-and-trends/press/\d{4}/[a-z0-9\-]+\.html$",
+    r"^/(us|global|gb|mea)/en/news-and-trends/press/"
+    r"(?P<year>\d{4})"
+    r"(?:/[a-z]{3,12})?"             # optional month folder
+    r"/[a-z0-9\-%]+\.html$",
+    re.I,
+)
+
+# ✅ markdown link format often returned by r.jina.ai:
+# [Title](https://www.mastercard.com/us/en/news-and-trends/press/2026/february/slug.html)
+MC_MARKDOWN_LINK_RE = re.compile(
+    r"\[([^\]]{8,220})\]\((https?://www\.mastercard\.com/[^\s)]+)\)",
     re.I,
 )
 
 
-def _title_from_mastercard_slug(u: str) -> str:
-    try:
-        p = urlparse(u).path
-        slug = p.split("/")[-1].replace(".html", "")
-        slug = slug.replace("-", " ").strip()
-        if not slug:
-            return ""
-        # avoid shouting-case; keep simple title casing
-        return clean_text(slug[:1].upper() + slug[1:], 220)
-    except Exception:
-        return ""
+def _mastercard_links_from_text(page_url: str, text: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    Fallback for proxy responses that are not real HTML (often markdown/plain text).
+    Extract markdown links and also raw URLs that match press-release paths.
+    """
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    # 1) markdown links
+    for m in MC_MARKDOWN_LINK_RE.finditer(text or ""):
+        title = clean_text(m.group(1), 220)
+        url = canonical_url(m.group(2))
+        if not url:
+            continue
+        if not allowed_for_source("Mastercard", url):
+            continue
+        if not MASTERCARD_PR_PATH_RE.match(urlparse(url).path):
+            continue
+        if is_probably_nav_link("Mastercard", title, url):
+            continue
+        if is_generic_listing_or_home("Mastercard", title, url):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = extract_any_date(text, source="Mastercard")
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            return links
+
+    # 2) raw URLs (no titles)
+    raw_url_re = re.compile(r"(https?://www\.mastercard\.com/[^\s\"')<>]+)", re.I)
+    for m in raw_url_re.finditer(text or ""):
+        url = canonical_url(m.group(1))
+        if not url:
+            continue
+        if not allowed_for_source("Mastercard", url):
+            continue
+        if not MASTERCARD_PR_PATH_RE.match(urlparse(url).path):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        links.append(("Mastercard press release", url, None))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
 
 
 def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    """
-    Mastercard listing page is frequently 403 for bots.
-    When fetched via r.jina.ai proxy, content is often markdown/plaintext (no <a href> anchors).
-    This function handles BOTH:
-      1) normal HTML with anchors
-      2) markdown/plaintext with [title](url) patterns
-    """
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
     if not container:
-        container = soup
+        return []
 
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
-    # ---- First pass: normal HTML anchors
+    # Try normal HTML anchors first
     for a in container.select("a[href]"):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1522,35 +1519,14 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
         if len(links) >= MAX_LISTING_LINKS:
             return links
 
-    # ---- Fallback pass: markdown/plaintext links (proxy output)
-    if not links:
-        md_pairs = extract_md_links(html, base_url=page_url)
-        for raw_title, raw_url in md_pairs:
-            u = urlparse(raw_url)
-            if u.netloc.lower() != "www.mastercard.com":
+    # ✅ If we got almost nothing, assume proxy returned markdown/plain and parse text
+    if len(links) < 5:
+        extra = _mastercard_links_from_text(page_url, html)
+        for t, u, d in extra:
+            if u in seen:
                 continue
-            if not MASTERCARD_PR_PATH_RE.match(u.path):
-                continue
-
-            url = canonical_url(raw_url)
-            if not allowed_for_source("Mastercard", url):
-                continue
-            if url in seen:
-                continue
-
-            title = clean_text(raw_title or "", 220)
-            if not title or len(title) < 8:
-                title = _title_from_mastercard_slug(url)
-            if not title or title.lower() in {"read more", "learn more", "more", "details"}:
-                continue
-            if is_probably_nav_link("Mastercard", title, url):
-                continue
-            if is_generic_listing_or_home("Mastercard", title, url):
-                continue
-
-            seen.add(url)
-            # dt will be resolved later via detail fetch if missing
-            links.append((title, url, None))
+            seen.add(u)
+            links.append((t, u, d))
             if len(links) >= MAX_LISTING_LINKS:
                 break
 
@@ -2024,7 +2000,15 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 
 
 def get_start_pages() -> List[SourcePage]:
-    return [
+    # ✅ dynamic year pages for Mastercard so rolling window always hits current content
+    now_ct = utc_now().astimezone(CENTRAL_TZ)
+    y = now_ct.year
+    mc_year_pages = [
+        f"https://www.mastercard.com/us/en/news-and-trends/press/{y}.html",
+        f"https://www.mastercard.com/us/en/news-and-trends/press/{y-1}.html",
+    ]
+
+    pages = [
         # OFAC
         SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
         SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
@@ -2070,24 +2054,35 @@ def get_start_pages() -> List[SourcePage]:
 
         # Payment Networks
         SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
+
+        # ✅ Mastercard: keep the main page plus year pages that list current press releases
         SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
-
-        # InfoSec (feed-only)
-        SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/"),
-        SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/"),
-
-        # CDIA
-        SourcePage("CDIA", "https://www.cdiaonline.org/news-events-blogs"),
-
-        # FASB
-        SourcePage("FASB", "https://www.fasb.org/news-and-meetings/in-the-news"),
-
-        # Compliance Watch sources
-        SourcePage("ABA", "https://www.aba.com/news-research/all-news#sort=%40fcontentdate%20descending"),
-        SourcePage("TBA", "https://www.texasbankers.com/news/"),
-        SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news?f:contenttype=News%20Page%7CPress%20Release%20Page"),
-        SourcePage("Bankers Online", "https://www.bankersonline.com/topstory"),
     ]
+
+    for u in mc_year_pages:
+        pages.append(SourcePage("Mastercard", u))
+
+    pages.extend(
+        [
+            # InfoSec (feed-only)
+            SourcePage("BleepingComputer", "https://www.bleepingcomputer.com/"),
+            SourcePage("Microsoft MSRC", "https://api.msrc.microsoft.com/"),
+
+            # CDIA
+            SourcePage("CDIA", "https://www.cdiaonline.org/news-events-blogs"),
+
+            # FASB
+            SourcePage("FASB", "https://www.fasb.org/news-and-meetings/in-the-news"),
+
+            # Compliance Watch sources
+            SourcePage("ABA", "https://www.aba.com/news-research/all-news#sort=%40fcontentdate%20descending"),
+            SourcePage("TBA", "https://www.texasbankers.com/news/"),
+            SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news?f:contenttype=News%20Page%7CPress%20Release%20Page"),
+            SourcePage("Bankers Online", "https://www.bankersonline.com/topstory"),
+        ]
+    )
+
+    return pages
 
 
 # ============================
