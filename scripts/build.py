@@ -527,6 +527,52 @@ def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
 
 
 # ============================
+# ✅ NEW: markdown/plain-text link extraction (for r.jina.ai proxy output)
+# ============================
+
+MD_LINK_RE = re.compile(r"\[(?P<title>[^\]]{1,300})\]\((?P<url>https?://[^\s)]+)\)")
+URL_RE = re.compile(r"(?P<url>https?://www\.mastercard\.com/[^\s)\"'<>]+)")
+
+
+def extract_md_links(text: str, *, base_url: str) -> List[Tuple[str, str]]:
+    """
+    Extract (title, url) pairs from markdown-ish text.
+    Used when a proxy returns plain text with [Title](https://...) links.
+    Falls back to raw URL capture if no markdown links exist.
+    """
+    out: List[Tuple[str, str]] = []
+    seen: set[str] = set()
+
+    if not text:
+        return out
+
+    for m in MD_LINK_RE.finditer(text):
+        title = clean_text(m.group("title") or "", 220)
+        url = canonical_url(m.group("url") or "")
+        if not url:
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        out.append((title, url))
+
+    if out:
+        return out
+
+    # Fallback: raw URL capture (no title)
+    for m in URL_RE.finditer(text):
+        url = canonical_url(m.group("url") or "")
+        if not url:
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        out.append(("", url))
+
+    return out
+
+
+# ============================
 # ✅ NEW: Mastercard 403 fallback via r.jina.ai proxy
 # ============================
 def _jina_proxy_url(url: str) -> str:
@@ -632,7 +678,8 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 time.sleep(REQUEST_DELAY_SEC)
                 pr = SESSION.get(
                     proxy_url,
-                    headers={"User-Agent": browser_ua, "Accept": "text/plain,*/*"},
+                    # accept html OR text because r.jina.ai sometimes returns markdown/plaintext
+                    headers={"User-Agent": browser_ua, "Accept": "text/html,text/plain,*/*"},
                     timeout=(10, max(read_timeout, 40)),
                     allow_redirects=True,
                 )
@@ -1401,15 +1448,36 @@ MASTERCARD_PR_PATH_RE = re.compile(
 )
 
 
+def _title_from_mastercard_slug(u: str) -> str:
+    try:
+        p = urlparse(u).path
+        slug = p.split("/")[-1].replace(".html", "")
+        slug = slug.replace("-", " ").strip()
+        if not slug:
+            return ""
+        # avoid shouting-case; keep simple title casing
+        return clean_text(slug[:1].upper() + slug[1:], 220)
+    except Exception:
+        return ""
+
+
 def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    Mastercard listing page is frequently 403 for bots.
+    When fetched via r.jina.ai proxy, content is often markdown/plaintext (no <a href> anchors).
+    This function handles BOTH:
+      1) normal HTML with anchors
+      2) markdown/plaintext with [title](url) patterns
+    """
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
     if not container:
-        return []
+        container = soup
 
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen = set()
 
+    # ---- First pass: normal HTML anchors
     for a in container.select("a[href]"):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1452,7 +1520,39 @@ def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 
         links.append((title, url, dt))
         if len(links) >= MAX_LISTING_LINKS:
-            break
+            return links
+
+    # ---- Fallback pass: markdown/plaintext links (proxy output)
+    if not links:
+        md_pairs = extract_md_links(html, base_url=page_url)
+        for raw_title, raw_url in md_pairs:
+            u = urlparse(raw_url)
+            if u.netloc.lower() != "www.mastercard.com":
+                continue
+            if not MASTERCARD_PR_PATH_RE.match(u.path):
+                continue
+
+            url = canonical_url(raw_url)
+            if not allowed_for_source("Mastercard", url):
+                continue
+            if url in seen:
+                continue
+
+            title = clean_text(raw_title or "", 220)
+            if not title or len(title) < 8:
+                title = _title_from_mastercard_slug(url)
+            if not title or title.lower() in {"read more", "learn more", "more", "details"}:
+                continue
+            if is_probably_nav_link("Mastercard", title, url):
+                continue
+            if is_generic_listing_or_home("Mastercard", title, url):
+                continue
+
+            seen.add(url)
+            # dt will be resolved later via detail fetch if missing
+            links.append((title, url, None))
+            if len(links) >= MAX_LISTING_LINKS:
+                break
 
     return links
 

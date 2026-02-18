@@ -1,7 +1,77 @@
 # RegDashboard — Export
 
-Window: `2026-02-04T22:42:37Z` → `2026-02-18T22:42:37Z` (UTC)
-Last updated: `2026-02-18T16:42:37-06:00` (CT) — `2026-02-18T22:42:37Z` (UTC)
+Window: `2026-02-04T23:03:27Z` → `2026-02-18T23:03:27Z` (UTC)
+Last updated: `2026-02-18T17:03:27-06:00` (CT) — `2026-02-18T23:03:27Z` (UTC)
+
+## CVE-2024-40635 containerd has an integer overflow in User ID handling
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T23:02:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-40635
+
+Information published.
+
+## CVE-2025-2295 Potential iSCSI R2T PDU Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:59:30Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2295
+
+Information published.
+
+## CVE-2023-5764 Ansible: template injection
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:56:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5764
+
+Information published.
+
+## CVE-2023-6864 Memory safety bugs present in Firefox 120, Firefox ESR 115.5, and Thunderbird 115.5. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:50:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-6864
+
+Information published.
+
+## CVE-2021-32714 Integer Overflow in Chunked Transfer-Encoding
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:49:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-32714
+
+Information published.
+
+## CVE-2017-15042 An unintended cleartext issue exists in Go before 1.8.4 and 1.9.x before 1.9.1. RFC 4954 requires that, during SMTP, the PLAIN auth scheme must only be used on network connections secured with TLS. The or…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:49:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-15042
+
+Information published.
+
+## Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides
+- Source: White House
+- Category: Executive
+- Published: 2026-02-18T22:47:24Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/02/promoting-the-national-defense-by-ensuring-an-adequate-supply-of-elemental-phosphorus-and-glyphosate-based-herbicides/
+
+## CVE-2023-6856 The WebGL `DrawElementsInstanced` method was susceptible to a heap buffer overflow when used on systems with the Mesa VM driver. This issue could allow an attacker to perform remote code execution and sand…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:46:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-6856
+
+Information published.
+
+## CVE-2025-24855 numbers.c in libxslt before 1.1.43 has a use-after-free because, in nested XPath evaluations, an XPath context node can be modified but never restored. This is related to xsltNumberFormatGetValue, xsltEva…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-18T22:42:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24855
+
+Information published.
 
 ## CVE-2025-71119 powerpc/kexec: Enable SMT before waking offline CPUs
 - Source: Microsoft MSRC
@@ -13114,12 +13184,6 @@ Northern Italy sees more than 60% increase in Visa cardholder visitors from over
 - Category: Executive
 - Published: 2026-02-15T22:00:59Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-susan-b-anthony-day/
-
-## Presidential Message on the Daytona 500
-- Source: White House
-- Category: Executive
-- Published: 2026-02-15T15:39:15Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-the-daytona-500/
 
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC

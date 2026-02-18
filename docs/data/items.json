@@ -1,9 +1,81 @@
 {
-  "window_start": "2026-02-04T22:42:37Z",
-  "window_end": "2026-02-18T22:42:37Z",
-  "generated_at_utc": "2026-02-18T22:42:37Z",
-  "generated_at_ct": "2026-02-18T16:42:37-06:00",
+  "window_start": "2026-02-04T23:03:27Z",
+  "window_end": "2026-02-18T23:03:27Z",
+  "generated_at_utc": "2026-02-18T23:03:27Z",
+  "generated_at_ct": "2026-02-18T17:03:27-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2024-40635 containerd has an integer overflow in User ID handling",
+      "published_at": "2026-02-18T23:02:44Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-40635",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-2295 Potential iSCSI R2T PDU Vulnerability",
+      "published_at": "2026-02-18T22:59:30Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2295",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-5764 Ansible: template injection",
+      "published_at": "2026-02-18T22:56:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5764",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-6864 Memory safety bugs present in Firefox 120, Firefox ESR 115.5, and Thunderbird 115.5. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have…",
+      "published_at": "2026-02-18T22:50:48Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-6864",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2021-32714 Integer Overflow in Chunked Transfer-Encoding",
+      "published_at": "2026-02-18T22:49:54Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-32714",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2017-15042 An unintended cleartext issue exists in Go before 1.8.4 and 1.9.x before 1.9.1. RFC 4954 requires that, during SMTP, the PLAIN auth scheme must only be used on network connections secured with TLS. The or…",
+      "published_at": "2026-02-18T22:49:38Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-15042",
+      "summary": "Information published."
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides",
+      "published_at": "2026-02-18T22:47:24Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/promoting-the-national-defense-by-ensuring-an-adequate-supply-of-elemental-phosphorus-and-glyphosate-based-herbicides/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-6856 The WebGL `DrawElementsInstanced` method was susceptible to a heap buffer overflow when used on systems with the Mesa VM driver. This issue could allow an attacker to perform remote code execution and sand…",
+      "published_at": "2026-02-18T22:46:26Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-6856",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-24855 numbers.c in libxslt before 1.1.43 has a use-after-free because, in nested XPath evaluations, an XPath context node can be modified but never restored. This is related to xsltNumberFormatGetValue, xsltEva…",
+      "published_at": "2026-02-18T22:42:46Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24855",
+      "summary": "Information published."
+    },
     {
       "category": "IS",
       "source": "Microsoft MSRC",
@@ -13170,14 +13242,6 @@
       "title": "Presidential Message on Susan B. Anthony Day",
       "published_at": "2026-02-15T22:00:59Z",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-susan-b-anthony-day/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Presidential Message on the Daytona 500",
-      "published_at": "2026-02-15T15:39:15Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-the-daytona-500/",
       "summary": ""
     },
     {
