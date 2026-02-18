@@ -55,6 +55,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "USDA Rural Development": 55,
     "Mastercard": 120,   # ✅ increased
     "Visa": 160,         # ✅ increased (Visa listing dates often missing)
+    "FHLB MPF": 25,      # ✅ NEW: allow some detail fetches if needed
     "Fannie Mae": 35,
     "Freddie Mac": 10,
     "FIS": 25,
@@ -320,6 +321,12 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     "Mambu": {"allow_domains": {"mambu.com"}},
     "Finastra": {"allow_domains": {"www.finastra.com"}},
     "TCS": {"allow_domains": {"www.tcs.com"}},
+
+    # ✅ NEW: keep FHLB MPF focused on the MPF Program Updates area
+    "FHLB MPF": {
+        "allow_domains": {"www.fhlbmpf.com"},
+        "allow_path_prefixes": {"/program-guidelines/mpf-program-updates"},
+    },
 
     "CDIA": {
         "allow_domains": {"www.cdiaonline.org"},
@@ -814,6 +821,11 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
         if p.endswith("/news-and-trends/press"):
             return False
 
+    # ✅ FHLB MPF listing page is valid
+    if source == "FHLB MPF":
+        if p.endswith("/program-guidelines/mpf-program-updates"):
+            return False
+
     return False
 
 
@@ -1143,6 +1155,96 @@ def is_likely_article_anchor(a: Any) -> bool:
     if p is not None:
         return True
     return False
+
+
+# ============================
+# FHLB MPF (Program Updates)
+#   Page format is typically:
+#     Jan 30, 2026
+#     <a>MPF Announcement 2026-06</a>
+# ============================
+
+FHLBMPF_LISTING_PATH = "/program-guidelines/mpf-program-updates"
+FHLBMPF_DETAIL_PREFIX = "/program-guidelines/mpf-program-updates/"
+
+
+def fhlbmpf_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    # Target only detail pages under the Program Updates prefix
+    for a in container.select(f'a[href^="{FHLBMPF_DETAIL_PREFIX}"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        # Skip the listing page itself if it appears
+        if href.rstrip("/") == FHLBMPF_LISTING_PATH.rstrip("/"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("FHLB MPF", url):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        if not raw_title:
+            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
+
+        title = clean_text(raw_title, 220)
+        if not title or len(title) < 8:
+            continue
+
+        if title.lower() in {"read more", "learn more", "more", "details"}:
+            continue
+        if is_probably_nav_link("FHLB MPF", title, url):
+            continue
+        if is_generic_listing_or_home("FHLB MPF", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        # Date usually lives near the anchor (same card/row)
+        dt = find_time_near_anchor(a, "FHLB MPF")
+
+        # If still none, scan a few previous siblings for a Month Day, Year string
+        if dt is None:
+            try:
+                checked = 0
+                for sib in a.previous_siblings:
+                    if checked >= 15:
+                        break
+                    checked += 1
+                    txt = ""
+                    if isinstance(sib, str):
+                        txt = sib.strip()
+                    else:
+                        try:
+                            txt = (sib.get_text(" ", strip=True) or "").strip()
+                        except Exception:
+                            txt = ""
+                    if not txt:
+                        continue
+                    dt2 = extract_any_date(txt, source="FHLB MPF")
+                    if dt2:
+                        dt = dt2
+                        break
+            except Exception:
+                pass
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
 
 
 # ----------------------------
@@ -1710,6 +1812,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return freddiemac_globenewswire_links(page_url, html)
     if source == "CDIA":
         return cdia_links(page_url, html)
+    if source == "FHLB MPF":
+        return fhlbmpf_links(page_url, html)
 
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup)
