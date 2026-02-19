@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T20:04:41Z` → `2026-02-19T20:04:41Z` (UTC)
-Last updated: `2026-02-19T14:04:41-06:00` (CT) — `2026-02-19T20:04:41Z` (UTC)
+Window: `2026-02-05T20:14:56Z` → `2026-02-19T20:14:56Z` (UTC)
+Last updated: `2026-02-19T14:14:56-06:00` (CT) — `2026-02-19T20:14:56Z` (UTC)
 
 ## Federal Reserve Board announces it will hold a hybrid public outreach meeting on Thursday, March 26, as part of its review of regulations under the Economic Growth and Regulatory Paperwork Reduction Act (EGRPRA)
 - Source: FRB
@@ -14255,12 +14255,6 @@ The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (Fi
 
 The highly anticipated CDIA Connect returns May 6–8, 2026, in Washington, DC — bringing together legal experts, thought leaders, regulators, and industry officials for timely... The post Just Announced: New Speakers Added to CDIA Connect 2026! appeared first on CDIA .
 
-## Presidential Message on Lunar New Year
-- Source: White House
-- Category: Executive
-- Published: 2026-02-17T16:11:33Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-lunar-new-year/
-
 ## CVE-2026-0102 Microsoft Edge (Chromium-based) Defense in Depth Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -17206,6 +17200,60 @@ The Coast Guard is modifying the operating regulation that governs the Point No 
 - Category: OFAC
 - Published: 2026-02-10T15:05:03Z
 - URL: https://home.treasury.gov/news/press-releases/sb0392
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/mexico-among-leading-countries-application-ai-financial-sector-according-research
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/finastra-research-reveals-us-financial-institutions-outpace-global-peers-ai-adoption
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-saudi-arabia-banks-move-experimentation-execution-finds
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-uae-banks-move-experimentation-execution-finds-finastra
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/german-financial-institutions-are-rapidly-embracing-ai-and-modernization-finastra
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/94-french-financial-institutions-use-or-plan-use-ai-and-are-now-focusing-operational
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-just-2-financial-institutions-report-no-ai-use-finds-finastra
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/finastra-research-finds-ai-adoption-rising-vietnams-financial-sector-security-and
+
+## Read the article
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-10T12:00:00Z
+- URL: https://www.finastra.com/press-media/one-ten-firms-japan-have-yet-deploy-ai-talent-availability-hinders-scaling-finds
 
 ## The Future of Consumer Reporting starts at CDIA Connect- New Sessions Announced!
 - Source: CDIA

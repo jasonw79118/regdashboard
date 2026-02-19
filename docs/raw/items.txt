@@ -12524,12 +12524,6 @@ Just Announced: New Speakers Added to CDIA Connect 2026!
 https://www.cdiaonline.org/events/2026/02/17/just-announced-new-speakers-added-to-cdia-connect-2026/
 The highly anticipated CDIA Connect returns May 6–8, 2026, in Washington, DC — bringing together legal experts, thought leaders, regulators, and industry officials for timely... The post Just Announced: New Speakers Added to CDIA Connect 2026! appeared first on CDIA .
 ------------------------------------------------------------
-Executive
-White House
-2026-02-17T16:11:33Z
-Presidential Message on Lunar New Year
-https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-lunar-new-year/
-------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-02-17T16:00:00Z
@@ -15304,6 +15298,60 @@ Treasury
 2026-02-10T15:05:03Z
 U.S.-UK Transatlantic Taskforce for Markets of the Future Hosts Industry Engagement Day in London
 https://home.treasury.gov/news/press-releases/sb0392
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/mexico-among-leading-countries-application-ai-financial-sector-according-research
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/finastra-research-reveals-us-financial-institutions-outpace-global-peers-ai-adoption
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/ai-tipping-point-reached-saudi-arabia-banks-move-experimentation-execution-finds
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/ai-tipping-point-reached-uae-banks-move-experimentation-execution-finds-finastra
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/german-financial-institutions-are-rapidly-embracing-ai-and-modernization-finastra
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/94-french-financial-institutions-use-or-plan-use-ai-and-are-now-focusing-operational
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/ai-tipping-point-reached-just-2-financial-institutions-report-no-ai-use-finds-finastra
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/finastra-research-finds-ai-adoption-rising-vietnams-financial-sector-security-and
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-02-10T12:00:00Z
+Read the article
+https://www.finastra.com/press-media/one-ten-firms-japan-have-yet-deploy-ai-talent-availability-hinders-scaling-finds
 ------------------------------------------------------------
 Compliance Watch
 CDIA
