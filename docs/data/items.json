@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-05T07:52:26Z",
-  "window_end": "2026-02-19T07:52:26Z",
-  "generated_at_utc": "2026-02-19T07:52:26Z",
-  "generated_at_ct": "2026-02-19T01:52:26-06:00",
+  "window_start": "2026-02-05T08:53:09Z",
+  "window_end": "2026-02-19T08:53:09Z",
+  "generated_at_utc": "2026-02-19T08:53:09Z",
+  "generated_at_ct": "2026-02-19T02:53:09-06:00",
   "items": [
     {
       "category": "IS",
@@ -13031,6 +13031,14 @@
     {
       "category": "Fintech Watch",
       "source": "Jack Henry",
+      "title": "Key Ratios",
+      "published_at": "2026-02-18T00:00:00Z",
+      "url": "https://ir.jackhenry.com/financials/key-ratios",
+      "summary": ""
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Jack Henry",
       "title": "Earnings Estimates",
       "published_at": "2026-02-18T00:00:00Z",
       "url": "https://ir.jackhenry.com/financials/earnings-estimates",
@@ -13227,14 +13235,6 @@
       "published_at": "2026-02-17T00:00:00Z",
       "url": "https://www.fanniemae.com/data-and-insights",
       "summary": "Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow."
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Jack Henry",
-      "title": "Key Ratios",
-      "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://ir.jackhenry.com/financials/key-ratios",
-      "summary": ""
     },
     {
       "category": "Fintech Watch",
@@ -14235,38 +14235,6 @@
       "published_at": "2026-02-05T12:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html",
       "summary": "New program aims to tackle biggest challenges for entrepreneurs across three pillars: Business Capital, Business Connect and Business Essentials Visa &amp; Main launches $100M working capital facility SAN FRANCISCO &amp; ATLANTA --(BUSINESS WIRE)--Feb. 5, 2026-- Visa (NYSE: V) today announced the launch of"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-24302 Azure Arc Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-05T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24302",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21532 Azure Function Information Disclosure Vulnerability",
-      "published_at": "2026-02-05T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21532",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-24300 Azure Front Door Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-05T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24300",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-0391 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability",
-      "published_at": "2026-02-05T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0391",
-      "summary": "User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network."
     }
   ]
 }

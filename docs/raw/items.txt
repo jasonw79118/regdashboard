@@ -11382,6 +11382,12 @@ https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-
 Fintech Watch
 Jack Henry
 2026-02-18T00:00:00Z
+Key Ratios
+https://ir.jackhenry.com/financials/key-ratios
+------------------------------------------------------------
+Fintech Watch
+Jack Henry
+2026-02-18T00:00:00Z
 Earnings Estimates
 https://ir.jackhenry.com/financials/earnings-estimates
 ------------------------------------------------------------
@@ -11544,12 +11550,6 @@ Fannie Mae
 Data and Insights
 https://www.fanniemae.com/data-and-insights
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
-------------------------------------------------------------
-Fintech Watch
-Jack Henry
-2026-02-17T00:00:00Z
-Key Ratios
-https://ir.jackhenry.com/financials/key-ratios
 ------------------------------------------------------------
 Fintech Watch
 Jack Henry
@@ -12387,32 +12387,4 @@ Visa
 Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
 https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
 New program aims to tackle biggest challenges for entrepreneurs across three pillars: Business Capital, Business Connect and Business Essentials Visa &amp; Main launches $100M working capital facility SAN FRANCISCO &amp; ATLANTA --(BUSINESS WIRE)--Feb. 5, 2026-- Visa (NYSE: V) today announced the launch of
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-05T08:00:00Z
-CVE-2026-24302 Azure Arc Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24302
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-05T08:00:00Z
-CVE-2026-21532 Azure Function Information Disclosure Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21532
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-05T08:00:00Z
-CVE-2026-24300 Azure Front Door Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24300
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-05T08:00:00Z
-CVE-2026-0391 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0391
-User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network.
 ------------------------------------------------------------

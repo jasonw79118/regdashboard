@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T07:52:26Z` → `2026-02-19T07:52:26Z` (UTC)
-Last updated: `2026-02-19T01:52:26-06:00` (CT) — `2026-02-19T07:52:26Z` (UTC)
+Window: `2026-02-05T08:53:09Z` → `2026-02-19T08:53:09Z` (UTC)
+Last updated: `2026-02-19T02:53:09-06:00` (CT) — `2026-02-19T08:53:09Z` (UTC)
 
 ## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
 - Source: Microsoft MSRC
@@ -12997,6 +12997,12 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-02-18T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-joins-cotton-on-bill-to-prevent-diversion-of-advanced-ai-chips-to-china
 
+## Key Ratios
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-02-18T00:00:00Z
+- URL: https://ir.jackhenry.com/financials/key-ratios
+
 ## Earnings Estimates
 - Source: Jack Henry
 - Category: Fintech Watch
@@ -13178,12 +13184,6 @@ National banks are among the most highly regulated institutions in the country, 
 - URL: https://www.fanniemae.com/data-and-insights
 
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
-
-## Key Ratios
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-02-17T00:00:00Z
-- URL: https://ir.jackhenry.com/financials/key-ratios
 
 ## Historic Stock Lookup
 - Source: Jack Henry
@@ -14108,35 +14108,3 @@ PRESS RELEASE | FEBRUARY 5, 2026 FDIC Issues List of Banks Examined for CRA Comp
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
 
 New program aims to tackle biggest challenges for entrepreneurs across three pillars: Business Capital, Business Connect and Business Essentials Visa &amp; Main launches $100M working capital facility SAN FRANCISCO &amp; ATLANTA --(BUSINESS WIRE)--Feb. 5, 2026-- Visa (NYSE: V) today announced the launch of
-
-## CVE-2026-24302 Azure Arc Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-05T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24302
-
-Information published.
-
-## CVE-2026-21532 Azure Function Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-05T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21532
-
-Information published.
-
-## CVE-2026-24300 Azure Front Door Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-05T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24300
-
-Information published.
-
-## CVE-2026-0391 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-05T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0391
-
-User interface (ui) misrepresentation of critical information in Microsoft Edge for Android allows an unauthorized attacker to perform spoofing over a network.
