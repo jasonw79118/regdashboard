@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T13:18:23Z` → `2026-02-19T13:18:23Z` (UTC)
-Last updated: `2026-02-19T07:18:23-06:00` (CT) — `2026-02-19T13:18:23Z` (UTC)
+Window: `2026-02-05T14:53:30Z` → `2026-02-19T14:53:30Z` (UTC)
+Last updated: `2026-02-19T08:53:30-06:00` (CT) — `2026-02-19T14:53:30Z` (UTC)
+
+## Nigerian man gets eight years in prison for hacking tax firms
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T13:51:49Z
+- URL: https://www.bleepingcomputer.com/news/security/nigerian-man-gets-eight-years-in-prison-for-hacking-tax-firms/
+
+A Nigerian national was sentenced to eight years in prison for hacking multiple tax preparation firms in Massachusetts and filing fraudulent tax returns seeking over $8.1 million in refunds. [...]
 
 ## Texas sues TP-Link over Chinese hacking risks, user deception
 - Source: BleepingComputer
@@ -66,6 +74,72 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2314
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
+
+## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
+
+## Visa Renews Partnership Across Red Bull Formula One Teams
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
+
+## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
+
+## Visa to Participate in Upcoming Investor Conferences
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
+
+## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
+
+## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
+
+## Visa Fiscal First Quarter 2026 Financial Results
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
+
+## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
+
+## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
+
+## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
+
+## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-02-19T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 
 ## General Provisions
 - Source: Federal Register
@@ -13113,14 +13187,6 @@ A suspected Chinese state-backed hacking group has been quietly exploiting a cri
 - Published: 2026-02-17T18:32:57Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-ramadan-ecc0/
 
-## Notepad++ boosts update security with ‘double-lock’ mechanism
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T18:29:18Z
-- URL: https://www.bleepingcomputer.com/news/security/notepad-plus-plus-boosts-update-security-with-double-lock-mechanism/
-
-Notepad++ has adopted a "double-lock" design for its update mechanism to address recently exploited security gaps that resulted in a supply-chain compromise. [...]
-
 ## Just Announced: New Speakers Added to CDIA Connect 2026!
 - Source: CDIA
 - Category: CDIA
@@ -13163,36 +13229,6 @@ Improper authentication in Windows Admin Center allows an authorized attacker to
 - Published: 2026-02-17T00:14:26Z
 - URL: https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-americas-new-golden-era-on-presidents-day/
 
-## OCC Requests Comment on Proposed Rulemaking on the Bank Appeals Process
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-7.html
-
-The Office of the Comptroller of the Currency (OCC) today requested comment on a proposal to establish revised procedures and policies for appeals by OCC-supervised entities of material supervisory determinations.
-
-## Bank Appeals Process: Notice of Proposed Rulemaking
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html
-
-The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations.
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html
-
-National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities.
-
 ## Data and Insights
 - Source: Fannie Mae
 - Category: Mortgage
@@ -13213,25 +13249,17 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-hide-your-ip-with-this-adguard-40-family-suite-deal/
 
+## Notepad++ boosts update security with ‘double-lock’ mechanism
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/notepad-plus-plus-boosts-update-security-with-double-lock-mechanism/
+
 ## Microsoft Teams outage affects users in United States, Europe
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/
-
-## What 5 Million Apps Revealed About Secrets in JavaScript
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/what-5-million-apps-revealed-about-secrets-in-javascript/
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-16T08:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-Northern Italy sees more than 60% increase in Visa cardholder visitors from overseas, with an increase in purchases up 80% compared to the same period in 2025 Significant increase in spending from Visa cardholders in many areas of commerce including Clothing & Accessories, Restaurants and Mobility
 
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -13329,22 +13357,6 @@ Added an FAQ and updated the CVSS score. This is an informational change only.
 
 IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Revenue Service today issued a notice providing guidance for determining whether electricity-producing qualified facilities, energy storage technologies, or eligible components are receiving material assistance from a prohibited foreign entity (PFE) and would be ineligible for certain energy tax credit…
 
-## OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
-
-The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.occ.gov/topics/economics/index-economics.html
-
-The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
-
 ## Mortgage Rates Inch Down
 - Source: Freddie Mac
 - Category: Mortgage
@@ -13382,14 +13394,6 @@ The NCUA Board (Board) is seeking comment on proposed regulations to implement p
 - Category: Executive
 - Published: 2026-02-11T22:03:51Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-11T21:05:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-SAN FRANCISCO --(BUSINESS WIRE)--Feb. 11, 2026-- Visa (NYSE: V) today announced its participation in the following investor conferences. On Tuesday, March 3, Jack Forestell, Chief Product and Strategy Officer, will present at the Morgan Stanley Technology, Media & Telecom Conference.
 
 ## Payments Consulting
 - Source: NACHA
@@ -14102,12 +14106,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://www.texasbankers.com/tba-to-offer-pilot-access-for-tokenized-deposit-capabilities-following-vantage-bank-launch/
 
 (AUSTIN, TEXAS) – The Texas Bankers Association (TBA) announced that it will offer TBA member banks the opportunity to explore tokenized deposit capabilities through pilot access in its Innovation Magnet program, enabled by Vantage Bank’s phased rollout of its platform. This development reflects a growing shift in how community banks can leverage on-chain infrastructure to […]…
-
-## Statement from Secretary of the Treasury Scott Bessent Before the United States Senate Banking Committee
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-05T15:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0388
 
 ## Press Release: FDIC Issues List of Banks Examined for CRA Compliance
 - Source: FDIC
