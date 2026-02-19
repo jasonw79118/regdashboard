@@ -29,6 +29,10 @@
       <a href="#infosec">Information Security</a>
       <a href="#fintech">Fintech Watch</a>
       <a href="#cardnet">Payment Card Networks</a>
+
+      <!-- ✅ NEW: Compliance Watch tile -->
+      <a href="#compliancewatch">Compliance Watch</a>
+
       <a href="raw/" target="_blank" rel="noopener">Static Export (Copilot)</a>
     </nav>
   </header>
@@ -167,6 +171,18 @@
           ["Mastercard Press", "https://www.mastercard.com/us/en/news-and-trends/press.html"]
         ]
       },
+
+      // ✅ NEW: Compliance Watch tile (CDIA + FASB + ABA + TBA + WK + Bankers Online)
+      { id: "compliancewatch", title: "Compliance Watch", keys: ["Compliance Watch"], accent: "#16a34a",
+        sources: [
+          ["CDIA", "https://www.cdiaonline.org/news-events-blogs"],
+          ["FASB – In the News", "https://www.fasb.org/news-and-meetings/in-the-news"],
+          ["ABA News", "https://www.aba.com/news-research/all-news"],
+          ["Texas Bankers Association", "https://www.texasbankers.com/news/"],
+          ["Wolters Kluwer News", "https://www.wolterskluwer.com/en/news"],
+          ["Bankers Online", "https://www.bankersonline.com/topstory"]
+        ]
+      },
     ];
 
     function $(id) { return document.getElementById(id); }
@@ -193,6 +209,11 @@
       // normalize all card-network variations to ONE canonical key
       if (lower === "payment card networks" || lower === "payment card network" || lower === "card networks" || lower === "card network") return "Payment Card Networks";
       if (lower === "visa" || lower === "mastercard") return "Payment Card Networks";
+
+      // ✅ NEW: compliance watch normalization
+      if (lower === "compliance watch") return "Compliance Watch";
+      // (optional) if any legacy categories existed before, normalize them too:
+      if (lower === "cdia" || lower === "fasb" || lower === "aba" || lower === "tba" || lower === "wolters kluwer" || lower === "bankers online") return "Compliance Watch";
 
       return s;
     }

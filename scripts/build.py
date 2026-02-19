@@ -139,9 +139,9 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "BleepingComputer": "IS",
     "Microsoft MSRC": "IS",
 
-    # New tiles
-    "CDIA": "CDIA",
-    "FASB": "FASB",
+    # ✅ CHANGE: roll CDIA + FASB into the Compliance Watch tile (single tile)
+    "CDIA": "Compliance Watch",
+    "FASB": "Compliance Watch",
     "ABA": "Compliance Watch",
     "TBA": "Compliance Watch",
     "Wolters Kluwer": "Compliance Watch",
