@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T06:06:08Z` → `2026-02-19T06:06:08Z` (UTC)
-Last updated: `2026-02-19T00:06:08-06:00` (CT) — `2026-02-19T06:06:08Z` (UTC)
+Window: `2026-02-05T07:52:26Z` → `2026-02-19T07:52:26Z` (UTC)
+Last updated: `2026-02-19T01:52:26-06:00` (CT) — `2026-02-19T07:52:26Z` (UTC)
 
 ## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
 - Source: Microsoft MSRC
