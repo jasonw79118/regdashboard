@@ -24,6 +24,9 @@ from dateutil import parser as dtparser
 # CONFIG
 # ============================
 
+# ✅ IMPORTANT:
+# The dashboard JS typically expects docs/data/items.json to be a LIST of items.
+# We will write list-only to OUT_PATH.
 OUT_PATH = "docs/data/items.json"
 
 # --- Copilot-friendly static exports (no JS required) ---
@@ -139,7 +142,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "BleepingComputer": "IS",
     "Microsoft MSRC": "IS",
 
-    # ✅ CHANGE: roll CDIA + FASB into the Compliance Watch tile (single tile)
+    # ✅ CHANGE: roll CDIA + FASB + others into Compliance Watch
     "CDIA": "Compliance Watch",
     "FASB": "Compliance Watch",
     "ABA": "Compliance Watch",
@@ -326,7 +329,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     "Jack Henry": {"allow_domains": {"ir.jackhenry.com"}},
     "Temenos": {"allow_domains": {"www.temenos.com"}},
     "Mambu": {"allow_domains": {"mambu.com"}},
-    # ✅ Finastra actual PR detail URLs are /press-media/... (not only /news-events/media-room)
     "Finastra": {
         "allow_domains": {"www.finastra.com"},
         "allow_path_prefixes": {"/news-events/media-room", "/press-media/"},
@@ -629,7 +631,7 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
             allow_redirects=True,
         )
 
-        # ✅ retry via proxy for known botwalls (keeps other tiles unchanged)
+        # ✅ retry via proxy for known botwalls
         if r.status_code == 403 and h in {"www.mastercard.com", "www.finastra.com", "ir.jackhenry.com"}:
             print(f"[warn] GET 403: {url} (retrying via proxy)", flush=True)
             proxy_url = _jina_proxy_url(url)
@@ -1318,8 +1320,7 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen: set[str] = set()
 
-    # Finastra listing uses CTA links ("Read the article") and headlines in adjacent H2. :contentReference[oaicite:6]{index=6}
-    for a in container.select('a[href]'):
+    for a in container.select("a[href]"):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
             continue
@@ -1331,7 +1332,6 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
         t = clean_text((a.get_text(" ", strip=True) or "").strip(), 220)
         tl = t.lower()
 
-        # If CTA text, replace title with nearby headline
         if not t or tl in GENERIC_CTA_TITLES:
             t2 = _best_heading_near(a)
             if not t2:
@@ -1370,7 +1370,6 @@ def tcs_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetim
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen: set[str] = set()
 
-    # TCS press releases are clearly linked with titles on the newsroom page. :contentReference[oaicite:7]{index=7}
     for a in container.select('a[href*="/who-we-are/newsroom/press-release/"]'):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1417,7 +1416,6 @@ def mambu_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen: set[str] = set()
 
-    # Mambu press release detail pages are /en/insights/press/... :contentReference[oaicite:8]{index=8}
     for a in container.select('a[href^="/en/insights/press/"], a[href*="/en/insights/press/"]'):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1467,7 +1465,6 @@ def jackhenry_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[d
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen: set[str] = set()
 
-    # Prefer canonical detail pages (these exist and are stable). :contentReference[oaicite:9]{index=9}
     for a in container.select('a[href*="/news-releases/news-release-details/"]'):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
@@ -1676,8 +1673,7 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 
 
 # ============================
-# Mastercard / Visa / Treasury / Freddie / CDIA: unchanged from your file
-# (kept exactly to avoid impacting other tiles)
+# Mastercard / Visa / Treasury / Freddie / CDIA
 # ============================
 
 MASTERCARD_PR_PATH_RE = re.compile(
@@ -2181,7 +2177,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
 
-    # ✅ Fintech Watch targeted listing parsers
     if source == "Finastra":
         return finastra_links(page_url, html)
     if source == "TCS":
@@ -2314,7 +2309,6 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
         SourcePage("Temenos", "https://www.temenos.com/news/press-releases/"),
         SourcePage("Mambu", "https://mambu.com/en/insights/press"),
-        # ✅ Finastra: use Media Room page that lists items + detail pages under /press-media/
         SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
         SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
 
@@ -2709,6 +2703,7 @@ def build() -> None:
     items = list(dedup.values())
     items.sort(key=lambda x: x["published_at"], reverse=True)
 
+    # ✅ Full payload (used for exports + last_run.json)
     payload = {
         "window_start": iso_z(window_start),
         "window_end": iso_z(window_end),
@@ -2721,7 +2716,12 @@ def build() -> None:
     ensure_dir(RAW_DIR)
     ensure_dir(PRINT_DIR)
 
+    # ✅ FIX: write LIST ONLY to docs/data/items.json (what the dashboard JS expects)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(items, f, ensure_ascii=False, indent=2)
+
+    # ✅ Also write metadata payload to last_run.json (nice for debugging / display if you want)
+    with open(LAST_RUN_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     with open(RAW_HTML_PATH, "w", encoding="utf-8") as f:
@@ -2743,10 +2743,12 @@ def build() -> None:
     write_raw_aux_files()
 
     print(
-        f"\n[ok] wrote {OUT_PATH} with {len(items)} items | detail fetches: {global_detail_fetches}\n"
+        f"\n[ok] wrote {OUT_PATH} with {len(items)} items (list-only for dashboard JS)\n"
+        f"[ok] wrote {LAST_RUN_PATH} (full payload)\n"
         f"[ok] wrote raw exports: {RAW_HTML_PATH}, {RAW_MD_PATH}, {RAW_TXT_PATH}, {RAW_NDJSON_PATH}\n"
         f"[ok] wrote print export: {PRINT_HTML_PATH}\n"
-        f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}",
+        f"[ok] wrote crawler hints: {RAW_ROBOTS_PATH}, {RAW_SITEMAP_PATH}\n"
+        f"[ok] detail fetches: {global_detail_fetches}/{GLOBAL_DETAIL_FETCH_CAP}",
         flush=True,
     )
 
