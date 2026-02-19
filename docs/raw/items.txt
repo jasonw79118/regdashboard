@@ -1,5 +1,19 @@
 IS
 BleepingComputer
+2026-02-19T12:36:51Z
+Texas sues TP-Link over Chinese hacking risks, user deception
+https://www.bleepingcomputer.com/news/security/texas-sues-tp-link-over-chinese-hacking-risks-user-deception/
+Texas sued networking giant TP-Link Systems, accusing the company of deceptively marketing its routers as secure while allowing Chinese state-backed hackers to exploit firmware vulnerabilities and access users' devices. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-19T12:30:37Z
+Hackers target Microsoft Entra accounts in device code vishing attacks
+https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/
+Threat actors are targeting technology, manufacturing, and financial organizations in campaigns that combine device code phishing and voice phishing (vishing) to abuse the OAuth 2.0 Device Authorization flow and compromise Microsoft Entra accounts. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-19T11:24:17Z
 Police arrests 651 suspects in African cybercrime crackdown
 https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
@@ -11505,20 +11519,6 @@ CVE-2026-26119 Windows Admin Center Elevation of Privilege Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26119
 Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-17T15:37:45Z
-Microsoft Teams outage affects users in United States, Europe
-https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/
-​Microsoft is working to resolve an ongoing outage affecting Microsoft Teams users, causing delays and preventing some from accessing the service. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-17T14:40:49Z
-What 5 Million Apps Revealed About Secrets in JavaScript
-https://www.bleepingcomputer.com/news/security/what-5-million-apps-revealed-about-secrets-in-javascript/
-Leaked API keys are nothing new, but the scale of the problem in front-end code has been largely a mystery - until now. Intruder's research team built a new secrets detection method and scanned 5 million applications specifically looking for secrets hidden in JavaScript bundles. Here's what we learned. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-02-17T01:09:15Z
@@ -11580,14 +11580,14 @@ https://www.bleepingcomputer.com/offer/deals/block-ads-and-hide-your-ip-with-thi
 IS
 BleepingComputer
 2026-02-17T00:00:00Z
-New Keenadu backdoor found in Android firmware, Google Play apps
-https://www.bleepingcomputer.com/news/security/new-keenadu-backdoor-found-in-android-firmware-google-play-apps/
+Microsoft Teams outage affects users in United States, Europe
+https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-17T00:00:00Z
-3 years of web hosting is currently just $50 in this lifetime deal
-https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
+What 5 Million Apps Revealed About Secrets in JavaScript
+https://www.bleepingcomputer.com/news/security/what-5-million-apps-revealed-about-secrets-in-javascript/
 ------------------------------------------------------------
 Payment Card Networks
 Visa
@@ -12394,11 +12394,4 @@ FDIC
 Press Release: FDIC Issues List of Banks Examined for CRA Compliance
 https://content.govdelivery.com/accounts/USFDIC/bulletins/407cc7a
 PRESS RELEASE | FEBRUARY 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in November 2025. The CRA is a 1…
-------------------------------------------------------------
-Payment Card Networks
-Visa
-2026-02-05T12:00:00Z
-Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-New program aims to tackle biggest challenges for entrepreneurs across three pillars: Business Capital, Business Connect and Business Essentials Visa &amp; Main launches $100M working capital facility SAN FRANCISCO &amp; ATLANTA --(BUSINESS WIRE)--Feb. 5, 2026-- Visa (NYSE: V) today announced the launch of
 ------------------------------------------------------------

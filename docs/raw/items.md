@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T11:42:01Z` → `2026-02-19T11:42:01Z` (UTC)
-Last updated: `2026-02-19T05:42:01-06:00` (CT) — `2026-02-19T11:42:01Z` (UTC)
+Window: `2026-02-05T13:18:23Z` → `2026-02-19T13:18:23Z` (UTC)
+Last updated: `2026-02-19T07:18:23-06:00` (CT) — `2026-02-19T13:18:23Z` (UTC)
+
+## Texas sues TP-Link over Chinese hacking risks, user deception
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T12:36:51Z
+- URL: https://www.bleepingcomputer.com/news/security/texas-sues-tp-link-over-chinese-hacking-risks-user-deception/
+
+Texas sued networking giant TP-Link Systems, accusing the company of deceptively marketing its routers as secure while allowing Chinese state-backed hackers to exploit firmware vulnerabilities and access users' devices. [...]
+
+## Hackers target Microsoft Entra accounts in device code vishing attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T12:30:37Z
+- URL: https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/
+
+Threat actors are targeting technology, manufacturing, and financial organizations in campaigns that combine device code phishing and voice phishing (vishing) to abuse the OAuth 2.0 Device Authorization flow and compromise Microsoft Entra accounts. [...]
 
 ## Police arrests 651 suspects in African cybercrime crackdown
 - Source: BleepingComputer
@@ -13135,22 +13151,6 @@ Under specific conditions, a malicious webpage may trigger autofill population a
 
 Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
 
-## Microsoft Teams outage affects users in United States, Europe
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T15:37:45Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/
-
-​Microsoft is working to resolve an ongoing outage affecting Microsoft Teams users, causing delays and preventing some from accessing the service. [...]
-
-## What 5 Million Apps Revealed About Secrets in JavaScript
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T14:40:49Z
-- URL: https://www.bleepingcomputer.com/news/security/what-5-million-apps-revealed-about-secrets-in-javascript/
-
-Leaked API keys are nothing new, but the scale of the problem in front-end code has been largely a mystery - until now. Intruder's research team built a new secrets detection method and scanned 5 million applications specifically looking for secrets hidden in JavaScript bundles. Here's what we learned. [...]
-
 ## President George Washington’s Birthday, 2026
 - Source: White House
 - Category: Executive
@@ -13213,17 +13213,17 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-hide-your-ip-with-this-adguard-40-family-suite-deal/
 
-## New Keenadu backdoor found in Android firmware, Google Play apps
+## Microsoft Teams outage affects users in United States, Europe
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-keenadu-backdoor-found-in-android-firmware-google-play-apps/
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/
 
-## 3 years of web hosting is currently just $50 in this lifetime deal
+## What 5 Million Apps Revealed About Secrets in JavaScript
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
+- URL: https://www.bleepingcomputer.com/news/security/what-5-million-apps-revealed-about-secrets-in-javascript/
 
 ## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
 - Source: Visa
@@ -14116,11 +14116,3 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/407cc7a
 
 PRESS RELEASE | FEBRUARY 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in November 2025. The CRA is a 1…
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-05T12:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-New program aims to tackle biggest challenges for entrepreneurs across three pillars: Business Capital, Business Connect and Business Essentials Visa &amp; Main launches $100M working capital facility SAN FRANCISCO &amp; ATLANTA --(BUSINESS WIRE)--Feb. 5, 2026-- Visa (NYSE: V) today announced the launch of
