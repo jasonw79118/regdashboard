@@ -26,6 +26,26 @@ Chromium: CVE-2026-2314 Heap buffer overflow in Codecs
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2314
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 ------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-19T00:00:00Z
+New 'Massiv' Android banking malware poses as an IPTV app
+https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-19T00:00:00Z
+General Provisions
+https://www.federalregister.gov/documents/2026/02/19/2026-03314/general-provisions
+The Farm Credit Administration (FCA, we, us or our) is issuing a final rule amending FCA's business planning requirements to comply with Executive Order 14219.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-19T00:00:00Z
+Hiring Authority for Post-Secondary Students
+https://www.federalregister.gov/documents/2026/02/19/2026-03242/hiring-authority-for-post-secondary-students
+The Office of Personnel Management (OPM) is issuing a final rule to amend its career and career-conditional employment regulations. The revision is necessary to implement section 1108 of the John S. McCain National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2019, which requires OPM to issue regulations implementing hiring authorities that allow agencies to hire cert…
+------------------------------------------------------------
 Executive
 White House
 2026-02-18T23:12:45Z
@@ -11568,12 +11588,6 @@ BleepingComputer
 2026-02-17T00:00:00Z
 3 years of web hosting is currently just $50 in this lifetime deal
 https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-17T00:00:00Z
-Ireland now also investigating X over Grok-made sexual images
-https://www.bleepingcomputer.com/news/security/ireland-now-also-investigating-x-over-grok-made-sexual-images/
 ------------------------------------------------------------
 Payment Card Networks
 Visa
