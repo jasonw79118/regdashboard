@@ -1,17 +1,7 @@
 # RegDashboard — Export
 
-<<<<<<< HEAD
-Window: `2026-02-05T22:37:34Z` → `2026-02-19T22:37:34Z` (UTC)
-Last updated: `2026-02-19T16:37:34-06:00` (CT) — `2026-02-19T22:37:34Z` (UTC)
-
-## PromptSpy is the first Android malware to use generative AI at runtime
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-19T22:36:25Z
-- URL: https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-android-malware-to-use-generative-ai-at-runtime/
-=======
-Window: `2026-02-05T23:20:00Z` → `2026-02-19T23:20:00Z` (UTC)
-Last updated: `2026-02-19T17:20:00-06:00` (CT) — `2026-02-19T23:20:00Z` (UTC)
+Window: `2026-02-05T23:40:00Z` → `2026-02-19T23:40:00Z` (UTC)
+Last updated: `2026-02-19T17:40:00-06:00` (CT) — `2026-02-19T23:40:00Z` (UTC)
 
 ## President Trump Is Bringing Back the American Dream of Homeownership
 - Source: White House
@@ -24,7 +14,6 @@ Last updated: `2026-02-19T17:20:00-06:00` (CT) — `2026-02-19T23:20:00Z` (UTC)
 - Category: IS
 - Published: 2026-02-19T22:36:25Z
 - URL: https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/
->>>>>>> 115128a (Federal Register filters: build + css updates)
 
 Researchers have discovered the first known Android malware to use generative AI in its execution flow, using Google's Gemini model to adapt its persistence across different devices. [...]
 
@@ -249,72 +238,6 @@ National banks are among the most highly regulated institutions in the country, 
 - Category: Legislative
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-turmoil-in-private-credit-market
-
-## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
-
-## Visa Renews Partnership Across Red Bull Formula One Teams
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-## Visa Fiscal First Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
-
-## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
-
-## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
-
-## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
-
-## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-02-19T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 
 ## Train for CompTIA, AWS, Cisco & more with this $40 course deal
 - Source: BleepingComputer
@@ -14346,8 +14269,6 @@ The core of bank supervision is the bank examination process, carried out by mor
 
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 
-<<<<<<< HEAD
-=======
 ## ### Cloudflare and Mastercard partner to extend comprehensive cyber defense across critical infrastructure and small businesses February 17, 2026
 - Source: Mastercard
 - Category: Payment Card Networks
@@ -15338,7 +15259,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-becomes-official-partner-of-hudson-yards-unlocking-priceless-experiences-and-discovery-for-cardholders-in-new-york-city.html
 
->>>>>>> 115128a (Federal Register filters: build + css updates)
 ## Education Services
 - Source: CDIA
 - Category: Compliance Watch
@@ -18652,6 +18572,14 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: OFAC
 - Published: 2026-02-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260206
+
+## Comptroller Discusses Importance of Financial Education
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
+
+Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
 
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register
