@@ -150,58 +150,73 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
 
 
 # ============================
-# FEDERAL REGISTER API (topics)
+# FEDERAL REGISTER API (filters)
+#   IMPORTANT:
+#   - "topics" are CFR-indexing topics
+#   - "agencies" are agency slugs (e.g., consumer-financial-protection-bureau)
+#   - "sections" are site sections (e.g., business-and-industry)
 # ============================
 
 FEDREG_API_BASE = "https://www.federalregister.gov/api/v1"
 
-RAW_FEDREG_TOPICS = [
-    "banks-banking",
-    "executive-orders",
-    "federal-reserve-system",
-    "national-banks",
-    "securities",
-    "mortgages",
-    "truth-lending",
-    "truth-savings",
-    "Consumer-Financial-Protection-Bureau",
-    "FDIC",
-    "Bank-deposit-industry",
-    "Business-and-industry",
-    "child-labor",
-    "credit",
-    "credit-unions",
-    "currency",
-    "economic-statistics",
-    "employment",
-    "employment-taxes",
-    "fair-housing",
-    "federal-home-loan-banks",
-    "flood-insurance",
-    "foreign-banking",
-    "government-sponsored-enterprise",
-    "holding-companies",
-    "housing",
-    "income-taxes",
-    "insurance",
-    "investment-companies",
-    "investments",
-    "justice-department",
-    "Loan-programs",
-    "Loan-programs-agriculture",
-    "Loan-programs-business",
-    "Loan-programs-communications",
-    "Loan-programs-education",
-    "Manufactured-home",
-    "Mortgage-Insurance",
-    "Personally-identifiable-information",
-    "Savings-associations",
-    "Small-business",
-    "Trust-and-trustees",
+# Your original list had mixed types (topic + agency + section).
+# We keep your intent but send each value to the correct query key.
+RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
+    # topics (generally OK)
+    {"kind": "topics", "value": "banks-banking"},
+    {"kind": "topics", "value": "executive-orders"},
+    {"kind": "topics", "value": "federal-reserve-system"},
+    {"kind": "topics", "value": "national-banks"},
+    {"kind": "topics", "value": "securities"},
+    {"kind": "topics", "value": "mortgages"},
+    {"kind": "topics", "value": "truth-lending"},
+    {"kind": "topics", "value": "truth-savings"},
+
+    # these were causing 400 as "topics" because they are NOT topics:
+    # - CFPB is an agency slug
+    {"kind": "agencies", "value": "consumer-financial-protection-bureau"},
+
+    # - "fdic" is not a valid agency slug on FederalRegister.gov; the agency slug is:
+    {"kind": "agencies", "value": "federal-deposit-insurance-corporation"},
+
+    # - "business-and-industry" is a SECTION (per Federal Register search docs), not a topic
+    {"kind": "sections", "value": "business-and-industry"},
+
+    # keep the rest as topics (and add smart fallback on 400 below)
+    {"kind": "topics", "value": "child-labor"},
+    {"kind": "topics", "value": "credit"},
+    {"kind": "topics", "value": "credit-unions"},
+    {"kind": "topics", "value": "currency"},
+    {"kind": "topics", "value": "economic-statistics"},
+    {"kind": "topics", "value": "employment"},
+    {"kind": "topics", "value": "employment-taxes"},
+    {"kind": "topics", "value": "fair-housing"},
+    {"kind": "topics", "value": "federal-home-loan-banks"},
+    {"kind": "topics", "value": "flood-insurance"},
+    {"kind": "topics", "value": "foreign-banking"},
+    {"kind": "topics", "value": "government-sponsored-enterprise"},
+    {"kind": "topics", "value": "holding-companies"},
+    {"kind": "topics", "value": "housing"},
+    {"kind": "topics", "value": "income-taxes"},
+    {"kind": "topics", "value": "insurance"},
+    {"kind": "topics", "value": "investment-companies"},
+    {"kind": "topics", "value": "investments"},
+    {"kind": "topics", "value": "justice-department"},
+    {"kind": "topics", "value": "loan-programs"},
+    {"kind": "topics", "value": "loan-programs-agriculture"},
+    {"kind": "topics", "value": "loan-programs-business"},
+    {"kind": "topics", "value": "loan-programs-communications"},
+    {"kind": "topics", "value": "loan-programs-education"},
+    {"kind": "topics", "value": "manufactured-home"},
+    {"kind": "topics", "value": "mortgage-insurance"},
+    {"kind": "topics", "value": "personally-identifiable-information"},
+    {"kind": "topics", "value": "savings-associations"},
+    {"kind": "topics", "value": "small-business"},
+    {"kind": "topics", "value": "trust-and-trustees"},
 ]
 
 
-def normalize_fedreg_topic(raw: str) -> str:
+def normalize_fedreg_slug(raw: str) -> str:
     s = (raw or "").strip()
     s = s.replace("_", "-")
     s = re.sub(r"\s+", "-", s)
@@ -211,21 +226,25 @@ def normalize_fedreg_topic(raw: str) -> str:
     return s
 
 
-def build_fedreg_topics() -> List[str]:
-    seen = set()
-    out: List[str] = []
-    for t in RAW_FEDREG_TOPICS:
-        nt = normalize_fedreg_topic(t)
-        if not nt:
+def build_fedreg_filters() -> List[Dict[str, str]]:
+    out: List[Dict[str, str]] = []
+    seen: set[Tuple[str, str]] = set()
+    for f in RAW_FEDREG_FILTERS:
+        kind = (f.get("kind") or "").strip().lower()
+        val = normalize_fedreg_slug(f.get("value") or "")
+        if kind not in {"topics", "agencies", "sections"}:
             continue
-        if nt in seen:
+        if not val:
             continue
-        seen.add(nt)
-        out.append(nt)
+        key = (kind, val)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({"kind": kind, "value": val})
     return out
 
 
-FEDREG_TOPICS = build_fedreg_topics()
+FEDREG_FILTERS = build_fedreg_filters()
 
 
 # ============================
@@ -318,14 +337,7 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
 
     "FIS": {"allow_domains": {"investor.fisglobal.com"}},
     "Fiserv": {"allow_domains": {"investors.fiserv.com"}},
-
-    # ✅ FIX: Jack Henry was capturing pagination/filter links under /press-releases
-    # Only allow true detail pages under /news-releases/news-release-details/
-    "Jack Henry": {
-        "allow_domains": {"ir.jackhenry.com"},
-        "allow_path_prefixes": {"/news-releases/news-release-details/"},
-    },
-
+    "Jack Henry": {"allow_domains": {"ir.jackhenry.com"}},
     "Temenos": {"allow_domains": {"www.temenos.com"}},
     "Mambu": {"allow_domains": {"mambu.com"}},
     "Finastra": {"allow_domains": {"www.finastra.com"}},
@@ -712,6 +724,38 @@ def fetch_json(
         return None
 
 
+def fetch_json_status(
+    url: str,
+    params: Optional[Dict[str, Any]] = None,
+    timeout: int = 35,
+) -> Tuple[Optional[Dict[str, Any]], int, str]:
+    """
+    Like fetch_json, but returns (json_or_none, status_code, final_url).
+    This lets us handle 400s quietly for FedReg retries instead of spamming logs.
+    """
+    try:
+        time.sleep(REQUEST_DELAY_SEC)
+        r = SESSION.get(
+            url,
+            params=params or {},
+            headers={"Accept": "application/json"},
+            timeout=(10, timeout),
+            allow_redirects=True,
+        )
+        final_url = r.url
+        status = int(getattr(r, "status_code", 0) or 0)
+
+        if status >= 400:
+            return None, status, final_url
+
+        try:
+            return r.json(), status, final_url
+        except Exception:
+            return None, 0, final_url
+    except Exception:
+        return None, 0, url
+
+
 # ============================
 # WINDOW (Rolling 2-week)
 # ============================
@@ -807,7 +851,7 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
     u = urlparse(url)
     q = parse_qs(u.query or "")
 
-    if any(k in q for k in ["page", "p", "start", "offset", "items_per_page"]):
+    if any(k in q for k in ["page", "p", "start", "offset"]):
         if NAV_TITLE_RE.search(t) or re.fullmatch(r"\d+", t):
             return True
 
@@ -821,11 +865,6 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
 
     if source == "White House":
         if t.lower() in {"all", "featured", "news", "gallery", "livestream", "contact"}:
-            return True
-
-    # ✅ Jack Henry: treat any /press-releases?* as nav/filter (we only want detail pages)
-    if source == "Jack Henry":
-        if u.path.rstrip("/").endswith("/press-releases") and (u.query or ""):
             return True
 
     return False
@@ -998,6 +1037,44 @@ def items_from_feed(source: str, feed_url: str, start: datetime, end: datetime) 
 # FEDERAL REGISTER API ITEMS
 # ============================
 
+def _fedreg_params_for_filter(
+    kind: str,
+    value: str,
+    start_d: str,
+    end_d: str,
+    page: int,
+) -> Dict[str, Any]:
+    params: Dict[str, Any] = {
+        "per_page": 200,
+        "page": page,
+        "order": "newest",
+        "conditions[publication_date][gte]": start_d,
+        "conditions[publication_date][lte]": end_d,
+        "fields[]": [
+            "title",
+            "publication_date",
+            "html_url",
+            "document_number",
+            "type",
+            "abstract",
+            "agencies",
+        ],
+    }
+
+    # Correct key based on filter kind
+    if kind == "topics":
+        params["conditions[topics][]"] = value
+    elif kind == "agencies":
+        params["conditions[agencies][]"] = value
+    elif kind == "sections":
+        params["conditions[sections][]"] = value
+    else:
+        # fallback "term" search if needed
+        params["conditions[term]"] = value
+
+    return params
+
+
 def items_from_federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
 
@@ -1007,31 +1084,55 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
 
     seen_docnums: set[str] = set()
 
-    for topic in FEDREG_TOPICS:
+    for f in FEDREG_FILTERS:
+        kind = f["kind"]
+        value = f["value"]
         page = 1
-        total_for_topic = 0
+        total_for_filter = 0
+        tried_fallback = False
 
         while True:
-            params: Dict[str, Any] = {
-                "per_page": 200,
-                "page": page,
-                "order": "newest",
-                "conditions[publication_date][gte]": start_d,
-                "conditions[publication_date][lte]": end_d,
-                "conditions[topics][]": topic,
-                "fields[]": [
-                    "title",
-                    "publication_date",
-                    "html_url",
-                    "document_number",
-                    "type",
-                    "abstract",
-                    "agencies",
-                ],
-            }
+            params = _fedreg_params_for_filter(kind, value, start_d, end_d, page)
 
-            j = fetch_json(endpoint, params=params, timeout=45)
+            j, status, final_url = fetch_json_status(endpoint, params=params, timeout=45)
+
+            # Handle 400s gracefully and try smart fallbacks once
+            if j is None and status == 400 and not tried_fallback:
+                tried_fallback = True
+
+                # If something 400s as a topic, it’s often actually a section or agency.
+                # Retry order: sections -> agencies -> topics -> term
+                fallbacks: List[str] = []
+                if kind == "topics":
+                    fallbacks = ["sections", "agencies", "term"]
+                elif kind == "sections":
+                    fallbacks = ["topics", "agencies", "term"]
+                elif kind == "agencies":
+                    fallbacks = ["topics", "sections", "term"]
+                else:
+                    fallbacks = ["topics", "sections", "agencies"]
+
+                fixed = False
+                for nk in fallbacks:
+                    params2 = _fedreg_params_for_filter(nk, value, start_d, end_d, page)
+                    j2, status2, _u2 = fetch_json_status(endpoint, params=params2, timeout=45)
+                    if j2 is not None and status2 < 400:
+                        # adopt fallback kind for remainder of pagination
+                        kind = nk
+                        j = j2
+                        status = status2
+                        fixed = True
+                        break
+
+                if not fixed:
+                    # Still failing—log once and stop this filter
+                    print(f"[warn] Federal Register filter '{value}' failed (400) for kinds tried; last={final_url}", flush=True)
+                    break
+
             if not j:
+                # non-JSON or non-200; stop this filter
+                if status >= 400 and status != 400:
+                    print(f"[warn] Federal Register JSON GET {status}: {final_url}", flush=True)
                 break
 
             results = j.get("results") or []
@@ -1078,7 +1179,7 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                     if docnum:
                         seen_docnums.add(docnum)
 
-                    total_for_topic += 1
+                    total_for_filter += 1
                 except Exception:
                     continue
 
@@ -1086,7 +1187,7 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
             if page > 20:
                 break
 
-        print(f"[api] Federal Register topic '{topic}': kept {total_for_topic} items", flush=True)
+        print(f"[api] Federal Register {kind.rstrip('s')} '{value}': kept {total_for_filter} items", flush=True)
 
     return out
 
@@ -1905,66 +2006,6 @@ def cdia_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dateti
     return links
 
 
-# ============================
-# ✅ Jack Henry (IR): only capture true press release detail pages
-# ============================
-
-JH_DETAIL_PREFIX = "/news-releases/news-release-details/"
-
-
-def jackhenry_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    soup = BeautifulSoup(html, "html.parser")
-    container = pick_container(soup) or soup
-    if not container:
-        return []
-
-    strip_nav_like(container)
-
-    links: List[Tuple[str, str, Optional[datetime]]] = []
-    seen: set[str] = set()
-
-    # capture both relative and absolute links containing the detail prefix
-    for a in container.select(f'a[href^="{JH_DETAIL_PREFIX}"], a[href*="{JH_DETAIL_PREFIX}"]'):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#"):
-            continue
-
-        url = canonical_url(urljoin(page_url, href))
-        if not allowed_for_source("Jack Henry", url):
-            continue
-
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
-        if not raw_title:
-            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
-
-        title = clean_text(raw_title, 220)
-        if not title or len(title) < 8:
-            continue
-
-        if title.lower() in {"read more", "learn more", "more", "details"}:
-            continue
-        if is_probably_nav_link("Jack Henry", title, url):
-            continue
-        if is_generic_listing_or_home("Jack Henry", title, url):
-            continue
-
-        if url in seen:
-            continue
-        seen.add(url)
-
-        dt = find_time_near_anchor(a, "Jack Henry")
-        if dt is None:
-            wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
-            if wrap:
-                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="Jack Henry")
-
-        links.append((title, url, dt))
-        if len(links) >= MAX_LISTING_LINKS:
-            break
-
-    return links
-
-
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     if source == "OFAC":
         return ofac_links(page_url, html)
@@ -1982,10 +2023,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
-
-    # ✅ FIX: prevent Jack Henry pagination/filter links from being treated as articles
-    if source == "Jack Henry":
-        return jackhenry_links(page_url, html)
 
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup)
@@ -2062,7 +2099,6 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
 
 
 def get_start_pages() -> List[SourcePage]:
-    # ✅ dynamic year pages for Mastercard so rolling window always hits current content
     now_ct = utc_now().astimezone(CENTRAL_TZ)
     y = now_ct.year
     mc_year_pages = [
@@ -2117,7 +2153,7 @@ def get_start_pages() -> List[SourcePage]:
         # Payment Networks
         SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
 
-        # ✅ Mastercard: keep the main page plus year pages that list current press releases
+        # ✅ Mastercard
         SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
     ]
 
@@ -2384,7 +2420,7 @@ def build() -> None:
             got = items_from_federal_register_topics(window_start, window_end)
             if got:
                 all_items.extend(got)
-                print(f"[api] Federal Register: {len(got)} items (topics)", flush=True)
+                print(f"[api] Federal Register: {len(got)} items (filters)", flush=True)
             else:
                 print("[note] Federal Register: no qualifying items in window (or API issue).", flush=True)
             continue
