@@ -1,7 +1,39 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T02:39:17Z` → `2026-02-19T02:39:17Z` (UTC)
-Last updated: `2026-02-18T20:39:17-06:00` (CT) — `2026-02-19T02:39:17Z` (UTC)
+Window: `2026-02-05T04:57:20Z` → `2026-02-19T04:57:20Z` (UTC)
+Last updated: `2026-02-18T22:57:20-06:00` (CT) — `2026-02-19T04:57:20Z` (UTC)
+
+## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-19T02:49:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2322
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
+
+## Chromium: CVE-2026-2319 Race in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-19T02:49:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2319
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
+
+## Chromium: CVE-2026-2316 Insufficient policy enforcement in Frames
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-19T02:49:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2316
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
+
+## Chromium: CVE-2026-2314 Heap buffer overflow in Codecs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-19T02:49:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2314
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 
 ## Fact Sheet: President Donald J. Trump Ensures an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides for National Security
 - Source: White House

@@ -1,9 +1,41 @@
 {
-  "window_start": "2026-02-05T02:39:17Z",
-  "window_end": "2026-02-19T02:39:17Z",
-  "generated_at_utc": "2026-02-19T02:39:17Z",
-  "generated_at_ct": "2026-02-18T20:39:17-06:00",
+  "window_start": "2026-02-05T04:57:20Z",
+  "window_end": "2026-02-19T04:57:20Z",
+  "generated_at_utc": "2026-02-19T04:57:20Z",
+  "generated_at_ct": "2026-02-18T22:57:20-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-2322 Heap buffer overflow in Codecs",
+      "published_at": "2026-02-19T02:49:14Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2322",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-2319 Race in DevTools",
+      "published_at": "2026-02-19T02:49:13Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2319",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-2316 Insufficient policy enforcement in Frames",
+      "published_at": "2026-02-19T02:49:11Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2316",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-2314 Heap buffer overflow in Codecs",
+      "published_at": "2026-02-19T02:49:08Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2314",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
+    },
     {
       "category": "Executive",
       "source": "White House",
