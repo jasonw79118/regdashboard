@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T20:43:57Z` → `2026-02-19T20:43:57Z` (UTC)
-Last updated: `2026-02-19T14:43:57-06:00` (CT) — `2026-02-19T20:43:57Z` (UTC)
+Window: `2026-02-05T21:12:28Z` → `2026-02-19T21:12:28Z` (UTC)
+Last updated: `2026-02-19T15:12:28-06:00` (CT) — `2026-02-19T21:12:28Z` (UTC)
 
 ## America 250: Anniversary of the Battle of Iwo Jima
 - Source: White House
@@ -197,17 +197,17 @@ National banks are among the most highly regulated institutions in the country, 
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires
 
-## Warren Calls Jamie Dimon's Bluff on Credit Card Affordability, Asks Him to Publicly Support Bill Allowing States to Impose Interest Rate Caps
+## Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-02-19T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-jamie-dimons-bluff-on-credit-card-affordability-asks-him-to-publicly-support-bill-allowing-states-to-impose-interest-rate-caps
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
 
-## Warren Raises Concerns With Neptune's Private Flood Insurance Business Model as Insurance Costs Soar for Americans
+## Warren Statement on Turmoil in Private Credit Market
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-02-19T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-raises-concerns-with-neptunes-private-flood-insurance-business-model-as-insurance-costs-soar-for-americans
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-turmoil-in-private-credit-market
 
 ## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
 - Source: Visa
