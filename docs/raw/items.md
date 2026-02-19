@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T15:55:10Z` → `2026-02-19T15:55:10Z` (UTC)
-Last updated: `2026-02-19T09:55:10-06:00` (CT) — `2026-02-19T15:55:10Z` (UTC)
+Window: `2026-02-05T16:48:51Z` → `2026-02-19T16:48:51Z` (UTC)
+Last updated: `2026-02-19T10:48:51-06:00` (CT) — `2026-02-19T16:48:51Z` (UTC)
+
+## CVE-2026-21528 Azure IoT Explorer Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-19T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21528
+
+Corrected the CVE description and title. This is an informational change only.
 
 ## CISA orders feds to patch actively exploited Dell flaw within 3 days
 - Source: BleepingComputer
@@ -203,6 +211,472 @@ National banks are among the most highly regulated institutions in the country, 
 
 The Farm Credit Administration (FCA, we, us or our) is issuing a final rule amending FCA's business planning requirements to comply with Executive Order 14219.
 
+## Determination of Regulatory Review Period for Purposes of Patent Extension; SYMVESS
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03312/determination-of-regulatory-review-period-for-purposes-of-patent-extension-symvess
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for SYMVESS and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of an application to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent whic…
+
+## Agency Information Collection Activities; Proposed Collection; Comment Request; Procedures for the Safe Processing and Importing of Fish and Fishery Products
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03311/agency-information-collection-activities-proposed-collection-comment-request-procedures-for-the-safe
+
+The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an exis…
+
+## Food and Drug Administration Modernization Act of 1997: Modifications to the List of Recognized Standards, Recognition List Number: 065
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03310/food-and-drug-administration-modernization-act-of-1997-modifications-to-the-list-of-recognized
+
+The Food and Drug Administration (FDA or the Agency) is announcing a publication containing modifications the Agency is making to the list of standards FDA recognizes for use in premarket reviews (FDA Recognized Consensus Standards). This publication, entitled "Modifications to the List of Recognized Standards, Recognition List Number: 065" (Recognition List Number: 065), will…
+
+## Notice of Request for Extension, Without Change, of a Currently Approved Information Collection
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03308/notice-of-request-for-extension-without-change-of-a-currently-approved-information-collection
+
+This notice announces a public comment period on the information collection requests (ICRs) associated with the Subpart U-- Ineligibility for Programs under the Federal Crop Insurance Act.
+
+## Rescission of the “Ten-Day Notices and Corrective Action for State Regulatory Program Issues” Rule, Issued April 9, 2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03301/rescission-of-the-ten-day-notices-and-corrective-action-for-state-regulatory-program-issues-rule
+
+The Office of Surface Mining Reclamation and Enforcement ("OSMRE" or "OSM") is rescinding the "Ten-Day Notices and Corrective Action for State Regulatory Program Issues" rule adopted on April 9, 2024 (the "2024 Rule"), and replacing it, in large part, with the rule titled, "Clarification of Provisions Related to the Issuance of Ten-Day Notices to State Regulatory Authorities a…
+
+## Agency Information Collection Activities; Comment Request on Information Returns of Nontaxable Energy Grants or Subsidized Energy Financing
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03294/agency-information-collection-activities-comment-request-on-information-returns-of-nontaxable-energy
+
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+
+## Agency Information Collection Activities; Comment Request on Application for Extension of Time To File a Return and/or Pay U.S. Estate (and Generation-Skipping Transfer) Taxes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03293/agency-information-collection-activities-comment-request-on-application-for-extension-of-time-to
+
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+
+## Notice of Availability of the Final Tiered Environmental Assessment and Finding of No Significant Impact/Record of Decision for Updates to Airspace Closures for Additional Launch Trajectories and Starship Boca Chica Lan…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03291/notice-of-availability-of-the-final-tiered-environmental-assessment-and-finding-of-no-significant
+
+In accordance with the National Environmental Policy Act of 1969, as amended (NEPA) and FAA Order 1050.1G, FAA National Environmental Policy Act Implementing Procedures, the FAA is announcing the availability of the Final Tiered Environmental Assessment and Finding of No Significant Impact/Record of Decision for Updates to Airspace Closures for Additional Launch Trajectories a…
+
+## Notice of Intent To Revise Resource Management Plans for Northwestern and Coastal Oregon and Southwestern Oregon in Oregon/Washington and Prepare an Associated Environmental Impact Statement
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03290/notice-of-intent-to-revise-resource-management-plans-for-northwestern-and-coastal-oregon-and
+
+In support of the Oregon and California Revested Railroad Lands Act of 1937 (O&C Act), in compliance with the National Environmental Policy Act of 1969, as amended (NEPA), and the Federal Land Policy and Management Act of 1976, as amended, the Bureau of Land Management (BLM) Oregon/Washington (OR/WA) State Office intends to prepare a revision of the Northwestern and Coastal Or…
+
+## Crystalline Silicon Photovoltaic Cells, Whether or Not Assembled Into Modules, From India, Indonesia, and the Lao People's Democratic Republic: Postponement of Preliminary Determinations in the Less-Than-Fair-Value Inve…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03288/crystalline-silicon-photovoltaic-cells-whether-or-not-assembled-into-modules-from-india-indonesia
+
+## Common Alloy Aluminum Sheet From Bahrain: Final Results of Countervailing Duty Administrative Review; 2023
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03287/common-alloy-aluminum-sheet-from-bahrain-final-results-of-countervailing-duty-administrative-review
+
+The U.S. Department of Commerce (Commerce) determines that certain exporters/producers of common alloy aluminum sheet (aluminum sheet) from Bahrain received countervailable subsidies during the period of review (POR) January 1, 2023, through December 31, 2023.
+
+## Revocation of Regulations Regarding the Mutual Recognition of Pharmaceutical Good Manufacturing Practice Reports, Medical Device Quality System Audit Reports, and Certain Medical Device Product Evaluation Reports: Unite…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03286/revocation-of-regulations-regarding-the-mutual-recognition-of-pharmaceutical-good-manufacturing
+
+The Food and Drug Administration (FDA, Agency, or we) is issuing a final rule revoking the regulations entitled "Mutual Recognition of Pharmaceutical Good Manufacturing Practice Reports, Medical Device Quality System Audit Reports, and Certain Medical Device Product Evaluation Reports: United States and The European Community." FDA is taking this action because the regulations…
+
+## Revocation of Methods of Analysis Regulation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03285/revocation-of-methods-of-analysis-regulation
+
+The Food and Drug Administration (FDA, the Agency, or we) is issuing a final rule to revoke the methods of analysis regulation, which describes an FDA policy to use certain methods of analysis for FDA enforcement programs when the method of analysis is not prescribed in a regulation. FDA is issuing this action because the existing regulation is no longer necessary.
+
+## Amendment of Class D, Class E2, Class E4 and Class E5 Airspace Over Patuxent River, MD
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03284/amendment-of-class-d-class-e2-class-e4-and-class-e5-airspace-over-patuxent-river-md
+
+This action amends Class D, Class E2, Class E4, and Class E5 airspace at Patuxent River Naval Air Station (NAS) (Trapnell Field), Patuxent River, MD. The previously designated controlled airspace did not properly contain instrument flight rule (IFR) operations, which require controlled airspace. The geographic coordinates for Patuxent River NAS (Trapnell Field) are updated in…
+
+## Rescission of Regulations Regarding Leasing of Solid Minerals Other Than Coal and Oil Shale
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03283/rescission-of-regulations-regarding-leasing-of-solid-minerals-other-than-coal-and-oil-shale
+
+Due to the receipt of a substantive comment on the direct final rule (DFR) rescinding portions of the Bureau of Land Management's (BLM) regulations that address the Leasing of Solid Minerals Other Than Coal and Oil Shale, the Department of the Interior, through the BLM, is issuing a new final rule that responds to the comment.
+
+## Procurement List; Change
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03281/procurement-list-change
+
+This action changes service additions to the Procurement List that are furnished by nonprofit agencies employing persons who are blind or have other severe disabilities.
+
+## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03280/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies
+
+## Request for Comments on the Renewal of a Previously Approved Information Collection: Application for Conveyance of Port Facility Property
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03276/request-for-comments-on-the-renewal-of-a-previously-approved-information-collection-application-for
+
+MARAD invites public comments on its intention to request Office of Management and Budget (OMB) approval to renew an information collection in accordance with the Paperwork Reduction Act of 1995. The proposed collection OMB 2133-0524 (Application for Conveyance of Port Facility Property) is used to determine if an applicant is committed to a port redevelopment plan, the plan i…
+
+## Data Collection Available for Public Comments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03275/data-collection-available-for-public-comments
+
+The Small Business Administration (SBA) intends to request approval, from the Office of Management and Budget (OMB) for a revision to the collection of information described below. The Paperwork Reduction Act (PRA) requires federal agencies to publish a notice in the Federal Register concerning each proposed collection of information before submission to OMB, and to allow 60 d…
+
+## Administrative Declaration Amendment of a Disaster for the State of California
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03274/administrative-declaration-amendment-of-a-disaster-for-the-state-of-california
+
+This is an amendment of the Administrative declaration of disaster for the State of California dated February 3, 2026. Incident: 2026 Early January Storm, Tidal Flooding, and King Tides.
+
+## Agency Information Collection Activities: Information Collection Renewal; Submission for OMB Review; Financial Management Policies-Interest Rate Risk
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03273/agency-information-collection-activities-information-collection-renewal-submission-for-omb-review
+
+The OCC, as part of its continuing effort to reduce paperwork and respondent burden, invites comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995 (PRA). In accordance with the requirements of the PRA, the OCC may not conduct or sponsor, and the respondent is not required to respond to, an information collection unless it displays a…
+
+## Agency Information Collection Activities: Comment Request on Burden Related to Capitalization of Interest
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03271/agency-information-collection-activities-comment-request-on-burden-related-to-capitalization-of
+
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+
+## Agency Information Collection Activities: Comment Request for Burden Related to the Credit To Produce Electricity From Advanced Nuclear Power Facilities
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03270/agency-information-collection-activities-comment-request-for-burden-related-to-the-credit-to-produce
+
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+
+## Reporting and Recordkeeping Requirements Under Office of Management and Budget Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03269/reporting-and-recordkeeping-requirements-under-office-of-management-and-budget-review
+
+The Small Business Administration (SBA) will submit the information collection described below to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, as amended, on or after the date of publication of this notice. SBA is publishing this notice to allow all interested members of the public an additional 30 d…
+
+## Procurement List; Proposed deletions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03267/procurement-list-proposed-deletions
+
+The Committee is proposing to delete service(s) from the Procurement List that were furnished by nonprofit agencies employing persons who are blind or have other severe disabilities.
+
+## Removal of Obsolete References to “Water Carriers”
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03266/removal-of-obsolete-references-to-water-carriers
+
+FMCSA amends its regulations to remove obsolete references to "water carriers" in the FMCSA regulations (FMCSR). FMCSA does not specifically regulate water carriers except to the extent that such carriers also engage in motor carrier operations. In such cases, the existing FMCSR provide appropriate coverage of the carrier's motor carrier operations.
+
+## Parts and Accessories Necessary for Safe Operation; Fuel Tank Overfill Restriction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03265/parts-and-accessories-necessary-for-safe-operation-fuel-tank-overfill-restriction
+
+FMCSA removes the requirement in the Federal Motor Carrier Safety Regulations (FMCSR) that a liquid fuel tank manufactured on or after January 1, 1973, be designed and constructed so that it cannot be filled, in a normal filling operation, with a quantity of fuel that exceeds 95 percent of the tank's liquid capacity. This final rule responds to a petition for rulemaking from t…
+
+## Electronic Driver Vehicle Inspection Reports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03264/electronic-driver-vehicle-inspection-reports
+
+FMCSA clarifies the requirement to complete a Driver Vehicle Inspection Report (DVIR) based upon a public comment filed by the National Tank Truck Carriers (NTTC). The DVIR may already be completed electronically, however the explicit language in this rule will make this clear. This will encourage motor carriers and drivers to utilize electronic, cost-saving methods when compl…
+
+## Commercial Driver's License Standards; Requirements and Penalties: Applicability to the Exception for Certain Military Personnel
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03263/commercial-drivers-license-standards-requirements-and-penalties-applicability-to-the-exception-for
+
+FMCSA amends the Federal Motor Carrier Safety regulations (FMCSR) to allow dual-status military technicians to qualify for the exception for certain military personnel from commercial driver's license (CDL) standards. Dual-status military technicians are civilian technicians employed by military units to provide day-to-day support such as training, maintenance, and other activ…
+
+## Parts and Accessories Necessary for Safe Operation; Spare Fuses
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03262/parts-and-accessories-necessary-for-safe-operation-spare-fuses
+
+FMCSA amends the emergency equipment rules to remove the requirement for commercial motor vehicles (CMVs) to be equipped with at least one spare fuse for each type and size of fuse needed for the operation of the CMV. This change will remove an unnecessary requirement from the Federal Motor Carrier Safety Regulations (FMCSR).
+
+## Parts and Accessories Necessary for Safe Operation; Liquid-Burning Flares
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03261/parts-and-accessories-necessary-for-safe-operation-liquid-burning-flares
+
+FMCSA amends the rules for emergency equipment on commercial motor vehicles (CMVs) to remove the references to liquid-burning flares from the warning device requirements in the Federal Motor Carrier Safety Regulations (FMCSR). This action eliminates outdated language referring to warning devices that FMCSA believes are no longer used.
+
+## Parts and Accessories Necessary for Safe Operation; Tire Load Markings
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03260/parts-and-accessories-necessary-for-safe-operation-tire-load-markings
+
+FMCSA amends the requirements for commercial motor vehicle (CMV) tires to clarify that the Federal Motor Carrier Safety Regulations (FMCSR) do not require tire load restriction markings on the sidewalls of the tires. This change eliminates confusion and clarifies the scope of FMCSA's authority regarding requirements for CMV tires.
+
+## Parts and Accessories Necessary for Safe Operation; License Plate Lamps
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03259/parts-and-accessories-necessary-for-safe-operation-license-plate-lamps
+
+FMCSA amends the Federal Motor Carrier Safety Regulations (FMCSRs) to add an exception from the lamp and reflective device requirements for license plate lamps on the rear of truck tractors while towing a trailer. This amendment removes an unnecessary regulatory requirement without impacting safety.
+
+## Qualifications of Drivers; Vision Standards Grandfathering Provision
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03258/qualifications-of-drivers-vision-standards-grandfathering-provision
+
+FMCSA amends the Federal Motor Carrier Safety Regulations to remove the grandfathering provision under the physical qualifications standards for interstate drivers operating under the vision waiver study program administered from 1992 through 1994, and the vision exemption program operated from 1998 through 2022, as the grandfathering provision is now obsolete. FMCSA's current…
+
+## Parts and Accessories Necessary for Safe Operation; Auxiliary Fuel Tanks
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03257/parts-and-accessories-necessary-for-safe-operation-auxiliary-fuel-tanks
+
+FMCSA amends its fuel tank requirements to add an exception to the prohibition on gravity and syphon feeds for auxiliary pumps with a nominal fuel tank capacity of not more than five gallons mounted on the trailer chassis frame or trailer bed, for purposes other than operation of the motor vehicle, that are operated only when the motor vehicle is not in motion. This revision r…
+
+## Parts and Accessories Necessary for Safe Operation; Brakes on Portable Conveyors
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03256/parts-and-accessories-necessary-for-safe-operation-brakes-on-portable-conveyors
+
+FMCSA adds an exception for portable conveyors used in aggregate industry operations, and manufactured before 2010, from the requirement that each commercial motor vehicle (CMV) be equipped with brakes acting on all wheels, provided certain conditions are satisfied. This final rule responds to a petition for rulemaking from the Michigan Aggregates Association. The exception wi…
+
+## Parts and Accessories Necessary for Safe Operation; Certification and Labeling Requirements for Rear Impact Protection Guards
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03255/parts-and-accessories-necessary-for-safe-operation-certification-and-labeling-requirements-for-rear
+
+FMCSA amends the Federal Motor Carrier Safety Regulations (FMCSR) to rescind the requirement that the rear impact guard be permanently marked or labeled with a certification from the impact guard manufacturer as required by the applicable Federal Motor Vehicle Safety Standard (FMVSS) promulgated by the National Highway Traffic Safety Administration (NHTSA). The certification l…
+
+## Sherri Insprucker: Final Debarment Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03254/sherri-insprucker-final-debarment-order
+
+The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) debarring Sherri Insprucker for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order on a finding that Ms. Insprucker was convicted of one felony count under Federal law for conspiracy to i…
+
+## Justin Insprucker: Final Debarment Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03253/justin-insprucker-final-debarment-order
+
+The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) debarring Justin Insprucker for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order on a finding that Mr. Insprucker was convicted of one felony count under Federal law for conspiracy to i…
+
+## Sherrie R. McCain: Final Debarment Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03252/sherrie-r-mccain-final-debarment-order
+
+The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) debarring Sherrie R. McCain for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order on a finding that Ms. McCain was convicted of a felony under Federal law for introduction into interstat…
+
+## Amendment of Class C Airspace; South Bend, Michiana Regional Airport, South Bend, IN
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03251/amendment-of-class-c-airspace-south-bend-michiana-regional-airport-south-bend-in
+
+This action amends the Class C airspace description for the former "South Bend, Michiana Regional Airport, IN", to update the airport name to the "South Bend International Airport" and the airport's geographic coordinates to match the FAA's National Airspace System Resources (NASR) database. Additionally, this action further amends the airspace description by updating the head…
+
+## Revocation of Authorization of Emergency Use of ExThera Medical Corporation Seraph 100 Microbind Affinity Blood Filter (Seraph 100); Availability
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03250/revocation-of-authorization-of-emergency-use-of-exthera-medical-corporation-seraph-100-microbind
+
+The Food and Drug Administration (FDA) is announcing the revocation of the Emergency Use Authorization (EUA) (the Authorization) issued to ExThera Medical Corporation, for the Seraph 100 Microbind Affinity Blood Filter (Seraph 100). FDA revoked this Authorization under the Federal Food, Drug, and Cosmetic Act (FD&C Act) as requested by the Authorization holder. The revocation,…
+
+## Amendment of United States Area Navigation Routes Q-121 and Q-156
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03246/amendment-of-united-states-area-navigation-routes-q-121-and-q-156
+
+This action renames a waypoint (WP) on United States Area Navigation (RNAV) Routes Q-121 and Q-156 currently identified as "SWTHN" with the new identifier "STORZ" for pronounceability. This action does not change the structure or flight path of either RNAV route.
+
+## Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03244/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification
+
+## Privacy Act of 1974; System of Records
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03241/privacy-act-of-1974-system-of-records
+
+This system is a cloud-based procurement workflow management platform that allows the STB to streamline the procurement process, while ensuring policy compliance. This system maintains records related to payments made by the STB, including vendor payments and other financial disbursements.
+
+## Self-Regulatory Organizations; Cboe BZX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03240/self-regulatory-organizations-cboe-bzx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; NYSE American LLC; Notice of Filing of a Proposed Rule Change To Amend Rule 915
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03239/self-regulatory-organizations-nyse-american-llc-notice-of-filing-of-a-proposed-rule-change-to-amend
+
+## Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing of a Proposed Rule Change To Amend Rule 5.3-O
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03238/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-of-a-proposed-rule-change-to-amend-rule
+
+## Self-Regulatory Organizations; MEMX LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Rule 18.7, Position Limits, and Rule 18.9, Exercise Limits, Regarding Position and Exercise Limits…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03237/self-regulatory-organizations-memx-llc-notice-of-filing-and-immediate-effectiveness-of-a-proposed
+
+## Self-Regulatory Organizations; NYSE Texas, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Rule 7.35
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03236/self-regulatory-organizations-nyse-texas-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe EDGX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03235/self-regulatory-organizations-cboe-edgx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe BYX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03234/self-regulatory-organizations-cboe-byx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Meketa Infrastructure Fund, et al.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03233/meketa-infrastructure-fund-et-al
+
+## Self-Regulatory Organizations; the Options Clearing Corporation; Order Granting Petition for Review and Scheduling Filing of Statements Concerning Order Granting Accelerated Approval of Proposed Rule Change, as Modified…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03232/self-regulatory-organizations-the-options-clearing-corporation-order-granting-petition-for-review
+
+## TCG Strategic Income Fund, et al.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03231/tcg-strategic-income-fund-et-al
+
+## Wilshire Private Assets Master Fund, et al.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03230/wilshire-private-assets-master-fund-et-al
+
+## Certain Polycrystalline Diamond Compacts and Articles Containing Same; Notice of Commission Determination To Institute a Modification Proceeding and To Grant a Joint Motion for Limited Service of Confidential Exhibit; M…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03229/certain-polycrystalline-diamond-compacts-and-articles-containing-same-notice-of-commission
+
+Notice is hereby given that the U.S. International Trade Commission ("Commission") has determined to institute a modification proceeding based on a joint petition to rescind the limited exclusion order ("LEO") as to respondent Shenzhen Haimingrun Superhard Materials Co., Ltd. ("Haimingrun"), and grant the joint motion for limited service of the confidential exhibit. The LEO is…
+
+## Maximum Line Speed Under the New Swine Slaughter Inspection System (NSIS)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03228/maximum-line-speed-under-the-new-swine-slaughter-inspection-system-nsis
+
+FSIS is proposing to amend the Federal meat inspection regulations to allow establishments operating under the NSIS to determine their own line speeds based on their ability to maintain process control. FSIS is also proposing to clarify that the FSIS inspector may reduce the rate of establishment operations at any point in the slaughter process when, in their judgement, there…
+
+## Maximum Line Speed Rates for Young Chicken and Turkey Establishments Operating Under the New Poultry Inspection System
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03227/maximum-line-speed-rates-for-young-chicken-and-turkey-establishments-operating-under-the-new-poultry
+
+FSIS is proposing to amend the regulations to: allow young chicken establishments operating under the New Poultry Inspection System (NPIS) to operate at line speeds up to 175 birds per minute (bpm); increase the maximum line speed prescribed for turkey establishments operating under the NPIS from 55 bpm to 60 bpm; define "maximum line speed" as the time it takes for an inspect…
+
+## Notice of Agreement Filed
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03225/notice-of-agreement-filed
+
+## Unwrought Palladium From the Russian Federation: Preliminary Affirmative Determination of Sales at Less-Than-Fair Value
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03218/unwrought-palladium-from-the-russian-federation-preliminary-affirmative-determination-of-sales-at
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that unwrought palladium (palladium) from the Russian Federation (Russia) is being, or is likely to be, sold in the United States at less than fair value (LTFV). The period of investigation (POI) is January 1, 2025, through June 30, 2025. Interested parties are invited to comment on this preliminary determinat…
+
+## Privacy Act of 1974; System of Records
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03217/privacy-act-of-1974-system-of-records
+
+The United States Postal Service[supreg] (USPS[supreg]) is proposing to create a new General Privacy Act System of Records (SOR) to support an initiative that will enhance the mental health, resilience, and operational performance of personnel within the U.S. Postal Inspection Service (USPIS) by implementing a structured Peer Support Program.
+
 ## Hiring Authority for Post-Secondary Students
 - Source: Federal Register
 - Category: Federal Register
@@ -210,6 +684,38 @@ The Farm Credit Administration (FCA, we, us or our) is issuing a final rule amen
 - URL: https://www.federalregister.gov/documents/2026/02/19/2026-03242/hiring-authority-for-post-secondary-students
 
 The Office of Personnel Management (OPM) is issuing a final rule to amend its career and career-conditional employment regulations. The revision is necessary to implement section 1108 of the John S. McCain National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2019, which requires OPM to issue regulations implementing hiring authorities that allow agencies to hire cert…
+
+## Atlantic Highly Migratory Species; Revision of the Termination Date for Swordfish and Shark Limited Access Permits
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03306/atlantic-highly-migratory-species-revision-of-the-termination-date-for-swordfish-and-shark-limited
+
+This proposed rule would revise the regulations regarding the termination date for swordfish and shark limited access permits (LAPs). Currently, when a swordfish or shark LAP is not renewed within a year of the expiration date, the permit terminates and can no longer be renewed or used. This action would remove the termination date and allow permits to be renewed at any time.…
+
+## Petroleum-Equivalent Fuel Economy Calculation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03300/petroleum-equivalent-fuel-economy-calculation
+
+The Office of Critical Minerals and Energy Innovation (formerly the Office of Energy Efficiency and Renewable Energy) of the Department of Energy (DOE) has reviewed the petroleum-equivalency factor (PEF) for electric vehicles (EVs) used by the Environmental Protection Agency (EPA) in calculating light-duty vehicle manufacturers' compliance with the Department of Transportation…
+
+## Fisheries Off West Coast States; West Coast Salmon Fisheries; Rebuilding Plan for the Overfished Queets River Spring/Summer Chinook Salmon Stock
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03296/fisheries-off-west-coast-states-west-coast-salmon-fisheries-rebuilding-plan-for-the-overfished
+
+NMFS proposes to approve and implement the rebuilding plan recommended by the Pacific Fishery Management Council (Council) for the overfished Queets River Spring/Summer Chinook salmon stock (Queets sp/ su Chinook salmon). NMFS determined in October 2023 that this stock was overfished. The rebuilding plan will be part of the framework that guides the development of annual manag…
+
+## Magnuson-Stevens Fishery Conservation and Management Act Provisions; Fisheries of the Northeastern United States; 2026 and Projected 2027 Specifications for the Summer Flounder, Scup, Black Sea Bass, and Bluefish Fisher…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03295/magnuson-stevens-fishery-conservation-and-management-act-provisions-fisheries-of-the-northeastern
+
+NMFS announces 2026 specifications and projects 2027 specifications for the summer flounder, scup, black sea bass, and bluefish fisheries. The implementing regulations for the Summer Flounder, Scup, and Black Sea Bass Fishery Management Plan (FMP) and the Bluefish FMP require us to publish specifications for the upcoming fishing year for each of these species and to respond to…
 
 ## Fact Sheet: President Donald J. Trump Ensures an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides for National Security
 - Source: White House
@@ -13197,6 +13703,490 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-02-18T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/if-you-need-a-spare-laptop-this-refurbished-chromebook-is-just-80/
 
+## Determination That TOLECTIN DS (Tolmetin Sodium) Capsule, Equivalent to 400 Milligrams Base, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03213/determination-that-tolectin-ds-tolmetin-sodium-capsule-equivalent-to-400-milligrams-base-was-not
+
+The Food and Drug Administration (FDA, Agency, or we) has determined that TOLECTIN DS (tolmetin sodium) capsule, equivalent to (EQ) 400 milligrams (mg) base, was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for tolmetin sodium, capsule, EQ 400 mg base, if all other legal a…
+
+## Issuance of Priority Review Voucher; Rare Pediatric Disease Product; ZEVASKYN (Prademagene Zamikeracel)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03211/issuance-of-priority-review-voucher-rare-pediatric-disease-product-zevaskyn-prademagene-zamikeracel
+
+The Food and Drug Administration (FDA) is announcing the issuance of a priority review voucher to the sponsor of a rare pediatric disease product application. The Federal Food, Drug, and Cosmetic Act (FD&C Act) authorizes FDA to award priority review vouchers to sponsors of approved rare pediatric disease product applications that meet certain criteria. FDA is required to publ…
+
+## New Postal Products
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03208/new-postal-products
+
+The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps.
+
+## Certain Corrosion-Resistant Steel Products From the Republic of Korea: Final Results of Countervailing Duty Changed Circumstances Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03207/certain-corrosion-resistant-steel-products-from-the-republic-of-korea-final-results-of
+
+The U.S. Department of Commerce (Commerce) determines that a producer/exporter subject the countervailing duty (CVD) order on certain corrosion-resistant steel products (CORE) from the Republic of Korea (Korea), Dongkuk Coated Metal Co., Ltd. (Dongkuk CM), is not the Successor-in-Interest (SII) to Dongkuk Steel Mill Co., Ltd. (Old Dongkuk Steel) in the context of the CVD order…
+
+## Certain Aluminum Foil From the People's Republic of China: Final Results of Countervailing Duty Administrative Review; 2023
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03205/certain-aluminum-foil-from-the-peoples-republic-of-china-final-results-of-countervailing-duty
+
+The U.S. Department of Commerce (Commerce) determines that countervailable subsidies were provided to certain exporters/producers of certain aluminum foil (aluminum foil) from the People's Republic of China (China) during the period of review (POR) January 1, 2023, through December 31, 2023.
+
+## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03204/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+
+## Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; Patent and PTAB Pro Bono Programs
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03203/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for
+
+The United States Patent and Trademark Office (hereafter "USPTO" or "Agency") will submit the following information collection request to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, on or after the date of publication of this notice. The USPTO invites comments on the information collection renewal o…
+
+## Stainless Steel Flanges From India: Preliminary Results and Rescission, in Part, of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03202/stainless-steel-flanges-from-india-preliminary-results-and-rescission-in-part-of-antidumping-duty
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that producers and/or exporters of stainless steel flanges (flanges) from India made sales of subject merchandise in the United States at prices below normal value (NV) during the period of review (POR) October 1, 2023, through September 30, 2024. In addition, we are rescinding this review for two companies. We inv…
+
+## Tongass National Forest; Alaska; Land Management Plan Revision
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03197/tongass-national-forest-alaska-land-management-plan-revision
+
+The U.S. Department of Agriculture, Forest Service is revising the land management plan for the Tongass National Forest. This notice announces the Forest Service's initiation of the development of a revised land management plan (revised plan) and intent to prepare an environmental impact statement (EIS) to evaluate the effects of revising the current plan. This notice initiate…
+
+## High Purity Dissolving Pulp From Brazil and Norway: Postponement of Preliminary Determinations in the Less-Than-Fair-Value Investigations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03196/high-purity-dissolving-pulp-from-brazil-and-norway-postponement-of-preliminary-determinations-in-the
+
+## Fresh Tomatoes From Mexico: Final Clarification of the Scope of the Antidumping Duty Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03195/fresh-tomatoes-from-mexico-final-clarification-of-the-scope-of-the-antidumping-duty-order
+
+On December 22, 2025, the U.S. Department of Commerce (Commerce) issued a proposed clarification of the scope of the antidumping duty (AD) order on fresh tomatoes from Mexico. Based on comments from interested parties, Commerce has further clarified the scope of this order.
+
+## Fresh Mushrooms From Canada: Postponement of Preliminary Determination in the Countervailing Duty Investigation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03194/fresh-mushrooms-from-canada-postponement-of-preliminary-determination-in-the-countervailing-duty
+
+## Circular Welded Carbon Steel Pipes and Tubes From Thailand: Notice of Court Decision Not in Harmony With the Results of Antidumping Duty Administrative Review; Notice of Amended Final Results
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03193/circular-welded-carbon-steel-pipes-and-tubes-from-thailand-notice-of-court-decision-not-in-harmony
+
+On February 4, 2026, the U.S. Court of International Trade (CIT) issued its final judgment in Saha Thai Steel Pipe Public Company Limited v. United States, Court No. 21-00049, sustaining the Department of Commerce (Commerce)'s first remand results pertaining to the administrative review of the antidumping duty (AD) order on circular welded carbon steel pipes and tubes from Tha…
+
+## Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V LIFE OF RILEY
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03192/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv-life
+
+The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determini…
+
+## Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, S/V ZELEE
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03191/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-sv-zelee
+
+The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determini…
+
+## Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V VINDICATED
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03190/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv
+
+The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determini…
+
+## Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V TAGGED AND RELEASED
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03189/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv
+
+The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determini…
+
+## Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V SEAIRA
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03188/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv
+
+The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determini…
+
+## Parts and Accessories Necessary for Safe Operation; Application for Exemption From Truck-Lite Co., LLC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03168/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-truck-lite-co-llc
+
+The Federal Motor Carrier Safety Administration (FMCSA) requests public comment on an application for exemption submitted by Truck-Lite Co., LLC (Truck-Lite) to allow motor carriers to install auxiliary amber brake-activated pulsating warning lamps on the rear of commercial trucks and trailers in addition to the steady-burning brake lamps required by the Federal Motor Carrier…
+
+## Export Trade Certificate of Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03158/export-trade-certificate-of-review
+
+The Secretary of Commerce, through the Office of Trade and Economic Analysis (OTEA), issued an amended Export Trade Certificate of Review (Certificate) to NFE on January 6th, 2026.
+
+## Bayer U.S.-Crop Science: Availability of a Petition for a Determination of Nonregulated Status and Draft Plant Pest Risk Assessment for MON 94637 Lepidopteran-Protected Soybean (Glycine Max)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03154/bayer-us-crop-science-availability-of-a-petition-for-a-determination-of-nonregulated-status-and
+
+We are advising the public that the Animal and Plant Health Inspection Service has received a petition from Bayer U.S.-Crop Science seeking a determination of nonregulated status for MON 94637 Lepidopteran-protected Soybean (Glycine max) which has been developed using genetic engineering to express two insecticidal proteins to protect against feeding damage caused by target le…
+
+## Syngenta Seeds, LLC.: Availability of a Petition for a Determination of Nonregulated Status and Draft Plant Pest Risk Assessment for Insect Resistant MZIR260 Maize (Zea Mays L.)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03153/syngenta-seeds-llc-availability-of-a-petition-for-a-determination-of-nonregulated-status-and-draft
+
+We are advising the public that the Animal and Plant Health Inspection Service has received a petition from Syngenta Seeds, LLC. seeking a determination of nonregulated status for MZIR260 maize (Zea mays L.), which has been developed using genetic engineering to provide control of fall armyworm (Spodoptera frugiperda) and express the phosphomannose isomerase protein used as a…
+
+## Pioneer Hi-Bred International, Inc.: Availability of a Petition for a Determination of Nonregulated Status and Draft Plant Pest Risk Assessment for Insect Resistant and Herbicide-Tolerant DAS-01131-3 Maize (Corn)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03152/pioneer-hi-bred-international-inc-availability-of-a-petition-for-a-determination-of-nonregulated
+
+We are advising the public that the Animal and Plant Health Inspection Service has received a petition from Pioneer Hi-Bred International, Inc. seeking a determination of nonregulated status for DAS-01131-3 maize (corn), which has been developed using genetic engineering to produce the Cry1Da2 protein for protection against certain susceptible lepidopteran pests and the DGT-28…
+
+## Pioneer Hi-Bred International, Inc.: Availability of a Petition for a Determination of Nonregulated Status and Draft Plant Pest Risk Assessment for Insect Resistant and Herbicide-Tolerant DP-910521-2 Maize (Corn)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03151/pioneer-hi-bred-international-inc-availability-of-a-petition-for-a-determination-of-nonregulated
+
+We are advising the public that the Animal and Plant Health Inspection Service has received a petition from Pioneer Hi-Bred International, Inc. seeking a determination of nonregulated status for DP-910521-2 maize (corn) which has been developed using genetic engineering to express the Cry1B.34 protein for control of certain susceptible lepidopteran pests, the phosphinothricin…
+
+## IFR Altitudes; Miscellaneous Amendments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03150/ifr-altitudes-miscellaneous-amendments
+
+This amendment adopts miscellaneous amendments to the required IFR (instrument flight rules) altitudes and changeover points for certain Federal airways, jet routes, or direct routes for which a minimum or maximum en route authorized IFR altitude is prescribed. This regulatory action is needed because of changes occurring in the National Airspace System. These changes are desi…
+
+## Alaska Native Claims Selection
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03149/alaska-native-claims-selection
+
+The Bureau of Land Management (BLM) hereby provides constructive notice that it will issue an appealable decision approving conveyance of the surface and subsurface estates in certain lands to Doyon, Limited, an Alaska Native regional corporation, pursuant to the Alaska Native Claims Settlement Act of 1971 (ANCSA).
+
+## Proposed Agency Information Collection Activities; Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03148/proposed-agency-information-collection-activities-comment-request
+
+Under the Paperwork Reduction Act of 1995 (PRA) and its implementing regulations, this notice announces that FRA is forwarding the Information Collection Request (ICR) summarized below to the Office of Management and Budget (OMB) for review and comment. The ICR describes the information collection and its expected burden. On December 3, 2025, FRA published a notice providing a…
+
+## Proposed Agency Information Collection Activities; Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03147/proposed-agency-information-collection-activities-comment-request
+
+Under the Paperwork Reduction Act of 1995 (PRA) and its implementing regulations, this notice announces that FRA is forwarding the Information Collection Request (ICR) summarized below to the Office of Management and Budget (OMB) for review and comment. The ICR describes the information collection and its expected burden. On December 3, 2025, FRA published a notice providing a…
+
+## Proposed Agency Information Collection Activities; Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03146/proposed-agency-information-collection-activities-comment-request
+
+Under the Paperwork Reduction Act of 1995 (PRA) and its implementing regulations, this notice announces that FRA is forwarding the Information Collection Request (ICR) summarized below to the Office of Management and Budget (OMB) for review and comment. The ICR describes the information collection and its expected burden. On December 3, 2025, FRA published a notice providing a…
+
+## Agency Information Collection Activities; Request for Public Comment
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03145/agency-information-collection-activities-request-for-public-comment
+
+The Department of Labor (the Department), in accordance with the Paperwork Reduction Act, provides the general public and Federal agencies with an opportunity to comment on proposed and continuing collections of information. This helps the Department assess the impact of its information collection requirements and minimize the public's reporting burden. It also helps the publi…
+
+## Nemko North America, Inc.: Grant of Expansion of Recognition
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03143/nemko-north-america-inc-grant-of-expansion-of-recognition
+
+In this notice, OSHA announces the final decision to expand the scope of recognition for Nemko North America, Inc. as a Nationally Recognized Testing Laboratory (NRTL).
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Cadmium in Construction Standard
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03142/agency-information-collection-activities-submission-for-omb-review-comment-request-cadmium-in
+
+The Department of Labor (DOL) is submitting this Occupational Safety & Health Administration (OSHA)-sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited.
+
+## UL LLC: Application for Expansion of Recognition
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03141/ul-llc-application-for-expansion-of-recognition
+
+In this notice, OSHA announces the application of UL LLC, for expansion of the scope of recognition as a Nationally Recognized Testing Laboratory (NRTL) and presents the agency's preliminary finding to grant the application.
+
+## Notice of Request for Extension of a Currently Approved Information Collection
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03140/notice-of-request-for-extension-of-a-currently-approved-information-collection
+
+In accordance with the Paperwork Reduction Act of 1995, the United States Department of Agriculture's Rural Utilities Service (RUS) invites comments on this extension to a currently approved information collection package for the Broadband Technical Assistance Program (BTA Program). The BTA Program provides financial assistance to technical assistance providers and rural commu…
+
+## Limitation on Claims Against Proposed Public Transportation Project -Buffalo-Amherst-Tonawanda Corridor Expansion Project, Buffalo, New York.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03137/limitation-on-claims-against-proposed-public-transportation-project--buffalo-amherst-tonawanda
+
+This notice announces final environmental actions taken by the Federal Transit Administration (FTA) regarding the Buffalo-Amherst- Tonawanda Corridor Expansion Project in Buffalo, New York. The purpose of this notice is to publicly announce FTA's environmental decisions on the subject project, and to activate the limitation on any claims that may challenge these final environm…
+
+## Steel Concrete Reinforcing Bar From Mexico and Turkey; Scheduling of Expedited Five-Year Reviews
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03135/steel-concrete-reinforcing-bar-from-mexico-and-turkey-scheduling-of-expedited-five-year-reviews
+
+The Commission hereby gives notice of the scheduling of expedited reviews pursuant to the Tariff Act of 1930 ("the Act") to determine whether revocation of the countervailing duty order on steel concrete reinforcing bar ("rebar") from Turkey and the antidumping duty order on rebar from Mexico would be likely to lead to continuation or recurrence of material injury within a rea…
+
+## Presidential Declaration of a Major Disaster for Public Assistance Only for the State of Tennessee
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03134/presidential-declaration-of-a-major-disaster-for-public-assistance-only-for-the-state-of-tennessee
+
+This is notice of the Presidential declaration of a major disaster for Public Assistance Only for the state of Tennessee (FEMA- 4898-DR), dated February 6, 2026. Incident: Severe Winter Storm.
+
+## Self-Regulatory Organizations; MIAX PEARL, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the MIAX Pearl Options Exchange Fee Schedule To Amend Non-Transaction Fees
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03133/self-regulatory-organizations-miax-pearl-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Miami International Securities Exchange, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend MIAX Options Exchange Fee Schedule To Amend Non-Transaction Fe…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03132/self-regulatory-organizations-miami-international-securities-exchange-llc-notice-of-filing-and
+
+## Self-Regulatory Organizations; Long-Term Stock Exchange, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the LTSE Fee Schedule Relating to Its Co-Lead Incentive Rebates
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03131/self-regulatory-organizations-long-term-stock-exchange-inc-notice-of-filing-and-immediate
+
+## Self-Regulatory Organizations; Long-Term Stock Exchange, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Fee Schedule With Respect to the Co-Lead Incentive
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03130/self-regulatory-organizations-long-term-stock-exchange-inc-notice-of-filing-and-immediate
+
+## Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the NYSE Arca Equities Fees and Charges
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03129/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-proposed
+
+## Self-Regulatory Organizations; National Securities Clearing Corporation; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Make Corrections, Clarifications and Certain Other Changes to the NSCC Rul…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03128/self-regulatory-organizations-national-securities-clearing-corporation-notice-of-filing-and
+
+## Self-Regulatory Organizations; Financial Industry Regulatory Authority, Inc.; Order Approving a Proposed Rule Change, as Modified by Amendment No. 1, To Amend FINRA Rule 3220 (Influencing or Rewarding Employees of Other…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03127/self-regulatory-organizations-financial-industry-regulatory-authority-inc-order-approving-a-proposed
+
+## Self-Regulatory Organizations; MIAX Emerald, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the MIAX Emerald Options Exchange Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03126/self-regulatory-organizations-miax-emerald-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; BOX Exchange LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the Fee Schedule for Trading on the BOX Options Market LLC Facility Relating to Connectivi…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03125/self-regulatory-organizations-box-exchange-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; MIAX Emerald, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the MIAX Emerald Options Exchange Fee Schedule To Amend Non-Transaction Fees
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03124/self-regulatory-organizations-miax-emerald-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Pursuit Asset-Based Income Fund, et al.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03123/pursuit-asset-based-income-fund-et-al
+
+## Investcorp US Private Credit BDC II and CM Investment Partners LLC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03122/investcorp-us-private-credit-bdc-ii-and-cm-investment-partners-llc
+
+## Harbor Funds, et al.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03121/harbor-funds-et-al
+
+## Privacy Act of 1974; Matching Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03108/privacy-act-of-1974-matching-program
+
+In accordance with the Privacy Act of 1974, as amended ("Privacy Act"), this document announces a new computer matching program the Federal Communications Commission ("FCC" or "Commission" or "Agency") and the Universal Service Administrative Company (USAC) will conduct with the Indiana Family and Social Services Administration Division of Family Resources. The purpose of this…
+
+## Paper File Folders From Cambodia; Determination
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03104/paper-file-folders-from-cambodia-determination
+
+## Stainless Steel Bar From India: Final Results and Rescission, in Part, of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03103/stainless-steel-bar-from-india-final-results-and-rescission-in-part-of-antidumping-duty
+
+The U.S. Department of Commerce (Commerce) determines that certain producers/exporters of stainless steel bar (SS Bar) from India made sales at prices below normal value during the period of review (POR), February 1, 2023, through January 31, 2024.
+
+## United States v. Reddy Ice LLC, et al. Proposed Final Judgment and Competitive Impact Statement
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03102/united-states-v-reddy-ice-llc-et-al-proposed-final-judgment-and-competitive-impact-statement
+
+## Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request Data To Support Social and Behavioral Research as Used by the Food and Drug Administration
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03099/agency-information-collection-activities-submission-for-office-of-management-and-budget-review
+
+The Food and Drug Administration (FDA, us, or we) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.
+
+## Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Regulations Restricting the Sale and Distribution of Cigarettes and Smokeless Tobacco To Protect Children…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03098/agency-information-collection-activities-submission-for-office-of-management-and-budget-review
+
+The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.
+
+## Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Electronic Products Requirements
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03097/agency-information-collection-activities-submission-for-office-of-management-and-budget-review
+
+The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.
+
+## Agency Information Collection Activities; Proposed Collection; Comment Request; Q-Submission and Early Payor Feedback Request Programs and Medical Device Development Tools
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03096/agency-information-collection-activities-proposed-collection-comment-request-q-submission-and-early
+
+The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.
+
+## Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Generic Clearance for Quick Turnaround Testing of Communication Effectiveness
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03095/agency-information-collection-activities-submission-for-office-of-management-and-budget-review
+
+The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.
+
+## Agency Information Collection Activities; Proposed Collection; Comment Request; Patent Term Restoration; Due Diligence Petitions; Filing, Format, and Content of Petitions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03094/agency-information-collection-activities-proposed-collection-comment-request-patent-term-restoration
+
+The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an exis…
+
+## Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Emerging Drug Safety Technology Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03093/agency-information-collection-activities-submission-for-office-of-management-and-budget-review
+
+The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.
+
+## Agency Information Collection Activities: Notice of Request for Reinstatement of a Previously Approved Information Collection
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03087/agency-information-collection-activities-notice-of-request-for-reinstatement-of-a-previously
+
+The FHWA invites public comments about our intention to request the Office of Management and Budget's (OMB) approval for reinstatement of a previously approved information collection that is summarized below under SUPPLEMENTARY INFORMATION. We are required to publish this notice in the Federal Register by the Paperwork Reduction Act of 1995.
+
+## General Policy for Pricing and Charging for Materials and Services Sold by the Department of Energy
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03159/general-policy-for-pricing-and-charging-for-materials-and-services-sold-by-the-department-of-energy
+
+The Department of Energy (DOE or the Department) is proposing to update the Department's general pricing regulation to establish prices and charges for materials and services sold to organizations and people outside of the Federal Government. DOE's general pricing regulation does not apply to the prices and charges provided for by statute, Executive order, or regulation. This…
+
+## Rescission of the Greenhouse Gas Endangerment Finding and Motor Vehicle Greenhouse Gas Emission Standards Under the Clean Air Act
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03157/rescission-of-the-greenhouse-gas-endangerment-finding-and-motor-vehicle-greenhouse-gas-emission
+
+In this action, the U.S. Environmental Protection Agency (EPA) is rescinding the Administrator's 2009 findings of contribution and endangerment and repealing all greenhouse gas (GHG) emission standards for light-duty, medium-duty, and heavy-duty vehicles and engines to effectuate the best reading of Clean Air Act (CAA) section 202(a)(1). The EPA determines that CAA section 202…
+
+## Safety Zone; San Juan Harbor, San Juan, PR
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03138/safety-zone-san-juan-harbor-san-juan-pr
+
+The Coast Guard is establishing a temporary safety zone for navigable waters within 200 yards radius around the Barge DEFIANT grounded north of El Morro, east of the green buoy three, near the entrance of the San Juan Harbor. The safety zone is needed to protect personnel, vessels, and the marine environment from potential hazards created by the Barge DEFIANT grounding. Entry…
+
 ## Spain orders NordVPN, ProtonVPN to block LaLiga piracy sites
 - Source: BleepingComputer
 - Category: IS
@@ -13227,7 +14217,7 @@ The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (Fi
 
 ## Just Announced: New Speakers Added to CDIA Connect 2026!
 - Source: CDIA
-- Category: CDIA
+- Category: Compliance Watch
 - Published: 2026-02-17T16:58:06Z
 - URL: https://www.cdiaonline.org/events/2026/02/17/just-announced-new-speakers-added-to-cdia-connect-2026/
 
@@ -13303,6 +14293,996 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://ir.jackhenry.com/stock-info/historic-stock-lookup
 
+## ### Cloudflare and Mastercard partner to extend comprehensive cyber defense across critical infrastructure and small businesses February 17, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/february/cloudflare-and-mastercard-to-extend-comprehensive-cyber-defense-.html
+
+## ### Noah Kahan and Mastercard to premiere ‘The Great Divide’ music video and offer cardholders Priceless experiences January 29, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/noah-kahan-and-mastercard-to-premiere--the-great-divide--music-v.html
+
+## ### Mastercard launches Agent Suite to ready enterprises for a new era January 27, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/mastercard-launches-agent-suite-to-ready-enterprises-for-a-new-e.html
+
+## ### Mastercard spotlights Indigenous small businesses at Toronto Maple Leafs Indigenous Celebration Game January 6, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/Mastercard-spotlights-Indigenous-small-businesses-at-Toronto-Maple-Leafs-Indigenous-Celebration-Game.html
+
+## ### Mastercard SpendingPulse: Savvy shoppers and e-commerce fuel U.S. holiday retail sales growth by 3.9% year over year December 23, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-spendingpulse--savvy-shoppers-and-e-commerce-fuel-u-s.html
+
+## ### Mastercard and LoanPro announce partnership to modernize lending December 16, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-loanpro-announce-partnership-to-modernize-lending.html
+
+## ### Mastercard and the McLaren Formula 1 Team launch Team Priceless December 11, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-the-mclaren-formula-1-team-launch-team-priceless-.html
+
+## ### Empowering lenders with faster, smarter and more personalized insights with Mastercard Credit Intelligence December 3, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/Empowering-lenders-with-Mastercard-Credit-Intelligence1.html
+
+## ### Mastercard launches La Colección Diez de Diez, honors fans with first-ever Lionel Messi jersey swap December 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/Mastercard-launches-La-Coleccion-Diez-de-Diez-first-Lionel-Messi-jersey-swap.html
+
+## ### Mastercard SpendingPulse: US Black Friday retail sales up +4.1% YOY as holiday momentum builds November 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-spendingpulse--us-black-friday-retail-sales-up--4-1--.html
+
+## ### Mastercard Access Pass enables partners to forge deeper connections with consumers November 25, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-access-pass-enables-partners-to-forge-deeper-connecti.html
+
+## ### Mastercard and L’Oréal to transform the future of beauty commerce November 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-and-l-oreal-to-transform-the-future-of-beauty-commerc.html
+
+## ### Mastercard and Thunes bring stablecoin payouts to the mainstream November 13, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/Mastercard-and-Thunes-bring-stablecoin-payouts-to-the-mainstream.html
+
+## ### Mastercard introduces first-ever threat intelligence solution to combat payment fraud at scale October 27, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-introduces-first-ever-threat-intelligence-solution.html
+
+## ### Mastercard and PayPal join forces to accelerate secure global agentic commerce October 27, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-and-PayPal-join-forces.html
+
+## ### Mastercard and Citi bring Citi Flex Pay Installments to more retailers at checkout October 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-citi-bring-citi-flex-pay-installments-to-more-ret.html
+
+## ### Mastercard and Major League Baseball extend partnership — A celebration of Priceless moments and the fans who make them October 22, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-major-league-baseball-extend-partnership.html
+
+## ### Mastercard welcomes Jill Kramer as chief marketing and communications officer; Raja Rajamannar transitions to senior fellow role October 21, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-welcomes-jill-kramer-as-chief-marketing-and-communica.html
+
+## ### Mastercard and U.S. Bank expands subscription management for credit cardholders October 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-u-s--bank-expands-subscription-management-for-cre.html
+
+## ### Mastercard is supercharging commercial payments innovation October 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/simple-connections--smarter-controls--mastercard-is-superchargin.html
+
+## ### Mastercard launches Merchant Cloud to simplify and support commerce growth in global acceptance ecosystem October 14, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Merchant-Cloud-simplify-and-support-commerce-growth-in-global-acceptance-ecosystem.html
+
+## ### Mastercard at Money 20/20: Where insight meets action October 13, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-at-money-20-20--where-insight-meets-action-.html
+
+## ### Mastercard Payment Optimization Platform uses the power of data to drive more approvals October 13, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Payment-Optimization-Platform-uses-the-power-of-data-to-drive-more-approvals.html
+
+## ### Mastercard launches Small Business Navigator in Canada to enable small business resilience October 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-launches-small-business-navigator-in-canada-to-enable-small-business-resilience.html
+
+## ### Powering smarter and more personal advertising with Mastercard Commerce Media October 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/powering-smarter-and-more-personal-advertising-with-mastercard-commerce-media.html
+
+## ### Corpay and Mastercard Move extend near real-time payments to new markets September 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/corpay-mastercard-move-extend-near-real-time-payments.html
+
+## ### Mastercard unveils Global Reach Partner Program to accelerate customer expansion initiatives September 23, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-global-reach-partner-program-to-accelerate-customer-expansion-initiatives.html
+
+## ### Mastercard welcomes 11 startups to Start Path’s Emerging Fintech program September 22, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-welcomes-11-startups-to-start-path%E2%80%99s-emerging-fintech-program.html
+
+## ### Fueling the digital economy: Mastercard Start Path welcomes five new startups to the Blockchain and Digital Assets program September 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/fueling-the-digital-economy.html
+
+## ### Mastercard, NCR Atleos, and ITCARD to enhance contactless experiences at ATMs September 11, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-ncr-atleos-itcard-enhance-contactless-experiences-at-atms.html
+
+## ### Mastercard unveils customizable decisioning solution for financial institutions September 9, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-customizable-decisioning-solution-for-financial-institutions.html
+
+## ### Mastercard appoints Amb. Ailish Campbell as executive vice president, Public Sector September 2, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-appoints-amb--ailish-campbell-as-executive-vice-presi.html
+
+## ### Fans to be given unparalleled access as McLaren Racing announces Mastercard as official naming partner of the McLaren Formula 1 team from 2026 August 27, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/mclaren-racing-announces-mastercard-as-official-naming-partner-o.html
+
+## ### World Bank Group joins African Development Bank Group and Mastercard as co-chair of Mobilizing Access to the Digital Economy (MADE) Alliance: Africa August 5, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/World-Bank-Group-Mobilizing-Access-to-the-Digital-Economy-MADE-Alliance.html
+
+## ### Clarifying recent headlines on gaming content August 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/clarifying-recent-headlines-on-gaming-content.html
+
+## ### Mastercard and BMO expand Global Money Transfer service to nearly 70 destinations July 30, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/Mastercard-BMO-expand-Global-Money-Transfer-service.html
+
+## ### Mastercard accelerates B2B payment automation globally July 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-accelerates-b2b-payment-automation-globally-with-acce.html
+
+## ### Mastercard unveils AI Card Design Studio: a smarter, faster way to design your perfect card July 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-ai-card-design-studio.html
+
+## ### Mastercard expands global relationship with Uber to enhance payment experiences for drivers, couriers and consumers July 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-global-relationship-with-uber.html
+
+## ### American Airlines and Mastercard renew partnership for even more rewarding travel experiences July 21, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/american-airlines-mastercard-partnership-renewal.html
+
+## ### Delivering pathways to sustained prosperity July 16, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/sustained-prosperity-2024-impact-report.html
+
+## ### Elevating cardholder experiences worldwide with The Mastercard Collection and introduction of World Legend Mastercard July 16, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/elevating-cardholder-experiences-the-mastercard-collection-world-legend-mastercard.html
+
+## ### Mastercard and Jonas Brothers to debut music video in support of Stand Up To Cancer July 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-su2c-jonas-brothers.html
+
+## ### Mastercard expands Small Business Navigator with penny rental offer for Clover July 7, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-small-business-navigator.html
+
+## ### Protecting trust in a digital world: Mastercard launches new Start Path program to accelerate security innovation July 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/Mastercard-new-Start-Path-program-to-accelerate-security-innovation.html
+
+## ### Mastercard partners with the Billie Jean King Cup by Gainbridge June 25, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-billie-jean-king-cup.html
+
+## ### To counter ‘friendly’ fraud, Mastercard expands technology to new markets June 25, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/first-party-trust-countering-friendly-fraud.html
+
+## ### Mastercard and Chainlink enable on-chain crypto purchases using Mastercard's 3.5 billion cards June 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
+
+## ### Mastercard partners with Fiserv to accelerate mainstream stablecoin adoption June 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-fiserv-stablecoin-adoption.html
+
+## ### OnePay and Synchrony to launch new industry-leading credit card program with Walmart; credit card to be powered by Mastercard and set to go live this fall June 9, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/onepay-synchrony-walmart-mastercard.html
+
+## ### Mastercard and PayPal to partner on Mastercard One Credential to supercharge choice at checkout June 4, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-paypal-one-credential.html
+
+## ### Deutsche Bank and Mastercard partner to power merchant solutions with open banking payments June 3, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/deutsche-bank-and-mastercard-partner-to-power-merchant-solutions-with-open-banking-payments.html
+
+## ### One year in, Mastercard’s checkout transformation gains ground across Europe June 3, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/one-year-in-mastercard-s-checkout-transformation-gains-ground-across-europe-1.html
+
+## ### Mastercard unveils Small Business Navigator to empower U.S. entrepreneurs with smarter, safer growth May 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-unveils-small-business-navigator-to-empower-u-s-entrepreneurs-with-smarter-safer-growth.html
+
+## ### Mastercard introduces Touch Card by Mastercard™ in Canada, a tactile notch feature designed to help empower the sight loss community May 28, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-introduces-touch-card-by-mastercard-in-canada-a-tactile-notch-feature-designed-to-help-empower-the-sight-loss-community.html
+
+## ### Mastercard and MoonPay team up to mainstream stablecoin payments May 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-and-moonpay-team-up-to-mainstream-stablecoin-payments.html
+
+## ### Mastercard Economics Institute: What moves us? The motivations behind global travel in 2025 May 12, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-economics-institute-what-moves-us-the-motivations-behind-global-travel-in-2025.html
+
+## ### Nuvei offers Canadian businesses near instant pay-outs via Mastercard Move May 7, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/nuvei-offers-canadian-businesses-near-instant-payouts-via-mastercard-move.html
+
+## ### Mastercard center for inclusive growth and Tamkeen partner to launch first Mastercard strive initiative in Bahrain and the middle east May 4, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-center-for-inclusive-growth-and-tamkeen-partner-to-launch-first-mastercard-strive-initiative-in-bahrain-and-the-middle-east.html
+
+## ### CIBC launches CIBC Adapta Mastercard, a credit card that automatically adapts to spending behavior rewarding cardholders more for everyday purchases May 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/cibc-launches-cibc-adapta-mastercard-a-credit-card-that-automatically-adapts-to-spending-behavior-rewarding-cardholders-more-for-everyday-purchases.html
+
+## ### Mastercard unveils Agent Pay, pioneering agentic payments technology to power commerce in the age of AI April 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html
+
+## ### Mastercard unveils end-to-end capabilities to power stablecoin transactions – from wallets to checkouts April 28, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-end-to-end-capabilities-to-power-stablecoin-transactions-from-wallets-to-checkouts.html
+
+## ### Mastercard elevates Sam’s Club Sam’s Cash Bonus Offer Program with personalization and rewards Apri 28, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-elevates-sam-s-club-sam-s-cash-bonus-offer-program-with-personalization-and-rewards.html
+
+## ### Update regarding Mastercard’s Chief Financial Officer April 10, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/update-regarding-mastercard-s-chief-financial-officer.html
+
+## ### MoneyGram and Mastercard collaborate to advance digital money movement April 2, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/moneygram-and-mastercard-collaborate-to-advance-digital-money-movement.html
+
+## ### Mastercard is modernizing commercial payments with embedded virtual card technology March, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/march/mastercard-is-modernizing-commercial-payments-with-embedded-virtual-card-technology.html
+
+## ### ICBA Payments and Mastercard partner to upgrade customer payment experiences for community banks March, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/march/icba-payments-and-mastercard-partner-to-upgrade-customer-payment-experiences-for-community-banks.html
+
+## ### Richard R. Verma rejoins Mastercard to oversee Law, Government Affairs & Policy and Franchise, Tim Murphy named vice chair February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/richard-r-verma-rejoins-mastercard-to-oversee-law-government-affairs-policy-and-franchise-tim-murphy-named-vice-chair.html
+
+## ### Mastercard names Erin Elofson as division president, Canada February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-names-erin-elofson-as-division-president-canada.html
+
+## ### New Mastercard research: Consumers in Canada worry about the impact of fraud on financial health February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/new-mastercard-research-consumers-in-canada-worry-about-the-impact-of-fraud-on-financial-health.html
+
+## ### Mastercard Business Builder program fuels creator growth February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-business-builder-program-fuels-creator-growth.html
+
+## ### Consumers demand more choice and control over how they check out February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/consumers-demand-more-choice-and-control-over-how-they-check-out.html
+
+## ### Mastercard appoints Janet George as executive vice president of artificial intelligence February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-appoints-janet-george-as-executive-vice-president-of-artificial-intelligence.html
+
+## ### Mastercard launches new product innovation to address unmet needs of the middle market February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-new-product-innovation-to-address-unmet-needs-of-the-middle-market.html
+
+## ### Mastercard and Feedzai join forces to protect more consumers and businesses from scams February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-feedzai-join-forces-to-protect-more-consumers-and-businesses-from-scams.html
+
+## ### Mastercard launches anti-money laundering service “TRACE” to combat financial crime in Asia Pacific February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-anti-money-laundering-service-trace-to-combat-financial-crime-in-asia-pacific.html
+
+## ### Mastercard supports Canadian small businesses with new funding: Meet the recipients of the Mastercard x Pier Five Small Business Fund February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-supports-canadian-small-businesses-with-new-funding-meet-the-recipients-of-the-mastercard-x-pier-five-small-business-fund.html
+
+## ### Mastercard and Lady Gaga team up to debut 'Abracadabra' music video, celebrating fans with Priceless Experiences February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-lady-gaga-team-up-to-debut-abracadabra-music-video-celebrating-fans-with-priceless-experiences.html
+
+## ### Porter Airlines, BMO and Mastercard accelerate Canadians’ travel rewards journey with new credit card program January, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/January/porter-airlines-bmo-and-mastercard-accelerate-canadians-travel-rewards-journey-with-new-credit-card-program.html
+
+## ### Mastercard partners with Northeastern University to advance cybersecurity innovation and strengthen Canada’s diverse tech workforce January, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/January/mastercard-partners-with-northeastern-university-to-advance-cybersecurity-innovation-and-strengthen-canadas-diverse-tech-workforce.html
+
+## ### Mastercard SpendingPulse: Total U.S. retail sales grew 3.8%* this holiday season; online remained choice for consumers, increasing 6.7% YOY December, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-spendingpulse-total-us-retail-sales-grew-3-8-this-holiday-season-online-remained-choice-for-consumers-increasing-6-7-yoy.html
+
+## ### Mastercard finalizes acquisition of Recorded Future December, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-finalizes-acquisition-of-recorded-future.html
+
+## ### Mastercard Center for Inclusive Growth and data.org announce AI2AI Challenge awardees December, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-center-for-inclusive-growth-and-data-org-announce-ai2ai-challenge-awardees.html
+
+## ### TD helps its MBNA cardholders support funding reforestation efforts in Canada through the Priceless Planet Coalition December, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/td-helps-its-mbna-cardholders-support-funding-reforestation-efforts-in-canada-through-the-priceless-planet-coalition.html
+
+## ### Mastercard SpendingPulse: U.S. Black Friday retail sales up +3.4% vs. last year November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-spendingpulse-us-black-friday-retail-sales-up-3-4-vs-last-year.html
+
+## ### Supporting underrepresented fintech founders to spur innovation and growth November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/supporting-underrepresented-fintech-founders-to-spur-innovation-and-growth.html
+
+## ### Mastercard empowers small businesses with magical shopping experience November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-empowers-small-businesses-with-magical-shopping-experience.html
+
+## ### Mastercard’s MTN connects to J.P. Morgan’s Kinexys Digital Payments for settlement November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercards-mtn-connects-to-jp-morgans-kinexys-digital-payments-for-settlement.html
+
+## ### Unwrapping 2024 Canadian holiday shopping trends November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/unwrapping-2024-canadian-holiday-shopping-trends.html
+
+## ### Mastercard extends live music footprint with new us benefits for cardholders November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-extends-live-music-footprint-with-new-us-benefits-for-cardholders.html
+
+## ### Mastercard reinvents checkout with password and number free payments November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-reinvents-checkout-with-password-and-number-free-payments.html
+
+## ### Mastercard to supercharge small business operations through new innovative platform November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/small-businesses-can-now-consolidate-operations-payments-and-other-tools-into-a-single-platform.html
+
+## ### Mastercard joins buna the arab regional payment system November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-joins-buna-the-arab-regional-payment-system.html
+
+## ### TheFork and Mastercard join forces to enhance culinary experiences for cardholders November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/thefork-and-mastercard-join-forces-to-enhance-culinary-experiences-for-cardholders.html
+
+## ### Mastercard launches Pay Local to empower digital wallet providers with new ways to pay November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-launches-pay-local-to-empower-digital-wallet-providers-with-new-ways-to-pay.html
+
+## ### Mastercard launches new gen AI digital assistant capabilities to enhance customer value October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-gen-ai-digital-assistant-capabilities-to-enhance-customer-value.html
+
+## ### Mastercard unveils bill Qkr to streamline and enhance the way bills are paid October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-unveils-bill-qkr-to-streamline-and-enhance-the-way-bills-are-paid.html
+
+## ### Mastercard is expanding its U.S. Installments Program to provide more payment flexibility at checkout October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-is-expanding-its-us-installments-program-to-provide-more-payment-flexibility-at-checkout.html
+
+## ### Mastercard expands Product Express platform to help fintechs accelerate the launch of new card programs and other payment solutions October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-product-express-platform-to-help-fintechs-accelerate-the-launch-of-new-card-programs-and-other-payment-solutions.html
+
+## ### Mastercard launches world-class technology infrastructure in Saudi Arabia, enabling the processing of seamless October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-world-class-technology-infrastructure-in-saudi-arabia-enabling-the-processing-of-seamless.html
+
+## ### Mastercard at Money 20/20 innovating at the speed of business October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-at-money-2020-innovating-at-the-speed-of-business.html
+
+## ### Mastercard expands the Priceless Planet Coalition's portfolio of restoration sites October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-the-priceless-planet-coalitions-portfolio-of-restoration-sites.html
+
+## ### Mastercard transforms cross-border payments for banks with industry-first innovation October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-transforms-cross-border-payments-for-banks-with-industry-first-innovation1.html
+
+## ### Mastercard debuts new open banking-powered tools that put consumers in control of their data, safely and securely October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-debuts-new-open-banking-powered-tools-that-put-consumers-in-control-of-their-data-safely-and-securely.html
+
+## ### Citi and Mastercard join forces to transform global cross border payments October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/citi-and-mastercard-join-forces-to-transform-global-cross-border-payments.html
+
+## ### Mastercard spotlights cybersecurity awareness and education with true-crime podcasts to mark Cybersecurity Awareness Month October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/scaling-innovation-with-startups-from-city-planning-to-gamifying-rewards-points.html
+
+## ### Mastercard launches new benefits in support of Canadian small businesses October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-benefits-in-support-of-canadian-small-businesses.html
+
+## ### Mastercard and KaiOS partner to simplify acceptance for millions of SMEs in emerging markets September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-and-kaios-partner-to-simplify-acceptance-for-millions-of-smes-in-emerging-markets2.html
+
+## ### Mastercard expands first-of-its-kind AI technology to help banks protect more consumers from scams in real time September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-first-of-its-kind-ai-technology-to-help-banks-protect-more-consumers-from-scams-in-real-time.html
+
+## ### Mastercard expands support for Canadian entrepreneurs with Mastercard x Pier Five Small Business Fund, now open for 2024 applicants September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-support-for-canadian-entrepreneurs-with-mastercard-x-pier-five-small-business-fund-now-open-for-2024-applicants.html
+
+## ### Update regarding chief financial officer for Mastercard September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/update-regarding-chief-financial-officer-for-mastercard.html
+
+## ### Mastercard invests in continued defense of global digital economy with acquisition of Recorded Future September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-invests-in-continued-defense-of-global-digital-economy-with-acquisition-of-recorded-future.html
+
+## ### Mastercard selects India for the global launch of its Payment Passkey Service, accelerating secure online checkout for millions of shoppers August, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-selects-india-for-the-global-launch-of-its-payment-passkey-service-accelerating-secure-online-checkout-for-millions-of-shoppers.html
+
+## ### What is a passkey? Here’s everything you need to know August, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/everything-you-need-to-know-about-payment-passkeys.html
+
+## ### Helping more individuals and small businesses benefit from the digital economy through Mastercard Open Banking August, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/helping-more-individuals-and-small-businesses-benefit-from-the-digital-economy-through-mastercard-open-banking.html
+
+## ### Mastercard and WestJet announce the launch of the Priceless Platform in Canada, offering cardholders exclusive, always-on access to Priceless experiences August, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-and-westjet-announce-the-launch-of-the-priceless-platform-in-canada-offering-cardholders-exclusive-always-on-access-to-priceless-experiences.html
+
+## ### Mastercard introduces a fast, safe and cost-effective solution for businesses to accept virtual card payment July, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-introduces-a-fast-safe-and-cost-effective-solution-for-businesses-to-accept-virtual-card-payment.html
+
+## ### Mastercard joins forces with McLaren Racing Formula 1 Team July, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/Mastercard-joins-forces-with-McLaren-Racing-Formula-1-Team.html
+
+## ### Expedia Group, Wells Fargo, and Mastercard announce new suite of One Key credit cards July, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/expedia-group-wells-fargo-and-mastercard-announce-new-suite-of-one-key-credit-cards.html
+
+## ### Mastercard and the Medical Tourism Association join forces to revolutionize cross-border health care payments July, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-and-the-medical-tourism-association-join-forces-to-revolutionize-cross-border-health-care-payments.html
+
+## ### Mastercard taps into the power of social media to support stand up to cancer June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-taps-into-the-power-of-social-media-to-support-stand-up-to-cancer.html
+
+## ### Mastercard and Thought Machine accelerate core banking capabilities, providing seamless payment experiences June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-european-cloud-native-issuer-processor-leverages-mastercard-cloud-edge-proving-seamless-payment-experience.html
+
+## ### Mastercard and Beijing Municipal Bureau of Culture and Tourism unveil enhanced Priceless Beijing June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-beijing-municipal-bureau-of-culture-and-tourism-unveil-enhanced-priceless-beijing.html
+
+## ### Ministry for Restoration of Ukraine and Mastercard to cooperate on restoring the tourism industry June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-insights-will-contribute-to-ukraines-economic-recovery-via-tourism.html
+
+## ### Mastercard reimagines online checkout; commits to reaching 100% e-commerce tokenization by 2030 in Europe June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-reimagines-online-checkout-commits-to-reaching-100-e-commerce-tokenization-by-2030-in-europe.html
+
+## ### Mastercard debuts new video 'Giving Back' with Lionel Messi to kick off CONMEBOL Copa América 2024 June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-debuts-new-video-giving-back-with-lionel-messi-to-kick-off-conmebol-copa-america-2024.html
+
+## ### Michael Kors first to debut Shopping Muse, the AI-powered shopping assistant from Dynamic Yield by Mastercard June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/michael-kors-first-to-debut-shopping-muse-the-ai-powered-shopping-assistant-from-dynamic-yield-by-mastercard.html
+
+## ### Mastercard enhances digital financial experiences with deposit switch and bill pay switch June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-enhances-digital-financial-experiences-with-deposit-switch-and-bill-pay-switch.html
+
+## ### Mastercard Center for Inclusive Growth and data.org launch Artificial Intelligence to Accelerate Inclusion challenge June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-center-for-inclusive-growth-and-data-org-launch-artificial-intelligence-to-accelerate-inclusion-challenge.html
+
+## ### Bunq first bank in Europe to leverage AI in open banking with Mastercard June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/bunq-first-bank-in-europe-to-leverage-ai-in-open-banking-with-mastercard.html
+
+## ### Mastercard Crypto Credential goes live with first peer-to-peer pilot transactions, adds new partners to the ecosystem May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-crypto-credential-goes-live-with-first-peer-to-peer-pilot-transactions-adds-new-partners-to-the-ecosystem.html
+
+## ### Mastercard accelerates commitment to digital transformation in Africa May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-commitment-to-digital-transformation-in-africa.html
+
+## ### Mastercard accelerates card fraud detection with generative ai technology May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-card-fraud-detection-with-generative-ai-technology.html
+
+## ### Mastercard and Salesforce announce new integration to transform transaction disputes May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/Mastercard-and-Salesforce-announce-new-integration-to-transform-transaction-disputes.html
+
+## ### Soaring passenger traffic, longer stays: Mastercard Economics Institute on travel in 2024 May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/soaring-passenger-traffic-longer-stays-mastercard-economics-institute-on-travel-in-2024.html
+
+## ### University of New Brunswick Mastercard Cybersecurity Scholarship winners announced May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/university-of-new-brunswick-mastercard-cybersecurity-scholarship-winners-announced.html
+
+## ### Mastercard JV switches first domestic transaction in China May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-jv-switches-first-domestic-transaction-in-china.html
+
+## ### Mastercard drops exclusive, personalized Music Pass as it kicks off season 2 of its Artist Accelerator April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-drops-exclusive-personalized-music-pass-as-it-kicks-off-season-2-of-its-artist-accelerator.html
+
+## ### Enhancing fintech programs, empowering innovation April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/enhancing-fintech-programs-empowering-innovation.html
+
+## ### Mastercard transforms the fight against scams with latest AI tech April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastecard-transforms-the-fight-against-scams-with-latest-ai-tech.html
+
+## ### Mastercard launches mobile virtual card app to simplify travel and business expenses April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-launches-mobile-virtual-card-app-to-simplify-travel-and-business-expenses.html
+
+## ### The Xbox Mastercard issued by Barclays now available in the U.S. with more value April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/the-xbox-mastercard-issued-by-barclays-now-available-in-the-us-with-more-value.html
+
+## ### Nubank and Mastercard exclusive study reveals path to advancing beyond access toward financial health April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/nubank-and-mastercard-exclusive-study-reveals-path-to-advancing-beyond-access-toward-financial-health.html
+
+## ### Turning aspiration into impact April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/turning-aspiration-into-impact.html
+
+## ### Mastercard and leading Canadian fintech VoPay enter strategic partnership to empower Canadians to move money quickly and securely with Mastercard Move April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-and-leading-canadian-fintech-vopay-enter-strategic-partnership-to-empower-canadians-to-move-money-quickly-and-securely-with-mastercard-move.html
+
+## ### Positioning Mastercard for the next era of growth April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/positioning-mastercard-for-the-next-era-of-growth.html
+
+## ### Mastercard announces new cardholder benefits to enhance health and wellness, travel and lifestyle rewards for consumers, small businesses April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-announces-new-cardholder-benefits-to-enhance-health-wellness-travel-and-lifestyle-rewards-for-consumers-small-businesses.html
+
+## ### Mastercard commits to lowering U.S. interchange for small businesses and broader merchant community March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html
+
+## ### Mastercard and Worldpay join forces to fight payment fraud globally March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-and-worldpay-join-forces-to-fight-payment-fraud-globally.html
+
+## ### New Mastercard report reveals key trends and opportunities to digitize remittances in Latin America and the Caribbean March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/new-mastercard-report-reveals-key-trends-opportunities-to-digitize-remittances-in-latin-america-and-the-caribbean.html
+
+## ### Mastercard enables convenient and secure international remittances to Alipay wallet March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-enables-convenient-and-secure-international-remittances-to-alipay-wallet.html
+
+## ### Mastercard simplifies subscription management with smart subscriptions March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-simplifies-subscription-management-with-smart-subscriptions.html
+
+## ### The Mastercard Artist Accelerator kicks off its second season, launches live touring series with OnesToWatch March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/the-mastercard-artist-accelerator-kicks-off-its-second-season-launches-live-touring-series-with-onestowatch.html
+
+## ### Uber partners with Mastercard and Payfare to launch the new Uber Pro Card in Canada March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/uber-partners-with-mastercard-and-payfare-to-launch-the-new-uber-pro-card-in-canada.html
+
+## ### Mastercard open banking enhances the debit and prepaid digital account opening experience February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-open-banking-enhances-the-debit-and-prepaid-digital-account-opening-experience.html
+
+## ### How were co-creating the future of payments with fintechs February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/how-were-co-creating-the-future-of-payments-with-fintechs.html
+
+## ### Mastercard joins us AI safety institute consortium to guide national ai standards February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-joins-us-ai-safety-institute-consortium-to-guide-national-ai-standards.html
+
+## ### Mastercard dedicates its GRAMMY Awards® campaign to forest restoration; teams with SZA in debut bonus performance to raise awareness for the Priceless Planet Coalition February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-dedicates-its-grammy-awards-campaign-to-forest-restoration-teams-with-sza-in-debut-bonus-performance-to-raise-awareness-for-the-priceless-planet-coalition.html
+
+## ### Mastercard supercharges consumer protection with gen AI February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-supercharges-consumer-protection-with-gen-ai.html
+
+## ### Mastercard and BOK Financial Corporation announce expanded payments agreement January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-bok-financial-corporation-announce-expanded-payments-agreement.html
+
+## ### Driving an inclusive digital economy through small business empowerment and open banking innovation January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/meet-15-startups-empowering-small-businesses-with-new-technology.html
+
+## ### Mastercard and the clearing house extend partnership on real time payments January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-the-clearing-house-extend-partnership-on-real-time-payments.html
+
+## ### Mastercard is unlocking efficiencies in B2B healthcare payments through innovative partnership January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-is-unlocking-efficiencies-in-b2b-healthcare-payments-through-innovative-partnership.html
+
+## ### Mastercard announces development of inclusive AI tool to provide personalized, real-time assistance to small business community January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-announces-development-of-inclusive-ai-tool-to-provide-personalized-real-time-assistance-to-small-business-community.html
+
+## ### Mastercard becomes official partner of Hudson Yards, unlocking priceless experiences and discovery for cardholders in New York City January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-becomes-official-partner-of-hudson-yards-unlocking-priceless-experiences-and-discovery-for-cardholders-in-new-york-city.html
+
 ## Flaws in popular VSCode extensions expose developers to attacks
 - Source: BleepingComputer
 - Category: IS
@@ -13320,6 +15300,414 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Category: IS
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-hide-your-ip-with-this-adguard-40-family-suite-deal/
+
+## Education Services
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.cdiaonline.org/education-services/
+
+## Agency Information Collection Activities: Proposed Collection Renewal; Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03082/agency-information-collection-activities-proposed-collection-renewal-comment-request
+
+The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0046; -0118; -0174; 0188 and -0202). The notices of proposed renewal for these information collections were pr…
+
+## Sunshine Act; Open Commission Meeting Wednesday, February 18, 2026
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03092/sunshine-act-open-commission-meeting-wednesday-february-18-2026
+
+The Commission will consider a Notice of Proposed Rulemaking seeking comment on reforms to the Lifeline program to ensure that federal dollars go to eligible Americans, enhance program integrity, ensure that service providers comply with the Commission's rules and regulations, and streamline Lifeline rules. 2.................. WIRELESS TELE Title: Maximizing the COMMUNICATIONS…
+
+## Sunshine Act Meetings
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03089/sunshine-act-meetings
+
+## Amendment of Class D and Class E2 Airspace Over Wilmington, DE
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03088/amendment-of-class-d-and-class-e2-airspace-over-wilmington-de
+
+This action proposes to amend Class D and Class E2 airspace at New Castle Airport, Wilmington, DE. This action would increase the lateral dimensions of the Wilmington, DE Class D and Class E2 airspace, which are overlays, by adding a 2-mile wide, 0.2-mile long extension to the existing 4.2-mile radius, along the 008[deg] bearing from the New Castle Airport, to support instrume…
+
+## Bank Appeals Process
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03086/bank-appeals-process
+
+The Office of the Comptroller of the Currency (OCC) is issuing a notice of proposed rulemaking to establish revised procedures and policies for appeals of material supervisory determinations by OCC supervised entities. The proposed changes would reflect the OCC's experience administering the bank appeals process and are intended to enhance the independence and efficiency of th…
+
+## Updating and Streamlining the Department of Commerce's Privacy Act Regulations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03080/updating-and-streamlining-the-department-of-commerces-privacy-act-regulations
+
+By this rule, the Department of Commerce ("Department") amends its regulations implementing the Privacy Act of 1974. Specifically, this rule amends those regulations by updating the position title of an agency official, removing unnecessary language related to judicial review, eliminating a provision that merely cross- references and restates statutory criminal penalty provisi…
+
+## Reporting and Recordkeeping Requirements Under OMB Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03078/reporting-and-recordkeeping-requirements-under-omb-review
+
+The Small Business Administration (SBA) is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act and OMB procedures, SBA is publishing this notice to allow all interested members of the public an additional 30 days to provide comments on the proposed collection of informati…
+
+## Standards for the Care of Breeding Female Dogs and Exercise and Socialization of Dogs
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03077/standards-for-the-care-of-breeding-female-dogs-and-exercise-and-socialization-of-dogs
+
+The Animal and Plant Health Inspection Service (APHIS) of the United States Department of Agriculture is soliciting comments regarding appropriate standards for the care of breeding female dogs at dog breeding facilities and exercise and socialization of dogs subject to the Animal Welfare Act. Information obtained from public comments will help identify outdated standards, new…
+
+## Gator Fabrication Technology, LLC, Complainant v. Flador Global Logistics a/k/a Flador Global Uluslararasi Taşimacilik Loj.Diştic Ltd.Şti and NTG Air & Ocean, LLC, Respondents; Notice of Filing of Complaint and Assignme…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03076/gator-fabrication-technology-llc-complainant-v-flador-global-logistics-aka-flador-global
+
+## Privacy Act of 1974; Matching Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03075/privacy-act-of-1974-matching-program
+
+In accordance with the Privacy Act of 1974, as amended ("Privacy Act"), this document announces a new computer matching program the Federal Communications Commission ("FCC" or "Commission" or "Agency") and the Universal Service Administrative Company (USAC) will conduct with the Pennsylvania Department of Human Services. The purpose of this matching program is to verify the el…
+
+## Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Local Update of Census Addresses (LUCA) Operation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03073/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for
+
+The Department of Commerce, in accordance with the Paperwork Reduction Act (PRA) of 1995, invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days…
+
+## Hard Empty Capsules From Brazil, China, India, and Vietnam; Determinations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03071/hard-empty-capsules-from-brazil-china-india-and-vietnam-determinations
+
+## Petition for Reconsideration of Action in Rulemaking Proceeding; Application for Review of Action in Rulemaking Proceeding; Correction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03070/petition-for-reconsideration-of-action-in-rulemaking-proceeding-application-for-review-of-action-in
+
+The Federal Communications Commission (Commission) published a document in the Federal Register of February 5, 2026, concerning request for replies to oppositions on specifications for Petition for Reconsideration of Action in Rulemaking Proceeding Application for Review of Action in Rulemaking Proceeding. The document contained incorrect dates.
+
+## Implementation of the Final Acts of the World Radiocommunication Conference (Geneva, 2015) (WRC-15), Other Allocation Issues, and Related Rule Updates; Correction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03069/implementation-of-the-final-acts-of-the-world-radiocommunication-conference-geneva-2015-wrc-15-other
+
+The Federal Communications Commission (the FCC or Commission) is correcting a final rule that appeared in the Federal Register on January 14, 2026. The document issued a final rule regarding "Implementation of the Final Acts of the World Radiocommunication Conference (Geneva, 2015) (WRC-15), Other Allocation Issues, and Related Rule Updates".
+
+## Hazardous Materials: Notice of Actions on Special Permits
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03067/hazardous-materials-notice-of-actions-on-special-permits
+
+In accordance with the procedures governing the application for, and the processing of, special permits from the Department of Transportation's Hazardous Material Regulations, notice is hereby given that the Office of Hazardous Materials Safety has granted or denied the application described herein.
+
+## Numbering Policies for Modern Communications
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03066/numbering-policies-for-modern-communications
+
+In this document, the Federal Communications Commission (Commission) adopts rules regarding direct access to numbers by providers of interconnected Voice over internet Protocol (VoIP) services. The Commission takes this action in furtherance of Congress' directive in the Pallone-Thune Telephone Robocall Abuse Criminal Enforcement and Deterrence (TRACED) Act to examine ways to…
+
+## Agency Information Collection Activities; Proposed Collection; Comment Request; Extension: Regulation S-Rules Governing Offers and Sales Made Outside the United States Without Registration Under the Securities Act of 19…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03064/agency-information-collection-activities-proposed-collection-comment-request-extension-regulation
+
+## Meeting of the Interagency Task Force on Veterans Small Business Development
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03063/meeting-of-the-interagency-task-force-on-veterans-small-business-development
+
+The SBA is issuing this notice to announce the date, time, and agenda for the next meeting of the Interagency Task Force on Veterans Small Business Development (IATF).
+
+## Citric Acid and Certain Citrate Salts From Canada and India: Initiation of Less-Than-Fair-Value Investigations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03061/citric-acid-and-certain-citrate-salts-from-canada-and-india-initiation-of-less-than-fair-value
+
+## Citric Acid and Certain Citrate Salts From Canada and India: Initiation of Countervailing Duty Investigations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03060/citric-acid-and-certain-citrate-salts-from-canada-and-india-initiation-of-countervailing-duty
+
+## Airworthiness Directives; Bombardier Inc. Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03055/airworthiness-directives-bombardier-inc-airplanes
+
+The FAA is adopting a new airworthiness directive (AD) for certain Bombardier Inc. Model BD-700-1A10 and BD-700-1A11 airplanes. The FAA previously sent this AD to all known U.S. owners and operators of these airplanes. This AD was prompted by discrepancies in the locking features on certain network interfaces. This AD requires installing locking features on certain network int…
+
+## Notice of Intent To Designate as Abandoned New Systems Supplemental Type Certificates
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03046/notice-of-intent-to-designate-as-abandoned-new-systems-supplemental-type-certificates
+
+This notice announces the FAA's intent to designate thirty New Systems (also known as New Systems Engineering) Supplemental Type Certificates (STCs) as abandoned and make the related engineering data available upon request. The FAA has received a request to provide engineering data concerning these STCs. The FAA has been unsuccessful in contacting New Systems concerning these…
+
+## Submission for OMB Review; Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03045/submission-for-omb-review-comment-request
+
+## Airworthiness Directives; Airbus SAS Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03037/airworthiness-directives-airbus-sas-airplanes
+
+The FAA proposes to supersede Airworthiness Directive (AD) 2021-03-08, which applies to certain Airbus SAS Model A350-941 and - 1041 airplanes. AD 2021-03-08 requires repetitive inspections for migration of the bushings of the horizontal tail plane (HTP) lateral load fittings (LLF) on the left- and right-hand sides and terminating repair or modification of any affected bushing…
+
+## Airworthiness Directives; The Boeing Company Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03036/airworthiness-directives-the-boeing-company-airplanes
+
+The FAA proposes to adopt a new airworthiness directive (AD) for certain The Boeing Company Model 767-300F series airplanes. This proposed AD was prompted by a report of a supplier notice of escapement documenting that some titanium cargo track crown fittings had suspect material certifications. This proposed AD would require an X-ray fluorescence (XRF) spectrometer inspection…
+
+## Fatty Acids from Indonesia and Malaysia; Revised Schedule for the Subject Investigations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03033/fatty-acids-from-indonesia-and-malaysia-revised-schedule-for-the-subject-investigations
+
+## Certain Power Converters, Circuit Board Assemblies, and Computing Systems Containing the Same; Notice of Institution of Investigation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03032/certain-power-converters-circuit-board-assemblies-and-computing-systems-containing-the-same-notice
+
+Notice is hereby given that a complaint was filed with the U.S. International Trade Commission on January 12, 2026, under section 337 of the Tariff Act of 1930, as amended, on behalf of Vicor Corporation of Andover, Massachusetts. Supplements to the Complaint were filed on January 21, 23, and 26, 2026. On January 27, 2026, the public Complaint was refiled with a revised set of…
+
+## Crystalline Silicon Photovoltaic Products (Solar Panels) From China and Taiwan; Scheduling of Expedited Five-Year Reviews
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03031/crystalline-silicon-photovoltaic-products-solar-panels-from-china-and-taiwan-scheduling-of-expedited
+
+The Commission hereby gives notice of the scheduling of expedited reviews pursuant to the Tariff Act of 1930 ("the Act") to determine whether revocation of the antidumping duty and countervailing duty orders on crystalline silicon photovoltaic products (solar panels) from China and the antidumping duty order on solar panels from Taiwan would be likely to lead to continuation o…
+
+## Restoration of Statutory Terms in TSA Regulations: Use of Alien; Technical Amendments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03028/restoration-of-statutory-terms-in-tsa-regulations-use-of-alien-technical-amendments
+
+This document makes nomenclature changes to sections of the Code of Federal Regulations (CFR) administered by the Transportation Security Administration (TSA). This action is necessary to conform TSA regulations with statutory terminology used in the Immigration and Nationality Act.
+
+## Administrative Declaration Amendment of an Economic Injury Disaster for the State of Louisiana
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03026/administrative-declaration-amendment-of-an-economic-injury-disaster-for-the-state-of-louisiana
+
+This is an amendment of the Economic Injury Disaster Loan (EIDL) declaration for the state of Louisiana dated February 2, 2026. Incident: 2026 Severe Winter Storm.
+
+## Self-Regulatory Organizations; MIAX PEARL, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the MIAX Pearl Options Exchange Fee Schedule To Establish Fees for the 1-Minute Report and…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03025/self-regulatory-organizations-miax-pearl-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; MIAX Emerald, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the MIAX Emerald Options Exchange Fee Schedule To Establish Fees for the 1-Minute Report…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03024/self-regulatory-organizations-miax-emerald-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; MIAX Sapphire, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the MIAX Sapphire Options Exchange Fee Schedule To Establish Fees for the 1-Minute Repor…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03023/self-regulatory-organizations-miax-sapphire-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Miami International Securities Exchange, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the Fee Schedule To Establish Fees for the 1-Minute Report, Es…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03022/self-regulatory-organizations-miami-international-securities-exchange-llc-notice-of-filing-and
+
+## Self-Regulatory Organizations; NYSE Texas, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Fee Schedule of NYSE Texas, Inc.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03021/self-regulatory-organizations-nyse-texas-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Nasdaq PHLX LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Options 9, Section 13 to Exempt Box Spread From Position Limits and To Amend Various Phlx Rul…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03020/self-regulatory-organizations-nasdaq-phlx-llc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; MIAX PEARL, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Exchange Rule 2613(a), Usage of Data Feeds
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03019/self-regulatory-organizations-miax-pearl-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; The Nasdaq Stock Market LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Options 7, Section 2
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03018/self-regulatory-organizations-the-nasdaq-stock-market-llc-notice-of-filing-and-immediate
+
+## Self-Regulatory Organizations; Nasdaq ISE, LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Options 9, Section 14 To Exempt Box Spreads From Position Limits and To Amend Options 3, Sect…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03017/self-regulatory-organizations-nasdaq-ise-llc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; New York Stock Exchange LLC; Notice of Filing of Proposed Rule Change Amending Section 703.12(II) of the NYSE Listed Company Manual To Expand the Circumstances Under Which Rights May Be Li…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03016/self-regulatory-organizations-new-york-stock-exchange-llc-notice-of-filing-of-proposed-rule-change
+
+## Television Broadcasting Services Hutchinson, Kansas
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03015/television-broadcasting-services-hutchinson-kansas
+
+This document amends the Table of TV Allotments (table) of the Federal Communications Commission's (Commission) rules by substituting channel *33 for channel *8 at Hutchinson, Kansas in response to a Petition for Rulemaking filed by Kansas Public Telecommunications Service, Inc. (Kansas Public or Petitioner), the licensee of noncommercial educational PBS member television stat…
+
+## Foreign-Trade Zone (FTZ) 22, Notification of Proposed Production Activity; AFC Specialty Coatings Group, LLC; (Polymer or Silicone Coated Fabrics); Lake in the Hills, Illinois
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03001/foreign-trade-zone-ftz-22-notification-of-proposed-production-activity-afc-specialty-coatings-group
+
+## Active Anode Material From the People's Republic of China: Final Affirmative Countervailing Duty Determination
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-02999/active-anode-material-from-the-peoples-republic-of-china-final-affirmative-countervailing-duty
+
+The U.S. Department of Commerce (Commerce) determines that countervailable subsidies are being provided to producers and exporters of active anode material from the People's Republic of China (China). The period of investigation (POI) is January 1, 2023, through December 31, 2023.
+
+## Active Anode Material From the People's Republic of China: Final Affirmative Determination of Sales at Less Than Fair Value
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-02998/active-anode-material-from-the-peoples-republic-of-china-final-affirmative-determination-of-sales-at
+
+The U.S. Department of Commerce (Commerce) determines that active anode material from the People's Republic of China (China) is being, or likely to be, sold in the United States at less than fair value (LTFV). The period of investigation (POI) is April 1, 2024, through September 30, 2024.
+
+## Agency Information Collection Activities: Notice of Intent To Extend Collection Number 3038-0049: Procedural Requirements for Requests for Interpretative, No-Action, and Exemptive Letters
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-02996/agency-information-collection-activities-notice-of-intent-to-extend-collection-number-3038-0049
+
+The Commodity Futures Trading Commission ("Commission" or "CFTC") is announcing an opportunity for public comment on the proposed extension of a collection of certain information by the agency. Under the Paperwork Reduction Act ("PRA"), Federal agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each pro…
+
+## Notice of Intent To Rule on a Land Release Request for Disposal of Airport Property at the Southwest Florida International Airport, Fort Myers, FL
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-02995/notice-of-intent-to-rule-on-a-land-release-request-for-disposal-of-airport-property-at-the-southwest
+
+Notice is being given that the FAA is considering a request from the Lee County Port Authority to release 1.08 (+/-) acres of federally obligated airport property at the Southwest Florida International Airport, Fort Myers, FL. This acreage was acquired with federal financial assistance via Airport Improvement Program Federal Grants. The release of property will allow the Lee C…
+
+## Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Motorcycle Helmets (Labeling)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-02992/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for
+
+In compliance with the Paperwork Reduction Act of 1995 (PRA), this notice announces that the Information Collection Request (ICR) summarized below will be submitted to the Office of Management and Budget (OMB) for review and approval. The ICR describes the nature of the information collection and its expected burden. This document request for comments on the reinstatement of a…
+
+## Agency Information Collection Activities: Information Collection Renewal; Submission for OMB Review; Guidance on Sound Incentive Compensation Policies
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-02989/agency-information-collection-activities-information-collection-renewal-submission-for-omb-review
+
+The OCC, as part of its continuing effort to reduce paperwork and respondent burden, invites comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995 (PRA). In accordance with the requirements of the PRA, the OCC may not conduct or sponsor, and the respondent is not required to respond to, an information collection unless it displays a…
+
+## Common Alloy Aluminum Sheet From the Kingdom of Bahrain: Final Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-02984/common-alloy-aluminum-sheet-from-the-kingdom-of-bahrain-final-results-of-antidumping-duty
+
+The U.S. Department of Commerce (Commerce) finds that Gulf Aluminium Rolling Mill B.S.C. (GARMCO) subject to this administrative review made sales of common alloy aluminum sheet (aluminum sheet) from the Kingdom of Bahrain (Bahrain) at less than normal value during the period of review (POR) April 1, 2023, through March 31, 2024.
+
+## Federal Acquisition Regulation: Prohibition on Certain Semiconductor Products and Services
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03065/federal-acquisition-regulation-prohibition-on-certain-semiconductor-products-and-services
+
+OFPP, DoD, GSA, and NASA (collectively referred to as the Federal Acquisition Regulatory Council, or FAR Council) are proposing to amend the Federal Acquisition Regulation (FAR) to partially implement a section of the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023 which prohibits executive agencies from procuring or obtaining certain products and servi…
+
+## Great Lakes Pilotage Rates-2026 Annual Review and Revisions to Methodology
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03054/great-lakes-pilotage-rates-2026-annual-review-and-revisions-to-methodology
+
+The Coast Guard is issuing new base Great Lakes pilotage rates for the 2026 shipping season. The Coast Guard estimates that this final rule will result in an approximately 6-percent decrease in operating costs compared to the 2025 season, while facilitating commerce and supply chains. The Coast Guard is also making one change to the ratemaking methodology: the removal of Step…
+
+## Sabine Pass Safety Fairway Anchorages
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03044/sabine-pass-safety-fairway-anchorages
+
+The Coast Guard proposes to establish two new fairway anchorages adjacent to the existing safety fairway approaches to Sabine Bank and Sabine Pass, Texas. These two additional fairway anchorages would be in deeper water than the existing anchorages along the Sabine Pass fairway to accommodate vessels, primarily petroleum tankers, with deeper drafts. This rulemaking enhances th…
+
+## Safety Zone; Annual Fireworks Displays Within the Sector Columbia River Captain of the Port Zone
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03043/safety-zone-annual-fireworks-displays-within-the-sector-columbia-river-captain-of-the-port-zone
+
+The Coast Guard proposes to amend the regulations establishing safety zones for annual fireworks displays in the Captain of the Port Zone Columbia River. This action would add a safety zone for a fireworks display, remove a safety zone for a fireworks display no longer under the Coast Guard's authority and jurisdiction, edit a fireworks display's name, and add a second date fo…
+
+## Request for Information: 340B Rebate Model Pilot Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03042/request-for-information-340b-rebate-model-pilot-program
+
+The Health Resources and Services Administration (HRSA) administers section 340B of the Public Health Service Act (PHS Act), referred to as the "340B Drug Pricing Program" or the "340B Program." HRSA is issuing this Request for Information (RFI) to gather input from interested parties regarding the potential use of rebates to effectuate the ceiling price under the 340B Program…
+
+## Privacy Act of 1974; System of Records
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03003/privacy-act-of-1974-system-of-records
+
+In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is partially modifying an existing system of records maintained by the Office for Civil Rights (OCR), "Program Information Management System (PIMS)," System No. 09- 90-0052. The modifications include changing the system of records name to "HHS Civil Rights and Health Infor…
 
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -13362,6 +15750,530 @@ Download links fixed
 - URL: https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help
 
 IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
+
+## Hazard Communication Standard; Corrections
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/C1-2026-00147/hazard-communication-standard-corrections
+
+## Updating Regulation References To Reflect Reorganizations at the Department of Justice and the Internal Revenue Service
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/C1-2025-22825/updating-regulation-references-to-reflect-reorganizations-at-the-department-of-justice-and-the
+
+## Van-Type Trailers and Subassemblies From Canada, China, and Mexico; Determinations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02990/van-type-trailers-and-subassemblies-from-canada-china-and-mexico-determinations
+
+## Modification of Class D and Class E Airspace; Palm Springs International Airport, Palm Springs, CA
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02987/modification-of-class-d-and-class-e-airspace-palm-springs-international-airport-palm-springs-ca
+
+This action proposes to modify the Class D airspace area and the Class E airspace area designated as an extension to a Class D airspace area (Class E4 airspace area) at Palm Springs International Airport (PSP), Palm Springs, CA. Additionally, the FAA proposes several administrative corrections to the airport's airspace legal descriptions. These actions will support the safety…
+
+## Establishment, Modification, and Revocation of Class E Airspace; Jacqueline Cochran Regional Airport, Palm Springs, CA
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02986/establishment-modification-and-revocation-of-class-e-airspace-jacqueline-cochran-regional-airport
+
+This action proposes to establish Class E airspace area designated as an extension to a Class E surface area (Class E4 airspace area), modify Class E airspace area designated as a surface area (Class E2 airspace area), and revoke Class E airspace area extending upward from 700 feet or more above the surface (Class E5 airspace area) at Jacqueline Cochran Regional Airport (TRM),…
+
+## Modification of Class D, Establishment and Revocation of Class E Airspaces; Travis Air Force Base (SUU), Fairfield, CA
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02985/modification-of-class-d-establishment-and-revocation-of-class-e-airspaces-travis-air-force-base-suu
+
+This action proposes to modify the Class D airspace area, establish a Class E airspace area designated as a surface area (Class E2 airspace area), and revoke the Class E airspace area designated as an extension to a Class D airspace area (Class E4 airspace area) at Travis Air Force Base, Fairfield, CA. Additionally, this action proposes administrative amendments to update the…
+
+## North Dakota Regulatory Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02982/north-dakota-regulatory-program
+
+We, the Office of Surface Mining Reclamation and Enforcement (OSM), are approving an amendment to the North Dakota regulatory program under the Surface Mining Control and Reclamation Act of 1977 (SMCRA or the Act). North Dakota proposed amendments to its program based on changes to the North Dakota Century Code made by the State legislature that resulted in changes to the Nort…
+
+## Montana Regulatory Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02981/montana-regulatory-program
+
+The Office of Surface Mining Reclamation and Enforcement (OSM) approves an amendment to the Montana regulatory program under the Surface Mining Control and Reclamation Act of 1977 (SMCRA or the Act). Montana proposed an addition to the Montana Code Annotated (MCA), which would revise and add regulations in the Administrative Rules of Montana (ARM) pertaining to ownership and c…
+
+## Agency Forms Submitted for OMB Review, Request for Comments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02977/agency-forms-submitted-for-omb-review-request-for-comments
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; KEBILIDI
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02976/determination-of-regulatory-review-period-for-purposes-of-patent-extension-kebilidi
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for KEBILIDI and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of applications to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which…
+
+## Program Review-Subsistence Management for Public Lands in Alaska
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02975/program-review-subsistence-management-for-public-lands-in-alaska
+
+This notice extends the public comment period for the review of the Federal Subsistence Management Program (Program) that was announced in the Federal Register on December 15, 2025. This extension provides additional time for stakeholders to submit comments.
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; AMTAGVI
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02974/determination-of-regulatory-review-period-for-purposes-of-patent-extension-amtagvi
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for AMTAGVI and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of applications to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which…
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; CRENESSITY
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02973/determination-of-regulatory-review-period-for-purposes-of-patent-extension-crenessity
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for CRENESSITY and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of applications to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent whi…
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; AUCATZYL
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02972/determination-of-regulatory-review-period-for-purposes-of-patent-extension-aucatzyl
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for AUCATZYL and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of applications to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which…
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; ATTRUBY
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02971/determination-of-regulatory-review-period-for-purposes-of-patent-extension-attruby
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for ATTRUBY and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of applications to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which…
+
+## Notice of Petition for Extension of Waiver of Compliance
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02970/notice-of-petition-for-extension-of-waiver-of-compliance
+
+This document provides the public notice that Railtown 1897 State Historic Park (RT 1897) petitioned FRA for an extension of relief from certain regulations concerning stenciling and reflectorization of rail cars.
+
+## Notice of Petition for Extension of Waiver of Compliance
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02969/notice-of-petition-for-extension-of-waiver-of-compliance
+
+This document provides the public notice that the Association of American Railroads (AAR) petitioned FRA for an extension of relief from certain regulations concerning air brake system maintenance intervals.
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; ALYFTREK
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02968/determination-of-regulatory-review-period-for-purposes-of-patent-extension-alyftrek
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for ALYFTREK and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of an application to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent whi…
+
+## Restoring Integrity to the Issuance of Non-Domiciled Commercial Drivers Licenses (CDL)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02965/restoring-integrity-to-the-issuance-of-non-domiciled-commercial-drivers-licenses-cdl
+
+FMCSA amends the Federal regulations for State Driver's Licensing Agencies (SDLAs) issuing commercial driving credentials to non-domiciled individuals. This final rule reaffirms, with minor changes, the provisions of the interim final rule (IFR) published on September 29, 2025. Specifically, this final rule limits eligibility for non-domiciled Commercial Learner's Permits (CLP…
+
+## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02964/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies
+
+## Notice of Board Meeting
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02963/notice-of-board-meeting
+
+## Endangered Species; Receipt of Recovery Permit Applications
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02962/endangered-species-receipt-of-recovery-permit-applications
+
+We, the U.S. Fish and Wildlife Service, have received applications for permits to conduct scientific research to promote conservation or other activities intended to enhance the propagation or survival of endangered or threatened species under the Endangered Species Act. We invite local, State and Federal agencies, Tribes, and the public to comment on these applications. Befor…
+
+## Marine Mammals; Proposed Incidental Harassment Authorization for the Southern Beaufort Sea Stock of Polar Bears During Legacy Well Remediation Activities, North Slope of Alaska; Draft Environmental Assessment
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02960/marine-mammals-proposed-incidental-harassment-authorization-for-the-southern-beaufort-sea-stock-of
+
+We, the U.S. Fish and Wildlife Service, in response to a request under the Marine Mammal Protection Act from the Bureau of Land Management, propose to authorize nonlethal incidental take by harassment of small numbers of Southern Beaufort Sea (SBS) polar bears (Ursus maritimus) for 1 year from the date of issuance of the incidental harassment authorization (IHA). The applicant…
+
+## Rescission of Antidumping and Countervailing Duty Administrative Reviews
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02959/rescission-of-antidumping-and-countervailing-duty-administrative-reviews
+
+Based upon the timely withdrawal of all review requests, the U.S. Department of Commerce (Commerce) is rescinding the administrative reviews covering the periods of review (PORs) of the antidumping duty (AD) and countervailing duty (CVD) orders identified in the table below.
+
+## Agency Information Collection Activities: Requests for Comments; Clearance of a Reinstated Information Collection: Pilot Certification and Qualification Requirements for Air Carrier Operations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02958/agency-information-collection-activities-requests-for-comments-clearance-of-a-reinstated-information
+
+In accordance with the Paperwork Reduction Act of 1995, FAA invites public comments about our intention to request Office of Management and Budget (OMB) approval to reinstate an information collection that expired in December 2025. The collection involves FAA review of Airline Transport Pilot (ATP) Certification Training Program (CTP) submissions to determine whether the progr…
+
+## Agency Information Collection Activities: Requests for Comments; Clearance of a New Approval of Information Collection: FAA Request Form for CUAS Coordination
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02954/agency-information-collection-activities-requests-for-comments-clearance-of-a-new-approval-of
+
+In accordance with the Paperwork Reduction Act of 1995, FAA invites public comments about our intention to request the Office of Management and Budget (OMB) approval for a new information collection. The Federal Register Notice with a 60-day comment period soliciting comments on the following collection of information was published on February 11, 2026. The collection involves…
+
+## Calcium Hypochlorite From the People's Republic of China: Continuation of Antidumping and Countervailing Duty Orders
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02951/calcium-hypochlorite-from-the-peoples-republic-of-china-continuation-of-antidumping-and
+
+As a result of the determinations by the U.S. Department of Commerce (Commerce) and the U.S. International Trade Commission (ITC) that revocation of the antidumping duty (AD) and countervailing duty (CVD) orders on calcium hypochlorite from the People's Republic of China would likely lead to the continuation or recurrence of dumping, countervailable subsidies, and material inj…
+
+## Privacy Act of 1974; Matching Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02950/privacy-act-of-1974-matching-program
+
+In accordance with the provisions of the Privacy Act, as amended, this notice announces a new matching program with the Bureau of the Fiscal Service, Department of the Treasury (Fiscal Service). Under this matching program, Fiscal Service will disclose ownership of Savings Securities data to SSA. This disclosure will provide SSA with information necessary to verify an individu…
+
+## Certain TOPCon Solar Cells, Modules, Panels, Components Thereof, and Products Containing Same; Notice of a Commission Determination Not To Review an Initial Determination Granting the Parties' Joint Motion To Terminate…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02949/certain-topcon-solar-cells-modules-panels-components-thereof-and-products-containing-same-notice-of
+
+Notice is hereby given that the U.S. International Trade Commission ("Commission") has determined not to review an initial determination ("ID") (Order No. 40) granting the parties' joint motion to terminate the investigation. The investigation is terminated in its entirety.
+
+## Defining Durations of Use for Approved Medically Important Antimicrobial Drugs Fed to Food-Producing Animals; Guidance for Industry; Availability
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02934/defining-durations-of-use-for-approved-medically-important-antimicrobial-drugs-fed-to-food-producing
+
+The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry (GFI) #273 entitled "Defining Durations of Use for Approved Medically Important Antimicrobial Drugs Fed to Food-Producing Animals." This guidance document provides recommendations on how sponsors may voluntarily establish defined durations of use for certain antimic…
+
+## Foreign-Trade Zone (FTZ) 38, Notification of Proposed Production Activity; Coroplast Tape Corporation; (Pressure Sensitive Tapes); Rock Hill, South Carolina
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02932/foreign-trade-zone-ftz-38-notification-of-proposed-production-activity-coroplast-tape-corporation
+
+## Fresh Winter Strawberries From Mexico: Initiation of Less-Than-Fair-Value Investigation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02931/fresh-winter-strawberries-from-mexico-initiation-of-less-than-fair-value-investigation
+
+## Intelligent Transportation Systems Program Advisory Committee AGENCY: Office of the Secretary of Transportation (OST), U.S. Department of Transportation (DOT).
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02930/intelligent-transportation-systems-program-advisory-committee-agency-office-of-the-secretary-of
+
+The Department solicits nominations for membership to serve on the Intelligent Transportation Systems Program Advisory Committee (ITSPAC), which is intended to provide information, advice, and recommendations to the Secretary of Transportation on matters relating to Intelligent Transportation Systems (ITS) program needs, objectives, plans, approaches, contents, and progress.
+
+## Establishment of Class E Airspace; Wall Municipal Airport, Wall, SD
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02929/establishment-of-class-e-airspace-wall-municipal-airport-wall-sd
+
+This action proposes to establish Class E airspace extending upward from 700 feet above the surface at Wall Municipal Airport, Wall, SD, to accommodate the airport's transition to instrument flight rules (IFR) service. This action would support the safety and management of IFR operations at the airport.
+
+## Presidential Declaration of a Major Disaster for Public Assistance Only for the State of Mississippi and the Mississippi Band of Choctaw Indians
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02925/presidential-declaration-of-a-major-disaster-for-public-assistance-only-for-the-state-of-mississippi
+
+This is notice of the Presidential declaration of a major disaster for Public Assistance Only for the state of Mississippi and the Mississippi Band of Choctaw Indians (FEMA-4899-DR), dated February 6, 2026. Incident: Severe Winter Storm.
+
+## Administrative Declaration of a Disaster for the State of California
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02924/administrative-declaration-of-a-disaster-for-the-state-of-california
+
+This is notice of an Administrative declaration of a disaster for the state of California dated February 10, 2026. Incident: Oakland Apartment Fire.
+
+## Airworthiness Directives; Airbus Helicopters Deutschland GmbH (AHD) Helicopters
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02923/airworthiness-directives-airbus-helicopters-deutschland-gmbh-ahd-helicopters
+
+The FAA proposes to adopt a new airworthiness directive (AD) for all AHD Model EC135P1, EC135P2, EC135P2+, EC135P3, EC135T1, EC135T2, EC135T2+, EC135T3, EC635T2+, MBB-BK 117 C-2, and MBB-BK 117 D- 2 helicopters. This proposed AD was prompted by reports of cracks on the cable drum of the rescue hoist assembly. This proposed AD would require repetitively inspecting the cable dru…
+
+## Amendment of Class D and E Airspace; Miami, FL
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02919/amendment-of-class-d-and-e-airspace-miami-fl
+
+This action amends Class D airspace and Class E2 airspace extending upward from the surface to 2,500 feet MSL, within a 4.3-mile radius of Miami Executive Airport, Miami, FL. It also amends Class E5 airspace from 700 feet above the surface and 7 miles around Miami Executive Airport, Miami, FL, and within 2.4 miles each side of the 267[deg] bearing from the LAYDN IAF extending…
+
+## Airworthiness Directives; The Boeing Company Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02912/airworthiness-directives-the-boeing-company-airplanes
+
+The FAA proposes to adopt a new airworthiness directive (AD) for certain The Boeing Company Model 737-100, -200, -200C, -300, -400, and -500 series airplanes. This proposed AD was prompted by a report of cracks found in the fuselage skin underneath the aft drain mast. This proposed AD would require repetitive inspections of the fuselage skin and structure common to the aft dra…
+
+## Airworthiness Directives; Airbus SAS Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02910/airworthiness-directives-airbus-sas-airplanes
+
+The FAA proposes to adopt a new airworthiness directive (AD) for all Airbus SAS Model A350-941 and -1041 airplanes. This proposed AD was prompted by the obsolescence of the clamp holding in place the oxygen generator in the container and introduction of a new clamp from another manufacturer with different locking torque specifications, which were not properly reflected in Airb…
+
+## Mountain Ventures, Inc., License No. 04/04-0145; Surrender of License of Small Business Investment Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02904/mountain-ventures-inc-license-no-0404-0145-surrender-of-license-of-small-business-investment-company
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; RYTELO
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02903/determination-of-regulatory-review-period-for-purposes-of-patent-extension-rytelo
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for RYTELO and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of applications to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which c…
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; BLUJEPA
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02901/determination-of-regulatory-review-period-for-purposes-of-patent-extension-blujepa
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for BLUJEPA and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of an application to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent whic…
+
+## Self-Regulatory Organizations; New York Stock Exchange LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Its Price List
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02900/self-regulatory-organizations-new-york-stock-exchange-llc-notice-of-filing-and-immediate
+
+## Self-Regulatory Organizations; Financial Industry Regulatory Authority, Inc.; Order Approving a Proposed Rule Change, as Modified by Partial Amendment No. 1, To Amend the FINRA Capital Acquisition Broker (“CAB”) Rules
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02899/self-regulatory-organizations-financial-industry-regulatory-authority-inc-order-approving-a-proposed
+
+## Self-Regulatory Organizations; Investors Exchange LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Exchange's Fee Schedule To Modify the Required Criteria for the Incremental Fee Ti…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02898/self-regulatory-organizations-investors-exchange-llc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; NYSE Texas, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Fee Schedule of NYSE Texas, Inc.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02897/self-regulatory-organizations-nyse-texas-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe EDGA Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02896/self-regulatory-organizations-cboe-edga-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe EDGX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule for Logical Ports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02895/self-regulatory-organizations-cboe-edgx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe EDGA Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule for Logical Ports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02894/self-regulatory-organizations-cboe-edga-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe BZX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule for Logical Ports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02893/self-regulatory-organizations-cboe-bzx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Adopt Fees for the One-Minute Interval Intraday Open-Close Report
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02892/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Adopt Fees for the Trade-by-Trade Report
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02891/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Cboe BYX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule for Logical Ports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02890/self-regulatory-organizations-cboe-byx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe BZX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule for Logical Ports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02889/self-regulatory-organizations-cboe-bzx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; MEMX LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the Exchange's Fee Schedule Concerning Equities Transaction Pricing
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02888/self-regulatory-organizations-memx-llc-notice-of-filing-and-immediate-effectiveness-of-a-proposed
+
+## Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Clarify the Priority of Certain Orders With an All Sessions Order Instruction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02887/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule for Logical Ports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02886/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Cboe EDGX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule for Logical Ports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02885/self-regulatory-organizations-cboe-edgx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe C2 Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule for Logical Ports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02884/self-regulatory-organizations-cboe-c2-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing of a Proposed Rule Change To Amend Its Rules Relating to Designated Primary Market-Makers (“DPMs”) and DPM Appointments in Global Trading Hours and Cu…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02883/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-of-a-proposed-rule-change-to-amend
+
+## LibreMax Asset-Backed Income Fund and LibreMax Capital, LLC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02881/libremax-asset-backed-income-fund-and-libremax-capital-llc
+
+## Wilmington Trust, N.A.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02880/wilmington-trust-na
+
+## Reporting and Recordkeeping Requirements Under OMB Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02879/reporting-and-recordkeeping-requirements-under-omb-review
+
+The Small Business Administration (SBA) is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act and OMB procedures, SBA is publishing this notice to allow all interested member of the public an additional 30 days to provide comments on the proposed collection of informatio…
+
+## Carbazole Violet Pigment 23 From India: Preliminary Results and Partial Rescission of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02878/carbazole-violet-pigment-23-from-india-preliminary-results-and-partial-rescission-of-antidumping
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that Western Chemical Industries P Limited did not make sales of subject merchandise at prices below normal value. The period of review (POR) is December 1, 2023, through November 30, 2024. In addition, we are rescinding this review, in part, with respect to Meghmani Pigments. We invite interested parties to c…
+
+## Acetone From the Republic of Korea: Preliminary Results and Recission, In Part, of Antidumping Duty Administrative Review; 2024-2025
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02877/acetone-from-the-republic-of-korea-preliminary-results-and-recission-in-part-of-antidumping-duty
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that Kumho P&B Chemicals, Inc. (KPB) made sales of subject merchandise at less than normal value (NV) during the period of review (POR) March 1, 2024, through February 28, 2025. In addition, Commerce is rescinding the review with respect to LG Chem, Ltd. (LG Chem). Interested parties are invited to comment on these…
+
+## Chromium Trioxide From India: Postponement of Preliminary Determination in the Countervailing Duty Investigation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02876/chromium-trioxide-from-india-postponement-of-preliminary-determination-in-the-countervailing-duty
+
+## Ripe Olives From Spain: Preliminary Results of Antidumping Duty Administrative Review, and Partial Rescission of Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02875/ripe-olives-from-spain-preliminary-results-of-antidumping-duty-administrative-review-and-partial
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that producers/exporters subject to this administrative review made sales of subject merchandise at less than normal value during the period of review (POR), August 1, 2023, through July 31, 2024. In addition, we are rescinding the administrative review with respect to one company. We invite interested parties to c…
+
+## 60-Day Notice of Proposed Information Collection: Housing Choice Voucher Program and Tribal HUD-VASH
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02955/60-day-notice-of-proposed-information-collection-housing-choice-voucher-program-and-tribal-hud-vash
+
+HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comment from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.
+
+## Electronic Bond Transmission
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02961/electronic-bond-transmission
+
+U.S. Customs and Border Protection (CBP) collects bonds from parties engaging in transactions or activities with CBP to adequately protect the revenue of the United States and ensure compliance with U.S. statutes and regulations. This document proposes to amend the CBP regulations to require that most bonds be transmitted to CBP electronically via a specialized system by the s…
+
+## Energy Conservation Program: Energy Conservation Standards for Small Electric Motors
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02936/energy-conservation-program-energy-conservation-standards-for-small-electric-motors
+
+The Energy Policy and Conservation Act, as amended ("EPCA"), prescribes energy conservation standards for various consumer products and certain commercial and industrial equipment, including small electric motors ("SEMs"). EPCA also requires the U.S. Department of Energy ("DOE") to periodically determine whether more-stringent standards would be technologically feasible and ec…
+
+## Energy Conservation Program: Energy Conservation Standards for Metal Halide Lamp Fixtures
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02935/energy-conservation-program-energy-conservation-standards-for-metal-halide-lamp-fixtures
+
+The Energy Policy and Conservation Act, as amended ("EPCA"), prescribes energy conservation standards for various consumer products and certain commercial and industrial equipment, including metal halide lamp fixtures ("MHLFs"). EPCA also requires the U.S. Department of Energy ("DOE") to periodically review its existing standards to determine whether more-stringent standards w…
+
+## Privacy Act of 1974; Implementation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02882/privacy-act-of-1974-implementation
+
+The Executive Office for Immigration Review (EOIR), a component within the United States Department of Justice (DOJ or Department), is finalizing without changes its Privacy Act exemption regulations for the system of records titled, Adjudication and Appeal Records of the Office of the Chief Immigration Judge and Board of Immigration Appeals, JUSTICE/EOIR-001, which were publi…
 
 ## Chip Bartlett Joins Texas Bankers as Senior Vice President of Government Relations
 - Source: TBA
@@ -13451,6 +16363,378 @@ The OCC's economists support the OCC mission through economic thought leadership
 - Published: 2026-02-12T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduces-indx-real-time-cash-settlement-platform
 
+## Revision of the Negative Option Rule, Withdrawal of the CARS Rule, Removal of the Non-Compete Rule To Conform These Rules to Federal Court Decisions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02866/revision-of-the-negative-option-rule-withdrawal-of-the-cars-rule-removal-of-the-non-compete-rule-to
+
+In light of Federal court decisions, the Federal Trade Commission ("FTC" or "Commission") is taking final action to conform three of its recent rules to the results ordered by the courts. First, the Commission is revising its recently amended "Rule Concerning Recurring Subscriptions and Other Negative Option Programs" ("Negative Option Rule") to recodify the text of the Negati…
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Extension: Rule 15b11-1 and Form BD-N
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02864/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Extension: Rule 32a-4
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02863/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Extension: Trust Indenture Act Rules 7a-15 Through 7a-37
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02862/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-trust
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Extension: Rule 10b5-1
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02861/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule
+
+## Finished Carbon Steel Flanges From India: Preliminary Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02859/finished-carbon-steel-flanges-from-india-preliminary-results-of-antidumping-duty-administrative
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that producers and/or exporters subject to this administrative review made sales of subject merchandise at less than normal value (NV) during the period of review (POR) August 1, 2023, through July 31, 2024. Interested parties are invited to comment on these preliminary results.
+
+## Numbering Policies for Modern Communications
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02858/numbering-policies-for-modern-communications
+
+In this document, the Federal Communications Commission (Commission) proposes rules regarding direct access to numbers by providers of interconnected Voice over internet Protocol (VoIP) services. The Commission takes this action in furtherance of Congress' directive in the Pallone-Thune Telephone Robocall Abuse Criminal Enforcement and Deterrence (TRACED) Act to examine ways t…
+
+## Radio Broadcasting Services; Various Locations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02857/radio-broadcasting-services-various-locations
+
+This document amends the Table of FM Allotments, of the Federal Communications Commission's (Commission) rules, by substituting Channel 277A for vacant Channel 221A at Hamilton, Alabama; Channel 261B1 for vacant Channel 261B at Coalinga, California; Channel 289A for vacant Channel 291A at Rocksprings, Texas; Channel 261A for vacant Channel 221A at Silverton, Texas; and Channel…
+
+## SES Performance Review Board
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02856/ses-performance-review-board
+
+As required by the Civil Service Reform Act of 1978 (Pub. L. 95-454), Chairman Brendan Carr has appointed the following executive to the Senior Executive Service (SES) Performance Review Board (PRB):
+
+## Safety Standard for Crib Mattresses
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02855/safety-standard-for-crib-mattresses
+
+In 2022, the U.S. Consumer Product Safety Commission (CPSC) published a consumer product safety standard for crib mattresses under section 104 of the Consumer Product Safety Improvement Act of 2008 (CPSIA). The standard incorporated by reference ASTM F2933-21, Standard Consumer Safety Specification for Crib Mattresses, with modifications to make the standard more stringent. Th…
+
+## Subsistence Management Regulations for Public Lands in Alaska-2027-28 and 2028-29 Subsistence Taking of Fish and Shellfish Regulations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02853/subsistence-management-regulations-for-public-lands-in-alaska-2027-28-and-2028-29-subsistence-taking
+
+This proposed rule would update regulations for fish and shellfish seasons, harvest limits, methods, and means related to taking of fish and shellfish for subsistence uses during the 2027-2028 and 2028-2029 regulatory years. The Federal Subsistence Board (the Board) is on a schedule of completing the process of revising subsistence take of fish and shellfish regulations in odd…
+
+## Limitations of Duty-Free Imports of Apparel Articles Assembled in Beneficiary Sub-Saharan African Countries From Regional and Third-Country Fabric
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02852/limitations-of-duty-free-imports-of-apparel-articles-assembled-in-beneficiary-sub-saharan-african
+
+## Polyethylene Terephthalate Film, Sheet, and Strip From Taiwan and India: Final Results of the Expedited Fourth Sunset Reviews of the Antidumping Duty Orders
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02851/polyethylene-terephthalate-film-sheet-and-strip-from-taiwan-and-india-final-results-of-the-expedited
+
+The U.S. Department of Commerce (Commerce) finds that revocation of the antidumping duty (AD) orders on polyethylene terephthalate film, sheet, and strip (PET Film) from Taiwan and India would be likely to lead to continuation or recurrence of dumping, at the levels indicated in the "Final Results of Sunset Reviews" section of this notice.
+
+## Carbon and Certain Alloy Steel Wire Rod From Mexico: Preliminary Results and Partial Rescission of the Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02850/carbon-and-certain-alloy-steel-wire-rod-from-mexico-preliminary-results-and-partial-rescission-of
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that sales of carbon and certain alloy steel wire rod (wire rod) from Mexico were made at less than normal value during the period of review (POR), October 1, 2023, through September 30, 2024. Additionally, Commerce is rescinding this administrative review with respect to seven companies. We invite interested…
+
+## Express Scripts, Inc., et al.; Analysis of Agreement Containing Consent Order To Aid Public Comment
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02844/express-scripts-inc-et-al-analysis-of-agreement-containing-consent-order-to-aid-public-comment
+
+The consent agreement in this matter settles alleged violations of Federal law prohibiting unfair methods of competition. The attached Analysis of Agreement Containing Consent Order to Aid Public Comment describes both the allegations in the complaint and the terms of the consent order--embodied in the consent agreement--that would settle these allegations.
+
+## Limitation of Duty-Free Imports of Apparel Articles Assembled in Haiti Under the Caribbean Basin Economic Recovery Act
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02832/limitation-of-duty-free-imports-of-apparel-articles-assembled-in-haiti-under-the-caribbean-basin
+
+The Caribbean Basin Economic Recovery Act, as amended, provides duty-free treatment for certain apparel articles imported directly from Haiti. One of the preferences is known as the "value- added" provision, which provides preferential tariff treatment for apparel that meets a minimum threshold percentage of value added in Haiti, certain other beneficiary and free trade agreem…
+
+## Agency Information Collection Activities; National Survey of Fishing, Hunting, and Wildlife Watching
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02831/agency-information-collection-activities-national-survey-of-fishing-hunting-and-wildlife-watching
+
+In accordance with the Paperwork Reduction Act of 1995 (PRA), we, the U.S. Fish and Wildlife Service (Service), are proposing to revise a currently approved information collection.
+
+## Advisory Committee Charter Reestablishment
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02829/advisory-committee-charter-reestablishment
+
+Pursuant to sections 14(b) (1) and 9(c) of the Federal Advisory Act (Pub. L. 92-463) and consultation with the General Services Administration, the Small Business Administration has determined that the Audit and Financial Management Committee, the Council on Underserved Communities, and the Small Business Lending Advisory Council are in the public interest and essential to the…
+
+## Sodium Nitrite From India: Final Results of Antidumping Duty Administrative Review; 2022-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02828/sodium-nitrite-from-india-final-results-of-antidumping-duty-administrative-review-2022-2024
+
+The U.S. Department of Commerce (Commerce) determines that Deepak Nitrite Limited (Deepak) did not make sales of subject merchandise at less than normal value during the period of review (POR) from August 17, 2022, through January 31, 2024.
+
+## Notice of Proposed Modification of the Waiver of Buy America Requirements for Electric Vehicle Chargers
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02825/notice-of-proposed-modification-of-the-waiver-of-buy-america-requirements-for-electric-vehicle
+
+The Federal Highway Administration (FHWA) is seeking comments on its February 21, 2023 Waiver of Buy America Requirements for Electric Vehicle (EV) Chargers. FHWA is specifically seeking comment on whether it should modify the waiver to increase the cost threshold of components manufactured in the United States for EV Chargers used in Federal-aid highway projects from 55 perce…
+
+## Endangered and Threatened Species; Receipt of Recovery Permit Applications
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02824/endangered-and-threatened-species-receipt-of-recovery-permit-applications
+
+We, the U.S. Fish and Wildlife Service, have received applications for permits to conduct scientific research to promote conservation or other activities intended to enhance the propagation or survival of endangered or threatened species under the Endangered Species Act. We invite the public and local, State, Tribal, and Federal agencies to comment on these applications. Befor…
+
+## Notice of an Application of the Chicago Mercantile Exchange Inc. for an Exemption Pursuant to Section 36 of the Securities Exchange Act of 1934 and Request for Comment in Connection With the Opening Price Settlement Req…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02821/notice-of-an-application-of-the-chicago-mercantile-exchange-inc-for-an-exemption-pursuant-to-section
+
+## Procurement List; Proposed Additions and Deletions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02820/procurement-list-proposed-additions-and-deletions
+
+The Committee is proposing to add products to the Procurement List that will be furnished by nonprofit agencies employing persons who are blind or have other severe disabilities, and delete product(s) previously furnished by such agencies.
+
+## Agency Information Collection Activities: Comment Request Burden Related to Form 1099-MISC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02817/agency-information-collection-activities-comment-request-burden-related-to-form-1099-misc
+
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+
+## Agency Information Collection Activities: Comment Request Burden Related to the Low-Income Communities Bonus Credit Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02816/agency-information-collection-activities-comment-request-burden-related-to-the-low-income
+
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+
+## Proposed Information Collections; Comment Request (No. 98)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02815/proposed-information-collections-comment-request-no-98
+
+As part of our continuing effort to reduce paperwork and respondent burden, and as required by the Paperwork Reduction Act of 1995, we invite comments on the continuing or proposed information collections listed below in this document.
+
+## Agency Information Collection Activities: Comment Request on Burden Related to Form 1120-ND, Return for Nuclear Decommissioning Funds and Certain Related Persons
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02811/agency-information-collection-activities-comment-request-on-burden-related-to-form-1120-nd-return
+
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+
+## Self-Regulatory Organizations; New York Stock Exchange LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change Proposes To Modify the Definition of “Reverse Merger” Set Forth in Section 102.01F of the…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02806/self-regulatory-organizations-new-york-stock-exchange-llc-notice-of-filing-and-immediate
+
+## Self-Regulatory Organizations; NYSE American LLC; Notice of Filing and Immediate Effectiveness of Proposed Change Proposes To Modify the Definition of “Reverse Merger” Set Forth in Section 101(e) of the NYSE American Co…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02805/self-regulatory-organizations-nyse-american-llc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Nasdaq PHLX LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the Exchange's Schedule of Fees and Rebates To Bring It Into Compliance With New Reg NMS Ru…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02804/self-regulatory-organizations-nasdaq-phlx-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Nasdaq BX, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the Exchange's Schedule of Fees and Rebates To Bring It Into Compliance With New Reg NMS Ru…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02803/self-regulatory-organizations-nasdaq-bx-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Modify the NYSE Arca Options Fee Schedule To Eliminate a Pricing Incentive Relating to Options on…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02802/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; The Nasdaq Stock Market LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the Exchange's Schedule of Fees and Incentives To Bring It Into Compliance With…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02801/self-regulatory-organizations-the-nasdaq-stock-market-llc-notice-of-filing-and-immediate
+
+## Self-Regulatory Organizations; CME Securities Clearing Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Modify the CME Securities Clearing Inc. Rules and Incorporate CME Securities Clearing…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02800/self-regulatory-organizations-cme-securities-clearing-inc-notice-of-filing-and-immediate
+
+## Self-Regulatory Organizations; Investors Exchange LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Exchange's Fee Schedule Concerning Equities Transaction Pricing
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02799/self-regulatory-organizations-investors-exchange-llc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Exchange Rule 5.52 (Market-Maker Quotes) To Adopt Two-Sided Quote Bid/Ask Differentials
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02798/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; MIAX PEARL, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the MIAX Pearl Equities Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02797/self-regulatory-organizations-miax-pearl-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations; Cboe BZX Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Adopt Fees for Certain Logical Ports and Average Daily Order and Quote Threshold Fees
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02796/self-regulatory-organizations-cboe-bzx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Andalusian Credit Company, LLC, et al.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02795/andalusian-credit-company-llc-et-al
+
+## Alger Next Gen Growth Fund and Fred Alger Management, LLC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02794/alger-next-gen-growth-fund-and-fred-alger-management-llc
+
+## Stepstone Private Credit Fund LLC, et al.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02793/stepstone-private-credit-fund-llc-et-al
+
+## CAZ Strategic Opportunities Fund, et al.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02792/caz-strategic-opportunities-fund-et-al
+
+## Pursuit Asset-Based Income Fund and Pursuit Fund Advisers, LLC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02791/pursuit-asset-based-income-fund-and-pursuit-fund-advisers-llc
+
+## Certification Process for Designated Medical Gases; Draft Guidance for Industry; Availability; Agency Information Collection Activities; Proposed Collection; Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02789/certification-process-for-designated-medical-gases-draft-guidance-for-industry-availability-agency
+
+The Food and Drug Administration (FDA, Agency, or we) is announcing the availability of a draft guidance for industry entitled "Certification Process for Designated Medical Gases." This guidance explains how FDA administers the certification process and describes the annual reporting requirements for designated medical gases (DMGs). Specifically, the guidance discusses what pr…
+
+## Agency Information Collection Activities: Information Collection Renewal; Comment Request; Reporting, Recordkeeping, and Disclosure Requirements Associated With Proprietary Trading and Certain Interests in and Relations…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02788/agency-information-collection-activities-information-collection-renewal-comment-request-reporting
+
+The OCC, as part of its continuing effort to reduce paperwork and respondent burden, invites comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995 (PRA). In accordance with the requirements of the PRA, the OCC may not conduct or sponsor, and the respondent is not required to respond to, an information collection unless it displays a…
+
+## Vaccines and Related Biological Products Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-United States (U.S.) 2026-2027 Influenza Vaccine Strain Composition
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02787/vaccines-and-related-biological-products-advisory-committee-notice-of-meeting-establishment-of-a
+
+The Food and Drug Administration (FDA) announces a forthcoming public advisory committee meeting of the Vaccines and Related Biological Products Advisory Committee (the Committee). The general function of the Committee is to provide advice and recommendations to FDA on regulatory issues. The meeting will be open to the public. FDA is establishing a docket for public comment on…
+
+## Jeremy Spencer Brown: Final Debarment Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02786/jeremy-spencer-brown-final-debarment-order
+
+The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) debarring Jeremy Spencer Brown for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order on a finding that Mr. Brown was convicted of one felony count under Federal law for introduction of u…
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Annual Information Return/Report of Employee Benefit Plan
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02785/agency-information-collection-activities-submission-for-omb-review-comment-request-annual
+
+The Department of Labor (DOL) is submitting this Employee Benefits Security Administration (EBSA)-sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited.
+
+## Centers of Excellence for Domestic Maritime Workforce Training and Education Notice of Opportunity To Apply for Designation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02784/centers-of-excellence-for-domestic-maritime-workforce-training-and-education-notice-of-opportunity
+
+The Maritime Administrator, after consultation with the United States Coast Guard, may designate a domestic maritime training or education entity as a Center of Excellence for Domestic Maritime Workforce Training and Education (CoE). MARAD's CoE Program focuses on entities other than Federal and State maritime academies that support the needs of the domestic maritime community…
+
+## Certain Frozen Fish Fillets From the Socialist Republic of Vietnam: Notice of Court Decision Not in Harmony With the Final Results of New Shipper Review; and Notice of Amended Final Results
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02783/certain-frozen-fish-fillets-from-the-socialist-republic-of-vietnam-notice-of-court-decision-not-in
+
+On January 8, 2026, the U.S. Court of International Trade (CIT) issued its final judgment in Catfish Farmers of Am., et al. v. United States, Court No. 24-00126, sustaining the U.S. Department of Commerce (Commerce)'s remand results pertaining to the new shipper review of the antidumping duty (AD) order on certain frozen fish fillets from the Socialist Republic of Vietnam (Vie…
+
+## Certain Photovoltaic Trunk Bus Cable Assemblies and Components Thereof; Notice of Request for Submissions on the Public Interest
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02782/certain-photovoltaic-trunk-bus-cable-assemblies-and-components-thereof-notice-of-request-for
+
+Notice is hereby given that on February 6, 2026, the presiding administrative law judge ("ALJ") issued an Initial Determination on Violation of Section 337. The ALJ also issued a Recommended Determination on remedy and bonding should a violation be found in the above-captioned investigation. The Commission is soliciting submissions on public interest issues raised by the recom…
+
+## Certain Uncoated Paper From Brazil: Rescission of Antidumping Duty Administrative Review; 2024-2025
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02781/certain-uncoated-paper-from-brazil-rescission-of-antidumping-duty-administrative-review-2024-2025
+
+The U.S. Department of Commerce (Commerce) is rescinding the administrative review of the antidumping duty (AD) order on certain uncoated paper (uncoated paper) from Brazil covering the period of review (POR) March 1, 2024, though February 28, 2025. We are rescinding this administrative review with respect to Suzano S.A. (Suzano) because all review requests for the company hav…
+
 ## Investments in and Licensing of Permitted Payment Stablecoins Issuers
 - Source: Federal Register
 - Category: Federal Register
@@ -13458,6 +16742,22 @@ The OCC's economists support the OCC mission through economic thought leadership
 - URL: https://www.federalregister.gov/documents/2026/02/12/2026-02868/investments-in-and-licensing-of-permitted-payment-stablecoins-issuers
 
 The NCUA Board (Board) is seeking comment on proposed regulations to implement portions of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act). The GENIUS Act charges the NCUA with licensing, regulating, and supervising payment stablecoin issuers that are subsidiaries of federally insured credit unions (FICU subsidiaries). The GENIUS Act also…
+
+## Fisheries of the Exclusive Economic Zone off Alaska; Amendment 125 to the Bering Sea and Aleutian Islands Fishery Management Plan; Pacific Cod Small Boat Access
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02872/fisheries-of-the-exclusive-economic-zone-off-alaska-amendment-125-to-the-bering-sea-and-aleutian
+
+NMFS issues this final rule to implement amendment 125 to the Fishery Management Plan for Groundfish of the Bering Sea and Aleutian Islands Management Area (BSAI FMP). Amendment 125 and this final rule add a small vessel provision to the BSAI Pacific cod jig sector in the A season, January 1 to April 30. Under this small vessel provision, catch from catcher vessels (CV) using…
+
+## Final Priority and Definitions-Secretary's Supplemental Priority and Definitions on Meaningful Learning Opportunities
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02854/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-meaningful
+
+The Department of Education (Department) announces a final priority and definitions for use in currently authorized discretionary grant programs or programs that may be authorized in the future. The Secretary may choose to use the entire priority for a grant program or a particular competition or use one or more of the priority's component parts. This priority and definitions…
 
 ## Nominations Sent to the Senate
 - Source: White House
@@ -13485,7 +16785,7 @@ The NCUA Board (Board) is seeking comment on proposed regulations to implement p
 
 ## Metro 2® Format Fundamentals Webinar Series April 14–16, 2026
 - Source: CDIA
-- Category: CDIA
+- Category: Compliance Watch
 - Published: 2026-02-11T10:00:55Z
 - URL: https://www.cdiaonline.org/events/2026/02/11/metro-2-format-fundamentals-webinar-series-april-14-16-2026/
 
@@ -13543,6 +16843,302 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 
 The NCUA Board proposes to rescind its Interpretative Ruling and Policy Statement 06-1 (IRPS 06-1). Rescinding IRPS 06-1 would ease the compliance burden on Federal credit unions (FCUs) by limiting the number of sources that FCUs must check to ensure compliance with applicable chartering and field of membership (FOM) requirements.
 
+## Approval Requirements for Issuance of Payment Stablecoins by Subsidiaries of FDIC-Supervised Insured Depository Institutions; Extension of Comment Period
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02665/approval-requirements-for-issuance-of-payment-stablecoins-by-subsidiaries-of-fdic-supervised-insured
+
+On December 19, 2025, the Federal Deposit Insurance Corporation (FDIC) published in the Federal Register a notice of proposed rulemaking that would establish procedures to be followed by an insured State nonmember bank or State savings association (each, an FDIC-supervised institution) that seeks to obtain FDIC approval to issue payment stablecoins through a subsidiary pursuan…
+
+## Carbon and Alloy Steel Wire Rod From Ukraine: Rescission of Antidumping Duty Administrative Review; 2024-2025
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02780/carbon-and-alloy-steel-wire-rod-from-ukraine-rescission-of-antidumping-duty-administrative-review
+
+The U.S. Department of Commerce (Commerce) is rescinding the administrative review of the antidumping duty (AD) order on carbon and alloy steel wire rod (steel wire rod) from Ukraine, covering the period of review (POR) March 1, 2024, though February 28, 2025.
+
+## Certain Passenger Vehicle and Light Truck Tires From the People's Republic of China: Preliminary Results and Partial Rescission of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02779/certain-passenger-vehicle-and-light-truck-tires-from-the-peoples-republic-of-china-preliminary
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that certain exporters of passenger vehicle and light truck tires (passenger tires) from the People's Republic of China (China) made sales of subject merchandise at prices below normal value (NV) during the period of review (POR) August 1, 2023, through July 31, 2024. We are also rescinding this administrative revi…
+
+## Monosodium Glutamate From the People's Republic of China: Preliminary Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02778/monosodium-glutamate-from-the-peoples-republic-of-china-preliminary-results-of-antidumping-duty
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that Ajinoriki MSG (Malaysia) Sdn Bhd (Ajinoriki), the sole company subject to the administrative review of the antidumping duty order on monosodium glutamate (MSG) from the People's Republic of China (China) covering the period of review (POR) November 1, 2023, through October 31, 2024, is not eligible to receive…
+
+## Notice of Extension of the Deadline for Determining the Adequacy of the Antidumping Duty and Countervailing Duty Petitions: Certain Fatty Acids From Indonesia and Malaysia
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02777/notice-of-extension-of-the-deadline-for-determining-the-adequacy-of-the-antidumping-duty-and
+
+## Foreign-Trade Zone (FTZ) 46, Notification of Proposed Production Activity; General Electric Company; (Production and Testing of Jet Engines); Peebles, Ohio
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02775/foreign-trade-zone-ftz-46-notification-of-proposed-production-activity-general-electric-company
+
+## Foreign-Trade Zone (FTZ) 93, Notification of Proposed Production Activity; General Electric Company; (Commercial Aerospace Propulsion Parts and Engine Cores); Durham, North Carolina
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02774/foreign-trade-zone-ftz-93-notification-of-proposed-production-activity-general-electric-company
+
+## Foreign-Trade Zone (FTZ) 72, Notification of Proposed Production Activity; General Electric Company; (Commercial Aerospace Propulsion Parts and Engine Cores); Lafayette, Indiana
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02773/foreign-trade-zone-ftz-72-notification-of-proposed-production-activity-general-electric-company
+
+## Certain Frozen Fish Fillets From the Socialist Republic of Vietnam: Preliminary Results of Antidumping Duty Administrative Review; Preliminary Recission of Administrative Review; and Recission of Administrative Review,…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02772/certain-frozen-fish-fillets-from-the-socialist-republic-of-vietnam-preliminary-results-of
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that Bien Dong Seafood Co., Ltd. (Bien Dong) and NTSF Seafoods Joint Stock Company (NTSF), made sales of certain frozen fish fillets (fish fillets) at less than normal value (NV) during the period of review (POR) August 1, 2023, through July 31, 2024. Additionally, Commerce determines that four companies are e…
+
+## Voluntary Quality Management Maturity Prototype Assessment Protocol Evaluation Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02768/voluntary-quality-management-maturity-prototype-assessment-protocol-evaluation-program
+
+The Food and Drug Administration (FDA) is announcing an opportunity for a limited number of drug manufacturing establishments to participate in the third year of the voluntary Quality Management Maturity (QMM) Prototype Assessment Protocol Evaluation Program. The Center for Drug Evaluation and Research (CDER) is implementing this voluntary program for manufacturers of CDER-reg…
+
+## Presidential Declaration Amendment of a Major Disaster for the State of Alaska
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02766/presidential-declaration-amendment-of-a-major-disaster-for-the-state-of-alaska
+
+This is an amendment of the Presidential declaration of a major disaster for the State of Alaska (FEMA-4893-DR), dated October 22, 2025. Incident: Severe Storms, Flooding, and remnants of Typhoon Halong.
+
+## Butylated Hydroxyanisole (BHA); Request for Information
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02761/butylated-hydroxyanisole-bha-request-for-information
+
+The Food and Drug Administration (FDA or we) is requesting information on the current uses and safety data of butylated hydroxyanisole (BHA) in human food and as a food contact substance. We are requesting this information as part of our systematic process for conducting post-market assessments of chemicals in food. We are conducting a post-market assessment of the safety of B…
+
+## Lattice-Boom Crawler Cranes (LBCCs) From Japan; Scheduling of the Final Phase of Antidumping Duty Investigation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02760/lattice-boom-crawler-cranes-lbccs-from-japan-scheduling-of-the-final-phase-of-antidumping-duty
+
+The Commission hereby gives notice of the scheduling of the final phase of antidumping duty investigation No. 731-TA-1742 (Final) pursuant to the Tariff Act of 1930 to determine whether an industry in the United States is materially injured or threatened with material injury, or the establishment of an industry in the United States is materially retarded, by reason of imports…
+
+## Excise Tax on Repurchase of Corporate Stock; Correction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02748/excise-tax-on-repurchase-of-corporate-stock-correction
+
+This document includes corrections to final regulations (TD 10037) published in the Federal Register (90 FR 53144) on Monday, November 24, 2025, providing guidance regarding the application of the excise tax on repurchases of corporate stock made after December 31, 2022.
+
+## Establishment of Class E Airspace; Clyde, NC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02747/establishment-of-class-e-airspace-clyde-nc
+
+This action proposes to establish Class E airspace extending upward from 700 feet above the surface at Haywood Regional Medical Center, Clyde, NC. Controlled airspace is necessary for the safety and management of instrument flight rules (IFR) operations at this airport.
+
+## Ball Horticultural Company: Availability of a Petition for a Determination of Nonregulated Status and Draft Plant Pest Risk Assessment for Red Flower Petals African Marigold (Tagetes erecta) Event pBALL123-022-BE113.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02746/ball-horticultural-company-availability-of-a-petition-for-a-determination-of-nonregulated-status-and
+
+We are advising the public that the Animal and Plant Health Inspection Service has received a petition from Ball Horticultural Company seeking a determination of nonregulated status for African marigold (Tagetes erecta) event pBALL123-022-BE113 which has been developed using genetic engineering to produce red flower petals. We are making the petition and draft plant pest risk…
+
+## U.S. Department of Agriculture, Agricultural Research Service: Availability of a Petition for a Determination of Nonregulated Status and Draft Plant Pest Risk Assessment for Early and Near-Continuous Flowering T1190 App…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02745/us-department-of-agriculture-agricultural-research-service-availability-of-a-petition-for-a
+
+We are advising the public that the Animal and Plant Health Inspection Service has received a petition from the U.S. Department of Agriculture, Agricultural Research Service seeking a determination of nonregulated status for T1190 apple (Malus x domestica), which has been developed using genetic engineering to promote early and near- continuous flowering. We are making the pet…
+
+## Soil Culture Solutions, LLC: Availability of a Petition for a Determination of Nonregulated Status and Draft Plant Pest Risk Assessment for HLB-Resistant Carrizo Citrange Rootstock (CarriCea)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02741/soil-culture-solutions-llc-availability-of-a-petition-for-a-determination-of-nonregulated-status-and
+
+We are advising the public that the Animal and Plant Health Inspection Service has received a petition from Soil Culture Solutions, LLC seeking a determination of nonregulated status for CarriCea Carrizo citrange rootstock which has been developed using genetic engineering for improved resistance to citrus greening disease (also known as Huanglongbing or HLB). We are making th…
+
+## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02740/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+
+## Airworthiness Directives; The Boeing Company Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02736/airworthiness-directives-the-boeing-company-airplanes
+
+The FAA proposes to adopt a new airworthiness directive (AD) for certain The Boeing Company Model 757-200 and -200CB series airplanes. This proposed AD was prompted by an evaluation of the design approval holder (DAH) indicating that the inner skin of the lap splices, at the lower fastener row, is subject to widespread fatigue damage (WFD). This proposed AD would require an in…
+
+## Agency Information Collection Activities; Horseshoe Crab and Cooperative Fish Tagging Programs
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02735/agency-information-collection-activities-horseshoe-crab-and-cooperative-fish-tagging-programs
+
+In accordance with the Paperwork Reduction Act of 1995, we, the U.S. Fish and Wildlife Service (Service), are proposing to renew a currently approved information collection without change.
+
+## Establishment of Class D and Class E Airspace; Ceiba, PR
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02727/establishment-of-class-d-and-class-e-airspace-ceiba-pr
+
+This action proposes to establish Class D and Class E airspace at the Jose Aponte de la Torre Airport (RVR), Ceiba, PR. The FAA is proposing this action due to the United States Marine Corps (USMC) recently beginning to operate an airport traffic control tower (ATCT) at the RVR airport.
+
+## New Postal Products
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02725/new-postal-products
+
+The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps.
+
+## Domestic Sugar Program-FY 2026 Reassignment of Cane Sugar and Beet Sugar Marketing Allotments and Processor Allocations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02723/domestic-sugar-program-fy-2026-reassignment-of-cane-sugar-and-beet-sugar-marketing-allotments-and
+
+The United States Department of Agriculture (USDA) is issuing this notice to: (1) revise fiscal year (FY) 2026 (crop year 2025) State cane sugar allotments and allocations to sugarcane processors; and (2) revise the FY 2026 (crop year 2025) beet sugar allocations. Actions (1) and (2) apply to all domestic cane and beet sugar marketed for human consumption in the United States…
+
+## Revision of Agency Information Collection Activity Under OMB Review: Law Enforcement Officers (LEOs) Flying Armed
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02722/revision-of-agency-information-collection-activity-under-omb-review-law-enforcement-officers-leos
+
+This notice announces that the Transportation Security Administration (TSA) has forwarded the Information Collection Request (ICR), Office of Management and Budget (OMB) control number 1652-0072, abstracted below, to OMB for review and approval of a revision of the currently approved collection under the Paperwork Reduction Act (PRA). The ICR describes the nature of the inform…
+
+## Notice of 2026 National Petroleum Reserve-Alaska Oil and Gas Lease Sale Lease Sale
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02719/notice-of-2026-national-petroleum-reserve-alaska-oil-and-gas-lease-sale-lease-sale
+
+The Bureau of Land Management's (BLM) Alaska State Office will hold an oil and gas lease sale bid opening for over 600 tracts in the National Petroleum Reserve--Alaska (NPR-A).
+
+## Presidential Declaration Amendment of a Major Disaster for Public Assistance Only for the State of Alaska
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02718/presidential-declaration-amendment-of-a-major-disaster-for-public-assistance-only-for-the-state-of
+
+This is an amendment of the Presidential declaration of a major disaster for Public Assistance Only for the State of Alaska (FEMA-4893-DR), dated October 22, 2025. Incident: Severe Storms, Flooding, and remnants of Typhoon Halong.
+
+## Administrative Declaration of an Economic Injury Disaster for the State of California
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02717/administrative-declaration-of-an-economic-injury-disaster-for-the-state-of-california
+
+This is notice of an Economic Injury Disaster Loan (EIDL) declaration for the state of California dated February 6, 2026. Incident: 2025 Late December Storms.
+
+## Agency Information Collection Activities: Requests for Comments; Clearance of a Renewed Approval of Information Collection: Flight Operations Quality Assurance (FOQA) Program; Correction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02716/agency-information-collection-activities-requests-for-comments-clearance-of-a-renewed-approval-of
+
+On January 28, 2026, FAA published a notice and request for comments titled "Agency Information Collection Activities: Requests for Comments; Clearance of a Renewed Approval of Information Collection: Flight Operations Quality Assurance (FOQA) Program." That notice and request for comments incorrectly stated the docket number. This notice corrects the docket number.
+
+## Request for Revision to and Extension of Approval of an Information Collection; Importation of Gypsy Moth Host Materials From Canada
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02714/request-for-revision-to-and-extension-of-approval-of-an-information-collection-importation-of-gypsy
+
+In accordance with the Paperwork Reduction Act of 1995, this notice announces the Animal and Plant Health Inspection Service's intention to request a revision to and extension of approval of an information collection associated with the regulations to prevent the introduction of gypsy moth from Canada into noninfested areas of the United States.
+
+## Amendment of Class E Airspace; Covington, KY
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02692/amendment-of-class-e-airspace-covington-ky
+
+The FAA is correcting an NPRM published in the Federal Register on January 20, 2026, proposing to amend Class E airspace at Covington, KY. Subsequent to publication, it was discovered that the NPRM was published with the wrong airspace docket number used in two instances. This action corrects those typographic errors.
+
+## Public Meeting of the Glen Canyon Dam Adaptive Management Work Group
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02687/public-meeting-of-the-glen-canyon-dam-adaptive-management-work-group
+
+In accordance with the Federal Advisory Committee Act of 1972, the Bureau of Reclamation (Reclamation) is publishing this notice to announce that a Federal Advisory Committee meeting of the Glen Canyon Dam Adaptive Management Work Group (AMWG) will take place. The meeting is open to the public.
+
+## Self-Regulatory Organizations; MIAX PEARL, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend the MIAX Pearl Equities Fee Schedule Concerning the Quoting Requirements for the Market Quo…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02675/self-regulatory-organizations-miax-pearl-llc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Self-Regulatory Organizations: Miami International Securities Exchange, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Exchange Rule 531 To Establish the New Purge Liquidity Taker R…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02674/self-regulatory-organizations-miami-international-securities-exchange-llc-notice-of-filing-and
+
+## Self-Regulatory Organizations; NYSE National, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Connectivity Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02673/self-regulatory-organizations-nyse-national-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Pipeline Safety: Advisory Bulletin on Protecting Pipeline Integrity During Extreme Winter Weather, Rapid Thaw, and Geohazard Events
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02666/pipeline-safety-advisory-bulletin-on-protecting-pipeline-integrity-during-extreme-winter-weather
+
+PHMSA is issuing this advisory bulletin to all owners and operators of gas and hazardous liquid pipeline facilities to highlight safety risks associated with extreme winter weather. This includes impacts from heavy snowfall, ice expansion within pipeline facilities, flooding related to winter thaw, and frost heave resulting from sustained, unusually cold temperatures. This bul…
+
+## Agency Information Collection Activities; Comment Request on Proceeds of Bonds Used for Reimbursement
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02664/agency-information-collection-activities-comment-request-on-proceeds-of-bonds-used-for-reimbursement
+
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+
+## Product Change-Priority Mail Express, Priority Mail, and USPS Ground Advantage Negotiated Service Agreements & Priority Mail Negotiated Service Agreements
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02658/product-change-priority-mail-express-priority-mail-and-usps-ground-advantage-negotiated-service
+
+The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classification Schedule's Competitive Products List.
+
+## Agency Information Collection Activities; Notice and Request for Comment; Drive-Mode Design Best Practices
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02657/agency-information-collection-activities-notice-and-request-for-comment-drive-mode-design-best
+
+NHTSA invites public comments about our intention to request approval from the Office of Management and Budget (OMB) for a new information collection. Before a Federal agency can collect certain information from the public, it must receive approval from OMB. Under procedures established by the Paperwork Reduction Act of 1995, before seeking OMB approval, Federal agencies must…
+
 ## Mergers of Insured Credit Unions Into Other Credit Unions; Voluntary Termination or Conversion of Insured Status
 - Source: Federal Register
 - Category: Federal Register
@@ -13559,6 +17155,38 @@ The NCUA Board (Board) proposes to amend its regulations governing the voluntary
 
 The NCUA Board (Board) is proposing to amend its regulations governing the conversion of insured credit unions into banks. The NCUA Board proposes to eliminate certain prescriptive procedural, disclosure, and communication requirements. This action reduces unnecessary regulatory burdens and provides credit union boards of directors with greater flexibility to exercise their bu…
 
+## Voluntary Consensus Standards Update; Formaldehyde Emission Standards for Composite Wood Products
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02715/voluntary-consensus-standards-update-formaldehyde-emission-standards-for-composite-wood-products
+
+The Environmental Protection Agency (EPA) is proposing to update the incorporation by reference of several voluntary consensus standards in the Agency's formaldehyde standards for composite wood products regulations under the Toxic Substances Control Act (TSCA) due to the standards having been updated or superseded by the issuing organizations. These new standards primarily up…
+
+## Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02769/patient-protection-and-affordable-care-act-hhs-notice-of-benefit-and-payment-parameters-for-2027-and
+
+This proposed rule contains provisions to improve implementation of the Patient Protection and Affordable Care Act, including payment parameters and provisions related to the HHS-operated risk adjustment and risk adjustment data validation (HHS-RADV) programs, as well as 2027 user fee rates for issuers offering qualified health plans (QHPs) through Federally-facilitated Exchan…
+
+## Special Local Regulation; Elizabeth River Western Branch, Portsmouth, VA
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02750/special-local-regulation-elizabeth-river-western-branch-portsmouth-va
+
+The Coast Guard is proposing to establish a temporary special local regulation (SLR) for certain navigable waters of the Elizabeth River Western Branch. The SLR is needed to protect personnel, vessels, and the marine environment from potential hazards created by a boat race. This proposed rulemaking would prohibit persons and vessels from being in the regulated area unless spe…
+
+## Drawbridge Operation Regulation; Passaic River, Between the City of Newark and Town of Kearny, NJ
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02690/drawbridge-operation-regulation-passaic-river-between-the-city-of-newark-and-town-of-kearny-nj
+
+The Coast Guard is modifying the operating regulation that governs the Point No Point Railroad Bridge across the Passaic River, mile 2.6, between the City of Newark and Town of Kearny, NJ. The change in the regulation will allow the bridge to be remotely operated from the Conrail North Jersey Dispatch Center in Mount Laurel, NJ. This change will alter the operating schedule of…
+
 ## Treasury Sanctions Operatives Generating Revenue for Hizballah and Exploiting Lebanon’s Cash Economy
 - Source: Treasury
 - Category: OFAC
@@ -13573,7 +17201,7 @@ The NCUA Board (Board) is proposing to amend its regulations governing the conve
 
 ## The Future of Consumer Reporting starts at CDIA Connect- New Sessions Announced!
 - Source: CDIA
-- Category: CDIA
+- Category: Compliance Watch
 - Published: 2026-02-10T10:00:33Z
 - URL: https://www.cdiaonline.org/events/2026/02/10/the-future-of-consumer-reporting-starts-at-cdia-connect-new-sessions-announced/
 
@@ -13746,14 +17374,6 @@ Improper neutralization of special elements used in a command ('command injectio
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21527
 
 User interface (ui) misrepresentation of critical information in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-21528 Azure IoT Explorer Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21528
-
-Binding to an unrestricted ip address in Azure IoT SDK allows an unauthorized attacker to disclose information over a network.
 
 ## CVE-2026-21531 Azure SDK for Python Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
@@ -14041,9 +17661,507 @@ Added Affected Software for Windows packages
 - Published: 2026-02-10T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-fourth-quarter-and-full-year-2025-results
 
+## Sunshine Act Meetings
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02661/sunshine-act-meetings
+
+## 7(a) Alternative Base Rate Options
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02660/7a-alternative-base-rate-options
+
+SBA is introducing alternative base rate options for use with variable interest rate loans made under the 7(a) Loan Program. The alternative base rate options are also available for use under any 7(a) pilot loan programs, unless expressly prohibited.
+
+## Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period; Denial of Extension
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02649/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment
+
+This action denies requests for extension of the reopening of the comment period for the notice of proposed rulemaking (NPRM) titled "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations" that was published in the Federal Register on January 28, 2026.
+
+## Call for Nominations for the National Wild Horse and Burro Advisory Board
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02648/call-for-nominations-for-the-national-wild-horse-and-burro-advisory-board
+
+The purpose of this notice is to solicit public nominations for six positions on the Wild Horse and Burro Advisory Board. The Board provides advice concerning the management, protection, and control of wild free-roaming horses and burros on public lands administered by the Department of the Interior, through the Bureau of Land Management (BLM), and the Department of Agricultur…
+
+## Notice of Request To Renew an Approved Information Collection: Sanitation SOPs and Pathogen Reduction/HACCP
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02647/notice-of-request-to-renew-an-approved-information-collection-sanitation-sops-and-pathogen
+
+In accordance with the Paperwork Reduction Act of 1995 and Office of Management and Budget (OMB) regulations, FSIS is announcing its intention to request renewal of the approved information collection regarding Sanitation Standard Operating Procedures (Sanitation SOPs) and pathogen testing and Hazard Analysis and Critical Control Point (HACCP) Systems requirements. There are n…
+
+## Large Power Transformers From the Republic of Korea: Preliminary Results of Antidumping Duty Administrative Review, 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02646/large-power-transformers-from-the-republic-of-korea-preliminary-results-of-antidumping-duty
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that large power transformers from the Republic of Korea (Korea) are not being sold in the United States at less than normal value (NV) during the period of review (POR) August 1, 2023, through July 31, 2024. Interested parties are invited to comment on these preliminary results.
+
+## Calcium Hypochlorite From China; Determinations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02645/calcium-hypochlorite-from-china-determinations
+
+## Agency Information Collection Activities; Comment Request; Job Corps Enrollee Allotment Determination
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02644/agency-information-collection-activities-comment-request-job-corps-enrollee-allotment-determination
+
+The Department of Labor's (DOL) Employment and Training Administration (ETA) is soliciting comments concerning a proposed revision for the authority to conduct the information collection request (ICR) titled, "Job Corps Enrollee Allotment Determination." This comment request is part of continuing Departmental efforts to reduce paperwork and respondent burden in accordance with…
+
+## Low Melt Polyester Staple Fiber From the Republic of Korea: Preliminary Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02643/low-melt-polyester-staple-fiber-from-the-republic-of-korea-preliminary-results-of-antidumping-duty
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that the sole producer/exporter subject to this administrative review made sales of subject merchandise at less than normal value (NV) during the period of review August 1, 2023, through July 31, 2024. Interested parties are invited to comment on these preliminary results.
+
+## Disposable Aluminum Containers, Pans, Trays, and Lids From the People's Republic of China: Initiation of Circumvention Inquiry on the Antidumping and Countervailing Duty Orders
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02642/disposable-aluminum-containers-pans-trays-and-lids-from-the-peoples-republic-of-china-initiation-of
+
+In response to a request from the Aluminum Foil Containers Manufacturers Association (AFCMA) and the following individual members of AFCMA, Durable Packaging International; D&W Fine Pack, LLC; Handi- foil Corp.; Penny Plate, LLC; Reynolds Consumer Products, LLC; Shah Foil Products, Inc.; Smart USA, Inc.; and Trinidad/Benham Corp. (collectively, the requesters), the U.S. Depart…
+
+## Polyethylene Retail Carrier Bags From Malaysia: Preliminary Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02641/polyethylene-retail-carrier-bags-from-malaysia-preliminary-results-of-antidumping-duty
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that Euro SME Sdn Bhd/Euro Nature Green Sdn. Bhd. (collectively, Euro SME) did not make sales of polyethylene retail carrier bags (PRCBs) from Malaysia at less than normal value (NV) during the period of review (POR), August 1, 2023, through July 31, 2024. We invite interested parties to comment on these preliminar…
+
+## Hydrofluorocarbon Blends From the People's Republic of China: Preliminary Results of the Antidumping Duty Administrative Review and Preliminary Determination of No Shipments; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02640/hydrofluorocarbon-blends-from-the-peoples-republic-of-china-preliminary-results-of-the-antidumping
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that sales of hydrofluorocarbon blends (HFC blends) from the People's Republic of China (China) were made at less than normal value (NV) during the period of review (POR) August 1, 2023, through July 31, 2024. In addition, we are making a preliminary determination of no shipments for one company. We invite int…
+
+## Ripe Olives From Spain: Preliminary Results and Partial Rescission of Countervailing Duty Administrative Review; 2023
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02639/ripe-olives-from-spain-preliminary-results-and-partial-rescission-of-countervailing-duty
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that certain producers/exporters of ripe olives from Spain received countervailable subsidies during the period of review (POR) January 1, 2023, through December 31, 2023. In addition, Commerce is rescinding this review, in part, with respect to two companies. Interested parties are invited to comment on these prel…
+
+## Utility Scale Windtowers From Indonesia: Preliminary Results and Rescission, In Part, of the Antidumping Duty Admninistrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02638/utility-scale-windtowers-from-indonesia-preliminary-results-and-rescission-in-part-of-the
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that utility scale wind towers (wind towers) from Indonesia were not being sold in the United States at prices below normal value during the period of review (POR), August 1, 2023, through July 31, 2024. Additionally, we are rescinding this review, in part, with respect to six companies which had no suspended entri…
+
+## Mattresses From Poland: Initiation of Circumvention Inquiry on the Antidumping Duty Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02637/mattresses-from-poland-initiation-of-circumvention-inquiry-on-the-antidumping-duty-order
+
+In response to requests from Brooklyn Bedding LLC; Carpenter Company; Future Foam, Inc.; FXI, Inc.; Kolcraft Enterprises Inc.; Leggett & Platt, Incorporated; Serta Simmons Bedding, LLC; Tempur Sealy International, Inc.; the International Brotherhood of Teamsters; and United Steel, Paper, and Forestry, Rubber, Manufacturing, Energy, Allied Industrial and Service Workers Interna…
+
+## Mattresses From Mexico: Initiation of Circumvention Inquiry on the Antidumping Duty Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02636/mattresses-from-mexico-initiation-of-circumvention-inquiry-on-the-antidumping-duty-order
+
+In response to requests from Brooklyn Bedding LLC, Corsicana Mattress Company, Future Foam, Inc.,FXI, Inc., Kolcraft Enterprises Inc., Leggett & Platt, Incorporated; Serta Simmons Bedding LLC, Southerland Inc.; Tempur Sealy International, Inc., the International Brotherhood of Teamsters, and United Steel, Paper and Forestry, Rubber, Manufacturing, Energy, Allied Industrial and…
+
+## Mattresses From Malaysia: Initiation of Circumvention Inquiry on the Antidumping Duty Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02635/mattresses-from-malaysia-initiation-of-circumvention-inquiry-on-the-antidumping-duty-order
+
+In response to a request from Brooklyn Bedding LLC, Carpenter Company, Future Foam, Inc., FXI, Inc., Kolcraft Enterprises, Inc., Leggett & Platt, Incorporated, Serta Simmons Bedding, LLC, Tempur Sealy International, Inc., the International Brotherhood of Teamsters, and United Steel, Paper and Forestry, Rubber, Manufacturing, Energy, Allied Industrial and Service Workers Intern…
+
+## Certain Crystalline Silicon Photovoltaic Products From the People's Republic of China and Taiwan: Final Results of the Expedited Second Sunset Reviews of the Antidumping Duty Orders
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02634/certain-crystalline-silicon-photovoltaic-products-from-the-peoples-republic-of-china-and-taiwan
+
+The U.S. Department of Commerce (Commerce) finds that revocation of the antidumping duty (AD) orders on certain crystalline silicon photovoltaic products (solar products) from the People's Republic of China (China) and Taiwan would be likely to lead to continuation or recurrence of dumping, at the levels indicated in the "Final Results of Sunset Reviews" section of this notice.
+
+## Polyethylene Terephthalate Film, Sheet, and Strip From India: Notice of Amended Final Results of Countervailing Duty Administrative Review Pursuant to Settlement; 2021
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02633/polyethylene-terephthalate-film-sheet-and-strip-from-india-notice-of-amended-final-results-of
+
+The U.S. Department of Commerce (Commerce) is issuing these amended final results pursuant to a settlement agreement with Jindal Poly Films Limited (Jindal) with respect to the final results of the administrative review of the countervailing duty (CVD) order on polyethylene terephthalate film, sheet, and strip (PET film) from India covering the period of review (POR) January 1…
+
+## Approval of Subzone Status; Oerlikon Metco (US) Inc.; Westbury, New York
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02632/approval-of-subzone-status-oerlikon-metco-us-inc-westbury-new-york
+
+## Approval of Subzone Status; Atlantic Veal & Lamb, LLC; Creston and Sterling, Ohio
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02631/approval-of-subzone-status-atlantic-veal-and-lamb-llc-creston-and-sterling-ohio
+
+## Proposed Revision of Information Collection; Contingent Work Supplement to the Current Population Survey
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02629/proposed-revision-of-information-collection-contingent-work-supplement-to-the-current-population
+
+The Department of Labor, as part of its continuing effort to reduce paperwork and respondent burden, conducts a pre-clearance consultation program to provide the general public and Federal agencies with an opportunity to comment on proposed and/or continuing collections of information in accordance with the Paperwork Reduction Act of 1995. This program helps to ensure that req…
+
+## Access to Employee Exposure and Medical Records; Extension of the Office of Management and Budget's (OMB) Approval of Information Collection (Paperwork) Requirements
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02628/access-to-employee-exposure-and-medical-records-extension-of-the-office-of-management-and-budgets
+
+OSHA solicits public comments concerning the proposal to extend the Office of Management and Budget's (OMB) approval of the information collection requirements contained in the Access to Employee Exposure and Medical Records Standard.
+
+## Information Collection Request; Advancing Markets for Producers (Formerly Partnerships for Climate-Smart Commodities)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02625/information-collection-request-advancing-markets-for-producers-formerly-partnerships-for
+
+In accordance with the Paperwork Reduction Act of 1995, the Natural Resources Conservation Service (NRCS) is requesting comments from all interested individuals and organizations on a revision of a currently approved information collection request associated with the Advancing Markets for Producers grant activity. The purpose of the Advancing Markets for Producers initiative i…
+
+## Television Broadcasting Services Norwell, Massachusetts
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02623/television-broadcasting-services-norwell-massachusetts
+
+In this document the Federal Communications Commission's (Commission) proposes to modify the Table of TV Allotments (table) of its rules by substituting channel 10 for 36 at Norwell, Massachusetts in response to a Petition for Rulemaking filed by RNN Boston License Co., LLC (RNN or Petitioner), the licensee of WWDP(TV) (WWDP or Station) channel 10, Norwell, Massachusetts (Norw…
+
+## Agency Information Collection Activities: Information Collection Renewal; Comment Request; Retail Foreign Exchange Transactions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02622/agency-information-collection-activities-information-collection-renewal-comment-request-retail
+
+The OCC, as part of its continuing effort to reduce paperwork and respondent burden, invites comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995 (PRA). In accordance with the requirements of the PRA, the OCC may not conduct or sponsor, and the respondent is not required to respond to, an information collection unless it displays a…
+
+## Notice of Agreements Filed
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02621/notice-of-agreements-filed
+
+## FAA Aircraft Noise Complaint and Inquiry System (Noise Portal); Correction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02620/faa-aircraft-noise-complaint-and-inquiry-system-noise-portal-correction
+
+On January 20, 2026, FAA published a notice regarding the FAA Aircraft Noise Complaint and Inquiry System (Noise Portal) that omitted the docket number. This document corrects that omission. On February 4, 2026, FAA published a notice regarding the FAA Aircraft Noise Complaint and Inquiry System (Noise Portal) had an incorrect docket number. This document corrects the docket n…
+
+## Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02617/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## Parts and Accessories Necessary for Safe Operation; Application for an Exemption From Liberty Bulk Transport, LLC, USDOT#3256390
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02616/parts-and-accessories-necessary-for-safe-operation-application-for-an-exemption-from-liberty-bulk
+
+FMCSA requests public comment on an application from Liberty Bulk Transport, LLC, (Liberty, USDOT No. 3256390) for an exemption from the requirement that lighting devices be steady burning. The exemption would allow the company to operate commercial motor vehicles (CMVs) equipped with a module manufactured by Intellistop, Inc. (Intellistop) which pulses the rear clearance, ide…
+
+## Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02615/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## Information Collection Being Submitted for Review and Approval to Office of Management and Budget
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02614/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget
+
+As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or the Commission) invites the general public and other Federal Agencies to take this opportunity to comment on the following information collection. Pursuant to the Small Business Paperwork Relief Act of 2002, the F…
+
+## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02602/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+
+## Agency Information Collection Activities; Notice and Request for Comment; Distraction: Modern Voice Command Interfaces
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02598/agency-information-collection-activities-notice-and-request-for-comment-distraction-modern-voice
+
+NHTSA invites public comments about the Agency's intention to request approval from the Office of Management and Budget (OMB) for a new information collection. Before a federal agency can collect certain information from the public, it must receive approval from OMB. Under procedures established by the Paperwork Reduction Act of 1995, before seeking OMB approval, federal agenc…
+
+## Notice of Receipt of Complaint; Solicitation of Comments Relating to the Public Interest
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02597/notice-of-receipt-of-complaint-solicitation-of-comments-relating-to-the-public-interest
+
+Notice is hereby given that the U.S. International Trade Commission has received a complaint entitled Certain Vehicle Parts, Components Thereof, and Vehicles Containing Same, DN 3884; the Commission is soliciting comments on any public interest issues raised by the complaint or complainant's filing pursuant to the Commission's Rules of Practice and Procedure.
+
+## New Postal Products
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02592/new-postal-products
+
+The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps.
+
+## Rules Regarding Off-the-Record Procedures
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02591/rules-regarding-off-the-record-procedures
+
+The Notice of Proposed Rulemaking proposes amendments to revise the Commission's rules regarding permissible off-the-record procedures in proceedings with an opportunity for a hearing on the record. The proposed amendments also revise the Commission's rules to clarify that informal off-the-record procedures are consistent with the Commission's ex parte rules when participants…
+
+## Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Requirements for Approved Construction and Non-Construction Investments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02590/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for
+
+The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days…
+
+## Onions Grown in Certain Designated Counties in Idaho and Malheur County, Oregon; Decreased Assessment Rate
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02589/onions-grown-in-certain-designated-counties-in-idaho-and-malheur-county-oregon-decreased-assessment
+
+This proposed rule would implement a recommendation from the Idaho-Eastern Oregon Onion Committee (Committee) to decrease the assessment rate established for the 2025-2026 and subsequent fiscal periods from $.07 to $.05 per hundredweight for onions grown in certain designated counties in Idaho and Malheur County, Oregon. The proposed assessment rate would remain in effect inde…
+
+## Endangered and Threatened Wildlife and Plants; Removal of the Southeast U.S. Distinct Population Segment of the Wood Stork From the List of Endangered and Threatened Wildlife
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02588/endangered-and-threatened-wildlife-and-plants-removal-of-the-southeast-us-distinct-population
+
+We, the U.S. Fish and Wildlife Service (Service), are removing the Southeast U.S. distinct population segment (DPS) of the wood stork (Mycteria americana) from the Federal List of Endangered and Threatened Wildlife. After a review of the best scientific and commercial data available, we find that delisting the species is warranted. Our review indicates that the threats to the…
+
+## Origin Real Estate Credit Fund and Origin Credit Advisers, LLC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02587/origin-real-estate-credit-fund-and-origin-credit-advisers-llc
+
+## Self-Regulatory Organizations; NYSE Texas, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Connectivity Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02586/self-regulatory-organizations-nyse-texas-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Connectivity Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02585/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-proposed
+
+## Self-Regulatory Organizations; NYSE American LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Connectivity Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02584/self-regulatory-organizations-nyse-american-llc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; New York Stock Exchange LLC; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the Connectivity Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02583/self-regulatory-organizations-new-york-stock-exchange-llc-notice-of-filing-and-immediate
+
+## Self-Regulatory Organizations; NYSE National, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend the NYSE National Schedule of Fees and Rebates
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02582/self-regulatory-organizations-nyse-national-inc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; NYSE American LLC; Notice of Filing and Immediate Effectiveness of Proposed Change To Amend the NYSE American Equities Price List and Fee Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02581/self-regulatory-organizations-nyse-american-llc-notice-of-filing-and-immediate-effectiveness-of
+
+## Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Its Schedule of Fees
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02580/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-proposed
+
+## Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Designation of a Longer Period for Commission Action on a Proposed Rule Change To Permit Orders for the Accounts of Market-Makers With an Appointment in the…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02579/self-regulatory-organizations-cboe-exchange-inc-notice-of-designation-of-a-longer-period-for
+
+## Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Official Actions Under the Defense Priorities and Allocations System
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02578/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for
+
+The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days…
+
+## Certain Vehicle Telematics, Fleet Management, and Video-Based Safety Systems, Devices, and Components Thereof; Notice of a Commission Determination To Review in Part a Final Initial Determination and on Review, To Affir…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02577/certain-vehicle-telematics-fleet-management-and-video-based-safety-systems-devices-and-components
+
+Notice is hereby given that the U.S. International Trade Commission ("Commission") has determined to review in part a final initial determination ("FID") issued by the presiding administrative law judge ("ALJ") and, on review, to affirm a finding of no violation of section 337 of the Tariff Act of 1930, as amended. The investigation is terminated with a finding of no violation.
+
+## Hazardous Materials: Harmonization With International Standards
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02575/hazardous-materials-harmonization-with-international-standards
+
+PHMSA proposes to amend the Hazardous Materials Regulations to adopt certain international regulations and standards related to proper shipping names, hazard classes, packing groups, special provisions, packaging authorizations, air transport quantity limitations, and vessel stowage requirements. These amendments are intended to maintain consistency with the latest internation…
+
+## Hazardous Materials: Preemption Application From Exxon Mobil Corporation; Extension of Comment Period
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02574/hazardous-materials-preemption-application-from-exxon-mobil-corporation-extension-of-comment-period
+
+PHMSA is extending the period for comments on Exxon Mobil Corporation's application for an administrative determination as to whether the Federal hazardous material transportation law (HMTA) preempts certain state common law tort claims against it regarding the marking, employee training, loading and unloading, and hazardous material classification for gasoline transported by…
+
+## Forged Steel Fittings From Taiwan: Preliminary Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02570/forged-steel-fittings-from-taiwan-preliminary-results-of-antidumping-duty-administrative-review
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that Both-Well Steel Fittings Co., Ltd sold forged steel fittings from Taiwan in the United States below normal value (NV) during the period of review (POR), September 1, 2023, through August 31, 2024. Interested parties are invited to comment on these preliminary results.
+
+## TUV Rheinland of North America, Inc.: Application for Expansion of Recognition
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02565/tuv-rheinland-of-north-america-inc-application-for-expansion-of-recognition
+
+In this notice, OSHA announces the application of TUV Rheinland of North America, Inc. for expansion of the scope of recognition as a Nationally Recognized Testing Laboratory (NRTL) and presents the agency's preliminary finding to grant the application.
+
+## Erythritol From the People's Republic of China: Final Affirmative Countervailing Duty Determination
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02563/erythritol-from-the-peoples-republic-of-china-final-affirmative-countervailing-duty-determination
+
+The U.S. Department of Commerce (Commerce) determines that countervailable subsidies are being provided to producers and exporters of erythritol from the People's Republic of China (China). The period of investigation (POI) is January 1, 2023, through December 31, 2023.
+
+## Erythritol From People's Republic of China: Final Affirmative Determination of Sales at Less Than Fair Value
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02562/erythritol-from-peoples-republic-of-china-final-affirmative-determination-of-sales-at-less-than-fair
+
+The U.S. Department of Commerce (Commerce) determines that erythritol from the People's Republic of China (China) is being, or is likely to be, sold in the United States at less than fair value (LTFV). The period of investigation (POI) is April 1, 2024, through September 30, 2024.
+
+## Steel Propane Cylinders From Thailand: Preliminary Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02561/steel-propane-cylinders-from-thailand-preliminary-results-of-antidumping-duty-administrative-review
+
+The U.S. Department of Commerce (Commerce) preliminarily finds that Sahamitr Pressure Container Public Company Limited (also known as Sahamitr Pressure Container Plc.) (SMPC) made sales of steel propane cylinders from Thailand at less than normal value (NV) during the period of review (POR), August 1, 2023, through July 31, 2024. We invite interested parties to comment on thes…
+
+## Silicon Metal From Malaysia: Preliminary Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02560/silicon-metal-from-malaysia-preliminary-results-of-antidumping-duty-administrative-review-2023-2024
+
+The U.S. Department of Commerce (Commerce) is conducting an administrative review of the antidumping (AD) order on silicon metal from Malaysia for the period of review (POR) August 1, 2023, through July 31, 2024. Commerce preliminarily finds that PMB Silicon Sdn. Bhd. (PMB Silicon) did not make sales of subject merchandise at prices below normal value (NV) during the POR. We i…
+
+## Polyethylene Terephthalate Film, Sheet, and Strip From the United Arab Emirates and the People's Republic of China: Final Results of the Expedited Third Sunset Reviews of the Antidumping Duty Orders
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02559/polyethylene-terephthalate-film-sheet-and-strip-from-the-united-arab-emirates-and-the-peoples
+
+The U.S. Department of Commerce (Commerce) finds that revocation of the antidumping duty (AD) orders on polyethylene terephthalate film, sheet, and strip (PET film) from the United Arab Emirates (UAE) and the People's Republic of China (China) would be likely to lead to continuation or recurrence of dumping at the levels indicated in the "Final Results of Sunset Reviews" secti…
+
+## Certain Crystalline Silicon Photovoltaic Products From the People's Republic of China: Final Results of the Expedited Second Sunset Review of the Countervailing Duty Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02558/certain-crystalline-silicon-photovoltaic-products-from-the-peoples-republic-of-china-final-results
+
+The U.S. Department of Commerce (Commerce) finds that revocation of the countervailing duty (CVD) order on certain crystalline silicon photovoltaic products from the People's Republic of China (China) would be likely to lead to continuation or recurrence of countervailable subsidies at the levels indicated in the "Final Results of Sunset Review" section of this notice.
+
+## Polyethylene Terephthalate Film, Sheet, and Strip From India: Final Results of the Expedited Fourth Sunset Review of the Countervailing Duty Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02557/polyethylene-terephthalate-film-sheet-and-strip-from-india-final-results-of-the-expedited-fourth
+
+The U.S. Department of Commerce (Commerce) finds that revocation of the countervailing duty (CVD) order on polyethylene terephthalate film, sheet, and strip (PET film) from India would be likely to lead to continuation or recurrence of countervailable subsidies at the levels indicated in the "Final Results of Sunset Review" section of this notice.
+
+## Aerial Lifts Standard; Extension of the Office of Management and Budget's (OMB) Approval of Information Collection (Paperwork) Requirements
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02546/aerial-lifts-standard-extension-of-the-office-of-management-and-budgets-omb-approval-of-information
+
+OSHA solicits public comments concerning the proposal to extend the Office of Management and Budget's (OMB) approval of the information collection requirements specified in the Aerial Lifts Standard.
+
+## Information Collections Being Reviewed by the Federal Communications Commission
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02545/information-collections-being-reviewed-by-the-federal-communications-commission
+
+As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act of 1995 (PRA), the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of…
+
+## FM Approvals LLC: Application for Expansion of Recognition and Proposed Modification to the NRTL Program's List of Appropriate Test Standards
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02541/fm-approvals-llc-application-for-expansion-of-recognition-and-proposed-modification-to-the-nrtl
+
+In this notice, OSHA announces the application of FM Approvals LLC for expansion of recognition as a Nationally Recognized Testing Laboratory (NRTL) and presents the agency's preliminary finding to grant the application. Additionally, OSHA proposes to add one test standard to the NRTL Program's list of appropriate test standards.
+
+## Electronic Export Manifest for Vessel Cargo
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02662/electronic-export-manifest-for-vessel-cargo
+
+U.S. Customs and Border Protection (CBP) proposes to amend its regulations to require the advance submission of electronic export manifest (EEM) information to CBP for cargo transported by vessel departing the United States. The proposed rule identifies the parties that would be eligible to transmit vessel EEM information and their responsibilities, and the time frames for tra…
+
 ## New Webinar Alert!
 - Source: CDIA
-- Category: CDIA
+- Category: Compliance Watch
 - Published: 2026-02-09T15:05:47Z
 - URL: https://www.cdiaonline.org/events/2026/02/09/new-webinar-alert/
 
@@ -14076,6 +18194,314 @@ IR-2026-22, Feb. 9, 2026 — The Internal Revenue Service today announced a new 
 - Category: Payments
 - Published: 2026-02-09T00:00:00Z
 - URL: https://www.nacha.org/news/nacha-announces-board-directors-2026
+
+## Amendment of United States Area Navigation Route T-388 in the Vicinity of Kodiak, Alaska.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02564/amendment-of-united-states-area-navigation-route-t-388-in-the-vicinity-of-kodiak-alaska
+
+This action proposes to amend United States Area Navigation Route (RNAV) T-388 in the vicinity of Kodiak, Alaska. The FAA is proposing this action to increase the route structure connectivity in Alaska.
+
+## National Organic Program: 2026 Sunset Review and Substance Renewals
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02548/national-organic-program-2026-sunset-review-and-substance-renewals
+
+This document announces the renewal of 56 substances listed on the National List of Allowed and Prohibited Substances within the U.S. Department of Agriculture's organic regulations. This document reflects the outcome of the 2026 sunset review processes and addresses recommendations submitted to the Secretary of Agriculture, through the USDA's Agricultural Marketing Service, b…
+
+## Meeting of the Regional Energy Resource Council
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02540/meeting-of-the-regional-energy-resource-council
+
+The TVA Regional Energy Resource Council (RERC) will hold a meeting on February 18, to kickoff the 7th term of the RERC with a member orientation and to receive an update on TVA's Integrated Resource Plan (IRP). The IRP provides strategic direction on how TVA will continue to provide low-cost, reliable, and resilient electricity to the 10 million residents of the Valley region.
+
+## Agency Information Collection Activities: Request for Comments for a New Information Collection
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02539/agency-information-collection-activities-request-for-comments-for-a-new-information-collection
+
+The FHWA invites public comments about our intention to request the Office of Management and Budget's (OMB) approval for a new information collection, which is summarized below under Supplementary Information. We are required to publish this notice in the Federal Register by the Paperwork Reduction Act of 1995.
+
+## Kitchen Appliance Shelving and Racks From China; Scheduling of Expedited Five-Year Reviews
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02538/kitchen-appliance-shelving-and-racks-from-china-scheduling-of-expedited-five-year-reviews
+
+The Commission hereby gives notice of the scheduling of expedited reviews pursuant to the Tariff Act of 1930 ("the Act") to determine whether revocation of the antidumping and countervailing duty orders on kitchen appliance shelving and racks from China would be likely to lead to continuation or recurrence of material injury within a reasonably foreseeable time.
+
+## Division of Longshore and Harbor Workers' Compensation Guidance for Insurance Carrier Security Deposit Requirements
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02537/division-of-longshore-and-harbor-workers-compensation-guidance-for-insurance-carrier-security
+
+The Office of Workers' Compensation Program is issuing this guidance to clarify the securitization requirements for insurance carriers authorized under the Longshore and Harbor Workers' Compensation Act (LHWCA) and its extensions. This guidance establishes a rubric which allows OWCP to adjust the insurance carriers' obligations based on their fiscal stability and performance w…
+
+## Sunshine Act Meetings
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02535/sunshine-act-meetings
+
+## Parts and Accessories Necessary for Safe Operation; Application for an Exemption From Grote Industries, LLC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02522/parts-and-accessories-necessary-for-safe-operation-application-for-an-exemption-from-grote
+
+FMCSA requests public comment on an application from Grote Industries, LLC (Grote) for an exemption from the requirement that exterior lighting devices on commercial motor vehicles (CMVs) be steady-burning. The exemption would allow motor carriers to operate CMVs equipped with auxiliary rear or side lamps that flash or strobe when controlled by Grote's Rear-End Collision Warni…
+
+## Agency Information Collection Activities Under OMB Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02513/agency-information-collection-activities-under-omb-review
+
+In compliance with the Paperwork Reduction Act of 1995 ("PRA"), this notice announces that the Information Collection Request ("ICR") abstracted below has been forwarded to the Office of Information and Regulatory Affairs ("OIRA"), of the Office of Management and Budget ("OMB"), for review and comment. The ICR describes the nature of the information collection and its expected…
+
+## New Postal Products
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02512/new-postal-products
+
+The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps.
+
+## Agency Information Collection Activities: Notice of Intent To Extend Collection 3038-0101, Registration of Foreign Boards of Trade
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02511/agency-information-collection-activities-notice-of-intent-to-extend-collection-3038-0101
+
+The Commodity Futures Trading Commission (Commission or CFTC) is announcing an opportunity for public comment on the proposed renewal of a collection of certain information by the agency. Under the Paperwork Reduction Act (PRA), Federal agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including proposed extensi…
+
+## Information Collections Being Reviewed by the Federal Communications Commission Under Delegated Authority
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02509/information-collections-being-reviewed-by-the-federal-communications-commission-under-delegated
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## Notice of Intent of Waiver With Respect to Land; Extension of Comment Period Indianapolis Downtown Heliport, Indianapolis, IN
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02508/notice-of-intent-of-waiver-with-respect-to-land-extension-of-comment-period-indianapolis-downtown
+
+On January 13, 2026, the Federal Aviation Administration (FAA) published a notice seeking further public comment on a proposal to permanently close the Indianapolis Downtown Heliport and change 5.36 acres of land from aeronautical use to non-aeronautical use and to authorize the sale of all heliport property located at the Indianapolis Downtown Heliport (8A4), Indianapolis, In…
+
+## Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02507/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## Information Collection Being Submitted for Review and Approval to Office of Management and Budget
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02506/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget
+
+As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or the Commission) invites the general public and other Federal Agencies to take this opportunity to comment on the following information collection. Pursuant to the Small Business Paperwork Relief Act of 2002, the F…
+
+## Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02504/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## NHTSA Automated Vehicle Safety Public Meeting: March 2026
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02503/nhtsa-automated-vehicle-safety-public-meeting-march-2026
+
+The National Highway Traffic Safety Administration (NHTSA) will hold a public meeting on March 10, 2026. The event will provide updates and insights into ongoing vehicle automation activities across NHTSA. The meeting will be held in-person and will feature keynote addresses from the DOT leadership and industry executive panel discussions on key Automated Driving Systems (ADS)…
+
+## Silicon Metal From Norway: Preliminary Affirmative Determination of Sales at Less Than Fair Value, Postponement of Final Determination, and Extension of Provisional Measures
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02500/silicon-metal-from-norway-preliminary-affirmative-determination-of-sales-at-less-than-fair-value
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that silicon metal from Norway is being, or is likely to be, sold in the United States at less than fair value (LTFV). The period of investigation (POI) is April 1, 2024, through March 31, 2025. Interested parties are invited to comment on this preliminary determination.
+
+## Silicon Metal From Australia: Preliminary Affirmative Determination of Sales at Less Than Fair Value, Postponement of Final Determination, and Extension of Provisional Measures
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02499/silicon-metal-from-australia-preliminary-affirmative-determination-of-sales-at-less-than-fair-value
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that silicon metal from Australia is being, or is likely to be, sold in the United States at less than fair value (LTFV). The period of investigation (POI) is April 1, 2024, through March 31, 2025. Interested parties are invited to comment on this preliminary determination.
+
+## Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02495/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## Float Glass Products From the People's Republic of China: Final Affirmative Countervailing Duty Determination
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02493/float-glass-products-from-the-peoples-republic-of-china-final-affirmative-countervailing-duty
+
+The U.S. Department of Commerce (Commerce) determines that countervailable subsidies are being provided to producers and exporters of float glass products (float glass) from the People's Republic of China (China). The period of investigation is January 1, 2023, through December 31, 2023.
+
+## Float Glass Products From the People's Republic of China: Final Affirmative Determination of Sales at Less Than Fair Value
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02492/float-glass-products-from-the-peoples-republic-of-china-final-affirmative-determination-of-sales-at
+
+The U.S. Department of Commerce (Commerce) determines that float glass products (float glass) from the People's Republic of China (China) are being, or are likely to be, sold in the United States at less than fair value (LTFV). The period of investigation is April 1, 2024, through September 30, 2024.
+
+## Float Glass Products From Malaysia: Final Affirmative Countervailing Duty Determination
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02491/float-glass-products-from-malaysia-final-affirmative-countervailing-duty-determination
+
+The U.S. Department of Commerce (Commerce) determines that countervailable subsidies are being provided to producers and exporters of float glass products (float glass) from Malaysia. The period of investigation is January 1, 2023, through December 31, 2023.
+
+## Float Glass Products From Malaysia: Final Affirmative Determination of Sales at Less Than Fair Value and Final Affirmative Determination of Critical Circumstances, in Part
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02490/float-glass-products-from-malaysia-final-affirmative-determination-of-sales-at-less-than-fair-value
+
+The U.S. Department of Commerce (Commerce) determines that float glass products from Malaysia are being, or are likely to be, sold in the United States at less than fair value (LTFV). The period of investigation is October 1, 2023, through September 30, 2024.
+
+## Petition for Exemption; Summary of Petition Received; Operation Airdrop, Inc.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02488/petition-for-exemption-summary-of-petition-received-operation-airdrop-inc
+
+This notice contains a summary of a petition seeking relief from specified requirements of Federal Aviation Regulations. The purpose of this notice is to improve the public's awareness of, and participation in, the FAA's exemption process. Neither publication of this notice nor the inclusion nor omission of information in the summary is intended to affect the legal status of t…
+
+## Information Collections Being Reviewed by the Federal Communications Commission
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02487/information-collections-being-reviewed-by-the-federal-communications-commission
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## Certain Frozen Warmwater Shrimp From India: Final Results of Antidumping Duty Administrative Review; 2023-2024
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02486/certain-frozen-warmwater-shrimp-from-india-final-results-of-antidumping-duty-administrative-review
+
+The U.S. Department of Commerce (Commerce) determines that producers/exporters subject to this administrative review made sales of subject merchandise at less than normal value during the period of review (POR), February 1, 2023, through January 31, 2024.
+
+## United States et al. v. RealPage, Inc.et al.; Response of the United States to Public Comments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02483/united-states-et-al-v-realpage-incet-al-response-of-the-united-states-to-public-comments
+
+## Electronic Logging Device Requirements: Federation of Professional Truckers; Application for Exemption
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02480/electronic-logging-device-requirements-federation-of-professional-truckers-application-for-exemption
+
+FMCSA requests public comment on the Federation of Professional Truckers' (FOPT) application for an exemption from the electronic logging device (ELD) requirements. FOPT requests an exemption to allow professional drivers the option to record their records of duty status (RODS) manually, instead of using an ELD.
+
+## Pipeline Safety: Request for Special Permit
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02476/pipeline-safety-request-for-special-permit
+
+PHMSA is publishing this notice to solicit public comments on a request for special permit received from Rockies Express Pipeline, LLC (REX). The special permit request is seeking relief from compliance with certain requirements in the Federal pipeline safety regulations and to supersede and replace two existing waivers, Docket No. 2006- 23998 and Docket No. 2022-0044. At the…
+
+## Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Fees Schedule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02474/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a
+
+## Proposed Revision of Information Collection; Workforce Recruitment Program (WRP)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02471/proposed-revision-of-information-collection-workforce-recruitment-program-wrp
+
+The Department of Labor, as part of its continuing effort to reduce paperwork and respondent burden, conducts a pre-clearance request for comment to provide the general public and Federal agencies with an opportunity to comment on proposed collections of information in accordance with the Paperwork Reduction Act of 1995. This request helps to ensure that: requested data can be…
+
+## Agency Information Collection Activities: Requests for Comments; Clearance of a Renewed Approval of Information Collection: Small Unmanned Aircraft Registration System; Correction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02469/agency-information-collection-activities-requests-for-comments-clearance-of-a-renewed-approval-of
+
+On January 29, 2026, FAA published a notice and request for comments titled "Agency Information Collection Activities: Requests for Comments; Clearance of a Renewed Approval of Information Collection: Small Unmanned Aircraft Registration System". That notice and request for comments incorrectly stated the docket number. This notice corrects the docket number.
+
+## MSD Investment Corp. and BDT & MSD BDC Management, LLC
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02468/msd-investment-corp-and-bdt-and-msd-bdc-management-llc
+
+## Minimum Wage for Federal Contracts Covered by Executive Order 13658, Notice of Rate Change in Effect
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02466/minimum-wage-for-federal-contracts-covered-by-executive-order-13658-notice-of-rate-change-in-effect
+
+The Wage and Hour Division (WHD) of the U.S. Department of Labor (the Department) is issuing this notice to announce the applicable minimum wage rate for workers performing work on or in connection with federal contracts covered by Executive Order 13658, Establishing a Minimum Wage for Contractors (the Executive Order or the order), beginning May 11, 2026. The rates announced…
+
+## Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; High-Frequency Surveys Program/Household Trends and Outlook Pulse Survey (HTOPS)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02459/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for
+
+## Safety Zone; Ice Accumulations; Ohio River, Pittsburgh, PA
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02567/safety-zone-ice-accumulations-ohio-river-pittsburgh-pa
+
+The Coast Guard is establishing a temporary safety zone on the Ohio River within the Captain of the Port Pittsburgh Zone, which includes mile marker 13 to mile marker 32, mile marker 65 to mile marker 85, and mile marker 109 to mile marker 127 on the Ohio River. This safety zone is needed to protect persons, property, and vessels transiting the area from the hazards associated…
+
+## Mammoth Cave National Park; Bicycling and Horses
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02510/mammoth-cave-national-park-bicycling-and-horses
+
+The National Park Service (NPS) proposes to amend the special regulations for Mammoth Cave National Park to allow bicycle use on approximately 37 miles of multi-use trails throughout the park. The proposed rule also would allow visitors to ride horses on the 5.4-mile Houchin Ferry North/Ollie Road.
+
+## Center for Scientific Review; Notice of Closed Meetings
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02502/center-for-scientific-review-notice-of-closed-meetings
+
+## Air Plan Approval; Connecticut; Revised Format for Materials Incorporated by Reference
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/09/2026-02477/air-plan-approval-connecticut-revised-format-for-materials-incorporated-by-reference
+
+The Environmental Protection Agency (EPA) is revising the format for materials that are made part of the Connecticut State Implementation Plan (SIP) through the process of incorporation by reference (IBR). The regulations and materials affected by this format change have all been previously submitted by Connecticut and approved by EPA as part of the SIP.
 
 ## Modifying Duties to Address Threats to the United States by the Government of the Russian Federation
 - Source: White House
@@ -14147,6 +18573,14 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-02-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260206
 
+## Comptroller Discusses Importance of Financial Education
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.youtube.com/watch?v=rNgiFKbwGFw&t=4s
+
+Comptroller Jonathan V. Gould discussed the importance of financial education at the Financial Literacy and Education Commission on Feb. 6, 2026. Read his fu...
+
 ## Fair Lending, Fair Housing, and Equitable Housing Finance Plans
 - Source: Federal Register
 - Category: Federal Register
@@ -14155,6 +18589,538 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 The Federal Housing Finance Agency ("FHFA" or the "Agency") is issuing this final rule to repeal the Fair Lending, Fair Housing, and Equitable Housing Finance Plans regulation ("part 1293"). After considering public comments received in response to the proposed rule FHFA published on July 28, 2025, this final rule adopts the proposed rule without change.
 
+## Agency Information Collection Activities: Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02456/agency-information-collection-activities-comment-request
+
+In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) is requesting to revise an existing information collection titled "Report of Terms of Credit Card Plans (Form FR 2572) and Consumer and College Credit Card Agreements" approved under OMB Control Number 3170-0001.
+
+## Notice of Termination of Receiverships
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02364/notice-of-termination-of-receiverships
+
+## Update to Notice of Financial Institutions for Which the Federal Deposit Insurance Corporation Has Been Appointed Either Receiver, Liquidator, or Manager
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02363/update-to-notice-of-financial-institutions-for-which-the-federal-deposit-insurance-corporation-has
+
+Notice is hereby given that the Federal Deposit Insurance Corporation (Corporation) has been appointed the sole receiver for the following financial institution effective as of the Date Closed as indicated in the listing.
+
+## Sevita and BrightSpring; Analysis of Proposed Agreement Containing Consent Orders To Aid Public Comment
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02458/sevita-and-brightspring-analysis-of-proposed-agreement-containing-consent-orders-to-aid-public
+
+The consent agreement in this matter settles alleged violations of Federal law prohibiting unfair methods of competition. The attached Analysis of Proposed Agreement Containing Consent Orders to Aid Public Comment describes both the allegations in the complaint and the terms of the consent order--embodied in the consent agreement-- that would settle these allegations.
+
+## Agency Information Collection Activities; Proposed Collection; Comment Request; Extension; Correction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02457/agency-information-collection-activities-proposed-collection-comment-request-extension-correction
+
+The Federal Trade Commission ("Commission") published a document in the Federal Register of January 23, 2026, concerning its proposal to extend for an additional three years the Office of Management and Budget ("OMB") clearance for its shared enforcement authority with the Consumer Financial Protection Bureau ("CFPB") for information collection requirements contained in the CF…
+
+## Board of Directors Meeting
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02455/board-of-directors-meeting
+
+Notice of the forthcoming regular meeting of the Board of Directors of the Farm Credit System Insurance Corporation (FCSIC), is hereby given in accordance with the provisions of the Bylaws of the FCSIC.
+
+## Event Contracts; Withdrawal of Proposed Regulatory Action
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02454/event-contracts-withdrawal-of-proposed-regulatory-action
+
+The Commodity Futures Trading Commission ("Commission" or "CFTC") is formally withdrawing a notice of proposed rulemaking published on June 10, 2024, titled "Event Contracts." The Commission does not intend to issue final rules with respect to this proposal. If the Commission decides to pursue future regulatory action in this area, it will issue new proposed rules.
+
+## Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Annual Business Survey
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02453/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for
+
+## Materials Due To Be Submitted During the Federal Government Shutdown
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02452/materials-due-to-be-submitted-during-the-federal-government-shutdown
+
+The Board provides notice that any material due to be submitted to the Board during the Federal government shutdown period (including comments on environmental documents) will now be due no later than February 6, 2026, unless otherwise ordered by the Board. Filings (including recordations) that were submitted during the shutdown will be considered filed on February 4, 2026, pr…
+
+## Establishment of United States Area Navigation (RNAV) Routes Q-190 and T-497, and Amendment of Domestic Very High Frequency Omnidirectional Range (VOR) Federal Airways V-1, V-70, and V-194; Eastern United States; Correc…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02450/establishment-of-united-states-area-navigation-rnav-routes-q-190-and-t-497-and-amendment-of-domestic
+
+This action corrects a final rule the FAA published in the Federal Register on January 2, 2026, establishing United States Area Navigation (RNAV) Routes Q-190 and T-497, and amending domestic Very High Frequency Omnidirectional Range (VOR) Federal Airways V-1, V-70, and V-194, in the eastern United States. This action corrects the route description of RNAV Route Q-190 by addin…
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Labor Standards for Federal Service Contracts
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02448/agency-information-collection-activities-submission-for-omb-review-comment-request-labor-standards
+
+The Department of Labor (DOL) is submitting this Wage and Hour Division (WHD)-sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited.
+
+## Administrative Declaration of a Disaster for the State of California
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02443/administrative-declaration-of-a-disaster-for-the-state-of-california
+
+This is notice of an Administrative declaration of a disaster for the state of CALIFORNIA dated February 3, 2026. Incident: 2025 Late December Storm.
+
+## Administrative Declaration of a Disaster for the State of California
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02442/administrative-declaration-of-a-disaster-for-the-state-of-california
+
+This is notice of an Administrative declaration of a disaster for the state of CALIFORNIA dated February 3, 2026. Incident: 2026 Early January Storm, Tidal Flooding and King Tides.
+
+## New Postal Products
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02439/new-postal-products
+
+The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps.
+
+## Information Collection: Federal Excess Personal Property and Firefighter Property Program Administration
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02438/information-collection-federal-excess-personal-property-and-firefighter-property-program
+
+In accordance with the Paperwork Reduction Act of 1995, the Forest Service (Agency) is seeking comments from all interested individuals and organizations on the renewal of a currently approved information collection, Federal Excess Personal Property (FEPP) and Firefighter Property (FFP) Program Administration.
+
+## Certain Monomers and Oligomers From the Republic of Korea: Amended Preliminary Affirmative Determination of Sales at Less Than Fair Value
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02429/certain-monomers-and-oligomers-from-the-republic-of-korea-amended-preliminary-affirmative
+
+The U.S. Department of Commerce (Commerce) is amending its preliminarily affirmative determination in the less-than-fair-value (LTFV) investigation of certain monomers and oligomers (monomers and oligomers) from the Republic of Korea (Korea) to correct for significant ministerial errors. The period of investigation (POI) is January 1, 2024, through December 31, 2024.
+
+## Airworthiness Directives; The Boeing Company Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02420/airworthiness-directives-the-boeing-company-airplanes
+
+The FAA proposes to adopt a new airworthiness directive (AD) for all The Boeing Company Model 777-200, -200LR, -300, and -300ER series airplanes. This proposed AD was prompted by a report of corrosion found on a satellite communications (SATCOM) high gain antenna adapter plate. This proposed AD would require repetitive inspections for corrosion of the SATCOM high gain antenna…
+
+## Airworthiness Directives; Dassault Aviation Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02419/airworthiness-directives-dassault-aviation-airplanes
+
+The FAA proposes to supersede Airworthiness Directive (AD) 2023-18-07, which applies to certain Dassault Aviation Model MYSTERE- FALCON 20-C5, 20-D5, 20-E5, and 20-F5 airplanes. AD 2023-18-07 requires revising the existing maintenance or inspection program, as applicable, to incorporate new or more restrictive airworthiness limitations. Since the FAA issued AD 2023-18-07, the…
+
+## Airworthiness Directives; Dassault Aviation Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02418/airworthiness-directives-dassault-aviation-airplanes
+
+The FAA proposes to supersede Airworthiness Directive (AD) 2023-20-05, which applies to certain Dassault Aviation Model MYSTERE- FALCON 20-C5, 20-D5, 20-E5, and 20-F5 airplanes. AD 2023-20-05 requires revising the existing maintenance or inspection program, as applicable, to incorporate new or more restrictive airworthiness limitations. Since the FAA issued AD 2023-20-05, the…
+
+## Airworthiness Directives; Dassault Aviation Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02417/airworthiness-directives-dassault-aviation-airplanes
+
+The FAA proposes to supersede Airworthiness Directive (AD) 2023-22-05, which applies to certain Dassault Aviation Model FAN JET FALCON and FAN JET FALCON SERIES C, D, E, F, and G airplanes. AD 2023- 22-05 requires revising the existing maintenance or inspection program, as applicable, to incorporate new or more restrictive airworthiness limitations. Since the FAA issued AD 202…
+
+## Airworthiness Directives; Dassault Aviation Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02416/airworthiness-directives-dassault-aviation-airplanes
+
+The FAA proposes to supersede Airworthiness Directive (AD) 2023-22-10, which applies to certain Dassault Aviation Model FAN JET FALCON, FAN JET FALCON SERIES C, D, E, F, and G airplanes. AD 2023-22- 10 requires revising the existing maintenance or inspection program, as applicable, to incorporate new or more restrictive airworthiness limitations. Since the FAA issued AD 2023-2…
+
+## Airworthiness Directives; Textron Aviation, Inc. (Type Certificate Previously Held by Cessna Aircraft Company) Airplanes
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02415/airworthiness-directives-textron-aviation-inc-type-certificate-previously-held-by-cessna-aircraft
+
+The FAA is adopting a new airworthiness directive (AD) for all Textron Aviation, Inc., Model 525B airplanes. This AD was prompted by the manufacturer's revision of the aircraft maintenance manual (AMM) to introduce more restrictive inspection intervals. This AD requires revising the Airworthiness Limitations Section (ALS) of the existing AMM or instructions for continued airwo…
+
+## Acetone From Belgium, Singapore, the Republic of South Africa, the Republic of South Korea, and Spain: Continuation of Antidumping Duty Orders
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02410/acetone-from-belgium-singapore-the-republic-of-south-africa-the-republic-of-south-korea-and-spain
+
+As a result of the determinations by the U.S. Department of Commerce (Commerce) and the U.S. International Trade Commission (ITC) that revocation of the antidumping duty (AD) orders on acetone from Belgium, Singapore, the Republic of South Africa (South Africa), the Republic of South Korea (Korea), and Spain would likely lead to the continuation or recurrence of dumping and ma…
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Extension: Rule 3a71-3(d)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02409/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Extension: Rules 13n-4(b)(9), (b)(10) and (d)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02408/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rules
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Extension: Rule 17Ad-10
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02407/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule
+
+## Agency Information Collection Activities; Submission for OMB Review; Comment Request; Extension: Rule 22c-1
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02406/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule
+
+## Float Glass Products From China and Malaysia; Cancellation of Hearing for Antidumping and Countervailing Duty Investigations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02404/float-glass-products-from-china-and-malaysia-cancellation-of-hearing-for-antidumping-and
+
+## Fiberglass Door Panels From China; Scheduling of the Final Phase of Countervailing Duty and Antidumping Duty Investigations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02403/fiberglass-door-panels-from-china-scheduling-of-the-final-phase-of-countervailing-duty-and
+
+The Commission hereby gives notice of the scheduling of the final phase of antidumping and countervailing duty investigation Nos. 701-TA-758 and 731-TA-1739 (Final) pursuant to the Tariff Act of 1930 to determine whether an industry in the United States is materially injured or threatened with material injury, or the establishment of an industry in the United States is materia…
+
+## Project-Level Predecisional Administrative Review Process
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02392/project-level-predecisional-administrative-review-process
+
+The U.S. Department of Agriculture's Forest Service is proposing to amend its Project-Level Predecisional Administrative Review Process regulations. These regulations establish the process by which the public may file objections seeking administrative review for projects and activities implementing land management plans on national forests. The Forest Service is amending these…
+
+## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02391/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies
+
+## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02390/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; COBENFY
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02388/determination-of-regulatory-review-period-for-purposes-of-patent-extension-cobenfy
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for COBENFY and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of applications to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which…
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; BEQVEZ
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02387/determination-of-regulatory-review-period-for-purposes-of-patent-extension-beqvez
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for BEQVEZ and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of an application to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which…
+
+## Agency Information Collection Activities; Proposed Collection; Comment Request; Expedited Programs for Serious Conditions-Accelerated Approval of Drugs and Biologics
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02386/agency-information-collection-activities-proposed-collection-comment-request-expedited-programs-for
+
+The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an exis…
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; ALFAPUMP
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02384/determination-of-regulatory-review-period-for-purposes-of-patent-extension-alfapump
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for ALFAPUMP and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of an application to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent whi…
+
+## Determination of Regulatory Review Period for Purposes of Patent Extension; AURORA EV-ICD
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02383/determination-of-regulatory-review-period-for-purposes-of-patent-extension-aurora-ev-icd
+
+The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for AURORA EV-ICD and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of applications to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent…
+
+## Collated Steel Staples From the People's Republic of China: Continuation of Antidumping Duty Order and Countervailing Duty Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02382/collated-steel-staples-from-the-peoples-republic-of-china-continuation-of-antidumping-duty-order-and
+
+As a result of the determinations by the U.S. Department of Commerce (Commerce) and the U.S. International Trade Commission (ITC) that revocation of the antidumping duty (AD) order and the countervailing duty (CVD) order on collated steel staples from the People's Republic of China would likely lead to the continuation or recurrence of dumping, countervailable subsidies, and m…
+
+## Medical Devices; Exemptions From Premarket Notification: Class II Devices; Request for Comments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02377/medical-devices-exemptions-from-premarket-notification-class-ii-devices-request-for-comments
+
+The Food and Drug Administration (FDA) has identified a list of class II devices that, when finalized, will be exempt from premarket notification requirements, subject to certain limitations. FDA is publishing this notice and requesting public comment in accordance with procedures established by the 21st Century Cures Act. This notice does not represent FDA's final determinati…
+
+## Foreign-Trade Zone (FTZ) 110, Notification of Proposed Production Activity; Intel Foundry Corporation; (Semiconductor Products); Rio Rancho and Albuquerque, New Mexico
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02376/foreign-trade-zone-ftz-110-notification-of-proposed-production-activity-intel-foundry-corporation
+
+## Norwest Strategic Capital, L.P.; Surrender of License of Small Business Investment Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02374/norwest-strategic-capital-lp-surrender-of-license-of-small-business-investment-company
+
+## Kiwifruit Grown in California and Imported Kiwifruit; Modification of Handling Regulations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02372/kiwifruit-grown-in-california-and-imported-kiwifruit-modification-of-handling-regulations
+
+This proposed rule would implement a recommendation from the Kiwifruit Administrative Committee (Committee) to update the handling regulations for kiwifruit grown in California. Consistent with the Committee's proposal, this rulemaking seeks to amend the Size Designation and Size Variation chart located in the pack requirements of the Marketing Order and relax the minimum size…
+
+## Qualification of Drivers; Commercial Vehicle Safety Alliance; Application for Exemption
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02369/qualification-of-drivers-commercial-vehicle-safety-alliance-application-for-exemption
+
+FMCSA requests public comment on the Commercial Vehicle Safety Alliance's (CVSA) request for guidance, which FMCSA is treating as an application for exemption, to allow motor carriers and drivers to rely on a paper copy of the medical examiner's certificate (MEC) as proof of the driver's medical certification until the Medical Examiner's Certification Integration (NRII) final…
+
+## Application for Employment: CloudTrucks, LLC., Application for Exemption
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02368/application-for-employment-cloudtrucks-llc-application-for-exemption
+
+FMCSA announces its decision to deny CloudTrucks, LLC's (CloudTrucks) request for an exemption from the requirement to collect the following information from prospective drivers: list of employers' names, addresses, and dates of employment, reason for leaving, whether the driver was subject to the Federal Motor Carrier Safety Regulations (FMCSRs) while employed by the previous…
+
+## Hours of Service of Drivers: Colorado Huntsman Transport, Inc; Application for Exemption
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02367/hours-of-service-of-drivers-colorado-huntsman-transport-inc-application-for-exemption
+
+FMCSA announces its decision to deny a request from Colorado Huntsman Transport, Inc. d.b.a. Huntsman Transport, USDOT 4050798 ("Huntsman Transport"), for an exemption from the commercial motor vehicle (CMV) marking requirements and provisions of the hours-of- service (HOS) regulations. FMCSA analyzed the exemption application and public comment and has determined that the exe…
+
+## Airworthiness Directives; Rolls-Royce Deutschland Ltd & Co KG Engines
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02366/airworthiness-directives-rolls-royce-deutschland-ltd-and-co-kg-engines
+
+The FAA proposes to supersede Airworthiness Directive (AD) 2023-26-04, which applies to all Rolls-Royce Deutschland Ltd & Co KG (RRD) Model Trent 1000-AE3, Trent 1000-CE3, Trent 1000-D3, Trent 1000- G3, Trent 1000-H3, Trent 1000-J3, Trent 1000-K3, Trent 1000-L3, Trent 1000-M3, Trent 1000-N3, Trent 1000-P3, Trent 1000-Q3, and Trent 1000-R3 engines. AD 2023-26-04 requires initia…
+
+## Foreign-Trade Zone (FTZ) 204, Notification of Proposed Production Activity; Eastman Chemical Company; (Cellulose Acetate Fibers); Kingsport, Tennessee
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02355/foreign-trade-zone-ftz-204-notification-of-proposed-production-activity-eastman-chemical-company
+
+## 2026 Rate Changes for the Basetime, Overtime, Holiday, Laboratory Services, and Export Application Fees
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02352/2026-rate-changes-for-the-basetime-overtime-holiday-laboratory-services-and-export-application-fees
+
+FSIS is announcing the 2026 rates it will charge meat, poultry, and egg products establishments, and importers and exporters for providing voluntary, overtime, and holiday inspection and identification, certification, laboratory services, and export application fees. Most rates for 2026 will be the same as for 2025. FSIS is decreasing the rate for laboratory services.
+
+## Matthew Teltser: Final Debarment Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02349/matthew-teltser-final-debarment-order
+
+The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) permanently debarring Matthew Teltser from providing services in any capacity to a person that has an approved or pending drug product application. FDA bases this order on a finding that Matthew Teltser was convicted of a felony under Federal law f…
+
+## Procurement List; Additions and Deletions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02348/procurement-list-additions-and-deletions
+
+This action adds service(s) to the Procurement List that will be furnished by nonprofit agencies employing persons who are blind or have other severe disabilities, and deletes product(s) from the Procurement List previously furnished by such agencies.
+
+## Procurement List; Proposed Additions and Deletions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02347/procurement-list-proposed-additions-and-deletions
+
+The Committee is proposing to add products to the Procurement List that will be furnished by nonprofit agencies employing persons who are blind or have other severe disabilities, and delete product(s) previously furnished by such agencies.
+
+## Oleoresin Paprika From India: Preliminary Affirmative Countervailing Duty Determination, Preliminary Affirmative Critical Circumstances Determination, In Part, and Alignment of Final Determination With Final Antidumping…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02345/oleoresin-paprika-from-india-preliminary-affirmative-countervailing-duty-determination-preliminary
+
+The U.S. Department of Commerce (Commerce) preliminarily determines that countervailable subsidies are being provided to producers and exporters of oleoresin paprika from India. The period of investigation is April 1, 2024, through March 31, 2025. Interested parties are invited to comment on this preliminary determination.
+
+## Paul Zachary Lamberty: Final Debarment Order
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02337/paul-zachary-lamberty-final-debarment-order
+
+The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) debarring Paul Zachary Lamberty for a period of 10 years from importing or offering for import any drug into the United States. FDA bases this order on a finding that Mr. Lamberty was convicted of two felonies under Federal law; one felony count fo…
+
+## ICE Clear Credit LLC; Order Granting an Application for Registration as a Clearing Agency Under Section 17A of the Securities Exchange Act of 1934
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02333/ice-clear-credit-llc-order-granting-an-application-for-registration-as-a-clearing-agency-under
+
+## Buy America Waiver Notification
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02332/buy-america-waiver-notification
+
+This notice provides information regarding FHWA's finding that it is appropriate to grant a Buy America waiver to the Port of Los Angeles for procurement of fully locked coil carbon steel cables and their respective components, galvanized cylindrical sockets, galvanized spherical nuts, and galvanized fatigue resistant adjustable open spelter socket, with non-domestic iron and…
+
+## New Animal Drugs; Approval of New Animal Drug Applications; Withdrawal of Approval of New Animal Drug Application; Change of Sponsor; Change of Sponsor Address
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02331/new-animal-drugs-approval-of-new-animal-drug-applications-withdrawal-of-approval-of-new-animal-drug
+
+The Food and Drug Administration (FDA or we) is amending the animal drug regulations to reflect application-related actions for new animal drug applications (NADAs), abbreviated new animal drug applications (ANADAs), and conditionally approved new animal drug applications (CNADAs) during July, August, and September 2025. The animal drug regulations are also being amended to im…
+
+## E22 General Considerations for Patient Preference Studies; International Council for Harmonisation; Draft Guidance for Industry; Availability
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02324/e22-general-considerations-for-patient-preference-studies-international-council-for-harmonisation
+
+The Food and Drug Administration (FDA, Agency, or we) is announcing the availability of a draft guidance for industry entitled "E22 General Considerations for Patient Preference Studies." The draft guidance was prepared under the auspices of the International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use (ICH). When finalized, this guida…
+
+## Amendment of Class E Airspace; Benton Harbor, MI
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02321/amendment-of-class-e-airspace-benton-harbor-mi
+
+This action amends the Class E airspace at Benton Harbor, MI. The name and geographic coordinates of the Southwest Michigan Regional Airport, Benton Harbor, MI, are also being updated to coincide with the FAA's aeronautical database. This action is the result of an airspace review conducted due to the decommissioning of the Keeler very high frequency omnidirectional range (VOR…
+
+## Establishment and Amendment of Class E Airspace; South Bend, IN
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02320/establishment-and-amendment-of-class-e-airspace-south-bend-in
+
+This action establishes and amends the Class E airspace at South Bend, IN. The name and geographic coordinates of the South Bend International Airport, South Bend, IN, are also being updated to coincide with the FAA's aeronautical database. This action is the result of airspace reviews conducted due to the decommissioning of the Keeler very high frequency omnidirectional range…
+
+## Amendment of Class E Airspace; Beeville, TX
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02319/amendment-of-class-e-airspace-beeville-tx
+
+This action amends the Class E airspace at Beeville, TX. This action is the result of an airspace review conducted due to the decommissioning of the Three Rivers very high frequency omnidirectional range (VOR) as part of the VOR Minimum Operational Network (MON) Program. This action brings the airspace into compliance with FAA orders and supports instrument flight rule (IFR) p…
+
+## Notice of Request To Release Property at the Asheville Regional Airport, Fletcher, NC (AVL)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02316/notice-of-request-to-release-property-at-the-asheville-regional-airport-fletcher-nc-avl
+
+The Federal Aviation Administration is requesting public comment on a request by The Greater Asheville Regional Airport Authority on behalf of the Asheville Regional Airport, to release 84.08 acres of land identified on the current "Exhibit A" as Tracts C1, C2, and C3 at the Asheville Regional Airport (AVL) from federal obligations.
+
+## Listing of Color Additives Exempt From Certification; Spirulina Extract
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02314/listing-of-color-additives-exempt-from-certification-spirulina-extract
+
+The Food and Drug Administration (FDA or we) is amending the color additive regulations to provide for the expanded use of spirulina (Arthrospira platensis) extract as a color additive in human foods generally (except for infant formula, certain foods subject to regulation by the U.S. Department of Agriculture, and foods for which standards of identity have been issued under s…
+
+## Listing of Color Additives Exempt From Certification; Beetroot Red
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02313/listing-of-color-additives-exempt-from-certification-beetroot-red
+
+The Food and Drug Administration (FDA or we) is amending the color additive regulations to provide for the safe use of beetroot red for the coloring of human foods generally, at levels consistent with current good manufacturing practice, except in products under the jurisdiction of the United States Department of Agriculture (USDA), infant formula, or foods for which standards…
+
+## Sunshine Act Meetings
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02312/sunshine-act-meetings
+
+## Medical Billing for Healthcare Services Provided by Department of Defense Military Medical Treatment Facilities to Civilian Non-Beneficiaries
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02437/medical-billing-for-healthcare-services-provided-by-department-of-defense-military-medical-treatment
+
+As required by the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023 (NDAA-23), this rule reduces financial harm to civilians who are not covered beneficiaries of the Military Health System (MHS), and who receive healthcare services at DoD military medical treatment facilities (MTF). The rulemaking implements the MHS Modified Payment and Waiver Program (M…
+
+## Improving Performance, Accountability and Responsiveness in the Civil Service
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02375/improving-performance-accountability-and-responsiveness-in-the-civil-service
+
+The Office of Personnel Management (OPM) is issuing a rule to increase career employee accountability. Agency supervisors report great difficulty removing employees for poor performance or misconduct. The final rule authorizes agencies to move policy-influencing positions into Schedule Policy/Career. These positions will remain career jobs filled on a nonpartisan basis. Yet th…
+
+## Magnuson-Stevens Act Provisions; Fisheries Off West Coast States; Pacific Coast Groundfish Fishery; Pacific Coast Groundfish Fishery Management Plan; Fixed Gear Marking and Entanglement Risk Reduction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02370/magnuson-stevens-act-provisions-fisheries-off-west-coast-states-pacific-coast-groundfish-fishery
+
+This proposed rule would implement gear marking requirements and entanglement risk reduction measures for portions of the Pacific coast groundfish fishery. This rulemaking will consist of mandatory requirements and voluntary measures. These new requirements and voluntary measures will be established pursuant to the Magnuson-Stevens Fishery Conservation and Management Act. The…
+
+## Air Plan Revisions; California; Heavy-Duty Vehicle Inspection and Maintenance Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02350/air-plan-revisions-california-heavy-duty-vehicle-inspection-and-maintenance-program
+
+The U.S. Environmental Protection Agency (EPA) is taking final action to partially approve and partially disapprove a submission by the State of California to revise its State Implementation Plan (SIP) relating to the control of emissions from non-gasoline combustion vehicles over 14,000 pounds. The EPA's partial approval will allow the submitted Heavy-Duty Inspection and Main…
+
+## Approval and Promulgation of Air Quality Implementation Plans; Nevada; Regional Haze State Implementation Plan for the Second Implementation Period
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02344/approval-and-promulgation-of-air-quality-implementation-plans-nevada-regional-haze-state
+
+The Environmental Protection Agency (EPA) is approving portions of the regional haze state implementation plan (SIP) revisions submitted by the Nevada Division of Environmental Protection (NDEP) on August 12, 2022 ("2022 Nevada Regional Haze Plan") and on May 28, 2025 ("2025 SIP Supplement"), as satisfying applicable requirements under the Clean Air Act (CAA) and the EPA's Reg…
+
+## Safety Zone; Saginaw River, Bay City, MI
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/06/2026-02340/safety-zone-saginaw-river-bay-city-mi
+
+The Coast Guard is establishing a temporary safety zone for navigable waters on the Saginaw River during the upcoming winter months. This zone is needed to cover navigable waters of the Saginaw River within 400 yards upriver and 600 yards downriver of the Lafayette Bridge and is necessary to protect waterway users, recreational vehicles, and mariners from hazards associated wi…
+
 ## Chromium: CVE-2026-1861 Heap buffer overflow in libvpx
 - Source: Microsoft MSRC
 - Category: IS
@@ -14162,11 +19128,3 @@ The Federal Housing Finance Agency ("FHFA" or the "Agency") is issuing this fina
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1861
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
-
-## TBA to offer pilot access for tokenized deposit capabilities following Vantage Bank launch
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-02-05T16:03:30Z
-- URL: https://www.texasbankers.com/tba-to-offer-pilot-access-for-tokenized-deposit-capabilities-following-vantage-bank-launch/
-
-(AUSTIN, TEXAS) – The Texas Bankers Association (TBA) announced that it will offer TBA member banks the opportunity to explore tokenized deposit capabilities through pilot access in its Innovation Magnet program, enabled by Vantage Bank’s phased rollout of its platform. This development reflects a growing shift in how community banks can leverage on-chain infrastructure to […]…
