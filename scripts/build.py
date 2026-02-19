@@ -53,13 +53,13 @@ REQUEST_DELAY_SEC = 0.12
 PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "IRS": 70,
     "USDA Rural Development": 55,
-    "Mastercard": 120,   # ✅ increased
-    "Visa": 160,         # ✅ increased (Visa listing dates often missing)
-    "FHLB MPF": 25,      # ✅ NEW: allow some detail fetches if needed
+    "Mastercard": 120,
+    "Visa": 160,
+    "FHLB MPF": 25,
     "Fannie Mae": 35,
     "Freddie Mac": 10,
     "FIS": 25,
-    "Fiserv": 25,
+    "Fiserv": 25,       # ✅ DO NOT CHANGE (your request)
     "Jack Henry": 25,
     "Temenos": 25,
     "Mambu": 20,
@@ -74,7 +74,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "White House": 45,
     "Federal Register": 0,  # API only
     "BleepingComputer": 0,  # feed-only
-    "Microsoft MSRC": 0,  # feed-only
+    "Microsoft MSRC": 0,    # feed-only
 
     # New tiles/sources
     "CDIA": 25,
@@ -91,12 +91,11 @@ UA = "regdashboard/4.2 (+https://github.com/jasonw79118/regdashboard)"
 
 # ============================
 # CATEGORY MAPPING (for tiles)
-#   IMPORTANT: these strings must match your index.html tile keys EXACTLY.
 # ============================
 
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
-    "Treasury": "OFAC",  # Treasury press releases show under OFAC tile
+    "Treasury": "OFAC",
     "IRS": "IRS",
 
     # Payments tile
@@ -139,7 +138,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "BleepingComputer": "IS",
     "Microsoft MSRC": "IS",
 
-    # ✅ CHANGE: roll CDIA + FASB into the Compliance Watch tile (single tile)
+    # Compliance Watch tile
     "CDIA": "Compliance Watch",
     "FASB": "Compliance Watch",
     "ABA": "Compliance Watch",
@@ -320,28 +319,18 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/documents/"},
     },
 
-    # ✅ FIX: FIS DNS + allow both with and without www; allow press releases + detail pages
-    "FIS": {
-        "allow_domains": {"www.investor.fisglobal.com", "investor.fisglobal.com"},
-        "allow_path_prefixes": {"/press-releases", "/press-releases/", "/news-releases", "/news-releases/"},
-    },
-
+    "FIS": {"allow_domains": {"investor.fisglobal.com", "www.investor.fisglobal.com"}},
     "Fiserv": {"allow_domains": {"investors.fiserv.com"}},
 
-    "Jack Henry": {
-        "allow_domains": {"ir.jackhenry.com"},
-        "allow_path_prefixes": {"/press-releases", "/press-releases/", "/news-releases", "/news-releases/"},
-    },
+    # ✅ Jack Henry links are often in tables; allow both press-releases and news-releases detail pages.
+    "Jack Henry": {"allow_domains": {"ir.jackhenry.com"}},
 
-    # ✅ FIX: Temenos moved: listing is /press-releases/ and articles are typically /press_release/...
-    "Temenos": {
-        "allow_domains": {"www.temenos.com"},
-        "allow_path_prefixes": {"/press-releases", "/press-releases/", "/press_release", "/press_release/"},
-    },
-
+    "Temenos": {"allow_domains": {"www.temenos.com"}},
     "Mambu": {"allow_domains": {"mambu.com"}},
     "Finastra": {"allow_domains": {"www.finastra.com"}},
-    "TCS": {"allow_domains": {"www.tcs.com"}},
+
+    # ✅ TCS: add feedburner domains because many press releases advertise RSS via feeds2.feedburner.com
+    "TCS": {"allow_domains": {"www.tcs.com", "feeds2.feedburner.com", "feedburner.com"}},
 
     "FHLB MPF": {
         "allow_domains": {"www.fhlbmpf.com"},
@@ -545,8 +534,9 @@ def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
 
 
 # ============================
-# ✅ Mastercard 403 fallback via r.jina.ai proxy
+# ✅ Proxy helper (r.jina.ai)
 # ============================
+
 def _jina_proxy_url(url: str) -> str:
     u = url.strip()
     if u.startswith("https://"):
@@ -554,17 +544,6 @@ def _jina_proxy_url(url: str) -> str:
     if u.startswith("http://"):
         return "https://r.jina.ai/http://" + u[len("http://") :]
     return "https://r.jina.ai/http://" + u
-
-
-# ✅ NEW: FIS DNS fallback helper (only for investor.fisglobal.com)
-def _with_www_if_fis_investor(u: str) -> str:
-    try:
-        pu = urlparse(u)
-        if pu.netloc.lower() == "investor.fisglobal.com":
-            return pu._replace(netloc="www.investor.fisglobal.com").geturl()
-    except Exception:
-        pass
-    return u
 
 
 def polite_get(url: str, timeout: int = 25) -> Optional[str]:
@@ -583,11 +562,19 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         read_timeout = 40
     if "federalregister.gov" in h:
         read_timeout = 35
+    if "tcs.com" in h:
+        read_timeout = 40
 
     try:
         time.sleep(REQUEST_DELAY_SEC)
 
         headers: Dict[str, str] = {}
+
+        browser_ua = (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/122.0.0.0 Safari/537.36"
+        )
 
         if "whitehouse.gov" in h:
             headers = {
@@ -595,32 +582,33 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 "Referer": "https://www.whitehouse.gov/",
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
+                "User-Agent": browser_ua,
             }
+
         if "globenewswire.com" in h:
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Referer": "https://www.globenewswire.com/",
+                "User-Agent": browser_ua,
             }
+
         if "ofac.treasury.gov" in h:
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Referer": "https://ofac.treasury.gov/",
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
+                "User-Agent": browser_ua,
             }
+
         if "home.treasury.gov" in h:
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Referer": "https://home.treasury.gov/",
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
+                "User-Agent": browser_ua,
             }
-
-        browser_ua = (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/122.0.0.0 Safari/537.36"
-        )
 
         if h == "usa.visa.com":
             headers = {
@@ -642,6 +630,16 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 "Pragma": "no-cache",
             }
 
+        # ✅ Helps some vendor sites behave more like a browser
+        if h in {"ir.jackhenry.com", "www.tcs.com", "mambu.com", "www.finastra.com"}:
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+                "User-Agent": browser_ua,
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            }
+
         r = SESSION.get(
             url,
             headers=headers if headers else None,
@@ -649,7 +647,7 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
             allow_redirects=True,
         )
 
-        # ✅ Mastercard often 403's bot traffic; retry via proxy fetch
+        # ✅ Mastercard: known 403 -> proxy retry
         if r.status_code == 403 and h == "www.mastercard.com":
             print(f"[warn] GET 403: {url} (retrying via proxy)", flush=True)
             proxy_url = _jina_proxy_url(url)
@@ -659,6 +657,30 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                     proxy_url,
                     headers={"User-Agent": browser_ua, "Accept": "text/html,application/xhtml+xml,*/*"},
                     timeout=(10, max(read_timeout, 40)),
+                    allow_redirects=True,
+                )
+                if pr.status_code < 400:
+                    txtp = pr.text or ""
+                    if not looks_like_error_html(txtp):
+                        return txtp
+                    else:
+                        print(f"[warn] proxy returned error-like content: {url}", flush=True)
+                else:
+                    print(f"[warn] proxy GET {pr.status_code}: {proxy_url}", flush=True)
+            except Exception as e:
+                print(f"[warn] proxy GET failed: {proxy_url} :: {e}", flush=True)
+            return None
+
+        # ✅ Finastra: 403 is common -> proxy retry
+        if r.status_code == 403 and h == "www.finastra.com":
+            print(f"[warn] GET 403: {url} (retrying via proxy)", flush=True)
+            proxy_url = _jina_proxy_url(url)
+            try:
+                time.sleep(REQUEST_DELAY_SEC)
+                pr = SESSION.get(
+                    proxy_url,
+                    headers={"User-Agent": browser_ua, "Accept": "text/html,application/xhtml+xml,*/*"},
+                    timeout=(10, max(read_timeout, 45)),
                     allow_redirects=True,
                 )
                 if pr.status_code < 400:
@@ -683,32 +705,7 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
             return None
 
         return txt
-
     except Exception as e:
-        # ✅ FIX: If FIS investor host fails DNS in the runner, retry once with www.
-        msg = str(e) or ""
-        if ("getaddrinfo failed" in msg.lower() or "name resolution" in msg.lower()) and host(url) == "investor.fisglobal.com":
-            retry_url = _with_www_if_fis_investor(url)
-            if retry_url != url:
-                try:
-                    print(f"[warn] GET failed (DNS). Retrying with www: {retry_url}", flush=True)
-                    time.sleep(REQUEST_DELAY_SEC)
-                    r2 = SESSION.get(
-                        retry_url,
-                        timeout=(10, read_timeout),
-                        allow_redirects=True,
-                    )
-                    if r2.status_code < 400:
-                        txt2 = r2.text or ""
-                        if not looks_like_error_html(txt2):
-                            return txt2
-                    if r2.status_code >= 400:
-                        print(f"[warn] GET {r2.status_code}: {retry_url}", flush=True)
-                        return None
-                except Exception as e2:
-                    print(f"[warn] GET failed: {retry_url} :: {e2}", flush=True)
-                    return None
-
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
         return None
 
@@ -943,11 +940,6 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
 
     if source == "FHLB MPF":
         if p.endswith("/program-guidelines/mpf-program-updates"):
-            return False
-
-    # ✅ Keep Temenos listing as valid
-    if source == "Temenos":
-        if p.endswith("/press-releases"):
             return False
 
     return False
@@ -1292,6 +1284,9 @@ def looks_js_rendered(html: str) -> bool:
         return True
     if "select year" in s and "loading" in s:
         return True
+    # Mambu/Temenos often render tiles after hydration
+    if "data-reactroot" in s and "press" in s and "insights" in s:
+        return True
     return False
 
 
@@ -1303,61 +1298,7 @@ def strip_nav_like(container: Any) -> None:
             pass
 
 
-# ✅ NEW: Jack Henry date finder (listing page markup often uses spans/divs rather than <time>)
-def _jackhenry_find_date_near(a: Any) -> Optional[datetime]:
-    if not a:
-        return None
-
-    parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
-    if not parent:
-        return None
-
-    # common IR widgets
-    for sel in [
-        "time",
-        ".release-date",
-        ".ReleaseDate",
-        ".news-release-date",
-        ".ir-date",
-        ".date",
-        "[class*='date']",
-    ]:
-        try:
-            el = parent.select_one(sel) if hasattr(parent, "select_one") else None
-        except Exception:
-            el = None
-
-        if el is None:
-            continue
-
-        raw = ""
-        try:
-            if getattr(el, "get", None) and el.get("datetime"):
-                raw = (el.get("datetime") or "").strip()
-            if not raw and getattr(el, "get_text", None):
-                raw = (el.get_text(" ", strip=True) or "").strip()
-        except Exception:
-            raw = ""
-
-        if raw:
-            dt = parse_date(raw)
-            if dt:
-                return dt
-
-    blob = ""
-    try:
-        blob = clean_text(parent.get_text(" ", strip=True), 1200)
-    except Exception:
-        blob = ""
-    return extract_any_date(blob, source="Jack Henry")
-
-
 def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
-    if source == "Jack Henry":
-        dtj = _jackhenry_find_date_near(a)
-        if dtj:
-            return dtj
-
     parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
     if not parent:
         return None
@@ -1390,7 +1331,7 @@ def is_likely_article_anchor(a: Any) -> bool:
 
 
 # ============================
-# FHLB MPF (Program Updates)
+# FHLB MPF
 # ============================
 
 FHLBMPF_LISTING_PATH = "/program-guidelines/mpf-program-updates"
@@ -1441,36 +1382,16 @@ def fhlbmpf_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dat
 
         dt = find_time_near_anchor(a, "FHLB MPF")
 
-        if dt is None:
-            try:
-                checked = 0
-                for sib in a.previous_siblings:
-                    if checked >= 15:
-                        break
-                    checked += 1
-                    txt = ""
-                    if isinstance(sib, str):
-                        txt = sib.strip()
-                    else:
-                        try:
-                            txt = (sib.get_text(" ", strip=True) or "").strip()
-                        except Exception:
-                            txt = ""
-                    if not txt:
-                        continue
-                    dt2 = extract_any_date(txt, source="FHLB MPF")
-                    if dt2:
-                        dt = dt2
-                        break
-            except Exception:
-                pass
-
         links.append((title, url, dt))
         if len(links) >= MAX_LISTING_LINKS:
             break
 
     return links
 
+
+# ============================
+# OFAC
+# ============================
 
 OFAC_ITEM_RE = re.compile(r"^/recent-actions/\d{8}(/)?$")
 OFAC_URL_DATE_RE = re.compile(r"/recent-actions/(?P<ymd>\d{8})(?:/)?$")
@@ -1578,7 +1499,7 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
 
 
 # ============================
-# Mastercard: capture press-release links
+# Mastercard
 # ============================
 
 MASTERCARD_PR_PATH_RE = re.compile(
@@ -2080,6 +2001,224 @@ def cdia_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dateti
     return links
 
 
+# ============================
+# ✅ NEW: Jack Henry listing extractor (table-based)
+# ============================
+
+JH_DETAIL_RE = re.compile(r"^/news-releases/news-release-details/", re.I)
+
+def jackhenry_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    # Most IR templates: PR links are "/news-releases/news-release-details/<slug>"
+    for a in container.select('a[href^="/news-releases/news-release-details/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+        if not JH_DETAIL_RE.match(href):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("Jack Henry", url):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        if not raw_title:
+            continue
+        title = clean_text(raw_title, 220)
+        if not title or title.lower() in {"read more", "learn more", "more", "details"}:
+            continue
+        if is_probably_nav_link("Jack Henry", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        # Date is often in same row (tr) or near the link
+        dt = None
+        row = a.find_parent("tr")
+        if row:
+            dt = extract_any_date(clean_text(row.get_text(" ", strip=True), 500), source="Jack Henry")
+        if dt is None:
+            dt = find_time_near_anchor(a, "Jack Henry")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    # Fallback: sometimes anchor pattern differs, but detail pages still use /news-release-details/
+    if not links:
+        for a in container.find_all("a", href=True):
+            href = (a.get("href") or "").strip()
+            if not href or href.startswith("#"):
+                continue
+            if "/news-releases/news-release-details/" not in href:
+                continue
+            url = canonical_url(urljoin(page_url, href))
+            if not allowed_for_source("Jack Henry", url):
+                continue
+            title = clean_text((a.get_text(" ", strip=True) or "").strip(), 220)
+            if not title or title.lower() in {"read more", "learn more", "more", "details"}:
+                continue
+            if url in seen:
+                continue
+            seen.add(url)
+            dt = find_time_near_anchor(a, "Jack Henry")
+            links.append((title, url, dt))
+            if len(links) >= MAX_LISTING_LINKS:
+                break
+
+    return links
+
+
+# ============================
+# ✅ NEW: TCS listing extractor (non-article DOM)
+# ============================
+
+TCS_PR_PATH_RE = re.compile(r"^/who-we-are/newsroom/press-release/", re.I)
+
+def tcs_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    for a in container.select('a[href^="/who-we-are/newsroom/press-release/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+        if not TCS_PR_PATH_RE.match(href):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("TCS", url):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        if not raw_title:
+            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
+        title = clean_text(raw_title, 220)
+        if not title:
+            continue
+        if title.lower() in {"read more", "learn more", "more", "details"}:
+            continue
+        if is_probably_nav_link("TCS", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = find_time_near_anchor(a, "TCS")
+        if dt is None:
+            wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 800), source="TCS")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
+
+# ============================
+# ✅ NEW: Mambu listing extractor (JS page -> regex + proxy fallback)
+# ============================
+
+MAMBU_PR_RE = re.compile(r"/en/insights/press/[a-z0-9\-]+", re.I)
+
+def mambu_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    # Try normal DOM first
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        container = soup
+
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    for a in container.find_all("a", href=True):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+        if "/en/insights/press/" not in href:
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("Mambu", url):
+            continue
+
+        title = clean_text((a.get_text(" ", strip=True) or "").strip(), 220)
+        if not title or title.lower() in {"read more", "learn more", "more", "details"}:
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = find_time_near_anchor(a, "Mambu")
+        if dt is None:
+            wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 900), source="Mambu")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            return links
+
+    # If page is JS-rendered and DOM found nothing, use regex on raw HTML (sometimes hrefs exist but not in main container)
+    if not links:
+        for m in MAMBU_PR_RE.finditer(html or ""):
+            href = m.group(0)
+            url = canonical_url(urljoin(page_url, href))
+            if not allowed_for_source("Mambu", url):
+                continue
+            if url in seen:
+                continue
+            seen.add(url)
+            links.append(("Mambu press release", url, None))
+            if len(links) >= MAX_LISTING_LINKS:
+                return links
+
+    # Optional last resort: proxy the listing page itself and regex again
+    if not links:
+        proxy_html = polite_get(_jina_proxy_url(page_url))
+        if proxy_html:
+            for m in MAMBU_PR_RE.finditer(proxy_html or ""):
+                href = m.group(0)
+                url = canonical_url(urljoin(page_url, href))
+                if not allowed_for_source("Mambu", url):
+                    continue
+                if url in seen:
+                    continue
+                seen.add(url)
+                links.append(("Mambu press release", url, None))
+                if len(links) >= MAX_LISTING_LINKS:
+                    break
+
+    return links
+
+
+# ============================
+# MAIN CONTENT LINK ROUTER
+# ============================
+
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     if source == "OFAC":
         return ofac_links(page_url, html)
@@ -2097,6 +2236,14 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
+
+    # ✅ NEW vendor-specific extractors (fixes your missing pulls)
+    if source == "Jack Henry":
+        return jackhenry_links(page_url, html)
+    if source == "TCS":
+        return tcs_links(page_url, html)
+    if source == "Mambu":
+        return mambu_links(page_url, html)
 
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup)
@@ -2168,7 +2315,10 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
     ],
     "BleepingComputer": ["https://www.bleepingcomputer.com/feed/"],
     "Microsoft MSRC": ["https://api.msrc.microsoft.com/update-guide/rss"],
-    "Fiserv": ["https://investors.fiserv.com/newsroom/rss"],
+    "Fiserv": ["https://investors.fiserv.com/newsroom/rss"],  # ✅ unchanged
+
+    # ✅ NEW: TCS press releases RSS (commonly referenced as Feedburner)
+    "TCS": ["http://feeds2.feedburner.com/tcspress"],
 }
 
 
@@ -2216,11 +2366,9 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("NACHA", "https://www.nacha.org/news"),
 
         # Fintech vendors
-        # ✅ FIX: Use www host for FIS IR (resolves + matches allow_domains)
         SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases/"),
         SourcePage("Fiserv", "https://investors.fiserv.com/newsroom/news-releases"),
         SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
-        # ✅ FIX: Temenos moved listing
         SourcePage("Temenos", "https://www.temenos.com/press-releases/"),
         SourcePage("Mambu", "https://mambu.com/en/insights/press"),
         SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
@@ -2548,6 +2696,7 @@ def build() -> None:
 
                 snippet = ""
 
+                # If Visa has a date but outside window, let detail override
                 if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
@@ -2562,6 +2711,7 @@ def build() -> None:
                             if snippet2:
                                 snippet = snippet2
 
+                # If we still don't have a date, use detail page (bounded by caps)
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
@@ -2660,5 +2810,4 @@ def build() -> None:
 
 
 if __name__ == "__main__":
-    # ✅ No monthly gating for regdashboard: always build in Actions and locally.
     build()
