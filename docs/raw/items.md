@@ -1,7 +1,41 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T14:53:30Z` → `2026-02-19T14:53:30Z` (UTC)
-Last updated: `2026-02-19T08:53:30-06:00` (CT) — `2026-02-19T14:53:30Z` (UTC)
+Window: `2026-02-05T15:55:10Z` → `2026-02-19T15:55:10Z` (UTC)
+Last updated: `2026-02-19T09:55:10-06:00` (CT) — `2026-02-19T15:55:10Z` (UTC)
+
+## CISA orders feds to patch actively exploited Dell flaw within 3 days
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T15:30:37Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-dell-flaw-within-3-days/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their systems within three days against a maximum-severity Dell vulnerability that has been under active exploitation since mid-2024. [...]
+
+## Treasury Targets Cartel-Linked Timeshare Resort Defrauding U.S. Citizens
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-19T15:30:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0400
+
+## How infostealers turn stolen credentials into real identities
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T15:05:15Z
+- URL: https://www.bleepingcomputer.com/news/security/how-infostealers-turn-stolen-credentials-into-real-identities/
+
+Infostealer dumps increasingly tie stolen credentials to real identities, linking usernames, cookies, and behavior across personal and enterprise accounts. Specops explains how analyzing 90,000 dumps shows reuse fuels enterprise risk and how continuous AD scanning disrupts that cycle. [...]
+
+## Treasury Sanctions Sudanese Paramilitary Commanders for Atrocities in El-Fasher
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-19T15:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0399
+
+## Secretary Bessent Announces 2026 G20 Finance Track Agenda and Finance Ministers and Central Bank Governors Meeting in Asheville, North Carolina
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-19T15:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0398
 
 ## Nigerian man gets eight years in prison for hacking tax firms
 - Source: BleepingComputer
@@ -74,6 +108,26 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2314
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
+
+## Counter Terrorism and Counter Narcotics Designations; Sudan-related Designations and Designation Update; Russia-related Designation Update; Issuance of Counter Terrorism General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-19T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260219
+
+## OCC Announces Enforcement Actions for February 2026
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html
+
+## More More
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html
+
+National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities.
 
 ## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
 - Source: Visa
@@ -13151,14 +13205,6 @@ The Federal Reserve Board of Governors in Washington DC.
 
 A Spanish court has granted precautionary measures against NordVPN and ProtonVPN, ordering the two popular VPN providers to block 16 websites that facilitate piracy of football matches. [...]
 
-## Flaws in popular VSCode extensions expose developers to attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T21:27:12Z
-- URL: https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/
-
-Vulnerabilities with high to critical severity ratings affecting popular Visual Studio Code (VSCode) extensions collectively downloaded more than 128 million times could be exploited to steal local files and execute code remotely. [...]
-
 ## FinCEN issues exceptive relief on due diligence
 - Source: TBA
 - Category: Compliance Watch
@@ -13166,14 +13212,6 @@ Vulnerabilities with high to critical severity ratings affecting popular Visual 
 - URL: https://www.texasbankers.com/fincen-issues-exceptive-relief-on-due-diligence/
 
 The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued an order granting exceptive relief to covered financial institutions from certain requirements under FinCEN’s Customer Due Diligence Requirements for Financial Institutions rule (the “2016 CDD Rule”). The order exempts covered financial institutions from the requirement to identify and v…
-
-## Chinese hackers exploiting Dell zero-day flaw since mid-2024
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T20:15:03Z
-- URL: https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/
-
-A suspected Chinese state-backed hacking group has been quietly exploiting a critical Dell security flaw in zero-day attacks that started in mid-2024. [...]
 
 ## Estimating the Cost of the Consumer Financial Protection Bureau to Consumers
 - Source: White House
@@ -13229,6 +13267,28 @@ Improper authentication in Windows Admin Center allows an authorized attacker to
 - Published: 2026-02-17T00:14:26Z
 - URL: https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-americas-new-golden-era-on-presidents-day/
 
+## OCC Requests Comment on Proposed Rulemaking on the Bank Appeals Process
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-7.html
+
+The Office of the Comptroller of the Currency (OCC) today requested comment on a proposal to establish revised procedures and policies for appeals by OCC-supervised entities of material supervisory determinations.
+
+## Bank Appeals Process: Notice of Proposed Rulemaking
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html
+
+## More More
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html
+
+The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations.
+
 ## Data and Insights
 - Source: Fannie Mae
 - Category: Mortgage
@@ -13243,23 +13303,23 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://ir.jackhenry.com/stock-info/historic-stock-lookup
 
+## Flaws in popular VSCode extensions expose developers to attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/
+
+## Chinese hackers exploiting Dell zero-day flaw since mid-2024
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/
+
 ## Block ads & hide your IP with this AdGuard $40 family suite deal
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-hide-your-ip-with-this-adguard-40-family-suite-deal/
-
-## Notepad++ boosts update security with ‘double-lock’ mechanism
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/notepad-plus-plus-boosts-update-security-with-double-lock-mechanism/
-
-## Microsoft Teams outage affects users in United States, Europe
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/
 
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -13356,6 +13416,22 @@ Added an FAQ and updated the CVSS score. This is an informational change only.
 - URL: https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill
 
 IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Revenue Service today issued a notice providing guidance for determining whether electricity-producing qualified facilities, energy storage technologies, or eligible components are receiving material assistance from a prohibited foreign entity (PFE) and would be ineligible for certain energy tax credit…
+
+## OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
+
+The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
+
+## More More
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.occ.gov/topics/economics/index-economics.html
+
+The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 
 ## Mortgage Rates Inch Down
 - Source: Freddie Mac
@@ -14057,18 +14133,6 @@ PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Esta
 - Published: 2026-02-06T17:45:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0391
 
-## Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission 2026 Public Meeting
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-06T15:20:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0390
-
-## Treasury Issues Request for Information on CFIUS Known Investor Program and Streamlining the Foreign Investment Review Process
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-06T13:45:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0389
-
 ## Chromium: CVE-2026-1862 Type Confusion in V8
 - Source: Microsoft MSRC
 - Category: IS
@@ -14106,11 +14170,3 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://www.texasbankers.com/tba-to-offer-pilot-access-for-tokenized-deposit-capabilities-following-vantage-bank-launch/
 
 (AUSTIN, TEXAS) – The Texas Bankers Association (TBA) announced that it will offer TBA member banks the opportunity to explore tokenized deposit capabilities through pilot access in its Innovation Magnet program, enabled by Vantage Bank’s phased rollout of its platform. This development reflects a growing shift in how community banks can leverage on-chain infrastructure to […]…
-
-## Press Release: FDIC Issues List of Banks Examined for CRA Compliance
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-05T15:15:50Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/407cc7a
-
-PRESS RELEASE | FEBRUARY 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in November 2025. The CRA is a 1…
