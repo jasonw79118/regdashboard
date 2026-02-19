@@ -151,18 +151,11 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
 
 # ============================
 # FEDERAL REGISTER API (filters)
-#   IMPORTANT:
-#   - "topics" are CFR-indexing topics
-#   - "agencies" are agency slugs (e.g., consumer-financial-protection-bureau)
-#   - "sections" are site sections (e.g., business-and-industry)
 # ============================
 
 FEDREG_API_BASE = "https://www.federalregister.gov/api/v1"
 
-# Your original list had mixed types (topic + agency + section).
-# We keep your intent but send each value to the correct query key.
 RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
-    # topics (generally OK)
     {"kind": "topics", "value": "banks-banking"},
     {"kind": "topics", "value": "executive-orders"},
     {"kind": "topics", "value": "federal-reserve-system"},
@@ -172,17 +165,10 @@ RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
     {"kind": "topics", "value": "truth-lending"},
     {"kind": "topics", "value": "truth-savings"},
 
-    # these were causing 400 as "topics" because they are NOT topics:
-    # - CFPB is an agency slug
     {"kind": "agencies", "value": "consumer-financial-protection-bureau"},
-
-    # - "fdic" is not a valid agency slug on FederalRegister.gov; the agency slug is:
     {"kind": "agencies", "value": "federal-deposit-insurance-corporation"},
-
-    # - "business-and-industry" is a SECTION (per Federal Register search docs), not a topic
     {"kind": "sections", "value": "business-and-industry"},
 
-    # keep the rest as topics (and add smart fallback on 400 below)
     {"kind": "topics", "value": "child-labor"},
     {"kind": "topics", "value": "credit"},
     {"kind": "topics", "value": "credit-unions"},
@@ -317,7 +303,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/about-visa/newsroom/press-releases"},
     },
 
-    # ✅ broaden prefixes (Mastercard changes paths often)
     "Mastercard": {
         "allow_domains": {"www.mastercard.com"},
         "allow_path_prefixes": {
@@ -335,15 +320,29 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/documents/"},
     },
 
-    "FIS": {"allow_domains": {"investor.fisglobal.com"}},
+    # ✅ FIX: FIS DNS + allow both with and without www; allow press releases + detail pages
+    "FIS": {
+        "allow_domains": {"www.investor.fisglobal.com", "investor.fisglobal.com"},
+        "allow_path_prefixes": {"/press-releases", "/press-releases/", "/news-releases", "/news-releases/"},
+    },
+
     "Fiserv": {"allow_domains": {"investors.fiserv.com"}},
-    "Jack Henry": {"allow_domains": {"ir.jackhenry.com"}},
-    "Temenos": {"allow_domains": {"www.temenos.com"}},
+
+    "Jack Henry": {
+        "allow_domains": {"ir.jackhenry.com"},
+        "allow_path_prefixes": {"/press-releases", "/press-releases/", "/news-releases", "/news-releases/"},
+    },
+
+    # ✅ FIX: Temenos moved: listing is /press-releases/ and articles are typically /press_release/...
+    "Temenos": {
+        "allow_domains": {"www.temenos.com"},
+        "allow_path_prefixes": {"/press-releases", "/press-releases/", "/press_release", "/press_release/"},
+    },
+
     "Mambu": {"allow_domains": {"mambu.com"}},
     "Finastra": {"allow_domains": {"www.finastra.com"}},
     "TCS": {"allow_domains": {"www.tcs.com"}},
 
-    # ✅ NEW: keep FHLB MPF focused on the MPF Program Updates area
     "FHLB MPF": {
         "allow_domains": {"www.fhlbmpf.com"},
         "allow_path_prefixes": {"/program-guidelines/mpf-program-updates"},
@@ -549,15 +548,23 @@ def in_window(dt: datetime, start: datetime, end: datetime) -> bool:
 # ✅ Mastercard 403 fallback via r.jina.ai proxy
 # ============================
 def _jina_proxy_url(url: str) -> str:
-    """
-    Build a r.jina.ai proxy URL that often bypasses 403 bot walls.
-    """
     u = url.strip()
     if u.startswith("https://"):
         return "https://r.jina.ai/https://" + u[len("https://") :]
     if u.startswith("http://"):
         return "https://r.jina.ai/http://" + u[len("http://") :]
     return "https://r.jina.ai/http://" + u
+
+
+# ✅ NEW: FIS DNS fallback helper (only for investor.fisglobal.com)
+def _with_www_if_fis_investor(u: str) -> str:
+    try:
+        pu = urlparse(u)
+        if pu.netloc.lower() == "investor.fisglobal.com":
+            return pu._replace(netloc="www.investor.fisglobal.com").geturl()
+    except Exception:
+        pass
+    return u
 
 
 def polite_get(url: str, timeout: int = 25) -> Optional[str]:
@@ -676,7 +683,32 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
             return None
 
         return txt
+
     except Exception as e:
+        # ✅ FIX: If FIS investor host fails DNS in the runner, retry once with www.
+        msg = str(e) or ""
+        if ("getaddrinfo failed" in msg.lower() or "name resolution" in msg.lower()) and host(url) == "investor.fisglobal.com":
+            retry_url = _with_www_if_fis_investor(url)
+            if retry_url != url:
+                try:
+                    print(f"[warn] GET failed (DNS). Retrying with www: {retry_url}", flush=True)
+                    time.sleep(REQUEST_DELAY_SEC)
+                    r2 = SESSION.get(
+                        retry_url,
+                        timeout=(10, read_timeout),
+                        allow_redirects=True,
+                    )
+                    if r2.status_code < 400:
+                        txt2 = r2.text or ""
+                        if not looks_like_error_html(txt2):
+                            return txt2
+                    if r2.status_code >= 400:
+                        print(f"[warn] GET {r2.status_code}: {retry_url}", flush=True)
+                        return None
+                except Exception as e2:
+                    print(f"[warn] GET failed: {retry_url} :: {e2}", flush=True)
+                    return None
+
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
         return None
 
@@ -729,10 +761,6 @@ def fetch_json_status(
     params: Optional[Dict[str, Any]] = None,
     timeout: int = 35,
 ) -> Tuple[Optional[Dict[str, Any]], int, str]:
-    """
-    Like fetch_json, but returns (json_or_none, status_code, final_url).
-    This lets us handle 400s quietly for FedReg retries instead of spamming logs.
-    """
     try:
         time.sleep(REQUEST_DELAY_SEC)
         r = SESSION.get(
@@ -909,14 +937,17 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
         if p.endswith("/news/press-releases"):
             return False
 
-    # ✅ Mastercard listing page itself should not be treated as "home"
     if source == "Mastercard":
         if p.endswith("/news-and-trends/press"):
             return False
 
-    # ✅ FHLB MPF listing page is valid
     if source == "FHLB MPF":
         if p.endswith("/program-guidelines/mpf-program-updates"):
+            return False
+
+    # ✅ Keep Temenos listing as valid
+    if source == "Temenos":
+        if p.endswith("/press-releases"):
             return False
 
     return False
@@ -1061,7 +1092,6 @@ def _fedreg_params_for_filter(
         ],
     }
 
-    # Correct key based on filter kind
     if kind == "topics":
         params["conditions[topics][]"] = value
     elif kind == "agencies":
@@ -1069,7 +1099,6 @@ def _fedreg_params_for_filter(
     elif kind == "sections":
         params["conditions[sections][]"] = value
     else:
-        # fallback "term" search if needed
         params["conditions[term]"] = value
 
     return params
@@ -1096,12 +1125,9 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
 
             j, status, final_url = fetch_json_status(endpoint, params=params, timeout=45)
 
-            # Handle 400s gracefully and try smart fallbacks once
             if j is None and status == 400 and not tried_fallback:
                 tried_fallback = True
 
-                # If something 400s as a topic, it’s often actually a section or agency.
-                # Retry order: sections -> agencies -> topics -> term
                 fallbacks: List[str] = []
                 if kind == "topics":
                     fallbacks = ["sections", "agencies", "term"]
@@ -1117,7 +1143,6 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                     params2 = _fedreg_params_for_filter(nk, value, start_d, end_d, page)
                     j2, status2, _u2 = fetch_json_status(endpoint, params=params2, timeout=45)
                     if j2 is not None and status2 < 400:
-                        # adopt fallback kind for remainder of pagination
                         kind = nk
                         j = j2
                         status = status2
@@ -1125,12 +1150,10 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                         break
 
                 if not fixed:
-                    # Still failing—log once and stop this filter
                     print(f"[warn] Federal Register filter '{value}' failed (400) for kinds tried; last={final_url}", flush=True)
                     break
 
             if not j:
-                # non-JSON or non-200; stop this filter
                 if status >= 400 and status != 400:
                     print(f"[warn] Federal Register JSON GET {status}: {final_url}", flush=True)
                 break
@@ -1280,7 +1303,61 @@ def strip_nav_like(container: Any) -> None:
             pass
 
 
+# ✅ NEW: Jack Henry date finder (listing page markup often uses spans/divs rather than <time>)
+def _jackhenry_find_date_near(a: Any) -> Optional[datetime]:
+    if not a:
+        return None
+
+    parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
+    if not parent:
+        return None
+
+    # common IR widgets
+    for sel in [
+        "time",
+        ".release-date",
+        ".ReleaseDate",
+        ".news-release-date",
+        ".ir-date",
+        ".date",
+        "[class*='date']",
+    ]:
+        try:
+            el = parent.select_one(sel) if hasattr(parent, "select_one") else None
+        except Exception:
+            el = None
+
+        if el is None:
+            continue
+
+        raw = ""
+        try:
+            if getattr(el, "get", None) and el.get("datetime"):
+                raw = (el.get("datetime") or "").strip()
+            if not raw and getattr(el, "get_text", None):
+                raw = (el.get_text(" ", strip=True) or "").strip()
+        except Exception:
+            raw = ""
+
+        if raw:
+            dt = parse_date(raw)
+            if dt:
+                return dt
+
+    blob = ""
+    try:
+        blob = clean_text(parent.get_text(" ", strip=True), 1200)
+    except Exception:
+        blob = ""
+    return extract_any_date(blob, source="Jack Henry")
+
+
 def find_time_near_anchor(a: Any, source: str) -> Optional[datetime]:
+    if source == "Jack Henry":
+        dtj = _jackhenry_find_date_near(a)
+        if dtj:
+            return dtj
+
     parent = a.find_parent(["li", "article", "div", "p", "section", "tr", "td"]) or a.parent
     if not parent:
         return None
@@ -1395,9 +1472,6 @@ def fhlbmpf_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dat
     return links
 
 
-# ----------------------------
-# OFAC: item pages are /recent-actions/YYYYMMDD
-# ----------------------------
 OFAC_ITEM_RE = re.compile(r"^/recent-actions/\d{8}(/)?$")
 OFAC_URL_DATE_RE = re.compile(r"/recent-actions/(?P<ymd>\d{8})(?:/)?$")
 
@@ -2142,10 +2216,12 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("NACHA", "https://www.nacha.org/news"),
 
         # Fintech vendors
-        SourcePage("FIS", "https://investor.fisglobal.com/press-releases"),
+        # ✅ FIX: Use www host for FIS IR (resolves + matches allow_domains)
+        SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases/"),
         SourcePage("Fiserv", "https://investors.fiserv.com/newsroom/news-releases"),
         SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
-        SourcePage("Temenos", "https://www.temenos.com/news/press-releases/"),
+        # ✅ FIX: Temenos moved listing
+        SourcePage("Temenos", "https://www.temenos.com/press-releases/"),
         SourcePage("Mambu", "https://mambu.com/en/insights/press"),
         SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
         SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
@@ -2153,7 +2229,7 @@ def get_start_pages() -> List[SourcePage]:
         # Payment Networks
         SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
 
-        # ✅ Mastercard
+        # Mastercard
         SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
     ]
 
@@ -2472,7 +2548,6 @@ def build() -> None:
 
                 snippet = ""
 
-                # If Visa has a date but outside window, let detail override
                 if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
@@ -2487,7 +2562,6 @@ def build() -> None:
                             if snippet2:
                                 snippet = snippet2
 
-                # If we still don't have a date, use detail page (bounded by caps)
                 if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
