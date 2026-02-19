@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-05T21:40:57Z",
-  "window_end": "2026-02-19T21:40:57Z",
-  "generated_at_utc": "2026-02-19T21:40:57Z",
-  "generated_at_ct": "2026-02-19T15:40:57-06:00",
+  "window_start": "2026-02-05T22:00:53Z",
+  "window_end": "2026-02-19T22:00:53Z",
+  "generated_at_utc": "2026-02-19T22:00:53Z",
+  "generated_at_ct": "2026-02-19T16:00:53-06:00",
   "items": [
     {
       "category": "Payments",
@@ -67,6 +67,14 @@
       "published_at": "2026-02-19T17:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/",
       "summary": "Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-21535 Microsoft Teams Information Disclosure Vulnerability",
+      "published_at": "2026-02-19T16:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21535",
+      "summary": "Improper access control in Microsoft Teams allows an unauthorized attacker to disclose information over a network."
     },
     {
       "category": "IS",

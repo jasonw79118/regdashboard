@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T21:40:57Z` → `2026-02-19T21:40:57Z` (UTC)
-Last updated: `2026-02-19T15:40:57-06:00` (CT) — `2026-02-19T21:40:57Z` (UTC)
+Window: `2026-02-05T22:00:53Z` → `2026-02-19T22:00:53Z` (UTC)
+Last updated: `2026-02-19T16:00:53-06:00` (CT) — `2026-02-19T22:00:53Z` (UTC)
 
 ## Federal Reserve Board announces approval of application by Fulton Financial Corporation
 - Source: FRB
@@ -58,6 +58,14 @@ A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remo
 - URL: https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/
 
 Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]
+
+## CVE-2026-21535 Microsoft Teams Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-19T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21535
+
+Improper access control in Microsoft Teams allows an unauthorized attacker to disclose information over a network.
 
 ## CVE-2026-21528 Azure IoT Explorer Information Disclosure Vulnerability
 - Source: Microsoft MSRC
