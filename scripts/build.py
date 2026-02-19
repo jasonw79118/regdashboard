@@ -1160,20 +1160,66 @@ def _fedreg_source_for_group(group_label: str) -> str:
     return f"Federal Register • {gl}"
 
 
-def items_from_federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
-    out: List[Dict[str, Any]] = []
+def _fedreg_kind_singular(kind: str) -> str:
+    k = (kind or "").strip().lower()
+    if k.endswith("s"):
+        k = k[:-1]
+    if k in {"topic", "agency", "section"}:
+        return k
+    return "filter"
 
+
+def _fedreg_tag(kind: str, value: str) -> str:
+    k = _fedreg_kind_singular(kind)
+    v = normalize_fedreg_slug(value or "")
+    return f"{k}:{v}" if v else k
+
+
+def _fedreg_agency_tags(agencies: Any) -> List[str]:
+    tags: List[str] = []
+    try:
+        if not agencies or not isinstance(agencies, list):
+            return tags
+        for a in agencies:
+            if not isinstance(a, dict):
+                continue
+            slug = normalize_fedreg_slug(str(a.get("slug") or ""))
+            if slug:
+                tags.append(f"agency:{slug}")
+    except Exception:
+        return tags
+    # de-dupe while preserving order
+    out: List[str] = []
+    seen: set[str] = set()
+    for t in tags:
+        if t not in seen:
+            seen.add(t)
+            out.append(t)
+    return out
+
+
+def items_from_federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
+    """
+    Pull Federal Register documents via API across a set of topic/agency/section filters.
+
+    IMPORTANT for the frontend filter chips (index.html):
+    - source must be exactly "Federal Register"
+    - each item must include `fr_tags: [ "topic:...", "agency:...", "section:..." ]`
+    """
     start_d = start.date().isoformat()
     end_d = end.date().isoformat()
     endpoint = f"{FEDREG_API_BASE.rstrip('/')}/documents.json"
 
-    seen_docnums: set[str] = set()
+    # Deduplicate by document_number but *merge* tags from multiple filters.
+    by_doc: Dict[str, Dict[str, Any]] = {}
 
     for f in FEDREG_FILTERS:
         kind = f["kind"]
         value = f["value"]
+        filter_tag = _fedreg_tag(kind, value)
+
         page = 1
-        total_for_filter = 0
+        total_unique_touched = 0
         tried_fallback = False
 
         while True:
@@ -1181,6 +1227,7 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
 
             j, status, final_url = fetch_json_status(endpoint, params=params, timeout=45)
 
+            # Some combinations can 400. Try alternate condition keys.
             if j is None and status == 400 and not tried_fallback:
                 tried_fallback = True
 
@@ -1200,13 +1247,17 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                     j2, status2, _u2 = fetch_json_status(endpoint, params=params2, timeout=45)
                     if j2 is not None and status2 < 400:
                         kind = nk
+                        filter_tag = _fedreg_tag(kind, value)
                         j = j2
                         status = status2
                         fixed = True
                         break
 
                 if not fixed:
-                    print(f"[warn] Federal Register filter '{value}' failed (400) for kinds tried; last={final_url}", flush=True)
+                    print(
+                        f"[warn] Federal Register filter '{value}' failed (400) for kinds tried; last={final_url}",
+                        flush=True,
+                    )
                     break
 
             if not j:
@@ -1228,9 +1279,6 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                     if not title or not pub_s or not url:
                         continue
 
-                    if docnum and docnum in seen_docnums:
-                        continue
-
                     dt = parse_date(pub_s)
                     if not dt or not in_window(dt, start, end):
                         continue
@@ -1245,27 +1293,36 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
                     abstract = clean_text(str(r.get("abstract") or ""), 380)
 
                     agencies = r.get("agencies")
-                    group_type, group_label = _fedreg_group_label(kind, value, agencies)
-                    grouped_source = _fedreg_source_for_group(group_label)
+                    agency_tags = _fedreg_agency_tags(agencies)
 
-                    out.append(
-                        {
+                    # Key: prefer doc number, else fall back to URL.
+                    key = docnum or url
+
+                    existing = by_doc.get(key)
+                    if not existing:
+                        by_doc[key] = {
                             "category": "Federal Register",
-                            "source": grouped_source,  # ✅ group key for your tile
+                            "source": "Federal Register",
                             "title": title,
                             "published_at": iso_z(dt),
                             "url": url,
                             "summary": abstract,
-                            # extra metadata (safe if frontend ignores)
-                            "fedreg_group": group_label,
-                            "fedreg_group_type": group_type,
+                            # frontend filter chips read this
+                            "fr_tags": sorted(set([filter_tag] + agency_tags)),
+                            # useful debug metadata
+                            "fedreg_document_number": docnum,
                         }
-                    )
+                        total_unique_touched += 1
+                    else:
+                        # Merge tags if the same doc is hit by multiple filters.
+                        tags = set(existing.get("fr_tags") or [])
+                        tags.add(filter_tag)
+                        tags.update(agency_tags)
+                        existing["fr_tags"] = sorted(tags)
 
-                    if docnum:
-                        seen_docnums.add(docnum)
-
-                    total_for_filter += 1
+                        # Prefer a non-empty summary.
+                        if not existing.get("summary") and abstract:
+                            existing["summary"] = abstract
                 except Exception:
                     continue
 
@@ -1273,10 +1330,15 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
             if page > 20:
                 break
 
-        print(f"[api] Federal Register {kind.rstrip('s')} '{value}': kept {total_for_filter} items", flush=True)
+        print(
+            f"[api] Federal Register {_fedreg_kind_singular(kind)} '{value}': touched {total_unique_touched} unique docs",
+            flush=True,
+        )
 
+    # Return newest-first like other tiles
+    out = list(by_doc.values())
+    out.sort(key=lambda x: x.get("published_at", ""), reverse=True)
     return out
-
 
 # ============================
 # DETAIL PAGE EXTRACTION
