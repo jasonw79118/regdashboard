@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T09:55:07Z` → `2026-02-19T09:55:07Z` (UTC)
-Last updated: `2026-02-19T03:55:07-06:00` (CT) — `2026-02-19T09:55:07Z` (UTC)
+Window: `2026-02-05T10:51:27Z` → `2026-02-19T10:51:27Z` (UTC)
+Last updated: `2026-02-19T04:51:27-06:00` (CT) — `2026-02-19T10:51:27Z` (UTC)
+
+## New 'Massiv' Android banking malware poses as an IPTV app
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T10:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
+
+A newly identified Android banking trojan named Massiv has been under active distribution across south Europe, disguised as an IPTV app. [...]
 
 ## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
 - Source: Microsoft MSRC
@@ -34,12 +42,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2314
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
-
-## New 'Massiv' Android banking malware poses as an IPTV app
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-19T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
 
 ## General Provisions
 - Source: Federal Register
@@ -13149,14 +13151,6 @@ Leaked API keys are nothing new, but the scale of the problem in front-end code 
 
 A newly discovered and sophisticated Android malware called Keenadu has been found embedded in firmware from multiple device brands, enabling it to compromise all installed applications and gain unrestricted control over infected devices. [...]
 
-## Poland arrests suspect linked to Phobos ransomware operation
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T11:31:37Z
-- URL: https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/
-
-Polish police have detained a 47-year-old man suspected of ties to the Phobos ransomware group and seized computers and mobile phones containing stolen credentials, credit card numbers, and server access data. [...]
-
 ## President George Washington’s Birthday, 2026
 - Source: White House
 - Category: Executive
@@ -13224,6 +13218,12 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Category: IS
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
+
+## Poland arrests suspect linked to Phobos ransomware operation
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/
 
 ## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
 - Source: Visa

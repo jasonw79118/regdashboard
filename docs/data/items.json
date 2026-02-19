@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-05T09:55:07Z",
-  "window_end": "2026-02-19T09:55:07Z",
-  "generated_at_utc": "2026-02-19T09:55:07Z",
-  "generated_at_ct": "2026-02-19T03:55:07-06:00",
+  "window_start": "2026-02-05T10:51:27Z",
+  "window_end": "2026-02-19T10:51:27Z",
+  "generated_at_utc": "2026-02-19T10:51:27Z",
+  "generated_at_ct": "2026-02-19T04:51:27-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "New 'Massiv' Android banking malware poses as an IPTV app",
+      "published_at": "2026-02-19T10:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/",
+      "summary": "A newly identified Android banking trojan named Massiv has been under active distribution across south Europe, disguised as an IPTV app. [...]"
+    },
     {
       "category": "IS",
       "source": "Microsoft MSRC",
@@ -35,14 +43,6 @@
       "published_at": "2026-02-19T02:49:08Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2314",
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New 'Massiv' Android banking malware poses as an IPTV app",
-      "published_at": "2026-02-19T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/",
-      "summary": ""
     },
     {
       "category": "Federal Register",
@@ -13197,14 +13197,6 @@
       "summary": "A newly discovered and sophisticated Android malware called Keenadu has been found embedded in firmware from multiple device brands, enabling it to compromise all installed applications and gain unrestricted control over infected devices. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Poland arrests suspect linked to Phobos ransomware operation",
-      "published_at": "2026-02-17T11:31:37Z",
-      "url": "https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/",
-      "summary": "Polish police have detained a 47-year-old man suspected of ties to the Phobos ransomware group and seized computers and mobile phones containing stolen credentials, credit card numbers, and server access data. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "President George Washington’s Birthday, 2026",
@@ -13282,6 +13274,14 @@
       "title": "3 years of web hosting is currently just $50 in this lifetime deal",
       "published_at": "2026-02-17T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Poland arrests suspect linked to Phobos ransomware operation",
+      "published_at": "2026-02-17T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/",
       "summary": ""
     },
     {
