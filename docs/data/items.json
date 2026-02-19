@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-05T10:51:27Z",
-  "window_end": "2026-02-19T10:51:27Z",
-  "generated_at_utc": "2026-02-19T10:51:27Z",
-  "generated_at_ct": "2026-02-19T04:51:27-06:00",
+  "window_start": "2026-02-05T11:42:01Z",
+  "window_end": "2026-02-19T11:42:01Z",
+  "generated_at_utc": "2026-02-19T11:42:01Z",
+  "generated_at_ct": "2026-02-19T05:42:01-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Police arrests 651 suspects in African cybercrime crackdown",
+      "published_at": "2026-02-19T11:24:17Z",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/",
+      "summary": "African authorities arrested 651 suspects and recovered over $4.3 million in a joint operation targeting investment fraud, mobile money scams, and fake loan applications. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -13189,14 +13197,6 @@
       "summary": "Leaked API keys are nothing new, but the scale of the problem in front-end code has been largely a mystery - until now. Intruder's research team built a new secrets detection method and scanned 5 million applications specifically looking for secrets hidden in JavaScript bundles. Here's what we learned. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New Keenadu backdoor found in Android firmware, Google Play apps",
-      "published_at": "2026-02-17T14:05:25Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-keenadu-backdoor-found-in-android-firmware-google-play-apps/",
-      "summary": "A newly discovered and sophisticated Android malware called Keenadu has been found embedded in firmware from multiple device brands, enabling it to compromise all installed applications and gain unrestricted control over infected devices. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "President George Washington’s Birthday, 2026",
@@ -13271,17 +13271,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "3 years of web hosting is currently just $50 in this lifetime deal",
+      "title": "New Keenadu backdoor found in Android firmware, Google Play apps",
       "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/",
+      "url": "https://www.bleepingcomputer.com/news/security/new-keenadu-backdoor-found-in-android-firmware-google-play-apps/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Poland arrests suspect linked to Phobos ransomware operation",
+      "title": "3 years of web hosting is currently just $50 in this lifetime deal",
       "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/",
+      "url": "https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/",
       "summary": ""
     },
     {

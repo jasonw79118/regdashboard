@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T10:51:27Z` → `2026-02-19T10:51:27Z` (UTC)
-Last updated: `2026-02-19T04:51:27-06:00` (CT) — `2026-02-19T10:51:27Z` (UTC)
+Window: `2026-02-05T11:42:01Z` → `2026-02-19T11:42:01Z` (UTC)
+Last updated: `2026-02-19T05:42:01-06:00` (CT) — `2026-02-19T11:42:01Z` (UTC)
+
+## Police arrests 651 suspects in African cybercrime crackdown
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T11:24:17Z
+- URL: https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
+
+African authorities arrested 651 suspects and recovered over $4.3 million in a joint operation targeting investment fraud, mobile money scams, and fake loan applications. [...]
 
 ## New 'Massiv' Android banking malware poses as an IPTV app
 - Source: BleepingComputer
@@ -13143,14 +13151,6 @@ Improper authentication in Windows Admin Center allows an authorized attacker to
 
 Leaked API keys are nothing new, but the scale of the problem in front-end code has been largely a mystery - until now. Intruder's research team built a new secrets detection method and scanned 5 million applications specifically looking for secrets hidden in JavaScript bundles. Here's what we learned. [...]
 
-## New Keenadu backdoor found in Android firmware, Google Play apps
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T14:05:25Z
-- URL: https://www.bleepingcomputer.com/news/security/new-keenadu-backdoor-found-in-android-firmware-google-play-apps/
-
-A newly discovered and sophisticated Android malware called Keenadu has been found embedded in firmware from multiple device brands, enabling it to compromise all installed applications and gain unrestricted control over infected devices. [...]
-
 ## President George Washington’s Birthday, 2026
 - Source: White House
 - Category: Executive
@@ -13213,17 +13213,17 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-hide-your-ip-with-this-adguard-40-family-suite-deal/
 
+## New Keenadu backdoor found in Android firmware, Google Play apps
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/new-keenadu-backdoor-found-in-android-firmware-google-play-apps/
+
 ## 3 years of web hosting is currently just $50 in this lifetime deal
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
-
-## Poland arrests suspect linked to Phobos ransomware operation
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/
 
 ## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
 - Source: Visa

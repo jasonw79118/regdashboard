@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-02-19T11:24:17Z
+Police arrests 651 suspects in African cybercrime crackdown
+https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
+African authorities arrested 651 suspects and recovered over $4.3 million in a joint operation targeting investment fraud, mobile money scams, and fake loan applications. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-19T10:00:00Z
 New 'Massiv' Android banking malware poses as an IPTV app
 https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
@@ -11512,13 +11519,6 @@ What 5 Million Apps Revealed About Secrets in JavaScript
 https://www.bleepingcomputer.com/news/security/what-5-million-apps-revealed-about-secrets-in-javascript/
 Leaked API keys are nothing new, but the scale of the problem in front-end code has been largely a mystery - until now. Intruder's research team built a new secrets detection method and scanned 5 million applications specifically looking for secrets hidden in JavaScript bundles. Here's what we learned. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-17T14:05:25Z
-New Keenadu backdoor found in Android firmware, Google Play apps
-https://www.bleepingcomputer.com/news/security/new-keenadu-backdoor-found-in-android-firmware-google-play-apps/
-A newly discovered and sophisticated Android malware called Keenadu has been found embedded in firmware from multiple device brands, enabling it to compromise all installed applications and gain unrestricted control over infected devices. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-02-17T01:09:15Z
@@ -11580,14 +11580,14 @@ https://www.bleepingcomputer.com/offer/deals/block-ads-and-hide-your-ip-with-thi
 IS
 BleepingComputer
 2026-02-17T00:00:00Z
-3 years of web hosting is currently just $50 in this lifetime deal
-https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
+New Keenadu backdoor found in Android firmware, Google Play apps
+https://www.bleepingcomputer.com/news/security/new-keenadu-backdoor-found-in-android-firmware-google-play-apps/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-17T00:00:00Z
-Poland arrests suspect linked to Phobos ransomware operation
-https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/
+3 years of web hosting is currently just $50 in this lifetime deal
+https://www.bleepingcomputer.com/offer/deals/3-years-of-web-hosting-is-currently-just-50-in-this-lifetime-deal/
 ------------------------------------------------------------
 Payment Card Networks
 Visa
