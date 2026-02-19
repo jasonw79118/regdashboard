@@ -1096,6 +1096,70 @@ def _fedreg_params_for_filter(
     return params
 
 
+def _fedreg_pretty_slug(s: str) -> str:
+    # "truth-lending" -> "Truth Lending"
+    s = (s or "").strip()
+    s = s.replace("_", "-")
+    s = re.sub(r"-{2,}", "-", s)
+    s = s.replace("-", " ")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s.title() if s else ""
+
+
+def _fedreg_group_from_agencies(agencies: Any) -> Optional[str]:
+    # agencies is typically a list of dicts like {"id":..., "name":..., "slug":...}
+    try:
+        if not agencies or not isinstance(agencies, list):
+            return None
+        names: List[str] = []
+        for a in agencies:
+            if not isinstance(a, dict):
+                continue
+            nm = str(a.get("name") or "").strip()
+            if nm:
+                names.append(nm)
+        if not names:
+            return None
+        # Keep it readable (avoid 6+ agencies blowing up the UI)
+        if len(names) == 1:
+            return names[0]
+        if len(names) == 2:
+            return f"{names[0]} + {names[1]}"
+        return f"{names[0]} + {names[1]} +{len(names)-2}"
+    except Exception:
+        return None
+
+
+def _fedreg_group_label(kind: str, value: str, agencies: Any) -> Tuple[str, str]:
+    """
+    Returns (group_type, group_label)
+    group_type: "agency" | "topic" | "section" | "filter"
+    """
+    agency_label = _fedreg_group_from_agencies(agencies)
+    if agency_label:
+        return "agency", agency_label
+
+    k = (kind or "").strip().lower()
+    v = (value or "").strip()
+    pretty = _fedreg_pretty_slug(v)
+
+    if k == "topics":
+        return "topic", (pretty or v)
+    if k == "agencies":
+        return "agency", (pretty or v)
+    if k == "sections":
+        return "section", (pretty or v)
+
+    return "filter", (pretty or v or "Federal Register")
+
+
+def _fedreg_source_for_group(group_label: str) -> str:
+    gl = (group_label or "").strip()
+    if not gl:
+        return "Federal Register"
+    return f"Federal Register • {gl}"
+
+
 def items_from_federal_register_topics(start: datetime, end: datetime) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
 
@@ -1180,14 +1244,21 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
 
                     abstract = clean_text(str(r.get("abstract") or ""), 380)
 
+                    agencies = r.get("agencies")
+                    group_type, group_label = _fedreg_group_label(kind, value, agencies)
+                    grouped_source = _fedreg_source_for_group(group_label)
+
                     out.append(
                         {
-                            "category": CATEGORY_BY_SOURCE.get("Federal Register", "Federal Register"),
-                            "source": "Federal Register",
+                            "category": "Federal Register",
+                            "source": grouped_source,  # ✅ group key for your tile
                             "title": title,
                             "published_at": iso_z(dt),
                             "url": url,
                             "summary": abstract,
+                            # extra metadata (safe if frontend ignores)
+                            "fedreg_group": group_label,
+                            "fedreg_group_type": group_type,
                         }
                     )
 
@@ -2216,6 +2287,92 @@ def mambu_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
 
 
 # ============================
+# ✅ NEW: Finastra listing extractor (fixes "Read the article" titles)
+# ============================
+
+FINASTRA_DETAIL_RE = re.compile(r"^/press-media/[a-z0-9\-]+", re.I)
+
+def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    # Finastra "media room" cards frequently have a CTA link text like "Read the article"
+    for a in container.select('a[href^="/press-media/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+        if not FINASTRA_DETAIL_RE.match(href):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("Finastra", url):
+            continue
+
+        raw = (a.get_text(" ", strip=True) or "").strip()
+        if not raw:
+            raw = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
+
+        # If the link is just the CTA, pull the headline from the surrounding card.
+        tl = (raw or "").strip().lower()
+        if tl in {"read the article", "read article", "read more", "learn more", "more", "details"}:
+            wrap = a.find_parent(["article", "li", "div", "section"]) or a.parent
+            title = ""
+            if wrap:
+                h = wrap.find(["h1", "h2", "h3", "h4"])
+                if h:
+                    title = clean_text(h.get_text(" ", strip=True), 220)
+
+                # fallback: sometimes headline is in a strong/span instead of heading tag
+                if not title:
+                    for sel in ["strong", ".title", ".headline", "[class*='title']", "[class*='headline']"]:
+                        try:
+                            el = wrap.select_one(sel)
+                        except Exception:
+                            el = None
+                        if el and getattr(el, "get_text", None):
+                            cand = clean_text(el.get_text(" ", strip=True), 220)
+                            if cand and cand.lower() not in {"read the article", "read more", "learn more"}:
+                                title = cand
+                                break
+
+            if not title:
+                # last resort: use a non-generic label
+                title = "Finastra press article"
+        else:
+            title = clean_text(raw, 220)
+
+        if not title or len(title) < 8:
+            continue
+        if is_probably_nav_link("Finastra", title, url):
+            continue
+        if is_generic_listing_or_home("Finastra", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = find_time_near_anchor(a, "Finastra")
+        if dt is None:
+            wrap = a.find_parent(["article", "li", "div", "section", "p"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 900), source="Finastra")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
+
+# ============================
 # MAIN CONTENT LINK ROUTER
 # ============================
 
@@ -2244,6 +2401,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return tcs_links(page_url, html)
     if source == "Mambu":
         return mambu_links(page_url, html)
+    if source == "Finastra":
+        return finastra_links(page_url, html)
 
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup)
@@ -2619,6 +2778,20 @@ def write_raw_aux_files() -> None:
 # BUILD
 # ============================
 
+def _fedreg_group_rank(it: Dict[str, Any]) -> int:
+    # Higher is better
+    if str(it.get("category") or "") != "Federal Register":
+        return 0
+    gt = str(it.get("fedreg_group_type") or "").strip().lower()
+    if gt == "agency":
+        return 3
+    if gt == "topic":
+        return 2
+    if gt == "section":
+        return 1
+    return 0
+
+
 def build() -> None:
     now_utc = utc_now()
     now_ct = now_utc.astimezone(CENTRAL_TZ).replace(microsecond=0)
@@ -2755,14 +2928,26 @@ def build() -> None:
         if gained == 0:
             print("[note] no qualifying items in rolling window (or blocked/changed).", flush=True)
 
+    # ---- DEDUPE (with preference rules) ----
     dedup: Dict[str, Dict[str, Any]] = {}
     for it in sorted(all_items, key=lambda x: x["published_at"], reverse=True):
         key = canonical_url(it["url"])
         if key not in dedup:
             dedup[key] = it
-        else:
-            if (not dedup[key].get("summary")) and it.get("summary"):
+            continue
+
+        cur = dedup[key]
+
+        # Prefer Federal Register item with better grouping (agency > topic > section > other)
+        if str(it.get("category") or "") == "Federal Register" and str(cur.get("category") or "") == "Federal Register":
+            if _fedreg_group_rank(it) > _fedreg_group_rank(cur):
                 dedup[key] = it
+                continue
+
+        # Prefer summary-filled versions
+        if (not cur.get("summary")) and it.get("summary"):
+            dedup[key] = it
+            continue
 
     items = list(dedup.values())
     items.sort(key=lambda x: x["published_at"], reverse=True)
