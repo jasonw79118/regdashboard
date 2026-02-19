@@ -1,7 +1,12 @@
 # RegDashboard — Export
 
+<<<<<<< HEAD
 Window: `2026-02-05T19:45:32Z` → `2026-02-19T19:45:32Z` (UTC)
 Last updated: `2026-02-19T13:45:32-06:00` (CT) — `2026-02-19T19:45:32Z` (UTC)
+=======
+Window: `2026-02-05T19:44:32Z` → `2026-02-19T19:44:32Z` (UTC)
+Last updated: `2026-02-19T13:44:32-06:00` (CT) — `2026-02-19T19:44:32Z` (UTC)
+>>>>>>> dbdad3b (correct finastra titles.)
 
 ## Treasury Releases Two New Resources to Guide AI Use in the Financial Sector
 - Source: Treasury
@@ -16208,60 +16213,6 @@ The Coast Guard is modifying the operating regulation that governs the Point No 
 - Category: OFAC
 - Published: 2026-02-10T15:05:03Z
 - URL: https://home.treasury.gov/news/press-releases/sb0392
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/mexico-among-leading-countries-application-ai-financial-sector-according-research
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/finastra-research-reveals-us-financial-institutions-outpace-global-peers-ai-adoption
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-saudi-arabia-banks-move-experimentation-execution-finds
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-uae-banks-move-experimentation-execution-finds-finastra
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/german-financial-institutions-are-rapidly-embracing-ai-and-modernization-finastra
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/94-french-financial-institutions-use-or-plan-use-ai-and-are-now-focusing-operational
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-just-2-financial-institutions-report-no-ai-use-finds-finastra
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/finastra-research-finds-ai-adoption-rising-vietnams-financial-sector-security-and
-
-## Read the article
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/one-ten-firms-japan-have-yet-deploy-ai-talent-availability-hinders-scaling-finds
 
 ## The Future of Consumer Reporting starts at CDIA Connect- New Sessions Announced!
 - Source: CDIA

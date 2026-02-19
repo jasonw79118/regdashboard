@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "window_start": "2026-02-05T19:45:32Z",
   "window_end": "2026-02-19T19:45:32Z",
   "generated_at_utc": "2026-02-19T19:45:32Z",
   "generated_at_ct": "2026-02-19T13:45:32-06:00",
+=======
+  "window_start": "2026-02-05T19:44:32Z",
+  "window_end": "2026-02-19T19:44:32Z",
+  "generated_at_utc": "2026-02-19T19:44:32Z",
+  "generated_at_ct": "2026-02-19T13:44:32-06:00",
+>>>>>>> dbdad3b (correct finastra titles.)
   "items": [
     {
       "category": "OFAC",
@@ -16554,78 +16561,6 @@
       "title": "U.S.-UK Transatlantic Taskforce for Markets of the Future Hosts Industry Engagement Day in London",
       "published_at": "2026-02-10T15:05:03Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0392",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/mexico-among-leading-countries-application-ai-financial-sector-according-research",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/finastra-research-reveals-us-financial-institutions-outpace-global-peers-ai-adoption",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/ai-tipping-point-reached-saudi-arabia-banks-move-experimentation-execution-finds",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/ai-tipping-point-reached-uae-banks-move-experimentation-execution-finds-finastra",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/german-financial-institutions-are-rapidly-embracing-ai-and-modernization-finastra",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/94-french-financial-institutions-use-or-plan-use-ai-and-are-now-focusing-operational",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/ai-tipping-point-reached-just-2-financial-institutions-report-no-ai-use-finds-finastra",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/finastra-research-finds-ai-adoption-rising-vietnams-financial-sector-security-and",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Read the article",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/one-ten-firms-japan-have-yet-deploy-ai-talent-availability-hinders-scaling-finds",
       "summary": ""
     },
     {
