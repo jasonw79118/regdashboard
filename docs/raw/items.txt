@@ -18,6 +18,13 @@ https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-a
 A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]
 ------------------------------------------------------------
 IS
+BleepingComputer
+2026-02-19T17:00:00Z
+Google blocked over 1.75 million Play Store app submissions in 2025
+https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/
+Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]
+------------------------------------------------------------
+IS
 Microsoft MSRC
 2026-02-19T16:00:00Z
 CVE-2026-21528 Azure IoT Explorer Information Disclosure Vulnerability
@@ -227,6 +234,12 @@ Visa
 2026-02-19T00:00:00Z
 Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
 https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-19T00:00:00Z
+Train for CompTIA, AWS, Cisco & more with this $40 course deal
+https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -3669,13 +3682,6 @@ Microsoft MSRC
 CVE-2025-0840 GNU Binutils objdump.c disassemble_bytes stack-based overflow
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0840
 Information published.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T10:50:50Z
-Glendale man gets 5 years in prison for role in darknet drug ring
-https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/
-​A Glendale man was sentenced to nearly five years in federal prison for his role in a darknet drug trafficking operation that sold cocaine, methamphetamine, MDMA, and ketamine to customers across the United States. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -12036,6 +12042,12 @@ BleepingComputer
 If you need a spare laptop, this refurbished Chromebook is just $80
 https://www.bleepingcomputer.com/offer/deals/if-you-need-a-spare-laptop-this-refurbished-chromebook-is-just-80/
 ------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-18T00:00:00Z
+Glendale man gets 5 years in prison for role in darknet drug ring
+https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/
+------------------------------------------------------------
 Federal Register
 Federal Register
 2026-02-18T00:00:00Z
@@ -13547,18 +13559,6 @@ BleepingComputer
 2026-02-17T00:00:00Z
 Spain orders NordVPN, ProtonVPN to block LaLiga piracy sites
 https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-17T00:00:00Z
-Flaws in popular VSCode extensions expose developers to attacks
-https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-17T00:00:00Z
-Chinese hackers exploiting Dell zero-day flaw since mid-2024
-https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/
 ------------------------------------------------------------
 Compliance Watch
 CDIA

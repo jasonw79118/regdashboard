@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-05T18:54:15Z` → `2026-02-19T18:54:15Z` (UTC)
-Last updated: `2026-02-19T12:54:15-06:00` (CT) — `2026-02-19T18:54:15Z` (UTC)
+Window: `2026-02-05T19:09:11Z` → `2026-02-19T19:09:11Z` (UTC)
+Last updated: `2026-02-19T13:09:11-06:00` (CT) — `2026-02-19T19:09:11Z` (UTC)
 
 ## President Trump Returns to Georgia: Delivering Real Relief for Families, With Much More on the Way
 - Source: White House
@@ -22,6 +22,14 @@ Last updated: `2026-02-19T12:54:15-06:00` (CT) — `2026-02-19T18:54:15Z` (UTC)
 - URL: https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/
 
 A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]
+
+## Google blocked over 1.75 million Play Store app submissions in 2025
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T17:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/
+
+Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]
 
 ## CVE-2026-21528 Azure IoT Explorer Information Disclosure Vulnerability
 - Source: Microsoft MSRC
@@ -246,6 +254,12 @@ National banks are among the most highly regulated institutions in the country, 
 - Category: Payment Card Networks
 - Published: 2026-02-19T00:00:00Z
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
+
+## Train for CompTIA, AWS, Cisco & more with this $40 course deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/
 
 ## General Provisions
 - Source: Federal Register
@@ -4160,14 +4174,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0840
 
 Information published.
-
-## Glendale man gets 5 years in prison for role in darknet drug ring
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-18T10:50:50Z
-- URL: https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/
-
-​A Glendale man was sentenced to nearly five years in federal prison for his role in a darknet drug trafficking operation that sold cocaine, methamphetamine, MDMA, and ketamine to customers across the United States. [...]
 
 ## CVE-2024-0567 Gnutls: rejects certificate chain with distributed trust
 - Source: Microsoft MSRC
@@ -13717,6 +13723,12 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-02-18T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/if-you-need-a-spare-laptop-this-refurbished-chromebook-is-just-80/
 
+## Glendale man gets 5 years in prison for role in darknet drug ring
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/
+
 ## Determination That TOLECTIN DS (Tolmetin Sodium) Capsule, Equivalent to 400 Milligrams Base, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness
 - Source: Federal Register
 - Category: Federal Register
@@ -15282,18 +15294,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Category: IS
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/
-
-## Flaws in popular VSCode extensions expose developers to attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/
-
-## Chinese hackers exploiting Dell zero-day flaw since mid-2024
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/
 
 ## Education Services
 - Source: CDIA

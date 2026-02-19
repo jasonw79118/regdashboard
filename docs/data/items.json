@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-05T18:54:15Z",
-  "window_end": "2026-02-19T18:54:15Z",
-  "generated_at_utc": "2026-02-19T18:54:15Z",
-  "generated_at_ct": "2026-02-19T12:54:15-06:00",
+  "window_start": "2026-02-05T19:09:11Z",
+  "window_end": "2026-02-19T19:09:11Z",
+  "generated_at_utc": "2026-02-19T19:09:11Z",
+  "generated_at_ct": "2026-02-19T13:09:11-06:00",
   "items": [
     {
       "category": "Executive",
@@ -27,6 +27,14 @@
       "published_at": "2026-02-19T17:16:32Z",
       "url": "https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/",
       "summary": "A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Google blocked over 1.75 million Play Store app submissions in 2025",
+      "published_at": "2026-02-19T17:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/",
+      "summary": "Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]"
     },
     {
       "category": "IS",
@@ -290,6 +298,14 @@
       "title": "Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth",
       "published_at": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Train for CompTIA, AWS, Cisco & more with this $40 course deal",
+      "published_at": "2026-02-19T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/",
       "summary": ""
     },
     {
@@ -4251,14 +4267,6 @@
       "published_at": "2026-02-18T10:50:51Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0840",
       "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Glendale man gets 5 years in prison for role in darknet drug ring",
-      "published_at": "2026-02-18T10:50:50Z",
-      "url": "https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/",
-      "summary": "​A Glendale man was sentenced to nearly five years in federal prison for his role in a darknet drug trafficking operation that sold cocaine, methamphetamine, MDMA, and ketamine to customers across the United States. [...]"
     },
     {
       "category": "IS",
@@ -13821,6 +13829,14 @@
       "summary": ""
     },
     {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Glendale man gets 5 years in prison for role in darknet drug ring",
+      "published_at": "2026-02-18T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/",
+      "summary": ""
+    },
+    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Determination That TOLECTIN DS (Tolmetin Sodium) Capsule, Equivalent to 400 Milligrams Base, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
@@ -15762,22 +15778,6 @@
       "title": "Spain orders NordVPN, ProtonVPN to block LaLiga piracy sites",
       "published_at": "2026-02-17T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Flaws in popular VSCode extensions expose developers to attacks",
-      "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Chinese hackers exploiting Dell zero-day flaw since mid-2024",
-      "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/",
       "summary": ""
     },
     {
