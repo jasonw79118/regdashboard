@@ -67,8 +67,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "TCS": 25,
     "OFAC": 45,
     "Treasury": 60,
-        "FinCEN": 45,
-"OCC": 25,
+    "OCC": 25,
     "FDIC": 25,
     "FRB": 30,
     "NACHA": 25,
@@ -97,7 +96,6 @@ UA = "regdashboard/4.2 (+https://github.com/jasonw79118/regdashboard)"
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
     "Treasury": "OFAC",
-    "FinCEN": "OFAC",
     "IRS": "IRS",
 
     # Payments tile
@@ -168,6 +166,7 @@ RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
 
     {"kind": "agencies", "value": "consumer-financial-protection-bureau"},
     {"kind": "agencies", "value": "federal-deposit-insurance-corporation"},
+    {"kind": "sections", "value": "business-and-industry"},
 
     {"kind": "topics", "value": "child-labor"},
     {"kind": "topics", "value": "credit"},
@@ -563,8 +562,11 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         read_timeout = 40
     if "federalregister.gov" in h:
         read_timeout = 35
-    if "tcs.com" in h:
+    if "tcs\.com" in h:
         read_timeout = 40
+
+    if "ir.jackhenry.com" in h:
+        read_timeout = max(read_timeout, 65)
 
     try:
         time.sleep(REQUEST_DELAY_SEC)
@@ -696,6 +698,29 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 print(f"[warn] proxy GET failed: {proxy_url} :: {e}", flush=True)
             return None
 
+        # ✅ Jack Henry IR: frequent disconnects/slow responses -> proxy retry on errors
+        if ("ir.jackhenry.com" in h) and (r.status_code in (403, 429) or r.status_code >= 500):
+            print(f"[warn] GET {r.status_code}: {url} (retrying via proxy)", flush=True)
+            proxy_url = _jina_proxy_url(url)
+            try:
+                time.sleep(REQUEST_DELAY_SEC)
+                pr = SESSION.get(
+                    proxy_url,
+                    headers={"User-Agent": browser_ua, "Accept": "text/html,application/xhtml+xml,*/*"},
+                    timeout=(10, max(read_timeout, 70)),
+                    allow_redirects=True,
+                )
+                if pr.status_code < 400:
+                    txtp = pr.text or ""
+                    if not looks_like_error_html(txtp):
+                        return txtp
+                    print(f"[warn] proxy returned error-like content: {url}", flush=True)
+                else:
+                    print(f"[warn] proxy GET {pr.status_code}: {proxy_url}", flush=True)
+            except Exception as e:
+                print(f"[warn] proxy GET failed: {proxy_url} :: {e}", flush=True)
+            return None
+
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
             return None
@@ -708,6 +733,24 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         return txt
     except Exception as e:
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
+        # ✅ Jack Henry IR: fallback to proxy on timeouts / disconnects
+        try:
+            if "ir.jackhenry.com" in host(url):
+                proxy_url = _jina_proxy_url(url)
+                print(f"[warn] retrying via proxy: {url}", flush=True)
+                time.sleep(REQUEST_DELAY_SEC)
+                pr = SESSION.get(
+                    proxy_url,
+                    headers={"User-Agent": "Mozilla/5.0", "Accept": "text/html,application/xhtml+xml,*/*"},
+                    timeout=(10, 75),
+                    allow_redirects=True,
+                )
+                if pr.status_code < 400:
+                    txtp = pr.text or ""
+                    if not looks_like_error_html(txtp):
+                        return txtp
+        except Exception as _:
+            pass
         return None
 
 
@@ -838,7 +881,7 @@ def extract_any_date(text: str, source: str = "") -> Optional[datetime]:
 
 NAV_TITLE_RE = re.compile(
     r"^\s*(home|current page|page\s*\d+|next|previous|prev|older|newer|"
-    r"first|last|back|top|menu|breadcrumb|view all|all|show more|load more|more|more\s*more|moremore)\s*$",
+    r"first|last|back|top|menu|breadcrumb|view all|all|show more|load more)\s*$",
     re.I,
 )
 
@@ -866,10 +909,6 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
     if not t:
         return True
 
-
-    # OCC (and others) sometimes include non-article CTA links like "More", "More More"
-    if t.lower().strip() in {"more", "more more", "moremore"}:
-        return True
     if NAV_TITLE_RE.match(t):
         return True
 
