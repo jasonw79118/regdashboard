@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-06T21:02:18Z` → `2026-02-20T21:02:18Z` (UTC)
-Last updated: `2026-02-20T15:02:18-06:00` (CT) — `2026-02-20T21:02:18Z` (UTC)
+Window: `2026-02-06T21:18:46Z` → `2026-02-20T21:18:46Z` (UTC)
+Last updated: `2026-02-20T15:18:46-06:00` (CT) — `2026-02-20T21:18:46Z` (UTC)
 
 ## Secretary of the Treasury Scott Bessent’s Remarks Before the Economic Club of Dallas - Economic Security First
 - Source: Treasury
@@ -148,6 +148,12 @@ A Ukrainian national was sentenced to five years in prison for providing North K
 - URL: https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill
 
 IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
+
+## MPF Announcement Summary 2026-S01
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-summary-2026-s01
 
 ## Warren Response to Trump Press Conference on Chaotic Tariffs
 - Source: Senate Banking
@@ -810,14 +816,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: Banking
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-19T00:00:00Z
-- URL: https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html
-
-National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities.
 
 ## Average 30-Year Fixed-Rate Mortgage Hits Another Low
 - Source: Freddie Mac
@@ -14275,12 +14273,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 The Federal Reserve Board of Governors in Washington DC.
 
-## MPF Announcement Summary 2026-S01
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-summary-2026-s01
-
 ## MPF Announcement 2026-08
 - Source: FHLB MPF
 - Category: Mortgage
@@ -14828,14 +14820,6 @@ The Office of the Comptroller of the Currency (OCC) today requested comment on a
 - Category: Banking
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html
-
-The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations.
 
 ## Data and Insights
 - Source: Fannie Mae
@@ -16265,30 +16249,6 @@ Download links fixed
 - Published: 2026-02-13T12:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0394
 
-## FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams
-- Source: FinCEN
-- Category: OFAC
-- Published: 2026-02-13T12:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026
-
-In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams.
-
-## FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
-- Source: FinCEN
-- Category: OFAC
-- Published: 2026-02-13T12:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions
-
-The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations.
-
-## FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements
-- Source: FinCEN
-- Category: OFAC
-- Published: 2026-02-13T12:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements
-
-Relief Reduces Burdensome and Duplicative Regulatory Requirement
-
 ## Issuance of Venezuela-related General Licenses
 - Source: OFAC
 - Category: OFAC
@@ -16888,14 +16848,6 @@ IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Re
 - URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
 
 The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.occ.gov/topics/economics/index-economics.html
-
-The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 
 ## Mortgage Rates Inch Down
 - Source: Freddie Mac
@@ -19132,9 +19084,3 @@ The Environmental Protection Agency (EPA) is revising the format for materials t
 - Category: Executive
 - Published: 2026-02-06T21:33:14Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/unleashing-american-commercial-fishing-in-the-atlantic/
-
-## Ensuring Affordable Beef for the American Consumer
-- Source: White House
-- Category: Executive
-- Published: 2026-02-06T21:18:13Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/

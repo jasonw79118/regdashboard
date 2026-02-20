@@ -67,8 +67,8 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "TCS": 25,
     "OFAC": 45,
     "Treasury": 60,
-    "FinCEN": 45,
-    "OCC": 25,
+        "FinCEN": 45,
+"OCC": 25,
     "FDIC": 25,
     "FRB": 30,
     "NACHA": 25,
@@ -284,12 +284,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     "Treasury": {
         "allow_domains": {"home.treasury.gov"},
         "allow_path_prefixes": {"/news/press-releases"},
-    },
-
-    "FinCEN": {
-        "allow_domains": {"www.fincen.gov"},
-        # Landing pages + individual releases
-        "allow_path_prefixes": {"/news/press-releases", "/news/news-releases", "/news/news-releases/"},
     },
 
     "White House": {
@@ -845,7 +839,7 @@ def extract_any_date(text: str, source: str = "") -> Optional[datetime]:
 
 NAV_TITLE_RE = re.compile(
     r"^\s*(home|current page|page\s*\d+|next|previous|prev|older|newer|"
-    r"first|last|back|top|menu|breadcrumb|view all|all|show more|load more)\s*$",
+    r"first|last|back|top|menu|breadcrumb|view all|all|show more|load more|more|more\s*more|moremore)\s*$",
     re.I,
 )
 
@@ -873,6 +867,10 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
     if not t:
         return True
 
+
+    # OCC (and others) sometimes include non-article CTA links like "More", "More More"
+    if t.lower().strip() in {"more", "more more", "moremore"}:
+        return True
     if NAV_TITLE_RE.match(t):
         return True
 
@@ -2566,10 +2564,6 @@ def get_start_pages() -> List[SourcePage]:
 
         # Treasury Press Releases (OFAC tile)
         SourcePage("Treasury", "https://home.treasury.gov/news/press-releases"),
-
-        # FinCEN (OFAC, Sanctions & AML tile)
-        SourcePage("FinCEN", "https://www.fincen.gov/news/news-releases"),
-        SourcePage("FinCEN", "https://www.fincen.gov/news/press-releases"),
 
         # IRS
         SourcePage("IRS", "https://www.irs.gov/newsroom"),

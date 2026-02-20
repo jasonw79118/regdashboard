@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-06T21:02:18Z",
-  "window_end": "2026-02-20T21:02:18Z",
-  "generated_at_utc": "2026-02-20T21:02:18Z",
-  "generated_at_ct": "2026-02-20T15:02:18-06:00",
+  "window_start": "2026-02-06T21:18:46Z",
+  "window_end": "2026-02-20T21:18:46Z",
+  "generated_at_utc": "2026-02-20T21:18:46Z",
+  "generated_at_ct": "2026-02-20T15:18:46-06:00",
   "items": [
     {
       "category": "OFAC",
@@ -163,6 +163,14 @@
       "published_at": "2026-02-20T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill",
       "summary": "IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill."
+    },
+    {
+      "category": "Mortgage",
+      "source": "FHLB MPF",
+      "title": "MPF Announcement Summary 2026-S01",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-summary-2026-s01",
+      "summary": ""
     },
     {
       "category": "Legislative",
@@ -1216,14 +1224,6 @@
       "published_at": "2026-02-19T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html",
       "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "More More",
-      "published_at": "2026-02-19T00:00:00Z",
-      "url": "https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html",
-      "summary": "National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities."
     },
     {
       "category": "Mortgage",
@@ -15161,14 +15161,6 @@
     {
       "category": "Mortgage",
       "source": "FHLB MPF",
-      "title": "MPF Announcement Summary 2026-S01",
-      "published_at": "2026-02-18T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-summary-2026-s01",
-      "summary": ""
-    },
-    {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
       "title": "MPF Announcement 2026-08",
       "published_at": "2026-02-18T00:00:00Z",
       "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-08",
@@ -16125,14 +16117,6 @@
       "published_at": "2026-02-17T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html",
       "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "More More",
-      "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html",
-      "summary": "The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations."
     },
     {
       "category": "Mortgage",
@@ -18244,30 +18228,6 @@
     },
     {
       "category": "OFAC",
-      "source": "FinCEN",
-      "title": "FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams",
-      "published_at": "2026-02-13T12:00:00Z",
-      "url": "https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026",
-      "summary": "In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams."
-    },
-    {
-      "category": "OFAC",
-      "source": "FinCEN",
-      "title": "FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
-      "published_at": "2026-02-13T12:00:00Z",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions",
-      "summary": "The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations."
-    },
-    {
-      "category": "OFAC",
-      "source": "FinCEN",
-      "title": "FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements",
-      "published_at": "2026-02-13T12:00:00Z",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements",
-      "summary": "Relief Reduces Burdensome and Duplicative Regulatory Requirement"
-    },
-    {
-      "category": "OFAC",
       "source": "OFAC",
       "title": "Issuance of Venezuela-related General Licenses",
       "published_at": "2026-02-13T00:00:00Z",
@@ -19341,14 +19301,6 @@
       "published_at": "2026-02-12T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html",
       "summary": "The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions."
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "More More",
-      "published_at": "2026-02-12T00:00:00Z",
-      "url": "https://www.occ.gov/topics/economics/index-economics.html",
-      "summary": "The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development."
     },
     {
       "category": "Mortgage",
@@ -22929,14 +22881,6 @@
       "title": "Unleashing American Commercial Fishing in the Atlantic",
       "published_at": "2026-02-06T21:33:14Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/unleashing-american-commercial-fishing-in-the-atlantic/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Ensuring Affordable Beef for the American Consumer",
-      "published_at": "2026-02-06T21:18:13Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/",
       "summary": ""
     }
   ]
