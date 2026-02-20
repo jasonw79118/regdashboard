@@ -37,6 +37,39 @@ header{
   text-align: center;
 }
 
+/* Header brand row (logo left, title centered) */
+.header-inner{
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0 6px;
+}
+
+.brand-logo{
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 52px;            /* keep consistent with spacer */
+  text-decoration: none;
+}
+
+.brand-logo img{
+  height: 44px;
+  width: 44px;
+  display: block;
+}
+
+.brand-text{
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.header-spacer{
+  width: 52px;            /* match .brand-logo width to center the title block */
+}
+
 header h1{
   margin: 0;
   font-size: clamp(28px, 3.2vw, 46px);

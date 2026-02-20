@@ -1,8 +1,464 @@
+IS
+BleepingComputer
+2026-02-20T14:45:54Z
+Why the shift left dream has become a nightmare for security and developers
+https://www.bleepingcomputer.com/news/security/why-the-shift-left-dream-has-become-a-nightmare-for-security-and-developers/
+The "shift left" approach has increased pressure on developers, as speed demands override security checks in modern CI pipelines. Qualys explains how analyzing 34,000 public container images revealed 7.3% were malicious and why security must be enforced at the infrastructure layer by default. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-20T13:12:01Z
+PayPal discloses data breach that exposed user info for 6 months
+https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/
+PayPal is notifying customers of a data breach after a software error in a loan application exposed their sensitive personal information, including Social Security numbers, for nearly 6 months last year. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-20T11:50:14Z
+Mississippi medical center closes all clinics after ransomware attack
+https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/
+The University of Mississippi Medical Center (UMMC) closed all its clinic locations statewide on Thursday following a ransomware attack. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-20T10:08:49Z
+FBI: Over $20 million stolen in surge of ATM malware attacks in 2025
+https://www.bleepingcomputer.com/news/security/fbi-over-20-million-stolen-in-surge-of-atm-malware-attacks-in-2025/
+The FBI warned that Americans lost more than $20 million last year amid a massive surge in ATM "jackpotting" attacks, in which criminals use malware to force cash machines to dispense money. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-20T09:00:15Z
+Ukrainian gets 5 years for helping North Koreans infiltrate US firms
+https://www.bleepingcomputer.com/news/security/ukrainian-gets-5-years-for-helping-north-koreans-infiltrate-us-firms/
+A Ukrainian national was sentenced to five years in prison for providing North Korean IT workers with stolen identities that helped them infiltrate U.S. companies. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-02-20T06:09:24Z
+U.S. Promotes AI Adoption, Sovereignty, and Exports at India AI Impact Summit
+https://www.whitehouse.gov/articles/2026/02/u-s-promotes-ai-adoption-sovereignty-and-exports-at-india-ai-impact-summit/
+------------------------------------------------------------
+Executive
+White House
+2026-02-20T06:05:38Z
+Remarks by Director Michael Kratsios at the India AI Impact Summit
+https://www.whitehouse.gov/articles/2026/02/remarks-by-director-michael-kratsios-at-the-india-ai-impact-summit/
+------------------------------------------------------------
 Executive
 White House
 2026-02-20T00:55:39Z
 Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia
 https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-20T00:00:00Z
+Learn a language with structure, not guesswork in this Babbel deal
+https://www.bleepingcomputer.com/offer/deals/learn-a-language-with-structure-not-guesswork-in-this-babbel-deal/
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Privacy Act of 1974; System of Records
+https://www.federalregister.gov/documents/2026/02/20/2026-03432/privacy-act-of-1974-system-of-records
+In accordance with the Privacy Act of 1974, as amended, the Federal Deposit Insurance Corporation (FDIC) is modifying an existing system of records, FDIC-035, Identity, Credential, and Access Management Records. This system of records is used by FDIC to manage the safety and security of FDIC resources, facilities, information technology systems, and other Federal government ag…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for the Sand Skink; Marion County, FL; Categorical Exclusion
+https://www.federalregister.gov/documents/2026/02/20/2026-03431/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-the-sand
+We, the Fish and Wildlife Service (Service), announce receipt of an application from Marion County Public Schools (applicant) for an incidental take permit (ITP) under the Endangered Species Act. The applicant requests the ITP to take the federally listed sand skink incidental to the construction of a municipal development in Marion County, Florida. We request public comment o…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Notice of Request for Extension of Approval of an Information Collection; Emergency Management Response System
+https://www.federalregister.gov/documents/2026/02/20/2026-03430/notice-of-request-for-extension-of-approval-of-an-information-collection-emergency-management
+In accordance with the Paperwork Reduction Act of 1995, this notice announces the Animal and Plant Health Inspection Service's intention to request an extension of approval of an information collection associated with the Emergency Management Response System.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Notice of Request for Revision to and Extension of Approval of an Information Collection; Control of African Swine Fever; Restrictions on the Movement of Swine Products and Swine Byproducts From Puerto Rico and the U.S.…
+https://www.federalregister.gov/documents/2026/02/20/2026-03429/notice-of-request-for-revision-to-and-extension-of-approval-of-an-information-collection-control-of
+In accordance with the Paperwork Reduction Act of 1995, this notice announces the Animal and Plant Health Inspection Service's intention to request a revision to and extension of approval of an information collection associated with control of African swine fever and restrictions on the movement of swine products and swine byproducts from Puerto Rico and the U.S. Virgin Island…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+General Conservation Plan for the Alabama Beach Mouse; Categorical Exclusion; Baldwin County, AL
+https://www.federalregister.gov/documents/2026/02/20/2026-03428/general-conservation-plan-for-the-alabama-beach-mouse-categorical-exclusion-baldwin-county-al
+We, the Fish and Wildlife Service (Service), announce receipt of an application from Lisa Eldredge, two from Sean and Dawn Carmichael, and one from Joseph and Sherrie Thompson (applicant/ applicants) for four separate incidental take permits (ITP) pursuant to the Endangered Species Act (ESA) and the National Environmental Policy Act under the Service's approved General Conserv…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+GreenFi Funds Trust and Mission Investment Advisors LLC
+https://www.federalregister.gov/documents/2026/02/20/2026-03426/greenfi-funds-trust-and-mission-investment-advisors-llc
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+The Gabelli Dividend & Income Trust, et al.
+https://www.federalregister.gov/documents/2026/02/20/2026-03425/the-gabelli-dividend-and-income-trust-et-al
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Certain Frozen Warmwater Shrimp From Thailand: Final Results of Antidumping Duty Administrative Review; 2023-2024
+https://www.federalregister.gov/documents/2026/02/20/2026-03424/certain-frozen-warmwater-shrimp-from-thailand-final-results-of-antidumping-duty-administrative
+The U.S. Department of Commerce (Commerce) determines that certain producers/exporters subject to this administrative review made sales of certain frozen warmwater shrimp (shrimp) from Thailand at less than normal value during the period of review (POR), February 1, 2023, through January 31, 2024.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Unlicensed Use of the 6 GHz Band; Expanding Flexible Use in Mid-Band Spectrum Between 3.7 and 24 GHz
+https://www.federalregister.gov/documents/2026/02/20/2026-03420/unlicensed-use-of-the-6-ghz-band-expanding-flexible-use-in-mid-band-spectrum-between-37-and-24-ghz
+In this document, the Federal Communications Commission (Commission or FCC) issued a Third Further Notice of Proposed Rulemaking to seek comment on two proposals to improve 6 GHz band (5.925-7.125 GHz) unlicensed device performance. One proposal would allow automated frequency coordination (AFC) systems to take into account building entry loss (BEL) when determining frequency…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Paper File Folders From the Kingdom of Cambodia: Countervailing Duty Order
+https://www.federalregister.gov/documents/2026/02/20/2026-03419/paper-file-folders-from-the-kingdom-of-cambodia-countervailing-duty-order
+Based on affirmative final determinations by the U.S. Department of Commerce (Commerce) and the U.S. International Trade Commission (ITC), Commerce is issuing a countervailing duty (CVD) order on paper file folders from the Kingdom of Cambodia (Cambodia).
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Certain Cut-To-Length Carbon-Quality Steel Plate From the Republic of Korea: Final Results of Countervailing Duty Administrative Review; 2023
+https://www.federalregister.gov/documents/2026/02/20/2026-03418/certain-cut-to-length-carbon-quality-steel-plate-from-the-republic-of-korea-final-results-of
+The U.S. Department of Commerce (Commerce) determines that certain producers and exporters of certain cut-to-length carbon-quality steel plate (CTL plate) from the Republic of Korea (Korea) received countervailable subsidies during the period of review (POR) January 1, 2023, through December 31, 2023.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Initiation of Antidumping and Countervailing Duty Administrative Reviews
+https://www.federalregister.gov/documents/2026/02/20/2026-03417/initiation-of-antidumping-and-countervailing-duty-administrative-reviews
+The U.S. Department of Commerce (Commerce) has received requests to conduct administrative reviews of various antidumping duty (AD) and countervailing duty (CVD) orders with December anniversary dates. In accordance with Commerce's regulations, we are initiating those administrative reviews.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+West Virginia Regulatory Program
+https://www.federalregister.gov/documents/2026/02/20/2026-03413/west-virginia-regulatory-program
+We, the Office of Surface Mining Reclamation and Enforcement (OSMRE), are publishing this final rule to amend the existing Federal Lands Cooperative Agreement between West Virginia and the U.S. Department of the Interior (Department). The Surface Mining Control and Reclamation Act of 1977 (SMCRA or the Act) and the Federal regulations authorize a State with an approved permane…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Masuu Global Solutions LLC, U.S. Agent for Extrovis AG, et al.; Withdrawal of Approval of 11 Abbreviated New Drug Applications
+https://www.federalregister.gov/documents/2026/02/20/2026-03411/masuu-global-solutions-llc-us-agent-for-extrovis-ag-et-al-withdrawal-of-approval-of-11-abbreviated
+The Food and Drug Administration (FDA or Agency) is withdrawing approval of 11 abbreviated new drug applications (ANDAs) from multiple applicants. The applicants notified the Agency in writing that the drug products were no longer marketed and requested that the approval of the applications be withdrawn.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Filing of Plats of Survey; Nevada
+https://www.federalregister.gov/documents/2026/02/20/2026-03408/filing-of-plats-of-survey-nevada
+The purpose of this notice is to inform the public and interested State and local government officials of the filing of Plats of Survey in Nevada.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Notice of Proposed Reinstatement of BLM New Mexico Terminated Oil and Gas Leases, Lea and Eddy Counties, NM
+https://www.federalregister.gov/documents/2026/02/20/2026-03396/notice-of-proposed-reinstatement-of-blm-new-mexico-terminated-oil-and-gas-leases-lea-and-eddy
+In accordance with the Mineral Leasing Act of 1920, as amended, the Bureau of Land Management (BLM) received petitions for reinstatement of terminated competitive oil and gas leases NMNM134896, NMNM134897, NMNM138884, NMNM138885, NMNM138887, NMNM141006, NMNM141409, NMNM141418, NMNM142575, NMNM105821017, and NMNM105821018 from FAE II LLC (FAE), Murchison Oil & Gas, LLC (Murchis…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities; Submission for OMB Review; Comment Request; Government Contractor Paid Sick Leave
+https://www.federalregister.gov/documents/2026/02/20/2026-03392/agency-information-collection-activities-submission-for-omb-review-comment-request-government
+The Department of Labor (DOL) is submitting this Wage and Hour Division (WHD)-sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Airworthiness Directives; The Boeing Company Airplanes
+https://www.federalregister.gov/documents/2026/02/20/2026-03390/airworthiness-directives-the-boeing-company-airplanes
+The FAA proposes to adopt a new airworthiness directive (AD) for certain The Boeing Company Model 787-8, 787-9, and 787-10 airplanes. This proposed AD was prompted by a report that cargo liner joint sealing tape could be missing in particular areas on certain airplanes. The absence of this tape could allow a fire to propagate into the cabin. This proposed AD would require a de…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Airworthiness Directives; Airbus SAS Airplanes
+https://www.federalregister.gov/documents/2026/02/20/2026-03389/airworthiness-directives-airbus-sas-airplanes
+The FAA proposes to adopt a new airworthiness directive (AD) for all Airbus SAS Model A330-841 and A330-941 airplanes. This proposed AD was prompted by a report of cracks on the discharge outlet of certain engine fire extinguisher bottles. This proposed AD would require modification of affected fire extinguisher bottles, and would also prohibit the installation of affected par…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Collections From Central Valley Project Power Contractors To Carry Out the Restoration, Improvement and Acquisition of Environmental Habitat Provisions of the Central Valley Project Improvement Act of 1992
+https://www.federalregister.gov/documents/2026/02/20/2026-03388/collections-from-central-valley-project-power-contractors-to-carry-out-the-restoration-improvement
+The collection procedures for the Sierra Nevada (SN) region have been confirmed, approved, and placed into effect. These collection procedures supersede those previously published in the Federal Register on April 16, 2003. The collection procedures remain unchanged but are being republished, for administrative purposes, to remove references to a specific Western Area Power Adm…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Notification of Availability and Request for Comment: Revision to the Voluntary Standard for Full-Size Baby Cribs
+https://www.federalregister.gov/documents/2026/02/20/2026-03387/notification-of-availability-and-request-for-comment-revision-to-the-voluntary-standard-for
+The U.S. Consumer Product Safety Commission's (Commission or CPSC) mandatory rule, Safety Standard for Full-Size Baby Cribs, incorporates by reference ASTM F1169-19, Standard Consumer Safety Specification for Full-Size Baby Cribs. ASTM notified the Commission that it has revised this incorporated voluntary standard. CPSC seeks comment on whether the revision improves the safet…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities: Requests for Comments; Clearance of New Approval of Information Collection: Section 353 Survey To Evaluate Airport Ramp Worker Safety
+https://www.federalregister.gov/documents/2026/02/20/2026-03386/agency-information-collection-activities-requests-for-comments-clearance-of-new-approval-of
+In accordance with the Paperwork Reduction Act of 1995, FAA invites public comments about our intention to request the Office of Management and Budget (OMB) approval for a new information collection. The Federal Register Notice with a 60-day comment period soliciting comments on the following collection of information was published on September 26, 2025. The collection involve…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities: Requests for Comments; Clearance of a Renewed Approval of Information Collection: Bird/Other Wildlife Strike Report
+https://www.federalregister.gov/documents/2026/02/20/2026-03385/agency-information-collection-activities-requests-for-comments-clearance-of-a-renewed-approval-of
+In accordance with the Paperwork Reduction Act of 1995, FAA invites public comments about our intention to request the Office of Management and Budget (OMB) approval to renew an information collection. The Federal Register Notice with a 60-day comment period soliciting comments on the following collection of information was published on September 24, 2025. The collection invol…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Streamlining the Regulations Governing Requests for Special Census Services and Studies
+https://www.federalregister.gov/documents/2026/02/20/2026-03384/streamlining-the-regulations-governing-requests-for-special-census-services-and-studies
+By this rule, the Census Bureau is amending its regulations governing requests and establishing fee structures for special census services and studies. This action is necessary to eliminate obsolete provision and streamline the Census Bureau's regulations. This action is intended to promote simplicity and efficiency and to reduce the possibility of public confusion.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Notice of Final State Agency Actions on Proposed Transportation Project in Arizona
+https://www.federalregister.gov/documents/2026/02/20/2026-03383/notice-of-final-state-agency-actions-on-proposed-transportation-project-in-arizona
+The FHWA, on behalf of the Arizona Department of Transportation (ADOT), is issuing this notice to announce actions taken by ADOT and other relevant Federal agencies that are final agency actions. The actions relate to the proposed project Interstate 10 and Koli Road Traffic Interchange in Maricopa County, Arizona (AZ).
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Notice of Final State Agency Actions on Proposed Transportation Project in Arizona
+https://www.federalregister.gov/documents/2026/02/20/2026-03382/notice-of-final-state-agency-actions-on-proposed-transportation-project-in-arizona
+The FHWA, on behalf of the Arizona Department of Transportation (ADOT), is issuing this notice to announce actions taken by ADOT and other relevant Federal agencies that are final agency actions. The actions relate to the proposed project City of Peoria El Mirage Road, State Route 303 to Jomax Road in Maricopa County, Arizona (AZ).
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Amtrak's Request To Amend Its Positive Train Control Safety Plan and Positive Train Control System
+https://www.federalregister.gov/documents/2026/02/20/2026-03377/amtraks-request-to-amend-its-positive-train-control-safety-plan-and-positive-train-control-system
+This document provides the public with notice that on February 9, 2026, the National Railroad Passenger Corporation (Amtrak) submitted a request for amendment (RFA) to one of its FRA-approved Positive Train Control Safety Plans (PTCSP). As this RFA may involve a request for FRA's approval of proposed material modifications to an FRA-certified positive train control (PTC) syste…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities; Comment Request on Distributions From Pensions, Annuities, Retirement or Profit-Sharing Plans, IRAs, Insurance Contracts, etc.
+https://www.federalregister.gov/documents/2026/02/20/2026-03376/agency-information-collection-activities-comment-request-on-distributions-from-pensions-annuities
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Locatable Minerals
+https://www.federalregister.gov/documents/2026/02/20/2026-03364/locatable-minerals
+The U.S. Department of Agriculture, Forest Service (Agency), is proposing to revise its regulations governing occupancy and use of the surface of National Forest System lands in connection with prospecting, exploration, development, mining, processing, and reclamation and reasonably incident uses authorized by U.S. mining laws and the Organic Administration Act of 1897. Regula…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Questions and Answers About Requirements for Additional Traceability Records for Certain Foods; Draft Guidance for Industry; Availability
+https://www.federalregister.gov/documents/2026/02/20/2026-03363/questions-and-answers-about-requirements-for-additional-traceability-records-for-certain-foods-draft
+The Food and Drug Administration (FDA, we, or the Agency) is announcing the availability of a draft guidance for industry entitled "Questions and Answers About Requirements for Additional Traceability Records for Certain Foods." The draft guidance answers questions about the final rule entitled "Requirements for Additional Traceability Records for Certain Foods," which establi…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Requirements for Additional Traceability Records for Certain Foods; Exemption for Cottage Cheese Regulated by the National Conference on Interstate Milk Shipments Grade “A” Pasteurized Milk Ordinance
+https://www.federalregister.gov/documents/2026/02/20/2026-03362/requirements-for-additional-traceability-records-for-certain-foods-exemption-for-cottage-cheese
+The Food and Drug Administration (FDA, the Agency, or we) is announcing that we are granting an exemption for certain cottage cheese products from the requirements of the rule titled "Requirements for Additional Traceability Records for Certain Foods" (the Food Traceability Rule). The Agency is taking this action in accordance with the FDA Food Safety Modernization Act and FDA…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Pipeline Safety: Incident Notifications to the National Response Center
+https://www.federalregister.gov/documents/2026/02/20/2026-03361/pipeline-safety-incident-notifications-to-the-national-response-center
+PHMSA is issuing this advisory bulletin to remind operators of gas pipelines, underground natural gas storage (UNGS) facilities, and liquefied natural gas (LNG) facilities of their obligation to report incidents in accordance with PHMSA's incident reporting requirements. This advisory bulletin addresses a safety recommendation that the National Transportation Safety Board (NTS…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Qualification of Drivers; Exemption Applications; Hearing
+https://www.federalregister.gov/documents/2026/02/20/2026-03359/qualification-of-drivers-exemption-applications-hearing
+FMCSA announces its decision to renew exemptions for six individuals from the hearing requirement in the Federal Motor Carrier Safety Regulations (FMCSRs) for interstate commercial motor vehicle (CMV) drivers. The exemptions enable these hard of hearing and deaf individuals to continue to operate CMVs in interstate commerce.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Qualification of Drivers; Exemption Applications; Hearing
+https://www.federalregister.gov/documents/2026/02/20/2026-03358/qualification-of-drivers-exemption-applications-hearing
+FMCSA announces its decision to renew exemptions for 15 individuals from the hearing requirement in the Federal Motor Carrier Safety Regulations (FMCSRs) for interstate commercial motor vehicle (CMV) drivers. The exemptions enable these hard of hearing and deaf individuals to continue to operate CMVs in interstate commerce.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Qualification of Drivers; Exemption Applications; Hearing
+https://www.federalregister.gov/documents/2026/02/20/2026-03357/qualification-of-drivers-exemption-applications-hearing
+FMCSA announces its decision to renew exemptions for 18 individuals from the hearing requirement in the Federal Motor Carrier Safety Regulations (FMCSRs) for interstate commercial motor vehicle (CMV) drivers. The exemptions enable these hard of hearing and deaf individuals to continue to operate CMVs in interstate commerce.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Qualification of Drivers; Exemption Applications; Hearing
+https://www.federalregister.gov/documents/2026/02/20/2026-03356/qualification-of-drivers-exemption-applications-hearing
+FMCSA announces its decision to renew exemptions for 11 individuals from the hearing requirement in the Federal Motor Carrier Safety Regulations (FMCSRs) for interstate commercial motor vehicle (CMV) drivers. The exemptions enable these hard of hearing and deaf individuals to continue to operate CMVs in interstate commerce.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Presidential Declaration Amendment of a Major Disaster for Public Assistance Only for the State of Tennessee
+https://www.federalregister.gov/documents/2026/02/20/2026-03355/presidential-declaration-amendment-of-a-major-disaster-for-public-assistance-only-for-the-state-of
+This is an amendment of the Presidential declaration of a major disaster for Public Assistance Only for the State of Tennessee (FEMA-4898-DR), dated February 6, 2026. Incident: Severe Winter Storm.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities; Proposed Collection; Comment Request; New Animal Drugs for Minor Use and Minor Species
+https://www.federalregister.gov/documents/2026/02/20/2026-03353/agency-information-collection-activities-proposed-collection-comment-request-new-animal-drugs-for
+The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an exis…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities; Proposed Collection; Comment Request; Adverse Events Associated With New Animal Drugs
+https://www.federalregister.gov/documents/2026/02/20/2026-03352/agency-information-collection-activities-proposed-collection-comment-request-adverse-events
+The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an exis…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Ceramic Tile From China; Determinations
+https://www.federalregister.gov/documents/2026/02/20/2026-03350/ceramic-tile-from-china-determinations
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities: Information Collection Renewal; Comment Request; Recordkeeping Requirements for Securities Transactions
+https://www.federalregister.gov/documents/2026/02/20/2026-03346/agency-information-collection-activities-information-collection-renewal-comment-request
+The OCC, as part of its continuing effort to reduce paperwork and respondent burden, invites comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995 (PRA). In accordance with the requirements of the PRA, the OCC may not conduct or sponsor, and the respondent is not required to respond to, an information collection unless it displays a…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Foreign-Trade Zone (FTZ) 84; Withdrawal of Notification of Proposed Production Activity; Recodeal Energy Inc; (Galvanized Steel); Houston, Texas
+https://www.federalregister.gov/documents/2026/02/20/2026-03341/foreign-trade-zone-ftz-84-withdrawal-of-notification-of-proposed-production-activity-recodeal-energy
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Notice of Receipt of Complaint; Solicitation of Comments Relating to the Public Interest
+https://www.federalregister.gov/documents/2026/02/20/2026-03340/notice-of-receipt-of-complaint-solicitation-of-comments-relating-to-the-public-interest
+Notice is hereby given that the U.S. International Trade Commission has received a complaint entitled Certain NAND and DRAM Memory Chips, DN 3885; the Commission is soliciting comments on any public interest issues raised by the complaint or complainant's filing pursuant to the Commission's Rules of Practice and Procedure.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Steel Concrete Reinforcing Bar From Mexico: Amended Final Results of Antidumping Duty Administrative Review; 2022-2023
+https://www.federalregister.gov/documents/2026/02/20/2026-03339/steel-concrete-reinforcing-bar-from-mexico-amended-final-results-of-antidumping-duty-administrative
+The U.S. Department of Commerce (Commerce) is amending the final results of the administrative review of the antidumping duty (AD) order on steel concrete reinforcing bar (rebar) from Mexico to correct certain ministerial errors. The period of review (POR) is November 1, 2022, through October 31, 2023.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Rule 7.35-E
+https://www.federalregister.gov/documents/2026/02/20/2026-03335/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-proposed
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Make a Number of Technical, Non-Substantive Changes to Its Rulebook
+https://www.federalregister.gov/documents/2026/02/20/2026-03334/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities; Proposed Collection; Comment Request; Approved Organizations for Wholesale Drug Distributors and Third-Party Logistics Providers
+https://www.federalregister.gov/documents/2026/02/20/2026-03333/agency-information-collection-activities-proposed-collection-comment-request-approved-organizations
+The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information and to allow 60 days for public comment in re…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities; Proposed Collection; Comment Request; Hazard Analysis and Critical Control Point Procedures for the Safe and Sanitary Processing and Importing of Juice
+https://www.federalregister.gov/documents/2026/02/20/2026-03332/agency-information-collection-activities-proposed-collection-comment-request-hazard-analysis-and
+The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an exis…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Qualification of Drivers; Exemption Applications; Idiopathic Hypersomnia
+https://www.federalregister.gov/documents/2026/02/20/2026-03331/qualification-of-drivers-exemption-applications-idiopathic-hypersomnia
+FMCSA announces receipt of an application from one individual for an exemption from the prohibition in the Federal Motor Carrier Safety Regulations (FMCSRs) against operation of a commercial motor vehicle (CMV) in interstate commerce by persons with either a clinical diagnosis of epilepsy or any other condition that is likely to cause a loss of consciousness or any loss of abi…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+CIFC Direct Lending Evergreen Fund LP and CIFC Private Credit Management LLC
+https://www.federalregister.gov/documents/2026/02/20/2026-03330/cifc-direct-lending-evergreen-fund-lp-and-cifc-private-credit-management-llc
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+TIAA-CREF Funds, et al.
+https://www.federalregister.gov/documents/2026/02/20/2026-03329/tiaa-cref-funds-et-al
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+DB Rail, LLC-Acquisition and Operation Exemption-Cleveland-Cliffs Railways Inc.
+https://www.federalregister.gov/documents/2026/02/20/2026-03328/db-rail-llc-acquisition-and-operation-exemption-cleveland-cliffs-railways-inc
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities; Proposed Collection; Comment Request; Current Good Manufacturing Practice (CGMP): Manufacturing, Processing, Packing, and Holding of Drugs; GMP for Finished Pharmaceuticals (Inc…
+https://www.federalregister.gov/documents/2026/02/20/2026-03326/agency-information-collection-activities-proposed-collection-comment-request-current-good
+The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an exis…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Overhead Door Counterbalance Torsion Springs From India; Determinations
+https://www.federalregister.gov/documents/2026/02/20/2026-03325/overhead-door-counterbalance-torsion-springs-from-india-determinations
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Certain Composite Intermediate Bulk Containers; Notice of Commission Determination on Remedy, the Public Interest, and Bonding for a Defaulting Respondent; Termination of Investigation
+https://www.federalregister.gov/documents/2026/02/20/2026-03324/certain-composite-intermediate-bulk-containers-notice-of-commission-determination-on-remedy-the
+Notice is hereby given that the U.S. International Trade Commission has determined to issue a limited exclusion order and impose a bond of 100 percent (100%) against a defaulting respondent, Hebei Shijiheng Plastics, Co., Ltd., of Zhongjie Huanghua City, China ("Hebei Shijiheng"). The Commission has determined that the remedy will not adversely impact the public interest. This…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Agency Information Collection Activities; Comment Request on TD 9035, Constructive Transfers and Transfers of Property to a Third Party on Behalf of a Spouse
+https://www.federalregister.gov/documents/2026/02/20/2026-03323/agency-information-collection-activities-comment-request-on-td-9035-constructive-transfers-and
+In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+New Postal Products
+https://www.federalregister.gov/documents/2026/02/20/2026-03315/new-postal-products
+The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Housing and Community Development Act of 1980: Verification of Eligible Status
+https://www.federalregister.gov/documents/2026/02/20/2026-03405/housing-and-community-development-act-of-1980-verification-of-eligible-status
+Section 214 of the Housing and Community Development Act of 1980, as amended ("Section 214"), prohibits the Secretary of HUD from making financial assistance available to persons other than United States citizens or certain categories of eligible noncitizens in HUD's public and specified assisted housing programs. This proposed rule would revise HUD's Section 214 implementing…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-02-20T00:00:00Z
+Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Hilcorp Alaska, LLC Oil and Gas Activities in Cook Inlet, Alaska
+https://www.federalregister.gov/documents/2026/02/20/2026-03375/takes-of-marine-mammals-incidental-to-specified-activities-taking-marine-mammals-incidental-to
+NMFS, upon request from Hilcorp Alaska, LLC (Hilcorp), issues this final rule pursuant to the Marine Mammal Protection Act (MMPA), to govern the taking of marine mammals incidental to specified activities conducted in support of oil and gas exploration, development, production, and decommissioning in Cook Inlet, Alaska, over the course of 5 years (2026-2031) and an associated…
 ------------------------------------------------------------
 Executive
 White House
@@ -111,7 +567,7 @@ https://home.treasury.gov/news/press-releases/sb0399
 ------------------------------------------------------------
 OFAC
 Treasury
-2026-02-19T15:00:00Z
+2026-02-19T14:00:00Z
 Secretary Bessent Announces 2026 G20 Finance Track Agenda and Finance Ministers and Central Bank Governors Meeting in Asheville, North Carolina
 https://home.treasury.gov/news/press-releases/sb0398
 ------------------------------------------------------------
@@ -1491,20 +1947,6 @@ Treasury
 Treasury International Capital Data for December
 https://home.treasury.gov/news/press-releases/sb0396
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T20:58:20Z
-Critical infra Honeywell CCTVs vulnerable to auth bypass flaw
-https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a critical vulnerability in multiple Honeywell CCTV products that allows unauthorized access to feeds or account hijacking. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T20:18:24Z
-AI platforms can be abused for stealthy malware communication
-https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
-AI assistants like Grok and Microsoft Copilot with web browsing and URL-fetching capabilities can be abused to intermediate command-and-control (C2) activity. [...]
-------------------------------------------------------------
 Payments
 FRB
 2026-02-18T19:00:00Z
@@ -1517,39 +1959,6 @@ Treasury
 2026-02-18T18:00:00Z
 Treasury Announces Public-Private Initiative to Strengthen Cybersecurity and Risk Management for AI
 https://home.treasury.gov/news/press-releases/sb0395
-------------------------------------------------------------
-Executive
-White House
-2026-02-18T17:25:08Z
-President Trump Celebrates Black History Month: Advancing Opportunity and Prosperity for Every American
-https://www.whitehouse.gov/articles/2026/02/president-trump-celebrates-black-history-month-advancing-opportunity-and-prosperity-for-every-american/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T16:27:38Z
-Telegram channels expose rapid weaponization of SmarterMail flaws
-https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-weaponization-of-smartermail-flaws/
-Underground Telegram channels shared SmarterMail exploit PoCs and stolen admin credentials within days of disclosure. Flare explains how monitoring these communities reveals rapid weaponization of CVE-2026-24423 and CVE-2026-23760 tied to ransomware activity. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T16:26:53Z
-Microsoft: Anti-phishing rules mistakenly blocked emails, Teams messages
-https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/
-Microsoft says an Exchange Online issue that mistakenly quarantined legitimate emails last week was triggered by faulty heuristic detection rules designed to block credential phishing campaigns. [...]
-------------------------------------------------------------
-Executive
-White House
-2026-02-18T14:37:50Z
-Presidential Message on Ash Wednesday
-https://www.whitehouse.gov/briefings-statements/2026/02/presidential-message-on-ash-wednesday/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T14:01:08Z
-Data breach at fintech firm Figure affects nearly 1 million accounts
-https://www.bleepingcomputer.com/news/security/data-breach-at-fintech-firm-figure-affects-nearly-1-million-accounts/
-Hackers have stolen the personal and contact information of nearly 1 million accounts after breaching the systems of Figure Technology Solutions, a self-described blockchain-native financial technology company. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -12078,26 +12487,20 @@ https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-
 IS
 BleepingComputer
 2026-02-18T00:00:00Z
+Critical infra Honeywell CCTVs vulnerable to auth bypass flaw
+https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-18T00:00:00Z
+AI platforms can be abused for stealthy malware communication
+https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-18T00:00:00Z
 These Sony ANC earbuds dropped to just $70
 https://www.bleepingcomputer.com/offer/deals/these-sony-anc-earbuds-dropped-to-just-70/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T00:00:00Z
-If you need a spare laptop, this refurbished Chromebook is just $80
-https://www.bleepingcomputer.com/offer/deals/if-you-need-a-spare-laptop-this-refurbished-chromebook-is-just-80/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T00:00:00Z
-Microsoft says bug causes Copilot to summarize confidential emails
-https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T00:00:00Z
-Glendale man gets 5 years in prison for role in darknet drug ring
-https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -16577,11 +16980,4 @@ FDIC
 FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
 https://content.govdelivery.com/accounts/USFDIC/bulletins/4082a4d
 PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would impleme…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-06T08:00:30Z
-Chromium: CVE-2026-1862 Type Confusion in V8
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1862
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 ------------------------------------------------------------

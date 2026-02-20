@@ -5,16 +5,32 @@
   <title>RegDashboard – Regulatory Intelligence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/logo/favicon-48.png" />
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png" />
 </head>
 
 <body>
   <header>
-    <h1>Compliance &amp; Regulatory Quick-Access Dashboard</h1>
-    <div class="subtitle">Rolling Regulatory Intelligence</div>
+    <div class="header-inner">
+      <!-- Logo (left) -->
+      <a class="brand-logo" href="./" aria-label="RegDashboard home">
+        <img src="assets/logo/regreport-icon.svg" alt="RegDashboard logo" />
+      </a>
 
-    <!-- Keep only the rolling window in the top banner -->
-    <div class="header-meta">
-      <div id="window" class="window"></div>
+      <!-- Title block (center) -->
+      <div class="brand-text">
+        <h1>Compliance &amp; Regulatory Quick-Access Dashboard</h1>
+        <div class="subtitle">Rolling Regulatory Intelligence</div>
+
+        <!-- Keep only the rolling window in the top banner -->
+        <div class="header-meta">
+          <div id="window" class="window"></div>
+        </div>
+      </div>
+
+      <!-- Spacer (right) to keep the title block visually centered -->
+      <div class="header-spacer" aria-hidden="true"></div>
     </div>
 
     <nav class="nav">
