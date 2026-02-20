@@ -31,10 +31,7 @@ a{ color: var(--link); text-decoration: none; }
 a:hover{ color: var(--link-hover); text-decoration: underline; }
 
 header{
-  background: var(--header-grad);
-  color: rgba(255,255,255,.95);
-  padding: 34px 18px 22px 18px;
-  text-align: center;
+  padding: 6px 14px;
 }
 
 header h1{
@@ -309,47 +306,12 @@ footer hr{
   outline-offset: 2px;
 }
 
-
-/* --- RegReport header branding (clean) --- */
-header{
-  padding: 14px 18px;
-}
-
-.brand{
-  display:flex;
-  align-items:center;
-  gap:16px;
-  flex-wrap:wrap;
-}
-
 .brand-logo-img{
-  height: 84px; /* big + clear */
+  height:56px;
   width:auto;
   display:block;
+  background:transparent;
 }
 
-.brand-text h1{
-  margin:0;
-}
-
-.brand-actions{
-  margin-left:auto;
-}
-
-.nav.nav-slim{
-  display:none; /* hide old menu if any remains */
-}
-
-/* Button styling (safe defaults if not already present) */
-.btn{
-  display:inline-block;
-  padding:10px 14px;
-  border-radius:10px;
-  text-decoration:none;
-  font-weight:600;
-  border:1px solid rgba(0,0,0,0.15);
-}
-
-.btn-primary{
-  border-color: rgba(0,0,0,0.15);
-}
+.brand-text h1{margin:0;font-size:1.4rem;}
+.subtitle{margin-top:2px;font-size:0.85rem;color:#666;}
