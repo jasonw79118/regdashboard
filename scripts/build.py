@@ -69,6 +69,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "FDIC": 25,
     "FRB": 30,
     "FRB Payments": 30,
+    "FinCEN": 25,
     "NACHA": 25,
     "White House": 45,
     "Federal Register": 0,  # API only
@@ -1981,6 +1982,69 @@ def treasury_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
     return links
 
 
+
+# ============================
+# FinCEN (Press Releases / News)
+# ============================
+
+FINCEN_DETAIL_RE = re.compile(
+    r"^/news/(news-releases|press-releases|readouts|speeches|testimony|enforcement-actions|sar-technical-bulletins)/",
+    re.I,
+)
+
+def fincen_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    for a in container.select('a[href^="/news/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+        if not FINCEN_DETAIL_RE.match(href):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("FinCEN", url):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        if not raw_title:
+            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
+
+        title = clean_text(raw_title, 220)
+        if not title or len(title) < 8:
+            continue
+
+        if title.lower() in {"read more", "learn more", "more", "details"}:
+            continue
+        if is_probably_nav_link("FinCEN", title, url):
+            continue
+        if is_generic_listing_or_home("FinCEN", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = find_time_near_anchor(a, "FinCEN")
+        if dt is None:
+            wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="FinCEN")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
 # ============================
 # Freddie Mac (GlobeNewswire)
 # ============================
@@ -2445,6 +2509,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return ofac_links(page_url, html)
     if source == "Treasury":
         return treasury_links(page_url, html)
+    if source == "FinCEN":
+        return fincen_links(page_url, html)
     if source == "White House":
         return whitehouse_links(page_url, html)
     if source == "Mastercard":
@@ -2575,6 +2641,7 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
         SourcePage("FRB Payments", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
 
+        SourcePage("FinCEN", "https://www.fincen.gov/news/press-releases"),
         # Mortgage / housing GSEs
         SourcePage("FHLB MPF", "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"),
         SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),

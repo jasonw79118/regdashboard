@@ -13097,6 +13097,27 @@ Treasury
 Treasury Accepting Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
 https://home.treasury.gov/news/press-releases/sb0394
 ------------------------------------------------------------
+FinCEN
+FinCEN
+2026-02-13T12:00:00Z
+FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams
+https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026
+In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams.
+------------------------------------------------------------
+FinCEN
+FinCEN
+2026-02-13T12:00:00Z
+FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
+https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions
+The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations.
+------------------------------------------------------------
+FinCEN
+FinCEN
+2026-02-13T12:00:00Z
+FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements
+https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements
+Relief Reduces Burdensome and Duplicative Regulatory Requirement
+------------------------------------------------------------
 OFAC
 OFAC
 2026-02-13T00:00:00Z

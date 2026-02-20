@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-06T22:26:53Z` → `2026-02-20T22:26:53Z` (UTC)
-Last updated: `2026-02-20T16:26:53-06:00` (CT) — `2026-02-20T22:26:53Z` (UTC)
+Window: `2026-02-06T23:17:53Z` → `2026-02-20T23:17:53Z` (UTC)
+Last updated: `2026-02-20T17:17:53-06:00` (CT) — `2026-02-20T23:17:53Z` (UTC)
 
 ## President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth
 - Source: White House
@@ -14788,6 +14788,30 @@ Download links fixed
 - Category: OFAC
 - Published: 2026-02-13T12:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0394
+
+## FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026
+
+In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams.
+
+## FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions
+
+The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations.
+
+## FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements
+
+Relief Reduces Burdensome and Duplicative Regulatory Requirement
 
 ## Issuance of Venezuela-related General Licenses
 - Source: OFAC
