@@ -168,7 +168,6 @@ RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
 
     {"kind": "agencies", "value": "consumer-financial-protection-bureau"},
     {"kind": "agencies", "value": "federal-deposit-insurance-corporation"},
-    {"kind": "sections", "value": "business-and-industry"},
 
     {"kind": "topics", "value": "child-labor"},
     {"kind": "topics", "value": "credit"},
