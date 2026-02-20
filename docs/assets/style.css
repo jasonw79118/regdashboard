@@ -31,7 +31,10 @@ a{ color: var(--link); text-decoration: none; }
 a:hover{ color: var(--link-hover); text-decoration: underline; }
 
 header{
-  padding: 6px 14px;
+  background: var(--header-grad);
+  color: rgba(255,255,255,.95);
+  padding: 34px 18px 22px 18px;
+  text-align: center;
 }
 
 header h1{
@@ -306,6 +309,19 @@ footer hr{
   outline-offset: 2px;
 }
 
+
+/* --- RegReport header branding (clean + slim) --- */
+header{
+  padding: 6px 14px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  flex-wrap:nowrap;
+}
+
 .brand-logo-img{
   height:56px;
   width:auto;
@@ -313,5 +329,37 @@ footer hr{
   background:transparent;
 }
 
-.brand-text h1{margin:0;font-size:1.4rem;}
-.subtitle{margin-top:2px;font-size:0.85rem;color:#666;}
+.brand-text h1{
+  margin:0;
+  font-size:1.35rem;
+  line-height:1.1;
+}
+
+.brand-text .subtitle{
+  margin-top:2px;
+  font-size:0.85rem;
+  color:#666;
+}
+
+.brand-actions{
+  margin-left:auto;
+}
+
+header nav,
+header .nav{
+  display:none !important; /* ensure old menu never reappears */
+}
+
+/* Buttons */
+.btn{
+  display:inline-block;
+  padding:8px 12px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  border:1px solid rgba(0,0,0,0.15);
+}
+
+.btn-primary{
+  border-color: rgba(0,0,0,0.15);
+}
