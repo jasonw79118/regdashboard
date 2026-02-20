@@ -82,7 +82,7 @@
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     const GROUPS = [
-      { id: "ofac",     title: "OFAC, Sanctions &amp; AML", keys: ["OFAC"], accent: "#2563eb",
+      { id: "ofac",     title: "OFAC, Sanctions &amp; AML", keys: ["OFAC","OFAC, Sanctions & AML","OFAC, Sanctions &amp; AML","FinCEN"], accent: "#2563eb",
         sources: [
           ["OFAC Recent Actions", "https://ofac.treasury.gov/recent-actions"],
           ["Treasury Press Releases", "https://home.treasury.gov/news/press-releases"],
@@ -186,7 +186,10 @@
       if (lower === "infosec" || lower === "info sec" || lower === "information security") return "IS";
       if (lower === "is") return "IS";
 
-      if (lower === "fintech watch" || lower === "fintech") return "Fintech Watch";
+            if (lower === "ofac, sanctions & aml" || lower === "ofac sanctions & aml") return "OFAC";
+      if (lower === "fincen") return "OFAC";
+
+if (lower === "fintech watch" || lower === "fintech") return "Fintech Watch";
 
       if (lower === "usda rural development") return "USDA";
       if (lower === "usda") return "USDA";
