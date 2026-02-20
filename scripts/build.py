@@ -61,8 +61,6 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "FIS": 25,
     "Fiserv": 25,       # ✅ DO NOT CHANGE (your request)
     "Jack Henry": 25,
-    "Temenos": 25,
-    "Mambu": 20,
     "Finastra": 20,
     "TCS": 25,
     "OFAC": 45,
@@ -70,6 +68,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "OCC": 25,
     "FDIC": 25,
     "FRB": 30,
+    "FRB Payments": 30,
     "NACHA": 25,
     "White House": 45,
     "Federal Register": 0,  # API only
@@ -100,7 +99,8 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
 
     # Payments tile
     "NACHA": "Payments",
-    "FRB": "Payments",
+    "FRB Payments": "Payments",
+    "FRB": "Banking",
 
     # Banking tile
     "OCC": "Banking",
@@ -125,8 +125,6 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "FIS": "Fintech Watch",
     "Fiserv": "Fintech Watch",
     "Jack Henry": "Fintech Watch",
-    "Temenos": "Fintech Watch",
-    "Mambu": "Fintech Watch",
     "Finastra": "Fintech Watch",
     "TCS": "Fintech Watch",
 
@@ -258,6 +256,7 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "deny_domains": {"sa.www4.irs.gov"},
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
+    "FRB Payments": {"deny_domains": {"www.facebook.com"}},
 
     "Freddie Mac": {
         "allow_domains": {"www.globenewswire.com"},
@@ -325,8 +324,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     # ✅ Jack Henry links are often in tables; allow both press-releases and news-releases detail pages.
     "Jack Henry": {"allow_domains": {"ir.jackhenry.com"}},
 
-    "Temenos": {"allow_domains": {"www.temenos.com"}},
-    "Mambu": {"allow_domains": {"mambu.com"}},
     "Finastra": {"allow_domains": {"www.finastra.com"}},
 
     # ✅ TCS: add feedburner domains because many press releases advertise RSS via feeds2.feedburner.com
@@ -562,11 +559,8 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         read_timeout = 40
     if "federalregister.gov" in h:
         read_timeout = 35
-    if "tcs\.com" in h:
+    if "tcs.com" in h:
         read_timeout = 40
-
-    if "ir.jackhenry.com" in h:
-        read_timeout = max(read_timeout, 65)
 
     try:
         time.sleep(REQUEST_DELAY_SEC)
@@ -698,29 +692,6 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 print(f"[warn] proxy GET failed: {proxy_url} :: {e}", flush=True)
             return None
 
-        # ✅ Jack Henry IR: frequent disconnects/slow responses -> proxy retry on errors
-        if ("ir.jackhenry.com" in h) and (r.status_code in (403, 429) or r.status_code >= 500):
-            print(f"[warn] GET {r.status_code}: {url} (retrying via proxy)", flush=True)
-            proxy_url = _jina_proxy_url(url)
-            try:
-                time.sleep(REQUEST_DELAY_SEC)
-                pr = SESSION.get(
-                    proxy_url,
-                    headers={"User-Agent": browser_ua, "Accept": "text/html,application/xhtml+xml,*/*"},
-                    timeout=(10, max(read_timeout, 70)),
-                    allow_redirects=True,
-                )
-                if pr.status_code < 400:
-                    txtp = pr.text or ""
-                    if not looks_like_error_html(txtp):
-                        return txtp
-                    print(f"[warn] proxy returned error-like content: {url}", flush=True)
-                else:
-                    print(f"[warn] proxy GET {pr.status_code}: {proxy_url}", flush=True)
-            except Exception as e:
-                print(f"[warn] proxy GET failed: {proxy_url} :: {e}", flush=True)
-            return None
-
         if r.status_code >= 400:
             print(f"[warn] GET {r.status_code}: {url}", flush=True)
             return None
@@ -733,24 +704,6 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
         return txt
     except Exception as e:
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
-        # ✅ Jack Henry IR: fallback to proxy on timeouts / disconnects
-        try:
-            if "ir.jackhenry.com" in host(url):
-                proxy_url = _jina_proxy_url(url)
-                print(f"[warn] retrying via proxy: {url}", flush=True)
-                time.sleep(REQUEST_DELAY_SEC)
-                pr = SESSION.get(
-                    proxy_url,
-                    headers={"User-Agent": "Mozilla/5.0", "Accept": "text/html,application/xhtml+xml,*/*"},
-                    timeout=(10, 75),
-                    allow_redirects=True,
-                )
-                if pr.status_code < 400:
-                    txtp = pr.text or ""
-                    if not looks_like_error_html(txtp):
-                        return txtp
-        except Exception as _:
-            pass
         return None
 
 
@@ -934,6 +887,12 @@ def is_probably_nav_link(source: str, title: str, url: str) -> bool:
 
     if source == "White House":
         if t.lower() in {"all", "featured", "news", "gallery", "livestream", "contact"}:
+            return True
+
+    # OCC pages sometimes include non-article CTA links titled 'More' / 'More More'
+    if source == "OCC":
+        tl = t.strip().lower()
+        if tl in {"more", "more more", "moremore"}:
             return True
 
     return False
@@ -2615,6 +2574,7 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
         SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
         SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
+        SourcePage("FRB Payments", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
 
         # Mortgage / housing GSEs
         SourcePage("FHLB MPF", "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"),
@@ -2634,11 +2594,8 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases/"),
         SourcePage("Fiserv", "https://investors.fiserv.com/newsroom/news-releases"),
         SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
-        SourcePage("Temenos", "https://www.temenos.com/press-releases/"),
-        SourcePage("Mambu", "https://mambu.com/en/insights/press"),
         SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
-        SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom"),
-
+      
         # Payment Networks
         SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
 

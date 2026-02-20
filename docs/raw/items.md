@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-06T21:57:30Z` → `2026-02-20T21:57:30Z` (UTC)
-Last updated: `2026-02-20T15:57:30-06:00` (CT) — `2026-02-20T21:57:30Z` (UTC)
+Window: `2026-02-06T22:10:21Z` → `2026-02-20T22:10:21Z` (UTC)
+Last updated: `2026-02-20T16:10:21-06:00` (CT) — `2026-02-20T22:10:21Z` (UTC)
 
 ## President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth
 - Source: White House
@@ -659,7 +659,7 @@ Researchers have discovered the first known Android malware to use generative AI
 
 ## Federal Reserve Board announces approval of application by Fulton Financial Corporation
 - Source: FRB
-- Category: Payments
+- Category: Banking
 - Published: 2026-02-19T21:30:00Z
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260219a.htm
 
@@ -673,7 +673,7 @@ Federal Reserve Board announces approval of application by Fulton Financial Corp
 
 ## Federal Reserve Board announces it will hold a hybrid public outreach meeting on Thursday, March 26, as part of its review of regulations under the Economic Growth and Regulatory Paperwork Reduction Act (EGRPRA)
 - Source: FRB
-- Category: Payments
+- Category: Banking
 - Published: 2026-02-19T20:00:00Z
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/other20260219a.htm
 
@@ -822,14 +822,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: Banking
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-19T00:00:00Z
-- URL: https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html
-
-National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities.
 
 ## Average 30-Year Fixed-Rate Mortgage Hits Another Low
 - Source: Freddie Mac
@@ -2263,7 +2255,7 @@ Information published.
 
 ## Minutes of the Federal Open Market Committee, January 27–28, 2026
 - Source: FRB
-- Category: Payments
+- Category: Banking
 - Published: 2026-02-18T19:00:00Z
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm
 
@@ -14275,7 +14267,7 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 ## News & Events
 - Source: FRB
-- Category: Payments
+- Category: Banking
 - Published: 2026-02-18T00:00:00Z
 - URL: https://www.federalreserve.gov/newsevents.htm
 
@@ -14828,14 +14820,6 @@ The Office of the Comptroller of the Currency (OCC) today requested comment on a
 - Category: Banking
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html
-
-The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations.
 
 ## Data and Insights
 - Source: Fannie Mae
@@ -16813,7 +16797,7 @@ FOR IMMEDIATE RELEASE: February 12, 2026 (AUSTIN) – Texas Bankers Association 
 
 ## Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
 - Source: FRB
-- Category: Payments
+- Category: Banking
 - Published: 2026-02-12T21:00:00Z
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260212a.htm
 
@@ -16829,7 +16813,7 @@ PRESS RELEASE | FEBRUARY 12, 2026 FDIC Releases Economic Scenarios for 2026 Stre
 
 ## Federal Reserve Board issues enforcement action with former employee of Regions Bank
 - Source: FRB
-- Category: Payments
+- Category: Banking
 - Published: 2026-02-12T16:00:00Z
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260212a.htm
 
@@ -16864,14 +16848,6 @@ IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Re
 - URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
 
 The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
-
-## More More
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-12T00:00:00Z
-- URL: https://www.occ.gov/topics/economics/index-economics.html
-
-The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 
 ## Mortgage Rates Inch Down
 - Source: Freddie Mac
@@ -19084,9 +19060,3 @@ The Environmental Protection Agency (EPA) is revising the format for materials t
 - Category: Executive
 - Published: 2026-02-06T23:30:12Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/
-
-## Establishing an America First Arms Transfer Strategy
-- Source: White House
-- Category: Executive
-- Published: 2026-02-06T22:08:25Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/establishing-an-america-first-arms-transfer-strategy/

@@ -589,7 +589,7 @@ PromptSpy is the first known Android malware to use generative AI at runtime
 https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/
 Researchers have discovered the first known Android malware to use generative AI in its execution flow, using Google's Gemini model to adapt its persistence across different devices. [...]
 ------------------------------------------------------------
-Payments
+Banking
 FRB
 2026-02-19T21:30:00Z
 Federal Reserve Board announces approval of application by Fulton Financial Corporation
@@ -602,7 +602,7 @@ White House
 America 250: Anniversary of the Battle of Iwo Jima
 https://www.whitehouse.gov/briefings-statements/2026/02/america-250-anniversary-of-the-battle-of-iwo-jima/
 ------------------------------------------------------------
-Payments
+Banking
 FRB
 2026-02-19T20:00:00Z
 Federal Reserve Board announces it will hold a hybrid public outreach meeting on Thursday, March 26, as part of its review of regulations under the Economic Growth and Regulatory Paperwork Reduction Act (EGRPRA)
@@ -740,13 +740,6 @@ OCC
 2026-02-19T00:00:00Z
 OCC Announces Enforcement Actions for February 2026
 https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html
-------------------------------------------------------------
-Banking
-OCC
-2026-02-19T00:00:00Z
-More More
-https://www.occ.gov/topics/laws-and-regulations/index-laws-and-regulations.html
-National banks are among the most highly regulated institutions in the country, with a large number of laws and regulations that govern their activities.
 ------------------------------------------------------------
 Mortgage
 Freddie Mac
@@ -2024,7 +2017,7 @@ Treasury
 Treasury International Capital Data for December
 https://home.treasury.gov/news/press-releases/sb0396
 ------------------------------------------------------------
-Payments
+Banking
 FRB
 2026-02-18T19:00:00Z
 Minutes of the Federal Open Market Committee, January 27–28, 2026
@@ -12536,7 +12529,7 @@ OFAC
 Issuance of Venezuela-related Frequently Asked Questions
 https://ofac.treasury.gov/recent-actions/20260218
 ------------------------------------------------------------
-Payments
+Banking
 FRB
 2026-02-18T00:00:00Z
 News & Events
@@ -13038,13 +13031,6 @@ OCC
 2026-02-17T00:00:00Z
 Bank Appeals Process: Notice of Proposed Rulemaking
 https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html
-------------------------------------------------------------
-Banking
-OCC
-2026-02-17T00:00:00Z
-More More
-https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html
-The core of bank supervision is the bank examination process, carried out by more than 2,500 OCC examiners throughout the country. They evaluate bank activities and management processes to ensure banks operate in a safe and sound manner and comply with laws and regulations.
 ------------------------------------------------------------
 Mortgage
 Fannie Mae
@@ -14936,7 +14922,7 @@ Chip Bartlett Joins Texas Bankers as Senior Vice President of Government Relatio
 https://www.texasbankers.com/chip-bartlett-joins-texas-bankers-as-senior-vice-president-of-government-relations/
 FOR IMMEDIATE RELEASE: February 12, 2026 (AUSTIN) – Texas Bankers Association (TBA) CEO Chris Furlow and General Counsel/EVP for Government Relations Celeste Embrey are proud to announce the appointment of David “Chip” Bartlett as Senior Vice President of Government Relations, further strengthening the association’s leadership at a time when Texas banks are playing a key […] T…
 ------------------------------------------------------------
-Payments
+Banking
 FRB
 2026-02-12T21:00:00Z
 Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
@@ -14950,7 +14936,7 @@ Press Release: FDIC Releases Economic Scenarios for 2026 Stress Testing
 https://content.govdelivery.com/accounts/USFDIC/bulletins/4098769
 PRESS RELEASE | FEBRUARY 12, 2026 FDIC Releases Economic Scenarios for 2026 Stress Testing WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covered institutions with total consolidated assets of more than $250 billion. The Dodd-Frank Wall Street Reform and Consumer Protecti…
 ------------------------------------------------------------
-Payments
+Banking
 FRB
 2026-02-12T16:00:00Z
 Federal Reserve Board issues enforcement action with former employee of Regions Bank
@@ -14983,13 +14969,6 @@ OCC
 OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
 https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
 The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
-------------------------------------------------------------
-Banking
-OCC
-2026-02-12T00:00:00Z
-More More
-https://www.occ.gov/topics/economics/index-economics.html
-The OCC's economists support the OCC mission through economic thought leadership, analysis, and research to aid bank supervision and policy development.
 ------------------------------------------------------------
 Mortgage
 Freddie Mac
@@ -16984,10 +16963,4 @@ White House
 2026-02-06T23:30:12Z
 Modifying Duties to Address Threats to the United States by the Government of the Russian Federation
 https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/
-------------------------------------------------------------
-Executive
-White House
-2026-02-06T22:08:25Z
-Establishing an America First Arms Transfer Strategy
-https://www.whitehouse.gov/presidential-actions/2026/02/establishing-an-america-first-arms-transfer-strategy/
 ------------------------------------------------------------
