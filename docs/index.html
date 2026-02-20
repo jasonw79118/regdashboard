@@ -475,7 +475,7 @@
         if (rr) {
           const start = fmtDate(data.window_start);
           const end = fmtDate(data.window_end);
-          rr.textContent = (start && end) ? `Report dates: ${start} → ${end} (UTC)` : "";
+          rr.textContent = (start && end) ? `${start} → ${end} (UTC)` : "";
           rr.style.display = rr.textContent ? "inline-flex" : "none";
         }
 

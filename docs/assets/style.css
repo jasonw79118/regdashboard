@@ -50,13 +50,14 @@ header{
 
 .brand-left{
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 12px;
   min-width: 0;
 }
 
 .brand-logo-img{
-  height: 56px;
+  height: 72px;
   width: auto;
   display: block;
 }
@@ -70,10 +71,12 @@ header h1{
 
 .brand-center{
   text-align: center;
+  justify-self: center;
 }
 
 .report-range{
   display: inline-flex;
+  margin: 0 auto;
   align-items: center;
   gap: 8px;
   padding: 9px 14px;
