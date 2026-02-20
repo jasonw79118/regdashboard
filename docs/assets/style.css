@@ -42,23 +42,27 @@ header{
 .brand{
   max-width: 1180px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto minmax(0,1fr) auto;
+  position: relative;
+
+  /* Left + right anchored; center is absolute for true page-centering */
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 14px;
 }
 
 .brand-left{
   display: flex;
   flex-wrap: nowrap;
-  justify-self: start;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
+  justify-self: start;
+  flex: 0 0 auto;
   min-width: 0;
 }
 
 .brand-logo-img{
-  height: 96px;
+  height: 128px;
   width: auto;
   display: block;
 }
@@ -71,35 +75,70 @@ header h1{
 }
 
 .brand-center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  pointer-events: none; /* allows clicking through to left/right controls */
 }
 
 .report-range{
   display: inline-flex;
   margin: 0 auto;
-  font-size: 14px;
+  pointer-events: auto;
+
   align-items: center;
   gap: 8px;
-  padding: 9px 14px;
+  padding: 10px 16px;
   border-radius: 999px;
   background: rgba(255,255,255,.16);
   border: 1px solid rgba(255,255,255,.22);
   backdrop-filter: blur(6px);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1;
   color: rgba(255,255,255,.92);
   justify-content: center;
+  white-space: nowrap;
 }
 
 .brand-actions{
   justify-self: end;
+  flex: 0 0 auto;
 }
 
 /* Mobile: stack center line */
 @media (max-width: 720px){
-  .brand-left{ justify-self: start; }
+  header{ padding: 14px 14px; }
+
+  .brand{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .brand-left{
+    justify-content: flex-start;
+  }
+
+  .brand-center{
+    position: static;
+    transform: none;
+    pointer-events: auto;
+  }
+
+  .brand-actions{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .report-range{
+    justify-content: center;
+    width: 100%;
+  }
+}
   .brand-center{ justify-self: center; }
   .brand{
     grid-template-columns: 1fr;
