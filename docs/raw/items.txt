@@ -1,5 +1,59 @@
 IS
 BleepingComputer
+2026-02-20T17:02:25Z
+CISA: BeyondTrust RCE flaw now exploited in ransomware attacks
+https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/
+Hackers are actively exploiting the CVE-2026-1731 vulnerability in the BeyondTrust Remote Support product, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) warns. [...]
+------------------------------------------------------------
+Compliance Watch
+CDIA
+2026-02-20T16:32:43Z
+New Research Reinforces Tri-Merge as the Golden Standard
+https://www.cdiaonline.org/news/2026/02/20/new-research-reinforces-tri-merge-as-the-golden-standard/
+New research from Andrew Davidson & Co., Inc. reinforces what we’ve long maintained: moving away from the tri-merge credit report in mortgage underwriting... The post New Research Reinforces Tri-Merge as the Golden Standard appeared first on CDIA .
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-20T16:20:40Z
+Data breach at French bank registry impacts 1.2 million accounts
+https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/
+The French Ministry of Finance has published an announcement informing of a cybersecurity incident that has impacted 1.2 million accounts. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-02-20T16:00:53Z
+FATF Holds Plenary in Mexico, Advances Key Illicit Finance Initiatives
+https://home.treasury.gov/news/press-releases/sb0402
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-20T16:00:00Z
+CVE-2025-32711 M365 Copilot Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711
+Updated CWE value. This is an informational change only.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-20T16:00:00Z
+CVE-2025-55319 Agentic AI and Visual Studio Code Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-55319
+Updated CWE value. This is an informational change only.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-20T16:00:00Z
+CVE-2025-65046 Microsoft Edge (Chromium-based) Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046
+Updated CWE value. This is an informational change only.
+------------------------------------------------------------
+Executive
+White House
+2026-02-20T15:21:44Z
+Drug Czar Hosts Roundtable Discussion at the White House About Combatting Illicit Drug Trafficking on Social Media Platforms
+https://www.whitehouse.gov/articles/2026/02/36480/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-20T14:45:54Z
 Why the shift left dream has become a nightmare for security and developers
 https://www.bleepingcomputer.com/news/security/why-the-shift-left-dream-has-become-a-nightmare-for-security-and-developers/
@@ -50,6 +104,24 @@ White House
 2026-02-20T00:55:39Z
 Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia
 https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-20T00:00:00Z
+Warren Statement on Supreme Court Trump Tariffs Ruling
+https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-20T00:00:00Z
+Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires
+https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-20T00:00:00Z
+Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division
+https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -593,20 +665,6 @@ https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-ac
 Threat actors are targeting technology, manufacturing, and financial organizations in campaigns that combine device code phishing and voice phishing (vishing) to abuse the OAuth 2.0 Device Authorization flow and compromise Microsoft Entra accounts. [...]
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-02-19T11:24:17Z
-Police arrests 651 suspects in African cybercrime crackdown
-https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
-African authorities arrested 651 suspects and recovered over $4.3 million in a joint operation targeting investment fraud, mobile money scams, and fake loan applications. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-19T10:00:00Z
-New 'Massiv' Android banking malware poses as an IPTV app
-https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
-A newly identified Android banking trojan named Massiv has been under active distribution across south Europe, disguised as an IPTV app. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-02-19T02:49:14Z
 Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
@@ -658,24 +716,6 @@ Freddie Mac
 2026-02-19T00:00:00Z
 Average 30-Year Fixed-Rate Mortgage Hits Another Low
 https://www.globenewswire.com/news-release/2026/02/19/3241388/0/en/Average-30-Year-Fixed-Rate-Mortgage-Hits-Another-Low.html
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-19T00:00:00Z
-Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires
-https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-19T00:00:00Z
-Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division
-https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-19T00:00:00Z
-Warren Statement on Turmoil in Private Credit Market
-https://www.banking.senate.gov/newsroom/minority/warren-statement-on-turmoil-in-private-credit-market
 ------------------------------------------------------------
 Payment Card Networks
 Visa
@@ -748,6 +788,18 @@ BleepingComputer
 2026-02-19T00:00:00Z
 Train for CompTIA, AWS, Cisco & more with this $40 course deal
 https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-19T00:00:00Z
+Police arrests 651 suspects in African cybercrime crackdown
+https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-19T00:00:00Z
+New 'Massiv' Android banking malware poses as an IPTV app
+https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -1934,12 +1986,6 @@ Treasury
 2026-02-18T21:57:31Z
 Treasury Issues Interim CAMT Guidance to Reduce Burdens, Support U.S. Investment, and Maximize Growth
 https://home.treasury.gov/news/press-releases/sb0397
-------------------------------------------------------------
-Executive
-White House
-2026-02-18T21:29:42Z
-Congressional Bills H.J.Res. 142 and S. 3705 Signed into Law
-https://www.whitehouse.gov/briefings-statements/2026/02/congressional-bills-h-j-res-142-and-s-3705-signed-into-law/
 ------------------------------------------------------------
 OFAC
 Treasury
@@ -12490,18 +12536,6 @@ BleepingComputer
 Critical infra Honeywell CCTVs vulnerable to auth bypass flaw
 https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T00:00:00Z
-AI platforms can be abused for stealthy malware communication
-https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T00:00:00Z
-These Sony ANC earbuds dropped to just $70
-https://www.bleepingcomputer.com/offer/deals/these-sony-anc-earbuds-dropped-to-just-70/
-------------------------------------------------------------
 Federal Register
 Federal Register
 2026-02-18T00:00:00Z
@@ -15715,12 +15749,6 @@ Treasury
 2026-02-10T15:30:00Z
 Treasury Sanctions Operatives Generating Revenue for Hizballah and Exploiting Lebanon’s Cash Economy
 https://home.treasury.gov/news/press-releases/sb0393
-------------------------------------------------------------
-OFAC
-Treasury
-2026-02-10T15:05:03Z
-U.S.-UK Transatlantic Taskforce for Markets of the Future Hosts Industry Engagement Day in London
-https://home.treasury.gov/news/press-releases/sb0392
 ------------------------------------------------------------
 Fintech Watch
 Finastra

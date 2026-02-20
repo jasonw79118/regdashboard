@@ -1,7 +1,67 @@
 # RegDashboard — Export
 
-Window: `2026-02-06T15:00:03Z` → `2026-02-20T15:00:03Z` (UTC)
-Last updated: `2026-02-20T09:00:03-06:00` (CT) — `2026-02-20T15:00:03Z` (UTC)
+Window: `2026-02-06T17:58:27Z` → `2026-02-20T17:58:27Z` (UTC)
+Last updated: `2026-02-20T11:58:27-06:00` (CT) — `2026-02-20T17:58:27Z` (UTC)
+
+## CISA: BeyondTrust RCE flaw now exploited in ransomware attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-20T17:02:25Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/
+
+Hackers are actively exploiting the CVE-2026-1731 vulnerability in the BeyondTrust Remote Support product, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) warns. [...]
+
+## New Research Reinforces Tri-Merge as the Golden Standard
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-02-20T16:32:43Z
+- URL: https://www.cdiaonline.org/news/2026/02/20/new-research-reinforces-tri-merge-as-the-golden-standard/
+
+New research from Andrew Davidson & Co., Inc. reinforces what we’ve long maintained: moving away from the tri-merge credit report in mortgage underwriting... The post New Research Reinforces Tri-Merge as the Golden Standard appeared first on CDIA .
+
+## Data breach at French bank registry impacts 1.2 million accounts
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-20T16:20:40Z
+- URL: https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/
+
+The French Ministry of Finance has published an announcement informing of a cybersecurity incident that has impacted 1.2 million accounts. [...]
+
+## FATF Holds Plenary in Mexico, Advances Key Illicit Finance Initiatives
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-20T16:00:53Z
+- URL: https://home.treasury.gov/news/press-releases/sb0402
+
+## CVE-2025-32711 M365 Copilot Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-20T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711
+
+Updated CWE value. This is an informational change only.
+
+## CVE-2025-55319 Agentic AI and Visual Studio Code Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-20T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-55319
+
+Updated CWE value. This is an informational change only.
+
+## CVE-2025-65046 Microsoft Edge (Chromium-based) Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-20T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046
+
+Updated CWE value. This is an informational change only.
+
+## Drug Czar Hosts Roundtable Discussion at the White House About Combatting Illicit Drug Trafficking on Social Media Platforms
+- Source: White House
+- Category: Executive
+- Published: 2026-02-20T15:21:44Z
+- URL: https://www.whitehouse.gov/articles/2026/02/36480/
 
 ## Why the shift left dream has become a nightmare for security and developers
 - Source: BleepingComputer
@@ -60,6 +120,24 @@ A Ukrainian national was sentenced to five years in prison for providing North K
 - Category: Executive
 - Published: 2026-02-20T00:55:39Z
 - URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/
+
+## Warren Statement on Supreme Court Trump Tariffs Ruling
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling
+
+## Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires
+
+## Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
 
 ## Learn a language with structure, not guesswork in this Babbel deal
 - Source: BleepingComputer
@@ -663,22 +741,6 @@ Texas sued networking giant TP-Link Systems, accusing the company of deceptively
 
 Threat actors are targeting technology, manufacturing, and financial organizations in campaigns that combine device code phishing and voice phishing (vishing) to abuse the OAuth 2.0 Device Authorization flow and compromise Microsoft Entra accounts. [...]
 
-## Police arrests 651 suspects in African cybercrime crackdown
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-19T11:24:17Z
-- URL: https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
-
-African authorities arrested 651 suspects and recovered over $4.3 million in a joint operation targeting investment fraud, mobile money scams, and fake loan applications. [...]
-
-## New 'Massiv' Android banking malware poses as an IPTV app
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-19T10:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
-
-A newly identified Android banking trojan named Massiv has been under active distribution across south Europe, disguised as an IPTV app. [...]
-
 ## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
 - Source: Microsoft MSRC
 - Category: IS
@@ -736,24 +798,6 @@ National banks are among the most highly regulated institutions in the country, 
 - Category: Mortgage
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/02/19/3241388/0/en/Average-30-Year-Fixed-Rate-Mortgage-Hits-Another-Low.html
-
-## Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-19T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires
-
-## Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-19T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
-
-## Warren Statement on Turmoil in Private Credit Market
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-19T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-turmoil-in-private-credit-market
 
 ## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
 - Source: Visa
@@ -826,6 +870,18 @@ National banks are among the most highly regulated institutions in the country, 
 - Category: IS
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/
+
+## Police arrests 651 suspects in African cybercrime crackdown
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
+
+## New 'Massiv' Android banking malware poses as an IPTV app
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
 
 ## General Provisions
 - Source: Federal Register
@@ -2166,12 +2222,6 @@ Information published.
 - Category: OFAC
 - Published: 2026-02-18T21:57:31Z
 - URL: https://home.treasury.gov/news/press-releases/sb0397
-
-## Congressional Bills H.J.Res. 142 and S. 3705 Signed into Law
-- Source: White House
-- Category: Executive
-- Published: 2026-02-18T21:29:42Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/congressional-bills-h-j-res-142-and-s-3705-signed-into-law/
 
 ## Treasury International Capital Data for December
 - Source: Treasury
@@ -14223,18 +14273,6 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-02-18T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
 
-## AI platforms can be abused for stealthy malware communication
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
-
-## These Sony ANC earbuds dropped to just $70
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/these-sony-anc-earbuds-dropped-to-just-70/
-
 ## Determination That TOLECTIN DS (Tolmetin Sodium) Capsule, Equivalent to 400 Milligrams Base, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness
 - Source: Federal Register
 - Category: Federal Register
@@ -17668,12 +17706,6 @@ The Coast Guard is modifying the operating regulation that governs the Point No 
 - Category: OFAC
 - Published: 2026-02-10T15:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0393
-
-## U.S.-UK Transatlantic Taskforce for Markets of the Future Hosts Industry Engagement Day in London
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-10T15:05:03Z
-- URL: https://home.treasury.gov/news/press-releases/sb0392
 
 ## Mexico among the leading countries in the application of AI to the financial sector, according to research by Finastra
 - Source: Finastra

@@ -1,9 +1,73 @@
 {
-  "window_start": "2026-02-06T15:00:03Z",
-  "window_end": "2026-02-20T15:00:03Z",
-  "generated_at_utc": "2026-02-20T15:00:03Z",
-  "generated_at_ct": "2026-02-20T09:00:03-06:00",
+  "window_start": "2026-02-06T17:58:27Z",
+  "window_end": "2026-02-20T17:58:27Z",
+  "generated_at_utc": "2026-02-20T17:58:27Z",
+  "generated_at_ct": "2026-02-20T11:58:27-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "CISA: BeyondTrust RCE flaw now exploited in ransomware attacks",
+      "published_at": "2026-02-20T17:02:25Z",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/",
+      "summary": "Hackers are actively exploiting the CVE-2026-1731 vulnerability in the BeyondTrust Remote Support product, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) warns. [...]"
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "CDIA",
+      "title": "New Research Reinforces Tri-Merge as the Golden Standard",
+      "published_at": "2026-02-20T16:32:43Z",
+      "url": "https://www.cdiaonline.org/news/2026/02/20/new-research-reinforces-tri-merge-as-the-golden-standard/",
+      "summary": "New research from Andrew Davidson & Co., Inc. reinforces what we’ve long maintained: moving away from the tri-merge credit report in mortgage underwriting... The post New Research Reinforces Tri-Merge as the Golden Standard appeared first on CDIA ."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Data breach at French bank registry impacts 1.2 million accounts",
+      "published_at": "2026-02-20T16:20:40Z",
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/",
+      "summary": "The French Ministry of Finance has published an announcement informing of a cybersecurity incident that has impacted 1.2 million accounts. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "FATF Holds Plenary in Mexico, Advances Key Illicit Finance Initiatives",
+      "published_at": "2026-02-20T16:00:53Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0402",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-32711 M365 Copilot Information Disclosure Vulnerability",
+      "published_at": "2026-02-20T16:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711",
+      "summary": "Updated CWE value. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-55319 Agentic AI and Visual Studio Code Remote Code Execution Vulnerability",
+      "published_at": "2026-02-20T16:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-55319",
+      "summary": "Updated CWE value. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-65046 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "published_at": "2026-02-20T16:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046",
+      "summary": "Updated CWE value. This is an informational change only."
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Drug Czar Hosts Roundtable Discussion at the White House About Combatting Illicit Drug Trafficking on Social Media Platforms",
+      "published_at": "2026-02-20T15:21:44Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/36480/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -66,6 +130,30 @@
       "title": "Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia",
       "published_at": "2026-02-20T00:55:39Z",
       "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Statement on Supreme Court Trump Tariffs Ruling",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division",
       "summary": ""
     },
     {
@@ -1051,22 +1139,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Police arrests 651 suspects in African cybercrime crackdown",
-      "published_at": "2026-02-19T11:24:17Z",
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/",
-      "summary": "African authorities arrested 651 suspects and recovered over $4.3 million in a joint operation targeting investment fraud, mobile money scams, and fake loan applications. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New 'Massiv' Android banking malware poses as an IPTV app",
-      "published_at": "2026-02-19T10:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/",
-      "summary": "A newly identified Android banking trojan named Massiv has been under active distribution across south Europe, disguised as an IPTV app. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "Chromium: CVE-2026-2322 Heap buffer overflow in Codecs",
       "published_at": "2026-02-19T02:49:14Z",
@@ -1127,30 +1199,6 @@
       "title": "Average 30-Year Fixed-Rate Mortgage Hits Another Low",
       "published_at": "2026-02-19T00:00:00Z",
       "url": "https://www.globenewswire.com/news-release/2026/02/19/3241388/0/en/Average-30-Year-Fixed-Rate-Mortgage-Hits-Another-Low.html",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires",
-      "published_at": "2026-02-19T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division",
-      "published_at": "2026-02-19T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Statement on Turmoil in Private Credit Market",
-      "published_at": "2026-02-19T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-turmoil-in-private-credit-market",
       "summary": ""
     },
     {
@@ -1247,6 +1295,22 @@
       "title": "Train for CompTIA, AWS, Cisco & more with this $40 course deal",
       "published_at": "2026-02-19T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Police arrests 651 suspects in African cybercrime crackdown",
+      "published_at": "2026-02-19T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "New 'Massiv' Android banking malware poses as an IPTV app",
+      "published_at": "2026-02-19T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/",
       "summary": ""
     },
     {
@@ -3028,14 +3092,6 @@
       "title": "Treasury Issues Interim CAMT Guidance to Reduce Burdens, Support U.S. Investment, and Maximize Growth",
       "published_at": "2026-02-18T21:57:31Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0397",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Congressional Bills H.J.Res. 142 and S. 3705 Signed into Law",
-      "published_at": "2026-02-18T21:29:42Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/congressional-bills-h-j-res-142-and-s-3705-signed-into-law/",
       "summary": ""
     },
     {
@@ -15103,22 +15159,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "AI platforms can be abused for stealthy malware communication",
-      "published_at": "2026-02-18T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "These Sony ANC earbuds dropped to just $70",
-      "published_at": "2026-02-18T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/these-sony-anc-earbuds-dropped-to-just-70/",
-      "summary": ""
-    },
-    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Determination That TOLECTIN DS (Tolmetin Sodium) Capsule, Equivalent to 400 Milligrams Base, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
@@ -20765,14 +20805,6 @@
       "title": "Treasury Sanctions Operatives Generating Revenue for Hizballah and Exploiting Lebanon’s Cash Economy",
       "published_at": "2026-02-10T15:30:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0393",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "U.S.-UK Transatlantic Taskforce for Markets of the Future Hosts Industry Engagement Day in London",
-      "published_at": "2026-02-10T15:05:03Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0392",
       "summary": ""
     },
     {

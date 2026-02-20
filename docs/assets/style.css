@@ -310,20 +310,46 @@ footer hr{
 }
 
 
-/* --- RegReport header branding --- */
+/* --- RegReport header branding (clean) --- */
+header{
+  padding: 14px 18px;
+}
+
 .brand{
   display:flex;
   align-items:center;
   gap:16px;
-  padding: 10px 0 6px 0;
+  flex-wrap:wrap;
 }
 
 .brand-logo-img{
-  height: 96px;
-  width: auto;
+  height: 84px; /* big + clear */
+  width:auto;
   display:block;
 }
 
 .brand-text h1{
   margin:0;
+}
+
+.brand-actions{
+  margin-left:auto;
+}
+
+.nav.nav-slim{
+  display:none; /* hide old menu if any remains */
+}
+
+/* Button styling (safe defaults if not already present) */
+.btn{
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  border:1px solid rgba(0,0,0,0.15);
+}
+
+.btn-primary{
+  border-color: rgba(0,0,0,0.15);
 }
