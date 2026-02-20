@@ -310,7 +310,15 @@ footer hr{
 }
 
 .brand-logo img{
-  height: 64px;
+  height: 72px;
   width: auto;
   display: block;
+}
+
+.brand-logo{
+  width: 92px;
+}
+
+.header-spacer{
+  width: 92px;
 }
