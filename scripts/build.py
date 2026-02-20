@@ -164,7 +164,6 @@ RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
 
     {"kind": "agencies", "value": "consumer-financial-protection-bureau"},
     {"kind": "agencies", "value": "federal-deposit-insurance-corporation"},
-    {"kind": "sections", "value": "business-and-industry"},
 
     {"kind": "topics", "value": "child-labor"},
     {"kind": "topics", "value": "credit"},
@@ -1420,7 +1419,7 @@ def looks_js_rendered(html: str) -> bool:
         return True
     if "select year" in s and "loading" in s:
         return True
-    # Mambu/Temenos often render tiles after hydration
+    # Some vendor sites render tiles after hydration
     if "data-reactroot" in s and "press" in s and "insights" in s:
         return True
     return False
