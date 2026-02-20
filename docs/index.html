@@ -5,22 +5,30 @@
   <title>RegReport – Regulatory Intelligence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/style.css" />
-  <!-- Favicons -->  <link rel="apple-touch-icon" sizes="180x180" href="assets/logo/apple-touch-icon.png?v=3" /></head>
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/logo/apple-touch-icon.png?v=3" />
+</head>
 
 <body>
   <header>
-  <div class="brand">
-    <img class="brand-logo-img" src="assets/logo/regreport-logo.png?v=14" alt="RegReport logo" />
-    <div class="brand-text">
-      <h1>RegReport</h1>
-      <div class="subtitle">Rolling Regulatory Intelligence</div>
-    </div>
+    <div class="brand">
+      <div class="brand-left">
+        <img class="brand-logo-img" src="assets/logo/regreport-logo.png?v=14" alt="RegReport logo" />
+        <div class="brand-text">
+          <h1>RegReport</h1>
+        </div>
+      </div>
 
-    <div class="brand-actions">
-      <a class="btn btn-primary" href="raw/index.html">Static export (Copilot)</a>
+      <!-- Centered: running report dates (filled by JS from data/items.json) -->
+      <div class="brand-center">
+        <div id="report-range" class="report-range" aria-live="polite"></div>
+      </div>
+
+      <div class="brand-actions">
+        <a class="btn btn-primary" href="raw/index.html">Static export (Copilot)</a>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
   <main id="content">
     <p id="loading">Loading items…</p>
@@ -206,11 +214,6 @@
     }
 
     // ============================
-    // ✅ Federal Register filters (tile-only)
-    // ============================
-
-
-    // ============================
     // ✅ Federal Register filters (tile-only) — DROPDOWN
     // ============================
 
@@ -377,13 +380,12 @@
         .filter(i => groupKeys.includes(itemKey(i)))
         .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
-      // ✅ Federal Register tile: add chips + filter only this tile
+      // ✅ Federal Register tile: add filter only this tile
       if (group.id === "fedreg") {
         const filtersWrap = document.createElement("div");
         const listWrap = document.createElement("div");
 
         const rerender = () => {
-          // filter only on fr_tags
           const filtered = groupItemsAll.filter(it => frItemMatches(it, selectedFedRegTag));
           renderFedRegDropdown(filtersWrap, groupItemsAll, rerender);
           renderItemsList(listWrap, filtered);
@@ -468,8 +470,14 @@
         if (!r.ok) throw new Error(`HTTP ${r.status} loading ${url}`);
         const data = await r.json();
 
-        const w = $("window");
-        if (w) w.textContent = `Rolling window: ${fmtDate(data.window_start)} → ${fmtDate(data.window_end)} (UTC)`;
+        // ✅ Header: centered report date range
+        const rr = $("report-range");
+        if (rr) {
+          const start = fmtDate(data.window_start);
+          const end = fmtDate(data.window_end);
+          rr.textContent = (start && end) ? `Report dates: ${start} → ${end} (UTC)` : "";
+          rr.style.display = rr.textContent ? "inline-flex" : "none";
+        }
 
         const c = $("count");
         if (c) c.textContent = `Total items loaded: ${(data.items || []).length}`;

@@ -30,35 +30,49 @@ body{
 a{ color: var(--link); text-decoration: none; }
 a:hover{ color: var(--link-hover); text-decoration: underline; }
 
+/* ============================
+   Header (centered report dates)
+   ============================ */
 header{
   background: var(--header-grad);
   color: rgba(255,255,255,.95);
-  padding: 34px 18px 22px 18px;
-  text-align: center;
+  padding: 14px 18px;
+}
+
+.brand{
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-left{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.brand-logo-img{
+  height: 56px;
+  width: auto;
+  display: block;
 }
 
 header h1{
   margin: 0;
-  font-size: clamp(28px, 3.2vw, 46px);
+  font-size: clamp(22px, 2.4vw, 34px);
   font-weight: 800;
   letter-spacing: .2px;
 }
 
-header .subtitle{
-  margin-top: 8px;
-  opacity: .92;
-  font-size: 15px;
-  font-weight: 500;
+.brand-center{
+  text-align: center;
 }
 
-.header-meta{
-  margin-top: 12px;
-  display: grid;
-  gap: 8px;
-  justify-items: center;
-}
-
-.window{
+.report-range{
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -70,58 +84,54 @@ header .subtitle{
   font-size: 13px;
   line-height: 1;
   color: rgba(255,255,255,.92);
-}
-
-#debug-counts{
-  max-width: 1100px;
-}
-
-.nav{
-  margin-top: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
   justify-content: center;
 }
 
-.nav a{
-  color: rgba(255,255,255,.92);
-  border: 1px solid rgba(255,255,255,.22);
-  background: rgba(255,255,255,.12);
-  padding: 8px 12px;
-  border-radius: 999px;
-  font-size: 13px;
-  text-decoration: none;
+.brand-actions{
+  justify-self: end;
 }
 
-.nav a:hover{
-  background: rgba(255,255,255,.18);
-  text-decoration: none;
+/* Mobile: stack center line */
+@media (max-width: 720px){
+  .brand{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+  }
+  .brand-actions{
+    justify-self: center;
+  }
 }
 
-.header-actions{
-  margin-top: 14px;
-  display: grid;
-  gap: 10px;
-  justify-items: center;
+header nav,
+header .nav{
+  display:none !important; /* ensure old menu never reappears */
 }
 
 .btn{
-  display: inline-block;
-  padding: 9px 14px;
-  border: 1px solid rgba(255,255,255,.25);
-  border-radius: 999px;
+  display:inline-block;
+  padding:8px 12px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  border:1px solid rgba(255,255,255,.25);
   color: rgba(255,255,255,.95);
   background: rgba(255,255,255,.12);
-  text-decoration: none;
   font-size: 13px;
 }
 
 .btn:hover{
   background: rgba(255,255,255,.18);
-  text-decoration: none;
+  text-decoration:none;
 }
 
+.btn-primary{
+  border-color: rgba(255,255,255,.25);
+}
+
+/* ============================
+   Main
+   ============================ */
 main{
   max-width: 1180px;
   margin: 22px auto 34px auto;
@@ -158,8 +168,8 @@ main{
   display: flex;
   flex-direction: column;
 
-  /* NEW: fixed/standard tile height */
-  height: 420px;           /* tweak: 380–520 depending on preference */
+  /* fixed/standard tile height */
+  height: 420px;
 }
 
 /* left accent stripe */
@@ -184,12 +194,12 @@ main{
   letter-spacing: .2px;
 }
 
-/* NEW: scrollable content area for articles */
+/* scrollable content area for articles */
 .tile-body{
   padding: 12px 18px 8px 18px;
   flex: 1 1 auto;
-  min-height: 0;           /* critical so overflow works in a flex column */
-  overflow: auto;          /* scroll inside the tile */
+  min-height: 0;
+  overflow: auto;
 }
 
 /* items list inside tile */
@@ -201,9 +211,7 @@ main{
   gap: 14px;
 }
 
-.items li{
-  padding: 0;
-}
+.items li{ padding: 0; }
 
 .headline{
   display: grid;
@@ -249,7 +257,7 @@ main{
   border-top: 1px solid var(--line);
   color: rgba(2,6,23,.62);
   font-size: 12px;
-  flex: 0 0 auto;          /* keep footer pinned at bottom */
+  flex: 0 0 auto;
 }
 
 .tile-foot a{ font-weight: 650; }
@@ -278,6 +286,7 @@ footer hr{
   font-size: 12px;
   line-height: 1.45;
 }
+
 /* Federal Register dropdown filter */
 .fr-filters{
   display: flex;
@@ -307,107 +316,4 @@ footer hr{
 .fr-select:focus{
   outline: 2px solid rgba(37, 99, 235, 0.35);
   outline-offset: 2px;
-}
-
-
-/* --- RegReport header branding (clean + slim) --- */
-header{
-  padding: 6px 14px;
-}
-
-.brand{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  flex-wrap:nowrap;
-}
-
-.brand-logo-img{
-  height:56px;
-  width:auto;
-  display:block;
-  background:transparent;
-}
-
-.brand-text h1{
-  margin:0;
-  font-size:1.35rem;
-  line-height:1.1;
-}
-
-.brand-text .subtitle{
-  margin-top:2px;
-  font-size:0.85rem;
-  color:#666;
-}
-
-.brand-actions{
-  margin-left:auto;
-}
-
-header nav,
-header .nav{
-  display:none !important; /* ensure old menu never reappears */
-}
-
-/* Buttons */
-.btn{
-  display:inline-block;
-  padding:8px 12px;
-  border-radius:10px;
-  text-decoration:none;
-  font-weight:600;
-  border:1px solid rgba(0,0,0,0.15);
-}
-
-.btn-primary{
-  border-color: rgba(0,0,0,0.15);
-}
-/* --- RegReport header (final) --- */
-header{
-  padding: 6px 14px;
-}
-
-.brand{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  flex-wrap:nowrap;
-}
-
-.brand-logo-img{
-  height:56px;
-  width:auto;
-  display:block;
-}
-
-.brand-text h1{
-  margin:0;
-  font-size:1.35rem;
-  line-height:1.1;
-}
-
-.brand-text .subtitle{
-  margin-top:2px;
-  font-size:0.85rem;
-  color:#666;
-}
-
-.brand-actions{
-  margin-left:auto;
-}
-
-/* Kill any old header menu if it reappears */
-header nav,
-header .nav{
-  display:none !important;
-}
-
-.btn{
-  display:inline-block;
-  padding:8px 12px;
-  border-radius:10px;
-  text-decoration:none;
-  font-weight:600;
-  border:1px solid rgba(0,0,0,0.15);
 }
