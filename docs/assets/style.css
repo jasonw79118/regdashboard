@@ -36,7 +36,7 @@ a:hover{ color: var(--link-hover); text-decoration: underline; }
 header{
   background: var(--header-grad);
   color: rgba(255,255,255,.95);
-  padding: 14px 12px;
+  padding: 14px 0;
 }
 
 .brand{
@@ -56,16 +56,18 @@ header{
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  gap: 6px;
+  gap: 2px;
   justify-self: start;
   flex: 0 0 auto;
   min-width: 0;
+  padding-left: 6px;
 }
 
 .brand-logo-img{
-  height: 160px;
+  height: 190px;
   width: auto;
   display: block;
+  margin-right: -6px; /* compensate for transparent padding in the logo asset */
 }
 
 header h1{
@@ -114,7 +116,7 @@ header h1{
 
 /* Mobile: stack center line */
 @media (max-width: 720px){
-  header{ padding: 14px 12px; }
+  header{ padding: 14px 0; }
 
   .brand{
     flex-direction: column;
