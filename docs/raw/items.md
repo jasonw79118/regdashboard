@@ -1,7 +1,27 @@
 # RegDashboard — Export
 
-Window: `2026-02-06T17:58:27Z` → `2026-02-20T17:58:27Z` (UTC)
-Last updated: `2026-02-20T11:58:27-06:00` (CT) — `2026-02-20T17:58:27Z` (UTC)
+Window: `2026-02-06T20:47:00Z` → `2026-02-20T20:47:00Z` (UTC)
+Last updated: `2026-02-20T14:47:00-06:00` (CT) — `2026-02-20T20:47:00Z` (UTC)
+
+## Secretary of the Treasury Scott Bessent’s Remarks Before the Economic Club of Dallas - Economic Security First
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-20T19:12:25Z
+- URL: https://home.treasury.gov/news/press-releases/sb0403
+
+## Japanese tech giant Advantest hit by ransomware attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-20T18:30:44Z
+- URL: https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit-by-ransomware-attack/
+
+Advantest Corporation disclosed that its corporate network has been targeted in a ransomware attack that may have affected customer or employee data. [...]
+
+## First Lady Melania Trump Champions U.S. Fashion Leadership
+- Source: White House
+- Category: Executive
+- Published: 2026-02-20T18:01:09Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-champions-u-s-fashion-leadership/
 
 ## CISA: BeyondTrust RCE flaw now exploited in ransomware attacks
 - Source: BleepingComputer
@@ -121,6 +141,14 @@ A Ukrainian national was sentenced to five years in prison for providing North K
 - Published: 2026-02-20T00:55:39Z
 - URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/
 
+## Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill
+- Source: IRS
+- Category: IRS
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill
+
+IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
+
 ## Warren Statement on Supreme Court Trump Tariffs Ruling
 - Source: Senate Banking
 - Category: Legislative
@@ -138,6 +166,12 @@ A Ukrainian national was sentenced to five years in prison for providing North K
 - Category: Legislative
 - Published: 2026-02-20T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
+
+## Learn ethical hacking with this hands-on hacking course deal for $28
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/learn-ethical-hacking-with-this-hands-on-hacking-course-deal-for-28/
 
 ## Learn a language with structure, not guesswork in this Babbel deal
 - Source: BleepingComputer
@@ -733,14 +767,6 @@ A Nigerian national was sentenced to eight years in prison for hacking multiple 
 
 Texas sued networking giant TP-Link Systems, accusing the company of deceptively marketing its routers as secure while allowing Chinese state-backed hackers to exploit firmware vulnerabilities and access users' devices. [...]
 
-## Hackers target Microsoft Entra accounts in device code vishing attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-19T12:30:37Z
-- URL: https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/
-
-Threat actors are targeting technology, manufacturing, and financial organizations in campaigns that combine device code phishing and voice phishing (vishing) to abuse the OAuth 2.0 Device Authorization flow and compromise Microsoft Entra accounts. [...]
-
 ## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
 - Source: Microsoft MSRC
 - Category: IS
@@ -871,17 +897,17 @@ National banks are among the most highly regulated institutions in the country, 
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-more-with-this-40-course-deal/
 
+## Hackers target Microsoft Entra accounts in device code vishing attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/
+
 ## Police arrests 651 suspects in African cybercrime crackdown
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
-
-## New 'Massiv' Android banking malware poses as an IPTV app
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-19T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
 
 ## General Provisions
 - Source: Federal Register
@@ -14267,12 +14293,6 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-02-18T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-07
 
-## Critical infra Honeywell CCTVs vulnerable to auth bypass flaw
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-18T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
-
 ## Determination That TOLECTIN DS (Tolmetin Sodium) Capsule, Equivalent to 400 Milligrams Base, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness
 - Source: Federal Register
 - Category: Federal Register
@@ -17701,12 +17721,6 @@ The Coast Guard is proposing to establish a temporary special local regulation (
 
 The Coast Guard is modifying the operating regulation that governs the Point No Point Railroad Bridge across the Passaic River, mile 2.6, between the City of Newark and Town of Kearny, NJ. The change in the regulation will allow the bridge to be remotely operated from the Conrail North Jersey Dispatch Center in Mount Laurel, NJ. This change will alter the operating schedule of…
 
-## Treasury Sanctions Operatives Generating Revenue for Hizballah and Exploiting Lebanon’s Cash Economy
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-10T15:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0393
-
 ## Mexico among the leading countries in the application of AI to the financial sector, according to research by Finastra
 - Source: Finastra
 - Category: Fintech Watch
@@ -19100,11 +19114,3 @@ The Environmental Protection Agency (EPA) is revising the format for materials t
 - Category: Executive
 - Published: 2026-02-06T21:18:13Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/
-
-## FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-06T20:25:00Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/4082a4d
-
-PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would impleme…

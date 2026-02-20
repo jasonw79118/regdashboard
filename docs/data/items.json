@@ -1,9 +1,33 @@
 {
-  "window_start": "2026-02-06T17:58:27Z",
-  "window_end": "2026-02-20T17:58:27Z",
-  "generated_at_utc": "2026-02-20T17:58:27Z",
-  "generated_at_ct": "2026-02-20T11:58:27-06:00",
+  "window_start": "2026-02-06T20:47:00Z",
+  "window_end": "2026-02-20T20:47:00Z",
+  "generated_at_utc": "2026-02-20T20:47:00Z",
+  "generated_at_ct": "2026-02-20T14:47:00-06:00",
   "items": [
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "Secretary of the Treasury Scott Bessent’s Remarks Before the Economic Club of Dallas - Economic Security First",
+      "published_at": "2026-02-20T19:12:25Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0403",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Japanese tech giant Advantest hit by ransomware attack",
+      "published_at": "2026-02-20T18:30:44Z",
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit-by-ransomware-attack/",
+      "summary": "Advantest Corporation disclosed that its corporate network has been targeted in a ransomware attack that may have affected customer or employee data. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "First Lady Melania Trump Champions U.S. Fashion Leadership",
+      "published_at": "2026-02-20T18:01:09Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-champions-u-s-fashion-leadership/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -133,6 +157,14 @@
       "summary": ""
     },
     {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill",
+      "summary": "IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill."
+    },
+    {
       "category": "Legislative",
       "source": "Senate Banking",
       "title": "Warren Statement on Supreme Court Trump Tariffs Ruling",
@@ -154,6 +186,14 @@
       "title": "Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division",
       "published_at": "2026-02-20T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Learn ethical hacking with this hands-on hacking course deal for $28",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/learn-ethical-hacking-with-this-hands-on-hacking-course-deal-for-28/",
       "summary": ""
     },
     {
@@ -1131,14 +1171,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Hackers target Microsoft Entra accounts in device code vishing attacks",
-      "published_at": "2026-02-19T12:30:37Z",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/",
-      "summary": "Threat actors are targeting technology, manufacturing, and financial organizations in campaigns that combine device code phishing and voice phishing (vishing) to abuse the OAuth 2.0 Device Authorization flow and compromise Microsoft Entra accounts. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "Chromium: CVE-2026-2322 Heap buffer overflow in Codecs",
       "published_at": "2026-02-19T02:49:14Z",
@@ -1300,17 +1332,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Police arrests 651 suspects in African cybercrime crackdown",
+      "title": "Hackers target Microsoft Entra accounts in device code vishing attacks",
       "published_at": "2026-02-19T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "New 'Massiv' Android banking malware poses as an IPTV app",
+      "title": "Police arrests 651 suspects in African cybercrime crackdown",
       "published_at": "2026-02-19T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/",
       "summary": ""
     },
     {
@@ -15151,14 +15183,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Critical infra Honeywell CCTVs vulnerable to auth bypass flaw",
-      "published_at": "2026-02-18T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/",
-      "summary": ""
-    },
-    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Determination That TOLECTIN DS (Tolmetin Sodium) Capsule, Equivalent to 400 Milligrams Base, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
@@ -20800,14 +20824,6 @@
       "fedreg_document_number": "2026-02690"
     },
     {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Treasury Sanctions Operatives Generating Revenue for Hizballah and Exploiting Lebanon’s Cash Economy",
-      "published_at": "2026-02-10T15:30:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0393",
-      "summary": ""
-    },
-    {
       "category": "Fintech Watch",
       "source": "Finastra",
       "title": "Mexico among the leading countries in the application of AI to the financial sector, according to research by Finastra",
@@ -22898,14 +22914,6 @@
       "published_at": "2026-02-06T21:18:13Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/",
       "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
-      "published_at": "2026-02-06T20:25:00Z",
-      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/4082a4d",
-      "summary": "PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would impleme…"
     }
   ]
 }

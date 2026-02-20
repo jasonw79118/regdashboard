@@ -1,3 +1,22 @@
+OFAC
+Treasury
+2026-02-20T19:12:25Z
+Secretary of the Treasury Scott Bessent’s Remarks Before the Economic Club of Dallas - Economic Security First
+https://home.treasury.gov/news/press-releases/sb0403
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-20T18:30:44Z
+Japanese tech giant Advantest hit by ransomware attack
+https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit-by-ransomware-attack/
+Advantest Corporation disclosed that its corporate network has been targeted in a ransomware attack that may have affected customer or employee data. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-02-20T18:01:09Z
+First Lady Melania Trump Champions U.S. Fashion Leadership
+https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-champions-u-s-fashion-leadership/
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-20T17:02:25Z
@@ -105,6 +124,13 @@ White House
 Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia
 https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/
 ------------------------------------------------------------
+IRS
+IRS
+2026-02-20T00:00:00Z
+Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill
+https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill
+IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
+------------------------------------------------------------
 Legislative
 Senate Banking
 2026-02-20T00:00:00Z
@@ -122,6 +148,12 @@ Senate Banking
 2026-02-20T00:00:00Z
 Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division
 https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-20T00:00:00Z
+Learn ethical hacking with this hands-on hacking course deal for $28
+https://www.bleepingcomputer.com/offer/deals/learn-ethical-hacking-with-this-hands-on-hacking-course-deal-for-28/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -658,13 +690,6 @@ https://www.bleepingcomputer.com/news/security/texas-sues-tp-link-over-chinese-h
 Texas sued networking giant TP-Link Systems, accusing the company of deceptively marketing its routers as secure while allowing Chinese state-backed hackers to exploit firmware vulnerabilities and access users' devices. [...]
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-02-19T12:30:37Z
-Hackers target Microsoft Entra accounts in device code vishing attacks
-https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/
-Threat actors are targeting technology, manufacturing, and financial organizations in campaigns that combine device code phishing and voice phishing (vishing) to abuse the OAuth 2.0 Device Authorization flow and compromise Microsoft Entra accounts. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-02-19T02:49:14Z
 Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
@@ -792,14 +817,14 @@ https://www.bleepingcomputer.com/offer/deals/train-for-comptia-aws-cisco-and-mor
 IS
 BleepingComputer
 2026-02-19T00:00:00Z
-Police arrests 651 suspects in African cybercrime crackdown
-https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
+Hackers target Microsoft Entra accounts in device code vishing attacks
+https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-19T00:00:00Z
-New 'Massiv' Android banking malware poses as an IPTV app
-https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/
+Police arrests 651 suspects in African cybercrime crackdown
+https://www.bleepingcomputer.com/news/security/police-arrests-651-suspects-in-african-cybercrime-crackdown/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -12530,12 +12555,6 @@ FHLB MPF
 MPF Announcement 2026-07
 https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-07
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-18T00:00:00Z
-Critical infra Honeywell CCTVs vulnerable to auth bypass flaw
-https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
-------------------------------------------------------------
 Federal Register
 Federal Register
 2026-02-18T00:00:00Z
@@ -15744,12 +15763,6 @@ Drawbridge Operation Regulation; Passaic River, Between the City of Newark and T
 https://www.federalregister.gov/documents/2026/02/11/2026-02690/drawbridge-operation-regulation-passaic-river-between-the-city-of-newark-and-town-of-kearny-nj
 The Coast Guard is modifying the operating regulation that governs the Point No Point Railroad Bridge across the Passaic River, mile 2.6, between the City of Newark and Town of Kearny, NJ. The change in the regulation will allow the bridge to be remotely operated from the Conrail North Jersey Dispatch Center in Mount Laurel, NJ. This change will alter the operating schedule of…
 ------------------------------------------------------------
-OFAC
-Treasury
-2026-02-10T15:30:00Z
-Treasury Sanctions Operatives Generating Revenue for Hizballah and Exploiting Lebanon’s Cash Economy
-https://home.treasury.gov/news/press-releases/sb0393
-------------------------------------------------------------
 Fintech Watch
 Finastra
 2026-02-10T12:00:00Z
@@ -17001,11 +17014,4 @@ White House
 2026-02-06T21:18:13Z
 Ensuring Affordable Beef for the American Consumer
 https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-06T20:25:00Z
-FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
-https://content.govdelivery.com/accounts/USFDIC/bulletins/4082a4d
-PRESS RELEASE | FEBRUARY 6, 2026 FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would impleme…
 ------------------------------------------------------------

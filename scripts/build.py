@@ -67,6 +67,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "TCS": 25,
     "OFAC": 45,
     "Treasury": 60,
+    "FinCEN": 45,
     "OCC": 25,
     "FDIC": 25,
     "FRB": 30,
@@ -96,6 +97,7 @@ UA = "regdashboard/4.2 (+https://github.com/jasonw79118/regdashboard)"
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
     "Treasury": "OFAC",
+    "FinCEN": "OFAC",
     "IRS": "IRS",
 
     # Payments tile
@@ -281,6 +283,11 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
 
     "Treasury": {
         "allow_domains": {"home.treasury.gov"},
+        "allow_path_prefixes": {"/news/press-releases"},
+    },
+
+    "FinCEN": {
+        "allow_domains": {"www.fincen.gov"},
         "allow_path_prefixes": {"/news/press-releases"},
     },
 
@@ -2558,6 +2565,8 @@ def get_start_pages() -> List[SourcePage]:
 
         # Treasury Press Releases (OFAC tile)
         SourcePage("Treasury", "https://home.treasury.gov/news/press-releases"),
+        SourcePage("FinCEN", "https://www.fincen.gov/news/press-releases"),
+
 
         # IRS
         SourcePage("IRS", "https://www.irs.gov/newsroom"),
