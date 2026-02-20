@@ -36,12 +36,13 @@ a:hover{ color: var(--link-hover); text-decoration: underline; }
 header{
   background: var(--header-grad);
   color: rgba(255,255,255,.95);
-  padding: 14px 18px;
+  padding: 14px 12px;
 }
 
 .brand{
-  max-width: 1180px;
-  margin: 0 auto;
+  max-width: none;
+  width: 100%;
+  margin: 0;
   position: relative;
 
   /* Left + right anchored; center is absolute for true page-centering */
@@ -55,14 +56,14 @@ header{
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  gap: 14px;
+  gap: 6px;
   justify-self: start;
   flex: 0 0 auto;
   min-width: 0;
 }
 
 .brand-logo-img{
-  height: 128px;
+  height: 160px;
   width: auto;
   display: block;
 }
@@ -72,6 +73,8 @@ header h1{
   font-size: clamp(22px, 2.4vw, 34px);
   font-weight: 800;
   letter-spacing: .2px;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .brand-center{
@@ -111,7 +114,7 @@ header h1{
 
 /* Mobile: stack center line */
 @media (max-width: 720px){
-  header{ padding: 14px 14px; }
+  header{ padding: 14px 12px; }
 
   .brand{
     flex-direction: column;
@@ -137,16 +140,6 @@ header h1{
   .report-range{
     justify-content: center;
     width: 100%;
-  }
-}
-  .brand-center{ justify-self: center; }
-  .brand{
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 10px;
-  }
-  .brand-actions{
-    justify-self: center;
   }
 }
 
