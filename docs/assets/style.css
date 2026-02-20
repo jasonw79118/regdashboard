@@ -62,18 +62,19 @@ header{
   flex: 0 0 auto;
   min-width: 0;
   padding-left: 4px;
-  gap: 0px;                /* remove CSS gap */
+  gap: 12px;                /* remove CSS gap */
 }
 
 .brand-logo-img{
-  height: 150px;
+  height: 96px;
   width: auto;
   display: block;
-  margin-right: -18px; /* compensate for transparent padding in the logo asset */
+  margin-right: 0px; /* compensate for transparent padding in the logo asset */
   transform: translateY(4px); /* optical centering */
 }
 
 header h1{
+  padding-left: 6px; /* prevents overlap with logo */
   margin: 0;
   font-size: clamp(22px, 2.4vw, 34px);
   font-weight: 800;
@@ -375,5 +376,5 @@ footer hr{
 }
 
 .brand-text{
-  margin-left: -10px;
+  margin-left: 0px;
 }
