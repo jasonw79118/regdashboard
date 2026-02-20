@@ -36,7 +36,7 @@ a:hover{ color: var(--link-hover); text-decoration: underline; }
 header{
   background: var(--header-grad);
   color: rgba(255,255,255,.95);
-  padding: 14px 0;
+  padding: 14px 18px;
 }
 
 .brand{
@@ -45,29 +45,32 @@ header{
   margin: 0;
   position: relative;
 
-  /* Left + right anchored; center is absolute for true page-centering */
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 14px;
+
+  height: 112px;           /* keeps header compact */
+  overflow: visible;       /* allow logo to extend without increasing header height */
 }
 
 .brand-left{
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  gap: 2px;
   justify-self: start;
   flex: 0 0 auto;
   min-width: 0;
-  padding-left: 6px;
+  padding-left: 4px;
+  gap: 0px;                /* remove CSS gap */
 }
 
 .brand-logo-img{
-  height: 190px;
+  height: 150px;
   width: auto;
   display: block;
-  margin-right: -6px; /* compensate for transparent padding in the logo asset */
+  margin-right: -18px; /* compensate for transparent padding in the logo asset */
+  transform: translateY(4px); /* optical centering */
 }
 
 header h1{
@@ -116,7 +119,8 @@ header h1{
 
 /* Mobile: stack center line */
 @media (max-width: 720px){
-  header{ padding: 14px 0; }
+  .brand{ height: auto; }
+  header{ padding: 14px 14px; }
 
   .brand{
     flex-direction: column;
@@ -142,6 +146,16 @@ header h1{
   .report-range{
     justify-content: center;
     width: 100%;
+  }
+}
+  .brand-center{ justify-self: center; }
+  .brand{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+  }
+  .brand-actions{
+    justify-self: center;
   }
 }
 
@@ -358,4 +372,8 @@ footer hr{
 .fr-select:focus{
   outline: 2px solid rgba(37, 99, 235, 0.35);
   outline-offset: 2px;
+}
+
+.brand-text{
+  margin-left: -10px;
 }
