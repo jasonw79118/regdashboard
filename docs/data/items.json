@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-06T20:47:00Z",
-  "window_end": "2026-02-20T20:47:00Z",
-  "generated_at_utc": "2026-02-20T20:47:00Z",
-  "generated_at_ct": "2026-02-20T14:47:00-06:00",
+  "window_start": "2026-02-06T21:02:18Z",
+  "window_end": "2026-02-20T21:02:18Z",
+  "generated_at_utc": "2026-02-20T21:02:18Z",
+  "generated_at_ct": "2026-02-20T15:02:18-06:00",
   "items": [
     {
       "category": "OFAC",
@@ -167,6 +167,14 @@
     {
       "category": "Legislative",
       "source": "Senate Banking",
+      "title": "Warren Response to Trump Press Conference on Chaotic Tariffs",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-response-to-trump-press-conference-on-chaotic-tariffs",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
       "title": "Warren Statement on Supreme Court Trump Tariffs Ruling",
       "published_at": "2026-02-20T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling",
@@ -178,14 +186,6 @@
       "title": "Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires",
       "published_at": "2026-02-20T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division",
-      "published_at": "2026-02-20T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division",
       "summary": ""
     },
     {
@@ -18241,6 +18241,30 @@
       "published_at": "2026-02-13T12:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0394",
       "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "FinCEN",
+      "title": "FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams",
+      "published_at": "2026-02-13T12:00:00Z",
+      "url": "https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026",
+      "summary": "In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams."
+    },
+    {
+      "category": "OFAC",
+      "source": "FinCEN",
+      "title": "FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
+      "published_at": "2026-02-13T12:00:00Z",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions",
+      "summary": "The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations."
+    },
+    {
+      "category": "OFAC",
+      "source": "FinCEN",
+      "title": "FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements",
+      "published_at": "2026-02-13T12:00:00Z",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements",
+      "summary": "Relief Reduces Burdensome and Duplicative Regulatory Requirement"
     },
     {
       "category": "OFAC",

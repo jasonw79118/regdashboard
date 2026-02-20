@@ -288,7 +288,8 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
 
     "FinCEN": {
         "allow_domains": {"www.fincen.gov"},
-        "allow_path_prefixes": {"/news/press-releases"},
+        # Landing pages + individual releases
+        "allow_path_prefixes": {"/news/press-releases", "/news/news-releases", "/news/news-releases/"},
     },
 
     "White House": {
@@ -2565,8 +2566,10 @@ def get_start_pages() -> List[SourcePage]:
 
         # Treasury Press Releases (OFAC tile)
         SourcePage("Treasury", "https://home.treasury.gov/news/press-releases"),
-        SourcePage("FinCEN", "https://www.fincen.gov/news/press-releases"),
 
+        # FinCEN (OFAC, Sanctions & AML tile)
+        SourcePage("FinCEN", "https://www.fincen.gov/news/news-releases"),
+        SourcePage("FinCEN", "https://www.fincen.gov/news/press-releases"),
 
         # IRS
         SourcePage("IRS", "https://www.irs.gov/newsroom"),

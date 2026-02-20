@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-06T20:47:00Z` → `2026-02-20T20:47:00Z` (UTC)
-Last updated: `2026-02-20T14:47:00-06:00` (CT) — `2026-02-20T20:47:00Z` (UTC)
+Window: `2026-02-06T21:02:18Z` → `2026-02-20T21:02:18Z` (UTC)
+Last updated: `2026-02-20T15:02:18-06:00` (CT) — `2026-02-20T21:02:18Z` (UTC)
 
 ## Secretary of the Treasury Scott Bessent’s Remarks Before the Economic Club of Dallas - Economic Security First
 - Source: Treasury
@@ -149,6 +149,12 @@ A Ukrainian national was sentenced to five years in prison for providing North K
 
 IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
 
+## Warren Response to Trump Press Conference on Chaotic Tariffs
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-response-to-trump-press-conference-on-chaotic-tariffs
+
 ## Warren Statement on Supreme Court Trump Tariffs Ruling
 - Source: Senate Banking
 - Category: Legislative
@@ -160,12 +166,6 @@ IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Re
 - Category: Legislative
 - Published: 2026-02-20T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires
-
-## Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
 
 ## Learn ethical hacking with this hands-on hacking course deal for $28
 - Source: BleepingComputer
@@ -16264,6 +16264,30 @@ Download links fixed
 - Category: OFAC
 - Published: 2026-02-13T12:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0394
+
+## FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams
+- Source: FinCEN
+- Category: OFAC
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026
+
+In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams.
+
+## FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
+- Source: FinCEN
+- Category: OFAC
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions
+
+The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations.
+
+## FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements
+- Source: FinCEN
+- Category: OFAC
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements
+
+Relief Reduces Burdensome and Duplicative Regulatory Requirement
 
 ## Issuance of Venezuela-related General Licenses
 - Source: OFAC

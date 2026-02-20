@@ -134,6 +134,12 @@ IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Re
 Legislative
 Senate Banking
 2026-02-20T00:00:00Z
+Warren Response to Trump Press Conference on Chaotic Tariffs
+https://www.banking.senate.gov/newsroom/minority/warren-response-to-trump-press-conference-on-chaotic-tariffs
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-20T00:00:00Z
 Warren Statement on Supreme Court Trump Tariffs Ruling
 https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling
 ------------------------------------------------------------
@@ -142,12 +148,6 @@ Senate Banking
 2026-02-20T00:00:00Z
 Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires
 https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-20T00:00:00Z
-Warren, Gallego, Colleagues Push Fed Vice Chair Bowman on Troubling Leadership of Fed’s Supervision and Regulation Division
-https://www.banking.senate.gov/newsroom/minority/warren-gallego-colleagues-push-fed-vice-chair-bowman-on-troubling-leadership-of-feds-supervision-and-regulation-division
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -14434,6 +14434,27 @@ Treasury
 2026-02-13T12:00:00Z
 Treasury Accepting Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
 https://home.treasury.gov/news/press-releases/sb0394
+------------------------------------------------------------
+OFAC
+FinCEN
+2026-02-13T12:00:00Z
+FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams
+https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026
+In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams.
+------------------------------------------------------------
+OFAC
+FinCEN
+2026-02-13T12:00:00Z
+FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
+https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions
+The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations.
+------------------------------------------------------------
+OFAC
+FinCEN
+2026-02-13T12:00:00Z
+FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements
+https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements
+Relief Reduces Burdensome and Duplicative Regulatory Requirement
 ------------------------------------------------------------
 OFAC
 OFAC
