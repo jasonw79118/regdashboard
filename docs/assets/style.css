@@ -278,3 +278,33 @@ footer hr{
   font-size: 12px;
   line-height: 1.45;
 }
+/* Federal Register dropdown filter */
+.fr-filters{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 12px 0;
+}
+
+.fr-label{
+  font-size: 12px;
+  font-weight: 650;
+  color: rgba(2,6,23,.70);
+}
+
+.fr-select{
+  width: 100%;
+  max-width: 320px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(2,6,23,.14);
+  background: rgba(255,255,255,.95);
+  font-size: 12px;
+  font-weight: 650;
+  color: rgba(2,6,23,.85);
+}
+
+.fr-select:focus{
+  outline: 2px solid rgba(37, 99, 235, 0.35);
+  outline-offset: 2px;
+}

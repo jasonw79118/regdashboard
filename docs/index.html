@@ -224,6 +224,11 @@
     // ✅ Federal Register filters (tile-only)
     // ============================
 
+
+    // ============================
+    // ✅ Federal Register filters (tile-only) — DROPDOWN
+    // ============================
+
     let selectedFedRegTag = ""; // "" = no filter (show all)
 
     function frPrettyTagLabel(tag) {
@@ -244,18 +249,14 @@
       return `${kind}: ${prettyVal}`;
     }
 
-    function frCollectTags(allItems) {
+    function frCollectTagCounts(allItems) {
       const counts = new Map();
       (allItems || []).forEach(it => {
         if (!it || it.source !== "Federal Register") return;
         const tags = it.fr_tags || [];
         tags.forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
       });
-
-      return Array.from(counts.entries())
-        .sort((a, b) => (b[1] - a[1]) || String(a[0]).localeCompare(String(b[0])))
-        .slice(0, 30) // cap so chips don't explode
-        .map(([tag, count]) => ({ tag, count }));
+      return counts;
     }
 
     function frItemMatches(item, tag) {
@@ -264,53 +265,80 @@
       return Array.isArray(tags) && tags.includes(tag);
     }
 
-    function buildChip(label, active, onClick) {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.textContent = label;
-      btn.className = "fr-chip";
-      btn.style.cssText = `
-        border:1px solid rgba(2,6,23,.18);
-        border-radius:999px;
-        padding:6px 10px;
-        font-size:12px;
-        cursor:pointer;
-        background:${active ? "rgba(37,99,235,.12)" : "white"};
-        color:${active ? "rgba(2,6,23,.95)" : "rgba(2,6,23,.78)"};
-      `;
-      btn.addEventListener("click", onClick);
-      return btn;
-    }
+    function renderFedRegDropdown(filtersWrap, allItems, rerenderList) {
+      // Build dropdown once; update options each render (preserve selection)
+      filtersWrap.innerHTML = "";
 
-    function renderFedRegChips(chipsWrap, allItems, rerenderList) {
-      chipsWrap.innerHTML = "";
+      const counts = frCollectTagCounts(allItems);
+      const tags = Array.from(counts.keys());
+      if (!tags.length) return; // no tags -> no filter UI
 
-      const tags = frCollectTags(allItems);
-      if (!tags.length) return;
+      filtersWrap.className = "fr-filters";
 
-      chipsWrap.style.cssText = "display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0 0;";
+      const label = document.createElement("label");
+      label.className = "fr-label";
+      label.setAttribute("for", "frFilter");
+      label.textContent = "Filter:";
+      filtersWrap.appendChild(label);
 
-      // "Clear" chip appears only when selected
-      if (selectedFedRegTag) {
-        chipsWrap.appendChild(
-          buildChip("Clear filter ✕", true, () => {
-            selectedFedRegTag = "";
-            rerenderList();
-          })
-        );
+      const sel = document.createElement("select");
+      sel.id = "frFilter";
+      sel.className = "fr-select";
+
+      // All option
+      const optAll = document.createElement("option");
+      optAll.value = "";
+      optAll.textContent = "All Federal Register";
+      sel.appendChild(optAll);
+
+      // Group tags for nicer UX
+      const topics = [];
+      const agencies = [];
+      const sections = [];
+      const other = [];
+
+      tags.forEach(t => {
+        if (String(t).startsWith("topic:")) topics.push(t);
+        else if (String(t).startsWith("agency:")) agencies.push(t);
+        else if (String(t).startsWith("section:")) sections.push(t);
+        else other.push(t);
+      });
+
+      const sortAlpha = (a, b) => frPrettyTagLabel(a).localeCompare(frPrettyTagLabel(b));
+
+      topics.sort(sortAlpha);
+      agencies.sort(sortAlpha);
+      sections.sort(sortAlpha);
+      other.sort(sortAlpha);
+
+      function addGroup(groupLabel, values) {
+        if (!values.length) return;
+        const og = document.createElement("optgroup");
+        og.label = groupLabel;
+        values.forEach(v => {
+          const opt = document.createElement("option");
+          opt.value = v;
+          const count = counts.get(v) || 0;
+          opt.textContent = `${frPrettyTagLabel(v)} (${count})`;
+          og.appendChild(opt);
+        });
+        sel.appendChild(og);
       }
 
-      tags.forEach(({ tag, count }) => {
-        const active = (selectedFedRegTag === tag);
-        const label = `${frPrettyTagLabel(tag)} (${count})`;
-        chipsWrap.appendChild(
-          buildChip(label, active, () => {
-            selectedFedRegTag = active ? "" : tag; // toggle
-            rerenderList();
-          })
-        );
+      addGroup("Topics", topics);
+      addGroup("Agencies", agencies);
+      addGroup("Sections", sections);
+      addGroup("Other", other);
+
+      sel.value = selectedFedRegTag || "";
+      sel.addEventListener("change", () => {
+        selectedFedRegTag = sel.value || "";
+        rerenderList();
       });
+
+      filtersWrap.appendChild(sel);
     }
+}
 
     function renderItemsList(listWrap, groupItems) {
       listWrap.innerHTML = "";
@@ -367,17 +395,17 @@
 
       // ✅ Federal Register tile: add chips + filter only this tile
       if (group.id === "fedreg") {
-        const chipsWrap = document.createElement("div");
+        const filtersWrap = document.createElement("div");
         const listWrap = document.createElement("div");
 
         const rerender = () => {
           // filter only on fr_tags
           const filtered = groupItemsAll.filter(it => frItemMatches(it, selectedFedRegTag));
-          renderFedRegChips(chipsWrap, groupItemsAll, rerender);
+          renderFedRegDropdown(filtersWrap, groupItemsAll, rerender);
           renderItemsList(listWrap, filtered);
         };
 
-        body.appendChild(chipsWrap);
+        body.appendChild(filtersWrap);
         body.appendChild(listWrap);
         rerender(); // initial render
       } else {
