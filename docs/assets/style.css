@@ -309,16 +309,21 @@ footer hr{
   outline-offset: 2px;
 }
 
-.brand-logo img{
-  height: 72px;
+
+/* --- RegReport header branding --- */
+.brand{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding: 10px 0 6px 0;
+}
+
+.brand-logo-img{
+  height: 96px;
   width: auto;
-  display: block;
+  display:block;
 }
 
-.brand-logo{
-  width: 92px;
-}
-
-.header-spacer{
-  width: 92px;
+.brand-text h1{
+  margin:0;
 }
