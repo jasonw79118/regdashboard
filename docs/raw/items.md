@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-06T23:17:53Z` → `2026-02-20T23:17:53Z` (UTC)
-Last updated: `2026-02-20T17:17:53-06:00` (CT) — `2026-02-20T23:17:53Z` (UTC)
+Window: `2026-02-06T23:48:02Z` → `2026-02-20T23:48:02Z` (UTC)
+Last updated: `2026-02-20T17:48:02-06:00` (CT) — `2026-02-20T23:48:02Z` (UTC)
 
 ## President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth
 - Source: White House
@@ -15912,9 +15912,3 @@ As part of its continuing effort to reduce paperwork burdens, and as required by
 - URL: https://www.federalregister.gov/documents/2026/02/09/2026-02477/air-plan-approval-connecticut-revised-format-for-materials-incorporated-by-reference
 
 The Environmental Protection Agency (EPA) is revising the format for materials that are made part of the Connecticut State Implementation Plan (SIP) through the process of incorporation by reference (IBR). The regulations and materials affected by this format change have all been previously submitted by Connecticut and approved by EPA as part of the SIP.
-
-## Modifying Duties to Address Threats to the United States by the Government of the Russian Federation
-- Source: White House
-- Category: Executive
-- Published: 2026-02-06T23:30:12Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/

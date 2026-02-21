@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-06T23:17:53Z",
-  "window_end": "2026-02-20T23:17:53Z",
-  "generated_at_utc": "2026-02-20T23:17:53Z",
-  "generated_at_ct": "2026-02-20T17:17:53-06:00",
+  "window_start": "2026-02-06T23:48:02Z",
+  "window_end": "2026-02-20T23:48:02Z",
+  "generated_at_utc": "2026-02-20T23:48:02Z",
+  "generated_at_ct": "2026-02-20T17:48:02-06:00",
   "items": [
     {
       "category": "Executive",
@@ -16937,14 +16937,6 @@
         "filter:small-business"
       ],
       "fedreg_document_number": "2026-02477"
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Modifying Duties to Address Threats to the United States by the Government of the Russian Federation",
-      "published_at": "2026-02-06T23:30:12Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/",
-      "summary": ""
     }
   ]
 }
