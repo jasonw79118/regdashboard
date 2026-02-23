@@ -54,7 +54,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "IRS": 70,
     "USDA Rural Development": 55,
     "Mastercard": 120,
-    "Visa": 160,
+    "Visa": 0,
     "FHLB MPF": 25,
     "Fannie Mae": 35,
     "Freddie Mac": 10,
@@ -69,7 +69,6 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "FDIC": 25,
     "FRB": 30,
     "FRB Payments": 30,
-    "FinCEN": 25,
     "NACHA": 25,
     "White House": 45,
     "Federal Register": 0,  # API only
@@ -84,6 +83,9 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "Wolters Kluwer": 25,
     "Bankers Online": 25,
 }
+
+# Sources we already get enough signal from listing pages; skip detail fetch to avoid timeouts
+SKIP_DETAIL_SOURCES = {"Visa"}
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
 UA = "regdashboard/4.2 (+https://github.com/jasonw79118/regdashboard)"
@@ -345,8 +347,8 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
 
     "ABA": {
-        "allow_domains": {"www.aba.com"},
-        "allow_path_prefixes": {"/about-us/press-room/press-releases"},
+        "allow_domains": {"www.aba.com", "bankingjournal.aba.com"},
+        "allow_path_prefixes": {"/news-research/", "/"},
     },
     "TBA": {
         "allow_domains": {"www.texasbankers.com"},
@@ -354,7 +356,7 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
     "Wolters Kluwer": {
         "allow_domains": {"www.wolterskluwer.com"},
-        "allow_path_prefixes": {"/en/news"},
+        "allow_path_prefixes": {"/en/news", "/en-gb/news", "/en/news/"},
     },
     "Bankers Online": {
         "allow_domains": {"www.bankersonline.com"},
@@ -1982,194 +1984,6 @@ def treasury_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
     return links
 
 
-
-# ============================
-# FinCEN (Press Releases / News)
-# ============================
-
-FINCEN_DETAIL_RE = re.compile(
-    r"^/news/(news-releases|press-releases|readouts|speeches|testimony|enforcement-actions|sar-technical-bulletins)/",
-    re.I,
-)
-
-def fincen_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    soup = BeautifulSoup(html, "html.parser")
-    container = pick_container(soup) or soup
-    if not container:
-        return []
-
-    strip_nav_like(container)
-
-    links: List[Tuple[str, str, Optional[datetime]]] = []
-    seen: set[str] = set()
-
-    for a in container.select('a[href^="/news/"]'):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#"):
-            continue
-        if not FINCEN_DETAIL_RE.match(href):
-            continue
-
-        url = canonical_url(urljoin(page_url, href))
-        if not allowed_for_source("FinCEN", url):
-            continue
-
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
-        if not raw_title:
-            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
-
-        title = clean_text(raw_title, 220)
-        if not title or len(title) < 8:
-            continue
-
-        if title.lower() in {"read more", "learn more", "more", "details"}:
-            continue
-        if is_probably_nav_link("FinCEN", title, url):
-            continue
-        if is_generic_listing_or_home("FinCEN", title, url):
-            continue
-
-        if url in seen:
-            continue
-        seen.add(url)
-
-        dt = find_time_near_anchor(a, "FinCEN")
-        if dt is None:
-            wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
-            if wrap:
-                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="FinCEN")
-
-        links.append((title, url, dt))
-        if len(links) >= MAX_LISTING_LINKS:
-            break
-
-    return links
-
-
-# ============================
-# ABA (Press Releases)
-# ============================
-
-ABA_DETAIL_RE = re.compile(r"^/about-us/press-room/press-releases/[^/]+$", re.I)
-
-def aba_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    soup = BeautifulSoup(html, "html.parser")
-    container = pick_container(soup) or soup
-    if not container:
-        return []
-
-    strip_nav_like(container)
-
-    links: List[Tuple[str, str, Optional[datetime]]] = []
-    seen: set[str] = set()
-
-    # ABA press releases are cleanly under /about-us/press-room/press-releases/<slug>
-    for a in container.select('a[href^="/about-us/press-room/press-releases/"]'):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#"):
-            continue
-        if not ABA_DETAIL_RE.match(href):
-            continue
-
-        url = canonical_url(urljoin(page_url, href))
-        if not allowed_for_source("ABA", url):
-            continue
-
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
-        if not raw_title:
-            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
-
-        title = clean_text(raw_title, 220)
-        if not title or len(title) < 8:
-            continue
-
-        if title.lower() in {"read more", "learn more", "more", "details"}:
-            continue
-        if is_probably_nav_link("ABA", title, url):
-            continue
-        if is_generic_listing_or_home("ABA", title, url):
-            continue
-
-        if url in seen:
-            continue
-        seen.add(url)
-
-        dt = find_time_near_anchor(a, "ABA")
-        if dt is None:
-            wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
-            if wrap:
-                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="ABA")
-
-        links.append((title, url, dt))
-        if len(links) >= MAX_LISTING_LINKS:
-            break
-
-    return links
-
-
-# ============================
-# Wolters Kluwer (News & Press Releases)
-# ============================
-
-WK_DETAIL_RE = re.compile(r"^/en/news/[^/]+$", re.I)
-
-def wolterskluwer_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    soup = BeautifulSoup(html, "html.parser")
-    container = pick_container(soup) or soup
-    if not container:
-        return []
-
-    strip_nav_like(container)
-
-    links: List[Tuple[str, str, Optional[datetime]]] = []
-    seen: set[str] = set()
-
-    # WK articles live under /en/news/<slug>
-    for a in container.select('a[href^="/en/news/"]'):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#"):
-            continue
-        # Avoid hub/pagination URLs like /en/news?page=2 (no trailing slash slug)
-        if not WK_DETAIL_RE.match(href):
-            continue
-
-        url = canonical_url(urljoin(page_url, href))
-        if not allowed_for_source("Wolters Kluwer", url):
-            continue
-
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
-        if not raw_title:
-            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
-
-        title = clean_text(raw_title, 220)
-        if not title or len(title) < 8:
-            continue
-
-        if title.lower() in {"read more", "learn more", "more", "details"}:
-            continue
-        if is_probably_nav_link("Wolters Kluwer", title, url):
-            continue
-        if is_generic_listing_or_home("Wolters Kluwer", title, url):
-            continue
-
-        if url in seen:
-            continue
-        seen.add(url)
-
-        dt = find_time_near_anchor(a, "Wolters Kluwer")
-        if dt is None:
-            wrap = a.find_parent(["li", "article", "div", "section", "p"]) or a.parent
-            if wrap:
-                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1000), source="Wolters Kluwer")
-
-        links.append((title, url, dt))
-        if len(links) >= MAX_LISTING_LINKS:
-            break
-
-    return links
-
-
-
 # ============================
 # Freddie Mac (GlobeNewswire)
 # ============================
@@ -2634,8 +2448,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return ofac_links(page_url, html)
     if source == "Treasury":
         return treasury_links(page_url, html)
-    if source == "FinCEN":
-        return fincen_links(page_url, html)
     if source == "White House":
         return whitehouse_links(page_url, html)
     if source == "Mastercard":
@@ -2648,10 +2460,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
-    if source == "ABA":
-        return aba_links(page_url, html)
-    if source == "Wolters Kluwer":
-        return wolterskluwer_links(page_url, html)
 
     # ✅ NEW vendor-specific extractors (fixes your missing pulls)
     if source == "Jack Henry":
@@ -2770,7 +2578,6 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
         SourcePage("FRB Payments", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
 
-        SourcePage("FinCEN", "https://www.fincen.gov/news/press-releases"),
         # Mortgage / housing GSEs
         SourcePage("FHLB MPF", "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"),
         SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
@@ -2814,9 +2621,9 @@ def get_start_pages() -> List[SourcePage]:
             SourcePage("FASB", "https://www.fasb.org/news-and-meetings/in-the-news"),
 
             # Compliance Watch sources
-            SourcePage("ABA", "https://www.aba.com/about-us/press-room/press-releases"),
+            SourcePage("ABA", "https://www.aba.com/news-research/all-news#sort=%40fcontentdate%20descending"),
             SourcePage("TBA", "https://www.texasbankers.com/news/"),
-            SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news"),
+            SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news?f:contenttype=News%20Page%7CPress%20Release%20Page"),
             SourcePage("Bankers Online", "https://www.bankersonline.com/topstory"),
         ]
     )
@@ -3128,7 +2935,7 @@ def build() -> None:
                 snippet = ""
 
                 # If Visa has a date but outside window, let detail override
-                if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
+                if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0 and source not in SKIP_DETAIL_SOURCES:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
                         if detail_html:
@@ -3143,7 +2950,7 @@ def build() -> None:
                                 snippet = snippet2
 
                 # If we still don't have a date, use detail page (bounded by caps)
-                if dt is None and src_cap > 0:
+                if dt is None and src_cap > 0 and source not in SKIP_DETAIL_SOURCES:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
                     if src_used >= src_cap:
