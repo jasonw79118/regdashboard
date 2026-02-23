@@ -37,45 +37,14 @@
   <footer>
     <hr />
 
-    <!-- MOVED FROM HEADER: counts + exports (except print) + force update -->
-    <div class="footer-tools" style="display:grid; gap:10px; margin: 10px 0 16px 0;">
-      <div id="count" style="font-size:13px; opacity:.9;"></div>
-      <div id="debug-counts" style="font-size:12px; opacity:.85;"></div>
-
-      <div style="font-size:13px;">
-        Copilot-friendly exports:
-        <a href="raw/" target="_blank" rel="noopener">Static Export</a>
-        · <a href="raw/items.md" target="_blank" rel="noopener">items.md</a>
-        · <a href="raw/items.txt" target="_blank" rel="noopener">items.txt</a>
-        · <a href="raw/items.ndjson" target="_blank" rel="noopener">items.ndjson</a>
-      </div>
-
-      <div style="font-size:13px;">
-        <a
-          href="https://github.com/jasonw79118/regdashboard/actions/workflows/regdashboard-build.yml"
-          target="_blank"
-          rel="noopener"
-          class="btn"
-          style="display:inline-block;"
-        >
-          Force update (Run workflow)
-        </a>
-        <span style="margin-left:10px; opacity:.85;">
-          Opens GitHub Actions — click <strong>Run workflow</strong> to rebuild now.
-        </span>
-      </div>
-
-      <!-- Keep print separate (as requested) -->
-      <div style="font-size:13px;">
-        Print:
-        <a href="print/items.html" target="_blank" rel="noopener">print/items.html</a>
-      </div>
-    </div>
+    <!-- Footer (clean): keep count, disclaimer, last updated -->
+    <div id="count" style="font-size:13px; opacity:.9; text-align:center; margin: 10px 0 12px 0;"></div>
 
     <p class="disclaimer">
       RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
       Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
     </p>
+
     <p id="last-updated" style="margin:18px 0;text-align:center;font-size:12px;opacity:.75;"></p>
   </footer>
 
