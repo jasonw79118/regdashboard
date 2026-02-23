@@ -268,12 +268,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
             "/news-release/",
             "/en/news-release/",
         },
-"Fannie Mae": {
-    # Keep the scraper focused on the Newsroom article URLs (avoid SingleFamily/Multifamily/Capital Markets subdomains)
-    "allow_domains": {"www.fanniemae.com"},
-    "allow_path_prefixes": {"/newsroom/"},
-},
-
     },
 
     "USDA Rural Development": {
@@ -636,7 +630,7 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
             }
 
         # ✅ Helps some vendor sites behave more like a browser
-        if h in {"ir.jackhenry.com", "www.tcs.com", "mambu.com", "www.finastra.com"}:
+        if h in {"ir.jackhenry.com", "www.tcs.com", "mambu.com", "www.finastra.com", "www.bankersonline.com"}:
             headers = {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Accept-Language": "en-US,en;q=0.9",
@@ -686,6 +680,29 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                     proxy_url,
                     headers={"User-Agent": browser_ua, "Accept": "text/html,application/xhtml+xml,*/*"},
                     timeout=(10, max(read_timeout, 45)),
+                    allow_redirects=True,
+                )
+                if pr.status_code < 400:
+                    txtp = pr.text or ""
+                    if not looks_like_error_html(txtp):
+                        return txtp
+                    else:
+                        print(f"[warn] proxy returned error-like content: {url}", flush=True)
+                else:
+                    print(f"[warn] proxy GET {pr.status_code}: {proxy_url}", flush=True)
+            except Exception as e:
+                print(f"[warn] proxy GET failed: {proxy_url} :: {e}", flush=True)
+            return None
+        # ✅ BankersOnline: 403 is common -> proxy retry
+        if r.status_code == 403 and h == "www.bankersonline.com":
+            print(f"[warn] GET 403: {url} (retrying via proxy)", flush=True)
+            proxy_url = _jina_proxy_url(url)
+            try:
+                time.sleep(REQUEST_DELAY_SEC)
+                pr = SESSION.get(
+                    proxy_url,
+                    headers={"User-Agent": browser_ua, "Accept": "text/html,application/xhtml+xml,*/*"},
+                    timeout=(10, max(read_timeout, 40)),
                     allow_redirects=True,
                 )
                 if pr.status_code < 400:
@@ -862,7 +879,6 @@ GENERIC_TITLES = {
     "miscellaneous",
     "read more",
     "learn more",
-    "see all news",
 }
 
 
@@ -953,12 +969,6 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
     if source == "FHLB MPF":
         if p.endswith("/program-guidelines/mpf-program-updates"):
             return False
-
-    if source == "Fannie Mae":
-        pl = p.lower()
-        # Treat the main news hub as a listing, not an article
-        if pl.endswith("/newsroom/fannie-mae-news") or pl.endswith("/newsroom/news"):
-            return True
 
     return False
 
@@ -1712,6 +1722,115 @@ def _mastercard_links_from_text(page_url: str, text: str) -> List[Tuple[str, str
     return links
 
 
+
+def _parse_date_any(text: str) -> Optional[datetime]:
+    t = (text or "").strip()
+    if not t:
+        return None
+    # Common formats like "February 23, 2026" or "Feb 23, 2026"
+    try:
+        dt = dtparser.parse(t, fuzzy=True)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=CENTRAL_TZ)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        return None
+
+
+def aba_news_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    ABA's /news-research page is server-rendered and includes a short list of fresh items with dates.
+    We pull only the real story links (usually bankingjournal.aba.com) and attach the nearby date text.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    # Grab anchors that look like actual stories (most are on bankingjournal.aba.com)
+    for a in soup.find_all("a", href=True):
+        href = (a.get("href") or "").strip()
+        if not href:
+            continue
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("ABA", url):
+            continue
+
+        title = clean_text(a.get_text(" ", strip=True) or "", 220)
+        if not title or len(title) < 10:
+            continue
+
+        # Find a nearby date string within the same block
+        dt: Optional[datetime] = None
+        block = a.parent
+        # Walk up a bit to find the small card/list item
+        for _ in range(4):
+            if not block:
+                break
+            txtb = block.get_text(" ", strip=True)
+            # quick month-name heuristic
+            if re.search(r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\b\s+\d{1,2},\s+\d{4}", txtb):
+                dt = _parse_date_any(txtb)
+                break
+            block = block.parent
+
+        key = (title, url)
+        if key in seen:
+            continue
+        seen.add(key)
+        links.append((title, url, dt))
+
+    # Prefer most recent-looking first if dates exist
+    links.sort(key=lambda t: (t[2] is None, t[2] or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+    return links[:MAX_LISTING_LINKS]
+
+
+def wolterskluwer_news_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    Wolters Kluwer /en/news is server-rendered; links point to /en/news/<slug>.
+    Capture those and try to extract the nearby date in the same card.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    for a in soup.find_all("a", href=True):
+        href = (a.get("href") or "").strip()
+        if not href:
+            continue
+        # keep only newsroom article slugs
+        if "/en/news/" not in href:
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("Wolters Kluwer", url):
+            continue
+
+        title = clean_text(a.get_text(" ", strip=True) or "", 220)
+        if not title or len(title) < 10:
+            continue
+        if title.lower() in {"read more", "learn more"}:
+            continue
+
+        dt: Optional[datetime] = None
+        block = a.parent
+        for _ in range(5):
+            if not block:
+                break
+            txtb = block.get_text(" ", strip=True)
+            if re.search(r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\b\s+\d{1,2},\s+\d{4}", txtb):
+                dt = _parse_date_any(txtb)
+                break
+            block = block.parent
+
+        key = (title, url)
+        if key in seen:
+            continue
+        seen.add(key)
+        links.append((title, url, dt))
+
+    links.sort(key=lambda t: (t[2] is None, t[2] or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+    return links[:MAX_LISTING_LINKS]
+
 def mastercard_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -2452,123 +2571,6 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
     return links
 
 
-
-# ============================
-# Fannie Mae (Newsroom)
-# ============================
-
-def fanniemae_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    """
-    Fannie Mae's Newsroom pages often use CTA anchors like "Learn more".
-    This extractor:
-      - keeps scope on www.fanniemae.com/newsroom/*
-      - drops hub / "See all" links
-      - promotes nearby headlines when anchor text is a CTA
-      - extracts dates from nearby text so we don't need detail fetches
-    """
-    soup = BeautifulSoup(html, "html.parser")
-    container = pick_container(soup) or soup
-    if not container:
-        return []
-
-    strip_nav_like(container)
-
-    def _promote_headline(a_tag) -> str:
-        # Prefer nearest heading in the same "card" region; fall back to previous heading in doc order.
-        for level in range(6):
-            wrap = a_tag.find_parent(["article", "li", "div", "section"])
-            if not wrap:
-                break
-            h = wrap.find(["h1", "h2", "h3", "h4"])
-            if h:
-                t = (h.get_text(" ", strip=True) or "").strip()
-                if t:
-                    return t
-            a_tag = wrap
-        prev = a_tag.find_previous(["h1", "h2", "h3", "h4"])
-        if prev:
-            t = (prev.get_text(" ", strip=True) or "").strip()
-            if t:
-                return t
-        return ""
-
-    def _nearby_date(a_tag) -> Optional[datetime]:
-        # Try existing generic helpers first
-        dt = find_time_near_anchor(a_tag, "Fannie Mae")
-        if dt is not None:
-            return dt
-
-        # Scan a few previous elements for a date string like "February 11, 2026"
-        for prev in a_tag.find_all_previous(["time", "p", "span", "div"], limit=12):
-            t = clean_text(prev.get_text(" ", strip=True), 200)
-            if not t:
-                continue
-            cand = extract_any_date(t, source="Fannie Mae")
-            if cand is not None:
-                return cand
-
-        # Last resort: look at the nearest "section/card" text
-        wrap = a_tag.find_parent(["article", "li", "div", "section"]) or a_tag.parent
-        if wrap:
-            return extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1200), source="Fannie Mae")
-        return None
-
-    links: List[Tuple[str, str, Optional[datetime]]] = []
-    seen: set[str] = set()
-
-    for a in container.select("a[href]"):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#"):
-            continue
-
-        url = canonical_url(urljoin(page_url, href))
-        if not allowed_for_source("Fannie Mae", url):
-            continue
-
-        # Only keep Newsroom URLs
-        pth = path(url).rstrip("/")
-        if not pth.startswith("/newsroom/"):
-            continue
-
-        # Drop hub/collection pages
-        if pth in {"/newsroom", "/newsroom/fannie-mae-news", "/newsroom/news"}:
-            continue
-
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
-        if not raw_title:
-            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
-
-        tl = raw_title.strip().lower()
-        if tl in {"see all news", "see all", "all news"}:
-            continue
-
-        # Promote when anchor text is a CTA or too short to be a headline
-        if tl in {"read more", "learn more", "more", "details"} or len(raw_title.strip()) < 8:
-            promoted = _promote_headline(a)
-            if promoted:
-                raw_title = promoted
-
-        title = clean_text(raw_title, 220)
-        if not title or len(title) < 8:
-            continue
-
-        if is_probably_nav_link("Fannie Mae", title, url):
-            continue
-        if is_generic_listing_or_home("Fannie Mae", title, url):
-            continue
-
-        if url in seen:
-            continue
-        seen.add(url)
-
-        dt = _nearby_date(a)
-
-        links.append((title, url, dt))
-        if len(links) >= MAX_LISTING_LINKS:
-            break
-
-    return links
-
 # ============================
 # MAIN CONTENT LINK ROUTER
 # ============================
@@ -2590,8 +2592,12 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
-    if source == "Fannie Mae":
-        return fanniemae_links(page_url, html)
+
+    if source == "ABA":
+        return aba_news_links(page_url, html)
+    if source == "Wolters Kluwer":
+        return wolterskluwer_news_links(page_url, html)
+
 
     # ✅ NEW vendor-specific extractors (fixes your missing pulls)
     if source == "Jack Henry":
@@ -2712,7 +2718,8 @@ def get_start_pages() -> List[SourcePage]:
 
         # Mortgage / housing GSEs
         SourcePage("FHLB MPF", "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"),
-        SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom"),
+        SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
+        SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
         SourcePage("Freddie Mac", "https://www.globenewswire.com/search/organization/Freddie%20Mac"),
 
         # Legislative / exec
@@ -2752,9 +2759,9 @@ def get_start_pages() -> List[SourcePage]:
             SourcePage("FASB", "https://www.fasb.org/news-and-meetings/in-the-news"),
 
             # Compliance Watch sources
-            SourcePage("ABA", "https://www.aba.com/news-research/all-news#sort=%40fcontentdate%20descending"),
+            SourcePage("ABA", "https://www.aba.com/news-research"),
             SourcePage("TBA", "https://www.texasbankers.com/news/"),
-            SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news?f:contenttype=News%20Page%7CPress%20Release%20Page"),
+            SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news"),
             SourcePage("Bankers Online", "https://www.bankersonline.com/topstory"),
         ]
     )
@@ -3081,7 +3088,7 @@ def build() -> None:
                                 snippet = snippet2
 
                 # If we still don't have a date, use detail page (bounded by caps)
-                if dt is None and src_cap > 0 and (source not in SKIP_DETAIL_SOURCES or source == "Visa"):
+                if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
                     if src_used >= src_cap:

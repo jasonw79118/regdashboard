@@ -1,3 +1,9 @@
+Executive
+White House
+2026-02-23T16:19:54Z
+National Angel Family Day, 2026
+https://www.whitehouse.gov/presidential-actions/2026/02/national-angel-family-day-2026/
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-23T15:00:10Z
@@ -29,6 +35,7 @@ Fannie Mae
 2026-02-23T00:00:00Z
 Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
 https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
+Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
 ------------------------------------------------------------
 Payments
 NACHA
@@ -42,11 +49,38 @@ FIS
 FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management
 ------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-23T00:00:00Z
+Get started in cybersecurity with $53 training course deal
+https://www.bleepingcomputer.com/offer/deals/get-started-in-cybersecurity-with-53-training-course-deal/
+------------------------------------------------------------
 Compliance Watch
 CDIA
 2026-02-23T00:00:00Z
 Metro 2® Webinars
 https://www.cdiaonline.org/metro-2-webinars/
+------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-23T00:00:00Z
+Jump to Content
+https://www.aba.com/news-research
+Stay current on banking issues with daily news, podcasts, research, data analysis and publications, including our flagship ABA Banking Journal and a variety of email bulletins.
+------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-23T00:00:00Z
+Risk Management
+https://www.aba.com/banking-topics/risk-management
+Identify, monitor, measure and control for risk in your financial institution with these tools and resources from ABA.
+------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-23T00:00:00Z
+Anti-Money Laundering
+https://www.aba.com/banking-topics/risk-management/money-laundering
+ABA helps banks better identify and report money laundering and other illicit financial activity with information on new technologies and best practices.
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -2268,6 +2302,27 @@ BleepingComputer
 This open-box 2-in-1 ASUS Chromebook is on sale for $150 & includes a stylus
 https://www.bleepingcomputer.com/offer/deals/this-open-box-2-in-1-asus-chromebook-is-on-sale-for-150-and-includes-a-stylus/
 ------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-21T00:00:00Z
+Consumer Banking
+https://www.aba.com/banking-topics/consumer-banking
+Key areas of consideration for banking individual retail customers, including lending, privacy, financial inclusion and customer trends.
+------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-21T00:00:00Z
+Consumer Lending
+https://www.aba.com/banking-topics/consumer-banking/consumer-lending
+Enhance your knowledge and understanding of consumer loans and issues that effect them.
+------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-21T00:00:00Z
+Mortgage & Home Finance
+https://www.aba.com/banking-topics/consumer-banking/mortgage-home-finance
+There are many paths to owning a home, and banks are prepared to help customers safely navigate whichever path they choose. At the same time, regulatory challenges can sometimes restrain banks from meeting their customers' needs.
+------------------------------------------------------------
 Executive
 White House
 2026-02-20T21:39:33Z
@@ -2394,12 +2449,6 @@ White House
 Remarks by Director Michael Kratsios at the India AI Impact Summit
 https://www.whitehouse.gov/articles/2026/02/remarks-by-director-michael-kratsios-at-the-india-ai-impact-summit/
 ------------------------------------------------------------
-Executive
-White House
-2026-02-20T00:55:39Z
-Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia
-https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/
-------------------------------------------------------------
 IRS
 IRS
 2026-02-20T00:00:00Z
@@ -2436,6 +2485,20 @@ BleepingComputer
 2026-02-20T00:00:00Z
 Learn a language with structure, not guesswork in this Babbel deal
 https://www.bleepingcomputer.com/offer/deals/learn-a-language-with-structure-not-guesswork-in-this-babbel-deal/
+------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-20T00:00:00Z
+Physical Security
+https://www.aba.com/banking-topics/risk-management/physical-security
+Know how to identify physical threats and the various resources available to you in order to help you protect your customers and your employees.
+------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-20T00:00:00Z
+Inclusive Banking
+https://www.aba.com/banking-topics/consumer-banking/inclusive-banking
+Leading resources and information to support banks in meeting the needs of their entire communities and furthering financial inclusion.
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -2551,6 +2614,13 @@ Treasury
 2026-02-19T14:00:00Z
 Secretary Bessent Announces 2026 G20 Finance Track Agenda and Finance Ministers and Central Bank Governors Meeting in Asheville, North Carolina
 https://home.treasury.gov/news/press-releases/sb0398
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-02-19T10:00:00Z
+Wolters Kluwer introduces Legisway Advisor powered by Expert AI to accelerate contract review and drafting
+https://www.wolterskluwer.com/en/news/wolters-kluwer-introduces-legisway-advisor
+Wolters Kluwer Legal & Regulatory today announced the launch of Legisway Advisor, a new contract redrafting capability powered by Expert AI.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -9988,6 +10058,13 @@ CVE-2024-49992 drm/stm: Avoid use-after-free issues with crtc and plane
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49992
 Information published.
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-02-18T10:00:00Z
+Wolters Kluwer launches Libra legal AI workspace in Italy and continues pan-European expansion
+https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-libra-legal-ai-workspace-in-italy-and-continues-pan-european-expansion
+Wolters Kluwer Legal & Regulatory today announced the launch of the Libra by Wolters Kluwer legal AI workspace (“Libra”) in Italy.
+------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-02-18T09:59:57Z
@@ -14135,6 +14212,13 @@ CVE-2026-26119 Windows Admin Center Elevation of Privilege Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26119
 Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-02-17T15:00:00Z
+Wolters Kluwer to host law scholar Gary Born for webinar on international law in American courts
+https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-law-scholar-gary-born
+Wolters Kluwer’s Legal & Regulatory U.S. business is pleased to announce a new webinar featuring Gary Born, one of the world’s foremost authorities on international law and international dispute resolution.
+------------------------------------------------------------
 Executive
 White House
 2026-02-17T01:09:15Z
@@ -14153,6 +14237,13 @@ OCC
 2026-02-17T00:00:00Z
 Bank Appeals Process: Notice of Proposed Rulemaking
 https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-02-17T00:00:00Z
+Data and Insights
+https://www.fanniemae.com/data-and-insights
+Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 ------------------------------------------------------------
 Payment Card Networks
 Mastercard
@@ -15150,6 +15241,13 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
+Compliance Watch
+ABA
+2026-02-17T00:00:00Z
+Incident Response
+https://www.aba.com/banking-topics/risk-management/incident-response
+Resources to help you prepare for and respond to a physical or cyber incident.
+------------------------------------------------------------
 Federal Register
 Federal Register
 2026-02-17T00:00:00Z
@@ -15241,6 +15339,13 @@ Privacy Act of 1974; System of Records
 https://www.federalregister.gov/documents/2026/02/17/2026-03003/privacy-act-of-1974-system-of-records
 In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is partially modifying an existing system of records maintained by the Office for Civil Rights (OCR), "Program Information Management System (PIMS)," System No. 09- 90-0052. The modifications include changing the system of records name to "HHS Civil Rights and Health Infor…
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-02-16T00:00:00Z
+When sustainability becomes strategy: inside the rise of data-driven climate leadership
+https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award
+Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award.
+------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-02-13T16:00:00Z
@@ -15273,6 +15378,13 @@ IRS
 Avoid waiting on hold; use IRS online tools for faster help
 https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help
 IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-02-13T00:00:00Z
+Wolters Kluwer unveils plans for Medi-Span Expert AI to advance Medication Intelligence for digital health
+https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health
+Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data.
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -15520,14 +15632,35 @@ Changes made to the security updates links and information. This is an informati
 Mortgage
 Fannie Mae
 2026-02-11T00:00:00Z
+Fannie Mae Reports Net Income of $3.5 Billion for Fourth Quarter 2025 and $14.4 Billion for Full-Year 2025
+https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results
+Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission.
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-02-11T00:00:00Z
 Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast
 https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast
+Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C.
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-02-11T00:00:00Z
+Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026
+https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 ------------------------------------------------------------
 Payments
 NACHA
 2026-02-11T00:00:00Z
 How the Industry Is Adapting to Nacha’s New Risk Management Rules
 https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-02-11T00:00:00Z
+Wolters Kluwer analysis shows insurance-related activity driving surge in subpoena volumes
+https://www.wolterskluwer.com/en/news/wolters-kluwer-analysis-shows-insurance-related-activity-driving-surge-in-subpoena-volumes
+A new analysis from Wolters Kluwer Financial & Corporate Compliance finds the growth of U.S. subpoena volumes continuing to accelerate year-over-year, reaching a total of 498,000 in 2025.
 ------------------------------------------------------------
 Federal Register
 Federal Register
