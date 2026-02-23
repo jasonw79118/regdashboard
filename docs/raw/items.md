@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-09T17:54:15Z` → `2026-02-23T17:54:15Z` (UTC)
-Last updated: `2026-02-23T11:54:15-06:00` (CT) — `2026-02-23T17:54:15Z` (UTC)
+Window: `2026-02-09T18:30:03Z` → `2026-02-23T18:30:03Z` (UTC)
+Last updated: `2026-02-23T12:30:03-06:00` (CT) — `2026-02-23T18:30:03Z` (UTC)
+
+## Ad tech firm Optimizely confirms data breach after vishing attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-23T18:04:01Z
+- URL: https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-data-breach-after-vishing-attack/
+
+New York-based ad tech company Optimizely has notified an undisclosed number of customers of a data breach after threat actors compromised some of its systems in a voice phishing attack. [...]
 
 ## National Angel Family Day, 2026
 - Source: White House
@@ -75,12 +83,6 @@ Fannie Mae announced that it has commenced fixed-price cash tender offers for th
 - Published: 2026-02-23T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management
 
-## Ad tech firm Optimizely confirms data breach after vishing attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-data-breach-after-vishing-attack/
-
 ## Get started in cybersecurity with $53 training course deal
 - Source: BleepingComputer
 - Category: IS
@@ -108,6 +110,78 @@ The Securities and Exchange Commission (the "Commission") is proposing amendment
 - URL: https://www.federalregister.gov/documents/2026/02/23/2026-03595/employment-authorization-reform-for-asylum-applicants
 
 The U.S. Department of Homeland Security (DHS) proposes to modify regulations governing applications for asylum and withholding of removal (asylum applications) and employment authorization based on a pending asylum application. The proposed rule would change filing and eligibility requirements for aliens requesting employment authorization and an employment authorization docu…
+
+## Data Collection Available for Public Comments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03545/data-collection-available-for-public-comments
+
+The Small Business Administration (SBA) intends to request approval from the Office of Management and Budget (OMB) for a revision to the collection of information in SBA Form 1919, "SBA 7(a) Borrower Information Form--For use with all 7(a) Programs", described below. The Paperwork Reduction Act (PRA) requires federal agencies to publish a notice in the Federal Register concern…
+
+## Submission for OMB Review; Federal Acquisition Regulation Part 27 Requirements
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03508/submission-for-omb-review-federal-acquisition-regulation-part-27-requirements
+
+Under the provisions of the Paperwork Reduction Act, the Regulatory Secretariat Division has submitted to OMB a request to review and approve an extension of a previously approved information collection requirement regarding Federal Acquisition Regulation part 27 requirements.
+
+## Age Search Service Fee Structure
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03494/age-search-service-fee-structure
+
+The Census Bureau provides an Age Search service of confidential records from the 1910 to 2020 decennial censuses and can issue an official transcript of the results to authorized individuals. With this rule, the Census Bureau is proposing to increase the fee for conducting an Age Search from $65.00 to $155.00. The Census Bureau is also proposing to increase the additional cha…
+
+## Oil and Gas and Sulfur Operations in the Outer Continental Shelf-Revisions to the 2023 Blowout Preventer Systems and Well Control Rule
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03476/oil-and-gas-and-sulfur-operations-in-the-outer-continental-shelf-revisions-to-the-2023-blowout
+
+The Department of the Interior (DOI or Department), through the Bureau of Safety and Environmental Enforcement (BSEE), is revising certain regulatory provisions published in the 2023 final well control rule for drilling, workover, completion, and decommissioning operations. BSEE is proposing revisions to clarify certain reporting and recordkeeping requirements. This rule would…
+
+## Investment Company Names Form N-PORT Reporting; Extension of Compliance Date
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03459/investment-company-names-form-n-port-reporting-extension-of-compliance-date
+
+The Securities and Exchange Commission (the "Commission") is extending the compliance date for the amendments to Form N-PORT that were adopted on September 20, 2023 and relate to the rule under the Investment Company Act of 1940 (the "Investment Company Act") that addresses certain broad categories of investment company names that are likely to mislead investors about an inves…
+
+## Farmer Bridge Assistance (FBA) Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03456/farmer-bridge-assistance-fba-program
+
+The Commodity Credit Corporation (CCC) is issuing this rule to provide $11 billion in one-time bridge payments to American farmers in response to temporary trade market disruptions and increased production costs. Payments under the Farmer Bridge Assistance (FBA) Program are intended in part to aid producers until assistance from provisions in the One Big Beautiful Bill Act (OB…
+
+## Delegations of Authority: Delegations of Authority No. 12-G (Revision 1), Amendment 3
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03454/delegations-of-authority-delegations-of-authority-no-12-g-revision-1-amendment-3
+
+This document provides the public notice of the third amendment to Delegations of Authority (Delegations), No. 12-G (Revision 1) as last amended by Amendment 2 which delegated authority for lender oversight and enforcement activities by the Administrator of the Small Business Administration ("SBA" or "Agency") to the Director, Office of Credit Risk Management (D/OCRM), the Len…
+
+## Presidential Declaration Amendment of a Major Disaster for Public Assistance Only for the State of Mississippi and the Mississippi Band of Choctaw Indians
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03452/presidential-declaration-amendment-of-a-major-disaster-for-public-assistance-only-for-the-state-of
+
+This is an amendment of the Presidential declaration of a major disaster for Public Assistance Only for the State of Mississippi and the Mississippi Band of Choctaw Indians (FEMA-4899-DR), dated February 6, 2026. Incident: Severe Winter Storm.
+
+## Information Collection Being Reviewed by the Federal Communications Commission
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/23/2026-03434/information-collection-being-reviewed-by-the-federal-communications-commission
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or the Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collection. Comments are requested concerning: whether the proposed collec…
 
 ## Arkanix Stealer pops up as short-lived AI info-stealer experiment
 - Source: BleepingComputer
@@ -2727,6 +2801,46 @@ In accordance with the Privacy Act of 1974, as amended, the Federal Deposit Insu
 
 Section 214 of the Housing and Community Development Act of 1980, as amended ("Section 214"), prohibits the Secretary of HUD from making financial assistance available to persons other than United States citizens or certain categories of eligible noncitizens in HUD's public and specified assisted housing programs. This proposed rule would revise HUD's Section 214 implementing…
 
+## Unlicensed Use of the 6 GHz Band; Expanding Flexible Use in Mid-Band Spectrum Between 3.7 and 24 GHz
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/20/2026-03420/unlicensed-use-of-the-6-ghz-band-expanding-flexible-use-in-mid-band-spectrum-between-37-and-24-ghz
+
+In this document, the Federal Communications Commission (Commission or FCC) issued a Third Further Notice of Proposed Rulemaking to seek comment on two proposals to improve 6 GHz band (5.925-7.125 GHz) unlicensed device performance. One proposal would allow automated frequency coordination (AFC) systems to take into account building entry loss (BEL) when determining frequency…
+
+## West Virginia Regulatory Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/20/2026-03413/west-virginia-regulatory-program
+
+We, the Office of Surface Mining Reclamation and Enforcement (OSMRE), are publishing this final rule to amend the existing Federal Lands Cooperative Agreement between West Virginia and the U.S. Department of the Interior (Department). The Surface Mining Control and Reclamation Act of 1977 (SMCRA or the Act) and the Federal regulations authorize a State with an approved permane…
+
+## Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Hilcorp Alaska, LLC Oil and Gas Activities in Cook Inlet, Alaska
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/20/2026-03375/takes-of-marine-mammals-incidental-to-specified-activities-taking-marine-mammals-incidental-to
+
+NMFS, upon request from Hilcorp Alaska, LLC (Hilcorp), issues this final rule pursuant to the Marine Mammal Protection Act (MMPA), to govern the taking of marine mammals incidental to specified activities conducted in support of oil and gas exploration, development, production, and decommissioning in Cook Inlet, Alaska, over the course of 5 years (2026-2031) and an associated…
+
+## Locatable Minerals
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/20/2026-03364/locatable-minerals
+
+The U.S. Department of Agriculture, Forest Service (Agency), is proposing to revise its regulations governing occupancy and use of the surface of National Forest System lands in connection with prospecting, exploration, development, mining, processing, and reclamation and reasonably incident uses authorized by U.S. mining laws and the Organic Administration Act of 1897. Regula…
+
+## Presidential Declaration Amendment of a Major Disaster for Public Assistance Only for the State of Tennessee
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-20T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/20/2026-03355/presidential-declaration-amendment-of-a-major-disaster-for-public-assistance-only-for-the-state-of
+
+This is an amendment of the Presidential declaration of a major disaster for Public Assistance Only for the State of Tennessee (FEMA-4898-DR), dated February 6, 2026. Incident: Severe Winter Storm.
+
 ## PromptSpy is the first known Android malware to use generative AI at runtime
 - Source: BleepingComputer
 - Category: IS
@@ -2790,6 +2904,14 @@ Corrected the CVE description and title. This is an informational change only.
 - Category: OFAC
 - Published: 2026-02-19T14:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0398
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-19T10:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-introduces-legisway-advisor
+
+Wolters Kluwer Legal & Regulatory today announced the launch of Legisway Advisor, a new contract redrafting capability powered by Expert AI.
 
 ## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
 - Source: Microsoft MSRC
@@ -2922,6 +3044,190 @@ The Farm Credit Administration (FCA, we, us or our) is issuing a final rule amen
 - URL: https://www.federalregister.gov/documents/2026/02/19/2026-03242/hiring-authority-for-post-secondary-students
 
 The Office of Personnel Management (OPM) is issuing a final rule to amend its career and career-conditional employment regulations. The revision is necessary to implement section 1108 of the John S. McCain National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2019, which requires OPM to issue regulations implementing hiring authorities that allow agencies to hire cert…
+
+## Atlantic Highly Migratory Species; Revision of the Termination Date for Swordfish and Shark Limited Access Permits
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03306/atlantic-highly-migratory-species-revision-of-the-termination-date-for-swordfish-and-shark-limited
+
+This proposed rule would revise the regulations regarding the termination date for swordfish and shark limited access permits (LAPs). Currently, when a swordfish or shark LAP is not renewed within a year of the expiration date, the permit terminates and can no longer be renewed or used. This action would remove the termination date and allow permits to be renewed at any time.…
+
+## Petroleum-Equivalent Fuel Economy Calculation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03300/petroleum-equivalent-fuel-economy-calculation
+
+The Office of Critical Minerals and Energy Innovation (formerly the Office of Energy Efficiency and Renewable Energy) of the Department of Energy (DOE) has reviewed the petroleum-equivalency factor (PEF) for electric vehicles (EVs) used by the Environmental Protection Agency (EPA) in calculating light-duty vehicle manufacturers' compliance with the Department of Transportation…
+
+## Fisheries Off West Coast States; West Coast Salmon Fisheries; Rebuilding Plan for the Overfished Queets River Spring/Summer Chinook Salmon Stock
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03296/fisheries-off-west-coast-states-west-coast-salmon-fisheries-rebuilding-plan-for-the-overfished
+
+NMFS proposes to approve and implement the rebuilding plan recommended by the Pacific Fishery Management Council (Council) for the overfished Queets River Spring/Summer Chinook salmon stock (Queets sp/ su Chinook salmon). NMFS determined in October 2023 that this stock was overfished. The rebuilding plan will be part of the framework that guides the development of annual manag…
+
+## Magnuson-Stevens Fishery Conservation and Management Act Provisions; Fisheries of the Northeastern United States; 2026 and Projected 2027 Specifications for the Summer Flounder, Scup, Black Sea Bass, and Bluefish Fisher…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03295/magnuson-stevens-fishery-conservation-and-management-act-provisions-fisheries-of-the-northeastern
+
+NMFS announces 2026 specifications and projects 2027 specifications for the summer flounder, scup, black sea bass, and bluefish fisheries. The implementing regulations for the Summer Flounder, Scup, and Black Sea Bass Fishery Management Plan (FMP) and the Bluefish FMP require us to publish specifications for the upcoming fishing year for each of these species and to respond to…
+
+## Revocation of Regulations Regarding the Mutual Recognition of Pharmaceutical Good Manufacturing Practice Reports, Medical Device Quality System Audit Reports, and Certain Medical Device Product Evaluation Reports: Unite…
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03286/revocation-of-regulations-regarding-the-mutual-recognition-of-pharmaceutical-good-manufacturing
+
+The Food and Drug Administration (FDA, Agency, or we) is issuing a final rule revoking the regulations entitled "Mutual Recognition of Pharmaceutical Good Manufacturing Practice Reports, Medical Device Quality System Audit Reports, and Certain Medical Device Product Evaluation Reports: United States and The European Community." FDA is taking this action because the regulations…
+
+## Revocation of Methods of Analysis Regulation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03285/revocation-of-methods-of-analysis-regulation
+
+The Food and Drug Administration (FDA, the Agency, or we) is issuing a final rule to revoke the methods of analysis regulation, which describes an FDA policy to use certain methods of analysis for FDA enforcement programs when the method of analysis is not prescribed in a regulation. FDA is issuing this action because the existing regulation is no longer necessary.
+
+## Data Collection Available for Public Comments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03275/data-collection-available-for-public-comments
+
+The Small Business Administration (SBA) intends to request approval, from the Office of Management and Budget (OMB) for a revision to the collection of information described below. The Paperwork Reduction Act (PRA) requires federal agencies to publish a notice in the Federal Register concerning each proposed collection of information before submission to OMB, and to allow 60 d…
+
+## Administrative Declaration Amendment of a Disaster for the State of California
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03274/administrative-declaration-amendment-of-a-disaster-for-the-state-of-california
+
+This is an amendment of the Administrative declaration of disaster for the State of California dated February 3, 2026. Incident: 2026 Early January Storm, Tidal Flooding, and King Tides.
+
+## Reporting and Recordkeeping Requirements Under Office of Management and Budget Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03269/reporting-and-recordkeeping-requirements-under-office-of-management-and-budget-review
+
+The Small Business Administration (SBA) will submit the information collection described below to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, as amended, on or after the date of publication of this notice. SBA is publishing this notice to allow all interested members of the public an additional 30 d…
+
+## Removal of Obsolete References to “Water Carriers”
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03266/removal-of-obsolete-references-to-water-carriers
+
+FMCSA amends its regulations to remove obsolete references to "water carriers" in the FMCSA regulations (FMCSR). FMCSA does not specifically regulate water carriers except to the extent that such carriers also engage in motor carrier operations. In such cases, the existing FMCSR provide appropriate coverage of the carrier's motor carrier operations.
+
+## Parts and Accessories Necessary for Safe Operation; Fuel Tank Overfill Restriction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03265/parts-and-accessories-necessary-for-safe-operation-fuel-tank-overfill-restriction
+
+FMCSA removes the requirement in the Federal Motor Carrier Safety Regulations (FMCSR) that a liquid fuel tank manufactured on or after January 1, 1973, be designed and constructed so that it cannot be filled, in a normal filling operation, with a quantity of fuel that exceeds 95 percent of the tank's liquid capacity. This final rule responds to a petition for rulemaking from t…
+
+## Electronic Driver Vehicle Inspection Reports
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03264/electronic-driver-vehicle-inspection-reports
+
+FMCSA clarifies the requirement to complete a Driver Vehicle Inspection Report (DVIR) based upon a public comment filed by the National Tank Truck Carriers (NTTC). The DVIR may already be completed electronically, however the explicit language in this rule will make this clear. This will encourage motor carriers and drivers to utilize electronic, cost-saving methods when compl…
+
+## Commercial Driver's License Standards; Requirements and Penalties: Applicability to the Exception for Certain Military Personnel
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03263/commercial-drivers-license-standards-requirements-and-penalties-applicability-to-the-exception-for
+
+FMCSA amends the Federal Motor Carrier Safety regulations (FMCSR) to allow dual-status military technicians to qualify for the exception for certain military personnel from commercial driver's license (CDL) standards. Dual-status military technicians are civilian technicians employed by military units to provide day-to-day support such as training, maintenance, and other activ…
+
+## Parts and Accessories Necessary for Safe Operation; Spare Fuses
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03262/parts-and-accessories-necessary-for-safe-operation-spare-fuses
+
+FMCSA amends the emergency equipment rules to remove the requirement for commercial motor vehicles (CMVs) to be equipped with at least one spare fuse for each type and size of fuse needed for the operation of the CMV. This change will remove an unnecessary requirement from the Federal Motor Carrier Safety Regulations (FMCSR).
+
+## Parts and Accessories Necessary for Safe Operation; Liquid-Burning Flares
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03261/parts-and-accessories-necessary-for-safe-operation-liquid-burning-flares
+
+FMCSA amends the rules for emergency equipment on commercial motor vehicles (CMVs) to remove the references to liquid-burning flares from the warning device requirements in the Federal Motor Carrier Safety Regulations (FMCSR). This action eliminates outdated language referring to warning devices that FMCSA believes are no longer used.
+
+## Parts and Accessories Necessary for Safe Operation; Tire Load Markings
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03260/parts-and-accessories-necessary-for-safe-operation-tire-load-markings
+
+FMCSA amends the requirements for commercial motor vehicle (CMV) tires to clarify that the Federal Motor Carrier Safety Regulations (FMCSR) do not require tire load restriction markings on the sidewalls of the tires. This change eliminates confusion and clarifies the scope of FMCSA's authority regarding requirements for CMV tires.
+
+## Parts and Accessories Necessary for Safe Operation; License Plate Lamps
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03259/parts-and-accessories-necessary-for-safe-operation-license-plate-lamps
+
+FMCSA amends the Federal Motor Carrier Safety Regulations (FMCSRs) to add an exception from the lamp and reflective device requirements for license plate lamps on the rear of truck tractors while towing a trailer. This amendment removes an unnecessary regulatory requirement without impacting safety.
+
+## Qualifications of Drivers; Vision Standards Grandfathering Provision
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03258/qualifications-of-drivers-vision-standards-grandfathering-provision
+
+FMCSA amends the Federal Motor Carrier Safety Regulations to remove the grandfathering provision under the physical qualifications standards for interstate drivers operating under the vision waiver study program administered from 1992 through 1994, and the vision exemption program operated from 1998 through 2022, as the grandfathering provision is now obsolete. FMCSA's current…
+
+## Parts and Accessories Necessary for Safe Operation; Auxiliary Fuel Tanks
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03257/parts-and-accessories-necessary-for-safe-operation-auxiliary-fuel-tanks
+
+FMCSA amends its fuel tank requirements to add an exception to the prohibition on gravity and syphon feeds for auxiliary pumps with a nominal fuel tank capacity of not more than five gallons mounted on the trailer chassis frame or trailer bed, for purposes other than operation of the motor vehicle, that are operated only when the motor vehicle is not in motion. This revision r…
+
+## Parts and Accessories Necessary for Safe Operation; Brakes on Portable Conveyors
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03256/parts-and-accessories-necessary-for-safe-operation-brakes-on-portable-conveyors
+
+FMCSA adds an exception for portable conveyors used in aggregate industry operations, and manufactured before 2010, from the requirement that each commercial motor vehicle (CMV) be equipped with brakes acting on all wheels, provided certain conditions are satisfied. This final rule responds to a petition for rulemaking from the Michigan Aggregates Association. The exception wi…
+
+## Parts and Accessories Necessary for Safe Operation; Certification and Labeling Requirements for Rear Impact Protection Guards
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03255/parts-and-accessories-necessary-for-safe-operation-certification-and-labeling-requirements-for-rear
+
+FMCSA amends the Federal Motor Carrier Safety Regulations (FMCSR) to rescind the requirement that the rear impact guard be permanently marked or labeled with a certification from the impact guard manufacturer as required by the applicable Federal Motor Vehicle Safety Standard (FMVSS) promulgated by the National Highway Traffic Safety Administration (NHTSA). The certification l…
+
+## Maximum Line Speed Under the New Swine Slaughter Inspection System (NSIS)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03228/maximum-line-speed-under-the-new-swine-slaughter-inspection-system-nsis
+
+FSIS is proposing to amend the Federal meat inspection regulations to allow establishments operating under the NSIS to determine their own line speeds based on their ability to maintain process control. FSIS is also proposing to clarify that the FSIS inspector may reduce the rate of establishment operations at any point in the slaughter process when, in their judgement, there…
+
+## Maximum Line Speed Rates for Young Chicken and Turkey Establishments Operating Under the New Poultry Inspection System
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/19/2026-03227/maximum-line-speed-rates-for-young-chicken-and-turkey-establishments-operating-under-the-new-poultry
+
+FSIS is proposing to amend the regulations to: allow young chicken establishments operating under the New Poultry Inspection System (NPIS) to operate at line speeds up to 175 birds per minute (bpm); increase the maximum line speed prescribed for turkey establishments operating under the NPIS from 55 bpm to 60 bpm; define "maximum line speed" as the time it takes for an inspect…
 
 ## CVE-2024-40635 containerd has an integer overflow in User ID handling
 - Source: Microsoft MSRC
@@ -11083,6 +11389,14 @@ Information published.
 
 Information published.
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-18T10:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-libra-legal-ai-workspace-in-italy-and-continues-pan-european-expansion
+
+Wolters Kluwer Legal & Regulatory today announced the launch of the Libra by Wolters Kluwer legal AI workspace (“Libra”) in Italy.
+
 ## CVE-2025-38068 crypto: lzo - Fix compression buffer overrun
 - Source: Microsoft MSRC
 - Category: IS
@@ -15755,6 +16069,38 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-02-18T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-07
 
+## General Policy for Pricing and Charging for Materials and Services Sold by the Department of Energy
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03159/general-policy-for-pricing-and-charging-for-materials-and-services-sold-by-the-department-of-energy
+
+The Department of Energy (DOE or the Department) is proposing to update the Department's general pricing regulation to establish prices and charges for materials and services sold to organizations and people outside of the Federal Government. DOE's general pricing regulation does not apply to the prices and charges provided for by statute, Executive order, or regulation. This…
+
+## Rescission of the Greenhouse Gas Endangerment Finding and Motor Vehicle Greenhouse Gas Emission Standards Under the Clean Air Act
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03157/rescission-of-the-greenhouse-gas-endangerment-finding-and-motor-vehicle-greenhouse-gas-emission
+
+In this action, the U.S. Environmental Protection Agency (EPA) is rescinding the Administrator's 2009 findings of contribution and endangerment and repealing all greenhouse gas (GHG) emission standards for light-duty, medium-duty, and heavy-duty vehicles and engines to effectuate the best reading of Clean Air Act (CAA) section 202(a)(1). The EPA determines that CAA section 202…
+
+## Safety Zone; San Juan Harbor, San Juan, PR
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03138/safety-zone-san-juan-harbor-san-juan-pr
+
+The Coast Guard is establishing a temporary safety zone for navigable waters within 200 yards radius around the Barge DEFIANT grounded north of El Morro, east of the green buoy three, near the entrance of the San Juan Harbor. The safety zone is needed to protect personnel, vessels, and the marine environment from potential hazards created by the Barge DEFIANT grounding. Entry…
+
+## Presidential Declaration of a Major Disaster for Public Assistance Only for the State of Tennessee
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-18T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/18/2026-03134/presidential-declaration-of-a-major-disaster-for-public-assistance-only-for-the-state-of-tennessee
+
+This is notice of the Presidential declaration of a major disaster for Public Assistance Only for the state of Tennessee (FEMA- 4898-DR), dated February 6, 2026. Incident: Severe Winter Storm.
+
 ## FinCEN issues exceptive relief on due diligence
 - Source: TBA
 - Category: Compliance Watch
@@ -15786,6 +16132,14 @@ Under specific conditions, a malicious webpage may trigger autofill population a
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26119
 
 Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-17T15:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-law-scholar-gary-born
+
+Wolters Kluwer’s Legal & Regulatory U.S. business is pleased to announce a new webinar featuring Gary Born, one of the world’s foremost authorities on international law and international dispute resolution.
 
 ## President George Washington’s Birthday, 2026
 - Source: White House
@@ -16819,6 +17173,110 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 
 The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0046; -0118; -0174; 0188 and -0202). The notices of proposed renewal for these information collections were pr…
 
+## Bank Appeals Process
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03086/bank-appeals-process
+
+The Office of the Comptroller of the Currency (OCC) is issuing a notice of proposed rulemaking to establish revised procedures and policies for appeals of material supervisory determinations by OCC supervised entities. The proposed changes would reflect the OCC's experience administering the bank appeals process and are intended to enhance the independence and efficiency of th…
+
+## Reporting and Recordkeeping Requirements Under OMB Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03078/reporting-and-recordkeeping-requirements-under-omb-review
+
+The Small Business Administration (SBA) is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act and OMB procedures, SBA is publishing this notice to allow all interested members of the public an additional 30 days to provide comments on the proposed collection of informati…
+
+## Numbering Policies for Modern Communications
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03066/numbering-policies-for-modern-communications
+
+In this document, the Federal Communications Commission (Commission) adopts rules regarding direct access to numbers by providers of interconnected Voice over internet Protocol (VoIP) services. The Commission takes this action in furtherance of Congress' directive in the Pallone-Thune Telephone Robocall Abuse Criminal Enforcement and Deterrence (TRACED) Act to examine ways to…
+
+## Federal Acquisition Regulation: Prohibition on Certain Semiconductor Products and Services
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03065/federal-acquisition-regulation-prohibition-on-certain-semiconductor-products-and-services
+
+OFPP, DoD, GSA, and NASA (collectively referred to as the Federal Acquisition Regulatory Council, or FAR Council) are proposing to amend the Federal Acquisition Regulation (FAR) to partially implement a section of the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023 which prohibits executive agencies from procuring or obtaining certain products and servi…
+
+## Meeting of the Interagency Task Force on Veterans Small Business Development
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03063/meeting-of-the-interagency-task-force-on-veterans-small-business-development
+
+The SBA is issuing this notice to announce the date, time, and agenda for the next meeting of the Interagency Task Force on Veterans Small Business Development (IATF).
+
+## Great Lakes Pilotage Rates-2026 Annual Review and Revisions to Methodology
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03054/great-lakes-pilotage-rates-2026-annual-review-and-revisions-to-methodology
+
+The Coast Guard is issuing new base Great Lakes pilotage rates for the 2026 shipping season. The Coast Guard estimates that this final rule will result in an approximately 6-percent decrease in operating costs compared to the 2025 season, while facilitating commerce and supply chains. The Coast Guard is also making one change to the ratemaking methodology: the removal of Step…
+
+## Sabine Pass Safety Fairway Anchorages
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03044/sabine-pass-safety-fairway-anchorages
+
+The Coast Guard proposes to establish two new fairway anchorages adjacent to the existing safety fairway approaches to Sabine Bank and Sabine Pass, Texas. These two additional fairway anchorages would be in deeper water than the existing anchorages along the Sabine Pass fairway to accommodate vessels, primarily petroleum tankers, with deeper drafts. This rulemaking enhances th…
+
+## Safety Zone; Annual Fireworks Displays Within the Sector Columbia River Captain of the Port Zone
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03043/safety-zone-annual-fireworks-displays-within-the-sector-columbia-river-captain-of-the-port-zone
+
+The Coast Guard proposes to amend the regulations establishing safety zones for annual fireworks displays in the Captain of the Port Zone Columbia River. This action would add a safety zone for a fireworks display, remove a safety zone for a fireworks display no longer under the Coast Guard's authority and jurisdiction, edit a fireworks display's name, and add a second date fo…
+
+## Request for Information: 340B Rebate Model Pilot Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03042/request-for-information-340b-rebate-model-pilot-program
+
+The Health Resources and Services Administration (HRSA) administers section 340B of the Public Health Service Act (PHS Act), referred to as the "340B Drug Pricing Program" or the "340B Program." HRSA is issuing this Request for Information (RFI) to gather input from interested parties regarding the potential use of rebates to effectuate the ceiling price under the 340B Program…
+
+## Administrative Declaration Amendment of an Economic Injury Disaster for the State of Louisiana
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03026/administrative-declaration-amendment-of-an-economic-injury-disaster-for-the-state-of-louisiana
+
+This is an amendment of the Economic Injury Disaster Loan (EIDL) declaration for the state of Louisiana dated February 2, 2026. Incident: 2026 Severe Winter Storm.
+
+## Television Broadcasting Services Hutchinson, Kansas
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03015/television-broadcasting-services-hutchinson-kansas
+
+This document amends the Table of TV Allotments (table) of the Federal Communications Commission's (Commission) rules by substituting channel *33 for channel *8 at Hutchinson, Kansas in response to a Petition for Rulemaking filed by Kansas Public Telecommunications Service, Inc. (Kansas Public or Petitioner), the licensee of noncommercial educational PBS member television stat…
+
+## Privacy Act of 1974; System of Records
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/17/2026-03003/privacy-act-of-1974-system-of-records
+
+In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is partially modifying an existing system of records maintained by the Office for Civil Rights (OCR), "Program Information Management System (PIMS)," System No. 09- 90-0052. The modifications include changing the system of records name to "HHS Civil Rights and Health Infor…
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-16T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award
+
+Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award.
+
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -16841,30 +17299,6 @@ Download links fixed
 - Published: 2026-02-13T12:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0394
 
-## FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams
-- Source: FinCEN
-- Category: OFAC
-- Published: 2026-02-13T12:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026
-
-In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams.
-
-## FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
-- Source: FinCEN
-- Category: OFAC
-- Published: 2026-02-13T12:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions
-
-The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations.
-
-## FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements
-- Source: FinCEN
-- Category: OFAC
-- Published: 2026-02-13T12:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements
-
-Relief Reduces Burdensome and Duplicative Regulatory Requirement
-
 ## Issuance of Venezuela-related General Licenses
 - Source: OFAC
 - Category: OFAC
@@ -16879,6 +17313,14 @@ Relief Reduces Burdensome and Duplicative Regulatory Requirement
 
 IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health
+
+Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data.
+
 ## 60-Day Notice of Proposed Information Collection: Housing Choice Voucher Program and Tribal HUD-VASH
 - Source: Federal Register
 - Category: Federal Register
@@ -16886,6 +17328,92 @@ IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased
 - URL: https://www.federalregister.gov/documents/2026/02/13/2026-02955/60-day-notice-of-proposed-information-collection-housing-choice-voucher-program-and-tribal-hud-vash
 
 HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comment from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.
+
+## North Dakota Regulatory Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02982/north-dakota-regulatory-program
+
+We, the Office of Surface Mining Reclamation and Enforcement (OSM), are approving an amendment to the North Dakota regulatory program under the Surface Mining Control and Reclamation Act of 1977 (SMCRA or the Act). North Dakota proposed amendments to its program based on changes to the North Dakota Century Code made by the State legislature that resulted in changes to the Nort…
+
+## Montana Regulatory Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02981/montana-regulatory-program
+
+The Office of Surface Mining Reclamation and Enforcement (OSM) approves an amendment to the Montana regulatory program under the Surface Mining Control and Reclamation Act of 1977 (SMCRA or the Act). Montana proposed an addition to the Montana Code Annotated (MCA), which would revise and add regulations in the Administrative Rules of Montana (ARM) pertaining to ownership and c…
+
+## Restoring Integrity to the Issuance of Non-Domiciled Commercial Drivers Licenses (CDL)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02965/restoring-integrity-to-the-issuance-of-non-domiciled-commercial-drivers-licenses-cdl
+
+FMCSA amends the Federal regulations for State Driver's Licensing Agencies (SDLAs) issuing commercial driving credentials to non-domiciled individuals. This final rule reaffirms, with minor changes, the provisions of the interim final rule (IFR) published on September 29, 2025. Specifically, this final rule limits eligibility for non-domiciled Commercial Learner's Permits (CLP…
+
+## Electronic Bond Transmission
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02961/electronic-bond-transmission
+
+U.S. Customs and Border Protection (CBP) collects bonds from parties engaging in transactions or activities with CBP to adequately protect the revenue of the United States and ensure compliance with U.S. statutes and regulations. This document proposes to amend the CBP regulations to require that most bonds be transmitted to CBP electronically via a specialized system by the s…
+
+## Energy Conservation Program: Energy Conservation Standards for Small Electric Motors
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02936/energy-conservation-program-energy-conservation-standards-for-small-electric-motors
+
+The Energy Policy and Conservation Act, as amended ("EPCA"), prescribes energy conservation standards for various consumer products and certain commercial and industrial equipment, including small electric motors ("SEMs"). EPCA also requires the U.S. Department of Energy ("DOE") to periodically determine whether more-stringent standards would be technologically feasible and ec…
+
+## Energy Conservation Program: Energy Conservation Standards for Metal Halide Lamp Fixtures
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02935/energy-conservation-program-energy-conservation-standards-for-metal-halide-lamp-fixtures
+
+The Energy Policy and Conservation Act, as amended ("EPCA"), prescribes energy conservation standards for various consumer products and certain commercial and industrial equipment, including metal halide lamp fixtures ("MHLFs"). EPCA also requires the U.S. Department of Energy ("DOE") to periodically review its existing standards to determine whether more-stringent standards w…
+
+## Presidential Declaration of a Major Disaster for Public Assistance Only for the State of Mississippi and the Mississippi Band of Choctaw Indians
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02925/presidential-declaration-of-a-major-disaster-for-public-assistance-only-for-the-state-of-mississippi
+
+This is notice of the Presidential declaration of a major disaster for Public Assistance Only for the state of Mississippi and the Mississippi Band of Choctaw Indians (FEMA-4899-DR), dated February 6, 2026. Incident: Severe Winter Storm.
+
+## Administrative Declaration of a Disaster for the State of California
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02924/administrative-declaration-of-a-disaster-for-the-state-of-california
+
+This is notice of an Administrative declaration of a disaster for the state of California dated February 10, 2026. Incident: Oakland Apartment Fire.
+
+## Mountain Ventures, Inc., License No. 04/04-0145; Surrender of License of Small Business Investment Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02904/mountain-ventures-inc-license-no-0404-0145-surrender-of-license-of-small-business-investment-company
+
+## Privacy Act of 1974; Implementation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02882/privacy-act-of-1974-implementation
+
+The Executive Office for Immigration Review (EOIR), a component within the United States Department of Justice (DOJ or Department), is finalizing without changes its Privacy Act exemption regulations for the system of records titled, Adjudication and Appeal Records of the Office of the Chief Immigration Judge and Board of Immigration Appeals, JUSTICE/EOIR-001, which were publi…
+
+## Reporting and Recordkeeping Requirements Under OMB Review
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/13/2026-02879/reporting-and-recordkeeping-requirements-under-omb-review
+
+The Small Business Administration (SBA) is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act and OMB procedures, SBA is publishing this notice to allow all interested member of the public an additional 30 days to provide comments on the proposed collection of informatio…
 
 ## Chip Bartlett Joins Texas Bankers as Senior Vice President of Government Relations
 - Source: TBA
@@ -16981,6 +17509,46 @@ The Office of the Comptroller of the Currency (OCC) released economic and financ
 
 The NCUA Board (Board) is seeking comment on proposed regulations to implement portions of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act). The GENIUS Act charges the NCUA with licensing, regulating, and supervising payment stablecoin issuers that are subsidiaries of federally insured credit unions (FICU subsidiaries). The GENIUS Act also…
 
+## Fisheries of the Exclusive Economic Zone off Alaska; Amendment 125 to the Bering Sea and Aleutian Islands Fishery Management Plan; Pacific Cod Small Boat Access
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02872/fisheries-of-the-exclusive-economic-zone-off-alaska-amendment-125-to-the-bering-sea-and-aleutian
+
+NMFS issues this final rule to implement amendment 125 to the Fishery Management Plan for Groundfish of the Bering Sea and Aleutian Islands Management Area (BSAI FMP). Amendment 125 and this final rule add a small vessel provision to the BSAI Pacific cod jig sector in the A season, January 1 to April 30. Under this small vessel provision, catch from catcher vessels (CV) using…
+
+## Numbering Policies for Modern Communications
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02858/numbering-policies-for-modern-communications
+
+In this document, the Federal Communications Commission (Commission) proposes rules regarding direct access to numbers by providers of interconnected Voice over internet Protocol (VoIP) services. The Commission takes this action in furtherance of Congress' directive in the Pallone-Thune Telephone Robocall Abuse Criminal Enforcement and Deterrence (TRACED) Act to examine ways t…
+
+## Final Priority and Definitions-Secretary's Supplemental Priority and Definitions on Meaningful Learning Opportunities
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02854/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-meaningful
+
+The Department of Education (Department) announces a final priority and definitions for use in currently authorized discretionary grant programs or programs that may be authorized in the future. The Secretary may choose to use the entire priority for a grant program or a particular competition or use one or more of the priority's component parts. This priority and definitions…
+
+## Subsistence Management Regulations for Public Lands in Alaska-2027-28 and 2028-29 Subsistence Taking of Fish and Shellfish Regulations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02853/subsistence-management-regulations-for-public-lands-in-alaska-2027-28-and-2028-29-subsistence-taking
+
+This proposed rule would update regulations for fish and shellfish seasons, harvest limits, methods, and means related to taking of fish and shellfish for subsistence uses during the 2027-2028 and 2028-2029 regulatory years. The Federal Subsistence Board (the Board) is on a schedule of completing the process of revising subsistence take of fish and shellfish regulations in odd…
+
+## Advisory Committee Charter Reestablishment
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/12/2026-02829/advisory-committee-charter-reestablishment
+
+Pursuant to sections 14(b) (1) and 9(c) of the Federal Advisory Act (Pub. L. 92-463) and consultation with the General Services Administration, the Small Business Administration has determined that the Audit and Financial Management Committee, the Council on Underserved Communities, and the Small Business Lending Advisory Council are in the public interest and essential to the…
+
 ## Nominations Sent to the Senate
 - Source: White House
 - Category: Executive
@@ -17051,6 +17619,14 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-analysis-shows-insurance-related-activity-driving-surge-in-subpoena-volumes
+
+A new analysis from Wolters Kluwer Financial & Corporate Compliance finds the growth of U.S. subpoena volumes continuing to accelerate year-over-year, reaching a total of 498,000 in 2025.
+
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
 - Category: Federal Register
@@ -17090,6 +17666,54 @@ The NCUA Board (Board) is proposing to amend its regulations governing the conve
 - URL: https://www.federalregister.gov/documents/2026/02/11/2026-02715/voluntary-consensus-standards-update-formaldehyde-emission-standards-for-composite-wood-products
 
 The Environmental Protection Agency (EPA) is proposing to update the incorporation by reference of several voluntary consensus standards in the Agency's formaldehyde standards for composite wood products regulations under the Toxic Substances Control Act (TSCA) due to the standards having been updated or superseded by the issuing organizations. These new standards primarily up…
+
+## Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02769/patient-protection-and-affordable-care-act-hhs-notice-of-benefit-and-payment-parameters-for-2027-and
+
+This proposed rule contains provisions to improve implementation of the Patient Protection and Affordable Care Act, including payment parameters and provisions related to the HHS-operated risk adjustment and risk adjustment data validation (HHS-RADV) programs, as well as 2027 user fee rates for issuers offering qualified health plans (QHPs) through Federally-facilitated Exchan…
+
+## Presidential Declaration Amendment of a Major Disaster for the State of Alaska
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02766/presidential-declaration-amendment-of-a-major-disaster-for-the-state-of-alaska
+
+This is an amendment of the Presidential declaration of a major disaster for the State of Alaska (FEMA-4893-DR), dated October 22, 2025. Incident: Severe Storms, Flooding, and remnants of Typhoon Halong.
+
+## Special Local Regulation; Elizabeth River Western Branch, Portsmouth, VA
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02750/special-local-regulation-elizabeth-river-western-branch-portsmouth-va
+
+The Coast Guard is proposing to establish a temporary special local regulation (SLR) for certain navigable waters of the Elizabeth River Western Branch. The SLR is needed to protect personnel, vessels, and the marine environment from potential hazards created by a boat race. This proposed rulemaking would prohibit persons and vessels from being in the regulated area unless spe…
+
+## Presidential Declaration Amendment of a Major Disaster for Public Assistance Only for the State of Alaska
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02718/presidential-declaration-amendment-of-a-major-disaster-for-public-assistance-only-for-the-state-of
+
+This is an amendment of the Presidential declaration of a major disaster for Public Assistance Only for the State of Alaska (FEMA-4893-DR), dated October 22, 2025. Incident: Severe Storms, Flooding, and remnants of Typhoon Halong.
+
+## Administrative Declaration of an Economic Injury Disaster for the State of California
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02717/administrative-declaration-of-an-economic-injury-disaster-for-the-state-of-california
+
+This is notice of an Economic Injury Disaster Loan (EIDL) declaration for the state of California dated February 6, 2026. Incident: 2025 Late December Storms.
+
+## Drawbridge Operation Regulation; Passaic River, Between the City of Newark and Town of Kearny, NJ
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/11/2026-02690/drawbridge-operation-regulation-passaic-river-between-the-city-of-newark-and-town-of-kearny-nj
+
+The Coast Guard is modifying the operating regulation that governs the Point No Point Railroad Bridge across the Passaic River, mile 2.6, between the City of Newark and Town of Kearny, NJ. The change in the regulation will allow the bridge to be remotely operated from the Conrail North Jersey Dispatch Center in Mount Laurel, NJ. This change will alter the operating schedule of…
 
 ## Mexico among the leading countries in the application of AI to the financial sector, according to research by Finastra
 - Source: Finastra
@@ -17589,12 +18213,6 @@ Added Affected Software for Windows packages
 - Published: 2026-02-10T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260210
 
-## FinCEN Combats Financial Support to the Sinaloa Cartel by Finding Transactions Involving 10 Mexico-based Gambling Establishments to be of Primary Money Laundering Concern
-- Source: FinCEN
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/fincen-combats-financial-support-sinaloa-cartel-finding-transactions-involving
-
 ## Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results
 - Source: Freddie Mac
 - Category: Mortgage
@@ -17612,3 +18230,67 @@ Added Affected Software for Windows packages
 - Category: Fintech Watch
 - Published: 2026-02-10T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-fourth-quarter-and-full-year-2025-results
+
+## Electronic Export Manifest for Vessel Cargo
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02662/electronic-export-manifest-for-vessel-cargo
+
+U.S. Customs and Border Protection (CBP) proposes to amend its regulations to require the advance submission of electronic export manifest (EEM) information to CBP for cargo transported by vessel departing the United States. The proposed rule identifies the parties that would be eligible to transmit vessel EEM information and their responsibilities, and the time frames for tra…
+
+## 7(a) Alternative Base Rate Options
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02660/7a-alternative-base-rate-options
+
+SBA is introducing alternative base rate options for use with variable interest rate loans made under the 7(a) Loan Program. The alternative base rate options are also available for use under any 7(a) pilot loan programs, unless expressly prohibited.
+
+## Television Broadcasting Services Norwell, Massachusetts
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02623/television-broadcasting-services-norwell-massachusetts
+
+In this document the Federal Communications Commission's (Commission) proposes to modify the Table of TV Allotments (table) of its rules by substituting channel 10 for 36 at Norwell, Massachusetts in response to a Petition for Rulemaking filed by RNN Boston License Co., LLC (RNN or Petitioner), the licensee of WWDP(TV) (WWDP or Station) channel 10, Norwell, Massachusetts (Norw…
+
+## Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02617/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02615/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated
+
+As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collectio…
+
+## Information Collection Being Submitted for Review and Approval to Office of Management and Budget
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02614/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget
+
+As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or the Commission) invites the general public and other Federal Agencies to take this opportunity to comment on the following information collection. Pursuant to the Small Business Paperwork Relief Act of 2002, the F…
+
+## Onions Grown in Certain Designated Counties in Idaho and Malheur County, Oregon; Decreased Assessment Rate
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02589/onions-grown-in-certain-designated-counties-in-idaho-and-malheur-county-oregon-decreased-assessment
+
+This proposed rule would implement a recommendation from the Idaho-Eastern Oregon Onion Committee (Committee) to decrease the assessment rate established for the 2025-2026 and subsequent fiscal periods from $.07 to $.05 per hundredweight for onions grown in certain designated counties in Idaho and Malheur County, Oregon. The proposed assessment rate would remain in effect inde…
+
+## Information Collections Being Reviewed by the Federal Communications Commission
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/10/2026-02545/information-collections-being-reviewed-by-the-federal-communications-commission
+
+As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act of 1995 (PRA), the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of…

@@ -98,7 +98,6 @@ UA = "regdashboard/4.2 (+https://github.com/jasonw79118/regdashboard)"
 CATEGORY_BY_SOURCE: Dict[str, str] = {
     "OFAC": "OFAC",
     "Treasury": "OFAC",
-    "FinCEN": "OFAC",
     "IRS": "IRS",
 
     # Payments tile
@@ -197,7 +196,8 @@ RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
     {"kind": "topics", "value": "mortgage-insurance"},
     {"kind": "topics", "value": "personally-identifiable-information"},
     {"kind": "topics", "value": "savings-associations"},
-        {"kind": "topics", "value": "trust-and-trustees"},
+    {"kind": "topics", "value": "small-business"},
+    {"kind": "topics", "value": "trust-and-trustees"},
 ]
 
 
@@ -256,11 +256,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_domains": {"www.irs.gov"},
         "allow_path_prefixes": {"/newsroom/", "/downloads/rss", "/downloads/rss/"},
         "deny_domains": {"sa.www4.irs.gov"},
-    },
-    "FinCEN": {
-        "allow_domains": {"www.fincen.gov", "fincen.gov"},
-        "allow_path_prefixes": {"/news/"},
-        "deny_domains": set(),
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
     "FRB Payments": {"deny_domains": {"www.facebook.com"}},
@@ -1540,6 +1535,115 @@ OFAC_ITEM_RE = re.compile(r"^/recent-actions/\d{8}(/)?$")
 OFAC_URL_DATE_RE = re.compile(r"/recent-actions/(?P<ymd>\d{8})(?:/)?$")
 
 
+
+
+def aba_news_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    ABA's /news-research page is server-rendered and includes a short list of fresh items with dates.
+    We capture links (often to bankingjournal.aba.com) and extract the nearby date.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen = set()
+
+    for a in container.find_all("a", href=True):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("ABA", url):
+            continue
+
+        title = clean_text(a.get_text(" ", strip=True) or "", 220)
+        if not title or len(title) < 10:
+            continue
+        if title.lower() in {"view all news", "all news", "news & research overview"}:
+            continue
+
+        dt = find_time_near_anchor(a, source="ABA")
+
+        key = (title, url)
+        if key in seen:
+            continue
+        seen.add(key)
+        links.append((title, url, dt))
+
+    links.sort(key=lambda t: (t[2] is None, t[2] or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+    return links[:MAX_LISTING_LINKS]
+
+
+def wolterskluwer_news_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    Wolters Kluwer /en/news is typically server-rendered; links point to /en/news/<slug>.
+    Capture those and try to extract the nearby date in the same card.
+    """
+    def _extract_from_html(h: str) -> List[Tuple[str, str, Optional[datetime]]]:
+        soup = BeautifulSoup(h, "html.parser")
+        container = pick_container(soup) or soup
+        if not container:
+            return []
+        out: List[Tuple[str, str, Optional[datetime]]] = []
+        seen_local = set()
+
+        for a in container.find_all("a", href=True):
+            href = (a.get("href") or "").strip()
+            if not href:
+                continue
+            if "/en/news/" not in href:
+                continue
+
+            url = canonical_url(urljoin(page_url, href))
+            if not allowed_for_source("Wolters Kluwer", url):
+                continue
+
+            title = clean_text(a.get_text(" ", strip=True) or "", 220)
+            if not title or len(title) < 10:
+                continue
+            if title.lower() in {"read more", "learn more"}:
+                continue
+
+            dt = find_time_near_anchor(a, source="Wolters Kluwer")
+
+            key = (title, url)
+            if key in seen_local:
+                continue
+            seen_local.add(key)
+            out.append((title, url, dt))
+
+        return out
+
+    links = _extract_from_html(html)
+
+    # Fallback: if DOM parsing yields nothing (A/B tests or JS), try the Jina proxy.
+    if not links:
+        proxy_html = polite_get(_jina_proxy_url(page_url))
+        if proxy_html:
+            links = _extract_from_html(proxy_html)
+
+    # Last resort: regex for /en/news/<slug> in raw HTML
+    if not links:
+        seen = set()
+        for m in re.finditer(r'href=["\']([^"\']*/en/news/[^"\']+)["\']', html or "", flags=re.I):
+            href = m.group(1)
+            url = canonical_url(urljoin(page_url, href))
+            if not allowed_for_source("Wolters Kluwer", url):
+                continue
+            key = ("Wolters Kluwer news", url)
+            if key in seen:
+                continue
+            seen.add(key)
+            links.append(("Wolters Kluwer news", url, None))
+
+    links.sort(key=lambda t: (t[2] is None, t[2] or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+    return links[:MAX_LISTING_LINKS]
+
+
+
 def ofac_date_from_url(url: str) -> Optional[datetime]:
     try:
         m = OFAC_URL_DATE_RE.search(urlparse(url).path)
@@ -1911,94 +2015,6 @@ def treasury_date_from_listing_context(a: Any) -> Optional[datetime]:
     return None
 
 
-
-
-FINCEN_NEWS_PATH_RE = re.compile(r"^/news/(news-releases|press-releases|readouts|speeches|testimony|enforcement-actions|sar-technical-bulletins)/[^/]+/?$")
-
-def fincen_date_from_listing_context(a: Any) -> Optional[datetime]:
-    if not a:
-        return None
-
-    wrap = a.find_parent(["article", "li", "div", "section"]) or a.parent
-    if wrap:
-        blob = clean_text(wrap.get_text(" ", strip=True), 900)
-        # FinCEN listing shows dates like 02/13/2026 | News
-        dt = extract_any_date(blob, source="FinCEN") or parse_slash_date_best(blob)
-        if dt:
-            return dt
-
-    # Also scan previous siblings (FinCEN date often appears just before the headline link)
-    try:
-        checked = 0
-        for sib in a.previous_siblings:
-            if checked >= 40:
-                break
-            checked += 1
-            if sib is None:
-                continue
-            if isinstance(sib, str):
-                txt = clean_text(sib, 200)
-            else:
-                txt = clean_text(getattr(sib, "get_text", lambda *args, **kwargs: "")(" ", strip=True), 200)
-            if not txt:
-                continue
-            dt = extract_any_date(txt, source="FinCEN") or parse_slash_date_best(txt)
-            if dt:
-                return dt
-    except Exception:
-        pass
-
-    return None
-
-
-def fincen_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    soup = BeautifulSoup(html, "html.parser")
-    container = pick_container(soup) or soup
-    if not container:
-        return []
-
-    links: List[Tuple[str, str, Optional[datetime]]] = []
-    seen = set()
-
-    for a in container.select('a[href^="/news/"]'):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#"):
-            continue
-
-        # Skip the category landing pages themselves
-        if href.rstrip("/") in [
-            "/news", "/news/press-releases", "/news/news-releases", "/news/readouts",
-            "/news/speeches", "/news/testimony", "/news/enforcement-actions", "/news/sar-technical-bulletins"
-        ]:
-            continue
-
-        # Prefer real news-release style detail pages
-        if not FINCEN_NEWS_PATH_RE.match(href):
-            continue
-
-        url = canonical_url(urljoin(page_url, href))
-        if url in seen:
-            continue
-        seen.add(url)
-
-        if not allowed_for_source("FinCEN", url):
-            continue
-
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
-        if not raw_title:
-            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
-
-        title = clean_text(raw_title, 220)
-        if not title or is_probably_nav_link("FinCEN", title, url):
-            continue
-
-        dt = fincen_date_from_listing_context(a)
-
-        links.append((title, url, dt))
-        if len(links) >= MAX_LISTING_LINKS:
-            break
-
-    return links
 def treasury_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -2541,8 +2557,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return ofac_links(page_url, html)
     if source == "Treasury":
         return treasury_links(page_url, html)
-    if source == "FinCEN":
-        return fincen_links(page_url, html)
     if source == "White House":
         return whitehouse_links(page_url, html)
     if source == "Mastercard":
@@ -2555,6 +2569,11 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
+
+    if source == "ABA":
+        return aba_news_links(page_url, html)
+    if source == "Wolters Kluwer":
+        return wolterskluwer_news_links(page_url, html)
 
     # ✅ NEW vendor-specific extractors (fixes your missing pulls)
     if source == "Jack Henry":
@@ -2658,10 +2677,6 @@ def get_start_pages() -> List[SourcePage]:
 
         # Treasury Press Releases (OFAC tile)
         SourcePage("Treasury", "https://home.treasury.gov/news/press-releases"),
-
-        # FinCEN (OFAC, Sanctions, & AML tile)
-        SourcePage("FinCEN", "https://www.fincen.gov/news/press-releases"),
-        SourcePage("FinCEN", "https://www.fincen.gov/news/enforcement-actions"),
 
         # IRS
         SourcePage("IRS", "https://www.irs.gov/newsroom"),
@@ -3001,7 +3016,9 @@ def build() -> None:
                 print(f"[feed-direct] {len(got)} items from {page_url}", flush=True)
                 continue
 
-            html = polite_get(page_url)
+            html = polite_get(_jina_proxy_url(page_url)) if source == "Bankers Online" else polite_get(page_url)
+            if (not html) and source == "Bankers Online":
+                html = polite_get(page_url)
             if not html:
                 print("[skip] no html", flush=True)
                 continue
