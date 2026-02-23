@@ -65,6 +65,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "TCS": 25,
     "OFAC": 45,
     "Treasury": 60,
+    "FinCEN": 35,
     "OCC": 25,
     "FDIC": 25,
     "FRB": 30,
@@ -196,7 +197,6 @@ RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
     {"kind": "topics", "value": "mortgage-insurance"},
     {"kind": "topics", "value": "personally-identifiable-information"},
     {"kind": "topics", "value": "savings-associations"},
-    {"kind": "topics", "value": "small-business"},
     {"kind": "topics", "value": "trust-and-trustees"},
 ]
 
@@ -2677,6 +2677,7 @@ def get_start_pages() -> List[SourcePage]:
 
         # Treasury Press Releases (OFAC tile)
         SourcePage("Treasury", "https://home.treasury.gov/news/press-releases"),
+        SourcePage("FinCEN", "https://www.fincen.gov/news/press-releases"),
 
         # IRS
         SourcePage("IRS", "https://www.irs.gov/newsroom"),
