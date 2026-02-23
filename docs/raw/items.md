@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-09T15:30:13Z` → `2026-02-23T15:30:13Z` (UTC)
-Last updated: `2026-02-23T09:30:13-06:00` (CT) — `2026-02-23T15:30:13Z` (UTC)
+Window: `2026-02-09T15:54:50Z` → `2026-02-23T15:54:50Z` (UTC)
+Last updated: `2026-02-23T09:54:50-06:00` (CT) — `2026-02-23T15:54:50Z` (UTC)
 
 ## When identity isn’t the weak link, access still is
 - Source: BleepingComputer
@@ -31,11 +31,11 @@ Stolen tokens and compromised devices let attackers reuse trust without breaking
 
 CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in attacks and ordered U.S. federal agencies to patch them within three weeks. [...]
 
-## See all news
+## Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
 - Source: Fannie Mae
 - Category: Mortgage
 - Published: 2026-02-23T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news
+- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 
 ## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
 - Source: NACHA
@@ -17540,6 +17540,12 @@ Acknowledgement added. This is an informational change only.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
 
 Changes made to the security updates links and information. This is an informational change only.
+
+## Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast
+- Source: Fannie Mae
+- Category: Mortgage
+- Published: 2026-02-11T00:00:00Z
+- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast
 
 ## How the Industry Is Adapting to Nacha’s New Risk Management Rules
 - Source: NACHA

@@ -27,8 +27,8 @@ CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in atta
 Mortgage
 Fannie Mae
 2026-02-23T00:00:00Z
-See all news
-https://www.fanniemae.com/newsroom/fannie-mae-news
+Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
+https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 ------------------------------------------------------------
 Payments
 NACHA
@@ -15516,6 +15516,12 @@ Microsoft MSRC
 CVE-2026-21256 GitHub Copilot and Visual Studio Remote Code Execution Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
 Changes made to the security updates links and information. This is an informational change only.
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-02-11T00:00:00Z
+Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast
+https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast
 ------------------------------------------------------------
 Payments
 NACHA

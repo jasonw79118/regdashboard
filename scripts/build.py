@@ -862,6 +862,7 @@ GENERIC_TITLES = {
     "miscellaneous",
     "read more",
     "learn more",
+    "see all news",
 }
 
 
@@ -952,6 +953,12 @@ def is_generic_listing_or_home(source: str, title: str, url: str) -> bool:
     if source == "FHLB MPF":
         if p.endswith("/program-guidelines/mpf-program-updates"):
             return False
+
+    if source == "Fannie Mae":
+        pl = p.lower()
+        # Treat the main news hub as a listing, not an article
+        if pl.endswith("/newsroom/fannie-mae-news") or pl.endswith("/newsroom/news"):
+            return True
 
     return False
 
@@ -2453,8 +2460,11 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
 def fanniemae_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     """
     Fannie Mae's Newsroom pages often use CTA anchors like "Learn more".
-    This extractor promotes the surrounding card/headline text to the title,
-    and pulls dates from nearby text so we don't need to fetch detail pages.
+    This extractor:
+      - keeps scope on www.fanniemae.com/newsroom/*
+      - drops hub / "See all" links
+      - promotes nearby headlines when anchor text is a CTA
+      - extracts dates from nearby text so we don't need detail fetches
     """
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -2462,6 +2472,46 @@ def fanniemae_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[d
         return []
 
     strip_nav_like(container)
+
+    def _promote_headline(a_tag) -> str:
+        # Prefer nearest heading in the same "card" region; fall back to previous heading in doc order.
+        for level in range(6):
+            wrap = a_tag.find_parent(["article", "li", "div", "section"])
+            if not wrap:
+                break
+            h = wrap.find(["h1", "h2", "h3", "h4"])
+            if h:
+                t = (h.get_text(" ", strip=True) or "").strip()
+                if t:
+                    return t
+            a_tag = wrap
+        prev = a_tag.find_previous(["h1", "h2", "h3", "h4"])
+        if prev:
+            t = (prev.get_text(" ", strip=True) or "").strip()
+            if t:
+                return t
+        return ""
+
+    def _nearby_date(a_tag) -> Optional[datetime]:
+        # Try existing generic helpers first
+        dt = find_time_near_anchor(a_tag, "Fannie Mae")
+        if dt is not None:
+            return dt
+
+        # Scan a few previous elements for a date string like "February 11, 2026"
+        for prev in a_tag.find_all_previous(["time", "p", "span", "div"], limit=12):
+            t = clean_text(prev.get_text(" ", strip=True), 200)
+            if not t:
+                continue
+            cand = extract_any_date(t, source="Fannie Mae")
+            if cand is not None:
+                return cand
+
+        # Last resort: look at the nearest "section/card" text
+        wrap = a_tag.find_parent(["article", "li", "div", "section"]) or a_tag.parent
+        if wrap:
+            return extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1200), source="Fannie Mae")
+        return None
 
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen: set[str] = set()
@@ -2475,24 +2525,26 @@ def fanniemae_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[d
         if not allowed_for_source("Fannie Mae", url):
             continue
 
-        # Only keep actual Newsroom article URLs
-        if not path(url).startswith("/newsroom/"):
+        # Only keep Newsroom URLs
+        pth = path(url).rstrip("/")
+        if not pth.startswith("/newsroom/"):
+            continue
+
+        # Drop hub/collection pages
+        if pth in {"/newsroom", "/newsroom/fannie-mae-news", "/newsroom/news"}:
             continue
 
         raw_title = (a.get_text(" ", strip=True) or "").strip()
         if not raw_title:
             raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
 
-        wrapper = a.find_parent(["article", "li", "div", "section"]) or a.parent
+        tl = raw_title.strip().lower()
+        if tl in {"see all news", "see all", "all news"}:
+            continue
 
-        # Promote a nearby headline when the anchor text is a CTA (common on Fannie Mae)
-        tl = (raw_title or "").strip().lower()
+        # Promote when anchor text is a CTA or too short to be a headline
         if tl in {"read more", "learn more", "more", "details"} or len(raw_title.strip()) < 8:
-            promoted = ""
-            if wrapper:
-                h = wrapper.find(["h1", "h2", "h3", "h4"])
-                if h:
-                    promoted = (h.get_text(" ", strip=True) or "").strip()
+            promoted = _promote_headline(a)
             if promoted:
                 raw_title = promoted
 
@@ -2509,9 +2561,7 @@ def fanniemae_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[d
             continue
         seen.add(url)
 
-        dt = find_time_near_anchor(a, "Fannie Mae")
-        if dt is None and wrapper:
-            dt = extract_any_date(clean_text(wrapper.get_text(" ", strip=True), 1000), source="Fannie Mae")
+        dt = _nearby_date(a)
 
         links.append((title, url, dt))
         if len(links) >= MAX_LISTING_LINKS:

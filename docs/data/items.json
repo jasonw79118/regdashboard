@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-09T15:30:13Z",
-  "window_end": "2026-02-23T15:30:13Z",
-  "generated_at_utc": "2026-02-23T15:30:13Z",
-  "generated_at_ct": "2026-02-23T09:30:13-06:00",
+  "window_start": "2026-02-09T15:54:50Z",
+  "window_end": "2026-02-23T15:54:50Z",
+  "generated_at_utc": "2026-02-23T15:54:50Z",
+  "generated_at_ct": "2026-02-23T09:54:50-06:00",
   "items": [
     {
       "category": "IS",
@@ -39,9 +39,9 @@
     {
       "category": "Mortgage",
       "source": "Fannie Mae",
-      "title": "See all news",
+      "title": "Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes",
       "published_at": "2026-02-23T00:00:00Z",
-      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026",
       "summary": ""
     },
     {
@@ -18445,6 +18445,14 @@
       "published_at": "2026-02-11T08:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256",
       "summary": "Changes made to the security updates links and information. This is an informational change only."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast",
+      "published_at": "2026-02-11T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast",
+      "summary": ""
     },
     {
       "category": "Payments",
