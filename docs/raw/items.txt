@@ -1,9 +1,40 @@
 IS
 BleepingComputer
+2026-02-23T15:00:10Z
+When identity isn’t the weak link, access still is
+https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/
+Stolen tokens and compromised devices let attackers reuse trust without breaking authentication. Specops Software explains why identity alone isn't enough and how continuous device verification strengthens Zero Trust. [...]
+------------------------------------------------------------
+Payments
+NACHA
+2026-02-23T14:20:03Z
+Education
+https://www.nacha.org/taxonomy/term/345
+------------------------------------------------------------
+Payments
+NACHA
+2026-02-23T14:20:03Z
+Blog
+https://www.nacha.org/taxonomy/term/41
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-23T11:44:21Z
 CISA: Recently patched RoundCube flaws now exploited in attacks
 https://www.bleepingcomputer.com/news/security/cisa-recently-patched-roundcube-flaws-now-exploited-in-attacks/
 CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in attacks and ordered U.S. federal agencies to patch them within three weeks. [...]
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-02-23T00:00:00Z
+See all news
+https://www.fanniemae.com/newsroom/fannie-mae-news
+------------------------------------------------------------
+Payments
+NACHA
+2026-02-23T00:00:00Z
+There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
+https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
 ------------------------------------------------------------
 Fintech Watch
 FIS
@@ -2488,13 +2519,6 @@ BleepingComputer
 Flaw in Grandstream VoIP phones allows stealthy eavesdropping
 https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/
 A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-19T17:00:00Z
-Google blocked over 1.75 million Play Store app submissions in 2025
-https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/
-Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -14130,13 +14154,6 @@ OCC
 Bank Appeals Process: Notice of Proposed Rulemaking
 https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html
 ------------------------------------------------------------
-Mortgage
-Fannie Mae
-2026-02-17T00:00:00Z
-Data and Insights
-https://www.fanniemae.com/data-and-insights
-Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
-------------------------------------------------------------
 Payment Card Networks
 Mastercard
 2026-02-17T00:00:00Z
@@ -15479,12 +15496,6 @@ NACHA
 Payments Consulting
 https://www.nacha.org/taxonomy/term/362
 ------------------------------------------------------------
-Payments
-NACHA
-2026-02-11T13:46:30Z
-Blog
-https://www.nacha.org/taxonomy/term/41
-------------------------------------------------------------
 Compliance Watch
 CDIA
 2026-02-11T10:00:55Z
@@ -15505,26 +15516,6 @@ Microsoft MSRC
 CVE-2026-21256 GitHub Copilot and Visual Studio Remote Code Execution Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
 Changes made to the security updates links and information. This is an informational change only.
-------------------------------------------------------------
-Mortgage
-Fannie Mae
-2026-02-11T00:00:00Z
-Fannie Mae Reports Net Income of $3.5 Billion for Fourth Quarter 2025 and $14.4 Billion for Full-Year 2025
-https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results
-Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission.
-------------------------------------------------------------
-Mortgage
-Fannie Mae
-2026-02-11T00:00:00Z
-Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast
-https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast
-Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C.
-------------------------------------------------------------
-Mortgage
-Fannie Mae
-2026-02-11T00:00:00Z
-Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026
-https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 ------------------------------------------------------------
 Payments
 NACHA
@@ -16126,11 +16117,4 @@ Federal Register
 Information Collections Being Reviewed by the Federal Communications Commission
 https://www.federalregister.gov/documents/2026/02/10/2026-02545/information-collections-being-reviewed-by-the-federal-communications-commission
 As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act of 1995 (PRA), the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of…
-------------------------------------------------------------
-Compliance Watch
-CDIA
-2026-02-09T15:05:47Z
-New Webinar Alert!
-https://www.cdiaonline.org/events/2026/02/09/new-webinar-alert/
-Liability Reform & Competition and Impact on Risk to the Lender March 17, 2026 | 12:00 PM ET | CDIA Webinar (60 min)... The post New Webinar Alert! appeared first on CDIA .
 ------------------------------------------------------------

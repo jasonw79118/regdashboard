@@ -1,9 +1,33 @@
 {
-  "window_start": "2026-02-09T14:04:49Z",
-  "window_end": "2026-02-23T14:04:49Z",
-  "generated_at_utc": "2026-02-23T14:04:49Z",
-  "generated_at_ct": "2026-02-23T08:04:49-06:00",
+  "window_start": "2026-02-09T15:30:13Z",
+  "window_end": "2026-02-23T15:30:13Z",
+  "generated_at_utc": "2026-02-23T15:30:13Z",
+  "generated_at_ct": "2026-02-23T09:30:13-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "When identity isn’t the weak link, access still is",
+      "published_at": "2026-02-23T15:00:10Z",
+      "url": "https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/",
+      "summary": "Stolen tokens and compromised devices let attackers reuse trust without breaking authentication. Specops Software explains why identity alone isn't enough and how continuous device verification strengthens Zero Trust. [...]"
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Education",
+      "published_at": "2026-02-23T14:20:03Z",
+      "url": "https://www.nacha.org/taxonomy/term/345",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Blog",
+      "published_at": "2026-02-23T14:20:03Z",
+      "url": "https://www.nacha.org/taxonomy/term/41",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -11,6 +35,22 @@
       "published_at": "2026-02-23T11:44:21Z",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-roundcube-flaws-now-exploited-in-attacks/",
       "summary": "CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in attacks and ordered U.S. federal agencies to patch them within three weeks. [...]"
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "See all news",
+      "published_at": "2026-02-23T00:00:00Z",
+      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "There Will be No Dikkering Around When Scott Dikkers Speaks at Payments",
+      "published_at": "2026-02-23T00:00:00Z",
+      "url": "https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments",
+      "summary": ""
     },
     {
       "category": "Fintech Watch",
@@ -2978,14 +3018,6 @@
       "published_at": "2026-02-19T17:16:32Z",
       "url": "https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/",
       "summary": "A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Google blocked over 1.75 million Play Store app submissions in 2025",
-      "published_at": "2026-02-19T17:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/",
-      "summary": "Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]"
     },
     {
       "category": "IS",
@@ -16483,14 +16515,6 @@
       "summary": ""
     },
     {
-      "category": "Mortgage",
-      "source": "Fannie Mae",
-      "title": "Data and Insights",
-      "published_at": "2026-02-17T00:00:00Z",
-      "url": "https://www.fanniemae.com/data-and-insights",
-      "summary": "Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow."
-    },
-    {
       "category": "Payment Card Networks",
       "source": "Mastercard",
       "title": "### Cloudflare and Mastercard partner to extend comprehensive cyber defense across critical infrastructure and small businesses February 17, 2026",
@@ -18399,14 +18423,6 @@
       "summary": ""
     },
     {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Blog",
-      "published_at": "2026-02-11T13:46:30Z",
-      "url": "https://www.nacha.org/taxonomy/term/41",
-      "summary": ""
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "Metro 2® Format Fundamentals Webinar Series April 14–16, 2026",
@@ -18429,30 +18445,6 @@
       "published_at": "2026-02-11T08:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256",
       "summary": "Changes made to the security updates links and information. This is an informational change only."
-    },
-    {
-      "category": "Mortgage",
-      "source": "Fannie Mae",
-      "title": "Fannie Mae Reports Net Income of $3.5 Billion for Fourth Quarter 2025 and $14.4 Billion for Full-Year 2025",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results",
-      "summary": "Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission."
-    },
-    {
-      "category": "Mortgage",
-      "source": "Fannie Mae",
-      "title": "Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast",
-      "summary": "Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C."
-    },
-    {
-      "category": "Mortgage",
-      "source": "Fannie Mae",
-      "title": "Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results",
-      "summary": ""
     },
     {
       "category": "Payments",
@@ -19261,14 +19253,6 @@
         "filter:small-business"
       ],
       "fedreg_document_number": "2026-02545"
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "New Webinar Alert!",
-      "published_at": "2026-02-09T15:05:47Z",
-      "url": "https://www.cdiaonline.org/events/2026/02/09/new-webinar-alert/",
-      "summary": "Liability Reform & Competition and Impact on Risk to the Lender March 17, 2026 | 12:00 PM ET | CDIA Webinar (60 min)... The post New Webinar Alert! appeared first on CDIA ."
     }
   ]
 }

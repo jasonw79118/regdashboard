@@ -54,7 +54,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "IRS": 70,
     "USDA Rural Development": 55,
     "Mastercard": 120,
-    "Visa": 0,
+    "Visa": 160,
     "FHLB MPF": 25,
     "Fannie Mae": 35,
     "Freddie Mac": 10,
@@ -84,8 +84,8 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "Bankers Online": 25,
 }
 
-# Sources we already get enough signal from listing pages; skip detail fetch to avoid timeouts
-SKIP_DETAIL_SOURCES = {"Visa"}
+# Sources where we keep listing links but DO NOT fetch detail pages (to avoid blocks/timeouts)
+SKIP_DETAIL_SOURCES = {"Visa", "Fannie Mae"}
 DEFAULT_SOURCE_DETAIL_CAP = 15
 
 UA = "regdashboard/4.2 (+https://github.com/jasonw79118/regdashboard)"
@@ -268,6 +268,12 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
             "/news-release/",
             "/en/news-release/",
         },
+"Fannie Mae": {
+    # Keep the scraper focused on the Newsroom article URLs (avoid SingleFamily/Multifamily/Capital Markets subdomains)
+    "allow_domains": {"www.fanniemae.com"},
+    "allow_path_prefixes": {"/newsroom/"},
+},
+
     },
 
     "USDA Rural Development": {
@@ -2439,6 +2445,80 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
     return links
 
 
+
+# ============================
+# Fannie Mae (Newsroom)
+# ============================
+
+def fanniemae_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """
+    Fannie Mae's Newsroom pages often use CTA anchors like "Learn more".
+    This extractor promotes the surrounding card/headline text to the title,
+    and pulls dates from nearby text so we don't need to fetch detail pages.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    for a in container.select("a[href]"):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("Fannie Mae", url):
+            continue
+
+        # Only keep actual Newsroom article URLs
+        if not path(url).startswith("/newsroom/"):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        if not raw_title:
+            raw_title = (a.get("aria-label") or "").strip() or (a.get("title") or "").strip()
+
+        wrapper = a.find_parent(["article", "li", "div", "section"]) or a.parent
+
+        # Promote a nearby headline when the anchor text is a CTA (common on Fannie Mae)
+        tl = (raw_title or "").strip().lower()
+        if tl in {"read more", "learn more", "more", "details"} or len(raw_title.strip()) < 8:
+            promoted = ""
+            if wrapper:
+                h = wrapper.find(["h1", "h2", "h3", "h4"])
+                if h:
+                    promoted = (h.get_text(" ", strip=True) or "").strip()
+            if promoted:
+                raw_title = promoted
+
+        title = clean_text(raw_title, 220)
+        if not title or len(title) < 8:
+            continue
+
+        if is_probably_nav_link("Fannie Mae", title, url):
+            continue
+        if is_generic_listing_or_home("Fannie Mae", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = find_time_near_anchor(a, "Fannie Mae")
+        if dt is None and wrapper:
+            dt = extract_any_date(clean_text(wrapper.get_text(" ", strip=True), 1000), source="Fannie Mae")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
 # ============================
 # MAIN CONTENT LINK ROUTER
 # ============================
@@ -2460,6 +2540,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
+    if source == "Fannie Mae":
+        return fanniemae_links(page_url, html)
 
     # ✅ NEW vendor-specific extractors (fixes your missing pulls)
     if source == "Jack Henry":
@@ -2580,8 +2662,7 @@ def get_start_pages() -> List[SourcePage]:
 
         # Mortgage / housing GSEs
         SourcePage("FHLB MPF", "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"),
-        SourcePage("Fannie Mae", "https://www.fanniemae.com/rss/rss.xml"),
-        SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom/fannie-mae-news"),
+        SourcePage("Fannie Mae", "https://www.fanniemae.com/newsroom"),
         SourcePage("Freddie Mac", "https://www.globenewswire.com/search/organization/Freddie%20Mac"),
 
         # Legislative / exec
@@ -2935,7 +3016,7 @@ def build() -> None:
                 snippet = ""
 
                 # If Visa has a date but outside window, let detail override
-                if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0 and source not in SKIP_DETAIL_SOURCES:
+                if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
                         if detail_html:
@@ -2950,7 +3031,7 @@ def build() -> None:
                                 snippet = snippet2
 
                 # If we still don't have a date, use detail page (bounded by caps)
-                if dt is None and src_cap > 0 and source not in SKIP_DETAIL_SOURCES:
+                if dt is None and src_cap > 0 and (source not in SKIP_DETAIL_SOURCES or source == "Visa"):
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
                         continue
                     if src_used >= src_cap:

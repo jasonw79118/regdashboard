@@ -1,7 +1,27 @@
 # RegDashboard — Export
 
-Window: `2026-02-09T14:04:49Z` → `2026-02-23T14:04:49Z` (UTC)
-Last updated: `2026-02-23T08:04:49-06:00` (CT) — `2026-02-23T14:04:49Z` (UTC)
+Window: `2026-02-09T15:30:13Z` → `2026-02-23T15:30:13Z` (UTC)
+Last updated: `2026-02-23T09:30:13-06:00` (CT) — `2026-02-23T15:30:13Z` (UTC)
+
+## When identity isn’t the weak link, access still is
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-23T15:00:10Z
+- URL: https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/
+
+Stolen tokens and compromised devices let attackers reuse trust without breaking authentication. Specops Software explains why identity alone isn't enough and how continuous device verification strengthens Zero Trust. [...]
+
+## Education
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-23T14:20:03Z
+- URL: https://www.nacha.org/taxonomy/term/345
+
+## Blog
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-23T14:20:03Z
+- URL: https://www.nacha.org/taxonomy/term/41
 
 ## CISA: Recently patched RoundCube flaws now exploited in attacks
 - Source: BleepingComputer
@@ -10,6 +30,18 @@ Last updated: `2026-02-23T08:04:49-06:00` (CT) — `2026-02-23T14:04:49Z` (UTC)
 - URL: https://www.bleepingcomputer.com/news/security/cisa-recently-patched-roundcube-flaws-now-exploited-in-attacks/
 
 CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in attacks and ordered U.S. federal agencies to patch them within three weeks. [...]
+
+## See all news
+- Source: Fannie Mae
+- Category: Mortgage
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.fanniemae.com/newsroom/fannie-mae-news
+
+## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
 
 ## FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 - Source: FIS
@@ -2830,14 +2862,6 @@ Federal Reserve Board announces it will hold a hybrid public outreach meeting on
 - URL: https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/
 
 A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]
-
-## Google blocked over 1.75 million Play Store app submissions in 2025
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-19T17:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/
-
-Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Play due to policy violations. [...]
 
 ## CVE-2026-21535 Microsoft Teams Information Disclosure Vulnerability
 - Source: Microsoft MSRC
@@ -16111,14 +16135,6 @@ The Office of the Comptroller of the Currency (OCC) today requested comment on a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html
 
-## Data and Insights
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.fanniemae.com/data-and-insights
-
-Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
-
 ## ### Cloudflare and Mastercard partner to extend comprehensive cyber defense across critical infrastructure and small businesses February 17, 2026
 - Source: Mastercard
 - Category: Payment Card Networks
@@ -17501,12 +17517,6 @@ Pursuant to sections 14(b) (1) and 9(c) of the Federal Advisory Act (Pub. L. 92-
 - Published: 2026-02-11T17:23:18Z
 - URL: https://www.nacha.org/taxonomy/term/362
 
-## Blog
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-11T13:46:30Z
-- URL: https://www.nacha.org/taxonomy/term/41
-
 ## Metro 2® Format Fundamentals Webinar Series April 14–16, 2026
 - Source: CDIA
 - Category: Compliance Watch
@@ -17530,28 +17540,6 @@ Acknowledgement added. This is an informational change only.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
 
 Changes made to the security updates links and information. This is an informational change only.
-
-## Fannie Mae Reports Net Income of $3.5 Billion for Fourth Quarter 2025 and $14.4 Billion for Full-Year 2025
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results
-
-Fannie Mae reported its fourth quarter and full-year 2025 financial results and filed its 2025 Form 10-K with the Securities and Exchange Commission.
-
-## Fannie Mae Fourth Quarter and Full-Year 2025 Financial Results Webcast
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fourth-quarter-full-year-2025-financial-results-webcast
-
-Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C.
-
-## Fannie Mae Plans to Report Fourth Quarter and Full-Year 2025 Financial Results on February 11, 2026
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-fourth-quarter-full-year-2025-financial-results
 
 ## How the Industry Is Adapting to Nacha’s New Risk Management Rules
 - Source: NACHA
@@ -18226,11 +18214,3 @@ This proposed rule would implement a recommendation from the Idaho-Eastern Orego
 - URL: https://www.federalregister.gov/documents/2026/02/10/2026-02545/information-collections-being-reviewed-by-the-federal-communications-commission
 
 As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act of 1995 (PRA), the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of…
-
-## New Webinar Alert!
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-02-09T15:05:47Z
-- URL: https://www.cdiaonline.org/events/2026/02/09/new-webinar-alert/
-
-Liability Reform & Competition and Impact on Risk to the Lender March 17, 2026 | 12:00 PM ET | CDIA Webinar (60 min)... The post New Webinar Alert! appeared first on CDIA .
