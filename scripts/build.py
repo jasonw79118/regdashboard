@@ -197,8 +197,7 @@ RAW_FEDREG_FILTERS: List[Dict[str, str]] = [
     {"kind": "topics", "value": "mortgage-insurance"},
     {"kind": "topics", "value": "personally-identifiable-information"},
     {"kind": "topics", "value": "savings-associations"},
-    {"kind": "topics", "value": "small-business"},
-    {"kind": "topics", "value": "trust-and-trustees"},
+        {"kind": "topics", "value": "trust-and-trustees"},
 ]
 
 
