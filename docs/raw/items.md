@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-09T16:29:14Z` → `2026-02-23T16:29:14Z` (UTC)
-Last updated: `2026-02-23T10:29:14-06:00` (CT) — `2026-02-23T16:29:14Z` (UTC)
+Window: `2026-02-09T17:35:16Z` → `2026-02-23T17:35:16Z` (UTC)
+Last updated: `2026-02-23T11:35:16-06:00` (CT) — `2026-02-23T17:35:16Z` (UTC)
 
 ## National Angel Family Day, 2026
 - Source: White House
@@ -45,6 +45,24 @@ CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in atta
 
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
 
+## Warren in Fox News: Trump’s Broken Promise on Credit Cards
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-in-fox-news-trumps-broken-promise-on-credit-cards
+
+## Warren Response to Trump Press Conference on Chaotic Tariffs
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-response-to-trump-press-conference-on-chaotic-tariffs
+
+## Warren Statement on Supreme Court Trump Tariffs Ruling
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling
+
 ## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
 - Source: NACHA
 - Category: Payments
@@ -68,30 +86,6 @@ Fannie Mae announced that it has commenced fixed-price cash tender offers for th
 - Category: Compliance Watch
 - Published: 2026-02-23T00:00:00Z
 - URL: https://www.cdiaonline.org/metro-2-webinars/
-
-## Jump to Content
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.aba.com/news-research
-
-Stay current on banking issues with daily news, podcasts, research, data analysis and publications, including our flagship ABA Banking Journal and a variety of email bulletins.
-
-## Risk Management
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.aba.com/banking-topics/risk-management
-
-Identify, monitor, measure and control for risk in your financial institution with these tools and resources from ABA.
-
-## Anti-Money Laundering
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.aba.com/banking-topics/risk-management/money-laundering
-
-ABA helps banks better identify and report money laundering and other illicit financial activity with information on new technologies and best practices.
 
 ## Form N-PORT Reporting
 - Source: Federal Register
@@ -2625,30 +2619,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-02-21T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-open-box-2-in-1-asus-chromebook-is-on-sale-for-150-and-includes-a-stylus/
 
-## Consumer Banking
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-21T00:00:00Z
-- URL: https://www.aba.com/banking-topics/consumer-banking
-
-Key areas of consideration for banking individual retail customers, including lending, privacy, financial inclusion and customer trends.
-
-## Consumer Lending
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-21T00:00:00Z
-- URL: https://www.aba.com/banking-topics/consumer-banking/consumer-lending
-
-Enhance your knowledge and understanding of consumer loans and issues that effect them.
-
-## Mortgage & Home Finance
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-21T00:00:00Z
-- URL: https://www.aba.com/banking-topics/consumer-banking/mortgage-home-finance
-
-There are many paths to owning a home, and banks are prepared to help customers safely navigate whichever path they choose. At the same time, regulatory challenges can sometimes restrain banks from meeting their customers' needs.
-
 ## President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth
 - Source: White House
 - Category: Executive
@@ -2795,24 +2765,6 @@ A Ukrainian national was sentenced to five years in prison for providing North K
 
 IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
 
-## Warren Response to Trump Press Conference on Chaotic Tariffs
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-response-to-trump-press-conference-on-chaotic-tariffs
-
-## Warren Statement on Supreme Court Trump Tariffs Ruling
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling
-
-## Warren Presses Treasury Secretary Bessent and Fed Chair Powell to Rule Out Taxpayer-Funded Bailout for Cryptocurrency Billionaires
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-treasury-secretary-bessent-and-fed-chair-powell-to-rule-out-taxpayer-funded-bailout-for-cryptocurrency-billionaires
-
 ## Learn ethical hacking with this hands-on hacking course deal for $28
 - Source: BleepingComputer
 - Category: IS
@@ -2824,22 +2776,6 @@ IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Re
 - Category: IS
 - Published: 2026-02-20T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/learn-a-language-with-structure-not-guesswork-in-this-babbel-deal/
-
-## Physical Security
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.aba.com/banking-topics/risk-management/physical-security
-
-Know how to identify physical threats and the various resources available to you in order to help you protect your customers and your employees.
-
-## Inclusive Banking
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.aba.com/banking-topics/consumer-banking/inclusive-banking
-
-Leading resources and information to support banks in meeting the needs of their entire communities and furthering financial inclusion.
 
 ## Privacy Act of 1974; System of Records
 - Source: Federal Register
@@ -2968,14 +2904,6 @@ Corrected the CVE description and title. This is an informational change only.
 - Category: OFAC
 - Published: 2026-02-19T14:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0398
-
-## Wolters Kluwer introduces Legisway Advisor powered by Expert AI to accelerate contract review and drafting
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-19T10:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-introduces-legisway-advisor
-
-Wolters Kluwer Legal & Regulatory today announced the launch of Legisway Advisor, a new contract redrafting capability powered by Expert AI.
 
 ## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
 - Source: Microsoft MSRC
@@ -11459,14 +11387,6 @@ Information published.
 
 Information published.
 
-## Wolters Kluwer launches Libra legal AI workspace in Italy and continues pan-European expansion
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-18T10:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-libra-legal-ai-workspace-in-italy-and-continues-pan-european-expansion
-
-Wolters Kluwer Legal & Regulatory today announced the launch of the Libra by Wolters Kluwer legal AI workspace (“Libra”) in Italy.
-
 ## CVE-2025-38068 crypto: lzo - Fix compression buffer overrun
 - Source: Microsoft MSRC
 - Category: IS
@@ -16203,14 +16123,6 @@ Under specific conditions, a malicious webpage may trigger autofill population a
 
 Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
 
-## Wolters Kluwer to host law scholar Gary Born for webinar on international law in American courts
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-17T15:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-law-scholar-gary-born
-
-Wolters Kluwer’s Legal & Regulatory U.S. business is pleased to announce a new webinar featuring Gary Born, one of the world’s foremost authorities on international law and international dispute resolution.
-
 ## President George Washington’s Birthday, 2026
 - Source: White House
 - Category: Executive
@@ -17235,14 +17147,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-02-17T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
 
-## Incident Response
-- Source: ABA
-- Category: Compliance Watch
-- Published: 2026-02-17T00:00:00Z
-- URL: https://www.aba.com/banking-topics/risk-management/incident-response
-
-Resources to help you prepare for and respond to a physical or cyber incident.
-
 ## Agency Information Collection Activities: Proposed Collection Renewal; Comment Request
 - Source: Federal Register
 - Category: Federal Register
@@ -17347,14 +17251,6 @@ This document amends the Table of TV Allotments (table) of the Federal Communica
 
 In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is partially modifying an existing system of records maintained by the Office for Civil Rights (OCR), "Program Information Management System (PIMS)," System No. 09- 90-0052. The modifications include changing the system of records name to "HHS Civil Rights and Health Infor…
 
-## When sustainability becomes strategy: inside the rise of data-driven climate leadership
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award
-
-Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award.
-
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -17377,6 +17273,30 @@ Download links fixed
 - Published: 2026-02-13T12:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0394
 
+## FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams
+- Source: FinCEN
+- Category: OFAC
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026
+
+In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams.
+
+## FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
+- Source: FinCEN
+- Category: OFAC
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions
+
+The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations.
+
+## FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements
+- Source: FinCEN
+- Category: OFAC
+- Published: 2026-02-13T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements
+
+Relief Reduces Burdensome and Duplicative Regulatory Requirement
+
 ## Issuance of Venezuela-related General Licenses
 - Source: OFAC
 - Category: OFAC
@@ -17390,14 +17310,6 @@ Download links fixed
 - URL: https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help
 
 IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
-
-## Wolters Kluwer unveils plans for Medi-Span Expert AI to advance Medication Intelligence for digital health
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health
-
-Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data.
 
 ## 60-Day Notice of Proposed Information Collection: Housing Choice Voucher Program and Tribal HUD-VASH
 - Source: Federal Register
@@ -17696,14 +17608,6 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 - Category: Payments
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules
-
-## Wolters Kluwer analysis shows insurance-related activity driving surge in subpoena volumes
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-analysis-shows-insurance-related-activity-driving-surge-in-subpoena-volumes
-
-A new analysis from Wolters Kluwer Financial & Corporate Compliance finds the growth of U.S. subpoena volumes continuing to accelerate year-over-year, reaching a total of 498,000 in 2025.
 
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
@@ -18290,6 +18194,12 @@ Added Affected Software for Windows packages
 - Category: OFAC
 - Published: 2026-02-10T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260210
+
+## FinCEN Combats Financial Support to the Sinaloa Cartel by Finding Transactions Involving 10 Mexico-based Gambling Establishments to be of Primary Money Laundering Concern
+- Source: FinCEN
+- Category: OFAC
+- Published: 2026-02-10T00:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-combats-financial-support-sinaloa-cartel-finding-transactions-involving
 
 ## Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results
 - Source: Freddie Mac
