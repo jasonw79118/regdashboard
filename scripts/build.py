@@ -1656,6 +1656,86 @@ def ofac_date_from_url(url: str) -> Optional[datetime]:
         return None
 
 
+
+# ============================
+# ARTICLE DATE (separate from "window/update" date)
+# ============================
+
+_MONTHS = {
+    "jan": 1, "january": 1,
+    "feb": 2, "february": 2,
+    "mar": 3, "march": 3,
+    "apr": 4, "april": 4,
+    "may": 5,
+    "jun": 6, "june": 6,
+    "jul": 7, "july": 7,
+    "aug": 8, "august": 8,
+    "sep": 9, "sept": 9, "september": 9,
+    "oct": 10, "october": 10,
+    "nov": 11, "november": 11,
+    "dec": 12, "december": 12,
+}
+
+_TITLE_MONTH_YEAR_RE = re.compile(
+    r"\b(?P<month>Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t)?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s*,?\s*(?P<year>20\d{2})\b",
+    flags=re.I,
+)
+
+# Mastercard press URLs have /press/YYYY/<month>/...
+_MASTERCARD_URL_RE = re.compile(r"/press/(?P<year>20\d{2})/(?P<month>[a-z]+)/", flags=re.I)
+
+
+def infer_article_date(source: str, title: str, url: str) -> Optional[datetime]:
+    """Best-effort *article* publication date.
+
+    This is intentionally separate from `published_at`, which drives the rolling window and
+    may reflect the time we observed/updated the listing for certain sources.
+
+    Return a UTC datetime (midnight) when we can infer one; otherwise None.
+    """
+    src = (source or "").strip()
+    t = (title or "").strip()
+    u = (url or "").strip()
+
+    # 1) Known URL patterns (most reliable)
+    try:
+        if src.lower() == "mastercard":
+            m = _MASTERCARD_URL_RE.search(urlparse(u).path)
+            if m:
+                year = int(m.group("year"))
+                month = _MONTHS.get(m.group("month").lower())
+                if month:
+                    return datetime(year, month, 1, tzinfo=timezone.utc)
+    except Exception:
+        pass
+
+    # 2) Month + Year appears in title (e.g., "… June, 2024")
+    try:
+        m2 = _TITLE_MONTH_YEAR_RE.search(t)
+        if m2:
+            year = int(m2.group("year"))
+            month = _MONTHS.get(m2.group("month").lower())
+            if month:
+                return datetime(year, month, 1, tzinfo=timezone.utc)
+    except Exception:
+        pass
+
+    # 3) Generic YYYY/MM/DD in URL path
+    try:
+        pm = re.search(r"/(?P<y>20\d{2})/(?P<m>\d{1,2})/(?P<d>\d{1,2})/", urlparse(u).path)
+        if pm:
+            y = int(pm.group("y"))
+            mo = int(pm.group("m"))
+            d = int(pm.group("d"))
+            if 1 <= mo <= 12 and 1 <= d <= 31:
+                return datetime(y, mo, d, tzinfo=timezone.utc)
+    except Exception:
+        pass
+
+    return None
+
+
+
 def ofac_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -2771,6 +2851,7 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
         title = escape(str(it.get("title", "")))
         url = escape(str(it.get("url", "")))
         pub = escape(str(it.get("published_at", "")))
+        art = escape(str(it.get("article_date", "")))
         summary = escape(str(it.get("summary", "") or ""))
 
         parts.append(
@@ -2780,7 +2861,8 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
                     '  <div class="meta">',
                     f'    <span class="src">[{src}]</span>',
                     (f'    <span class="cat">{cat}</span>' if cat else ""),
-                    f'    <span class="pub">{pub}</span>',
+                    (f'    <span class="art">Article: {art}</span>' if art else ''),
+                    f'    <span class="pub">Updated: {pub}</span>',
                     "  </div>",
                     f'  <h2 class="title"><a href="{url}">{title}</a></h2>',
                     (f'  <p class="sum">{summary}</p>' if summary else ""),
@@ -2853,13 +2935,15 @@ def render_raw_md(payload: Dict[str, Any]) -> str:
         source = (it.get("source") or "").strip()
         category = (it.get("category") or "").strip()
         pub = (it.get("published_at") or "").strip()
+        art = (it.get("article_date") or "").strip()
         url = (it.get("url") or "").strip()
         summary = (it.get("summary") or "").strip()
 
         lines.append(f"## {title}")
         lines.append(f"- Source: {source}")
         lines.append(f"- Category: {category}")
-        lines.append(f"- Published: {pub}")
+        lines.append(f"- Article date: {art}")
+        lines.append(f"- Updated: {pub}")
         lines.append(f"- URL: {url}")
         if summary:
             lines.append("")
@@ -2875,7 +2959,8 @@ def render_raw_txt(payload: Dict[str, Any]) -> str:
     for it in items:
         out.append(str(it.get("category", "")).strip())
         out.append(str(it.get("source", "")).strip())
-        out.append(str(it.get("published_at", "")).strip())
+        out.append(f"Article date: {str(it.get("article_date", "")).strip()}")
+        out.append(f"Updated: {str(it.get("published_at", "")).strip()}")
         out.append(str(it.get("title", "")).strip())
         out.append(str(it.get("url", "")).strip())
         summary = str(it.get("summary", "") or "").strip()
@@ -2919,6 +3004,8 @@ def render_print_html(payload: Dict[str, Any]) -> str:
         cat = escape(str(it.get("category", "")).strip())
         src = escape(str(it.get("source", "")).strip())
         pub = escape(str(it.get("published_at", "")).strip())
+        art = escape(str(it.get("article_date", "")).strip())
+        art = escape(str(it.get("article_date", "")).strip())
         title = escape(str(it.get("title", "")).strip())
         url = str(it.get("url", "")).strip()
         url_esc = escape(url)
@@ -2927,7 +3014,8 @@ def render_print_html(payload: Dict[str, Any]) -> str:
         parts.append("<article>")
         parts.append(f"<div><span class='k'>Category</span><span class='v'>{cat}</span></div>")
         parts.append(f"<div><span class='k'>Source</span><span class='v'>{src}</span></div>")
-        parts.append(f"<div><span class='k'>Published</span><span class='v'>{pub}</span></div>")
+        parts.append(f"<div><span class='k'>Article date</span><span class='v'>{art}</span></div>")
+        parts.append(f"<div><span class='k'>Updated</span><span class='v'>{pub}</span></div>")
         parts.append(f"<div><span class='k'>Title</span><span class='v'><a href='{url_esc}'>{title}</a></span></div>")
         parts.append(f"<div><span class='k'>URL</span><span class='v'>{url_esc}</span></div>")
         if summary:
@@ -3140,6 +3228,31 @@ def build() -> None:
     items = list(dedup.values())
     items.sort(key=lambda x: x["published_at"], reverse=True)
 
+    # Add a separate "article_date" field for Copilot/static exports.
+    # This helps distinguish the true publication date from the rolling-window/update timestamp.
+    for it in items:
+        if it.get("article_date"):
+            continue
+        src = str(it.get("source", "") or "").strip()
+        title = str(it.get("title", "") or "").strip()
+        url = str(it.get("url", "") or "").strip()
+
+        art_dt = infer_article_date(src, title, url)
+
+        # If we can infer an article date and it differs meaningfully from the rolling-window date,
+        # use it; otherwise fall back to the existing published_at.
+        pub_dt = parse_date(str(it.get("published_at", "") or "").strip())
+        if art_dt and pub_dt:
+            if abs((pub_dt - art_dt).days) > 60:
+                it["article_date"] = iso_z(art_dt)
+            else:
+                it["article_date"] = iso_z(pub_dt)
+        elif art_dt:
+            it["article_date"] = iso_z(art_dt)
+        elif pub_dt:
+            it["article_date"] = iso_z(pub_dt)
+        else:
+            it["article_date"] = ""
     payload = {
         "window_start": iso_z(window_start),
         "window_end": iso_z(window_end),
