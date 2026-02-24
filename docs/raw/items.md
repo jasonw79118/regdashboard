@@ -1,7 +1,333 @@
 # RegDashboard — Export
 
-Window: `2026-02-09T19:08:52Z` → `2026-02-23T19:08:52Z` (UTC)
-Last updated: `2026-02-23T13:08:52-06:00` (CT) — `2026-02-23T19:08:52Z` (UTC)
+Window: `2026-02-10T15:02:36Z` → `2026-02-24T15:02:36Z` (UTC)
+Last updated: `2026-02-24T09:02:36-06:00` (CT) — `2026-02-24T15:02:36Z` (UTC)
+
+## Identity-First AI Security: Why CISOs Must Add Intent to the Equation
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T15:02:12Z
+- URL: https://www.bleepingcomputer.com/news/security/identity-first-ai-security-why-cisos-must-add-intent-to-the-equation/
+
+AI agents now provision infrastructure and approve actions, but many inherit over-scoped privileges without proper governance. Token Security explains why CISOs must treat agents as identities and add intent-based controls so access is granted only when purpose and context align. [...]
+
+## UK fines Reddit $19 million for using children’s data unlawfully
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T14:54:24Z
+- URL: https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/
+
+The UK Information Commissioner's Office (ICO) has fined Reddit £14.47 million (over $19.5 million) for collecting and using the personal information of children under 13 without adequate safeguards. [...]
+
+## Critical SolarWinds Serv-U flaws offer root access to servers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T13:00:45Z
+- URL: https://www.bleepingcomputer.com/news/security/critical-solarwinds-serv-u-flaws-offer-root-access-to-servers/
+
+SolarWinds has patched four critical Serv-U remote code execution vulnerabilities that could grant attackers root access to unpatched servers. [...]
+
+## Finastra teams up with CargoX to further adoption of digital-at-source electronic trade documentation
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-02-24T12:00:00Z
+- URL: https://www.finastra.com/press-media/finastra-teams-cargox-further-adoption-digital-source-electronic-trade-documentation
+
+## ShinyHunters extortion gang claims Odido breach affecting millions
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T11:40:20Z
+- URL: https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/
+
+The ShinyHunters extortion gang has claimed responsibility for breaching Dutch telecommunications provider Odido and stealing millions of user records from its compromised systems. [...]
+
+## North Korean Lazarus group linked to Medusa ransomware attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T11:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/
+
+North Korean state-backed hackers associated with the Lazarus threat group are targeting U.S. healthcare organizations in extortion attacks using the Medusa ransomware. [...]
+
+## FDIC-Insured Institutions Reported Return on Assets of 1.24 Percent and Net Income of $77.7 Billion in Fourth Quarter 2025
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net
+
+The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025.
+
+## FDIC Releases Economic Scenarios for 2026 Stress Testing
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing
+
+WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere
+
+## FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-extends-comment-period-proposal-establish-genius-act-application
+
+The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi
+
+## FDIC Issues List of Banks Examined for CRA Compliance
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-0
+
+The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA).
+
+## First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/first-independence-bank-detroit-michigan-assumes-all-deposits-metropolitan
+
+First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois
+
+## FDIC Publishes December Enforcement Actions
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-publishes-december-enforcement-actions
+
+The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025.
+
+## FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-applications-ford-credit-bank-salt-lake
+
+The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM
+
+## FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-final-rule-amend-official-signs-and-advertising
+
+The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage.
+
+## FDIC Board of Directors Establishes Office of Supervisory Appeals
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-establishes-office-supervisory-appeals
+
+The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations.
+
+## Travis Hill Sworn in as the 23rd Chairman of the FDIC
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/travis-hill-sworn-23rd-chairman-fdic
+
+Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC).
+
+## Agencies Issue 2025 Shared National Credit Program Report
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/agencies-issue-2025-shared-national-credit-program-report
+
+Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans
+
+## FDIC Issues List of Banks Examined for CRA Compliance
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance
+
+The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA).
+
+## Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2025/agencies-release-annual-asset-size-thresholds-under-community-reinvestment
+
+The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds.
+
+## FDIC Publishes November Enforcement Actions
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2025/fdic-publishes-november-enforcement-actions
+
+The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025.
+
+## FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2025/fdic-approves-deposit-insurance-application-erebor-bank-na-columbus-ohio
+
+The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered..
+
+## FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-approves-final-rule-establishment-and-relocation
+
+The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices.
+
+## FDIC Board Approves 2026 Operating Budget
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2025/fdic-board-approves-2026-operating-budget
+
+The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions.
+
+## FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-issues-interim-final-rule-amend-collection-special
+
+The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu
+
+## FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2025/fdic-approves-proposal-establish-genius-act-application-procedures-fdic
+
+The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act.
+
+## Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged
+
+The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan
+
+## ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
+
+## Senate Democrats Introduce The American Homeownership Act To Stop Wall Street’s Housing Grab and Get Homes Back into the Hands of Families
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/senate-democrats-introduce-the-american-homeownership-act-to-stop-wall-streets-housing-grab-and-get-homes-back-into-the-hands-of-families
+
+## Warren in Fox News: Trump’s Broken Promise on Credit Cards
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-in-fox-news-trumps-broken-promise-on-credit-cards
+
+## FIS Reports Full-Year 2025 Results and Introduces 2026 Outlook
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-reports-full-year-2025-results-and-introduces-2026-outlook
+
+## FIS to Report Fourth Quarter Earnings on February 24, 2026
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026
+
+## A lifetime license for the AcePDF editor is now only $25
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/dresner-application-innovation-awards
+
+CCH Tagetik Powered by Expert AI has once again been recognized as a top innovator, earning multiple honors in the 2025 Dresner Advisory Services Application Innovation Awards.
+
+## Agency Information Collection Activities: Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/24/2026-03623/agency-information-collection-activities-comment-request
+
+In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled "Disclosure Requirements for Depository Institutions Lacking Federal Deposit Insurance (Regulation I)" approved under OMB Control Number 3170-0062.
+
+## Agency Information Collection Activities: Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/24/2026-03622/agency-information-collection-activities-comment-request
+
+In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled "Home Mortgage Disclosure Act (Regulation C)" approved under OMB Control Number 3170-0008.
+
+## Agency Information Collection Activities: Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/24/2026-03621/agency-information-collection-activities-comment-request
+
+In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled "Registration of Mortgage Loan Originators (Regulation G)" approved under OMB Control Number 3170- 0005.
+
+## Agency Information Collection Activities: Comment Request
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/24/2026-03620/agency-information-collection-activities-comment-request
+
+In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled "Truth in Savings (Regulation DD)" approved under OMB Control Number 3170-0004.
+
+## Android mental health apps with 14.7M installs filled with security flaws
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-23T22:59:04Z
+- URL: https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/
+
+Several mental health mobile apps with millions of downloads on Google Play contain security vulnerabilities that could expose users' sensitive medical information. [...]
+
+## America 250: Presidential Message on the Anniversary of the Battle of the Alamo
+- Source: White House
+- Category: Executive
+- Published: 2026-02-23T22:13:24Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/02/america-250-presidential-message-on-the-anniversary-of-the-battle-of-the-alamo/
+
+## Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal
+- Source: FRB
+- Category: Banking
+- Published: 2026-02-23T22:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260223a.htm
+
+Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal
+
+## Spain arrests suspected hacktivists for DDoSing govt sites
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-23T21:59:42Z
+- URL: https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/
+
+Spanish authorities have arrested four alleged members of a hacktivist group believed to have carried out cyberattacks targeting government ministries, political parties, and various public institutions. [...]
+
+## President Trump Honors Angel Families, Remembers American Lives Lost to Illegal Immigration
+- Source: White House
+- Category: Executive
+- Published: 2026-02-23T20:43:19Z
+- URL: https://www.whitehouse.gov/articles/2026/02/president-trump-honors-angel-families-remembers-american-lives-lost-to-illegal-immigration/
+
+## Microsoft says bug in classic Outlook hides the mouse pointer
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-23T19:40:42Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/
+
+Microsoft is investigating a known issue that causes the mouse pointer to disappear in the classic Outlook desktop email client for some users. [...]
 
 ## Ad tech firm Optimizely confirms data breach after vishing attack
 - Source: BleepingComputer
@@ -52,24 +378,6 @@ CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in atta
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
-
-## Warren in Fox News: Trump’s Broken Promise on Credit Cards
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-in-fox-news-trumps-broken-promise-on-credit-cards
-
-## Warren Response to Trump Press Conference on Chaotic Tariffs
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-response-to-trump-press-conference-on-chaotic-tariffs
-
-## Warren Statement on Supreme Court Trump Tariffs Ruling
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling
 
 ## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
 - Source: NACHA
@@ -2581,14 +2889,6 @@ Advantest Corporation disclosed that its corporate network has been targeted in 
 - Published: 2026-02-20T18:01:09Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trump-champions-u-s-fashion-leadership/
 
-## CISA: BeyondTrust RCE flaw now exploited in ransomware attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-20T17:02:25Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/
-
-Hackers are actively exploiting the CVE-2026-1731 vulnerability in the BeyondTrust Remote Support product, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) warns. [...]
-
 ## New Research Reinforces Tri-Merge as the Golden Standard
 - Source: CDIA
 - Category: Compliance Watch
@@ -2596,14 +2896,6 @@ Hackers are actively exploiting the CVE-2026-1731 vulnerability in the BeyondTru
 - URL: https://www.cdiaonline.org/news/2026/02/20/new-research-reinforces-tri-merge-as-the-golden-standard/
 
 New research from Andrew Davidson & Co., Inc. reinforces what we’ve long maintained: moving away from the tri-merge credit report in mortgage underwriting... The post New Research Reinforces Tri-Merge as the Golden Standard appeared first on CDIA .
-
-## Data breach at French bank registry impacts 1.2 million accounts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-20T16:20:40Z
-- URL: https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/
-
-The French Ministry of Finance has published an announcement informing of a cybersecurity incident that has impacted 1.2 million accounts. [...]
 
 ## FATF Holds Plenary in Mexico, Advances Key Illicit Finance Initiatives
 - Source: Treasury
@@ -2641,58 +2933,6 @@ Updated CWE value. This is an informational change only.
 - Published: 2026-02-20T15:21:44Z
 - URL: https://www.whitehouse.gov/articles/2026/02/36480/
 
-## Why the shift left dream has become a nightmare for security and developers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-20T14:45:54Z
-- URL: https://www.bleepingcomputer.com/news/security/why-the-shift-left-dream-has-become-a-nightmare-for-security-and-developers/
-
-The "shift left" approach has increased pressure on developers, as speed demands override security checks in modern CI pipelines. Qualys explains how analyzing 34,000 public container images revealed 7.3% were malicious and why security must be enforced at the infrastructure layer by default. [...]
-
-## PayPal discloses data breach that exposed user info for 6 months
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-20T13:12:01Z
-- URL: https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/
-
-PayPal is notifying customers of a data breach after a software error in a loan application exposed their sensitive personal information, including Social Security numbers, for nearly 6 months last year. [...]
-
-## Mississippi medical center closes all clinics after ransomware attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-20T11:50:14Z
-- URL: https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/
-
-The University of Mississippi Medical Center (UMMC) closed all its clinic locations statewide on Thursday following a ransomware attack. [...]
-
-## FBI: Over $20 million stolen in surge of ATM malware attacks in 2025
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-20T10:08:49Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-over-20-million-stolen-in-surge-of-atm-malware-attacks-in-2025/
-
-The FBI warned that Americans lost more than $20 million last year amid a massive surge in ATM "jackpotting" attacks, in which criminals use malware to force cash machines to dispense money. [...]
-
-## Ukrainian gets 5 years for helping North Koreans infiltrate US firms
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-20T09:00:15Z
-- URL: https://www.bleepingcomputer.com/news/security/ukrainian-gets-5-years-for-helping-north-koreans-infiltrate-us-firms/
-
-A Ukrainian national was sentenced to five years in prison for providing North Korean IT workers with stolen identities that helped them infiltrate U.S. companies. [...]
-
-## U.S. Promotes AI Adoption, Sovereignty, and Exports at India AI Impact Summit
-- Source: White House
-- Category: Executive
-- Published: 2026-02-20T06:09:24Z
-- URL: https://www.whitehouse.gov/articles/2026/02/u-s-promotes-ai-adoption-sovereignty-and-exports-at-india-ai-impact-summit/
-
-## Remarks by Director Michael Kratsios at the India AI Impact Summit
-- Source: White House
-- Category: Executive
-- Published: 2026-02-20T06:05:38Z
-- URL: https://www.whitehouse.gov/articles/2026/02/remarks-by-director-michael-kratsios-at-the-india-ai-impact-summit/
-
 ## Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill
 - Source: IRS
 - Category: IRS
@@ -2706,12 +2946,6 @@ IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Re
 - Category: IS
 - Published: 2026-02-20T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/learn-ethical-hacking-with-this-hands-on-hacking-course-deal-for-28/
-
-## Learn a language with structure, not guesswork in this Babbel deal
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/learn-a-language-with-structure-not-guesswork-in-this-babbel-deal/
 
 ## Privacy Act of 1974; System of Records
 - Source: Federal Register
@@ -2728,14 +2962,6 @@ In accordance with the Privacy Act of 1974, as amended, the Federal Deposit Insu
 - URL: https://www.federalregister.gov/documents/2026/02/20/2026-03405/housing-and-community-development-act-of-1980-verification-of-eligible-status
 
 Section 214 of the Housing and Community Development Act of 1980, as amended ("Section 214"), prohibits the Secretary of HUD from making financial assistance available to persons other than United States citizens or certain categories of eligible noncitizens in HUD's public and specified assisted housing programs. This proposed rule would revise HUD's Section 214 implementing…
-
-## PromptSpy is the first known Android malware to use generative AI at runtime
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-19T22:36:25Z
-- URL: https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/
-
-Researchers have discovered the first known Android malware to use generative AI in its execution flow, using Google's Gemini model to adapt its persistence across different devices. [...]
 
 ## Federal Reserve Board announces approval of application by Fulton Financial Corporation
 - Source: FRB
@@ -16845,14 +17071,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 
 The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0046; -0118; -0174; 0188 and -0202). The notices of proposed renewal for these information collections were pr…
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award
-
-Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award.
-
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -16912,14 +17130,6 @@ Relief Reduces Burdensome and Duplicative Regulatory Requirement
 - URL: https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help
 
 IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health
-
-Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data.
 
 ## 60-Day Notice of Proposed Information Collection: Housing Choice Voucher Program and Tribal HUD-VASH
 - Source: Federal Register
@@ -17093,14 +17303,6 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 - Published: 2026-02-11T00:00:00Z
 - URL: https://www.nacha.org/news/how-industry-adapting-nachas-new-risk-management-rules
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-11T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-analysis-shows-insurance-related-activity-driving-surge-in-subpoena-volumes
-
-A new analysis from Wolters Kluwer Financial & Corporate Compliance finds the growth of U.S. subpoena volumes continuing to accelerate year-over-year, reaching a total of 498,000 in 2025.
-
 ## Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements
 - Source: Federal Register
 - Category: Federal Register
@@ -17140,519 +17342,3 @@ The NCUA Board (Board) is proposing to amend its regulations governing the conve
 - URL: https://www.federalregister.gov/documents/2026/02/11/2026-02715/voluntary-consensus-standards-update-formaldehyde-emission-standards-for-composite-wood-products
 
 The Environmental Protection Agency (EPA) is proposing to update the incorporation by reference of several voluntary consensus standards in the Agency's formaldehyde standards for composite wood products regulations under the Toxic Substances Control Act (TSCA) due to the standards having been updated or superseded by the issuing organizations. These new standards primarily up…
-
-## Mexico among the leading countries in the application of AI to the financial sector, according to research by Finastra
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/mexico-among-leading-countries-application-ai-financial-sector-according-research
-
-## Finastra research reveals U.S. financial institutions outpace global peers in AI adoption and modernization investments
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/finastra-research-reveals-us-financial-institutions-outpace-global-peers-ai-adoption
-
-## AI tipping point reached in Saudi Arabia as banks move from experimentation to execution, finds Finastra research
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-saudi-arabia-banks-move-experimentation-execution-finds
-
-## AI tipping point reached in the UAE as banks move from experimentation to execution, finds Finastra research
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-uae-banks-move-experimentation-execution-finds-finastra
-
-## German financial institutions are rapidly embracing AI and modernization, Finastra research reveals
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/german-financial-institutions-are-rapidly-embracing-ai-and-modernization-finastra
-
-## 94% of French financial institutions use or plan to use AI and are now focusing on operational deployments, according to a Finastra study
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/94-french-financial-institutions-use-or-plan-use-ai-and-are-now-focusing-operational
-
-## AI tipping point reached as just 2% of financial institutions report no AI use, finds Finastra Research
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/ai-tipping-point-reached-just-2-financial-institutions-report-no-ai-use-finds-finastra
-
-## Finastra research finds AI adoption rising in Vietnam’s financial sector, but security and legacy systems limit scale
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/finastra-research-finds-ai-adoption-rising-vietnams-financial-sector-security-and
-
-## One in ten firms in Japan have yet to deploy AI as talent availability hinders scaling, finds Finastra Research
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-02-10T12:00:00Z
-- URL: https://www.finastra.com/press-media/one-ten-firms-japan-have-yet-deploy-ai-talent-availability-hinders-scaling-finds
-
-## The Future of Consumer Reporting starts at CDIA Connect- New Sessions Announced!
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-02-10T10:00:33Z
-- URL: https://www.cdiaonline.org/events/2026/02/10/the-future-of-consumer-reporting-starts-at-cdia-connect-new-sessions-announced/
-
-Day Two of #CDIAConnect is all about what’s next. As consumer reporting evolves beyond traditional credit files, new data sources—cash-flow insights,... The post The Future of Consumer Reporting starts at CDIA Connect- New Sessions Announced! appeared first on CDIA .
-
-## CVE-2026-21519 Desktop Window Manager Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21519
-
-Access of resource using incompatible type ('type confusion') in Desktop Window Manager allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21518 GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21518
-
-Improper neutralization of special elements used in a command ('command injection') in GitHub Copilot and Visual Studio Code allows an unauthorized attacker to bypass a security feature over a network.
-
-## CVE-2026-21512 Azure DevOps Server Cross-Site Scripting Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21512
-
-Server-side request forgery (ssrf) in Azure DevOps Server allows an authorized attacker to perform spoofing over a network.
-
-## CVE-2026-21259 Microsoft Excel Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21259
-
-Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to elevate privileges locally.
-
-## CVE-2026-21258 Microsoft Excel Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21258
-
-Improper input validation in Microsoft Office Excel allows an unauthorized attacker to disclose information locally.
-
-## CVE-2026-21260 Microsoft Outlook Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21260
-
-Exposure of sensitive information to an unauthorized actor in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-21248 Windows Hyper-V Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21248
-
-Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to execute code locally.
-
-## CVE-2026-21247 Windows Hyper-V Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21247
-
-Improper input validation in Windows Hyper-V allows an authorized attacker to execute code locally.
-
-## CVE-2026-21246 Windows Graphics Component Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21246
-
-Heap-based buffer overflow in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21242 Windows Subsystem for Linux Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21242
-
-Use after free in Windows Subsystem for Linux allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21235 Windows Graphics Component Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21235
-
-Use after free in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21234 Windows Connected Devices Platform Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21234
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Connected Devices Platform Service allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21236 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21236
-
-Heap-based buffer overflow in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21218 .NET Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21218
-
-Improper handling of missing special element in .NET allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-23655 Microsoft ACI Confidential Containers Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23655
-
-Cleartext storage of sensitive information in Azure Compute Gallery allows an authorized attacker to disclose information over a network.
-
-## CVE-2026-21523 GitHub Copilot and Visual Studio Code Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21523
-
-Time-of-check time-of-use (toctou) race condition in GitHub Copilot and Visual Studio allows an authorized attacker to execute code over a network.
-
-## CVE-2026-21229 Power BI Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21229
-
-Improper input validation in Power BI allows an authorized attacker to execute code over a network.
-
-## CVE-2026-21533 Windows Remote Desktop Services Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21533
-
-Improper privilege management in Windows Remote Desktop allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21513 MSHTML Framework Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21513
-
-Protection mechanism failure in MSHTML Framework allows an unauthorized attacker to bypass a security feature over a network.
-
-## CVE-2026-21522 Microsoft ACI Confidential Containers Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21522
-
-Improper neutralization of special elements used in a command ('command injection') in Azure Compute Gallery allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21527 Microsoft Exchange Server Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21527
-
-User interface (ui) misrepresentation of critical information in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-21531 Azure SDK for Python Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21531
-
-Deserialization of untrusted data in Azure SDK allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-21510 Windows Shell Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21510
-
-Protection mechanism failure in Windows Shell allows an unauthorized attacker to bypass a security feature over a network.
-
-## CVE-2026-21537 Microsoft Defender for Endpoint Linux Extension Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21537
-
-Improper control of generation of code ('code injection') in Microsoft Defender for Linux allows an unauthorized attacker to execute code over an adjacent network.
-
-## CVE-2026-21529 Azure HDInsight Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21529
-
-Improper neutralization of input during web page generation ('cross-site scripting') in Azure HDInsights allows an authorized attacker to perform spoofing over a network.
-
-## CVE-2026-21514 Microsoft Word Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21514
-
-Reliance on untrusted inputs in a security decision in Microsoft Office Word allows an unauthorized attacker to bypass a security feature locally.
-
-## CVE-2026-21525 Windows Remote Access Connection Manager Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21525
-
-Null pointer dereference in Windows Remote Access Connection Manager allows an unauthorized attacker to deny service locally.
-
-## CVE-2026-21516 GitHub Copilot for Jetbrains Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21516
-
-Improper neutralization of special elements used in a command ('command injection') in Github Copilot allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-21508 Windows Storage Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21508
-
-Improper authentication in Windows Storage allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21261 Microsoft Excel Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21261
-
-Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to disclose information locally.
-
-## CVE-2026-21257 GitHub Copilot and Visual Studio Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21257
-
-Improper neutralization of special elements used in a command ('command injection') in GitHub Copilot and Visual Studio allows an authorized attacker to elevate privileges over a network.
-
-## CVE-2026-21253 Mailslot File System Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21253
-
-Use after free in Mailslot File System allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21251 Cluster Client Failover (CCF) Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21251
-
-Use after free in Windows Cluster Client Failover allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21250 Windows HTTP.sys Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21250
-
-Untrusted pointer dereference in Windows HTTP.sys allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21249 Windows NTLM Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21249
-
-External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing locally.
-
-## CVE-2026-21244 Windows Hyper-V Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21244
-
-Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to execute code locally.
-
-## CVE-2026-21243 Windows Lightweight Directory Access Protocol (LDAP) Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21243
-
-Null pointer dereference in Windows LDAP - Lightweight Directory Access Protocol allows an unauthorized attacker to deny service over a network.
-
-## CVE-2026-21240 Windows HTTP.sys Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21240
-
-Time-of-check time-of-use (toctou) race condition in Windows HTTP.sys allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21241 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21241
-
-Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21239 Windows Kernel Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21239
-
-Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21238 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21238
-
-Improper access control in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21237 Windows Subsystem for Linux Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21237
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Subsystem for Linux allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21232 Windows HTTP.sys Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21232
-
-Untrusted pointer dereference in Windows HTTP.sys allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21231 Windows Kernel Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21231
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Kernel allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-21228 Azure Local Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21228
-
-Improper certificate validation in Azure Local allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-21222 Windows Kernel Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21222
-
-Insertion of sensitive information into log file in Windows Kernel allows an authorized attacker to disclose information locally.
-
-## CVE-2026-20846 GDI+ Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20846
-
-Buffer over-read in Windows GDI+ allows an unauthorized attacker to deny service over a network.
-
-## CVE-2023-2804 Red Hat, Inc. CVE-2023-2804: Heap Based Overflow libjpeg-turbo
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2804
-
-A heap‑based buffer overflow exists in libjpeg‑turbo’s h2v2_merged_upsample_internal() function when processing 12‑bit lossless JPEG images. An attacker could craft an image containing out‑of‑range 12‑bit samples that, when decompressed with merged upsampling enabled, may trigger a segmentation fault or buffer overflow, resulting in an application crash.
-
-## CVE-2026-21255 Windows Hyper-V Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21255
-
-**How could an attacker exploit this vulnerability?** Exploitation requires an attacker who already has local execution on a VBS‑enabled guest VM to run a specially crafted application or driver that abuses the hypervisor’s overlay handling to bypass VBS/VTL protections and compromise kernel integrity.
-
-## CVE-2026-21245 Windows Kernel Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21245
-
-Acknowledgement Updated
-
-## CVE-2024-30098 Windows Cryptographic Services Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30098
-
-DisableCapiOverrideForRSA registry key removal date has been updated to 2/9/2027.
-
-## CVE-2016-9535 MITRE CVE-2016-9535: LibTIFF Heap Buffer Overflow Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2016-9535
-
-Added Affected Software for Windows packages
-
-## CVE-2025-2884 Cert CC: CVE-2025-2884 Out-of-Bounds read vulnerability in TCG TPM2.0 reference implementation
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-10T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2884
-
-Added Affected Software for Windows packages
-
-## Accreditation
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-10T06:24:41Z
-- URL: https://www.nacha.org/taxonomy/term/346
-
-## Counter Terrorism Designations
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-10T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260210
-
-## Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-10T00:00:00Z
-- URL: https://www.globenewswire.com/news-release/2026/02/10/3235794/0/en/Freddie-Mac-Announces-Release-Date-for-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html
-
-## Inaugural National Nacha Accreditation Day Honors Nearly 6,000 Payments Professionals
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-10T00:00:00Z
-- URL: https://www.nacha.org/news/inaugural-national-nacha-accreditation-day-honors-nearly-6000-payments-professionals
-
-## Fiserv Reports Fourth Quarter and Full Year 2025 Results
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-02-10T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-fourth-quarter-and-full-year-2025-results

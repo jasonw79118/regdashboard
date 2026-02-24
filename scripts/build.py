@@ -2252,7 +2252,10 @@ def cdia_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dateti
 # ✅ NEW: Jack Henry listing extractor (table-based)
 # ============================
 
-JH_DETAIL_RE = re.compile(r"^/news-releases/news-release-details/", re.I)
+# Jack Henry IR has used BOTH URL families over time:
+#   /news-releases/news-release-details/<slug>
+#   /press-releases/press-release-details/<slug>
+JH_DETAIL_RE = re.compile(r"^/(?:news-releases/news-release-details|press-releases/press-release-details)/", re.I)
 
 def jackhenry_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     soup = BeautifulSoup(html, "html.parser")
@@ -2266,7 +2269,7 @@ def jackhenry_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[d
     seen: set[str] = set()
 
     # Most IR templates: PR links are "/news-releases/news-release-details/<slug>"
-    for a in container.select('a[href^="/news-releases/news-release-details/"]'):
+    for a in container.select('a[href^="/news-releases/news-release-details/"], a[href^="/press-releases/press-release-details/"]'):
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
             continue
@@ -2308,7 +2311,10 @@ def jackhenry_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[d
             href = (a.get("href") or "").strip()
             if not href or href.startswith("#"):
                 continue
-            if "/news-releases/news-release-details/" not in href:
+            if ("/news-releases/news-release-details/" not in href) and ("/press-releases/press-release-details/" not in href):
+                continue
+            # If this is a relative path, ensure it matches one of the known detail patterns
+            if href.startswith("/") and (not JH_DETAIL_RE.match(href)):
                 continue
             url = canonical_url(urljoin(page_url, href))
             if not allowed_for_source("Jack Henry", url):

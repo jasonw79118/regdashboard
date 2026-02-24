@@ -1,9 +1,373 @@
 {
-  "window_start": "2026-02-09T19:08:52Z",
-  "window_end": "2026-02-23T19:08:52Z",
-  "generated_at_utc": "2026-02-23T19:08:52Z",
-  "generated_at_ct": "2026-02-23T13:08:52-06:00",
+  "window_start": "2026-02-10T15:02:36Z",
+  "window_end": "2026-02-24T15:02:36Z",
+  "generated_at_utc": "2026-02-24T15:02:36Z",
+  "generated_at_ct": "2026-02-24T09:02:36-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Identity-First AI Security: Why CISOs Must Add Intent to the Equation",
+      "published_at": "2026-02-24T15:02:12Z",
+      "url": "https://www.bleepingcomputer.com/news/security/identity-first-ai-security-why-cisos-must-add-intent-to-the-equation/",
+      "summary": "AI agents now provision infrastructure and approve actions, but many inherit over-scoped privileges without proper governance. Token Security explains why CISOs must treat agents as identities and add intent-based controls so access is granted only when purpose and context align. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "UK fines Reddit $19 million for using children’s data unlawfully",
+      "published_at": "2026-02-24T14:54:24Z",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/",
+      "summary": "The UK Information Commissioner's Office (ICO) has fined Reddit £14.47 million (over $19.5 million) for collecting and using the personal information of children under 13 without adequate safeguards. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Critical SolarWinds Serv-U flaws offer root access to servers",
+      "published_at": "2026-02-24T13:00:45Z",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-solarwinds-serv-u-flaws-offer-root-access-to-servers/",
+      "summary": "SolarWinds has patched four critical Serv-U remote code execution vulnerabilities that could grant attackers root access to unpatched servers. [...]"
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Finastra",
+      "title": "Finastra teams up with CargoX to further adoption of digital-at-source electronic trade documentation",
+      "published_at": "2026-02-24T12:00:00Z",
+      "url": "https://www.finastra.com/press-media/finastra-teams-cargox-further-adoption-digital-source-electronic-trade-documentation",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "ShinyHunters extortion gang claims Odido breach affecting millions",
+      "published_at": "2026-02-24T11:40:20Z",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/",
+      "summary": "The ShinyHunters extortion gang has claimed responsibility for breaching Dutch telecommunications provider Odido and stealing millions of user records from its compromised systems. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "North Korean Lazarus group linked to Medusa ransomware attacks",
+      "published_at": "2026-02-24T11:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
+      "summary": "North Korean state-backed hackers associated with the Lazarus threat group are targeting U.S. healthcare organizations in extortion attacks using the Medusa ransomware. [...]"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC-Insured Institutions Reported Return on Assets of 1.24 Percent and Net Income of $77.7 Billion in Fourth Quarter 2025",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net",
+      "summary": "The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Releases Economic Scenarios for 2026 Stress Testing",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing",
+      "summary": "WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-extends-comment-period-proposal-establish-genius-act-application",
+      "summary": "The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-0",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/first-independence-bank-detroit-michigan-assumes-all-deposits-metropolitan",
+      "summary": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Publishes December Enforcement Actions",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-publishes-december-enforcement-actions",
+      "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-applications-ford-credit-bank-salt-lake",
+      "summary": "The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-final-rule-amend-official-signs-and-advertising",
+      "summary": "The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Establishes Office of Supervisory Appeals",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-establishes-office-supervisory-appeals",
+      "summary": "The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Travis Hill Sworn in as the 23rd Chairman of the FDIC",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/travis-hill-sworn-23rd-chairman-fdic",
+      "summary": "Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Agencies Issue 2025 Shared National Credit Program Report",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/agencies-issue-2025-shared-national-credit-program-report",
+      "summary": "Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/agencies-release-annual-asset-size-thresholds-under-community-reinvestment",
+      "summary": "The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Publishes November Enforcement Actions",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-publishes-november-enforcement-actions",
+      "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-deposit-insurance-application-erebor-bank-na-columbus-ohio",
+      "summary": "The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered.."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-approves-final-rule-establishment-and-relocation",
+      "summary": "The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board Approves 2026 Operating Budget",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-approves-2026-operating-budget",
+      "summary": "The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-issues-interim-final-rule-amend-collection-special",
+      "summary": "The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-proposal-establish-genius-act-application-procedures-fdic",
+      "summary": "The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged",
+      "summary": "The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan"
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Senate Democrats Introduce The American Homeownership Act To Stop Wall Street’s Housing Grab and Get Homes Back into the Hands of Families",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/senate-democrats-introduce-the-american-homeownership-act-to-stop-wall-streets-housing-grab-and-get-homes-back-into-the-hands-of-families",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren in Fox News: Trump’s Broken Promise on Credit Cards",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-in-fox-news-trumps-broken-promise-on-credit-cards",
+      "summary": ""
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "FIS",
+      "title": "FIS Reports Full-Year 2025 Results and Introduces 2026 Outlook",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-reports-full-year-2025-results-and-introduces-2026-outlook",
+      "summary": ""
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "FIS",
+      "title": "FIS to Report Fourth Quarter Earnings on February 24, 2026",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "A lifetime license for the AcePDF editor is now only $25",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/",
+      "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/dresner-application-innovation-awards",
+      "summary": "CCH Tagetik Powered by Expert AI has once again been recognized as a top innovator, earning multiple honors in the 2025 Dresner Advisory Services Application Innovation Awards."
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Agency Information Collection Activities: Comment Request",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/24/2026-03623/agency-information-collection-activities-comment-request",
+      "summary": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled \"Disclosure Requirements for Depository Institutions Lacking Federal Deposit Insurance (Regulation I)\" approved under OMB Control Number 3170-0062.",
+      "fr_tags": [
+        "agency:consumer-financial-protection-bureau",
+        "filter:consumer-financial-protection-bureau"
+      ],
+      "fedreg_document_number": "2026-03623"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Agency Information Collection Activities: Comment Request",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/24/2026-03622/agency-information-collection-activities-comment-request",
+      "summary": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled \"Home Mortgage Disclosure Act (Regulation C)\" approved under OMB Control Number 3170-0008.",
+      "fr_tags": [
+        "agency:consumer-financial-protection-bureau",
+        "filter:consumer-financial-protection-bureau"
+      ],
+      "fedreg_document_number": "2026-03622"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Agency Information Collection Activities: Comment Request",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/24/2026-03621/agency-information-collection-activities-comment-request",
+      "summary": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled \"Registration of Mortgage Loan Originators (Regulation G)\" approved under OMB Control Number 3170- 0005.",
+      "fr_tags": [
+        "agency:consumer-financial-protection-bureau",
+        "filter:consumer-financial-protection-bureau"
+      ],
+      "fedreg_document_number": "2026-03621"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Agency Information Collection Activities: Comment Request",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/24/2026-03620/agency-information-collection-activities-comment-request",
+      "summary": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled \"Truth in Savings (Regulation DD)\" approved under OMB Control Number 3170-0004.",
+      "fr_tags": [
+        "agency:consumer-financial-protection-bureau",
+        "filter:consumer-financial-protection-bureau"
+      ],
+      "fedreg_document_number": "2026-03620"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Android mental health apps with 14.7M installs filled with security flaws",
+      "published_at": "2026-02-23T22:59:04Z",
+      "url": "https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/",
+      "summary": "Several mental health mobile apps with millions of downloads on Google Play contain security vulnerabilities that could expose users' sensitive medical information. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "America 250: Presidential Message on the Anniversary of the Battle of the Alamo",
+      "published_at": "2026-02-23T22:13:24Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/america-250-presidential-message-on-the-anniversary-of-the-battle-of-the-alamo/",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal",
+      "published_at": "2026-02-23T22:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260223a.htm",
+      "summary": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Spain arrests suspected hacktivists for DDoSing govt sites",
+      "published_at": "2026-02-23T21:59:42Z",
+      "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/",
+      "summary": "Spanish authorities have arrested four alleged members of a hacktivist group believed to have carried out cyberattacks targeting government ministries, political parties, and various public institutions. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump Honors Angel Families, Remembers American Lives Lost to Illegal Immigration",
+      "published_at": "2026-02-23T20:43:19Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-honors-angel-families-remembers-american-lives-lost-to-illegal-immigration/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft says bug in classic Outlook hides the mouse pointer",
+      "published_at": "2026-02-23T19:40:42Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/",
+      "summary": "Microsoft is investigating a known issue that causes the mouse pointer to disappear in the classic Outlook desktop email client for some users. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -59,30 +423,6 @@
       "published_at": "2026-02-23T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes."
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren in Fox News: Trump’s Broken Promise on Credit Cards",
-      "published_at": "2026-02-23T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-in-fox-news-trumps-broken-promise-on-credit-cards",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Response to Trump Press Conference on Chaotic Tariffs",
-      "published_at": "2026-02-23T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-response-to-trump-press-conference-on-chaotic-tariffs",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Statement on Supreme Court Trump Tariffs Ruling",
-      "published_at": "2026-02-23T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-trump-tariffs-ruling",
-      "summary": ""
     },
     {
       "category": "Payments",
@@ -2632,28 +2972,12 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "CISA: BeyondTrust RCE flaw now exploited in ransomware attacks",
-      "published_at": "2026-02-20T17:02:25Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/",
-      "summary": "Hackers are actively exploiting the CVE-2026-1731 vulnerability in the BeyondTrust Remote Support product, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) warns. [...]"
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "New Research Reinforces Tri-Merge as the Golden Standard",
       "published_at": "2026-02-20T16:32:43Z",
       "url": "https://www.cdiaonline.org/news/2026/02/20/new-research-reinforces-tri-merge-as-the-golden-standard/",
       "summary": "New research from Andrew Davidson & Co., Inc. reinforces what we’ve long maintained: moving away from the tri-merge credit report in mortgage underwriting... The post New Research Reinforces Tri-Merge as the Golden Standard appeared first on CDIA ."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Data breach at French bank registry impacts 1.2 million accounts",
-      "published_at": "2026-02-20T16:20:40Z",
-      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/",
-      "summary": "The French Ministry of Finance has published an announcement informing of a cybersecurity incident that has impacted 1.2 million accounts. [...]"
     },
     {
       "category": "OFAC",
@@ -2696,62 +3020,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Why the shift left dream has become a nightmare for security and developers",
-      "published_at": "2026-02-20T14:45:54Z",
-      "url": "https://www.bleepingcomputer.com/news/security/why-the-shift-left-dream-has-become-a-nightmare-for-security-and-developers/",
-      "summary": "The \"shift left\" approach has increased pressure on developers, as speed demands override security checks in modern CI pipelines. Qualys explains how analyzing 34,000 public container images revealed 7.3% were malicious and why security must be enforced at the infrastructure layer by default. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "PayPal discloses data breach that exposed user info for 6 months",
-      "published_at": "2026-02-20T13:12:01Z",
-      "url": "https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/",
-      "summary": "PayPal is notifying customers of a data breach after a software error in a loan application exposed their sensitive personal information, including Social Security numbers, for nearly 6 months last year. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Mississippi medical center closes all clinics after ransomware attack",
-      "published_at": "2026-02-20T11:50:14Z",
-      "url": "https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/",
-      "summary": "The University of Mississippi Medical Center (UMMC) closed all its clinic locations statewide on Thursday following a ransomware attack. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "FBI: Over $20 million stolen in surge of ATM malware attacks in 2025",
-      "published_at": "2026-02-20T10:08:49Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-over-20-million-stolen-in-surge-of-atm-malware-attacks-in-2025/",
-      "summary": "The FBI warned that Americans lost more than $20 million last year amid a massive surge in ATM \"jackpotting\" attacks, in which criminals use malware to force cash machines to dispense money. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Ukrainian gets 5 years for helping North Koreans infiltrate US firms",
-      "published_at": "2026-02-20T09:00:15Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ukrainian-gets-5-years-for-helping-north-koreans-infiltrate-us-firms/",
-      "summary": "A Ukrainian national was sentenced to five years in prison for providing North Korean IT workers with stolen identities that helped them infiltrate U.S. companies. [...]"
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "U.S. Promotes AI Adoption, Sovereignty, and Exports at India AI Impact Summit",
-      "published_at": "2026-02-20T06:09:24Z",
-      "url": "https://www.whitehouse.gov/articles/2026/02/u-s-promotes-ai-adoption-sovereignty-and-exports-at-india-ai-impact-summit/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Remarks by Director Michael Kratsios at the India AI Impact Summit",
-      "published_at": "2026-02-20T06:05:38Z",
-      "url": "https://www.whitehouse.gov/articles/2026/02/remarks-by-director-michael-kratsios-at-the-india-ai-impact-summit/",
-      "summary": ""
-    },
-    {
       "category": "IRS",
       "source": "IRS",
       "title": "Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill",
@@ -2765,14 +3033,6 @@
       "title": "Learn ethical hacking with this hands-on hacking course deal for $28",
       "published_at": "2026-02-20T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/learn-ethical-hacking-with-this-hands-on-hacking-course-deal-for-28/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Learn a language with structure, not guesswork in this Babbel deal",
-      "published_at": "2026-02-20T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/learn-a-language-with-structure-not-guesswork-in-this-babbel-deal/",
       "summary": ""
     },
     {
@@ -2800,14 +3060,6 @@
         "topic:mortgage-insurance"
       ],
       "fedreg_document_number": "2026-03405"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "PromptSpy is the first known Android malware to use generative AI at runtime",
-      "published_at": "2026-02-19T22:36:25Z",
-      "url": "https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/",
-      "summary": "Researchers have discovered the first known Android malware to use generative AI in its execution flow, using Google's Gemini model to adapt its persistence across different devices. [...]"
     },
     {
       "category": "Banking",
@@ -17322,14 +17574,6 @@
       "fedreg_document_number": "2026-03082"
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award",
-      "summary": "Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award."
-    },
-    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability",
@@ -17392,14 +17636,6 @@
       "published_at": "2026-02-13T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help",
       "summary": "IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold."
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-13T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health",
-      "summary": "Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data."
     },
     {
       "category": "Federal Register",
@@ -17605,14 +17841,6 @@
       "summary": ""
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-11T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-analysis-shows-insurance-related-activity-driving-surge-in-subpoena-volumes",
-      "summary": "A new analysis from Wolters Kluwer Financial & Corporate Compliance finds the growth of U.S. subpoena volumes continuing to accelerate year-over-year, reaching a total of 498,000 in 2025."
-    },
-    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Rulings and Policy Statements",
@@ -17680,550 +17908,6 @@
         "filter:manufactured-home"
       ],
       "fedreg_document_number": "2026-02715"
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Mexico among the leading countries in the application of AI to the financial sector, according to research by Finastra",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/mexico-among-leading-countries-application-ai-financial-sector-according-research",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Finastra research reveals U.S. financial institutions outpace global peers in AI adoption and modernization investments",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/finastra-research-reveals-us-financial-institutions-outpace-global-peers-ai-adoption",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "AI tipping point reached in Saudi Arabia as banks move from experimentation to execution, finds Finastra research",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/ai-tipping-point-reached-saudi-arabia-banks-move-experimentation-execution-finds",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "AI tipping point reached in the UAE as banks move from experimentation to execution, finds Finastra research",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/ai-tipping-point-reached-uae-banks-move-experimentation-execution-finds-finastra",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "German financial institutions are rapidly embracing AI and modernization, Finastra research reveals",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/german-financial-institutions-are-rapidly-embracing-ai-and-modernization-finastra",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "94% of French financial institutions use or plan to use AI and are now focusing on operational deployments, according to a Finastra study",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/94-french-financial-institutions-use-or-plan-use-ai-and-are-now-focusing-operational",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "AI tipping point reached as just 2% of financial institutions report no AI use, finds Finastra Research",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/ai-tipping-point-reached-just-2-financial-institutions-report-no-ai-use-finds-finastra",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Finastra research finds AI adoption rising in Vietnam’s financial sector, but security and legacy systems limit scale",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/finastra-research-finds-ai-adoption-rising-vietnams-financial-sector-security-and",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "One in ten firms in Japan have yet to deploy AI as talent availability hinders scaling, finds Finastra Research",
-      "published_at": "2026-02-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/one-ten-firms-japan-have-yet-deploy-ai-talent-availability-hinders-scaling-finds",
-      "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "The Future of Consumer Reporting starts at CDIA Connect- New Sessions Announced!",
-      "published_at": "2026-02-10T10:00:33Z",
-      "url": "https://www.cdiaonline.org/events/2026/02/10/the-future-of-consumer-reporting-starts-at-cdia-connect-new-sessions-announced/",
-      "summary": "Day Two of #CDIAConnect is all about what’s next. As consumer reporting evolves beyond traditional credit files, new data sources—cash-flow insights,... The post The Future of Consumer Reporting starts at CDIA Connect- New Sessions Announced! appeared first on CDIA ."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21519 Desktop Window Manager Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21519",
-      "summary": "Access of resource using incompatible type ('type confusion') in Desktop Window Manager allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21518 GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21518",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in GitHub Copilot and Visual Studio Code allows an unauthorized attacker to bypass a security feature over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21512 Azure DevOps Server Cross-Site Scripting Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21512",
-      "summary": "Server-side request forgery (ssrf) in Azure DevOps Server allows an authorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21259 Microsoft Excel Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21259",
-      "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21258 Microsoft Excel Information Disclosure Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21258",
-      "summary": "Improper input validation in Microsoft Office Excel allows an unauthorized attacker to disclose information locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21260 Microsoft Outlook Spoofing Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21260",
-      "summary": "Exposure of sensitive information to an unauthorized actor in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21248 Windows Hyper-V Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21248",
-      "summary": "Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21247 Windows Hyper-V Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21247",
-      "summary": "Improper input validation in Windows Hyper-V allows an authorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21246 Windows Graphics Component Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21246",
-      "summary": "Heap-based buffer overflow in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21242 Windows Subsystem for Linux Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21242",
-      "summary": "Use after free in Windows Subsystem for Linux allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21235 Windows Graphics Component Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21235",
-      "summary": "Use after free in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21234 Windows Connected Devices Platform Service Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21234",
-      "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Connected Devices Platform Service allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21236 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21236",
-      "summary": "Heap-based buffer overflow in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21218 .NET Spoofing Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21218",
-      "summary": "Improper handling of missing special element in .NET allows an unauthorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-23655 Microsoft ACI Confidential Containers Information Disclosure Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23655",
-      "summary": "Cleartext storage of sensitive information in Azure Compute Gallery allows an authorized attacker to disclose information over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21523 GitHub Copilot and Visual Studio Code Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21523",
-      "summary": "Time-of-check time-of-use (toctou) race condition in GitHub Copilot and Visual Studio allows an authorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21229 Power BI Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21229",
-      "summary": "Improper input validation in Power BI allows an authorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21533 Windows Remote Desktop Services Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21533",
-      "summary": "Improper privilege management in Windows Remote Desktop allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21513 MSHTML Framework Security Feature Bypass Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21513",
-      "summary": "Protection mechanism failure in MSHTML Framework allows an unauthorized attacker to bypass a security feature over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21522 Microsoft ACI Confidential Containers Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21522",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Azure Compute Gallery allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21527 Microsoft Exchange Server Spoofing Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21527",
-      "summary": "User interface (ui) misrepresentation of critical information in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21531 Azure SDK for Python Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21531",
-      "summary": "Deserialization of untrusted data in Azure SDK allows an unauthorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21510 Windows Shell Security Feature Bypass Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21510",
-      "summary": "Protection mechanism failure in Windows Shell allows an unauthorized attacker to bypass a security feature over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21537 Microsoft Defender for Endpoint Linux Extension Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21537",
-      "summary": "Improper control of generation of code ('code injection') in Microsoft Defender for Linux allows an unauthorized attacker to execute code over an adjacent network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21529 Azure HDInsight Spoofing Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21529",
-      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure HDInsights allows an authorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21514 Microsoft Word Security Feature Bypass Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21514",
-      "summary": "Reliance on untrusted inputs in a security decision in Microsoft Office Word allows an unauthorized attacker to bypass a security feature locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21525 Windows Remote Access Connection Manager Denial of Service Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21525",
-      "summary": "Null pointer dereference in Windows Remote Access Connection Manager allows an unauthorized attacker to deny service locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21516 GitHub Copilot for Jetbrains Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21516",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Github Copilot allows an unauthorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21508 Windows Storage Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21508",
-      "summary": "Improper authentication in Windows Storage allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21261 Microsoft Excel Information Disclosure Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21261",
-      "summary": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to disclose information locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21257 GitHub Copilot and Visual Studio Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21257",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in GitHub Copilot and Visual Studio allows an authorized attacker to elevate privileges over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21253 Mailslot File System Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21253",
-      "summary": "Use after free in Mailslot File System allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21251 Cluster Client Failover (CCF) Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21251",
-      "summary": "Use after free in Windows Cluster Client Failover allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21250 Windows HTTP.sys Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21250",
-      "summary": "Untrusted pointer dereference in Windows HTTP.sys allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21249 Windows NTLM Spoofing Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21249",
-      "summary": "External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21244 Windows Hyper-V Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21244",
-      "summary": "Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21243 Windows Lightweight Directory Access Protocol (LDAP) Denial of Service Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21243",
-      "summary": "Null pointer dereference in Windows LDAP - Lightweight Directory Access Protocol allows an unauthorized attacker to deny service over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21240 Windows HTTP.sys Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21240",
-      "summary": "Time-of-check time-of-use (toctou) race condition in Windows HTTP.sys allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21241 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21241",
-      "summary": "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21239 Windows Kernel Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21239",
-      "summary": "Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21238 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21238",
-      "summary": "Improper access control in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21237 Windows Subsystem for Linux Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21237",
-      "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Subsystem for Linux allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21232 Windows HTTP.sys Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21232",
-      "summary": "Untrusted pointer dereference in Windows HTTP.sys allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21231 Windows Kernel Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21231",
-      "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Kernel allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21228 Azure Local Remote Code Execution Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21228",
-      "summary": "Improper certificate validation in Azure Local allows an unauthorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21222 Windows Kernel Information Disclosure Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21222",
-      "summary": "Insertion of sensitive information into log file in Windows Kernel allows an authorized attacker to disclose information locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-20846 GDI+ Denial of Service Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20846",
-      "summary": "Buffer over-read in Windows GDI+ allows an unauthorized attacker to deny service over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2023-2804 Red Hat, Inc. CVE-2023-2804: Heap Based Overflow libjpeg-turbo",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2804",
-      "summary": "A heap‑based buffer overflow exists in libjpeg‑turbo’s h2v2_merged_upsample_internal() function when processing 12‑bit lossless JPEG images. An attacker could craft an image containing out‑of‑range 12‑bit samples that, when decompressed with merged upsampling enabled, may trigger a segmentation fault or buffer overflow, resulting in an application crash."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21255 Windows Hyper-V Security Feature Bypass Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21255",
-      "summary": "**How could an attacker exploit this vulnerability?** Exploitation requires an attacker who already has local execution on a VBS‑enabled guest VM to run a specially crafted application or driver that abuses the hypervisor’s overlay handling to bypass VBS/VTL protections and compromise kernel integrity."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21245 Windows Kernel Elevation of Privilege Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21245",
-      "summary": "Acknowledgement Updated"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2024-30098 Windows Cryptographic Services Security Feature Bypass Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30098",
-      "summary": "DisableCapiOverrideForRSA registry key removal date has been updated to 2/9/2027."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2016-9535 MITRE CVE-2016-9535: LibTIFF Heap Buffer Overflow Vulnerability",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2016-9535",
-      "summary": "Added Affected Software for Windows packages"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2025-2884 Cert CC: CVE-2025-2884 Out-of-Bounds read vulnerability in TCG TPM2.0 reference implementation",
-      "published_at": "2026-02-10T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2884",
-      "summary": "Added Affected Software for Windows packages"
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Accreditation",
-      "published_at": "2026-02-10T06:24:41Z",
-      "url": "https://www.nacha.org/taxonomy/term/346",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Counter Terrorism Designations",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260210",
-      "summary": ""
-    },
-    {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "Freddie Mac Announces Release Date for Fourth Quarter and Full-Year 2025 Financial Results",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/02/10/3235794/0/en/Freddie-Mac-Announces-Release-Date-for-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
-      "summary": ""
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Inaugural National Nacha Accreditation Day Honors Nearly 6,000 Payments Professionals",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://www.nacha.org/news/inaugural-national-nacha-accreditation-day-honors-nearly-6000-payments-professionals",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Fiserv",
-      "title": "Fiserv Reports Fourth Quarter and Full Year 2025 Results",
-      "published_at": "2026-02-10T00:00:00Z",
-      "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-fourth-quarter-and-full-year-2025-results",
-      "summary": ""
     }
   ]
 }
