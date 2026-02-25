@@ -1357,6 +1357,126 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
     if meta_desc and meta_desc.get("content"):
         snippet = clean_text(meta_desc.get("content"), 380)
 
+
+    # FDIC press releases: prefer the on-page publication date (often near the H1) and ignore any "Updated" stamps.
+    if (source == "FDIC") or ('fdic.gov' in (detail_url or '')) or ('fdic' in (source or '').lower()):
+        month_names = (
+            'January|February|March|April|May|June|July|August|September|October|November|December'
+        )
+        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
+
+        # Prefer common meta tags if present
+        for meta_key in [
+            ("meta", {"property": "article:published_time"}, "content"),
+            ("meta", {"name": "article:published_time"}, "content"),
+            ("meta", {"name": "dcterms.created"}, "content"),
+            ("meta", {"name": "DC.date"}, "content"),
+            ("meta", {"name": "date"}, "content"),
+        ]:
+            tag = soup.find(meta_key[0], attrs=meta_key[1])
+            if tag and tag.get(meta_key[2]):
+                dt_meta = parse_date(tag.get(meta_key[2]))
+                if dt_meta:
+                    return dt_meta, snippet
+
+        # Look near the H1 for the first Month Day, Year that is not part of an "Updated" line.
+        h1 = soup.find("h1")
+        if h1:
+            scanned = 0
+            for el in h1.find_all_next(["p", "div", "span", "time", "h2", "h3"], limit=60):
+                txt = (el.get_text(" ", strip=True) or "").strip()
+                if not txt:
+                    continue
+                scanned += 1
+                if "updated" in txt.lower():
+                    continue
+                m = date_re.search(txt)
+                if m:
+                    dt_fdic = parse_date(m.group(0))
+                    if dt_fdic:
+                        return dt_fdic, snippet
+                if scanned >= 25:
+                    break
+
+        # Fallback: scan early visible lines, skipping any that include "updated".
+        blob = soup.get_text("\n", strip=True)
+        for line in blob.splitlines()[:250]:
+            if "updated" in line.lower():
+                continue
+            m = date_re.search(line)
+            if m:
+                dt_fdic = parse_date(m.group(0))
+                if dt_fdic:
+                    return dt_fdic, snippet
+
+
+    # NACHA news: validate this is a real article page and extract the on-page "Posted on" date (Month Day, Year).
+    # NACHA also has hub/category pages under /news/*; we must avoid treating those as single articles.
+    if ('nacha' in (source or '').lower()) or ('nacha.org' in (detail_url or '')):
+        month_names = (
+            'January|February|March|April|May|June|July|August|September|October|November|December'
+        )
+        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
+
+        # Prefer: metadata that clearly indicates an article
+        for meta_key in [
+            ("meta", {"property": "article:published_time"}, "content"),
+            ("meta", {"name": "article:published_time"}, "content"),
+            ("meta", {"name": "dcterms.created"}, "content"),
+            ("meta", {"name": "DC.date"}, "content"),
+            ("meta", {"name": "date"}, "content"),
+        ]:
+            tag = soup.find(meta_key[0], attrs=meta_key[1])
+            if tag and tag.get(meta_key[2]):
+                dt_meta = parse_date(tag.get(meta_key[2]))
+                if dt_meta:
+                    return dt_meta, snippet
+
+        # JSON-LD (often contains @type Article/NewsArticle/BlogPosting with datePublished)
+        for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+            try:
+                data = json.loads(script.get_text(strip=True) or "")
+            except Exception:
+                continue
+
+            def _walk(obj):
+                if isinstance(obj, dict):
+                    yield obj
+                    for v in obj.values():
+                        yield from _walk(v)
+                elif isinstance(obj, list):
+                    for it in obj:
+                        yield from _walk(it)
+
+            for obj in _walk(data):
+                if not isinstance(obj, dict):
+                    continue
+                t = (obj.get("@type") or obj.get("type") or "")
+                if isinstance(t, list):
+                    t = " ".join([str(x) for x in t])
+                t = str(t)
+                if any(k in t for k in ["Article", "NewsArticle", "BlogPosting"]):
+                    dp = obj.get("datePublished") or obj.get("dateCreated")
+                    if isinstance(dp, str):
+                        dt_ld = parse_date(dp)
+                        if dt_ld:
+                            return dt_ld, snippet
+
+        # Heuristic: article pages usually include "Posted on" near the title region
+        # Look for a line that includes "Posted on" and a Month Day, Year.
+        top_blob = soup.get_text("\n", strip=True)
+        for line in top_blob.splitlines()[:250]:
+            ll = line.lower()
+            if "posted on" in ll:
+                m = date_re.search(line)
+                if m:
+                    dt_n = parse_date(m.group(0))
+                    if dt_n:
+                        return dt_n, snippet
+
+        # If there's no strong signal, treat as NOT a single article (likely a hub/category page).
+        return None, snippet
+
     t = soup.find("time")
     if t:
         dt = parse_date(t.get("datetime") or t.get_text(" ", strip=True))
@@ -1369,10 +1489,8 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
         ("name", "pubdate"),
         ("name", "publish-date"),
         ("name", "date"),
+        ("property", "og:updated_time"),
     ]
-    # Avoid "updated" metadata for FDIC; it can make old press releases look in-window.
-    if source and source != "FDIC":
-        meta_keys.append(("property", "og:updated_time"))
     for k, v in meta_keys:
         m = soup.find("meta", attrs={k: v})
         if m and m.get("content"):
@@ -1389,17 +1507,13 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
         for obj in candidates:
             if not isinstance(obj, dict):
                 continue
-            for k in (["datePublished"] if source == "FDIC" else ["datePublished", "dateModified"]):
+            for k in ["datePublished", "dateModified"]:
                 if k in obj:
                     dt = parse_date(obj.get(k))
                     if dt:
                         return dt, snippet
 
-    text_blob = soup.get_text(" ", strip=True)
-    if source == "FDIC":
-        # Remove "Last Updated" fragments before generic date detection.
-        text_blob = re.sub(r"(?i)last\s+updated\s*:.*?(?=(\s{2,}|$))", " ", text_blob)
-    dt = extract_any_date(text_blob, source=source)
+    dt = extract_any_date(soup.get_text(" ", strip=True), source=source)
     if dt:
         return dt, snippet
 
@@ -2564,6 +2678,64 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
 # MAIN CONTENT LINK ROUTER
 # ============================
 
+
+def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """Extract real NACHA news article links from https://www.nacha.org/news.
+
+    NACHA includes hub pages like /news/blog-posts and taxonomy pages; we ONLY want actual
+    article pages of the form /news/<slug>.
+    We intentionally do not rely on anchor heuristics because NACHA often wraps titles in non-standard markup.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    strip_nav_like(container)
+
+    out: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    for a in container.find_all("a", href=True):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+        full = urljoin(page_url, href)
+        full, _ = urldefrag(full)
+        u = urlparse(full)
+
+        if u.netloc and "nacha.org" not in u.netloc:
+            continue
+
+        # Accept only /news/<slug> (single-segment slug) and reject taxonomy and hub/listing pages.
+        path = (u.path or "").rstrip("/")
+        if not path.startswith("/news/"):
+            continue
+        if "/taxonomy/" in path:
+            continue
+
+        # Exclude known hub pages:
+        if path in {"/news", "/news/blog-posts", "/news/press-releases"}:
+            continue
+
+        # Require a single slug segment after /news/
+        rest = path[len("/news/"):]
+        if not rest or "/" in rest:
+            continue
+
+        # Title: prefer anchor text; fallback to aria-label/title
+        title = clean_text(a.get_text(" ", strip=True) or "", 240)
+        if not title:
+            title = clean_text(a.get("aria-label") or a.get("title") or "", 240)
+        if not title:
+            continue
+
+        if full in seen:
+            continue
+        seen.add(full)
+
+        out.append((title, full, None))
+
+    return out
+
+
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     if source == "OFAC":
         return ofac_links(page_url, html)
@@ -2581,6 +2753,9 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
+
+    if source == "NACHA":
+        return nacha_links(page_url, html)
 
     if source == "ABA":
         return aba_news_links(page_url, html)
@@ -2608,7 +2783,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     seen = set()
 
     for a in container.find_all("a", href=True):
-        # NACHA listing markup varies; rely on URL shape filtering below (not anchor heuristics).
+        if not is_likely_article_anchor(a):
+            continue
 
         href = (a.get("href") or "").strip()
         if not href:
@@ -3062,8 +3238,10 @@ def build() -> None:
 
                 snippet = ""
 
-                # FDIC: listing pages can surface "updated" dates; always confirm publication date from detail page (bounded by caps)
-                if source == "FDIC" and src_cap > 0:
+                # FDIC + NACHA: always confirm the *article* publication date from the detail page.
+                # - FDIC listings can show an 'updated' date that is NOT the publication date, causing out-of-window leakage.
+                # - NACHA /news/* includes hub pages; we only keep links that resolve to a real article with a publish date.
+                if source in ("FDIC", "NACHA") and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
                         if detail_html:
@@ -3072,10 +3250,15 @@ def build() -> None:
                             per_source_detail_fetches[source] = src_used
 
                             dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
-                            if dt2:
-                                dt = dt2
-                            if snippet2:
+
+                            # For FDIC/NACHA we REQUIRE a confirmed publication date from the article page
+                            # to avoid false positives (updated stamps / hub pages).
+                            if not dt2:
+                                continue
+                            dt = dt2
+                            if snippet2 and not snippet:
                                 snippet = snippet2
+
 
                 # If Visa has a date but outside window, let detail override
                 if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
