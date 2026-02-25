@@ -1,7 +1,13 @@
 # RegDashboard — Export
 
-Window: `2026-02-11T20:02:23Z` → `2026-02-25T20:02:23Z` (UTC)
-Last updated: `2026-02-25T14:02:23-06:00` (CT) — `2026-02-25T20:02:23Z` (UTC)
+Window: `2026-02-11T20:29:34Z` → `2026-02-25T20:29:34Z` (UTC)
+Last updated: `2026-02-25T14:29:34-06:00` (CT) — `2026-02-25T20:29:34Z` (UTC)
+
+## WHAT THEY ARE SAYING: President Trump Heralds America’s Golden Age in Historic State of the Union Address
+- Source: White House
+- Category: Executive
+- Published: 2026-02-25T20:18:11Z
+- URL: https://www.whitehouse.gov/articles/2026/02/what-they-are-saying-president-trump-heralds-americas-golden-age-in-historic-state-of-the-union-address/
 
 ## Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
 - Source: BleepingComputer
@@ -344,12 +350,6 @@ Microsoft is expanding data loss prevention (DLP) controls to block the Microsof
 - Category: Executive
 - Published: 2026-02-24T17:11:34Z
 - URL: https://www.whitehouse.gov/articles/2026/02/ondcp-launches-new-public-awareness-effort-focused-on-saving-lives-through-drug-prevention/
-
-## First Lady Melania Trump’s State of the Union Guests Reflect Her Impact on Education, Tech, and the Foster Community
-- Source: White House
-- Category: Executive
-- Published: 2026-02-24T17:02:35Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trumps-state-of-the-union-guests-reflect-her-impact-on-education-tech-and-the-foster-community/
 
 ## Federal Reserve Board issues enforcement action with former employee of First Financial Bank
 - Source: FRB

@@ -1410,13 +1410,14 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                     return dt_fdic, snippet
 
 
-    # NACHA news: validate this is a real article page and extract a publish date (Month Day, Year).
+    # NACHA news: validate this is a real article page and extract the on-page "Posted on" date (Month Day, Year).
     # NACHA also has hub/category pages under /news/*; we must avoid treating those as single articles.
     if ('nacha' in (source or '').lower()) or ('nacha.org' in (detail_url or '')):
         month_names = (
             'January|February|March|April|May|June|July|August|September|October|November|December'
         )
         date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
+
 
         # Fast reject: known hub/listing pages (these are not single articles)
         try:
@@ -1425,7 +1426,7 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
             p = ""
         if p in {"/news", "/newsroom", "/news/blog", "/news/blogs", "/news/tags", "/news/topics", "/news/categories"}:
             return None, snippet
-        if p.startswith("/news/page/") or p.endswith("/page") or "/page/" in p:
+        if p.startswith("/news/page/") or "/page/" in p:
             return None, snippet
 
         # Prefer: metadata that clearly indicates an article
@@ -1472,7 +1473,8 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                         if dt_ld:
                             return dt_ld, snippet
 
-        # Heuristic: article pages often include "Posted on" near the title region
+        # Heuristic: article pages usually include "Posted on" near the title region
+        # Look for a line that includes "Posted on" and a Month Day, Year.
         top_blob = soup.get_text("\n", strip=True)
         for line in top_blob.splitlines()[:250]:
             ll = line.lower()
@@ -1483,8 +1485,9 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                     if dt_n:
                         return dt_n, snippet
 
-        # Fallback (still article-safe): require an H1 and a Month Day, Year somewhere near the top.
-        # This keeps us from re-adding "page link" items that don't have real article content.
+        
+        # Fallback (article-safe): require an H1 (to avoid listing pages) and accept a visible date near the top.
+        # Some NACHA articles show dates as "February 11, 2026" or "02/11/2026" without the "Posted on" label.
         if soup.find("h1"):
             for line in top_blob.splitlines()[:400]:
                 m = date_re.search(line)
@@ -1492,10 +1495,14 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                     dt_n = parse_date(m.group(0))
                     if dt_n:
                         return dt_n, snippet
+                ms = SLASH_DATE_RE.search(line)
+                if ms:
+                    dt_s = parse_slash_date_best(ms.group("sd"))
+                    if dt_s:
+                        return dt_s, snippet
 
-        # If there's no reliable publish date, treat as NOT a single article (likely a hub/category page).
+# If there's no strong signal, treat as NOT a single article (likely a hub/category page).
         return None, snippet
-
 
     t = soup.find("time")
     if t:

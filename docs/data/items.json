@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-11T20:02:23Z",
-  "window_end": "2026-02-25T20:02:23Z",
-  "generated_at_utc": "2026-02-25T20:02:23Z",
-  "generated_at_ct": "2026-02-25T14:02:23-06:00",
+  "window_start": "2026-02-11T20:29:34Z",
+  "window_end": "2026-02-25T20:29:34Z",
+  "generated_at_utc": "2026-02-25T20:29:34Z",
+  "generated_at_ct": "2026-02-25T14:29:34-06:00",
   "items": [
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "WHAT THEY ARE SAYING: President Trump Heralds America’s Golden Age in Historic State of the Union Address",
+      "published_at": "2026-02-25T20:18:11Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/what-they-are-saying-president-trump-heralds-americas-golden-age-in-historic-state-of-the-union-address/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -450,14 +458,6 @@
       "title": "ONDCP Launches New Public Awareness Effort Focused on Saving Lives Through Drug Prevention",
       "published_at": "2026-02-24T17:11:34Z",
       "url": "https://www.whitehouse.gov/articles/2026/02/ondcp-launches-new-public-awareness-effort-focused-on-saving-lives-through-drug-prevention/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "First Lady Melania Trump’s State of the Union Guests Reflect Her Impact on Education, Tech, and the Foster Community",
-      "published_at": "2026-02-24T17:02:35Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trumps-state-of-the-union-guests-reflect-her-impact-on-education-tech-and-the-foster-community/",
       "summary": ""
     },
     {
