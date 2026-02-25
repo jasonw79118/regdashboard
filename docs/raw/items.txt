@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-02-25T15:01:11Z
+The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web
+https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/
+OpenClaw has sparked heavy Telegram and dark web chatter, but Flare's data shows more research hype than mass exploitation. Flare explains how its telemetry found real supply-chain risk in the skills marketplace, yet limited signs of large-scale criminal operationalization. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-25T12:53:02Z
 Zyxel warns of critical RCE flaw affecting over a dozen routers
 https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/
@@ -130,6 +137,12 @@ White House
 2026-02-25T02:16:50Z
 President Trump Is Securing Our Homeland: Ending the Invasion, Deporting Criminals, and Protecting Our Communities
 https://www.whitehouse.gov/articles/2026/02/president-trump-is-securing-our-homeland-ending-the-invasion-deporting-criminals-and-protecting-our-communities/
+------------------------------------------------------------
+OFAC
+OFAC
+2026-02-25T00:00:00Z
+Iran-related Designations
+https://ofac.treasury.gov/recent-actions/20260225
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -326,132 +339,6 @@ FDIC-Insured Institutions Reported Return on Assets of 1.24 Percent and Net Inco
 https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net
 The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025.
 ------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Releases Economic Scenarios for 2026 Stress Testing
-https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing
-WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
-https://www.fdic.gov/news/press-releases/2026/fdic-extends-comment-period-proposal-establish-genius-act-application
-The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Issues List of Banks Examined for CRA Compliance
-https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-0
-The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA).
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Publishes December Enforcement Actions
-https://www.fdic.gov/news/press-releases/2026/fdic-publishes-december-enforcement-actions
-The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah
-https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-applications-ford-credit-bank-salt-lake
-The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements
-https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-final-rule-amend-official-signs-and-advertising
-The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Board of Directors Establishes Office of Supervisory Appeals
-https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-establishes-office-supervisory-appeals
-The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-Travis Hill Sworn in as the 23rd Chairman of the FDIC
-https://www.fdic.gov/news/press-releases/2026/travis-hill-sworn-23rd-chairman-fdic
-Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC).
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-Agencies Issue 2025 Shared National Credit Program Report
-https://www.fdic.gov/news/press-releases/2026/agencies-issue-2025-shared-national-credit-program-report
-Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Issues List of Banks Examined for CRA Compliance
-https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance
-The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA).
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations
-https://www.fdic.gov/news/press-releases/2025/agencies-release-annual-asset-size-thresholds-under-community-reinvestment
-The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Publishes November Enforcement Actions
-https://www.fdic.gov/news/press-releases/2025/fdic-publishes-november-enforcement-actions
-The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio
-https://www.fdic.gov/news/press-releases/2025/fdic-approves-deposit-insurance-application-erebor-bank-na-columbus-ohio
-The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered..
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices
-https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-approves-final-rule-establishment-and-relocation
-The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Board Approves 2026 Operating Budget
-https://www.fdic.gov/news/press-releases/2025/fdic-board-approves-2026-operating-budget
-The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment
-https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-issues-interim-final-rule-amend-collection-special
-The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
-https://www.fdic.gov/news/press-releases/2025/fdic-approves-proposal-establish-genius-act-application-procedures-fdic
-The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-24T00:00:00Z
-Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances
-https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged
-The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan
-------------------------------------------------------------
 Legislative
 Senate Banking
 2026-02-24T00:00:00Z
@@ -529,13 +416,6 @@ Agency Information Collection Activities: Comment Request
 https://www.federalregister.gov/documents/2026/02/24/2026-03620/agency-information-collection-activities-comment-request
 In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) extension of an information collection titled "Truth in Savings (Regulation DD)" approved under OMB Control Number 3170-0004.
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-23T22:59:04Z
-Android mental health apps with 14.7M installs filled with security flaws
-https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/
-Several mental health mobile apps with millions of downloads on Google Play contain security vulnerabilities that could expose users' sensitive medical information. [...]
-------------------------------------------------------------
 Banking
 FRB
 2026-02-23T22:00:00Z
@@ -583,14 +463,14 @@ https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launch
 IS
 BleepingComputer
 2026-02-23T00:00:00Z
-Spain arrests suspected hacktivists for DDoSing govt sites
-https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/
+Android mental health apps with 14.7M installs filled with security flaws
+https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-23T00:00:00Z
-Microsoft says bug in classic Outlook hides the mouse pointer
-https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/
+Spain arrests suspected hacktivists for DDoSing govt sites
+https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -15376,6 +15256,13 @@ OCC
 OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
 https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
 The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-12T00:00:00Z
+FDIC Releases Economic Scenarios for 2026 Stress Testing
+https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing
+WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere
 ------------------------------------------------------------
 Mortgage
 Freddie Mac

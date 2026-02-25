@@ -1357,28 +1357,44 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
     if meta_desc and meta_desc.get("content"):
         snippet = clean_text(meta_desc.get("content"), 380)
 
-    # FDIC: the listing pages often show a "PRESS RELEASE / ..." date that may not belong to the linked article.
-    # Pull the publication date that appears directly under the article H1 (e.g., "December 16, 2025"),
-    # and ignore the "Last Updated:" line.
-    if (source or "").strip().lower() == "fdic" or "fdic.gov" in (detail_url or ""):
-        try:
-            h1 = soup.find("h1")
-            h1_text = (h1.get_text(" ", strip=True) if h1 else "").strip()
-            blob = soup.get_text("\n", strip=True)
-            look = blob
-            if h1_text:
-                p = blob.find(h1_text)
-                if p != -1:
-                    look = blob[p + len(h1_text) : p + len(h1_text) + 500]
-            month_names = "January|February|March|April|May|June|July|August|September|October|November|December"
-            mdate = re.search(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b", look)
-            if mdate:
-                date_text = mdate.group(0).strip()
-                dt = parse_date(date_text)
-                if dt:
-                    return dt, snippet
-        except Exception:
-            pass
+
+    # FDIC press releases: prefer the on-page publication date (often near the H1) and ignore 'Last Updated' stamps.
+    if ('fdic' in (source or '').lower()) or ('fdic.gov' in (detail_url or '')):
+        month_names = (
+            'January|February|March|April|May|June|July|August|September|October|November|December'
+        )
+        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
+
+        # Try: scan a small region after the main title for the first Month Day, Year that is NOT part of a 'Last Updated' line.
+        h1 = soup.find('h1')
+        if h1:
+            # Look at the next few text-bearing elements near the top of the article.
+            scanned = 0
+            for el in h1.find_all_next(['p','div','span','time','h2','h3'], limit=40):
+                txt = (el.get_text(' ', strip=True) or '').strip()
+                if not txt:
+                    continue
+                scanned += 1
+                if 'last updated' in txt.lower():
+                    continue
+                m = date_re.search(txt)
+                if m:
+                    dt_fdic = parse_date(m.group(0))
+                    if dt_fdic:
+                        return dt_fdic, snippet
+                if scanned >= 20:
+                    break
+
+        # Fallback: scan the whole page text, but still avoid 'Last Updated' lines.
+        blob = soup.get_text('\n', strip=True)
+        for line in blob.splitlines()[:200]:
+            if 'last updated' in line.lower():
+                continue
+            m = date_re.search(line)
+            if m:
+                dt_fdic = parse_date(m.group(0))
+                if dt_fdic:
+                    return dt_fdic, snippet
 
     t = soup.find("time")
     if t:
@@ -3080,7 +3096,7 @@ def build() -> None:
 
                 snippet = ""
 
-                # FDIC: always pull the publication date from the detail page (the listing can show unrelated "PRESS RELEASE / ..." dates).
+                # FDIC: listing pages sometimes expose non-publication dates; always confirm publication date from the detail page (bounded by caps).
                 if source == "FDIC" and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
@@ -3088,12 +3104,12 @@ def build() -> None:
                             global_detail_fetches += 1
                             src_used += 1
                             per_source_detail_fetches[source] = src_used
-
                             dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
                             if dt2:
                                 dt = dt2
-                            if snippet2:
+                            if snippet2 and not snippet:
                                 snippet = snippet2
+
 
                 # If Visa has a date but outside window, let detail override
                 if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
