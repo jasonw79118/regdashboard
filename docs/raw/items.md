@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-11T15:49:39Z` → `2026-02-25T15:49:39Z` (UTC)
-Last updated: `2026-02-25T09:49:39-06:00` (CT) — `2026-02-25T15:49:39Z` (UTC)
+Window: `2026-02-11T16:35:08Z` → `2026-02-25T16:35:08Z` (UTC)
+Last updated: `2026-02-25T10:35:08-06:00` (CT) — `2026-02-25T16:35:08Z` (UTC)
+
+## Marquis sues SonicWall over backup breach that led to ransomware attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T15:54:44Z
+- URL: https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+
+Marquis Software Solutions has filed a lawsuit against SonicWall, accusing the cybersecurity company of gross negligence and misrepresentation that allegedly led to a ransomware attack disrupting operations at 74 U.S. banks. [...]
 
 ## Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs
 - Source: Treasury
@@ -169,17 +177,23 @@ Microsoft has released the KB5077241 optional cumulative update for Windows 11, 
 - Published: 2026-02-25T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260225
 
-## Marquis sues SonicWall over backup breach that led to ransomware attack
-- Source: BleepingComputer
-- Category: IS
+## Warren, Kim Statement on Reports Secretary Hegseth May Use DPA to Force American Company to Remove Guardrails on AI Models
+- Source: Senate Banking
+- Category: Legislative
 - Published: 2026-02-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-kim-statement-on-reports-secretary-hegseth-may-use-dpa-to-force-american-company-to-remove-guardrails-on-ai-models
 
-## A SurfShark VPN plan for every screen you own is now 84% off
-- Source: BleepingComputer
-- Category: IS
+## On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration
+- Source: Senate Banking
+- Category: Legislative
 - Published: 2026-02-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/
+- URL: https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
+
+## ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
 
 ## Equal Credit Opportunity Act (Regulation B)
 - Source: Federal Register
@@ -535,24 +549,6 @@ The FDIC Board of Directors today approved a notice of proposed rulemaking that 
 
 The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan
 
-## On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
-
-## ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
-
-## Senate Democrats Introduce The American Homeownership Act To Stop Wall Street’s Housing Grab and Get Homes Back into the Hands of Families
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/senate-democrats-introduce-the-american-homeownership-act-to-stop-wall-streets-housing-grab-and-get-homes-back-into-the-hands-of-families
-
 ## FIS Reports Full-Year 2025 Results and Introduces 2026 Outlook
 - Source: FIS
 - Category: Fintech Watch
@@ -564,24 +560,6 @@ The Office of the Comptroller of the Currency and the Federal Deposit Insurance 
 - Category: Fintech Watch
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026
-
-## This $139 refurbished portable monitor is now under $60
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
-
-## A lifetime license for the AcePDF editor is now only $25
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/
-
-## North Korean Lazarus group linked to Medusa ransomware attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -656,12 +634,6 @@ Fannie Mae announced that it has commenced fixed-price cash tender offers for th
 - Category: Fintech Watch
 - Published: 2026-02-23T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management
-
-## Android mental health apps with 14.7M installs filled with security flaws
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/
 
 ## Metro 2® Webinars
 - Source: CDIA

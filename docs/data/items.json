@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-11T15:49:39Z",
-  "window_end": "2026-02-25T15:49:39Z",
-  "generated_at_utc": "2026-02-25T15:49:39Z",
-  "generated_at_ct": "2026-02-25T09:49:39-06:00",
+  "window_start": "2026-02-11T16:35:08Z",
+  "window_end": "2026-02-25T16:35:08Z",
+  "generated_at_utc": "2026-02-25T16:35:08Z",
+  "generated_at_ct": "2026-02-25T10:35:08-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Marquis sues SonicWall over backup breach that led to ransomware attack",
+      "published_at": "2026-02-25T15:54:44Z",
+      "url": "https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/",
+      "summary": "Marquis Software Solutions has filed a lawsuit against SonicWall, accusing the cybersecurity company of gross negligence and misrepresentation that allegedly led to a ransomware attack disrupting operations at 74 U.S. banks. [...]"
+    },
     {
       "category": "OFAC",
       "source": "Treasury",
@@ -189,19 +197,27 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Marquis sues SonicWall over backup breach that led to ransomware attack",
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren, Kim Statement on Reports Secretary Hegseth May Use DPA to Force American Company to Remove Guardrails on AI Models",
       "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-kim-statement-on-reports-secretary-hegseth-may-use-dpa-to-force-american-company-to-remove-guardrails-on-ai-models",
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "A SurfShark VPN plan for every screen you own is now 84% off",
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration",
       "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/",
+      "url": "https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs",
       "summary": ""
     },
     {
@@ -645,30 +661,6 @@
       "summary": "The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan"
     },
     {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Senate Democrats Introduce The American Homeownership Act To Stop Wall Street’s Housing Grab and Get Homes Back into the Hands of Families",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/senate-democrats-introduce-the-american-homeownership-act-to-stop-wall-streets-housing-grab-and-get-homes-back-into-the-hands-of-families",
-      "summary": ""
-    },
-    {
       "category": "Fintech Watch",
       "source": "FIS",
       "title": "FIS Reports Full-Year 2025 Results and Introduces 2026 Outlook",
@@ -682,30 +674,6 @@
       "title": "FIS to Report Fourth Quarter Earnings on February 24, 2026",
       "published_at": "2026-02-24T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "This $139 refurbished portable monitor is now under $60",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "A lifetime license for the AcePDF editor is now only $25",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "North Korean Lazarus group linked to Medusa ransomware attacks",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
       "summary": ""
     },
     {
@@ -806,14 +774,6 @@
       "title": "FIS Launches 24/7 AI Assistant to Ease Risk Models Management",
       "published_at": "2026-02-23T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Android mental health apps with 14.7M installs filled with security flaws",
-      "published_at": "2026-02-23T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/",
       "summary": ""
     },
     {

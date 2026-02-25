@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-02-25T15:54:44Z
+Marquis sues SonicWall over backup breach that led to ransomware attack
+https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+Marquis Software Solutions has filed a lawsuit against SonicWall, accusing the cybersecurity company of gross negligence and misrepresentation that allegedly led to a ransomware attack disrupting operations at 74 U.S. banks. [...]
+------------------------------------------------------------
 OFAC
 Treasury
 2026-02-25T15:30:00Z
@@ -150,17 +157,23 @@ OFAC
 Iran-related Designations; Non-Proliferation Designations
 https://ofac.treasury.gov/recent-actions/20260225
 ------------------------------------------------------------
-IS
-BleepingComputer
+Legislative
+Senate Banking
 2026-02-25T00:00:00Z
-Marquis sues SonicWall over backup breach that led to ransomware attack
-https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+Warren, Kim Statement on Reports Secretary Hegseth May Use DPA to Force American Company to Remove Guardrails on AI Models
+https://www.banking.senate.gov/newsroom/minority/warren-kim-statement-on-reports-secretary-hegseth-may-use-dpa-to-force-american-company-to-remove-guardrails-on-ai-models
 ------------------------------------------------------------
-IS
-BleepingComputer
+Legislative
+Senate Banking
 2026-02-25T00:00:00Z
-A SurfShark VPN plan for every screen you own is now 84% off
-https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/
+On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration
+https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-25T00:00:00Z
+ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS
+https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -477,24 +490,6 @@ Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged 
 https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged
 The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan
 ------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-24T00:00:00Z
-On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration
-https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-24T00:00:00Z
-ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS
-https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-24T00:00:00Z
-Senate Democrats Introduce The American Homeownership Act To Stop Wall Street’s Housing Grab and Get Homes Back into the Hands of Families
-https://www.banking.senate.gov/newsroom/minority/senate-democrats-introduce-the-american-homeownership-act-to-stop-wall-streets-housing-grab-and-get-homes-back-into-the-hands-of-families
-------------------------------------------------------------
 Fintech Watch
 FIS
 2026-02-24T00:00:00Z
@@ -506,24 +501,6 @@ FIS
 2026-02-24T00:00:00Z
 FIS to Report Fourth Quarter Earnings on February 24, 2026
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T00:00:00Z
-This $139 refurbished portable monitor is now under $60
-https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T00:00:00Z
-A lifetime license for the AcePDF editor is now only $25
-https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T00:00:00Z
-North Korean Lazarus group linked to Medusa ransomware attacks
-https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -591,12 +568,6 @@ FIS
 2026-02-23T00:00:00Z
 FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-23T00:00:00Z
-Android mental health apps with 14.7M installs filled with security flaws
-https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/
 ------------------------------------------------------------
 Compliance Watch
 CDIA

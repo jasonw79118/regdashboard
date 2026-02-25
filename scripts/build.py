@@ -259,6 +259,11 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
     "FRB Payments": {"deny_domains": {"www.facebook.com"}},
+    "NACHA": {
+        "allow_domains": {"www.nacha.org", "nacha.org"},
+        "allow_path_prefixes": {"/news/"},
+    },
+
 
     "Freddie Mac": {
         "allow_domains": {"www.globenewswire.com"},
@@ -2554,35 +2559,45 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
     return links
 
 
+# ============================
+# MAIN CONTENT LINK ROUTER
+# ============================
 
-# ============================
-# NACHA (News)
-# ============================
 
 def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    """Extract NACHA news articles from https://www.nacha.org/news.
+    """Extract real Nacha article pages from https://www.nacha.org/news
 
-    NACHA's /news listing page includes taxonomy/category links (e.g., /taxonomy/term/*)
-    and other non-article hubs. We only want real news articles under /news/<slug>.
+    We only keep leaf /news/<slug> pages and exclude category hub pages (blog-posts, press-releases, etc).
     """
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
     if not container:
         return []
 
-    strip_nav_like(container)
-
     links: List[Tuple[str, str, Optional[datetime]]] = []
     seen: set[str] = set()
 
-    for a in container.find_all("a", href=True):
-        if not is_likely_article_anchor(a):
-            continue
+    # Category landing pages that are not actual articles
+    hub_slugs = {
+        "blog-posts",
+        "press-releases",
+        "articles",
+        "podcasts",
+        "webinars",
+        "events",
+        "videos",
+        "press-release",
+        "news",
+    }
 
+    # Prefer heading anchors (titles) first; fall back to all anchors if needed
+    anchors = list(container.select("h2 a[href], h3 a[href], h4 a[href]"))
+    if not anchors:
+        anchors = list(container.find_all("a", href=True))
+
+    for a in anchors:
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#"):
-            continue
-        if scheme(href) in GLOBAL_DENY_SCHEMES:
             continue
 
         url = canonical_url(urljoin(page_url, href))
@@ -2591,18 +2606,20 @@ def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
 
         u = urlparse(url)
         p = (u.path or "/").rstrip("/")
-
-        # Only real news articles: /news/<slug>
         if not p.startswith("/news/"):
             continue
-        if p == "/news":
-            continue
-        if "/taxonomy/" in p or p.startswith("/news/taxonomy/"):
+        if "/taxonomy/" in p or "/tag/" in p or "/category/" in p:
             continue
 
-        raw_title = (a.get_text(" ", strip=True) or "").strip()
-        title = clean_text(raw_title, 220)
-        if not title or len(title) < 8:
+        parts = [x for x in p.split("/") if x]
+        # Require leaf /news/<slug>
+        if len(parts) != 2 or parts[0] != "news":
+            continue
+        if parts[1].lower() in hub_slugs:
+            continue
+
+        title = clean_text(a.get_text(" ", strip=True) or "", 220)
+        if not title:
             continue
         if is_probably_nav_link("NACHA", title, url):
             continue
@@ -2613,24 +2630,17 @@ def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
             continue
         seen.add(url)
 
-        dt = find_time_near_anchor(a, source="NACHA")
+        dt = find_time_near_anchor(a, "NACHA")
         if dt is None:
-            wrap = a.find_parent(["article", "div", "li", "section", "p"]) or a.parent
+            wrap = a.find_parent(["article", "div", "li", "section"]) or a.parent
             if wrap:
-                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 900), source="NACHA")
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1200), source="NACHA")
 
         links.append((title, url, dt))
         if len(links) >= MAX_LISTING_LINKS:
             break
 
-    links.sort(key=lambda t: (t[2] is None, t[2] or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
-    return links[:MAX_LISTING_LINKS]
-
-
-
-# ============================
-# MAIN CONTENT LINK ROUTER
-# ============================
+    return links
 
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     if source == "OFAC":
@@ -2651,6 +2661,7 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return fhlbmpf_links(page_url, html)
     if source == "NACHA":
         return nacha_links(page_url, html)
+
 
     if source == "ABA":
         return aba_news_links(page_url, html)
@@ -3133,7 +3144,24 @@ def build() -> None:
 
                 snippet = ""
 
-                # If Visa has a date but outside window, let detail override
+                
+                # FDIC press releases/listings can show an unrelated "updated" stamp near the top of the listing page.
+                # Always prefer the publication date from the detail page for windowing (and ignore 'Last Updated').
+                if source == "FDIC" and src_cap > 0:
+                    if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
+                        detail_html = polite_get(url)
+                        if detail_html:
+                            global_detail_fetches += 1
+                            src_used += 1
+                            per_source_detail_fetches[source] = src_used
+
+                            dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
+                            if dt2:
+                                dt = dt2
+                            if snippet2 and not snippet:
+                                snippet = snippet2
+
+# If Visa has a date but outside window, let detail override
                 if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
