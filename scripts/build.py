@@ -1357,45 +1357,6 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
     if meta_desc and meta_desc.get("content"):
         snippet = clean_text(meta_desc.get("content"), 380)
 
-
-    # FDIC press releases: prefer the on-page publication date (often near the H1) and ignore 'Last Updated' stamps.
-    if ('fdic' in (source or '').lower()) or ('fdic.gov' in (detail_url or '')):
-        month_names = (
-            'January|February|March|April|May|June|July|August|September|October|November|December'
-        )
-        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
-
-        # Try: scan a small region after the main title for the first Month Day, Year that is NOT part of a 'Last Updated' line.
-        h1 = soup.find('h1')
-        if h1:
-            # Look at the next few text-bearing elements near the top of the article.
-            scanned = 0
-            for el in h1.find_all_next(['p','div','span','time','h2','h3'], limit=40):
-                txt = (el.get_text(' ', strip=True) or '').strip()
-                if not txt:
-                    continue
-                scanned += 1
-                if 'last updated' in txt.lower():
-                    continue
-                m = date_re.search(txt)
-                if m:
-                    dt_fdic = parse_date(m.group(0))
-                    if dt_fdic:
-                        return dt_fdic, snippet
-                if scanned >= 20:
-                    break
-
-        # Fallback: scan the whole page text, but still avoid 'Last Updated' lines.
-        blob = soup.get_text('\n', strip=True)
-        for line in blob.splitlines()[:200]:
-            if 'last updated' in line.lower():
-                continue
-            m = date_re.search(line)
-            if m:
-                dt_fdic = parse_date(m.group(0))
-                if dt_fdic:
-                    return dt_fdic, snippet
-
     t = soup.find("time")
     if t:
         dt = parse_date(t.get("datetime") or t.get_text(" ", strip=True))
@@ -2593,6 +2554,80 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
     return links
 
 
+
+# ============================
+# NACHA (News)
+# ============================
+
+def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """Extract NACHA news articles from https://www.nacha.org/news.
+
+    NACHA's /news listing page includes taxonomy/category links (e.g., /taxonomy/term/*)
+    and other non-article hubs. We only want real news articles under /news/<slug>.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    for a in container.find_all("a", href=True):
+        if not is_likely_article_anchor(a):
+            continue
+
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+        if scheme(href) in GLOBAL_DENY_SCHEMES:
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not allowed_for_source("NACHA", url):
+            continue
+
+        u = urlparse(url)
+        p = (u.path or "/").rstrip("/")
+
+        # Only real news articles: /news/<slug>
+        if not p.startswith("/news/"):
+            continue
+        if p == "/news":
+            continue
+        if "/taxonomy/" in p or p.startswith("/news/taxonomy/"):
+            continue
+
+        raw_title = (a.get_text(" ", strip=True) or "").strip()
+        title = clean_text(raw_title, 220)
+        if not title or len(title) < 8:
+            continue
+        if is_probably_nav_link("NACHA", title, url):
+            continue
+        if is_generic_listing_or_home("NACHA", title, url):
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = find_time_near_anchor(a, source="NACHA")
+        if dt is None:
+            wrap = a.find_parent(["article", "div", "li", "section", "p"]) or a.parent
+            if wrap:
+                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 900), source="NACHA")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    links.sort(key=lambda t: (t[2] is None, t[2] or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+    return links[:MAX_LISTING_LINKS]
+
+
+
 # ============================
 # MAIN CONTENT LINK ROUTER
 # ============================
@@ -2614,6 +2649,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
+    if source == "NACHA":
+        return nacha_links(page_url, html)
 
     if source == "ABA":
         return aba_news_links(page_url, html)
@@ -3095,21 +3132,6 @@ def build() -> None:
                     continue
 
                 snippet = ""
-
-                # FDIC: listing pages sometimes expose non-publication dates; always confirm publication date from the detail page (bounded by caps).
-                if source == "FDIC" and src_cap > 0:
-                    if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
-                        detail_html = polite_get(url)
-                        if detail_html:
-                            global_detail_fetches += 1
-                            src_used += 1
-                            per_source_detail_fetches[source] = src_used
-                            dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
-                            if dt2:
-                                dt = dt2
-                            if snippet2 and not snippet:
-                                snippet = snippet2
-
 
                 # If Visa has a date but outside window, let detail override
                 if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:

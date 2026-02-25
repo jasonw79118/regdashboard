@@ -1,3 +1,9 @@
+OFAC
+Treasury
+2026-02-25T15:30:00Z
+Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs
+https://home.treasury.gov/news/press-releases/sb0405
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-25T15:01:11Z
@@ -141,8 +147,14 @@ https://www.whitehouse.gov/articles/2026/02/president-trump-is-securing-our-home
 OFAC
 OFAC
 2026-02-25T00:00:00Z
-Iran-related Designations
+Iran-related Designations; Non-Proliferation Designations
 https://ofac.treasury.gov/recent-actions/20260225
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-25T00:00:00Z
+Marquis sues SonicWall over backup breach that led to ransomware attack
+https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -319,13 +331,6 @@ ShinyHunters extortion gang claims Odido breach affecting millions
 https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/
 The ShinyHunters extortion gang has claimed responsibility for breaching Dutch telecommunications provider Odido and stealing millions of user records from its compromised systems. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T11:00:00Z
-North Korean Lazarus group linked to Medusa ransomware attacks
-https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/
-North Korean state-backed hackers associated with the Lazarus threat group are targeting U.S. healthcare organizations in extortion attacks using the Medusa ransomware. [...]
-------------------------------------------------------------
 OFAC
 OFAC
 2026-02-24T00:00:00Z
@@ -338,6 +343,139 @@ FDIC
 FDIC-Insured Institutions Reported Return on Assets of 1.24 Percent and Net Income of $77.7 Billion in Fourth Quarter 2025
 https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net
 The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Releases Economic Scenarios for 2026 Stress Testing
+https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing
+WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
+https://www.fdic.gov/news/press-releases/2026/fdic-extends-comment-period-proposal-establish-genius-act-application
+The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Issues List of Banks Examined for CRA Compliance
+https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-0
+The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA).
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois
+https://www.fdic.gov/news/press-releases/2026/first-independence-bank-detroit-michigan-assumes-all-deposits-metropolitan
+First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Publishes December Enforcement Actions
+https://www.fdic.gov/news/press-releases/2026/fdic-publishes-december-enforcement-actions
+The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah
+https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-applications-ford-credit-bank-salt-lake
+The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements
+https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-final-rule-amend-official-signs-and-advertising
+The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Board of Directors Establishes Office of Supervisory Appeals
+https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-establishes-office-supervisory-appeals
+The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+Travis Hill Sworn in as the 23rd Chairman of the FDIC
+https://www.fdic.gov/news/press-releases/2026/travis-hill-sworn-23rd-chairman-fdic
+Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC).
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+Agencies Issue 2025 Shared National Credit Program Report
+https://www.fdic.gov/news/press-releases/2026/agencies-issue-2025-shared-national-credit-program-report
+Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Issues List of Banks Examined for CRA Compliance
+https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance
+The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA).
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations
+https://www.fdic.gov/news/press-releases/2025/agencies-release-annual-asset-size-thresholds-under-community-reinvestment
+The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Publishes November Enforcement Actions
+https://www.fdic.gov/news/press-releases/2025/fdic-publishes-november-enforcement-actions
+The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio
+https://www.fdic.gov/news/press-releases/2025/fdic-approves-deposit-insurance-application-erebor-bank-na-columbus-ohio
+The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered..
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices
+https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-approves-final-rule-establishment-and-relocation
+The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Board Approves 2026 Operating Budget
+https://www.fdic.gov/news/press-releases/2025/fdic-board-approves-2026-operating-budget
+The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment
+https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-issues-interim-final-rule-amend-collection-special
+The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins
+https://www.fdic.gov/news/press-releases/2025/fdic-approves-proposal-establish-genius-act-application-procedures-fdic
+The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act.
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-24T00:00:00Z
+Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances
+https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged
+The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan
 ------------------------------------------------------------
 Legislative
 Senate Banking
@@ -380,6 +518,12 @@ BleepingComputer
 2026-02-24T00:00:00Z
 A lifetime license for the AcePDF editor is now only $25
 https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-24T00:00:00Z
+North Korean Lazarus group linked to Medusa ransomware attacks
+https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -429,18 +573,6 @@ White House
 National Angel Family Day, 2026
 https://www.whitehouse.gov/presidential-actions/2026/02/national-angel-family-day-2026/
 ------------------------------------------------------------
-Payments
-NACHA
-2026-02-23T14:20:03Z
-Education
-https://www.nacha.org/taxonomy/term/345
-------------------------------------------------------------
-Payments
-NACHA
-2026-02-23T14:20:03Z
-Blog
-https://www.nacha.org/taxonomy/term/41
-------------------------------------------------------------
 Mortgage
 Fannie Mae
 2026-02-23T00:00:00Z
@@ -465,12 +597,6 @@ BleepingComputer
 2026-02-23T00:00:00Z
 Android mental health apps with 14.7M installs filled with security flaws
 https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-23T00:00:00Z
-Spain arrests suspected hacktivists for DDoSing govt sites
-https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -3551,12 +3677,6 @@ FRB
 Minutes of the Federal Open Market Committee, January 27–28, 2026
 https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm
 Minutes of the Federal Open Market Committee, January 27–28, 2026
-------------------------------------------------------------
-OFAC
-Treasury
-2026-02-18T18:00:00Z
-Treasury Announces Public-Private Initiative to Strengthen Cybersecurity and Risk Management for AI
-https://home.treasury.gov/news/press-releases/sb0395
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -15147,6 +15267,13 @@ Agency Information Collection Activities: Proposed Collection Renewal; Comment R
 https://www.federalregister.gov/documents/2026/02/17/2026-03082/agency-information-collection-activities-proposed-collection-renewal-comment-request
 The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0046; -0118; -0174; 0188 and -0202). The notices of proposed renewal for these information collections were pr…
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-02-16T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award
+Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award.
+------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-02-13T16:00:00Z
@@ -15194,6 +15321,13 @@ IRS
 Avoid waiting on hold; use IRS online tools for faster help
 https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help
 IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-02-13T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health
+Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data.
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -15257,13 +15391,6 @@ OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
 https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
 The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
 ------------------------------------------------------------
-Banking
-FDIC
-2026-02-12T00:00:00Z
-FDIC Releases Economic Scenarios for 2026 Stress Testing
-https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing
-WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere
-------------------------------------------------------------
 Mortgage
 Freddie Mac
 2026-02-12T00:00:00Z
@@ -15306,10 +15433,4 @@ White House
 2026-02-11T22:03:51Z
 Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
 https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
-------------------------------------------------------------
-Payments
-NACHA
-2026-02-11T17:23:18Z
-Payments Consulting
-https://www.nacha.org/taxonomy/term/362
 ------------------------------------------------------------

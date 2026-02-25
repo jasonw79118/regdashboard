@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-11T15:11:50Z",
-  "window_end": "2026-02-25T15:11:50Z",
-  "generated_at_utc": "2026-02-25T15:11:50Z",
-  "generated_at_ct": "2026-02-25T09:11:50-06:00",
+  "window_start": "2026-02-11T15:49:39Z",
+  "window_end": "2026-02-25T15:49:39Z",
+  "generated_at_utc": "2026-02-25T15:49:39Z",
+  "generated_at_ct": "2026-02-25T09:49:39-06:00",
   "items": [
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs",
+      "published_at": "2026-02-25T15:30:00Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0405",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -175,9 +183,17 @@
     {
       "category": "OFAC",
       "source": "OFAC",
-      "title": "Iran-related Designations",
+      "title": "Iran-related Designations; Non-Proliferation Designations",
       "published_at": "2026-02-25T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260225",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Marquis sues SonicWall over backup breach that led to ransomware attack",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/",
       "summary": ""
     },
     {
@@ -461,14 +477,6 @@
       "summary": "The ShinyHunters extortion gang has claimed responsibility for breaching Dutch telecommunications provider Odido and stealing millions of user records from its compromised systems. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "North Korean Lazarus group linked to Medusa ransomware attacks",
-      "published_at": "2026-02-24T11:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
-      "summary": "North Korean state-backed hackers associated with the Lazarus threat group are targeting U.S. healthcare organizations in extortion attacks using the Medusa ransomware. [...]"
-    },
-    {
       "category": "OFAC",
       "source": "OFAC",
       "title": "Cyber-related Designations; CAATSA - Russia-related Designations; PAIPA Designations",
@@ -483,6 +491,158 @@
       "published_at": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net",
       "summary": "The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Releases Economic Scenarios for 2026 Stress Testing",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing",
+      "summary": "WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-extends-comment-period-proposal-establish-genius-act-application",
+      "summary": "The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-0",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/first-independence-bank-detroit-michigan-assumes-all-deposits-metropolitan",
+      "summary": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Publishes December Enforcement Actions",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-publishes-december-enforcement-actions",
+      "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-applications-ford-credit-bank-salt-lake",
+      "summary": "The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-final-rule-amend-official-signs-and-advertising",
+      "summary": "The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Establishes Office of Supervisory Appeals",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-establishes-office-supervisory-appeals",
+      "summary": "The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Travis Hill Sworn in as the 23rd Chairman of the FDIC",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/travis-hill-sworn-23rd-chairman-fdic",
+      "summary": "Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Agencies Issue 2025 Shared National Credit Program Report",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/agencies-issue-2025-shared-national-credit-program-report",
+      "summary": "Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance",
+      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/agencies-release-annual-asset-size-thresholds-under-community-reinvestment",
+      "summary": "The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Publishes November Enforcement Actions",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-publishes-november-enforcement-actions",
+      "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-deposit-insurance-application-erebor-bank-na-columbus-ohio",
+      "summary": "The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered.."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-approves-final-rule-establishment-and-relocation",
+      "summary": "The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board Approves 2026 Operating Budget",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-approves-2026-operating-budget",
+      "summary": "The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-issues-interim-final-rule-amend-collection-special",
+      "summary": "The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-proposal-establish-genius-act-application-procedures-fdic",
+      "summary": "The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act."
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged",
+      "summary": "The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan"
     },
     {
       "category": "Legislative",
@@ -538,6 +698,14 @@
       "title": "A lifetime license for the AcePDF editor is now only $25",
       "published_at": "2026-02-24T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "North Korean Lazarus group linked to Medusa ransomware attacks",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
       "summary": ""
     },
     {
@@ -617,22 +785,6 @@
       "summary": ""
     },
     {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Education",
-      "published_at": "2026-02-23T14:20:03Z",
-      "url": "https://www.nacha.org/taxonomy/term/345",
-      "summary": ""
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Blog",
-      "published_at": "2026-02-23T14:20:03Z",
-      "url": "https://www.nacha.org/taxonomy/term/41",
-      "summary": ""
-    },
-    {
       "category": "Mortgage",
       "source": "Fannie Mae",
       "title": "Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes",
@@ -662,14 +814,6 @@
       "title": "Android mental health apps with 14.7M installs filled with security flaws",
       "published_at": "2026-02-23T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Spain arrests suspected hacktivists for DDoSing govt sites",
-      "published_at": "2026-02-23T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/",
       "summary": ""
     },
     {
@@ -4255,14 +4399,6 @@
       "published_at": "2026-02-18T19:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm",
       "summary": "Minutes of the Federal Open Market Committee, January 27–28, 2026"
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Treasury Announces Public-Private Initiative to Strengthen Cybersecurity and Risk Management for AI",
-      "published_at": "2026-02-18T18:00:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0395",
-      "summary": ""
     },
     {
       "category": "IS",
@@ -17710,6 +17846,14 @@
       "fedreg_document_number": "2026-03082"
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-16T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award",
+      "summary": "Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award."
+    },
+    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability",
@@ -17764,6 +17908,14 @@
       "published_at": "2026-02-13T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help",
       "summary": "IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold."
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-13T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health",
+      "summary": "Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data."
     },
     {
       "category": "Federal Register",
@@ -17843,14 +17995,6 @@
       "summary": "The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions."
     },
     {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "FDIC Releases Economic Scenarios for 2026 Stress Testing",
-      "published_at": "2026-02-12T00:00:00Z",
-      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing",
-      "summary": "WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere"
-    },
-    {
       "category": "Mortgage",
       "source": "Freddie Mac",
       "title": "Mortgage Rates Inch Down",
@@ -17910,14 +18054,6 @@
       "title": "Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet",
       "published_at": "2026-02-11T22:03:51Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/",
-      "summary": ""
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Payments Consulting",
-      "published_at": "2026-02-11T17:23:18Z",
-      "url": "https://www.nacha.org/taxonomy/term/362",
       "summary": ""
     }
   ]
