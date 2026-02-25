@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-11T21:12:25Z` → `2026-02-25T21:12:25Z` (UTC)
-Last updated: `2026-02-25T15:12:25-06:00` (CT) — `2026-02-25T21:12:25Z` (UTC)
+Window: `2026-02-11T22:19:48Z` → `2026-02-25T22:19:48Z` (UTC)
+Last updated: `2026-02-25T16:19:48-06:00` (CT) — `2026-02-25T22:19:48Z` (UTC)
+
+## Fake Next.js job interview tests backdoor developer's devices
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T21:47:12Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/
+
+The Microsoft Defender team has discovered a coordinated campaign targeting software developers through malicious repositories posing as legitimate Next.js projects and technical assessment materials, including recruiting coding tests. [...]
 
 ## WHAT THEY ARE SAYING: President Trump Heralds America’s Golden Age in Historic State of the Union Address
 - Source: White House
@@ -199,6 +207,26 @@ Microsoft has released the KB5077241 optional cumulative update for Windows 11, 
 - Published: 2026-02-25T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260225
 
+## OCC Requests Comments on Proposal to Implement GENIUS Act
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-9.html
+
+The Office of the Comptroller of the Currency (OCC) today issued a proposed rulemaking to implement the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act.
+
+## GENIUS Act Regulations: Notice of Proposed Rulemaking
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-3.html
+
+## Freddie Mac Issues Monthly Volume Summary for January 2026
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/02/25/3245075/0/en/Freddie-Mac-Issues-Monthly-Volume-Summary-for-January-2026.html
+
 ## Warren, Kim Statement on Reports Secretary Hegseth May Use DPA to Force American Company to Remove Guardrails on AI Models
 - Source: Senate Banking
 - Category: Legislative
@@ -217,13 +245,11 @@ Microsoft has released the KB5077241 optional cumulative update for Windows 11, 
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
 
-## Beating the Deadline for Continuing Education Credits Yields a Nice Reward
-- Source: NACHA
-- Category: Payments
+## Save 38% on this refurbished 10th Gen Apple iPad with free shipping
+- Source: BleepingComputer
+- Category: IS
 - Published: 2026-02-25T00:00:00Z
-- URL: https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
-
-Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
+- URL: https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/
 
 ## A SurfShark VPN plan for every screen you own is now 84% off
 - Source: BleepingComputer
@@ -383,14 +409,6 @@ PRESS RELEASE | FEBRUARY 24, 2026 FDIC-Insured Institutions Reported Return on A
 
 AI agents now provision infrastructure and approve actions, but many inherit over-scoped privileges without proper governance. Token Security explains why CISOs must treat agents as identities and add intent-based controls so access is granted only when purpose and context align. [...]
 
-## UK fines Reddit $19 million for using children’s data unlawfully
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T14:54:24Z
-- URL: https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/
-
-The UK Information Commissioner's Office (ICO) has fined Reddit £14.47 million (over $19.5 million) for collecting and using the personal information of children under 13 without adequate safeguards. [...]
-
 ## Finastra teams up with CargoX to further adoption of digital-at-source electronic trade documentation
 - Source: Finastra
 - Category: Fintech Watch
@@ -429,23 +447,17 @@ The banking industry reported a return on assets ratio of 1.24 percent, a decrea
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
 
+## UK fines Reddit $19 million for using children’s data unlawfully
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/
+
 ## Critical SolarWinds Serv-U flaws offer root access to servers
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/critical-solarwinds-serv-u-flaws-offer-root-access-to-servers/
-
-## A lifetime license for the AcePDF editor is now only $25
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/
-
-## ShinyHunters extortion gang claims Odido breach affecting millions
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -508,14 +520,6 @@ Following earlier actions to remove reputation risk from its supervision of bank
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
-
-## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
-
-When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 
 ## FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 - Source: FIS
@@ -17296,15 +17300,3 @@ WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released t
 - URL: https://www.federalregister.gov/documents/2026/02/12/2026-02868/investments-in-and-licensing-of-permitted-payment-stablecoins-issuers
 
 The NCUA Board (Board) is seeking comment on proposed regulations to implement portions of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act). The GENIUS Act charges the NCUA with licensing, regulating, and supervising payment stablecoin issuers that are subsidiaries of federally insured credit unions (FICU subsidiaries). The GENIUS Act also…
-
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-02-11T22:17:58Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-b65f/
-
-## Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
-- Source: White House
-- Category: Executive
-- Published: 2026-02-11T22:03:51Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/

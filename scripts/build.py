@@ -123,7 +123,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Federal Register": "Federal Register",
 
     # USDA tile
-    "USDA Rural Development": "USDA",
+    "USDA Rural Development": "Mortgage",
 
     # Fintech Watch tile
     "FIS": "Fintech Watch",
@@ -628,6 +628,17 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
             }
+
+        if h in {"www.nacha.org", "nacha.org"}:
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Referer": "https://www.nacha.org/news",
+                "User-Agent": browser_ua,
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            }
+
 
         # ✅ Helps some vendor sites behave more like a browser
         if h in {"ir.jackhenry.com", "www.tcs.com", "mambu.com", "www.finastra.com"}:
@@ -1363,7 +1374,7 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
         month_names = (
             'January|February|March|April|May|June|July|August|September|October|November|December'
         )
-        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b", re.I)
+        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
 
         # Prefer common meta tags if present
         for meta_key in [
@@ -1463,44 +1474,18 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                             return dt_ld, snippet
 
         # Heuristic: article pages usually include "Posted on" near the title region
+        # Look for a line that includes "Posted on" and a Month Day, Year.
         top_blob = soup.get_text("\n", strip=True)
-        lines = top_blob.splitlines()
-
-        for i, line in enumerate(lines[:250]):
+        for line in top_blob.splitlines()[:250]:
             ll = line.lower()
             if "posted on" in ll:
-                # NACHA sometimes renders:
-                #   "Posted on"
-                #   "February 11, 2026"
-                # so check this line AND a couple following lines.
-                for cand in [line] + lines[i + 1 : i + 3]:
-                    m = date_re.search(cand)
-                    if m:
-                        dt_n = parse_date(m.group(0))
-                        if dt_n:
-                            return dt_n, snippet
-                    ms = SLASH_DATE_RE.search(cand)
-                    if ms:
-                        dt_s = parse_slash_date_best(ms.group("sd"))
-                        if dt_s:
-                            return dt_s, snippet
-
-        # Fallback (still article-safe): require an H1 and a visible date near the top.
-        # Keeps us from re-adding listing-only "page link" items.
-        if soup.find("h1"):
-            for line in lines[:400]:
                 m = date_re.search(line)
                 if m:
                     dt_n = parse_date(m.group(0))
                     if dt_n:
                         return dt_n, snippet
-                ms = SLASH_DATE_RE.search(line)
-                if ms:
-                    dt_s = parse_slash_date_best(ms.group("sd"))
-                    if dt_s:
-                        return dt_s, snippet
 
-# If there's no strong signal, treat as NOT a single article (likely a hub/category page).
+        # If there's no strong signal, treat as NOT a single article (likely a hub/category page).
         return None, snippet
 
     t = soup.find("time")
@@ -2773,6 +2758,15 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return mastercard_links(page_url, html)
     if source == "Visa":
         return visa_links(page_url, html)
+
+    if source == "NACHA":
+        # NACHA's /news listing is often JS-rendered; try a proxy-rendered fetch to capture the full set of article links.
+        links = nacha_links(page_url, html)
+        if (looks_js_rendered(html) or len(links) < 25):
+            proxy_html = polite_get(_jina_proxy_url(page_url))
+            if proxy_html:
+                links = nacha_links(page_url, proxy_html)
+        return links
     if source == "Freddie Mac":
         return freddiemac_globenewswire_links(page_url, html)
     if source == "CDIA":

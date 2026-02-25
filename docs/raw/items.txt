@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-02-25T21:47:12Z
+Fake Next.js job interview tests backdoor developer's devices
+https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/
+The Microsoft Defender team has discovered a coordinated campaign targeting software developers through malicious repositories posing as legitimate Next.js projects and technical assessment materials, including recruiting coding tests. [...]
+------------------------------------------------------------
 Executive
 White House
 2026-02-25T20:18:11Z
@@ -177,6 +184,25 @@ OFAC
 Iran-related Designations; Non-Proliferation Designations
 https://ofac.treasury.gov/recent-actions/20260225
 ------------------------------------------------------------
+Banking
+OCC
+2026-02-25T00:00:00Z
+OCC Requests Comments on Proposal to Implement GENIUS Act
+https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-9.html
+The Office of the Comptroller of the Currency (OCC) today issued a proposed rulemaking to implement the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act.
+------------------------------------------------------------
+Banking
+OCC
+2026-02-25T00:00:00Z
+GENIUS Act Regulations: Notice of Proposed Rulemaking
+https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-3.html
+------------------------------------------------------------
+Mortgage
+Freddie Mac
+2026-02-25T00:00:00Z
+Freddie Mac Issues Monthly Volume Summary for January 2026
+https://www.globenewswire.com/news-release/2026/02/25/3245075/0/en/Freddie-Mac-Issues-Monthly-Volume-Summary-for-January-2026.html
+------------------------------------------------------------
 Legislative
 Senate Banking
 2026-02-25T00:00:00Z
@@ -195,12 +221,11 @@ Senate Banking
 ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS
 https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
 ------------------------------------------------------------
-Payments
-NACHA
+IS
+BleepingComputer
 2026-02-25T00:00:00Z
-Beating the Deadline for Continuing Education Credits Yields a Nice Reward
-https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
-Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
+Save 38% on this refurbished 10th Gen Apple iPad with free shipping
+https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -344,13 +369,6 @@ Identity-First AI Security: Why CISOs Must Add Intent to the Equation
 https://www.bleepingcomputer.com/news/security/identity-first-ai-security-why-cisos-must-add-intent-to-the-equation/
 AI agents now provision infrastructure and approve actions, but many inherit over-scoped privileges without proper governance. Token Security explains why CISOs must treat agents as identities and add intent-based controls so access is granted only when purpose and context align. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T14:54:24Z
-UK fines Reddit $19 million for using children’s data unlawfully
-https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/
-The UK Information Commissioner's Office (ICO) has fined Reddit £14.47 million (over $19.5 million) for collecting and using the personal information of children under 13 without adequate safeguards. [...]
-------------------------------------------------------------
 Fintech Watch
 Finastra
 2026-02-24T12:00:00Z
@@ -391,20 +409,14 @@ https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monit
 IS
 BleepingComputer
 2026-02-24T00:00:00Z
+UK fines Reddit $19 million for using children’s data unlawfully
+https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-24T00:00:00Z
 Critical SolarWinds Serv-U flaws offer root access to servers
 https://www.bleepingcomputer.com/news/security/critical-solarwinds-serv-u-flaws-offer-root-access-to-servers/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T00:00:00Z
-A lifetime license for the AcePDF editor is now only $25
-https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T00:00:00Z
-ShinyHunters extortion gang claims Odido breach affecting millions
-https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -460,13 +472,6 @@ Fannie Mae
 Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
 https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
-------------------------------------------------------------
-Payments
-NACHA
-2026-02-23T00:00:00Z
-There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
-https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
-When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 ------------------------------------------------------------
 Fintech Watch
 FIS
@@ -15304,16 +15309,4 @@ Federal Register
 Investments in and Licensing of Permitted Payment Stablecoins Issuers
 https://www.federalregister.gov/documents/2026/02/12/2026-02868/investments-in-and-licensing-of-permitted-payment-stablecoins-issuers
 The NCUA Board (Board) is seeking comment on proposed regulations to implement portions of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act). The GENIUS Act charges the NCUA with licensing, regulating, and supervising payment stablecoin issuers that are subsidiaries of federally insured credit unions (FICU subsidiaries). The GENIUS Act also…
-------------------------------------------------------------
-Executive
-White House
-2026-02-11T22:17:58Z
-Nominations Sent to the Senate
-https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-b65f/
-------------------------------------------------------------
-Executive
-White House
-2026-02-11T22:03:51Z
-Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet
-https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
 ------------------------------------------------------------

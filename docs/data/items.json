@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-11T21:12:25Z",
-  "window_end": "2026-02-25T21:12:25Z",
-  "generated_at_utc": "2026-02-25T21:12:25Z",
-  "generated_at_ct": "2026-02-25T15:12:25-06:00",
+  "window_start": "2026-02-11T22:19:48Z",
+  "window_end": "2026-02-25T22:19:48Z",
+  "generated_at_utc": "2026-02-25T22:19:48Z",
+  "generated_at_ct": "2026-02-25T16:19:48-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Fake Next.js job interview tests backdoor developer's devices",
+      "published_at": "2026-02-25T21:47:12Z",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/",
+      "summary": "The Microsoft Defender team has discovered a coordinated campaign targeting software developers through malicious repositories posing as legitimate Next.js projects and technical assessment materials, including recruiting coding tests. [...]"
+    },
     {
       "category": "Executive",
       "source": "White House",
@@ -221,6 +229,30 @@
       "summary": ""
     },
     {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "OCC Requests Comments on Proposal to Implement GENIUS Act",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-9.html",
+      "summary": "The Office of the Comptroller of the Currency (OCC) today issued a proposed rulemaking to implement the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act."
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "GENIUS Act Regulations: Notice of Proposed Rulemaking",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-3.html",
+      "summary": ""
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Freddie Mac Issues Monthly Volume Summary for January 2026",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/02/25/3245075/0/en/Freddie-Mac-Issues-Monthly-Volume-Summary-for-January-2026.html",
+      "summary": ""
+    },
+    {
       "category": "Legislative",
       "source": "Senate Banking",
       "title": "Warren, Kim Statement on Reports Secretary Hegseth May Use DPA to Force American Company to Remove Guardrails on AI Models",
@@ -245,12 +277,12 @@
       "summary": ""
     },
     {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Beating the Deadline for Continuing Education Credits Yields a Nice Reward",
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Save 38% on this refurbished 10th Gen Apple iPad with free shipping",
       "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward",
-      "summary": "Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…"
+      "url": "https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/",
+      "summary": ""
     },
     {
       "category": "IS",
@@ -493,14 +525,6 @@
       "summary": "AI agents now provision infrastructure and approve actions, but many inherit over-scoped privileges without proper governance. Token Security explains why CISOs must treat agents as identities and add intent-based controls so access is granted only when purpose and context align. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "UK fines Reddit $19 million for using children’s data unlawfully",
-      "published_at": "2026-02-24T14:54:24Z",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/",
-      "summary": "The UK Information Commissioner's Office (ICO) has fined Reddit £14.47 million (over $19.5 million) for collecting and using the personal information of children under 13 without adequate safeguards. [...]"
-    },
-    {
       "category": "Fintech Watch",
       "source": "Finastra",
       "title": "Finastra teams up with CargoX to further adoption of digital-at-source electronic trade documentation",
@@ -551,25 +575,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
+      "title": "UK fines Reddit $19 million for using children’s data unlawfully",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
       "title": "Critical SolarWinds Serv-U flaws offer root access to servers",
       "published_at": "2026-02-24T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/critical-solarwinds-serv-u-flaws-offer-root-access-to-servers/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "A lifetime license for the AcePDF editor is now only $25",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "ShinyHunters extortion gang claims Odido breach affecting millions",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/",
       "summary": ""
     },
     {
@@ -655,14 +671,6 @@
       "published_at": "2026-02-23T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes."
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "There Will be No Dikkering Around When Scott Dikkers Speaks at Payments",
-      "published_at": "2026-02-23T00:00:00Z",
-      "url": "https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments",
-      "summary": "When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…"
     },
     {
       "category": "Fintech Watch",
@@ -17903,22 +17911,6 @@
         "topic:investments"
       ],
       "fedreg_document_number": "2026-02868"
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Nominations Sent to the Senate",
-      "published_at": "2026-02-11T22:17:58Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-b65f/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet",
-      "published_at": "2026-02-11T22:03:51Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/",
-      "summary": ""
     }
   ]
 }
