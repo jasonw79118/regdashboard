@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-11T20:29:34Z` → `2026-02-25T20:29:34Z` (UTC)
-Last updated: `2026-02-25T14:29:34-06:00` (CT) — `2026-02-25T20:29:34Z` (UTC)
+Window: `2026-02-11T21:12:25Z` → `2026-02-25T21:12:25Z` (UTC)
+Last updated: `2026-02-25T15:12:25-06:00` (CT) — `2026-02-25T21:12:25Z` (UTC)
 
 ## WHAT THEY ARE SAYING: President Trump Heralds America’s Golden Age in Historic State of the Union Address
 - Source: White House
@@ -216,6 +216,14 @@ Microsoft has released the KB5077241 optional cumulative update for Windows 11, 
 - Category: Legislative
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
+
+## Beating the Deadline for Continuing Education Credits Yields a Nice Reward
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
+
+Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
 
 ## A SurfShark VPN plan for every screen you own is now 84% off
 - Source: BleepingComputer
