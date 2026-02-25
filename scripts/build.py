@@ -1349,14 +1349,7 @@ def items_from_federal_register_topics(start: datetime, end: datetime) -> List[D
 # DETAIL PAGE EXTRACTION
 # ============================
 
-def extract_published_from_detail(detail_url: str, html: str, source: str = "") -> Tuple[Optional[datetime], str, str]:
-    """
-    Returns:
-      - published_dt: best-effort datetime (UTC-aware when possible)
-      - snippet: best-effort description/summary text
-      - published_text: a *display* date string as it appears on the page (best-effort).
-        If we can't find a human-facing date string, we fall back to an ISO timestamp.
-    """
+def extract_published_from_detail(detail_url: str, html: str, source: str = "") -> Tuple[Optional[datetime], str]:
     soup = BeautifulSoup(html, "html.parser")
 
     snippet = ""
@@ -1364,45 +1357,35 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
     if meta_desc and meta_desc.get("content"):
         snippet = clean_text(meta_desc.get("content"), 380)
 
-    # --------
-    # 1) Domain/source-specific display date extraction
-    # --------
-    published_text = ""
+    # FDIC: the listing pages often show a "PRESS RELEASE / ..." date that may not belong to the linked article.
+    # Pull the publication date that appears directly under the article H1 (e.g., "December 16, 2025"),
+    # and ignore the "Last Updated:" line.
+    if (source or "").strip().lower() == "fdic" or "fdic.gov" in (detail_url or ""):
+        try:
+            h1 = soup.find("h1")
+            h1_text = (h1.get_text(" ", strip=True) if h1 else "").strip()
+            blob = soup.get_text("\n", strip=True)
+            look = blob
+            if h1_text:
+                p = blob.find(h1_text)
+                if p != -1:
+                    look = blob[p + len(h1_text) : p + len(h1_text) + 500]
+            month_names = "January|February|March|April|May|June|July|August|September|October|November|December"
+            mdate = re.search(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b", look)
+            if mdate:
+                date_text = mdate.group(0).strip()
+                dt = parse_date(date_text)
+                if dt:
+                    return dt, snippet
+        except Exception:
+            pass
 
-    # Mastercard press releases commonly show a human-readable date like:
-    # "May 13, 2024 | Toronto, ON & Fredericton, NB"
-    if "mastercard" in (source or "").lower() or "mastercard.com" in (detail_url or ""):
-        txt_blob = soup.get_text("\n", strip=True)
-        month_names = (
-            "January|February|March|April|May|June|July|August|September|October|November|December"
-        )
-        # Month Day, Year
-        m1 = re.search(rf"\b(?P<d>{month_names})\s+\d{{1,2}},\s+\d{{4}}\b", txt_blob)
-        if m1:
-            published_text = m1.group(0).strip()
-        else:
-            # Month, Year (less specific but still a page-format match)
-            m2 = re.search(rf"\b(?P<d>{month_names}),\s+\d{{4}}\b", txt_blob)
-            if m2:
-                published_text = m2.group(0).strip()
+    t = soup.find("time")
+    if t:
+        dt = parse_date(t.get("datetime") or t.get_text(" ", strip=True))
+        if dt:
+            return dt, snippet
 
-    # --------
-    # 2) Generic visible date extraction (prefer human-facing text)
-    # --------
-    if not published_text:
-        t = soup.find("time")
-        if t:
-            # Prefer visible text if it looks date-like.
-            t_text = (t.get_text(" ", strip=True) or "").strip()
-            if t_text and any(ch.isdigit() for ch in t_text) and len(t_text) <= 40:
-                published_text = t_text
-            dt = parse_date(t.get("datetime") or t_text)
-            if dt:
-                return dt, snippet, (published_text or iso_z(dt))
-
-    # --------
-    # 3) Meta tags / JSON-LD (usually ISO; keep as fallback for published_text)
-    # --------
     meta_keys = [
         ("property", "article:published_time"),
         ("name", "article:published_time"),
@@ -1416,7 +1399,7 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
         if m and m.get("content"):
             dt = parse_date(m.get("content"))
             if dt:
-                return dt, snippet, (published_text or m.get("content") or iso_z(dt))
+                return dt, snippet
 
     for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
         try:
@@ -1429,21 +1412,15 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                 continue
             for k in ["datePublished", "dateModified"]:
                 if k in obj:
-                    raw = obj.get(k)
-                    dt = parse_date(raw)
+                    dt = parse_date(obj.get(k))
                     if dt:
-                        # Keep the JSON-LD string as the page's "format" only if we have no better visible date.
-                        return dt, snippet, (published_text or str(raw or "").strip() or iso_z(dt))
+                        return dt, snippet
 
-    # --------
-    # 4) Fallback: scan body text for any date; use ISO for published_text if no visible date found
-    # --------
     dt = extract_any_date(soup.get_text(" ", strip=True), source=source)
     if dt:
-        return dt, snippet, (published_text or iso_z(dt))
+        return dt, snippet
 
-    return None, snippet, published_text
-
+    return None, snippet
 
 
 # ============================
@@ -2817,8 +2794,6 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
         title = escape(str(it.get("title", "")))
         url = escape(str(it.get("url", "")))
         pub = escape(str(it.get("published_at", "")))
-        article_date = escape(str(it.get("article_date", "")))
-        updated_at = escape(str(it.get("updated_at", "")))
         summary = escape(str(it.get("summary", "") or ""))
 
         parts.append(
@@ -2828,8 +2803,7 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
                     '  <div class="meta">',
                     f'    <span class="src">[{src}]</span>',
                     (f'    <span class="cat">{cat}</span>' if cat else ""),
-                    f'    <span class="pub">Article: {article_date or pub}</span>',
-                    f'    <span class="upd">Updated: {updated_at or pub}</span>',
+                    f'    <span class="pub">{pub}</span>',
                     "  </div>",
                     f'  <h2 class="title"><a href="{url}">{title}</a></h2>',
                     (f'  <p class="sum">{summary}</p>' if summary else ""),
@@ -2902,16 +2876,13 @@ def render_raw_md(payload: Dict[str, Any]) -> str:
         source = (it.get("source") or "").strip()
         category = (it.get("category") or "").strip()
         pub = (it.get("published_at") or "").strip()
-        article_date = (it.get("article_date") or "").strip()
-        updated_at = (it.get("updated_at") or pub).strip()
         url = (it.get("url") or "").strip()
         summary = (it.get("summary") or "").strip()
 
         lines.append(f"## {title}")
         lines.append(f"- Source: {source}")
         lines.append(f"- Category: {category}")
-        lines.append(f"- Article date: {article_date or pub}")
-        lines.append(f"- Updated: {updated_at}")
+        lines.append(f"- Published: {pub}")
         lines.append(f"- URL: {url}")
         if summary:
             lines.append("")
@@ -2927,8 +2898,7 @@ def render_raw_txt(payload: Dict[str, Any]) -> str:
     for it in items:
         out.append(str(it.get("category", "")).strip())
         out.append(str(it.get("source", "")).strip())
-        out.append(str(it.get("article_date", "") or it.get("published_at", "")).strip())
-        out.append(str(it.get("updated_at", "") or it.get("published_at", "")).strip())
+        out.append(str(it.get("published_at", "")).strip())
         out.append(str(it.get("title", "")).strip())
         out.append(str(it.get("url", "")).strip())
         summary = str(it.get("summary", "") or "").strip()
@@ -3110,75 +3080,66 @@ def build() -> None:
 
                 snippet = ""
 
-                # We track two distinct timestamps where available:
-                # - updated_dt: when the listing (or feed) indicates the item was updated (used for the rolling window)
-                # - article_dt/article_text: publication date of the underlying article (what Copilot should treat as the "article date")
-                updated_dt: Optional[datetime] = dt
-                article_dt: Optional[datetime] = None
-                article_text: str = ""
+                # FDIC: always pull the publication date from the detail page (the listing can show unrelated "PRESS RELEASE / ..." dates).
+                if source == "FDIC" and src_cap > 0:
+                    if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
+                        detail_html = polite_get(url)
+                        if detail_html:
+                            global_detail_fetches += 1
+                            src_used += 1
+                            per_source_detail_fetches[source] = src_used
 
-                def _maybe_fetch_detail_for_article_date() -> None:
-                    nonlocal article_dt, article_text, snippet, global_detail_fetches, src_used
-                    if src_cap <= 0:
-                        return
+                            dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
+                            if dt2:
+                                dt = dt2
+                            if snippet2:
+                                snippet = snippet2
+
+                # If Visa has a date but outside window, let detail override
+                if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
+                    if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
+                        detail_html = polite_get(url)
+                        if detail_html:
+                            global_detail_fetches += 1
+                            src_used += 1
+                            per_source_detail_fetches[source] = src_used
+
+                            dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
+                            if dt2:
+                                dt = dt2
+                            if snippet2:
+                                snippet = snippet2
+
+                # If we still don't have a date, use detail page (bounded by caps)
+                if dt is None and src_cap > 0:
                     if global_detail_fetches >= GLOBAL_DETAIL_FETCH_CAP:
-                        return
+                        continue
                     if src_used >= src_cap:
-                        return
+                        continue
+
                     detail_html = polite_get(url)
                     if not detail_html:
-                        return
+                        continue
+
                     global_detail_fetches += 1
                     src_used += 1
                     per_source_detail_fetches[source] = src_used
 
-                    dt2, snippet2, date_text2 = extract_published_from_detail(url, detail_html, source=source)
-                    if dt2 and article_dt is None:
-                        article_dt = dt2
-                    if date_text2 and not article_text:
-                        article_text = str(date_text2).strip()
-                    if snippet2:
-                        snippet = snippet2
+                    dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
+                    dt = dt2
+                    snippet = snippet2
 
-                # If Visa has a date but outside window, let detail override
-                if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)):
-                    _maybe_fetch_detail_for_article_date()
-                    if article_dt:
-                        # If the detail date is inside the window, treat it as updated_dt for windowing.
-                        updated_dt = article_dt
-
-                # Mastercard (and similar vendor sites) often have a listing/update timestamp that is NOT the article publication date.
-                # Always attempt to fetch the detail page to capture the on-page article date (within caps).
-                if source in {"Mastercard"}:
-                    _maybe_fetch_detail_for_article_date()
-
-                # If we still don't have any date, use detail page (bounded by caps)
-                if updated_dt is None:
-                    _maybe_fetch_detail_for_article_date()
-                    if article_dt:
-                        updated_dt = article_dt
-
-                if not updated_dt:
+                if not dt:
                     continue
-                if not in_window(updated_dt, window_start, window_end):
+                if not in_window(dt, window_start, window_end):
                     continue
-
-                # If we never found an article date, fall back to updated_dt.
-                if article_dt is None:
-                    article_dt = updated_dt
-                if not article_text and article_dt:
-                    article_text = iso_z(article_dt)
 
                 all_items.append(
                     {
                         "category": CATEGORY_BY_SOURCE.get(source, source),
                         "source": source,
                         "title": title,
-                        # keep existing semantics: published_at is the timestamp used for windowing/sorting (usually "updated")
-                        "published_at": iso_z(updated_dt),
-                        "updated_at": iso_z(updated_dt),
-                        "article_date_iso": iso_z(article_dt),
-                        "article_date": article_text,
+                        "published_at": iso_z(dt),
                         "url": url,
                         "summary": snippet,
                     }

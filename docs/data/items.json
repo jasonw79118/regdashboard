@@ -1,9 +1,313 @@
 {
-  "window_start": "2026-02-11T00:03:10Z",
-  "window_end": "2026-02-25T00:03:10Z",
-  "generated_at_utc": "2026-02-25T00:03:10Z",
-  "generated_at_ct": "2026-02-24T18:03:10-06:00",
+  "window_start": "2026-02-11T14:41:08Z",
+  "window_end": "2026-02-25T14:41:08Z",
+  "generated_at_utc": "2026-02-25T14:41:08Z",
+  "generated_at_ct": "2026-02-25T08:41:08-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Zyxel warns of critical RCE flaw affecting over a dozen routers",
+      "published_at": "2026-02-25T12:53:02Z",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/",
+      "summary": "Taiwan networking provider Zyxel has released security updates to address a critical vulnerability affecting over a dozen router models that can allow unauthenticated attackers to gain remote command execution on unpatched devices. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "US sanctions Russian broker for buying stolen zero-day exploits",
+      "published_at": "2026-02-25T10:31:13Z",
+      "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-russian-exploit-broker-for-buying-stolen-zero-days/",
+      "summary": "The U.S. Treasury Department has sanctioned a Russian exploit broker who bought stolen hacking tools from a former executive of a U.S. defense contractor. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-26960 node-tar has Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in Extraction",
+      "published_at": "2026-02-25T09:38:11Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26960",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-68973 In GnuPG through 2.4.8, armor_filter in g10/armor.c has two increments of an index variable where one is intended, leading to an out-of-bounds write for crafted input. (For ExtendedLTS, 2.2.51 and later a…",
+      "published_at": "2026-02-25T09:36:51Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68973",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-2739 This affects versions of the package bn.js before 5.2.3. Calling maskn(0) on any BN instance corrupts the internal state, causing toString(), divmod(), and other methods to enter an infinite loop, hanging…",
+      "published_at": "2026-02-25T09:03:52Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2739",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-21620 TFTP Path Traversal",
+      "published_at": "2026-02-25T09:03:47Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21620",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-27211 Cloud Hypervisor: Host File Exfiltration via QCOW Backing File Abuse",
+      "published_at": "2026-02-25T09:03:39Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27211",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-38656 wifi: iwlwifi: Fix error code in iwl_op_mode_dvm_start()",
+      "published_at": "2026-02-25T09:03:29Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38656",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2023-53543 vdpa: Add max vqp attr to vdpa_nl_policy for nlattr length check",
+      "published_at": "2026-02-25T09:03:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-53543",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-27199 Werkzeug safe_join() allows Windows special device names",
+      "published_at": "2026-02-25T09:03:19Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27199",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Ex-L3Harris exec jailed for selling zero-days to Russian exploit broker",
+      "published_at": "2026-02-25T08:21:40Z",
+      "url": "https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/",
+      "summary": "The former head of Trenchant, a specialized U.S. defense contractor unit, was sentenced Tuesday to more than seven years in federal prison for stealing and selling zero-day exploits to a Russian broker whose clients include the Russian government. [...]"
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-25T08:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-2025-full-year-report",
+      "summary": "Wolters Kluwer, a global leader in professional information, software solutions and services, today releases its full-year 2025 results."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool",
+      "published_at": "2026-02-25T07:51:51Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077241-update-improves-bitlocker-adds-sysmon-tool/",
+      "summary": "Microsoft has released the KB5077241 optional cumulative update for Windows 11, which comes with 29 changes, including improvements to BitLocker, a new network speed test tool, and native System Monitor (Sysmon) functionality. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Democrats Showed Whose Side They’re On — And it’s Not the American People",
+      "published_at": "2026-02-25T06:10:09Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/democrats-showed-whose-side-theyre-on-and-its-not-the-american-people-249d/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump’s Peace Through Strength: Renewed American Leadership and Global Security",
+      "published_at": "2026-02-25T03:12:05Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trumps-peace-through-strength-renewed-american-leadership-and-global-security/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump Returned Our Nation to Law and Order",
+      "published_at": "2026-02-25T03:12:04Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-returned-our-nation-to-law-and-order/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "American Energy Dominance Is Back Under President Trump",
+      "published_at": "2026-02-25T03:12:02Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/american-energy-dominance-is-back-under-president-trump/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump Is Delivering Real Relief — Reversing Biden’s Economic Disaster and Unleashing Greater Prosperity Ahead",
+      "published_at": "2026-02-25T02:37:10Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-is-delivering-real-relief-reversing-bidens-economic-disaster-and-unleashing-greater-prosperity-ahead/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump Is Restoring the American Dream",
+      "published_at": "2026-02-25T02:20:04Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-is-restoring-the-american-dream/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump Is Securing Our Homeland: Ending the Invasion, Deporting Criminals, and Protecting Our Communities",
+      "published_at": "2026-02-25T02:16:50Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-is-securing-our-homeland-ending-the-invasion-deporting-criminals-and-protecting-our-communities/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "A SurfShark VPN plan for every screen you own is now 84% off",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/",
+      "summary": ""
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Equal Credit Opportunity Act (Regulation B)",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/C1-2025-19864/equal-credit-opportunity-act-regulation-b",
+      "summary": "",
+      "fr_tags": [
+        "agency:consumer-financial-protection-bureau",
+        "filter:consumer-financial-protection-bureau",
+        "topic:banks-banking",
+        "topic:credit",
+        "topic:credit-unions",
+        "topic:national-banks",
+        "topic:savings-associations"
+      ],
+      "fedreg_document_number": "C1-2025-19864"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Statutory Liens",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03758/statutory-liens",
+      "summary": "The NCUA Board (Board) is publishing this proposed rule to remove a provision of NCUA regulations regarding federal credit unions' (FCUs) statutory lien authority. The Board believes it is redundant to continue to include a definition of the term \"except as otherwise provided by law or except as otherwise provided by federal law\" when it is axiomatic that a law that supersedes…",
+      "fr_tags": [
+        "agency:national-credit-union-administration",
+        "topic:credit",
+        "topic:credit-unions",
+        "topic:fair-housing",
+        "topic:insurance",
+        "topic:mortgages"
+      ],
+      "fedreg_document_number": "2026-03758"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Credit Union Service Contracts",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03757/credit-union-service-contracts",
+      "summary": "The NCUA Board (Board) is proposing to revise its regulations governing the organization and operation of federal credit unions (FCUs) by eliminating a provision related to credit union service contracts. The Board intends to reduce administrative costs and compliance complexity with this revision, enabling FCUs to serve their members more efficiently.",
+      "fr_tags": [
+        "agency:national-credit-union-administration",
+        "topic:credit",
+        "topic:credit-unions",
+        "topic:fair-housing",
+        "topic:insurance",
+        "topic:mortgages"
+      ],
+      "fedreg_document_number": "2026-03757"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Refund of Interest",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03756/refund-of-interest",
+      "summary": "The NCUA Board (Board) is issuing for public comment a proposal to rescind its regulation that addresses the refund of interest to members. This regulation is redundant, as it restates the authority already granted to a federal credit union's (FCU's) board of directors by the Federal Credit Union Act (FCU Act) section 113(9).",
+      "fr_tags": [
+        "agency:national-credit-union-administration",
+        "topic:credit",
+        "topic:credit-unions",
+        "topic:fair-housing",
+        "topic:insurance",
+        "topic:mortgages"
+      ],
+      "fedreg_document_number": "2026-03756"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Purchase, Sale, and Pledge of Eligible Obligations",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03755/purchase-sale-and-pledge-of-eligible-obligations",
+      "summary": "The NCUA Board (Board) solicits public comment on a proposal to streamline its regulations governing the purchase, sale, and pledge of eligible obligations. The Board proposes to remove the prescriptive lists of items that must be addressed in the written policies adopted by a federal credit union (FCU). Although FCUs would still be required to maintain written policies, remov…",
+      "fr_tags": [
+        "agency:national-credit-union-administration",
+        "topic:credit",
+        "topic:credit-unions",
+        "topic:fair-housing",
+        "topic:insurance",
+        "topic:mortgages"
+      ],
+      "fedreg_document_number": "2026-03755"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Compensation in Connection With Loans to Members and Lines of Credit to Members",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03754/compensation-in-connection-with-loans-to-members-and-lines-of-credit-to-members",
+      "summary": "The NCUA Board (Board) is issuing for public comment a proposal to amend the NCUA's regulation that limits a federally insured credit union (FICU) official and employee compensation in connection with loans to members and lines of credit to members. These regulations have generated confusion and are unduly restrictive. To provide clearer and more flexible standards, the propos…",
+      "fr_tags": [
+        "agency:national-credit-union-administration",
+        "topic:credit",
+        "topic:credit-unions",
+        "topic:fair-housing",
+        "topic:insurance",
+        "topic:mortgages"
+      ],
+      "fedreg_document_number": "2026-03754"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Post-Election Training for New Board Members",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03753/post-election-training-for-new-board-members",
+      "summary": "The NCUA Board (Board) solicits public comment on a proposal to eliminate the regulatory requirement that each director of a federal credit union (FCU) attain a working familiarity with finance and accounting within 6 months after election or appointment. The Board believes the regulation is unnecessarily prescriptive.",
+      "fr_tags": [
+        "agency:national-credit-union-administration",
+        "topic:credit",
+        "topic:credit-unions",
+        "topic:fair-housing",
+        "topic:insurance",
+        "topic:mortgages"
+      ],
+      "fedreg_document_number": "2026-03753"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Rescinding 30-Day Notification Requirements Related to Eviction Based on Nonpayment of Rent in Multi-Family Housing Direct Properties",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03716/rescinding-30-day-notification-requirements-related-to-eviction-based-on-nonpayment-of-rent-in",
+      "summary": "The Rural Housing Service (RHS or the Agency), an agency of the Rural Development (RD) mission area within the U.S. Department of Agriculture (USDA), is issuing this final rule to rescind the regulatory requirement of the minimum 30-day notice for nonpayment of rent before the start of eviction proceedings in Rural Housing Service (RHS) Section 515 and 514 Multi-Family Housing…",
+      "fr_tags": [
+        "agency:agriculture-department",
+        "agency:rural-housing-service",
+        "topic:insurance",
+        "topic:loan-programs-agriculture",
+        "topic:mortgages"
+      ],
+      "fedreg_document_number": "2026-03716"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -33,9 +337,6 @@
       "source": "Treasury",
       "title": "Treasury Sanctions Exploit Broker Network for Theft and Sale of U.S. Government Cyber Tools",
       "published_at": "2026-02-24T19:00:00Z",
-      "updated_at": "2026-02-24T19:00:00Z",
-      "article_date_iso": "2026-02-24T19:00:00Z",
-      "article_date": "2026-02-24T19:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0404",
       "summary": ""
     },
@@ -60,9 +361,6 @@
       "source": "White House",
       "title": "Radical Left’s Rebuttal Will Contrast Democrat Extremism with President Trump’s Road to Prosperity",
       "published_at": "2026-02-24T17:58:15Z",
-      "updated_at": "2026-02-24T17:58:15Z",
-      "article_date_iso": "2026-02-24T17:58:15Z",
-      "article_date": "2026-02-24T17:58:15Z",
       "url": "https://www.whitehouse.gov/articles/2026/02/radical-lefts-rebuttal-will-contrast-democrat-extremism-with-president-trumps-road-to-prosperity/",
       "summary": ""
     },
@@ -79,9 +377,6 @@
       "source": "White House",
       "title": "ONDCP Launches New Public Awareness Effort Focused on Saving Lives Through Drug Prevention",
       "published_at": "2026-02-24T17:11:34Z",
-      "updated_at": "2026-02-24T17:11:34Z",
-      "article_date_iso": "2026-02-24T17:11:34Z",
-      "article_date": "2026-02-24T17:11:34Z",
       "url": "https://www.whitehouse.gov/articles/2026/02/ondcp-launches-new-public-awareness-effort-focused-on-saving-lives-through-drug-prevention/",
       "summary": ""
     },
@@ -90,9 +385,6 @@
       "source": "White House",
       "title": "First Lady Melania Trump’s State of the Union Guests Reflect Her Impact on Education, Tech, and the Foster Community",
       "published_at": "2026-02-24T17:02:35Z",
-      "updated_at": "2026-02-24T17:02:35Z",
-      "article_date_iso": "2026-02-24T17:02:35Z",
-      "article_date": "2026-02-24T17:02:35Z",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/02/first-lady-melania-trumps-state-of-the-union-guests-reflect-her-impact-on-education-tech-and-the-foster-community/",
       "summary": ""
     },
@@ -141,9 +433,6 @@
       "source": "Finastra",
       "title": "Finastra teams up with CargoX to further adoption of digital-at-source electronic trade documentation",
       "published_at": "2026-02-24T12:00:00Z",
-      "updated_at": "2026-02-24T12:00:00Z",
-      "article_date_iso": "2026-02-24T12:00:00Z",
-      "article_date": "2026-02-24T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-teams-cargox-further-adoption-digital-source-electronic-trade-documentation",
       "summary": ""
     },
@@ -168,9 +457,6 @@
       "source": "OFAC",
       "title": "Cyber-related Designations; CAATSA - Russia-related Designations; PAIPA Designations",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260224",
       "summary": ""
     },
@@ -179,9 +465,6 @@
       "source": "FDIC",
       "title": "FDIC-Insured Institutions Reported Return on Assets of 1.24 Percent and Net Income of $77.7 Billion in Fourth Quarter 2025",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net",
       "summary": "The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025."
     },
@@ -190,9 +473,6 @@
       "source": "FDIC",
       "title": "FDIC Releases Economic Scenarios for 2026 Stress Testing",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing",
       "summary": "WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere"
     },
@@ -201,9 +481,6 @@
       "source": "FDIC",
       "title": "FDIC Extends Comment Period on Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-extends-comment-period-proposal-establish-genius-act-application",
       "summary": "The FDIC today announced a 90-day extension to the comment period on the agency’s notice of proposed rulemaking (NPR) that would implement the application provi"
     },
@@ -212,31 +489,14 @@
       "source": "FDIC",
       "title": "FDIC Issues List of Banks Examined for CRA Compliance",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-0",
       "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
     },
     {
       "category": "Banking",
       "source": "FDIC",
-      "title": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois",
-      "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
-      "url": "https://www.fdic.gov/news/press-releases/2026/first-independence-bank-detroit-michigan-assumes-all-deposits-metropolitan",
-      "summary": "First Independence Bank, Detroit, Michigan, Assumes All Deposits of Metropolitan Capital Bank & Trust, Chicago, Illinois"
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
       "title": "FDIC Publishes December Enforcement Actions",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-publishes-december-enforcement-actions",
       "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in December 2025."
     },
@@ -245,9 +505,6 @@
       "source": "FDIC",
       "title": "FDIC Approves the Deposit Insurance Applications for Ford Credit Bank, Salt Lake City, Utah, and GM Financial Bank, Salt Lake City, Utah",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-applications-ford-credit-bank-salt-lake",
       "summary": "The FDIC today approved deposit insurance applications submitted by Ford Motor Company to establish Ford Credit Bank and General Motors Company to establish GM"
     },
@@ -256,9 +513,6 @@
       "source": "FDIC",
       "title": "FDIC Board Approves Final Rule to Amend Official Signs and Advertising Requirements",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-final-rule-amend-official-signs-and-advertising",
       "summary": "The FDIC Board of Directors today approved a final rule to amend regulations governing the display of the FDIC official digital sign and non-deposit signage."
     },
@@ -267,9 +521,6 @@
       "source": "FDIC",
       "title": "FDIC Board of Directors Establishes Office of Supervisory Appeals",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-establishes-office-supervisory-appeals",
       "summary": "The FDIC Board of Directors today approved amendments to the agency’s Guidelines for Appeals of Material Supervisory Determinations."
     },
@@ -278,9 +529,6 @@
       "source": "FDIC",
       "title": "Travis Hill Sworn in as the 23rd Chairman of the FDIC",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/travis-hill-sworn-23rd-chairman-fdic",
       "summary": "Travis Hill was sworn in as the 23rd Chairman of the Federal Deposit Insurance Corporation (FDIC)."
     },
@@ -289,9 +537,6 @@
       "source": "FDIC",
       "title": "Agencies Issue 2025 Shared National Credit Program Report",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/agencies-issue-2025-shared-national-credit-program-report",
       "summary": "Federal bank regulatory agencies today released the 2025 Shared National Credit report that indicates credit risk associated with large, syndicated bank loans"
     },
@@ -300,9 +545,6 @@
       "source": "FDIC",
       "title": "FDIC Issues List of Banks Examined for CRA Compliance",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance",
       "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
     },
@@ -311,9 +553,6 @@
       "source": "FDIC",
       "title": "Agencies Release Annual Asset-Size Thresholds Under Community Reinvestment Act Regulations",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2025/agencies-release-annual-asset-size-thresholds-under-community-reinvestment",
       "summary": "The agencies today announced the 2026 updated Community Reinvestment Act (CRA) “small bank” and “intermediate small bank” asset-size thresholds."
     },
@@ -322,9 +561,6 @@
       "source": "FDIC",
       "title": "FDIC Publishes November Enforcement Actions",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2025/fdic-publishes-november-enforcement-actions",
       "summary": "The FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in November 2025."
     },
@@ -333,9 +569,6 @@
       "source": "FDIC",
       "title": "FDIC Approves the Deposit Insurance Application for Erebor Bank, N.A., Columbus, Ohio",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-deposit-insurance-application-erebor-bank-na-columbus-ohio",
       "summary": "The FDIC today approved a deposit insurance application to establish Erebor Bank, N.A. (Erebor Bank), a newly chartered national bank to be headquartered.."
     },
@@ -344,9 +577,6 @@
       "source": "FDIC",
       "title": "FDIC Board of Directors Approves Final Rule on Establishment and Relocation of Branches and Offices",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-approves-final-rule-establishment-and-relocation",
       "summary": "The FDIC Board of Directors today approved a final rule to streamline the processes for the establishment and relocation of domestic branches and main offices."
     },
@@ -355,9 +585,6 @@
       "source": "FDIC",
       "title": "FDIC Board Approves 2026 Operating Budget",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-approves-2026-operating-budget",
       "summary": "The Board of Directors of the FDIC today approved a 2026 budget of $2.49 billion to support the agency’s ongoing operations and receivership functions."
     },
@@ -366,9 +593,6 @@
       "source": "FDIC",
       "title": "FDIC Board of Directors Issues an Interim Final Rule to Amend the Collection of the Special Assessment",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2025/fdic-board-directors-issues-interim-final-rule-amend-collection-special",
       "summary": "The FDIC Board of Directors today approved an interim final rule to amend the collection of the special assessment to recover losses to the Deposit Insurance Fu"
     },
@@ -377,9 +601,6 @@
       "source": "FDIC",
       "title": "FDIC Approves Proposal to Establish GENIUS Act Application Procedures for FDIC-Supervised Institutions Seeking to Issue Payment Stablecoins",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2025/fdic-approves-proposal-establish-genius-act-application-procedures-fdic",
       "summary": "The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement the application provisions under the GENIUS Act."
     },
@@ -388,9 +609,6 @@
       "source": "FDIC",
       "title": "Interagency Statement on OCC and FDIC Withdrawal from the Interagency Leveraged Lending Guidance Issuances",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2025/interagency-statement-occ-and-fdic-withdrawal-interagency-leveraged",
       "summary": "The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (collectively “the agencies”) are rescinding the “Interagency Guidan"
     },
@@ -399,9 +617,6 @@
       "source": "Senate Banking",
       "title": "On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration",
       "summary": ""
     },
@@ -410,9 +625,6 @@
       "source": "Senate Banking",
       "title": "ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs",
       "summary": ""
     },
@@ -421,9 +633,6 @@
       "source": "Senate Banking",
       "title": "Senate Democrats Introduce The American Homeownership Act To Stop Wall Street’s Housing Grab and Get Homes Back into the Hands of Families",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/senate-democrats-introduce-the-american-homeownership-act-to-stop-wall-streets-housing-grab-and-get-homes-back-into-the-hands-of-families",
       "summary": ""
     },
@@ -432,9 +641,6 @@
       "source": "FIS",
       "title": "FIS Reports Full-Year 2025 Results and Introduces 2026 Outlook",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-reports-full-year-2025-results-and-introduces-2026-outlook",
       "summary": ""
     },
@@ -443,9 +649,6 @@
       "source": "FIS",
       "title": "FIS to Report Fourth Quarter Earnings on February 24, 2026",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026",
       "summary": ""
     },
@@ -454,9 +657,6 @@
       "source": "BleepingComputer",
       "title": "This $139 refurbished portable monitor is now under $60",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/",
       "summary": ""
     },
@@ -465,11 +665,16 @@
       "source": "BleepingComputer",
       "title": "A lifetime license for the AcePDF editor is now only $25",
       "published_at": "2026-02-24T00:00:00Z",
-      "updated_at": "2026-02-24T00:00:00Z",
-      "article_date_iso": "2026-02-24T00:00:00Z",
-      "article_date": "2026-02-24T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/dresner-application-innovation-awards",
+      "summary": "CCH Tagetik Powered by Expert AI has once again been recognized as a top innovator, earning multiple honors in the 2025 Dresner Advisory Services Application Innovation Awards."
     },
     {
       "category": "Federal Register",
@@ -532,17 +737,6 @@
       "summary": "Several mental health mobile apps with millions of downloads on Google Play contain security vulnerabilities that could expose users' sensitive medical information. [...]"
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "America 250: Presidential Message on the Anniversary of the Battle of the Alamo",
-      "published_at": "2026-02-23T22:13:24Z",
-      "updated_at": "2026-02-23T22:13:24Z",
-      "article_date_iso": "2026-02-23T22:13:24Z",
-      "article_date": "2026-02-23T22:13:24Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/02/america-250-presidential-message-on-the-anniversary-of-the-battle-of-the-alamo/",
-      "summary": ""
-    },
-    {
       "category": "Banking",
       "source": "FRB",
       "title": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal",
@@ -551,67 +745,18 @@
       "summary": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Spain arrests suspected hacktivists for DDoSing govt sites",
-      "published_at": "2026-02-23T21:59:42Z",
-      "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/",
-      "summary": "Spanish authorities have arrested four alleged members of a hacktivist group believed to have carried out cyberattacks targeting government ministries, political parties, and various public institutions. [...]"
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "President Trump Honors Angel Families, Remembers American Lives Lost to Illegal Immigration",
-      "published_at": "2026-02-23T20:43:19Z",
-      "updated_at": "2026-02-23T20:43:19Z",
-      "article_date_iso": "2026-02-23T20:43:19Z",
-      "article_date": "2026-02-23T20:43:19Z",
-      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-honors-angel-families-remembers-american-lives-lost-to-illegal-immigration/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft says bug in classic Outlook hides the mouse pointer",
-      "published_at": "2026-02-23T19:40:42Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/",
-      "summary": "Microsoft is investigating a known issue that causes the mouse pointer to disappear in the classic Outlook desktop email client for some users. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Ad tech firm Optimizely confirms data breach after vishing attack",
-      "published_at": "2026-02-23T18:04:01Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-data-breach-after-vishing-attack/",
-      "summary": "New York-based ad tech company Optimizely has notified an undisclosed number of customers of a data breach after threat actors compromised some of its systems in a voice phishing attack. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "National Angel Family Day, 2026",
       "published_at": "2026-02-23T16:19:54Z",
-      "updated_at": "2026-02-23T16:19:54Z",
-      "article_date_iso": "2026-02-23T16:19:54Z",
-      "article_date": "2026-02-23T16:19:54Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-angel-family-day-2026/",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "When identity isn’t the weak link, access still is",
-      "published_at": "2026-02-23T15:00:10Z",
-      "url": "https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/",
-      "summary": "Stolen tokens and compromised devices let attackers reuse trust without breaking authentication. Specops Software explains why identity alone isn't enough and how continuous device verification strengthens Zero Trust. [...]"
     },
     {
       "category": "Payments",
       "source": "NACHA",
       "title": "Education",
       "published_at": "2026-02-23T14:20:03Z",
-      "updated_at": "2026-02-23T14:20:03Z",
-      "article_date_iso": "2026-02-23T14:20:03Z",
-      "article_date": "February 23, 2026",
       "url": "https://www.nacha.org/taxonomy/term/345",
       "summary": ""
     },
@@ -620,9 +765,6 @@
       "source": "NACHA",
       "title": "Blog",
       "published_at": "2026-02-23T14:20:03Z",
-      "updated_at": "2026-02-23T14:20:03Z",
-      "article_date_iso": "2026-02-23T14:20:03Z",
-      "article_date": "February 23, 2026",
       "url": "https://www.nacha.org/taxonomy/term/41",
       "summary": ""
     },
@@ -631,9 +773,6 @@
       "source": "Fannie Mae",
       "title": "Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes",
       "published_at": "2026-02-23T00:00:00Z",
-      "updated_at": "2026-02-23T00:00:00Z",
-      "article_date_iso": "2026-02-23T00:00:00Z",
-      "article_date": "2026-02-23T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes."
     },
@@ -642,9 +781,6 @@
       "source": "NACHA",
       "title": "There Will be No Dikkering Around When Scott Dikkers Speaks at Payments",
       "published_at": "2026-02-23T00:00:00Z",
-      "updated_at": "2026-02-23T00:00:00Z",
-      "article_date_iso": "2026-02-23T00:00:00Z",
-      "article_date": "2026-02-23T00:00:00Z",
       "url": "https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments",
       "summary": ""
     },
@@ -653,32 +789,31 @@
       "source": "FIS",
       "title": "FIS Launches 24/7 AI Assistant to Ease Risk Models Management",
       "published_at": "2026-02-23T00:00:00Z",
-      "updated_at": "2026-02-23T00:00:00Z",
-      "article_date_iso": "2026-02-23T00:00:00Z",
-      "article_date": "2026-02-23T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Get started in cybersecurity with $53 training course deal",
+      "title": "Spain arrests suspected hacktivists for DDoSing govt sites",
       "published_at": "2026-02-23T00:00:00Z",
-      "updated_at": "2026-02-23T00:00:00Z",
-      "article_date_iso": "2026-02-23T00:00:00Z",
-      "article_date": "2026-02-23T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/get-started-in-cybersecurity-with-53-training-course-deal/",
+      "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "CISA: Recently patched RoundCube flaws now exploited in attacks",
+      "title": "Microsoft says bug in classic Outlook hides the mouse pointer",
       "published_at": "2026-02-23T00:00:00Z",
-      "updated_at": "2026-02-23T00:00:00Z",
-      "article_date_iso": "2026-02-23T00:00:00Z",
-      "article_date": "2026-02-23T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-roundcube-flaws-now-exploited-in-attacks/",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/",
+      "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "CDIA",
+      "title": "Metro 2® Webinars",
+      "published_at": "2026-02-23T00:00:00Z",
+      "url": "https://www.cdiaonline.org/metro-2-webinars/",
       "summary": ""
     },
     {
@@ -707,17 +842,6 @@
         "topic:employment"
       ],
       "fedreg_document_number": "2026-03595"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Arkanix Stealer pops up as short-lived AI info-stealer experiment",
-      "published_at": "2026-02-22T00:00:00Z",
-      "updated_at": "2026-02-22T00:00:00Z",
-      "article_date_iso": "2026-02-22T00:00:00Z",
-      "article_date": "2026-02-22T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/",
-      "summary": ""
     },
     {
       "category": "IS",
@@ -3108,9 +3232,6 @@
       "source": "White House",
       "title": "Imposing a Temporary Import Surcharge to Address Fundamental International Payments Problems",
       "published_at": "2026-02-21T00:40:07Z",
-      "updated_at": "2026-02-21T00:40:07Z",
-      "article_date_iso": "2026-02-21T00:40:07Z",
-      "article_date": "2026-02-21T00:40:07Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/imposing-a-temporary-import-surcharge-to-address-fundamental-international-payments-problems/",
       "summary": ""
     },
@@ -3119,9 +3240,6 @@
       "source": "White House",
       "title": "Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries",
       "published_at": "2026-02-21T00:14:47Z",
-      "updated_at": "2026-02-21T00:14:47Z",
-      "article_date_iso": "2026-02-21T00:14:47Z",
-      "article_date": "2026-02-21T00:14:47Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/",
       "summary": ""
     },
@@ -3130,21 +3248,7 @@
       "source": "White House",
       "title": "Ending Certain Tariff Actions",
       "published_at": "2026-02-21T00:12:16Z",
-      "updated_at": "2026-02-21T00:12:16Z",
-      "article_date_iso": "2026-02-21T00:12:16Z",
-      "article_date": "2026-02-21T00:12:16Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ending-certain-tariff-actions/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Fact Sheet: President Donald J. Trump Imposes a Temporary Import Duty to Address Fundamental International Payment Problems",
-      "published_at": "2026-02-21T00:05:41Z",
-      "updated_at": "2026-02-21T00:05:41Z",
-      "article_date_iso": "2026-02-21T00:05:41Z",
-      "article_date": "2026-02-21T00:05:41Z",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-imposes-a-temporary-import-duty-to-address-fundamental-international-payment-problems/",
       "summary": ""
     },
     {
@@ -3152,9 +3256,6 @@
       "source": "Treasury",
       "title": "Secretary of the Treasury Scott Bessent’s Remarks Before the Economic Club of Dallas - Economic Security First",
       "published_at": "2026-02-20T19:12:25Z",
-      "updated_at": "2026-02-20T19:12:25Z",
-      "article_date_iso": "2026-02-20T19:12:25Z",
-      "article_date": "2026-02-20T19:12:25Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0403",
       "summary": ""
     },
@@ -3171,9 +3272,6 @@
       "source": "Treasury",
       "title": "FATF Holds Plenary in Mexico, Advances Key Illicit Finance Initiatives",
       "published_at": "2026-02-20T16:00:53Z",
-      "updated_at": "2026-02-20T16:00:53Z",
-      "article_date_iso": "2026-02-20T16:00:53Z",
-      "article_date": "2026-02-20T16:00:53Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0402",
       "summary": ""
     },
@@ -3206,11 +3304,16 @@
       "source": "IRS",
       "title": "Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill",
       "published_at": "2026-02-20T00:00:00Z",
-      "updated_at": "2026-02-20T00:00:00Z",
-      "article_date_iso": "2026-02-20T00:00:00Z",
-      "article_date": "2026-02-20T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill",
       "summary": "IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill."
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "CDIA",
+      "title": "Education Services",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.cdiaonline.org/education-services/",
+      "summary": ""
     },
     {
       "category": "Federal Register",
@@ -3259,9 +3362,6 @@
       "source": "Treasury",
       "title": "Treasury Releases Two New Resources to Guide AI Use in the Financial Sector",
       "published_at": "2026-02-19T19:30:00Z",
-      "updated_at": "2026-02-19T19:30:00Z",
-      "article_date_iso": "2026-02-19T19:30:00Z",
-      "article_date": "2026-02-19T19:30:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0401",
       "summary": ""
     },
@@ -3286,9 +3386,6 @@
       "source": "Treasury",
       "title": "Treasury Targets Cartel-Linked Timeshare Resort Defrauding U.S. Citizens",
       "published_at": "2026-02-19T15:30:00Z",
-      "updated_at": "2026-02-19T15:30:00Z",
-      "article_date_iso": "2026-02-19T15:30:00Z",
-      "article_date": "2026-02-19T15:30:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0400",
       "summary": ""
     },
@@ -3297,9 +3394,6 @@
       "source": "Treasury",
       "title": "Treasury Sanctions Sudanese Paramilitary Commanders for Atrocities in El-Fasher",
       "published_at": "2026-02-19T15:00:00Z",
-      "updated_at": "2026-02-19T15:00:00Z",
-      "article_date_iso": "2026-02-19T15:00:00Z",
-      "article_date": "2026-02-19T15:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0399",
       "summary": ""
     },
@@ -3308,11 +3402,16 @@
       "source": "Treasury",
       "title": "Secretary Bessent Announces 2026 G20 Finance Track Agenda and Finance Ministers and Central Bank Governors Meeting in Asheville, North Carolina",
       "published_at": "2026-02-19T14:00:00Z",
-      "updated_at": "2026-02-19T14:00:00Z",
-      "article_date_iso": "2026-02-19T14:00:00Z",
-      "article_date": "2026-02-19T14:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0398",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-19T10:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-introduces-legisway-advisor",
+      "summary": "Wolters Kluwer Legal & Regulatory today announced the launch of Legisway Advisor, a new contract redrafting capability powered by Expert AI."
     },
     {
       "category": "IS",
@@ -3351,9 +3450,6 @@
       "source": "OFAC",
       "title": "Counter Terrorism and Counter Narcotics Designations; Sudan-related Designations and Designation Update; Russia-related Designation Update; Issuance of Counter Terrorism General License",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260219",
       "summary": ""
     },
@@ -3362,9 +3458,6 @@
       "source": "OCC",
       "title": "OCC Announces Enforcement Actions for February 2026",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html",
       "summary": ""
     },
@@ -3373,9 +3466,6 @@
       "source": "Freddie Mac",
       "title": "Average 30-Year Fixed-Rate Mortgage Hits Another Low",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://www.globenewswire.com/news-release/2026/02/19/3241388/0/en/Average-30-Year-Fixed-Rate-Mortgage-Hits-Another-Low.html",
       "summary": ""
     },
@@ -3384,9 +3474,6 @@
       "source": "Visa",
       "title": "Visa to Acquire Prisma Medios de Pago and Newpay in Argentina",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html",
       "summary": ""
     },
@@ -3395,9 +3482,6 @@
       "source": "Visa",
       "title": "Visa Renews Partnership Across Red Bull Formula One Teams",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html",
       "summary": ""
     },
@@ -3406,9 +3490,6 @@
       "source": "Visa",
       "title": "Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html",
       "summary": ""
     },
@@ -3417,9 +3498,6 @@
       "source": "Visa",
       "title": "Visa to Participate in Upcoming Investor Conferences",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html",
       "summary": ""
     },
@@ -3428,9 +3506,6 @@
       "source": "Visa",
       "title": "Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html",
       "summary": ""
     },
@@ -3439,9 +3514,6 @@
       "source": "Visa",
       "title": "Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html",
       "summary": ""
     },
@@ -3450,9 +3522,6 @@
       "source": "Visa",
       "title": "Visa Fiscal First Quarter 2026 Financial Results",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html",
       "summary": ""
     },
@@ -3461,9 +3530,6 @@
       "source": "Visa",
       "title": "Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html",
       "summary": ""
     },
@@ -3472,9 +3538,6 @@
       "source": "Visa",
       "title": "Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html",
       "summary": ""
     },
@@ -3483,9 +3546,6 @@
       "source": "Visa",
       "title": "Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html",
       "summary": ""
     },
@@ -3494,9 +3554,6 @@
       "source": "Visa",
       "title": "Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth",
       "published_at": "2026-02-19T00:00:00Z",
-      "updated_at": "2026-02-19T00:00:00Z",
-      "article_date_iso": "2026-02-19T00:00:00Z",
-      "article_date": "2026-02-19T00:00:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html",
       "summary": ""
     },
@@ -3580,9 +3637,6 @@
       "source": "White House",
       "title": "Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides",
       "published_at": "2026-02-18T22:47:24Z",
-      "updated_at": "2026-02-18T22:47:24Z",
-      "article_date_iso": "2026-02-18T22:47:24Z",
-      "article_date": "2026-02-18T22:47:24Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/promoting-the-national-defense-by-ensuring-an-adequate-supply-of-elemental-phosphorus-and-glyphosate-based-herbicides/",
       "summary": ""
     },
@@ -4319,9 +4373,6 @@
       "source": "Treasury",
       "title": "Treasury Issues Interim CAMT Guidance to Reduce Burdens, Support U.S. Investment, and Maximize Growth",
       "published_at": "2026-02-18T21:57:31Z",
-      "updated_at": "2026-02-18T21:57:31Z",
-      "article_date_iso": "2026-02-18T21:57:31Z",
-      "article_date": "2026-02-18T21:57:31Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0397",
       "summary": ""
     },
@@ -4330,9 +4381,6 @@
       "source": "Treasury",
       "title": "Treasury International Capital Data for December",
       "published_at": "2026-02-18T21:00:00Z",
-      "updated_at": "2026-02-18T21:00:00Z",
-      "article_date_iso": "2026-02-18T21:00:00Z",
-      "article_date": "2026-02-18T21:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0396",
       "summary": ""
     },
@@ -4349,9 +4397,6 @@
       "source": "Treasury",
       "title": "Treasury Announces Public-Private Initiative to Strengthen Cybersecurity and Risk Management for AI",
       "published_at": "2026-02-18T18:00:00Z",
-      "updated_at": "2026-02-18T18:00:00Z",
-      "article_date_iso": "2026-02-18T18:00:00Z",
-      "article_date": "2026-02-18T18:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0395",
       "summary": ""
     },
@@ -11708,6 +11753,14 @@
       "summary": "Information published."
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-18T10:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-libra-legal-ai-workspace-in-italy-and-continues-pan-european-expansion",
+      "summary": "Wolters Kluwer Legal & Regulatory today announced the launch of the Libra by Wolters Kluwer legal AI workspace (“Libra”) in Italy."
+    },
+    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-38068 crypto: lzo - Fix compression buffer overrun",
@@ -16352,9 +16405,6 @@
       "source": "OFAC",
       "title": "Issuance of Venezuela-related Frequently Asked Questions",
       "published_at": "2026-02-18T00:00:00Z",
-      "updated_at": "2026-02-18T00:00:00Z",
-      "article_date_iso": "2026-02-18T00:00:00Z",
-      "article_date": "2026-02-18T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260218",
       "summary": ""
     },
@@ -16363,9 +16413,6 @@
       "source": "FRB",
       "title": "News & Events",
       "published_at": "2026-02-18T00:00:00Z",
-      "updated_at": "2026-02-18T00:00:00Z",
-      "article_date_iso": "2026-02-18T00:00:00Z",
-      "article_date": "2026-02-18T00:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents.htm",
       "summary": "The Federal Reserve Board of Governors in Washington DC."
     },
@@ -16374,9 +16421,6 @@
       "source": "FHLB MPF",
       "title": "MPF Announcement Summary 2026-S01",
       "published_at": "2026-02-18T00:00:00Z",
-      "updated_at": "2026-02-18T00:00:00Z",
-      "article_date_iso": "2026-02-18T00:00:00Z",
-      "article_date": "2026-02-18T00:00:00Z",
       "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-summary-2026-s01",
       "summary": ""
     },
@@ -16385,9 +16429,6 @@
       "source": "FHLB MPF",
       "title": "MPF Announcement 2026-08",
       "published_at": "2026-02-18T00:00:00Z",
-      "updated_at": "2026-02-18T00:00:00Z",
-      "article_date_iso": "2026-02-18T00:00:00Z",
-      "article_date": "2026-02-18T00:00:00Z",
       "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-08",
       "summary": ""
     },
@@ -16396,9 +16437,6 @@
       "source": "FHLB MPF",
       "title": "MPF Announcement 2026-07",
       "published_at": "2026-02-18T00:00:00Z",
-      "updated_at": "2026-02-18T00:00:00Z",
-      "article_date_iso": "2026-02-18T00:00:00Z",
-      "article_date": "2026-02-18T00:00:00Z",
       "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-07",
       "summary": ""
     },
@@ -16435,13 +16473,18 @@
       "summary": "Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network."
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-17T15:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-law-scholar-gary-born",
+      "summary": "Wolters Kluwer’s Legal & Regulatory U.S. business is pleased to announce a new webinar featuring Gary Born, one of the world’s foremost authorities on international law and international dispute resolution."
+    },
+    {
       "category": "Executive",
       "source": "White House",
       "title": "President George Washington’s Birthday, 2026",
       "published_at": "2026-02-17T01:09:15Z",
-      "updated_at": "2026-02-17T01:09:15Z",
-      "article_date_iso": "2026-02-17T01:09:15Z",
-      "article_date": "2026-02-17T01:09:15Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/president-george-washingtons-birthday-2026/",
       "summary": ""
     },
@@ -16450,9 +16493,6 @@
       "source": "OCC",
       "title": "OCC Requests Comment on Proposed Rulemaking on the Bank Appeals Process",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-7.html",
       "summary": "The Office of the Comptroller of the Currency (OCC) today requested comment on a proposal to establish revised procedures and policies for appeals by OCC-supervised entities of material supervisory determinations."
     },
@@ -16461,9 +16501,6 @@
       "source": "OCC",
       "title": "Bank Appeals Process: Notice of Proposed Rulemaking",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-2.html",
       "summary": ""
     },
@@ -16472,9 +16509,6 @@
       "source": "Fannie Mae",
       "title": "Data and Insights",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.fanniemae.com/data-and-insights",
       "summary": "Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow."
     },
@@ -16483,9 +16517,6 @@
       "source": "Mastercard",
       "title": "### Cloudflare and Mastercard partner to extend comprehensive cyber defense across critical infrastructure and small businesses February 17, 2026",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "February 17, 2026",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/february/cloudflare-and-mastercard-to-extend-comprehensive-cyber-defense-.html",
       "summary": ""
     },
@@ -16494,9 +16525,6 @@
       "source": "Mastercard",
       "title": "### Noah Kahan and Mastercard to premiere ‘The Great Divide’ music video and offer cardholders Priceless experiences January 29, 2026",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-01-29T00:00:00Z",
-      "article_date": "January 29, 2026",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/january/noah-kahan-and-mastercard-to-premiere--the-great-divide--music-v.html",
       "summary": ""
     },
@@ -16505,9 +16533,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches Agent Suite to ready enterprises for a new era January 27, 2026",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-01-27T00:00:00Z",
-      "article_date": "January 27, 2026",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/january/mastercard-launches-agent-suite-to-ready-enterprises-for-a-new-e.html",
       "summary": ""
     },
@@ -16516,9 +16541,6 @@
       "source": "Mastercard",
       "title": "### Mastercard spotlights Indigenous small businesses at Toronto Maple Leafs Indigenous Celebration Game January 6, 2026",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-01-06T00:00:00Z",
-      "article_date": "January 6, 2026",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/january/Mastercard-spotlights-Indigenous-small-businesses-at-Toronto-Maple-Leafs-Indigenous-Celebration-Game.html",
       "summary": ""
     },
@@ -16527,9 +16549,6 @@
       "source": "Mastercard",
       "title": "### Mastercard SpendingPulse: Savvy shoppers and e-commerce fuel U.S. holiday retail sales growth by 3.9% year over year December 23, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-12-23T00:00:00Z",
-      "article_date": "December 23, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-spendingpulse--savvy-shoppers-and-e-commerce-fuel-u-s.html",
       "summary": ""
     },
@@ -16538,9 +16557,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and LoanPro announce partnership to modernize lending December 16, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-12-16T00:00:00Z",
-      "article_date": "December 16, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-loanpro-announce-partnership-to-modernize-lending.html",
       "summary": ""
     },
@@ -16549,9 +16565,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and the McLaren Formula 1 Team launch Team Priceless December 11, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-12-11T00:00:00Z",
-      "article_date": "December 11, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-the-mclaren-formula-1-team-launch-team-priceless-.html",
       "summary": ""
     },
@@ -16560,9 +16573,6 @@
       "source": "Mastercard",
       "title": "### Empowering lenders with faster, smarter and more personalized insights with Mastercard Credit Intelligence December 3, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-12-03T00:00:00Z",
-      "article_date": "December 3, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/Empowering-lenders-with-Mastercard-Credit-Intelligence1.html",
       "summary": ""
     },
@@ -16571,9 +16581,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches La Colección Diez de Diez, honors fans with first-ever Lionel Messi jersey swap December 1, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-12-01T00:00:00Z",
-      "article_date": "December 1, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/december/Mastercard-launches-La-Coleccion-Diez-de-Diez-first-Lionel-Messi-jersey-swap.html",
       "summary": ""
     },
@@ -16582,9 +16589,6 @@
       "source": "Mastercard",
       "title": "### Mastercard SpendingPulse: US Black Friday retail sales up +4.1% YOY as holiday momentum builds November 29, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-11-29T00:00:00Z",
-      "article_date": "November 29, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-spendingpulse--us-black-friday-retail-sales-up--4-1--.html",
       "summary": ""
     },
@@ -16593,9 +16597,6 @@
       "source": "Mastercard",
       "title": "### Mastercard Access Pass enables partners to forge deeper connections with consumers November 25, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-11-25T00:00:00Z",
-      "article_date": "November 25, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-access-pass-enables-partners-to-forge-deeper-connecti.html",
       "summary": ""
     },
@@ -16604,9 +16605,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and L’Oréal to transform the future of beauty commerce November 24, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-11-24T00:00:00Z",
-      "article_date": "November 24, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-and-l-oreal-to-transform-the-future-of-beauty-commerc.html",
       "summary": ""
     },
@@ -16615,9 +16613,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Thunes bring stablecoin payouts to the mainstream November 13, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-11-13T00:00:00Z",
-      "article_date": "November 13, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/november/Mastercard-and-Thunes-bring-stablecoin-payouts-to-the-mainstream.html",
       "summary": ""
     },
@@ -16626,9 +16621,6 @@
       "source": "Mastercard",
       "title": "### Mastercard introduces first-ever threat intelligence solution to combat payment fraud at scale October 27, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-27T00:00:00Z",
-      "article_date": "October 27, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-introduces-first-ever-threat-intelligence-solution.html",
       "summary": ""
     },
@@ -16637,9 +16629,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and PayPal join forces to accelerate secure global agentic commerce October 27, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-27T00:00:00Z",
-      "article_date": "October 27, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-and-PayPal-join-forces.html",
       "summary": ""
     },
@@ -16648,9 +16637,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Citi bring Citi Flex Pay Installments to more retailers at checkout October 24, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-24T00:00:00Z",
-      "article_date": "October 24, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-citi-bring-citi-flex-pay-installments-to-more-ret.html",
       "summary": ""
     },
@@ -16659,9 +16645,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Major League Baseball extend partnership — A celebration of Priceless moments and the fans who make them October 22, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-22T00:00:00Z",
-      "article_date": "October 22, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-major-league-baseball-extend-partnership.html",
       "summary": ""
     },
@@ -16670,9 +16653,6 @@
       "source": "Mastercard",
       "title": "### Mastercard welcomes Jill Kramer as chief marketing and communications officer; Raja Rajamannar transitions to senior fellow role October 21, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-21T00:00:00Z",
-      "article_date": "October 21, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-welcomes-jill-kramer-as-chief-marketing-and-communica.html",
       "summary": ""
     },
@@ -16681,9 +16661,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and U.S. Bank expands subscription management for credit cardholders October 15, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-15T00:00:00Z",
-      "article_date": "October 15, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-u-s--bank-expands-subscription-management-for-cre.html",
       "summary": ""
     },
@@ -16692,9 +16669,6 @@
       "source": "Mastercard",
       "title": "### Mastercard is supercharging commercial payments innovation October 15, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-15T00:00:00Z",
-      "article_date": "October 15, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/simple-connections--smarter-controls--mastercard-is-superchargin.html",
       "summary": ""
     },
@@ -16703,9 +16677,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches Merchant Cloud to simplify and support commerce growth in global acceptance ecosystem October 14, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-14T00:00:00Z",
-      "article_date": "October 14, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Merchant-Cloud-simplify-and-support-commerce-growth-in-global-acceptance-ecosystem.html",
       "summary": ""
     },
@@ -16714,9 +16685,6 @@
       "source": "Mastercard",
       "title": "### Mastercard at Money 20/20: Where insight meets action October 13, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-13T00:00:00Z",
-      "article_date": "October 13, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-at-money-20-20--where-insight-meets-action-.html",
       "summary": ""
     },
@@ -16725,9 +16693,6 @@
       "source": "Mastercard",
       "title": "### Mastercard Payment Optimization Platform uses the power of data to drive more approvals October 13, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-13T00:00:00Z",
-      "article_date": "October 13, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Payment-Optimization-Platform-uses-the-power-of-data-to-drive-more-approvals.html",
       "summary": ""
     },
@@ -16736,9 +16701,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches Small Business Navigator in Canada to enable small business resilience October 1, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-01T00:00:00Z",
-      "article_date": "October 1, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-launches-small-business-navigator-in-canada-to-enable-small-business-resilience.html",
       "summary": ""
     },
@@ -16747,9 +16709,6 @@
       "source": "Mastercard",
       "title": "### Powering smarter and more personal advertising with Mastercard Commerce Media October 1, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-10-01T00:00:00Z",
-      "article_date": "October 1, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/october/powering-smarter-and-more-personal-advertising-with-mastercard-commerce-media.html",
       "summary": ""
     },
@@ -16758,9 +16717,6 @@
       "source": "Mastercard",
       "title": "### Corpay and Mastercard Move extend near real-time payments to new markets September 29, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-09-29T00:00:00Z",
-      "article_date": "September 29, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/september/corpay-mastercard-move-extend-near-real-time-payments.html",
       "summary": ""
     },
@@ -16769,9 +16725,6 @@
       "source": "Mastercard",
       "title": "### Mastercard unveils Global Reach Partner Program to accelerate customer expansion initiatives September 23, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-09-23T00:00:00Z",
-      "article_date": "September 23, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-global-reach-partner-program-to-accelerate-customer-expansion-initiatives.html",
       "summary": ""
     },
@@ -16780,9 +16733,6 @@
       "source": "Mastercard",
       "title": "### Mastercard welcomes 11 startups to Start Path’s Emerging Fintech program September 22, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-09-22T00:00:00Z",
-      "article_date": "September 22, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-welcomes-11-startups-to-start-path%E2%80%99s-emerging-fintech-program.html",
       "summary": ""
     },
@@ -16791,9 +16741,6 @@
       "source": "Mastercard",
       "title": "### Fueling the digital economy: Mastercard Start Path welcomes five new startups to the Blockchain and Digital Assets program September 15, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-09-15T00:00:00Z",
-      "article_date": "September 15, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/september/fueling-the-digital-economy.html",
       "summary": ""
     },
@@ -16802,9 +16749,6 @@
       "source": "Mastercard",
       "title": "### Mastercard, NCR Atleos, and ITCARD to enhance contactless experiences at ATMs September 11, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-09-11T00:00:00Z",
-      "article_date": "September 11, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-ncr-atleos-itcard-enhance-contactless-experiences-at-atms.html",
       "summary": ""
     },
@@ -16813,9 +16757,6 @@
       "source": "Mastercard",
       "title": "### Mastercard unveils customizable decisioning solution for financial institutions September 9, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-customizable-decisioning-solution-for-financial-institutions.html",
       "summary": ""
     },
@@ -16824,9 +16765,6 @@
       "source": "Mastercard",
       "title": "### Mastercard appoints Amb. Ailish Campbell as executive vice president, Public Sector September 2, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2025-09-02T00:00:00Z",
-      "article_date": "September 2, 2025",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-appoints-amb--ailish-campbell-as-executive-vice-presi.html",
       "summary": ""
     },
@@ -16835,9 +16773,6 @@
       "source": "Mastercard",
       "title": "### Fans to be given unparalleled access as McLaren Racing announces Mastercard as official naming partner of the McLaren Formula 1 team from 2026 August 27, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/august/mclaren-racing-announces-mastercard-as-official-naming-partner-o.html",
       "summary": ""
     },
@@ -16846,9 +16781,6 @@
       "source": "Mastercard",
       "title": "### World Bank Group joins African Development Bank Group and Mastercard as co-chair of Mobilizing Access to the Digital Economy (MADE) Alliance: Africa August 5, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/august/World-Bank-Group-Mobilizing-Access-to-the-Digital-Economy-MADE-Alliance.html",
       "summary": ""
     },
@@ -16857,9 +16789,6 @@
       "source": "Mastercard",
       "title": "### Clarifying recent headlines on gaming content August 1, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/august/clarifying-recent-headlines-on-gaming-content.html",
       "summary": ""
     },
@@ -16868,9 +16797,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and BMO expand Global Money Transfer service to nearly 70 destinations July 30, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/Mastercard-BMO-expand-Global-Money-Transfer-service.html",
       "summary": ""
     },
@@ -16879,9 +16805,6 @@
       "source": "Mastercard",
       "title": "### Mastercard accelerates B2B payment automation globally July 29, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-accelerates-b2b-payment-automation-globally-with-acce.html",
       "summary": ""
     },
@@ -16890,9 +16813,6 @@
       "source": "Mastercard",
       "title": "### Mastercard unveils AI Card Design Studio: a smarter, faster way to design your perfect card July 24, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-ai-card-design-studio.html",
       "summary": ""
     },
@@ -16901,9 +16821,6 @@
       "source": "Mastercard",
       "title": "### Mastercard expands global relationship with Uber to enhance payment experiences for drivers, couriers and consumers July 24, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-global-relationship-with-uber.html",
       "summary": ""
     },
@@ -16912,9 +16829,6 @@
       "source": "Mastercard",
       "title": "### American Airlines and Mastercard renew partnership for even more rewarding travel experiences July 21, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/american-airlines-mastercard-partnership-renewal.html",
       "summary": ""
     },
@@ -16923,9 +16837,6 @@
       "source": "Mastercard",
       "title": "### Delivering pathways to sustained prosperity July 16, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/sustained-prosperity-2024-impact-report.html",
       "summary": ""
     },
@@ -16934,9 +16845,6 @@
       "source": "Mastercard",
       "title": "### Elevating cardholder experiences worldwide with The Mastercard Collection and introduction of World Legend Mastercard July 16, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/elevating-cardholder-experiences-the-mastercard-collection-world-legend-mastercard.html",
       "summary": ""
     },
@@ -16945,9 +16853,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Jonas Brothers to debut music video in support of Stand Up To Cancer July 15, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-su2c-jonas-brothers.html",
       "summary": ""
     },
@@ -16956,9 +16861,6 @@
       "source": "Mastercard",
       "title": "### Mastercard expands Small Business Navigator with penny rental offer for Clover July 7, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-small-business-navigator.html",
       "summary": ""
     },
@@ -16967,9 +16869,6 @@
       "source": "Mastercard",
       "title": "### Protecting trust in a digital world: Mastercard launches new Start Path program to accelerate security innovation July 1, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/Mastercard-new-Start-Path-program-to-accelerate-security-innovation.html",
       "summary": ""
     },
@@ -16978,9 +16877,6 @@
       "source": "Mastercard",
       "title": "### Mastercard partners with the Billie Jean King Cup by Gainbridge June 25, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-billie-jean-king-cup.html",
       "summary": ""
     },
@@ -16989,9 +16885,6 @@
       "source": "Mastercard",
       "title": "### To counter ‘friendly’ fraud, Mastercard expands technology to new markets June 25, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/first-party-trust-countering-friendly-fraud.html",
       "summary": ""
     },
@@ -17000,9 +16893,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Chainlink enable on-chain crypto purchases using Mastercard's 3.5 billion cards June 24, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html",
       "summary": ""
     },
@@ -17011,9 +16901,6 @@
       "source": "Mastercard",
       "title": "### Mastercard partners with Fiserv to accelerate mainstream stablecoin adoption June 24, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-fiserv-stablecoin-adoption.html",
       "summary": ""
     },
@@ -17022,9 +16909,6 @@
       "source": "Mastercard",
       "title": "### OnePay and Synchrony to launch new industry-leading credit card program with Walmart; credit card to be powered by Mastercard and set to go live this fall June 9, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/onepay-synchrony-walmart-mastercard.html",
       "summary": ""
     },
@@ -17033,9 +16917,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and PayPal to partner on Mastercard One Credential to supercharge choice at checkout June 4, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-paypal-one-credential.html",
       "summary": ""
     },
@@ -17044,9 +16925,6 @@
       "source": "Mastercard",
       "title": "### Deutsche Bank and Mastercard partner to power merchant solutions with open banking payments June 3, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/deutsche-bank-and-mastercard-partner-to-power-merchant-solutions-with-open-banking-payments.html",
       "summary": ""
     },
@@ -17055,9 +16933,6 @@
       "source": "Mastercard",
       "title": "### One year in, Mastercard’s checkout transformation gains ground across Europe June 3, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/june/one-year-in-mastercard-s-checkout-transformation-gains-ground-across-europe-1.html",
       "summary": ""
     },
@@ -17066,9 +16941,6 @@
       "source": "Mastercard",
       "title": "### Mastercard unveils Small Business Navigator to empower U.S. entrepreneurs with smarter, safer growth May 29, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-unveils-small-business-navigator-to-empower-u-s-entrepreneurs-with-smarter-safer-growth.html",
       "summary": ""
     },
@@ -17077,9 +16949,6 @@
       "source": "Mastercard",
       "title": "### Mastercard introduces Touch Card by Mastercard™ in Canada, a tactile notch feature designed to help empower the sight loss community May 28, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-introduces-touch-card-by-mastercard-in-canada-a-tactile-notch-feature-designed-to-help-empower-the-sight-loss-community.html",
       "summary": ""
     },
@@ -17088,9 +16957,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and MoonPay team up to mainstream stablecoin payments May 15, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-and-moonpay-team-up-to-mainstream-stablecoin-payments.html",
       "summary": ""
     },
@@ -17099,9 +16965,6 @@
       "source": "Mastercard",
       "title": "### Mastercard Economics Institute: What moves us? The motivations behind global travel in 2025 May 12, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-economics-institute-what-moves-us-the-motivations-behind-global-travel-in-2025.html",
       "summary": ""
     },
@@ -17110,9 +16973,6 @@
       "source": "Mastercard",
       "title": "### Nuvei offers Canadian businesses near instant pay-outs via Mastercard Move May 7, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/may/nuvei-offers-canadian-businesses-near-instant-payouts-via-mastercard-move.html",
       "summary": ""
     },
@@ -17121,9 +16981,6 @@
       "source": "Mastercard",
       "title": "### Mastercard center for inclusive growth and Tamkeen partner to launch first Mastercard strive initiative in Bahrain and the middle east May 4, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-center-for-inclusive-growth-and-tamkeen-partner-to-launch-first-mastercard-strive-initiative-in-bahrain-and-the-middle-east.html",
       "summary": ""
     },
@@ -17132,9 +16989,6 @@
       "source": "Mastercard",
       "title": "### CIBC launches CIBC Adapta Mastercard, a credit card that automatically adapts to spending behavior rewarding cardholders more for everyday purchases May 1, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/may/cibc-launches-cibc-adapta-mastercard-a-credit-card-that-automatically-adapts-to-spending-behavior-rewarding-cardholders-more-for-everyday-purchases.html",
       "summary": ""
     },
@@ -17143,9 +16997,6 @@
       "source": "Mastercard",
       "title": "### Mastercard unveils Agent Pay, pioneering agentic payments technology to power commerce in the age of AI April 29, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html",
       "summary": ""
     },
@@ -17154,9 +17005,6 @@
       "source": "Mastercard",
       "title": "### Mastercard unveils end-to-end capabilities to power stablecoin transactions – from wallets to checkouts April 28, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-end-to-end-capabilities-to-power-stablecoin-transactions-from-wallets-to-checkouts.html",
       "summary": ""
     },
@@ -17165,9 +17013,6 @@
       "source": "Mastercard",
       "title": "### Mastercard elevates Sam’s Club Sam’s Cash Bonus Offer Program with personalization and rewards Apri 28, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-elevates-sam-s-club-sam-s-cash-bonus-offer-program-with-personalization-and-rewards.html",
       "summary": ""
     },
@@ -17176,9 +17021,6 @@
       "source": "Mastercard",
       "title": "### Update regarding Mastercard’s Chief Financial Officer April 10, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/april/update-regarding-mastercard-s-chief-financial-officer.html",
       "summary": ""
     },
@@ -17187,9 +17029,6 @@
       "source": "Mastercard",
       "title": "### MoneyGram and Mastercard collaborate to advance digital money movement April 2, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/april/moneygram-and-mastercard-collaborate-to-advance-digital-money-movement.html",
       "summary": ""
     },
@@ -17198,9 +17037,6 @@
       "source": "Mastercard",
       "title": "### Mastercard is modernizing commercial payments with embedded virtual card technology March, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/march/mastercard-is-modernizing-commercial-payments-with-embedded-virtual-card-technology.html",
       "summary": ""
     },
@@ -17209,9 +17045,6 @@
       "source": "Mastercard",
       "title": "### ICBA Payments and Mastercard partner to upgrade customer payment experiences for community banks March, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/march/icba-payments-and-mastercard-partner-to-upgrade-customer-payment-experiences-for-community-banks.html",
       "summary": ""
     },
@@ -17220,9 +17053,6 @@
       "source": "Mastercard",
       "title": "### Richard R. Verma rejoins Mastercard to oversee Law, Government Affairs & Policy and Franchise, Tim Murphy named vice chair February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/richard-r-verma-rejoins-mastercard-to-oversee-law-government-affairs-policy-and-franchise-tim-murphy-named-vice-chair.html",
       "summary": ""
     },
@@ -17231,9 +17061,6 @@
       "source": "Mastercard",
       "title": "### Mastercard names Erin Elofson as division president, Canada February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-names-erin-elofson-as-division-president-canada.html",
       "summary": ""
     },
@@ -17242,9 +17069,6 @@
       "source": "Mastercard",
       "title": "### New Mastercard research: Consumers in Canada worry about the impact of fraud on financial health February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/new-mastercard-research-consumers-in-canada-worry-about-the-impact-of-fraud-on-financial-health.html",
       "summary": ""
     },
@@ -17253,9 +17077,6 @@
       "source": "Mastercard",
       "title": "### Mastercard Business Builder program fuels creator growth February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-business-builder-program-fuels-creator-growth.html",
       "summary": ""
     },
@@ -17264,9 +17085,6 @@
       "source": "Mastercard",
       "title": "### Consumers demand more choice and control over how they check out February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/consumers-demand-more-choice-and-control-over-how-they-check-out.html",
       "summary": ""
     },
@@ -17275,9 +17093,6 @@
       "source": "Mastercard",
       "title": "### Mastercard appoints Janet George as executive vice president of artificial intelligence February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-appoints-janet-george-as-executive-vice-president-of-artificial-intelligence.html",
       "summary": ""
     },
@@ -17286,9 +17101,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches new product innovation to address unmet needs of the middle market February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-new-product-innovation-to-address-unmet-needs-of-the-middle-market.html",
       "summary": ""
     },
@@ -17297,9 +17109,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Feedzai join forces to protect more consumers and businesses from scams February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-feedzai-join-forces-to-protect-more-consumers-and-businesses-from-scams.html",
       "summary": ""
     },
@@ -17308,9 +17117,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches anti-money laundering service “TRACE” to combat financial crime in Asia Pacific February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-anti-money-laundering-service-trace-to-combat-financial-crime-in-asia-pacific.html",
       "summary": ""
     },
@@ -17319,9 +17125,6 @@
       "source": "Mastercard",
       "title": "### Mastercard supports Canadian small businesses with new funding: Meet the recipients of the Mastercard x Pier Five Small Business Fund February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-supports-canadian-small-businesses-with-new-funding-meet-the-recipients-of-the-mastercard-x-pier-five-small-business-fund.html",
       "summary": ""
     },
@@ -17330,9 +17133,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Lady Gaga team up to debut 'Abracadabra' music video, celebrating fans with Priceless Experiences February, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-lady-gaga-team-up-to-debut-abracadabra-music-video-celebrating-fans-with-priceless-experiences.html",
       "summary": ""
     },
@@ -17341,9 +17141,6 @@
       "source": "Mastercard",
       "title": "### Porter Airlines, BMO and Mastercard accelerate Canadians’ travel rewards journey with new credit card program January, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/January/porter-airlines-bmo-and-mastercard-accelerate-canadians-travel-rewards-journey-with-new-credit-card-program.html",
       "summary": ""
     },
@@ -17352,9 +17149,6 @@
       "source": "Mastercard",
       "title": "### Mastercard partners with Northeastern University to advance cybersecurity innovation and strengthen Canada’s diverse tech workforce January, 2025",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2025/January/mastercard-partners-with-northeastern-university-to-advance-cybersecurity-innovation-and-strengthen-canadas-diverse-tech-workforce.html",
       "summary": ""
     },
@@ -17363,9 +17157,6 @@
       "source": "Mastercard",
       "title": "### Mastercard SpendingPulse: Total U.S. retail sales grew 3.8%* this holiday season; online remained choice for consumers, increasing 6.7% YOY December, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-spendingpulse-total-us-retail-sales-grew-3-8-this-holiday-season-online-remained-choice-for-consumers-increasing-6-7-yoy.html",
       "summary": ""
     },
@@ -17374,9 +17165,6 @@
       "source": "Mastercard",
       "title": "### Mastercard finalizes acquisition of Recorded Future December, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-finalizes-acquisition-of-recorded-future.html",
       "summary": ""
     },
@@ -17385,9 +17173,6 @@
       "source": "Mastercard",
       "title": "### Mastercard Center for Inclusive Growth and data.org announce AI2AI Challenge awardees December, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-center-for-inclusive-growth-and-data-org-announce-ai2ai-challenge-awardees.html",
       "summary": ""
     },
@@ -17396,9 +17181,6 @@
       "source": "Mastercard",
       "title": "### TD helps its MBNA cardholders support funding reforestation efforts in Canada through the Priceless Planet Coalition December, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/december/td-helps-its-mbna-cardholders-support-funding-reforestation-efforts-in-canada-through-the-priceless-planet-coalition.html",
       "summary": ""
     },
@@ -17407,9 +17189,6 @@
       "source": "Mastercard",
       "title": "### Mastercard SpendingPulse: U.S. Black Friday retail sales up +3.4% vs. last year November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-spendingpulse-us-black-friday-retail-sales-up-3-4-vs-last-year.html",
       "summary": ""
     },
@@ -17418,9 +17197,6 @@
       "source": "Mastercard",
       "title": "### Supporting underrepresented fintech founders to spur innovation and growth November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/supporting-underrepresented-fintech-founders-to-spur-innovation-and-growth.html",
       "summary": ""
     },
@@ -17429,9 +17205,6 @@
       "source": "Mastercard",
       "title": "### Mastercard empowers small businesses with magical shopping experience November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-empowers-small-businesses-with-magical-shopping-experience.html",
       "summary": ""
     },
@@ -17440,9 +17213,6 @@
       "source": "Mastercard",
       "title": "### Mastercard’s MTN connects to J.P. Morgan’s Kinexys Digital Payments for settlement November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercards-mtn-connects-to-jp-morgans-kinexys-digital-payments-for-settlement.html",
       "summary": ""
     },
@@ -17451,9 +17221,6 @@
       "source": "Mastercard",
       "title": "### Unwrapping 2024 Canadian holiday shopping trends November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/unwrapping-2024-canadian-holiday-shopping-trends.html",
       "summary": ""
     },
@@ -17462,9 +17229,6 @@
       "source": "Mastercard",
       "title": "### Mastercard extends live music footprint with new us benefits for cardholders November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-extends-live-music-footprint-with-new-us-benefits-for-cardholders.html",
       "summary": ""
     },
@@ -17473,9 +17237,6 @@
       "source": "Mastercard",
       "title": "### Mastercard reinvents checkout with password and number free payments November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-reinvents-checkout-with-password-and-number-free-payments.html",
       "summary": ""
     },
@@ -17484,9 +17245,6 @@
       "source": "Mastercard",
       "title": "### Mastercard to supercharge small business operations through new innovative platform November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/small-businesses-can-now-consolidate-operations-payments-and-other-tools-into-a-single-platform.html",
       "summary": ""
     },
@@ -17495,9 +17253,6 @@
       "source": "Mastercard",
       "title": "### Mastercard joins buna the arab regional payment system November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-joins-buna-the-arab-regional-payment-system.html",
       "summary": ""
     },
@@ -17506,9 +17261,6 @@
       "source": "Mastercard",
       "title": "### TheFork and Mastercard join forces to enhance culinary experiences for cardholders November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/thefork-and-mastercard-join-forces-to-enhance-culinary-experiences-for-cardholders.html",
       "summary": ""
     },
@@ -17517,9 +17269,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches Pay Local to empower digital wallet providers with new ways to pay November, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-launches-pay-local-to-empower-digital-wallet-providers-with-new-ways-to-pay.html",
       "summary": ""
     },
@@ -17528,9 +17277,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches new gen AI digital assistant capabilities to enhance customer value October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-gen-ai-digital-assistant-capabilities-to-enhance-customer-value.html",
       "summary": ""
     },
@@ -17539,9 +17285,6 @@
       "source": "Mastercard",
       "title": "### Mastercard unveils bill Qkr to streamline and enhance the way bills are paid October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-unveils-bill-qkr-to-streamline-and-enhance-the-way-bills-are-paid.html",
       "summary": ""
     },
@@ -17550,9 +17293,6 @@
       "source": "Mastercard",
       "title": "### Mastercard is expanding its U.S. Installments Program to provide more payment flexibility at checkout October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-is-expanding-its-us-installments-program-to-provide-more-payment-flexibility-at-checkout.html",
       "summary": ""
     },
@@ -17561,9 +17301,6 @@
       "source": "Mastercard",
       "title": "### Mastercard expands Product Express platform to help fintechs accelerate the launch of new card programs and other payment solutions October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-product-express-platform-to-help-fintechs-accelerate-the-launch-of-new-card-programs-and-other-payment-solutions.html",
       "summary": ""
     },
@@ -17572,9 +17309,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches world-class technology infrastructure in Saudi Arabia, enabling the processing of seamless October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-world-class-technology-infrastructure-in-saudi-arabia-enabling-the-processing-of-seamless.html",
       "summary": ""
     },
@@ -17583,9 +17317,6 @@
       "source": "Mastercard",
       "title": "### Mastercard at Money 20/20 innovating at the speed of business October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-at-money-2020-innovating-at-the-speed-of-business.html",
       "summary": ""
     },
@@ -17594,9 +17325,6 @@
       "source": "Mastercard",
       "title": "### Mastercard expands the Priceless Planet Coalition's portfolio of restoration sites October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-the-priceless-planet-coalitions-portfolio-of-restoration-sites.html",
       "summary": ""
     },
@@ -17605,9 +17333,6 @@
       "source": "Mastercard",
       "title": "### Mastercard transforms cross-border payments for banks with industry-first innovation October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-transforms-cross-border-payments-for-banks-with-industry-first-innovation1.html",
       "summary": ""
     },
@@ -17616,9 +17341,6 @@
       "source": "Mastercard",
       "title": "### Mastercard debuts new open banking-powered tools that put consumers in control of their data, safely and securely October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-debuts-new-open-banking-powered-tools-that-put-consumers-in-control-of-their-data-safely-and-securely.html",
       "summary": ""
     },
@@ -17627,9 +17349,6 @@
       "source": "Mastercard",
       "title": "### Citi and Mastercard join forces to transform global cross border payments October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/citi-and-mastercard-join-forces-to-transform-global-cross-border-payments.html",
       "summary": ""
     },
@@ -17638,9 +17357,6 @@
       "source": "Mastercard",
       "title": "### Mastercard spotlights cybersecurity awareness and education with true-crime podcasts to mark Cybersecurity Awareness Month October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/scaling-innovation-with-startups-from-city-planning-to-gamifying-rewards-points.html",
       "summary": ""
     },
@@ -17649,9 +17365,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches new benefits in support of Canadian small businesses October, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-benefits-in-support-of-canadian-small-businesses.html",
       "summary": ""
     },
@@ -17660,9 +17373,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and KaiOS partner to simplify acceptance for millions of SMEs in emerging markets September, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-and-kaios-partner-to-simplify-acceptance-for-millions-of-smes-in-emerging-markets2.html",
       "summary": ""
     },
@@ -17671,9 +17381,6 @@
       "source": "Mastercard",
       "title": "### Mastercard expands first-of-its-kind AI technology to help banks protect more consumers from scams in real time September, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-first-of-its-kind-ai-technology-to-help-banks-protect-more-consumers-from-scams-in-real-time.html",
       "summary": ""
     },
@@ -17682,9 +17389,6 @@
       "source": "Mastercard",
       "title": "### Mastercard expands support for Canadian entrepreneurs with Mastercard x Pier Five Small Business Fund, now open for 2024 applicants September, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-support-for-canadian-entrepreneurs-with-mastercard-x-pier-five-small-business-fund-now-open-for-2024-applicants.html",
       "summary": ""
     },
@@ -17693,9 +17397,6 @@
       "source": "Mastercard",
       "title": "### Update regarding chief financial officer for Mastercard September, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/september/update-regarding-chief-financial-officer-for-mastercard.html",
       "summary": ""
     },
@@ -17704,9 +17405,6 @@
       "source": "Mastercard",
       "title": "### Mastercard invests in continued defense of global digital economy with acquisition of Recorded Future September, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-invests-in-continued-defense-of-global-digital-economy-with-acquisition-of-recorded-future.html",
       "summary": ""
     },
@@ -17715,9 +17413,6 @@
       "source": "Mastercard",
       "title": "### Mastercard selects India for the global launch of its Payment Passkey Service, accelerating secure online checkout for millions of shoppers August, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-selects-india-for-the-global-launch-of-its-payment-passkey-service-accelerating-secure-online-checkout-for-millions-of-shoppers.html",
       "summary": ""
     },
@@ -17726,9 +17421,6 @@
       "source": "Mastercard",
       "title": "### What is a passkey? Here’s everything you need to know August, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/august/everything-you-need-to-know-about-payment-passkeys.html",
       "summary": ""
     },
@@ -17737,9 +17429,6 @@
       "source": "Mastercard",
       "title": "### Helping more individuals and small businesses benefit from the digital economy through Mastercard Open Banking August, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/august/helping-more-individuals-and-small-businesses-benefit-from-the-digital-economy-through-mastercard-open-banking.html",
       "summary": ""
     },
@@ -17748,9 +17437,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and WestJet announce the launch of the Priceless Platform in Canada, offering cardholders exclusive, always-on access to Priceless experiences August, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-and-westjet-announce-the-launch-of-the-priceless-platform-in-canada-offering-cardholders-exclusive-always-on-access-to-priceless-experiences.html",
       "summary": ""
     },
@@ -17759,9 +17445,6 @@
       "source": "Mastercard",
       "title": "### Mastercard introduces a fast, safe and cost-effective solution for businesses to accept virtual card payment July, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-introduces-a-fast-safe-and-cost-effective-solution-for-businesses-to-accept-virtual-card-payment.html",
       "summary": ""
     },
@@ -17770,9 +17453,6 @@
       "source": "Mastercard",
       "title": "### Mastercard joins forces with McLaren Racing Formula 1 Team July, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/july/Mastercard-joins-forces-with-McLaren-Racing-Formula-1-Team.html",
       "summary": ""
     },
@@ -17781,9 +17461,6 @@
       "source": "Mastercard",
       "title": "### Expedia Group, Wells Fargo, and Mastercard announce new suite of One Key credit cards July, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/july/expedia-group-wells-fargo-and-mastercard-announce-new-suite-of-one-key-credit-cards.html",
       "summary": ""
     },
@@ -17792,9 +17469,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and the Medical Tourism Association join forces to revolutionize cross-border health care payments July, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-and-the-medical-tourism-association-join-forces-to-revolutionize-cross-border-health-care-payments.html",
       "summary": ""
     },
@@ -17803,9 +17477,6 @@
       "source": "Mastercard",
       "title": "### Mastercard taps into the power of social media to support stand up to cancer June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-taps-into-the-power-of-social-media-to-support-stand-up-to-cancer.html",
       "summary": ""
     },
@@ -17814,9 +17485,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Thought Machine accelerate core banking capabilities, providing seamless payment experiences June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-european-cloud-native-issuer-processor-leverages-mastercard-cloud-edge-proving-seamless-payment-experience.html",
       "summary": ""
     },
@@ -17825,9 +17493,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Beijing Municipal Bureau of Culture and Tourism unveil enhanced Priceless Beijing June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-beijing-municipal-bureau-of-culture-and-tourism-unveil-enhanced-priceless-beijing.html",
       "summary": ""
     },
@@ -17836,9 +17501,6 @@
       "source": "Mastercard",
       "title": "### Ministry for Restoration of Ukraine and Mastercard to cooperate on restoring the tourism industry June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-insights-will-contribute-to-ukraines-economic-recovery-via-tourism.html",
       "summary": ""
     },
@@ -17847,9 +17509,6 @@
       "source": "Mastercard",
       "title": "### Mastercard reimagines online checkout; commits to reaching 100% e-commerce tokenization by 2030 in Europe June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-reimagines-online-checkout-commits-to-reaching-100-e-commerce-tokenization-by-2030-in-europe.html",
       "summary": ""
     },
@@ -17858,9 +17517,6 @@
       "source": "Mastercard",
       "title": "### Mastercard debuts new video 'Giving Back' with Lionel Messi to kick off CONMEBOL Copa América 2024 June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-debuts-new-video-giving-back-with-lionel-messi-to-kick-off-conmebol-copa-america-2024.html",
       "summary": ""
     },
@@ -17869,9 +17525,6 @@
       "source": "Mastercard",
       "title": "### Michael Kors first to debut Shopping Muse, the AI-powered shopping assistant from Dynamic Yield by Mastercard June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/michael-kors-first-to-debut-shopping-muse-the-ai-powered-shopping-assistant-from-dynamic-yield-by-mastercard.html",
       "summary": ""
     },
@@ -17880,9 +17533,6 @@
       "source": "Mastercard",
       "title": "### Mastercard enhances digital financial experiences with deposit switch and bill pay switch June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-enhances-digital-financial-experiences-with-deposit-switch-and-bill-pay-switch.html",
       "summary": ""
     },
@@ -17891,9 +17541,6 @@
       "source": "Mastercard",
       "title": "### Mastercard Center for Inclusive Growth and data.org launch Artificial Intelligence to Accelerate Inclusion challenge June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-center-for-inclusive-growth-and-data-org-launch-artificial-intelligence-to-accelerate-inclusion-challenge.html",
       "summary": ""
     },
@@ -17902,9 +17549,6 @@
       "source": "Mastercard",
       "title": "### Bunq first bank in Europe to leverage AI in open banking with Mastercard June, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/june/bunq-first-bank-in-europe-to-leverage-ai-in-open-banking-with-mastercard.html",
       "summary": ""
     },
@@ -17913,9 +17557,6 @@
       "source": "Mastercard",
       "title": "### Mastercard Crypto Credential goes live with first peer-to-peer pilot transactions, adds new partners to the ecosystem May, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-crypto-credential-goes-live-with-first-peer-to-peer-pilot-transactions-adds-new-partners-to-the-ecosystem.html",
       "summary": ""
     },
@@ -17924,9 +17565,6 @@
       "source": "Mastercard",
       "title": "### Mastercard accelerates commitment to digital transformation in Africa May, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-commitment-to-digital-transformation-in-africa.html",
       "summary": ""
     },
@@ -17935,9 +17573,6 @@
       "source": "Mastercard",
       "title": "### Mastercard accelerates card fraud detection with generative ai technology May, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-card-fraud-detection-with-generative-ai-technology.html",
       "summary": ""
     },
@@ -17946,9 +17581,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Salesforce announce new integration to transform transaction disputes May, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/may/Mastercard-and-Salesforce-announce-new-integration-to-transform-transaction-disputes.html",
       "summary": ""
     },
@@ -17957,9 +17589,6 @@
       "source": "Mastercard",
       "title": "### Soaring passenger traffic, longer stays: Mastercard Economics Institute on travel in 2024 May, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/may/soaring-passenger-traffic-longer-stays-mastercard-economics-institute-on-travel-in-2024.html",
       "summary": ""
     },
@@ -17968,9 +17597,6 @@
       "source": "Mastercard",
       "title": "### University of New Brunswick Mastercard Cybersecurity Scholarship winners announced May, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/may/university-of-new-brunswick-mastercard-cybersecurity-scholarship-winners-announced.html",
       "summary": ""
     },
@@ -17979,9 +17605,6 @@
       "source": "Mastercard",
       "title": "### Mastercard JV switches first domestic transaction in China May, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-jv-switches-first-domestic-transaction-in-china.html",
       "summary": ""
     },
@@ -17990,9 +17613,6 @@
       "source": "Mastercard",
       "title": "### Mastercard drops exclusive, personalized Music Pass as it kicks off season 2 of its Artist Accelerator April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-drops-exclusive-personalized-music-pass-as-it-kicks-off-season-2-of-its-artist-accelerator.html",
       "summary": ""
     },
@@ -18001,9 +17621,6 @@
       "source": "Mastercard",
       "title": "### Enhancing fintech programs, empowering innovation April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/enhancing-fintech-programs-empowering-innovation.html",
       "summary": ""
     },
@@ -18012,9 +17629,6 @@
       "source": "Mastercard",
       "title": "### Mastercard transforms the fight against scams with latest AI tech April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastecard-transforms-the-fight-against-scams-with-latest-ai-tech.html",
       "summary": ""
     },
@@ -18023,9 +17637,6 @@
       "source": "Mastercard",
       "title": "### Mastercard launches mobile virtual card app to simplify travel and business expenses April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-launches-mobile-virtual-card-app-to-simplify-travel-and-business-expenses.html",
       "summary": ""
     },
@@ -18034,9 +17645,6 @@
       "source": "Mastercard",
       "title": "### The Xbox Mastercard issued by Barclays now available in the U.S. with more value April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/the-xbox-mastercard-issued-by-barclays-now-available-in-the-us-with-more-value.html",
       "summary": ""
     },
@@ -18045,9 +17653,6 @@
       "source": "Mastercard",
       "title": "### Nubank and Mastercard exclusive study reveals path to advancing beyond access toward financial health April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/nubank-and-mastercard-exclusive-study-reveals-path-to-advancing-beyond-access-toward-financial-health.html",
       "summary": ""
     },
@@ -18056,9 +17661,6 @@
       "source": "Mastercard",
       "title": "### Turning aspiration into impact April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/turning-aspiration-into-impact.html",
       "summary": ""
     },
@@ -18067,9 +17669,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and leading Canadian fintech VoPay enter strategic partnership to empower Canadians to move money quickly and securely with Mastercard Move April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-and-leading-canadian-fintech-vopay-enter-strategic-partnership-to-empower-canadians-to-move-money-quickly-and-securely-with-mastercard-move.html",
       "summary": ""
     },
@@ -18078,9 +17677,6 @@
       "source": "Mastercard",
       "title": "### Positioning Mastercard for the next era of growth April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/positioning-mastercard-for-the-next-era-of-growth.html",
       "summary": ""
     },
@@ -18089,9 +17685,6 @@
       "source": "Mastercard",
       "title": "### Mastercard announces new cardholder benefits to enhance health and wellness, travel and lifestyle rewards for consumers, small businesses April, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-announces-new-cardholder-benefits-to-enhance-health-wellness-travel-and-lifestyle-rewards-for-consumers-small-businesses.html",
       "summary": ""
     },
@@ -18100,9 +17693,6 @@
       "source": "Mastercard",
       "title": "### Mastercard commits to lowering U.S. interchange for small businesses and broader merchant community March, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html",
       "summary": ""
     },
@@ -18111,9 +17701,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and Worldpay join forces to fight payment fraud globally March, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-and-worldpay-join-forces-to-fight-payment-fraud-globally.html",
       "summary": ""
     },
@@ -18122,9 +17709,6 @@
       "source": "Mastercard",
       "title": "### New Mastercard report reveals key trends and opportunities to digitize remittances in Latin America and the Caribbean March, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/new-mastercard-report-reveals-key-trends-opportunities-to-digitize-remittances-in-latin-america-and-the-caribbean.html",
       "summary": ""
     },
@@ -18133,9 +17717,6 @@
       "source": "Mastercard",
       "title": "### Mastercard enables convenient and secure international remittances to Alipay wallet March, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-enables-convenient-and-secure-international-remittances-to-alipay-wallet.html",
       "summary": ""
     },
@@ -18144,9 +17725,6 @@
       "source": "Mastercard",
       "title": "### Mastercard simplifies subscription management with smart subscriptions March, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-simplifies-subscription-management-with-smart-subscriptions.html",
       "summary": ""
     },
@@ -18155,9 +17733,6 @@
       "source": "Mastercard",
       "title": "### The Mastercard Artist Accelerator kicks off its second season, launches live touring series with OnesToWatch March, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/the-mastercard-artist-accelerator-kicks-off-its-second-season-launches-live-touring-series-with-onestowatch.html",
       "summary": ""
     },
@@ -18166,9 +17741,6 @@
       "source": "Mastercard",
       "title": "### Uber partners with Mastercard and Payfare to launch the new Uber Pro Card in Canada March, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/uber-partners-with-mastercard-and-payfare-to-launch-the-new-uber-pro-card-in-canada.html",
       "summary": ""
     },
@@ -18177,9 +17749,6 @@
       "source": "Mastercard",
       "title": "### Mastercard open banking enhances the debit and prepaid digital account opening experience February, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-open-banking-enhances-the-debit-and-prepaid-digital-account-opening-experience.html",
       "summary": ""
     },
@@ -18188,9 +17757,6 @@
       "source": "Mastercard",
       "title": "### How were co-creating the future of payments with fintechs February, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/february/how-were-co-creating-the-future-of-payments-with-fintechs.html",
       "summary": ""
     },
@@ -18199,9 +17765,6 @@
       "source": "Mastercard",
       "title": "### Mastercard joins us AI safety institute consortium to guide national ai standards February, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-joins-us-ai-safety-institute-consortium-to-guide-national-ai-standards.html",
       "summary": ""
     },
@@ -18210,9 +17773,6 @@
       "source": "Mastercard",
       "title": "### Mastercard dedicates its GRAMMY Awards® campaign to forest restoration; teams with SZA in debut bonus performance to raise awareness for the Priceless Planet Coalition February, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-dedicates-its-grammy-awards-campaign-to-forest-restoration-teams-with-sza-in-debut-bonus-performance-to-raise-awareness-for-the-priceless-planet-coalition.html",
       "summary": ""
     },
@@ -18221,9 +17781,6 @@
       "source": "Mastercard",
       "title": "### Mastercard supercharges consumer protection with gen AI February, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-supercharges-consumer-protection-with-gen-ai.html",
       "summary": ""
     },
@@ -18232,9 +17789,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and BOK Financial Corporation announce expanded payments agreement January, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-bok-financial-corporation-announce-expanded-payments-agreement.html",
       "summary": ""
     },
@@ -18243,9 +17797,6 @@
       "source": "Mastercard",
       "title": "### Driving an inclusive digital economy through small business empowerment and open banking innovation January, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/January/meet-15-startups-empowering-small-businesses-with-new-technology.html",
       "summary": ""
     },
@@ -18254,9 +17805,6 @@
       "source": "Mastercard",
       "title": "### Mastercard and the clearing house extend partnership on real time payments January, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-the-clearing-house-extend-partnership-on-real-time-payments.html",
       "summary": ""
     },
@@ -18265,9 +17813,6 @@
       "source": "Mastercard",
       "title": "### Mastercard is unlocking efficiencies in B2B healthcare payments through innovative partnership January, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-is-unlocking-efficiencies-in-b2b-healthcare-payments-through-innovative-partnership.html",
       "summary": ""
     },
@@ -18276,9 +17821,6 @@
       "source": "Mastercard",
       "title": "### Mastercard announces development of inclusive AI tool to provide personalized, real-time assistance to small business community January, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-announces-development-of-inclusive-ai-tool-to-provide-personalized-real-time-assistance-to-small-business-community.html",
       "summary": ""
     },
@@ -18287,9 +17829,6 @@
       "source": "Mastercard",
       "title": "### Mastercard becomes official partner of Hudson Yards, unlocking priceless experiences and discovery for cardholders in New York City January, 2024",
       "published_at": "2026-02-17T00:00:00Z",
-      "updated_at": "2026-02-17T00:00:00Z",
-      "article_date_iso": "2026-02-17T00:00:00Z",
-      "article_date": "2026-02-17T00:00:00Z",
       "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-becomes-official-partner-of-hudson-yards-unlocking-priceless-experiences-and-discovery-for-cardholders-in-new-york-city.html",
       "summary": ""
     },
@@ -18327,9 +17866,6 @@
       "source": "FinCEN",
       "title": "FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams",
       "published_at": "2026-02-13T12:00:00Z",
-      "updated_at": "2026-02-13T12:00:00Z",
-      "article_date_iso": "2026-02-13T12:00:00Z",
-      "article_date": "February 13, 2026",
       "url": "https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026",
       "summary": "In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams."
     },
@@ -18338,9 +17874,6 @@
       "source": "FinCEN",
       "title": "FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
       "published_at": "2026-02-13T12:00:00Z",
-      "updated_at": "2026-02-13T12:00:00Z",
-      "article_date_iso": "2026-02-13T12:00:00Z",
-      "article_date": "February 13, 2026",
       "url": "https://www.fincen.gov/news/news-releases/fincen-launches-webpage-whistleblower-tips-fraud-money-laundering-sanctions",
       "summary": "The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) today launched a new dedicated webpage to confidentially accept whistleblower tips on fraud, money laundering, and sanctions violations."
     },
@@ -18349,9 +17882,6 @@
       "source": "FinCEN",
       "title": "FinCEN Issues Exceptive Relief to Streamline Customer Due Diligence Requirements",
       "published_at": "2026-02-13T12:00:00Z",
-      "updated_at": "2026-02-13T12:00:00Z",
-      "article_date_iso": "2026-02-13T12:00:00Z",
-      "article_date": "February 13, 2026",
       "url": "https://www.fincen.gov/news/news-releases/fincen-issues-exceptive-relief-streamline-customer-due-diligence-requirements",
       "summary": "Relief Reduces Burdensome and Duplicative Regulatory Requirement"
     },
@@ -18360,9 +17890,6 @@
       "source": "OFAC",
       "title": "Issuance of Venezuela-related General Licenses",
       "published_at": "2026-02-13T00:00:00Z",
-      "updated_at": "2026-02-13T00:00:00Z",
-      "article_date_iso": "2026-02-13T00:00:00Z",
-      "article_date": "2026-02-13T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260213",
       "summary": ""
     },
@@ -18371,9 +17898,6 @@
       "source": "IRS",
       "title": "Avoid waiting on hold; use IRS online tools for faster help",
       "published_at": "2026-02-13T00:00:00Z",
-      "updated_at": "2026-02-13T00:00:00Z",
-      "article_date_iso": "2026-02-13T00:00:00Z",
-      "article_date": "2026-02-13T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help",
       "summary": "IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold."
     },
@@ -18435,9 +17959,6 @@
       "source": "OFAC",
       "title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC",
       "published_at": "2026-02-12T00:00:00Z",
-      "updated_at": "2026-02-12T00:00:00Z",
-      "article_date_iso": "2026-02-12T00:00:00Z",
-      "article_date": "2026-02-12T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260212",
       "summary": ""
     },
@@ -18446,9 +17967,6 @@
       "source": "IRS",
       "title": "Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill",
       "published_at": "2026-02-12T00:00:00Z",
-      "updated_at": "2026-02-12T00:00:00Z",
-      "article_date_iso": "2026-02-12T00:00:00Z",
-      "article_date": "2026-02-12T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill",
       "summary": "IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Revenue Service today issued a notice providing guidance for determining whether electricity-producing qualified facilities, energy storage technologies, or eligible components are receiving material assistance from a prohibited foreign entity (PFE) and would be ineligible for certain energy tax credit…"
     },
@@ -18457,9 +17975,6 @@
       "source": "OCC",
       "title": "OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026",
       "published_at": "2026-02-12T00:00:00Z",
-      "updated_at": "2026-02-12T00:00:00Z",
-      "article_date_iso": "2026-02-12T00:00:00Z",
-      "article_date": "2026-02-12T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html",
       "summary": "The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions."
     },
@@ -18468,9 +17983,6 @@
       "source": "Freddie Mac",
       "title": "Mortgage Rates Inch Down",
       "published_at": "2026-02-12T00:00:00Z",
-      "updated_at": "2026-02-12T00:00:00Z",
-      "article_date_iso": "2026-02-12T00:00:00Z",
-      "article_date": "2026-02-12T00:00:00Z",
       "url": "https://www.globenewswire.com/news-release/2026/02/12/3237519/0/en/Mortgage-Rates-Inch-Down.html",
       "summary": ""
     },
@@ -18479,9 +17991,6 @@
       "source": "Freddie Mac",
       "title": "Freddie Mac Announces Fourth Quarter and Full-Year 2025 Financial Results",
       "published_at": "2026-02-12T00:00:00Z",
-      "updated_at": "2026-02-12T00:00:00Z",
-      "article_date_iso": "2026-02-12T00:00:00Z",
-      "article_date": "2026-02-12T00:00:00Z",
       "url": "https://www.globenewswire.com/news-release/2026/02/12/3237170/0/en/Freddie-Mac-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
       "summary": ""
     },
@@ -18490,9 +17999,6 @@
       "source": "FIS",
       "title": "FIS Receives Triple Recognition from IDC MarketScape, Chartis, and TMI as FIS Treasury and Risk Management Solutions Continue to Shine",
       "published_at": "2026-02-12T00:00:00Z",
-      "updated_at": "2026-02-12T00:00:00Z",
-      "article_date_iso": "2026-02-12T00:00:00Z",
-      "article_date": "2026-02-12T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-receives-triple-recognition-idc-marketscape-chartis-and-tmi",
       "summary": ""
     },
@@ -18501,9 +18007,6 @@
       "source": "Fiserv",
       "title": "Fiserv Introduces INDX, a Real-Time Cash Settlement Platform for Digital Asset Companies",
       "published_at": "2026-02-12T00:00:00Z",
-      "updated_at": "2026-02-12T00:00:00Z",
-      "article_date_iso": "2026-02-12T00:00:00Z",
-      "article_date": "2026-02-12T00:00:00Z",
       "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduces-indx-real-time-cash-settlement-platform",
       "summary": ""
     },
@@ -18526,9 +18029,6 @@
       "source": "White House",
       "title": "Nominations Sent to the Senate",
       "published_at": "2026-02-11T22:17:58Z",
-      "updated_at": "2026-02-11T22:17:58Z",
-      "article_date_iso": "2026-02-11T22:17:58Z",
-      "article_date": "2026-02-11T22:17:58Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/nominations-sent-to-the-senate-b65f/",
       "summary": ""
     },
@@ -18537,9 +18037,6 @@
       "source": "White House",
       "title": "Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet",
       "published_at": "2026-02-11T22:03:51Z",
-      "updated_at": "2026-02-11T22:03:51Z",
-      "article_date_iso": "2026-02-11T22:03:51Z",
-      "article_date": "2026-02-11T22:03:51Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/",
       "summary": ""
     },
@@ -18548,35 +18045,8 @@
       "source": "NACHA",
       "title": "Payments Consulting",
       "published_at": "2026-02-11T17:23:18Z",
-      "updated_at": "2026-02-11T17:23:18Z",
-      "article_date_iso": "2026-02-11T17:23:18Z",
-      "article_date": "February 11, 2026",
       "url": "https://www.nacha.org/taxonomy/term/362",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "Metro 2® Format Fundamentals Webinar Series April 14–16, 2026",
-      "published_at": "2026-02-11T10:00:55Z",
-      "url": "https://www.cdiaonline.org/events/2026/02/11/metro-2-format-fundamentals-webinar-series-april-14-16-2026/",
-      "summary": "Metro 2® Format Fundamentals Webinar Series | April 14–16, 2026 Join us for the CDIA Metro 2® Format Fundamentals Live Webinar Series,... The post Metro 2® Format Fundamentals Webinar Series April 14–16, 2026 appeared first on CDIA ."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21511 Microsoft Outlook Spoofing Vulnerability",
-      "published_at": "2026-02-11T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21511",
-      "summary": "Acknowledgement added. This is an informational change only."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21256 GitHub Copilot and Visual Studio Remote Code Execution Vulnerability",
-      "published_at": "2026-02-11T08:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256",
-      "summary": "Changes made to the security updates links and information. This is an informational change only."
     }
   ]
 }
