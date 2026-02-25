@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-11T19:23:21Z",
-  "window_end": "2026-02-25T19:23:21Z",
-  "generated_at_utc": "2026-02-25T19:23:21Z",
-  "generated_at_ct": "2026-02-25T13:23:21-06:00",
+  "window_start": "2026-02-11T20:02:23Z",
+  "window_end": "2026-02-25T20:02:23Z",
+  "generated_at_utc": "2026-02-25T20:02:23Z",
+  "generated_at_ct": "2026-02-25T14:02:23-06:00",
   "items": [
     {
       "category": "IS",
@@ -647,6 +647,14 @@
       "published_at": "2026-02-23T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes."
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "There Will be No Dikkering Around When Scott Dikkers Speaks at Payments",
+      "published_at": "2026-02-23T00:00:00Z",
+      "url": "https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments",
+      "summary": "When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…"
     },
     {
       "category": "Fintech Watch",

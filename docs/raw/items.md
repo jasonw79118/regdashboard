@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-11T19:23:21Z` → `2026-02-25T19:23:21Z` (UTC)
-Last updated: `2026-02-25T13:23:21-06:00` (CT) — `2026-02-25T19:23:21Z` (UTC)
+Window: `2026-02-11T20:02:23Z` → `2026-02-25T20:02:23Z` (UTC)
+Last updated: `2026-02-25T14:02:23-06:00` (CT) — `2026-02-25T20:02:23Z` (UTC)
 
 ## Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
 - Source: BleepingComputer
@@ -500,6 +500,14 @@ Following earlier actions to remove reputation risk from its supervision of bank
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
+
+## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
+
+When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 
 ## FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 - Source: FIS
