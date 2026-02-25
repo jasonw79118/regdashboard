@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-11T16:35:08Z",
-  "window_end": "2026-02-25T16:35:08Z",
-  "generated_at_utc": "2026-02-25T16:35:08Z",
-  "generated_at_ct": "2026-02-25T10:35:08-06:00",
+  "window_start": "2026-02-11T17:04:58Z",
+  "window_end": "2026-02-25T17:04:58Z",
+  "generated_at_utc": "2026-02-25T17:04:58Z",
+  "generated_at_ct": "2026-02-25T11:04:58-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Chinese cyberspies breached dozens of telecom firms, govt agencies",
+      "published_at": "2026-02-25T17:00:15Z",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/",
+      "summary": "Google's Threat Intelligence Group (GTIG), Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor that used SaaS API calls to hide malicious traffic in attacks targeting telecom and government networks. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -117,14 +125,6 @@
       "summary": "The former head of Trenchant, a specialized U.S. defense contractor unit, was sentenced Tuesday to more than seven years in federal prison for stealing and selling zero-day exploits to a Russian broker whose clients include the Russian government. [...]"
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-25T08:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-2025-full-year-report",
-      "summary": "Wolters Kluwer, a global leader in professional information, software solutions and services, today releases its full-year 2025 results."
-    },
-    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool",
@@ -218,6 +218,14 @@
       "title": "ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS",
       "published_at": "2026-02-25T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "A SurfShark VPN plan for every screen you own is now 84% off",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/",
       "summary": ""
     },
     {
@@ -485,14 +493,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "ShinyHunters extortion gang claims Odido breach affecting millions",
-      "published_at": "2026-02-24T11:40:20Z",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/",
-      "summary": "The ShinyHunters extortion gang has claimed responsibility for breaching Dutch telecommunications provider Odido and stealing millions of user records from its compromised systems. [...]"
-    },
-    {
       "category": "OFAC",
       "source": "OFAC",
       "title": "Cyber-related Designations; CAATSA - Russia-related Designations; PAIPA Designations",
@@ -677,12 +677,36 @@
       "summary": ""
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "This $139 refurbished portable monitor is now under $60",
       "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/dresner-application-innovation-awards",
-      "summary": "CCH Tagetik Powered by Expert AI has once again been recognized as a top innovator, earning multiple honors in the 2025 Dresner Advisory Services Application Innovation Awards."
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "A lifetime license for the AcePDF editor is now only $25",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "ShinyHunters extortion gang claims Odido breach affecting millions",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "North Korean Lazarus group linked to Medusa ransomware attacks",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
+      "summary": ""
     },
     {
       "category": "Federal Register",
@@ -750,6 +774,22 @@
       "title": "National Angel Family Day, 2026",
       "published_at": "2026-02-23T16:19:54Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-angel-family-day-2026/",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Education",
+      "published_at": "2026-02-23T14:20:03Z",
+      "url": "https://www.nacha.org/taxonomy/term/345",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Blog",
+      "published_at": "2026-02-23T14:20:03Z",
+      "url": "https://www.nacha.org/taxonomy/term/41",
       "summary": ""
     },
     {
@@ -3372,14 +3412,6 @@
       "published_at": "2026-02-19T14:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0398",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-19T10:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-introduces-legisway-advisor",
-      "summary": "Wolters Kluwer Legal & Regulatory today announced the launch of Legisway Advisor, a new contract redrafting capability powered by Expert AI."
     },
     {
       "category": "IS",
@@ -11713,14 +11745,6 @@
       "summary": "Information published."
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-18T10:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-libra-legal-ai-workspace-in-italy-and-continues-pan-european-expansion",
-      "summary": "Wolters Kluwer Legal & Regulatory today announced the launch of the Libra by Wolters Kluwer legal AI workspace (“Libra”) in Italy."
-    },
-    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-38068 crypto: lzo - Fix compression buffer overrun",
@@ -16433,14 +16457,6 @@
       "summary": "Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network."
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-17T15:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-law-scholar-gary-born",
-      "summary": "Wolters Kluwer’s Legal & Regulatory U.S. business is pleased to announce a new webinar featuring Gary Born, one of the world’s foremost authorities on international law and international dispute resolution."
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "President George Washington’s Birthday, 2026",
@@ -17806,14 +17822,6 @@
       "fedreg_document_number": "2026-03082"
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award",
-      "summary": "Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award."
-    },
-    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability",
@@ -17868,14 +17876,6 @@
       "published_at": "2026-02-13T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help",
       "summary": "IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold."
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-13T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health",
-      "summary": "Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data."
     },
     {
       "category": "Federal Register",
@@ -18014,6 +18014,14 @@
       "title": "Strengthening United States National Defense with America’s Beautiful Clean Coal Power Generation Fleet",
       "published_at": "2026-02-11T22:03:51Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/",
+      "summary": ""
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Payments Consulting",
+      "published_at": "2026-02-11T17:23:18Z",
+      "url": "https://www.nacha.org/taxonomy/term/362",
       "summary": ""
     }
   ]

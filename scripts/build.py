@@ -259,11 +259,6 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     },
     "FRB": {"deny_domains": {"www.facebook.com"}},
     "FRB Payments": {"deny_domains": {"www.facebook.com"}},
-    "NACHA": {
-        "allow_domains": {"www.nacha.org", "nacha.org"},
-        "allow_path_prefixes": {"/news/"},
-    },
-
 
     "Freddie Mac": {
         "allow_domains": {"www.globenewswire.com"},
@@ -1374,8 +1369,10 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
         ("name", "pubdate"),
         ("name", "publish-date"),
         ("name", "date"),
-        ("property", "og:updated_time"),
     ]
+    # Avoid "updated" metadata for FDIC; it can make old press releases look in-window.
+    if source and source != "FDIC":
+        meta_keys.append(("property", "og:updated_time"))
     for k, v in meta_keys:
         m = soup.find("meta", attrs={k: v})
         if m and m.get("content"):
@@ -1392,13 +1389,17 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
         for obj in candidates:
             if not isinstance(obj, dict):
                 continue
-            for k in ["datePublished", "dateModified"]:
+            for k in (["datePublished"] if source == "FDIC" else ["datePublished", "dateModified"]):
                 if k in obj:
                     dt = parse_date(obj.get(k))
                     if dt:
                         return dt, snippet
 
-    dt = extract_any_date(soup.get_text(" ", strip=True), source=source)
+    text_blob = soup.get_text(" ", strip=True)
+    if source == "FDIC":
+        # Remove "Last Updated" fragments before generic date detection.
+        text_blob = re.sub(r"(?i)last\s+updated\s*:.*?(?=(\s{2,}|$))", " ", text_blob)
+    dt = extract_any_date(text_blob, source=source)
     if dt:
         return dt, snippet
 
@@ -2563,85 +2564,6 @@ def finastra_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[da
 # MAIN CONTENT LINK ROUTER
 # ============================
 
-
-def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-    """Extract real Nacha article pages from https://www.nacha.org/news
-
-    We only keep leaf /news/<slug> pages and exclude category hub pages (blog-posts, press-releases, etc).
-    """
-    soup = BeautifulSoup(html, "html.parser")
-    container = pick_container(soup) or soup
-    if not container:
-        return []
-
-    links: List[Tuple[str, str, Optional[datetime]]] = []
-    seen: set[str] = set()
-
-    # Category landing pages that are not actual articles
-    hub_slugs = {
-        "blog-posts",
-        "press-releases",
-        "articles",
-        "podcasts",
-        "webinars",
-        "events",
-        "videos",
-        "press-release",
-        "news",
-    }
-
-    # Prefer heading anchors (titles) first; fall back to all anchors if needed
-    anchors = list(container.select("h2 a[href], h3 a[href], h4 a[href]"))
-    if not anchors:
-        anchors = list(container.find_all("a", href=True))
-
-    for a in anchors:
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#"):
-            continue
-
-        url = canonical_url(urljoin(page_url, href))
-        if not allowed_for_source("NACHA", url):
-            continue
-
-        u = urlparse(url)
-        p = (u.path or "/").rstrip("/")
-        if not p.startswith("/news/"):
-            continue
-        if "/taxonomy/" in p or "/tag/" in p or "/category/" in p:
-            continue
-
-        parts = [x for x in p.split("/") if x]
-        # Require leaf /news/<slug>
-        if len(parts) != 2 or parts[0] != "news":
-            continue
-        if parts[1].lower() in hub_slugs:
-            continue
-
-        title = clean_text(a.get_text(" ", strip=True) or "", 220)
-        if not title:
-            continue
-        if is_probably_nav_link("NACHA", title, url):
-            continue
-        if is_generic_listing_or_home("NACHA", title, url):
-            continue
-
-        if url in seen:
-            continue
-        seen.add(url)
-
-        dt = find_time_near_anchor(a, "NACHA")
-        if dt is None:
-            wrap = a.find_parent(["article", "div", "li", "section"]) or a.parent
-            if wrap:
-                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 1200), source="NACHA")
-
-        links.append((title, url, dt))
-        if len(links) >= MAX_LISTING_LINKS:
-            break
-
-    return links
-
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     if source == "OFAC":
         return ofac_links(page_url, html)
@@ -2659,9 +2581,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
-    if source == "NACHA":
-        return nacha_links(page_url, html)
-
 
     if source == "ABA":
         return aba_news_links(page_url, html)
@@ -2689,8 +2608,7 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     seen = set()
 
     for a in container.find_all("a", href=True):
-        if not is_likely_article_anchor(a):
-            continue
+        # NACHA listing markup varies; rely on URL shape filtering below (not anchor heuristics).
 
         href = (a.get("href") or "").strip()
         if not href:
@@ -3144,9 +3062,7 @@ def build() -> None:
 
                 snippet = ""
 
-                
-                # FDIC press releases/listings can show an unrelated "updated" stamp near the top of the listing page.
-                # Always prefer the publication date from the detail page for windowing (and ignore 'Last Updated').
+                # FDIC: listing pages can surface "updated" dates; always confirm publication date from detail page (bounded by caps)
                 if source == "FDIC" and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
@@ -3158,10 +3074,10 @@ def build() -> None:
                             dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
                             if dt2:
                                 dt = dt2
-                            if snippet2 and not snippet:
+                            if snippet2:
                                 snippet = snippet2
 
-# If Visa has a date but outside window, let detail override
+                # If Visa has a date but outside window, let detail override
                 if source == "Visa" and dt is not None and (not in_window(dt, window_start, window_end)) and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)

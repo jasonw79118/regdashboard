@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-11T16:35:08Z` → `2026-02-25T16:35:08Z` (UTC)
-Last updated: `2026-02-25T10:35:08-06:00` (CT) — `2026-02-25T16:35:08Z` (UTC)
+Window: `2026-02-11T17:04:58Z` → `2026-02-25T17:04:58Z` (UTC)
+Last updated: `2026-02-25T11:04:58-06:00` (CT) — `2026-02-25T17:04:58Z` (UTC)
+
+## Chinese cyberspies breached dozens of telecom firms, govt agencies
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T17:00:15Z
+- URL: https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
+
+Google's Threat Intelligence Group (GTIG), Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor that used SaaS API calls to hide malicious traffic in attacks targeting telecom and government networks. [...]
 
 ## Marquis sues SonicWall over backup breach that led to ransomware attack
 - Source: BleepingComputer
@@ -113,14 +121,6 @@ Information published.
 
 The former head of Trenchant, a specialized U.S. defense contractor unit, was sentenced Tuesday to more than seven years in federal prison for stealing and selling zero-day exploits to a Russian broker whose clients include the Russian government. [...]
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-25T08:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-2025-full-year-report
-
-Wolters Kluwer, a global leader in professional information, software solutions and services, today releases its full-year 2025 results.
-
 ## Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool
 - Source: BleepingComputer
 - Category: IS
@@ -194,6 +194,12 @@ Microsoft has released the KB5077241 optional cumulative update for Windows 11, 
 - Category: Legislative
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
+
+## A SurfShark VPN plan for every screen you own is now 84% off
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/
 
 ## Equal Credit Opportunity Act (Regulation B)
 - Source: Federal Register
@@ -375,14 +381,6 @@ SolarWinds has patched four critical Serv-U remote code execution vulnerabilitie
 - Published: 2026-02-24T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-teams-cargox-further-adoption-digital-source-electronic-trade-documentation
 
-## ShinyHunters extortion gang claims Odido breach affecting millions
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T11:40:20Z
-- URL: https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/
-
-The ShinyHunters extortion gang has claimed responsibility for breaching Dutch telecommunications provider Odido and stealing millions of user records from its compromised systems. [...]
-
 ## Cyber-related Designations; CAATSA - Russia-related Designations; PAIPA Designations
 - Source: OFAC
 - Category: OFAC
@@ -561,13 +559,29 @@ The Office of the Comptroller of the Currency and the Federal Deposit Insurance 
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
+## This $139 refurbished portable monitor is now under $60
+- Source: BleepingComputer
+- Category: IS
 - Published: 2026-02-24T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/dresner-application-innovation-awards
+- URL: https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
 
-CCH Tagetik Powered by Expert AI has once again been recognized as a top innovator, earning multiple honors in the 2025 Dresner Advisory Services Application Innovation Awards.
+## A lifetime license for the AcePDF editor is now only $25
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/a-lifetime-license-for-the-acepdf-editor-is-now-only-25/
+
+## ShinyHunters extortion gang claims Odido breach affecting millions
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/
+
+## North Korean Lazarus group linked to Medusa ransomware attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/
 
 ## Agency Information Collection Activities: Comment Request
 - Source: Federal Register
@@ -614,6 +628,18 @@ Following earlier actions to remove reputation risk from its supervision of bank
 - Category: Executive
 - Published: 2026-02-23T16:19:54Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/national-angel-family-day-2026/
+
+## Education
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-23T14:20:03Z
+- URL: https://www.nacha.org/taxonomy/term/345
+
+## Blog
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-23T14:20:03Z
+- URL: https://www.nacha.org/taxonomy/term/41
 
 ## Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
 - Source: Fannie Mae
@@ -3188,14 +3214,6 @@ Corrected the CVE description and title. This is an informational change only.
 - Category: OFAC
 - Published: 2026-02-19T14:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0398
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-19T10:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-introduces-legisway-advisor
-
-Wolters Kluwer Legal & Regulatory today announced the launch of Legisway Advisor, a new contract redrafting capability powered by Expert AI.
 
 ## Chromium: CVE-2026-2322 Heap buffer overflow in Codecs
 - Source: Microsoft MSRC
@@ -11483,14 +11501,6 @@ Information published.
 
 Information published.
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-18T10:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-libra-legal-ai-workspace-in-italy-and-continues-pan-european-expansion
-
-Wolters Kluwer Legal & Regulatory today announced the launch of the Libra by Wolters Kluwer legal AI workspace (“Libra”) in Italy.
-
 ## CVE-2025-38068 crypto: lzo - Fix compression buffer overrun
 - Source: Microsoft MSRC
 - Category: IS
@@ -16195,14 +16205,6 @@ Under specific conditions, a malicious webpage may trigger autofill population a
 
 Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-17T15:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-law-scholar-gary-born
-
-Wolters Kluwer’s Legal & Regulatory U.S. business is pleased to announce a new webinar featuring Gary Born, one of the world’s foremost authorities on international law and international dispute resolution.
-
 ## President George Washington’s Birthday, 2026
 - Source: White House
 - Category: Executive
@@ -17229,14 +17231,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 
 The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0046; -0118; -0174; 0188 and -0202). The notices of proposed renewal for these information collections were pr…
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award
-
-Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award.
-
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -17290,14 +17284,6 @@ Relief Reduces Burdensome and Duplicative Regulatory Requirement
 - URL: https://www.irs.gov/newsroom/avoid-waiting-on-hold-use-irs-online-tools-for-faster-help
 
 IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health
-
-Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data.
 
 ## 60-Day Notice of Proposed Information Collection: Housing Choice Voucher Program and Tribal HUD-VASH
 - Source: Federal Register
@@ -17412,3 +17398,9 @@ The NCUA Board (Board) is seeking comment on proposed regulations to implement p
 - Category: Executive
 - Published: 2026-02-11T22:03:51Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/02/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/
+
+## Payments Consulting
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-11T17:23:18Z
+- URL: https://www.nacha.org/taxonomy/term/362
