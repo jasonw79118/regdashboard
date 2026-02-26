@@ -2749,6 +2749,62 @@ def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
 
         out.append((title, full, None))
 
+    # Fallback: when fetched via proxy (e.g., r.jina.ai) the content may be plain text/markdown
+    # with links like [Title](https://www.nacha.org/news/slug) rather than <a href="...">.
+    if not out:
+        text_blob = html or ""
+        # 1) Markdown-style links
+        md_re = re.compile(r"\[([^\]]{8,240})\]\((https?://(?:www\.)?nacha\.org/news/[^)\s#]+)\)")
+        for m in md_re.finditer(text_blob):
+            title = clean_text(m.group(1), 240)
+            full = m.group(2)
+            full, _ = urldefrag(full)
+            u = urlparse(full)
+            path = (u.path or "").rstrip("/")
+            if not path.startswith("/news/"):
+                continue
+            if "/taxonomy/" in path:
+                continue
+            if path in {"/news", "/news/blog-posts", "/news/press-releases"}:
+                continue
+            rest = path[len("/news/"):]
+            if not rest or "/" in rest:
+                continue
+            if full in seen:
+                continue
+            seen.add(full)
+            out.append((title, full, None))
+            if len(out) >= MAX_LISTING_LINKS:
+                break
+
+    if not out:
+        # 2) Plain URLs in text
+        url_re = re.compile(r"https?://(?:www\.)?nacha\.org/news/[A-Za-z0-9\-]+")
+        for um in url_re.finditer(html or ""):
+            full = um.group(0)
+            full, _ = urldefrag(full)
+            u = urlparse(full)
+            path = (u.path or "").rstrip("/")
+            if not path.startswith("/news/"):
+                continue
+            if "/taxonomy/" in path:
+                continue
+            if path in {"/news", "/news/blog-posts", "/news/press-releases"}:
+                continue
+            rest = path[len("/news/"):]
+            if not rest or "/" in rest:
+                continue
+            # Derive a reasonable title from the slug
+            title = clean_text(rest.replace("-", " ").strip().title(), 240)
+            if not title:
+                continue
+            if full in seen:
+                continue
+            seen.add(full)
+            out.append((title, full, None))
+            if len(out) >= MAX_LISTING_LINKS:
+                break
+
     return out
 
 

@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-12T12:26:19Z` → `2026-02-26T12:26:19Z` (UTC)
-Last updated: `2026-02-26T06:26:19-06:00` (CT) — `2026-02-26T12:26:19Z` (UTC)
+Window: `2026-02-12T12:57:02Z` → `2026-02-26T12:57:02Z` (UTC)
+Last updated: `2026-02-26T06:57:02-06:00` (CT) — `2026-02-26T12:57:02Z` (UTC)
 
 ## New York sues Valve for promoting illegal gambling via game loot boxes
 - Source: BleepingComputer
@@ -138,6 +138,12 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-20225
 
 Information published.
+
+## Microsoft expands Windows restore to more enterprise devices
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
 
 ## Pay just $140 once to get ad-free documentaries forever
 - Source: BleepingComputer
@@ -419,6 +425,14 @@ The Office of the Comptroller of the Currency (OCC) today issued a proposed rule
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
 
+## Beating the Deadline for Continuing Education Credits Yields a Nice Reward
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
+
+Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
+
 ## Save 38% on this refurbished 10th Gen Apple iPad with free shipping
 - Source: BleepingComputer
 - Category: IS
@@ -531,14 +545,6 @@ A newly identified cybercrime service known as 1Campaign is enabling threat acto
 
 Minutes of the Board's discount rate meetings on January 20 and 28, 2026
 
-## CarGurus data breach exposes information of 12.4 million accounts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T18:08:20Z
-- URL: https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/
-
-The ShinyHunters extortion group has published personal information in more than 12 million records allegedly stolen from CarGurus, a U.S.-based digital auto platform. [...]
-
 ## Radical Left’s Rebuttal Will Contrast Democrat Extremism with President Trump’s Road to Prosperity
 - Source: White House
 - Category: Executive
@@ -605,11 +611,11 @@ The banking industry reported a return on assets ratio of 1.24 percent, a decrea
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
 
-## Microsoft adds Copilot data controls to all storage locations
+## CarGurus data breach exposes information of 12.4 million accounts
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/
+- URL: https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -672,6 +678,14 @@ Following earlier actions to remove reputation risk from its supervision of bank
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
+
+## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
+
+When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 
 ## FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 - Source: FIS

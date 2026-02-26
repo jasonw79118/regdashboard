@@ -120,6 +120,12 @@ Information published.
 IS
 BleepingComputer
 2026-02-26T00:00:00Z
+Microsoft expands Windows restore to more enterprise devices
+https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-26T00:00:00Z
 Pay just $140 once to get ad-free documentaries forever
 https://www.bleepingcomputer.com/offer/deals/pay-just-140-once-to-get-ad-free-documentaries-forever/
 ------------------------------------------------------------
@@ -374,6 +380,13 @@ Senate Banking
 On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration
 https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
 ------------------------------------------------------------
+Payments
+NACHA
+2026-02-25T00:00:00Z
+Beating the Deadline for Continuing Education Credits Yields a Nice Reward
+https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
+Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
@@ -475,13 +488,6 @@ Minutes of the Board's discount rate meetings on January 20 and 28, 2026
 https://www.federalreserve.gov/newsevents/pressreleases/monetary20260224a.htm
 Minutes of the Board's discount rate meetings on January 20 and 28, 2026
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T18:08:20Z
-CarGurus data breach exposes information of 12.4 million accounts
-https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/
-The ShinyHunters extortion group has published personal information in more than 12 million records allegedly stolen from CarGurus, a U.S.-based digital auto platform. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-02-24T17:58:15Z
@@ -548,8 +554,8 @@ https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monit
 IS
 BleepingComputer
 2026-02-24T00:00:00Z
-Microsoft adds Copilot data controls to all storage locations
-https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/
+CarGurus data breach exposes information of 12.4 million accounts
+https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -605,6 +611,13 @@ Fannie Mae
 Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
 https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
+------------------------------------------------------------
+Payments
+NACHA
+2026-02-23T00:00:00Z
+There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
+https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
+When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 ------------------------------------------------------------
 Fintech Watch
 FIS
