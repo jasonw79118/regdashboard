@@ -1,9 +1,33 @@
 {
-  "window_start": "2026-02-12T17:24:44Z",
-  "window_end": "2026-02-26T17:24:44Z",
-  "generated_at_utc": "2026-02-26T17:24:44Z",
-  "generated_at_ct": "2026-02-26T11:24:44-06:00",
+  "window_start": "2026-02-12T18:23:57Z",
+  "window_end": "2026-02-26T18:23:57Z",
+  "generated_at_utc": "2026-02-26T18:23:57Z",
+  "generated_at_ct": "2026-02-26T12:23:57-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Trend Micro warns of critical Apex One code execution flaws",
+      "published_at": "2026-02-26T17:58:28Z",
+      "url": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-critical-apex-one-rce-vulnerabilities/",
+      "summary": "Trend Micro has patched two critical Apex One vulnerabilities that allow attackers to gain remote code execution (RCE) on vulnerable Windows systems. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "European DYI chain ManoMano data breach impacts 38 million customers",
+      "published_at": "2026-02-26T17:35:21Z",
+      "url": "https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/",
+      "summary": "DIY store chain ManoMano is notifying customers of a data breach personal data, which was caused by hackers compromising a third-party service provider. [...]"
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-02-26T16:45:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-survey-finds-integrated-assurance-elusive-most-organizations",
+      "summary": "A new survey of nearly 2,000 risk, audit, and compliance professionals shows that while organizations increasingly recognize the value of integrated assurance, 91% remain in the early stages of turning that vision into reality."
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -263,14 +287,6 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "European DYI chain ManoMano data breach impacts 38 million customers",
-      "published_at": "2026-02-26T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
       "title": "Pay just $140 once to get ad-free documentaries forever",
       "published_at": "2026-02-26T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/pay-just-140-once-to-get-ad-free-documentaries-forever/",
@@ -457,14 +473,6 @@
       "summary": "Information published."
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Ex-L3Harris exec jailed for selling zero-days to Russian exploit broker",
-      "published_at": "2026-02-25T08:21:40Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/",
-      "summary": "The former head of Trenchant, a specialized U.S. defense contractor unit, was sentenced Tuesday to more than seven years in federal prison for stealing and selling zero-day exploits to a Russian broker whose clients include the Russian government. [...]"
-    },
-    {
       "category": "Compliance Watch",
       "source": "Wolters Kluwer",
       "title": "Wolters Kluwer news",
@@ -561,6 +569,14 @@
       "summary": ""
     },
     {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Beating the Deadline for Continuing Education Credits Yields a Nice Reward",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward",
+      "summary": "Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…"
+    },
+    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Save 38% on this refurbished 10th Gen Apple iPad with free shipping",
@@ -574,6 +590,14 @@
       "title": "A SurfShark VPN plan for every screen you own is now 84% off",
       "published_at": "2026-02-25T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Ex-L3Harris exec jailed for selling zero-days to Russian exploit broker",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/",
       "summary": ""
     },
     {
@@ -809,14 +833,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Phishing campaign targets freight and logistics orgs in the US, Europe",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/",
-      "summary": ""
-    },
-    {
       "category": "Compliance Watch",
       "source": "Wolters Kluwer",
       "title": "Wolters Kluwer news",
@@ -885,20 +901,20 @@
       "summary": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal"
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "National Angel Family Day, 2026",
-      "published_at": "2026-02-23T16:19:54Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/national-angel-family-day-2026/",
-      "summary": ""
-    },
-    {
       "category": "Mortgage",
       "source": "Fannie Mae",
       "title": "Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes",
       "published_at": "2026-02-23T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes."
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "There Will be No Dikkering Around When Scott Dikkers Speaks at Payments",
+      "published_at": "2026-02-23T00:00:00Z",
+      "url": "https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments",
+      "summary": "When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…"
     },
     {
       "category": "Fintech Watch",
@@ -3328,30 +3344,6 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Imposing a Temporary Import Surcharge to Address Fundamental International Payments Problems",
-      "published_at": "2026-02-21T00:40:07Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/imposing-a-temporary-import-surcharge-to-address-fundamental-international-payments-problems/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries",
-      "published_at": "2026-02-21T00:14:47Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Ending Certain Tariff Actions",
-      "published_at": "2026-02-21T00:12:16Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ending-certain-tariff-actions/",
-      "summary": ""
-    },
-    {
       "category": "OFAC",
       "source": "Treasury",
       "title": "Secretary of the Treasury Scott Bessent’s Remarks Before the Economic Club of Dallas - Economic Security First",
@@ -3731,14 +3723,6 @@
       "published_at": "2026-02-18T22:49:38Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-15042",
       "summary": "Information published."
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides",
-      "published_at": "2026-02-18T22:47:24Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/promoting-the-national-defense-by-ensuring-an-adequate-supply-of-elemental-phosphorus-and-glyphosate-based-herbicides/",
-      "summary": ""
     },
     {
       "category": "IS",
@@ -16557,14 +16541,6 @@
       "summary": "Wolters Kluwer’s Legal & Regulatory U.S. business is pleased to announce a new webinar featuring Gary Born, one of the world’s foremost authorities on international law and international dispute resolution."
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "President George Washington’s Birthday, 2026",
-      "published_at": "2026-02-17T01:09:15Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/president-george-washingtons-birthday-2026/",
-      "summary": ""
-    },
-    {
       "category": "Banking",
       "source": "OCC",
       "title": "OCC Requests Comment on Proposed Rulemaking on the Bank Appeals Process",
@@ -17936,14 +17912,6 @@
       "published_at": "2026-02-13T16:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21517",
       "summary": "Download links fixed"
-    },
-    {
-      "category": "FinCEN",
-      "source": "FinCEN",
-      "title": "FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams",
-      "published_at": "2026-02-13T12:00:00Z",
-      "url": "https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026",
-      "summary": "In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams."
     },
     {
       "category": "FinCEN",

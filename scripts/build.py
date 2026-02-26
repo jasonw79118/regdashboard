@@ -1419,17 +1419,23 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                 dt_fdic = parse_date(m.group(0))
                 if dt_fdic:
                     return dt_fdic, snippet
-
-
-    # NACHA news: validate this is a real article page and extract the on-page "Posted on" date (Month Day, Year).
-    # NACHA also has hub/category pages under /news/*; we must avoid treating those as single articles.
+    # NACHA news: extract publication date from NACHA article pages.
+    # NACHA pages sometimes show dates as "Posted on February 11, 2026" OR as "02/11/2026".
+    # We keep a conservative hub-page guard, but we do NOT require the literal phrase "Posted on".
     if ('nacha' in (source or '').lower()) or ('nacha.org' in (detail_url or '')):
-        month_names = (
-            'January|February|March|April|May|June|July|August|September|October|November|December'
-        )
-        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
+        u = urlparse(detail_url or "")
+        pth = (u.path or "").rstrip("/")
 
-        # Prefer: metadata that clearly indicates an article
+        # Guard against hub/category pages (shouldn't be in listing, but keep safe).
+        if pth in {"/news", "/news/blog-posts", "/news/press-releases"} or "/taxonomy/" in pth:
+            return None, snippet
+        if pth.startswith("/news/"):
+            rest = pth[len("/news/") :]
+            # Require a single slug segment
+            if not rest or "/" in rest:
+                return None, snippet
+
+        # Prefer common meta tags if present
         for meta_key in [
             ("meta", {"property": "article:published_time"}, "content"),
             ("meta", {"name": "article:published_time"}, "content"),
@@ -1473,20 +1479,23 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                         if dt_ld:
                             return dt_ld, snippet
 
-        # Heuristic: article pages usually include "Posted on" near the title region
-        # Look for a line that includes "Posted on" and a Month Day, Year.
+        # On-page scan: look for a date near the top (supports Month-name, slash, and ISO).
         top_blob = soup.get_text("\n", strip=True)
-        for line in top_blob.splitlines()[:250]:
-            ll = line.lower()
-            if "posted on" in ll:
-                m = date_re.search(line)
-                if m:
-                    dt_n = parse_date(m.group(0))
-                    if dt_n:
-                        return dt_n, snippet
 
-        # If there's no strong signal, treat as NOT a single article (likely a hub/category page).
+        # If "updated" appears, skip those lines so we don't pick up footer maintenance stamps.
+        for line in top_blob.splitlines()[:250]:
+            ll = (line or "").strip().lower()
+            if not ll:
+                continue
+            if "updated" in ll or "last reviewed" in ll:
+                continue
+            dt_line = extract_any_date(line, source="NACHA")
+            if dt_line:
+                return dt_line, snippet
+
+        # If we cannot find any credible date, treat as non-qualifying.
         return None, snippet
+
 
     t = soup.find("time")
     if t:

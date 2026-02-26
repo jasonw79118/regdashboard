@@ -1,7 +1,31 @@
 # RegDashboard — Export
 
-Window: `2026-02-12T17:24:44Z` → `2026-02-26T17:24:44Z` (UTC)
-Last updated: `2026-02-26T11:24:44-06:00` (CT) — `2026-02-26T17:24:44Z` (UTC)
+Window: `2026-02-12T18:23:57Z` → `2026-02-26T18:23:57Z` (UTC)
+Last updated: `2026-02-26T12:23:57-06:00` (CT) — `2026-02-26T18:23:57Z` (UTC)
+
+## Trend Micro warns of critical Apex One code execution flaws
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T17:58:28Z
+- URL: https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-critical-apex-one-rce-vulnerabilities/
+
+Trend Micro has patched two critical Apex One vulnerabilities that allow attackers to gain remote code execution (RCE) on vulnerable Windows systems. [...]
+
+## European DYI chain ManoMano data breach impacts 38 million customers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T17:35:21Z
+- URL: https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/
+
+DIY store chain ManoMano is notifying customers of a data breach personal data, which was caused by hackers compromising a third-party service provider. [...]
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-26T16:45:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-survey-finds-integrated-assurance-elusive-most-organizations
+
+A new survey of nearly 2,000 risk, audit, and compliance professionals shows that while organizations increasingly recognize the value of integrated assurance, 91% remain in the early stages of turning that vision into reality.
 
 ## Critical Juniper Networks PTX flaw allows full router takeover
 - Source: BleepingComputer
@@ -243,12 +267,6 @@ Comptroller Jonathan V. Gould today testified on the Office of the Comptroller o
 - Published: 2026-02-26T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-announces-proposed-offerings-senior-notes-0
 
-## European DYI chain ManoMano data breach impacts 38 million customers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/
-
 ## Pay just $140 once to get ad-free documentaries forever
 - Source: BleepingComputer
 - Category: IS
@@ -419,14 +437,6 @@ Information published.
 
 Information published.
 
-## Ex-L3Harris exec jailed for selling zero-days to Russian exploit broker
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T08:21:40Z
-- URL: https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/
-
-The former head of Trenchant, a specialized U.S. defense contractor unit, was sentenced Tuesday to more than seven years in federal prison for stealing and selling zero-day exploits to a Russian broker whose clients include the Russian government. [...]
-
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
 - Category: Compliance Watch
@@ -501,6 +511,14 @@ Wolters Kluwer, a global leader in professional information, software solutions 
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/02/25/3245075/0/en/Freddie-Mac-Issues-Monthly-Volume-Summary-for-January-2026.html
 
+## Beating the Deadline for Continuing Education Credits Yields a Nice Reward
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
+
+Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
+
 ## Save 38% on this refurbished 10th Gen Apple iPad with free shipping
 - Source: BleepingComputer
 - Category: IS
@@ -512,6 +530,12 @@ Wolters Kluwer, a global leader in professional information, software solutions 
 - Category: IS
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/
+
+## Ex-L3Harris exec jailed for selling zero-days to Russian exploit broker
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/
 
 ## Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool
 - Source: BleepingComputer
@@ -655,12 +679,6 @@ The banking industry reported a return on assets ratio of 1.24 percent, a decrea
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026
 
-## Phishing campaign targets freight and logistics orgs in the US, Europe
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/
-
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
 - Category: Compliance Watch
@@ -709,12 +727,6 @@ In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Finan
 
 Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal
 
-## National Angel Family Day, 2026
-- Source: White House
-- Category: Executive
-- Published: 2026-02-23T16:19:54Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/national-angel-family-day-2026/
-
 ## Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
 - Source: Fannie Mae
 - Category: Mortgage
@@ -722,6 +734,14 @@ Following earlier actions to remove reputation risk from its supervision of bank
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
+
+## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
+- Source: NACHA
+- Category: Payments
+- Published: 2026-02-23T00:00:00Z
+- URL: https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
+
+When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 
 ## FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 - Source: FIS
@@ -3135,24 +3155,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 
-## Imposing a Temporary Import Surcharge to Address Fundamental International Payments Problems
-- Source: White House
-- Category: Executive
-- Published: 2026-02-21T00:40:07Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/imposing-a-temporary-import-surcharge-to-address-fundamental-international-payments-problems/
-
-## Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries
-- Source: White House
-- Category: Executive
-- Published: 2026-02-21T00:14:47Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/
-
-## Ending Certain Tariff Actions
-- Source: White House
-- Category: Executive
-- Published: 2026-02-21T00:12:16Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/ending-certain-tariff-actions/
-
 ## Secretary of the Treasury Scott Bessent’s Remarks Before the Economic Club of Dallas - Economic Security First
 - Source: Treasury
 - Category: OFAC
@@ -3470,12 +3472,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-15042
 
 Information published.
-
-## Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides
-- Source: White House
-- Category: Executive
-- Published: 2026-02-18T22:47:24Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/promoting-the-national-defense-by-ensuring-an-adequate-supply-of-elemental-phosphorus-and-glyphosate-based-herbicides/
 
 ## CVE-2023-6856 The WebGL `DrawElementsInstanced` method was susceptible to a heap buffer overflow when used on systems with the Mesa VM driver. This issue could allow an attacker to perform remote code execution and sand…
 - Source: Microsoft MSRC
@@ -16285,12 +16281,6 @@ Improper authentication in Windows Admin Center allows an authorized attacker to
 
 Wolters Kluwer’s Legal & Regulatory U.S. business is pleased to announce a new webinar featuring Gary Born, one of the world’s foremost authorities on international law and international dispute resolution.
 
-## President George Washington’s Birthday, 2026
-- Source: White House
-- Category: Executive
-- Published: 2026-02-17T01:09:15Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/02/president-george-washingtons-birthday-2026/
-
 ## OCC Requests Comment on Proposed Rulemaking on the Bank Appeals Process
 - Source: OCC
 - Category: Banking
@@ -17326,14 +17316,6 @@ Updated information to include CVSS scores. This is an informational change only
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21517
 
 Download links fixed
-
-## FinCEN Reminds Financial Institutions of Its Resources on Identifying Potential Relationship Investment Scams
-- Source: FinCEN
-- Category: FinCEN
-- Published: 2026-02-13T12:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/dating-or-defrauding-2026
-
-In support of the annual, multiagency #DatingorDefrauding campaign, led by the Commodity Futures Trading Commission’s Office of Customer Education and Outreach, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) is once again reminding financial institutions to remain vigilant to potential relationship investment scams.
 
 ## FinCEN Launches Webpage for Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations
 - Source: FinCEN
