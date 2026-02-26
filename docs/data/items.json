@@ -1,15 +1,47 @@
 {
-  "window_start": "2026-02-12T14:18:20Z",
-  "window_end": "2026-02-26T14:18:20Z",
-  "generated_at_utc": "2026-02-26T14:18:20Z",
-  "generated_at_ct": "2026-02-26T08:18:20-06:00",
+  "window_start": "2026-02-12T17:24:44Z",
+  "window_end": "2026-02-26T17:24:44Z",
+  "generated_at_utc": "2026-02-26T17:24:44Z",
+  "generated_at_ct": "2026-02-26T11:24:44-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Critical Juniper Networks PTX flaw allows full router takeover",
+      "published_at": "2026-02-26T16:42:12Z",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-juniper-networks-ptx-flaw-allows-full-router-takeover/",
+      "summary": "A critical vulnerability in the Junos OS Evolved network operating system running on PTX Series routers from Juniper Networks could allow an unauthenticated attacker to execute code remotely with root privileges. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Olympique Marseille confirms 'attempted' cyberattack after data leak",
+      "published_at": "2026-02-26T16:11:30Z",
+      "url": "https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/",
+      "summary": "French professional football club Olympique de Marseille has confirmed a cyberattack after a threat actor claimed on Monday that it breached the club's systems earlier this month. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "Treasury Sanctions Nicaraguan Officials Enabling the Murillo-Ortega Dictatorship’s Repression",
+      "published_at": "2026-02-26T16:00:00Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0409",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "Treasury Proposes Rule to Sever Swiss Bank MBaer’s Access to U.S. Financial System",
+      "published_at": "2026-02-26T14:30:00Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0408",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Ransomware payment rate drops to record low as attacks surge",
       "published_at": "2026-02-26T14:00:59Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-as-attacks-surge/",
       "summary": "The number of ransomware victims paying threat actors has dropped to 28% last year, an all-time low, despite a significant increase in the number of claimed attacks. [...]"
     },
     {
@@ -19,6 +51,14 @@
       "published_at": "2026-02-26T13:04:02Z",
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/",
       "summary": "Microsoft now allows more enterprise users to restore their personal settings and Microsoft Store apps from a previous Windows 11 device. [...]"
+    },
+    {
+      "category": "FinCEN",
+      "source": "FinCEN",
+      "title": "Treasury Proposes Rule to Sever Swiss Bank MBaer’s Access to U.S. Financial System",
+      "published_at": "2026-02-26T12:00:00Z",
+      "url": "https://www.fincen.gov/news/news-releases/treasury-proposes-rule-sever-swiss-bank-mbaers-access-us-financial-system",
+      "summary": "Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) proposed a rule that, if finalized, would sever MBaer Merchant Bank AG (MBaer’s) access to the U.S. financial system as a result of its financial support to illicit actors linked to Russia and Iran. If finalized, the proposed rule would prohibit covered U.S. financial institutions from o…"
     },
     {
       "category": "IS",
@@ -157,11 +197,75 @@
       "summary": "Information published."
     },
     {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Nicaragua-related Designations; Issuance of Amended Russia-related General License and Associated Frequently Asked Questions",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260226",
+      "summary": ""
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "IRS launches new web page to streamline tax fraud and scam reporting",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-launches-new-web-page-to-streamline-tax-fraud-and-scam-reporting",
+      "summary": "IR-2026-26, Feb. 26, 2026 — The Internal Revenue Service today announced the launch of a new web page that allows taxpayers to confidentially report suspected tax fraud, scams, evasion, or other tax-related illegal activities, as well as internal-facing improvements that will enhance how referrals are used to stop illegal activity."
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
+      "title": "Comptroller Gould Testifies on Agency Priorities",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-10.html",
+      "summary": "Comptroller Jonathan V. Gould today testified on the Office of the Comptroller of the Currency's (OCC) priorities and activities before the U.S. Senate Committee on Banking, Housing, and Urban Affairs."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Mortgage Rates Drop Below 6% for the First Time in 3.5 Years",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/02/26/3245903/0/en/Mortgage-Rates-Drop-Below-6-for-the-First-Time-in-3-5-Years.html",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "At Hearing, OCC Comptroller Gould Says He Will Consider Warren Request to Review World Liberty Financial Bank Application",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/at-hearing-occ-comptroller-gould-says-he-will-consider-warren-request-to-review-world-liberty-financial-bank-application",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Launches New Probe into Trump Failure on Affordability",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-launches-new-probe-into-trump-failure-on-affordability",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Highlights Failure of Trump Regulators to Hold Epstein-Connected Bankers Accountable",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-highlights-failure-of-trump-regulators-to-hold-epstein-connected-bankers-accountable",
+      "summary": ""
+    },
+    {
       "category": "Fintech Watch",
       "source": "FIS",
       "title": "FIS Announces Proposed Offerings of Senior Notes",
       "published_at": "2026-02-26T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-announces-proposed-offerings-senior-notes-0",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "European DYI chain ManoMano data breach impacts 38 million customers",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/",
       "summary": ""
     },
     {
@@ -369,14 +473,6 @@
       "summary": "Wolters Kluwer, a global leader in professional information, software solutions and services, today releases its full-year 2025 results."
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool",
-      "published_at": "2026-02-25T07:51:51Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077241-update-improves-bitlocker-adds-sysmon-tool/",
-      "summary": "Microsoft has released the KB5077241 optional cumulative update for Windows 11, which comes with 29 changes, including improvements to BitLocker, a new network speed test tool, and native System Monitor (Sysmon) functionality. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "Democrats Showed Whose Side They’re On — And it’s Not the American People",
@@ -446,7 +542,7 @@
       "title": "OCC Requests Comments on Proposal to Implement GENIUS Act",
       "published_at": "2026-02-25T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-9.html",
-      "summary": "The Office of the Comptroller of the Currency (OCC) today issued a proposed rulemaking to implement the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act."
+      "summary": ""
     },
     {
       "category": "Banking",
@@ -465,30 +561,6 @@
       "summary": ""
     },
     {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Ahead of Hearing, Senate Democrats Press Banking Regulators on Civil Rights Safeguards for American Borrowers",
-      "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-senate-democrats-press-banking-regulators-on-civil-rights-safeguards-for-american-borrowers",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Kim Statement on Reports Secretary Hegseth May Use DPA to Force American Company to Remove Guardrails on AI Models",
-      "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-kim-statement-on-reports-secretary-hegseth-may-use-dpa-to-force-american-company-to-remove-guardrails-on-ai-models",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration",
-      "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration",
-      "summary": ""
-    },
-    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Save 38% on this refurbished 10th Gen Apple iPad with free shipping",
@@ -502,6 +574,14 @@
       "title": "A SurfShark VPN plan for every screen you own is now 84% off",
       "published_at": "2026-02-25T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077241-update-improves-bitlocker-adds-sysmon-tool/",
       "summary": ""
     },
     {
@@ -641,22 +721,6 @@
       "fedreg_document_number": "2026-03716"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Phishing campaign targets freight and logistics orgs in the US, Europe",
-      "published_at": "2026-02-24T23:57:58Z",
-      "url": "https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/",
-      "summary": "A financially motivated threat group dubbed \"Diesel Vortex\" is stealing credentials from freight and logistics operators in the U.S. and Europe in phishing attacks using 52 domains. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Wynn Resorts confirms employee data breach after extortion threat",
-      "published_at": "2026-02-24T21:51:20Z",
-      "url": "https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/",
-      "summary": "Wynn Resorts has confirmed that a hacker stole employee data from its systems after the company was listed on the ShinyHunters extortion gang's data leak site. [...]"
-    },
-    {
       "category": "OFAC",
       "source": "Treasury",
       "title": "Treasury Sanctions Exploit Broker Network for Theft and Sale of U.S. Government Cyber Tools",
@@ -747,17 +811,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "1Campaign platform helps malicious Google ads evade detection",
+      "title": "Phishing campaign targets freight and logistics orgs in the US, Europe",
       "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "This $139 refurbished portable monitor is now under $60",
-      "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/",
+      "url": "https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/",
       "summary": ""
     },
     {
@@ -4411,22 +4467,6 @@
       "published_at": "2026-02-18T22:01:45Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-28493",
       "summary": "Information published."
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Treasury Issues Interim CAMT Guidance to Reduce Burdens, Support U.S. Investment, and Maximize Growth",
-      "published_at": "2026-02-18T21:57:31Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0397",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Treasury International Capital Data for December",
-      "published_at": "2026-02-18T21:00:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0396",
-      "summary": ""
     },
     {
       "category": "Banking",
@@ -17882,14 +17922,6 @@
       "fedreg_document_number": "2026-03082"
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-02-16T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award",
-      "summary": "Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award."
-    },
-    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability",
@@ -17973,22 +18005,6 @@
       "published_at": "2026-02-12T21:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260212a.htm",
       "summary": "Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda."
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "Press Release: FDIC Releases Economic Scenarios for 2026 Stress Testing",
-      "published_at": "2026-02-12T16:02:11Z",
-      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/4098769",
-      "summary": "PRESS RELEASE | FEBRUARY 12, 2026 FDIC Releases Economic Scenarios for 2026 Stress Testing WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covered institutions with total consolidated assets of more than $250 billion. The Dodd-Frank Wall Street Reform and Consumer Protecti…"
-    },
-    {
-      "category": "Banking",
-      "source": "FRB",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
-      "published_at": "2026-02-12T16:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260212a.htm",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Regions Bank"
     }
   ]
 }

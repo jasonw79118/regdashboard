@@ -123,7 +123,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Federal Register": "Federal Register",
 
     # USDA tile
-    "USDA Rural Development": "Mortgage",
+    "USDA Rural Development": "USDA",
 
     # Fintech Watch tile
     "FIS": "Fintech Watch",
@@ -1421,21 +1421,15 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                     return dt_fdic, snippet
 
 
-
-    # NACHA news:
-    # - Avoid treating the /news hub (and other non-article hubs) as a single article.
-    # - NACHA pages sometimes show dates as "02/11/2026" (slash date), not only "February 11, 2026".
+    # NACHA news: validate this is a real article page and extract the on-page "Posted on" date (Month Day, Year).
+    # NACHA also has hub/category pages under /news/*; we must avoid treating those as single articles.
     if ('nacha' in (source or '').lower()) or ('nacha.org' in (detail_url or '')):
-        try:
-            pth = (urlparse(detail_url).path or "").rstrip("/")
-        except Exception:
-            pth = ""
+        month_names = (
+            'January|February|March|April|May|June|July|August|September|October|November|December'
+        )
+        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
 
-        # Known hubs (not article detail pages)
-        if pth in {"/news", "/rules"}:
-            return None, snippet
-
-        # Prefer explicit metadata first
+        # Prefer: metadata that clearly indicates an article
         for meta_key in [
             ("meta", {"property": "article:published_time"}, "content"),
             ("meta", {"name": "article:published_time"}, "content"),
@@ -1449,7 +1443,7 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                 if dt_meta:
                     return dt_meta, snippet
 
-        # JSON-LD (Article/NewsArticle/BlogPosting)
+        # JSON-LD (often contains @type Article/NewsArticle/BlogPosting with datePublished)
         for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
             try:
                 data = json.loads(script.get_text(strip=True) or "")
@@ -1479,19 +1473,20 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                         if dt_ld:
                             return dt_ld, snippet
 
-        # Heuristic scan near the top of visible text:
-        # - accept Month Day, Year OR slash/ISO dates
+        # Heuristic: article pages usually include "Posted on" near the title region
+        # Look for a line that includes "Posted on" and a Month Day, Year.
         top_blob = soup.get_text("\n", strip=True)
-        for line in top_blob.splitlines()[:300]:
+        for line in top_blob.splitlines()[:250]:
             ll = line.lower()
-            if ("posted" in ll) or ("published" in ll) or ("date" in ll):
-                dt_any = extract_any_date(line, source="NACHA")
-                if dt_any:
-                    return dt_any, snippet
+            if "posted on" in ll:
+                m = date_re.search(line)
+                if m:
+                    dt_n = parse_date(m.group(0))
+                    if dt_n:
+                        return dt_n, snippet
 
-        # If we still didn't find a date, do NOT hard-fail here.
-        # Fall through to generic extractors below (time/meta/ld+json/text).
-
+        # If there's no strong signal, treat as NOT a single article (likely a hub/category page).
+        return None, snippet
 
     t = soup.find("time")
     if t:
@@ -2701,6 +2696,9 @@ def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
     NACHA includes hub pages like /news/blog-posts and taxonomy pages; we ONLY want actual
     article pages of the form /news/<slug>.
     We intentionally do not rely on anchor heuristics because NACHA often wraps titles in non-standard markup.
+
+    NOTE: When fetched via proxy (e.g. r.jina.ai) the content may be plain text/markdown
+    with links like [Title](https://www.nacha.org/news/slug) rather than <a href=".">.
     """
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -2721,18 +2719,18 @@ def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
             continue
 
         # Accept only /news/<slug> (single-segment slug) and reject taxonomy and hub/listing pages.
-        path = (u.path or "").rstrip("/")
-        if not path.startswith("/news/"):
+        pth = (u.path or "").rstrip("/")
+        if not pth.startswith("/news/"):
             continue
-        if "/taxonomy/" in path:
+        if "/taxonomy/" in pth:
             continue
 
         # Exclude known hub pages:
-        if path in {"/news", "/news/blog-posts", "/news/press-releases"}:
+        if pth in {"/news", "/news/blog-posts", "/news/press-releases"}:
             continue
 
         # Require a single slug segment after /news/
-        rest = path[len("/news/"):]
+        rest = pth[len("/news/") :]
         if not rest or "/" in rest:
             continue
 
@@ -2748,9 +2746,63 @@ def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
         seen.add(full)
 
         out.append((title, full, None))
+        if len(out) >= MAX_LISTING_LINKS:
+            return out
+
+    # Fallback 1: Markdown-style links: [Title](https://www.nacha.org/news/slug)
+    if not out:
+        text_blob = html or ""
+        md_re = re.compile(r"\[([^\]]{8,240})\]\((https?://(?:www\.)?nacha\.org/news/[^)\s#]+)\)")
+        for m in md_re.finditer(text_blob):
+            title = clean_text(m.group(1), 240)
+            full = m.group(2)
+            full, _ = urldefrag(full)
+            u = urlparse(full)
+            pth = (u.path or "").rstrip("/")
+            if not pth.startswith("/news/"):
+                continue
+            if "/taxonomy/" in pth:
+                continue
+            if pth in {"/news", "/news/blog-posts", "/news/press-releases"}:
+                continue
+            rest = pth[len("/news/") :]
+            if not rest or "/" in rest:
+                continue
+            if full in seen:
+                continue
+            seen.add(full)
+            out.append((title, full, None))
+            if len(out) >= MAX_LISTING_LINKS:
+                break
+
+    # Fallback 2: Plain URLs in text
+    if not out:
+        url_re = re.compile(r"https?://(?:www\.)?nacha\.org/news/[A-Za-z0-9\-]+")
+        for um in url_re.finditer(html or ""):
+            full = um.group(0)
+            full, _ = urldefrag(full)
+            u = urlparse(full)
+            pth = (u.path or "").rstrip("/")
+            if not pth.startswith("/news/"):
+                continue
+            if "/taxonomy/" in pth:
+                continue
+            if pth in {"/news", "/news/blog-posts", "/news/press-releases"}:
+                continue
+            rest = pth[len("/news/") :]
+            if not rest or "/" in rest:
+                continue
+            title = clean_text(rest.replace("-", " ").strip().title(), 240)
+            if not title:
+                continue
+            if full in seen:
+                continue
+            seen.add(full)
+            out.append((title, full, None))
+            if len(out) >= MAX_LISTING_LINKS:
+                break
 
     return out
-
 
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
     if source == "OFAC":
@@ -2763,11 +2815,10 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return mastercard_links(page_url, html)
     if source == "Visa":
         return visa_links(page_url, html)
-
     if source == "NACHA":
-        # NACHA's /news listing is often JS-rendered; try a proxy-rendered fetch to capture the full set of article links.
+        # NACHA's /news listing is often JS-rendered; try a proxy-rendered fetch to capture article links.
         links = nacha_links(page_url, html)
-        if (looks_js_rendered(html) or len(links) < 25):
+        if (looks_js_rendered(html) or len(links) < 5):
             proxy_html = polite_get(_jina_proxy_url(page_url))
             if proxy_html:
                 links = nacha_links(page_url, proxy_html)
@@ -2778,10 +2829,6 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return cdia_links(page_url, html)
     if source == "FHLB MPF":
         return fhlbmpf_links(page_url, html)
-
-    if source == "NACHA":
-        return nacha_links(page_url, html)
-
     if source == "ABA":
         return aba_news_links(page_url, html)
     if source == "Wolters Kluwer":

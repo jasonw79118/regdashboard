@@ -1,13 +1,41 @@
 # RegDashboard — Export
 
-Window: `2026-02-12T14:18:20Z` → `2026-02-26T14:18:20Z` (UTC)
-Last updated: `2026-02-26T08:18:20-06:00` (CT) — `2026-02-26T14:18:20Z` (UTC)
+Window: `2026-02-12T17:24:44Z` → `2026-02-26T17:24:44Z` (UTC)
+Last updated: `2026-02-26T11:24:44-06:00` (CT) — `2026-02-26T17:24:44Z` (UTC)
+
+## Critical Juniper Networks PTX flaw allows full router takeover
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T16:42:12Z
+- URL: https://www.bleepingcomputer.com/news/security/critical-juniper-networks-ptx-flaw-allows-full-router-takeover/
+
+A critical vulnerability in the Junos OS Evolved network operating system running on PTX Series routers from Juniper Networks could allow an unauthenticated attacker to execute code remotely with root privileges. [...]
+
+## Olympique Marseille confirms 'attempted' cyberattack after data leak
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T16:11:30Z
+- URL: https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/
+
+French professional football club Olympique de Marseille has confirmed a cyberattack after a threat actor claimed on Monday that it breached the club's systems earlier this month. [...]
+
+## Treasury Sanctions Nicaraguan Officials Enabling the Murillo-Ortega Dictatorship’s Repression
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-26T16:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0409
+
+## Treasury Proposes Rule to Sever Swiss Bank MBaer’s Access to U.S. Financial System
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-02-26T14:30:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0408
 
 ## Ransomware payment rate drops to record low as attacks surge
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-26T14:00:59Z
-- URL: https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/
+- URL: https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-as-attacks-surge/
 
 The number of ransomware victims paying threat actors has dropped to 28% last year, an all-time low, despite a significant increase in the number of claimed attacks. [...]
 
@@ -18,6 +46,14 @@ The number of ransomware victims paying threat actors has dropped to 28% last ye
 - URL: https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
 
 Microsoft now allows more enterprise users to restore their personal settings and Microsoft Store apps from a previous Windows 11 device. [...]
+
+## Treasury Proposes Rule to Sever Swiss Bank MBaer’s Access to U.S. Financial System
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-02-26T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/treasury-proposes-rule-sever-swiss-bank-mbaers-access-us-financial-system
+
+Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) proposed a rule that, if finalized, would sever MBaer Merchant Bank AG (MBaer’s) access to the U.S. financial system as a result of its financial support to illicit actors linked to Russia and Iran. If finalized, the proposed rule would prohibit covered U.S. financial institutions from o…
 
 ## New York sues Valve for promoting illegal gambling via game loot boxes
 - Source: BleepingComputer
@@ -155,11 +191,63 @@ Information published.
 
 Information published.
 
+## Nicaragua-related Designations; Issuance of Amended Russia-related General License and Associated Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-26T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260226
+
+## IRS launches new web page to streamline tax fraud and scam reporting
+- Source: IRS
+- Category: IRS
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.irs.gov/newsroom/irs-launches-new-web-page-to-streamline-tax-fraud-and-scam-reporting
+
+IR-2026-26, Feb. 26, 2026 — The Internal Revenue Service today announced the launch of a new web page that allows taxpayers to confidentially report suspected tax fraud, scams, evasion, or other tax-related illegal activities, as well as internal-facing improvements that will enhance how referrals are used to stop illegal activity.
+
+## Comptroller Gould Testifies on Agency Priorities
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-10.html
+
+Comptroller Jonathan V. Gould today testified on the Office of the Comptroller of the Currency's (OCC) priorities and activities before the U.S. Senate Committee on Banking, Housing, and Urban Affairs.
+
+## Mortgage Rates Drop Below 6% for the First Time in 3.5 Years
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/02/26/3245903/0/en/Mortgage-Rates-Drop-Below-6-for-the-First-Time-in-3-5-Years.html
+
+## At Hearing, OCC Comptroller Gould Says He Will Consider Warren Request to Review World Liberty Financial Bank Application
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-occ-comptroller-gould-says-he-will-consider-warren-request-to-review-world-liberty-financial-bank-application
+
+## Warren Launches New Probe into Trump Failure on Affordability
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-launches-new-probe-into-trump-failure-on-affordability
+
+## Warren Highlights Failure of Trump Regulators to Hold Epstein-Connected Bankers Accountable
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-highlights-failure-of-trump-regulators-to-hold-epstein-connected-bankers-accountable
+
 ## FIS Announces Proposed Offerings of Senior Notes
 - Source: FIS
 - Category: Fintech Watch
 - Published: 2026-02-26T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-announces-proposed-offerings-senior-notes-0
+
+## European DYI chain ManoMano data breach impacts 38 million customers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/
 
 ## Pay just $140 once to get ad-free documentaries forever
 - Source: BleepingComputer
@@ -347,14 +435,6 @@ The former head of Trenchant, a specialized U.S. defense contractor unit, was se
 
 Wolters Kluwer, a global leader in professional information, software solutions and services, today releases its full-year 2025 results.
 
-## Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T07:51:51Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077241-update-improves-bitlocker-adds-sysmon-tool/
-
-Microsoft has released the KB5077241 optional cumulative update for Windows 11, which comes with 29 changes, including improvements to BitLocker, a new network speed test tool, and native System Monitor (Sysmon) functionality. [...]
-
 ## Democrats Showed Whose Side They’re On — And it’s Not the American People
 - Source: White House
 - Category: Executive
@@ -409,8 +489,6 @@ Microsoft has released the KB5077241 optional cumulative update for Windows 11, 
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-9.html
 
-The Office of the Comptroller of the Currency (OCC) today issued a proposed rulemaking to implement the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act.
-
 ## GENIUS Act Regulations: Notice of Proposed Rulemaking
 - Source: OCC
 - Category: Banking
@@ -423,24 +501,6 @@ The Office of the Comptroller of the Currency (OCC) today issued a proposed rule
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/02/25/3245075/0/en/Freddie-Mac-Issues-Monthly-Volume-Summary-for-January-2026.html
 
-## Ahead of Hearing, Senate Democrats Press Banking Regulators on Civil Rights Safeguards for American Borrowers
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-senate-democrats-press-banking-regulators-on-civil-rights-safeguards-for-american-borrowers
-
-## Warren, Kim Statement on Reports Secretary Hegseth May Use DPA to Force American Company to Remove Guardrails on AI Models
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-kim-statement-on-reports-secretary-hegseth-may-use-dpa-to-force-american-company-to-remove-guardrails-on-ai-models
-
-## On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
-
 ## Save 38% on this refurbished 10th Gen Apple iPad with free shipping
 - Source: BleepingComputer
 - Category: IS
@@ -452,6 +512,12 @@ The Office of the Comptroller of the Currency (OCC) today issued a proposed rule
 - Category: IS
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/
+
+## Windows 11 KB5077241 update improves BitLocker, adds Sysmon tool
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077241-update-improves-bitlocker-adds-sysmon-tool/
 
 ## Equal Credit Opportunity Act (Regulation B)
 - Source: Federal Register
@@ -514,22 +580,6 @@ The NCUA Board (Board) solicits public comment on a proposal to eliminate the re
 - URL: https://www.federalregister.gov/documents/2026/02/25/2026-03716/rescinding-30-day-notification-requirements-related-to-eviction-based-on-nonpayment-of-rent-in
 
 The Rural Housing Service (RHS or the Agency), an agency of the Rural Development (RD) mission area within the U.S. Department of Agriculture (USDA), is issuing this final rule to rescind the regulatory requirement of the minimum 30-day notice for nonpayment of rent before the start of eviction proceedings in Rural Housing Service (RHS) Section 515 and 514 Multi-Family Housing…
-
-## Phishing campaign targets freight and logistics orgs in the US, Europe
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T23:57:58Z
-- URL: https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/
-
-A financially motivated threat group dubbed "Diesel Vortex" is stealing credentials from freight and logistics operators in the U.S. and Europe in phishing attacks using 52 domains. [...]
-
-## Wynn Resorts confirms employee data breach after extortion threat
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T21:51:20Z
-- URL: https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/
-
-Wynn Resorts has confirmed that a hacker stole employee data from its systems after the company was listed on the ShinyHunters extortion gang's data leak site. [...]
 
 ## Treasury Sanctions Exploit Broker Network for Theft and Sale of U.S. Government Cyber Tools
 - Source: Treasury
@@ -605,17 +655,11 @@ The banking industry reported a return on assets ratio of 1.24 percent, a decrea
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026
 
-## 1Campaign platform helps malicious Google ads evade detection
+## Phishing campaign targets freight and logistics orgs in the US, Europe
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/
-
-## This $139 refurbished portable monitor is now under $60
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
+- URL: https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -4160,18 +4204,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-28493
 
 Information published.
-
-## Treasury Issues Interim CAMT Guidance to Reduce Burdens, Support U.S. Investment, and Maximize Growth
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-18T21:57:31Z
-- URL: https://home.treasury.gov/news/press-releases/sb0397
-
-## Treasury International Capital Data for December
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-18T21:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0396
 
 ## Minutes of the Federal Open Market Committee, January 27–28, 2026
 - Source: FRB
@@ -17279,14 +17311,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 
 The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0046; -0118; -0174; 0188 and -0202). The notices of proposed renewal for these information collections were pr…
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-16T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-esg-planning-analytics-seal-sustainable-service-award
-
-Wolters Kluwer’s CCH Tagetik ESG & Sustainability for Planning & Analytics secures SEAL Sustainable Service Award.
-
 ## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -17364,19 +17388,3 @@ FOR IMMEDIATE RELEASE: February 12, 2026 (AUSTIN) – Texas Bankers Association 
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260212a.htm
 
 Federal Reserve Board announces approval of application by Cooperativa de Ahorro y Credito Elga, Ltda.
-
-## Press Release: FDIC Releases Economic Scenarios for 2026 Stress Testing
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-12T16:02:11Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/4098769
-
-PRESS RELEASE | FEBRUARY 12, 2026 FDIC Releases Economic Scenarios for 2026 Stress Testing WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covered institutions with total consolidated assets of more than $250 billion. The Dodd-Frank Wall Street Reform and Consumer Protecti…
-
-## Federal Reserve Board issues enforcement action with former employee of Regions Bank
-- Source: FRB
-- Category: Banking
-- Published: 2026-02-12T16:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260212a.htm
-
-Federal Reserve Board issues enforcement action with former employee of Regions Bank
