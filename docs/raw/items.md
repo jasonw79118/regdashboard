@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-12T12:57:02Z` → `2026-02-26T12:57:02Z` (UTC)
-Last updated: `2026-02-26T06:57:02-06:00` (CT) — `2026-02-26T12:57:02Z` (UTC)
+Window: `2026-02-12T13:57:52Z` → `2026-02-26T13:57:52Z` (UTC)
+Last updated: `2026-02-26T07:57:52-06:00` (CT) — `2026-02-26T13:57:52Z` (UTC)
+
+## Microsoft expands Windows restore to more enterprise devices
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T13:04:02Z
+- URL: https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
+
+Microsoft now allows more enterprise users to restore their personal settings and Microsoft Store apps from a previous Windows 11 device. [...]
 
 ## New York sues Valve for promoting illegal gambling via game loot boxes
 - Source: BleepingComputer
@@ -139,11 +147,11 @@ Information published.
 
 Information published.
 
-## Microsoft expands Windows restore to more enterprise devices
+## Ransomware payment rate drops to record low as attacks surge
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-26T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
+- URL: https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/
 
 ## Pay just $140 once to get ad-free documentaries forever
 - Source: BleepingComputer
@@ -425,14 +433,6 @@ The Office of the Comptroller of the Currency (OCC) today issued a proposed rule
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
 
-## Beating the Deadline for Continuing Education Credits Yields a Nice Reward
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
-
-Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
-
 ## Save 38% on this refurbished 10th Gen Apple iPad with free shipping
 - Source: BleepingComputer
 - Category: IS
@@ -523,14 +523,6 @@ A financially motivated threat group dubbed "Diesel Vortex" is stealing credenti
 
 Wynn Resorts has confirmed that a hacker stole employee data from its systems after the company was listed on the ShinyHunters extortion gang's data leak site. [...]
 
-## 1Campaign platform helps malicious Google ads evade detection
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T21:45:05Z
-- URL: https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/
-
-A newly identified cybercrime service known as 1Campaign is enabling threat actors to run malicious Google Ads that remain online for extended periods while evading scrutiny from security researchers. [...]
-
 ## Treasury Sanctions Exploit Broker Network for Theft and Sale of U.S. Government Cyber Tools
 - Source: Treasury
 - Category: OFAC
@@ -605,17 +597,17 @@ The banking industry reported a return on assets ratio of 1.24 percent, a decrea
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-fourth-quarter-earnings-february-24-2026
 
+## 1Campaign platform helps malicious Google ads evade detection
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-24T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/
+
 ## This $139 refurbished portable monitor is now under $60
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
-
-## CarGurus data breach exposes information of 12.4 million accounts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -678,14 +670,6 @@ Following earlier actions to remove reputation risk from its supervision of bank
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
-
-## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
-
-When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 
 ## FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 - Source: FIS
@@ -3160,14 +3144,6 @@ Updated CWE value. This is an informational change only.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046
 
 Updated CWE value. This is an informational change only.
-
-## Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill
-- Source: IRS
-- Category: IRS
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill
-
-IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
 
 ## Education Services
 - Source: CDIA

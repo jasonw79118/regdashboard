@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-12T12:57:02Z",
-  "window_end": "2026-02-26T12:57:02Z",
-  "generated_at_utc": "2026-02-26T12:57:02Z",
-  "generated_at_ct": "2026-02-26T06:57:02-06:00",
+  "window_start": "2026-02-12T13:57:52Z",
+  "window_end": "2026-02-26T13:57:52Z",
+  "generated_at_utc": "2026-02-26T13:57:52Z",
+  "generated_at_ct": "2026-02-26T07:57:52-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft expands Windows restore to more enterprise devices",
+      "published_at": "2026-02-26T13:04:02Z",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/",
+      "summary": "Microsoft now allows more enterprise users to restore their personal settings and Microsoft Store apps from a previous Windows 11 device. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -143,9 +151,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Microsoft expands Windows restore to more enterprise devices",
+      "title": "Ransomware payment rate drops to record low as attacks surge",
       "published_at": "2026-02-26T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/",
       "summary": ""
     },
     {
@@ -473,14 +481,6 @@
       "summary": ""
     },
     {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Beating the Deadline for Continuing Education Credits Yields a Nice Reward",
-      "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward",
-      "summary": "Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…"
-    },
-    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Save 38% on this refurbished 10th Gen Apple iPad with free shipping",
@@ -649,14 +649,6 @@
       "summary": "Wynn Resorts has confirmed that a hacker stole employee data from its systems after the company was listed on the ShinyHunters extortion gang's data leak site. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "1Campaign platform helps malicious Google ads evade detection",
-      "published_at": "2026-02-24T21:45:05Z",
-      "url": "https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/",
-      "summary": "A newly identified cybercrime service known as 1Campaign is enabling threat actors to run malicious Google Ads that remain online for extended periods while evading scrutiny from security researchers. [...]"
-    },
-    {
       "category": "OFAC",
       "source": "Treasury",
       "title": "Treasury Sanctions Exploit Broker Network for Theft and Sale of U.S. Government Cyber Tools",
@@ -747,17 +739,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "This $139 refurbished portable monitor is now under $60",
+      "title": "1Campaign platform helps malicious Google ads evade detection",
       "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/",
+      "url": "https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "CarGurus data breach exposes information of 12.4 million accounts",
+      "title": "This $139 refurbished portable monitor is now under $60",
       "published_at": "2026-02-24T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/",
       "summary": ""
     },
     {
@@ -843,14 +835,6 @@
       "published_at": "2026-02-23T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes."
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "There Will be No Dikkering Around When Scott Dikkers Speaks at Payments",
-      "published_at": "2026-02-23T00:00:00Z",
-      "url": "https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments",
-      "summary": "When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…"
     },
     {
       "category": "Fintech Watch",
@@ -3350,14 +3334,6 @@
       "published_at": "2026-02-20T16:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046",
       "summary": "Updated CWE value. This is an informational change only."
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill",
-      "published_at": "2026-02-20T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill",
-      "summary": "IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill."
     },
     {
       "category": "Compliance Watch",

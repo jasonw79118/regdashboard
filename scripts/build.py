@@ -123,7 +123,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Federal Register": "Federal Register",
 
     # USDA tile
-    "USDA Rural Development": "Mortgage",
+    "USDA Rural Development": "USDA",
 
     # Fintech Watch tile
     "FIS": "Fintech Watch",
@@ -1421,21 +1421,102 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                     return dt_fdic, snippet
 
 
+    
+    # IRS newsroom pages:
+    # - Many IRS pages do not surface a parseable date on the listing cards.
+    # - Prefer common meta/time tags, then fall back to scanning early on-page text
+    #   while avoiding "last reviewed/updated" footer stamps.
+    if (source == "IRS") or ("irs.gov" in (detail_url or "")) or ("irs" in (source or "").lower()):
+        # Prefer common meta tags if present
+        for meta_key in [
+            ("meta", {"property": "article:published_time"}, "content"),
+            ("meta", {"name": "article:published_time"}, "content"),
+            ("meta", {"name": "parsely-pub-date"}, "content"),
+            ("meta", {"name": "pubdate"}, "content"),
+            ("meta", {"name": "date"}, "content"),
+            ("meta", {"name": "DC.date"}, "content"),
+            ("meta", {"name": "dcterms.created"}, "content"),
+            ("meta", {"name": "dcterms.date"}, "content"),
+        ]:
+            tag = soup.find(meta_key[0], attrs=meta_key[1])
+            if tag and tag.get(meta_key[2]):
+                dt_meta = parse_date(tag.get(meta_key[2]))
+                if dt_meta:
+                    return dt_meta, snippet
 
-    # NACHA news:
-    # - Avoid treating the /news hub (and other non-article hubs) as a single article.
-    # - NACHA pages sometimes show dates as "02/11/2026" (slash date), not only "February 11, 2026".
+        # <time datetime="..."> is common on some IRS templates
+        t = soup.find("time")
+        if t:
+            dt_time = parse_date(t.get("datetime") or "") or parse_date(t.get_text(" ", strip=True) or "")
+            if dt_time:
+                return dt_time, snippet
+
+        month_names = (
+            "January|February|March|April|May|June|July|August|September|October|November|December"
+        )
+        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
+
+        bad_markers = (
+            "last reviewed",
+            "last updated",
+            "reviewed or updated",
+            "page was last",
+            "last modified",
+        )
+
+        # Look near the H1 first (usually where IRS puts the publication date)
+        h1 = soup.find("h1")
+        if h1:
+            scanned = 0
+            for el in h1.find_all_next(["p", "div", "span", "time", "h2", "h3"], limit=80):
+                txt_el = (el.get_text(" ", strip=True) or "").strip()
+                if not txt_el:
+                    continue
+                scanned += 1
+                low = txt_el.lower()
+                if any(b in low for b in bad_markers):
+                    continue
+
+                m = date_re.search(txt_el)
+                if m:
+                    dt_irs = parse_date(m.group(0))
+                    if dt_irs:
+                        return dt_irs, snippet
+
+                dt_any = extract_any_date(txt_el, source="IRS")
+                if dt_any:
+                    return dt_any, snippet
+
+                if scanned >= 30:
+                    break
+
+        # Fallback: scan early visible lines, skipping footer "last reviewed/updated"
+        blob = soup.get_text("\n", strip=True)
+        for line in blob.splitlines()[:240]:
+            low = (line or "").lower()
+            if any(b in low for b in bad_markers):
+                continue
+
+            m = date_re.search(line)
+            if m:
+                dt_irs = parse_date(m.group(0))
+                if dt_irs:
+                    return dt_irs, snippet
+
+            dt_any = extract_any_date(line, source="IRS")
+            if dt_any:
+                return dt_any, snippet
+
+
+# NACHA news: validate this is a real article page and extract the on-page "Posted on" date (Month Day, Year).
+    # NACHA also has hub/category pages under /news/*; we must avoid treating those as single articles.
     if ('nacha' in (source or '').lower()) or ('nacha.org' in (detail_url or '')):
-        try:
-            pth = (urlparse(detail_url).path or "").rstrip("/")
-        except Exception:
-            pth = ""
+        month_names = (
+            'January|February|March|April|May|June|July|August|September|October|November|December'
+        )
+        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
 
-        # Known hubs (not article detail pages)
-        if pth in {"/news", "/rules"}:
-            return None, snippet
-
-        # Prefer explicit metadata first
+        # Prefer: metadata that clearly indicates an article
         for meta_key in [
             ("meta", {"property": "article:published_time"}, "content"),
             ("meta", {"name": "article:published_time"}, "content"),
@@ -1449,7 +1530,7 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                 if dt_meta:
                     return dt_meta, snippet
 
-        # JSON-LD (Article/NewsArticle/BlogPosting)
+        # JSON-LD (often contains @type Article/NewsArticle/BlogPosting with datePublished)
         for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
             try:
                 data = json.loads(script.get_text(strip=True) or "")
@@ -1479,19 +1560,20 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                         if dt_ld:
                             return dt_ld, snippet
 
-        # Heuristic scan near the top of visible text:
-        # - accept Month Day, Year OR slash/ISO dates
+        # Heuristic: article pages usually include "Posted on" near the title region
+        # Look for a line that includes "Posted on" and a Month Day, Year.
         top_blob = soup.get_text("\n", strip=True)
-        for line in top_blob.splitlines()[:300]:
+        for line in top_blob.splitlines()[:250]:
             ll = line.lower()
-            if ("posted" in ll) or ("published" in ll) or ("date" in ll):
-                dt_any = extract_any_date(line, source="NACHA")
-                if dt_any:
-                    return dt_any, snippet
+            if "posted on" in ll:
+                m = date_re.search(line)
+                if m:
+                    dt_n = parse_date(m.group(0))
+                    if dt_n:
+                        return dt_n, snippet
 
-        # If we still didn't find a date, do NOT hard-fail here.
-        # Fall through to generic extractors below (time/meta/ld+json/text).
-
+        # If there's no strong signal, treat as NOT a single article (likely a hub/category page).
+        return None, snippet
 
     t = soup.find("time")
     if t:
@@ -2748,62 +2830,6 @@ def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
         seen.add(full)
 
         out.append((title, full, None))
-
-    # Fallback: when fetched via proxy (e.g., r.jina.ai) the content may be plain text/markdown
-    # with links like [Title](https://www.nacha.org/news/slug) rather than <a href="...">.
-    if not out:
-        text_blob = html or ""
-        # 1) Markdown-style links
-        md_re = re.compile(r"\[([^\]]{8,240})\]\((https?://(?:www\.)?nacha\.org/news/[^)\s#]+)\)")
-        for m in md_re.finditer(text_blob):
-            title = clean_text(m.group(1), 240)
-            full = m.group(2)
-            full, _ = urldefrag(full)
-            u = urlparse(full)
-            path = (u.path or "").rstrip("/")
-            if not path.startswith("/news/"):
-                continue
-            if "/taxonomy/" in path:
-                continue
-            if path in {"/news", "/news/blog-posts", "/news/press-releases"}:
-                continue
-            rest = path[len("/news/"):]
-            if not rest or "/" in rest:
-                continue
-            if full in seen:
-                continue
-            seen.add(full)
-            out.append((title, full, None))
-            if len(out) >= MAX_LISTING_LINKS:
-                break
-
-    if not out:
-        # 2) Plain URLs in text
-        url_re = re.compile(r"https?://(?:www\.)?nacha\.org/news/[A-Za-z0-9\-]+")
-        for um in url_re.finditer(html or ""):
-            full = um.group(0)
-            full, _ = urldefrag(full)
-            u = urlparse(full)
-            path = (u.path or "").rstrip("/")
-            if not path.startswith("/news/"):
-                continue
-            if "/taxonomy/" in path:
-                continue
-            if path in {"/news", "/news/blog-posts", "/news/press-releases"}:
-                continue
-            rest = path[len("/news/"):]
-            if not rest or "/" in rest:
-                continue
-            # Derive a reasonable title from the slug
-            title = clean_text(rest.replace("-", " ").strip().title(), 240)
-            if not title:
-                continue
-            if full in seen:
-                continue
-            seen.add(full)
-            out.append((title, full, None))
-            if len(out) >= MAX_LISTING_LINKS:
-                break
 
     return out
 

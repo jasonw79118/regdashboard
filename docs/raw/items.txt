@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-02-26T13:04:02Z
+Microsoft expands Windows restore to more enterprise devices
+https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
+Microsoft now allows more enterprise users to restore their personal settings and Microsoft Store apps from a previous Windows 11 device. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-26T11:44:50Z
 New York sues Valve for promoting illegal gambling via game loot boxes
 https://www.bleepingcomputer.com/news/gaming/new-york-sues-valve-for-promoting-illegal-gambling-via-game-loot-boxes/
@@ -120,8 +127,8 @@ Information published.
 IS
 BleepingComputer
 2026-02-26T00:00:00Z
-Microsoft expands Windows restore to more enterprise devices
-https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
+Ransomware payment rate drops to record low as attacks surge
+https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -380,13 +387,6 @@ Senate Banking
 On Fourth Anniversary of Putin’s Full-Scale War, New Banking Committee Analysis Highlights Range of Targets Left Unsanctioned by Trump Administration
 https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
 ------------------------------------------------------------
-Payments
-NACHA
-2026-02-25T00:00:00Z
-Beating the Deadline for Continuing Education Credits Yields a Nice Reward
-https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
-Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
-------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
@@ -468,13 +468,6 @@ Wynn Resorts confirms employee data breach after extortion threat
 https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/
 Wynn Resorts has confirmed that a hacker stole employee data from its systems after the company was listed on the ShinyHunters extortion gang's data leak site. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T21:45:05Z
-1Campaign platform helps malicious Google ads evade detection
-https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/
-A newly identified cybercrime service known as 1Campaign is enabling threat actors to run malicious Google Ads that remain online for extended periods while evading scrutiny from security researchers. [...]
-------------------------------------------------------------
 OFAC
 Treasury
 2026-02-24T19:00:00Z
@@ -548,14 +541,14 @@ https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report
 IS
 BleepingComputer
 2026-02-24T00:00:00Z
-This $139 refurbished portable monitor is now under $60
-https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
+1Campaign platform helps malicious Google ads evade detection
+https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-24T00:00:00Z
-CarGurus data breach exposes information of 12.4 million accounts
-https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/
+This $139 refurbished portable monitor is now under $60
+https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -611,13 +604,6 @@ Fannie Mae
 Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
 https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
-------------------------------------------------------------
-Payments
-NACHA
-2026-02-23T00:00:00Z
-There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
-https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
-When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 ------------------------------------------------------------
 Fintech Watch
 FIS
@@ -2788,13 +2774,6 @@ Microsoft MSRC
 CVE-2025-65046 Microsoft Edge (Chromium-based) Spoofing Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046
 Updated CWE value. This is an informational change only.
-------------------------------------------------------------
-IRS
-IRS
-2026-02-20T00:00:00Z
-Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill
-https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill
-IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
 ------------------------------------------------------------
 Compliance Watch
 CDIA
