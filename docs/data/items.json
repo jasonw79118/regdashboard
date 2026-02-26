@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-12T13:57:52Z",
-  "window_end": "2026-02-26T13:57:52Z",
-  "generated_at_utc": "2026-02-26T13:57:52Z",
-  "generated_at_ct": "2026-02-26T07:57:52-06:00",
+  "window_start": "2026-02-12T14:18:20Z",
+  "window_end": "2026-02-26T14:18:20Z",
+  "generated_at_utc": "2026-02-26T14:18:20Z",
+  "generated_at_ct": "2026-02-26T08:18:20-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Ransomware payment rate drops to record low as attacks surge",
+      "published_at": "2026-02-26T14:00:59Z",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/",
+      "summary": "The number of ransomware victims paying threat actors has dropped to 28% last year, an all-time low, despite a significant increase in the number of claimed attacks. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -149,11 +157,11 @@
       "summary": "Information published."
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Ransomware payment rate drops to record low as attacks surge",
+      "category": "Fintech Watch",
+      "source": "FIS",
+      "title": "FIS Announces Proposed Offerings of Senior Notes",
       "published_at": "2026-02-26T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/",
+      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-announces-proposed-offerings-senior-notes-0",
       "summary": ""
     },
     {
@@ -3334,6 +3342,14 @@
       "published_at": "2026-02-20T16:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046",
       "summary": "Updated CWE value. This is an informational change only."
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill",
+      "published_at": "2026-02-20T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill",
+      "summary": "IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill."
     },
     {
       "category": "Compliance Watch",

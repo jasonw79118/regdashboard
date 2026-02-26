@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-02-26T14:00:59Z
+Ransomware payment rate drops to record low as attacks surge
+https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/
+The number of ransomware victims paying threat actors has dropped to 28% last year, an all-time low, despite a significant increase in the number of claimed attacks. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-26T13:04:02Z
 Microsoft expands Windows restore to more enterprise devices
 https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
@@ -124,11 +131,11 @@ CVE-2021-20225 A flaw was found in grub2 in versions prior to 2.06. The option p
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-20225
 Information published.
 ------------------------------------------------------------
-IS
-BleepingComputer
+Fintech Watch
+FIS
 2026-02-26T00:00:00Z
-Ransomware payment rate drops to record low as attacks surge
-https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/
+FIS Announces Proposed Offerings of Senior Notes
+https://www.investor.fisglobal.com/news-releases/news-release-details/fis-announces-proposed-offerings-senior-notes-0
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -2774,6 +2781,13 @@ Microsoft MSRC
 CVE-2025-65046 Microsoft Edge (Chromium-based) Spoofing Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046
 Updated CWE value. This is an informational change only.
+------------------------------------------------------------
+IRS
+IRS
+2026-02-20T00:00:00Z
+Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill
+https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill
+IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
 ------------------------------------------------------------
 Compliance Watch
 CDIA
