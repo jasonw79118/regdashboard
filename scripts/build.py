@@ -1421,15 +1421,21 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                     return dt_fdic, snippet
 
 
-    # NACHA news: validate this is a real article page and extract the on-page "Posted on" date (Month Day, Year).
-    # NACHA also has hub/category pages under /news/*; we must avoid treating those as single articles.
-    if ('nacha' in (source or '').lower()) or ('nacha.org' in (detail_url or '')):
-        month_names = (
-            'January|February|March|April|May|June|July|August|September|October|November|December'
-        )
-        date_re = re.compile(rf"\b({month_names})\s+\d{{1,2}},\s+\d{{4}}\b")
 
-        # Prefer: metadata that clearly indicates an article
+    # NACHA news:
+    # - Avoid treating the /news hub (and other non-article hubs) as a single article.
+    # - NACHA pages sometimes show dates as "02/11/2026" (slash date), not only "February 11, 2026".
+    if ('nacha' in (source or '').lower()) or ('nacha.org' in (detail_url or '')):
+        try:
+            pth = (urlparse(detail_url).path or "").rstrip("/")
+        except Exception:
+            pth = ""
+
+        # Known hubs (not article detail pages)
+        if pth in {"/news", "/rules"}:
+            return None, snippet
+
+        # Prefer explicit metadata first
         for meta_key in [
             ("meta", {"property": "article:published_time"}, "content"),
             ("meta", {"name": "article:published_time"}, "content"),
@@ -1443,7 +1449,7 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                 if dt_meta:
                     return dt_meta, snippet
 
-        # JSON-LD (often contains @type Article/NewsArticle/BlogPosting with datePublished)
+        # JSON-LD (Article/NewsArticle/BlogPosting)
         for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
             try:
                 data = json.loads(script.get_text(strip=True) or "")
@@ -1473,20 +1479,19 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
                         if dt_ld:
                             return dt_ld, snippet
 
-        # Heuristic: article pages usually include "Posted on" near the title region
-        # Look for a line that includes "Posted on" and a Month Day, Year.
+        # Heuristic scan near the top of visible text:
+        # - accept Month Day, Year OR slash/ISO dates
         top_blob = soup.get_text("\n", strip=True)
-        for line in top_blob.splitlines()[:250]:
+        for line in top_blob.splitlines()[:300]:
             ll = line.lower()
-            if "posted on" in ll:
-                m = date_re.search(line)
-                if m:
-                    dt_n = parse_date(m.group(0))
-                    if dt_n:
-                        return dt_n, snippet
+            if ("posted" in ll) or ("published" in ll) or ("date" in ll):
+                dt_any = extract_any_date(line, source="NACHA")
+                if dt_any:
+                    return dt_any, snippet
 
-        # If there's no strong signal, treat as NOT a single article (likely a hub/category page).
-        return None, snippet
+        # If we still didn't find a date, do NOT hard-fail here.
+        # Fall through to generic extractors below (time/meta/ld+json/text).
+
 
     t = soup.find("time")
     if t:

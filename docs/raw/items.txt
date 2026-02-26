@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-02-25T23:02:16Z
+Medical device maker UFP Technologies warns of data stolen in cyberattack
+https://www.bleepingcomputer.com/news/security/medical-device-maker-ufp-technologies-warns-of-data-stolen-in-cyberattack/
+American manufacturer of medical devices, UFP Technologies, has disclosed that a cybersecurity incident has compromised its IT systems and data. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-25T21:47:12Z
 Fake Next.js job interview tests backdoor developer's devices
 https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/
@@ -221,6 +228,13 @@ Senate Banking
 ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS
 https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
 ------------------------------------------------------------
+Payments
+NACHA
+2026-02-25T00:00:00Z
+Beating the Deadline for Continuing Education Credits Yields a Nice Reward
+https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
+Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
@@ -362,13 +376,6 @@ Press Release: FDIC-Insured Institutions Reported Return on Assets of 1.24 Perce
 https://content.govdelivery.com/accounts/USFDIC/bulletins/40b2c3e
 PRESS RELEASE | FEBRUARY 24, 2026 FDIC-Insured Institutions Reported Return on Assets of 1.24 Percent and Net Income of $77.7 Billion in Fourth Quarter 2025 WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the results of its latest Quarterly Banking Profile , a comprehensive summary of financial results based on reports from 4,336 insured commercial…
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-24T15:02:12Z
-Identity-First AI Security: Why CISOs Must Add Intent to the Equation
-https://www.bleepingcomputer.com/news/security/identity-first-ai-security-why-cisos-must-add-intent-to-the-equation/
-AI agents now provision infrastructure and approve actions, but many inherit over-scoped privileges without proper governance. Token Security explains why CISOs must treat agents as identities and add intent-based controls so access is granted only when purpose and context align. [...]
-------------------------------------------------------------
 Fintech Watch
 Finastra
 2026-02-24T12:00:00Z
@@ -409,14 +416,14 @@ https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monit
 IS
 BleepingComputer
 2026-02-24T00:00:00Z
-UK fines Reddit $19 million for using children’s data unlawfully
-https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/
+Identity-First AI Security: Why CISOs Must Add Intent to the Equation
+https://www.bleepingcomputer.com/news/security/identity-first-ai-security-why-cisos-must-add-intent-to-the-equation/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-24T00:00:00Z
-Critical SolarWinds Serv-U flaws offer root access to servers
-https://www.bleepingcomputer.com/news/security/critical-solarwinds-serv-u-flaws-offer-root-access-to-servers/
+UK fines Reddit $19 million for using children’s data unlawfully
+https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -472,6 +479,13 @@ Fannie Mae
 Fannie Mae Announces Tender Offer for Any and All of Certain CAS Notes
 https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
+------------------------------------------------------------
+Payments
+NACHA
+2026-02-23T00:00:00Z
+There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
+https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
+When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 ------------------------------------------------------------
 Fintech Watch
 FIS
@@ -15251,62 +15265,4 @@ Microsoft MSRC
 CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
 Added an FAQ and updated the CVSS score. This is an informational change only.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-02-12T00:00:00Z
-Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and IMG Academy, LLC
-https://ofac.treasury.gov/recent-actions/20260212
-------------------------------------------------------------
-IRS
-IRS
-2026-02-12T00:00:00Z
-Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill
-https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill
-IR-2026-23, Feb. 12, 2026 — The Department of the Treasury and the Internal Revenue Service today issued a notice providing guidance for determining whether electricity-producing qualified facilities, energy storage technologies, or eligible components are receiving material assistance from a prohibited foreign entity (PFE) and would be ineligible for certain energy tax credit…
-------------------------------------------------------------
-Banking
-OCC
-2026-02-12T00:00:00Z
-OCC Releases Dodd-Frank Act Stress Test Scenarios for 2026
-https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-6.html
-The Office of the Comptroller of the Currency (OCC) released economic and financial market scenarios for use in the upcoming stress tests for covered institutions.
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-12T00:00:00Z
-FDIC Releases Economic Scenarios for 2026 Stress Testing
-https://www.fdic.gov/news/press-releases/2026/fdic-releases-economic-scenarios-2026-stress-testing
-WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today released the hypothetical economic scenarios for use in the upcoming stress tests for covere
-------------------------------------------------------------
-Mortgage
-Freddie Mac
-2026-02-12T00:00:00Z
-Mortgage Rates Inch Down
-https://www.globenewswire.com/news-release/2026/02/12/3237519/0/en/Mortgage-Rates-Inch-Down.html
-------------------------------------------------------------
-Mortgage
-Freddie Mac
-2026-02-12T00:00:00Z
-Freddie Mac Announces Fourth Quarter and Full-Year 2025 Financial Results
-https://www.globenewswire.com/news-release/2026/02/12/3237170/0/en/Freddie-Mac-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html
-------------------------------------------------------------
-Fintech Watch
-FIS
-2026-02-12T00:00:00Z
-FIS Receives Triple Recognition from IDC MarketScape, Chartis, and TMI as FIS Treasury and Risk Management Solutions Continue to Shine
-https://www.investor.fisglobal.com/news-releases/news-release-details/fis-receives-triple-recognition-idc-marketscape-chartis-and-tmi
-------------------------------------------------------------
-Fintech Watch
-Fiserv
-2026-02-12T00:00:00Z
-Fiserv Introduces INDX, a Real-Time Cash Settlement Platform for Digital Asset Companies
-https://investors.fiserv.com/news-releases/news-release-details/fiserv-introduces-indx-real-time-cash-settlement-platform
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-02-12T00:00:00Z
-Investments in and Licensing of Permitted Payment Stablecoins Issuers
-https://www.federalregister.gov/documents/2026/02/12/2026-02868/investments-in-and-licensing-of-permitted-payment-stablecoins-issuers
-The NCUA Board (Board) is seeking comment on proposed regulations to implement portions of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act). The GENIUS Act charges the NCUA with licensing, regulating, and supervising payment stablecoin issuers that are subsidiaries of federally insured credit unions (FICU subsidiaries). The GENIUS Act also…
 ------------------------------------------------------------
