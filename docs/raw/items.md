@@ -1,7 +1,173 @@
 # RegDashboard — Export
 
-Window: `2026-02-12T00:49:07Z` → `2026-02-26T00:49:07Z` (UTC)
-Last updated: `2026-02-25T18:49:07-06:00` (CT) — `2026-02-26T00:49:07Z` (UTC)
+Window: `2026-02-12T12:26:19Z` → `2026-02-26T12:26:19Z` (UTC)
+Last updated: `2026-02-26T06:26:19-06:00` (CT) — `2026-02-26T12:26:19Z` (UTC)
+
+## New York sues Valve for promoting illegal gambling via game loot boxes
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T11:44:50Z
+- URL: https://www.bleepingcomputer.com/news/gaming/new-york-sues-valve-for-promoting-illegal-gambling-via-game-loot-boxes/
+
+New York Attorney General Letitia James sued video game developer and publisher Valve Corporation for using game loot boxes to facilitate illegal gambling activities among children and teenagers. [...]
+
+## Master the Fundamentals of the Metro 2® Format
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-02-26T10:00:23Z
+- URL: https://www.cdiaonline.org/events/2026/02/26/master-the-fundamentals-of-the-metro-2-format/
+
+Gain clarity, confidence, and compliance—one field at a time with the Metro 2® Format Fundamentals Webinar Series on April 14-16, 2026.... The post Master the Fundamentals of the Metro 2® Format appeared first on CDIA .
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-26T10:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-libra-legal-ai-workspace-now-available-in-belgium
+
+Wolters Kluwer Legal & Regulatory today announced the launch of the Libra by Wolters Kluwer legal AI workspace (Libra) in Belgium, completing its availability across the LR Benelux region.
+
+## CVE-2026-23225 sched/mmcid: Don't assume CID is CPU owned on mode switch
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:37:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23225
+
+Information published.
+
+## CVE-2026-23224 erofs: fix UAF issue for file-backed mounts w/ directio option
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:37:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23224
+
+Information published.
+
+## CVE-2026-23223 xfs: fix UAF in xchk_btree_check_block_owner
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:37:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23223
+
+Information published.
+
+## CVE-2025-71230 hfs: ensure sb->s_fs_info is always cleaned up
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:37:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71230
+
+Information published.
+
+## CVE-2026-23229 crypto: virtio - Add spinlock protection with virtqueue notification
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:37:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23229
+
+Information published.
+
+## CVE-2025-11563 wcurl path traversal with percent-encoded slashes
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:02:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11563
+
+Information published.
+
+## CVE-2025-62878 Local Path Provisioner vulnerable to Path Traversal via parameters.pathPattern
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:02:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-62878
+
+Information published.
+
+## CVE-2026-21863 Malformed Valkey Cluster bus message can lead to Remote DoS
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:01:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21863
+
+Information published.
+
+## CVE-2025-67733 Valkey Affected by RESP Protocol Injection via Lua error_reply
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:01:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-67733
+
+Information published.
+
+## CVE-2025-61145 libtiff up to v4.7.1 was discovered to contain a double free via the component tools/tiffcrop.c.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:01:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61145
+
+Information published.
+
+## CVE-2025-61144 libtiff up to v4.7.1 was discovered to contain a stack overflow via the readSeparateStripsIntoBuffer function.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:01:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61144
+
+Information published.
+
+## CVE-2025-61143 libtiff up to v4.7.1 was discovered to contain a NULL pointer dereference via the component libtiff/tif_open.c.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:01:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61143
+
+Information published.
+
+## CVE-2021-20233 A flaw was found in grub2 in versions prior to 2.06. Setparam_prefix() in the menu rendering code performs a length calculation on the assumption that expressing a quoted single quote will require 3 chara…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:01:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-20233
+
+Information published.
+
+## CVE-2021-20225 A flaw was found in grub2 in versions prior to 2.06. The option parser allows an attacker to write past the end of a heap-allocated buffer by calling certain commands with a large number of specific short…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-26T09:01:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-20225
+
+Information published.
+
+## Pay just $140 once to get ad-free documentaries forever
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/pay-just-140-once-to-get-ad-free-documentaries-forever/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-expanding-north-america-partnerships
+
+Read about the latest partnerships signed by Wolters Kluwer’s CCH® Tagetik team with Column5, Darwin Analytics and TripleBolt Technology.
+
+## Prohibition on Use of Reputation Risk or Other Supervisory Tools To Encourage or Compel Banking Organizations To Engage in Politicized or Unlawful Discrimination
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/26/2026-03818/prohibition-on-use-of-reputation-risk-or-other-supervisory-tools-to-encourage-or-compel-banking
+
+The Board of Governors of the Federal Reserve System (Board) is inviting public comment on a notice of proposed rulemaking (proposal or proposed rule) that would codify the removal of reputation risk from the Board's supervisory programs. The proposal would prohibit the Board from encouraging or compelling Board-supervised banking organizations to deny or condition the provisi…
+
+## Revocation of the 30-Day Notification Requirement Prior To Termination of Lease for Nonpayment of Rent
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/02/26/2026-03921/revocation-of-the-30-day-notification-requirement-prior-to-termination-of-lease-for-nonpayment-of
+
+This rule revokes the 2021 interim final rule and 2024 final rule requiring that public housing agencies (PHAs) and owners of properties receiving project-based rental assistance (PBRA) provide certain tenants with 30-day notification prior to termination of lease for nonpayment of rent. Regulatory requirements for notice of termination for nonpayment of rent will return to pr…
 
 ## Medical device maker UFP Technologies warns of data stolen in cyberattack
 - Source: BleepingComputer
@@ -235,6 +401,12 @@ The Office of the Comptroller of the Currency (OCC) today issued a proposed rule
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/02/25/3245075/0/en/Freddie-Mac-Issues-Monthly-Volume-Summary-for-January-2026.html
 
+## Ahead of Hearing, Senate Democrats Press Banking Regulators on Civil Rights Safeguards for American Borrowers
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/ahead-of-hearing-senate-democrats-press-banking-regulators-on-civil-rights-safeguards-for-american-borrowers
+
 ## Warren, Kim Statement on Reports Secretary Hegseth May Use DPA to Force American Company to Remove Guardrails on AI Models
 - Source: Senate Banking
 - Category: Legislative
@@ -246,20 +418,6 @@ The Office of the Comptroller of the Currency (OCC) today issued a proposed rule
 - Category: Legislative
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/on-fourth-anniversary-of-putins-full-scale-war-new-banking-committee-analysis-highlights-range-of-targets-left-unsanctioned-by-trump-administration
-
-## ALSOBROOKS, WARREN, WYDEN, SCHUMER, COLLEAGUES BLAST WHITE HOUSE FOR FED INTERFERENCE, HIDING THE COST OF TARIFFS
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/alsobrooks-warren-wyden-schumer-colleagues-blast-white-house-for-fed-interference-hiding-the-cost-of-tariffs
-
-## Beating the Deadline for Continuing Education Credits Yields a Nice Reward
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.nacha.org/news/beating-deadline-continuing-education-credits-yields-nice-reward
-
-Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
 
 ## Save 38% on this refurbished 10th Gen Apple iPad with free shipping
 - Source: BleepingComputer
@@ -387,14 +545,6 @@ The ShinyHunters extortion group has published personal information in more than
 - Published: 2026-02-24T17:58:15Z
 - URL: https://www.whitehouse.gov/articles/2026/02/radical-lefts-rebuttal-will-contrast-democrat-extremism-with-president-trumps-road-to-prosperity/
 
-## Microsoft adds Copilot data controls to all storage locations
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T17:30:10Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/
-
-Microsoft is expanding data loss prevention (DLP) controls to block the Microsoft 365 Copilot AI assistant from processing confidential Word, Excel, and PowerPoint documents, regardless of their location. [...]
-
 ## ONDCP Launches New Public Awareness Effort Focused on Saving Lives Through Drug Prevention
 - Source: White House
 - Category: Executive
@@ -455,17 +605,11 @@ The banking industry reported a return on assets ratio of 1.24 percent, a decrea
 - Published: 2026-02-24T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-139-refurbished-portable-monitor-is-now-under-60/
 
-## Identity-First AI Security: Why CISOs Must Add Intent to the Equation
+## Microsoft adds Copilot data controls to all storage locations
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/identity-first-ai-security-why-cisos-must-add-intent-to-the-equation/
-
-## UK fines Reddit $19 million for using children’s data unlawfully
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -528,14 +672,6 @@ Following earlier actions to remove reputation risk from its supervision of bank
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced that it has commenced fixed-price cash tender offers for the purchase of certain of its Connecticut Avenue Securities® (CAS) Notes.
-
-## There Will be No Dikkering Around When Scott Dikkers Speaks at Payments
-- Source: NACHA
-- Category: Payments
-- Published: 2026-02-23T00:00:00Z
-- URL: https://www.nacha.org/news/there-will-be-no-dikkering-around-when-scott-dikkers-speaks-payments
-
-When your Substack is called “No Dikkering Around” and is billed as “the no-nonsense daily jolt for the writer, performer, and raconteur who wants to get things done” (with the added caution that it “may contain some nonsense”), you know you’re in for something unusual. Scott Dikkers is the man behind the nonsense—or the lack thereof. Which is it? You’ll find out when he deliv…
 
 ## FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 - Source: FIS
@@ -17199,14 +17335,6 @@ Relief Reduces Burdensome and Duplicative Regulatory Requirement
 
 IR-2026-24, Feb. 13, 2026 — With the 2026 filing season underway and increased call-center demand around the Presidents Day holiday on Feb. 16, the Internal Revenue Service encourages taxpayers to visit Let Us Help You on IRS.gov and use online tools to get fast, convenient help without waiting on hold.
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-13T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/medi-span-expert-ai-medication-intelligence-digital-health
-
-Model Context Protocol (MCP) now available to support development of AI agents with Medi-Span’s AI-ready, expert-curated medication data.
-
 ## 60-Day Notice of Proposed Information Collection: Housing Choice Voucher Program and Tribal HUD-VASH
 - Source: Federal Register
 - Category: Federal Register
@@ -17246,11 +17374,3 @@ PRESS RELEASE | FEBRUARY 12, 2026 FDIC Releases Economic Scenarios for 2026 Stre
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260212a.htm
 
 Federal Reserve Board issues enforcement action with former employee of Regions Bank
-
-## CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-12T08:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
-
-Added an FAQ and updated the CVSS score. This is an informational change only.
