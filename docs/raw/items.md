@@ -1,7 +1,29 @@
 # RegDashboard — Export
 
-Window: `2026-02-13T18:31:40Z` → `2026-02-27T18:31:40Z` (UTC)
-Last updated: `2026-02-27T12:31:40-06:00` (CT) — `2026-02-27T18:31:40Z` (UTC)
+Window: `2026-02-13T20:10:02Z` → `2026-02-27T20:10:02Z` (UTC)
+Last updated: `2026-02-27T14:10:02-06:00` (CT) — `2026-02-27T20:10:02Z` (UTC)
+
+## Microsoft testing Windows 11 batch file security improvements
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-27T20:00:27Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/
+
+Microsoft is rolling out new Windows 11 Insider Preview builds that improve security and performance during batch file or CMD script execution. [...]
+
+## APT37 hackers use new malware to breach air-gapped networks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-27T19:21:25Z
+- URL: https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/
+
+North Korean hackers are deploying newly uncovered tools to move data between internet-connected and air-gapped systems, spread via removable drives, and conduct covert surveillance. [...]
+
+## President Trump Is Delivering for Texans
+- Source: White House
+- Category: Executive
+- Published: 2026-02-27T19:02:45Z
+- URL: https://www.whitehouse.gov/articles/2026/02/president-trump-is-delivering-for-texans/
 
 ## Europol-led crackdown on The Com hackers leads to 30 arrests
 - Source: BleepingComputer
@@ -26,6 +48,14 @@ PRESS RELEASE | FEBRUARY 27, 2026 FDIC Approves the Deposit Insurance Applicatio
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb9b3
 
 PRESS RELEASE | FEBRUARY 27, 2026 FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued the lists of institutions scheduled for a Community Reinvestment Act (CRA) examination during the second quarter 2026 and third quarter 2026. CRA regulations require each federal bank a…
+
+## CVE-2026-21518 GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-02-27T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21518
+
+Download links fixed
 
 ## CISA warns that RESURGE malware can be dormant on Ivanti devices
 - Source: BleepingComputer
@@ -128,6 +158,14 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: OFAC
 - Published: 2026-02-27T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260227
+
+## Treasury, IRS issue FAQs about general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit
+- Source: IRS
+- Category: IRS
+- Published: 2026-02-27T00:00:00Z
+- URL: https://www.irs.gov/newsroom/treasury-irs-issue-faqs-about-general-refundability-and-recognizing-indian-tribal-governments-for-purposes-of-making-a-special-needs-determination-for-the-adoption-tax-credit
+
+IR-2026-27, Feb. 27, 2026 — The Department of the Treasury and the Internal Revenue Service today issued frequently asked questions on FS-2026-03 related to general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit.
 
 ## OCC Issues Second and Third Quarter 2026 CRA Evaluation Schedule
 - Source: OCC
@@ -623,27 +661,11 @@ This rule revokes the 2021 interim final rule and 2024 final rule requiring that
 
 American manufacturer of medical devices, UFP Technologies, has disclosed that a cybersecurity incident has compromised its IT systems and data. [...]
 
-## Fake Next.js job interview tests backdoor developer's devices
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T21:47:12Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/
-
-The Microsoft Defender team has discovered a coordinated campaign targeting software developers through malicious repositories posing as legitimate Next.js projects and technical assessment materials, including recruiting coding tests. [...]
-
 ## WHAT THEY ARE SAYING: President Trump Heralds America’s Golden Age in Historic State of the Union Address
 - Source: White House
 - Category: Executive
 - Published: 2026-02-25T20:18:11Z
 - URL: https://www.whitehouse.gov/articles/2026/02/what-they-are-saying-president-trump-heralds-americas-golden-age-in-historic-state-of-the-union-address/
-
-## Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T18:01:51Z
-- URL: https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/
-
-Cisco is warning that a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN, tracked as CVE-2026-20127, was actively exploited in zero-day attacks that allowed remote attackers to compromise controllers and add malicious rogue peers to targeted networks. [...]
 
 ## Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs
 - Source: Treasury
@@ -799,23 +821,23 @@ The Office of the Comptroller of the Currency (OCC) today issued a proposed rule
 
 Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Continuing Education Credits in before the deadline to keep her Accredited ACH Professional (AAP) in good standing. “I worked really hard for that credential, so I want to make sure I’m maintaining it properly and keeping it up to date. I don’t want to forget to turn in those credits,” said Lauren, Exec…
 
+## Fake Next.js job interview tests backdoor developer's devices
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/
+
 ## Save 38% on this refurbished 10th Gen Apple iPad with free shipping
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/
 
-## Chinese cyberspies breached dozens of telecom firms, govt agencies
+## Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
-
-## Marquis sues SonicWall over backup breach that led to ransomware attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+- URL: https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/
 
 ## Equal Credit Opportunity Act (Regulation B)
 - Source: Federal Register
@@ -898,12 +920,6 @@ Minutes of the Board's discount rate meetings on January 20 and 28, 2026
 - Category: Executive
 - Published: 2026-02-24T17:58:15Z
 - URL: https://www.whitehouse.gov/articles/2026/02/radical-lefts-rebuttal-will-contrast-democrat-extremism-with-president-trumps-road-to-prosperity/
-
-## ONDCP Launches New Public Awareness Effort Focused on Saving Lives Through Drug Prevention
-- Source: White House
-- Category: Executive
-- Published: 2026-02-24T17:11:34Z
-- URL: https://www.whitehouse.gov/articles/2026/02/ondcp-launches-new-public-awareness-effort-focused-on-saving-lives-through-drug-prevention/
 
 ## Federal Reserve Board issues enforcement action with former employee of First Financial Bank
 - Source: FRB
@@ -1048,6 +1064,12 @@ When your Substack is called “No Dikkering Around” and is billed as “the n
 - Category: Fintech Watch
 - Published: 2026-02-23T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management
+
+## SELCO Community Credit Union Strengthens Fraud Mitigation Strategy with Jack Henry
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-02-23T00:00:00Z
+- URL: https://ir.jackhenry.com/news-releases/news-release-details/selco-community-credit-union-strengthens-fraud-mitigation
 
 ## Form N-PORT Reporting
 - Source: Federal Register

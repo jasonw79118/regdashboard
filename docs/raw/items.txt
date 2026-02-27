@@ -1,5 +1,25 @@
 IS
 BleepingComputer
+2026-02-27T20:00:27Z
+Microsoft testing Windows 11 batch file security improvements
+https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/
+Microsoft is rolling out new Windows 11 Insider Preview builds that improve security and performance during batch file or CMD script execution. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-27T19:21:25Z
+APT37 hackers use new malware to breach air-gapped networks
+https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/
+North Korean hackers are deploying newly uncovered tools to move data between internet-connected and air-gapped systems, spread via removable drives, and conduct covert surveillance. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-02-27T19:02:45Z
+President Trump Is Delivering for Texans
+https://www.whitehouse.gov/articles/2026/02/president-trump-is-delivering-for-texans/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-02-27T18:20:15Z
 Europol-led crackdown on The Com hackers leads to 30 arrests
 https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/
@@ -18,6 +38,13 @@ FDIC
 Press Release: FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026
 https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb9b3
 PRESS RELEASE | FEBRUARY 27, 2026 FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued the lists of institutions scheduled for a Community Reinvestment Act (CRA) examination during the second quarter 2026 and third quarter 2026. CRA regulations require each federal bank a…
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-02-27T16:00:00Z
+CVE-2026-21518 GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21518
+Download links fixed
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -108,6 +135,13 @@ OFAC
 2026-02-27T00:00:00Z
 Russia-related Designations Removals; Lebanon Designation Removal
 https://ofac.treasury.gov/recent-actions/20260227
+------------------------------------------------------------
+IRS
+IRS
+2026-02-27T00:00:00Z
+Treasury, IRS issue FAQs about general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit
+https://www.irs.gov/newsroom/treasury-irs-issue-faqs-about-general-refundability-and-recognizing-indian-tribal-governments-for-purposes-of-making-a-special-needs-determination-for-the-adoption-tax-credit
+IR-2026-27, Feb. 27, 2026 — The Department of the Treasury and the Internal Revenue Service today issued frequently asked questions on FS-2026-03 related to general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit.
 ------------------------------------------------------------
 Banking
 OCC
@@ -563,25 +597,11 @@ Medical device maker UFP Technologies warns of data stolen in cyberattack
 https://www.bleepingcomputer.com/news/security/medical-device-maker-ufp-technologies-warns-of-data-stolen-in-cyberattack/
 American manufacturer of medical devices, UFP Technologies, has disclosed that a cybersecurity incident has compromised its IT systems and data. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-25T21:47:12Z
-Fake Next.js job interview tests backdoor developer's devices
-https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/
-The Microsoft Defender team has discovered a coordinated campaign targeting software developers through malicious repositories posing as legitimate Next.js projects and technical assessment materials, including recruiting coding tests. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-02-25T20:18:11Z
 WHAT THEY ARE SAYING: President Trump Heralds America’s Golden Age in Historic State of the Union Address
 https://www.whitehouse.gov/articles/2026/02/what-they-are-saying-president-trump-heralds-americas-golden-age-in-historic-state-of-the-union-address/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-25T18:01:51Z
-Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
-https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/
-Cisco is warning that a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN, tracked as CVE-2026-20127, was actively exploited in zero-day attacks that allowed remote attackers to compromise controllers and add malicious rogue peers to targeted networks. [...]
 ------------------------------------------------------------
 OFAC
 Treasury
@@ -729,20 +749,20 @@ Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Con
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
+Fake Next.js job interview tests backdoor developer's devices
+https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-25T00:00:00Z
 Save 38% on this refurbished 10th Gen Apple iPad with free shipping
 https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
-Chinese cyberspies breached dozens of telecom firms, govt agencies
-https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-25T00:00:00Z
-Marquis sues SonicWall over backup breach that led to ransomware attack
-https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
+https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -817,12 +837,6 @@ White House
 2026-02-24T17:58:15Z
 Radical Left’s Rebuttal Will Contrast Democrat Extremism with President Trump’s Road to Prosperity
 https://www.whitehouse.gov/articles/2026/02/radical-lefts-rebuttal-will-contrast-democrat-extremism-with-president-trumps-road-to-prosperity/
-------------------------------------------------------------
-Executive
-White House
-2026-02-24T17:11:34Z
-ONDCP Launches New Public Awareness Effort Focused on Saving Lives Through Drug Prevention
-https://www.whitehouse.gov/articles/2026/02/ondcp-launches-new-public-awareness-effort-focused-on-saving-lives-through-drug-prevention/
 ------------------------------------------------------------
 Banking
 FRB
@@ -955,6 +969,12 @@ FIS
 2026-02-23T00:00:00Z
 FIS Launches 24/7 AI Assistant to Ease Risk Models Management
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management
+------------------------------------------------------------
+Fintech Watch
+Jack Henry
+2026-02-23T00:00:00Z
+SELCO Community Credit Union Strengthens Fraud Mitigation Strategy with Jack Henry
+https://ir.jackhenry.com/news-releases/news-release-details/selco-community-credit-union-strengthens-fraud-mitigation
 ------------------------------------------------------------
 Federal Register
 Federal Register

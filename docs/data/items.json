@@ -1,9 +1,33 @@
 {
-  "window_start": "2026-02-13T18:31:40Z",
-  "window_end": "2026-02-27T18:31:40Z",
-  "generated_at_utc": "2026-02-27T18:31:40Z",
-  "generated_at_ct": "2026-02-27T12:31:40-06:00",
+  "window_start": "2026-02-13T20:10:02Z",
+  "window_end": "2026-02-27T20:10:02Z",
+  "generated_at_utc": "2026-02-27T20:10:02Z",
+  "generated_at_ct": "2026-02-27T14:10:02-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft testing Windows 11 batch file security improvements",
+      "published_at": "2026-02-27T20:00:27Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/",
+      "summary": "Microsoft is rolling out new Windows 11 Insider Preview builds that improve security and performance during batch file or CMD script execution. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "APT37 hackers use new malware to breach air-gapped networks",
+      "published_at": "2026-02-27T19:21:25Z",
+      "url": "https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/",
+      "summary": "North Korean hackers are deploying newly uncovered tools to move data between internet-connected and air-gapped systems, spread via removable drives, and conduct covert surveillance. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump Is Delivering for Texans",
+      "published_at": "2026-02-27T19:02:45Z",
+      "url": "https://www.whitehouse.gov/articles/2026/02/president-trump-is-delivering-for-texans/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -27,6 +51,14 @@
       "published_at": "2026-02-27T16:02:32Z",
       "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb9b3",
       "summary": "PRESS RELEASE | FEBRUARY 27, 2026 FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued the lists of institutions scheduled for a Community Reinvestment Act (CRA) examination during the second quarter 2026 and third quarter 2026. CRA regulations require each federal bank a…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-21518 GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability",
+      "published_at": "2026-02-27T16:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21518",
+      "summary": "Download links fixed"
     },
     {
       "category": "IS",
@@ -131,6 +163,14 @@
       "published_at": "2026-02-27T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260227",
       "summary": ""
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "Treasury, IRS issue FAQs about general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit",
+      "published_at": "2026-02-27T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-faqs-about-general-refundability-and-recognizing-indian-tribal-governments-for-purposes-of-making-a-special-needs-determination-for-the-adoption-tax-credit",
+      "summary": "IR-2026-27, Feb. 27, 2026 — The Department of the Treasury and the Internal Revenue Service today issued frequently asked questions on FS-2026-03 related to general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit."
     },
     {
       "category": "Banking",
@@ -712,28 +752,12 @@
       "summary": "American manufacturer of medical devices, UFP Technologies, has disclosed that a cybersecurity incident has compromised its IT systems and data. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Fake Next.js job interview tests backdoor developer's devices",
-      "published_at": "2026-02-25T21:47:12Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/",
-      "summary": "The Microsoft Defender team has discovered a coordinated campaign targeting software developers through malicious repositories posing as legitimate Next.js projects and technical assessment materials, including recruiting coding tests. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "WHAT THEY ARE SAYING: President Trump Heralds America’s Golden Age in Historic State of the Union Address",
       "published_at": "2026-02-25T20:18:11Z",
       "url": "https://www.whitehouse.gov/articles/2026/02/what-they-are-saying-president-trump-heralds-americas-golden-age-in-historic-state-of-the-union-address/",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023",
-      "published_at": "2026-02-25T18:01:51Z",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
-      "summary": "Cisco is warning that a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN, tracked as CVE-2026-20127, was actively exploited in zero-day attacks that allowed remote attackers to compromise controllers and add malicious rogue peers to targeted networks. [...]"
     },
     {
       "category": "OFAC",
@@ -914,6 +938,14 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
+      "title": "Fake Next.js job interview tests backdoor developer's devices",
+      "published_at": "2026-02-25T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-nextjs-job-interview-tests-backdoor-developers-devices/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
       "title": "Save 38% on this refurbished 10th Gen Apple iPad with free shipping",
       "published_at": "2026-02-25T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/",
@@ -922,17 +954,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Chinese cyberspies breached dozens of telecom firms, govt agencies",
+      "title": "Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023",
       "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Marquis sues SonicWall over backup breach that led to ransomware attack",
-      "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
       "summary": ""
     },
     {
@@ -1093,14 +1117,6 @@
       "title": "Radical Left’s Rebuttal Will Contrast Democrat Extremism with President Trump’s Road to Prosperity",
       "published_at": "2026-02-24T17:58:15Z",
       "url": "https://www.whitehouse.gov/articles/2026/02/radical-lefts-rebuttal-will-contrast-democrat-extremism-with-president-trumps-road-to-prosperity/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "ONDCP Launches New Public Awareness Effort Focused on Saving Lives Through Drug Prevention",
-      "published_at": "2026-02-24T17:11:34Z",
-      "url": "https://www.whitehouse.gov/articles/2026/02/ondcp-launches-new-public-awareness-effort-focused-on-saving-lives-through-drug-prevention/",
       "summary": ""
     },
     {
@@ -1281,6 +1297,14 @@
       "title": "FIS Launches 24/7 AI Assistant to Ease Risk Models Management",
       "published_at": "2026-02-23T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-247-ai-assistant-ease-risk-models-management",
+      "summary": ""
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Jack Henry",
+      "title": "SELCO Community Credit Union Strengthens Fraud Mitigation Strategy with Jack Henry",
+      "published_at": "2026-02-23T00:00:00Z",
+      "url": "https://ir.jackhenry.com/news-releases/news-release-details/selco-community-credit-union-strengthens-fraud-mitigation",
       "summary": ""
     },
     {

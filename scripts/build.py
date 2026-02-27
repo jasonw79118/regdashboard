@@ -125,7 +125,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Federal Register": "Federal Register",
 
     # USDA tile
-    "USDA Rural Development": "Mortgage",
+    "USDA Rural Development": "USDA",
 
     # Fintech Watch tile
     "FIS": "Fintech Watch",
@@ -331,17 +331,7 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
     "Fiserv": {"allow_domains": {"investors.fiserv.com"}},
 
     # ✅ Jack Henry links are often in tables; allow both press-releases and news-releases detail pages.
-    "Jack Henry": {
-        # Jack Henry IR intermittently times out / blocks scrapes. Use PR Newswire company feed instead.
-        "allow_domains": {"www.prnewswire.com", "prnewswire.com", "ir.jackhenry.com"},
-        "allow_path_prefixes": {
-            "/news/jack-henry-%26-associates",
-            "/news-releases/",
-            "/news-releases",
-            "/press-releases/press-release-details/",
-            "/news-releases/news-release-details/",
-        },
-    },
+    "Jack Henry": {"allow_domains": {"ir.jackhenry.com", "jkhy.client.shareholder.com", "www.prnewswire.com"}},
 
     "Finastra": {"allow_domains": {"www.finastra.com"}},
 
@@ -733,18 +723,16 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
 
         return txt
     except Exception as e:
-        # ✅ Jack Henry IR site frequently times out from GitHub Actions / some networks.
-        # Retry once via r.jina.ai proxy ONLY for this host so we don't change any other sources.
+        # ✅ Jack Henry IR site frequently times out / closes connections from some networks.
+        # Retry via r.jina.ai proxy, and if that still fails, fall back to the shareholder.com
+        # mirror of the same IR press-release listing. This change is *only* for Jack Henry.
         if h == "ir.jackhenry.com":
+            print(f"[warn] GET failed: {url} :: {e}", flush=True)
+
+            # 1) Proxy retry (r.jina.ai)
             try:
-                print(f"[warn] GET failed: {url} :: {e}", flush=True)
                 print(f"[warn] Jack Henry GET failed (retrying via proxy): {url}", flush=True)
                 proxy_url = _jina_proxy_url(url)
-                browser_ua = (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/122.0.0.0 Safari/537.36"
-                )
                 time.sleep(REQUEST_DELAY_SEC)
                 pr = SESSION.get(
                     proxy_url,
@@ -754,14 +742,33 @@ def polite_get(url: str, timeout: int = 25) -> Optional[str]:
                 )
                 if pr.status_code < 400:
                     txtp = pr.text or ""
-                    # Proxy may return HTML or Markdown. Either way, return it so the Jack Henry
-                    # listing extractor can parse links.
                     if txtp.strip():
                         return txtp
                 else:
                     print(f"[warn] proxy GET {pr.status_code}: {proxy_url}", flush=True)
             except Exception as e2:
                 print(f"[warn] proxy GET failed: {proxy_url} :: {e2}", flush=True)
+
+            # 2) Fallback to shareholder.com listing (often more reliable than ir.jackhenry.com)
+            try:
+                fallback = "https://jkhy.client.shareholder.com/press-releases?mobile=1&view=all"
+                print(f"[warn] Jack Henry fallback listing: {fallback}", flush=True)
+                time.sleep(REQUEST_DELAY_SEC)
+                fr = SESSION.get(
+                    fallback,
+                    headers={"User-Agent": browser_ua, "Accept": "text/html,application/xhtml+xml,*/*"},
+                    timeout=(10, max(read_timeout, 45)),
+                    allow_redirects=True,
+                )
+                if fr.status_code < 400:
+                    txtf = fr.text or ""
+                    if txtf.strip() and not looks_like_error_html(txtf):
+                        return txtf
+                else:
+                    print(f"[warn] fallback GET {fr.status_code}: {fallback}", flush=True)
+            except Exception as e3:
+                print(f"[warn] fallback GET failed: {fallback} :: {e3}", flush=True)
+
             return None
 
         print(f"[warn] GET failed: {url} :: {e}", flush=True)
@@ -1712,36 +1719,6 @@ def fhlbmpf_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dat
         if len(links) >= MAX_LISTING_LINKS:
             break
 
-    # Proxy responses (r.jina.ai) can be Markdown and will not contain <a> tags.
-    # If DOM parsing found nothing, parse Markdown-style links as a last resort.
-    if not links:
-        md_re = re.compile(
-            r"\[([^\]]{8,220})\]\((https?://ir\.jackhenry\.com/[^\s)]+)\)",
-            re.I,
-        )
-        seen2: set[str] = set()
-        for m in md_re.finditer(html or ""):
-            title = clean_text(m.group(1), 220)
-            url = canonical_url(m.group(2))
-            if not title or not url:
-                continue
-            # keep only known detail paths
-            u = urlparse(url)
-            if u.netloc.lower() != "ir.jackhenry.com":
-                continue
-            if not JH_DETAIL_RE.match(u.path):
-                continue
-            if not allowed_for_source("Jack Henry", url):
-                continue
-            if is_probably_nav_link("Jack Henry", title, url):
-                continue
-            if url in seen or url in seen2:
-                continue
-            seen2.add(url)
-            links.append((title, url, None))
-            if len(links) >= MAX_LISTING_LINKS:
-                break
-
     return links
 
 
@@ -2538,65 +2515,52 @@ def cdia_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dateti
 JH_DETAIL_RE = re.compile(r"^/(?:news-releases/news-release-details|press-releases/press-release-details)/", re.I)
 
 def jackhenry_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
-
-    # --- PR Newswire fallback/listing ---
-    # If we point Jack Henry at PR Newswire's company listing, capture press release detail links.
-    if "prnewswire.com" in (page_url or ""):
-        soup = BeautifulSoup(html or "", "html.parser")
-        container = pick_container(soup) or soup
-        if not container:
-            return []
-        strip_nav_like(container)
-
+    # Jack Henry IR pages can intermittently time out or return JS-heavy content.
+    # When we fetch via the r.jina.ai proxy, the response is often Markdown, not HTML.
+    # In that case, parse Markdown-style links like: [Title](https://ir.jackhenry.com/...)
+    if html and ("<html" not in html.lower()) and ("](" in html) and ("ir.jackhenry.com" in html):
         links: List[Tuple[str, str, Optional[datetime]]] = []
         seen: set[str] = set()
 
-        # PR Newswire listing uses links like /news-releases/<slug>-<id>.html
-        for a in container.find_all("a", href=True):
-            href = (a.get("href") or "").strip()
-            if not href or href.startswith("#"):
+        # Capture only known Jack Henry press/news release detail URL patterns.
+        md_re = re.compile(
+            r"\[([^\]]{3,220})\]\((https?://ir\.jackhenry\.com/[^\)\s]+)\)",
+            re.I,
+        )
+        for mm in md_re.finditer(html):
+            raw_title = (mm.group(1) or "").strip()
+            url = canonical_url(mm.group(2) or "")
+            if not raw_title or not url:
                 continue
-            if "/news-releases/" not in href:
-                continue
-
-            url = canonical_url(urljoin(page_url, href))
             if not allowed_for_source("Jack Henry", url):
                 continue
 
-            title = clean_text(a.get_text(" ", strip=True) or "", 220)
+            # Keep only likely detail pages (avoid navigation/hubs)
+            p = path(url).lower()
+            if ("/news-releases/news-release-details/" not in p) and ("/press-releases/press-release-details/" not in p):
+                continue
+
+            title = clean_text(raw_title, 220)
             if not title or title.lower() in {"read more", "learn more", "more", "details"}:
                 continue
             if is_probably_nav_link("Jack Henry", title, url):
                 continue
-            if is_generic_listing_or_home("Jack Henry", title, url):
-                continue
-
             if url in seen:
                 continue
             seen.add(url)
 
-            # Date is usually displayed near the link in the same card/list item.
-            wrap = a.find_parent(["li", "article", "div", "section"]) or a.parent
+            # Try to find a date near the markdown link (look back a bit from the match start)
             dt = None
-            if wrap:
-                dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 600), source="Jack Henry")
-            if dt is None:
-                # PR Newswire pages can be JS-rendered; the proxy/HTML often contains the date
-                # near the link but not inside the same DOM card. Look for any date near the href.
-                raw = html or ""
-                idx = raw.find(href)
-                if idx != -1:
-                    dt = extract_any_date(raw[max(0, idx-350): idx+350], source="Jack Henry")
-            if dt is None:
-                dt = find_time_near_anchor(a, "Jack Henry")
+            left = max(0, mm.start() - 220)
+            ctx = clean_text(html[left:mm.start()], 500)
+            dt = extract_any_date(ctx, source="Jack Henry")
 
             links.append((title, url, dt))
             if len(links) >= MAX_LISTING_LINKS:
                 break
 
-        # Prefer newest first when dates were found
-        links.sort(key=lambda t: (t[2] is None, -(t[2].timestamp()) if t[2] else 0))
-        return links
+        if links:
+            return links
 
     soup = BeautifulSoup(html, "html.parser")
     container = pick_container(soup) or soup
@@ -3181,7 +3145,7 @@ def get_start_pages() -> List[SourcePage]:
         # Fintech vendors
         SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases/"),
         SourcePage("Fiserv", "https://investors.fiserv.com/newsroom/news-releases"),
-        SourcePage("Jack Henry", "https://www.prnewswire.com/news/jack-henry-%26-associates/"),
+        SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
         SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
       
         # Payment Networks
