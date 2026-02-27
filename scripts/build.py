@@ -125,7 +125,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
     "Federal Register": "Federal Register",
 
     # USDA tile
-    "USDA Rural Development": "USDA",
+    "USDA Rural Development": "Mortgage",
 
     # Fintech Watch tile
     "FIS": "Fintech Watch",
@@ -2580,6 +2580,13 @@ def jackhenry_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[d
             dt = None
             if wrap:
                 dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 600), source="Jack Henry")
+            if dt is None:
+                # PR Newswire pages can be JS-rendered; the proxy/HTML often contains the date
+                # near the link but not inside the same DOM card. Look for any date near the href.
+                raw = html or ""
+                idx = raw.find(href)
+                if idx != -1:
+                    dt = extract_any_date(raw[max(0, idx-350): idx+350], source="Jack Henry")
             if dt is None:
                 dt = find_time_near_anchor(a, "Jack Henry")
 

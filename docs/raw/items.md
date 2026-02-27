@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-13T17:24:45Z` → `2026-02-27T17:24:45Z` (UTC)
-Last updated: `2026-02-27T11:24:45-06:00` (CT) — `2026-02-27T17:24:45Z` (UTC)
+Window: `2026-02-13T18:31:40Z` → `2026-02-27T18:31:40Z` (UTC)
+Last updated: `2026-02-27T12:31:40-06:00` (CT) — `2026-02-27T18:31:40Z` (UTC)
+
+## Europol-led crackdown on The Com hackers leads to 30 arrests
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-27T18:20:15Z
+- URL: https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/
+
+A yearlong Europol-coordinated operation dubbed "Project Compass" has led to 30 arrests and 179 suspects being tied to "The Com," an online cybercrime collective that targets children and teenagers. [...]
 
 ## Press Release: FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah
 - Source: FDIC
@@ -121,6 +129,12 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-02-27T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260227
 
+## OCC Issues Second and Third Quarter 2026 CRA Evaluation Schedule
+- Source: OCC
+- Category: Banking
+- Published: 2026-02-27T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-11.html
+
 ## National Bank Chartering: Final Rule
 - Source: OCC
 - Category: Banking
@@ -168,6 +182,24 @@ FDIC today published a list of orders of administrative enforcement actions take
 - Category: Mortgage
 - Published: 2026-02-27T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-09
+
+## Van Hollen, Banking Committee Democrats Press Bondi and Bessent to Investigate Binance Following Reports of Flouting Sanctions, US Law
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-27T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/van-hollen-banking-committee-democrats-press-bondi-and-bessent-to-investigate-binance-following-reports-of-flouting-sanctions-us-law
+
+## At Hearing, Warren Presses Trump Regulators on Wall Street-First Agenda and Trump Crypto Corruption Amid Affordability Crisis
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-27T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-warren-presses-trump-regulators-on-wall-street-first-agenda-and-trump-crypto-corruption-amid-affordability-crisis
+
+## At Hearing, OCC Comptroller Gould Says He Will Consider Warren Request to Review World Liberty Financial Bank Application
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-02-27T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-occ-comptroller-gould-says-he-will-consider-warren-request-to-review-world-liberty-financial-bank-application
 
 ## Visa Completes Acquisition of Prisma and Newpay
 - Source: Visa
@@ -533,24 +565,6 @@ The monthly summary report contains information about Fannie Mae’s monthly and
 - Published: 2026-02-26T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/02/26/3245903/0/en/Mortgage-Rates-Drop-Below-6-for-the-First-Time-in-3-5-Years.html
 
-## At Hearing, Warren Presses Trump Regulators on Wall Street-First Agenda and Trump Crypto Corruption Amid Affordability Crisis
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-warren-presses-trump-regulators-on-wall-street-first-agenda-and-trump-crypto-corruption-amid-affordability-crisis
-
-## At Hearing, OCC Comptroller Gould Says He Will Consider Warren Request to Review World Liberty Financial Bank Application
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/at-hearing-occ-comptroller-gould-says-he-will-consider-warren-request-to-review-world-liberty-financial-bank-application
-
-## Warren Launches New Probe into Trump Failure on Affordability
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-launches-new-probe-into-trump-failure-on-affordability
-
 ## Chairman Hill on Thune Filing Cloture on Housing for the 21st Century Act
 - Source: House Financial Services
 - Category: Legislative
@@ -630,14 +644,6 @@ The Microsoft Defender team has discovered a coordinated campaign targeting soft
 - URL: https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/
 
 Cisco is warning that a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN, tracked as CVE-2026-20127, was actively exploited in zero-day attacks that allowed remote attackers to compromise controllers and add malicious rogue peers to targeted networks. [...]
-
-## Chinese cyberspies breached dozens of telecom firms, govt agencies
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T17:00:15Z
-- URL: https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
-
-Google's Threat Intelligence Group (GTIG), Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor that used SaaS API calls to hide malicious traffic in attacks targeting telecom and government networks. [...]
 
 ## Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs
 - Source: Treasury
@@ -799,17 +805,17 @@ Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Con
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/
 
+## Chinese cyberspies breached dozens of telecom firms, govt agencies
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
+
 ## Marquis sues SonicWall over backup breach that led to ransomware attack
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
-
-## The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/
 
 ## Equal Credit Opportunity Act (Regulation B)
 - Source: Federal Register
@@ -3636,12 +3642,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: OFAC
 - Published: 2026-02-19T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260219
-
-## OCC Announces Enforcement Actions for February 2026
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-19T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html
 
 ## Average 30-Year Fixed-Rate Mortgage Hits Another Low
 - Source: Freddie Mac

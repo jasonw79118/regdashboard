@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-02-27T18:20:15Z
+Europol-led crackdown on The Com hackers leads to 30 arrests
+https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/
+A yearlong Europol-coordinated operation dubbed "Project Compass" has led to 30 arrests and 179 suspects being tied to "The Com," an online cybercrime collective that targets children and teenagers. [...]
+------------------------------------------------------------
 Banking
 FDIC
 2026-02-27T17:16:05Z
@@ -105,6 +112,12 @@ https://ofac.treasury.gov/recent-actions/20260227
 Banking
 OCC
 2026-02-27T00:00:00Z
+OCC Issues Second and Third Quarter 2026 CRA Evaluation Schedule
+https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-11.html
+------------------------------------------------------------
+Banking
+OCC
+2026-02-27T00:00:00Z
 National Bank Chartering: Final Rule
 https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-4.html
 ------------------------------------------------------------
@@ -146,6 +159,24 @@ FHLB MPF
 2026-02-27T00:00:00Z
 MPF Announcement 2026-09
 https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-09
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-27T00:00:00Z
+Van Hollen, Banking Committee Democrats Press Bondi and Bessent to Investigate Binance Following Reports of Flouting Sanctions, US Law
+https://www.banking.senate.gov/newsroom/minority/van-hollen-banking-committee-democrats-press-bondi-and-bessent-to-investigate-binance-following-reports-of-flouting-sanctions-us-law
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-27T00:00:00Z
+At Hearing, Warren Presses Trump Regulators on Wall Street-First Agenda and Trump Crypto Corruption Amid Affordability Crisis
+https://www.banking.senate.gov/newsroom/minority/at-hearing-warren-presses-trump-regulators-on-wall-street-first-agenda-and-trump-crypto-corruption-amid-affordability-crisis
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-02-27T00:00:00Z
+At Hearing, OCC Comptroller Gould Says He Will Consider Warren Request to Review World Liberty Financial Bank Application
+https://www.banking.senate.gov/newsroom/minority/at-hearing-occ-comptroller-gould-says-he-will-consider-warren-request-to-review-world-liberty-financial-bank-application
 ------------------------------------------------------------
 Payment Card Networks
 Visa
@@ -480,24 +511,6 @@ Mortgage Rates Drop Below 6% for the First Time in 3.5 Years
 https://www.globenewswire.com/news-release/2026/02/26/3245903/0/en/Mortgage-Rates-Drop-Below-6-for-the-First-Time-in-3-5-Years.html
 ------------------------------------------------------------
 Legislative
-Senate Banking
-2026-02-26T00:00:00Z
-At Hearing, Warren Presses Trump Regulators on Wall Street-First Agenda and Trump Crypto Corruption Amid Affordability Crisis
-https://www.banking.senate.gov/newsroom/minority/at-hearing-warren-presses-trump-regulators-on-wall-street-first-agenda-and-trump-crypto-corruption-amid-affordability-crisis
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-26T00:00:00Z
-At Hearing, OCC Comptroller Gould Says He Will Consider Warren Request to Review World Liberty Financial Bank Application
-https://www.banking.senate.gov/newsroom/minority/at-hearing-occ-comptroller-gould-says-he-will-consider-warren-request-to-review-world-liberty-financial-bank-application
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-02-26T00:00:00Z
-Warren Launches New Probe into Trump Failure on Affordability
-https://www.banking.senate.gov/newsroom/minority/warren-launches-new-probe-into-trump-failure-on-affordability
-------------------------------------------------------------
-Legislative
 House Financial Services
 2026-02-26T00:00:00Z
 Chairman Hill on Thune Filing Cloture on Housing for the 21st Century Act
@@ -569,13 +582,6 @@ BleepingComputer
 Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
 https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/
 Cisco is warning that a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN, tracked as CVE-2026-20127, was actively exploited in zero-day attacks that allowed remote attackers to compromise controllers and add malicious rogue peers to targeted networks. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-25T17:00:15Z
-Chinese cyberspies breached dozens of telecom firms, govt agencies
-https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
-Google's Threat Intelligence Group (GTIG), Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor that used SaaS API calls to hide malicious traffic in attacks targeting telecom and government networks. [...]
 ------------------------------------------------------------
 OFAC
 Treasury
@@ -729,14 +735,14 @@ https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
-Marquis sues SonicWall over backup breach that led to ransomware attack
-https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+Chinese cyberspies breached dozens of telecom firms, govt agencies
+https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
-The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web
-https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/
+Marquis sues SonicWall over backup breach that led to ransomware attack
+https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -3227,12 +3233,6 @@ OFAC
 2026-02-19T00:00:00Z
 Counter Terrorism and Counter Narcotics Designations; Sudan-related Designations and Designation Update; Russia-related Designation Update; Issuance of Counter Terrorism General License
 https://ofac.treasury.gov/recent-actions/20260219
-------------------------------------------------------------
-Banking
-OCC
-2026-02-19T00:00:00Z
-OCC Announces Enforcement Actions for February 2026
-https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html
 ------------------------------------------------------------
 Mortgage
 Freddie Mac

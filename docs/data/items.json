@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-13T17:24:45Z",
-  "window_end": "2026-02-27T17:24:45Z",
-  "generated_at_utc": "2026-02-27T17:24:45Z",
-  "generated_at_ct": "2026-02-27T11:24:45-06:00",
+  "window_start": "2026-02-13T18:31:40Z",
+  "window_end": "2026-02-27T18:31:40Z",
+  "generated_at_utc": "2026-02-27T18:31:40Z",
+  "generated_at_ct": "2026-02-27T12:31:40-06:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Europol-led crackdown on The Com hackers leads to 30 arrests",
+      "published_at": "2026-02-27T18:20:15Z",
+      "url": "https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/",
+      "summary": "A yearlong Europol-coordinated operation dubbed \"Project Compass\" has led to 30 arrests and 179 suspects being tied to \"The Com,\" an online cybercrime collective that targets children and teenagers. [...]"
+    },
     {
       "category": "Banking",
       "source": "FDIC",
@@ -127,6 +135,14 @@
     {
       "category": "Banking",
       "source": "OCC",
+      "title": "OCC Issues Second and Third Quarter 2026 CRA Evaluation Schedule",
+      "published_at": "2026-02-27T00:00:00Z",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-11.html",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
       "title": "National Bank Chartering: Final Rule",
       "published_at": "2026-02-27T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-4.html",
@@ -178,6 +194,30 @@
       "title": "MPF Announcement 2026-09",
       "published_at": "2026-02-27T00:00:00Z",
       "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-09",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Van Hollen, Banking Committee Democrats Press Bondi and Bessent to Investigate Binance Following Reports of Flouting Sanctions, US Law",
+      "published_at": "2026-02-27T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/van-hollen-banking-committee-democrats-press-bondi-and-bessent-to-investigate-binance-following-reports-of-flouting-sanctions-us-law",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "At Hearing, Warren Presses Trump Regulators on Wall Street-First Agenda and Trump Crypto Corruption Amid Affordability Crisis",
+      "published_at": "2026-02-27T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/at-hearing-warren-presses-trump-regulators-on-wall-street-first-agenda-and-trump-crypto-corruption-amid-affordability-crisis",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "At Hearing, OCC Comptroller Gould Says He Will Consider Warren Request to Review World Liberty Financial Bank Application",
+      "published_at": "2026-02-27T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/at-hearing-occ-comptroller-gould-says-he-will-consider-warren-request-to-review-world-liberty-financial-bank-application",
       "summary": ""
     },
     {
@@ -597,30 +637,6 @@
     },
     {
       "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "At Hearing, Warren Presses Trump Regulators on Wall Street-First Agenda and Trump Crypto Corruption Amid Affordability Crisis",
-      "published_at": "2026-02-26T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/at-hearing-warren-presses-trump-regulators-on-wall-street-first-agenda-and-trump-crypto-corruption-amid-affordability-crisis",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "At Hearing, OCC Comptroller Gould Says He Will Consider Warren Request to Review World Liberty Financial Bank Application",
-      "published_at": "2026-02-26T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/at-hearing-occ-comptroller-gould-says-he-will-consider-warren-request-to-review-world-liberty-financial-bank-application",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Launches New Probe into Trump Failure on Affordability",
-      "published_at": "2026-02-26T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-launches-new-probe-into-trump-failure-on-affordability",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
       "source": "House Financial Services",
       "title": "Chairman Hill on Thune Filing Cloture on Housing for the 21st Century Act",
       "published_at": "2026-02-26T00:00:00Z",
@@ -718,14 +734,6 @@
       "published_at": "2026-02-25T18:01:51Z",
       "url": "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
       "summary": "Cisco is warning that a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN, tracked as CVE-2026-20127, was actively exploited in zero-day attacks that allowed remote attackers to compromise controllers and add malicious rogue peers to targeted networks. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Chinese cyberspies breached dozens of telecom firms, govt agencies",
-      "published_at": "2026-02-25T17:00:15Z",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/",
-      "summary": "Google's Threat Intelligence Group (GTIG), Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor that used SaaS API calls to hide malicious traffic in attacks targeting telecom and government networks. [...]"
     },
     {
       "category": "OFAC",
@@ -914,17 +922,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Marquis sues SonicWall over backup breach that led to ransomware attack",
+      "title": "Chinese cyberspies breached dozens of telecom firms, govt agencies",
       "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web",
+      "title": "Marquis sues SonicWall over backup breach that led to ransomware attack",
       "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/",
+      "url": "https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/",
       "summary": ""
     },
     {
@@ -3910,14 +3918,6 @@
       "title": "Counter Terrorism and Counter Narcotics Designations; Sudan-related Designations and Designation Update; Russia-related Designation Update; Issuance of Counter Terrorism General License",
       "published_at": "2026-02-19T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260219",
-      "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "OCC Announces Enforcement Actions for February 2026",
-      "published_at": "2026-02-19T00:00:00Z",
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-8.html",
       "summary": ""
     },
     {
