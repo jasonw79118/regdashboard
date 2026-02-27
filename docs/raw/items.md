@@ -1,7 +1,31 @@
 # RegDashboard — Export
 
-Window: `2026-02-13T15:09:09Z` → `2026-02-27T15:09:09Z` (UTC)
-Last updated: `2026-02-27T09:09:09-06:00` (CT) — `2026-02-27T15:09:09Z` (UTC)
+Window: `2026-02-13T17:24:45Z` → `2026-02-27T17:24:45Z` (UTC)
+Last updated: `2026-02-27T11:24:45-06:00` (CT) — `2026-02-27T17:24:45Z` (UTC)
+
+## Press Release: FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-27T17:16:05Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40be1c8
+
+PRESS RELEASE | FEBRUARY 27, 2026 FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah WASHINGTON – The Board of Directors of the Federal Deposit Insurance Corporation (FDIC) today announced the approval of a deposit insurance application submitted by the Jones Financial Companies, L.L.L.P. to establish Edward Jones Bank, which will be a…
+
+## Press Release: FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-27T16:02:32Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb9b3
+
+PRESS RELEASE | FEBRUARY 27, 2026 FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued the lists of institutions scheduled for a Community Reinvestment Act (CRA) examination during the second quarter 2026 and third quarter 2026. CRA regulations require each federal bank a…
+
+## CISA warns that RESURGE malware can be dormant on Ivanti devices
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-27T15:57:04Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-can-be-dormant-on-ivanti-devices/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has released new details about RESURGE, a malicious implant used in zero-day attacks exploiting CVE-2025-0282 to breach Ivanti Connect Secure devices. [...]
 
 ## Press Release: FDIC Publishes Enforcement Orders for January 2026
 - Source: FDIC
@@ -102,6 +126,22 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: Banking
 - Published: 2026-02-27T00:00:00Z
 - URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-4.html
+
+## FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-27T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-application-edward-jones-bank-salt-lake
+
+The Board of Directors (FDIC) announced the approval of a deposit insurance application submitted by the Jones Financial Companies, L.L.L.P.
+
+## FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-27T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-issues-cra-examination-schedules-second-quarter-2026-and-third
+
+The FDIC today issued the lists of institutions scheduled for a CRA examination during the second quarter 2026 and third quarter 2026.
 
 ## FDIC Publishes January Enforcement Actions
 - Source: FDIC
@@ -537,6 +577,14 @@ The monthly summary report contains information about Fannie Mae’s monthly and
 
 Read about the latest partnerships signed by Wolters Kluwer’s CCH® Tagetik team with Column5, Darwin Analytics and TripleBolt Technology.
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-02-26T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/survey-indicates-financial-institutions-that-align-with-regulators-are-able-to-adopt-ai-successfully
+
+Wolters Kluwer Financial & Corporate Compliance today published the results of a new survey of 148 financial institutions identifying regulatory clarity and talent development as critical enablers in successful AI adoption within the banking industry
+
 ## Prohibition on Use of Reputation Risk or Other Supervisory Tools To Encourage or Compel Banking Organizations To Engage in Politicized or Unlawful Discrimination
 - Source: Federal Register
 - Category: Federal Register
@@ -590,14 +638,6 @@ Cisco is warning that a critical authentication bypass vulnerability in Cisco Ca
 - URL: https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
 
 Google's Threat Intelligence Group (GTIG), Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor that used SaaS API calls to hide malicious traffic in attacks targeting telecom and government networks. [...]
-
-## Marquis sues SonicWall over backup breach that led to ransomware attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T15:54:44Z
-- URL: https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
-
-Marquis Software Solutions has filed a lawsuit against SonicWall, accusing the cybersecurity company of gross negligence and misrepresentation that allegedly led to a ransomware attack disrupting operations at 74 U.S. banks. [...]
 
 ## Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs
 - Source: Treasury
@@ -759,17 +799,17 @@ Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Con
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/
 
+## Marquis sues SonicWall over backup breach that led to ransomware attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+
 ## The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/
-
-## Zyxel warns of critical RCE flaw affecting over a dozen routers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/
 
 ## Equal Credit Opportunity Act (Regulation B)
 - Source: Federal Register
@@ -11773,14 +11813,6 @@ Information published.
 
 Information published.
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-02-18T10:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-libra-legal-ai-workspace-in-italy-and-continues-pan-european-expansion
-
-Wolters Kluwer Legal & Regulatory today announced the launch of the Libra by Wolters Kluwer legal AI workspace (“Libra”) in Italy.
-
 ## CVE-2025-38068 crypto: lzo - Fix compression buffer overrun
 - Source: Microsoft MSRC
 - Category: IS
@@ -17516,19 +17548,3 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - URL: https://www.federalregister.gov/documents/2026/02/17/2026-03082/agency-information-collection-activities-proposed-collection-renewal-comment-request
 
 The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0046; -0118; -0174; 0188 and -0202). The notices of proposed renewal for these information collections were pr…
-
-## CVE-2025-59213 Configuration Manager Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-13T16:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59213
-
-Updated information to include CVSS scores. This is an informational change only.
-
-## CVE-2026-21517 Windows App for Mac Installer Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-13T16:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21517
-
-Download links fixed
