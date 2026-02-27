@@ -1,3 +1,17 @@
+Banking
+FDIC
+2026-02-27T15:02:09Z
+Press Release: FDIC Publishes Enforcement Orders for January 2026
+https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb983
+PRESS RELEASE | FEBRUARY 27, 2026 FDIC Publishes Enforcement Orders for January 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026. There are no administrative hearings scheduled for March 2026. Consent Orders Community Bank & Trust West Ge…
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-02-27T15:00:10Z
+Third-Party Patching and the Business Footprint We All Share
+https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/
+Everyday tools like PDF readers, email clients, and archive utilities quietly define the real attack surface. Action1 explains how third-party software drift increases exploit risk and why consistent patching reduces exposure across endpoints. [...]
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-27T12:30:07Z
@@ -61,11 +75,24 @@ Chromium: CVE-2026-3061 Out of bounds read in Media
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3061
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-02-27T00:00:00Z
+Russia-related Designations Removals; Lebanon Designation Removal
+https://ofac.treasury.gov/recent-actions/20260227
+------------------------------------------------------------
 Banking
 OCC
 2026-02-27T00:00:00Z
 National Bank Chartering: Final Rule
 https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-4.html
+------------------------------------------------------------
+Banking
+FDIC
+2026-02-27T00:00:00Z
+FDIC Publishes January Enforcement Actions
+https://www.fdic.gov/news/press-releases/2026/fdic-publishes-january-enforcement-actions
+FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026.
 ------------------------------------------------------------
 Mortgage
 FHLB MPF
@@ -435,6 +462,12 @@ Senate Banking
 Warren Launches New Probe into Trump Failure on Affordability
 https://www.banking.senate.gov/newsroom/minority/warren-launches-new-probe-into-trump-failure-on-affordability
 ------------------------------------------------------------
+Legislative
+House Financial Services
+2026-02-26T00:00:00Z
+Chairman Hill on Thune Filing Cloture on Housing for the 21st Century Act
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411043
+------------------------------------------------------------
 Fintech Watch
 FIS
 2026-02-26T00:00:00Z
@@ -514,13 +547,6 @@ Treasury
 2026-02-25T15:30:00Z
 Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs
 https://home.treasury.gov/news/press-releases/sb0405
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-02-25T15:01:11Z
-The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web
-https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/
-OpenClaw has sparked heavy Telegram and dark web chatter, but Flare's data shows more research hype than mass exploitation. Flare explains how its telemetry found real supply-chain risk in the skills marketplace, yet limited signs of large-scale criminal operationalization. [...]
 ------------------------------------------------------------
 Compliance Watch
 TBA
@@ -668,14 +694,14 @@ https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
-Zyxel warns of critical RCE flaw affecting over a dozen routers
-https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/
+The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web
+https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-02-25T00:00:00Z
-A SurfShark VPN plan for every screen you own is now 84% off
-https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/
+Zyxel warns of critical RCE flaw affecting over a dozen routers
+https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -789,6 +815,18 @@ FDIC
 FDIC-Insured Institutions Reported Return on Assets of 1.24 Percent and Net Income of $77.7 Billion in Fourth Quarter 2025
 https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net
 The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025.
+------------------------------------------------------------
+Legislative
+House Financial Services
+2026-02-24T00:00:00Z
+VIDEO: Delivering for America: Strengthening the Economy, Expanding Opportunity
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411041
+------------------------------------------------------------
+Legislative
+House Financial Services
+2026-02-24T00:00:00Z
+Chairman Hill Statement on President Trump’s State of the Union Address
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411042
 ------------------------------------------------------------
 Fintech Watch
 FIS
@@ -3166,6 +3204,12 @@ Freddie Mac
 2026-02-19T00:00:00Z
 Average 30-Year Fixed-Rate Mortgage Hits Another Low
 https://www.globenewswire.com/news-release/2026/02/19/3241388/0/en/Average-30-Year-Fixed-Rate-Mortgage-Hits-Another-Low.html
+------------------------------------------------------------
+Legislative
+House Financial Services
+2026-02-19T00:00:00Z
+HEARINGS NOTICE: House Financial Services Committee Schedule for March 2026
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411030
 ------------------------------------------------------------
 Federal Register
 Federal Register

@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-02-13T14:36:21Z` → `2026-02-27T14:36:21Z` (UTC)
-Last updated: `2026-02-27T08:36:21-06:00` (CT) — `2026-02-27T14:36:21Z` (UTC)
+Window: `2026-02-13T15:09:09Z` → `2026-02-27T15:09:09Z` (UTC)
+Last updated: `2026-02-27T09:09:09-06:00` (CT) — `2026-02-27T15:09:09Z` (UTC)
+
+## Press Release: FDIC Publishes Enforcement Orders for January 2026
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-27T15:02:09Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb983
+
+PRESS RELEASE | FEBRUARY 27, 2026 FDIC Publishes Enforcement Orders for January 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026. There are no administrative hearings scheduled for March 2026. Consent Orders Community Bank & Trust West Ge…
+
+## Third-Party Patching and the Business Footprint We All Share
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-27T15:00:10Z
+- URL: https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/
+
+Everyday tools like PDF readers, email clients, and archive utilities quietly define the real attack surface. Action1 explains how third-party software drift increases exploit risk and why consistent patching reduces exposure across endpoints. [...]
 
 ## Ukrainian man pleads guilty to running AI-powered fake ID site
 - Source: BleepingComputer
@@ -75,11 +91,25 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
 
+## Russia-related Designations Removals; Lebanon Designation Removal
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-02-27T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260227
+
 ## National Bank Chartering: Final Rule
 - Source: OCC
 - Category: Banking
 - Published: 2026-02-27T00:00:00Z
 - URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-4.html
+
+## FDIC Publishes January Enforcement Actions
+- Source: FDIC
+- Category: Banking
+- Published: 2026-02-27T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-publishes-january-enforcement-actions
+
+FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026.
 
 ## MPF Announcement Summary 2026-S02
 - Source: FHLB MPF
@@ -481,6 +511,12 @@ The monthly summary report contains information about Fannie Mae’s monthly and
 - Published: 2026-02-26T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-launches-new-probe-into-trump-failure-on-affordability
 
+## Chairman Hill on Thune Filing Cloture on Housing for the 21st Century Act
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-02-26T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411043
+
 ## FIS Announces Proposed Offerings of Senior Notes
 - Source: FIS
 - Category: Fintech Watch
@@ -568,14 +604,6 @@ Marquis Software Solutions has filed a lawsuit against SonicWall, accusing the c
 - Category: OFAC
 - Published: 2026-02-25T15:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0405
-
-## The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T15:01:11Z
-- URL: https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/
-
-OpenClaw has sparked heavy Telegram and dark web chatter, but Flare's data shows more research hype than mass exploitation. Flare explains how its telemetry found real supply-chain risk in the skills marketplace, yet limited signs of large-scale criminal operationalization. [...]
 
 ## OCC issues proposed rule on stablecoin regulation
 - Source: TBA
@@ -731,17 +759,17 @@ Even if there hadn’t been a contest, Jennifer Lauren would have gotten her Con
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/save-38-percent-on-this-refurbished-10th-gen-apple-ipad-with-free-shipping/
 
+## The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-02-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/
+
 ## Zyxel warns of critical RCE flaw affecting over a dozen routers
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-02-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/
-
-## A SurfShark VPN plan for every screen you own is now 84% off
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/
 
 ## Equal Credit Opportunity Act (Regulation B)
 - Source: Federal Register
@@ -866,6 +894,18 @@ PRESS RELEASE | FEBRUARY 24, 2026 FDIC-Insured Institutions Reported Return on A
 - URL: https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net
 
 The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025.
+
+## VIDEO: Delivering for America: Strengthening the Economy, Expanding Opportunity
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-02-24T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411041
+
+## Chairman Hill Statement on President Trump’s State of the Union Address
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-02-24T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411042
 
 ## FIS Reports Full-Year 2025 Results and Introduces 2026 Outlook
 - Source: FIS
@@ -3568,6 +3608,12 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: Mortgage
 - Published: 2026-02-19T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/02/19/3241388/0/en/Average-30-Year-Fixed-Rate-Mortgage-Hits-Another-Low.html
+
+## HEARINGS NOTICE: House Financial Services Committee Schedule for March 2026
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-02-19T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411030
 
 ## General Provisions
 - Source: Federal Register

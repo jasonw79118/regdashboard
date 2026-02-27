@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-02-13T14:36:21Z",
-  "window_end": "2026-02-27T14:36:21Z",
-  "generated_at_utc": "2026-02-27T14:36:21Z",
-  "generated_at_ct": "2026-02-27T08:36:21-06:00",
+  "window_start": "2026-02-13T15:09:09Z",
+  "window_end": "2026-02-27T15:09:09Z",
+  "generated_at_utc": "2026-02-27T15:09:09Z",
+  "generated_at_ct": "2026-02-27T09:09:09-06:00",
   "items": [
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Press Release: FDIC Publishes Enforcement Orders for January 2026",
+      "published_at": "2026-02-27T15:02:09Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb983",
+      "summary": "PRESS RELEASE | FEBRUARY 27, 2026 FDIC Publishes Enforcement Orders for January 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026. There are no administrative hearings scheduled for March 2026. Consent Orders Community Bank & Trust West Ge…"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Third-Party Patching and the Business Footprint We All Share",
+      "published_at": "2026-02-27T15:00:10Z",
+      "url": "https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/",
+      "summary": "Everyday tools like PDF readers, email clients, and archive utilities quietly define the real attack surface. Action1 explains how third-party software drift increases exploit risk and why consistent patching reduces exposure across endpoints. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -77,12 +93,28 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information."
     },
     {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Russia-related Designations Removals; Lebanon Designation Removal",
+      "published_at": "2026-02-27T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260227",
+      "summary": ""
+    },
+    {
       "category": "Banking",
       "source": "OCC",
       "title": "National Bank Chartering: Final Rule",
       "published_at": "2026-02-27T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-4.html",
       "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Publishes January Enforcement Actions",
+      "published_at": "2026-02-27T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-publishes-january-enforcement-actions",
+      "summary": "FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026."
     },
     {
       "category": "Mortgage",
@@ -548,6 +580,14 @@
       "summary": ""
     },
     {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "Chairman Hill on Thune Filing Cloture on Housing for the 21st Century Act",
+      "published_at": "2026-02-26T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411043",
+      "summary": ""
+    },
+    {
       "category": "Fintech Watch",
       "source": "FIS",
       "title": "FIS Announces Proposed Offerings of Senior Notes",
@@ -654,14 +694,6 @@
       "published_at": "2026-02-25T15:30:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0405",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web",
-      "published_at": "2026-02-25T15:01:11Z",
-      "url": "https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/",
-      "summary": "OpenClaw has sparked heavy Telegram and dark web chatter, but Flare's data shows more research hype than mass exploitation. Flare explains how its telemetry found real supply-chain risk in the skills marketplace, yet limited signs of large-scale criminal operationalization. [...]"
     },
     {
       "category": "Compliance Watch",
@@ -842,17 +874,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Zyxel warns of critical RCE flaw affecting over a dozen routers",
+      "title": "The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web",
       "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/",
+      "url": "https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "A SurfShark VPN plan for every screen you own is now 84% off",
+      "title": "Zyxel warns of critical RCE flaw affecting over a dozen routers",
       "published_at": "2026-02-25T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-every-screen-you-own-is-now-84-percent-off/",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/",
       "summary": ""
     },
     {
@@ -1062,6 +1094,22 @@
       "published_at": "2026-02-24T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-124-percent-and-net",
       "summary": "The banking industry reported a return on assets ratio of 1.24 percent, a decrease of 3 basis points from third quarter 2025."
+    },
+    {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "VIDEO: Delivering for America: Strengthening the Economy, Expanding Opportunity",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411041",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "Chairman Hill Statement on President Trump’s State of the Union Address",
+      "published_at": "2026-02-24T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411042",
+      "summary": ""
     },
     {
       "category": "Fintech Watch",
@@ -3838,6 +3886,14 @@
       "title": "Average 30-Year Fixed-Rate Mortgage Hits Another Low",
       "published_at": "2026-02-19T00:00:00Z",
       "url": "https://www.globenewswire.com/news-release/2026/02/19/3241388/0/en/Average-30-Year-Fixed-Rate-Mortgage-Hits-Another-Low.html",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "HEARINGS NOTICE: House Financial Services Committee Schedule for March 2026",
+      "published_at": "2026-02-19T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411030",
       "summary": ""
     },
     {

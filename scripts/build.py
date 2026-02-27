@@ -72,6 +72,7 @@ PER_SOURCE_DETAIL_CAP: Dict[str, int] = {
     "FRB Payments": 30,
     "NACHA": 25,
     "White House": 45,
+    "House Financial Services": 45,
     "Federal Register": 0,  # API only
     "BleepingComputer": 0,  # feed-only
     "Microsoft MSRC": 0,    # feed-only
@@ -117,6 +118,7 @@ CATEGORY_BY_SOURCE: Dict[str, str] = {
 
     # Legislative / Executive tiles
     "Senate Banking": "Legislative",
+    "House Financial Services": "Legislative",
     "White House": "Executive",
 
     # Federal Register
@@ -284,6 +286,11 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_domains": {"home.treasury.gov"},
         "allow_path_prefixes": {"/news/press-releases"},
     },
+    "House Financial Services": {
+        "allow_domains": {"financialservices.house.gov"},
+        "allow_path_prefixes": {"/news/"},
+    },
+
 
     "White House": {
         "allow_domains": {"www.whitehouse.gov"},
@@ -1885,6 +1892,68 @@ def whitehouse_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[
     return links
 
 
+
+# ============================
+# House Financial Services Committee (HFSC)
+# ============================
+
+HFSC_DETAIL_PATH_RE = re.compile(r"^/news/documentsingle\.aspx\?DocumentID=\d+", re.I)
+
+def house_financial_services_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """Extract HFSC press release links from https://financialservices.house.gov/news/ (Latest News).
+    We keep only items that are explicitly 'Posted in Press Releases' and link to documentsingle.aspx.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    if not container:
+        return []
+
+    strip_nav_like(container)
+
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    for a in container.select("h2 a[href]"):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not url or not allowed_for_source("House Financial Services", url):
+            continue
+
+        u = urlparse(url)
+        pth = (u.path or "") + (("?" + u.query) if u.query else "")
+        if not HFSC_DETAIL_PATH_RE.match(pth):
+            continue
+
+        title = clean_text(a.get_text(" ", strip=True) or "", 220)
+        if not title:
+            continue
+        if is_probably_nav_link("House Financial Services", title, url):
+            continue
+        if is_generic_listing_or_home("House Financial Services", title, url):
+            continue
+
+        wrap = a.find_parent(["article", "li", "div", "section"]) or a.parent
+        wrap_txt = clean_text(wrap.get_text(" ", strip=True) if wrap else "", 900).lower()
+        if "posted in" in wrap_txt and "press releases" not in wrap_txt:
+            continue
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        dt = None
+        if wrap:
+            dt = extract_any_date(clean_text(wrap.get_text(" ", strip=True), 900), source="House Financial Services")
+
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            break
+
+    return links
+
 # ============================
 # Mastercard
 # ============================
@@ -2820,6 +2889,8 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
         return treasury_links(page_url, html)
     if source == "White House":
         return whitehouse_links(page_url, html)
+    if source == "House Financial Services":
+        return house_financial_services_links(page_url, html)
     if source == "Mastercard":
         return mastercard_links(page_url, html)
     if source == "Visa":
@@ -2969,6 +3040,7 @@ def get_start_pages() -> List[SourcePage]:
 
         # Legislative / exec
         SourcePage("Senate Banking", "https://www.banking.senate.gov/newsroom"),
+        SourcePage("House Financial Services", "https://financialservices.house.gov/news/"),
         SourcePage("White House", "https://www.whitehouse.gov/news/"),
         SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
 
