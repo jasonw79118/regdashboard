@@ -1,7 +1,249 @@
 # RegDashboard — Export
 
-Window: `2026-02-19T16:38:14Z` → `2026-03-05T16:38:14Z` (UTC)
-Last updated: `2026-03-05T10:38:14-06:00` (CT) — `2026-03-05T16:38:14Z` (UTC)
+Window: `2026-02-20T15:08:03Z` → `2026-03-06T15:08:03Z` (UTC)
+Last updated: `2026-03-06T09:08:03-06:00` (CT) — `2026-03-06T15:08:03Z` (UTC)
+
+## EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-06T15:00:10Z
+- URL: https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/
+
+EC-Council, creator of the world-renowned Certified Ethical Hacker (CEH) credential and a global leader in applied cybersecurity education, today launched its Enterprise AI Credential Suite, with four new role-based AI certifications debuting alongside Certified CISO v4, an overhauled executive cyber leadership program. [...]
+
+## Fake Claude Code install guides push infostealers in InstallFix attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-06T15:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-claude-code-install-guides-push-infostealers-in-installfix-attacks/
+
+Threat actors are employing a new variation of the ClickFix social engineering technique called InstallFix to convince users into running malicious commands under the pretext of installing legitimate command line interface (CLI) tools. [...]
+
+## Microsoft 365 Backup to add file-level restore for faster recovery
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-06T14:21:09Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-365-backup-to-add-file-level-restore-for-faster-recovery/
+
+Microsoft will soon begin rolling out a significant upgrade to Microsoft 365 Backup to speed up recovery by allowing administrators to restore individual files and folders. [...]
+
+## FinCEN Assesses Historic $80 Million Penalty Against Canaccord Genuity LLC for Securities Fraud-Related Bank Secrecy Act Violations
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-03-06T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-assesses-historic-80-million-penalty-against-canaccord-genuity-llc
+
+WASHINGTON—Today, the Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) assessed an $80,000,000 civil money penalty against Canaccord Genuity LLC (Canaccord) for willful violations of the Bank Secrecy Act (BSA), the primary U.S. anti-money laundering and countering the financing of terrorism law that safeguards the financial system from illicit use. Th…
+
+## Ghanain man pleads guilty to role in $100 million fraud ring
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-06T10:08:00Z
+- URL: https://www.bleepingcomputer.com/news/security/ghanain-man-pleads-guilty-to-role-in-100-million-fraud-ring/
+
+A Ghanaian national pleaded guilty to his role in a massive fraud ring that stole over $100 million from victims across the United States through business email compromise attacks and romance scams. [...]
+
+## CVE-2026-23865 An integer overflow in the tt_var_load_item_variation_store function of the Freetype library in versions 2.13.2 and 2.13.3 may allow for an out of bounds read operation when parsing HVAR/VVAR/MVAR tables…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-06T09:38:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23865
+
+Information published.
+
+## CVE-2026-3336 PKCS7_verify Certificate Chain Validation Bypass in AWS-LC
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-06T09:38:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3336
+
+Information published.
+
+## CVE-2026-3338 PKCS7_verify Signature Validation Bypass in AWS-LC
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-06T09:38:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3338
+
+Information published.
+
+## CVE-2026-24821 A heap-based buffer over-read that might affect a system that compiles untrusted Lua code in turanszkij/WickedEngine.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-06T09:38:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24821
+
+Information published.
+
+## CVE-2026-23238 romfs: check sb_set_blocksize() return value
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-06T09:37:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23238
+
+Information published.
+
+## CVE-2026-23237 platform/x86: classmate-laptop: Add missing NULL pointer checks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-06T09:37:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23237
+
+Information published.
+
+## CVE-2026-23235 f2fs: fix out-of-bounds access in sysfs attribute read/write
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-06T09:37:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23235
+
+Information published.
+
+## CVE-2026-23234 f2fs: fix to avoid UAF in f2fs_write_end_io()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-06T09:37:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23234
+
+Information published.
+
+## FBI investigates breach of surveillance and wiretap systems
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-06T08:44:53Z
+- URL: https://www.bleepingcomputer.com/news/security/fbi-investigates-breach-of-surveillance-and-wiretap-systems/
+
+The U.S. Federal Bureau of Investigation (FBI) confirmed on Thursday that it's investigating a breach that affected systems used to manage surveillance and wiretap warrants. [...]
+
+## Russia-related Designation Removal
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-06T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260306
+
+## Treasury, IRS issue proposed regulations for Trump Accounts pilot program, Treasury Department to deposit $1,000 into the account of each eligible child
+- Source: IRS
+- Category: IRS
+- Published: 2026-03-06T00:00:00Z
+- URL: https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-for-trump-accounts-pilot-program-treasury-department-to-deposit-1000-into-the-account-of-each-eligible-child
+
+IR-2026-31, March 6, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations providing guidance regarding the pilot program for Trump Accounts, which are a new type of individual retirement account for eligible children.
+
+## Capital Markets Subcommittee Examines the Role of Self-Regulatory Organizations in U.S. Markets
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-06T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411048
+
+## Fiserv to Present at Upcoming Investor Conferences
+- Source: Fiserv
+- Category: Fintech Watch
+- Published: 2026-03-06T00:00:00Z
+- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9
+
+## Go beyond tourist phrases with 150+ languages for a flat $70 in this deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-06T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/go-beyond-tourist-phrases-with-150-plus-languages-for-a-flat-70-in-this-deal/
+
+## Removal of Regulations for Renewal Communities Designations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/06/2026-04447/removal-of-regulations-for-renewal-communities-designations
+
+This rule removes HUD's Renewal Communities regulations because the designations were time limited, and all incentives have been repealed and sunset.
+
+## Removal of Final Regulations Identifying Certain Partnership Related-Party Basis Adjustment Transactions as Transactions of Interest
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/06/2026-04432/removal-of-final-regulations-identifying-certain-partnership-related-party-basis-adjustment
+
+This document proposes to remove regulations that identify certain partnership related-party basis adjustment transactions and substantially similar transactions as transactions of interest, a type of reportable transaction. The regulations would affect participants in these transactions as well as material advisors.
+
+## Electronic Furnishing of Payee Statements Regarding Digital Asset Sales by Brokers
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-06T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/06/2026-04431/electronic-furnishing-of-payee-statements-regarding-digital-asset-sales-by-brokers
+
+This document contains proposed regulations that would provide digital asset brokers that are required to furnish to their customers written statements reflecting information provided to the IRS with respect to digital asset sale transactions with an alternative process for obtaining consent from their customers to receive these statements in an electronic format without offer…
+
+## Chinese state hackers target telcos with new malware toolkit
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-05T23:19:49Z
+- URL: https://www.bleepingcomputer.com/news/security/chinese-state-hackers-target-telcos-with-new-malware-toolkit/
+
+A China-linked advanced persistent threat actor tracked as UAT-9244 has been targeting telecommunication service providers in South America since 2024, compromising Windows, Linux, and network-edge devices. [...]
+
+## Bing AI promoted fake OpenClaw GitHub repo pushing info-stealing malware
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-05T22:37:34Z
+- URL: https://www.bleepingcomputer.com/news/security/bing-ai-promoted-fake-openclaw-github-repo-pushing-info-stealing-malware/
+
+Fake OpenClaw installers hosted in GitHub repositories and promoted by Microsoft Bing's AI-enhanced search feature instructed users to run commands that deployed information stealers and proxy malware. [...]
+
+## America’s Unstoppable Momentum in Operation Epic Fury
+- Source: White House
+- Category: Executive
+- Published: 2026-03-05T22:36:04Z
+- URL: https://www.whitehouse.gov/articles/2026/03/americas-unstoppable-momentum-in-operation-epic-fury/
+
+## America 250: Presidential Message on the Anniversary of the Boston Massacre
+- Source: White House
+- Category: Executive
+- Published: 2026-03-05T22:25:38Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-anniversary-of-the-boston-massacre/
+
+## Wikipedia hit by self-propagating JavaScript worm that vandalized pages
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-05T20:42:25Z
+- URL: https://www.bleepingcomputer.com/news/security/wikipedia-hit-by-self-propagating-javascript-worm-that-vandalized-pages/
+
+The Wikimedia Foundation suffered a security incident today after a self-propagating JavaScript worm began vandalizing pages and modifying user scripts across multiple wikis. [...]
+
+## Press Release: Agencies Clarify the Capital Treatment of Tokenized Securities
+- Source: FDIC
+- Category: Banking
+- Published: 2026-03-05T20:32:40Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40cdad7
+
+PRESS RELEASE | MARCH 5, 2026 Agencies Clarify the Capital Treatment of Tokenized Securities WASHINGTON – The federal bank regulatory agencies today jointly issued answers to frequently asked questions to clarify the capital treatment of tokenized securities. A security is often referred to as “tokenized” when ownership rights in the security are represented using distributed…
+
+## Agencies clarify the capital treatment of tokenized securities
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-05T20:30:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm
+
+Agencies clarify the capital treatment of tokenized securities
+
+## WordPress membership plugin bug exploited to create admin accounts
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-05T18:44:58Z
+- URL: https://www.bleepingcomputer.com/news/security/wordpress-membership-plugin-bug-exploited-to-create-admin-accounts/
+
+Hackers are exploiting a critical vulnerability in the User Registration & Membership plugin, which is installed on more than 60,000 WordPress sites. [...]
+
+## FBI arrests suspect linked to $46M crypto theft from US Marshals
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-05T18:36:18Z
+- URL: https://www.bleepingcomputer.com/news/security/fbi-arrests-suspect-linked-to-46m-crypto-theft-from-us-marshals/
+
+​A U.S. government contractor's son, accused of stealing more than $46 million in cryptocurrency from the U.S. Marshals Service, was arrested Wednesday on the island of Saint Martin. [...]
+
+## President Trump Secures Historic Commitment to Keep Electricity Costs Down Amid Data Center Boom
+- Source: White House
+- Category: Executive
+- Published: 2026-03-05T18:20:46Z
+- URL: https://www.whitehouse.gov/articles/2026/03/president-trump-secures-historic-commitment-to-keep-electricity-costs-down-amid-data-center-boom/
 
 ## Federal Reserve Board announces termination of enforcement action with Wells Fargo
 - Source: FRB
@@ -10,6 +252,46 @@ Last updated: `2026-03-05T10:38:14-06:00` (CT) — `2026-03-05T16:38:14Z` (UTC)
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260305a.htm
 
 Federal Reserve Board announces termination of enforcement action with Wells Fargo
+
+## CVE-2026-23651 Microsoft ACI Confidential Containers Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-05T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23651
+
+Permissive regular expression in Azure Compute Gallery allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-21536 Microsoft Devices Pricing Program Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-05T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21536
+
+Information published.
+
+## CVE-2026-26124 Microsoft ACI Confidential Containers Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-05T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26124
+
+Information published.
+
+## CVE-2026-26125 Payment Orchestrator Service Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-05T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26125
+
+Information published.
+
+## CVE-2026-26122 Microsoft ACI Confidential Containers Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-05T16:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26122
+
+Information published.
 
 ## Press Release: FDIC Issues List of Banks Examined for CRA Compliance
 - Source: FDIC
@@ -161,38 +443,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-3336 PKCS7_verify Certificate Chain Validation Bypass in AWS-LC
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T09:09:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3336
-
-Information published.
-
-## CVE-2026-3338 PKCS7_verify Signature Validation Bypass in AWS-LC
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T09:08:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3338
-
-Information published.
-
-## CVE-2026-23865 An integer overflow in the tt_var_load_item_variation_store function of the Freetype library in versions 2.13.2 and 2.13.3 may allow for an out of bounds read operation when parsing HVAR/VVAR/MVAR tables…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T09:08:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23865
-
-Information published.
-
-## CVE-2026-24821 A heap-based buffer over-read that might affect a system that compiles untrusted Lua code in turanszkij/WickedEngine.
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T09:08:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24821
-
-Information published.
-
 ## CVE-2026-27141 Sending certain HTTP/2 frames can cause a server to panic in golang.org/x/net
 - Source: Microsoft MSRC
 - Category: IS
@@ -214,38 +464,6 @@ Information published.
 - Category: IS
 - Published: 2026-03-05T09:04:46Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71238
-
-Information published.
-
-## CVE-2026-23238 romfs: check sb_set_blocksize() return value
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T09:04:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23238
-
-Information published.
-
-## CVE-2026-23237 platform/x86: classmate-laptop: Add missing NULL pointer checks
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T09:04:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23237
-
-Information published.
-
-## CVE-2026-23235 f2fs: fix out-of-bounds access in sysfs attribute read/write
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T09:04:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23235
-
-Information published.
-
-## CVE-2026-23234 f2fs: fix to avoid UAF in f2fs_write_end_io()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T09:04:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23234
 
 Information published.
 
@@ -295,6 +513,28 @@ IR-2026-29, March 5, 2026 — The Department of the Treasury and the Internal Re
 
 IR-2026-30, March 5, 2026 — The Internal Revenue Service today announced its annual Dirty Dozen list of tax scams for 2026 that threaten the tax and financial information of taxpayers, businesses, and tax professionals.
 
+## Agencies Clarify the Capital Treatment of Tokenized Securities
+- Source: OCC
+- Category: Banking
+- Published: 2026-03-05T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-14.html
+
+The federal bank regulatory agencies today jointly issued answers to frequently asked questions to clarify the capital treatment of tokenized securities.
+
+## Regulatory Capital: Interagency FAQs on Tokenized Securities
+- Source: OCC
+- Category: Banking
+- Published: 2026-03-05T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-7.html
+
+## Agencies Clarify the Capital Treatment of Tokenized Securities
+- Source: FDIC
+- Category: Banking
+- Published: 2026-03-05T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities
+
+The federal bank regulatory agencies today jointly issued answers to frequently asked questions to clarify the capital treatment of tokenized securities.
+
 ## FDIC Issues List of Banks Examined for CRA Compliance
 - Source: FDIC
 - Category: Banking
@@ -302,6 +542,30 @@ IR-2026-30, March 5, 2026 — The Internal Revenue Service today announced its a
 - URL: https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-1
 
 (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA) March 2026
+
+## Mortgage Rates Hold Steady
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-03-05T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/03/05/3250506/0/en/Mortgage-Rates-Hold-Steady.html
+
+## Warren Statement on the SEC Dropping Its Case Against Justin Sun
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-05T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-the-sec-dropping-its-case-against-justin-sun
+
+## Warren Statement on the White House's Transmittal of Kevin Warsh's Fed Chair Nomination to the Senate
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-05T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-the-white-houses-transmittal-of-kevin-warshs-fed-chair-nomination-to-the-senate
+
+## Warren, Cotton Press Intel on its Reported Use of Chipmaking Tools Produced by Chinese State-Backed Company
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-05T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-cotton-press-intel-on-its-reported-use-of-chipmaking-tools-produced-by-chinese-state-backed-company
 
 ## Barr: Fraud and Scam Losses Are Not Abstract Statistics
 - Source: House Financial Services
@@ -315,6 +579,12 @@ IR-2026-30, March 5, 2026 — The Internal Revenue Service today announced its a
 - Published: 2026-03-05T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411046
 
+## Financial Institutions Subcommittee Reviews Ways to Combat Fraud
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-05T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411047
+
 ## Nacha’s Top 50 ACH Originators and Receivers of 2025 Now Available; Total ACH Payment Volume in 2025 Exceeded 42 Billion
 - Source: NACHA
 - Category: Payments
@@ -322,6 +592,12 @@ IR-2026-30, March 5, 2026 — The Internal Revenue Service today announced its a
 - URL: https://www.nacha.org/news/nachas-top-50-ach-originators-and-receivers-2025-now-available-total-ach-payment-volume-2025
 
 RESTON, Virginia, March 5, 2026 – The Nacha Top 50 rankings of financial institution originators and receivers of ACH payments for 2025 are now available.Among originating financial institutions, the Top 50 handled ACH volume of 30.7 billion payments last year, up 4.7% from 2024. They accounted for 91.4% of the ACH Network’s total commercial payments volume.
+
+## Train for your cybersecurity & risk management career for just $20 in this deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-05T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/train-for-your-cybersecurity-and-risk-management-career-for-just-20-in-this-deal/
 
 ## McAfee Total Protection offers identity & virus protection for $19
 - Source: BleepingComputer
@@ -361,22 +637,6 @@ The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, 
 
 The Office of Personnel Management (OPM) is issuing a proposed rule to revise its reduction-in-force (RIF) regulations. The proposed rule would make the RIF regulations more streamlined, efficient, and merit-based by prioritizing performance over tenure and length of service when determining which employees will be retained in a RIF and modifying the types of employees who are…
 
-## Bitwarden adds support for passkey login on Windows 11
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T22:34:58Z
-- URL: https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/
-
-Bitwarden announced support for logging into Windows 11 devices using passkeys stored in the manager's vault, enabling phishing-resistant authentication. [...]
-
-## Mail2Shell zero-click attack lets hackers hijack FreeScout mail servers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T21:51:32Z
-- URL: https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/
-
-A maximum severity vulnerability in the FreeScout helpdesk platform allows hackers to achieve remote code execution without any user interaction or authentication. [...]
-
 ## Fact Sheet: President Donald J. Trump Advances Energy Affordability with the Ratepayer Protection Pledge
 - Source: White House
 - Category: Executive
@@ -395,75 +655,11 @@ A maximum severity vulnerability in the FreeScout helpdesk platform allows hacke
 - Published: 2026-03-04T21:42:06Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/ratepayer-protection-pledge-proclamation/
 
-## Windows 10 KB5075039 update fixes broken Recovery Environment
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T21:03:39Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5075039-update-fixes-broken-recovery-environment/
-
-Microsoft has released the KB5075039 Windows Recovery Environment update for Windows 10 to fix a long-standing issue that prevented some users from accessing the Recovery environment. [...]
-
-## Fake LastPass support email threads try to steal vault passwords
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T20:44:21Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-lastpass-support-email-threads-try-to-steal-vault-passwords/
-
-Password management software provider LastPass is warning users of a phishing campaign targeting its users with fake unauthorized account access alerts. [...]
-
-## Cisco warns of max severity Secure FMC flaws giving root access
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T19:12:43Z
-- URL: https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-secure-fmc-flaws-giving-root-access/
-
-Cisco has released security updates to patch two maximum-severity vulnerabilities in its Secure Firewall Management Center (FMC) software. [...]
-
-## Spyware-grade Coruna iOS exploit kit now used in crypto theft attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T19:06:13Z
-- URL: https://www.bleepingcomputer.com/news/security/spyware-grade-coruna-ios-exploit-kit-now-used-in-crypto-theft-attacks/
-
-A previously undocumented set of 23 iOS exploits named "Coruna" has been deployed by multiple threat actors in targeted espionage campaigns and financially motivated attacks. [...]
-
-## Hacker mass-mails HungerRush extortion emails to restaurant patrons
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T18:44:14Z
-- URL: https://www.bleepingcomputer.com/news/security/hacker-mass-mails-hungerrush-extortion-emails-to-restaurant-patrons/
-
-Customers of restaurants using the HungerRush point-of-sale (POS) platform say they received emails from a threat actor attempting to extort the company, warning that restaurant and customer data could be exposed if HungerRush fails to respond. [...]
-
 ## America’s Warriors Are Obliterating Iranian Terror Regime with Unrelenting Force
 - Source: White House
 - Category: Executive
 - Published: 2026-03-04T18:23:53Z
 - URL: https://www.whitehouse.gov/articles/2026/03/americas-warriors-are-obliterating-iranian-terror-regime-with-unrelenting-force/
-
-## FBI seizes LeakBase cybercrime forum, data of 142,000 members
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T17:44:46Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-seizes-leakbase-cybercrime-forum-data-of-142-000-members/
-
-The FBI has seized the LeakBase cybercrime forum, a major online forum used by cybercriminals buy and sell hacking tools and stolen data. [...]
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-04T17:11:00Z
-- URL: https://www.wolterskluwer.com/en/news/pilot-to-advance-open-access-medical-research-in-india
-
-Lippincott Open Access India APC Advantage creates responsible publishing pathway. Read the press release.
-
-## Europol-coordinated action disrupts Tycoon2FA phishing platform
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T17:01:26Z
-- URL: https://www.bleepingcomputer.com/news/security/europol-coordinated-action-disrupts-tycoon2fa-phishing-platform/
-
-An international law enforcement operation coordinated by Europol has disrupted Tycoon2FA, a major phishing-as-a-service (PhaaS) platform linked to tens of millions of phishing messages each month. [...]
 
 ## Presidential Message on Holi
 - Source: White House
@@ -484,14 +680,6 @@ An international law enforcement operation coordinated by Europol has disrupted 
 - URL: https://www.cdiaonline.org/events/2026/03/04/strengthen-the-connections-that-power-our-industry-at-cdia-connect/
 
 If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA .
-
-## Mississippi medical center reopens clinics hit by ransomware attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T15:28:56Z
-- URL: https://www.bleepingcomputer.com/news/security/mississippi-medical-center-reopens-clinics-hit-by-ransomware-attack/
-
-The University of Mississippi Medical Center (UMMC) says it has resumed normal operations, nine days after a ransomware attack blocked access to electronic medical records and took down many of its IT systems. [...]
 
 ## ICYMI: Update from CENTCOM Commander on Operation Epic Fury
 - Source: White House
@@ -555,29 +743,19 @@ Information published.
 
 Information published.
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-04T08:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-2026-future-ready-lawyer-webinar-series
+
+The seven-part webinar series will feature insights from industry leaders and legal luminaries
+
 ## Issuance of Venezuela-related Frequently Asked Questions
 - Source: OFAC
 - Category: OFAC
 - Published: 2026-03-04T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260304
-
-## Warren Statement on the White House's Transmittal of Kevin Warsh's Fed Chair Nomination to the Senate
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-the-white-houses-transmittal-of-kevin-warshs-fed-chair-nomination-to-the-senate
-
-## Warren, Cotton Press Intel on its Reported Use of Chipmaking Tools Produced by Chinese State-Backed Company
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-cotton-press-intel-on-its-reported-use-of-chipmaking-tools-produced-by-chinese-state-backed-company
-
-## ICYMI: Chairman Scott Pens Op-Ed in the New York Post About Putting Housing Affordability at the Forefront of the American Dream
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/icymi-chairman-scott-pens-op-ed-in-the-new-york-post-about-putting-housing-affordability-at-the-forefront-of-the-american-dream
 
 ## Chairman Hill: The bills before us today reflect President Trump and Republicans’ shared commitment to promoting pro-growth, America-first policies
 - Source: House Financial Services
@@ -597,23 +775,17 @@ Information published.
 - Published: 2026-03-04T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/integrity-viking-funds-modernizes-investment-accounting
 
-## The PDF Agile editor is only $40 for life in this deal
+## Bitwarden adds support for passkey login on Windows 11
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-04T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/the-pdf-agile-editor-is-only-40-for-life-in-this-deal/
+- URL: https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/
 
-## How a Brute Force Attack Unmasked a Ransomware Infrastructure Network
+## Mail2Shell zero-click attack lets hackers hijack FreeScout mail servers
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-04T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/how-a-brute-force-attack-unmasked-a-ransomware-infrastructure-network/
-
-## Work, stream, multitask on this refurbished $360 HP touchscreen
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/work-stream-multitask-on-this-refurbished-360-hp-touchscreen/
+- URL: https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/
 
 ## Fair Housing Home Loan Data System
 - Source: Federal Register
@@ -630,24 +802,6 @@ The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housi
 - URL: https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
 
 The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…
-
-## America 250: Presidential Message on the Birthday of Alexander Graham Bell
-- Source: White House
-- Category: Executive
-- Published: 2026-03-03T21:31:39Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-alexander-graham-bell/
-
-## Presidential Message on Women’s History Month
-- Source: White House
-- Category: Executive
-- Published: 2026-03-03T21:29:47Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-womens-history-month/
-
-## Operation Epic Fury: Unmatched Power, Unrelenting Force of America’s Warriors
-- Source: White House
-- Category: Executive
-- Published: 2026-03-03T19:13:27Z
-- URL: https://www.whitehouse.gov/articles/2026/03/operation-epic-fury-unmatched-power-unrelenting-force-of-americas-warriors/
 
 ## Remarks: A Reset on Liquidity Regulation
 - Source: Treasury
@@ -1995,12 +2149,6 @@ The Office of the Comptroller of the Currency (OCC) today announced two final ru
 - Published: 2026-03-03T00:00:00Z
 - URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
 
-## CISA flags VMware Aria Operations RCE flaw as exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-03T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/
-
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
 - Category: Compliance Watch
@@ -2555,18 +2703,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 IR-2026-27, Feb. 27, 2026 — The Department of the Treasury and the Internal Revenue Service today issued frequently asked questions on FS-2026-03 related to general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit.
 
-## OCC Issues Second and Third Quarter 2026 CRA Evaluation Schedule
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-11.html
-
-## National Bank Chartering: Final Rule
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-4.html
-
 ## FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah
 - Source: FDIC
 - Category: Banking
@@ -2881,14 +3017,6 @@ Information published.
 - Published: 2026-02-25T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260225
 
-## OCC Requests Comments on Proposal to Implement GENIUS Act
-- Source: OCC
-- Category: Banking
-- Published: 2026-02-25T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-9.html
-
-The Office of the Comptroller of the Currency (OCC) today issued a proposed rulemaking to implement the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act.
-
 ## Freddie Mac Issues Monthly Volume Summary for January 2026
 - Source: Freddie Mac
 - Category: Mortgage
@@ -3000,12 +3128,6 @@ PRESS RELEASE | FEBRUARY 24, 2026 FDIC-Insured Institutions Reported Return on A
 - Category: Fintech Watch
 - Published: 2026-02-24T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-teams-cargox-further-adoption-digital-source-electronic-trade-documentation
-
-## Cyber-related Designations; CAATSA - Russia-related Designations; PAIPA Designations
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-24T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260224
 
 ## FDIC-Insured Institutions Reported Return on Assets of 1.24 Percent and Net Income of $77.7 Billion in Fourth Quarter 2025
 - Source: FDIC
@@ -5550,55 +5672,3 @@ Updated CWE value. This is an informational change only.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-65046
 
 Updated CWE value. This is an informational change only.
-
-## Treasury, IRS issue guidance on special depreciation allowance for qualified production property, announce upcoming proposed regulations under the One, Big, Beautiful Bill
-- Source: IRS
-- Category: IRS
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-special-depreciation-allowance-for-qualified-production-property-announce-upcoming-proposed-regulations-under-the-one-big-beautiful-bill
-
-IR-2026-25, Feb. 20, 2026 — The Department of the Treasury and the Internal Revenue Service today provided interim guidance for taxpayers regarding the special depreciation allowance for qualified production property enacted under the One, Big, Beautiful Bill.
-
-## Education Services
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.cdiaonline.org/education-services/
-
-## Privacy Act of 1974; System of Records
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/02/20/2026-03432/privacy-act-of-1974-system-of-records
-
-In accordance with the Privacy Act of 1974, as amended, the Federal Deposit Insurance Corporation (FDIC) is modifying an existing system of records, FDIC-035, Identity, Credential, and Access Management Records. This system of records is used by FDIC to manage the safety and security of FDIC resources, facilities, information technology systems, and other Federal government ag…
-
-## Housing and Community Development Act of 1980: Verification of Eligible Status
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-02-20T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/02/20/2026-03405/housing-and-community-development-act-of-1980-verification-of-eligible-status
-
-Section 214 of the Housing and Community Development Act of 1980, as amended ("Section 214"), prohibits the Secretary of HUD from making financial assistance available to persons other than United States citizens or certain categories of eligible noncitizens in HUD's public and specified assisted housing programs. This proposed rule would revise HUD's Section 214 implementing…
-
-## Federal Reserve Board announces approval of application by Fulton Financial Corporation
-- Source: FRB
-- Category: Banking
-- Published: 2026-02-19T21:30:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260219a.htm
-
-Federal Reserve Board announces approval of application by Fulton Financial Corporation
-
-## Federal Reserve Board announces it will hold a hybrid public outreach meeting on Thursday, March 26, as part of its review of regulations under the Economic Growth and Regulatory Paperwork Reduction Act (EGRPRA)
-- Source: FRB
-- Category: Banking
-- Published: 2026-02-19T20:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/other20260219a.htm
-
-Federal Reserve Board announces it will hold a hybrid public outreach meeting on Thursday, March 26, as part of its review of regulations under the Economic Growth and Regulatory Paperwork Reduction Act (EGRPRA)
-
-## Treasury Releases Two New Resources to Guide AI Use in the Financial Sector
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-19T19:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0401
