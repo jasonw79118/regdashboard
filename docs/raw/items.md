@@ -1,7 +1,47 @@
 # RegDashboard — Export
 
-Window: `2026-02-25T13:33:53Z` → `2026-03-11T13:33:53Z` (UTC)
-Last updated: `2026-03-11T08:33:53-05:00` (CT) — `2026-03-11T13:33:53Z` (UTC)
+Window: `2026-02-25T18:31:55Z` → `2026-03-11T18:31:55Z` (UTC)
+Last updated: `2026-03-11T13:31:55-05:00` (CT) — `2026-03-11T18:31:55Z` (UTC)
+
+## CISA orders feds to patch n8n RCE flaw exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T18:21:15Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]
+
+## Medtech giant Stryker offline after Iran-linked wiper malware attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T17:21:22Z
+- URL: https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
+
+Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]
+
+## New PhantomRaven NPM attack wave steals dev data via 88 packages
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T17:09:42Z
+- URL: https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
+
+New attack waves from the 'PhantomRaven' supply-chain campaign are hitting the npm registry, with dozens of malicious packages that exfiltrate sensitive data from JavaScript developers. [...]
+
+## Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit
+- Source: FDIC
+- Category: Banking
+- Published: 2026-03-11T14:00:33Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40db4bf
+
+SPEECH | MARCH 11, 2026 Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit The following speech was delivered before the American Bankers Association's Washington Summit. Introduction It’s great to join the ABA again for its Washington Summit. Since last January, we have been working hard to reform our supervisory and regulatory approach to bo…
+
+## CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-11T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293
+
+Acknowledgement added. This is an informational change only.
 
 ## Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
 - Source: BleepingComputer
@@ -163,6 +203,22 @@ Information published.
 
 Information published.
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-11T08:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2025-annual-report
+
+Wolters Kluwer, a global provider of professional information, software solutions, and services, today published its 2025 Annual Report.
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-11T08:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-nominates-maarten-de-vries-for-appointment-to-the-supervisory-board
+
+Wolters Kluwer, a global leader in professional information solutions, software, and services, today announced the nomination of Maarten de Vries for appointment to its Supervisory Board.
+
 ## MPF Announcement Summary 2026-S03
 - Source: FHLB MPF
 - Category: Mortgage
@@ -181,17 +237,49 @@ Information published.
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-12
 
+## Warren, Hawley, Cortez Masto, Gallego, Britt Lead Senators in Reintroducing Bill to Hold Executives Accountable After Big Bank Failures
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-11T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-hawley-cortez-masto-gallego-britt-lead-senators-in-reintroducing-bill-to-hold-executives-accountable-after-big-bank-failures
+
+## Senator Warren Statement on February 2026 CPI
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-11T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-february-2026-cpi
+
+## Ahead of Senate Final Vote, Key Stakeholders Voice Support for 21st Century ROAD to Housing Act of 2026
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-11T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/ahead-of-senate-final-vote-key-stakeholders-voice-support-for-21st-century-road-to-housing-act-of-2026
+
 ## FIS Helps Mizuho Financial Group Navigate New Regulatory Reporting Requirements
 - Source: FIS
 - Category: Fintech Watch
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-mizuho-financial-group-navigate-new-regulatory
 
+## This everyday refurbished Chromebook is on sale for $80 with free shipping
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/
+
 ## Build cybersecurity skills with InfoSec4TC while it’s on sale for $53
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/build-cybersecurity-skills-with-infosec4tc-while-its-on-sale-for-53/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-11T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/pr-2026-cch-tagetik-leader-in-gartner-magic-quadrant-for-financial-close-consolidation-solutions
+
+This recognition follows the recent recognition as a 5x Leader in the Gartner Magic Quadrant for Financial Planning
 
 ## Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines
 - Source: Federal Register
@@ -450,14 +538,6 @@ Incorrect permission assignment for critical resource in Windows Accessibility I
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24292
 
 Use after free in Connected Devices Platform Service (Cdpsvc) allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293
-
-Null pointer dereference in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
 
 ## CVE-2026-24294 Windows SMB Server Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -967,14 +1047,6 @@ CISA flagged a high-severity Ivanti Endpoint Manager (EPM) vulnerability as acti
 - Published: 2026-03-10T11:00:00Z
 - URL: https://www.whitehouse.gov/articles/2026/03/trump-effect-a-running-list-of-new-u-s-investment-in-president-trumps-second-term/
 
-## Microsoft to enable Windows hotpatch security updates by default
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T10:35:33Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/
-
-Microsoft will turn on hotpatch security updates by default for all eligible Windows devices managed through Microsoft Intune and the Microsoft Graph API, beginning with the May 2026 Windows security update. [...]
-
 ## First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026
 - Source: CDIA
 - Category: Compliance Watch
@@ -982,14 +1054,6 @@ Microsoft will turn on hotpatch security updates by default for all eligible Win
 - URL: https://www.cdiaonline.org/events/2026/03/10/first-look-women-in-consumer-data-leadership-forum-at-cdia-connect-2026/
 
 This Women’s History Month, we’re highlighting the Women in Consumer Data forum—an empowering opportunity for women across the consumer data industry to connect, share... The post First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026 appeared first on CDIA .
-
-## APT28 hackers deploy customized variant of Covenant open-source tool
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T10:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/apt28-hackers-deploy-customized-variant-of-covenant-open-source-tool/
-
-The Russian state-sponsored APT28 threat group is using a custom variant of the open-source Covenant post-exploitation framework for long-term espionage operations. [...]
 
 ## CVE-2025-14524 bearer token leak on cross-protocol redirect
 - Source: Microsoft MSRC
@@ -1054,24 +1118,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28417
 
 Information published.
-
-## Ahead of Senate Final Vote, Key Stakeholders Voice Support for 21st Century ROAD to Housing Act of 2026
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/ahead-of-senate-final-vote-key-stakeholders-voice-support-for-21st-century-road-to-housing-act-of-2026
-
-## What They Are Saying: Broad Coalition Praises Chairman Scott and Ranking Member Warren’s Bipartisan 21st Century ROAD to Housing Act
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/what-they-are-saying-broad-coalition-praises-chairman-scott-and-ranking-member-warrens-bipartisan-21st-century-road-to-housing-act
-
-## Warren, Whitehouse, Kim, Durbin, Shaheen and Colleagues Introduce Legislation to Reinforce Foreign Corrupt Practices Act, Countering Trump’s Narrowed Enforcement of Landmark Anti-Bribery Law
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-whitehouse-kim-durbin-shaheen-and-colleagues-introduce-legislation-to-reinforce-foreign-corrupt-practices-act-countering-trumps-narrowed-enforcement-of-landmark-anti-bribery-law
 
 ## FIS to Present at Upcoming Conference
 - Source: FIS
@@ -2105,13 +2151,19 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/refurbished-dyson-zone-headphones-are-40-percent-off-and-yes-they-purify-air-too/
 
-## Microsoft Teams phishing targets employees with A0Backdoor malware
+## Microsoft to enable Windows hotpatch security updates by default
 - Source: BleepingComputer
 - Category: IS
-- Published: 2026-03-09T22:50:38Z
-- URL: https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/
 
-Hackers contacted employees at financial and healthcare organizations over Microsoft Teams to trick them into granting remote access through Quick Assist and deploy a new piece of malware called A0Backdoor. [...]
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
@@ -2159,17 +2211,13 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-11
 
-## Google: Cloud attacks exploit flaws more than weak credentials
-- Source: BleepingComputer
-- Category: IS
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
 
-## Dutch govt warns of Signal, WhatsApp account hijacking attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/dutch-govt-warns-of-signal-whatsapp-account-hijacking-attacks/
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
@@ -2494,6 +2542,14 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-05T10:30:00Z
+- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA
@@ -3914,9 +3970,3 @@ The Board of Governors of the Federal Reserve System (Board) is inviting public 
 - URL: https://www.federalregister.gov/documents/2026/02/26/2026-03921/revocation-of-the-30-day-notification-requirement-prior-to-termination-of-lease-for-nonpayment-of
 
 This rule revokes the 2021 interim final rule and 2024 final rule requiring that public housing agencies (PHAs) and owners of properties receiving project-based rental assistance (PBRA) provide certain tenants with 30-day notification prior to termination of lease for nonpayment of rent. Regulatory requirements for notice of termination for nonpayment of rent will return to pr…
-
-## Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-25T15:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0405

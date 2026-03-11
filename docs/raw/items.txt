@@ -1,5 +1,40 @@
 IS
 BleepingComputer
+2026-03-11T18:21:15Z
+CISA orders feds to patch n8n RCE flaw exploited in attacks
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-11T17:21:22Z
+Medtech giant Stryker offline after Iran-linked wiper malware attack
+https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
+Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-11T17:09:42Z
+New PhantomRaven NPM attack wave steals dev data via 88 packages
+https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
+New attack waves from the 'PhantomRaven' supply-chain campaign are hitting the npm registry, with dozens of malicious packages that exfiltrate sensitive data from JavaScript developers. [...]
+------------------------------------------------------------
+Banking
+FDIC
+2026-03-11T14:00:33Z
+Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit
+https://content.govdelivery.com/accounts/USFDIC/bulletins/40db4bf
+SPEECH | MARCH 11, 2026 Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit The following speech was delivered before the American Bankers Association's Washington Summit. Introduction It’s great to join the ABA again for its Washington Summit. Since last January, we have been working hard to reform our supervisory and regulatory approach to bo…
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-11T14:00:00Z
+CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293
+Acknowledgement added. This is an informational change only.
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-11T13:29:29Z
 Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
 https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/
@@ -138,6 +173,20 @@ CVE-2026-26017 CoreDNS ACL Bypass
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26017
 Information published.
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-11T08:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2025-annual-report
+Wolters Kluwer, a global provider of professional information, software solutions, and services, today published its 2025 Annual Report.
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-11T08:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-nominates-maarten-de-vries-for-appointment-to-the-supervisory-board
+Wolters Kluwer, a global leader in professional information solutions, software, and services, today announced the nomination of Maarten de Vries for appointment to its Supervisory Board.
+------------------------------------------------------------
 Mortgage
 FHLB MPF
 2026-03-11T00:00:00Z
@@ -156,6 +205,24 @@ FHLB MPF
 MPF Announcement 2026-12
 https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-12
 ------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-11T00:00:00Z
+Warren, Hawley, Cortez Masto, Gallego, Britt Lead Senators in Reintroducing Bill to Hold Executives Accountable After Big Bank Failures
+https://www.banking.senate.gov/newsroom/minority/warren-hawley-cortez-masto-gallego-britt-lead-senators-in-reintroducing-bill-to-hold-executives-accountable-after-big-bank-failures
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-11T00:00:00Z
+Senator Warren Statement on February 2026 CPI
+https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-february-2026-cpi
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-11T00:00:00Z
+Ahead of Senate Final Vote, Key Stakeholders Voice Support for 21st Century ROAD to Housing Act of 2026
+https://www.banking.senate.gov/newsroom/minority/ahead-of-senate-final-vote-key-stakeholders-voice-support-for-21st-century-road-to-housing-act-of-2026
+------------------------------------------------------------
 Fintech Watch
 FIS
 2026-03-11T00:00:00Z
@@ -165,8 +232,21 @@ https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-
 IS
 BleepingComputer
 2026-03-11T00:00:00Z
+This everyday refurbished Chromebook is on sale for $80 with free shipping
+https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-11T00:00:00Z
 Build cybersecurity skills with InfoSec4TC while it’s on sale for $53
 https://www.bleepingcomputer.com/offer/deals/build-cybersecurity-skills-with-infosec4tc-while-its-on-sale-for-53/
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-11T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/pr-2026-cch-tagetik-leader-in-gartner-magic-quadrant-for-financial-close-consolidation-solutions
+This recognition follows the recent recognition as a 5x Leader in the Gartner Magic Quadrant for Financial Planning
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -395,13 +475,6 @@ Microsoft MSRC
 CVE-2026-24292 Windows Connected Devices Platform Service Elevation of Privilege Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24292
 Use after free in Connected Devices Platform Service (Cdpsvc) allows an authorized attacker to elevate privileges locally.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T14:00:00Z
-CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293
-Null pointer dereference in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -849,26 +922,12 @@ White House
 TRUMP EFFECT: A Running List of New U.S. Investment in President Trump’s Second Term
 https://www.whitehouse.gov/articles/2026/03/trump-effect-a-running-list-of-new-u-s-investment-in-president-trumps-second-term/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-10T10:35:33Z
-Microsoft to enable Windows hotpatch security updates by default
-https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/
-Microsoft will turn on hotpatch security updates by default for all eligible Windows devices managed through Microsoft Intune and the Microsoft Graph API, beginning with the May 2026 Windows security update. [...]
-------------------------------------------------------------
 Compliance Watch
 CDIA
 2026-03-10T10:00:18Z
 First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026
 https://www.cdiaonline.org/events/2026/03/10/first-look-women-in-consumer-data-leadership-forum-at-cdia-connect-2026/
 This Women’s History Month, we’re highlighting the Women in Consumer Data forum—an empowering opportunity for women across the consumer data industry to connect, share... The post First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026 appeared first on CDIA .
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-10T10:00:00Z
-APT28 hackers deploy customized variant of Covenant open-source tool
-https://www.bleepingcomputer.com/news/security/apt28-hackers-deploy-customized-variant-of-covenant-open-source-tool/
-The Russian state-sponsored APT28 threat group is using a custom variant of the open-source Covenant post-exploitation framework for long-term espionage operations. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -925,24 +984,6 @@ Microsoft MSRC
 CVE-2026-28417 Vim has OS Command Injection in netrw
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28417
 Information published.
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-10T00:00:00Z
-Ahead of Senate Final Vote, Key Stakeholders Voice Support for 21st Century ROAD to Housing Act of 2026
-https://www.banking.senate.gov/newsroom/minority/ahead-of-senate-final-vote-key-stakeholders-voice-support-for-21st-century-road-to-housing-act-of-2026
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-10T00:00:00Z
-What They Are Saying: Broad Coalition Praises Chairman Scott and Ranking Member Warren’s Bipartisan 21st Century ROAD to Housing Act
-https://www.banking.senate.gov/newsroom/majority/what-they-are-saying-broad-coalition-praises-chairman-scott-and-ranking-member-warrens-bipartisan-21st-century-road-to-housing-act
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-10T00:00:00Z
-Warren, Whitehouse, Kim, Durbin, Shaheen and Colleagues Introduce Legislation to Reinforce Foreign Corrupt Practices Act, Countering Trump’s Narrowed Enforcement of Landmark Anti-Bribery Law
-https://www.banking.senate.gov/newsroom/minority/warren-whitehouse-kim-durbin-shaheen-and-colleagues-introduce-legislation-to-reinforce-foreign-corrupt-practices-act-countering-trumps-narrowed-enforcement-of-landmark-anti-bribery-law
 ------------------------------------------------------------
 Fintech Watch
 FIS
@@ -1978,10 +2019,16 @@ https://www.bleepingcomputer.com/offer/deals/refurbished-dyson-zone-headphones-a
 ------------------------------------------------------------
 IS
 BleepingComputer
-2026-03-09T22:50:38Z
-Microsoft Teams phishing targets employees with A0Backdoor malware
-https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/
-Hackers contacted employees at financial and healthcare organizations over Microsoft Teams to trick them into granting remote access through Quick Assist and deploy a new piece of malware called A0Backdoor. [...]
+2026-03-10T00:00:00Z
+Microsoft to enable Windows hotpatch security updates by default
+https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-10T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 ------------------------------------------------------------
 Banking
 FRB
@@ -2027,17 +2074,12 @@ FHLB MPF
 MPF Announcement 2026-11
 https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-11
 ------------------------------------------------------------
-IS
-BleepingComputer
+Compliance Watch
+Wolters Kluwer
 2026-03-09T00:00:00Z
-Google: Cloud attacks exploit flaws more than weak credentials
-https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-09T00:00:00Z
-Dutch govt warns of Signal, WhatsApp account hijacking attacks
-https://www.bleepingcomputer.com/news/security/dutch-govt-warns-of-signal-whatsapp-account-hijacking-attacks/
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -2329,6 +2371,13 @@ Finastra
 2026-03-05T12:00:00Z
 Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-05T10:30:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -3606,10 +3655,4 @@ Federal Register
 Revocation of the 30-Day Notification Requirement Prior To Termination of Lease for Nonpayment of Rent
 https://www.federalregister.gov/documents/2026/02/26/2026-03921/revocation-of-the-30-day-notification-requirement-prior-to-termination-of-lease-for-nonpayment-of
 This rule revokes the 2021 interim final rule and 2024 final rule requiring that public housing agencies (PHAs) and owners of properties receiving project-based rental assistance (PBRA) provide certain tenants with 30-day notification prior to termination of lease for nonpayment of rent. Regulatory requirements for notice of termination for nonpayment of rent will return to pr…
-------------------------------------------------------------
-OFAC
-Treasury
-2026-02-25T15:30:00Z
-Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs
-https://home.treasury.gov/news/press-releases/sb0405
 ------------------------------------------------------------

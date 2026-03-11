@@ -1,9 +1,49 @@
 {
-  "window_start": "2026-02-25T13:33:53Z",
-  "window_end": "2026-03-11T13:33:53Z",
-  "generated_at_utc": "2026-03-11T13:33:53Z",
-  "generated_at_ct": "2026-03-11T08:33:53-05:00",
+  "window_start": "2026-02-25T18:31:55Z",
+  "window_end": "2026-03-11T18:31:55Z",
+  "generated_at_utc": "2026-03-11T18:31:55Z",
+  "generated_at_ct": "2026-03-11T13:31:55-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "CISA orders feds to patch n8n RCE flaw exploited in attacks",
+      "published_at": "2026-03-11T18:21:15Z",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Medtech giant Stryker offline after Iran-linked wiper malware attack",
+      "published_at": "2026-03-11T17:21:22Z",
+      "url": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/",
+      "summary": "Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "New PhantomRaven NPM attack wave steals dev data via 88 packages",
+      "published_at": "2026-03-11T17:09:42Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/",
+      "summary": "New attack waves from the 'PhantomRaven' supply-chain campaign are hitting the npm registry, with dozens of malicious packages that exfiltrate sensitive data from JavaScript developers. [...]"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit",
+      "published_at": "2026-03-11T14:00:33Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40db4bf",
+      "summary": "SPEECH | MARCH 11, 2026 Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit The following speech was delivered before the American Bankers Association's Washington Summit. Introduction It’s great to join the ABA again for its Washington Summit. Since last January, we have been working hard to reform our supervisory and regulatory approach to bo…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
+      "published_at": "2026-03-11T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293",
+      "summary": "Acknowledgement added. This is an informational change only."
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -165,6 +205,22 @@
       "summary": "Information published."
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-11T08:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2025-annual-report",
+      "summary": "Wolters Kluwer, a global provider of professional information, software solutions, and services, today published its 2025 Annual Report."
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-11T08:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-nominates-maarten-de-vries-for-appointment-to-the-supervisory-board",
+      "summary": "Wolters Kluwer, a global leader in professional information solutions, software, and services, today announced the nomination of Maarten de Vries for appointment to its Supervisory Board."
+    },
+    {
       "category": "Mortgage",
       "source": "FHLB MPF",
       "title": "MPF Announcement Summary 2026-S03",
@@ -189,6 +245,30 @@
       "summary": ""
     },
     {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren, Hawley, Cortez Masto, Gallego, Britt Lead Senators in Reintroducing Bill to Hold Executives Accountable After Big Bank Failures",
+      "published_at": "2026-03-11T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-hawley-cortez-masto-gallego-britt-lead-senators-in-reintroducing-bill-to-hold-executives-accountable-after-big-bank-failures",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Senator Warren Statement on February 2026 CPI",
+      "published_at": "2026-03-11T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-february-2026-cpi",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Ahead of Senate Final Vote, Key Stakeholders Voice Support for 21st Century ROAD to Housing Act of 2026",
+      "published_at": "2026-03-11T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/ahead-of-senate-final-vote-key-stakeholders-voice-support-for-21st-century-road-to-housing-act-of-2026",
+      "summary": ""
+    },
+    {
       "category": "Fintech Watch",
       "source": "FIS",
       "title": "FIS Helps Mizuho Financial Group Navigate New Regulatory Reporting Requirements",
@@ -199,10 +279,26 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
+      "title": "This everyday refurbished Chromebook is on sale for $80 with free shipping",
+      "published_at": "2026-03-11T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
       "title": "Build cybersecurity skills with InfoSec4TC while it’s on sale for $53",
       "published_at": "2026-03-11T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/build-cybersecurity-skills-with-infosec4tc-while-its-on-sale-for-53/",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-11T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/pr-2026-cch-tagetik-leader-in-gartner-magic-quadrant-for-financial-close-consolidation-solutions",
+      "summary": "This recognition follows the recent recognition as a 5x Leader in the Gartner Magic Quadrant for Financial Planning"
     },
     {
       "category": "Federal Register",
@@ -473,14 +569,6 @@
       "published_at": "2026-03-10T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24292",
       "summary": "Use after free in Connected Devices Platform Service (Cdpsvc) allows an authorized attacker to elevate privileges locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
-      "published_at": "2026-03-10T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293",
-      "summary": "Null pointer dereference in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally."
     },
     {
       "category": "IS",
@@ -995,28 +1083,12 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft to enable Windows hotpatch security updates by default",
-      "published_at": "2026-03-10T10:35:33Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/",
-      "summary": "Microsoft will turn on hotpatch security updates by default for all eligible Windows devices managed through Microsoft Intune and the Microsoft Graph API, beginning with the May 2026 Windows security update. [...]"
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026",
       "published_at": "2026-03-10T10:00:18Z",
       "url": "https://www.cdiaonline.org/events/2026/03/10/first-look-women-in-consumer-data-leadership-forum-at-cdia-connect-2026/",
       "summary": "This Women’s History Month, we’re highlighting the Women in Consumer Data forum—an empowering opportunity for women across the consumer data industry to connect, share... The post First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026 appeared first on CDIA ."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "APT28 hackers deploy customized variant of Covenant open-source tool",
-      "published_at": "2026-03-10T10:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/apt28-hackers-deploy-customized-variant-of-covenant-open-source-tool/",
-      "summary": "The Russian state-sponsored APT28 threat group is using a custom variant of the open-source Covenant post-exploitation framework for long-term espionage operations. [...]"
     },
     {
       "category": "IS",
@@ -1081,30 +1153,6 @@
       "published_at": "2026-03-10T08:36:31Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28417",
       "summary": "Information published."
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Ahead of Senate Final Vote, Key Stakeholders Voice Support for 21st Century ROAD to Housing Act of 2026",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/ahead-of-senate-final-vote-key-stakeholders-voice-support-for-21st-century-road-to-housing-act-of-2026",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "What They Are Saying: Broad Coalition Praises Chairman Scott and Ranking Member Warren’s Bipartisan 21st Century ROAD to Housing Act",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/what-they-are-saying-broad-coalition-praises-chairman-scott-and-ranking-member-warrens-bipartisan-21st-century-road-to-housing-act",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Whitehouse, Kim, Durbin, Shaheen and Colleagues Introduce Legislation to Reinforce Foreign Corrupt Practices Act, Countering Trump’s Narrowed Enforcement of Landmark Anti-Bribery Law",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-whitehouse-kim-durbin-shaheen-and-colleagues-introduce-legislation-to-reinforce-foreign-corrupt-practices-act-countering-trumps-narrowed-enforcement-of-landmark-anti-bribery-law",
-      "summary": ""
     },
     {
       "category": "Fintech Watch",
@@ -2485,10 +2533,18 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Microsoft Teams phishing targets employees with A0Backdoor malware",
-      "published_at": "2026-03-09T22:50:38Z",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/",
-      "summary": "Hackers contacted employees at financial and healthcare organizations over Microsoft Teams to trick them into granting remote access through Quick Assist and deploy a new piece of malware called A0Backdoor. [...]"
+      "title": "Microsoft to enable Windows hotpatch security updates by default",
+      "published_at": "2026-03-10T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/",
+      "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-10T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
+      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
     },
     {
       "category": "Banking",
@@ -2547,20 +2603,12 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Google: Cloud attacks exploit flaws more than weak credentials",
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
       "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Dutch govt warns of Signal, WhatsApp account hijacking attacks",
-      "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/dutch-govt-warns-of-signal-whatsapp-account-hijacking-attacks/",
-      "summary": ""
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
+      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",
@@ -2940,6 +2988,14 @@
       "published_at": "2026-03-05T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-05T10:30:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
+      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
     },
     {
       "category": "Compliance Watch",
@@ -4564,14 +4620,6 @@
         "topic:mortgages"
       ],
       "fedreg_document_number": "2026-03921"
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Treasury Targets Iran’s Shadow Fleet, Networks Supplying Ballistic Missile and ACW Programs",
-      "published_at": "2026-02-25T15:30:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0405",
-      "summary": ""
     }
   ]
 }
