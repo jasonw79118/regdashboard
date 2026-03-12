@@ -1,7 +1,37 @@
 # RegDashboard — Export
 
-Window: `2026-02-26T19:00:57Z` → `2026-03-12T19:00:57Z` (UTC)
-Last updated: `2026-03-12T14:00:57-05:00` (CT) — `2026-03-12T19:00:57Z` (UTC)
+Window: `2026-02-26T20:41:22Z` → `2026-03-12T20:41:22Z` (UTC)
+Last updated: `2026-03-12T15:41:22-05:00` (CT) — `2026-03-12T20:41:22Z` (UTC)
+
+## England Hockey investigating ransomware data breach
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T20:37:16Z
+- URL: https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
+
+England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]
+
+## Operation Epic Fury: Decisive American Power to Crush Iran’s Terror Regime
+- Source: White House
+- Category: Executive
+- Published: 2026-03-12T20:31:50Z
+- URL: https://www.whitehouse.gov/articles/2026/03/operation-epic-fury-decisive-american-power-to-crush-irans-terror-regime/
+
+## Federal Reserve Board announces approval of application by Home BancShares
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-12T20:30:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260312a.htm
+
+Federal Reserve Board announces approval of application by Home BancShares
+
+## AI-generated Slopoly malware used in Interlock ransomware attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T20:01:27Z
+- URL: https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
+
+A new malware strain dubbed Slopoly, likely created using generative AI tools, allowed a threat actor to remain on a compromised server for more than a week and steal data in an Interlock ransomware attack. [...]
 
 ## Nomination and Withdrawals Sent to the Senate
 - Source: White House
@@ -251,23 +281,23 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html
 
+## U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation
+
 ## Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law
 
-## Warren Delivers Warning to Institutional Investors on Trump’s Corruption Undermining our Markets; Calls for them to Act
+## Warren Speaks on Senate Floor Following Passage of the Biggest Housing Bill in Over 30 Years
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-03-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-delivers-warning-to-institutional-investors-on-trumps-corruption-undermining-our-markets-calls-for-them-to-act
-
-## Warren, Waters Press Fed Vice Chair Bowman on Failure to Hold Bank Execs Accountable on 3rd Anniversary of Silicon Valley Bank Collapse
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-waters-press-fed-vice-chair-bowman-on-failure-to-hold-bank-execs-accountable-on-3rd-anniversary-of-silicon-valley-bank-collapse
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-speaks-on-senate-floor-following-passage-of-the-biggest-housing-bill-in-over-30-years
 
 ## Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act
 - Source: House Financial Services
@@ -286,6 +316,14 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/cch-axcess-advisor-by-wolters-kluwer-earns-strong-early-adopter-feedback
+
+Early customer insights demonstrate how the Expert AI‑powered platform can help accounting firms transition from compliance‑centric work to advisory‑led service models
 
 ## Guidance on Tax-Exempt Refunding Bonds
 - Source: Federal Register
@@ -616,22 +654,6 @@ This recognition follows the recent announcement as a 5x Leader in the Gartner M
 - URL: https://www.federalregister.gov/documents/2026/03/11/2026-04761/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act
 
 On April 24, 2024, the NCUA Board (Board) published an advance notice of proposed rulemaking (ANPR) to solicit comments on ways the agency can improve and update its vital records preservation program regulation and accompanying guidelines. Based on public comments received in response to the ANPR and upon further consideration of the issues involved, the Board is publishing t…
-
-## New ‘BlackSanta’ EDR killer spotted targeting HR departments
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T22:57:54Z
-- URL: https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/
-
-For more than a year, a Russian-speaking threat actor targeted human resource (HR) departments with malware that delivers a new EDR killer named BlackSanta. [...]
-
-## New BeatBanker Android malware poses as Starlink app to hijack devices
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T21:27:59Z
-- URL: https://www.bleepingcomputer.com/news/security/new-beatbanker-android-malware-poses-as-starlink-app-to-hijack-devices/
-
-A new Android malware named BeatBanker can hijack devices and tricks users into installing it by posing as a Starlink app on websites masquerading as the official Google Play Store. [...]
 
 ## America 250: Presidential Message Celebrating the Life of Harriet Tubman
 - Source: White House
@@ -1365,11 +1387,11 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 
-## New 'Zombie ZIP' technique lets malware slip past security tools
+## New ‘BlackSanta’ EDR killer spotted targeting HR departments
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/
+- URL: https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/
 
 ## Education Services
 - Source: CDIA
@@ -1412,12 +1434,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Executive
 - Published: 2026-03-09T17:34:47Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/u-s-hostage-and-wrongful-detainee-day-2026/
-
-## Democrats’ Reckless DHS Shutdown Hits Americans Hard as 100,000+ Workers Go Without Pay
-- Source: White House
-- Category: Executive
-- Published: 2026-03-09T15:26:37Z
-- URL: https://www.whitehouse.gov/articles/2026/03/democrats-reckless-dhs-shutdown-hits-americans-hard-as-100000-workers-go-without-pay/
 
 ## Counter Terrorism Designations; Sudan-related Designation Update
 - Source: OFAC
@@ -1756,14 +1772,6 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-05T10:30:00Z
-- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
-
-Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA

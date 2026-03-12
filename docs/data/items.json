@@ -1,9 +1,41 @@
 {
-  "window_start": "2026-02-26T19:00:57Z",
-  "window_end": "2026-03-12T19:00:57Z",
-  "generated_at_utc": "2026-03-12T19:00:57Z",
-  "generated_at_ct": "2026-03-12T14:00:57-05:00",
+  "window_start": "2026-02-26T20:41:22Z",
+  "window_end": "2026-03-12T20:41:22Z",
+  "generated_at_utc": "2026-03-12T20:41:22Z",
+  "generated_at_ct": "2026-03-12T15:41:22-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "England Hockey investigating ransomware data breach",
+      "published_at": "2026-03-12T20:37:16Z",
+      "url": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
+      "summary": "England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Operation Epic Fury: Decisive American Power to Crush Iran’s Terror Regime",
+      "published_at": "2026-03-12T20:31:50Z",
+      "url": "https://www.whitehouse.gov/articles/2026/03/operation-epic-fury-decisive-american-power-to-crush-irans-terror-regime/",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Federal Reserve Board announces approval of application by Home BancShares",
+      "published_at": "2026-03-12T20:30:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260312a.htm",
+      "summary": "Federal Reserve Board announces approval of application by Home BancShares"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "AI-generated Slopoly malware used in Interlock ransomware attack",
+      "published_at": "2026-03-12T20:01:27Z",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/",
+      "summary": "A new malware strain dubbed Slopoly, likely created using generative AI tools, allowed a threat actor to remain on a compromised server for more than a week and steal data in an Interlock ransomware attack. [...]"
+    },
     {
       "category": "Executive",
       "source": "White House",
@@ -271,6 +303,14 @@
     {
       "category": "Legislative",
       "source": "Senate Banking",
+      "title": "U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation",
+      "published_at": "2026-03-12T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
       "title": "Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law",
@@ -279,17 +319,9 @@
     {
       "category": "Legislative",
       "source": "Senate Banking",
-      "title": "Warren Delivers Warning to Institutional Investors on Trump’s Corruption Undermining our Markets; Calls for them to Act",
+      "title": "Warren Speaks on Senate Floor Following Passage of the Biggest Housing Bill in Over 30 Years",
       "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-delivers-warning-to-institutional-investors-on-trumps-corruption-undermining-our-markets-calls-for-them-to-act",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Waters Press Fed Vice Chair Bowman on Failure to Hold Bank Execs Accountable on 3rd Anniversary of Silicon Valley Bank Collapse",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-waters-press-fed-vice-chair-bowman-on-failure-to-hold-bank-execs-accountable-on-3rd-anniversary-of-silicon-valley-bank-collapse",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-speaks-on-senate-floor-following-passage-of-the-biggest-housing-bill-in-over-30-years",
       "summary": ""
     },
     {
@@ -315,6 +347,14 @@
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-12T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/cch-axcess-advisor-by-wolters-kluwer-earns-strong-early-adopter-feedback",
+      "summary": "Early customer insights demonstrate how the Expert AI‑powered platform can help accounting firms transition from compliance‑centric work to advisory‑led service models"
     },
     {
       "category": "Federal Register",
@@ -671,22 +711,6 @@
         "topic:investments"
       ],
       "fedreg_document_number": "2026-04761"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New ‘BlackSanta’ EDR killer spotted targeting HR departments",
-      "published_at": "2026-03-10T22:57:54Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/",
-      "summary": "For more than a year, a Russian-speaking threat actor targeted human resource (HR) departments with malware that delivers a new EDR killer named BlackSanta. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New BeatBanker Android malware poses as Starlink app to hijack devices",
-      "published_at": "2026-03-10T21:27:59Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-beatbanker-android-malware-poses-as-starlink-app-to-hijack-devices/",
-      "summary": "A new Android malware named BeatBanker can hijack devices and tricks users into installing it by posing as a Starlink app on websites masquerading as the official Google Play Store. [...]"
     },
     {
       "category": "Executive",
@@ -1435,9 +1459,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "New 'Zombie ZIP' technique lets malware slip past security tools",
+      "title": "New ‘BlackSanta’ EDR killer spotted targeting HR departments",
       "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/",
+      "url": "https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/",
       "summary": ""
     },
     {
@@ -1486,14 +1510,6 @@
       "title": "U.S. Hostage and Wrongful Detainee Day, 2026",
       "published_at": "2026-03-09T17:34:47Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/03/u-s-hostage-and-wrongful-detainee-day-2026/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Democrats’ Reckless DHS Shutdown Hits Americans Hard as 100,000+ Workers Go Without Pay",
-      "published_at": "2026-03-09T15:26:37Z",
-      "url": "https://www.whitehouse.gov/articles/2026/03/democrats-reckless-dhs-shutdown-hits-americans-hard-as-100000-workers-go-without-pay/",
       "summary": ""
     },
     {
@@ -1890,14 +1906,6 @@
       "published_at": "2026-03-05T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-05T10:30:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
-      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
     },
     {
       "category": "Compliance Watch",
