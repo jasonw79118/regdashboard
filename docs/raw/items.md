@@ -1,7 +1,209 @@
 # RegDashboard — Export
 
-Window: `2026-02-25T18:31:55Z` → `2026-03-11T18:31:55Z` (UTC)
-Last updated: `2026-03-11T13:31:55-05:00` (CT) — `2026-03-11T18:31:55Z` (UTC)
+Window: `2026-02-26T14:13:19Z` → `2026-03-12T14:13:19Z` (UTC)
+Last updated: `2026-03-12T09:13:19-05:00` (CT) — `2026-03-12T14:13:19Z` (UTC)
+
+## Going the Extra Mile: Travel Rewards Turn into Underground Currency.
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T14:05:15Z
+- URL: https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
+
+Stolen airline miles are converted into flights and hotel stays, then resold as discounted travel. Flare shows how cybercriminals and underground markets treat loyalty accounts like tradable currency. [...]
+
+## CVE-2026-26133 M365 Copilot Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
+
+Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.
+
+## Apple patches older iPhones and iPads against Coruna exploits
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T13:43:46Z
+- URL: https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
+
+​Apple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]
+
+## US charges another ransomware negotiator linked to BlackCat attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T11:31:57Z
+- URL: https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/
+
+The U.S. Department of Justice charged another former DigitalMint employee for his involvement in an insider scheme in which ransomware negotiators secretly partnered with the BlackCat (ALPHV) ransomware operation. [...]
+
+## CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:37:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61727
+
+Information published.
+
+## CVE-2025-61729 Excessive resource consumption when printing error string for host certificate validation in crypto/x509
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:36:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61729
+
+Information published.
+
+## CVE-2025-61725 Excessive CPU consumption in ParseAddress in net/mail
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:36:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61725
+
+Information published.
+
+## CVE-2025-61724 Excessive CPU consumption in Reader.ReadResponse in net/textproto
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:36:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61724
+
+Information published.
+
+## CVE-2025-58186 Lack of limit when parsing cookies can cause memory exhaustion in net/http
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:36:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58186
+
+Information published.
+
+## CVE-2025-58183 Unbounded allocation when parsing GNU sparse map in archive/tar
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:36:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58183
+
+Information published.
+
+## CVE-2025-58188 Panic when validating certificates with DSA public keys in crypto/x509
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:36:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58188
+
+Information published.
+
+## CVE-2026-3784 wrong proxy connection reuse with credentials
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:01:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
+
+Information published.
+
+## CVE-2026-1965 bad reuse of HTTP Negotiate connection
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:01:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
+
+Information published.
+
+## CVE-2026-3783 token leak with redirect and netrc
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:01:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3783
+
+Information published.
+
+## CVE-2026-23240 tls: Fix race condition in tls_sw_cancel_work_tx()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:01:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23240
+
+Information published.
+
+## CVE-2026-23239 espintcp: Fix race condition in espintcp_close()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:01:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23239
+
+Information published.
+
+## CVE-2026-23868
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:01:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23868
+
+Information published.
+
+## CVE-2026-25679 Incorrect parsing of IPv6 host literals in net/url
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T08:01:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25679
+
+Information published.
+
+## Fact Sheet: President Donald J. Trump Promotes Fiscal Responsibility in Compensation Practices at the Tennessee Valley Authority
+- Source: White House
+- Category: Executive
+- Published: 2026-03-12T00:41:31Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-fiscal-responsibility-in-compensation-practices-at-the-tennessee-valley-authority/
+
+## Learn in-demand IT skills with this $25 CompTIA prep bundle
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/
+
+## Guidance on Tax-Exempt Refunding Bonds
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/12/2026-04798/guidance-on-tax-exempt-refunding-bonds
+
+This document contains proposed regulations that would update certain arbitrage rules and definitions applicable to tax-exempt and other tax-advantaged bonds by clarifying the time and manner for requesting refunds of overpayment of rebate to the United States, the special transition rule for transferred proceeds, the limitation on allocations to expenditures, and the IRS addr…
+
+## Promoting Fiscal Responsibility in Compensation Practices at the Tennessee Valley Authority
+- Source: White House
+- Category: Executive
+- Published: 2026-03-11T23:30:00Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/promoting-fiscal-responsibility-in-compensation-practices-at-the-tennessee-valley-authority/
+
+## Federal Reserve Board announces approval of application by Associated Banc-Corp
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-11T22:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260311b.htm
+
+Federal Reserve Board announces approval of application by Associated Banc-Corp
+
+## Federal Reserve Board announces approval of application by FirstSun Capital Bancorp
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-11T22:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260311a.htm
+
+Federal Reserve Board announces approval of application by FirstSun Capital Bancorp
+
+## WhatsApp introduces parent-managed accounts for pre-teens
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T20:06:39Z
+- URL: https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/
+
+WhatsApp has begun rolling out parent-managed accounts for pre-teens, allowing parents and guardians to decide who can contact them and which groups they can join. [...]
+
+## SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T19:38:14Z
+- URL: https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/
+
+An SQL injection vulnerability in Ally, a WordPress plugin from Elementor for web accessibility and usability with more than 400,000 installations, could be exploited to steal sensitive data without authentication. [...]
 
 ## CISA orders feds to patch n8n RCE flaw exploited in attacks
 - Source: BleepingComputer
@@ -42,6 +244,22 @@ SPEECH | MARCH 11, 2026 Remarks by FDIC Chairman Travis Hill: An Update on Refor
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293
 
 Acknowledgement added. This is an informational change only.
+
+## CVE-2026-26148 Microsoft Azure AD SSH Login extension for Linux Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-11T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26148
+
+Acknowledgement Updated
+
+## Chromium: CVE-2026-3537 Object lifecycle issue in PowerVR
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-11T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3537
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
 
 ## Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
 - Source: BleepingComputer
@@ -209,7 +427,7 @@ Information published.
 - Published: 2026-03-11T08:00:00Z
 - URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2025-annual-report
 
-Wolters Kluwer, a global provider of professional information, software solutions, and services, today published its 2025 Annual Report.
+Wolters Kluwer, a global leader in professional information solutions, software, and services, today published its 2025 Annual Report.
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -237,23 +455,23 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-12
 
-## Warren, Hawley, Cortez Masto, Gallego, Britt Lead Senators in Reintroducing Bill to Hold Executives Accountable After Big Bank Failures
+## Warren Delivers Warning to Institutional Investors on Trump’s Corruption Undermining our Markets; Calls for them to Act
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-03-11T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-hawley-cortez-masto-gallego-britt-lead-senators-in-reintroducing-bill-to-hold-executives-accountable-after-big-bank-failures
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-delivers-warning-to-institutional-investors-on-trumps-corruption-undermining-our-markets-calls-for-them-to-act
 
-## Senator Warren Statement on February 2026 CPI
+## Warren, Waters Press Fed Vice Chair Bowman on Failure to Hold Bank Execs Accountable on 3rd Anniversary of Silicon Valley Bank Collapse
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-03-11T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-february-2026-cpi
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-waters-press-fed-vice-chair-bowman-on-failure-to-hold-bank-execs-accountable-on-3rd-anniversary-of-silicon-valley-bank-collapse
 
-## Ahead of Senate Final Vote, Key Stakeholders Voice Support for 21st Century ROAD to Housing Act of 2026
+## ICYMI: Chairman Scott Highlights Bipartisan Momentum Behind the 21st Century ROAD to Housing Act on CNBC’s Squawk Box
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-03-11T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/ahead-of-senate-final-vote-key-stakeholders-voice-support-for-21st-century-road-to-housing-act-of-2026
+- URL: https://www.banking.senate.gov/newsroom/majority/icymi-chairman-scott-highlights-bipartisan-momentum-behind-the-21st-century-road-to-housing-act-on-cnbcs-squawk-box
 
 ## FIS Helps Mizuho Financial Group Navigate New Regulatory Reporting Requirements
 - Source: FIS
@@ -279,7 +497,7 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.wolterskluwer.com/en/news/pr-2026-cch-tagetik-leader-in-gartner-magic-quadrant-for-financial-close-consolidation-solutions
 
-This recognition follows the recent recognition as a 5x Leader in the Gartner Magic Quadrant for Financial Planning
+This recognition follows the recent announcement as a 5x Leader in the Gartner Magic Quadrant for Financial Planning
 
 ## Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines
 - Source: Federal Register
@@ -343,14 +561,6 @@ Microsoft has released Windows 11 KB5079473 and KB5078883 cumulative updates for
 - Published: 2026-03-10T17:41:22Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-celebrating-the-life-of-harriet-tubman/
 
-## HPE warns of critical AOS-CX flaw allowing admin password resets
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T17:30:35Z
-- URL: https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/
-
-Hewlett Packard Enterprise (HPE) has patched multiple security vulnerabilities in the Aruba Networking AOS-CX operating system, including several authentication and code execution issues. [...]
-
 ## President Trump’s Tax Cuts are Putting More Money Back into the Pockets of American Families and Workers
 - Source: Treasury
 - Category: OFAC
@@ -363,22 +573,6 @@ Hewlett Packard Enterprise (HPE) has patched multiple security vulnerabilities i
 - Published: 2026-03-10T16:06:39Z
 - URL: https://www.whitehouse.gov/articles/2026/03/president-trumps-economic-agenda-drives-industrial-boom-in-louisiana/
 
-## Microsoft brings phishing-resistant Windows sign-ins via Entra passkeys
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T15:27:58Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/
-
-Microsoft is rolling out passkey support for Microsoft Entra on Windows devices, adding phishing-resistant passwordless authentication via Windows Hello. [...]
-
-## New KadNap botnet hijacks ASUS routers to fuel cybercrime proxy network
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T15:01:57Z
-- URL: https://www.bleepingcomputer.com/news/security/new-kadnap-botnet-hijacks-asus-routers-to-fuel-cybercrime-proxy-network/
-
-A newly discovered botnet malware called KadNap is targeting ASUS routers and other edge networking devices to turn them into proxies for malicious traffic. [...]
-
 ## Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard C…
 - Source: FRB
 - Category: Banking
@@ -386,14 +580,6 @@ A newly discovered botnet malware called KadNap is targeting ASUS routers and ot
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260310a.htm
 
 Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard Chartered Bank
-
-## The New Turing Test: How Threats Use Geometry to Prove 'Humanness'
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T14:02:12Z
-- URL: https://www.bleepingcomputer.com/news/security/the-new-turing-test-how-threats-use-geometry-to-prove-humanness/
-
-Malware is evolving to evade sandboxes by pretending to be a real human behind the keyboard. The Picus Red Report 2026 shows 80% of top attacker techniques now focus on evasion and persistence, including geometry-based cursor tests and CPU timing checks. [...]
 
 ## CVE-2026-21262 SQL Server Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -883,14 +1069,6 @@ Out-of-bounds read in .NET allows an unauthorized attacker to deny service over 
 
 Improper resolution of path equivalence in Windows MapUrlToZone allows an unauthorized attacker to bypass a security feature over a network.
 
-## CVE-2026-26148 Microsoft Azure AD SSH Login extension for Linux Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26148
-
-External initialization of trusted variables or data stores in Azure Entra ID allows an unauthorized attacker to elevate privileges locally.
-
 ## CVE-2026-23654 GitHub: Zero Shot SCFoundation Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -1032,14 +1210,6 @@ WASHINGTON—The U.S. Department of the Treasury’s Financial Crimes Enforcemen
 - Category: Fintech Watch
 - Published: 2026-03-10T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-partners-fraudaverse-deliver-ai-powered-real-time-fraud-prevention-global
-
-## CISA: Recently patched Ivanti EPM flaw now actively exploited
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T11:36:13Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/
-
-CISA flagged a high-severity Ivanti Endpoint Manager (EPM) vulnerability as actively exploited in attacks and ordered U.S. federal agencies to patch systems within three weeks. [...]
 
 ## TRUMP EFFECT: A Running List of New U.S. Investment in President Trump’s Second Term
 - Source: White House
@@ -2145,17 +2315,17 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/mcafee-total-protection-is-85-percent-off-for-a-limited-time/
 
-## Refurbished Dyson Zone headphones are 40% off, and yes, they purify air too
+## HPE warns of critical AOS-CX flaw allowing admin password resets
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/refurbished-dyson-zone-headphones-are-40-percent-off-and-yes-they-purify-air-too/
+- URL: https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/
 
-## Microsoft to enable Windows hotpatch security updates by default
-- Source: BleepingComputer
-- Category: IS
+## Education Services
+- Source: CDIA
+- Category: Compliance Watch
 - Published: 2026-03-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/
+- URL: https://www.cdiaonline.org/education-services/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -2210,6 +2380,12 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Mortgage
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-11
+
+## March 9, 2026 Events News Views Boost Your Team’s Compliance Expertise with the FCRA Compliance Training Equip your staff with a solid, practical understanding of FCRA/FACTA requirements...
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-03-09T00:00:00Z
+- URL: https://www.cdiaonline.org/events/2026/03/09/31951/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -3818,155 +3994,3 @@ The Department is proposing to rescind the analysis for determining employee or 
 - Category: OFAC
 - Published: 2026-02-26T14:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0408
-
-## Treasury Proposes Rule to Sever Swiss Bank MBaer’s Access to U.S. Financial System
-- Source: FinCEN
-- Category: FinCEN
-- Published: 2026-02-26T12:00:00Z
-- URL: https://www.fincen.gov/news/news-releases/treasury-proposes-rule-sever-swiss-bank-mbaers-access-us-financial-system
-
-Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) proposed a rule that, if finalized, would sever MBaer Merchant Bank AG (MBaer’s) access to the U.S. financial system as a result of its financial support to illicit actors linked to Russia and Iran. If finalized, the proposed rule would prohibit covered U.S. financial institutions from o…
-
-## Master the Fundamentals of the Metro 2® Format
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-02-26T10:00:23Z
-- URL: https://www.cdiaonline.org/events/2026/02/26/master-the-fundamentals-of-the-metro-2-format/
-
-Gain clarity, confidence, and compliance—one field at a time with the Metro 2® Format Fundamentals Webinar Series on April 14-16, 2026.... The post Master the Fundamentals of the Metro 2® Format appeared first on CDIA .
-
-## CVE-2026-23225 sched/mmcid: Don't assume CID is CPU owned on mode switch
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:37:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23225
-
-Information published.
-
-## CVE-2026-23223 xfs: fix UAF in xchk_btree_check_block_owner
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:37:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23223
-
-Information published.
-
-## CVE-2026-23229 crypto: virtio - Add spinlock protection with virtqueue notification
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:37:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23229
-
-Information published.
-
-## CVE-2026-21863 Malformed Valkey Cluster bus message can lead to Remote DoS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:01:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21863
-
-Information published.
-
-## CVE-2025-67733 Valkey Affected by RESP Protocol Injection via Lua error_reply
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:01:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-67733
-
-Information published.
-
-## CVE-2025-61144 libtiff up to v4.7.1 was discovered to contain a stack overflow via the readSeparateStripsIntoBuffer function.
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:01:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61144
-
-Information published.
-
-## CVE-2025-61143 libtiff up to v4.7.1 was discovered to contain a NULL pointer dereference via the component libtiff/tif_open.c.
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:01:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61143
-
-Information published.
-
-## CVE-2021-20233 A flaw was found in grub2 in versions prior to 2.06. Setparam_prefix() in the menu rendering code performs a length calculation on the assumption that expressing a quoted single quote will require 3 chara…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:01:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-20233
-
-Information published.
-
-## CVE-2021-20225 A flaw was found in grub2 in versions prior to 2.06. The option parser allows an attacker to write past the end of a heap-allocated buffer by calling certain commands with a large number of specific short…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-26T09:01:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-20225
-
-Information published.
-
-## Nicaragua-related Designations; Issuance of Amended Russia-related General License and Associated Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-26T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260226
-
-## IRS launches new web page to streamline tax fraud and scam reporting
-- Source: IRS
-- Category: IRS
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.irs.gov/newsroom/irs-launches-new-web-page-to-streamline-tax-fraud-and-scam-reporting
-
-IR-2026-26, Feb. 26, 2026 — The Internal Revenue Service today announced the launch of a new web page that allows taxpayers to confidentially report suspected tax fraud, scams, evasion, or other tax-related illegal activities, as well as internal-facing improvements that will enhance how referrals are used to stop illegal activity.
-
-## Regulatory Reform
-- Source: FRB
-- Category: Banking
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.federalreserve.gov/reform.htm
-
-The Federal Reserve Board of Governors in Washington DC.
-
-## Fannie Mae Releases January 2026 Monthly Summary
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-releases-january-2026-monthly-summary
-
-The monthly summary report contains information about Fannie Mae’s monthly and year-to-date activities.
-
-## Mortgage Rates Drop Below 6% for the First Time in 3.5 Years
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.globenewswire.com/news-release/2026/02/26/3245903/0/en/Mortgage-Rates-Drop-Below-6-for-the-First-Time-in-3-5-Years.html
-
-## Chairman Hill on Thune Filing Cloture on Housing for the 21st Century Act
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-02-26T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411043
-
-## FIS Announces Proposed Offerings of Senior Notes
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-announces-proposed-offerings-senior-notes-0
-
-## Prohibition on Use of Reputation Risk or Other Supervisory Tools To Encourage or Compel Banking Organizations To Engage in Politicized or Unlawful Discrimination
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/02/26/2026-03818/prohibition-on-use-of-reputation-risk-or-other-supervisory-tools-to-encourage-or-compel-banking
-
-The Board of Governors of the Federal Reserve System (Board) is inviting public comment on a notice of proposed rulemaking (proposal or proposed rule) that would codify the removal of reputation risk from the Board's supervisory programs. The proposal would prohibit the Board from encouraging or compelling Board-supervised banking organizations to deny or condition the provisi…
-
-## Revocation of the 30-Day Notification Requirement Prior To Termination of Lease for Nonpayment of Rent
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-02-26T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/02/26/2026-03921/revocation-of-the-30-day-notification-requirement-prior-to-termination-of-lease-for-nonpayment-of
-
-This rule revokes the 2021 interim final rule and 2024 final rule requiring that public housing agencies (PHAs) and owners of properties receiving project-based rental assistance (PBRA) provide certain tenants with 30-day notification prior to termination of lease for nonpayment of rent. Regulatory requirements for notice of termination for nonpayment of rent will return to pr…
