@@ -1,3 +1,47 @@
+Executive
+White House
+2026-03-12T17:17:54Z
+Nomination and Withdrawals Sent to the Senate
+https://www.whitehouse.gov/presidential-actions/2026/03/nomination-and-withdrawals-sent-to-the-senate/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-12T16:59:20Z
+Veeam warns of critical flaws exposing backup servers to RCE attacks
+https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
+Data protection company Veeam Software has patched multiple flaws in its Backup & Replication solution, including four critical remote code execution (RCE) vulnerabilities. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-03-12T16:30:00Z
+Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses
+https://home.treasury.gov/news/press-releases/sb0416
+------------------------------------------------------------
+OFAC
+Treasury
+2026-03-12T16:30:00Z
+Treasury Continues to Disrupt Hamas’ Sham Charity Network as the Group Refuses to Disarm
+https://home.treasury.gov/news/press-releases/sb0415
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-12T16:19:56Z
+US disrupts SocksEscort proxy network powered by Linux malware
+https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
+Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-03-12T16:09:57Z
+The SAVE America Act Is the Most Popular Election Reform in Decades
+https://www.whitehouse.gov/articles/2026/03/the-save-america-act-is-the-most-popular-election-reform-in-decades/
+------------------------------------------------------------
+OFAC
+Treasury
+2026-03-12T16:07:41Z
+Secretary of the Treasury Scott Bessent to Travel to France
+https://home.treasury.gov/news/press-releases/sb0417
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-12T15:22:35Z
@@ -22,9 +66,9 @@ Stolen airline miles are converted into flights and hotel stays, then resold as 
 IS
 Microsoft MSRC
 2026-03-12T14:00:00Z
-CVE-2026-26133 M365 Copilot Information Disclosure Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
-Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.
+CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
+To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -32,6 +76,13 @@ Microsoft MSRC
 CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26030
 Acknowledgement added. This is an informational change only.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-12T14:00:00Z
+CVE-2026-26133 M365 Copilot Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
+Updated an acknowledgement. This is an informational change only.
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -151,6 +202,12 @@ White House
 Fact Sheet: President Donald J. Trump Promotes Fiscal Responsibility in Compensation Practices at the Tennessee Valley Authority
 https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-fiscal-responsibility-in-compensation-practices-at-the-tennessee-valley-authority/
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-03-12T00:00:00Z
+Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
+https://ofac.treasury.gov/recent-actions/20260312
+------------------------------------------------------------
 IRS
 IRS
 2026-03-12T00:00:00Z
@@ -163,6 +220,30 @@ Freddie Mac
 2026-03-12T00:00:00Z
 Mortgage Rates Inch Higher as Housing Activity Picks Up
 https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-12T00:00:00Z
+Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law
+https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-12T00:00:00Z
+Warren Delivers Warning to Institutional Investors on Trump’s Corruption Undermining our Markets; Calls for them to Act
+https://www.banking.senate.gov/newsroom/minority/warren-delivers-warning-to-institutional-investors-on-trumps-corruption-undermining-our-markets-calls-for-them-to-act
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-12T00:00:00Z
+Warren, Waters Press Fed Vice Chair Bowman on Failure to Hold Bank Execs Accountable on 3rd Anniversary of Silicon Valley Bank Collapse
+https://www.banking.senate.gov/newsroom/minority/warren-waters-press-fed-vice-chair-bowman-on-failure-to-hold-bank-execs-accountable-on-3rd-anniversary-of-silicon-valley-bank-collapse
+------------------------------------------------------------
+Legislative
+House Financial Services
+2026-03-12T00:00:00Z
+Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -432,24 +513,6 @@ FHLB MPF
 MPF Announcement 2026-12
 https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-12
 ------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-11T00:00:00Z
-Warren Delivers Warning to Institutional Investors on Trump’s Corruption Undermining our Markets; Calls for them to Act
-https://www.banking.senate.gov/newsroom/minority/warren-delivers-warning-to-institutional-investors-on-trumps-corruption-undermining-our-markets-calls-for-them-to-act
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-11T00:00:00Z
-Warren, Waters Press Fed Vice Chair Bowman on Failure to Hold Bank Execs Accountable on 3rd Anniversary of Silicon Valley Bank Collapse
-https://www.banking.senate.gov/newsroom/minority/warren-waters-press-fed-vice-chair-bowman-on-failure-to-hold-bank-execs-accountable-on-3rd-anniversary-of-silicon-valley-bank-collapse
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-11T00:00:00Z
-ICYMI: Chairman Scott Highlights Bipartisan Momentum Behind the 21st Century ROAD to Housing Act on CNBC’s Squawk Box
-https://www.banking.senate.gov/newsroom/majority/icymi-chairman-scott-highlights-bipartisan-momentum-behind-the-21st-century-road-to-housing-act-on-cnbcs-squawk-box
-------------------------------------------------------------
 Fintech Watch
 FIS
 2026-03-11T00:00:00Z
@@ -495,20 +558,6 @@ BleepingComputer
 New BeatBanker Android malware poses as Starlink app to hijack devices
 https://www.bleepingcomputer.com/news/security/new-beatbanker-android-malware-poses-as-starlink-app-to-hijack-devices/
 A new Android malware named BeatBanker can hijack devices and tricks users into installing it by posing as a Starlink app on websites masquerading as the official Google Play Store. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-10T20:05:39Z
-New 'Zombie ZIP' technique lets malware slip past security tools
-https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/
-A new technique dubbed "Zombie ZIP" helps conceal payloads in compressed files specially created to avoid detection from security solutions such as antivirus and endpoint detection and response (EDR) products. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-10T18:23:35Z
-Microsoft releases Windows 10 KB5078885 extended security update
-https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/
-Microsoft has released the Windows 10 KB5078885 extended security update to fix the March 2026 Patch Tuesday vulnerabilities, including 2 zero-days and an issue that prevent some devices from shutting down. [...]
 ------------------------------------------------------------
 Executive
 White House
@@ -1158,14 +1207,14 @@ https://www.investor.fisglobal.com/news-releases/news-release-details/fis-presen
 IS
 BleepingComputer
 2026-03-10T00:00:00Z
-McAfee Total Protection is 85% off for a limited time
-https://www.bleepingcomputer.com/offer/deals/mcafee-total-protection-is-85-percent-off-for-a-limited-time/
+New 'Zombie ZIP' technique lets malware slip past security tools
+https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-10T00:00:00Z
-Microsoft March 2026 Patch Tuesday fixes 2 zero-days, 79 flaws
-https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/
+Microsoft releases Windows 10 KB5078885 extended security update
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -1258,24 +1307,12 @@ Trump Accounts
 https://www.federalregister.gov/documents/2026/03/09/2026-04533/trump-accounts
 This document contains proposed regulations relating to Trump accounts. The proposed regulations provide guidance on making an election to open a Trump account and reserve additional sections for further guidance on Trump accounts. The proposed regulations would affect children eligible to have a Trump account, individuals who would make elections with respect to those childre…
 ------------------------------------------------------------
-Executive
-White House
-2026-03-08T21:03:47Z
-President Trump Has Secured Trillions of Dollars in New Investments — and the List Keeps Growing
-https://www.whitehouse.gov/articles/2026/03/president-trump-has-secured-trillions-of-dollars-in-new-investments-and-the-list-keeps-growing/
-------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-03-08T09:01:32Z
 CVE-2026-28364 In OCaml before 4.14.3 and 5.x before 5.4.1, a buffer over-read in Marshal deserialization (runtime/intern.c) enables remote code execution through a multi-phase attack chain. The vulnerability stems from…
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28364
 Information published.
-------------------------------------------------------------
-Executive
-White House
-2026-03-07T19:10:00Z
-America 250: Presidential Message on the Anniversary of the Selma Marches
-https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-anniversary-of-the-selma-marches/
 ------------------------------------------------------------
 Executive
 White House

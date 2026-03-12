@@ -1,7 +1,53 @@
 # RegDashboard — Export
 
-Window: `2026-02-26T16:04:03Z` → `2026-03-12T16:04:03Z` (UTC)
-Last updated: `2026-03-12T11:04:03-05:00` (CT) — `2026-03-12T16:04:03Z` (UTC)
+Window: `2026-02-26T17:52:16Z` → `2026-03-12T17:52:16Z` (UTC)
+Last updated: `2026-03-12T12:52:16-05:00` (CT) — `2026-03-12T17:52:16Z` (UTC)
+
+## Nomination and Withdrawals Sent to the Senate
+- Source: White House
+- Category: Executive
+- Published: 2026-03-12T17:17:54Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/nomination-and-withdrawals-sent-to-the-senate/
+
+## Veeam warns of critical flaws exposing backup servers to RCE attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T16:59:20Z
+- URL: https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
+
+Data protection company Veeam Software has patched multiple flaws in its Backup & Replication solution, including four critical remote code execution (RCE) vulnerabilities. [...]
+
+## Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-03-12T16:30:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0416
+
+## Treasury Continues to Disrupt Hamas’ Sham Charity Network as the Group Refuses to Disarm
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-03-12T16:30:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0415
+
+## US disrupts SocksEscort proxy network powered by Linux malware
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T16:19:56Z
+- URL: https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
+
+Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]
+
+## The SAVE America Act Is the Most Popular Election Reform in Decades
+- Source: White House
+- Category: Executive
+- Published: 2026-03-12T16:09:57Z
+- URL: https://www.whitehouse.gov/articles/2026/03/the-save-america-act-is-the-most-popular-election-reform-in-decades/
+
+## Secretary of the Treasury Scott Bessent to Travel to France
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-03-12T16:07:41Z
+- URL: https://home.treasury.gov/news/press-releases/sb0417
 
 ## Google paid $17.1 million for vulnerability reports in 2025
 - Source: BleepingComputer
@@ -27,13 +73,13 @@ Canadian business process outsourcing giant Telus Digital has confirmed it suffe
 
 Stolen airline miles are converted into flights and hotel stays, then resold as discounted travel. Flare shows how cybercriminals and underground markets treat loyalty accounts like tradable currency. [...]
 
-## CVE-2026-26133 M365 Copilot Information Disclosure Vulnerability
+## CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
 - Published: 2026-03-12T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
 
-Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.
+To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
 
 ## CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
 - Source: Microsoft MSRC
@@ -42,6 +88,14 @@ Ai command injection in M365 Copilot allows an unauthorized attacker to disclose
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26030
 
 Acknowledgement added. This is an informational change only.
+
+## CVE-2026-26133 M365 Copilot Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
+
+Updated an acknowledgement. This is an informational change only.
 
 ## Apple patches older iPhones and iPads against Coruna exploits
 - Source: BleepingComputer
@@ -177,6 +231,12 @@ Information published.
 - Published: 2026-03-12T00:41:31Z
 - URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-fiscal-responsibility-in-compensation-practices-at-the-tennessee-valley-authority/
 
+## Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-12T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260312
+
 ## Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding
 - Source: IRS
 - Category: IRS
@@ -190,6 +250,30 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: Mortgage
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html
+
+## Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law
+
+## Warren Delivers Warning to Institutional Investors on Trump’s Corruption Undermining our Markets; Calls for them to Act
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-delivers-warning-to-institutional-investors-on-trumps-corruption-undermining-our-markets-calls-for-them-to-act
+
+## Warren, Waters Press Fed Vice Chair Bowman on Failure to Hold Bank Execs Accountable on 3rd Anniversary of Silicon Valley Bank Collapse
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-waters-press-fed-vice-chair-bowman-on-failure-to-hold-bank-execs-accountable-on-3rd-anniversary-of-silicon-valley-bank-collapse
+
+## Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-12T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 
 ## Learn in-demand IT skills with this $25 CompTIA prep bundle
 - Source: BleepingComputer
@@ -493,24 +577,6 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-12
 
-## Warren Delivers Warning to Institutional Investors on Trump’s Corruption Undermining our Markets; Calls for them to Act
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-delivers-warning-to-institutional-investors-on-trumps-corruption-undermining-our-markets-calls-for-them-to-act
-
-## Warren, Waters Press Fed Vice Chair Bowman on Failure to Hold Bank Execs Accountable on 3rd Anniversary of Silicon Valley Bank Collapse
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-waters-press-fed-vice-chair-bowman-on-failure-to-hold-bank-execs-accountable-on-3rd-anniversary-of-silicon-valley-bank-collapse
-
-## ICYMI: Chairman Scott Highlights Bipartisan Momentum Behind the 21st Century ROAD to Housing Act on CNBC’s Squawk Box
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/icymi-chairman-scott-highlights-bipartisan-momentum-behind-the-21st-century-road-to-housing-act-on-cnbcs-squawk-box
-
 ## FIS Helps Mizuho Financial Group Navigate New Regulatory Reporting Requirements
 - Source: FIS
 - Category: Fintech Watch
@@ -560,22 +626,6 @@ For more than a year, a Russian-speaking threat actor targeted human resource (H
 - URL: https://www.bleepingcomputer.com/news/security/new-beatbanker-android-malware-poses-as-starlink-app-to-hijack-devices/
 
 A new Android malware named BeatBanker can hijack devices and tricks users into installing it by posing as a Starlink app on websites masquerading as the official Google Play Store. [...]
-
-## New 'Zombie ZIP' technique lets malware slip past security tools
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T20:05:39Z
-- URL: https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/
-
-A new technique dubbed "Zombie ZIP" helps conceal payloads in compressed files specially created to avoid detection from security solutions such as antivirus and endpoint detection and response (EDR) products. [...]
-
-## Microsoft releases Windows 10 KB5078885 extended security update
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T18:23:35Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/
-
-Microsoft has released the Windows 10 KB5078885 extended security update to fix the March 2026 Patch Tuesday vulnerabilities, including 2 zero-days and an issue that prevent some devices from shutting down. [...]
 
 ## America 250: Presidential Message Celebrating the Life of Harriet Tubman
 - Source: White House
@@ -1309,17 +1359,17 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 
-## McAfee Total Protection is 85% off for a limited time
+## New 'Zombie ZIP' technique lets malware slip past security tools
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/mcafee-total-protection-is-85-percent-off-for-a-limited-time/
+- URL: https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/
 
-## Microsoft March 2026 Patch Tuesday fixes 2 zero-days, 79 flaws
+## Microsoft releases Windows 10 KB5078885 extended security update
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/
 
 ## Education Services
 - Source: CDIA
@@ -1419,12 +1469,6 @@ Veterans Benefits Administration, Department of Veterans Affairs (VA), is announ
 
 This document contains proposed regulations relating to Trump accounts. The proposed regulations provide guidance on making an election to open a Trump account and reserve additional sections for further guidance on Trump accounts. The proposed regulations would affect children eligible to have a Trump account, individuals who would make elections with respect to those childre…
 
-## President Trump Has Secured Trillions of Dollars in New Investments — and the List Keeps Growing
-- Source: White House
-- Category: Executive
-- Published: 2026-03-08T21:03:47Z
-- URL: https://www.whitehouse.gov/articles/2026/03/president-trump-has-secured-trillions-of-dollars-in-new-investments-and-the-list-keeps-growing/
-
 ## CVE-2026-28364 In OCaml before 4.14.3 and 5.x before 5.4.1, a buffer over-read in Marshal deserialization (runtime/intern.c) enables remote code execution through a multi-phase attack chain. The vulnerability stems from…
 - Source: Microsoft MSRC
 - Category: IS
@@ -1432,12 +1476,6 @@ This document contains proposed regulations relating to Trump accounts. The prop
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28364
 
 Information published.
-
-## America 250: Presidential Message on the Anniversary of the Selma Marches
-- Source: White House
-- Category: Executive
-- Published: 2026-03-07T19:10:00Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-anniversary-of-the-selma-marches/
 
 ## Commitment to Countering Cartel Criminal Activity
 - Source: White House
