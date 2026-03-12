@@ -47,9 +47,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add docs/data/items.json docs/data/last_run.json docs/raw docs/print
+          # Stage everything under docs so missing subfolders do not break the run
+          git add -A docs
 
-          # If nothing changed, do nothing (prevents empty commits)
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
