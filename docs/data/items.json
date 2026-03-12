@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-26T17:52:16Z",
-  "window_end": "2026-03-12T17:52:16Z",
-  "generated_at_utc": "2026-03-12T17:52:16Z",
-  "generated_at_ct": "2026-03-12T12:52:16-05:00",
+  "window_start": "2026-02-26T19:00:57Z",
+  "window_end": "2026-03-12T19:00:57Z",
+  "generated_at_utc": "2026-03-12T19:00:57Z",
+  "generated_at_ct": "2026-03-12T14:00:57-05:00",
   "items": [
     {
       "category": "Executive",
@@ -298,6 +298,14 @@
       "title": "Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150",
+      "published_at": "2026-03-12T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/",
       "summary": ""
     },
     {
@@ -1430,14 +1438,6 @@
       "title": "New 'Zombie ZIP' technique lets malware slip past security tools",
       "published_at": "2026-03-10T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft releases Windows 10 KB5078885 extended security update",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/",
       "summary": ""
     },
     {

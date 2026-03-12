@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-26T17:52:16Z` → `2026-03-12T17:52:16Z` (UTC)
-Last updated: `2026-03-12T12:52:16-05:00` (CT) — `2026-03-12T17:52:16Z` (UTC)
+Window: `2026-02-26T19:00:57Z` → `2026-03-12T19:00:57Z` (UTC)
+Last updated: `2026-03-12T14:00:57-05:00` (CT) — `2026-03-12T19:00:57Z` (UTC)
 
 ## Nomination and Withdrawals Sent to the Senate
 - Source: White House
@@ -274,6 +274,12 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: Legislative
 - Published: 2026-03-12T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
+
+## Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
 
 ## Learn in-demand IT skills with this $25 CompTIA prep bundle
 - Source: BleepingComputer
@@ -1364,12 +1370,6 @@ Information published.
 - Category: IS
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/
-
-## Microsoft releases Windows 10 KB5078885 extended security update
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/
 
 ## Education Services
 - Source: CDIA

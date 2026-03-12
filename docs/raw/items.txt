@@ -248,6 +248,12 @@ https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
+Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
+https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-12T00:00:00Z
 Learn in-demand IT skills with this $25 CompTIA prep bundle
 https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/
 ------------------------------------------------------------
@@ -1209,12 +1215,6 @@ BleepingComputer
 2026-03-10T00:00:00Z
 New 'Zombie ZIP' technique lets malware slip past security tools
 https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-10T00:00:00Z
-Microsoft releases Windows 10 KB5078885 extended security update
-https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
