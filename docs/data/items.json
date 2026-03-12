@@ -1,9 +1,33 @@
 {
-  "window_start": "2026-02-26T20:41:22Z",
-  "window_end": "2026-03-12T20:41:22Z",
-  "generated_at_utc": "2026-03-12T20:41:22Z",
-  "generated_at_ct": "2026-03-12T15:41:22-05:00",
+  "window_start": "2026-02-26T21:38:40Z",
+  "window_end": "2026-03-12T21:38:40Z",
+  "generated_at_utc": "2026-03-12T21:38:40Z",
+  "generated_at_ct": "2026-03-12T16:38:40-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Canadian retail giant Loblaw notifies customers of data breach",
+      "published_at": "2026-03-12T21:32:21Z",
+      "url": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
+      "summary": "Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to log in again. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Women’s History Month, 2026",
+      "published_at": "2026-03-12T21:21:13Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/womens-history-month-2026/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "First Lady Melania Trump Calls on Women to Be Courageous and Take Risks",
+      "published_at": "2026-03-12T21:13:54Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-calls-on-women-to-be-courageous-and-take-risks/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -119,14 +143,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability",
-      "published_at": "2026-03-12T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841",
-      "summary": "To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable",
       "published_at": "2026-03-12T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26030",
@@ -139,6 +155,14 @@
       "published_at": "2026-03-12T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133",
       "summary": "Updated an acknowledgement. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability",
+      "published_at": "2026-03-12T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841",
+      "summary": "To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability."
     },
     {
       "category": "IS",
@@ -468,14 +492,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools",
-      "published_at": "2026-03-11T13:29:29Z",
-      "url": "https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/",
-      "summary": "Meta is introducing new anti-scam protections across its platforms, deploying systems and user-facing warnings to protect users against scammers. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2026-23865 An integer overflow in the tt_var_load_item_variation_store function of the Freetype library in versions 2.13.2 and 2.13.3 may allow for an out of bounds read operation when parsing HVAR/VVAR/MVAR tables…",
       "published_at": "2026-03-11T08:40:19Z",
@@ -680,6 +696,14 @@
       "title": "This everyday refurbished Chromebook is on sale for $80 with free shipping",
       "published_at": "2026-03-11T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools",
+      "published_at": "2026-03-11T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/",
       "summary": ""
     },
     {
@@ -1457,14 +1481,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New ‘BlackSanta’ EDR killer spotted targeting HR departments",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/",
-      "summary": ""
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "Education Services",
@@ -1535,14 +1551,6 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
-      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",

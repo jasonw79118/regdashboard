@@ -1,7 +1,27 @@
 # RegDashboard — Export
 
-Window: `2026-02-26T20:41:22Z` → `2026-03-12T20:41:22Z` (UTC)
-Last updated: `2026-03-12T15:41:22-05:00` (CT) — `2026-03-12T20:41:22Z` (UTC)
+Window: `2026-02-26T21:38:40Z` → `2026-03-12T21:38:40Z` (UTC)
+Last updated: `2026-03-12T16:38:40-05:00` (CT) — `2026-03-12T21:38:40Z` (UTC)
+
+## Canadian retail giant Loblaw notifies customers of data breach
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T21:32:21Z
+- URL: https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
+
+Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to log in again. [...]
+
+## Women’s History Month, 2026
+- Source: White House
+- Category: Executive
+- Published: 2026-03-12T21:21:13Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/womens-history-month-2026/
+
+## First Lady Melania Trump Calls on Women to Be Courageous and Take Risks
+- Source: White House
+- Category: Executive
+- Published: 2026-03-12T21:13:54Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-calls-on-women-to-be-courageous-and-take-risks/
 
 ## England Hockey investigating ransomware data breach
 - Source: BleepingComputer
@@ -103,14 +123,6 @@ Canadian business process outsourcing giant Telus Digital has confirmed it suffe
 
 Stolen airline miles are converted into flights and hotel stays, then resold as discounted travel. Flare shows how cybercriminals and underground markets treat loyalty accounts like tradable currency. [...]
 
-## CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-12T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
-
-To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
-
 ## CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
 - Source: Microsoft MSRC
 - Category: IS
@@ -126,6 +138,14 @@ Acknowledgement added. This is an informational change only.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
 
 Updated an acknowledgement. This is an informational change only.
+
+## CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
+
+To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
 
 ## Apple patches older iPhones and iPads against Coruna exploits
 - Source: BleepingComputer
@@ -427,14 +447,6 @@ Acknowledgement Updated
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
 
-## Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T13:29:29Z
-- URL: https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/
-
-Meta is introducing new anti-scam protections across its platforms, deploying systems and user-facing warnings to protect users against scammers. [...]
-
 ## CVE-2026-23865 An integer overflow in the tt_var_load_item_variation_store function of the Freetype library in versions 2.13.2 and 2.13.3 may allow for an out of bounds read operation when parsing HVAR/VVAR/MVAR tables…
 - Source: Microsoft MSRC
 - Category: IS
@@ -632,6 +644,12 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Category: IS
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/
+
+## Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/
 
 ## Build cybersecurity skills with InfoSec4TC while it’s on sale for $53
 - Source: BleepingComputer
@@ -1387,12 +1405,6 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 
-## New ‘BlackSanta’ EDR killer spotted targeting HR departments
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/
-
 ## Education Services
 - Source: CDIA
 - Category: Compliance Watch
@@ -1452,14 +1464,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
