@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-26T22:32:03Z` → `2026-03-12T22:32:03Z` (UTC)
-Last updated: `2026-03-12T17:32:03-05:00` (CT) — `2026-03-12T22:32:03Z` (UTC)
+Window: `2026-02-26T23:33:51Z` → `2026-03-12T23:33:51Z` (UTC)
+Last updated: `2026-03-12T18:33:51-05:00` (CT) — `2026-03-12T23:33:51Z` (UTC)
 
 ## Canadian retail giant Loblaw notifies customers of data breach
 - Source: BleepingComputer
