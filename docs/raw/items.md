@@ -1,7 +1,13 @@
 # RegDashboard — Export
 
-Window: `2026-02-26T23:33:51Z` → `2026-03-12T23:33:51Z` (UTC)
-Last updated: `2026-03-12T18:33:51-05:00` (CT) — `2026-03-12T23:33:51Z` (UTC)
+Window: `2026-02-27T02:33:22Z` → `2026-03-13T02:33:22Z` (UTC)
+Last updated: `2026-03-12T21:33:22-05:00` (CT) — `2026-03-13T02:33:22Z` (UTC)
+
+## Fundamentals Metro 2® Format Webinar Series
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.cdiaonline.org/fundamentals-metro-2-webinar-series/
 
 ## Canadian retail giant Loblaw notifies customers of data breach
 - Source: BleepingComputer
@@ -2968,75 +2974,3 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3061
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
-
-## Russia-related Designations Removals; Lebanon Designation Removal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-02-27T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260227
-
-## Treasury, IRS issue FAQs about general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit
-- Source: IRS
-- Category: IRS
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.irs.gov/newsroom/treasury-irs-issue-faqs-about-general-refundability-and-recognizing-indian-tribal-governments-for-purposes-of-making-a-special-needs-determination-for-the-adoption-tax-credit
-
-IR-2026-27, Feb. 27, 2026 — The Department of the Treasury and the Internal Revenue Service today issued frequently asked questions on FS-2026-03 related to general refundability and recognizing Indian tribal governments for purposes of making a special needs determination for the Adoption Tax Credit.
-
-## FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-application-edward-jones-bank-salt-lake
-
-The Board of Directors (FDIC) announced the approval of a deposit insurance application submitted by the Jones Financial Companies, L.L.L.P.
-
-## FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-issues-cra-examination-schedules-second-quarter-2026-and-third
-
-The FDIC today issued the lists of institutions scheduled for a CRA examination during the second quarter 2026 and third quarter 2026.
-
-## FDIC Publishes January Enforcement Actions
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-publishes-january-enforcement-actions
-
-FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026.
-
-## MPF Announcement Summary 2026-S02
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-summary-2026-s02
-
-## MPF Announcement 2026-10
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-10
-
-## MPF Announcement 2026-09
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-09
-
-## Permanent Capital Revisions
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/02/27/2026-03923/permanent-capital-revisions
-
-The Farm Credit Administration (FCA or we) requests comments on a proposed rule for Farm Credit System (System) banks and associations that would reduce the burden of calculating permanent capital and minimize potential confusion about its use in evaluating the safety and soundness of System institutions. Specifically, the proposed rule would remove references to permanent cap…
-
-## Employee or Independent Contractor Status Under the Fair Labor Standards Act, Family and Medical Leave Act, and Migrant and Seasonal Agricultural Worker Protection Act
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-02-27T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/02/27/2026-03962/employee-or-independent-contractor-status-under-the-fair-labor-standards-act-family-and-medical
-
-The Department is proposing to rescind the analysis for determining employee or independent contractor status under the Fair Labor Standards Act (FLSA) currently set forth in 29 CFR part 795 and replace it with the analysis that it published and adopted in a prior final rule dated January 7, 2021, with a few modifications. In addition, the Department proposes to apply this ana…
