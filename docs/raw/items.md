@@ -1,7 +1,39 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T13:10:59Z` → `2026-03-13T13:10:59Z` (UTC)
-Last updated: `2026-03-13T08:10:59-05:00` (CT) — `2026-03-13T13:10:59Z` (UTC)
+Window: `2026-02-27T14:49:17Z` → `2026-03-13T14:49:17Z` (UTC)
+Last updated: `2026-03-13T09:49:17-05:00` (CT) — `2026-03-13T14:49:17Z` (UTC)
+
+## From VMware to what’s next: Protecting data during hypervisor migration
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T14:15:25Z
+- URL: https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/
+
+Hypervisor migrations can introduce hidden risks that threaten data availability and recovery. Acronis explains why verified backups and cross-platform recovery are essential during VMware transitions. [...]
+
+## Sunshine Act Notice: FDIC Board of Directors Meeting
+- Source: FDIC
+- Category: Banking
+- Published: 2026-03-13T14:11:58Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40dc84c
+
+SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, March 19, 2026 | 10:00 a.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, March 18, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 1…
+
+## Police sinkholes 45,000 IP addresses in cybercrime crackdown
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T13:28:33Z
+- URL: https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/
+
+An international law enforcement action codenamed "Operation Synergia III" has sinkholed tens of thousands of IP addresses and seized servers linked to cybercrime operations worldwide. [...]
+
+## Fake enterprise VPN downloads used to steal company credentials
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T13:23:28Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/
+
+A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]
 
 ## Starbucks discloses data breach affecting hundreds of employees
 - Source: BleepingComputer
@@ -66,6 +98,30 @@ Information published.
 - URL: https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
 
 Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]
+
+## Cyber-related Designations Removals
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-13T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260313
+
+## Senator Warren Statement on January 2026 PCE
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce
+
+## U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation
+
+## Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law
 
 ## Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
 - Source: BleepingComputer
@@ -345,23 +401,11 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html
 
-## U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation
-- Source: Senate Banking
+## TOMORROW: MEDIA ADVISORY: Rep. Hill to Host Field Hearing on Failures of Little Rock Housing Authority
+- Source: House Financial Services
 - Category: Legislative
 - Published: 2026-03-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation
-
-## Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law
-
-## Warren Speaks on Senate Floor Following Passage of the Biggest Housing Bill in Over 30 Years
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-speaks-on-senate-floor-following-passage-of-the-biggest-housing-bill-in-over-30-years
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411049
 
 ## Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act
 - Source: House Financial Services
@@ -418,30 +462,6 @@ Federal Reserve Board announces approval of application by Associated Banc-Corp
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260311a.htm
 
 Federal Reserve Board announces approval of application by FirstSun Capital Bancorp
-
-## WhatsApp introduces parent-managed accounts for pre-teens
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T20:06:39Z
-- URL: https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/
-
-WhatsApp has begun rolling out parent-managed accounts for pre-teens, allowing parents and guardians to decide who can contact them and which groups they can join. [...]
-
-## SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T19:38:14Z
-- URL: https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/
-
-An SQL injection vulnerability in Ally, a WordPress plugin from Elementor for web accessibility and usability with more than 400,000 installations, could be exploited to steal sensitive data without authentication. [...]
-
-## CISA orders feds to patch n8n RCE flaw exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T18:21:15Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]
 
 ## Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit
 - Source: FDIC
@@ -667,17 +687,17 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-mizuho-financial-group-navigate-new-regulatory
 
-## This everyday refurbished Chromebook is on sale for $80 with free shipping
+## WhatsApp introduces parent-managed accounts for pre-teens
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/
+- URL: https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/
 
-## Medtech giant Stryker offline after Iran-linked wiper malware attack
+## SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
+- URL: https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer

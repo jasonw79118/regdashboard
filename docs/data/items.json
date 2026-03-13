@@ -1,9 +1,41 @@
 {
-  "window_start": "2026-02-27T13:10:59Z",
-  "window_end": "2026-03-13T13:10:59Z",
-  "generated_at_utc": "2026-03-13T13:10:59Z",
-  "generated_at_ct": "2026-03-13T08:10:59-05:00",
+  "window_start": "2026-02-27T14:49:17Z",
+  "window_end": "2026-03-13T14:49:17Z",
+  "generated_at_utc": "2026-03-13T14:49:17Z",
+  "generated_at_ct": "2026-03-13T09:49:17-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "From VMware to what’s next: Protecting data during hypervisor migration",
+      "published_at": "2026-03-13T14:15:25Z",
+      "url": "https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/",
+      "summary": "Hypervisor migrations can introduce hidden risks that threaten data availability and recovery. Acronis explains why verified backups and cross-platform recovery are essential during VMware transitions. [...]"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Sunshine Act Notice: FDIC Board of Directors Meeting",
+      "published_at": "2026-03-13T14:11:58Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40dc84c",
+      "summary": "SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, March 19, 2026 | 10:00 a.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, March 18, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 1…"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Police sinkholes 45,000 IP addresses in cybercrime crackdown",
+      "published_at": "2026-03-13T13:28:33Z",
+      "url": "https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/",
+      "summary": "An international law enforcement action codenamed \"Operation Synergia III\" has sinkholed tens of thousands of IP addresses and seized servers linked to cybercrime operations worldwide. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Fake enterprise VPN downloads used to steal company credentials",
+      "published_at": "2026-03-13T13:23:28Z",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/",
+      "summary": "A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -67,6 +99,38 @@
       "published_at": "2026-03-13T06:56:58Z",
       "url": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
       "summary": "Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Cyber-related Designations Removals",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260313",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Senator Warren Statement on January 2026 PCE",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law",
+      "summary": ""
     },
     {
       "category": "IS",
@@ -374,26 +438,10 @@
     },
     {
       "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation",
+      "source": "House Financial Services",
+      "title": "TOMORROW: MEDIA ADVISORY: Rep. Hill to Host Field Hearing on Failures of Little Rock Housing Authority",
       "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Speaks on Senate Floor Following Passage of the Biggest Housing Bill in Over 30 Years",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-speaks-on-senate-floor-following-passage-of-the-biggest-housing-bill-in-over-30-years",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411049",
       "summary": ""
     },
     {
@@ -465,30 +513,6 @@
       "published_at": "2026-03-11T22:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260311a.htm",
       "summary": "Federal Reserve Board announces approval of application by FirstSun Capital Bancorp"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "WhatsApp introduces parent-managed accounts for pre-teens",
-      "published_at": "2026-03-11T20:06:39Z",
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/",
-      "summary": "WhatsApp has begun rolling out parent-managed accounts for pre-teens, allowing parents and guardians to decide who can contact them and which groups they can join. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites",
-      "published_at": "2026-03-11T19:38:14Z",
-      "url": "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
-      "summary": "An SQL injection vulnerability in Ally, a WordPress plugin from Elementor for web accessibility and usability with more than 400,000 installations, could be exploited to steal sensitive data without authentication. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "CISA orders feds to patch n8n RCE flaw exploited in attacks",
-      "published_at": "2026-03-11T18:21:15Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]"
     },
     {
       "category": "Banking",
@@ -725,17 +749,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "This everyday refurbished Chromebook is on sale for $80 with free shipping",
+      "title": "WhatsApp introduces parent-managed accounts for pre-teens",
       "published_at": "2026-03-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Medtech giant Stryker offline after Iran-linked wiper malware attack",
+      "title": "SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites",
       "published_at": "2026-03-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/",
+      "url": "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
       "summary": ""
     },
     {
