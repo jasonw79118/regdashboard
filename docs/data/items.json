@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-27T22:33:00Z",
-  "window_end": "2026-03-13T22:33:00Z",
-  "generated_at_utc": "2026-03-13T22:33:00Z",
-  "generated_at_ct": "2026-03-13T17:33:00-05:00",
+  "window_start": "2026-02-27T23:34:11Z",
+  "window_end": "2026-03-13T23:34:11Z",
+  "generated_at_utc": "2026-03-13T23:34:11Z",
+  "generated_at_ct": "2026-03-13T18:34:11-05:00",
   "items": [
     {
       "category": "IS",
@@ -1931,6 +1931,14 @@
       "summary": ""
     },
     {
+      "category": "Fintech Watch",
+      "source": "Jack Henry",
+      "title": "ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program",
+      "published_at": "2026-03-06T00:00:00Z",
+      "url": "https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred",
+      "summary": ""
+    },
+    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Removal of Regulations for Renewal Communities Designations",
@@ -2820,6 +2828,14 @@
       "published_at": "2026-03-02T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes."
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Jack Henry",
+      "title": "Jack Henry Executives Set to Speak at Upcoming Investor Conferences",
+      "published_at": "2026-03-02T00:00:00Z",
+      "url": "https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences",
+      "summary": ""
     },
     {
       "category": "Federal Register",

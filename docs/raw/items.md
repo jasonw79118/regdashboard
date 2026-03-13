@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T22:33:00Z` → `2026-03-13T22:33:00Z` (UTC)
-Last updated: `2026-03-13T17:33:00-05:00` (CT) — `2026-03-13T22:33:00Z` (UTC)
+Window: `2026-02-27T23:34:11Z` → `2026-03-13T23:34:11Z` (UTC)
+Last updated: `2026-03-13T18:34:11-05:00` (CT) — `2026-03-13T23:34:11Z` (UTC)
 
 ## Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
 - Source: BleepingComputer
@@ -1799,6 +1799,12 @@ The problems with paper checks are well-documented. According to the Federal Res
 - Published: 2026-03-06T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9
 
+## ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-03-06T00:00:00Z
+- URL: https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred
+
 ## Removal of Regulations for Renewal Communities Designations
 - Source: Federal Register
 - Category: Federal Register
@@ -2568,6 +2574,12 @@ IR-2026-28, March 2, 2026 – The Internal Revenue Service published, for tax ye
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes.
+
+## Jack Henry Executives Set to Speak at Upcoming Investor Conferences
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-03-02T00:00:00Z
+- URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences
 
 ## Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency
 - Source: Federal Register
