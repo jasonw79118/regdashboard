@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-27T09:46:09Z",
-  "window_end": "2026-03-13T09:46:09Z",
-  "generated_at_utc": "2026-03-13T09:46:09Z",
-  "generated_at_ct": "2026-03-13T04:46:09-05:00",
+  "window_start": "2026-02-27T10:42:55Z",
+  "window_end": "2026-03-13T10:42:55Z",
+  "generated_at_utc": "2026-03-13T10:42:55Z",
+  "generated_at_ct": "2026-03-13T05:42:55-05:00",
   "items": [
     {
       "category": "IS",
@@ -1575,6 +1575,14 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-09T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
+      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",
