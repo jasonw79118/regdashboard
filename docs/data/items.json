@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-27T10:42:55Z",
-  "window_end": "2026-03-13T10:42:55Z",
-  "generated_at_utc": "2026-03-13T10:42:55Z",
-  "generated_at_ct": "2026-03-13T05:42:55-05:00",
+  "window_start": "2026-02-27T11:36:00Z",
+  "window_end": "2026-03-13T11:36:00Z",
+  "generated_at_utc": "2026-03-13T11:36:00Z",
+  "generated_at_ct": "2026-03-13T06:36:00-05:00",
   "items": [
     {
       "category": "IS",
@@ -67,6 +67,14 @@
       "published_at": "2026-03-13T06:56:58Z",
       "url": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
       "summary": "Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/stop-wrestling-with-pdfs-try-this-30-swifdoo-editor-deal-instead/",
+      "summary": ""
     },
     {
       "category": "Compliance Watch",
@@ -728,14 +736,6 @@
       "title": "Medtech giant Stryker offline after Iran-linked wiper malware attack",
       "published_at": "2026-03-11T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New PhantomRaven NPM attack wave steals dev data via 88 packages",
-      "published_at": "2026-03-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/",
       "summary": ""
     },
     {
@@ -1575,14 +1575,6 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
-      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",

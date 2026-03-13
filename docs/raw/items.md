@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T10:42:55Z` → `2026-03-13T10:42:55Z` (UTC)
-Last updated: `2026-03-13T05:42:55-05:00` (CT) — `2026-03-13T10:42:55Z` (UTC)
+Window: `2026-02-27T11:36:00Z` → `2026-03-13T11:36:00Z` (UTC)
+Last updated: `2026-03-13T06:36:00-05:00` (CT) — `2026-03-13T11:36:00Z` (UTC)
 
 ## Starbucks discloses data breach affecting hundreds of employees
 - Source: BleepingComputer
@@ -66,6 +66,12 @@ Information published.
 - URL: https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
 
 Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]
+
+## Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/stop-wrestling-with-pdfs-try-this-30-swifdoo-editor-deal-instead/
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
@@ -672,12 +678,6 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Category: IS
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
-
-## New PhantomRaven NPM attack wave steals dev data via 88 packages
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -1486,14 +1486,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register

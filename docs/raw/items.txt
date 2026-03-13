@@ -54,6 +54,12 @@ Google fixes two new Chrome zero-days exploited in attacks
 https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
 Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]
 ------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-13T00:00:00Z
+Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
+https://www.bleepingcomputer.com/offer/deals/stop-wrestling-with-pdfs-try-this-30-swifdoo-editor-deal-instead/
+------------------------------------------------------------
 Compliance Watch
 CDIA
 2026-03-13T00:00:00Z
@@ -602,12 +608,6 @@ BleepingComputer
 2026-03-11T00:00:00Z
 Medtech giant Stryker offline after Iran-linked wiper malware attack
 https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-11T00:00:00Z
-New PhantomRaven NPM attack wave steals dev data via 88 packages
-https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1324,13 +1324,6 @@ CDIA
 2026-03-09T00:00:00Z
 March 9, 2026 Events News Views Boost Your Team’s Compliance Expertise with the FCRA Compliance Training Equip your staff with a solid, practical understanding of FCRA/FACTA requirements...
 https://www.cdiaonline.org/events/2026/03/09/31951/
-------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-09T00:00:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 ------------------------------------------------------------
 Federal Register
 Federal Register
