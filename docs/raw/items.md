@@ -1,7 +1,31 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T18:51:24Z` → `2026-03-13T18:51:24Z` (UTC)
-Last updated: `2026-03-13T13:51:24-05:00` (CT) — `2026-03-13T18:51:24Z` (UTC)
+Window: `2026-02-27T19:34:37Z` → `2026-03-13T19:34:37Z` (UTC)
+Last updated: `2026-03-13T14:34:37-05:00` (CT) — `2026-03-13T19:34:37Z` (UTC)
+
+## Fact Sheet: President Donald J. Trump Ensures Truthful Advertising of Products Claiming to be Made in America
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T19:29:14Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-ensures-truthful-advertising-of-products-claiming-to-be-made-in-america/
+
+## Promoting Access to Mortgage Credit
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T19:29:08Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/promoting-access-to-mortgage-credit/
+
+## Fact Sheet: President Donald J. Trump Removes Regulatory Barriers to Affordable Home Construction
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T19:26:19Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-removes-regulatory-barriers-to-affordable-home-construction/
+
+## Fact Sheet: President Donald J. Trump Promotes Access to Mortgage Credit
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T19:26:01Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-access-to-mortgage-credit/
 
 ## Poland's nuclear research centre targeted by cyberattack
 - Source: BleepingComputer
@@ -54,6 +78,30 @@ Hypervisor migrations can introduce hidden risks that threaten data availability
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40dc84c
 
 SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, March 19, 2026 | 10:00 a.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, March 18, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 1…
+
+## CVE-2026-25172 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25172
+
+The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
+
+## CVE-2026-26111 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111
+
+The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
+
+## CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
+
+The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
 
 ## CVE-2026-21257 GitHub Copilot and Visual Studio Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -285,12 +333,6 @@ Data protection company Veeam Software has patched multiple flaws in its Backup 
 
 Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]
 
-## The SAVE America Act Is the Most Popular Election Reform in Decades
-- Source: White House
-- Category: Executive
-- Published: 2026-03-12T16:09:57Z
-- URL: https://www.whitehouse.gov/articles/2026/03/the-save-america-act-is-the-most-popular-election-reform-in-decades/
-
 ## Secretary of the Treasury Scott Bessent to Travel to France
 - Source: Treasury
 - Category: OFAC
@@ -424,12 +466,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25679
 
 Information published.
-
-## Fact Sheet: President Donald J. Trump Promotes Fiscal Responsibility in Compensation Practices at the Tennessee Valley Authority
-- Source: White House
-- Category: Executive
-- Published: 2026-03-12T00:41:31Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-fiscal-responsibility-in-compensation-practices-at-the-tennessee-valley-authority/
 
 ## Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
 - Source: OFAC
@@ -765,12 +801,6 @@ This recognition follows the recent announcement as a 5x Leader in the Gartner M
 
 On April 24, 2024, the NCUA Board (Board) published an advance notice of proposed rulemaking (ANPR) to solicit comments on ways the agency can improve and update its vital records preservation program regulation and accompanying guidelines. Based on public comments received in response to the ANPR and upon further consideration of the issues involved, the Board is publishing t…
 
-## America 250: Presidential Message Celebrating the Life of Harriet Tubman
-- Source: White House
-- Category: Executive
-- Published: 2026-03-10T17:41:22Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-celebrating-the-life-of-harriet-tubman/
-
 ## President Trump’s Tax Cuts are Putting More Money Back into the Pockets of American Families and Workers
 - Source: Treasury
 - Category: OFAC
@@ -1017,22 +1047,6 @@ Use after free in Windows Hyper-V allows an authorized attacker to elevate privi
 
 Use after free in Windows Authentication Methods allows an authorized attacker to elevate privileges locally.
 
-## CVE-2026-25172 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25172
-
-Integer overflow or wraparound in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
-
-Integer overflow or wraparound in Windows Routing and Remote Access Service (RRAS) allows an authorized attacker to execute code over a network.
-
 ## CVE-2026-25174 Windows Extensible File Allocation Table Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -1152,14 +1166,6 @@ Untrusted search path in Windows GDI allows an unauthorized attacker to execute 
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26105
 
 Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-26111 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111
-
-Integer overflow or wraparound in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to execute code over a network.
 
 ## CVE-2026-26112 Microsoft Excel Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
@@ -1490,14 +1496,6 @@ Information published.
 - Category: Compliance Watch
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
-
-Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
@@ -2115,12 +2113,6 @@ The Office of Personnel Management (OPM) is issuing a proposed rule to revise it
 - Published: 2026-03-04T21:42:06Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/ratepayer-protection-pledge-proclamation/
 
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-03-04T16:06:46Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-b376/
-
 ## Strengthen the connections that power our industry at CDIA Connect!
 - Source: CDIA
 - Category: Compliance Watch
@@ -2532,12 +2524,6 @@ The Office of the Comptroller of the Currency (OCC) today announced two final ru
 - URL: https://www.federalregister.gov/documents/2026/03/03/2026-04202/holding-foreign-insiders-accountable-act-disclosure
 
 The Securities and Exchange Commission ("Commission") is adopting final amendments to certain of its rules and forms under the Securities Exchange Act of 1934 ("Exchange Act") to reflect the requirements of the Holding Foreign Insiders Accountable Act ("HFIA Act"). The HFIA Act amended Section 16(a) of the Exchange Act to require directors and officers of a foreign private iss…
-
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-03-02T20:47:59Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-4e42/
 
 ## Treasury Sanctions Rwanda Officials, Condemns Blatant Violations of Washington Peace Accords
 - Source: Treasury

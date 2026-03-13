@@ -1,9 +1,41 @@
 {
-  "window_start": "2026-02-27T18:51:24Z",
-  "window_end": "2026-03-13T18:51:24Z",
-  "generated_at_utc": "2026-03-13T18:51:24Z",
-  "generated_at_ct": "2026-03-13T13:51:24-05:00",
+  "window_start": "2026-02-27T19:34:37Z",
+  "window_end": "2026-03-13T19:34:37Z",
+  "generated_at_utc": "2026-03-13T19:34:37Z",
+  "generated_at_ct": "2026-03-13T14:34:37-05:00",
   "items": [
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Fact Sheet: President Donald J. Trump Ensures Truthful Advertising of Products Claiming to be Made in America",
+      "published_at": "2026-03-13T19:29:14Z",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-ensures-truthful-advertising-of-products-claiming-to-be-made-in-america/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Promoting Access to Mortgage Credit",
+      "published_at": "2026-03-13T19:29:08Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/promoting-access-to-mortgage-credit/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Fact Sheet: President Donald J. Trump Removes Regulatory Barriers to Affordable Home Construction",
+      "published_at": "2026-03-13T19:26:19Z",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-removes-regulatory-barriers-to-affordable-home-construction/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Fact Sheet: President Donald J. Trump Promotes Access to Mortgage Credit",
+      "published_at": "2026-03-13T19:26:01Z",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-access-to-mortgage-credit/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -59,6 +91,30 @@
       "published_at": "2026-03-13T14:11:58Z",
       "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40dc84c",
       "summary": "SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, March 19, 2026 | 10:00 a.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, March 18, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 1…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-25172 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "published_at": "2026-03-13T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25172",
+      "summary": "The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-26111 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "published_at": "2026-03-13T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111",
+      "summary": "The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "published_at": "2026-03-13T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173",
+      "summary": "The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection."
     },
     {
       "category": "IS",
@@ -317,14 +373,6 @@
       "summary": "Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]"
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "The SAVE America Act Is the Most Popular Election Reform in Decades",
-      "published_at": "2026-03-12T16:09:57Z",
-      "url": "https://www.whitehouse.gov/articles/2026/03/the-save-america-act-is-the-most-popular-election-reform-in-decades/",
-      "summary": ""
-    },
-    {
       "category": "OFAC",
       "source": "Treasury",
       "title": "Secretary of the Treasury Scott Bessent to Travel to France",
@@ -459,14 +507,6 @@
       "published_at": "2026-03-12T08:01:26Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25679",
       "summary": "Information published."
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Fact Sheet: President Donald J. Trump Promotes Fiscal Responsibility in Compensation Practices at the Tennessee Valley Authority",
-      "published_at": "2026-03-12T00:41:31Z",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-fiscal-responsibility-in-compensation-practices-at-the-tennessee-valley-authority/",
-      "summary": ""
     },
     {
       "category": "OFAC",
@@ -841,14 +881,6 @@
       "fedreg_document_number": "2026-04761"
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "America 250: Presidential Message Celebrating the Life of Harriet Tubman",
-      "published_at": "2026-03-10T17:41:22Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-celebrating-the-life-of-harriet-tubman/",
-      "summary": ""
-    },
-    {
       "category": "OFAC",
       "source": "Treasury",
       "title": "President Trump’s Tax Cuts are Putting More Money Back into the Pockets of American Families and Workers",
@@ -1099,22 +1131,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-25172 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
-      "published_at": "2026-03-10T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25172",
-      "summary": "Integer overflow or wraparound in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
-      "published_at": "2026-03-10T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173",
-      "summary": "Integer overflow or wraparound in Windows Routing and Remote Access Service (RRAS) allows an authorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-25174 Windows Extensible File Allocation Table Elevation of Privilege Vulnerability",
       "published_at": "2026-03-10T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25174",
@@ -1231,14 +1247,6 @@
       "published_at": "2026-03-10T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26105",
       "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-26111 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
-      "published_at": "2026-03-10T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111",
-      "summary": "Integer overflow or wraparound in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to execute code over a network."
     },
     {
       "category": "IS",
@@ -1575,14 +1583,6 @@
       "published_at": "2026-03-10T00:00:00Z",
       "url": "https://www.cdiaonline.org/education-services/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
-      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
     },
     {
       "category": "Banking",
@@ -2296,14 +2296,6 @@
       "summary": ""
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Nominations Sent to the Senate",
-      "published_at": "2026-03-04T16:06:46Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-b376/",
-      "summary": ""
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "Strengthen the connections that power our industry at CDIA Connect!",
@@ -2780,14 +2772,6 @@
         "topic:securities"
       ],
       "fedreg_document_number": "2026-04202"
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Nominations Sent to the Senate",
-      "published_at": "2026-03-02T20:47:59Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-4e42/",
-      "summary": ""
     },
     {
       "category": "OFAC",
