@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T04:48:42Z` → `2026-03-13T04:48:42Z` (UTC)
-Last updated: `2026-03-12T23:48:42-05:00` (CT) — `2026-03-13T04:48:42Z` (UTC)
+Window: `2026-02-27T05:53:53Z` → `2026-03-13T05:53:53Z` (UTC)
+Last updated: `2026-03-13T00:53:53-05:00` (CT) — `2026-03-13T05:53:53Z` (UTC)
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
