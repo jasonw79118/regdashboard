@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T11:36:00Z` → `2026-03-13T11:36:00Z` (UTC)
-Last updated: `2026-03-13T06:36:00-05:00` (CT) — `2026-03-13T11:36:00Z` (UTC)
+Window: `2026-02-27T13:10:59Z` → `2026-03-13T13:10:59Z` (UTC)
+Last updated: `2026-03-13T08:10:59-05:00` (CT) — `2026-03-13T13:10:59Z` (UTC)
 
 ## Starbucks discloses data breach affecting hundreds of employees
 - Source: BleepingComputer
@@ -1486,6 +1486,14 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-09T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
