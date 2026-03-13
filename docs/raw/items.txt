@@ -1327,6 +1327,13 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-10T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
