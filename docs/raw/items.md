@@ -1,7 +1,31 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T19:34:37Z` → `2026-03-13T19:34:37Z` (UTC)
-Last updated: `2026-03-13T14:34:37-05:00` (CT) — `2026-03-13T19:34:37Z` (UTC)
+Window: `2026-02-27T20:41:25Z` → `2026-03-13T20:41:25Z` (UTC)
+Last updated: `2026-03-13T15:41:25-05:00` (CT) — `2026-03-13T20:41:25Z` (UTC)
+
+## CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T20:37:48Z
+- URL: https://www.whitehouse.gov/articles/2026/03/cnn-is-lying-to-undermine-operation-epic-furys-crushing-success/
+
+## Adjusting Certain Delegations Under the Defense Production Act
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T19:43:22Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/adjusting-certain-delegations-under-the-defense-production-act/
+
+## Ensuring Truthful Advertising of Products Claiming to be Made in America
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T19:39:28Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/ensuring-truthful-advertising-of-products-claiming-to-be-made-in-america/
+
+## Removing Regulatory Barriers to Affordable Home Construction
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T19:35:08Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/removing-regulatory-barriers-to-affordable-home-construction/
 
 ## Fact Sheet: President Donald J. Trump Ensures Truthful Advertising of Products Claiming to be Made in America
 - Source: White House
@@ -213,6 +237,12 @@ Google has released emergency security updates to patch two high-severity Chrome
 
 IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…
 
+## Warren, Shaheen, Schumer Release Joint Statement on Trump Administration’s Further Weakening of Russia Sanctions as Trump’s Iran War Drives Up Costs
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-on-trump-administrations-further-weakening-of-russia-sanctions-as-trumps-iran-war-drives-up-costs
+
 ## Warren Deepens Probe into Auto Lending Industry Over Higher-Priced Loans to Service Members
 - Source: Senate Banking
 - Category: Legislative
@@ -224,12 +254,6 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Category: Legislative
 - Published: 2026-03-13T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce
-
-## U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation
 
 ## Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
 - Source: House Financial Services
@@ -263,12 +287,6 @@ Still, out of an abundance of caution, Loblaw says it has automatically logged o
 - Published: 2026-03-12T21:21:13Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/womens-history-month-2026/
 
-## First Lady Melania Trump Calls on Women to Be Courageous and Take Risks
-- Source: White House
-- Category: Executive
-- Published: 2026-03-12T21:13:54Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-calls-on-women-to-be-courageous-and-take-risks/
-
 ## England Hockey investigating ransomware data breach
 - Source: BleepingComputer
 - Category: IS
@@ -276,12 +294,6 @@ Still, out of an abundance of caution, Loblaw says it has automatically logged o
 - URL: https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
 
 England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]
-
-## Operation Epic Fury: Decisive American Power to Crush Iran’s Terror Regime
-- Source: White House
-- Category: Executive
-- Published: 2026-03-12T20:31:50Z
-- URL: https://www.whitehouse.gov/articles/2026/03/operation-epic-fury-decisive-american-power-to-crush-irans-terror-regime/
 
 ## Federal Reserve Board announces approval of application by Home BancShares
 - Source: FRB
@@ -1497,6 +1509,14 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -1596,12 +1616,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68146
 
 Information published.
-
-## Combating Cybercrime, Fraud, and Predatory Schemes Against American Citizens
-- Source: White House
-- Category: Executive
-- Published: 2026-03-06T23:44:24Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/03/combating-cybercrime-fraud-and-predatory-schemes-against-american-citizens/
 
 ## Treasury Seeks Public Input on the U.S. National Strategy for Financial Literacy – Comments Due April 6
 - Source: Treasury
@@ -2107,12 +2121,6 @@ The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, 
 
 The Office of Personnel Management (OPM) is issuing a proposed rule to revise its reduction-in-force (RIF) regulations. The proposed rule would make the RIF regulations more streamlined, efficient, and merit-based by prioritizing performance over tenure and length of service when determining which employees will be retained in a RIF and modifying the types of employees who are…
 
-## Ratepayer Protection Pledge Proclamation
-- Source: White House
-- Category: Executive
-- Published: 2026-03-04T21:42:06Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/03/ratepayer-protection-pledge-proclamation/
-
 ## Strengthen the connections that power our industry at CDIA Connect!
 - Source: CDIA
 - Category: Compliance Watch
@@ -2530,12 +2538,6 @@ The Securities and Exchange Commission ("Commission") is adopting final amendmen
 - Category: OFAC
 - Published: 2026-03-02T18:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0411
-
-## Democratic Republic of the Congo-related Designations; Issuance of Associated General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-02T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260302
 
 ## IRS published schedule taxpayers will use to claim deductions on no tax on tips, no tax on overtime, no tax on car loans, no tax on seniors
 - Source: IRS

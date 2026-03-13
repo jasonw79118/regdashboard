@@ -1,9 +1,41 @@
 {
-  "window_start": "2026-02-27T19:34:37Z",
-  "window_end": "2026-03-13T19:34:37Z",
-  "generated_at_utc": "2026-03-13T19:34:37Z",
-  "generated_at_ct": "2026-03-13T14:34:37-05:00",
+  "window_start": "2026-02-27T20:41:25Z",
+  "window_end": "2026-03-13T20:41:25Z",
+  "generated_at_utc": "2026-03-13T20:41:25Z",
+  "generated_at_ct": "2026-03-13T15:41:25-05:00",
   "items": [
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success",
+      "published_at": "2026-03-13T20:37:48Z",
+      "url": "https://www.whitehouse.gov/articles/2026/03/cnn-is-lying-to-undermine-operation-epic-furys-crushing-success/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Adjusting Certain Delegations Under the Defense Production Act",
+      "published_at": "2026-03-13T19:43:22Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/adjusting-certain-delegations-under-the-defense-production-act/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Ensuring Truthful Advertising of Products Claiming to be Made in America",
+      "published_at": "2026-03-13T19:39:28Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/ensuring-truthful-advertising-of-products-claiming-to-be-made-in-america/",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Removing Regulatory Barriers to Affordable Home Construction",
+      "published_at": "2026-03-13T19:35:08Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/removing-regulatory-barriers-to-affordable-home-construction/",
+      "summary": ""
+    },
     {
       "category": "Executive",
       "source": "White House",
@@ -231,6 +263,14 @@
     {
       "category": "Legislative",
       "source": "Senate Banking",
+      "title": "Warren, Shaheen, Schumer Release Joint Statement on Trump Administration’s Further Weakening of Russia Sanctions as Trump’s Iran War Drives Up Costs",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-on-trump-administrations-further-weakening-of-russia-sanctions-as-trumps-iran-war-drives-up-costs",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
       "title": "Warren Deepens Probe into Auto Lending Industry Over Higher-Priced Loans to Service Members",
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/warren-deepens-probe-into-auto-lending-industry-over-higher-priced-loans-to-service-members",
@@ -242,14 +282,6 @@
       "title": "Senator Warren Statement on January 2026 PCE",
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation",
       "summary": ""
     },
     {
@@ -293,28 +325,12 @@
       "summary": ""
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "First Lady Melania Trump Calls on Women to Be Courageous and Take Risks",
-      "published_at": "2026-03-12T21:13:54Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-calls-on-women-to-be-courageous-and-take-risks/",
-      "summary": ""
-    },
-    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "England Hockey investigating ransomware data breach",
       "published_at": "2026-03-12T20:37:16Z",
       "url": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
       "summary": "England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]"
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Operation Epic Fury: Decisive American Power to Crush Iran’s Terror Regime",
-      "published_at": "2026-03-12T20:31:50Z",
-      "url": "https://www.whitehouse.gov/articles/2026/03/operation-epic-fury-decisive-american-power-to-crush-irans-terror-regime/",
-      "summary": ""
     },
     {
       "category": "Banking",
@@ -1585,6 +1601,14 @@
       "summary": ""
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-10T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
+      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
+    },
+    {
       "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces approval of notice by CBS Banc-Corp.",
@@ -1713,14 +1737,6 @@
       "published_at": "2026-03-07T09:01:15Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68146",
       "summary": "Information published."
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Combating Cybercrime, Fraud, and Predatory Schemes Against American Citizens",
-      "published_at": "2026-03-06T23:44:24Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/combating-cybercrime-fraud-and-predatory-schemes-against-american-citizens/",
-      "summary": ""
     },
     {
       "category": "OFAC",
@@ -2288,14 +2304,6 @@
       "fedreg_document_number": "2026-04377"
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Ratepayer Protection Pledge Proclamation",
-      "published_at": "2026-03-04T21:42:06Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/ratepayer-protection-pledge-proclamation/",
-      "summary": ""
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "Strengthen the connections that power our industry at CDIA Connect!",
@@ -2779,14 +2787,6 @@
       "title": "Treasury Sanctions Rwanda Officials, Condemns Blatant Violations of Washington Peace Accords",
       "published_at": "2026-03-02T18:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0411",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Democratic Republic of the Congo-related Designations; Issuance of Associated General License",
-      "published_at": "2026-03-02T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260302",
       "summary": ""
     },
     {

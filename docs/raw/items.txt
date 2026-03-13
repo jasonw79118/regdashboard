@@ -1,5 +1,29 @@
 Executive
 White House
+2026-03-13T20:37:48Z
+CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success
+https://www.whitehouse.gov/articles/2026/03/cnn-is-lying-to-undermine-operation-epic-furys-crushing-success/
+------------------------------------------------------------
+Executive
+White House
+2026-03-13T19:43:22Z
+Adjusting Certain Delegations Under the Defense Production Act
+https://www.whitehouse.gov/presidential-actions/2026/03/adjusting-certain-delegations-under-the-defense-production-act/
+------------------------------------------------------------
+Executive
+White House
+2026-03-13T19:39:28Z
+Ensuring Truthful Advertising of Products Claiming to be Made in America
+https://www.whitehouse.gov/presidential-actions/2026/03/ensuring-truthful-advertising-of-products-claiming-to-be-made-in-america/
+------------------------------------------------------------
+Executive
+White House
+2026-03-13T19:35:08Z
+Removing Regulatory Barriers to Affordable Home Construction
+https://www.whitehouse.gov/presidential-actions/2026/03/removing-regulatory-barriers-to-affordable-home-construction/
+------------------------------------------------------------
+Executive
+White House
 2026-03-13T19:29:14Z
 Fact Sheet: President Donald J. Trump Ensures Truthful Advertising of Products Claiming to be Made in America
 https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-ensures-truthful-advertising-of-products-claiming-to-be-made-in-america/
@@ -190,6 +214,12 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 Legislative
 Senate Banking
 2026-03-13T00:00:00Z
+Warren, Shaheen, Schumer Release Joint Statement on Trump Administration’s Further Weakening of Russia Sanctions as Trump’s Iran War Drives Up Costs
+https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-on-trump-administrations-further-weakening-of-russia-sanctions-as-trumps-iran-war-drives-up-costs
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-13T00:00:00Z
 Warren Deepens Probe into Auto Lending Industry Over Higher-Priced Loans to Service Members
 https://www.banking.senate.gov/newsroom/minority/warren-deepens-probe-into-auto-lending-industry-over-higher-priced-loans-to-service-members
 ------------------------------------------------------------
@@ -198,12 +228,6 @@ Senate Banking
 2026-03-13T00:00:00Z
 Senator Warren Statement on January 2026 PCE
 https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-13T00:00:00Z
-U.S. Senate Passes Chairman Scott’s Historic Housing Affordability Legislation
-https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation
 ------------------------------------------------------------
 Legislative
 House Financial Services
@@ -236,24 +260,12 @@ White House
 Women’s History Month, 2026
 https://www.whitehouse.gov/presidential-actions/2026/03/womens-history-month-2026/
 ------------------------------------------------------------
-Executive
-White House
-2026-03-12T21:13:54Z
-First Lady Melania Trump Calls on Women to Be Courageous and Take Risks
-https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-calls-on-women-to-be-courageous-and-take-risks/
-------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-12T20:37:16Z
 England Hockey investigating ransomware data breach
 https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
 England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]
-------------------------------------------------------------
-Executive
-White House
-2026-03-12T20:31:50Z
-Operation Epic Fury: Decisive American Power to Crush Iran’s Terror Regime
-https://www.whitehouse.gov/articles/2026/03/operation-epic-fury-decisive-american-power-to-crush-irans-terror-regime/
 ------------------------------------------------------------
 Banking
 FRB
@@ -1333,6 +1345,13 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-10T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -1424,12 +1443,6 @@ Microsoft MSRC
 CVE-2025-68146 filelock has TOCTOU race condition that allows symlink attacks during lock file creation
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68146
 Information published.
-------------------------------------------------------------
-Executive
-White House
-2026-03-06T23:44:24Z
-Combating Cybercrime, Fraud, and Predatory Schemes Against American Citizens
-https://www.whitehouse.gov/presidential-actions/2026/03/combating-cybercrime-fraud-and-predatory-schemes-against-american-citizens/
 ------------------------------------------------------------
 OFAC
 Treasury
@@ -1881,12 +1894,6 @@ Reduction in Force
 https://www.federalregister.gov/documents/2026/03/05/2026-04377/reduction-in-force
 The Office of Personnel Management (OPM) is issuing a proposed rule to revise its reduction-in-force (RIF) regulations. The proposed rule would make the RIF regulations more streamlined, efficient, and merit-based by prioritizing performance over tenure and length of service when determining which employees will be retained in a RIF and modifying the types of employees who are…
 ------------------------------------------------------------
-Executive
-White House
-2026-03-04T21:42:06Z
-Ratepayer Protection Pledge Proclamation
-https://www.whitehouse.gov/presidential-actions/2026/03/ratepayer-protection-pledge-proclamation/
-------------------------------------------------------------
 Compliance Watch
 CDIA
 2026-03-04T15:34:23Z
@@ -2269,12 +2276,6 @@ Treasury
 2026-03-02T18:00:00Z
 Treasury Sanctions Rwanda Officials, Condemns Blatant Violations of Washington Peace Accords
 https://home.treasury.gov/news/press-releases/sb0411
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-02T00:00:00Z
-Democratic Republic of the Congo-related Designations; Issuance of Associated General License
-https://ofac.treasury.gov/recent-actions/20260302
 ------------------------------------------------------------
 IRS
 IRS
