@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-27T15:49:40Z",
-  "window_end": "2026-03-13T15:49:40Z",
-  "generated_at_utc": "2026-03-13T15:49:40Z",
-  "generated_at_ct": "2026-03-13T10:49:40-05:00",
+  "window_start": "2026-02-27T16:48:57Z",
+  "window_end": "2026-03-13T16:48:57Z",
+  "generated_at_utc": "2026-03-13T16:48:57Z",
+  "generated_at_ct": "2026-03-13T11:48:57-05:00",
   "items": [
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Presidential Message on National K-9 Veterans Day",
+      "published_at": "2026-03-13T16:47:00Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-national-k-9-veterans-day/",
+      "summary": ""
+    },
     {
       "category": "Banking",
       "source": "FRB",
@@ -35,6 +43,22 @@
       "published_at": "2026-03-13T14:11:58Z",
       "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40dc84c",
       "summary": "SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, March 19, 2026 | 10:00 a.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, March 18, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 1…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-21257 GitHub Copilot and Visual Studio Elevation of Privilege Vulnerability",
+      "published_at": "2026-03-13T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21257",
+      "summary": "Changes made to the security updates links and information. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-21256 GitHub Copilot and Visual Studio Remote Code Execution Vulnerability",
+      "published_at": "2026-03-13T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256",
+      "summary": "Changes made to the security updates links and information. This is an informational change only."
     },
     {
       "category": "IS",
@@ -154,6 +178,14 @@
       "title": "Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires",
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft investigates classic Outlook sync and connection issues",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/",
       "summary": ""
     },
     {
@@ -342,14 +374,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "US charges another ransomware negotiator linked to BlackCat attacks",
-      "published_at": "2026-03-12T11:31:57Z",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
-      "summary": "The U.S. Department of Justice charged another former DigitalMint employee for his involvement in an insider scheme in which ransomware negotiators secretly partnered with the BlackCat (ALPHV) ransomware operation. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509",
       "published_at": "2026-03-12T08:37:04Z",
@@ -490,6 +514,14 @@
       "title": "Learn in-demand IT skills with this $25 CompTIA prep bundle",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "US charges another ransomware negotiator linked to BlackCat attacks",
+      "published_at": "2026-03-12T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
       "summary": ""
     },
     {
@@ -779,14 +811,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites",
-      "published_at": "2026-03-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
-      "summary": ""
-    },
-    {
       "category": "Compliance Watch",
       "source": "Wolters Kluwer",
       "title": "Wolters Kluwer news",
@@ -822,14 +846,6 @@
       "title": "President Trump’s Tax Cuts are Putting More Money Back into the Pockets of American Families and Workers",
       "published_at": "2026-03-10T17:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0414",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "President Trump’s Economic Agenda Drives “Industrial Boom” in Louisiana",
-      "published_at": "2026-03-10T16:06:39Z",
-      "url": "https://www.whitehouse.gov/articles/2026/03/president-trumps-economic-agenda-drives-industrial-boom-in-louisiana/",
       "summary": ""
     },
     {
@@ -1615,14 +1631,6 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
-      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",
@@ -3271,30 +3279,6 @@
       "published_at": "2026-02-27T17:16:05Z",
       "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40be1c8",
       "summary": "PRESS RELEASE | FEBRUARY 27, 2026 FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah WASHINGTON – The Board of Directors of the Federal Deposit Insurance Corporation (FDIC) today announced the approval of a deposit insurance application submitted by the Jones Financial Companies, L.L.L.P. to establish Edward Jones Bank, which will be a…"
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "Press Release: FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026",
-      "published_at": "2026-02-27T16:02:32Z",
-      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb9b3",
-      "summary": "PRESS RELEASE | FEBRUARY 27, 2026 FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued the lists of institutions scheduled for a Community Reinvestment Act (CRA) examination during the second quarter 2026 and third quarter 2026. CRA regulations require each federal bank a…"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21518 GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability",
-      "published_at": "2026-02-27T16:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21518",
-      "summary": "Download links fixed"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-21523 GitHub Copilot and Visual Studio Code Remote Code Execution Vulnerability",
-      "published_at": "2026-02-27T16:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21523",
-      "summary": "Download links fixed"
     }
   ]
 }

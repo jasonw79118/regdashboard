@@ -1,7 +1,13 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T15:49:40Z` → `2026-03-13T15:49:40Z` (UTC)
-Last updated: `2026-03-13T10:49:40-05:00` (CT) — `2026-03-13T15:49:40Z` (UTC)
+Window: `2026-02-27T16:48:57Z` → `2026-03-13T16:48:57Z` (UTC)
+Last updated: `2026-03-13T11:48:57-05:00` (CT) — `2026-03-13T16:48:57Z` (UTC)
+
+## Presidential Message on National K-9 Veterans Day
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T16:47:00Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-national-k-9-veterans-day/
 
 ## Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
 - Source: FRB
@@ -32,6 +38,22 @@ Hypervisor migrations can introduce hidden risks that threaten data availability
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40dc84c
 
 SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, March 19, 2026 | 10:00 a.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, March 18, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 1…
+
+## CVE-2026-21257 GitHub Copilot and Visual Studio Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21257
+
+Changes made to the security updates links and information. This is an informational change only.
+
+## CVE-2026-21256 GitHub Copilot and Visual Studio Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
+
+Changes made to the security updates links and information. This is an informational change only.
 
 ## Police sinkholes 45,000 IP addresses in cybercrime crackdown
 - Source: BleepingComputer
@@ -142,6 +164,12 @@ Google has released emergency security updates to patch two high-severity Chrome
 - Category: Legislative
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
+
+## Microsoft investigates classic Outlook sync and connection issues
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
 
 ## Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
 - Source: BleepingComputer
@@ -307,14 +335,6 @@ To comprehensively address CVE-2026-20841, Microsoft has released February 2026 
 
 ​Apple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]
 
-## US charges another ransomware negotiator linked to BlackCat attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T11:31:57Z
-- URL: https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/
-
-The U.S. Department of Justice charged another former DigitalMint employee for his involvement in an insider scheme in which ransomware negotiators secretly partnered with the BlackCat (ALPHV) ransomware operation. [...]
-
 ## CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
 - Source: Microsoft MSRC
 - Category: IS
@@ -444,6 +464,12 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/
+
+## US charges another ransomware negotiator linked to BlackCat attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -713,12 +739,6 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/
 
-## SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/
-
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
 - Category: Compliance Watch
@@ -746,12 +766,6 @@ On April 24, 2024, the NCUA Board (Board) published an advance notice of propose
 - Category: OFAC
 - Published: 2026-03-10T17:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0414
-
-## President Trump’s Economic Agenda Drives “Industrial Boom” in Louisiana
-- Source: White House
-- Category: Executive
-- Published: 2026-03-10T16:06:39Z
-- URL: https://www.whitehouse.gov/articles/2026/03/president-trumps-economic-agenda-drives-industrial-boom-in-louisiana/
 
 ## Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard C…
 - Source: FRB
@@ -1520,14 +1534,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
@@ -2968,27 +2974,3 @@ Information published.
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40be1c8
 
 PRESS RELEASE | FEBRUARY 27, 2026 FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah WASHINGTON – The Board of Directors of the Federal Deposit Insurance Corporation (FDIC) today announced the approval of a deposit insurance application submitted by the Jones Financial Companies, L.L.L.P. to establish Edward Jones Bank, which will be a…
-
-## Press Release: FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-27T16:02:32Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb9b3
-
-PRESS RELEASE | FEBRUARY 27, 2026 FDIC Issues CRA Examination Schedules for Second Quarter 2026 and Third Quarter 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued the lists of institutions scheduled for a Community Reinvestment Act (CRA) examination during the second quarter 2026 and third quarter 2026. CRA regulations require each federal bank a…
-
-## CVE-2026-21518 GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-27T16:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21518
-
-Download links fixed
-
-## CVE-2026-21523 GitHub Copilot and Visual Studio Code Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-27T16:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21523
-
-Download links fixed
