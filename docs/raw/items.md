@@ -1,7 +1,21 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T14:49:17Z` → `2026-03-13T14:49:17Z` (UTC)
-Last updated: `2026-03-13T09:49:17-05:00` (CT) — `2026-03-13T14:49:17Z` (UTC)
+Window: `2026-02-27T15:49:40Z` → `2026-03-13T15:49:40Z` (UTC)
+Last updated: `2026-03-13T10:49:40-05:00` (CT) — `2026-03-13T15:49:40Z` (UTC)
+
+## Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-13T15:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260313a.htm
+
+Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
+
+## ICYMI: “Trump’s Energy Triumph”
+- Source: White House
+- Category: Executive
+- Published: 2026-03-13T14:54:45Z
+- URL: https://www.whitehouse.gov/articles/2026/03/icymi-trumps-energy-triumph/
 
 ## From VMware to what’s next: Protecting data during hypervisor migration
 - Source: BleepingComputer
@@ -105,6 +119,12 @@ Google has released emergency security updates to patch two high-severity Chrome
 - Published: 2026-03-13T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260313
 
+## Warren Deepens Probe into Auto Lending Industry Over Higher-Priced Loans to Service Members
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-deepens-probe-into-auto-lending-industry-over-higher-priced-loans-to-service-members
+
 ## Senator Warren Statement on January 2026 PCE
 - Source: Senate Banking
 - Category: Legislative
@@ -117,11 +137,11 @@ Google has released emergency security updates to patch two high-severity Chrome
 - Published: 2026-03-13T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/majority/us-senate-passes-chairman-scotts-historic-housing-affordability-legislation
 
-## Van Hollen, Warren, Gallego Statement on DOJ Investigating Binance Compliance with U.S. Sanctions Law
-- Source: Senate Banking
+## Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
+- Source: House Financial Services
 - Category: Legislative
 - Published: 2026-03-13T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/van-hollen-warren-gallego-statement-on-doj-investigating-binance-compliance-with-us-sanctions-law
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
 
 ## Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
 - Source: BleepingComputer
@@ -1362,12 +1382,6 @@ WASHINGTON—The U.S. Department of the Treasury’s Financial Crimes Enforcemen
 - Category: Fintech Watch
 - Published: 2026-03-10T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-partners-fraudaverse-deliver-ai-powered-real-time-fraud-prevention-global
-
-## TRUMP EFFECT: A Running List of New U.S. Investment in President Trump’s Second Term
-- Source: White House
-- Category: Executive
-- Published: 2026-03-10T11:00:00Z
-- URL: https://www.whitehouse.gov/articles/2026/03/trump-effect-a-running-list-of-new-u-s-investment-in-president-trumps-second-term/
 
 ## First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026
 - Source: CDIA
@@ -2978,11 +2992,3 @@ Download links fixed
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21523
 
 Download links fixed
-
-## Press Release: FDIC Publishes Enforcement Orders for January 2026
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-27T15:02:09Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb983
-
-PRESS RELEASE | FEBRUARY 27, 2026 FDIC Publishes Enforcement Orders for January 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026. There are no administrative hearings scheduled for March 2026. Consent Orders Community Bank & Trust West Ge…
