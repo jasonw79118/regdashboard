@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T05:53:53Z` → `2026-03-13T05:53:53Z` (UTC)
-Last updated: `2026-03-13T00:53:53-05:00` (CT) — `2026-03-13T05:53:53Z` (UTC)
+Window: `2026-02-27T07:01:43Z` → `2026-03-13T07:01:43Z` (UTC)
+Last updated: `2026-03-13T02:01:43-05:00` (CT) — `2026-03-13T07:01:43Z` (UTC)
+
+## Google fixes two new Chrome zero-days exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T06:56:58Z
+- URL: https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
+
+Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
@@ -413,14 +421,6 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered governm
 
 Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]
 
-## New PhantomRaven NPM attack wave steals dev data via 88 packages
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T17:09:42Z
-- URL: https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
-
-New attack waves from the 'PhantomRaven' supply-chain campaign are hitting the npm registry, with dozens of malicious packages that exfiltrate sensitive data from JavaScript developers. [...]
-
 ## Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit
 - Source: FDIC
 - Category: Banking
@@ -651,17 +651,17 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/
 
+## New PhantomRaven NPM attack wave steals dev data via 88 packages
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
+
 ## Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/
-
-## Build cybersecurity skills with InfoSec4TC while it’s on sale for $53
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/build-cybersecurity-skills-with-infosec4tc-while-its-on-sale-for-53/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer

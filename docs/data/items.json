@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-27T05:53:53Z",
-  "window_end": "2026-03-13T05:53:53Z",
-  "generated_at_utc": "2026-03-13T05:53:53Z",
-  "generated_at_ct": "2026-03-13T00:53:53-05:00",
+  "window_start": "2026-02-27T07:01:43Z",
+  "window_end": "2026-03-13T07:01:43Z",
+  "generated_at_utc": "2026-03-13T07:01:43Z",
+  "generated_at_ct": "2026-03-13T02:01:43-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Google fixes two new Chrome zero-days exploited in attacks",
+      "published_at": "2026-03-13T06:56:58Z",
+      "url": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
+      "summary": "Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]"
+    },
     {
       "category": "Compliance Watch",
       "source": "CDIA",
@@ -459,14 +467,6 @@
       "summary": "Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New PhantomRaven NPM attack wave steals dev data via 88 packages",
-      "published_at": "2026-03-11T17:09:42Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/",
-      "summary": "New attack waves from the 'PhantomRaven' supply-chain campaign are hitting the npm registry, with dozens of malicious packages that exfiltrate sensitive data from JavaScript developers. [...]"
-    },
-    {
       "category": "Banking",
       "source": "FDIC",
       "title": "Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit",
@@ -709,17 +709,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools",
+      "title": "New PhantomRaven NPM attack wave steals dev data via 88 packages",
       "published_at": "2026-03-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/",
+      "url": "https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Build cybersecurity skills with InfoSec4TC while it’s on sale for $53",
+      "title": "Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools",
       "published_at": "2026-03-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/build-cybersecurity-skills-with-infosec4tc-while-its-on-sale-for-53/",
+      "url": "https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/",
       "summary": ""
     },
     {

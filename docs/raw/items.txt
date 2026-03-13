@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-03-13T06:56:58Z
+Google fixes two new Chrome zero-days exploited in attacks
+https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
+Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]
+------------------------------------------------------------
 Compliance Watch
 CDIA
 2026-03-13T00:00:00Z
@@ -371,13 +378,6 @@ Medtech giant Stryker offline after Iran-linked wiper malware attack
 https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
 Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-11T17:09:42Z
-New PhantomRaven NPM attack wave steals dev data via 88 packages
-https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
-New attack waves from the 'PhantomRaven' supply-chain campaign are hitting the npm registry, with dozens of malicious packages that exfiltrate sensitive data from JavaScript developers. [...]
-------------------------------------------------------------
 Banking
 FDIC
 2026-03-11T14:00:33Z
@@ -586,14 +586,14 @@ https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromeboo
 IS
 BleepingComputer
 2026-03-11T00:00:00Z
-Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
-https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/
+New PhantomRaven NPM attack wave steals dev data via 88 packages
+https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-11T00:00:00Z
-Build cybersecurity skills with InfoSec4TC while it’s on sale for $53
-https://www.bleepingcomputer.com/offer/deals/build-cybersecurity-skills-with-infosec4tc-while-its-on-sale-for-53/
+Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
+https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
