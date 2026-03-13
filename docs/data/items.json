@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-02-27T16:48:57Z",
-  "window_end": "2026-03-13T16:48:57Z",
-  "generated_at_utc": "2026-03-13T16:48:57Z",
-  "generated_at_ct": "2026-03-13T11:48:57-05:00",
+  "window_start": "2026-02-27T17:39:17Z",
+  "window_end": "2026-03-13T17:39:17Z",
+  "generated_at_utc": "2026-03-13T17:39:17Z",
+  "generated_at_ct": "2026-03-13T12:39:17-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Poland's nuclear research centre targeted by cyberattack",
+      "published_at": "2026-03-13T17:11:37Z",
+      "url": "https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/",
+      "summary": "Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft investigates classic Outlook sync and connection issues",
+      "published_at": "2026-03-13T16:53:02Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/",
+      "summary": "​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]"
+    },
     {
       "category": "Executive",
       "source": "White House",
@@ -71,7 +87,7 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Fake enterprise VPN downloads used to steal company credentials",
+      "title": "Fake enterprise VPN sites used to steal company credentials",
       "published_at": "2026-03-13T13:23:28Z",
       "url": "https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/",
       "summary": "A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]"
@@ -149,6 +165,14 @@
       "summary": ""
     },
     {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "Update on IRS Commissioner position",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/update-on-irs-commissioner-position",
+      "summary": "IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…"
+    },
+    {
       "category": "Legislative",
       "source": "Senate Banking",
       "title": "Warren Deepens Probe into Auto Lending Industry Over Higher-Priced Loans to Service Members",
@@ -178,14 +202,6 @@
       "title": "Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires",
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft investigates classic Outlook sync and connection issues",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/",
       "summary": ""
     },
     {
@@ -366,14 +382,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Apple patches older iPhones and iPads against Coruna exploits",
-      "published_at": "2026-03-12T13:43:46Z",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
-      "summary": "​Apple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509",
       "published_at": "2026-03-12T08:37:04Z",
@@ -506,6 +514,14 @@
       "title": "Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Apple patches older iPhones and iPads against Coruna exploits",
+      "published_at": "2026-03-12T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
       "summary": ""
     },
     {
@@ -800,14 +816,6 @@
       "title": "FIS Helps Mizuho Financial Group Navigate New Regulatory Reporting Requirements",
       "published_at": "2026-03-11T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-mizuho-financial-group-navigate-new-regulatory",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "WhatsApp introduces parent-managed accounts for pre-teens",
-      "published_at": "2026-03-11T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/",
       "summary": ""
     },
     {
@@ -1567,14 +1575,6 @@
       "published_at": "2026-03-10T00:00:00Z",
       "url": "https://www.cdiaonline.org/education-services/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
-      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
     },
     {
       "category": "Banking",
@@ -3271,14 +3271,6 @@
       "published_at": "2026-02-27T21:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0410",
       "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "Press Release: FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah",
-      "published_at": "2026-02-27T17:16:05Z",
-      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40be1c8",
-      "summary": "PRESS RELEASE | FEBRUARY 27, 2026 FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah WASHINGTON – The Board of Directors of the Federal Deposit Insurance Corporation (FDIC) today announced the approval of a deposit insurance application submitted by the Jones Financial Companies, L.L.L.P. to establish Edward Jones Bank, which will be a…"
     }
   ]
 }

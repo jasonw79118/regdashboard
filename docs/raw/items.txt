@@ -1,3 +1,17 @@
+IS
+BleepingComputer
+2026-03-13T17:11:37Z
+Poland's nuclear research centre targeted by cyberattack
+https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/
+Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-13T16:53:02Z
+Microsoft investigates classic Outlook sync and connection issues
+https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
+​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]
+------------------------------------------------------------
 Executive
 White House
 2026-03-13T16:47:00Z
@@ -55,7 +69,7 @@ An international law enforcement action codenamed "Operation Synergia III" has s
 IS
 BleepingComputer
 2026-03-13T13:23:28Z
-Fake enterprise VPN downloads used to steal company credentials
+Fake enterprise VPN sites used to steal company credentials
 https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/
 A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]
 ------------------------------------------------------------
@@ -121,6 +135,13 @@ OFAC
 Cyber-related Designations Removals
 https://ofac.treasury.gov/recent-actions/20260313
 ------------------------------------------------------------
+IRS
+IRS
+2026-03-13T00:00:00Z
+Update on IRS Commissioner position
+https://www.irs.gov/newsroom/update-on-irs-commissioner-position
+IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…
+------------------------------------------------------------
 Legislative
 Senate Banking
 2026-03-13T00:00:00Z
@@ -144,12 +165,6 @@ House Financial Services
 2026-03-13T00:00:00Z
 Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-13T00:00:00Z
-Microsoft investigates classic Outlook sync and connection issues
-https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -296,13 +311,6 @@ https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
 To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-03-12T13:43:46Z
-Apple patches older iPhones and iPads against Coruna exploits
-https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
-​Apple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-03-12T08:37:04Z
 CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
@@ -414,6 +422,12 @@ BleepingComputer
 2026-03-12T00:00:00Z
 Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
 https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-12T00:00:00Z
+Apple patches older iPhones and iPads against Coruna exploits
+https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -659,12 +673,6 @@ FIS
 2026-03-11T00:00:00Z
 FIS Helps Mizuho Financial Group Navigate New Regulatory Reporting Requirements
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-mizuho-financial-group-navigate-new-regulatory
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-11T00:00:00Z
-WhatsApp introduces parent-managed accounts for pre-teens
-https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1318,13 +1326,6 @@ CDIA
 2026-03-10T00:00:00Z
 Education Services
 https://www.cdiaonline.org/education-services/
-------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-10T00:00:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
-Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 ------------------------------------------------------------
 Banking
 FRB
@@ -2655,11 +2656,4 @@ Treasury
 2026-02-27T21:00:00Z
 Preliminary Report on Foreign Holdings of U.S. Securities at End-June 2025
 https://home.treasury.gov/news/press-releases/sb0410
-------------------------------------------------------------
-Banking
-FDIC
-2026-02-27T17:16:05Z
-Press Release: FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah
-https://content.govdelivery.com/accounts/USFDIC/bulletins/40be1c8
-PRESS RELEASE | FEBRUARY 27, 2026 FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah WASHINGTON – The Board of Directors of the Federal Deposit Insurance Corporation (FDIC) today announced the approval of a deposit insurance application submitted by the Jones Financial Companies, L.L.L.P. to establish Edward Jones Bank, which will be a…
 ------------------------------------------------------------

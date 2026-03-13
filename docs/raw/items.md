@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T16:48:57Z` → `2026-03-13T16:48:57Z` (UTC)
-Last updated: `2026-03-13T11:48:57-05:00` (CT) — `2026-03-13T16:48:57Z` (UTC)
+Window: `2026-02-27T17:39:17Z` → `2026-03-13T17:39:17Z` (UTC)
+Last updated: `2026-03-13T12:39:17-05:00` (CT) — `2026-03-13T17:39:17Z` (UTC)
+
+## Poland's nuclear research centre targeted by cyberattack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T17:11:37Z
+- URL: https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/
+
+Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]
+
+## Microsoft investigates classic Outlook sync and connection issues
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T16:53:02Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
+
+​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]
 
 ## Presidential Message on National K-9 Veterans Day
 - Source: White House
@@ -63,7 +79,7 @@ Changes made to the security updates links and information. This is an informati
 
 An international law enforcement action codenamed "Operation Synergia III" has sinkholed tens of thousands of IP addresses and seized servers linked to cybercrime operations worldwide. [...]
 
-## Fake enterprise VPN downloads used to steal company credentials
+## Fake enterprise VPN sites used to steal company credentials
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-13T13:23:28Z
@@ -141,6 +157,14 @@ Google has released emergency security updates to patch two high-severity Chrome
 - Published: 2026-03-13T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260313
 
+## Update on IRS Commissioner position
+- Source: IRS
+- Category: IRS
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.irs.gov/newsroom/update-on-irs-commissioner-position
+
+IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…
+
 ## Warren Deepens Probe into Auto Lending Industry Over Higher-Priced Loans to Service Members
 - Source: Senate Banking
 - Category: Legislative
@@ -164,12 +188,6 @@ Google has released emergency security updates to patch two high-severity Chrome
 - Category: Legislative
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
-
-## Microsoft investigates classic Outlook sync and connection issues
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
 
 ## Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
 - Source: BleepingComputer
@@ -327,14 +345,6 @@ Updated an acknowledgement. This is an informational change only.
 
 To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
 
-## Apple patches older iPhones and iPads against Coruna exploits
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T13:43:46Z
-- URL: https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
-
-​Apple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]
-
 ## CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
 - Source: Microsoft MSRC
 - Category: IS
@@ -458,6 +468,12 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
+
+## Apple patches older iPhones and iPads against Coruna exploits
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
 
 ## Learn in-demand IT skills with this $25 CompTIA prep bundle
 - Source: BleepingComputer
@@ -732,12 +748,6 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Category: Fintech Watch
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-mizuho-financial-group-navigate-new-regulatory
-
-## WhatsApp introduces parent-managed accounts for pre-teens
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -1480,14 +1490,6 @@ Information published.
 - Category: Compliance Watch
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
-
-Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
@@ -2966,11 +2968,3 @@ Information published.
 - Category: OFAC
 - Published: 2026-02-27T21:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0410
-
-## Press Release: FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah
-- Source: FDIC
-- Category: Banking
-- Published: 2026-02-27T17:16:05Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40be1c8
-
-PRESS RELEASE | FEBRUARY 27, 2026 FDIC Approves the Deposit Insurance Application for Edward Jones Bank, Salt Lake City, Utah WASHINGTON – The Board of Directors of the Federal Deposit Insurance Corporation (FDIC) today announced the approval of a deposit insurance application submitted by the Jones Financial Companies, L.L.L.P. to establish Edward Jones Bank, which will be a…
