@@ -2639,24 +2639,3 @@ Press Release: FDIC Publishes Enforcement Orders for January 2026
 https://content.govdelivery.com/accounts/USFDIC/bulletins/40bb983
 PRESS RELEASE | FEBRUARY 27, 2026 FDIC Publishes Enforcement Orders for January 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in January 2026. There are no administrative hearings scheduled for March 2026. Consent Orders Community Bank & Trust West Ge…
 ------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-27T03:17:12Z
-Chromium: CVE-2026-3063 Inappropriate implementation in DevTools
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3063
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-27T03:17:11Z
-Chromium: CVE-2026-3062 Out of bounds read and write in Tint
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3062
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-27T03:17:08Z
-Chromium: CVE-2026-3061 Out of bounds read in Media
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3061
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.
-------------------------------------------------------------
