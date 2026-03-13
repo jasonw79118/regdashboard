@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T21:38:17Z` → `2026-03-13T21:38:17Z` (UTC)
-Last updated: `2026-03-13T16:38:17-05:00` (CT) — `2026-03-13T21:38:17Z` (UTC)
+Window: `2026-02-27T22:33:00Z` → `2026-03-13T22:33:00Z` (UTC)
+Last updated: `2026-03-13T17:33:00-05:00` (CT) — `2026-03-13T22:33:00Z` (UTC)
+
+## Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T22:11:57Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/
+
+Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\ drive and are unable to launch applications. [...]
 
 ## FBI seeks victims of Steam games used to spread malware
 - Source: BleepingComputer
@@ -119,6 +127,14 @@ SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open ses
 
 The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
 
+## CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
+
+The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
+
 ## CVE-2026-26111 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -127,13 +143,13 @@ The hotpatch has been re‑released to ensure comprehensive coverage across all 
 
 The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
 
-## CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+## CVE-2026-0385 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
 - Published: 2026-03-13T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0385
 
-The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
+Information published.
 
 ## CVE-2026-21257 GitHub Copilot and Visual Studio Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -269,6 +285,12 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
 
+## Hill and Barr Applaud President Trump's Move to Expand Access to Mortgage Credit
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-13T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
+
 ## Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
 - Source: BleepingComputer
 - Category: IS
@@ -366,14 +388,6 @@ Law enforcement agencies in the U.S. and Europe along with private partners have
 - URL: https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
 
 Google paid over $17 million to 747 security researchers who reported security bugs through its Vulnerability Reward Program (VRP) in 2025. [...]
-
-## Telus Digital confirms breach after hacker claims 1 petabyte data theft
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T14:40:14Z
-- URL: https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/
-
-Canadian business process outsourcing giant Telus Digital has confirmed it suffered a security incident after threat actors claimed to have stolen nearly 1 petabyte of data from the company in a multi-month breach. [...]
 
 ## CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
 - Source: Microsoft MSRC
@@ -517,6 +531,12 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
 
+## Telus Digital confirms breach after hacker claims 1 petabyte data theft
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/
+
 ## Going the Extra Mile: Travel Rewards Turn into Underground Currency.
 - Source: BleepingComputer
 - Category: IS
@@ -528,12 +548,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
-
-## Learn in-demand IT skills with this $25 CompTIA prep bundle
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -1509,6 +1523,14 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -1776,12 +1798,6 @@ The problems with paper checks are well-documented. According to the Federal Res
 - Category: Fintech Watch
 - Published: 2026-03-06T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9
-
-## ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-03-06T00:00:00Z
-- URL: https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred
 
 ## Removal of Regulations for Renewal Communities Designations
 - Source: Federal Register
@@ -2552,12 +2568,6 @@ IR-2026-28, March 2, 2026 – The Internal Revenue Service published, for tax ye
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes.
-
-## Jack Henry Executives Set to Speak at Upcoming Investor Conferences
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-03-02T00:00:00Z
-- URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences
 
 ## Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency
 - Source: Federal Register

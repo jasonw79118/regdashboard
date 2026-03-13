@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-03-13T22:11:57Z
+Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
+https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/
+Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\ drive and are unable to launch applications. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-13T20:52:31Z
 FBI seeks victims of Steam games used to spread malware
 https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
@@ -110,6 +117,13 @@ The hotpatch has been re‑released to ensure comprehensive coverage across all 
 IS
 Microsoft MSRC
 2026-03-13T14:00:00Z
+CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
+The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-13T14:00:00Z
 CVE-2026-26111 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111
 The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
@@ -117,9 +131,9 @@ The hotpatch has been re‑released to ensure comprehensive coverage across all 
 IS
 Microsoft MSRC
 2026-03-13T14:00:00Z
-CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
-The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
+CVE-2026-0385 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0385
+Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -242,6 +256,12 @@ House Financial Services
 Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
 ------------------------------------------------------------
+Legislative
+House Financial Services
+2026-03-13T00:00:00Z
+Hill and Barr Applaud President Trump's Move to Expand Access to Mortgage Credit
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-13T00:00:00Z
@@ -332,13 +352,6 @@ BleepingComputer
 Google paid $17.1 million for vulnerability reports in 2025
 https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
 Google paid over $17 million to 747 security researchers who reported security bugs through its Vulnerability Reward Program (VRP) in 2025. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T14:40:14Z
-Telus Digital confirms breach after hacker claims 1 petabyte data theft
-https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/
-Canadian business process outsourcing giant Telus Digital has confirmed it suffered a security incident after threat actors claimed to have stolen nearly 1 petabyte of data from the company in a multi-month breach. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -471,6 +484,12 @@ https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromeb
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
+Telus Digital confirms breach after hacker claims 1 petabyte data theft
+https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-12T00:00:00Z
 Going the Extra Mile: Travel Rewards Turn into Underground Currency.
 https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
 ------------------------------------------------------------
@@ -479,12 +498,6 @@ BleepingComputer
 2026-03-12T00:00:00Z
 Apple patches older iPhones and iPads against Coruna exploits
 https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T00:00:00Z
-Learn in-demand IT skills with this $25 CompTIA prep bundle
-https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1345,6 +1358,13 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-10T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -1586,12 +1606,6 @@ Fiserv
 2026-03-06T00:00:00Z
 Fiserv to Present at Upcoming Investor Conferences
 https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9
-------------------------------------------------------------
-Fintech Watch
-Jack Henry
-2026-03-06T00:00:00Z
-ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program
-https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -2289,12 +2303,6 @@ Fannie Mae
 Fannie Mae Announces Results of Tender Offer for Any and All of Certain CAS Notes
 https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026
 Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes.
-------------------------------------------------------------
-Fintech Watch
-Jack Henry
-2026-03-02T00:00:00Z
-Jack Henry Executives Set to Speak at Upcoming Investor Conferences
-https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences
 ------------------------------------------------------------
 Federal Register
 Federal Register
