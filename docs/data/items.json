@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-27T20:41:25Z",
-  "window_end": "2026-03-13T20:41:25Z",
-  "generated_at_utc": "2026-03-13T20:41:25Z",
-  "generated_at_ct": "2026-03-13T15:41:25-05:00",
+  "window_start": "2026-02-27T21:38:17Z",
+  "window_end": "2026-03-13T21:38:17Z",
+  "generated_at_utc": "2026-03-13T21:38:17Z",
+  "generated_at_ct": "2026-03-13T16:38:17-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "FBI seeks victims of Steam games used to spread malware",
+      "published_at": "2026-03-13T20:52:31Z",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/",
+      "summary": "The FBI is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform. [...]"
+    },
     {
       "category": "Executive",
       "source": "White House",
@@ -414,14 +422,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Going the Extra Mile: Travel Rewards Turn into Underground Currency.",
-      "published_at": "2026-03-12T14:05:15Z",
-      "url": "https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/",
-      "summary": "Stolen airline miles are converted into flights and hotel stays, then resold as discounted travel. Flare shows how cybercriminals and underground markets treat loyalty accounts like tradable currency. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable",
       "published_at": "2026-03-12T14:00:00Z",
@@ -575,6 +575,14 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
+      "title": "Going the Extra Mile: Travel Rewards Turn into Underground Currency.",
+      "published_at": "2026-03-12T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
       "title": "Apple patches older iPhones and iPads against Coruna exploits",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
@@ -586,14 +594,6 @@
       "title": "Learn in-demand IT skills with this $25 CompTIA prep bundle",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "US charges another ransomware negotiator linked to BlackCat attacks",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
       "summary": ""
     },
     {
@@ -1599,14 +1599,6 @@
       "published_at": "2026-03-10T00:00:00Z",
       "url": "https://www.cdiaonline.org/education-services/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
-      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
     },
     {
       "category": "Banking",
@@ -3255,14 +3247,6 @@
       "published_at": "2026-02-28T09:01:22Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-54207",
       "summary": "Information published."
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Preliminary Report on Foreign Holdings of U.S. Securities at End-June 2025",
-      "published_at": "2026-02-27T21:00:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0410",
-      "summary": ""
     }
   ]
 }

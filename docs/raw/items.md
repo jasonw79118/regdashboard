@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T20:41:25Z` → `2026-03-13T20:41:25Z` (UTC)
-Last updated: `2026-03-13T15:41:25-05:00` (CT) — `2026-03-13T20:41:25Z` (UTC)
+Window: `2026-02-27T21:38:17Z` → `2026-03-13T21:38:17Z` (UTC)
+Last updated: `2026-03-13T16:38:17-05:00` (CT) — `2026-03-13T21:38:17Z` (UTC)
+
+## FBI seeks victims of Steam games used to spread malware
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T20:52:31Z
+- URL: https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
+
+The FBI is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform. [...]
 
 ## CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success
 - Source: White House
@@ -367,14 +375,6 @@ Google paid over $17 million to 747 security researchers who reported security b
 
 Canadian business process outsourcing giant Telus Digital has confirmed it suffered a security incident after threat actors claimed to have stolen nearly 1 petabyte of data from the company in a multi-month breach. [...]
 
-## Going the Extra Mile: Travel Rewards Turn into Underground Currency.
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T14:05:15Z
-- URL: https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
-
-Stolen airline miles are converted into flights and hotel stays, then resold as discounted travel. Flare shows how cybercriminals and underground markets treat loyalty accounts like tradable currency. [...]
-
 ## CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
 - Source: Microsoft MSRC
 - Category: IS
@@ -517,6 +517,12 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
 
+## Going the Extra Mile: Travel Rewards Turn into Underground Currency.
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
+
 ## Apple patches older iPhones and iPads against Coruna exploits
 - Source: BleepingComputer
 - Category: IS
@@ -528,12 +534,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/
-
-## US charges another ransomware negotiator linked to BlackCat attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -1508,14 +1508,6 @@ Information published.
 - Category: Compliance Watch
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
-
-Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
@@ -2958,9 +2950,3 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-54207
 
 Information published.
-
-## Preliminary Report on Foreign Holdings of U.S. Securities at End-June 2025
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-02-27T21:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0410

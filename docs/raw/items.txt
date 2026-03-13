@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-03-13T20:52:31Z
+FBI seeks victims of Steam games used to spread malware
+https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
+The FBI is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform. [...]
+------------------------------------------------------------
 Executive
 White House
 2026-03-13T20:37:48Z
@@ -334,13 +341,6 @@ https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-aft
 Canadian business process outsourcing giant Telus Digital has confirmed it suffered a security incident after threat actors claimed to have stolen nearly 1 petabyte of data from the company in a multi-month breach. [...]
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-03-12T14:05:15Z
-Going the Extra Mile: Travel Rewards Turn into Underground Currency.
-https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
-Stolen airline miles are converted into flights and hotel stays, then resold as discounted travel. Flare shows how cybercriminals and underground markets treat loyalty accounts like tradable currency. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-03-12T14:00:00Z
 CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
@@ -471,6 +471,12 @@ https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromeb
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
+Going the Extra Mile: Travel Rewards Turn into Underground Currency.
+https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-12T00:00:00Z
 Apple patches older iPhones and iPads against Coruna exploits
 https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
 ------------------------------------------------------------
@@ -479,12 +485,6 @@ BleepingComputer
 2026-03-12T00:00:00Z
 Learn in-demand IT skills with this $25 CompTIA prep bundle
 https://www.bleepingcomputer.com/offer/deals/learn-in-demand-it-skills-with-this-25-comptia-prep-bundle/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T00:00:00Z
-US charges another ransomware negotiator linked to BlackCat attacks
-https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1344,13 +1344,6 @@ CDIA
 2026-03-10T00:00:00Z
 Education Services
 https://www.cdiaonline.org/education-services/
-------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-10T00:00:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
-Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 ------------------------------------------------------------
 Banking
 FRB
@@ -2645,10 +2638,4 @@ Microsoft MSRC
 CVE-2023-54207 HID: uclogic: Correct devm device reference for hidinput input_dev name
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-54207
 Information published.
-------------------------------------------------------------
-OFAC
-Treasury
-2026-02-27T21:00:00Z
-Preliminary Report on Foreign Holdings of U.S. Securities at End-June 2025
-https://home.treasury.gov/news/press-releases/sb0410
 ------------------------------------------------------------
