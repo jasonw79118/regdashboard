@@ -1,5 +1,54 @@
 IS
 BleepingComputer
+2026-03-13T08:16:55Z
+Starbucks discloses data breach affecting hundreds of employees
+https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
+Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts. [...]
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-13T08:03:13Z
+CVE-2026-3805 use after free in SMB connection reuse
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3805
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-13T08:03:00Z
+CVE-2026-3904
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3904
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-13T08:02:54Z
+CVE-2026-23868
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23868
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-13T08:02:44Z
+CVE-2026-3784 wrong proxy connection reuse with credentials
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-13T08:02:16Z
+CVE-2026-3783 token leak with redirect and netrc
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3783
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-13T08:01:47Z
+CVE-2026-1965 bad reuse of HTTP Negotiate connection
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
+Information published.
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-13T06:56:58Z
 Google fixes two new Chrome zero-days exploited in attacks
 https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
@@ -208,27 +257,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-03-12T08:01:58Z
-CVE-2026-3784 wrong proxy connection reuse with credentials
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-12T08:01:53Z
-CVE-2026-1965 bad reuse of HTTP Negotiate connection
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-12T08:01:48Z
-CVE-2026-3783 token leak with redirect and netrc
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3783
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-03-12T08:01:42Z
 CVE-2026-23240 tls: Fix race condition in tls_sw_cancel_work_tx()
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23240
@@ -239,13 +267,6 @@ Microsoft MSRC
 2026-03-12T08:01:37Z
 CVE-2026-23239 espintcp: Fix race condition in espintcp_close()
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23239
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-12T08:01:31Z
-CVE-2026-23868
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23868
 Information published.
 ------------------------------------------------------------
 IS
@@ -370,13 +391,6 @@ BleepingComputer
 CISA orders feds to patch n8n RCE flaw exploited in attacks
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/
 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-11T17:21:22Z
-Medtech giant Stryker offline after Iran-linked wiper malware attack
-https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
-Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]
 ------------------------------------------------------------
 Banking
 FDIC
@@ -586,14 +600,14 @@ https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromeboo
 IS
 BleepingComputer
 2026-03-11T00:00:00Z
-New PhantomRaven NPM attack wave steals dev data via 88 packages
-https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
+Medtech giant Stryker offline after Iran-linked wiper malware attack
+https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-11T00:00:00Z
-Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
-https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/
+New PhantomRaven NPM attack wave steals dev data via 88 packages
+https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer

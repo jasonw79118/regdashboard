@@ -1,7 +1,63 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T07:01:43Z` → `2026-03-13T07:01:43Z` (UTC)
-Last updated: `2026-03-13T02:01:43-05:00` (CT) — `2026-03-13T07:01:43Z` (UTC)
+Window: `2026-02-27T08:50:04Z` → `2026-03-13T08:50:04Z` (UTC)
+Last updated: `2026-03-13T03:50:04-05:00` (CT) — `2026-03-13T08:50:04Z` (UTC)
+
+## Starbucks discloses data breach affecting hundreds of employees
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T08:16:55Z
+- URL: https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
+
+Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts. [...]
+
+## CVE-2026-3805 use after free in SMB connection reuse
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T08:03:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3805
+
+Information published.
+
+## CVE-2026-3904
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T08:03:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3904
+
+Information published.
+
+## CVE-2026-23868
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T08:02:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23868
+
+Information published.
+
+## CVE-2026-3784 wrong proxy connection reuse with credentials
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T08:02:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
+
+Information published.
+
+## CVE-2026-3783 token leak with redirect and netrc
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T08:02:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3783
+
+Information published.
+
+## CVE-2026-1965 bad reuse of HTTP Negotiate connection
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-13T08:01:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
+
+Information published.
 
 ## Google fixes two new Chrome zero-days exploited in attacks
 - Source: BleepingComputer
@@ -233,30 +289,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-3784 wrong proxy connection reuse with credentials
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-12T08:01:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
-
-Information published.
-
-## CVE-2026-1965 bad reuse of HTTP Negotiate connection
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-12T08:01:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
-
-Information published.
-
-## CVE-2026-3783 token leak with redirect and netrc
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-12T08:01:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3783
-
-Information published.
-
 ## CVE-2026-23240 tls: Fix race condition in tls_sw_cancel_work_tx()
 - Source: Microsoft MSRC
 - Category: IS
@@ -270,14 +302,6 @@ Information published.
 - Category: IS
 - Published: 2026-03-12T08:01:37Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23239
-
-Information published.
-
-## CVE-2026-23868
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-12T08:01:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23868
 
 Information published.
 
@@ -412,14 +436,6 @@ An SQL injection vulnerability in Ally, a WordPress plugin from Elementor for we
 - URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/
 
 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]
-
-## Medtech giant Stryker offline after Iran-linked wiper malware attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T17:21:22Z
-- URL: https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
-
-Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]
 
 ## Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit
 - Source: FDIC
@@ -651,17 +667,17 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-everyday-refurbished-chromebook-is-on-sale-for-80-with-free-shipping/
 
+## Medtech giant Stryker offline after Iran-linked wiper malware attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
+
 ## New PhantomRaven NPM attack wave steals dev data via 88 packages
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/
-
-## Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
