@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T14:34:09Z` → `2026-03-14T14:34:09Z` (UTC)
-Last updated: `2026-03-14T09:34:09-05:00` (CT) — `2026-03-14T14:34:09Z` (UTC)
+Window: `2026-02-28T15:33:04Z` → `2026-03-14T15:33:04Z` (UTC)
+Last updated: `2026-03-14T10:33:04-05:00` (CT) — `2026-03-14T15:33:04Z` (UTC)
+
+## AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-14T14:36:42Z
+- URL: https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
+
+The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-chain attack. [...]
 
 ## CVE-2026-23868
 - Source: Microsoft MSRC
@@ -330,12 +338,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
-
-## AppsFlyer Web SDK used to spread crypto stealer JavaScript code
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-14T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
 
 ## This documentary streaming service is $140 for lifetime access
 - Source: BleepingComputer
@@ -713,14 +715,6 @@ Law enforcement agencies in the U.S. and Europe along with private partners have
 - Published: 2026-03-12T16:07:41Z
 - URL: https://home.treasury.gov/news/press-releases/sb0417
 
-## Google paid $17.1 million for vulnerability reports in 2025
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T15:22:35Z
-- URL: https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
-
-Google paid over $17 million to 747 security researchers who reported security bugs through its Vulnerability Reward Program (VRP) in 2025. [...]
-
 ## CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
 - Source: Microsoft MSRC
 - Category: IS
@@ -862,6 +856,12 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
+
+## Google paid $17.1 million for vulnerability reports in 2025
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
 
 ## Telus Digital confirms breach after hacker claims 1 petabyte data theft
 - Source: BleepingComputer
@@ -2454,6 +2454,14 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
 
 Information published.
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-04T08:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-2026-future-ready-lawyer-webinar-series
+
+The seven-part webinar series will feature insights from industry leaders and legal luminaries
 
 ## Issuance of Venezuela-related Frequently Asked Questions
 - Source: OFAC

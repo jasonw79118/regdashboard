@@ -1,4 +1,11 @@
 IS
+BleepingComputer
+2026-03-14T14:36:42Z
+AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
+https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
+The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-chain attack. [...]
+------------------------------------------------------------
+IS
 Microsoft MSRC
 2026-03-14T08:37:47Z
 CVE-2026-23868
@@ -284,12 +291,6 @@ Microsoft MSRC
 Chromium: CVE-2026-3913 Heap buffer overflow in WebML
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-14T00:00:00Z
-AppsFlyer Web SDK used to spread crypto stealer JavaScript code
-https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -639,13 +640,6 @@ Secretary of the Treasury Scott Bessent to Travel to France
 https://home.treasury.gov/news/press-releases/sb0417
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-03-12T15:22:35Z
-Google paid $17.1 million for vulnerability reports in 2025
-https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
-Google paid over $17 million to 747 security researchers who reported security bugs through its Vulnerability Reward Program (VRP) in 2025. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-03-12T14:00:00Z
 CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
@@ -772,6 +766,12 @@ BleepingComputer
 2026-03-12T00:00:00Z
 Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
 https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-12T00:00:00Z
+Google paid $17.1 million for vulnerability reports in 2025
+https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -2186,6 +2186,13 @@ Microsoft MSRC
 CVE-2026-27965 Vitess users with backup storage access can gain unauthorized access to production deployment environments
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
 Information published.
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-04T08:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-2026-future-ready-lawyer-webinar-series
+The seven-part webinar series will feature insights from industry leaders and legal luminaries
 ------------------------------------------------------------
 OFAC
 OFAC

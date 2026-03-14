@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-28T14:34:09Z",
-  "window_end": "2026-03-14T14:34:09Z",
-  "generated_at_utc": "2026-03-14T14:34:09Z",
-  "generated_at_ct": "2026-03-14T09:34:09-05:00",
+  "window_start": "2026-02-28T15:33:04Z",
+  "window_end": "2026-03-14T15:33:04Z",
+  "generated_at_utc": "2026-03-14T15:33:04Z",
+  "generated_at_ct": "2026-03-14T10:33:04-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code",
+      "published_at": "2026-03-14T14:36:42Z",
+      "url": "https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/",
+      "summary": "The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-chain attack. [...]"
+    },
     {
       "category": "IS",
       "source": "Microsoft MSRC",
@@ -331,14 +339,6 @@
       "published_at": "2026-03-14T01:20:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913",
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "AppsFlyer Web SDK used to spread crypto stealer JavaScript code",
-      "published_at": "2026-03-14T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/",
-      "summary": ""
     },
     {
       "category": "IS",
@@ -766,14 +766,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Google paid $17.1 million for vulnerability reports in 2025",
-      "published_at": "2026-03-12T15:22:35Z",
-      "url": "https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/",
-      "summary": "Google paid over $17 million to 747 security researchers who reported security bugs through its Vulnerability Reward Program (VRP) in 2025. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable",
       "published_at": "2026-03-12T14:00:00Z",
@@ -922,6 +914,14 @@
       "title": "Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Google paid $17.1 million for vulnerability reports in 2025",
+      "published_at": "2026-03-12T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/",
       "summary": ""
     },
     {
@@ -2638,6 +2638,14 @@
       "published_at": "2026-03-04T09:04:21Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965",
       "summary": "Information published."
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-04T08:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-2026-future-ready-lawyer-webinar-series",
+      "summary": "The seven-part webinar series will feature insights from industry leaders and legal luminaries"
     },
     {
       "category": "OFAC",
