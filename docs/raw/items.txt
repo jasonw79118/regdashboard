@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-03-14T21:48:14Z
+Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
+Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise devices that receive hotpatch updates instead of the regular Patch Tuesday cumulative updates. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-14T14:36:42Z
 AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
 https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
@@ -626,13 +633,6 @@ Treasury
 Treasury Continues to Disrupt Hamas’ Sham Charity Network as the Group Refuses to Disarm
 https://home.treasury.gov/news/press-releases/sb0415
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T16:19:56Z
-US disrupts SocksEscort proxy network powered by Linux malware
-https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
-Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]
-------------------------------------------------------------
 OFAC
 Treasury
 2026-03-12T16:07:41Z
@@ -770,14 +770,14 @@ https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromeb
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
-Google paid $17.1 million for vulnerability reports in 2025
-https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
+US disrupts SocksEscort proxy network powered by Linux malware
+https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
-Telus Digital confirms breach after hacker claims 1 petabyte data theft
-https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/
+Google paid $17.1 million for vulnerability reports in 2025
+https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer

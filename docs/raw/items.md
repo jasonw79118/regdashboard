@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T21:32:23Z` → `2026-03-14T21:32:23Z` (UTC)
-Last updated: `2026-03-14T16:32:23-05:00` (CT) — `2026-03-14T21:32:23Z` (UTC)
+Window: `2026-02-28T22:32:03Z` → `2026-03-14T22:32:03Z` (UTC)
+Last updated: `2026-03-14T17:32:03-05:00` (CT) — `2026-03-14T22:32:03Z` (UTC)
+
+## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-14T21:48:14Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
+
+Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise devices that receive hotpatch updates instead of the regular Patch Tuesday cumulative updates. [...]
 
 ## AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
 - Source: BleepingComputer
@@ -701,14 +709,6 @@ Data protection company Veeam Software has patched multiple flaws in its Backup 
 - Published: 2026-03-12T16:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0415
 
-## US disrupts SocksEscort proxy network powered by Linux malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T16:19:56Z
-- URL: https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
-
-Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]
-
 ## Secretary of the Treasury Scott Bessent to Travel to France
 - Source: Treasury
 - Category: OFAC
@@ -857,17 +857,17 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
 
+## US disrupts SocksEscort proxy network powered by Linux malware
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
+
 ## Google paid $17.1 million for vulnerability reports in 2025
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
-
-## Telus Digital confirms breach after hacker claims 1 petabyte data theft
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
