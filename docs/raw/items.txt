@@ -288,6 +288,12 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 IS
 BleepingComputer
 2026-03-14T00:00:00Z
+AppsFlyer Web SDK used to spread crypto stealer JavaScript code
+https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-14T00:00:00Z
 This documentary streaming service is $140 for lifetime access
 https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/
 ------------------------------------------------------------
@@ -772,12 +778,6 @@ BleepingComputer
 2026-03-12T00:00:00Z
 Telus Digital confirms breach after hacker claims 1 petabyte data theft
 https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T00:00:00Z
-Going the Extra Mile: Travel Rewards Turn into Underground Currency.
-https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer

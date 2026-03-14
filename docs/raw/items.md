@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T13:03:27Z` → `2026-03-14T13:03:27Z` (UTC)
-Last updated: `2026-03-14T08:03:27-05:00` (CT) — `2026-03-14T13:03:27Z` (UTC)
+Window: `2026-02-28T14:34:09Z` → `2026-03-14T14:34:09Z` (UTC)
+Last updated: `2026-03-14T09:34:09-05:00` (CT) — `2026-03-14T14:34:09Z` (UTC)
 
 ## CVE-2026-23868
 - Source: Microsoft MSRC
@@ -330,6 +330,12 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## AppsFlyer Web SDK used to spread crypto stealer JavaScript code
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-14T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
 
 ## This documentary streaming service is $140 for lifetime access
 - Source: BleepingComputer
@@ -862,12 +868,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/
-
-## Going the Extra Mile: Travel Rewards Turn into Underground Currency.
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer

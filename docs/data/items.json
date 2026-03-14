@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-28T13:03:27Z",
-  "window_end": "2026-03-14T13:03:27Z",
-  "generated_at_utc": "2026-03-14T13:03:27Z",
-  "generated_at_ct": "2026-03-14T08:03:27-05:00",
+  "window_start": "2026-02-28T14:34:09Z",
+  "window_end": "2026-03-14T14:34:09Z",
+  "generated_at_utc": "2026-03-14T14:34:09Z",
+  "generated_at_ct": "2026-03-14T09:34:09-05:00",
   "items": [
     {
       "category": "IS",
@@ -331,6 +331,14 @@
       "published_at": "2026-03-14T01:20:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913",
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "AppsFlyer Web SDK used to spread crypto stealer JavaScript code",
+      "published_at": "2026-03-14T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/",
+      "summary": ""
     },
     {
       "category": "IS",
@@ -922,14 +930,6 @@
       "title": "Telus Digital confirms breach after hacker claims 1 petabyte data theft",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Going the Extra Mile: Travel Rewards Turn into Underground Currency.",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/",
       "summary": ""
     },
     {
