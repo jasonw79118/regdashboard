@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T05:50:57Z` → `2026-03-14T05:50:57Z` (UTC)
-Last updated: `2026-03-14T00:50:57-05:00` (CT) — `2026-03-14T05:50:57Z` (UTC)
+Window: `2026-02-28T06:55:35Z` → `2026-03-14T06:55:35Z` (UTC)
+Last updated: `2026-03-14T01:55:35-05:00` (CT) — `2026-03-14T06:55:35Z` (UTC)
 
 ## Chromium: CVE-2026-3910 Inappropriate implementation in V8
 - Source: Microsoft MSRC
@@ -519,18 +519,6 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Published: 2026-03-13T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce
 
-## Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
-
-## Hill and Barr Applaud President Trump's Move to Expand Access to Mortgage Credit
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
-
 ## Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
 - Source: BleepingComputer
 - Category: IS
@@ -752,18 +740,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: Mortgage
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html
-
-## TOMORROW: MEDIA ADVISORY: Rep. Hill to Host Field Hearing on Failures of Little Rock Housing Authority
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-12T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411049
-
-## Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-12T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 
 ## Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
 - Source: BleepingComputer
@@ -2019,12 +1995,6 @@ IR-2026-34, March 6, 2026 — The Internal Revenue Service today announced that 
 
 IR-2026-33, March 6, 2026 —The Department of the Treasury and the Internal Revenue Service today issued proposed regulations providing general requirements for Trump Accounts, certain definitions relating to Trump Accounts, election rules to open an initial Trump Account by an authorized individual for an eligible individual, and rules for who is the responsible party for the…
 
-## Capital Markets Subcommittee Examines the Role of Self-Regulatory Organizations in U.S. Markets
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-06T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411048
-
 ## Nacha Provides Comment to the Federal Reserve on the Future of its Check Service
 - Source: NACHA
 - Category: Payments
@@ -2317,24 +2287,6 @@ The federal bank regulatory agencies today jointly issued answers to frequently 
 - Published: 2026-03-05T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/03/05/3250506/0/en/Mortgage-Rates-Hold-Steady.html
 
-## Barr: Fraud and Scam Losses Are Not Abstract Statistics
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-05T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411045
-
-## Financial Services Advances 5 Bills
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-05T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411046
-
-## Financial Institutions Subcommittee Reviews Ways to Combat Fraud
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-05T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411047
-
 ## Nacha’s Top 50 ACH Originators and Receivers of 2025 Now Available; Total ACH Payment Volume in 2025 Exceeded 42 Billion
 - Source: NACHA
 - Category: Payments
@@ -2420,12 +2372,6 @@ Information published.
 - Category: OFAC
 - Published: 2026-03-04T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260304
-
-## Chairman Hill: The bills before us today reflect President Trump and Republicans’ shared commitment to promoting pro-growth, America-first policies
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-04T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411044
 
 ## FIS to Present at Upcoming Conference
 - Source: FIS

@@ -460,18 +460,6 @@ Senate Banking
 Senator Warren Statement on January 2026 PCE
 https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce
 ------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-13T00:00:00Z
-Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-13T00:00:00Z
-Hill and Barr Applaud President Trump's Move to Expand Access to Mortgage Credit
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
-------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-13T00:00:00Z
@@ -672,18 +660,6 @@ Freddie Mac
 2026-03-12T00:00:00Z
 Mortgage Rates Inch Higher as Housing Activity Picks Up
 https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-12T00:00:00Z
-TOMORROW: MEDIA ADVISORY: Rep. Hill to Host Field Hearing on Failures of Little Rock Housing Authority
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411049
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-12T00:00:00Z
-Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -1798,12 +1774,6 @@ Treasury, IRS issue proposed regulations on how to open initial Trump Accounts u
 https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-how-to-open-initial-trump-accounts-under-the-one-big-beautiful-bill
 IR-2026-33, March 6, 2026 —The Department of the Treasury and the Internal Revenue Service today issued proposed regulations providing general requirements for Trump Accounts, certain definitions relating to Trump Accounts, election rules to open an initial Trump Account by an authorized individual for an eligible individual, and rules for who is the responsible party for the…
 ------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-06T00:00:00Z
-Capital Markets Subcommittee Examines the Role of Self-Regulatory Organizations in U.S. Markets
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411048
-------------------------------------------------------------
 Payments
 NACHA
 2026-03-06T00:00:00Z
@@ -2064,24 +2034,6 @@ Freddie Mac
 Mortgage Rates Hold Steady
 https://www.globenewswire.com/news-release/2026/03/05/3250506/0/en/Mortgage-Rates-Hold-Steady.html
 ------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-05T00:00:00Z
-Barr: Fraud and Scam Losses Are Not Abstract Statistics
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411045
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-05T00:00:00Z
-Financial Services Advances 5 Bills
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411046
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-05T00:00:00Z
-Financial Institutions Subcommittee Reviews Ways to Combat Fraud
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411047
-------------------------------------------------------------
 Payments
 NACHA
 2026-03-05T00:00:00Z
@@ -2157,12 +2109,6 @@ OFAC
 2026-03-04T00:00:00Z
 Issuance of Venezuela-related Frequently Asked Questions
 https://ofac.treasury.gov/recent-actions/20260304
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-04T00:00:00Z
-Chairman Hill: The bills before us today reflect President Trump and Republicans’ shared commitment to promoting pro-growth, America-first policies
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411044
 ------------------------------------------------------------
 Fintech Watch
 FIS
