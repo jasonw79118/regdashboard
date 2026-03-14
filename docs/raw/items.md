@@ -1,7 +1,239 @@
 # RegDashboard — Export
 
-Window: `2026-02-27T23:34:11Z` → `2026-03-13T23:34:11Z` (UTC)
-Last updated: `2026-03-13T18:34:11-05:00` (CT) — `2026-03-13T23:34:11Z` (UTC)
+Window: `2026-02-28T02:31:12Z` → `2026-03-14T02:31:12Z` (UTC)
+Last updated: `2026-03-13T21:31:12-05:00` (CT) — `2026-03-14T02:31:12Z` (UTC)
+
+## Chromium: CVE-2026-3942 Incorrect security UI in PictureInPicture
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:30Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3942
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3941 Insufficient policy enforcement in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3941
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3940 Insufficient policy enforcement in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3940
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3939 Use after free in WebView
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3939
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3938 Insufficient policy enforcement in Clipboard
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3938
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3937 Incorrect security UI in Downloads
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3937
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3936 Use after free in WebView
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:24Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3936
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3935 Incorrect security UI in WebAppInstalls
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3935
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3934 Insufficient policy enforcement in ChromeDriver
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3934
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3932 Insufficient policy enforcement in PDF
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3932
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3931 Heap buffer overflow in Skia
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3931
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3930 Unsafe navigation in Navigation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3930
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3929 Side-channel information leakage in ResourceTiming
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3929
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3928 Insufficient policy enforcement in Extensions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3928
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3927 Incorrect security UI in PictureInPicture
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3927
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3926 Out of bounds read in V8
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3926
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3925 Incorrect security UI in LookalikeChecks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3925
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3924 Use after free in WindowDialog
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3924
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3923 Use after free in WebMIDI
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3923
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3922 Use after free in MediaStream
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3922
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3921 Use after free in TextEncoding
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3921
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3920 Out of bounds memory access in WebML
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3920
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3919 Use after free in Extensions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3919
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3918 Use after free in WebMCP
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3918
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3917 Use after free in Agents
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3917
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3916 Out of bounds read in Web Speech
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3916
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3915 Heap buffer overflow in WebML
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3915
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3914 Integer overflow in WebML
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3914
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## Chromium: CVE-2026-3913 Heap buffer overflow in WebML
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-14T01:20:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
 
 ## Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
 - Source: BleepingComputer
