@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-28T17:31:24Z",
-  "window_end": "2026-03-14T17:31:24Z",
-  "generated_at_utc": "2026-03-14T17:31:24Z",
-  "generated_at_ct": "2026-03-14T12:31:24-05:00",
+  "window_start": "2026-02-28T18:47:14Z",
+  "window_end": "2026-03-14T18:47:14Z",
+  "generated_at_utc": "2026-03-14T18:47:14Z",
+  "generated_at_ct": "2026-03-14T13:47:14-05:00",
   "items": [
     {
       "category": "IS",
@@ -1897,6 +1897,14 @@
       "summary": ""
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-10T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
+      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
+    },
+    {
       "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces approval of notice by CBS Banc-Corp.",
@@ -1951,6 +1959,14 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-09T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
+      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",
