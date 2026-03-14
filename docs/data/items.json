@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-28T22:32:03Z",
-  "window_end": "2026-03-14T22:32:03Z",
-  "generated_at_utc": "2026-03-14T22:32:03Z",
-  "generated_at_ct": "2026-03-14T17:32:03-05:00",
+  "window_start": "2026-02-28T23:33:41Z",
+  "window_end": "2026-03-14T23:33:41Z",
+  "generated_at_utc": "2026-03-14T23:33:41Z",
+  "generated_at_ct": "2026-03-14T18:33:41-05:00",
   "items": [
     {
       "category": "IS",
@@ -1897,6 +1897,14 @@
       "summary": ""
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-10T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
+      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
+    },
+    {
       "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces approval of notice by CBS Banc-Corp.",
@@ -2200,14 +2208,6 @@
       "title": "Fiserv to Present at Upcoming Investor Conferences",
       "published_at": "2026-03-06T00:00:00Z",
       "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Jack Henry",
-      "title": "ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program",
-      "published_at": "2026-03-06T00:00:00Z",
-      "url": "https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred",
       "summary": ""
     },
     {
@@ -3084,14 +3084,6 @@
       "published_at": "2026-03-02T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes."
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Jack Henry",
-      "title": "Jack Henry Executives Set to Speak at Upcoming Investor Conferences",
-      "published_at": "2026-03-02T00:00:00Z",
-      "url": "https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences",
-      "summary": ""
     },
     {
       "category": "Federal Register",

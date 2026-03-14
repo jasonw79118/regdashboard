@@ -1603,6 +1603,13 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-10T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -1844,12 +1851,6 @@ Fiserv
 2026-03-06T00:00:00Z
 Fiserv to Present at Upcoming Investor Conferences
 https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9
-------------------------------------------------------------
-Fintech Watch
-Jack Henry
-2026-03-06T00:00:00Z
-ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program
-https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -2533,12 +2534,6 @@ Fannie Mae
 Fannie Mae Announces Results of Tender Offer for Any and All of Certain CAS Notes
 https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026
 Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes.
-------------------------------------------------------------
-Fintech Watch
-Jack Henry
-2026-03-02T00:00:00Z
-Jack Henry Executives Set to Speak at Upcoming Investor Conferences
-https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences
 ------------------------------------------------------------
 Federal Register
 Federal Register

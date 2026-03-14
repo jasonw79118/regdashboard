@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T22:32:03Z` → `2026-03-14T22:32:03Z` (UTC)
-Last updated: `2026-03-14T17:32:03-05:00` (CT) — `2026-03-14T22:32:03Z` (UTC)
+Window: `2026-02-28T23:33:41Z` → `2026-03-14T23:33:41Z` (UTC)
+Last updated: `2026-03-14T18:33:41-05:00` (CT) — `2026-03-14T23:33:41Z` (UTC)
 
 ## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
 - Source: BleepingComputer
@@ -1803,6 +1803,14 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -2070,12 +2078,6 @@ The problems with paper checks are well-documented. According to the Federal Res
 - Category: Fintech Watch
 - Published: 2026-03-06T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9
-
-## ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-03-06T00:00:00Z
-- URL: https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred
 
 ## Removal of Regulations for Renewal Communities Designations
 - Source: Federal Register
@@ -2830,12 +2832,6 @@ IR-2026-28, March 2, 2026 – The Internal Revenue Service published, for tax ye
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes.
-
-## Jack Henry Executives Set to Speak at Upcoming Investor Conferences
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-03-02T00:00:00Z
-- URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences
 
 ## Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency
 - Source: Federal Register
