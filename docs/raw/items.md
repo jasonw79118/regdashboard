@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T02:31:12Z` → `2026-03-14T02:31:12Z` (UTC)
-Last updated: `2026-03-13T21:31:12-05:00` (CT) — `2026-03-14T02:31:12Z` (UTC)
+Window: `2026-02-28T04:46:43Z` → `2026-03-14T04:46:43Z` (UTC)
+Last updated: `2026-03-13T23:46:43-05:00` (CT) — `2026-03-14T04:46:43Z` (UTC)
 
 ## Chromium: CVE-2026-3942 Incorrect security UI in PictureInPicture
 - Source: Microsoft MSRC
@@ -1777,14 +1777,6 @@ Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Published: 2026-03-09T19:44:18Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-623c/
 
-## Trump signs executive order to fight cybercrime
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-03-09T18:59:35Z
-- URL: https://www.texasbankers.com/trump-signs-executive-order-to-fight-cybercrime/
-
-President Donald Trump signed an executive order directing federal law enforcement to expand tools for combating transnational criminal organizations behind cyber scams and fraud, while creating a pathway for returning seized funds to victims. The action came alongside the publication of the White House’s National Cyber Strategy. According to the administration, U.S. consumers…
-
 ## U.S. Hostage and Wrongful Detainee Day, 2026
 - Source: White House
 - Category: Executive
@@ -1908,14 +1900,6 @@ WASHINGTON—Today, the Department of the Treasury’s Financial Crimes Enforcem
 - URL: https://www.fincen.gov/news/news-releases/financial-action-task-force-identifies-jurisdictions-anti-money-laundering-5
 
 WASHINGTON—The Financial Crimes Enforcement Network (FinCEN) is informing U.S.
-
-## White House publishes national cybersecurity strategy
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-03-06T10:00:00Z
-- URL: https://www.texasbankers.com/white-house-publishes-national-cybersecurity-strategy/
-
-The White House published its strategy blueprint for securing the nation’s infrastructure and private sector against cyber threats. The newly published National Cyber Strategy urges “unprecedented coordination” to strengthen U.S. infrastructure and industry, calling for major investments in emerging technologies and updated security practices. According to the document, the ad…
 
 ## CVE-2026-3336 PKCS7_verify Certificate Chain Validation Bypass in AWS-LC
 - Source: Microsoft MSRC
@@ -2375,14 +2359,6 @@ The Office of Personnel Management (OPM) is issuing a proposed rule to revise it
 
 If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA .
 
-## Trump officially nominates Warsh to be Fed Chair
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-03-04T11:00:00Z
-- URL: https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/
-
-President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…
-
 ## CVE-2025-58160 Tracing logging user input may result in poisoning logs with ANSI escape sequences
 - Source: Microsoft MSRC
 - Category: IS
@@ -2468,14 +2444,6 @@ Join us May 6–8 in Washington, DC for three power-packed days bringing togethe
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260303a.htm
 
 Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank
-
-## OCC finalizes revised licensing requirements
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-03-03T15:00:00Z
-- URL: https://www.texasbankers.com/occ-finalizes-revised-licensing-requirements/
-
-The Office of the Comptroller of the Currency finalized a rule updating licensing requirements for community banks and scrapped a decades-old fair-housing monitoring system, moves the agency said are intended to ease regulatory pressures on smaller institutions. The changes were originally proposed last year as part of a broader package aimed at streamlining oversight of […] T…
 
 ## DAMA International elects Finastra’s Peter Vennel as Vice President
 - Source: Finastra
