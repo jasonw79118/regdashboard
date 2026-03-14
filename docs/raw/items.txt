@@ -1603,6 +1603,13 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-10T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -2587,12 +2594,5 @@ Microsoft MSRC
 2026-03-01T09:01:55Z
 CVE-2026-27969 Vitess users with backup storage access can write to arbitrary file paths on restore
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27969
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-02-28T09:39:54Z
-CVE-2026-27571 nats-server websockets are vulnerable to pre-auth memory DoS
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27571
 Information published.
 ------------------------------------------------------------

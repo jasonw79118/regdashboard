@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T09:39:15Z` → `2026-03-14T09:39:15Z` (UTC)
-Last updated: `2026-03-14T04:39:15-05:00` (CT) — `2026-03-14T09:39:15Z` (UTC)
+Window: `2026-02-28T10:34:00Z` → `2026-03-14T10:34:00Z` (UTC)
+Last updated: `2026-03-14T05:34:00-05:00` (CT) — `2026-03-14T10:34:00Z` (UTC)
 
 ## CVE-2026-23868
 - Source: Microsoft MSRC
@@ -1803,6 +1803,14 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -2890,13 +2898,5 @@ This proposed rule would amend HUD regulations to provide Public Housing Agencie
 - Category: IS
 - Published: 2026-03-01T09:01:55Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27969
-
-Information published.
-
-## CVE-2026-27571 nats-server websockets are vulnerable to pre-auth memory DoS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-02-28T09:39:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27571
 
 Information published.
