@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-02-28T04:46:43Z",
-  "window_end": "2026-03-14T04:46:43Z",
-  "generated_at_utc": "2026-03-14T04:46:43Z",
-  "generated_at_ct": "2026-03-13T23:46:43-05:00",
+  "window_start": "2026-02-28T05:50:57Z",
+  "window_end": "2026-03-14T05:50:57Z",
+  "generated_at_utc": "2026-03-14T05:50:57Z",
+  "generated_at_ct": "2026-03-14T00:50:57-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-3910 Inappropriate implementation in V8",
+      "published_at": "2026-03-14T05:11:14Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3910",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3910 exists in the wild."
+    },
     {
       "category": "IS",
       "source": "Microsoft MSRC",
@@ -1873,6 +1881,14 @@
       "summary": ""
     },
     {
+      "category": "Compliance Watch",
+      "source": "TBA",
+      "title": "Trump signs executive order to fight cybercrime",
+      "published_at": "2026-03-09T18:59:35Z",
+      "url": "https://www.texasbankers.com/trump-signs-executive-order-to-fight-cybercrime/",
+      "summary": "President Donald Trump signed an executive order directing federal law enforcement to expand tools for combating transnational criminal organizations behind cyber scams and fraud, while creating a pathway for returning seized funds to victims. The action came alongside the publication of the White House’s National Cyber Strategy. According to the administration, U.S. consumers…"
+    },
+    {
       "category": "Executive",
       "source": "White House",
       "title": "U.S. Hostage and Wrongful Detainee Day, 2026",
@@ -2025,6 +2041,14 @@
       "published_at": "2026-03-06T12:00:00Z",
       "url": "https://www.fincen.gov/news/news-releases/financial-action-task-force-identifies-jurisdictions-anti-money-laundering-5",
       "summary": "WASHINGTON—The Financial Crimes Enforcement Network (FinCEN) is informing U.S."
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "TBA",
+      "title": "White House publishes national cybersecurity strategy",
+      "published_at": "2026-03-06T10:00:00Z",
+      "url": "https://www.texasbankers.com/white-house-publishes-national-cybersecurity-strategy/",
+      "summary": "The White House published its strategy blueprint for securing the nation’s infrastructure and private sector against cyber threats. The newly published National Cyber Strategy urges “unprecedented coordination” to strengthen U.S. infrastructure and industry, calling for major investments in emerging technologies and updated security practices. According to the document, the ad…"
     },
     {
       "category": "IS",
@@ -2544,6 +2568,14 @@
       "summary": "If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA ."
     },
     {
+      "category": "Compliance Watch",
+      "source": "TBA",
+      "title": "Trump officially nominates Warsh to be Fed Chair",
+      "published_at": "2026-03-04T11:00:00Z",
+      "url": "https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/",
+      "summary": "President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…"
+    },
+    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2025-58160 Tracing logging user input may result in poisoning logs with ANSI escape sequences",
@@ -2655,6 +2687,14 @@
       "published_at": "2026-03-03T16:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260303a.htm",
       "summary": "Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank"
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "TBA",
+      "title": "OCC finalizes revised licensing requirements",
+      "published_at": "2026-03-03T15:00:00Z",
+      "url": "https://www.texasbankers.com/occ-finalizes-revised-licensing-requirements/",
+      "summary": "The Office of the Comptroller of the Currency finalized a rule updating licensing requirements for community banks and scrapped a decades-old fair-housing monitoring system, moves the agency said are intended to ease regulatory pressures on smaller institutions. The changes were originally proposed last year as part of a broader package aimed at streamlining oversight of […] T…"
     },
     {
       "category": "Fintech Watch",

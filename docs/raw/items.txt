@@ -1,5 +1,12 @@
 IS
 Microsoft MSRC
+2026-03-14T05:11:14Z
+Chromium: CVE-2026-3910 Inappropriate implementation in V8
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3910
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3910 exists in the wild.
+------------------------------------------------------------
+IS
+Microsoft MSRC
 2026-03-14T01:20:30Z
 Chromium: CVE-2026-3942 Incorrect security UI in PictureInPicture
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3942
@@ -1581,6 +1588,13 @@ White House
 Nominations Sent to the Senate
 https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-623c/
 ------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-09T18:59:35Z
+Trump signs executive order to fight cybercrime
+https://www.texasbankers.com/trump-signs-executive-order-to-fight-cybercrime/
+President Donald Trump signed an executive order directing federal law enforcement to expand tools for combating transnational criminal organizations behind cyber scams and fraud, while creating a pathway for returning seized funds to victims. The action came alongside the publication of the White House’s National Cyber Strategy. According to the administration, U.S. consumers…
+------------------------------------------------------------
 Executive
 White House
 2026-03-09T17:34:47Z
@@ -1693,6 +1707,13 @@ FinCEN
 Financial Action Task Force Identifies Jurisdictions with Anti-Money Laundering, Combating the Financing of Terrorism, and Counter-Proliferation Finance Deficiencies
 https://www.fincen.gov/news/news-releases/financial-action-task-force-identifies-jurisdictions-anti-money-laundering-5
 WASHINGTON—The Financial Crimes Enforcement Network (FinCEN) is informing U.S.
+------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-06T10:00:00Z
+White House publishes national cybersecurity strategy
+https://www.texasbankers.com/white-house-publishes-national-cybersecurity-strategy/
+The White House published its strategy blueprint for securing the nation’s infrastructure and private sector against cyber threats. The newly published National Cyber Strategy urges “unprecedented coordination” to strengthen U.S. infrastructure and industry, calling for major investments in emerging technologies and updated security practices. According to the document, the ad…
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -2103,6 +2124,13 @@ Strengthen the connections that power our industry at CDIA Connect!
 https://www.cdiaonline.org/events/2026/03/04/strengthen-the-connections-that-power-our-industry-at-cdia-connect/
 If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA .
 ------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-04T11:00:00Z
+Trump officially nominates Warsh to be Fed Chair
+https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/
+President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…
+------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-03-04T09:13:02Z
@@ -2181,6 +2209,13 @@ FRB
 Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank
 https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260303a.htm
 Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank
+------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-03T15:00:00Z
+OCC finalizes revised licensing requirements
+https://www.texasbankers.com/occ-finalizes-revised-licensing-requirements/
+The Office of the Comptroller of the Currency finalized a rule updating licensing requirements for community banks and scrapped a decades-old fair-housing monitoring system, moves the agency said are intended to ease regulatory pressures on smaller institutions. The changes were originally proposed last year as part of a broader package aimed at streamlining oversight of […] T…
 ------------------------------------------------------------
 Fintech Watch
 Finastra
