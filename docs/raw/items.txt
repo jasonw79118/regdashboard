@@ -1,5 +1,82 @@
 IS
 Microsoft MSRC
+2026-03-14T08:37:47Z
+CVE-2026-23868
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23868
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:37:36Z
+CVE-2026-27137 Incorrect enforcement of email constraints in crypto/x509
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27137
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:37:26Z
+CVE-2026-27138 Panic in name constraint checking for malformed certificates in crypto/x509
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27138
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:37:11Z
+CVE-2026-3494 MariaDB Server Audit Plugin Comment Handling Bypass
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3494
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:37:01Z
+CVE-2026-26018 CoreDNS Loop Detection Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26018
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:36:50Z
+CVE-2026-26017 CoreDNS ACL Bypass
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26017
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:36:22Z
+CVE-2026-27141 Sending certain HTTP/2 frames can cause a server to panic in golang.org/x/net
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27141
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:36:06Z
+CVE-2025-58160 Tracing logging user input may result in poisoning logs with ANSI escape sequences
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58160
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:01:27Z
+CVE-2026-27171 zlib before 1.3.2 allows CPU consumption via crc32_combine64 and crc32_combine_gen64 because x2nmodp can do right shifts within a loop that has no termination condition.
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27171
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:01:22Z
+CVE-2026-3381 Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3381
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-14T08:01:17Z
+CVE-2026-31802 node-tar Symlink Path Traversal via Drive-Relative Linkpath
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31802
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
 2026-03-14T05:11:14Z
 Chromium: CVE-2026-3910 Inappropriate implementation in V8
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3910
@@ -396,13 +473,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-03-13T08:02:54Z
-CVE-2026-23868
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23868
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-03-13T08:02:44Z
 CVE-2026-3784 wrong proxy connection reuse with credentials
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
@@ -787,20 +857,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-03-11T08:03:44Z
-CVE-2026-27137 Incorrect enforcement of email constraints in crypto/x509
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27137
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-11T08:03:35Z
-CVE-2026-27138 Panic in name constraint checking for malformed certificates in crypto/x509
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27138
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-03-11T08:03:28Z
 CVE-2026-27142 URLs in meta content attribute actions are not escaped in html/template
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27142
@@ -864,13 +920,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-03-11T08:01:52Z
-CVE-2026-3494 MariaDB Server Audit Plugin Comment Handling Bypass
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3494
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-03-11T08:01:46Z
 CVE-2026-3731 libssh SFTP Extension Name sftp.c sftp_extensions_get_data out-of-bounds
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3731
@@ -888,20 +937,6 @@ Microsoft MSRC
 2026-03-11T08:01:32Z
 CVE-2026-27139 FileInfo can escape from a Root in os
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27139
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-11T08:01:19Z
-CVE-2026-26018 CoreDNS Loop Detection Denial of Service Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26018
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-11T08:01:14Z
-CVE-2026-26017 CoreDNS ACL Bypass
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26017
 Information published.
 ------------------------------------------------------------
 Compliance Watch
@@ -1568,6 +1603,13 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-10T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -1971,13 +2013,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-03-05T09:08:22Z
-CVE-2026-27141 Sending certain HTTP/2 frames can cause a server to panic in golang.org/x/net
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27141
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-03-05T09:04:52Z
 CVE-2026-23231 netfilter: nf_tables: fix use-after-free in nf_tables_addchain()
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23231
@@ -2123,13 +2158,6 @@ TBA
 Trump officially nominates Warsh to be Fed Chair
 https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/
 President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-04T09:13:02Z
-CVE-2025-58160 Tracing logging user input may result in poisoning logs with ANSI escape sequences
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58160
-Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
