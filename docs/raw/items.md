@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T10:34:00Z` → `2026-03-14T10:34:00Z` (UTC)
-Last updated: `2026-03-14T05:34:00-05:00` (CT) — `2026-03-14T10:34:00Z` (UTC)
+Window: `2026-02-28T11:29:30Z` → `2026-03-14T11:29:30Z` (UTC)
+Last updated: `2026-03-14T06:29:30-05:00` (CT) — `2026-03-14T11:29:30Z` (UTC)
 
 ## CVE-2026-23868
 - Source: Microsoft MSRC
@@ -1802,14 +1802,6 @@ Information published.
 - Category: Compliance Watch
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
-
-Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
