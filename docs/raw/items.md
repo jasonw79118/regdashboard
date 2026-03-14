@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T20:35:04Z` → `2026-03-14T20:35:04Z` (UTC)
-Last updated: `2026-03-14T15:35:04-05:00` (CT) — `2026-03-14T20:35:04Z` (UTC)
+Window: `2026-02-28T21:32:23Z` → `2026-03-14T21:32:23Z` (UTC)
+Last updated: `2026-03-14T16:32:23-05:00` (CT) — `2026-03-14T21:32:23Z` (UTC)
 
 ## AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
 - Source: BleepingComputer
@@ -1802,14 +1802,6 @@ Information published.
 - Category: Compliance Watch
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
-
-Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
 
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB

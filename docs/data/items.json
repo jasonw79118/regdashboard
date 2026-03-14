@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-28T20:35:04Z",
-  "window_end": "2026-03-14T20:35:04Z",
-  "generated_at_utc": "2026-03-14T20:35:04Z",
-  "generated_at_ct": "2026-03-14T15:35:04-05:00",
+  "window_start": "2026-02-28T21:32:23Z",
+  "window_end": "2026-03-14T21:32:23Z",
+  "generated_at_utc": "2026-03-14T21:32:23Z",
+  "generated_at_ct": "2026-03-14T16:32:23-05:00",
   "items": [
     {
       "category": "IS",
@@ -1895,14 +1895,6 @@
       "published_at": "2026-03-10T00:00:00Z",
       "url": "https://www.cdiaonline.org/education-services/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
-      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
     },
     {
       "category": "Banking",
