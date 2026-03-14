@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-28T11:29:30Z",
-  "window_end": "2026-03-14T11:29:30Z",
-  "generated_at_utc": "2026-03-14T11:29:30Z",
-  "generated_at_ct": "2026-03-14T06:29:30-05:00",
+  "window_start": "2026-02-28T13:03:27Z",
+  "window_end": "2026-03-14T13:03:27Z",
+  "generated_at_utc": "2026-03-14T13:03:27Z",
+  "generated_at_ct": "2026-03-14T08:03:27-05:00",
   "items": [
     {
       "category": "IS",
@@ -331,6 +331,14 @@
       "published_at": "2026-03-14T01:20:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913",
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "This documentary streaming service is $140 for lifetime access",
+      "published_at": "2026-03-14T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/",
+      "summary": ""
     },
     {
       "category": "IS",
@@ -922,14 +930,6 @@
       "title": "Going the Extra Mile: Travel Rewards Turn into Underground Currency.",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Apple patches older iPhones and iPads against Coruna exploits",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
       "summary": ""
     },
     {
@@ -1897,6 +1897,14 @@
       "summary": ""
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-10T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report",
+      "summary": "Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation"
+    },
+    {
       "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces approval of notice by CBS Banc-Corp.",
@@ -1951,6 +1959,14 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-09T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
+      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",
@@ -2306,6 +2322,14 @@
       "published_at": "2026-03-05T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-05T10:30:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
+      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
     },
     {
       "category": "Compliance Watch",

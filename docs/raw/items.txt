@@ -287,6 +287,12 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 ------------------------------------------------------------
 IS
 BleepingComputer
+2026-03-14T00:00:00Z
+This documentary streaming service is $140 for lifetime access
+https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-13T22:11:57Z
 Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
 https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/
@@ -772,12 +778,6 @@ BleepingComputer
 2026-03-12T00:00:00Z
 Going the Extra Mile: Travel Rewards Turn into Underground Currency.
 https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T00:00:00Z
-Apple patches older iPhones and iPads against Coruna exploits
-https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1603,6 +1603,13 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-10T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -1646,6 +1653,13 @@ CDIA
 2026-03-09T00:00:00Z
 March 9, 2026 Events News Views Boost Your Team’s Compliance Expertise with the FCRA Compliance Training Equip your staff with a solid, practical understanding of FCRA/FACTA requirements...
 https://www.cdiaonline.org/events/2026/03/09/31951/
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-09T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -1919,6 +1933,13 @@ Finastra
 2026-03-05T12:00:00Z
 Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-05T10:30:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 ------------------------------------------------------------
 Compliance Watch
 CDIA

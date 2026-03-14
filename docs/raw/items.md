@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T11:29:30Z` → `2026-03-14T11:29:30Z` (UTC)
-Last updated: `2026-03-14T06:29:30-05:00` (CT) — `2026-03-14T11:29:30Z` (UTC)
+Window: `2026-02-28T13:03:27Z` → `2026-03-14T13:03:27Z` (UTC)
+Last updated: `2026-03-14T08:03:27-05:00` (CT) — `2026-03-14T13:03:27Z` (UTC)
 
 ## CVE-2026-23868
 - Source: Microsoft MSRC
@@ -330,6 +330,12 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
+
+## This documentary streaming service is $140 for lifetime access
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-14T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/
 
 ## Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
 - Source: BleepingComputer
@@ -862,12 +868,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/
-
-## Apple patches older iPhones and iPads against Coruna exploits
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -1803,6 +1803,14 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
+
+Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
+
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -1848,6 +1856,14 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-09T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
@@ -2154,6 +2170,14 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-05T10:30:00Z
+- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA
