@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T15:33:04Z` → `2026-03-14T15:33:04Z` (UTC)
-Last updated: `2026-03-14T10:33:04-05:00` (CT) — `2026-03-14T15:33:04Z` (UTC)
+Window: `2026-02-28T16:37:52Z` → `2026-03-14T16:37:52Z` (UTC)
+Last updated: `2026-03-14T11:37:52-05:00` (CT) — `2026-03-14T16:37:52Z` (UTC)
 
 ## AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
 - Source: BleepingComputer
@@ -1857,14 +1857,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
-
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
 - Category: Federal Register
@@ -2171,14 +2163,6 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-05T10:30:00Z
-- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
-
-Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
-
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA
 - Category: Compliance Watch
@@ -2454,14 +2438,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
 
 Information published.
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-04T08:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-2026-future-ready-lawyer-webinar-series
-
-The seven-part webinar series will feature insights from industry leaders and legal luminaries
 
 ## Issuance of Venezuela-related Frequently Asked Questions
 - Source: OFAC

@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-28T15:33:04Z",
-  "window_end": "2026-03-14T15:33:04Z",
-  "generated_at_utc": "2026-03-14T15:33:04Z",
-  "generated_at_ct": "2026-03-14T10:33:04-05:00",
+  "window_start": "2026-02-28T16:37:52Z",
+  "window_end": "2026-03-14T16:37:52Z",
+  "generated_at_utc": "2026-03-14T16:37:52Z",
+  "generated_at_ct": "2026-03-14T11:37:52-05:00",
   "items": [
     {
       "category": "IS",
@@ -1961,14 +1961,6 @@
       "summary": ""
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
-      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
-    },
-    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Trump Accounts Contribution Pilot Program",
@@ -2325,14 +2317,6 @@
     },
     {
       "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-05T10:30:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
-      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
-    },
-    {
-      "category": "Compliance Watch",
       "source": "CDIA",
       "title": "Liability Reform & Competition and Impact on Risk to the Lender",
       "published_at": "2026-03-05T10:00:05Z",
@@ -2638,14 +2622,6 @@
       "published_at": "2026-03-04T09:04:21Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965",
       "summary": "Information published."
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-04T08:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-2026-future-ready-lawyer-webinar-series",
-      "summary": "The seven-part webinar series will feature insights from industry leaders and legal luminaries"
     },
     {
       "category": "OFAC",

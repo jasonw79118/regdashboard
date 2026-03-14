@@ -1654,13 +1654,6 @@ CDIA
 March 9, 2026 Events News Views Boost Your Team’s Compliance Expertise with the FCRA Compliance Training Equip your staff with a solid, practical understanding of FCRA/FACTA requirements...
 https://www.cdiaonline.org/events/2026/03/09/31951/
 ------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-09T00:00:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
-------------------------------------------------------------
 Federal Register
 Federal Register
 2026-03-09T00:00:00Z
@@ -1935,13 +1928,6 @@ Finastra launches AI-based OperatorAssist to transform how banks address payment
 https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
 ------------------------------------------------------------
 Compliance Watch
-Wolters Kluwer
-2026-03-05T10:30:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
-Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
-------------------------------------------------------------
-Compliance Watch
 CDIA
 2026-03-05T10:00:05Z
 Liability Reform & Competition and Impact on Risk to the Lender
@@ -2186,13 +2172,6 @@ Microsoft MSRC
 CVE-2026-27965 Vitess users with backup storage access can gain unauthorized access to production deployment environments
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
 Information published.
-------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-04T08:00:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/wolters-kluwer-to-host-2026-future-ready-lawyer-webinar-series
-The seven-part webinar series will feature insights from industry leaders and legal luminaries
 ------------------------------------------------------------
 OFAC
 OFAC
