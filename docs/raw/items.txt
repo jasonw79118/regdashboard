@@ -1654,13 +1654,6 @@ CDIA
 March 9, 2026 Events News Views Boost Your Team’s Compliance Expertise with the FCRA Compliance Training Equip your staff with a solid, practical understanding of FCRA/FACTA requirements...
 https://www.cdiaonline.org/events/2026/03/09/31951/
 ------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-09T00:00:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
-------------------------------------------------------------
 Federal Register
 Federal Register
 2026-03-09T00:00:00Z
@@ -2595,11 +2588,4 @@ Federal Register
 Establishing Flexibility for Implementation of Work Requirements and Term Limits
 https://www.federalregister.gov/documents/2026/03/02/2026-04095/establishing-flexibility-for-implementation-of-work-requirements-and-term-limits
 This proposed rule would amend HUD regulations to provide Public Housing Agencies (PHAs) and certain Multifamily Housing Owners (Owners) with the option to implement work requirements for work- eligible adults and term limits for non-elderly, non-disabled families residing in public housing or receiving assistance through Housing Choice Vouchers (HCV), Project-Based Vouchers (…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-01T09:01:55Z
-CVE-2026-27969 Vitess users with backup storage access can write to arbitrary file paths on restore
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27969
-Information published.
 ------------------------------------------------------------

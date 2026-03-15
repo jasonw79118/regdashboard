@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T08:43:24Z` → `2026-03-15T08:43:24Z` (UTC)
-Last updated: `2026-03-15T03:43:24-05:00` (CT) — `2026-03-15T08:43:24Z` (UTC)
+Window: `2026-03-01T09:39:55Z` → `2026-03-15T09:39:55Z` (UTC)
+Last updated: `2026-03-15T04:39:55-05:00` (CT) — `2026-03-15T09:39:55Z` (UTC)
 
 ## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
 - Source: BleepingComputer
@@ -1857,14 +1857,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
-
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
 - Category: Federal Register
@@ -2900,11 +2892,3 @@ The Executive Office for Immigration Review ("EOIR") is implementing electronic 
 - URL: https://www.federalregister.gov/documents/2026/03/02/2026-04095/establishing-flexibility-for-implementation-of-work-requirements-and-term-limits
 
 This proposed rule would amend HUD regulations to provide Public Housing Agencies (PHAs) and certain Multifamily Housing Owners (Owners) with the option to implement work requirements for work- eligible adults and term limits for non-elderly, non-disabled families residing in public housing or receiving assistance through Housing Choice Vouchers (HCV), Project-Based Vouchers (…
-
-## CVE-2026-27969 Vitess users with backup storage access can write to arbitrary file paths on restore
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-01T09:01:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27969
-
-Information published.

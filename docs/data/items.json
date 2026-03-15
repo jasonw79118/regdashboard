@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-03-01T08:43:24Z",
-  "window_end": "2026-03-15T08:43:24Z",
-  "generated_at_utc": "2026-03-15T08:43:24Z",
-  "generated_at_ct": "2026-03-15T03:43:24-05:00",
+  "window_start": "2026-03-01T09:39:55Z",
+  "window_end": "2026-03-15T09:39:55Z",
+  "generated_at_utc": "2026-03-15T09:39:55Z",
+  "generated_at_ct": "2026-03-15T04:39:55-05:00",
   "items": [
     {
       "category": "IS",
@@ -1961,14 +1961,6 @@
       "summary": ""
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
-      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
-    },
-    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Trump Accounts Contribution Pilot Program",
@@ -3199,14 +3191,6 @@
         "topic:mortgage-insurance"
       ],
       "fedreg_document_number": "2026-04095"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-27969 Vitess users with backup storage access can write to arbitrary file paths on restore",
-      "published_at": "2026-03-01T09:01:55Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27969",
-      "summary": "Information published."
     }
   ]
 }
