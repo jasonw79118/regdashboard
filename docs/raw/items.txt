@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-03-15T14:17:23Z
+Betterleaks, a new open-source secrets scanner to replace Gitleaks
+https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
+A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-15T00:00:00Z
 This $20 EDU Unlimited deal unlocks 1,000+ online courses
 https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/
@@ -620,13 +627,6 @@ White House
 Nomination and Withdrawals Sent to the Senate
 https://www.whitehouse.gov/presidential-actions/2026/03/nomination-and-withdrawals-sent-to-the-senate/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T16:59:20Z
-Veeam warns of critical flaws exposing backup servers to RCE attacks
-https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
-Data protection company Veeam Software has patched multiple flaws in its Backup & Replication solution, including four critical remote code execution (RCE) vulnerabilities. [...]
-------------------------------------------------------------
 OFAC
 Treasury
 2026-03-12T16:30:00Z
@@ -776,8 +776,8 @@ https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromeb
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
-US disrupts SocksEscort proxy network powered by Linux malware
-https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
+Veeam warns of critical flaws exposing backup servers to RCE attacks
+https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer

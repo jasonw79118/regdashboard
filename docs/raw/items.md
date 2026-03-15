@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T13:04:32Z` → `2026-03-15T13:04:32Z` (UTC)
-Last updated: `2026-03-15T08:04:32-05:00` (CT) — `2026-03-15T13:04:32Z` (UTC)
+Window: `2026-03-01T14:35:52Z` → `2026-03-15T14:35:52Z` (UTC)
+Last updated: `2026-03-15T09:35:52-05:00` (CT) — `2026-03-15T14:35:52Z` (UTC)
+
+## Betterleaks, a new open-source secrets scanner to replace Gitleaks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-15T14:17:23Z
+- URL: https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
+
+A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules. [...]
 
 ## This $20 EDU Unlimited deal unlocks 1,000+ online courses
 - Source: BleepingComputer
@@ -695,14 +703,6 @@ A new malware strain dubbed Slopoly, likely created using generative AI tools, a
 - Published: 2026-03-12T17:17:54Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/nomination-and-withdrawals-sent-to-the-senate/
 
-## Veeam warns of critical flaws exposing backup servers to RCE attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T16:59:20Z
-- URL: https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
-
-Data protection company Veeam Software has patched multiple flaws in its Backup & Replication solution, including four critical remote code execution (RCE) vulnerabilities. [...]
-
 ## Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses
 - Source: Treasury
 - Category: OFAC
@@ -863,11 +863,11 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
 
-## US disrupts SocksEscort proxy network powered by Linux malware
+## Veeam warns of critical flaws exposing backup servers to RCE attacks
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
+- URL: https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer

@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-03-01T13:04:32Z",
-  "window_end": "2026-03-15T13:04:32Z",
-  "generated_at_utc": "2026-03-15T13:04:32Z",
-  "generated_at_ct": "2026-03-15T08:04:32-05:00",
+  "window_start": "2026-03-01T14:35:52Z",
+  "window_end": "2026-03-15T14:35:52Z",
+  "generated_at_utc": "2026-03-15T14:35:52Z",
+  "generated_at_ct": "2026-03-15T09:35:52-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Betterleaks, a new open-source secrets scanner to replace Gitleaks",
+      "published_at": "2026-03-15T14:17:23Z",
+      "url": "https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/",
+      "summary": "A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -741,14 +749,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Veeam warns of critical flaws exposing backup servers to RCE attacks",
-      "published_at": "2026-03-12T16:59:20Z",
-      "url": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
-      "summary": "Data protection company Veeam Software has patched multiple flaws in its Backup & Replication solution, including four critical remote code execution (RCE) vulnerabilities. [...]"
-    },
-    {
       "category": "OFAC",
       "source": "Treasury",
       "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
@@ -927,9 +927,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "US disrupts SocksEscort proxy network powered by Linux malware",
+      "title": "Veeam warns of critical flaws exposing backup servers to RCE attacks",
       "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/",
+      "url": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
       "summary": ""
     },
     {
