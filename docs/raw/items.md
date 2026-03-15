@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-02-28T23:33:41Z` → `2026-03-14T23:33:41Z` (UTC)
-Last updated: `2026-03-14T18:33:41-05:00` (CT) — `2026-03-14T23:33:41Z` (UTC)
+Window: `2026-03-01T02:51:49Z` → `2026-03-15T02:51:49Z` (UTC)
+Last updated: `2026-03-14T21:51:49-05:00` (CT) — `2026-03-15T02:51:49Z` (UTC)
 
 ## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
 - Source: BleepingComputer
@@ -1857,6 +1857,14 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
 
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-09T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
+
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
 - Category: Federal Register
@@ -2079,6 +2087,12 @@ The problems with paper checks are well-documented. According to the Federal Res
 - Published: 2026-03-06T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9
 
+## ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-03-06T00:00:00Z
+- URL: https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred
+
 ## Removal of Regulations for Renewal Communities Designations
 - Source: Federal Register
 - Category: Federal Register
@@ -2156,6 +2170,14 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-05T10:30:00Z
+- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA
@@ -2832,6 +2854,12 @@ IR-2026-28, March 2, 2026 – The Internal Revenue Service published, for tax ye
 - URL: https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026
 
 Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes.
+
+## Jack Henry Executives Set to Speak at Upcoming Investor Conferences
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-03-02T00:00:00Z
+- URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences
 
 ## Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency
 - Source: Federal Register

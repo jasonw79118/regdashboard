@@ -1654,6 +1654,13 @@ CDIA
 March 9, 2026 Events News Views Boost Your Team’s Compliance Expertise with the FCRA Compliance Training Equip your staff with a solid, practical understanding of FCRA/FACTA requirements...
 https://www.cdiaonline.org/events/2026/03/09/31951/
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-09T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
+------------------------------------------------------------
 Federal Register
 Federal Register
 2026-03-09T00:00:00Z
@@ -1852,6 +1859,12 @@ Fiserv
 Fiserv to Present at Upcoming Investor Conferences
 https://investors.fiserv.com/news-releases/news-release-details/fiserv-present-upcoming-investor-conferences-9
 ------------------------------------------------------------
+Fintech Watch
+Jack Henry
+2026-03-06T00:00:00Z
+ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program
+https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred
+------------------------------------------------------------
 Federal Register
 Federal Register
 2026-03-06T00:00:00Z
@@ -1920,6 +1933,13 @@ Finastra
 2026-03-05T12:00:00Z
 Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-05T10:30:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -2534,6 +2554,12 @@ Fannie Mae
 Fannie Mae Announces Results of Tender Offer for Any and All of Certain CAS Notes
 https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026
 Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes.
+------------------------------------------------------------
+Fintech Watch
+Jack Henry
+2026-03-02T00:00:00Z
+Jack Henry Executives Set to Speak at Upcoming Investor Conferences
+https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences
 ------------------------------------------------------------
 Federal Register
 Federal Register

@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-02-28T23:33:41Z",
-  "window_end": "2026-03-14T23:33:41Z",
-  "generated_at_utc": "2026-03-14T23:33:41Z",
-  "generated_at_ct": "2026-03-14T18:33:41-05:00",
+  "window_start": "2026-03-01T02:51:49Z",
+  "window_end": "2026-03-15T02:51:49Z",
+  "generated_at_utc": "2026-03-15T02:51:49Z",
+  "generated_at_ct": "2026-03-14T21:51:49-05:00",
   "items": [
     {
       "category": "IS",
@@ -1961,6 +1961,14 @@
       "summary": ""
     },
     {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-09T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
+      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
+    },
+    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Trump Accounts Contribution Pilot Program",
@@ -2211,6 +2219,14 @@
       "summary": ""
     },
     {
+      "category": "Fintech Watch",
+      "source": "Jack Henry",
+      "title": "ICBA Adds Jack Henry's Financial Crimes Defender to Preferred Service Provider Program",
+      "published_at": "2026-03-06T00:00:00Z",
+      "url": "https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred",
+      "summary": ""
+    },
+    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Removal of Regulations for Renewal Communities Designations",
@@ -2306,6 +2322,14 @@
       "published_at": "2026-03-05T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-05T10:30:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
+      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
     },
     {
       "category": "Compliance Watch",
@@ -3084,6 +3108,14 @@
       "published_at": "2026-03-02T00:00:00Z",
       "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/tender-offer-results-any-all-certain-cas-notes-feb-2026",
       "summary": "Fannie Mae announced the results of its fixed-price cash tender offers for certain of its Connecticut Avenue Securities® (CAS) Notes."
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Jack Henry",
+      "title": "Jack Henry Executives Set to Speak at Upcoming Investor Conferences",
+      "published_at": "2026-03-02T00:00:00Z",
+      "url": "https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-executives-set-speak-upcoming-investor-conferences",
+      "summary": ""
     },
     {
       "category": "Federal Register",
