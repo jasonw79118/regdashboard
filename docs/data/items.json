@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-03-01T22:34:02Z",
-  "window_end": "2026-03-15T22:34:02Z",
-  "generated_at_utc": "2026-03-15T22:34:02Z",
-  "generated_at_ct": "2026-03-15T17:34:02-05:00",
+  "window_start": "2026-03-01T23:34:34Z",
+  "window_end": "2026-03-15T23:34:34Z",
+  "generated_at_utc": "2026-03-15T23:34:34Z",
+  "generated_at_ct": "2026-03-15T18:34:34-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "OpenAI says ChatGPT ads are not rolling out globally for now",
+      "published_at": "2026-03-15T23:13:28Z",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/",
+      "summary": "OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet rolling out outside the United States, even though some users noticed references to ads in the updated privacy policy. [...]"
+    },
     {
       "category": "Executive",
       "source": "White House",
@@ -741,14 +749,6 @@
       "summary": "Federal Reserve Board announces approval of application by Home BancShares"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "AI-generated Slopoly malware used in Interlock ransomware attack",
-      "published_at": "2026-03-12T20:01:27Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/",
-      "summary": "A new malware strain dubbed Slopoly, likely created using generative AI tools, allowed a threat actor to remain on a compromised server for more than a week and steal data in an Interlock ransomware attack. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "Nomination and Withdrawals Sent to the Senate",
@@ -927,17 +927,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150",
+      "title": "AI-generated Slopoly malware used in Interlock ransomware attack",
       "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Veeam warns of critical flaws exposing backup servers to RCE attacks",
+      "title": "Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150",
       "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
+      "url": "https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/",
       "summary": ""
     },
     {
@@ -1967,14 +1967,6 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
-      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",

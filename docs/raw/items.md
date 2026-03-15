@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T22:34:02Z` → `2026-03-15T22:34:02Z` (UTC)
-Last updated: `2026-03-15T17:34:02-05:00` (CT) — `2026-03-15T22:34:02Z` (UTC)
+Window: `2026-03-01T23:34:34Z` → `2026-03-15T23:34:34Z` (UTC)
+Last updated: `2026-03-15T18:34:34-05:00` (CT) — `2026-03-15T23:34:34Z` (UTC)
+
+## OpenAI says ChatGPT ads are not rolling out globally for now
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-15T23:13:28Z
+- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/
+
+OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet rolling out outside the United States, even though some users noticed references to ads in the updated privacy policy. [...]
 
 ## America 250: Presidential Message on the Birthday of President Andrew Jackson
 - Source: White House
@@ -695,14 +703,6 @@ England Hockey, the governing body for field hockey in England, is investigating
 
 Federal Reserve Board announces approval of application by Home BancShares
 
-## AI-generated Slopoly malware used in Interlock ransomware attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T20:01:27Z
-- URL: https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
-
-A new malware strain dubbed Slopoly, likely created using generative AI tools, allowed a threat actor to remain on a compromised server for more than a week and steal data in an Interlock ransomware attack. [...]
-
 ## Nomination and Withdrawals Sent to the Senate
 - Source: White House
 - Category: Executive
@@ -863,17 +863,17 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 
+## AI-generated Slopoly malware used in Interlock ransomware attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
+
 ## Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
-
-## Veeam warns of critical flaws exposing backup servers to RCE attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -1862,14 +1862,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register

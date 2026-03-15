@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-03-15T23:13:28Z
+OpenAI says ChatGPT ads are not rolling out globally for now
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/
+OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet rolling out outside the United States, even though some users noticed references to ads in the updated privacy policy. [...]
+------------------------------------------------------------
 Executive
 White House
 2026-03-15T18:44:39Z
@@ -620,13 +627,6 @@ Federal Reserve Board announces approval of application by Home BancShares
 https://www.federalreserve.gov/newsevents/pressreleases/orders20260312a.htm
 Federal Reserve Board announces approval of application by Home BancShares
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T20:01:27Z
-AI-generated Slopoly malware used in Interlock ransomware attack
-https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
-A new malware strain dubbed Slopoly, likely created using generative AI tools, allowed a threat actor to remain on a compromised server for more than a week and steal data in an Interlock ransomware attack. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-03-12T17:17:54Z
@@ -776,14 +776,14 @@ https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
-Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
-https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
+AI-generated Slopoly malware used in Interlock ransomware attack
+https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
-Veeam warns of critical flaws exposing backup servers to RCE attacks
-https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
+Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
+https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1659,13 +1659,6 @@ CDIA
 2026-03-09T00:00:00Z
 March 9, 2026 Events News Views Boost Your Team’s Compliance Expertise with the FCRA Compliance Training Equip your staff with a solid, practical understanding of FCRA/FACTA requirements...
 https://www.cdiaonline.org/events/2026/03/09/31951/
-------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-09T00:00:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 ------------------------------------------------------------
 Federal Register
 Federal Register
