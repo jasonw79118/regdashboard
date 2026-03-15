@@ -1,7 +1,13 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T11:31:03Z` → `2026-03-15T11:31:03Z` (UTC)
-Last updated: `2026-03-15T06:31:03-05:00` (CT) — `2026-03-15T11:31:03Z` (UTC)
+Window: `2026-03-01T13:04:32Z` → `2026-03-15T13:04:32Z` (UTC)
+Last updated: `2026-03-15T08:04:32-05:00` (CT) — `2026-03-15T13:04:32Z` (UTC)
+
+## This $20 EDU Unlimited deal unlocks 1,000+ online courses
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-15T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/
 
 ## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
 - Source: BleepingComputer
@@ -862,12 +868,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
-
-## Google paid $17.1 million for vulnerability reports in 2025
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -1856,6 +1856,14 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-09T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register

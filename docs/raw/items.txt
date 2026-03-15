@@ -1,5 +1,11 @@
 IS
 BleepingComputer
+2026-03-15T00:00:00Z
+This $20 EDU Unlimited deal unlocks 1,000+ online courses
+https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-14T21:48:14Z
 Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
 https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
@@ -772,12 +778,6 @@ BleepingComputer
 2026-03-12T00:00:00Z
 US disrupts SocksEscort proxy network powered by Linux malware
 https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T00:00:00Z
-Google paid $17.1 million for vulnerability reports in 2025
-https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1653,6 +1653,13 @@ CDIA
 2026-03-09T00:00:00Z
 March 9, 2026 Events News Views Boost Your Team’s Compliance Expertise with the FCRA Compliance Training Equip your staff with a solid, practical understanding of FCRA/FACTA requirements...
 https://www.cdiaonline.org/events/2026/03/09/31951/
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-09T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 ------------------------------------------------------------
 Federal Register
 Federal Register
