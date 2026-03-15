@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T18:47:51Z` → `2026-03-15T18:47:51Z` (UTC)
-Last updated: `2026-03-15T13:47:51-05:00` (CT) — `2026-03-15T18:47:51Z` (UTC)
+Window: `2026-03-01T19:32:27Z` → `2026-03-15T19:32:27Z` (UTC)
+Last updated: `2026-03-15T14:32:27-05:00` (CT) — `2026-03-15T19:32:27Z` (UTC)
 
 ## America 250: Presidential Message on the Birthday of President Andrew Jackson
 - Source: White House
@@ -623,23 +623,23 @@ Google has released emergency security updates to patch two high-severity Chrome
 
 IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…
 
+## Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding
+
+## Warren Statement on Federal Judge Ruling on Powell Subpoenas
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas
+
 ## Warren, Shaheen, Schumer Release Joint Statement on Trump Administration’s Further Weakening of Russia Sanctions as Trump’s Iran War Drives Up Costs
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-03-13T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-on-trump-administrations-further-weakening-of-russia-sanctions-as-trumps-iran-war-drives-up-costs
-
-## Warren Deepens Probe into Auto Lending Industry Over Higher-Priced Loans to Service Members
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-deepens-probe-into-auto-lending-industry-over-higher-priced-loans-to-service-members
-
-## Senator Warren Statement on January 2026 PCE
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce
 
 ## Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
 - Source: House Financial Services
@@ -1862,14 +1862,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register

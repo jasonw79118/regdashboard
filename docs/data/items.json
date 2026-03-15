@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-03-01T18:47:51Z",
-  "window_end": "2026-03-15T18:47:51Z",
-  "generated_at_utc": "2026-03-15T18:47:51Z",
-  "generated_at_ct": "2026-03-15T13:47:51-05:00",
+  "window_start": "2026-03-01T19:32:27Z",
+  "window_end": "2026-03-15T19:32:27Z",
+  "generated_at_utc": "2026-03-15T19:32:27Z",
+  "generated_at_ct": "2026-03-15T14:32:27-05:00",
   "items": [
     {
       "category": "Executive",
@@ -655,25 +655,25 @@
     {
       "category": "Legislative",
       "source": "Senate Banking",
+      "title": "Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Statement on Federal Judge Ruling on Powell Subpoenas",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
       "title": "Warren, Shaheen, Schumer Release Joint Statement on Trump Administration’s Further Weakening of Russia Sanctions as Trump’s Iran War Drives Up Costs",
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-on-trump-administrations-further-weakening-of-russia-sanctions-as-trumps-iran-war-drives-up-costs",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Deepens Probe into Auto Lending Industry Over Higher-Priced Loans to Service Members",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-deepens-probe-into-auto-lending-industry-over-higher-priced-loans-to-service-members",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Senator Warren Statement on January 2026 PCE",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-january-2026-pce",
       "summary": ""
     },
     {
@@ -1967,14 +1967,6 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-09T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
-      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",
