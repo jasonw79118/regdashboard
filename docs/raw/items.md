@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T10:36:36Z` → `2026-03-15T10:36:36Z` (UTC)
-Last updated: `2026-03-15T05:36:36-05:00` (CT) — `2026-03-15T10:36:36Z` (UTC)
+Window: `2026-03-01T11:31:03Z` → `2026-03-15T11:31:03Z` (UTC)
+Last updated: `2026-03-15T06:31:03-05:00` (CT) — `2026-03-15T11:31:03Z` (UTC)
 
 ## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
 - Source: BleepingComputer
@@ -1856,14 +1856,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
