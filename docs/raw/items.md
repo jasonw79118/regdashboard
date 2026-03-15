@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T21:33:28Z` → `2026-03-15T21:33:28Z` (UTC)
-Last updated: `2026-03-15T16:33:28-05:00` (CT) — `2026-03-15T21:33:28Z` (UTC)
+Window: `2026-03-01T22:34:02Z` → `2026-03-15T22:34:02Z` (UTC)
+Last updated: `2026-03-15T17:34:02-05:00` (CT) — `2026-03-15T22:34:02Z` (UTC)
 
 ## America 250: Presidential Message on the Birthday of President Andrew Jackson
 - Source: White House
@@ -1862,6 +1862,14 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-09T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
