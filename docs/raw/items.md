@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T05:09:43Z` → `2026-03-15T05:09:43Z` (UTC)
-Last updated: `2026-03-15T00:09:43-05:00` (CT) — `2026-03-15T05:09:43Z` (UTC)
+Window: `2026-03-01T07:05:14Z` → `2026-03-15T07:05:14Z` (UTC)
+Last updated: `2026-03-15T02:05:14-05:00` (CT) — `2026-03-15T07:05:14Z` (UTC)
 
 ## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
 - Source: BleepingComputer
