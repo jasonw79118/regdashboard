@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T14:35:52Z` → `2026-03-15T14:35:52Z` (UTC)
-Last updated: `2026-03-15T09:35:52-05:00` (CT) — `2026-03-15T14:35:52Z` (UTC)
+Window: `2026-03-01T15:33:58Z` → `2026-03-15T15:33:58Z` (UTC)
+Last updated: `2026-03-15T10:33:58-05:00` (CT) — `2026-03-15T15:33:58Z` (UTC)
 
 ## Betterleaks, a new open-source secrets scanner to replace Gitleaks
 - Source: BleepingComputer
@@ -10,6 +10,12 @@ Last updated: `2026-03-15T09:35:52-05:00` (CT) — `2026-03-15T14:35:52Z` (UTC)
 - URL: https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
 
 A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules. [...]
+
+## Hill and Flood Statement on President Trump’s Executive Order on Housing Affordability
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-15T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411053
 
 ## This $20 EDU Unlimited deal unlocks 1,000+ online courses
 - Source: BleepingComputer
@@ -1856,14 +1862,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
