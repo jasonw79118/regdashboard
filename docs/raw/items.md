@@ -1,7 +1,13 @@
 # RegDashboard — Export
 
-Window: `2026-03-01T17:33:59Z` → `2026-03-15T17:33:59Z` (UTC)
-Last updated: `2026-03-15T12:33:59-05:00` (CT) — `2026-03-15T17:33:59Z` (UTC)
+Window: `2026-03-01T18:47:51Z` → `2026-03-15T18:47:51Z` (UTC)
+Last updated: `2026-03-15T13:47:51-05:00` (CT) — `2026-03-15T18:47:51Z` (UTC)
+
+## America 250: Presidential Message on the Birthday of President Andrew Jackson
+- Source: White House
+- Category: Executive
+- Published: 2026-03-15T18:44:39Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-andrew-jackson/
 
 ## Betterleaks, a new open-source secrets scanner to replace Gitleaks
 - Source: BleepingComputer
@@ -466,12 +472,6 @@ Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its I
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260313a.htm
 
 Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
-
-## ICYMI: “Trump’s Energy Triumph”
-- Source: White House
-- Category: Executive
-- Published: 2026-03-13T14:54:45Z
-- URL: https://www.whitehouse.gov/articles/2026/03/icymi-trumps-energy-triumph/
 
 ## From VMware to what’s next: Protecting data during hypervisor migration
 - Source: BleepingComputer
@@ -1862,6 +1862,14 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-09T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
+
+UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register

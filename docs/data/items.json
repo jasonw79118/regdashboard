@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-03-01T17:33:59Z",
-  "window_end": "2026-03-15T17:33:59Z",
-  "generated_at_utc": "2026-03-15T17:33:59Z",
-  "generated_at_ct": "2026-03-15T12:33:59-05:00",
+  "window_start": "2026-03-01T18:47:51Z",
+  "window_end": "2026-03-15T18:47:51Z",
+  "generated_at_utc": "2026-03-15T18:47:51Z",
+  "generated_at_ct": "2026-03-15T13:47:51-05:00",
   "items": [
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "America 250: Presidential Message on the Birthday of President Andrew Jackson",
+      "published_at": "2026-03-15T18:44:39Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-andrew-jackson/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -491,14 +499,6 @@
       "published_at": "2026-03-13T15:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260313a.htm",
       "summary": "Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola"
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "ICYMI: “Trump’s Energy Triumph”",
-      "published_at": "2026-03-13T14:54:45Z",
-      "url": "https://www.whitehouse.gov/articles/2026/03/icymi-trumps-energy-triumph/",
-      "summary": ""
     },
     {
       "category": "IS",
@@ -1967,6 +1967,14 @@
       "published_at": "2026-03-09T00:00:00Z",
       "url": "https://www.cdiaonline.org/events/2026/03/09/31951/",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-09T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26",
+      "summary": "UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem"
     },
     {
       "category": "Federal Register",
