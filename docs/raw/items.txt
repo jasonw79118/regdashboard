@@ -1,5 +1,18 @@
 IS
 BleepingComputer
+2026-03-16T18:00:22Z
+CISA flags Wing FTP Server flaw as actively exploited in attacks
+https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/
+CISA warned U.S. government agencies to secure their Wing FTP Server instances against an actively exploited vulnerability that may be chained in remote code execution attacks. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-03-16T17:27:50Z
+America 250: Presidential Message on the Birthday of President James Madison
+https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-james-madison/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-16T17:07:25Z
 UK’s Companies House confirms security flaw exposed business data
 https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/
@@ -25,6 +38,13 @@ BleepingComputer
 Microsoft pulls Samsung app blocking Windows C: drive from Store
 https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
 ​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]
+------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-16T06:59:00Z
+Federal court quashes subpoenas against Fed’s Powell
+https://www.texasbankers.com/federal-court-quashes-subpoenas-against-feds-powell/
+A federal court has quashed two U.S. Department of Justice subpoenas targeting Federal Reserve Chairman Jerome Powell, finding substantial evidence they were issued to pressure the central bank to lower interest rates. Powell said in January that the Justice Department had opened an investigation into his congressional testimony about cost overruns tied to renovations at […] T…
 ------------------------------------------------------------
 Mortgage
 Fannie Mae
@@ -56,6 +76,12 @@ House Financial Services
 2026-03-16T00:00:00Z
 Oversight and Investigations Subcommittee Reviews Mismanagement of Little Rock Public Housing Authority
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411054
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-16T00:00:00Z
+Stryker attack wiped tens of thousands of devices, no malware needed
+https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -485,18 +511,19 @@ Microsoft investigates classic Outlook sync and connection issues
 https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
 ​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]
 ------------------------------------------------------------
-Executive
-White House
-2026-03-13T16:47:00Z
-Presidential Message on National K-9 Veterans Day
-https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-national-k-9-veterans-day/
-------------------------------------------------------------
 Banking
 FRB
 2026-03-13T15:00:00Z
 Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
 https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260313a.htm
 Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
+------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-13T15:00:00Z
+Trump pushes regulatory overhaul to expand housing finance
+https://www.texasbankers.com/trump-pushes-regulatory-overhaul-to-expand-housing-finance/
+The White House published an executive order directing federal regulators to review and scale back certain rules to expand access to mortgages and encourage new housing construction. President Trump directed agencies to begin easing regulatory burdens on mortgage lenders—particularly community banks—and to remove environmental and energy-efficiency requirements affecting resid…
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -553,20 +580,6 @@ Microsoft MSRC
 CVE-2026-21256 GitHub Copilot and Visual Studio Remote Code Execution Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
 Changes made to the security updates links and information. This is an informational change only.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-13T13:28:33Z
-Police sinkholes 45,000 IP addresses in cybercrime crackdown
-https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/
-An international law enforcement action codenamed "Operation Synergia III" has sinkholed tens of thousands of IP addresses and seized servers linked to cybercrime operations worldwide. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-13T13:23:28Z
-Fake enterprise VPN sites used to steal company credentials
-https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/
-A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -631,14 +644,14 @@ https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
 IS
 BleepingComputer
 2026-03-13T00:00:00Z
-Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
-https://www.bleepingcomputer.com/offer/deals/stop-wrestling-with-pdfs-try-this-30-swifdoo-editor-deal-instead/
+Police sinkholes 45,000 IP addresses in cybercrime crackdown
+https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-13T00:00:00Z
-Starbucks discloses data breach affecting hundreds of employees
-https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
+Fake enterprise VPN sites used to steal company credentials
+https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -2547,10 +2560,4 @@ Federal Register
 Holding Foreign Insiders Accountable Act Disclosure
 https://www.federalregister.gov/documents/2026/03/03/2026-04202/holding-foreign-insiders-accountable-act-disclosure
 The Securities and Exchange Commission ("Commission") is adopting final amendments to certain of its rules and forms under the Securities Exchange Act of 1934 ("Exchange Act") to reflect the requirements of the Holding Foreign Insiders Accountable Act ("HFIA Act"). The HFIA Act amended Section 16(a) of the Exchange Act to require directors and officers of a foreign private iss…
-------------------------------------------------------------
-OFAC
-Treasury
-2026-03-02T18:00:00Z
-Treasury Sanctions Rwanda Officials, Condemns Blatant Violations of Washington Peace Accords
-https://home.treasury.gov/news/press-releases/sb0411
 ------------------------------------------------------------

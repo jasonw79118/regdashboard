@@ -1,7 +1,21 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T17:08:08Z` → `2026-03-16T17:08:08Z` (UTC)
-Last updated: `2026-03-16T12:08:08-05:00` (CT) — `2026-03-16T17:08:08Z` (UTC)
+Window: `2026-03-02T19:11:06Z` → `2026-03-16T19:11:06Z` (UTC)
+Last updated: `2026-03-16T14:11:06-05:00` (CT) — `2026-03-16T19:11:06Z` (UTC)
+
+## CISA flags Wing FTP Server flaw as actively exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T18:00:22Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/
+
+CISA warned U.S. government agencies to secure their Wing FTP Server instances against an actively exploited vulnerability that may be chained in remote code execution attacks. [...]
+
+## America 250: Presidential Message on the Birthday of President James Madison
+- Source: White House
+- Category: Executive
+- Published: 2026-03-16T17:27:50Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-james-madison/
 
 ## UK’s Companies House confirms security flaw exposed business data
 - Source: BleepingComputer
@@ -35,6 +49,14 @@ Shadow AI is quietly spreading across SaaS environments as employees adopt new A
 
 ​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]
 
+## Federal court quashes subpoenas against Fed’s Powell
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-03-16T06:59:00Z
+- URL: https://www.texasbankers.com/federal-court-quashes-subpoenas-against-feds-powell/
+
+A federal court has quashed two U.S. Department of Justice subpoenas targeting Federal Reserve Chairman Jerome Powell, finding substantial evidence they were issued to pressure the central bank to lower interest rates. Powell said in January that the Justice Department had opened an investigation into his congressional testimony about cost overruns tied to renovations at […] T…
+
 ## Data and Insights
 - Source: Fannie Mae
 - Category: Mortgage
@@ -66,6 +88,12 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Category: Legislative
 - Published: 2026-03-16T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411054
+
+## Stryker attack wiped tens of thousands of devices, no malware needed
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
 
 ## Get CISSP-certified with this 8-course training bundle for $34
 - Source: BleepingComputer
@@ -545,12 +573,6 @@ Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its I
 
 ​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]
 
-## Presidential Message on National K-9 Veterans Day
-- Source: White House
-- Category: Executive
-- Published: 2026-03-13T16:47:00Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-national-k-9-veterans-day/
-
 ## Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
 - Source: FRB
 - Category: Banking
@@ -558,6 +580,14 @@ Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its I
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260313a.htm
 
 Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
+
+## Trump pushes regulatory overhaul to expand housing finance
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-03-13T15:00:00Z
+- URL: https://www.texasbankers.com/trump-pushes-regulatory-overhaul-to-expand-housing-finance/
+
+The White House published an executive order directing federal regulators to review and scale back certain rules to expand access to mortgages and encourage new housing construction. President Trump directed agencies to begin easing regulatory burdens on mortgage lenders—particularly community banks—and to remove environmental and energy-efficiency requirements affecting resid…
 
 ## From VMware to what’s next: Protecting data during hypervisor migration
 - Source: BleepingComputer
@@ -622,22 +652,6 @@ Changes made to the security updates links and information. This is an informati
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
 
 Changes made to the security updates links and information. This is an informational change only.
-
-## Police sinkholes 45,000 IP addresses in cybercrime crackdown
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T13:28:33Z
-- URL: https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/
-
-An international law enforcement action codenamed "Operation Synergia III" has sinkholed tens of thousands of IP addresses and seized servers linked to cybercrime operations worldwide. [...]
-
-## Fake enterprise VPN sites used to steal company credentials
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T13:23:28Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/
-
-A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]
 
 ## CVE-2026-3805 use after free in SMB connection reuse
 - Source: Microsoft MSRC
@@ -705,17 +719,17 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
 
-## Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
+## Police sinkholes 45,000 IP addresses in cybercrime crackdown
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/stop-wrestling-with-pdfs-try-this-30-swifdoo-editor-deal-instead/
+- URL: https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/
 
-## Starbucks discloses data breach affecting hundreds of employees
+## Fake enterprise VPN sites used to steal company credentials
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
+- URL: https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
@@ -2846,9 +2860,3 @@ The Office of the Comptroller of the Currency (OCC) today announced two final ru
 - URL: https://www.federalregister.gov/documents/2026/03/03/2026-04202/holding-foreign-insiders-accountable-act-disclosure
 
 The Securities and Exchange Commission ("Commission") is adopting final amendments to certain of its rules and forms under the Securities Exchange Act of 1934 ("Exchange Act") to reflect the requirements of the Holding Foreign Insiders Accountable Act ("HFIA Act"). The HFIA Act amended Section 16(a) of the Exchange Act to require directors and officers of a foreign private iss…
-
-## Treasury Sanctions Rwanda Officials, Condemns Blatant Violations of Washington Peace Accords
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-03-02T18:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0411
