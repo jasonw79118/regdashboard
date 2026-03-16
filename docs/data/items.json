@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-03-02T13:24:53Z",
-  "window_end": "2026-03-16T13:24:53Z",
-  "generated_at_utc": "2026-03-16T13:24:53Z",
-  "generated_at_ct": "2026-03-16T08:24:53-05:00",
+  "window_start": "2026-03-02T15:05:36Z",
+  "window_end": "2026-03-16T15:05:36Z",
+  "generated_at_utc": "2026-03-16T15:05:36Z",
+  "generated_at_ct": "2026-03-16T10:05:36-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Shadow AI is everywhere. Here’s how to find and secure it.",
+      "published_at": "2026-03-16T14:01:11Z",
+      "url": "https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/",
+      "summary": "Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Security explains how security teams can discover AI apps, monitor usage, and govern risky AI activity. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -13,12 +21,28 @@
       "summary": "​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]"
     },
     {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "Data and Insights",
+      "published_at": "2026-03-16T00:00:00Z",
+      "url": "https://www.fanniemae.com/data-and-insights",
+      "summary": "Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow."
+    },
+    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Get CISSP-certified with this 8-course training bundle for $34",
       "published_at": "2026-03-16T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-16T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-teams-up-with-cpa-canada-to-provide-its-members-with-access-to-tax-research",
+      "summary": "CPA Canada members can now access a curated collection of trusted tax research and insights from CCH® AnswerConnect powered by Expert AI"
     },
     {
       "category": "IS",
@@ -733,14 +757,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Canadian retail giant Loblaw notifies customers of data breach",
-      "published_at": "2026-03-12T21:32:21Z",
-      "url": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
-      "summary": "Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to log in again. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "Women’s History Month, 2026",
@@ -935,9 +951,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "England Hockey investigating ransomware data breach",
+      "title": "Canadian retail giant Loblaw notifies customers of data breach",
       "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
+      "url": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
       "summary": ""
     },
     {
@@ -2330,14 +2346,6 @@
       "published_at": "2026-03-05T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-03-05T10:30:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
-      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
     },
     {
       "category": "Compliance Watch",

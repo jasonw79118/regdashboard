@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T13:24:53Z` → `2026-03-16T13:24:53Z` (UTC)
-Last updated: `2026-03-16T08:24:53-05:00` (CT) — `2026-03-16T13:24:53Z` (UTC)
+Window: `2026-03-02T15:05:36Z` → `2026-03-16T15:05:36Z` (UTC)
+Last updated: `2026-03-16T10:05:36-05:00` (CT) — `2026-03-16T15:05:36Z` (UTC)
+
+## Shadow AI is everywhere. Here’s how to find and secure it.
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T14:01:11Z
+- URL: https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/
+
+Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Security explains how security teams can discover AI apps, monitor usage, and govern risky AI activity. [...]
 
 ## Microsoft pulls Samsung app blocking Windows C: drive from Store
 - Source: BleepingComputer
@@ -11,11 +19,27 @@ Last updated: `2026-03-16T08:24:53-05:00` (CT) — `2026-03-16T13:24:53Z` (UTC)
 
 ​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]
 
+## Data and Insights
+- Source: Fannie Mae
+- Category: Mortgage
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.fanniemae.com/data-and-insights
+
+Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
+
 ## Get CISSP-certified with this 8-course training bundle for $34
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-16T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-teams-up-with-cpa-canada-to-provide-its-members-with-access-to-tax-research
+
+CPA Canada members can now access a curated collection of trusted tax research and insights from CCH® AnswerConnect powered by Expert AI
 
 ## OpenAI says ChatGPT ads are not rolling out globally for now
 - Source: BleepingComputer
@@ -687,14 +711,6 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Published: 2026-03-13T00:00:00Z
 - URL: https://www.cdiaonline.org/fundamentals-metro-2-webinar-series/
 
-## Canadian retail giant Loblaw notifies customers of data breach
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T21:32:21Z
-- URL: https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
-
-Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to log in again. [...]
-
 ## Women’s History Month, 2026
 - Source: White House
 - Category: Executive
@@ -869,11 +885,11 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 
-## England Hockey investigating ransomware data breach
+## Canadian retail giant Loblaw notifies customers of data breach
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
+- URL: https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -2176,14 +2192,6 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-05T10:30:00Z
-- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
-
-Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA

@@ -1,15 +1,36 @@
 IS
 BleepingComputer
+2026-03-16T14:01:11Z
+Shadow AI is everywhere. Here’s how to find and secure it.
+https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/
+Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Security explains how security teams can discover AI apps, monitor usage, and govern risky AI activity. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-16T13:14:32Z
 Microsoft pulls Samsung app blocking Windows C: drive from Store
 https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
 ​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-03-16T00:00:00Z
+Data and Insights
+https://www.fanniemae.com/data-and-insights
+Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-16T00:00:00Z
 Get CISSP-certified with this 8-course training bundle for $34
 https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-16T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-teams-up-with-cpa-canada-to-provide-its-members-with-access-to-tax-research
+CPA Canada members can now access a curated collection of trusted tax research and insights from CCH® AnswerConnect powered by Expert AI
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -613,13 +634,6 @@ CDIA
 Fundamentals Metro 2® Format Webinar Series
 https://www.cdiaonline.org/fundamentals-metro-2-webinar-series/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T21:32:21Z
-Canadian retail giant Loblaw notifies customers of data breach
-https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
-Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to log in again. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-03-12T21:21:13Z
@@ -782,8 +796,8 @@ https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
-England Hockey investigating ransomware data breach
-https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
+Canadian retail giant Loblaw notifies customers of data breach
+https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1939,13 +1953,6 @@ Finastra
 2026-03-05T12:00:00Z
 Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
-------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-05T10:30:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
-Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 ------------------------------------------------------------
 Compliance Watch
 CDIA
