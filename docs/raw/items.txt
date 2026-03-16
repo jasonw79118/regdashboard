@@ -1,5 +1,17 @@
 Executive
 White House
+2026-03-16T20:53:17Z
+Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud
+https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-establishes-the-task-force-to-eliminate-fraud/
+------------------------------------------------------------
+Executive
+White House
+2026-03-16T20:50:16Z
+Establishing the Task Force to Eliminate Fraud
+https://www.whitehouse.gov/presidential-actions/2026/03/establishing-the-task-force-to-eliminate-fraud/
+------------------------------------------------------------
+Executive
+White House
 2026-03-16T19:42:36Z
 Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim
 https://www.whitehouse.gov/articles/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/
@@ -505,12 +517,6 @@ White House
 2026-03-13T19:29:08Z
 Promoting Access to Mortgage Credit
 https://www.whitehouse.gov/presidential-actions/2026/03/promoting-access-to-mortgage-credit/
-------------------------------------------------------------
-Executive
-White House
-2026-03-13T19:26:19Z
-Fact Sheet: President Donald J. Trump Removes Regulatory Barriers to Affordable Home Construction
-https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-removes-regulatory-barriers-to-affordable-home-construction/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -1742,12 +1748,6 @@ Microsoft MSRC
 CVE-2026-28364 In OCaml before 4.14.3 and 5.x before 5.4.1, a buffer over-read in Marshal deserialization (runtime/intern.c) enables remote code execution through a multi-phase attack chain. The vulnerability stems from…
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28364
 Information published.
-------------------------------------------------------------
-Executive
-White House
-2026-03-07T15:32:04Z
-Commitment to Countering Cartel Criminal Activity
-https://www.whitehouse.gov/presidential-actions/2026/03/commitment-to-countering-cartel-criminal-activity/
 ------------------------------------------------------------
 IS
 Microsoft MSRC

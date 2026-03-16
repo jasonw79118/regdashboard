@@ -1,7 +1,19 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T20:44:04Z` → `2026-03-16T20:44:04Z` (UTC)
-Last updated: `2026-03-16T15:44:04-05:00` (CT) — `2026-03-16T20:44:04Z` (UTC)
+Window: `2026-03-02T21:46:05Z` → `2026-03-16T21:46:05Z` (UTC)
+Last updated: `2026-03-16T16:46:05-05:00` (CT) — `2026-03-16T21:46:05Z` (UTC)
+
+## Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud
+- Source: White House
+- Category: Executive
+- Published: 2026-03-16T20:53:17Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-establishes-the-task-force-to-eliminate-fraud/
+
+## Establishing the Task Force to Eliminate Fraud
+- Source: White House
+- Category: Executive
+- Published: 2026-03-16T20:50:16Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/establishing-the-task-force-to-eliminate-fraud/
 
 ## Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim
 - Source: White House
@@ -568,12 +580,6 @@ The FBI is asking gamers who installed Steam titles containing malware to provid
 - Category: Executive
 - Published: 2026-03-13T19:29:08Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/promoting-access-to-mortgage-credit/
-
-## Fact Sheet: President Donald J. Trump Removes Regulatory Barriers to Affordable Home Construction
-- Source: White House
-- Category: Executive
-- Published: 2026-03-13T19:26:19Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-removes-regulatory-barriers-to-affordable-home-construction/
 
 ## Poland's nuclear research centre targeted by cyberattack
 - Source: BleepingComputer
@@ -1956,12 +1962,6 @@ This document contains proposed regulations relating to Trump accounts. The prop
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28364
 
 Information published.
-
-## Commitment to Countering Cartel Criminal Activity
-- Source: White House
-- Category: Executive
-- Published: 2026-03-07T15:32:04Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/03/commitment-to-countering-cartel-criminal-activity/
 
 ## CVE-2026-22701 filelock Time-of-Check-Time-of-Use (TOCTOU) Symlink Vulnerability in SoftFileLock
 - Source: Microsoft MSRC
