@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T22:39:34Z` → `2026-03-16T22:39:34Z` (UTC)
-Last updated: `2026-03-16T17:39:34-05:00` (CT) — `2026-03-16T22:39:34Z` (UTC)
+Window: `2026-03-02T23:36:14Z` → `2026-03-16T23:36:14Z` (UTC)
+Last updated: `2026-03-16T18:36:14-05:00` (CT) — `2026-03-16T23:36:14Z` (UTC)
 
 ## Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud
 - Source: White House
@@ -2230,6 +2230,14 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-05T10:30:00Z
+- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA

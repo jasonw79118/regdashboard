@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-03-02T22:39:34Z",
-  "window_end": "2026-03-16T22:39:34Z",
-  "generated_at_utc": "2026-03-16T22:39:34Z",
-  "generated_at_ct": "2026-03-16T17:39:34-05:00",
+  "window_start": "2026-03-02T23:36:14Z",
+  "window_end": "2026-03-16T23:36:14Z",
+  "generated_at_utc": "2026-03-16T23:36:14Z",
+  "generated_at_ct": "2026-03-16T18:36:14-05:00",
   "items": [
     {
       "category": "Executive",
@@ -2386,6 +2386,14 @@
       "published_at": "2026-03-05T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-05T10:30:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
+      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
     },
     {
       "category": "Compliance Watch",
