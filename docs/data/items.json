@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-03-02T19:11:06Z",
-  "window_end": "2026-03-16T19:11:06Z",
-  "generated_at_utc": "2026-03-16T19:11:06Z",
-  "generated_at_ct": "2026-03-16T14:11:06-05:00",
+  "window_start": "2026-03-02T20:44:04Z",
+  "window_end": "2026-03-16T20:44:04Z",
+  "generated_at_utc": "2026-03-16T20:44:04Z",
+  "generated_at_ct": "2026-03-16T15:44:04-05:00",
   "items": [
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim",
+      "published_at": "2026-03-16T19:42:36Z",
+      "url": "https://www.whitehouse.gov/articles/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Stryker attack wiped tens of thousands of devices, no malware needed",
+      "published_at": "2026-03-16T19:17:20Z",
+      "url": "https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/",
+      "summary": "Last week's cyberattack on medical technology giant Stryker was limited to its internal Microsoft environment and remotely wiped tens of thousands of employee devices. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -101,12 +117,20 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Stryker attack wiped tens of thousands of devices, no malware needed",
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "The Unique Role Community Banks Play in Fighting Fraud",
       "published_at": "2026-03-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/",
-      "summary": ""
+      "url": "https://www.nacha.org/news/unique-role-community-banks-play-fighting-fraud",
+      "summary": "Community banks are among those on the front lines in the war on fraud, and Scott Anchin believes they have a secret—or maybe not so secret—weapon. “One of the things that community banks do really well is relationship banking. They know their customers in very real and intimate ways. And those personal relationships that they maintain are really effective fraud detection tool…"
+    },
+    {
+      "category": "Payments",
+      "source": "NACHA",
+      "title": "Dental Practices Shifting to EFT Claim Payments but Lag Behind Doctors",
+      "published_at": "2026-03-16T00:00:00Z",
+      "url": "https://www.nacha.org/news/dental-practices-shifting-eft-claim-payments-lag-behind-doctors",
+      "summary": "The trend among dentists toward electronic claim payments continues, according to new research.The 2025 CAQH Index Report shows 309 million claim payments were made by electronic funds transfer (EFT) in 2024, an 11.2% increase over the prior year.“What’s particularly impressive is that the gain comes even as the total number of dental claim payments rose less than a full perce…"
     },
     {
       "category": "IS",
@@ -586,14 +610,6 @@
       "title": "Fact Sheet: President Donald J. Trump Removes Regulatory Barriers to Affordable Home Construction",
       "published_at": "2026-03-13T19:26:19Z",
       "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-removes-regulatory-barriers-to-affordable-home-construction/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Fact Sheet: President Donald J. Trump Promotes Access to Mortgage Credit",
-      "published_at": "2026-03-13T19:26:01Z",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-access-to-mortgage-credit/",
       "summary": ""
     },
     {
@@ -2370,6 +2386,14 @@
       "published_at": "2026-03-05T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-05T10:30:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
+      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
     },
     {
       "category": "Compliance Watch",

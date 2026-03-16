@@ -1,3 +1,16 @@
+Executive
+White House
+2026-03-16T19:42:36Z
+Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim
+https://www.whitehouse.gov/articles/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-16T19:17:20Z
+Stryker attack wiped tens of thousands of devices, no malware needed
+https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
+Last week's cyberattack on medical technology giant Stryker was limited to its internal Microsoft environment and remotely wiped tens of thousands of employee devices. [...]
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-16T18:00:22Z
@@ -77,11 +90,19 @@ House Financial Services
 Oversight and Investigations Subcommittee Reviews Mismanagement of Little Rock Public Housing Authority
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411054
 ------------------------------------------------------------
-IS
-BleepingComputer
+Payments
+NACHA
 2026-03-16T00:00:00Z
-Stryker attack wiped tens of thousands of devices, no malware needed
-https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
+The Unique Role Community Banks Play in Fighting Fraud
+https://www.nacha.org/news/unique-role-community-banks-play-fighting-fraud
+Community banks are among those on the front lines in the war on fraud, and Scott Anchin believes they have a secret—or maybe not so secret—weapon. “One of the things that community banks do really well is relationship banking. They know their customers in very real and intimate ways. And those personal relationships that they maintain are really effective fraud detection tool…
+------------------------------------------------------------
+Payments
+NACHA
+2026-03-16T00:00:00Z
+Dental Practices Shifting to EFT Claim Payments but Lag Behind Doctors
+https://www.nacha.org/news/dental-practices-shifting-eft-claim-payments-lag-behind-doctors
+The trend among dentists toward electronic claim payments continues, according to new research.The 2025 CAQH Index Report shows 309 million claim payments were made by electronic funds transfer (EFT) in 2024, an 11.2% increase over the prior year.“What’s particularly impressive is that the gain comes even as the total number of dental claim payments rose less than a full perce…
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -490,12 +511,6 @@ White House
 2026-03-13T19:26:19Z
 Fact Sheet: President Donald J. Trump Removes Regulatory Barriers to Affordable Home Construction
 https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-removes-regulatory-barriers-to-affordable-home-construction/
-------------------------------------------------------------
-Executive
-White House
-2026-03-13T19:26:01Z
-Fact Sheet: President Donald J. Trump Promotes Access to Mortgage Credit
-https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-access-to-mortgage-credit/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -1972,6 +1987,13 @@ Finastra
 2026-03-05T12:00:00Z
 Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-05T10:30:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 ------------------------------------------------------------
 Compliance Watch
 CDIA

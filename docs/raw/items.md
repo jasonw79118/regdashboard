@@ -1,7 +1,21 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T19:11:06Z` → `2026-03-16T19:11:06Z` (UTC)
-Last updated: `2026-03-16T14:11:06-05:00` (CT) — `2026-03-16T19:11:06Z` (UTC)
+Window: `2026-03-02T20:44:04Z` → `2026-03-16T20:44:04Z` (UTC)
+Last updated: `2026-03-16T15:44:04-05:00` (CT) — `2026-03-16T20:44:04Z` (UTC)
+
+## Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim
+- Source: White House
+- Category: Executive
+- Published: 2026-03-16T19:42:36Z
+- URL: https://www.whitehouse.gov/articles/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/
+
+## Stryker attack wiped tens of thousands of devices, no malware needed
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T19:17:20Z
+- URL: https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
+
+Last week's cyberattack on medical technology giant Stryker was limited to its internal Microsoft environment and remotely wiped tens of thousands of employee devices. [...]
 
 ## CISA flags Wing FTP Server flaw as actively exploited in attacks
 - Source: BleepingComputer
@@ -89,11 +103,21 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - Published: 2026-03-16T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411054
 
-## Stryker attack wiped tens of thousands of devices, no malware needed
-- Source: BleepingComputer
-- Category: IS
+## The Unique Role Community Banks Play in Fighting Fraud
+- Source: NACHA
+- Category: Payments
 - Published: 2026-03-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
+- URL: https://www.nacha.org/news/unique-role-community-banks-play-fighting-fraud
+
+Community banks are among those on the front lines in the war on fraud, and Scott Anchin believes they have a secret—or maybe not so secret—weapon. “One of the things that community banks do really well is relationship banking. They know their customers in very real and intimate ways. And those personal relationships that they maintain are really effective fraud detection tool…
+
+## Dental Practices Shifting to EFT Claim Payments but Lag Behind Doctors
+- Source: NACHA
+- Category: Payments
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.nacha.org/news/dental-practices-shifting-eft-claim-payments-lag-behind-doctors
+
+The trend among dentists toward electronic claim payments continues, according to new research.The 2025 CAQH Index Report shows 309 million claim payments were made by electronic funds transfer (EFT) in 2024, an 11.2% increase over the prior year.“What’s particularly impressive is that the gain comes even as the total number of dental claim payments rose less than a full perce…
 
 ## Get CISSP-certified with this 8-course training bundle for $34
 - Source: BleepingComputer
@@ -550,12 +574,6 @@ The FBI is asking gamers who installed Steam titles containing malware to provid
 - Category: Executive
 - Published: 2026-03-13T19:26:19Z
 - URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-removes-regulatory-barriers-to-affordable-home-construction/
-
-## Fact Sheet: President Donald J. Trump Promotes Access to Mortgage Credit
-- Source: White House
-- Category: Executive
-- Published: 2026-03-13T19:26:01Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-promotes-access-to-mortgage-credit/
 
 ## Poland's nuclear research centre targeted by cyberattack
 - Source: BleepingComputer
@@ -2212,6 +2230,14 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-05T10:30:00Z
+- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA
