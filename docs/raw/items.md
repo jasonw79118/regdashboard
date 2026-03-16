@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T15:05:36Z` → `2026-03-16T15:05:36Z` (UTC)
-Last updated: `2026-03-16T10:05:36-05:00` (CT) — `2026-03-16T15:05:36Z` (UTC)
+Window: `2026-03-02T17:08:08Z` → `2026-03-16T17:08:08Z` (UTC)
+Last updated: `2026-03-16T12:08:08-05:00` (CT) — `2026-03-16T17:08:08Z` (UTC)
+
+## UK’s Companies House confirms security flaw exposed business data
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T17:07:25Z
+- URL: https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/
+
+Companies House, a British government agency that operates the registry for all U.K. companies, says its WebFiling service is back online after it was closed on Friday to fix a security flaw that exposed companies' information since October 2025. [...]
+
+## Microsoft Exchange Online outage blocks access to mailboxes
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T16:05:02Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes/
+
+Microsoft is working to address an ongoing Exchange Online outage that is preventing customers from accessing their mailboxes and calendars. [...]
 
 ## Shadow AI is everywhere. Here’s how to find and secure it.
 - Source: BleepingComputer
@@ -26,6 +42,30 @@ Shadow AI is quietly spreading across SaaS environments as employees adopt new A
 - URL: https://www.fanniemae.com/data-and-insights
 
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
+
+## Warren, Meeks Statement on Trump Administration’s Approval of Advanced AI Chip Sales to China
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-meeks-statement-on-trump-administrations-approval-of-advanced-ai-chip-sales-to-china
+
+## Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding
+
+## Warren Statement on Federal Judge Ruling on Powell Subpoenas
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas
+
+## Oversight and Investigations Subcommittee Reviews Mismanagement of Little Rock Public Housing Authority
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-16T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411054
 
 ## Get CISSP-certified with this 8-course training bundle for $34
 - Source: BleepingComputer
@@ -599,14 +639,6 @@ An international law enforcement action codenamed "Operation Synergia III" has s
 
 A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]
 
-## Starbucks discloses data breach affecting hundreds of employees
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T08:16:55Z
-- URL: https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
-
-Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts. [...]
-
 ## CVE-2026-3805 use after free in SMB connection reuse
 - Source: Microsoft MSRC
 - Category: IS
@@ -647,14 +679,6 @@ Information published.
 
 Information published.
 
-## Google fixes two new Chrome zero-days exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T06:56:58Z
-- URL: https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
-
-Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]
-
 ## Cyber-related Designations Removals
 - Source: OFAC
 - Category: OFAC
@@ -668,24 +692,6 @@ Google has released emergency security updates to patch two high-severity Chrome
 - URL: https://www.irs.gov/newsroom/update-on-irs-commissioner-position
 
 IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…
-
-## Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding
-
-## Warren Statement on Federal Judge Ruling on Powell Subpoenas
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas
-
-## Warren, Shaheen, Schumer Release Joint Statement on Trump Administration’s Further Weakening of Russia Sanctions as Trump’s Iran War Drives Up Costs
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-on-trump-administrations-further-weakening-of-russia-sanctions-as-trumps-iran-war-drives-up-costs
 
 ## Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
 - Source: House Financial Services
@@ -704,6 +710,12 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Category: IS
 - Published: 2026-03-13T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/stop-wrestling-with-pdfs-try-this-30-swifdoo-editor-deal-instead/
+
+## Starbucks discloses data breach affecting hundreds of employees
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
@@ -884,12 +896,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: Legislative
 - Published: 2026-03-12T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
-
-## Canadian retail giant Loblaw notifies customers of data breach
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer

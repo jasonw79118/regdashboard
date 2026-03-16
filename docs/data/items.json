@@ -1,9 +1,25 @@
 {
-  "window_start": "2026-03-02T15:05:36Z",
-  "window_end": "2026-03-16T15:05:36Z",
-  "generated_at_utc": "2026-03-16T15:05:36Z",
-  "generated_at_ct": "2026-03-16T10:05:36-05:00",
+  "window_start": "2026-03-02T17:08:08Z",
+  "window_end": "2026-03-16T17:08:08Z",
+  "generated_at_utc": "2026-03-16T17:08:08Z",
+  "generated_at_ct": "2026-03-16T12:08:08-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "UK’s Companies House confirms security flaw exposed business data",
+      "published_at": "2026-03-16T17:07:25Z",
+      "url": "https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/",
+      "summary": "Companies House, a British government agency that operates the registry for all U.K. companies, says its WebFiling service is back online after it was closed on Friday to fix a security flaw that exposed companies' information since October 2025. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft Exchange Online outage blocks access to mailboxes",
+      "published_at": "2026-03-16T16:05:02Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes/",
+      "summary": "Microsoft is working to address an ongoing Exchange Online outage that is preventing customers from accessing their mailboxes and calendars. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -27,6 +43,38 @@
       "published_at": "2026-03-16T00:00:00Z",
       "url": "https://www.fanniemae.com/data-and-insights",
       "summary": "Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow."
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren, Meeks Statement on Trump Administration’s Approval of Advanced AI Chip Sales to China",
+      "published_at": "2026-03-16T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-meeks-statement-on-trump-administrations-approval-of-advanced-ai-chip-sales-to-china",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding",
+      "published_at": "2026-03-16T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Statement on Federal Judge Ruling on Powell Subpoenas",
+      "published_at": "2026-03-16T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "Oversight and Investigations Subcommittee Reviews Mismanagement of Little Rock Public Housing Authority",
+      "published_at": "2026-03-16T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411054",
+      "summary": ""
     },
     {
       "category": "IS",
@@ -630,14 +678,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Starbucks discloses data breach affecting hundreds of employees",
-      "published_at": "2026-03-13T08:16:55Z",
-      "url": "https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/",
-      "summary": "Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2026-3805 use after free in SMB connection reuse",
       "published_at": "2026-03-13T08:03:13Z",
@@ -677,14 +717,6 @@
       "summary": "Information published."
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Google fixes two new Chrome zero-days exploited in attacks",
-      "published_at": "2026-03-13T06:56:58Z",
-      "url": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
-      "summary": "Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]"
-    },
-    {
       "category": "OFAC",
       "source": "OFAC",
       "title": "Cyber-related Designations Removals",
@@ -699,30 +731,6 @@
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/update-on-irs-commissioner-position",
       "summary": "IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…"
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Statement on Federal Judge Ruling on Powell Subpoenas",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Shaheen, Schumer Release Joint Statement on Trump Administration’s Further Weakening of Russia Sanctions as Trump’s Iran War Drives Up Costs",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-on-trump-administrations-further-weakening-of-russia-sanctions-as-trumps-iran-war-drives-up-costs",
-      "summary": ""
     },
     {
       "category": "Legislative",
@@ -746,6 +754,14 @@
       "title": "Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead",
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/stop-wrestling-with-pdfs-try-this-30-swifdoo-editor-deal-instead/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Starbucks discloses data breach affecting hundreds of employees",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/",
       "summary": ""
     },
     {
@@ -946,14 +962,6 @@
       "title": "Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Canadian retail giant Loblaw notifies customers of data breach",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
       "summary": ""
     },
     {

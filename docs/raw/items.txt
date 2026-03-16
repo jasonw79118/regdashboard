@@ -1,5 +1,19 @@
 IS
 BleepingComputer
+2026-03-16T17:07:25Z
+UK’s Companies House confirms security flaw exposed business data
+https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/
+Companies House, a British government agency that operates the registry for all U.K. companies, says its WebFiling service is back online after it was closed on Friday to fix a security flaw that exposed companies' information since October 2025. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-16T16:05:02Z
+Microsoft Exchange Online outage blocks access to mailboxes
+https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes/
+Microsoft is working to address an ongoing Exchange Online outage that is preventing customers from accessing their mailboxes and calendars. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-16T14:01:11Z
 Shadow AI is everywhere. Here’s how to find and secure it.
 https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/
@@ -18,6 +32,30 @@ Fannie Mae
 Data and Insights
 https://www.fanniemae.com/data-and-insights
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-16T00:00:00Z
+Warren, Meeks Statement on Trump Administration’s Approval of Advanced AI Chip Sales to China
+https://www.banking.senate.gov/newsroom/minority/warren-meeks-statement-on-trump-administrations-approval-of-advanced-ai-chip-sales-to-china
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-16T00:00:00Z
+Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding
+https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-16T00:00:00Z
+Warren Statement on Federal Judge Ruling on Powell Subpoenas
+https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas
+------------------------------------------------------------
+Legislative
+House Financial Services
+2026-03-16T00:00:00Z
+Oversight and Investigations Subcommittee Reviews Mismanagement of Little Rock Public Housing Authority
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411054
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -531,13 +569,6 @@ https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-use
 A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-03-13T08:16:55Z
-Starbucks discloses data breach affecting hundreds of employees
-https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
-Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-03-13T08:03:13Z
 CVE-2026-3805 use after free in SMB connection reuse
@@ -572,13 +603,6 @@ CVE-2026-1965 bad reuse of HTTP Negotiate connection
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
 Information published.
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-13T06:56:58Z
-Google fixes two new Chrome zero-days exploited in attacks
-https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
-Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]
-------------------------------------------------------------
 OFAC
 OFAC
 2026-03-13T00:00:00Z
@@ -591,24 +615,6 @@ IRS
 Update on IRS Commissioner position
 https://www.irs.gov/newsroom/update-on-irs-commissioner-position
 IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-13T00:00:00Z
-Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding
-https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-13T00:00:00Z
-Warren Statement on Federal Judge Ruling on Powell Subpoenas
-https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-03-13T00:00:00Z
-Warren, Shaheen, Schumer Release Joint Statement on Trump Administration’s Further Weakening of Russia Sanctions as Trump’s Iran War Drives Up Costs
-https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-on-trump-administrations-further-weakening-of-russia-sanctions-as-trumps-iran-war-drives-up-costs
 ------------------------------------------------------------
 Legislative
 House Financial Services
@@ -627,6 +633,12 @@ BleepingComputer
 2026-03-13T00:00:00Z
 Stop wrestling with PDFs—try this $30 Swifdoo editor deal instead
 https://www.bleepingcomputer.com/offer/deals/stop-wrestling-with-pdfs-try-this-30-swifdoo-editor-deal-instead/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-13T00:00:00Z
+Starbucks discloses data breach affecting hundreds of employees
+https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -792,12 +804,6 @@ House Financial Services
 2026-03-12T00:00:00Z
 Chairman Hill Statement on Senate Passage of 21st Century ROAD to Housing Act
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T00:00:00Z
-Canadian retail giant Loblaw notifies customers of data breach
-https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
