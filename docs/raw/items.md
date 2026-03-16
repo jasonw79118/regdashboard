@@ -1,7 +1,13 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T10:58:48Z` → `2026-03-16T10:58:48Z` (UTC)
-Last updated: `2026-03-16T05:58:48-05:00` (CT) — `2026-03-16T10:58:48Z` (UTC)
+Window: `2026-03-02T11:53:41Z` → `2026-03-16T11:53:41Z` (UTC)
+Last updated: `2026-03-16T06:53:41-05:00` (CT) — `2026-03-16T11:53:41Z` (UTC)
+
+## Get CISSP-certified with this 8-course training bundle for $34
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
 
 ## OpenAI says ChatGPT ads are not rolling out globally for now
 - Source: BleepingComputer
@@ -868,12 +874,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
-
-## Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -2176,14 +2176,6 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-05T10:30:00Z
-- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
-
-Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA

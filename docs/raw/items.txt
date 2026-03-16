@@ -1,5 +1,11 @@
 IS
 BleepingComputer
+2026-03-16T00:00:00Z
+Get CISSP-certified with this 8-course training bundle for $34
+https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-15T23:13:28Z
 OpenAI says ChatGPT ads are not rolling out globally for now
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/
@@ -778,12 +784,6 @@ BleepingComputer
 2026-03-12T00:00:00Z
 AI-generated Slopoly malware used in Interlock ransomware attack
 https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T00:00:00Z
-Don’t miss a 2-in-1 open-box Chromebook with stylus for just $150
-https://www.bleepingcomputer.com/offer/deals/dont-miss-a-2-in-1-open-box-chromebook-with-stylus-for-just-150/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1939,13 +1939,6 @@ Finastra
 2026-03-05T12:00:00Z
 Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
-------------------------------------------------------------
-Compliance Watch
-Wolters Kluwer
-2026-03-05T10:30:00Z
-Wolters Kluwer news
-https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
-Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 ------------------------------------------------------------
 Compliance Watch
 CDIA
