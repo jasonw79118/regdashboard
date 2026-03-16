@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T11:53:41Z` → `2026-03-16T11:53:41Z` (UTC)
-Last updated: `2026-03-16T06:53:41-05:00` (CT) — `2026-03-16T11:53:41Z` (UTC)
+Window: `2026-03-02T13:24:53Z` → `2026-03-16T13:24:53Z` (UTC)
+Last updated: `2026-03-16T08:24:53-05:00` (CT) — `2026-03-16T13:24:53Z` (UTC)
+
+## Microsoft pulls Samsung app blocking Windows C: drive from Store
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T13:14:32Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
+
+​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]
 
 ## Get CISSP-certified with this 8-course training bundle for $34
 - Source: BleepingComputer
@@ -693,14 +701,6 @@ Still, out of an abundance of caution, Loblaw says it has automatically logged o
 - Published: 2026-03-12T21:21:13Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/womens-history-month-2026/
 
-## England Hockey investigating ransomware data breach
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-12T20:37:16Z
-- URL: https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
-
-England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]
-
 ## Federal Reserve Board announces approval of application by Home BancShares
 - Source: FRB
 - Category: Banking
@@ -869,11 +869,11 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 
-## AI-generated Slopoly malware used in Interlock ransomware attack
+## England Hockey investigating ransomware data breach
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-12T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
+- URL: https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
 
 ## Wolters Kluwer news
 - Source: Wolters Kluwer
@@ -2176,6 +2176,14 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-05T10:30:00Z
+- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA

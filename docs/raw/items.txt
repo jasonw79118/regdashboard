@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-03-16T13:14:32Z
+Microsoft pulls Samsung app blocking Windows C: drive from Store
+https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
+​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-16T00:00:00Z
 Get CISSP-certified with this 8-course training bundle for $34
 https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
@@ -619,13 +626,6 @@ White House
 Women’s History Month, 2026
 https://www.whitehouse.gov/presidential-actions/2026/03/womens-history-month-2026/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-12T20:37:16Z
-England Hockey investigating ransomware data breach
-https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
-England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]
-------------------------------------------------------------
 Banking
 FRB
 2026-03-12T20:30:00Z
@@ -782,8 +782,8 @@ https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 IS
 BleepingComputer
 2026-03-12T00:00:00Z
-AI-generated Slopoly malware used in Interlock ransomware attack
-https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/
+England Hockey investigating ransomware data breach
+https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
 ------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
@@ -1939,6 +1939,13 @@ Finastra
 2026-03-05T12:00:00Z
 Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-05T10:30:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
+Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 ------------------------------------------------------------
 Compliance Watch
 CDIA

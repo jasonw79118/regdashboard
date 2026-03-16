@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-03-02T11:53:41Z",
-  "window_end": "2026-03-16T11:53:41Z",
-  "generated_at_utc": "2026-03-16T11:53:41Z",
-  "generated_at_ct": "2026-03-16T06:53:41-05:00",
+  "window_start": "2026-03-02T13:24:53Z",
+  "window_end": "2026-03-16T13:24:53Z",
+  "generated_at_utc": "2026-03-16T13:24:53Z",
+  "generated_at_ct": "2026-03-16T08:24:53-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft pulls Samsung app blocking Windows C: drive from Store",
+      "published_at": "2026-03-16T13:14:32Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/",
+      "summary": "​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -741,14 +749,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "England Hockey investigating ransomware data breach",
-      "published_at": "2026-03-12T20:37:16Z",
-      "url": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
-      "summary": "England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]"
-    },
-    {
       "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces approval of application by Home BancShares",
@@ -935,9 +935,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "AI-generated Slopoly malware used in Interlock ransomware attack",
+      "title": "England Hockey investigating ransomware data breach",
       "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/",
+      "url": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
       "summary": ""
     },
     {
@@ -2330,6 +2330,14 @@
       "published_at": "2026-03-05T12:00:00Z",
       "url": "https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling",
       "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-03-05T10:30:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows",
+      "summary": "Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams"
     },
     {
       "category": "Compliance Watch",
