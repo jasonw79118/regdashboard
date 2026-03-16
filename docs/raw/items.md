@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T07:25:58Z` → `2026-03-16T07:25:58Z` (UTC)
-Last updated: `2026-03-16T02:25:58-05:00` (CT) — `2026-03-16T07:25:58Z` (UTC)
+Window: `2026-03-02T09:03:55Z` → `2026-03-16T09:03:55Z` (UTC)
+Last updated: `2026-03-16T04:03:55-05:00` (CT) — `2026-03-16T09:03:55Z` (UTC)
 
 ## OpenAI says ChatGPT ads are not rolling out globally for now
 - Source: BleepingComputer
