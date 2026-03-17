@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-03-17T18:41:59Z
+Europe sanctions Chinese and Iranian firms for cyberattacks
+https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/
+The European Union Council has announced sanctions against three entities and two individuals for their involvement in cyberattacks targeting critical infrastructure in the region. [...]
+------------------------------------------------------------
 Executive
 White House
 2026-03-17T14:16:01Z
@@ -23,7 +30,7 @@ BleepingComputer
 2026-03-17T13:54:37Z
 Microsoft stops force-installing the Microsoft 365 Copilot app
 https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/
-Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices outside the European Economic Area (EEA) that have the Microsoft 365 desktop client apps. [...]
+Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices that have the Microsoft 365 desktop client apps. [...]
 ------------------------------------------------------------
 Executive
 White House
@@ -44,6 +51,12 @@ BleepingComputer
 Microsoft shares fix for Windows C: drive access issues on Samsung PCs
 https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
 Microsoft has shared guidance to fix C:\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]
+------------------------------------------------------------
+OFAC
+OFAC
+2026-03-17T12:00:00Z
+Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and TradeStation Securities, Inc.
+https://ofac.treasury.gov/recent-actions/20260317
 ------------------------------------------------------------
 Fintech Watch
 Finastra
@@ -1239,6 +1252,12 @@ https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chai
 IS
 BleepingComputer
 2026-03-17T00:00:00Z
+One app, every AI model: 1min.AI is now on lifetime deal
+https://www.bleepingcomputer.com/offer/deals/one-app-every-ai-model-1minai-is-now-on-lifetime-deal/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-17T00:00:00Z
 Get lifetime access to Headway’s book summary app for $50.99
 https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/
 ------------------------------------------------------------
@@ -1392,18 +1411,17 @@ White House
 America 250: Presidential Message on the Birthday of President Andrew Jackson
 https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-andrew-jackson/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-15T14:17:23Z
-Betterleaks, a new open-source secrets scanner to replace Gitleaks
-https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
-A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules. [...]
-------------------------------------------------------------
 Legislative
 House Financial Services
 2026-03-15T00:00:00Z
 Hill and Flood Statement on President Trump’s Executive Order on Housing Affordability
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411053
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-15T00:00:00Z
+Betterleaks, a new open-source secrets scanner to replace Gitleaks
+https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -1691,18 +1709,6 @@ Chromium: CVE-2026-3913 Heap buffer overflow in WebML
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-14T00:00:00Z
-Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
-https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-14T00:00:00Z
-AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
-https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
-------------------------------------------------------------
 Executive
 White House
 2026-03-13T20:37:48Z
@@ -1796,6 +1802,12 @@ CVE-2026-21256 GitHub Copilot and Visual Studio Remote Code Execution Vulnerabil
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
 Changes made to the security updates links and information. This is an informational change only.
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-03-13T12:00:00Z
+Cyber-related Designations Removals
+https://ofac.treasury.gov/recent-actions/20260313
+------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-03-13T08:03:13Z
@@ -1830,18 +1842,6 @@ Microsoft MSRC
 CVE-2026-1965 bad reuse of HTTP Negotiate connection
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
 Information published.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-13T00:00:00Z
-Cyber-related Designations Removals
-https://ofac.treasury.gov/recent-actions/20260313
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-13T00:00:00Z
-Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions
-https://ofac.treasury.gov/recent-actions/20260313_33
 ------------------------------------------------------------
 IRS
 IRS
@@ -1920,6 +1920,12 @@ CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
 To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-03-12T12:00:00Z
+Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
+https://ofac.treasury.gov/recent-actions/20260312
+------------------------------------------------------------
 IS
 Microsoft MSRC
 2026-03-12T08:37:04Z
@@ -1989,18 +1995,6 @@ Microsoft MSRC
 CVE-2026-25679 Incorrect parsing of IPv6 host literals in net/url
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25679
 Information published.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-12T00:00:00Z
-Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
-https://ofac.treasury.gov/recent-actions/20260312
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-12T00:00:00Z
-Issuance of Russia-related General License
-https://ofac.treasury.gov/recent-actions/20260312_33
 ------------------------------------------------------------
 IRS
 IRS
@@ -2817,6 +2811,12 @@ FIS
 FIS to Present at Upcoming Conference
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 ------------------------------------------------------------
+Compliance Watch
+CDIA
+2026-03-10T00:00:00Z
+Education Services
+https://www.cdiaonline.org/education-services/
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -2845,7 +2845,7 @@ https://www.whitehouse.gov/presidential-actions/2026/03/u-s-hostage-and-wrongful
 ------------------------------------------------------------
 OFAC
 OFAC
-2026-03-09T00:00:00Z
+2026-03-09T12:00:00Z
 Counter Terrorism Designations; Sudan-related Designation Update
 https://ofac.treasury.gov/recent-actions/20260309
 ------------------------------------------------------------
@@ -2930,6 +2930,12 @@ CVE-2026-26124 Microsoft ACI Confidential Containers Elevation of Privilege Vuln
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26124
 Added FAQ information. This is an informational change only.
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-03-06T12:00:00Z
+Russia-related Designation Removal
+https://ofac.treasury.gov/recent-actions/20260306
+------------------------------------------------------------
 FinCEN
 FinCEN
 2026-03-06T12:00:00Z
@@ -2999,18 +3005,6 @@ Microsoft MSRC
 CVE-2026-23234 f2fs: fix to avoid UAF in f2fs_write_end_io()
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23234
 Information published.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-06T00:00:00Z
-Russia-related Designation Removal
-https://ofac.treasury.gov/recent-actions/20260306
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-06T00:00:00Z
-Issuance of Venezuela-related General License
-https://ofac.treasury.gov/recent-actions/20260306_33
 ------------------------------------------------------------
 IRS
 IRS
@@ -3127,6 +3121,12 @@ FDIC
 Press Release: FDIC Issues List of Banks Examined for CRA Compliance
 https://content.govdelivery.com/accounts/USFDIC/bulletins/40bf86d
 PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in December 2025. The CRA is a 1977…
+------------------------------------------------------------
+OFAC
+OFAC
+2026-03-05T12:00:00Z
+Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
+https://ofac.treasury.gov/recent-actions/20260305
 ------------------------------------------------------------
 Fintech Watch
 Finastra
@@ -3245,18 +3245,6 @@ Microsoft MSRC
 CVE-2025-8732 libxml2 xmlcatalog xmlParseSGMLCatalog recursion
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-8732
 Information published.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-05T00:00:00Z
-Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
-https://ofac.treasury.gov/recent-actions/20260305
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-05T00:00:00Z
-Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question
-https://ofac.treasury.gov/recent-actions/20260305_33
 ------------------------------------------------------------
 IRS
 IRS
@@ -3386,12 +3374,6 @@ CVE-2026-27965 Vitess users with backup storage access can gain unauthorized acc
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
 Information published.
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-03-04T00:00:00Z
-Issuance of Venezuela-related Frequently Asked Questions
-https://ofac.treasury.gov/recent-actions/20260304
-------------------------------------------------------------
 Legislative
 House Financial Services
 2026-03-04T00:00:00Z
@@ -3423,17 +3405,4 @@ Federal Register
 Community Bank Licensing Amendments
 https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
 The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…
-------------------------------------------------------------
-OFAC
-Treasury
-2026-03-03T18:00:00Z
-Remarks: A Reset on Liquidity Regulation
-https://home.treasury.gov/news/press-releases/sb0412
-------------------------------------------------------------
-Compliance Watch
-CDIA
-2026-03-03T17:25:17Z
-The full agenda for CDIA Connect 2026 is here!
-https://www.cdiaonline.org/events/2026/03/03/the-full-agenda-for-cdia-connect-2026-is-here/
-Join us May 6–8 in Washington, DC for three power-packed days bringing together the most influential voices in consumer data — leading... The post The full agenda for CDIA Connect 2026 is here! appeared first on CDIA .
 ------------------------------------------------------------

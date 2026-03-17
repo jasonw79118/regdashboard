@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T16:18:06Z` → `2026-03-17T16:18:06Z` (UTC)
-Last updated: `2026-03-17T11:18:06-05:00` (CT) — `2026-03-17T16:18:06Z` (UTC)
+Window: `2026-03-03T20:05:56Z` → `2026-03-17T20:05:56Z` (UTC)
+Last updated: `2026-03-17T15:05:56-05:00` (CT) — `2026-03-17T20:05:56Z` (UTC)
+
+## Europe sanctions Chinese and Iranian firms for cyberattacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T18:41:59Z
+- URL: https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/
+
+The European Union Council has announced sanctions against three entities and two individuals for their involvement in cyberattacks targeting critical infrastructure in the region. [...]
 
 ## Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink
 - Source: White House
@@ -31,7 +39,7 @@ A new font-rendering attack causes AI assistants to miss malicious commands show
 - Published: 2026-03-17T13:54:37Z
 - URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/
 
-Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices outside the European Economic Area (EEA) that have the Microsoft 365 desktop client apps. [...]
+Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices that have the Microsoft 365 desktop client apps. [...]
 
 ## Presidential Message on Saint Patrick’s Day and Irish American Heritage Month
 - Source: White House
@@ -54,6 +62,12 @@ The LeakNet ransomware gang is now using the ClickFix technique for initial acce
 - URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
 
 Microsoft has shared guidance to fix C:\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]
+
+## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and TradeStation Securities, Inc.
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-17T12:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260317
 
 ## Finastra strengthens AI capabilities with new Center of Excellence and leadership appointment
 - Source: Finastra
@@ -1267,6 +1281,12 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-03-17T00:00:00Z
 - URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
 
+## One app, every AI model: 1min.AI is now on lifetime deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/one-app-every-ai-model-1minai-is-now-on-lifetime-deal/
+
 ## Get lifetime access to Headway’s book summary app for $50.99
 - Source: BleepingComputer
 - Category: IS
@@ -1435,19 +1455,17 @@ OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet r
 - Published: 2026-03-15T18:44:39Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-andrew-jackson/
 
-## Betterleaks, a new open-source secrets scanner to replace Gitleaks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-15T14:17:23Z
-- URL: https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
-
-A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules. [...]
-
 ## Hill and Flood Statement on President Trump’s Executive Order on Housing Affordability
 - Source: House Financial Services
 - Category: Legislative
 - Published: 2026-03-15T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411053
+
+## Betterleaks, a new open-source secrets scanner to replace Gitleaks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-15T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
 
 ## This $20 EDU Unlimited deal unlocks 1,000+ online courses
 - Source: BleepingComputer
@@ -1775,18 +1793,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
 
-## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-14T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
-
-## AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-14T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
-
 ## CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success
 - Source: White House
 - Category: Executive
@@ -1889,6 +1895,12 @@ Changes made to the security updates links and information. This is an informati
 
 Changes made to the security updates links and information. This is an informational change only.
 
+## Cyber-related Designations Removals
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-13T12:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260313
+
 ## CVE-2026-3805 use after free in SMB connection reuse
 - Source: Microsoft MSRC
 - Category: IS
@@ -1928,18 +1940,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
 
 Information published.
-
-## Cyber-related Designations Removals
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-13T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260313
-
-## Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-13T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260313_33
 
 ## Update on IRS Commissioner position
 - Source: IRS
@@ -2023,6 +2023,12 @@ Updated an acknowledgement. This is an informational change only.
 
 To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
 
+## Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-12T12:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260312
+
 ## CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
 - Source: Microsoft MSRC
 - Category: IS
@@ -2102,18 +2108,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25679
 
 Information published.
-
-## Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-12T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260312
-
-## Issuance of Russia-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-12T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260312_33
 
 ## Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding
 - Source: IRS
@@ -3037,6 +3031,12 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 
+## Education Services
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.cdiaonline.org/education-services/
+
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -3068,7 +3068,7 @@ President Donald Trump signed an executive order directing federal law enforceme
 ## Counter Terrorism Designations; Sudan-related Designation Update
 - Source: OFAC
 - Category: OFAC
-- Published: 2026-03-09T00:00:00Z
+- Published: 2026-03-09T12:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260309
 
 ## MPF Announcement 2026-11
@@ -3161,6 +3161,12 @@ Added FAQ information. This is an informational change only.
 
 Added FAQ information. This is an informational change only.
 
+## Russia-related Designation Removal
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-06T12:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260306
+
 ## FinCEN Assesses Historic $80 Million Penalty Against Canaccord Genuity LLC for Securities Fraud-Related Bank Secrecy Act Violations
 - Source: FinCEN
 - Category: FinCEN
@@ -3240,18 +3246,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23234
 
 Information published.
-
-## Russia-related Designation Removal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260306
-
-## Issuance of Venezuela-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260306_33
 
 ## Treasury, IRS issue proposed regulations for Trump Accounts contribution pilot program, Treasury Department to deposit $1,000 into the account of each eligible child
 - Source: IRS
@@ -3382,6 +3376,12 @@ Information published.
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bf86d
 
 PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in December 2025. The CRA is a 1977…
+
+## Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-05T12:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260305
 
 ## Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 - Source: Finastra
@@ -3516,18 +3516,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-8732
 
 Information published.
-
-## Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-05T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260305
-
-## Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-05T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260305_33
 
 ## Treasury, IRS issue proposed regulations to make it easier for digital asset brokers to provide 1099-DA statements electronically
 - Source: IRS
@@ -3671,12 +3659,6 @@ Information published.
 
 Information published.
 
-## Issuance of Venezuela-related Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-04T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260304
-
 ## Chairman Hill: The bills before us today reflect President Trump and Republicans’ shared commitment to promoting pro-growth, America-first policies
 - Source: House Financial Services
 - Category: Legislative
@@ -3710,17 +3692,3 @@ The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housi
 - URL: https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
 
 The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…
-
-## Remarks: A Reset on Liquidity Regulation
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-03-03T18:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0412
-
-## The full agenda for CDIA Connect 2026 is here!
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-03-03T17:25:17Z
-- URL: https://www.cdiaonline.org/events/2026/03/03/the-full-agenda-for-cdia-connect-2026-is-here/
-
-Join us May 6–8 in Washington, DC for three power-packed days bringing together the most influential voices in consumer data — leading... The post The full agenda for CDIA Connect 2026 is here! appeared first on CDIA .
