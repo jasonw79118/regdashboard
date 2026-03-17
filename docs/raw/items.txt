@@ -1,5 +1,25 @@
 IS
 BleepingComputer
+2026-03-17T12:09:35Z
+LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks
+https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/
+The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments and deploys a malware loader based on the open-source Deno runtime for JavaScript and TypeScript. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-17T12:03:38Z
+Microsoft shares fix for Windows C: drive access issues on Samsung PCs
+https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
+Microsoft has shared guidance to fix C:\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-03-17T12:00:00Z
+Finastra strengthens AI capabilities with new Center of Excellence and leadership appointment
+https://www.finastra.com/press-media/finastra-strengthens-ai-capabilities-new-center-excellence-and-leadership-appointment
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-17T11:07:05Z
 New Windows 11 hotpatch fixes Bluetooth device visibility issue
 https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/
@@ -144,6 +164,18 @@ Microsoft MSRC
 Chromium: CVE-2026-3909 Out of bounds write in Skia
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.
+------------------------------------------------------------
+Mortgage
+FHLB MPF
+2026-03-17T00:00:00Z
+MPF Announcement 2026-14
+https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-14
+------------------------------------------------------------
+Fintech Watch
+Fiserv
+2026-03-17T00:00:00Z
+Fiserv and Western Alliance Bank Form Strategic Alliance to Power High-Impact Commerce Experiences for Clients
+https://investors.fiserv.com/news-releases/news-release-details/fiserv-and-western-alliance-bank-form-strategic-alliance-power
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -627,13 +659,6 @@ Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
 https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/
 Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\ drive and are unable to launch applications. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-13T20:52:31Z
-FBI seeks victims of Steam games used to spread malware
-https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
-The FBI is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-03-13T20:37:48Z
@@ -669,13 +694,6 @@ White House
 2026-03-13T19:29:08Z
 Promoting Access to Mortgage Credit
 https://www.whitehouse.gov/presidential-actions/2026/03/promoting-access-to-mortgage-credit/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-13T17:11:37Z
-Poland's nuclear research centre targeted by cyberattack
-https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/
-Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]
 ------------------------------------------------------------
 Banking
 FRB
@@ -803,8 +821,8 @@ https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
 IS
 BleepingComputer
 2026-03-13T00:00:00Z
-Microsoft investigates classic Outlook sync and connection issues
-https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
+FBI seeks victims of Steam games used to spread malware
+https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -2388,17 +2406,4 @@ TBA
 OCC finalizes revised licensing requirements
 https://www.texasbankers.com/occ-finalizes-revised-licensing-requirements/
 The Office of the Comptroller of the Currency finalized a rule updating licensing requirements for community banks and scrapped a decades-old fair-housing monitoring system, moves the agency said are intended to ease regulatory pressures on smaller institutions. The changes were originally proposed last year as part of a broader package aimed at streamlining oversight of […] T…
-------------------------------------------------------------
-Fintech Watch
-Finastra
-2026-03-03T12:00:00Z
-DAMA International elects Finastra’s Peter Vennel as Vice President
-https://www.finastra.com/press-media/dama-international-elects-finastras-peter-vennel-vice-president
-------------------------------------------------------------
-Payment Card Networks
-Visa
-2026-03-03T12:00:00Z
-Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-Collaboration deepens as Bridge’s stablecoin-linked card program gains global momentum SAN FRANCISCO --(BUSINESS WIRE)--Mar. 3, 2026-- Visa (NYSE:V), a global leader in digital payments, and Bridge, a leading stablecoin infrastructure platform and a Stripe company, today announced an expansion of
 ------------------------------------------------------------

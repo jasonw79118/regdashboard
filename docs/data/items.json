@@ -1,9 +1,33 @@
 {
-  "window_start": "2026-03-03T11:47:31Z",
-  "window_end": "2026-03-17T11:47:31Z",
-  "generated_at_utc": "2026-03-17T11:47:31Z",
-  "generated_at_ct": "2026-03-17T06:47:31-05:00",
+  "window_start": "2026-03-03T13:23:39Z",
+  "window_end": "2026-03-17T13:23:39Z",
+  "generated_at_utc": "2026-03-17T13:23:39Z",
+  "generated_at_ct": "2026-03-17T08:23:39-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks",
+      "published_at": "2026-03-17T12:09:35Z",
+      "url": "https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/",
+      "summary": "The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments and deploys a malware loader based on the open-source Deno runtime for JavaScript and TypeScript. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft shares fix for Windows C: drive access issues on Samsung PCs",
+      "published_at": "2026-03-17T12:03:38Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/",
+      "summary": "Microsoft has shared guidance to fix C:\\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]"
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Finastra",
+      "title": "Finastra strengthens AI capabilities with new Center of Excellence and leadership appointment",
+      "published_at": "2026-03-17T12:00:00Z",
+      "url": "https://www.finastra.com/press-media/finastra-strengthens-ai-capabilities-new-center-excellence-and-leadership-appointment",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -171,6 +195,22 @@
       "published_at": "2026-03-17T01:09:34Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909",
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild."
+    },
+    {
+      "category": "Mortgage",
+      "source": "FHLB MPF",
+      "title": "MPF Announcement 2026-14",
+      "published_at": "2026-03-17T00:00:00Z",
+      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-14",
+      "summary": ""
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Fiserv",
+      "title": "Fiserv and Western Alliance Bank Form Strategic Alliance to Power High-Impact Commerce Experiences for Clients",
+      "published_at": "2026-03-17T00:00:00Z",
+      "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-and-western-alliance-bank-form-strategic-alliance-power",
+      "summary": ""
     },
     {
       "category": "IS",
@@ -755,14 +795,6 @@
       "summary": "Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\\ drive and are unable to launch applications. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "FBI seeks victims of Steam games used to spread malware",
-      "published_at": "2026-03-13T20:52:31Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/",
-      "summary": "The FBI is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success",
@@ -809,14 +841,6 @@
       "published_at": "2026-03-13T19:29:08Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/03/promoting-access-to-mortgage-credit/",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Poland's nuclear research centre targeted by cyberattack",
-      "published_at": "2026-03-13T17:11:37Z",
-      "url": "https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/",
-      "summary": "Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]"
     },
     {
       "category": "Banking",
@@ -965,9 +989,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Microsoft investigates classic Outlook sync and connection issues",
+      "title": "FBI seeks victims of Steam games used to spread malware",
       "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/",
       "summary": ""
     },
     {
@@ -2909,22 +2933,6 @@
       "published_at": "2026-03-03T15:00:00Z",
       "url": "https://www.texasbankers.com/occ-finalizes-revised-licensing-requirements/",
       "summary": "The Office of the Comptroller of the Currency finalized a rule updating licensing requirements for community banks and scrapped a decades-old fair-housing monitoring system, moves the agency said are intended to ease regulatory pressures on smaller institutions. The changes were originally proposed last year as part of a broader package aimed at streamlining oversight of […] T…"
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "DAMA International elects Finastra’s Peter Vennel as Vice President",
-      "published_at": "2026-03-03T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/dama-international-elects-finastras-peter-vennel-vice-president",
-      "summary": ""
-    },
-    {
-      "category": "Payment Card Networks",
-      "source": "Visa",
-      "title": "Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries",
-      "published_at": "2026-03-03T12:00:00Z",
-      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html",
-      "summary": "Collaboration deepens as Bridge’s stablecoin-linked card program gains global momentum SAN FRANCISCO --(BUSINESS WIRE)--Mar. 3, 2026-- Visa (NYSE:V), a global leader in digital payments, and Bridge, a leading stablecoin infrastructure platform and a Stripe company, today announced an expansion of"
     }
   ]
 }

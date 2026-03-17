@@ -1,7 +1,29 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T11:47:31Z` → `2026-03-17T11:47:31Z` (UTC)
-Last updated: `2026-03-17T06:47:31-05:00` (CT) — `2026-03-17T11:47:31Z` (UTC)
+Window: `2026-03-03T13:23:39Z` → `2026-03-17T13:23:39Z` (UTC)
+Last updated: `2026-03-17T08:23:39-05:00` (CT) — `2026-03-17T13:23:39Z` (UTC)
+
+## LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T12:09:35Z
+- URL: https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/
+
+The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments and deploys a malware loader based on the open-source Deno runtime for JavaScript and TypeScript. [...]
+
+## Microsoft shares fix for Windows C: drive access issues on Samsung PCs
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T12:03:38Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
+
+Microsoft has shared guidance to fix C:\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]
+
+## Finastra strengthens AI capabilities with new Center of Excellence and leadership appointment
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-03-17T12:00:00Z
+- URL: https://www.finastra.com/press-media/finastra-strengthens-ai-capabilities-new-center-excellence-and-leadership-appointment
 
 ## New Windows 11 hotpatch fixes Bluetooth device visibility issue
 - Source: BleepingComputer
@@ -170,6 +192,18 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.
+
+## MPF Announcement 2026-14
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-03-17T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-14
+
+## Fiserv and Western Alliance Bank Form Strategic Alliance to Power High-Impact Commerce Experiences for Clients
+- Source: Fiserv
+- Category: Fintech Watch
+- Published: 2026-03-17T00:00:00Z
+- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-and-western-alliance-bank-form-strategic-alliance-power
 
 ## Get lifetime access to Headway’s book summary app for $50.99
 - Source: BleepingComputer
@@ -709,14 +743,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\ drive and are unable to launch applications. [...]
 
-## FBI seeks victims of Steam games used to spread malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T20:52:31Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
-
-The FBI is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform. [...]
-
 ## CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success
 - Source: White House
 - Category: Executive
@@ -752,14 +778,6 @@ The FBI is asking gamers who installed Steam titles containing malware to provid
 - Category: Executive
 - Published: 2026-03-13T19:29:08Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/promoting-access-to-mortgage-credit/
-
-## Poland's nuclear research centre targeted by cyberattack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T17:11:37Z
-- URL: https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/
-
-Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]
 
 ## Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
 - Source: FRB
@@ -899,11 +917,11 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
 
-## Microsoft investigates classic Outlook sync and connection issues
+## FBI seeks victims of Steam games used to spread malware
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
+- URL: https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
@@ -2678,17 +2696,3 @@ Federal Reserve Board issues enforcement actions with former employee of East Ca
 - URL: https://www.texasbankers.com/occ-finalizes-revised-licensing-requirements/
 
 The Office of the Comptroller of the Currency finalized a rule updating licensing requirements for community banks and scrapped a decades-old fair-housing monitoring system, moves the agency said are intended to ease regulatory pressures on smaller institutions. The changes were originally proposed last year as part of a broader package aimed at streamlining oversight of […] T…
-
-## DAMA International elects Finastra’s Peter Vennel as Vice President
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-03-03T12:00:00Z
-- URL: https://www.finastra.com/press-media/dama-international-elects-finastras-peter-vennel-vice-president
-
-## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T12:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-
-Collaboration deepens as Bridge’s stablecoin-linked card program gains global momentum SAN FRANCISCO --(BUSINESS WIRE)--Mar. 3, 2026-- Visa (NYSE:V), a global leader in digital payments, and Bridge, a leading stablecoin infrastructure platform and a Stripe company, today announced an expansion of
