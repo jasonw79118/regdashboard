@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-02T23:36:14Z` → `2026-03-16T23:36:14Z` (UTC)
-Last updated: `2026-03-16T18:36:14-05:00` (CT) — `2026-03-16T23:36:14Z` (UTC)
+Window: `2026-03-03T02:35:08Z` → `2026-03-17T02:35:08Z` (UTC)
+Last updated: `2026-03-16T21:35:08-05:00` (CT) — `2026-03-17T02:35:08Z` (UTC)
+
+## Chromium: CVE-2026-3909 Out of bounds write in Skia
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T01:09:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.
 
 ## Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud
 - Source: White House
@@ -136,14 +144,6 @@ The trend among dentists toward electronic claim payments continues, according t
 - Category: IS
 - Published: 2026-03-16T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-16T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-teams-up-with-cpa-canada-to-provide-its-members-with-access-to-tax-research
-
-CPA Canada members can now access a curated collection of trusted tax research and insights from CCH® AnswerConnect powered by Expert AI
 
 ## OpenAI says ChatGPT ads are not rolling out globally for now
 - Source: BleepingComputer
@@ -935,14 +935,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/cch-axcess-advisor-by-wolters-kluwer-earns-strong-early-adopter-feedback
-
-Early customer insights demonstrate how the Expert AI‑powered platform can help accounting firms transition from compliance‑centric work to advisory‑led service models
-
 ## Guidance on Tax-Exempt Refunding Bonds
 - Source: Federal Register
 - Category: Federal Register
@@ -1117,22 +1109,6 @@ Information published.
 
 Information published.
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-11T08:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2025-annual-report
-
-Wolters Kluwer, a global leader in professional information solutions, software, and services, today published its 2025 Annual Report.
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-11T08:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-nominates-maarten-de-vries-for-appointment-to-the-supervisory-board
-
-Wolters Kluwer, a global leader in professional information solutions, software, and services, today announced the nomination of Maarten de Vries for appointment to its Supervisory Board.
-
 ## MPF Announcement Summary 2026-S03
 - Source: FHLB MPF
 - Category: Mortgage
@@ -1156,14 +1132,6 @@ Wolters Kluwer, a global leader in professional information solutions, software,
 - Category: Fintech Watch
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-mizuho-financial-group-navigate-new-regulatory
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/pr-2026-cch-tagetik-leader-in-gartner-magic-quadrant-for-financial-close-consolidation-solutions
-
-This recognition follows the recent announcement as a 5x Leader in the Gartner Magic Quadrant for Financial Planning
 
 ## Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines
 - Source: Federal Register
@@ -1869,14 +1837,6 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-releases-2026-future-ready-lawyer-survey-report
-
-Global survey of legal professionals reveals strong momentum behind AI investment and workflow transformation
-
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -1922,14 +1882,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Category: Compliance Watch
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-showcases-evidence-based-clinical-ai-for-better-decision-making-at-himss26
-
-UpToDate Expert AI, Microsoft partnership demonstrate GenAI and agentic AI innovations spanning the healthcare ecosystem
 
 ## Trump Accounts Contribution Pilot Program
 - Source: Federal Register
@@ -2230,14 +2182,6 @@ PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Complia
 - Category: Fintech Watch
 - Published: 2026-03-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-launches-ai-based-operatorassist-transform-how-banks-address-payments-handling
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-05T10:30:00Z
-- URL: https://www.wolterskluwer.com/en/news/uptodate-clinical-intelligence-microsoft-productivity-workflows
-
-Integration brings UpToDate to Microsoft Dragon Copilot, Microsoft 365 Copilot, and Microsoft Teams
 
 ## Liability Reform & Competition and Impact on Risk to the Lender
 - Source: CDIA
@@ -2591,6 +2535,14 @@ The Office of the Comptroller of the Currency finalized a rule updating licensin
 - Published: 2026-03-03T12:00:00Z
 - URL: https://www.finastra.com/press-media/dama-international-elects-finastras-peter-vennel-vice-president
 
+## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-03T12:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
+
+Collaboration deepens as Bridge’s stablecoin-linked card program gains global momentum SAN FRANCISCO --(BUSINESS WIRE)--Mar. 3, 2026-- Visa (NYSE:V), a global leader in digital payments, and Bridge, a leading stablecoin infrastructure platform and a Stripe company, today announced an expansion of
+
 ## CVE-2025-71162 dmaengine: tegra-adma: Fix use-after-free
 - Source: Microsoft MSRC
 - Category: IS
@@ -2774,115 +2726,3 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-4304
 
 Information published.
-
-## OCC Issues Final Rules to Reduce Regulatory Burden for Community Banks
-- Source: OCC
-- Category: Banking
-- Published: 2026-03-03T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-13.html
-
-The Office of the Comptroller of the Currency (OCC) today announced two final rules to reduce the regulatory burden for community banks.
-
-## Community Bank Licensing Amendments: Final Rule
-- Source: OCC
-- Category: Banking
-- Published: 2026-03-03T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-6.html
-
-## Rescission of 12 CFR 27, âFair Housing Home Loan Data Systemâ: Final Rule
-- Source: OCC
-- Category: Banking
-- Published: 2026-03-03T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-5.html
-
-## February Sales Stabilize as Higher Ticket Sizes Offset Weather Driven Foot Traffic Declines
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-03-03T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/february-sales-stabilize-higher-ticket-sizes-offset-weather
-
-## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-
-## Visa Completes Acquisition of Prisma and Newpay
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
-
-## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
-
-## Visa Renews Partnership Across Red Bull Formula One Teams
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-## Visa Fiscal First Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
-
-## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
-
-## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
-
-## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
-
-## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-03-03T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
-
-## Holding Foreign Insiders Accountable Act Disclosure
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-03T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/03/2026-04202/holding-foreign-insiders-accountable-act-disclosure
-
-The Securities and Exchange Commission ("Commission") is adopting final amendments to certain of its rules and forms under the Securities Exchange Act of 1934 ("Exchange Act") to reflect the requirements of the Holding Foreign Insiders Accountable Act ("HFIA Act"). The HFIA Act amended Section 16(a) of the Exchange Act to require directors and officers of a foreign private iss…
