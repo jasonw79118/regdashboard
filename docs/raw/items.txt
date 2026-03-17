@@ -1837,6 +1837,12 @@ OFAC
 Cyber-related Designations Removals
 https://ofac.treasury.gov/recent-actions/20260313
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-03-13T00:00:00Z
+Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions
+https://ofac.treasury.gov/recent-actions/20260313_33
+------------------------------------------------------------
 IRS
 IRS
 2026-03-13T00:00:00Z
@@ -1855,12 +1861,6 @@ House Financial Services
 2026-03-13T00:00:00Z
 Hill and Barr Applaud President Trump's Move to Expand Access to Mortgage Credit
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
-------------------------------------------------------------
-Compliance Watch
-CDIA
-2026-03-13T00:00:00Z
-Fundamentals Metro 2® Format Webinar Series
-https://www.cdiaonline.org/fundamentals-metro-2-webinar-series/
 ------------------------------------------------------------
 Executive
 White House
@@ -1995,6 +1995,12 @@ OFAC
 2026-03-12T00:00:00Z
 Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
 https://ofac.treasury.gov/recent-actions/20260312
+------------------------------------------------------------
+OFAC
+OFAC
+2026-03-12T00:00:00Z
+Issuance of Russia-related General License
+https://ofac.treasury.gov/recent-actions/20260312_33
 ------------------------------------------------------------
 IRS
 IRS
@@ -2811,12 +2817,6 @@ FIS
 FIS to Present at Upcoming Conference
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 ------------------------------------------------------------
-Compliance Watch
-CDIA
-2026-03-10T00:00:00Z
-Education Services
-https://www.cdiaonline.org/education-services/
-------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -3005,6 +3005,12 @@ OFAC
 2026-03-06T00:00:00Z
 Russia-related Designation Removal
 https://ofac.treasury.gov/recent-actions/20260306
+------------------------------------------------------------
+OFAC
+OFAC
+2026-03-06T00:00:00Z
+Issuance of Venezuela-related General License
+https://ofac.treasury.gov/recent-actions/20260306_33
 ------------------------------------------------------------
 IRS
 IRS
@@ -3246,6 +3252,12 @@ OFAC
 Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
 https://ofac.treasury.gov/recent-actions/20260305
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-03-05T00:00:00Z
+Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question
+https://ofac.treasury.gov/recent-actions/20260305_33
+------------------------------------------------------------
 IRS
 IRS
 2026-03-05T00:00:00Z
@@ -3424,11 +3436,4 @@ CDIA
 The full agenda for CDIA Connect 2026 is here!
 https://www.cdiaonline.org/events/2026/03/03/the-full-agenda-for-cdia-connect-2026-is-here/
 Join us May 6–8 in Washington, DC for three power-packed days bringing together the most influential voices in consumer data — leading... The post The full agenda for CDIA Connect 2026 is here! appeared first on CDIA .
-------------------------------------------------------------
-Banking
-FRB
-2026-03-03T16:00:00Z
-Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank
-https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260303a.htm
-Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank
 ------------------------------------------------------------

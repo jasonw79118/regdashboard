@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-03-03T15:27:14Z",
-  "window_end": "2026-03-17T15:27:14Z",
-  "generated_at_utc": "2026-03-17T15:27:14Z",
-  "generated_at_ct": "2026-03-17T10:27:14-05:00",
+  "window_start": "2026-03-03T16:18:06Z",
+  "window_end": "2026-03-17T16:18:06Z",
+  "generated_at_utc": "2026-03-17T16:18:06Z",
+  "generated_at_ct": "2026-03-17T11:18:06-05:00",
   "items": [
     {
       "category": "Executive",
@@ -2347,6 +2347,14 @@
       "summary": ""
     },
     {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions",
+      "published_at": "2026-03-13T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260313_33",
+      "summary": ""
+    },
+    {
       "category": "IRS",
       "source": "IRS",
       "title": "Update on IRS Commissioner position",
@@ -2368,14 +2376,6 @@
       "title": "Hill and Barr Applaud President Trump's Move to Expand Access to Mortgage Credit",
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052",
-      "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "Fundamentals Metro 2® Format Webinar Series",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.cdiaonline.org/fundamentals-metro-2-webinar-series/",
       "summary": ""
     },
     {
@@ -2536,6 +2536,14 @@
       "title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260312",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Russia-related General License",
+      "published_at": "2026-03-12T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260312_33",
       "summary": ""
     },
     {
@@ -3495,14 +3503,6 @@
       "summary": ""
     },
     {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "Education Services",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.cdiaonline.org/education-services/",
-      "summary": ""
-    },
-    {
       "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces approval of notice by CBS Banc-Corp.",
@@ -3742,6 +3742,14 @@
       "title": "Russia-related Designation Removal",
       "published_at": "2026-03-06T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260306",
+      "summary": ""
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License",
+      "published_at": "2026-03-06T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260306_33",
       "summary": ""
     },
     {
@@ -4042,6 +4050,14 @@
       "summary": ""
     },
     {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question",
+      "published_at": "2026-03-05T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260305_33",
+      "summary": ""
+    },
+    {
       "category": "IRS",
       "source": "IRS",
       "title": "Treasury, IRS issue proposed regulations to make it easier for digital asset brokers to provide 1099-DA statements electronically",
@@ -4293,14 +4309,6 @@
       "published_at": "2026-03-03T17:25:17Z",
       "url": "https://www.cdiaonline.org/events/2026/03/03/the-full-agenda-for-cdia-connect-2026-is-here/",
       "summary": "Join us May 6–8 in Washington, DC for three power-packed days bringing together the most influential voices in consumer data — leading... The post The full agenda for CDIA Connect 2026 is here! appeared first on CDIA ."
-    },
-    {
-      "category": "Banking",
-      "source": "FRB",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank",
-      "published_at": "2026-03-03T16:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260303a.htm",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank"
     }
   ]
 }

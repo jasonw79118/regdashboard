@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T15:27:14Z` → `2026-03-17T15:27:14Z` (UTC)
-Last updated: `2026-03-17T10:27:14-05:00` (CT) — `2026-03-17T15:27:14Z` (UTC)
+Window: `2026-03-03T16:18:06Z` → `2026-03-17T16:18:06Z` (UTC)
+Last updated: `2026-03-17T11:18:06-05:00` (CT) — `2026-03-17T16:18:06Z` (UTC)
 
 ## Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink
 - Source: White House
@@ -1935,6 +1935,12 @@ Information published.
 - Published: 2026-03-13T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260313
 
+## Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-13T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260313_33
+
 ## Update on IRS Commissioner position
 - Source: IRS
 - Category: IRS
@@ -1954,12 +1960,6 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Category: Legislative
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
-
-## Fundamentals Metro 2® Format Webinar Series
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.cdiaonline.org/fundamentals-metro-2-webinar-series/
 
 ## Women’s History Month, 2026
 - Source: White House
@@ -2108,6 +2108,12 @@ Information published.
 - Category: OFAC
 - Published: 2026-03-12T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260312
+
+## Issuance of Russia-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-12T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260312_33
 
 ## Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding
 - Source: IRS
@@ -3031,12 +3037,6 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 
-## Education Services
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.cdiaonline.org/education-services/
-
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -3246,6 +3246,12 @@ Information published.
 - Category: OFAC
 - Published: 2026-03-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260306
+
+## Issuance of Venezuela-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-06T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260306_33
 
 ## Treasury, IRS issue proposed regulations for Trump Accounts contribution pilot program, Treasury Department to deposit $1,000 into the account of each eligible child
 - Source: IRS
@@ -3517,6 +3523,12 @@ Information published.
 - Published: 2026-03-05T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260305
 
+## Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-05T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260305_33
+
 ## Treasury, IRS issue proposed regulations to make it easier for digital asset brokers to provide 1099-DA statements electronically
 - Source: IRS
 - Category: IRS
@@ -3712,11 +3724,3 @@ The Office of the Comptroller of the Currency (OCC) is amending its rules relate
 - URL: https://www.cdiaonline.org/events/2026/03/03/the-full-agenda-for-cdia-connect-2026-is-here/
 
 Join us May 6–8 in Washington, DC for three power-packed days bringing together the most influential voices in consumer data — leading... The post The full agenda for CDIA Connect 2026 is here! appeared first on CDIA .
-
-## Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank
-- Source: FRB
-- Category: Banking
-- Published: 2026-03-03T16:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260303a.htm
-
-Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank
