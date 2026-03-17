@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T09:01:12Z` → `2026-03-17T09:01:12Z` (UTC)
-Last updated: `2026-03-17T04:01:12-05:00` (CT) — `2026-03-17T09:01:12Z` (UTC)
+Window: `2026-03-03T10:55:46Z` → `2026-03-17T10:55:46Z` (UTC)
+Last updated: `2026-03-17T05:55:46-05:00` (CT) — `2026-03-17T10:55:46Z` (UTC)
+
+## Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T10:37:19Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/
+
+Microsoft is working to address a known issue that renders the classic Outlook email client unusable for users who have enabled the Microsoft Teams Meeting Add-in. [...]
+
+## One month to go! Have you secured your seat?
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-03-17T10:00:10Z
+- URL: https://www.cdiaonline.org/events/2026/03/17/one-month-to-go-have-you-secured-your-seat/
+
+The Metro 2® Format Fundamentals Webinar Series is the perfect opportunity to strengthen your understanding of Metro 2® reporting and the Credit Reporting... The post One month to go! Have you secured your seat? appeared first on CDIA .
 
 ## CVE-2026-32249 NFA regex engine NULL pointer dereference affects Vim < 9.2.0137
 - Source: Microsoft MSRC
@@ -755,14 +771,6 @@ Federal Reserve Board issues enforcement actions with former employee of Equity 
 
 The White House published an executive order directing federal regulators to review and scale back certain rules to expand access to mortgages and encourage new housing construction. President Trump directed agencies to begin easing regulatory burdens on mortgage lenders—particularly community banks—and to remove environmental and energy-efficiency requirements affecting resid…
 
-## From VMware to what’s next: Protecting data during hypervisor migration
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T14:15:25Z
-- URL: https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/
-
-Hypervisor migrations can introduce hidden risks that threaten data availability and recovery. Acronis explains why verified backups and cross-platform recovery are essential during VMware transitions. [...]
-
 ## Sunshine Act Notice: FDIC Board of Directors Meeting
 - Source: FDIC
 - Category: Banking
@@ -885,17 +893,17 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
 
+## From VMware to what’s next: Protecting data during hypervisor migration
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/
+
 ## Police sinkholes 45,000 IP addresses in cybercrime crackdown
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-13T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/
-
-## Fake enterprise VPN sites used to steal company credentials
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
@@ -2684,187 +2692,3 @@ The Office of the Comptroller of the Currency finalized a rule updating licensin
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
 
 Collaboration deepens as Bridge’s stablecoin-linked card program gains global momentum SAN FRANCISCO --(BUSINESS WIRE)--Mar. 3, 2026-- Visa (NYSE:V), a global leader in digital payments, and Bridge, a leading stablecoin infrastructure platform and a Stripe company, today announced an expansion of
-
-## CVE-2025-71162 dmaengine: tegra-adma: Fix use-after-free
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:39:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71162
-
-Information published.
-
-## CVE-2025-71089 iommu: disable SVA when CONFIG_X86 is set
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:39:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71089
-
-Information published.
-
-## CVE-2025-68817 ksmbd: fix use-after-free in ksmbd_tree_connect_put under concurrency
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:39:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68817
-
-Information published.
-
-## CVE-2025-69873 ajv (Another JSON Schema Validator) before 8.18.0 is vulnerable to Regular Expression Denial of Service (ReDoS) when the $data option is enabled. The pattern keyword accepts runtime data via JSON Pointer…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:38:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69873
-
-Information published.
-
-## CVE-2025-11563 wcurl path traversal with percent-encoded slashes
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:38:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11563
-
-Information published.
-
-## CVE-2025-62878 Local Path Provisioner vulnerable to Path Traversal via parameters.pathPattern
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:38:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-62878
-
-Information published.
-
-## CVE-2025-61145 libtiff up to v4.7.1 was discovered to contain a double free via the component tools/tiffcrop.c.
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:38:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61145
-
-Information published.
-
-## CVE-2026-21620 TFTP Path Traversal
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:38:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21620
-
-Information published.
-
-## CVE-2026-27199 Werkzeug safe_join() allows Windows special device names
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:38:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27199
-
-Information published.
-
-## CVE-2026-23224 erofs: fix UAF issue for file-backed mounts w/ directio option
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:37:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23224
-
-Information published.
-
-## CVE-2025-71237 nilfs2: Fix potential block overflow that cause system hang
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:37:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71237
-
-Information published.
-
-## CVE-2026-23220 ksmbd: fix infinite loop caused by next_smb2_rcv_hdr_off reset in error paths
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:37:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23220
-
-Information published.
-
-## CVE-2026-23228 smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:37:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23228
-
-Information published.
-
-## CVE-2025-71230 hfs: ensure sb->s_fs_info is always cleaned up
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:37:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71230
-
-Information published.
-
-## CVE-2026-23222 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:37:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23222
-
-Information published.
-
-## CVE-2026-1979 mruby JMPNOT-to-JMPIF Optimization vm.c mrb_vm_exec use after free
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:37:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1979
-
-Information published.
-
-## CVE-2026-23217 riscv: trace: fix snapshot deadlock with sbi ecall
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:37:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23217
-
-Information published.
-
-## CVE-2025-15079 libssh global known_hosts override
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:36:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-15079
-
-Information published.
-
-## CVE-2025-15224 libssh key passphrase bypass without agent set
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:36:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-15224
-
-Information published.
-
-## CVE-2023-45229 Out-of-Bounds Read in EDK II Network Package
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:35:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-45229
-
-Information published.
-
-## CVE-2024-38796 Integer overflow in PeCoffLoaderRelocateImage
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:35:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38796
-
-Information published.
-
-## CVE-2023-45231 Out-of-Bounds Read in EDK II Network Package
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:35:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-45231
-
-Information published.
-
-## CVE-2022-4304 Timing Oracle in RSA Decryption
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-03T09:35:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-4304
-
-Information published.
