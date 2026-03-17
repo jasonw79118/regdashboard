@@ -1,7 +1,143 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T07:56:11Z` → `2026-03-17T07:56:11Z` (UTC)
-Last updated: `2026-03-17T02:56:11-05:00` (CT) — `2026-03-17T07:56:11Z` (UTC)
+Window: `2026-03-03T09:01:12Z` → `2026-03-17T09:01:12Z` (UTC)
+Last updated: `2026-03-17T04:01:12-05:00` (CT) — `2026-03-17T09:01:12Z` (UTC)
+
+## CVE-2026-32249 NFA regex engine NULL pointer dereference affects Vim < 9.2.0137
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:39:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32249
+
+Information published.
+
+## CVE-2026-23069 vsock/virtio: fix potential underflow in virtio_transport_get_credit()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:38:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23069
+
+Information published.
+
+## CVE-2026-23066 rxrpc: Fix recvmsg() unconditional requeue
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:38:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23066
+
+Information published.
+
+## CVE-2025-69648
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:38:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69648
+
+Information published.
+
+## CVE-2025-69647
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:38:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69647
+
+Information published.
+
+## CVE-2026-3381 Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:36:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3381
+
+Information published.
+
+## CVE-2026-1703 Limited path traversal when installing wheel archives
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:36:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1703
+
+Information published.
+
+## CVE-2026-4105 Systemd: systemd: privilege escalation via improper access control in registermachine d-bus method
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:02:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4105
+
+Information published.
+
+## CVE-2026-2673 OpenSSL TLS 1.3 server may choose unexpected key agreement group
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:02:24Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2673
+
+Information published.
+
+## CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:02:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4111
+
+Information published.
+
+## CVE-2026-23943 Pre-auth SSH DoS via unbounded zlib inflate
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:02:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23943
+
+Information published.
+
+## CVE-2026-23942 SFTP root escape via component-agnostic prefix check in ssh_sftpd
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:01:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23942
+
+Information published.
+
+## CVE-2026-23941 Request smuggling via first-wins Content-Length parsing in inets httpd
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:01:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23941
+
+Information published.
+
+## CVE-2026-32775
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:01:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32775
+
+Information published.
+
+## CVE-2026-32777
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:01:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32777
+
+Information published.
+
+## CVE-2026-32778
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:01:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32778
+
+Information published.
+
+## CVE-2026-32776
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-17T08:01:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32776
+
+Information published.
 
 ## Chromium: CVE-2026-3909 Out of bounds write in Skia
 - Source: Microsoft MSRC
@@ -278,14 +414,6 @@ Information published.
 - Category: IS
 - Published: 2026-03-14T08:01:27Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27171
-
-Information published.
-
-## CVE-2026-3381 Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-14T08:01:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3381
 
 Information published.
 
