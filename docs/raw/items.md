@@ -1,7 +1,43 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T13:23:39Z` → `2026-03-17T13:23:39Z` (UTC)
-Last updated: `2026-03-17T08:23:39-05:00` (CT) — `2026-03-17T13:23:39Z` (UTC)
+Window: `2026-03-03T15:02:37Z` → `2026-03-17T15:02:37Z` (UTC)
+Last updated: `2026-03-17T10:02:37-05:00` (CT) — `2026-03-17T15:02:37Z` (UTC)
+
+## Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink
+- Source: White House
+- Category: Executive
+- Published: 2026-03-17T14:16:01Z
+- URL: https://www.whitehouse.gov/articles/2026/03/airline-ceos-demand-immediate-action-as-democrats-dhs-shutdown-pushes-air-travel-to-the-brink/
+
+## Top 5 Things CISOs Need to Do Today to Secure AI Agents
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T14:02:12Z
+- URL: https://www.bleepingcomputer.com/news/security/top-5-things-cisos-need-to-do-today-to-secure-ai-agents/
+
+AI agents are autonomous actors with real access to data and systems, not just copilots. Token Security explains why identity-based access control is critical to prevent misuse and data exposure. [...]
+
+## New font-rendering trick hides malicious commands from AI tools
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T13:59:12Z
+- URL: https://www.bleepingcomputer.com/news/security/new-font-rendering-trick-hides-malicious-commands-from-ai-tools/
+
+A new font-rendering attack causes AI assistants to miss malicious commands shown on webpages by hiding them in seemingly harmless HTML. [...]
+
+## Microsoft stops force-installing the Microsoft 365 Copilot app
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T13:54:37Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/
+
+Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices outside the European Economic Area (EEA) that have the Microsoft 365 desktop client apps. [...]
+
+## Presidential Message on Saint Patrick’s Day and Irish American Heritage Month
+- Source: White House
+- Category: Executive
+- Published: 2026-03-17T13:48:10Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-saint-patricks-day-and-irish-american-heritage-month/
 
 ## LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks
 - Source: BleepingComputer
@@ -199,6 +235,12 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-03-17T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-14
 
+## Chairman Hill: As We Consider Additions To The GLBA, We Must Strike A Balance
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-17T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411056
+
 ## Fiserv and Western Alliance Bank Form Strategic Alliance to Power High-Impact Commerce Experiences for Clients
 - Source: Fiserv
 - Category: Fintech Watch
@@ -392,22 +434,6 @@ A new open-source tool called Betterleaks can scan directories, files, and git r
 - Category: IS
 - Published: 2026-03-15T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/
-
-## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-14T21:48:14Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
-
-Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise devices that receive hotpatch updates instead of the regular Patch Tuesday cumulative updates. [...]
-
-## AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-14T14:36:42Z
-- URL: https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
-
-The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-chain attack. [...]
 
 ## CVE-2026-23868
 - Source: Microsoft MSRC
@@ -729,19 +755,17 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
 
-## This documentary streaming service is $140 for lifetime access
+## Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-14T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
 
-## Microsoft: Windows 11 users can't access C: drive on some Samsung PCs
+## AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
 - Source: BleepingComputer
 - Category: IS
-- Published: 2026-03-13T22:11:57Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/
-
-Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\ drive and are unable to launch applications. [...]
+- Published: 2026-03-14T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
 
 ## CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success
 - Source: White House
@@ -766,12 +790,6 @@ Microsoft is investigating a new issue affecting some Samsung laptops running Wi
 - Category: Executive
 - Published: 2026-03-13T19:35:08Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/removing-regulatory-barriers-to-affordable-home-construction/
-
-## Fact Sheet: President Donald J. Trump Ensures Truthful Advertising of Products Claiming to be Made in America
-- Source: White House
-- Category: Executive
-- Published: 2026-03-13T19:29:14Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-ensures-truthful-advertising-of-products-claiming-to-be-made-in-america/
 
 ## Promoting Access to Mortgage Credit
 - Source: White House
@@ -916,12 +934,6 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Category: Legislative
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
-
-## FBI seeks victims of Steam games used to spread malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
@@ -2688,11 +2700,3 @@ Join us May 6–8 in Washington, DC for three power-packed days bringing togethe
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260303a.htm
 
 Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank
-
-## OCC finalizes revised licensing requirements
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-03-03T15:00:00Z
-- URL: https://www.texasbankers.com/occ-finalizes-revised-licensing-requirements/
-
-The Office of the Comptroller of the Currency finalized a rule updating licensing requirements for community banks and scrapped a decades-old fair-housing monitoring system, moves the agency said are intended to ease regulatory pressures on smaller institutions. The changes were originally proposed last year as part of a broader package aimed at streamlining oversight of […] T…

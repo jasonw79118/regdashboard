@@ -1,9 +1,49 @@
 {
-  "window_start": "2026-03-03T13:23:39Z",
-  "window_end": "2026-03-17T13:23:39Z",
-  "generated_at_utc": "2026-03-17T13:23:39Z",
-  "generated_at_ct": "2026-03-17T08:23:39-05:00",
+  "window_start": "2026-03-03T15:02:37Z",
+  "window_end": "2026-03-17T15:02:37Z",
+  "generated_at_utc": "2026-03-17T15:02:37Z",
+  "generated_at_ct": "2026-03-17T10:02:37-05:00",
   "items": [
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink",
+      "published_at": "2026-03-17T14:16:01Z",
+      "url": "https://www.whitehouse.gov/articles/2026/03/airline-ceos-demand-immediate-action-as-democrats-dhs-shutdown-pushes-air-travel-to-the-brink/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Top 5 Things CISOs Need to Do Today to Secure AI Agents",
+      "published_at": "2026-03-17T14:02:12Z",
+      "url": "https://www.bleepingcomputer.com/news/security/top-5-things-cisos-need-to-do-today-to-secure-ai-agents/",
+      "summary": "AI agents are autonomous actors with real access to data and systems, not just copilots. Token Security explains why identity-based access control is critical to prevent misuse and data exposure. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "New font-rendering trick hides malicious commands from AI tools",
+      "published_at": "2026-03-17T13:59:12Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-font-rendering-trick-hides-malicious-commands-from-ai-tools/",
+      "summary": "A new font-rendering attack causes AI assistants to miss malicious commands shown on webpages by hiding them in seemingly harmless HTML. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft stops force-installing the Microsoft 365 Copilot app",
+      "published_at": "2026-03-17T13:54:37Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/",
+      "summary": "Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices outside the European Economic Area (EEA) that have the Microsoft 365 desktop client apps. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Presidential Message on Saint Patrick’s Day and Irish American Heritage Month",
+      "published_at": "2026-03-17T13:48:10Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-saint-patricks-day-and-irish-american-heritage-month/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -202,6 +242,14 @@
       "title": "MPF Announcement 2026-14",
       "published_at": "2026-03-17T00:00:00Z",
       "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-14",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "Chairman Hill: As We Consider Additions To The GLBA, We Must Strike A Balance",
+      "published_at": "2026-03-17T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411056",
       "summary": ""
     },
     {
@@ -441,22 +489,6 @@
       "published_at": "2026-03-15T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw",
-      "published_at": "2026-03-14T21:48:14Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/",
-      "summary": "Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise devices that receive hotpatch updates instead of the regular Patch Tuesday cumulative updates. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code",
-      "published_at": "2026-03-14T14:36:42Z",
-      "url": "https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/",
-      "summary": "The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-chain attack. [...]"
     },
     {
       "category": "IS",
@@ -781,18 +813,18 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "This documentary streaming service is $140 for lifetime access",
+      "title": "Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw",
       "published_at": "2026-03-14T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-documentary-streaming-service-is-140-for-lifetime-access/",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Microsoft: Windows 11 users can't access C: drive on some Samsung PCs",
-      "published_at": "2026-03-13T22:11:57Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/",
-      "summary": "Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\\ drive and are unable to launch applications. [...]"
+      "title": "AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code",
+      "published_at": "2026-03-14T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/",
+      "summary": ""
     },
     {
       "category": "Executive",
@@ -824,14 +856,6 @@
       "title": "Removing Regulatory Barriers to Affordable Home Construction",
       "published_at": "2026-03-13T19:35:08Z",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/03/removing-regulatory-barriers-to-affordable-home-construction/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Fact Sheet: President Donald J. Trump Ensures Truthful Advertising of Products Claiming to be Made in America",
-      "published_at": "2026-03-13T19:29:14Z",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-ensures-truthful-advertising-of-products-claiming-to-be-made-in-america/",
       "summary": ""
     },
     {
@@ -984,14 +1008,6 @@
       "title": "Hill and Barr Applaud President Trump's Move to Expand Access to Mortgage Credit",
       "published_at": "2026-03-13T00:00:00Z",
       "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "FBI seeks victims of Steam games used to spread malware",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/",
       "summary": ""
     },
     {
@@ -2925,14 +2941,6 @@
       "published_at": "2026-03-03T16:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260303a.htm",
       "summary": "Federal Reserve Board issues enforcement actions with former employee of East Cambridge Savings Bank and former employee of United Bank"
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "TBA",
-      "title": "OCC finalizes revised licensing requirements",
-      "published_at": "2026-03-03T15:00:00Z",
-      "url": "https://www.texasbankers.com/occ-finalizes-revised-licensing-requirements/",
-      "summary": "The Office of the Comptroller of the Currency finalized a rule updating licensing requirements for community banks and scrapped a decades-old fair-housing monitoring system, moves the agency said are intended to ease regulatory pressures on smaller institutions. The changes were originally proposed last year as part of a broader package aimed at streamlining oversight of […] T…"
     }
   ]
 }
