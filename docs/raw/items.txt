@@ -1,5 +1,12 @@
 IS
 BleepingComputer
+2026-03-17T11:07:05Z
+New Windows 11 hotpatch fixes Bluetooth device visibility issue
+https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/
+Microsoft has released an emergency update to fix a Bluetooth device visibility issue on hotpatch-enabled Windows 11 Enterprise devices. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-17T10:37:19Z
 Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic
 https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/
@@ -137,6 +144,12 @@ Microsoft MSRC
 Chromium: CVE-2026-3909 Out of bounds write in Skia
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-17T00:00:00Z
+Get lifetime access to Headway’s book summary app for $50.99
+https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -664,13 +677,6 @@ Poland's nuclear research centre targeted by cyberattack
 https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/
 Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-13T16:53:02Z
-Microsoft investigates classic Outlook sync and connection issues
-https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
-​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]
-------------------------------------------------------------
 Banking
 FRB
 2026-03-13T15:00:00Z
@@ -797,14 +803,8 @@ https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
 IS
 BleepingComputer
 2026-03-13T00:00:00Z
-From VMware to what’s next: Protecting data during hypervisor migration
-https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-13T00:00:00Z
-Police sinkholes 45,000 IP addresses in cybercrime crackdown
-https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/
+Microsoft investigates classic Outlook sync and connection issues
+https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
 ------------------------------------------------------------
 Compliance Watch
 CDIA

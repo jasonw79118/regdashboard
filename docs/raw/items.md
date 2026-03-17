@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T10:55:46Z` → `2026-03-17T10:55:46Z` (UTC)
-Last updated: `2026-03-17T05:55:46-05:00` (CT) — `2026-03-17T10:55:46Z` (UTC)
+Window: `2026-03-03T11:47:31Z` → `2026-03-17T11:47:31Z` (UTC)
+Last updated: `2026-03-17T06:47:31-05:00` (CT) — `2026-03-17T11:47:31Z` (UTC)
+
+## New Windows 11 hotpatch fixes Bluetooth device visibility issue
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T11:07:05Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/
+
+Microsoft has released an emergency update to fix a Bluetooth device visibility issue on hotpatch-enabled Windows 11 Enterprise devices. [...]
 
 ## Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic
 - Source: BleepingComputer
@@ -162,6 +170,12 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.
+
+## Get lifetime access to Headway’s book summary app for $50.99
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/
 
 ## Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants
 - Source: Federal Register
@@ -747,14 +761,6 @@ The FBI is asking gamers who installed Steam titles containing malware to provid
 
 Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]
 
-## Microsoft investigates classic Outlook sync and connection issues
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T16:53:02Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
-
-​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]
-
 ## Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
 - Source: FRB
 - Category: Banking
@@ -893,17 +899,11 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - Published: 2026-03-13T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
 
-## From VMware to what’s next: Protecting data during hypervisor migration
+## Microsoft investigates classic Outlook sync and connection issues
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/
-
-## Police sinkholes 45,000 IP addresses in cybercrime crackdown
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
 
 ## Fundamentals Metro 2® Format Webinar Series
 - Source: CDIA
