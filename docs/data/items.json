@@ -1,8 +1,8 @@
 {
-  "window_start": "2026-03-03T06:04:18Z",
-  "window_end": "2026-03-17T06:04:18Z",
-  "generated_at_utc": "2026-03-17T06:04:18Z",
-  "generated_at_ct": "2026-03-17T01:04:18-05:00",
+  "window_start": "2026-03-03T07:56:11Z",
+  "window_end": "2026-03-17T07:56:11Z",
+  "generated_at_utc": "2026-03-17T07:56:11Z",
+  "generated_at_ct": "2026-03-17T02:56:11-05:00",
   "items": [
     {
       "category": "IS",
@@ -11,6 +11,36 @@
       "published_at": "2026-03-17T01:09:34Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909",
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild."
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants",
+      "published_at": "2026-03-17T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/03/17/2026-05160/amendment-reinstating-grandfather-exceptions-to-restrictions-on-private-transfer-fee-covenants",
+      "summary": "The Federal Housing Finance Agency (FHFA) is making a technical amendment to its Private Transfer Fee Covenants (PTFC) Regulation. The PTFC Regulation restricts FHFA's regulated entities-- the Federal National Mortgage Association (Fannie Mae), the Federal Home Loan Mortgage Corporation (Freddie Mac) (collectively, the Enterprises), and the Federal Home Loan Banks (Banks)--fro…",
+      "fr_tags": [
+        "agency:federal-housing-finance-agency",
+        "topic:banks-banking",
+        "topic:federal-home-loan-banks",
+        "topic:investments",
+        "topic:mortgages",
+        "topic:securities"
+      ],
+      "fedreg_document_number": "2026-05160"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Sunshine Act Meetings: Notice of Meeting To Be Held With Less Than Seven Days' Advance Notice",
+      "published_at": "2026-03-17T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/03/17/2026-05173/sunshine-act-meetings-notice-of-meeting-to-be-held-with-less-than-seven-days-advance-notice",
+      "summary": "",
+      "fr_tags": [
+        "agency:federal-deposit-insurance-corporation",
+        "filter:federal-deposit-insurance-corporation"
+      ],
+      "fedreg_document_number": "2026-05173"
     },
     {
       "category": "Executive",

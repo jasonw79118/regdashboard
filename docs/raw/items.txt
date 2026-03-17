@@ -5,6 +5,19 @@ Chromium: CVE-2026-3909 Out of bounds write in Skia
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.
 ------------------------------------------------------------
+Federal Register
+Federal Register
+2026-03-17T00:00:00Z
+Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants
+https://www.federalregister.gov/documents/2026/03/17/2026-05160/amendment-reinstating-grandfather-exceptions-to-restrictions-on-private-transfer-fee-covenants
+The Federal Housing Finance Agency (FHFA) is making a technical amendment to its Private Transfer Fee Covenants (PTFC) Regulation. The PTFC Regulation restricts FHFA's regulated entities-- the Federal National Mortgage Association (Fannie Mae), the Federal Home Loan Mortgage Corporation (Freddie Mac) (collectively, the Enterprises), and the Federal Home Loan Banks (Banks)--fro…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-03-17T00:00:00Z
+Sunshine Act Meetings: Notice of Meeting To Be Held With Less Than Seven Days' Advance Notice
+https://www.federalregister.gov/documents/2026/03/17/2026-05173/sunshine-act-meetings-notice-of-meeting-to-be-held-with-less-than-seven-days-advance-notice
+------------------------------------------------------------
 Executive
 White House
 2026-03-16T20:53:17Z

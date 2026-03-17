@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T06:04:18Z` → `2026-03-17T06:04:18Z` (UTC)
-Last updated: `2026-03-17T01:04:18-05:00` (CT) — `2026-03-17T06:04:18Z` (UTC)
+Window: `2026-03-03T07:56:11Z` → `2026-03-17T07:56:11Z` (UTC)
+Last updated: `2026-03-17T02:56:11-05:00` (CT) — `2026-03-17T07:56:11Z` (UTC)
 
 ## Chromium: CVE-2026-3909 Out of bounds write in Skia
 - Source: Microsoft MSRC
@@ -10,6 +10,20 @@ Last updated: `2026-03-17T01:04:18-05:00` (CT) — `2026-03-17T06:04:18Z` (UTC)
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.
+
+## Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/17/2026-05160/amendment-reinstating-grandfather-exceptions-to-restrictions-on-private-transfer-fee-covenants
+
+The Federal Housing Finance Agency (FHFA) is making a technical amendment to its Private Transfer Fee Covenants (PTFC) Regulation. The PTFC Regulation restricts FHFA's regulated entities-- the Federal National Mortgage Association (Fannie Mae), the Federal Home Loan Mortgage Corporation (Freddie Mac) (collectively, the Enterprises), and the Federal Home Loan Banks (Banks)--fro…
+
+## Sunshine Act Meetings: Notice of Meeting To Be Held With Less Than Seven Days' Advance Notice
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-17T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/17/2026-05173/sunshine-act-meetings-notice-of-meeting-to-be-held-with-less-than-seven-days-advance-notice
 
 ## Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud
 - Source: White House
