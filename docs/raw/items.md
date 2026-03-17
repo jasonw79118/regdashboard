@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T04:56:26Z` → `2026-03-17T04:56:26Z` (UTC)
-Last updated: `2026-03-16T23:56:26-05:00` (CT) — `2026-03-17T04:56:26Z` (UTC)
+Window: `2026-03-03T06:04:18Z` → `2026-03-17T06:04:18Z` (UTC)
+Last updated: `2026-03-17T01:04:18-05:00` (CT) — `2026-03-17T06:04:18Z` (UTC)
 
 ## Chromium: CVE-2026-3909 Out of bounds write in Skia
 - Source: Microsoft MSRC
