@@ -1,4 +1,59 @@
 IS
+Microsoft MSRC
+2026-03-18T08:37:44Z
+CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4111
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-18T08:01:29Z
+CVE-2025-71239 audit: add fchmodat2() to change attributes class
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71239
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-18T08:01:23Z
+CVE-2026-23241 audit: add missing syscalls to read class
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23241
+Information published.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-18T01:06:31Z
+Apple pushes first Background Security Improvements update to fix WebKit flaw
+https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
+Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]
+------------------------------------------------------------
+Banking
+FRB
+2026-03-18T00:00:00Z
+News & Events
+https://www.federalreserve.gov/newsevents.htm
+The Federal Reserve Board of Governors in Washington DC.
+------------------------------------------------------------
+Payments
+NACHA
+2026-03-18T00:00:00Z
+Nacha Honors the 15 Under 40 Award Winners for 2026
+https://www.nacha.org/news/nacha-honors-15-under-40-award-winners-2026
+RESTON, Virginia, March 18, 2026 – Nacha is proud to announce the 2026 honorees in its 15 Under 40 Awards program, recognizing the next generation of payments industry leaders. All have demonstrated exceptional leadership, innovation, and dedication to advancing the payments landscape.Nacha’s 15 Under 40 honorees for 2026 are:
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-18T00:00:00Z
+This $42 VPN is a simple way to increase your privacy online
+https://www.bleepingcomputer.com/offer/deals/this-42-vpn-is-a-simple-way-to-increase-your-privacy-online/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-17T21:42:54Z
+GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX
+https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/
+The GlassWorm supply-chain campaign has returned with a new, coordinated attack that targeted hundreds of packages, repositories, and extensions on GitHub, npm, and VSCode/OpenVSX extensions. [...]
+------------------------------------------------------------
+IS
 BleepingComputer
 2026-03-17T18:41:59Z
 Europe sanctions Chinese and Iranian firms for cyberattacks
@@ -146,13 +201,6 @@ Microsoft MSRC
 2026-03-17T08:02:24Z
 CVE-2026-2673 OpenSSL TLS 1.3 server may choose unexpected key agreement group
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2673
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-17T08:02:12Z
-CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4111
 Information published.
 ------------------------------------------------------------
 IS
@@ -1333,13 +1381,6 @@ Shadow AI is everywhere. Here’s how to find and secure it.
 https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/
 Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Security explains how security teams can discover AI apps, monitor usage, and govern risky AI activity. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-16T13:14:32Z
-Microsoft pulls Samsung app blocking Windows C: drive from Store
-https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
-​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]
-------------------------------------------------------------
 Compliance Watch
 TBA
 2026-03-16T06:59:00Z
@@ -1395,15 +1436,14 @@ The trend among dentists toward electronic claim payments continues, according t
 IS
 BleepingComputer
 2026-03-16T00:00:00Z
-Get CISSP-certified with this 8-course training bundle for $34
-https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
+Microsoft pulls Samsung app blocking Windows C: drive from Store
+https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
 ------------------------------------------------------------
 IS
 BleepingComputer
-2026-03-15T23:13:28Z
-OpenAI says ChatGPT ads are not rolling out globally for now
-https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/
-OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet rolling out outside the United States, even though some users noticed references to ads in the updated privacy policy. [...]
+2026-03-16T00:00:00Z
+Get CISSP-certified with this 8-course training bundle for $34
+https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
 ------------------------------------------------------------
 Executive
 White House
@@ -1416,18 +1456,6 @@ House Financial Services
 2026-03-15T00:00:00Z
 Hill and Flood Statement on President Trump’s Executive Order on Housing Affordability
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411053
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-15T00:00:00Z
-Betterleaks, a new open-source secrets scanner to replace Gitleaks
-https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-15T00:00:00Z
-This $20 EDU Unlimited deal unlocks 1,000+ online courses
-https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -3352,57 +3380,4 @@ CDIA
 Strengthen the connections that power our industry at CDIA Connect!
 https://www.cdiaonline.org/events/2026/03/04/strengthen-the-connections-that-power-our-industry-at-cdia-connect/
 If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA .
-------------------------------------------------------------
-Compliance Watch
-TBA
-2026-03-04T11:00:00Z
-Trump officially nominates Warsh to be Fed Chair
-https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/
-President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-04T09:11:13Z
-CVE-2026-25541 Bytes is vulnerable to integer overflow in BytesMut::reserve
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25541
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-04T09:04:21Z
-CVE-2026-27965 Vitess users with backup storage access can gain unauthorized access to production deployment environments
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
-Information published.
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-03-04T00:00:00Z
-Chairman Hill: The bills before us today reflect President Trump and Republicans’ shared commitment to promoting pro-growth, America-first policies
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411044
-------------------------------------------------------------
-Fintech Watch
-FIS
-2026-03-04T00:00:00Z
-FIS to Present at Upcoming Conference
-https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-24
-------------------------------------------------------------
-Fintech Watch
-FIS
-2026-03-04T00:00:00Z
-Integrity Viking Funds Modernizes Investment Accounting Infrastructure with FIS Investment Accounting Manager
-https://www.investor.fisglobal.com/news-releases/news-release-details/integrity-viking-funds-modernizes-investment-accounting
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-03-04T00:00:00Z
-Fair Housing Home Loan Data System
-https://www.federalregister.gov/documents/2026/03/04/2026-04276/fair-housing-home-loan-data-system
-The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housing Home Loan Data System regulation. The OCC has determined that the regulation is obsolete and largely duplicative of and inconsistent with other legal authorities that require national banks to collect and retain certain information on applications for home loans. Moreover, it imposed asymmetrica…
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-03-04T00:00:00Z
-Community Bank Licensing Amendments
-https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
-The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…
 ------------------------------------------------------------

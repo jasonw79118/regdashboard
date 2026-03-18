@@ -1,7 +1,69 @@
 # RegDashboard — Export
 
-Window: `2026-03-03T20:05:56Z` → `2026-03-17T20:05:56Z` (UTC)
-Last updated: `2026-03-17T15:05:56-05:00` (CT) — `2026-03-17T20:05:56Z` (UTC)
+Window: `2026-03-04T13:32:05Z` → `2026-03-18T13:32:05Z` (UTC)
+Last updated: `2026-03-18T08:32:05-05:00` (CT) — `2026-03-18T13:32:05Z` (UTC)
+
+## CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-18T08:37:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4111
+
+Information published.
+
+## CVE-2025-71239 audit: add fchmodat2() to change attributes class
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-18T08:01:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71239
+
+Information published.
+
+## CVE-2026-23241 audit: add missing syscalls to read class
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-18T08:01:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23241
+
+Information published.
+
+## Apple pushes first Background Security Improvements update to fix WebKit flaw
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T01:06:31Z
+- URL: https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
+
+Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]
+
+## News & Events
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.federalreserve.gov/newsevents.htm
+
+The Federal Reserve Board of Governors in Washington DC.
+
+## Nacha Honors the 15 Under 40 Award Winners for 2026
+- Source: NACHA
+- Category: Payments
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.nacha.org/news/nacha-honors-15-under-40-award-winners-2026
+
+RESTON, Virginia, March 18, 2026 – Nacha is proud to announce the 2026 honorees in its 15 Under 40 Awards program, recognizing the next generation of payments industry leaders. All have demonstrated exceptional leadership, innovation, and dedication to advancing the payments landscape.Nacha’s 15 Under 40 honorees for 2026 are:
+
+## This $42 VPN is a simple way to increase your privacy online
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-42-vpn-is-a-simple-way-to-increase-your-privacy-online/
+
+## GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T21:42:54Z
+- URL: https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/
+
+The GlassWorm supply-chain campaign has returned with a new, coordinated attack that targeted hundreds of packages, repositories, and extensions on GitHub, npm, and VSCode/OpenVSX extensions. [...]
 
 ## Europe sanctions Chinese and Iranian firms for cyberattacks
 - Source: BleepingComputer
@@ -168,14 +230,6 @@ Information published.
 - Category: IS
 - Published: 2026-03-17T08:02:24Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2673
-
-Information published.
-
-## CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-17T08:02:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4111
 
 Information published.
 
@@ -1371,14 +1425,6 @@ Microsoft is working to address an ongoing Exchange Online outage that is preven
 
 Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Security explains how security teams can discover AI apps, monitor usage, and govern risky AI activity. [...]
 
-## Microsoft pulls Samsung app blocking Windows C: drive from Store
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-16T13:14:32Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
-
-​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]
-
 ## Federal court quashes subpoenas against Fed’s Powell
 - Source: TBA
 - Category: Compliance Watch
@@ -1435,19 +1481,17 @@ Community banks are among those on the front lines in the war on fraud, and Scot
 
 The trend among dentists toward electronic claim payments continues, according to new research.The 2025 CAQH Index Report shows 309 million claim payments were made by electronic funds transfer (EFT) in 2024, an 11.2% increase over the prior year.“What’s particularly impressive is that the gain comes even as the total number of dental claim payments rose less than a full perce…
 
+## Microsoft pulls Samsung app blocking Windows C: drive from Store
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-16T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
+
 ## Get CISSP-certified with this 8-course training bundle for $34
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-16T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
-
-## OpenAI says ChatGPT ads are not rolling out globally for now
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-15T23:13:28Z
-- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/
-
-OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet rolling out outside the United States, even though some users noticed references to ads in the updated privacy policy. [...]
 
 ## America 250: Presidential Message on the Birthday of President Andrew Jackson
 - Source: White House
@@ -1460,18 +1504,6 @@ OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet r
 - Category: Legislative
 - Published: 2026-03-15T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411053
-
-## Betterleaks, a new open-source secrets scanner to replace Gitleaks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-15T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
-
-## This $20 EDU Unlimited deal unlocks 1,000+ online courses
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-15T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-20-edu-unlimited-deal-unlocks-1-000-plus-online-courses/
 
 ## CVE-2026-23868
 - Source: Microsoft MSRC
@@ -3634,61 +3666,3 @@ The Office of Personnel Management (OPM) is issuing a proposed rule to revise it
 - URL: https://www.cdiaonline.org/events/2026/03/04/strengthen-the-connections-that-power-our-industry-at-cdia-connect/
 
 If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA .
-
-## Trump officially nominates Warsh to be Fed Chair
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-03-04T11:00:00Z
-- URL: https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/
-
-President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…
-
-## CVE-2026-25541 Bytes is vulnerable to integer overflow in BytesMut::reserve
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-04T09:11:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25541
-
-Information published.
-
-## CVE-2026-27965 Vitess users with backup storage access can gain unauthorized access to production deployment environments
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-04T09:04:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
-
-Information published.
-
-## Chairman Hill: The bills before us today reflect President Trump and Republicans’ shared commitment to promoting pro-growth, America-first policies
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-04T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411044
-
-## FIS to Present at Upcoming Conference
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-24
-
-## Integrity Viking Funds Modernizes Investment Accounting Infrastructure with FIS Investment Accounting Manager
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/integrity-viking-funds-modernizes-investment-accounting
-
-## Fair Housing Home Loan Data System
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/04/2026-04276/fair-housing-home-loan-data-system
-
-The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housing Home Loan Data System regulation. The OCC has determined that the regulation is obsolete and largely duplicative of and inconsistent with other legal authorities that require national banks to collect and retain certain information on applications for home loans. Moreover, it imposed asymmetrica…
-
-## Community Bank Licensing Amendments
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
-
-The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…
