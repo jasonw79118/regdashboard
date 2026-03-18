@@ -1,7 +1,31 @@
 # RegDashboard — Export
 
-Window: `2026-03-04T13:32:05Z` → `2026-03-18T13:32:05Z` (UTC)
-Last updated: `2026-03-18T08:32:05-05:00` (CT) — `2026-03-18T13:32:05Z` (UTC)
+Window: `2026-03-04T00:00:00Z` → `2026-03-18T15:25:34Z` (UTC)
+Last updated: `2026-03-18T10:25:34-05:00` (CT) — `2026-03-18T15:25:34Z` (UTC)
+
+## The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T14:05:15Z
+- URL: https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/
+
+Refund fraud is now a business, with methods and tutorials sold to exploit return policies for profit. Flare shows how fraudsters turn refunds and chargebacks into a repeatable profit model. [...]
+
+## New “Darksword” iOS exploit used in infostealer attack on iPhones
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T14:02:08Z
+- URL: https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/
+
+A new exploit kit for iOS devices and delivery framework dubbed "Darksword" has been used to steal a wide range of personal information, including data from cryptocurrency wallet app. [...]
+
+## Nordstrom's email system abused to send crypto scams to customers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T13:55:49Z
+- URL: https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/
+
+Customers of upscale department store chain Nordstrom received fraudulent messages from a legitimate company email address that promoted cryptocurrency scams disguised as a St. Patrick's Day promotion. [...]
 
 ## CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
 - Source: Microsoft MSRC
@@ -35,6 +59,24 @@ Information published.
 
 Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]
 
+## Issuance of Venezuela-related General License and Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-18T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260318
+
+## Russia-related Designations Removals
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-18T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260318_33
+
+## OCC Announces Enforcement Actions for March 2026
+- Source: OCC
+- Category: Banking
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-15.html
+
 ## News & Events
 - Source: FRB
 - Category: Banking
@@ -43,6 +85,18 @@ Apple has released its first Background Security Improvements update to fix a We
 
 The Federal Reserve Board of Governors in Washington DC.
 
+## Davidson: A More Ambitious Role For The Bank Must Also Come With Tougher Accountability
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-18T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411058
+
+## Full Committee Examines the Current U.S. Financial Data Privacy Framework
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-18T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411059
+
 ## Nacha Honors the 15 Under 40 Award Winners for 2026
 - Source: NACHA
 - Category: Payments
@@ -50,6 +104,12 @@ The Federal Reserve Board of Governors in Washington DC.
 - URL: https://www.nacha.org/news/nacha-honors-15-under-40-award-winners-2026
 
 RESTON, Virginia, March 18, 2026 – Nacha is proud to announce the 2026 honorees in its 15 Under 40 Awards program, recognizing the next generation of payments industry leaders. All have demonstrated exceptional leadership, innovation, and dedication to advancing the payments landscape.Nacha’s 15 Under 40 honorees for 2026 are:
+
+## Marquis: Ransomware gang stole data of 672K people in cyberattack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-data-of-672-000-people-in-2025-cyberattack/
 
 ## This $42 VPN is a simple way to increase your privacy online
 - Source: BleepingComputer
@@ -124,12 +184,6 @@ The LeakNet ransomware gang is now using the ClickFix technique for initial acce
 - URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
 
 Microsoft has shared guidance to fix C:\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]
-
-## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and TradeStation Securities, Inc.
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-17T12:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260317
 
 ## Finastra strengthens AI capabilities with new Center of Excellence and leadership appointment
 - Source: Finastra
@@ -296,6 +350,12 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.
+
+## Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and TradeStation Securities, Inc.
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-17T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260317
 
 ## MPF Announcement 2026-14
 - Source: FHLB MPF
@@ -1387,43 +1447,11 @@ The Federal Housing Finance Agency (FHFA) is making a technical amendment to its
 
 Last week's cyberattack on medical technology giant Stryker was limited to its internal Microsoft environment and remotely wiped tens of thousands of employee devices. [...]
 
-## CISA flags Wing FTP Server flaw as actively exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-16T18:00:22Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/
-
-CISA warned U.S. government agencies to secure their Wing FTP Server instances against an actively exploited vulnerability that may be chained in remote code execution attacks. [...]
-
 ## America 250: Presidential Message on the Birthday of President James Madison
 - Source: White House
 - Category: Executive
 - Published: 2026-03-16T17:27:50Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-james-madison/
-
-## UK’s Companies House confirms security flaw exposed business data
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-16T17:07:25Z
-- URL: https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/
-
-Companies House, a British government agency that operates the registry for all U.K. companies, says its WebFiling service is back online after it was closed on Friday to fix a security flaw that exposed companies' information since October 2025. [...]
-
-## Microsoft Exchange Online outage blocks access to mailboxes
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-16T16:05:02Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes/
-
-Microsoft is working to address an ongoing Exchange Online outage that is preventing customers from accessing their mailboxes and calendars. [...]
-
-## Shadow AI is everywhere. Here’s how to find and secure it.
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-16T14:01:11Z
-- URL: https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/
-
-Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Security explains how security teams can discover AI apps, monitor usage, and govern risky AI activity. [...]
 
 ## Federal court quashes subpoenas against Fed’s Powell
 - Source: TBA
@@ -1481,17 +1509,17 @@ Community banks are among those on the front lines in the war on fraud, and Scot
 
 The trend among dentists toward electronic claim payments continues, according to new research.The 2025 CAQH Index Report shows 309 million claim payments were made by electronic funds transfer (EFT) in 2024, an 11.2% increase over the prior year.“What’s particularly impressive is that the gain comes even as the total number of dental claim payments rose less than a full perce…
 
-## Microsoft pulls Samsung app blocking Windows C: drive from Store
+## CISA flags Wing FTP Server flaw as actively exploited in attacks
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/
+- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/
 
-## Get CISSP-certified with this 8-course training bundle for $34
+## UK’s Companies House confirms security flaw exposed business data
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/get-cissp-certified-with-this-8-course-training-bundle-for-34/
+- URL: https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/
 
 ## America 250: Presidential Message on the Birthday of President Andrew Jackson
 - Source: White House
@@ -1927,12 +1955,6 @@ Changes made to the security updates links and information. This is an informati
 
 Changes made to the security updates links and information. This is an informational change only.
 
-## Cyber-related Designations Removals
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-13T12:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260313
-
 ## CVE-2026-3805 use after free in SMB connection reuse
 - Source: Microsoft MSRC
 - Category: IS
@@ -1972,6 +1994,18 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
 
 Information published.
+
+## Cyber-related Designations Removals
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-13T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260313
+
+## Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-13T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260313_33
 
 ## Update on IRS Commissioner position
 - Source: IRS
@@ -2055,12 +2089,6 @@ Updated an acknowledgement. This is an informational change only.
 
 To comprehensively address CVE-2026-20841, Microsoft has released February 2026 security updates for the Windows Notepad App. Microsoft recommends that customers install the update to be fully protected from the vulnerability.
 
-## Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-12T12:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260312
-
 ## CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
 - Source: Microsoft MSRC
 - Category: IS
@@ -2140,6 +2168,18 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25679
 
 Information published.
+
+## Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-12T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260312
+
+## Issuance of Russia-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-12T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260312_33
 
 ## Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding
 - Source: IRS
@@ -3063,12 +3103,6 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 
-## Education Services
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-03-10T00:00:00Z
-- URL: https://www.cdiaonline.org/education-services/
-
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -3100,7 +3134,7 @@ President Donald Trump signed an executive order directing federal law enforceme
 ## Counter Terrorism Designations; Sudan-related Designation Update
 - Source: OFAC
 - Category: OFAC
-- Published: 2026-03-09T12:00:00Z
+- Published: 2026-03-09T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260309
 
 ## MPF Announcement 2026-11
@@ -3193,12 +3227,6 @@ Added FAQ information. This is an informational change only.
 
 Added FAQ information. This is an informational change only.
 
-## Russia-related Designation Removal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-06T12:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260306
-
 ## FinCEN Assesses Historic $80 Million Penalty Against Canaccord Genuity LLC for Securities Fraud-Related Bank Secrecy Act Violations
 - Source: FinCEN
 - Category: FinCEN
@@ -3278,6 +3306,18 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23234
 
 Information published.
+
+## Russia-related Designation Removal
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-06T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260306
+
+## Issuance of Venezuela-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-06T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260306_33
 
 ## Treasury, IRS issue proposed regulations for Trump Accounts contribution pilot program, Treasury Department to deposit $1,000 into the account of each eligible child
 - Source: IRS
@@ -3408,12 +3448,6 @@ Information published.
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bf86d
 
 PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in December 2025. The CRA is a 1977…
-
-## Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-05T12:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260305
 
 ## Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 - Source: Finastra
@@ -3549,6 +3583,18 @@ Information published.
 
 Information published.
 
+## Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-05T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260305_33
+
+## Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-05T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260305
+
 ## Treasury, IRS issue proposed regulations to make it easier for digital asset brokers to provide 1099-DA statements electronically
 - Source: IRS
 - Category: IRS
@@ -3666,3 +3712,67 @@ The Office of Personnel Management (OPM) is issuing a proposed rule to revise it
 - URL: https://www.cdiaonline.org/events/2026/03/04/strengthen-the-connections-that-power-our-industry-at-cdia-connect/
 
 If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA .
+
+## Trump officially nominates Warsh to be Fed Chair
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-03-04T11:00:00Z
+- URL: https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/
+
+President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…
+
+## CVE-2026-25541 Bytes is vulnerable to integer overflow in BytesMut::reserve
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-04T09:11:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25541
+
+Information published.
+
+## CVE-2026-27965 Vitess users with backup storage access can gain unauthorized access to production deployment environments
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-04T09:04:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
+
+Information published.
+
+## Issuance of Venezuela-related Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-04T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260304
+
+## Chairman Hill: The bills before us today reflect President Trump and Republicans’ shared commitment to promoting pro-growth, America-first policies
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-04T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411044
+
+## FIS to Present at Upcoming Conference
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-03-04T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-24
+
+## Integrity Viking Funds Modernizes Investment Accounting Infrastructure with FIS Investment Accounting Manager
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-03-04T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/integrity-viking-funds-modernizes-investment-accounting
+
+## Fair Housing Home Loan Data System
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-04T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/04/2026-04276/fair-housing-home-loan-data-system
+
+The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housing Home Loan Data System regulation. The OCC has determined that the regulation is obsolete and largely duplicative of and inconsistent with other legal authorities that require national banks to collect and retain certain information on applications for home loans. Moreover, it imposed asymmetrica…
+
+## Community Bank Licensing Amendments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-04T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
+
+The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…
