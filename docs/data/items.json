@@ -1,8 +1,8 @@
 {
   "window_start": "2026-03-04T00:00:00Z",
-  "window_end": "2026-03-18T20:42:51Z",
-  "generated_at_utc": "2026-03-18T20:42:51Z",
-  "generated_at_ct": "2026-03-18T15:42:51-05:00",
+  "window_end": "2026-03-18T21:39:45Z",
+  "generated_at_utc": "2026-03-18T21:39:45Z",
+  "generated_at_ct": "2026-03-18T16:39:45-05:00",
   "items": [
     {
       "category": "OFAC",
@@ -175,6 +175,14 @@
     {
       "category": "Legislative",
       "source": "Senate Banking",
+      "title": "ICYMI: Scott Pushes for Final Passage of Market Structure Legislation, Highlights Success of GENIUS Act at DC Blockchain Summit",
+      "published_at": "2026-03-18T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/majority/icymi-scott-pushes-for-final-passage-of-market-structure-legislation-highlights-success-of-genius-act-at-dc-blockchain-summit",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
       "title": "Senator Warren Statement on Upcoming FOMC Decision",
       "published_at": "2026-03-18T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/03/18/2026/senator-warren-statement-on-upcoming-fomc-decision",
@@ -186,14 +194,6 @@
       "title": "Warren Seeks Answers from Coffee Companies on the Impact of Trump’s Policies on Prices, Continuing Affordability Push",
       "published_at": "2026-03-18T00:00:00Z",
       "url": "https://www.banking.senate.gov/newsroom/minority/warren-seeks-answers-from-coffee-companies-on-the-impact-of-trumps-policies-on-prices-continuing-affordability-push",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Meeks Statement on Trump Administration’s Approval of Advanced AI Chip Sales to China",
-      "published_at": "2026-03-18T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-meeks-statement-on-trump-administrations-approval-of-advanced-ai-chip-sales-to-china",
       "summary": ""
     },
     {

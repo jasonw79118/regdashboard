@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-04T00:00:00Z` → `2026-03-18T20:42:51Z` (UTC)
-Last updated: `2026-03-18T15:42:51-05:00` (CT) — `2026-03-18T20:42:51Z` (UTC)
+Window: `2026-03-04T00:00:00Z` → `2026-03-18T21:39:45Z` (UTC)
+Last updated: `2026-03-18T16:39:45-05:00` (CT) — `2026-03-18T21:39:45Z` (UTC)
 
 ## Treasury International Capital Data for January
 - Source: Treasury
@@ -161,6 +161,12 @@ The Federal Reserve Board of Governors in Washington DC.
 
 The Federal Reserve Board of Governors in Washington DC.
 
+## ICYMI: Scott Pushes for Final Passage of Market Structure Legislation, Highlights Success of GENIUS Act at DC Blockchain Summit
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/icymi-scott-pushes-for-final-passage-of-market-structure-legislation-highlights-success-of-genius-act-at-dc-blockchain-summit
+
 ## Senator Warren Statement on Upcoming FOMC Decision
 - Source: Senate Banking
 - Category: Legislative
@@ -172,12 +178,6 @@ The Federal Reserve Board of Governors in Washington DC.
 - Category: Legislative
 - Published: 2026-03-18T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-seeks-answers-from-coffee-companies-on-the-impact-of-trumps-policies-on-prices-continuing-affordability-push
-
-## Warren, Meeks Statement on Trump Administration’s Approval of Advanced AI Chip Sales to China
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-18T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-meeks-statement-on-trump-administrations-approval-of-advanced-ai-chip-sales-to-china
 
 ## Lucas: It Was Appropriate For Congress To Be Part Of The Conversation Then, Just As It Is Now
 - Source: House Financial Services
