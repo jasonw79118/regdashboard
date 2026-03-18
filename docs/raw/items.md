@@ -1,7 +1,45 @@
 # RegDashboard — Export
 
-Window: `2026-03-04T00:00:00Z` → `2026-03-18T17:08:10Z` (UTC)
-Last updated: `2026-03-18T12:08:10-05:00` (CT) — `2026-03-18T17:08:10Z` (UTC)
+Window: `2026-03-04T00:00:00Z` → `2026-03-18T19:08:39Z` (UTC)
+Last updated: `2026-03-18T14:08:39-05:00` (CT) — `2026-03-18T19:08:39Z` (UTC)
+
+## ConnectWise patches new flaw allowing ScreenConnect hijacking
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T18:10:35Z
+- URL: https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/
+
+ConnectWise is warning ScreenConnect customers of a cryptographic signature verification vulnerability that could lead to unauthorized access and privilege escalation. [...]
+
+## FOMC holds rate steady amid Iran war
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-03-18T18:10:01Z
+- URL: https://www.texasbankers.com/fomc-holds-rate-steady-amid-iran-war/
+
+The Federal Open Market Committee voted to hold the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent. The issued statement reads: “Uncertainty about the economic outlook remains elevated. The implications of developments in the Middle East for the U.S. economy are uncertain. The Committee is attentive to the risks to both […] The post FOMC holds rate steady am…
+
+## Federal Reserve issues FOMC statement
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-18T18:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm
+
+Federal Reserve issues FOMC statement
+
+## Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-18T18:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318b.htm
+
+Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting
+
+## Presidential Message on Eid al-Fitr
+- Source: White House
+- Category: Executive
+- Published: 2026-03-18T17:31:55Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-eid-al-fitr/
 
 ## Ransomware gang exploits Cisco flaw in zero-day attacks since January
 - Source: BleepingComputer
@@ -101,6 +139,38 @@ Apple has released its first Background Security Improvements update to fix a We
 
 The Federal Reserve Board of Governors in Washington DC.
 
+## 2026 FOMC
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/2026-press-fomc.htm
+
+The Federal Reserve Board of Governors in Washington DC.
+
+## Senator Warren Statement on Upcoming FOMC Decision
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/03/18/2026/senator-warren-statement-on-upcoming-fomc-decision
+
+## Warren Seeks Answers from Coffee Companies on the Impact of Trump’s Policies on Prices, Continuing Affordability Push
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-seeks-answers-from-coffee-companies-on-the-impact-of-trumps-policies-on-prices-continuing-affordability-push
+
+## Warren, Meeks Statement on Trump Administration’s Approval of Advanced AI Chip Sales to China
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-meeks-statement-on-trump-administrations-approval-of-advanced-ai-chip-sales-to-china
+
+## Lucas: It Was Appropriate For Congress To Be Part Of The Conversation Then, Just As It Is Now
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-18T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411057
+
 ## Davidson: A More Ambitious Role For The Bank Must Also Come With Tougher Accountability
 - Source: House Financial Services
 - Category: Legislative
@@ -113,6 +183,12 @@ The Federal Reserve Board of Governors in Washington DC.
 - Published: 2026-03-18T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411059
 
+## National Security, Illicit Finance, and International Financial Institutions Subcommittee Examines the Export-Import Bank
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-18T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411060
+
 ## Nacha Honors the 15 Under 40 Award Winners for 2026
 - Source: NACHA
 - Category: Payments
@@ -120,6 +196,12 @@ The Federal Reserve Board of Governors in Washington DC.
 - URL: https://www.nacha.org/news/nacha-honors-15-under-40-award-winners-2026
 
 RESTON, Virginia, March 18, 2026 – Nacha is proud to announce the 2026 honorees in its 15 Under 40 Awards program, recognizing the next generation of payments industry leaders. All have demonstrated exceptional leadership, innovation, and dedication to advancing the payments landscape.Nacha’s 15 Under 40 honorees for 2026 are:
+
+## Get a refurbished Chromebook as a backup while it’s just $60
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-a-refurbished-chromebook-as-a-backup-while-its-just-60/
 
 ## This $42 VPN is a simple way to increase your privacy online
 - Source: BleepingComputer
@@ -208,14 +290,6 @@ Microsoft has shared guidance to fix C:\ drive access issues and app failures on
 - URL: https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/
 
 Microsoft has released an emergency update to fix a Bluetooth device visibility issue on hotpatch-enabled Windows 11 Enterprise devices. [...]
-
-## Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-17T10:37:19Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/
-
-Microsoft is working to address a known issue that renders the classic Outlook email client unusable for users who have enabled the Microsoft Teams Meeting Add-in. [...]
 
 ## One month to go! Have you secured your seat?
 - Source: CDIA
@@ -397,19 +471,11 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-03-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/
 
-## Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants
-- Source: Federal Register
-- Category: Federal Register
+## Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic
+- Source: BleepingComputer
+- Category: IS
 - Published: 2026-03-17T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/17/2026-05160/amendment-reinstating-grandfather-exceptions-to-restrictions-on-private-transfer-fee-covenants
-
-The Federal Housing Finance Agency (FHFA) is making a technical amendment to its Private Transfer Fee Covenants (PTFC) Regulation. The PTFC Regulation restricts FHFA's regulated entities-- the Federal National Mortgage Association (Fannie Mae), the Federal Home Loan Mortgage Corporation (Freddie Mac) (collectively, the Enterprises), and the Federal Home Loan Banks (Banks)--fro…
-
-## Sunshine Act Meetings: Notice of Meeting To Be Held With Less Than Seven Days' Advance Notice
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-17T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/17/2026-05173/sunshine-act-meetings-notice-of-meeting-to-be-held-with-less-than-seven-days-advance-notice
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/
 
 ## Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud
 - Source: White House
@@ -451,24 +517,6 @@ A federal court has quashed two U.S. Department of Justice subpoenas targeting F
 
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 
-## Warren, Meeks Statement on Trump Administration’s Approval of Advanced AI Chip Sales to China
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-16T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-meeks-statement-on-trump-administrations-approval-of-advanced-ai-chip-sales-to-china
-
-## Warren Statement on Second Court Ruling That Vought Cannot Starve CFPB of Funding
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-16T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-second-court-ruling-that-vought-cannot-starve-cfpb-of-funding
-
-## Warren Statement on Federal Judge Ruling on Powell Subpoenas
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-16T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-federal-judge-ruling-on-powell-subpoenas
-
 ## Oversight and Investigations Subcommittee Reviews Mismanagement of Little Rock Public Housing Authority
 - Source: House Financial Services
 - Category: Legislative
@@ -490,18 +538,6 @@ Community banks are among those on the front lines in the war on fraud, and Scot
 - URL: https://www.nacha.org/news/dental-practices-shifting-eft-claim-payments-lag-behind-doctors
 
 The trend among dentists toward electronic claim payments continues, according to new research.The 2025 CAQH Index Report shows 309 million claim payments were made by electronic funds transfer (EFT) in 2024, an 11.2% increase over the prior year.“What’s particularly impressive is that the gain comes even as the total number of dental claim payments rose less than a full perce…
-
-## Stryker attack wiped tens of thousands of devices, no malware needed
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
-
-## CISA flags Wing FTP Server flaw as actively exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/
 
 ## America 250: Presidential Message on the Birthday of President Andrew Jackson
 - Source: White House
@@ -881,14 +917,6 @@ Federal Reserve Board issues enforcement actions with former employee of Equity 
 
 The White House published an executive order directing federal regulators to review and scale back certain rules to expand access to mortgages and encourage new housing construction. President Trump directed agencies to begin easing regulatory burdens on mortgage lenders—particularly community banks—and to remove environmental and energy-efficiency requirements affecting resid…
 
-## Sunshine Act Notice: FDIC Board of Directors Meeting
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-13T14:11:58Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40dc84c
-
-SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, March 19, 2026 | 10:00 a.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, March 18, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 1…
-
 ## CVE-2026-25172 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -1189,14 +1217,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 - Published: 2026-03-12T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411050
 
-## Guidance on Tax-Exempt Refunding Bonds
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/12/2026-04798/guidance-on-tax-exempt-refunding-bonds
-
-This document contains proposed regulations that would update certain arbitrage rules and definitions applicable to tax-exempt and other tax-advantaged bonds by clarifying the time and manner for requesting refunds of overpayment of rebate to the United States, the special transition rule for transferred proceeds, the limitation on allocations to expenditures, and the IRS addr…
-
 ## Promoting Fiscal Responsibility in Compensation Practices at the Tennessee Valley Authority
 - Source: White House
 - Category: Executive
@@ -1218,14 +1238,6 @@ Federal Reserve Board announces approval of application by Associated Banc-Corp
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260311a.htm
 
 Federal Reserve Board announces approval of application by FirstSun Capital Bancorp
-
-## Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-11T14:00:33Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40db4bf
-
-SPEECH | MARCH 11, 2026 Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit The following speech was delivered before the American Bankers Association's Washington Summit. Introduction It’s great to join the ABA again for its Washington Summit. Since last January, we have been working hard to reform our supervisory and regulatory approach to bo…
 
 ## CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -1386,14 +1398,6 @@ Information published.
 - Category: Fintech Watch
 - Published: 2026-03-11T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-mizuho-financial-group-navigate-new-regulatory
-
-## Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/11/2026-04761/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act
-
-On April 24, 2024, the NCUA Board (Board) published an advance notice of proposed rulemaking (ANPR) to solicit comments on ways the agency can improve and update its vital records preservation program regulation and accompanying guidelines. Based on public comments received in response to the ANPR and upon further consideration of the issues involved, the Board is publishing t…
 
 ## President Trump’s Tax Cuts are Putting More Money Back into the Pockets of American Families and Workers
 - Source: Treasury
@@ -2131,30 +2135,6 @@ President Donald Trump signed an executive order directing federal law enforceme
 - Published: 2026-03-09T00:00:00Z
 - URL: https://www.cdiaonline.org/events/2026/03/09/31951/
 
-## Trump Accounts Contribution Pilot Program
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/09/2026-04534/trump-accounts-contribution-pilot-program
-
-This document contains proposed regulations relating to the Trump accounts contribution pilot program under which the Trump accounts of eligible children can receive $1,000 pilot program contributions. Eligible children must be U.S. citizens with valid Social Security numbers born in 2025 through 2028. The proposed regulations would provide guidance on making an election for t…
-
-## Agency Information Collection Activity: Government-Sponsored Enterprise (GSE) Industry Appraisal Report
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/09/2026-04548/agency-information-collection-activity-government-sponsored-enterprise-gse-industry-appraisal-report
-
-Veterans Benefits Administration, Department of Veterans Affairs (VA), is announcing an opportunity for public comment on the proposed collection of certain information by the agency. Under the Paperwork Reduction Act (PRA) of 1995, Federal agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each propose…
-
-## Trump Accounts
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-09T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/09/2026-04533/trump-accounts
-
-This document contains proposed regulations relating to Trump accounts. The proposed regulations provide guidance on making an election to open a Trump account and reserve additional sections for further guidance on Trump accounts. The proposed regulations would affect children eligible to have a Trump account, individuals who would make elections with respect to those childre…
-
 ## CVE-2026-28364 In OCaml before 4.14.3 and 5.x before 5.4.1, a buffer over-read in Marshal deserialization (runtime/intern.c) enables remote code execution through a multi-phase attack chain. The vulnerability stems from…
 - Source: Microsoft MSRC
 - Category: IS
@@ -2359,38 +2339,6 @@ The problems with paper checks are well-documented. According to the Federal Res
 - Published: 2026-03-06T00:00:00Z
 - URL: https://ir.jackhenry.com/news-releases/news-release-details/icba-adds-jack-henrys-financial-crimes-defender-preferred
 
-## Removal of Regulations for Renewal Communities Designations
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-06T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/06/2026-04447/removal-of-regulations-for-renewal-communities-designations
-
-This rule removes HUD's Renewal Communities regulations because the designations were time limited, and all incentives have been repealed and sunset.
-
-## Removal of Final Regulations Identifying Certain Partnership Related-Party Basis Adjustment Transactions as Transactions of Interest
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-06T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/06/2026-04432/removal-of-final-regulations-identifying-certain-partnership-related-party-basis-adjustment
-
-This document proposes to remove regulations that identify certain partnership related-party basis adjustment transactions and substantially similar transactions as transactions of interest, a type of reportable transaction. The regulations would affect participants in these transactions as well as material advisors.
-
-## Electronic Furnishing of Payee Statements Regarding Digital Asset Sales by Brokers
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-06T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/06/2026-04431/electronic-furnishing-of-payee-statements-regarding-digital-asset-sales-by-brokers
-
-This document contains proposed regulations that would provide digital asset brokers that are required to furnish to their customers written statements reflecting information provided to the IRS with respect to digital asset sale transactions with an alternative process for obtaining consent from their customers to receive these statements in an electronic format without offer…
-
-## Press Release: Agencies Clarify the Capital Treatment of Tokenized Securities
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-05T20:32:40Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40cdad7
-
-PRESS RELEASE | MARCH 5, 2026 Agencies Clarify the Capital Treatment of Tokenized Securities WASHINGTON – The federal bank regulatory agencies today jointly issued answers to frequently asked questions to clarify the capital treatment of tokenized securities. A security is often referred to as “tokenized” when ownership rights in the security are represented using distributed…
-
 ## Agencies clarify the capital treatment of tokenized securities
 - Source: FRB
 - Category: Banking
@@ -2422,14 +2370,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26125
 
 Information published.
-
-## Press Release: FDIC Issues List of Banks Examined for CRA Compliance
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-05T15:22:15Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bf86d
-
-PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in December 2025. The CRA is a 1977…
 
 ## Finastra launches AI-based OperatorAssist to transform how banks address payments handling
 - Source: Finastra
@@ -2655,38 +2595,6 @@ The federal bank regulatory agencies today jointly issued answers to frequently 
 
 RESTON, Virginia, March 5, 2026 – The Nacha Top 50 rankings of financial institution originators and receivers of ACH payments for 2025 are now available.Among originating financial institutions, the Top 50 handled ACH volume of 30.7 billion payments last year, up 4.7% from 2024. They accounted for 91.4% of the ACH Network’s total commercial payments volume.
 
-## Rules Regarding Delegation of Authority; Correction
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-05T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/05/2026-04373/rules-regarding-delegation-of-authority-correction
-
-The Board is revising its Rules Regarding Delegation of Authority to add delegations previously approved by the Board and to make certain technical corrections.
-
-## Agency Information Collection Activities: Comment Request
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-05T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/05/2026-04383/agency-information-collection-activities-comment-request
-
-In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) reinstatement of an information collection titled "Privacy of Consumer Financial Information (Regulation P)" approved under OMB Control Number 3170- 0010.
-
-## Agency Information Collection Activities: Proposed Collection Renewal; Comment Request
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-05T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/05/2026-04384/agency-information-collection-activities-proposed-collection-renewal-comment-request
-
-The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0079, and -0122). The notices of proposed renewal for these information collections were previously published…
-
-## Reduction in Force
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-05T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/05/2026-04377/reduction-in-force
-
-The Office of Personnel Management (OPM) is issuing a proposed rule to revise its reduction-in-force (RIF) regulations. The proposed rule would make the RIF regulations more streamlined, efficient, and merit-based by prioritizing performance over tenure and length of service when determining which employees will be retained in a RIF and modifying the types of employees who are…
-
 ## Strengthen the connections that power our industry at CDIA Connect!
 - Source: CDIA
 - Category: Compliance Watch
@@ -2725,12 +2633,6 @@ Information published.
 - Published: 2026-03-04T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260304
 
-## Chairman Hill: The bills before us today reflect President Trump and Republicans’ shared commitment to promoting pro-growth, America-first policies
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-04T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411044
-
 ## FIS to Present at Upcoming Conference
 - Source: FIS
 - Category: Fintech Watch
@@ -2742,19 +2644,3 @@ Information published.
 - Category: Fintech Watch
 - Published: 2026-03-04T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/integrity-viking-funds-modernizes-investment-accounting
-
-## Fair Housing Home Loan Data System
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/04/2026-04276/fair-housing-home-loan-data-system
-
-The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housing Home Loan Data System regulation. The OCC has determined that the regulation is obsolete and largely duplicative of and inconsistent with other legal authorities that require national banks to collect and retain certain information on applications for home loans. Moreover, it imposed asymmetrica…
-
-## Community Bank Licensing Amendments
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
-
-The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…
