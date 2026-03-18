@@ -1,9 +1,17 @@
 {
   "window_start": "2026-03-04T00:00:00Z",
-  "window_end": "2026-03-18T22:37:27Z",
-  "generated_at_utc": "2026-03-18T22:37:27Z",
-  "generated_at_ct": "2026-03-18T17:37:27-05:00",
+  "window_end": "2026-03-18T23:34:56Z",
+  "generated_at_utc": "2026-03-18T23:34:56Z",
+  "generated_at_ct": "2026-03-18T18:34:56-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Aura confirms data breach exposing 900,000 marketing contacts",
+      "published_at": "2026-03-18T22:56:50Z",
+      "url": "https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/",
+      "summary": "Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer records containing names and email addresses. [...]"
+    },
     {
       "category": "OFAC",
       "source": "Treasury",
@@ -317,14 +325,6 @@
       "summary": "The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments and deploys a malware loader based on the open-source Deno runtime for JavaScript and TypeScript. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft shares fix for Windows C: drive access issues on Samsung PCs",
-      "published_at": "2026-03-17T12:03:38Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/",
-      "summary": "Microsoft has shared guidance to fix C:\\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]"
-    },
-    {
       "category": "Fintech Watch",
       "source": "Finastra",
       "title": "Finastra strengthens AI capabilities with new Center of Excellence and leadership appointment",
@@ -519,17 +519,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Get lifetime access to Headway’s book summary app for $50.99",
+      "title": "Microsoft shares fix for Windows C: drive access issues on Samsung PCs",
       "published_at": "2026-03-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "New Windows 11 hotpatch fixes Bluetooth device visibility issue",
+      "title": "Get lifetime access to Headway’s book summary app for $50.99",
       "published_at": "2026-03-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/",
+      "url": "https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/",
       "summary": ""
     },
     {

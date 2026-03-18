@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-04T00:00:00Z` → `2026-03-18T22:37:27Z` (UTC)
-Last updated: `2026-03-18T17:37:27-05:00` (CT) — `2026-03-18T22:37:27Z` (UTC)
+Window: `2026-03-04T00:00:00Z` → `2026-03-18T23:34:56Z` (UTC)
+Last updated: `2026-03-18T18:34:56-05:00` (CT) — `2026-03-18T23:34:56Z` (UTC)
+
+## Aura confirms data breach exposing 900,000 marketing contacts
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T22:56:50Z
+- URL: https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/
+
+Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer records containing names and email addresses. [...]
 
 ## Treasury International Capital Data for January
 - Source: Treasury
@@ -283,14 +291,6 @@ Microsoft has stopped automatically installing the Microsoft 365 Copilot app on 
 
 The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments and deploys a malware loader based on the open-source Deno runtime for JavaScript and TypeScript. [...]
 
-## Microsoft shares fix for Windows C: drive access issues on Samsung PCs
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-17T12:03:38Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
-
-Microsoft has shared guidance to fix C:\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]
-
 ## Finastra strengthens AI capabilities with new Center of Excellence and leadership appointment
 - Source: Finastra
 - Category: Fintech Watch
@@ -471,17 +471,17 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-03-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/one-app-every-ai-model-1minai-is-now-on-lifetime-deal/
 
+## Microsoft shares fix for Windows C: drive access issues on Samsung PCs
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
+
 ## Get lifetime access to Headway’s book summary app for $50.99
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/
-
-## New Windows 11 hotpatch fixes Bluetooth device visibility issue
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/
 
 ## Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants
 - Source: Federal Register

@@ -1,3 +1,10 @@
+IS
+BleepingComputer
+2026-03-18T22:56:50Z
+Aura confirms data breach exposing 900,000 marketing contacts
+https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/
+Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer records containing names and email addresses. [...]
+------------------------------------------------------------
 OFAC
 Treasury
 2026-03-18T20:00:00Z
@@ -255,13 +262,6 @@ LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks
 https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/
 The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments and deploys a malware loader based on the open-source Deno runtime for JavaScript and TypeScript. [...]
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-17T12:03:38Z
-Microsoft shares fix for Windows C: drive access issues on Samsung PCs
-https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
-Microsoft has shared guidance to fix C:\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]
-------------------------------------------------------------
 Fintech Watch
 Finastra
 2026-03-17T12:00:00Z
@@ -427,14 +427,14 @@ https://www.bleepingcomputer.com/offer/deals/one-app-every-ai-model-1minai-is-no
 IS
 BleepingComputer
 2026-03-17T00:00:00Z
-Get lifetime access to Headway’s book summary app for $50.99
-https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/
+Microsoft shares fix for Windows C: drive access issues on Samsung PCs
+https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-17T00:00:00Z
-New Windows 11 hotpatch fixes Bluetooth device visibility issue
-https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/
+Get lifetime access to Headway’s book summary app for $50.99
+https://www.bleepingcomputer.com/offer/deals/get-lifetime-access-to-headways-book-summary-app-for-5099/
 ------------------------------------------------------------
 Federal Register
 Federal Register
