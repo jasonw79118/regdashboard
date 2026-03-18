@@ -1,7 +1,7 @@
 # RegDashboard — Export
 
-Window: `2026-03-04T00:00:00Z` → `2026-03-18T21:39:45Z` (UTC)
-Last updated: `2026-03-18T16:39:45-05:00` (CT) — `2026-03-18T21:39:45Z` (UTC)
+Window: `2026-03-04T00:00:00Z` → `2026-03-18T22:37:27Z` (UTC)
+Last updated: `2026-03-18T17:37:27-05:00` (CT) — `2026-03-18T22:37:27Z` (UTC)
 
 ## Treasury International Capital Data for January
 - Source: Treasury
