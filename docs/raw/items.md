@@ -1,5 +1,6 @@
 # RegDashboard — Export
 
+<<<<<<< HEAD
 Window: `2026-03-04T00:00:00Z` → `2026-03-18T23:34:56Z` (UTC)
 Last updated: `2026-03-18T18:34:56-05:00` (CT) — `2026-03-18T23:34:56Z` (UTC)
 
@@ -10,6 +11,10 @@ Last updated: `2026-03-18T18:34:56-05:00` (CT) — `2026-03-18T23:34:56Z` (UTC)
 - URL: https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/
 
 Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer records containing names and email addresses. [...]
+=======
+Window: `2026-03-04T21:46:06Z` → `2026-03-18T21:46:06Z` (UTC)
+Last updated: `2026-03-18T16:46:06-05:00` (CT) — `2026-03-18T21:46:06Z` (UTC)
+>>>>>>> 2796db8 (corrected articles)
 
 ## Treasury International Capital Data for January
 - Source: Treasury
@@ -140,12 +145,6 @@ Apple has released its first Background Security Improvements update to fix a We
 - Category: OFAC
 - Published: 2026-03-18T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260318
-
-## Russia-related Designations Removals
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-18T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260318_33
 
 ## OCC Announces Enforcement Actions for March 2026
 - Source: OCC
@@ -1039,12 +1038,6 @@ Information published.
 - Published: 2026-03-13T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260313
 
-## Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-13T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260313_33
-
 ## Update on IRS Commissioner position
 - Source: IRS
 - Category: IRS
@@ -1212,12 +1205,6 @@ Information published.
 - Category: OFAC
 - Published: 2026-03-12T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260312
-
-## Issuance of Russia-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-12T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260312_33
 
 ## Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding
 - Source: IRS
@@ -2141,6 +2128,12 @@ Information published.
 - Published: 2026-03-10T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 
+## Education Services
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-03-10T00:00:00Z
+- URL: https://www.cdiaonline.org/education-services/
+
 ## Federal Reserve Board announces approval of notice by CBS Banc-Corp.
 - Source: FRB
 - Category: Banking
@@ -2350,12 +2343,6 @@ Information published.
 - Category: OFAC
 - Published: 2026-03-06T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260306
-
-## Issuance of Venezuela-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260306_33
 
 ## Treasury, IRS issue proposed regulations for Trump Accounts contribution pilot program, Treasury Department to deposit $1,000 into the account of each eligible child
 - Source: IRS
@@ -2621,18 +2608,6 @@ Information published.
 
 Information published.
 
-## Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-05T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260305_33
-
-## Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-05T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260305
-
 ## Treasury, IRS issue proposed regulations to make it easier for digital asset brokers to provide 1099-DA statements electronically
 - Source: IRS
 - Category: IRS
@@ -2742,69 +2717,3 @@ The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, 
 - URL: https://www.federalregister.gov/documents/2026/03/05/2026-04377/reduction-in-force
 
 The Office of Personnel Management (OPM) is issuing a proposed rule to revise its reduction-in-force (RIF) regulations. The proposed rule would make the RIF regulations more streamlined, efficient, and merit-based by prioritizing performance over tenure and length of service when determining which employees will be retained in a RIF and modifying the types of employees who are…
-
-## Strengthen the connections that power our industry at CDIA Connect!
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-03-04T15:34:23Z
-- URL: https://www.cdiaonline.org/events/2026/03/04/strengthen-the-connections-that-power-our-industry-at-cdia-connect/
-
-If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA .
-
-## Trump officially nominates Warsh to be Fed Chair
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-03-04T11:00:00Z
-- URL: https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/
-
-President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…
-
-## CVE-2026-25541 Bytes is vulnerable to integer overflow in BytesMut::reserve
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-04T09:11:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25541
-
-Information published.
-
-## CVE-2026-27965 Vitess users with backup storage access can gain unauthorized access to production deployment environments
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-04T09:04:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
-
-Information published.
-
-## Issuance of Venezuela-related Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-04T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260304
-
-## FIS to Present at Upcoming Conference
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-24
-
-## Integrity Viking Funds Modernizes Investment Accounting Infrastructure with FIS Investment Accounting Manager
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/integrity-viking-funds-modernizes-investment-accounting
-
-## Fair Housing Home Loan Data System
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/04/2026-04276/fair-housing-home-loan-data-system
-
-The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housing Home Loan Data System regulation. The OCC has determined that the regulation is obsolete and largely duplicative of and inconsistent with other legal authorities that require national banks to collect and retain certain information on applications for home loans. Moreover, it imposed asymmetrica…
-
-## Community Bank Licensing Amendments
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-04T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
-
-The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…

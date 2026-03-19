@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "window_start": "2026-03-04T00:00:00Z",
   "window_end": "2026-03-18T23:34:56Z",
   "generated_at_utc": "2026-03-18T23:34:56Z",
   "generated_at_ct": "2026-03-18T18:34:56-05:00",
+=======
+  "window_start": "2026-03-04T21:46:06Z",
+  "window_end": "2026-03-18T21:46:06Z",
+  "generated_at_utc": "2026-03-18T21:46:06Z",
+  "generated_at_ct": "2026-03-18T16:46:06-05:00",
+>>>>>>> 2796db8 (corrected articles)
   "items": [
     {
       "category": "IS",
@@ -146,14 +153,6 @@
       "title": "Issuance of Venezuela-related General License and Frequently Asked Questions",
       "published_at": "2026-03-18T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260318",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Russia-related Designations Removals",
-      "published_at": "2026-03-18T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260318_33",
       "summary": ""
     },
     {
@@ -1131,14 +1130,6 @@
       "summary": ""
     },
     {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions",
-      "published_at": "2026-03-13T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260313_33",
-      "summary": ""
-    },
-    {
       "category": "IRS",
       "source": "IRS",
       "title": "Update on IRS Commissioner position",
@@ -1320,14 +1311,6 @@
       "title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260312",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Russia-related General License",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260312_33",
       "summary": ""
     },
     {
@@ -2287,6 +2270,14 @@
       "summary": ""
     },
     {
+      "category": "Compliance Watch",
+      "source": "CDIA",
+      "title": "Education Services",
+      "published_at": "2026-03-10T00:00:00Z",
+      "url": "https://www.cdiaonline.org/education-services/",
+      "summary": ""
+    },
+    {
       "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board announces approval of notice by CBS Banc-Corp.",
@@ -2526,14 +2517,6 @@
       "title": "Russia-related Designation Removal",
       "published_at": "2026-03-06T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260306",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related General License",
-      "published_at": "2026-03-06T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260306_33",
       "summary": ""
     },
     {
@@ -2826,22 +2809,6 @@
       "summary": "Information published."
     },
     {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question",
-      "published_at": "2026-03-05T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260305_33",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Venezuela-related Designations Removals; Issuance of Amended Russia-related General License",
-      "published_at": "2026-03-05T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260305",
-      "summary": ""
-    },
-    {
       "category": "IRS",
       "source": "IRS",
       "title": "Treasury, IRS issue proposed regulations to make it easier for digital asset brokers to provide 1099-DA statements electronically",
@@ -2980,95 +2947,6 @@
         "topic:employment"
       ],
       "fedreg_document_number": "2026-04377"
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "Strengthen the connections that power our industry at CDIA Connect!",
-      "published_at": "2026-03-04T15:34:23Z",
-      "url": "https://www.cdiaonline.org/events/2026/03/04/strengthen-the-connections-that-power-our-industry-at-cdia-connect/",
-      "summary": "If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA ."
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "TBA",
-      "title": "Trump officially nominates Warsh to be Fed Chair",
-      "published_at": "2026-03-04T11:00:00Z",
-      "url": "https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/",
-      "summary": "President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-25541 Bytes is vulnerable to integer overflow in BytesMut::reserve",
-      "published_at": "2026-03-04T09:11:13Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25541",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-27965 Vitess users with backup storage access can gain unauthorized access to production deployment environments",
-      "published_at": "2026-03-04T09:04:21Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965",
-      "summary": "Information published."
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Venezuela-related Frequently Asked Questions",
-      "published_at": "2026-03-04T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260304",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "FIS",
-      "title": "FIS to Present at Upcoming Conference",
-      "published_at": "2026-03-04T00:00:00Z",
-      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-24",
-      "summary": ""
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "FIS",
-      "title": "Integrity Viking Funds Modernizes Investment Accounting Infrastructure with FIS Investment Accounting Manager",
-      "published_at": "2026-03-04T00:00:00Z",
-      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/integrity-viking-funds-modernizes-investment-accounting",
-      "summary": ""
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Fair Housing Home Loan Data System",
-      "published_at": "2026-03-04T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/04/2026-04276/fair-housing-home-loan-data-system",
-      "summary": "The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housing Home Loan Data System regulation. The OCC has determined that the regulation is obsolete and largely duplicative of and inconsistent with other legal authorities that require national banks to collect and retain certain information on applications for home loans. Moreover, it imposed asymmetrica…",
-      "fr_tags": [
-        "agency:comptroller-of-the-currency",
-        "agency:treasury-department",
-        "topic:credit",
-        "topic:fair-housing",
-        "topic:mortgages",
-        "topic:national-banks"
-      ],
-      "fedreg_document_number": "2026-04276"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Community Bank Licensing Amendments",
-      "published_at": "2026-03-04T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments",
-      "summary": "The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…",
-      "fr_tags": [
-        "agency:comptroller-of-the-currency",
-        "agency:treasury-department",
-        "topic:national-banks",
-        "topic:savings-associations",
-        "topic:securities"
-      ],
-      "fedreg_document_number": "2026-04275"
     }
   ]
 }

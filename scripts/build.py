@@ -852,11 +852,7 @@ def fetch_json_status(
 
 def rolling_window_utc(now_utc: datetime) -> Tuple[datetime, datetime]:
     end = now_utc.replace(microsecond=0)
-    # Use the beginning of the UTC day for the rolling-window start so date-only
-    # sources (for example Visa/Mastercard listing dates) are not dropped merely
-    # because the hourly job ran earlier in the day than a manual run.
-    start_day = (end - timedelta(days=WINDOW_DAYS)).date()
-    start = datetime.combine(start_day, datetime.min.time(), tzinfo=timezone.utc)
+    start = (end - timedelta(days=WINDOW_DAYS)).replace(microsecond=0)
     return start, end
 
 
@@ -1555,46 +1551,6 @@ def extract_published_from_detail(detail_url: str, html: str, source: str = "") 
         # If we cannot find any credible date, treat as non-qualifying.
         return None, snippet
 
-    # OFAC recent-actions detail pages explicitly expose a Release Date near the top.
-    # Prefer that article date over body text, which can contain many unrelated dates.
-    if ('ofac' in (source or '').lower()) or ('ofac.treasury.gov' in (detail_url or '')):
-        for meta_key in [
-            ("meta", {"property": "article:published_time"}, "content"),
-            ("meta", {"name": "article:published_time"}, "content"),
-            ("meta", {"name": "dcterms.created"}, "content"),
-            ("meta", {"name": "DC.date"}, "content"),
-            ("meta", {"name": "date"}, "content"),
-        ]:
-            tag = soup.find(meta_key[0], attrs=meta_key[1])
-            if tag and tag.get(meta_key[2]):
-                dt_meta = parse_date(tag.get(meta_key[2]))
-                if dt_meta:
-                    return dt_meta, snippet
-
-        body_text = soup.get_text("\n", strip=True)
-        lines = [ln.strip() for ln in body_text.splitlines() if ln.strip()]
-        for i, line in enumerate(lines[:80]):
-            if line.lower() == "release date":
-                for nxt in lines[i + 1 : i + 5]:
-                    dt_ofac = parse_slash_date_best(nxt) or extract_any_date(nxt, source="OFAC")
-                    if dt_ofac:
-                        return dt_ofac, snippet
-
-        h1 = soup.find("h1")
-        if h1:
-            wrap = h1.find_parent(["main", "article", "section", "div"]) or soup
-            top_blob = clean_text(wrap.get_text(" ", strip=True), 2000)
-            m = re.search(r"Release Date\s+(\d{1,2}/\d{1,2}/\d{4})\b", top_blob, re.I)
-            if m:
-                dt_ofac = parse_slash_date_best(m.group(1))
-                if dt_ofac:
-                    return dt_ofac, snippet
-
-        dt_url = ofac_date_from_url(detail_url)
-        if dt_url:
-            return dt_url, snippet
-
-        return None, snippet
 
     t = soup.find("time")
     if t:
@@ -1770,8 +1726,8 @@ def fhlbmpf_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dat
 # OFAC
 # ============================
 
-OFAC_ITEM_RE = re.compile(r"^/recent-actions/(?P<ymd>\d{8})(?:_[A-Za-z0-9]+)?/?$", re.I)
-OFAC_URL_DATE_RE = re.compile(r"/recent-actions/(?P<ymd>\d{8})(?:_[A-Za-z0-9]+)?/?$", re.I)
+OFAC_ITEM_RE = re.compile(r"^/recent-actions/\d{8}(/)?$")
+OFAC_URL_DATE_RE = re.compile(r"/recent-actions/(?P<ymd>\d{8})(?:/)?$")
 
 
 
@@ -3031,16 +2987,16 @@ def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str,
     if source == "House Financial Services":
         return house_financial_services_links(page_url, html)
     if source == "Mastercard":
-        return mastercard_links(page_url, html)
-    if source == "Visa":
-        links = visa_links(page_url, html)
-        if len(links) < 3:
+        links = mastercard_links(page_url, html)
+        if looks_js_rendered(html) or len(links) < 5:
             proxy_html = polite_get(_jina_proxy_url(page_url))
             if proxy_html:
-                proxy_links = visa_links(page_url, proxy_html)
+                proxy_links = mastercard_links(page_url, proxy_html)
                 if len(proxy_links) > len(links):
                     links = proxy_links
         return links
+    if source == "Visa":
+        return visa_links(page_url, html)
     if source == "NACHA":
         # NACHA's /news listing is often JS-rendered; try a proxy-rendered fetch to capture article links.
         links = nacha_links(page_url, html)
@@ -3159,10 +3115,6 @@ def get_start_pages() -> List[SourcePage]:
         # OFAC
         SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions"),
         SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/enforcement-actions"),
-        SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/general-licenses"),
-        SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/miscellaneous"),
-        SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/regulations-and-guidance"),
-        SourcePage("OFAC", "https://ofac.treasury.gov/recent-actions/sanctions-list-updates"),
 
         # Treasury Press Releases (OFAC tile)
         SourcePage("Treasury", "https://home.treasury.gov/news/press-releases"),
@@ -3541,11 +3493,10 @@ def build() -> None:
 
                 snippet = ""
 
-                # FDIC + NACHA + OFAC: confirm the *article* publication date from the detail page.
+                # FDIC + NACHA: always confirm the *article* publication date from the detail page.
                 # - FDIC listings can show an 'updated' date that is NOT the publication date, causing out-of-window leakage.
                 # - NACHA /news/* includes hub pages; we only keep links that resolve to a real article with a publish date.
-                # - OFAC pages can contain many unrelated body dates; prefer the top-level Release Date from the article page.
-                if source in ("FDIC", "NACHA", "OFAC") and src_cap > 0:
+                if source in ("FDIC", "NACHA") and src_cap > 0:
                     if global_detail_fetches < GLOBAL_DETAIL_FETCH_CAP and src_used < src_cap:
                         detail_html = polite_get(url)
                         if detail_html:
@@ -3555,8 +3506,8 @@ def build() -> None:
 
                             dt2, snippet2 = extract_published_from_detail(url, detail_html, source=source)
 
-                            # For FDIC/NACHA/OFAC we REQUIRE a confirmed publication date from the article page
-                            # to avoid false positives (updated stamps / hub pages / body-text dates).
+                            # For FDIC/NACHA we REQUIRE a confirmed publication date from the article page
+                            # to avoid false positives (updated stamps / hub pages).
                             if not dt2:
                                 continue
                             dt = dt2

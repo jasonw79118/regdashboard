@@ -121,12 +121,6 @@ OFAC
 Issuance of Venezuela-related General License and Frequently Asked Questions
 https://ofac.treasury.gov/recent-actions/20260318
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-03-18T00:00:00Z
-Russia-related Designations Removals
-https://ofac.treasury.gov/recent-actions/20260318_33
-------------------------------------------------------------
 Banking
 OCC
 2026-03-18T00:00:00Z
@@ -933,12 +927,6 @@ OFAC
 Cyber-related Designations Removals
 https://ofac.treasury.gov/recent-actions/20260313
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-03-13T00:00:00Z
-Issuance of Venezuela-related General Licenses and Amended Frequently Asked Questions
-https://ofac.treasury.gov/recent-actions/20260313_33
-------------------------------------------------------------
 IRS
 IRS
 2026-03-13T00:00:00Z
@@ -1091,12 +1079,6 @@ OFAC
 2026-03-12T00:00:00Z
 Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
 https://ofac.treasury.gov/recent-actions/20260312
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-12T00:00:00Z
-Issuance of Russia-related General License
-https://ofac.treasury.gov/recent-actions/20260312_33
 ------------------------------------------------------------
 IRS
 IRS
@@ -1913,6 +1895,12 @@ FIS
 FIS to Present at Upcoming Conference
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
 ------------------------------------------------------------
+Compliance Watch
+CDIA
+2026-03-10T00:00:00Z
+Education Services
+https://www.cdiaonline.org/education-services/
+------------------------------------------------------------
 Banking
 FRB
 2026-03-09T20:45:00Z
@@ -2101,12 +2089,6 @@ OFAC
 2026-03-06T00:00:00Z
 Russia-related Designation Removal
 https://ofac.treasury.gov/recent-actions/20260306
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-06T00:00:00Z
-Issuance of Venezuela-related General License
-https://ofac.treasury.gov/recent-actions/20260306_33
 ------------------------------------------------------------
 IRS
 IRS
@@ -2342,18 +2324,6 @@ CVE-2025-8732 libxml2 xmlcatalog xmlParseSGMLCatalog recursion
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-8732
 Information published.
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-03-05T00:00:00Z
-Issuance of Russia-related General License; Issuance of Amended Venezuela-related Frequently Asked Question
-https://ofac.treasury.gov/recent-actions/20260305_33
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-05T00:00:00Z
-Venezuela-related Designations Removals; Issuance of Amended Russia-related General License
-https://ofac.treasury.gov/recent-actions/20260305
-------------------------------------------------------------
 IRS
 IRS
 2026-03-05T00:00:00Z
@@ -2453,64 +2423,4 @@ Federal Register
 Reduction in Force
 https://www.federalregister.gov/documents/2026/03/05/2026-04377/reduction-in-force
 The Office of Personnel Management (OPM) is issuing a proposed rule to revise its reduction-in-force (RIF) regulations. The proposed rule would make the RIF regulations more streamlined, efficient, and merit-based by prioritizing performance over tenure and length of service when determining which employees will be retained in a RIF and modifying the types of employees who are…
-------------------------------------------------------------
-Compliance Watch
-CDIA
-2026-03-04T15:34:23Z
-Strengthen the connections that power our industry at CDIA Connect!
-https://www.cdiaonline.org/events/2026/03/04/strengthen-the-connections-that-power-our-industry-at-cdia-connect/
-If you’re looking to expand your network, exchange ideas, and build meaningful professional relationships across the consumer data ecosystem, this is... The post Strengthen the connections that power our industry at CDIA Connect! appeared first on CDIA .
-------------------------------------------------------------
-Compliance Watch
-TBA
-2026-03-04T11:00:00Z
-Trump officially nominates Warsh to be Fed Chair
-https://www.texasbankers.com/trump-officially-nominates-warsh-to-be-fed-chair/
-President Donald Trump officially submitted his nomination of Kevin Warsh for the next Fed Chairman of the Federal Reserve System. If confirmed, Warsh would succeed current Fed Chairman Jerome Powell and serve a term of four years. Trump first announced Warsh as his nominee in January. The post Trump officially nominates Warsh to be Fed Chair appeared first on Texas Bankers As…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-04T09:11:13Z
-CVE-2026-25541 Bytes is vulnerable to integer overflow in BytesMut::reserve
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25541
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-04T09:04:21Z
-CVE-2026-27965 Vitess users with backup storage access can gain unauthorized access to production deployment environments
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27965
-Information published.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-04T00:00:00Z
-Issuance of Venezuela-related Frequently Asked Questions
-https://ofac.treasury.gov/recent-actions/20260304
-------------------------------------------------------------
-Fintech Watch
-FIS
-2026-03-04T00:00:00Z
-FIS to Present at Upcoming Conference
-https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-24
-------------------------------------------------------------
-Fintech Watch
-FIS
-2026-03-04T00:00:00Z
-Integrity Viking Funds Modernizes Investment Accounting Infrastructure with FIS Investment Accounting Manager
-https://www.investor.fisglobal.com/news-releases/news-release-details/integrity-viking-funds-modernizes-investment-accounting
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-03-04T00:00:00Z
-Fair Housing Home Loan Data System
-https://www.federalregister.gov/documents/2026/03/04/2026-04276/fair-housing-home-loan-data-system
-The Office of the Comptroller of the Currency (OCC) is rescinding its Fair Housing Home Loan Data System regulation. The OCC has determined that the regulation is obsolete and largely duplicative of and inconsistent with other legal authorities that require national banks to collect and retain certain information on applications for home loans. Moreover, it imposed asymmetrica…
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-03-04T00:00:00Z
-Community Bank Licensing Amendments
-https://www.federalregister.gov/documents/2026/03/04/2026-04275/community-bank-licensing-amendments
-The Office of the Comptroller of the Currency (OCC) is amending its rules related to policies and procedures to simplify licensing requirements for corporate activities and transactions involving national banks and Federal savings associations that have less than $30 billion in total assets and satisfy certain conditions. The final rule is intended to reduce burden on these in…
 ------------------------------------------------------------
