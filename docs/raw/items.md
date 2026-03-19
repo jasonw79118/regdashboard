@@ -1,7 +1,59 @@
 # RegDashboard — Export
 
-Window: `2026-03-05T14:03:22Z` → `2026-03-19T14:03:22Z` (UTC)
-Last updated: `2026-03-19T09:03:22-05:00` (CT) — `2026-03-19T14:03:22Z` (UTC)
+Window: `2026-03-05T17:46:59Z` → `2026-03-19T17:46:59Z` (UTC)
+Last updated: `2026-03-19T12:46:59-05:00` (CT) — `2026-03-19T17:46:59Z` (UTC)
+
+## Bitrefill blames North Korean Lazarus group for cyberattack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-19T17:08:24Z
+- URL: https://www.bleepingcomputer.com/news/security/bitrefill-blames-north-korean-lazarus-group-for-cyberattack/
+
+Crypto-powered gift card store Bitrefill says that the attack it suffered at the beginning of the month was likely perpetrated by North Korean hackers of the Bluenoroff group. [...]
+
+## FDIC Board of Directors Meeting
+- Source: FDIC
+- Category: Banking
+- Published: 2026-03-19T16:32:17Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40edbc4
+
+BOARD MEETING | MARCH 19, 2026 FDIC Board of Directors Meeting Today, the Federal Deposit Insurance Corporation's Board of Directors met in open session to consider the following matters. Materials and information relative to the open Board actions are available on the Board Matters webpage . Items Addressed in Open Session: Notice of Proposed Rulemaking: Regulatory Capital Ru…
+
+## Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-19T16:30:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260319a.htm
+
+Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system
+
+## FBI seizes Handala data leak site after Stryker cyberattack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-19T16:14:13Z
+- URL: https://www.bleepingcomputer.com/news/security/fbi-seizes-handala-data-leak-site-after-stryker-cyberattack/
+
+The FBI has seized two websites used by the Handala hacktivist group after the threat actors conducted a destructive cyberattack on medical technology giant Stryker that wiped approximately 80,000 devices. [...]
+
+## First Lady Melania Trump’s Fostering the Future Together Assembles Leaders from 45 Nations and 28 Tech Entities
+- Source: White House
+- Category: Executive
+- Published: 2026-03-19T15:18:25Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trumps-fostering-the-future-together-assembles-leaders-from-45-nations-and-28-tech-entities/
+
+## Russian hackers exploit Zimbra flaw in Ukrainian govt attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-19T14:55:50Z
+- URL: https://www.bleepingcomputer.com/news/security/russian-apt28-military-hackers-exploit-zimbra-flaw-in-ukrainian-govt-attacks/
+
+Hackers part of APT28, a state-backed threat group linked to Russia's military intelligence service (GRU), are exploiting a Zimbra Collaboration Suite (ZCS) vulnerability in attacks targeting Ukrainian government entities. [...]
+
+## Democrats admit their DHS shutdown is “making people hurt” as they stall negotiations with dangerous demands
+- Source: White House
+- Category: Executive
+- Published: 2026-03-19T14:25:53Z
+- URL: https://www.whitehouse.gov/articles/2026/03/democrats-admit-their-dhs-shutdown-is-making-people-hurt-as-they-stall-negotiations-with-dangerous-demands/
 
 ## 7 Ways to Prevent Privilege Escalation via Password Resets
 - Source: BleepingComputer
@@ -271,11 +323,91 @@ Information published.
 
 Information published.
 
+## Issuance of Amended Venezuela-related General License and Frequently Asked Question
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-19T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260319
+
+## Comptroller Gould Statement on Notice of Proposed Rulemakings to Modernize Regulatory Capital Framework
+- Source: OCC
+- Category: Banking
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-17.html
+
+Comptroller of the Currency Jonathan V. Gould issued the following statement today at the Federal Deposit Insurance Corporation's (FDIC) board meeting about two proposals to modernize the regulatory capital framework for banking organizations of all sizes.
+
+## Agencies Request Comment on Proposals to Modernize the Regulatory Capital Framework and Maintain the Strength of the Banking System
+- Source: OCC
+- Category: Banking
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-16.html
+
+The federal bank regulatory agencies today requested comment on three proposals to modernize the regulatory capital framework for banks of all sizes. The proposals would streamline capital requirements and better align regulatory capital with risk while maintaining the safety and soundness of the banking system.
+
+## Regulatory Capital: Category I and II Banking Organizations, Banking Organizations With Significant Trading Activity, and Optional Adoption for Other Banking Organizations
+- Source: OCC
+- Category: Banking
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-9.html
+
+## Regulatory Capital: Standardized Approach for Risk-Weighted Assets
+- Source: OCC
+- Category: Banking
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-8.html
+
+## FDIC Board of Directors Rescinds Statement of Policy on the Qualifications for Failed Bank Acquisitions
+- Source: FDIC
+- Category: Banking
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-rescinds-statement-policy-qualifications-failed-bank
+
+The FDIC Board of Directors approved today the rescission of the Statement of Policy on the Qualifications for Failed Bank Acquisitions
+
+## Agencies Request Comment on Proposals to Modernize the Regulatory Capital Framework And Maintain the Strength of the Banking System
+- Source: FDIC
+- Category: Banking
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/agencies-request-comment-proposals-modernize-regulatory-capital-framework
+
+The federal bank regulatory agencies today requested comment on three proposals to modernize the regulatory capital framework for banks of all sizes.
+
+## Average 30-Year Fixed-Rate Mortgage at 6.22%
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/03/19/3259296/0/en/Average-30-Year-Fixed-Rate-Mortgage-at-6-22.html
+
+## Warren Probes Trump Fed Nominee Kevin Warsh on Appearances in the Epstein Files
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-probes-trump-fed-nominee-kevin-warsh-on-appearances-in-the-epstein-files
+
+## Warren Statement on Trump Bank Regulators’ Basel III Proposal
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-trump-bank-regulators-basel-iii-proposal
+
+## ICYMI: Scott Pushes for Final Passage of Market Structure Legislation, Highlights Success of GENIUS Act at DC Blockchain Summit
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/icymi-scott-pushes-for-final-passage-of-market-structure-legislation-highlights-success-of-genius-act-at-dc-blockchain-summit
+
 ## Task Force on Monetary Policy, Treasury Market Resilience, and Economic Prosperity Reviews the Treasury-Fed Accord
 - Source: House Financial Services
 - Category: Legislative
 - Published: 2026-03-19T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411061
+
+## Jack Henry Tap2Local™ Named "Small Business Payments Solution of the Year" in 2026 FinTech Breakthrough Awards Program
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-03-19T00:00:00Z
+- URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-tap2localtm-named-small-business-payments-solution
 
 ## An open-box ASUS Chromebook with a detachable touchscreen for $150
 - Source: BleepingComputer
@@ -399,14 +531,6 @@ Refund fraud is now a business, with methods and tutorials sold to exploit retur
 
 A new exploit kit for iOS devices and delivery framework dubbed "Darksword" has been used to steal a wide range of personal information, including data from cryptocurrency wallet app. [...]
 
-## Nordstrom's email system abused to send crypto scams to customers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-18T13:55:49Z
-- URL: https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/
-
-Customers of upscale department store chain Nordstrom received fraudulent messages from a legitimate company email address that promoted cryptocurrency scams disguised as a St. Patrick's Day promotion. [...]
-
 ## CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
 - Source: Microsoft MSRC
 - Category: IS
@@ -430,14 +554,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23241
 
 Information published.
-
-## Apple pushes first Background Security Improvements update to fix WebKit flaw
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-18T01:06:31Z
-- URL: https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
-
-Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]
 
 ## Issuance of Venezuela-related General License and Frequently Asked Questions
 - Source: OFAC
@@ -466,24 +582,6 @@ The Federal Reserve Board of Governors in Washington DC.
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/2026-press-fomc.htm
 
 The Federal Reserve Board of Governors in Washington DC.
-
-## ICYMI: Scott Pushes for Final Passage of Market Structure Legislation, Highlights Success of GENIUS Act at DC Blockchain Summit
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-18T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/icymi-scott-pushes-for-final-passage-of-market-structure-legislation-highlights-success-of-genius-act-at-dc-blockchain-summit
-
-## Senator Warren Statement on Upcoming FOMC Decision
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-18T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/03/18/2026/senator-warren-statement-on-upcoming-fomc-decision
-
-## Warren Seeks Answers from Coffee Companies on the Impact of Trump’s Policies on Prices, Continuing Affordability Push
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-18T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-seeks-answers-from-coffee-companies-on-the-impact-of-trumps-policies-on-prices-continuing-affordability-push
 
 ## Lucas: It Was Appropriate For Congress To Be Part Of The Conversation Then, Just As It Is Now
 - Source: House Financial Services
@@ -523,19 +621,17 @@ RESTON, Virginia, March 18, 2026 – Nacha is proud to announce the 2026 honoree
 - Published: 2026-03-18T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-a-refurbished-chromebook-as-a-backup-while-its-just-60/
 
+## Nordstrom's email system abused to send crypto scams to customers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-18T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/
+
 ## This $42 VPN is a simple way to increase your privacy online
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-18T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-42-vpn-is-a-simple-way-to-increase-your-privacy-online/
-
-## GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-17T21:42:54Z
-- URL: https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/
-
-The GlassWorm supply-chain campaign has returned with a new, coordinated attack that targeted hundreds of packages, repositories, and extensions on GitHub, npm, and VSCode/OpenVSX extensions. [...]
 
 ## Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink
 - Source: White House
@@ -1711,17 +1807,11 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-03-17T00:00:00Z
 - URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
 
-## Europe sanctions Chinese and Iranian firms for cyberattacks
+## Apple pushes first Background Security Improvements update to fix WebKit flaw
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/
-
-## One app, every AI model: 1min.AI is now on lifetime deal
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/one-app-every-ai-model-1minai-is-now-on-lifetime-deal/
+- URL: https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
 
 ## Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants
 - Source: Federal Register
@@ -1798,12 +1888,6 @@ Community banks are among those on the front lines in the war on fraud, and Scot
 - URL: https://www.nacha.org/news/dental-practices-shifting-eft-claim-payments-lag-behind-doctors
 
 The trend among dentists toward electronic claim payments continues, according to new research.The 2025 CAQH Index Report shows 309 million claim payments were made by electronic funds transfer (EFT) in 2024, an 11.2% increase over the prior year.“What’s particularly impressive is that the gain comes even as the total number of dental claim payments rose less than a full perce…
-
-## America 250: Presidential Message on the Birthday of President Andrew Jackson
-- Source: White House
-- Category: Executive
-- Published: 2026-03-15T18:44:39Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-andrew-jackson/
 
 ## Hill and Flood Statement on President Trump’s Executive Order on Housing Affordability
 - Source: House Financial Services
@@ -2130,12 +2214,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
-
-## CNN Is Lying to Undermine Operation Epic Fury’s Crushing Success
-- Source: White House
-- Category: Executive
-- Published: 2026-03-13T20:37:48Z
-- URL: https://www.whitehouse.gov/articles/2026/03/cnn-is-lying-to-undermine-operation-epic-furys-crushing-success/
 
 ## Adjusting Certain Delegations Under the Defense Production Act
 - Source: White House
@@ -3650,35 +3728,3 @@ PRESS RELEASE | MARCH 5, 2026 Agencies Clarify the Capital Treatment of Tokenize
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm
 
 Agencies clarify the capital treatment of tokenized securities
-
-## Federal Reserve Board announces termination of enforcement action with Wells Fargo
-- Source: FRB
-- Category: Banking
-- Published: 2026-03-05T16:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260305a.htm
-
-Federal Reserve Board announces termination of enforcement action with Wells Fargo
-
-## CVE-2026-21536 Microsoft Devices Pricing Program Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T16:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21536
-
-Information published.
-
-## CVE-2026-26125 Payment Orchestrator Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-05T16:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26125
-
-Information published.
-
-## Press Release: FDIC Issues List of Banks Examined for CRA Compliance
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-05T15:22:15Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40bf86d
-
-PRESS RELEASE | MARCH 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in December 2025. The CRA is a 1977…
