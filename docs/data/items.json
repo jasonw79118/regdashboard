@@ -1,9 +1,41 @@
 {
-  "window_start": "2026-03-05T17:46:59Z",
-  "window_end": "2026-03-19T17:46:59Z",
-  "generated_at_utc": "2026-03-19T17:46:59Z",
-  "generated_at_ct": "2026-03-19T12:46:59-05:00",
+  "window_start": "2026-03-05T20:46:09Z",
+  "window_end": "2026-03-19T20:46:09Z",
+  "generated_at_utc": "2026-03-19T20:46:09Z",
+  "generated_at_ct": "2026-03-19T15:46:09-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Navia discloses data breach impacting 2.7 million people",
+      "published_at": "2026-03-19T20:43:54Z",
+      "url": "https://www.bleepingcomputer.com/news/security/navia-discloses-data-breach-impacting-27-million-people/",
+      "summary": "Navia Benefit Solutions, Inc. (Navia) is informing nearly 2.7 million individuals of a data breach that exposed their sensitive information to attackers. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "U.S. Department of the Treasury and U.S. Department of Education Announce Historic Federal Student Assistance Partnership",
+      "published_at": "2026-03-19T20:05:01Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0419",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "New ‘PolyShell’ flaw allows unauthenticated RCE on Magento e-stores",
+      "published_at": "2026-03-19T20:01:03Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-polyshell-flaw-allows-unauthenticated-rce-on-magento-e-stores/",
+      "summary": "A newly disclosed vulnerability dubbed 'PolyShell' affects all Magento Open Source and Adobe Commerce stable version 2 installations, allowing unauthenticated code execution and account takeover. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Americans Agree that Operation Epic Fury Is an Overwhelming Success",
+      "published_at": "2026-03-19T18:39:41Z",
+      "url": "https://www.whitehouse.gov/articles/2026/03/americans-agree-that-operation-epic-fury-is-an-overwhelming-success/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -359,6 +391,14 @@
     {
       "category": "Banking",
       "source": "OCC",
+      "title": "OCC Opens Registration for Community Bank Director and Senior Management Workshops",
+      "published_at": "2026-03-19T00:00:00Z",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-18.html",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "OCC",
       "title": "Regulatory Capital: Category I and II Banking Organizations, Banking Organizations With Significant Trading Activity, and Optional Adoption for Other Banking Organizations",
       "published_at": "2026-03-19T00:00:00Z",
       "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-9.html",
@@ -387,14 +427,6 @@
       "published_at": "2026-03-19T00:00:00Z",
       "url": "https://www.fdic.gov/news/press-releases/2026/agencies-request-comment-proposals-modernize-regulatory-capital-framework",
       "summary": "The federal bank regulatory agencies today requested comment on three proposals to modernize the regulatory capital framework for banks of all sizes."
-    },
-    {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "Average 30-Year Fixed-Rate Mortgage at 6.22%",
-      "published_at": "2026-03-19T00:00:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/03/19/3259296/0/en/Average-30-Year-Fixed-Rate-Mortgage-at-6-22.html",
-      "summary": ""
     },
     {
       "category": "Legislative",
@@ -429,11 +461,27 @@
       "summary": ""
     },
     {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "Hill, Barr Statement on Basel III Proposal",
+      "published_at": "2026-03-19T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411062",
+      "summary": ""
+    },
+    {
       "category": "Fintech Watch",
       "source": "Jack Henry",
       "title": "Jack Henry Tap2Local™ Named \"Small Business Payments Solution of the Year\" in 2026 FinTech Breakthrough Awards Program",
       "published_at": "2026-03-19T00:00:00Z",
       "url": "https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-tap2localtm-named-small-business-payments-solution",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Get Luminar Neo lifetime access and a full bundle for just $79.99",
+      "published_at": "2026-03-19T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/get-luminar-neo-lifetime-access-and-a-full-bundle-for-just-7999/",
       "summary": ""
     },
     {
@@ -572,22 +620,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms",
-      "published_at": "2026-03-18T14:05:15Z",
-      "url": "https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/",
-      "summary": "Refund fraud is now a business, with methods and tutorials sold to exploit return policies for profit. Flare shows how fraudsters turn refunds and chargebacks into a repeatable profit model. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New DarkSword iOS exploit used in infostealer attack on iPhones",
-      "published_at": "2026-03-18T14:02:08Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/",
-      "summary": "A new exploit kit for iOS devices and delivery framework dubbed \"Darksword\" has been used to steal a wide range of personal information, including data from cryptocurrency wallet app. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive",
       "published_at": "2026-03-18T08:37:44Z",
@@ -616,14 +648,6 @@
       "title": "Issuance of Venezuela-related General License and Frequently Asked Questions",
       "published_at": "2026-03-18T00:00:00Z",
       "url": "https://ofac.treasury.gov/recent-actions/20260318",
-      "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "OCC Announces Enforcement Actions for March 2026",
-      "published_at": "2026-03-18T00:00:00Z",
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-15.html",
       "summary": ""
     },
     {
@@ -693,17 +717,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Nordstrom's email system abused to send crypto scams to customers",
+      "title": "The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms",
       "published_at": "2026-03-18T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/",
+      "url": "https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "This $42 VPN is a simple way to increase your privacy online",
+      "title": "New DarkSword iOS exploit used in infostealer attack on iPhones",
       "published_at": "2026-03-18T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-42-vpn-is-a-simple-way-to-increase-your-privacy-online/",
+      "url": "https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/",
       "summary": ""
     },
     {
@@ -2235,14 +2259,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Apple pushes first Background Security Improvements update to fix WebKit flaw",
-      "published_at": "2026-03-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/",
-      "summary": ""
-    },
-    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants",
@@ -2294,14 +2310,6 @@
       "title": "Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim",
       "published_at": "2026-03-16T19:42:36Z",
       "url": "https://www.whitehouse.gov/articles/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "America 250: Presidential Message on the Birthday of President James Madison",
-      "published_at": "2026-03-16T17:27:50Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-james-madison/",
       "summary": ""
     },
     {
@@ -3015,14 +3023,6 @@
       "published_at": "2026-03-12T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/updated-tax-withholding-estimator-lets-millions-of-taxpayers-take-one-big-beautiful-bill-changes-into-account-when-calculating-their-withholding",
       "summary": "IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled enhancements to the IRS Tax Withholding Estimator to reflect changes to credits and deductions under the One, Big, Beautiful Bill, including no tax on tips, no tax on overtime, and other tax benefits."
-    },
-    {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "Mortgage Rates Inch Higher as Housing Activity Picks Up",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html",
-      "summary": ""
     },
     {
       "category": "Legislative",
@@ -4175,14 +4175,6 @@
       "summary": "Information published."
     },
     {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Russia-related Designation Removal",
-      "published_at": "2026-03-06T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260306",
-      "summary": ""
-    },
-    {
       "category": "IRS",
       "source": "IRS",
       "title": "Treasury, IRS issue proposed regulations for Trump Accounts contribution pilot program, Treasury Department to deposit $1,000 into the account of each eligible child",
@@ -4286,22 +4278,6 @@
         "topic:income-taxes"
       ],
       "fedreg_document_number": "2026-04431"
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "Press Release: Agencies Clarify the Capital Treatment of Tokenized Securities",
-      "published_at": "2026-03-05T20:32:40Z",
-      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40cdad7",
-      "summary": "PRESS RELEASE | MARCH 5, 2026 Agencies Clarify the Capital Treatment of Tokenized Securities WASHINGTON – The federal bank regulatory agencies today jointly issued answers to frequently asked questions to clarify the capital treatment of tokenized securities. A security is often referred to as “tokenized” when ownership rights in the security are represented using distributed…"
-    },
-    {
-      "category": "Banking",
-      "source": "FRB",
-      "title": "Agencies clarify the capital treatment of tokenized securities",
-      "published_at": "2026-03-05T20:30:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm",
-      "summary": "Agencies clarify the capital treatment of tokenized securities"
     }
   ]
 }

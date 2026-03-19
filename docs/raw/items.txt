@@ -1,5 +1,31 @@
 IS
 BleepingComputer
+2026-03-19T20:43:54Z
+Navia discloses data breach impacting 2.7 million people
+https://www.bleepingcomputer.com/news/security/navia-discloses-data-breach-impacting-27-million-people/
+Navia Benefit Solutions, Inc. (Navia) is informing nearly 2.7 million individuals of a data breach that exposed their sensitive information to attackers. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-03-19T20:05:01Z
+U.S. Department of the Treasury and U.S. Department of Education Announce Historic Federal Student Assistance Partnership
+https://home.treasury.gov/news/press-releases/sb0419
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-19T20:01:03Z
+New ‘PolyShell’ flaw allows unauthenticated RCE on Magento e-stores
+https://www.bleepingcomputer.com/news/security/new-polyshell-flaw-allows-unauthenticated-rce-on-magento-e-stores/
+A newly disclosed vulnerability dubbed 'PolyShell' affects all Magento Open Source and Adobe Commerce stable version 2 installations, allowing unauthenticated code execution and account takeover. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-03-19T18:39:41Z
+Americans Agree that Operation Epic Fury Is an Overwhelming Success
+https://www.whitehouse.gov/articles/2026/03/americans-agree-that-operation-epic-fury-is-an-overwhelming-success/
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-19T17:08:24Z
 Bitrefill blames North Korean Lazarus group for cyberattack
 https://www.bleepingcomputer.com/news/security/bitrefill-blames-north-korean-lazarus-group-for-cyberattack/
@@ -304,6 +330,12 @@ The federal bank regulatory agencies today requested comment on three proposals 
 Banking
 OCC
 2026-03-19T00:00:00Z
+OCC Opens Registration for Community Bank Director and Senior Management Workshops
+https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-18.html
+------------------------------------------------------------
+Banking
+OCC
+2026-03-19T00:00:00Z
 Regulatory Capital: Category I and II Banking Organizations, Banking Organizations With Significant Trading Activity, and Optional Adoption for Other Banking Organizations
 https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-9.html
 ------------------------------------------------------------
@@ -326,12 +358,6 @@ FDIC
 Agencies Request Comment on Proposals to Modernize the Regulatory Capital Framework And Maintain the Strength of the Banking System
 https://www.fdic.gov/news/press-releases/2026/agencies-request-comment-proposals-modernize-regulatory-capital-framework
 The federal bank regulatory agencies today requested comment on three proposals to modernize the regulatory capital framework for banks of all sizes.
-------------------------------------------------------------
-Mortgage
-Freddie Mac
-2026-03-19T00:00:00Z
-Average 30-Year Fixed-Rate Mortgage at 6.22%
-https://www.globenewswire.com/news-release/2026/03/19/3259296/0/en/Average-30-Year-Fixed-Rate-Mortgage-at-6-22.html
 ------------------------------------------------------------
 Legislative
 Senate Banking
@@ -357,11 +383,23 @@ House Financial Services
 Task Force on Monetary Policy, Treasury Market Resilience, and Economic Prosperity Reviews the Treasury-Fed Accord
 https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411061
 ------------------------------------------------------------
+Legislative
+House Financial Services
+2026-03-19T00:00:00Z
+Hill, Barr Statement on Basel III Proposal
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411062
+------------------------------------------------------------
 Fintech Watch
 Jack Henry
 2026-03-19T00:00:00Z
 Jack Henry Tap2Local™ Named "Small Business Payments Solution of the Year" in 2026 FinTech Breakthrough Awards Program
 https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-tap2localtm-named-small-business-payments-solution
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-19T00:00:00Z
+Get Luminar Neo lifetime access and a full bundle for just $79.99
+https://www.bleepingcomputer.com/offer/deals/get-luminar-neo-lifetime-access-and-a-full-bundle-for-just-7999/
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -459,20 +497,6 @@ https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-dat
 Marquis, a Texas-based financial services provider, revealed this week that a ransomware gang stole the data of over 670,000 individuals in an August 2025 cyberattack that also disrupted operations at 74 banks across the United States. [...]
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-03-18T14:05:15Z
-The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms
-https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/
-Refund fraud is now a business, with methods and tutorials sold to exploit return policies for profit. Flare shows how fraudsters turn refunds and chargebacks into a repeatable profit model. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-18T14:02:08Z
-New DarkSword iOS exploit used in infostealer attack on iPhones
-https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/
-A new exploit kit for iOS devices and delivery framework dubbed "Darksword" has been used to steal a wide range of personal information, including data from cryptocurrency wallet app. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-03-18T08:37:44Z
 CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
@@ -498,12 +522,6 @@ OFAC
 2026-03-18T00:00:00Z
 Issuance of Venezuela-related General License and Frequently Asked Questions
 https://ofac.treasury.gov/recent-actions/20260318
-------------------------------------------------------------
-Banking
-OCC
-2026-03-18T00:00:00Z
-OCC Announces Enforcement Actions for March 2026
-https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-15.html
 ------------------------------------------------------------
 Banking
 FRB
@@ -559,14 +577,14 @@ https://www.bleepingcomputer.com/offer/deals/get-a-refurbished-chromebook-as-a-b
 IS
 BleepingComputer
 2026-03-18T00:00:00Z
-Nordstrom's email system abused to send crypto scams to customers
-https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/
+The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms
+https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-18T00:00:00Z
-This $42 VPN is a simple way to increase your privacy online
-https://www.bleepingcomputer.com/offer/deals/this-42-vpn-is-a-simple-way-to-increase-your-privacy-online/
+New DarkSword iOS exploit used in infostealer attack on iPhones
+https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/
 ------------------------------------------------------------
 Executive
 White House
@@ -1728,12 +1746,6 @@ Mastercard
 ### Mastercard and Chainlink enable on-chain crypto purchases using Mastercard's 3.5 billion cards June 24, 2025
 https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-17T00:00:00Z
-Apple pushes first Background Security Improvements update to fix WebKit flaw
-https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
-------------------------------------------------------------
 Federal Register
 Federal Register
 2026-03-17T00:00:00Z
@@ -1764,12 +1776,6 @@ White House
 2026-03-16T19:42:36Z
 Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim
 https://www.whitehouse.gov/articles/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/
-------------------------------------------------------------
-Executive
-White House
-2026-03-16T17:27:50Z
-America 250: Presidential Message on the Birthday of President James Madison
-https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-james-madison/
 ------------------------------------------------------------
 Compliance Watch
 TBA
@@ -2378,12 +2384,6 @@ IRS
 Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding
 https://www.irs.gov/newsroom/updated-tax-withholding-estimator-lets-millions-of-taxpayers-take-one-big-beautiful-bill-changes-into-account-when-calculating-their-withholding
 IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled enhancements to the IRS Tax Withholding Estimator to reflect changes to credits and deductions under the One, Big, Beautiful Bill, including no tax on tips, no tax on overtime, and other tax benefits.
-------------------------------------------------------------
-Mortgage
-Freddie Mac
-2026-03-12T00:00:00Z
-Mortgage Rates Inch Higher as Housing Activity Picks Up
-https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html
 ------------------------------------------------------------
 Legislative
 House Financial Services
@@ -3348,12 +3348,6 @@ CVE-2026-24821 A heap-based buffer over-read that might affect a system that com
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24821
 Information published.
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-03-06T00:00:00Z
-Russia-related Designation Removal
-https://ofac.treasury.gov/recent-actions/20260306
-------------------------------------------------------------
 IRS
 IRS
 2026-03-06T00:00:00Z
@@ -3427,18 +3421,4 @@ Federal Register
 Electronic Furnishing of Payee Statements Regarding Digital Asset Sales by Brokers
 https://www.federalregister.gov/documents/2026/03/06/2026-04431/electronic-furnishing-of-payee-statements-regarding-digital-asset-sales-by-brokers
 This document contains proposed regulations that would provide digital asset brokers that are required to furnish to their customers written statements reflecting information provided to the IRS with respect to digital asset sale transactions with an alternative process for obtaining consent from their customers to receive these statements in an electronic format without offer…
-------------------------------------------------------------
-Banking
-FDIC
-2026-03-05T20:32:40Z
-Press Release: Agencies Clarify the Capital Treatment of Tokenized Securities
-https://content.govdelivery.com/accounts/USFDIC/bulletins/40cdad7
-PRESS RELEASE | MARCH 5, 2026 Agencies Clarify the Capital Treatment of Tokenized Securities WASHINGTON – The federal bank regulatory agencies today jointly issued answers to frequently asked questions to clarify the capital treatment of tokenized securities. A security is often referred to as “tokenized” when ownership rights in the security are represented using distributed…
-------------------------------------------------------------
-Banking
-FRB
-2026-03-05T20:30:00Z
-Agencies clarify the capital treatment of tokenized securities
-https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm
-Agencies clarify the capital treatment of tokenized securities
 ------------------------------------------------------------

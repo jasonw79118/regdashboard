@@ -1,7 +1,35 @@
 # RegDashboard — Export
 
-Window: `2026-03-05T17:46:59Z` → `2026-03-19T17:46:59Z` (UTC)
-Last updated: `2026-03-19T12:46:59-05:00` (CT) — `2026-03-19T17:46:59Z` (UTC)
+Window: `2026-03-05T20:46:09Z` → `2026-03-19T20:46:09Z` (UTC)
+Last updated: `2026-03-19T15:46:09-05:00` (CT) — `2026-03-19T20:46:09Z` (UTC)
+
+## Navia discloses data breach impacting 2.7 million people
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-19T20:43:54Z
+- URL: https://www.bleepingcomputer.com/news/security/navia-discloses-data-breach-impacting-27-million-people/
+
+Navia Benefit Solutions, Inc. (Navia) is informing nearly 2.7 million individuals of a data breach that exposed their sensitive information to attackers. [...]
+
+## U.S. Department of the Treasury and U.S. Department of Education Announce Historic Federal Student Assistance Partnership
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-03-19T20:05:01Z
+- URL: https://home.treasury.gov/news/press-releases/sb0419
+
+## New ‘PolyShell’ flaw allows unauthenticated RCE on Magento e-stores
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-19T20:01:03Z
+- URL: https://www.bleepingcomputer.com/news/security/new-polyshell-flaw-allows-unauthenticated-rce-on-magento-e-stores/
+
+A newly disclosed vulnerability dubbed 'PolyShell' affects all Magento Open Source and Adobe Commerce stable version 2 installations, allowing unauthenticated code execution and account takeover. [...]
+
+## Americans Agree that Operation Epic Fury Is an Overwhelming Success
+- Source: White House
+- Category: Executive
+- Published: 2026-03-19T18:39:41Z
+- URL: https://www.whitehouse.gov/articles/2026/03/americans-agree-that-operation-epic-fury-is-an-overwhelming-success/
 
 ## Bitrefill blames North Korean Lazarus group for cyberattack
 - Source: BleepingComputer
@@ -345,6 +373,12 @@ Comptroller of the Currency Jonathan V. Gould issued the following statement tod
 
 The federal bank regulatory agencies today requested comment on three proposals to modernize the regulatory capital framework for banks of all sizes. The proposals would streamline capital requirements and better align regulatory capital with risk while maintaining the safety and soundness of the banking system.
 
+## OCC Opens Registration for Community Bank Director and Senior Management Workshops
+- Source: OCC
+- Category: Banking
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-18.html
+
 ## Regulatory Capital: Category I and II Banking Organizations, Banking Organizations With Significant Trading Activity, and Optional Adoption for Other Banking Organizations
 - Source: OCC
 - Category: Banking
@@ -373,12 +407,6 @@ The FDIC Board of Directors approved today the rescission of the Statement of Po
 
 The federal bank regulatory agencies today requested comment on three proposals to modernize the regulatory capital framework for banks of all sizes.
 
-## Average 30-Year Fixed-Rate Mortgage at 6.22%
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-03-19T00:00:00Z
-- URL: https://www.globenewswire.com/news-release/2026/03/19/3259296/0/en/Average-30-Year-Fixed-Rate-Mortgage-at-6-22.html
-
 ## Warren Probes Trump Fed Nominee Kevin Warsh on Appearances in the Epstein Files
 - Source: Senate Banking
 - Category: Legislative
@@ -403,11 +431,23 @@ The federal bank regulatory agencies today requested comment on three proposals 
 - Published: 2026-03-19T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411061
 
+## Hill, Barr Statement on Basel III Proposal
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-19T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411062
+
 ## Jack Henry Tap2Local™ Named "Small Business Payments Solution of the Year" in 2026 FinTech Breakthrough Awards Program
 - Source: Jack Henry
 - Category: Fintech Watch
 - Published: 2026-03-19T00:00:00Z
 - URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-tap2localtm-named-small-business-payments-solution
+
+## Get Luminar Neo lifetime access and a full bundle for just $79.99
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-19T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-luminar-neo-lifetime-access-and-a-full-bundle-for-just-7999/
 
 ## An open-box ASUS Chromebook with a detachable touchscreen for $150
 - Source: BleepingComputer
@@ -515,22 +555,6 @@ The Interlock ransomware gang has been exploiting a maximum severity remote code
 
 Marquis, a Texas-based financial services provider, revealed this week that a ransomware gang stole the data of over 670,000 individuals in an August 2025 cyberattack that also disrupted operations at 74 banks across the United States. [...]
 
-## The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-18T14:05:15Z
-- URL: https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/
-
-Refund fraud is now a business, with methods and tutorials sold to exploit return policies for profit. Flare shows how fraudsters turn refunds and chargebacks into a repeatable profit model. [...]
-
-## New DarkSword iOS exploit used in infostealer attack on iPhones
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-18T14:02:08Z
-- URL: https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/
-
-A new exploit kit for iOS devices and delivery framework dubbed "Darksword" has been used to steal a wide range of personal information, including data from cryptocurrency wallet app. [...]
-
 ## CVE-2026-4111 Libarchive: infinite loop denial of service in rar5 decompression via archive_read_data() in libarchive
 - Source: Microsoft MSRC
 - Category: IS
@@ -560,12 +584,6 @@ Information published.
 - Category: OFAC
 - Published: 2026-03-18T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260318
-
-## OCC Announces Enforcement Actions for March 2026
-- Source: OCC
-- Category: Banking
-- Published: 2026-03-18T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-15.html
 
 ## News & Events
 - Source: FRB
@@ -621,17 +639,17 @@ RESTON, Virginia, March 18, 2026 – Nacha is proud to announce the 2026 honoree
 - Published: 2026-03-18T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-a-refurbished-chromebook-as-a-backup-while-its-just-60/
 
-## Nordstrom's email system abused to send crypto scams to customers
+## The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-18T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/
+- URL: https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/
 
-## This $42 VPN is a simple way to increase your privacy online
+## New DarkSword iOS exploit used in infostealer attack on iPhones
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-18T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-42-vpn-is-a-simple-way-to-increase-your-privacy-online/
+- URL: https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/
 
 ## Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink
 - Source: White House
@@ -1807,12 +1825,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-03-17T00:00:00Z
 - URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
 
-## Apple pushes first Background Security Improvements update to fix WebKit flaw
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
-
 ## Amendment Reinstating “Grandfather” Exceptions to Restrictions on Private Transfer Fee Covenants
 - Source: Federal Register
 - Category: Federal Register
@@ -1844,12 +1856,6 @@ The Federal Housing Finance Agency (FHFA) is making a technical amendment to its
 - Category: Executive
 - Published: 2026-03-16T19:42:36Z
 - URL: https://www.whitehouse.gov/articles/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/
-
-## America 250: Presidential Message on the Birthday of President James Madison
-- Source: White House
-- Category: Executive
-- Published: 2026-03-16T17:27:50Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/america-250-presidential-message-on-the-birthday-of-president-james-madison/
 
 ## Federal court quashes subpoenas against Fed’s Powell
 - Source: TBA
@@ -2532,12 +2538,6 @@ Information published.
 - URL: https://www.irs.gov/newsroom/updated-tax-withholding-estimator-lets-millions-of-taxpayers-take-one-big-beautiful-bill-changes-into-account-when-calculating-their-withholding
 
 IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled enhancements to the IRS Tax Withholding Estimator to reflect changes to credits and deductions under the One, Big, Beautiful Bill, including no tax on tips, no tax on overtime, and other tax benefits.
-
-## Mortgage Rates Inch Higher as Housing Activity Picks Up
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-03-12T00:00:00Z
-- URL: https://www.globenewswire.com/news-release/2026/03/12/3254941/0/en/Mortgage-Rates-Inch-Higher-as-Housing-Activity-Picks-Up.html
 
 ## TOMORROW: MEDIA ADVISORY: Rep. Hill to Host Field Hearing on Failures of Little Rock Housing Authority
 - Source: House Financial Services
@@ -3625,12 +3625,6 @@ Information published.
 
 Information published.
 
-## Russia-related Designation Removal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-06T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260306
-
 ## Treasury, IRS issue proposed regulations for Trump Accounts contribution pilot program, Treasury Department to deposit $1,000 into the account of each eligible child
 - Source: IRS
 - Category: IRS
@@ -3712,19 +3706,3 @@ This document proposes to remove regulations that identify certain partnership r
 - URL: https://www.federalregister.gov/documents/2026/03/06/2026-04431/electronic-furnishing-of-payee-statements-regarding-digital-asset-sales-by-brokers
 
 This document contains proposed regulations that would provide digital asset brokers that are required to furnish to their customers written statements reflecting information provided to the IRS with respect to digital asset sale transactions with an alternative process for obtaining consent from their customers to receive these statements in an electronic format without offer…
-
-## Press Release: Agencies Clarify the Capital Treatment of Tokenized Securities
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-05T20:32:40Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40cdad7
-
-PRESS RELEASE | MARCH 5, 2026 Agencies Clarify the Capital Treatment of Tokenized Securities WASHINGTON – The federal bank regulatory agencies today jointly issued answers to frequently asked questions to clarify the capital treatment of tokenized securities. A security is often referred to as “tokenized” when ownership rights in the security are represented using distributed…
-
-## Agencies clarify the capital treatment of tokenized securities
-- Source: FRB
-- Category: Banking
-- Published: 2026-03-05T20:30:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm
-
-Agencies clarify the capital treatment of tokenized securities
