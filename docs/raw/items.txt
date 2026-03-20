@@ -1,3 +1,56 @@
+IS
+BleepingComputer
+2026-03-20T17:19:02Z
+Police take down 373,000 fake CSAM sites in Operation Alice
+https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/
+An international law enforcement action called Operation Alice has shut down over 373,000 dark web sites that offered fake CSAM packages. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-03-20T16:00:00Z
+Treasury Sanctions Global Network Diverting Funds to Benefit Hizballah
+https://home.treasury.gov/news/press-releases/sb0420
+------------------------------------------------------------
+Executive
+White House
+2026-03-20T15:51:24Z
+Preserving America’s Game
+https://www.whitehouse.gov/presidential-actions/2026/03/preserving-americas-game/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-20T15:09:12Z
+CISA orders feds to patch max-severity Cisco flaw by Sunday
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-cisco-flaw-by-sunday/
+The Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity vulnerability, CVE-2026-20131, in Cisco Secure Firewall Management Center (FMC) by Sunday, March 22. [...]
+------------------------------------------------------------
+Banking
+FRB
+2026-03-20T15:00:00Z
+Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank
+https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260320a.htm
+Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-20T14:01:11Z
+How CISOs Can Survive the Era of Geopolitical Cyberattacks
+https://www.bleepingcomputer.com/news/security/how-cisos-can-survive-the-era-of-geopolitical-cyberattacks/
+Geopolitical tensions are driving destructive cyberattacks designed to disrupt operations, not demand ransom. CISOs must limit lateral movement and contain breaches to reduce the impact of wiper campaigns. [...]
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-20T14:00:00Z
+CVE-2026-26118 Azure MCP Server Tools Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26118
+Added products to the Security Updates table that document the various packaging methods used to deliver Azure MCP Server Tools.
+------------------------------------------------------------
+Executive
+White House
+2026-03-20T13:28:33Z
+First Lady Melania Trump Announces 2026 Spring Garden Tours
+https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-announces-2026-spring-garden-tours/
+------------------------------------------------------------
 Executive
 White House
 2026-03-20T12:20:12Z
@@ -346,6 +399,26 @@ White House
 Fact Sheet: President Donald J. Trump Strengthens U.S.-Japan Alliance for the Benefit of All Americans
 https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-strengthens-u-s-japan-alliance-for-the-benefit-of-all-americans/
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-03-20T00:00:00Z
+Counter Terrorism Designations; Counter Narcotics and Russia-related Designations Removals
+https://ofac.treasury.gov/recent-actions/20260320
+------------------------------------------------------------
+IRS
+IRS
+2026-03-20T00:00:00Z
+Time is running out to claim $1.2 billion in refunds for tax year 2022; taxpayers face April 15 deadline
+https://www.irs.gov/newsroom/time-is-running-out-to-claim-1-point-2-billion-in-refunds-for-tax-year-2022-taxpayers-face-april-15-deadline
+IR-2026-37, March 20, 2026 ― The Internal Revenue Service today announced that over 1.3 million people across the nation have unclaimed refunds for tax year 2022 and face an April 15 deadline to submit their tax returns.
+------------------------------------------------------------
+IRS
+IRS
+2026-03-20T00:00:00Z
+Free options and resources for preparing and filing taxes in 2026
+https://www.irs.gov/newsroom/free-options-and-resources-for-preparing-and-filing-taxes-in-2026
+IR-2026-38, March 20, 2026 — The Internal Revenue Service reminds taxpayers who still need to file their 2025 federal tax returns that free options and resources are available on IRS.gov.
+------------------------------------------------------------
 Payments
 NACHA
 2026-03-20T00:00:00Z
@@ -577,20 +650,6 @@ White House
 Presidential Message on the Feast of Saint Joseph
 https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-the-feast-of-saint-joseph/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-19T10:13:23Z
-New ‘Perseus’ Android malware checks user notes for secrets
-https://www.bleepingcomputer.com/news/security/new-perseus-android-malware-checks-user-notes-for-secrets/
-A new Android malware called Perseus is checking user-curated notes to steal sensitive information, like passwords, recovery phrases, or financial data. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-19T10:06:38Z
-Critical Microsoft SharePoint flaw now exploited in attacks
-https://www.bleepingcomputer.com/news/microsoft/critical-microsoft-sharepoint-flaw-now-exploited-in-attacks/
-A critical Microsoft SharePoint vulnerability patched in January is now being exploited in attacks, the Cybersecurity and Infrastructure Security Agency (CISA) warned. [...]
-------------------------------------------------------------
 Compliance Watch
 CDIA
 2026-03-19T10:00:13Z
@@ -814,9 +873,9 @@ https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-8.html
 Banking
 FDIC
 2026-03-19T00:00:00Z
-FDIC Board of Directors Rescinds Statement of Policy on the Qualifications for Failed Bank Acquisitions
+FDIC Board of Directors Rescinds Statement of Policy on Qualifications for Failed Bank Acquisitions
 https://www.fdic.gov/news/press-releases/2026/fdic-board-directors-rescinds-statement-policy-qualifications-failed-bank
-The FDIC Board of Directors approved today the rescission of the Statement of Policy on the Qualifications for Failed Bank Acquisitions
+The FDIC Board of Directors approved today the rescission of the Statement of Policy on Qualifications for Failed Bank Acquisitions
 ------------------------------------------------------------
 Banking
 FDIC
@@ -830,6 +889,24 @@ Freddie Mac
 2026-03-19T00:00:00Z
 Average 30-Year Fixed-Rate Mortgage at 6.22%
 https://www.globenewswire.com/news-release/2026/03/19/3259296/0/en/Average-30-Year-Fixed-Rate-Mortgage-at-6-22.html
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-19T00:00:00Z
+Scott Statement on Revised Basel III Endgame Proposal
+https://www.banking.senate.gov/newsroom/majority/scott-statement-on-revised-basel-iii-endgame-proposal
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-19T00:00:00Z
+Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets
+https://www.banking.senate.gov/newsroom/minority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-03-19T00:00:00Z
+Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets
+https://www.banking.senate.gov/newsroom/majority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets
 ------------------------------------------------------------
 Legislative
 House Financial Services
@@ -861,6 +938,18 @@ BleepingComputer
 An open-box ASUS Chromebook with a detachable touchscreen for $150
 https://www.bleepingcomputer.com/offer/deals/an-open-box-asus-chromebook-with-a-detachable-touchscreen-for-150/
 ------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-19T00:00:00Z
+New ‘Perseus’ Android malware checks user notes for secrets
+https://www.bleepingcomputer.com/news/security/new-perseus-android-malware-checks-user-notes-for-secrets/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-19T00:00:00Z
+Critical Microsoft SharePoint flaw now exploited in attacks
+https://www.bleepingcomputer.com/news/microsoft/critical-microsoft-sharepoint-flaw-now-exploited-in-attacks/
+------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
 2026-03-19T00:00:00Z
@@ -889,18 +978,18 @@ Consistent Basis Reporting Between Estate and Person Acquiring Property From Dec
 https://www.federalregister.gov/documents/2026/03/19/2026-05447/consistent-basis-reporting-between-estate-and-person-acquiring-property-from-decedent-correction
 This document contains corrections to a final rule (TD 9991), which was published in the Federal Register on Tuesday, September 17, 2024 (89 FR 76356). That document inadvertently overwrote some previous language, and this document corrects the final regulations.
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-18T22:56:50Z
-Aura confirms data breach exposing 900,000 marketing contacts
-https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/
-Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer records containing names and email addresses. [...]
-------------------------------------------------------------
 OFAC
 Treasury
 2026-03-18T20:00:00Z
 Treasury International Capital Data for January
 https://home.treasury.gov/news/press-releases/sb0418
+------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-18T18:10:01Z
+FOMC holds rate steady amid Iran war
+https://www.texasbankers.com/fomc-holds-rate-steady-amid-iran-war/
+The Federal Open Market Committee voted to hold the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent. The issued statement reads: “Uncertainty about the economic outlook remains elevated. The implications of developments in the Middle East for the U.S. economy are uncertain. The Committee is attentive to the risks to both […] The post FOMC holds rate steady am…
 ------------------------------------------------------------
 Banking
 FRB
@@ -994,18 +1083,6 @@ Nacha Honors the 15 Under 40 Award Winners for 2026
 https://www.nacha.org/news/nacha-honors-15-under-40-award-winners-2026
 RESTON, Virginia, March 18, 2026 – Nacha is proud to announce the 2026 honorees in its 15 Under 40 Awards program, recognizing the next generation of payments industry leaders. All have demonstrated exceptional leadership, innovation, and dedication to advancing the payments landscape.Nacha’s 15 Under 40 honorees for 2026 are:
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-18T00:00:00Z
-CISA orders feds to patch Zimbra XSS flaw exploited in attacks
-https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-18T00:00:00Z
-ConnectWise patches new flaw allowing ScreenConnect hijacking
-https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/
-------------------------------------------------------------
 Compliance Watch
 Wolters Kluwer
 2026-03-18T00:00:00Z
@@ -1018,12 +1095,6 @@ White House
 2026-03-17T14:16:01Z
 Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink
 https://www.whitehouse.gov/articles/2026/03/airline-ceos-demand-immediate-action-as-democrats-dhs-shutdown-pushes-air-travel-to-the-brink/
-------------------------------------------------------------
-Executive
-White House
-2026-03-17T13:48:10Z
-Presidential Message on Saint Patrick’s Day and Irish American Heritage Month
-https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-saint-patricks-day-and-irish-american-heritage-month/
 ------------------------------------------------------------
 Fintech Watch
 Finastra
@@ -2216,15 +2287,16 @@ https://www.federalregister.gov/documents/2026/03/17/2026-05173/sunshine-act-mee
 ------------------------------------------------------------
 Executive
 White House
-2026-03-16T20:53:17Z
-Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud
-https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-establishes-the-task-force-to-eliminate-fraud/
-------------------------------------------------------------
-Executive
-White House
 2026-03-16T20:50:16Z
 Establishing the Task Force to Eliminate Fraud
 https://www.whitehouse.gov/presidential-actions/2026/03/establishing-the-task-force-to-eliminate-fraud/
+------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-16T06:59:00Z
+Federal court quashes subpoenas against Fed’s Powell
+https://www.texasbankers.com/federal-court-quashes-subpoenas-against-feds-powell/
+A federal court has quashed two U.S. Department of Justice subpoenas targeting Federal Reserve Chairman Jerome Powell, finding substantial evidence they were issued to pressure the central bank to lower interest rates. Powell said in January that the Justice Department had opened an investigation into his congressional testimony about cost overruns tied to renovations at […] T…
 ------------------------------------------------------------
 Mortgage
 Fannie Mae
@@ -2577,6 +2649,13 @@ Federal Reserve Board issues enforcement actions with former employee of Equity 
 https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260313a.htm
 Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
 ------------------------------------------------------------
+Compliance Watch
+TBA
+2026-03-13T15:00:00Z
+Trump pushes regulatory overhaul to expand housing finance
+https://www.texasbankers.com/trump-pushes-regulatory-overhaul-to-expand-housing-finance/
+The White House published an executive order directing federal regulators to review and scale back certain rules to expand access to mortgages and encourage new housing construction. President Trump directed agencies to begin easing regulatory burdens on mortgage lenders—particularly community banks—and to remove environmental and energy-efficiency requirements affecting resid…
+------------------------------------------------------------
 Banking
 FDIC
 2026-03-13T14:11:58Z
@@ -2666,6 +2745,13 @@ OFAC
 2026-03-13T00:00:00Z
 Cyber-related Designations Removals
 https://ofac.treasury.gov/recent-actions/20260313
+------------------------------------------------------------
+IRS
+IRS
+2026-03-13T00:00:00Z
+Update on IRS Commissioner position
+https://www.irs.gov/newsroom/update-on-irs-commissioner-position
+IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…
 ------------------------------------------------------------
 Legislative
 House Financial Services
@@ -2812,6 +2898,13 @@ OFAC
 2026-03-12T00:00:00Z
 Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
 https://ofac.treasury.gov/recent-actions/20260312
+------------------------------------------------------------
+IRS
+IRS
+2026-03-12T00:00:00Z
+Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding
+https://www.irs.gov/newsroom/updated-tax-withholding-estimator-lets-millions-of-taxpayers-take-one-big-beautiful-bill-changes-into-account-when-calculating-their-withholding
+IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled enhancements to the IRS Tax Withholding Estimator to reflect changes to credits and deductions under the One, Big, Beautiful Bill, including no tax on tips, no tax on overtime, and other tax benefits.
 ------------------------------------------------------------
 Mortgage
 Freddie Mac
@@ -3507,13 +3600,6 @@ Authentication bypass using an alternate path or channel in Azure Windows Virtua
 IS
 Microsoft MSRC
 2026-03-10T14:00:00Z
-CVE-2026-26118 Azure MCP Server Tools Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26118
-Server-side request forgery (ssrf) in Azure MCP Server allows an authorized attacker to elevate privileges over a network.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T14:00:00Z
 CVE-2026-26123 Microsoft Authenticator Information Disclosure Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26123
 Cwe is not in rca categories in Microsoft Authenticator allows an unauthorized attacker to disclose information locally.
@@ -3640,17 +3726,12 @@ White House
 Nominations Sent to the Senate
 https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-623c/
 ------------------------------------------------------------
-Executive
-White House
-2026-03-09T17:34:47Z
-U.S. Hostage and Wrongful Detainee Day, 2026
-https://www.whitehouse.gov/presidential-actions/2026/03/u-s-hostage-and-wrongful-detainee-day-2026/
-------------------------------------------------------------
-OFAC
-OFAC
-2026-03-09T00:00:00Z
-Counter Terrorism Designations; Sudan-related Designation Update
-https://ofac.treasury.gov/recent-actions/20260309
+Compliance Watch
+TBA
+2026-03-09T18:59:35Z
+Trump signs executive order to fight cybercrime
+https://www.texasbankers.com/trump-signs-executive-order-to-fight-cybercrime/
+President Donald Trump signed an executive order directing federal law enforcement to expand tools for combating transnational criminal organizations behind cyber scams and fraud, while creating a pathway for returning seized funds to victims. The action came alongside the publication of the White House’s National Cyber Strategy. According to the administration, U.S. consumers…
 ------------------------------------------------------------
 Mortgage
 FHLB MPF
@@ -3711,25 +3792,4 @@ Treasury
 2026-03-06T21:36:23Z
 Treasury Seeks Public Input on the U.S. National Strategy for Financial Literacy – Comments Due April 6
 https://home.treasury.gov/news/press-releases/sb0413
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-06T16:00:00Z
-CVE-2026-26122 Microsoft ACI Confidential Containers Information Disclosure Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26122
-Added FAQ information. This is an informational change only.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-06T16:00:00Z
-CVE-2026-23651 Microsoft ACI Confidential Containers Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23651
-Added FAQ information. This is an informational change only.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-06T16:00:00Z
-CVE-2026-26124 Microsoft ACI Confidential Containers Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26124
-Added FAQ information. This is an informational change only.
 ------------------------------------------------------------
