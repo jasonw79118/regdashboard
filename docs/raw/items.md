@@ -1,7 +1,35 @@
 # RegDashboard — Export
 
-Window: `2026-03-09T12:19:07Z` → `2026-03-23T12:19:07Z` (UTC)
-Last updated: `2026-03-23T07:19:07-05:00` (CT) — `2026-03-23T12:19:07Z` (UTC)
+Window: `2026-03-09T18:24:18Z` → `2026-03-23T18:24:18Z` (UTC)
+Last updated: `2026-03-23T13:24:18-05:00` (CT) — `2026-03-23T18:24:18Z` (UTC)
+
+## Trivy supply-chain attack spreads to Docker, GitHub repos
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-23T17:40:27Z
+- URL: https://www.bleepingcomputer.com/news/security/trivy-supply-chain-attack-spreads-to-docker-github-repos/
+
+The TeamPCP hackers behind the Trivy supply-chain attack continued to target Aqua Security, pushing malicious Docker images and hijacking the company's GitHub organization to tamper with dozens of repositories. [...]
+
+## President Trump’s ‘Memphis Safe Task Force’ Delivers Crushing Blow to Crime
+- Source: White House
+- Category: Executive
+- Published: 2026-03-23T16:26:47Z
+- URL: https://www.whitehouse.gov/articles/2026/03/president-trumps-memphis-safe-task-force-delivers-crushing-blow-to-crime/
+
+## Varonis Atlas: Securing AI and the Data That Powers It
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-23T14:02:12Z
+- URL: https://www.bleepingcomputer.com/news/security/varonis-atlas-securing-ai-and-the-data-that-powers-it/
+
+AI agents can access data directly, making data security the foundation of AI security. Learn more about how Varonis Atlas helps orgs see, secure, and control AI systems and the data they can reach. [...]
+
+## Treasury Launches the Artificial Intelligence (AI) Innovation Series
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-03-23T13:45:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0421
 
 ## Microsoft Exchange Online service change causes email access issues
 - Source: BleepingComputer
@@ -545,14 +573,6 @@ Added products to the Security Updates table that document the various packaging
 - Published: 2026-03-20T12:20:12Z
 - URL: https://www.whitehouse.gov/articles/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/
 
-## Musician admits to $10M streaming royalty fraud using AI bots
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-20T09:33:33Z
-- URL: https://www.bleepingcomputer.com/news/security/musician-pleads-guilty-to-10m-streaming-fraud-powered-by-ai-bots/
-
-North Carolina musician Michael Smith has pleaded guilty to collecting over $10 million in royalty payments through a massive streaming royalty fraud scheme on Spotify, Apple Music, Amazon Music, and YouTube Music. [...]
-
 ## CVE-2026-23243 RDMA/umad: Reject negative data_len in ib_umad_write
 - Source: Microsoft MSRC
 - Category: IS
@@ -584,14 +604,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-46456
 
 Information published.
-
-## International joint action disrupts world’s largest DDoS botnets
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-20T08:05:12Z
-- URL: https://www.bleepingcomputer.com/news/security/aisuru-kimwolf-jackskid-and-mossad-botnets-disrupted-in-joint-action/
-
-Authorities from the United States, Germany, and Canada have taken down Command and Control (C2) infrastructure used by the Aisuru, KimWolf, JackSkid, and Mossad botnets to infect Internet of Things (IoT) devices. [...]
 
 ## CVE-2006-10003 XML::Parser versions through 2.47 for Perl has an off-by-one heap buffer overflow in st_serial_stack
 - Source: Microsoft MSRC
@@ -933,6 +945,24 @@ IR-2026-37, March 20, 2026 ― The Internal Revenue Service today announced that
 
 IR-2026-38, March 20, 2026 — The Internal Revenue Service reminds taxpayers who still need to file their 2025 federal tax returns that free options and resources are available on IRS.gov.
 
+## Warren Presses Trump Administration on Mounting Costs to American Families from President’s Illegal War with Iran
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-20T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-trump-administration-on-mounting-costs-to-american-families-from-presidents-illegal-war-with-iran
+
+## Scott Statement on Revised Basel III Endgame Proposal
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-20T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/scott-statement-on-revised-basel-iii-endgame-proposal
+
+## Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-20T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets
+
 ## Chairman Hill Statement on President Trump’s National AI Legislative Framework
 - Source: House Financial Services
 - Category: Legislative
@@ -953,11 +983,11 @@ Keeping the ACH Network safe—and constantly working to strengthen that securit
 - Published: 2026-03-20T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-refurbished-surface-pro-6-is-travel-friendly-and-on-sale-for-230/
 
-## Microsoft: March Windows updates break Teams, OneDrive sign-ins
+## Musician admits to $10M streaming royalty fraud using AI bots
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-20T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/kb5079473-march-windows-11-update-breaks-microsoft-account-sign-ins/
+- URL: https://www.bleepingcomputer.com/news/security/musician-pleads-guilty-to-10m-streaming-fraud-powered-by-ai-bots/
 
 ## Rules of Procedure; Correction
 - Source: Federal Register
@@ -1032,12 +1062,6 @@ Agencies request comment on proposals to modernize the regulatory capital framew
 - Category: Executive
 - Published: 2026-03-19T15:18:25Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trumps-fostering-the-future-together-assembles-leaders-from-45-nations-and-28-tech-entities/
-
-## Democrats admit their DHS shutdown is “making people hurt” as they stall negotiations with dangerous demands
-- Source: White House
-- Category: Executive
-- Published: 2026-03-19T14:25:53Z
-- URL: https://www.whitehouse.gov/articles/2026/03/democrats-admit-their-dhs-shutdown-is-making-people-hurt-as-they-stall-negotiations-with-dangerous-demands/
 
 ## CVE-2026-32169 Azure Cloud Shell Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -1378,24 +1402,6 @@ The federal bank regulatory agencies today requested comment on three proposals 
 - Category: Mortgage
 - Published: 2026-03-19T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/03/19/3259296/0/en/Average-30-Year-Fixed-Rate-Mortgage-at-6-22.html
-
-## Scott Statement on Revised Basel III Endgame Proposal
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-19T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/scott-statement-on-revised-basel-iii-endgame-proposal
-
-## Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-19T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets
-
-## Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-19T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets
 
 ## Task Force on Monetary Policy, Treasury Market Resilience, and Economic Prosperity Reviews the Treasury-Fed Accord
 - Source: House Financial Services

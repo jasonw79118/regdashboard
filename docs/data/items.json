@@ -1,9 +1,41 @@
 {
-  "window_start": "2026-03-09T12:19:07Z",
-  "window_end": "2026-03-23T12:19:07Z",
-  "generated_at_utc": "2026-03-23T12:19:07Z",
-  "generated_at_ct": "2026-03-23T07:19:07-05:00",
+  "window_start": "2026-03-09T18:24:18Z",
+  "window_end": "2026-03-23T18:24:18Z",
+  "generated_at_utc": "2026-03-23T18:24:18Z",
+  "generated_at_ct": "2026-03-23T13:24:18-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Trivy supply-chain attack spreads to Docker, GitHub repos",
+      "published_at": "2026-03-23T17:40:27Z",
+      "url": "https://www.bleepingcomputer.com/news/security/trivy-supply-chain-attack-spreads-to-docker-github-repos/",
+      "summary": "The TeamPCP hackers behind the Trivy supply-chain attack continued to target Aqua Security, pushing malicious Docker images and hijacking the company's GitHub organization to tamper with dozens of repositories. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump’s ‘Memphis Safe Task Force’ Delivers Crushing Blow to Crime",
+      "published_at": "2026-03-23T16:26:47Z",
+      "url": "https://www.whitehouse.gov/articles/2026/03/president-trumps-memphis-safe-task-force-delivers-crushing-blow-to-crime/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Varonis Atlas: Securing AI and the Data That Powers It",
+      "published_at": "2026-03-23T14:02:12Z",
+      "url": "https://www.bleepingcomputer.com/news/security/varonis-atlas-securing-ai-and-the-data-that-powers-it/",
+      "summary": "AI agents can access data directly, making data security the foundation of AI security. Learn more about how Varonis Atlas helps orgs see, secure, and control AI systems and the data they can reach. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "Treasury Launches the Artificial Intelligence (AI) Innovation Series",
+      "published_at": "2026-03-23T13:45:00Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0421",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -602,14 +634,6 @@
     },
     {
       "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Musician admits to $10M streaming royalty fraud using AI bots",
-      "published_at": "2026-03-20T09:33:33Z",
-      "url": "https://www.bleepingcomputer.com/news/security/musician-pleads-guilty-to-10m-streaming-fraud-powered-by-ai-bots/",
-      "summary": "North Carolina musician Michael Smith has pleaded guilty to collecting over $10 million in royalty payments through a massive streaming royalty fraud scheme on Spotify, Apple Music, Amazon Music, and YouTube Music. [...]"
-    },
-    {
-      "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2026-23243 RDMA/umad: Reject negative data_len in ib_umad_write",
       "published_at": "2026-03-20T08:40:04Z",
@@ -639,14 +663,6 @@
       "published_at": "2026-03-20T08:35:47Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-46456",
       "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "International joint action disrupts world’s largest DDoS botnets",
-      "published_at": "2026-03-20T08:05:12Z",
-      "url": "https://www.bleepingcomputer.com/news/security/aisuru-kimwolf-jackskid-and-mossad-botnets-disrupted-in-joint-action/",
-      "summary": "Authorities from the United States, Germany, and Canada have taken down Command and Control (C2) infrastructure used by the Aisuru, KimWolf, JackSkid, and Mossad botnets to infect Internet of Things (IoT) devices. [...]"
     },
     {
       "category": "IS",
@@ -994,6 +1010,30 @@
     },
     {
       "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Presses Trump Administration on Mounting Costs to American Families from President’s Illegal War with Iran",
+      "published_at": "2026-03-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-presses-trump-administration-on-mounting-costs-to-american-families-from-presidents-illegal-war-with-iran",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Scott Statement on Revised Basel III Endgame Proposal",
+      "published_at": "2026-03-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/majority/scott-statement-on-revised-basel-iii-endgame-proposal",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets",
+      "published_at": "2026-03-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
       "source": "House Financial Services",
       "title": "Chairman Hill Statement on President Trump’s National AI Legislative Framework",
       "published_at": "2026-03-20T00:00:00Z",
@@ -1019,9 +1059,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Microsoft: March Windows updates break Teams, OneDrive sign-ins",
+      "title": "Musician admits to $10M streaming royalty fraud using AI bots",
       "published_at": "2026-03-20T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/kb5079473-march-windows-11-update-breaks-microsoft-account-sign-ins/",
+      "url": "https://www.bleepingcomputer.com/news/security/musician-pleads-guilty-to-10m-streaming-fraud-powered-by-ai-bots/",
       "summary": ""
     },
     {
@@ -1130,14 +1170,6 @@
       "title": "First Lady Melania Trump’s Fostering the Future Together Assembles Leaders from 45 Nations and 28 Tech Entities",
       "published_at": "2026-03-19T15:18:25Z",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trumps-fostering-the-future-together-assembles-leaders-from-45-nations-and-28-tech-entities/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Democrats admit their DHS shutdown is “making people hurt” as they stall negotiations with dangerous demands",
-      "published_at": "2026-03-19T14:25:53Z",
-      "url": "https://www.whitehouse.gov/articles/2026/03/democrats-admit-their-dhs-shutdown-is-making-people-hurt-as-they-stall-negotiations-with-dangerous-demands/",
       "summary": ""
     },
     {
@@ -1490,30 +1522,6 @@
       "title": "Average 30-Year Fixed-Rate Mortgage at 6.22%",
       "published_at": "2026-03-19T00:00:00Z",
       "url": "https://www.globenewswire.com/news-release/2026/03/19/3259296/0/en/Average-30-Year-Fixed-Rate-Mortgage-at-6-22.html",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Scott Statement on Revised Basel III Endgame Proposal",
-      "published_at": "2026-03-19T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/scott-statement-on-revised-basel-iii-endgame-proposal",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets",
-      "published_at": "2026-03-19T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets",
-      "published_at": "2026-03-19T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets",
       "summary": ""
     },
     {
