@@ -1,9 +1,81 @@
 {
-  "window_start": "2026-03-09T18:24:18Z",
-  "window_end": "2026-03-23T18:24:18Z",
-  "generated_at_utc": "2026-03-23T18:24:18Z",
-  "generated_at_ct": "2026-03-23T13:24:18-05:00",
+  "window_start": "2026-03-10T12:01:10Z",
+  "window_end": "2026-03-24T12:01:10Z",
+  "generated_at_utc": "2026-03-24T12:01:10Z",
+  "generated_at_ct": "2026-03-24T07:01:10-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Dutch Ministry of Finance discloses breach affecting employees",
+      "published_at": "2026-03-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "This $80 refurbished Lenovo Chromebook acts as extra travel device",
+      "published_at": "2026-03-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-80-refurbished-lenovo-chromebook-acts-as-extra-travel-device/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "OpenAI rolls out ChatGPT Library to store your personal files",
+      "published_at": "2026-03-23T23:47:14Z",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/",
+      "summary": "OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows you to store your personal files or images on OpenAI's cloud storage, so you can reference those items in a future chat. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Mazda discloses security breach exposing employee and partner data",
+      "published_at": "2026-03-23T22:12:52Z",
+      "url": "https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/",
+      "summary": "Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exposed in a security incident detected last December. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Tycoon2FA phishing platform returns after recent police disruption",
+      "published_at": "2026-03-23T21:52:58Z",
+      "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/",
+      "summary": "The Tycoon2FA phishing-as-a-service (PhaaS) platform that Europol and partners disrupted on March 4 has already returned to previously observed activity levels. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-4438 gethostbyaddr and gethostbyaddr_r return invalid DNS hostnames",
+      "published_at": "2026-03-23T21:39:34Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4438",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-4437 gethostbyaddr and gethostbyaddr_r may incorrectly handle DNS response",
+      "published_at": "2026-03-23T21:39:29Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4437",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "TeamPCP deploys Iran-targeted wiper in Kubernetes attacks",
+      "published_at": "2026-03-23T20:09:10Z",
+      "url": "https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/",
+      "summary": "The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detects systems configured for Iran. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Crunchyroll probes breach after hacker claims to steal 6.8M users' data",
+      "published_at": "2026-03-23T19:21:04Z",
+      "url": "https://www.bleepingcomputer.com/news/security/crunchyroll-probes-breach-after-hacker-claims-to-steal-68m-users-data/",
+      "summary": "Popular anime streaming platform Crunchyroll is investigating a breach after hackers claimed to have stolen personal information for approximately 6.8 million people. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -253,6 +325,14 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
     },
     {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "IRS to host webinar on One, Big, Beautiful Bill business tax provisions tomorrow",
+      "published_at": "2026-03-23T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-to-host-webinar-on-one-big-beautiful-bill-business-tax-provisions-tomorrow",
+      "summary": "IR-2026-39, March 23, 2026 — The IRS invites tax professionals and business stakeholders to attend a webinar on Tuesday, March 24, 2026, at 2:00 p.m. Eastern. Tax professionals can earn two continuing education credits for attending the webinar titled: Understanding the One, Big, Beautiful Bill: Business Tax Provisions."
+    },
+    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Block ads and trackers on 9 devices for only $16 in this deal",
@@ -367,14 +447,6 @@
       "published_at": "2026-03-21T14:18:23Z",
       "url": "https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/",
       "summary": "Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified developers for power users in a more secure way. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft Azure Monitor alerts abused for callback phishing attacks",
-      "published_at": "2026-03-21T14:09:19Z",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/",
-      "summary": "Microsoft Azure Monitor alerts are being abused to send callback phishing emails that impersonate warnings from the Microsoft Security Team about unauthorized charges on your account. [...]"
     },
     {
       "category": "IS",
@@ -515,6 +587,14 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
+      "title": "Microsoft Azure Monitor alerts abused for callback phishing attacks",
+      "published_at": "2026-03-21T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
       "title": "Hide your location no matter where you are in this $67 VPN deal",
       "published_at": "2026-03-21T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/hide-your-location-no-matter-where-you-are-in-this-67-vpn-deal/",
@@ -529,14 +609,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "FBI links Signal phishing attacks to Russian intelligence services",
-      "published_at": "2026-03-20T20:45:52Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/",
-      "summary": "The FBI has issued a public service announcement warning that Russian intelligence-linked threat actors are actively targeting users of encrypted messaging apps such as Signal and WhatsApp in phishing campaigns that have already compromised thousands of accounts. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "Democrats’ DHS Shutdown Enters 35th Day as Airports Plunge into Chaos, Frontline Workers Suffer",
@@ -545,28 +617,12 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Oracle pushes emergency fix for critical Identity Manager RCE flaw",
-      "published_at": "2026-03-20T18:48:47Z",
-      "url": "https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/",
-      "summary": "Oracle has released an out-of-band security update to fix a critical unauthenticated remote code execution vulnerability in Identity Manager and Web Services Manager tracked as CVE-2026-21992. [...]"
-    },
-    {
       "category": "Executive",
       "source": "White House",
       "title": "Presidential Message on Nowruz",
       "published_at": "2026-03-20T18:29:44Z",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-nowruz/",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Police take down 373,000 fake CSAM sites in Operation Alice",
-      "published_at": "2026-03-20T17:19:02Z",
-      "url": "https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/",
-      "summary": "An international law enforcement action called Operation Alice has shut down over 373,000 dark web sites that offered fake CSAM packages. [...]"
     },
     {
       "category": "OFAC",
@@ -585,14 +641,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "CISA orders feds to patch max-severity Cisco flaw by Sunday",
-      "published_at": "2026-03-20T15:09:12Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-cisco-flaw-by-sunday/",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity vulnerability, CVE-2026-20131, in Cisco Secure Firewall Management Center (FMC) by Sunday, March 22. [...]"
-    },
-    {
       "category": "Banking",
       "source": "FRB",
       "title": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
@@ -601,12 +649,12 @@
       "summary": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "How CISOs Can Survive the Era of Geopolitical Cyberattacks",
-      "published_at": "2026-03-20T14:01:11Z",
-      "url": "https://www.bleepingcomputer.com/news/security/how-cisos-can-survive-the-era-of-geopolitical-cyberattacks/",
-      "summary": "Geopolitical tensions are driving destructive cyberattacks designed to disrupt operations, not demand ransom. CISOs must limit lateral movement and contain breaches to reduce the impact of wiper campaigns. [...]"
+      "category": "Compliance Watch",
+      "source": "TBA",
+      "title": "White House provides AI policy framework",
+      "published_at": "2026-03-20T15:00:00Z",
+      "url": "https://www.texasbankers.com/white-house-provides-ai-policy-framework/",
+      "summary": "The White House released a national policy framework urging Congress to take several actions to ensure the safe deployment of artificial intelligence, including supporting law enforcement efforts to combat fraud and scams and passing federal laws to prevent states from regulating the technology. The three-page document has seven sections: The post White House provides AI polic…"
     },
     {
       "category": "IS",
@@ -1047,22 +1095,6 @@
       "published_at": "2026-03-20T00:00:00Z",
       "url": "https://www.nacha.org/news/new-nacha-risk-management-rules-now-effect",
       "summary": "Keeping the ACH Network safe—and constantly working to strengthen that security—is always top of mind for Nacha. Today, March 20, 2026, marks a milestone in those efforts as a major phase of new Nacha Rules on risk management and transaction monitoring is now in effect, with the next phase right behind in June."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "This refurbished Surface Pro 6 is travel-friendly and on sale for $230",
-      "published_at": "2026-03-20T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-refurbished-surface-pro-6-is-travel-friendly-and-on-sale-for-230/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Musician admits to $10M streaming royalty fraud using AI bots",
-      "published_at": "2026-03-20T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/musician-pleads-guilty-to-10m-streaming-fraud-powered-by-ai-bots/",
-      "summary": ""
     },
     {
       "category": "Federal Register",
@@ -4803,134 +4835,6 @@
       "published_at": "2026-03-10T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26144",
       "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office Excel allows an unauthorized attacker to disclose information over a network."
-    },
-    {
-      "category": "FinCEN",
-      "source": "FinCEN",
-      "title": "FinCEN Issues Expanded Southwest Border Geographic Targeting Order",
-      "published_at": "2026-03-10T12:00:00Z",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-expanded-southwest-border-geographic-targeting-order",
-      "summary": "WASHINGTON—The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) has issued an expanded Geographic Targeting Order (GTO) to help law enforcement combat the illicit activities and money laundering of Mexico-based cartels and other criminal actors along the southwest border of the United States."
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "Finastra",
-      "title": "Finastra partners with FraudAverse to deliver AI-powered, real-time fraud prevention for global payments",
-      "published_at": "2026-03-10T12:00:00Z",
-      "url": "https://www.finastra.com/press-media/finastra-partners-fraudaverse-deliver-ai-powered-real-time-fraud-prevention-global",
-      "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026",
-      "published_at": "2026-03-10T10:00:18Z",
-      "url": "https://www.cdiaonline.org/events/2026/03/10/first-look-women-in-consumer-data-leadership-forum-at-cdia-connect-2026/",
-      "summary": "This Women’s History Month, we’re highlighting the Women in Consumer Data forum—an empowering opportunity for women across the consumer data industry to connect, share... The post First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026 appeared first on CDIA ."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2025-14524 bearer token leak on cross-protocol redirect",
-      "published_at": "2026-03-10T08:38:55Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-14524",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2025-10966 missing SFTP host verification with wolfSSH",
-      "published_at": "2026-03-10T08:37:28Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-10966",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-28422 Vim has stack-buffer-overflow in build_stl_str_hl()",
-      "published_at": "2026-03-10T08:37:19Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28422",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-28421 Vim has a heap-buffer-overflow and a segmentation fault",
-      "published_at": "2026-03-10T08:37:08Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28421",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-28420 Vim has Heap-based Buffer Overflow and OOB Read in :terminal",
-      "published_at": "2026-03-10T08:36:59Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28420",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-28419 Vim has Heap-based Buffer Underflow in Emacs tags parsing",
-      "published_at": "2026-03-10T08:36:50Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28419",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-28418 Vim has Heap-based Buffer Overflow in Emacs tags parsing",
-      "published_at": "2026-03-10T08:36:41Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28418",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-28417 Vim has OS Command Injection in netrw",
-      "published_at": "2026-03-10T08:36:31Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28417",
-      "summary": "Information published."
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "FIS",
-      "title": "FIS to Present at Upcoming Conference",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25",
-      "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "Education Services",
-      "published_at": "2026-03-10T00:00:00Z",
-      "url": "https://www.cdiaonline.org/education-services/",
-      "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "FRB",
-      "title": "Federal Reserve Board announces approval of notice by CBS Banc-Corp.",
-      "published_at": "2026-03-09T20:45:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260309a.htm",
-      "summary": "Federal Reserve Board announces approval of notice by CBS Banc-Corp."
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Nominations Sent to the Senate",
-      "published_at": "2026-03-09T19:44:18Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-623c/",
-      "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "TBA",
-      "title": "Trump signs executive order to fight cybercrime",
-      "published_at": "2026-03-09T18:59:35Z",
-      "url": "https://www.texasbankers.com/trump-signs-executive-order-to-fight-cybercrime/",
-      "summary": "President Donald Trump signed an executive order directing federal law enforcement to expand tools for combating transnational criminal organizations behind cyber scams and fraud, while creating a pathway for returning seized funds to victims. The action came alongside the publication of the White House’s National Cyber Strategy. According to the administration, U.S. consumers…"
     }
   ]
 }

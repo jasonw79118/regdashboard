@@ -1,5 +1,66 @@
 IS
 BleepingComputer
+2026-03-24T00:00:00Z
+Dutch Ministry of Finance discloses breach affecting employees
+https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-24T00:00:00Z
+This $80 refurbished Lenovo Chromebook acts as extra travel device
+https://www.bleepingcomputer.com/offer/deals/this-80-refurbished-lenovo-chromebook-acts-as-extra-travel-device/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-23T23:47:14Z
+OpenAI rolls out ChatGPT Library to store your personal files
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/
+OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows you to store your personal files or images on OpenAI's cloud storage, so you can reference those items in a future chat. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-23T22:12:52Z
+Mazda discloses security breach exposing employee and partner data
+https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/
+Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exposed in a security incident detected last December. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-23T21:52:58Z
+Tycoon2FA phishing platform returns after recent police disruption
+https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/
+The Tycoon2FA phishing-as-a-service (PhaaS) platform that Europol and partners disrupted on March 4 has already returned to previously observed activity levels. [...]
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-23T21:39:34Z
+CVE-2026-4438 gethostbyaddr and gethostbyaddr_r return invalid DNS hostnames
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4438
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-03-23T21:39:29Z
+CVE-2026-4437 gethostbyaddr and gethostbyaddr_r may incorrectly handle DNS response
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4437
+Information published.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-23T20:09:10Z
+TeamPCP deploys Iran-targeted wiper in Kubernetes attacks
+https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/
+The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detects systems configured for Iran. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-23T19:21:04Z
+Crunchyroll probes breach after hacker claims to steal 6.8M users' data
+https://www.bleepingcomputer.com/news/security/crunchyroll-probes-breach-after-hacker-claims-to-steal-68m-users-data/
+Popular anime streaming platform Crunchyroll is investigating a breach after hackers claimed to have stolen personal information for approximately 6.8 million people. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-03-23T17:40:27Z
 Trivy supply-chain attack spreads to Docker, GitHub repos
 https://www.bleepingcomputer.com/news/security/trivy-supply-chain-attack-spreads-to-docker-github-repos/
@@ -213,6 +274,13 @@ Chromium: CVE-2026-4440 Out of bounds read and write in WebGL
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4440
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
 ------------------------------------------------------------
+IRS
+IRS
+2026-03-23T00:00:00Z
+IRS to host webinar on One, Big, Beautiful Bill business tax provisions tomorrow
+https://www.irs.gov/newsroom/irs-to-host-webinar-on-one-big-beautiful-bill-business-tax-provisions-tomorrow
+IR-2026-39, March 23, 2026 — The IRS invites tax professionals and business stakeholders to attend a webinar on Tuesday, March 24, 2026, at 2:00 p.m. Eastern. Tax professionals can earn two continuing education credits for attending the webinar titled: Understanding the One, Big, Beautiful Bill: Business Tax Provisions.
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-23T00:00:00Z
@@ -284,13 +352,6 @@ BleepingComputer
 Google adds ‘Advanced Flow’ for safe APK sideloading on Android
 https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/
 Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified developers for power users in a more secure way. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-21T14:09:19Z
-Microsoft Azure Monitor alerts abused for callback phishing attacks
-https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/
-Microsoft Azure Monitor alerts are being abused to send callback phishing emails that impersonate warnings from the Microsoft Security Team about unauthorized charges on your account. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -414,6 +475,12 @@ Information published.
 IS
 BleepingComputer
 2026-03-21T00:00:00Z
+Microsoft Azure Monitor alerts abused for callback phishing attacks
+https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-21T00:00:00Z
 Hide your location no matter where you are in this $67 VPN deal
 https://www.bleepingcomputer.com/offer/deals/hide-your-location-no-matter-where-you-are-in-this-67-vpn-deal/
 ------------------------------------------------------------
@@ -423,38 +490,17 @@ White House
 Congressional Bill S. 4138 Signed into Law
 https://www.whitehouse.gov/briefings-statements/2026/03/congressional-bill-s-4138-signed-into-law/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-20T20:45:52Z
-FBI links Signal phishing attacks to Russian intelligence services
-https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/
-The FBI has issued a public service announcement warning that Russian intelligence-linked threat actors are actively targeting users of encrypted messaging apps such as Signal and WhatsApp in phishing campaigns that have already compromised thousands of accounts. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-03-20T20:11:27Z
 Democrats’ DHS Shutdown Enters 35th Day as Airports Plunge into Chaos, Frontline Workers Suffer
 https://www.whitehouse.gov/articles/2026/03/democrats-dhs-shutdown-enters-35th-day-as-airports-plunge-into-chaos-frontline-workers-suffer/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-20T18:48:47Z
-Oracle pushes emergency fix for critical Identity Manager RCE flaw
-https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/
-Oracle has released an out-of-band security update to fix a critical unauthenticated remote code execution vulnerability in Identity Manager and Web Services Manager tracked as CVE-2026-21992. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-03-20T18:29:44Z
 Presidential Message on Nowruz
 https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-nowruz/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-20T17:19:02Z
-Police take down 373,000 fake CSAM sites in Operation Alice
-https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/
-An international law enforcement action called Operation Alice has shut down over 373,000 dark web sites that offered fake CSAM packages. [...]
 ------------------------------------------------------------
 OFAC
 Treasury
@@ -468,13 +514,6 @@ White House
 Preserving America’s Game
 https://www.whitehouse.gov/presidential-actions/2026/03/preserving-americas-game/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-20T15:09:12Z
-CISA orders feds to patch max-severity Cisco flaw by Sunday
-https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-cisco-flaw-by-sunday/
-The Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity vulnerability, CVE-2026-20131, in Cisco Secure Firewall Management Center (FMC) by Sunday, March 22. [...]
-------------------------------------------------------------
 Banking
 FRB
 2026-03-20T15:00:00Z
@@ -482,12 +521,12 @@ Federal Reserve Board issues enforcement actions with former employee of Ally Ba
 https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260320a.htm
 Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-20T14:01:11Z
-How CISOs Can Survive the Era of Geopolitical Cyberattacks
-https://www.bleepingcomputer.com/news/security/how-cisos-can-survive-the-era-of-geopolitical-cyberattacks/
-Geopolitical tensions are driving destructive cyberattacks designed to disrupt operations, not demand ransom. CISOs must limit lateral movement and contain breaches to reduce the impact of wiper campaigns. [...]
+Compliance Watch
+TBA
+2026-03-20T15:00:00Z
+White House provides AI policy framework
+https://www.texasbankers.com/white-house-provides-ai-policy-framework/
+The White House released a national policy framework urging Congress to take several actions to ensure the safe deployment of artificial intelligence, including supporting law enforcement efforts to combat fraud and scams and passing federal laws to prevent states from regulating the technology. The three-page document has seven sections: The post White House provides AI polic…
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -865,18 +904,6 @@ NACHA
 New Nacha Risk Management Rules Now in Effect
 https://www.nacha.org/news/new-nacha-risk-management-rules-now-effect
 Keeping the ACH Network safe—and constantly working to strengthen that security—is always top of mind for Nacha. Today, March 20, 2026, marks a milestone in those efforts as a major phase of new Nacha Rules on risk management and transaction monitoring is now in effect, with the next phase right behind in June.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-20T00:00:00Z
-This refurbished Surface Pro 6 is travel-friendly and on sale for $230
-https://www.bleepingcomputer.com/offer/deals/this-refurbished-surface-pro-6-is-travel-friendly-and-on-sale-for-230/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-20T00:00:00Z
-Musician admits to $10M streaming royalty fraud using AI bots
-https://www.bleepingcomputer.com/news/security/musician-pleads-guilty-to-10m-streaming-fraud-powered-by-ai-bots/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -3864,112 +3891,4 @@ Microsoft MSRC
 CVE-2026-26144 Microsoft Excel Information Disclosure Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26144
 Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office Excel allows an unauthorized attacker to disclose information over a network.
-------------------------------------------------------------
-FinCEN
-FinCEN
-2026-03-10T12:00:00Z
-FinCEN Issues Expanded Southwest Border Geographic Targeting Order
-https://www.fincen.gov/news/news-releases/fincen-issues-expanded-southwest-border-geographic-targeting-order
-WASHINGTON—The U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) has issued an expanded Geographic Targeting Order (GTO) to help law enforcement combat the illicit activities and money laundering of Mexico-based cartels and other criminal actors along the southwest border of the United States.
-------------------------------------------------------------
-Fintech Watch
-Finastra
-2026-03-10T12:00:00Z
-Finastra partners with FraudAverse to deliver AI-powered, real-time fraud prevention for global payments
-https://www.finastra.com/press-media/finastra-partners-fraudaverse-deliver-ai-powered-real-time-fraud-prevention-global
-------------------------------------------------------------
-Compliance Watch
-CDIA
-2026-03-10T10:00:18Z
-First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026
-https://www.cdiaonline.org/events/2026/03/10/first-look-women-in-consumer-data-leadership-forum-at-cdia-connect-2026/
-This Women’s History Month, we’re highlighting the Women in Consumer Data forum—an empowering opportunity for women across the consumer data industry to connect, share... The post First Look: Women in Consumer Data Leadership Forum at CDIA Connect 2026 appeared first on CDIA .
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T08:38:55Z
-CVE-2025-14524 bearer token leak on cross-protocol redirect
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-14524
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T08:37:28Z
-CVE-2025-10966 missing SFTP host verification with wolfSSH
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-10966
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T08:37:19Z
-CVE-2026-28422 Vim has stack-buffer-overflow in build_stl_str_hl()
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28422
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T08:37:08Z
-CVE-2026-28421 Vim has a heap-buffer-overflow and a segmentation fault
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28421
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T08:36:59Z
-CVE-2026-28420 Vim has Heap-based Buffer Overflow and OOB Read in :terminal
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28420
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T08:36:50Z
-CVE-2026-28419 Vim has Heap-based Buffer Underflow in Emacs tags parsing
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28419
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T08:36:41Z
-CVE-2026-28418 Vim has Heap-based Buffer Overflow in Emacs tags parsing
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28418
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-10T08:36:31Z
-CVE-2026-28417 Vim has OS Command Injection in netrw
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28417
-Information published.
-------------------------------------------------------------
-Fintech Watch
-FIS
-2026-03-10T00:00:00Z
-FIS to Present at Upcoming Conference
-https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-25
-------------------------------------------------------------
-Compliance Watch
-CDIA
-2026-03-10T00:00:00Z
-Education Services
-https://www.cdiaonline.org/education-services/
-------------------------------------------------------------
-Banking
-FRB
-2026-03-09T20:45:00Z
-Federal Reserve Board announces approval of notice by CBS Banc-Corp.
-https://www.federalreserve.gov/newsevents/pressreleases/orders20260309a.htm
-Federal Reserve Board announces approval of notice by CBS Banc-Corp.
-------------------------------------------------------------
-Executive
-White House
-2026-03-09T19:44:18Z
-Nominations Sent to the Senate
-https://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-623c/
-------------------------------------------------------------
-Compliance Watch
-TBA
-2026-03-09T18:59:35Z
-Trump signs executive order to fight cybercrime
-https://www.texasbankers.com/trump-signs-executive-order-to-fight-cybercrime/
-President Donald Trump signed an executive order directing federal law enforcement to expand tools for combating transnational criminal organizations behind cyber scams and fraud, while creating a pathway for returning seized funds to victims. The action came alongside the publication of the White House’s National Cyber Strategy. According to the administration, U.S. consumers…
 ------------------------------------------------------------
