@@ -1,13 +1,59 @@
 # RegDashboard — Export
 
-Window: `2026-03-10T12:01:10Z` → `2026-03-24T12:01:10Z` (UTC)
-Last updated: `2026-03-24T07:01:10-05:00` (CT) — `2026-03-24T12:01:10Z` (UTC)
+Window: `2026-03-10T14:13:59Z` → `2026-03-24T14:13:59Z` (UTC)
+Last updated: `2026-03-24T09:13:59-05:00` (CT) — `2026-03-24T14:13:59Z` (UTC)
+
+## Zero Trust: Bridging the Gap Between Authentication and Trust
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T14:02:12Z
+- URL: https://www.bleepingcomputer.com/news/security/zero-trust-bridging-the-gap-between-authentication-and-trust/
+
+Passing MFA doesn't mean a session is safe, attackers can hijack tokens and bypass identity checks. Specops Software explains why Zero Trust must verify both user identity and device health. [...]
+
+## HackerOne discloses employee data breach after Navia hack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T14:01:02Z
+- URL: https://www.bleepingcomputer.com/news/security/hackerone-discloses-employee-data-breach-after-navia-hack/
+
+Bug bounty platform HackerOne is notifying hundreds of employees that their data was stolen after attackers hacked Navia, one of its U.S. benefits administrators. [...]
+
+## Infinite Campus warns of breach after ShinyHunters claims data theft
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T13:48:38Z
+- URL: https://www.bleepingcomputer.com/news/security/infinite-campus-warns-of-breach-after-shinyhunters-claims-data-theft/
+
+Infinite Campus, a widely used K-12 student information system, is warning customers of a data breach following an extortion attempt by a threat actor. [...]
+
+## Yanluowang ransomware access broker gets 81 months in prison
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T13:06:03Z
+- URL: https://www.bleepingcomputer.com/news/security/yanluowang-ransomware-access-broker-gets-81-months-in-prison/
+
+A Russian national was sentenced to nearly 7 years in prison after pleading guilty to acting as an initial access broker (IAB) for Yanluowang ransomware attacks. [...]
 
 ## Dutch Ministry of Finance discloses breach affecting employees
 - Source: BleepingComputer
 - Category: IS
-- Published: 2026-03-24T00:00:00Z
+- Published: 2026-03-24T12:03:08Z
 - URL: https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/
+
+The Dutch Ministry of Finance confirmed on Monday that some of its systems were breached in a cyberattack detected last week. [...]
+
+## FIS Launches New Cleared Derivatives Solution for Prediction Markets
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-new-cleared-derivatives-solution-prediction-markets
+
+## FM BANK and Quoin Financial Bank Select Jack Henry to Elevate Service
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-03-24T00:00:00Z
+- URL: https://ir.jackhenry.com/news-releases/news-release-details/fm-bank-and-quoin-financial-bank-select-jack-henry-elevate
 
 ## This $80 refurbished Lenovo Chromebook acts as extra travel device
 - Source: BleepingComputer
@@ -71,6 +117,12 @@ The TeamPCP hacking group is targeting Kubernetes clusters with a malicious scri
 
 Popular anime streaming platform Crunchyroll is investigating a breach after hackers claimed to have stolen personal information for approximately 6.8 million people. [...]
 
+## Presidential Message on the Anniversary of Patrick Henry’s “Give Me Liberty, Or Give Me Death!” Speech
+- Source: White House
+- Category: Executive
+- Published: 2026-03-23T19:00:00Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-the-anniversary-of-patrick-henrys-give-me-liberty-or-give-me-death-speech/
+
 ## Trivy supply-chain attack spreads to Docker, GitHub repos
 - Source: BleepingComputer
 - Category: IS
@@ -122,14 +174,6 @@ The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Ira
 - URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/
 
 CISA ordered U.S. government agencies to patch three iOS vulnerabilities targeted in cryptocurrency theft and cyberespionage attacks using the DarkSword exploit kit. [...]
-
-## New KB5085516 emergency update fixes Microsoft account sign-in
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T08:04:30Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/
-
-Microsoft has released an emergency update to address a major issue that breaks sign-ins with Microsoft accounts across multiple Microsoft apps, including Teams and OneDrive. [...]
 
 ## CVE-2026-3381 Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
 - Source: Microsoft MSRC
@@ -329,6 +373,12 @@ IR-2026-39, March 23, 2026 — The IRS invites tax professionals and business st
 - Published: 2026-03-23T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-only-16-in-this-deal/
 
+## New KB5085516 emergency update fixes Microsoft account sign-in
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-23T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/
+
 ## Metro 2® Webinars
 - Source: CDIA
 - Category: Compliance Watch
@@ -374,32 +424,14 @@ The Federal Deposit Insurance Corporation (FDIC) is taking final action to resci
 ## VoidStealer malware steals Chrome master key via debugger trick
 - Source: BleepingComputer
 - Category: IS
-- Published: 2026-03-22T14:32:46Z
+- Published: 2026-03-22T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/
-
-An information stealer called VoidStealer uses a new approach to bypass Chrome's Application-Bound Encryption (ABE) and extract the master key for decrypting sensitive data stored in the browser. [...]
 
 ## This $83 refurbished Acer Chromebook deal is great as a backup
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-22T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-83-refurbished-acer-chromebook-deal-is-great-as-a-backup/
-
-## Trivy vulnerability scanner breach pushed infostealer via GitHub Actions
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-21T17:30:41Z
-- URL: https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/
-
-The Trivy vulnerability scanner was compromised in a supply-chain attack by threat actors known as TeamPCP, which distributed credential-stealing malware through official releases and GitHub Actions. [...]
-
-## Google adds ‘Advanced Flow’ for safe APK sideloading on Android
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-21T14:18:23Z
-- URL: https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/
-
-Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified developers for power users in a more secure way. [...]
 
 ## CVE-2026-27135 nghttp2 Denial of service: Assertion failure due to the missing state validation
 - Source: Microsoft MSRC
@@ -536,18 +568,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23204
 
 Information published.
-
-## Microsoft Azure Monitor alerts abused for callback phishing attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-21T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/
-
-## Hide your location no matter where you are in this $67 VPN deal
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-21T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/hide-your-location-no-matter-where-you-are-in-this-67-vpn-deal/
 
 ## Congressional Bill S. 4138 Signed into Law
 - Source: White House
@@ -1086,12 +1106,6 @@ BOARD MEETING | MARCH 19, 2026 FDIC Board of Directors Meeting Today, the Federa
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260319a.htm
 
 Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system
-
-## First Lady Melania Trump’s Fostering the Future Together Assembles Leaders from 45 Nations and 28 Tech Entities
-- Source: White House
-- Category: Executive
-- Published: 2026-03-19T15:18:25Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trumps-fostering-the-future-together-assembles-leaders-from-45-nations-and-28-tech-entities/
 
 ## CVE-2026-32169 Azure Cloud Shell Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -3668,579 +3682,3 @@ On April 24, 2024, the NCUA Board (Board) published an advance notice of propose
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260310a.htm
 
 Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard Chartered Bank
-
-## CVE-2026-21262 SQL Server Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21262
-
-Improper access control in SQL Server allows an authorized attacker to elevate privileges over a network.
-
-## CVE-2026-23660 Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23660
-
-Improper access control in Azure Portal Windows Admin Center allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-23664 Azure IoT Explorer Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23664
-
-Improper restriction of communication channel to intended endpoints in Azure IoT Explorer allows an unauthorized attacker to disclose information over a network.
-
-## CVE-2026-23667 Broadcast DVR Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23667
-
-Use after free in Broadcast DVR allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-23668 Windows Graphics Component Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23668
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-23669 Windows Print Spooler Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23669
-
-Use after free in Windows Print Spooler Components allows an authorized attacker to execute code over a network.
-
-## CVE-2026-23671 Windows Bluetooth RFCOM Protocol Driver Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23671
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Bluetooth RFCOM Protocol Driver allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-23672 Windows Universal Disk Format File System Driver (UDFS) Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23672
-
-Information published.
-
-## CVE-2026-23673 Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23673
-
-Out-of-bounds read in Windows Resilient File System (ReFS) allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24282 Push message Routing Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24282
-
-Out-of-bounds read in Push Message Routing Service allows an authorized attacker to disclose information locally.
-
-## CVE-2026-24283 Multiple UNC Provider Kernel Driver Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24283
-
-Heap-based buffer overflow in Windows File Server allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24285 Win32k Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24285
-
-Use after free in Windows Win32K allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24287 Windows Kernel Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24287
-
-External control of file name or path in Windows Kernel allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24288 Windows Mobile Broadband Driver Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24288
-
-Heap-based buffer overflow in Windows Mobile Broadband allows an unauthorized attacker to execute code with a physical attack.
-
-## CVE-2026-24289 Windows Kernel Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24289
-
-Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24290 Windows Projected File System Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24290
-
-Improper access control in Windows Projected File System allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24291 Windows Accessibility Infrastructure (ATBroker.exe) Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24291
-
-Incorrect permission assignment for critical resource in Windows Accessibility Infrastructure (ATBroker.exe) allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24292 Windows Connected Devices Platform Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24292
-
-Use after free in Connected Devices Platform Service (Cdpsvc) allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24294 Windows SMB Server Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24294
-
-Improper authentication in Windows SMB Server allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24295 Windows Device Association Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24295
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Device Association Service allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24296 Windows Device Association Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24296
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Device Association Service allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-24297 Windows Kerberos Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24297
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Kerberos allows an unauthorized attacker to bypass a security feature over a network.
-
-## CVE-2026-25165 Performance Counters for Windows Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25165
-
-Null pointer dereference in Windows Performance Counters allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25166 Windows System Image Manager Assessment and Deployment Kit (ADK) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25166
-
-Deserialization of untrusted data in Windows System Image Manager allows an authorized attacker to execute code locally.
-
-## CVE-2026-25167 Microsoft Brokering File System Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25167
-
-Use after free in Microsoft Brokering File System allows an unauthorized attacker to elevate privileges locally.
-
-## CVE-2026-25168 Windows Graphics Component Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25168
-
-Null pointer dereference in Microsoft Graphics Component allows an unauthorized attacker to deny service locally.
-
-## CVE-2026-25169 Windows Graphics Component Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25169
-
-Divide by zero in Microsoft Graphics Component allows an unauthorized attacker to deny service locally.
-
-## CVE-2026-25170 Windows Hyper-V Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25170
-
-Use after free in Windows Hyper-V allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25171 Windows Authentication Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25171
-
-Use after free in Windows Authentication Methods allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25174 Windows Extensible File Allocation Table Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25174
-
-Out-of-bounds read in Windows Extensible File Allocation allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25175 Windows NTFS Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25175
-
-Out-of-bounds read in Windows NTFS allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25176 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25176
-
-Improper access control in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25177 Active Directory Domain Services Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25177
-
-Improper restriction of names for files and other resources in Active Directory Domain Services allows an authorized attacker to elevate privileges over a network.
-
-## CVE-2026-25178 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25178
-
-Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25179 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25179
-
-Improper validation of specified type of input in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25180 Windows Graphics Component Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25180
-
-Out-of-bounds read in Microsoft Graphics Component allows an unauthorized attacker to disclose information locally.
-
-## CVE-2026-25181 GDI+ Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25181
-
-Out-of-bounds read in Windows GDI+ allows an unauthorized attacker to disclose information over a network.
-
-## CVE-2026-25185 Windows Shell Link Processing Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25185
-
-Exposure of sensitive information to an unauthorized actor in Windows Shell Link Processing allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-25186 Windows Accessibility Infrastructure (ATBroker.exe) Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25186
-
-Exposure of sensitive information to an unauthorized actor in Windows Accessibility Infrastructure (ATBroker.exe) allows an authorized attacker to disclose information locally.
-
-## CVE-2026-25187 Winlogon Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25187
-
-Improper link resolution before file access ('link following') in Winlogon allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25188 Windows Telephony Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25188
-
-Heap-based buffer overflow in Windows Telephony Service allows an unauthorized attacker to elevate privileges over an adjacent network.
-
-## CVE-2026-25189 Windows DWM Core Library Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25189
-
-Use after free in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-25190 GDI Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25190
-
-Untrusted search path in Windows GDI allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-26105 Microsoft SharePoint Server Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26105
-
-Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-26112 Microsoft Excel Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26112
-
-Untrusted pointer dereference in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-26113 Microsoft Office Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26113
-
-Untrusted pointer dereference in Microsoft Office allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-26114 Microsoft SharePoint Server Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26114
-
-Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
-
-## CVE-2026-23656 Windows App Installer Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23656
-
-Insufficient verification of data authenticity in Windows App Installer allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-20967 System Center Operations Manager (SCOM) Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20967
-
-Improper input validation in System Center Operations Manager allows an authorized attacker to elevate privileges over a network.
-
-## CVE-2026-26121 Azure IOT Explorer Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26121
-
-Server-side request forgery (ssrf) in Azure IoT Explorer allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-26115 SQL Server Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26115
-
-Improper validation of specified type of input in SQL Server allows an authorized attacker to elevate privileges over a network.
-
-## CVE-2026-26116 SQL Server Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26116
-
-Improper neutralization of special elements used in an sql command ('sql injection') in SQL Server allows an authorized attacker to elevate privileges over a network.
-
-## CVE-2026-26128 Windows SMB Server Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26128
-
-Improper authentication in Windows SMB Server allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-26131 .NET Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26131
-
-Incorrect default permissions in .NET allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-26132 Windows Kernel Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26132
-
-Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-26134 Microsoft Office Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26134
-
-Integer overflow or wraparound in Microsoft Office allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-26127 .NET Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26127
-
-Out-of-bounds read in .NET allows an unauthorized attacker to deny service over a network.
-
-## CVE-2026-23674 MapUrlToZone Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23674
-
-Improper resolution of path equivalence in Windows MapUrlToZone allows an unauthorized attacker to bypass a security feature over a network.
-
-## CVE-2026-23654 GitHub: Zero Shot SCFoundation Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23654
-
-Dependency on vulnerable third-party component in GitHub Repo: zero-shot-scfoundation allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-23661 Azure IoT Explorer Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23661
-
-Cleartext transmission of sensitive information in Azure IoT Explorer allows an unauthorized attacker to disclose information over a network.
-
-## CVE-2026-23662 Azure IoT Explorer Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23662
-
-Missing authentication for critical function in Azure IoT Explorer allows an unauthorized attacker to disclose information over a network.
-
-## CVE-2026-23665 Linux Azure Diagnostic extension (LAD) Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23665
-
-Heap-based buffer overflow in Azure Linux Virtual Machines allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-26106 Microsoft SharePoint Server Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26106
-
-Improper input validation in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
-
-## CVE-2026-26107 Microsoft Excel Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26107
-
-Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-26108 Microsoft Excel Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26108
-
-Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-26109 Microsoft Excel Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26109
-
-Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-26110 Microsoft Office Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26110
-
-Access of resource using incompatible type ('type confusion') in Microsoft Office allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-26117 Arc Enabled Servers - Azure Connected Machine Agent Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26117
-
-Authentication bypass using an alternate path or channel in Azure Windows Virtual Machine Agent allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-26123 Microsoft Authenticator Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26123
-
-Cwe is not in rca categories in Microsoft Authenticator allows an unauthorized attacker to disclose information locally.
-
-## CVE-2026-26130 ASP.NET Core Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26130
-
-Allocation of resources without limits or throttling in ASP.NET Core allows an unauthorized attacker to deny service over a network.
-
-## CVE-2026-26141 Hybrid Worker Extension (Arc‑enabled Windows VMs) Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26141
-
-Improper authentication in Azure Arc allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-26144 Microsoft Excel Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-10T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26144
-
-Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office Excel allows an unauthorized attacker to disclose information over a network.
