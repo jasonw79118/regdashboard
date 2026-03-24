@@ -1,9 +1,33 @@
 {
-  "window_start": "2026-03-10T16:03:58Z",
-  "window_end": "2026-03-24T16:03:58Z",
-  "generated_at_utc": "2026-03-24T16:03:58Z",
-  "generated_at_ct": "2026-03-24T11:03:58-05:00",
+  "window_start": "2026-03-10T18:59:19Z",
+  "window_end": "2026-03-24T18:59:19Z",
+  "generated_at_utc": "2026-03-24T18:59:19Z",
+  "generated_at_ct": "2026-03-24T13:59:19-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Firefox now has a free built-in VPN with 50GB monthly data limit",
+      "published_at": "2026-03-24T17:23:01Z",
+      "url": "https://www.bleepingcomputer.com/news/security/firefox-now-has-a-free-built-in-vpn-with-50gb-monthly-data-limit/",
+      "summary": "Mozilla released Firefox 149 with added privacy protection through a built-in VPN tool offering up to 50GB of monthly traffic. [...]"
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "CDIA",
+      "title": "Calling all data furnishers: explore the sessions designed just for you at CDIA Connect 2026!",
+      "published_at": "2026-03-24T16:48:08Z",
+      "url": "https://www.cdiaonline.org/events/2026/03/24/calling-all-data-furnishers-explore-the-sessions-designed-just-for-you-at-cdia-connect-2026/",
+      "summary": "Here’s what you can expect for this year’s Data Furnisher Track: Credit Integrity Under Fire: Combatting Washing, Disputes, and Fraud Hear from... The post Calling all data furnishers: explore the sessions designed just for you at CDIA Connect 2026! appeared first on CDIA ."
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "First Lady Melania Trump Launches Fostering the Future Together, 45 Member Nations Attend the Inaugural Coalition Summit",
+      "published_at": "2026-03-24T16:21:59Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-launches-fostering-the-future-together-45-member-nations-attend-the-inaugural-coalition-summit/",
+      "summary": ""
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -30,6 +54,14 @@
     },
     {
       "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-23669 RPC Runtime Library Remote Code Execution Vulnerability",
+      "published_at": "2026-03-24T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23669",
+      "summary": "Corrected CVE title. This is an informational change only."
+    },
+    {
+      "category": "IS",
       "source": "BleepingComputer",
       "title": "Infinite Campus warns of breach after ShinyHunters claims data theft",
       "published_at": "2026-03-24T13:48:38Z",
@@ -51,6 +83,14 @@
       "published_at": "2026-03-24T12:03:08Z",
       "url": "https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/",
       "summary": "The Dutch Ministry of Finance confirmed on Monday that some of its systems were breached in a cyberattack detected last week. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Issuance of Venezuela-related General License",
+      "published_at": "2026-03-24T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260324",
+      "summary": ""
     },
     {
       "category": "Legislative",
@@ -90,6 +130,14 @@
       "title": "FM BANK and Quoin Financial Bank Select Jack Henry to Elevate Service",
       "published_at": "2026-03-24T00:00:00Z",
       "url": "https://ir.jackhenry.com/news-releases/news-release-details/fm-bank-and-quoin-financial-bank-select-jack-henry-elevate",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Launch your website faster with this $20 AI site builder deal",
+      "published_at": "2026-03-24T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/launch-your-website-faster-with-this-20-ai-site-builder-deal/",
       "summary": ""
     },
     {
@@ -165,6 +213,14 @@
       "summary": ""
     },
     {
+      "category": "Compliance Watch",
+      "source": "TBA",
+      "title": "Independent review of Silicon Valley Bank failure to be conducted",
+      "published_at": "2026-03-23T18:03:59Z",
+      "url": "https://www.texasbankers.com/independent-review-of-silicon-valley-bank-failure-to-be-conducted/",
+      "summary": "The Federal Reserve has hired a third party to conduct an independent review of the Silicon Valley Bank failure, Fed Vice Chair for Supervision Michelle Bowman said during a news interview with the Fox Business Network. The Fed previously conducted its own review of the bank failure in 2023. That review placed much of the […] The post Independent review of Silicon Valley Bank…"
+    },
+    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Trivy supply-chain attack spreads to Docker, GitHub repos",
@@ -203,14 +259,6 @@
       "published_at": "2026-03-23T12:17:18Z",
       "url": "https://www.bleepingcomputer.com/news/microsoft/new-exchange-online-virtual-account-blocks-email-access-via-mobile-mac-apps/",
       "summary": "Microsoft is working to address an ongoing service issue that has intermittently prevented some users from accessing their cloud-based Exchange Online mailboxes via Outlook mobile and Mac desktop clients since Thursday. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "FBI warns of Handala hackers using Telegram in malware attacks",
-      "published_at": "2026-03-23T09:45:55Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks. [...]"
     },
     {
       "category": "IS",
@@ -415,17 +463,17 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "CISA orders feds to patch DarkSword iOS flaws exploited attacks",
+      "title": "FBI warns of Handala hackers using Telegram in malware attacks",
       "published_at": "2026-03-23T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/",
       "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "New KB5085516 emergency update fixes Microsoft account sign-in",
+      "title": "CISA orders feds to patch DarkSword iOS flaws exploited attacks",
       "published_at": "2026-03-23T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/",
       "summary": ""
     },
     {
@@ -503,14 +551,6 @@
         "filter:federal-deposit-insurance-corporation"
       ],
       "fedreg_document_number": "2026-05644"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "VoidStealer malware steals Chrome master key via debugger trick",
-      "published_at": "2026-03-22T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/",
-      "summary": ""
     },
     {
       "category": "IS",
@@ -1194,14 +1234,6 @@
       "title": "U.S. Department of the Treasury and U.S. Department of Education Announce Historic Federal Student Assistance Partnership",
       "published_at": "2026-03-19T20:05:01Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0419",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Americans Agree that Operation Epic Fury Is an Overwhelming Success",
-      "published_at": "2026-03-19T18:39:41Z",
-      "url": "https://www.whitehouse.gov/articles/2026/03/americans-agree-that-operation-epic-fury-is-an-overwhelming-success/",
       "summary": ""
     },
     {
@@ -4001,14 +4033,6 @@
       "summary": "Information published."
     },
     {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal",
-      "published_at": "2026-03-12T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260312",
-      "summary": ""
-    },
-    {
       "category": "IRS",
       "source": "IRS",
       "title": "Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding",
@@ -4259,14 +4283,6 @@
         "topic:investments"
       ],
       "fedreg_document_number": "2026-04761"
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "President Trump’s Tax Cuts are Putting More Money Back into the Pockets of American Families and Workers",
-      "published_at": "2026-03-10T17:00:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0414",
-      "summary": ""
     }
   ]
 }

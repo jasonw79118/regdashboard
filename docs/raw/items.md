@@ -1,7 +1,29 @@
 # RegDashboard — Export
 
-Window: `2026-03-10T16:03:58Z` → `2026-03-24T16:03:58Z` (UTC)
-Last updated: `2026-03-24T11:03:58-05:00` (CT) — `2026-03-24T16:03:58Z` (UTC)
+Window: `2026-03-10T18:59:19Z` → `2026-03-24T18:59:19Z` (UTC)
+Last updated: `2026-03-24T13:59:19-05:00` (CT) — `2026-03-24T18:59:19Z` (UTC)
+
+## Firefox now has a free built-in VPN with 50GB monthly data limit
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T17:23:01Z
+- URL: https://www.bleepingcomputer.com/news/security/firefox-now-has-a-free-built-in-vpn-with-50gb-monthly-data-limit/
+
+Mozilla released Firefox 149 with added privacy protection through a built-in VPN tool offering up to 50GB of monthly traffic. [...]
+
+## Calling all data furnishers: explore the sessions designed just for you at CDIA Connect 2026!
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-03-24T16:48:08Z
+- URL: https://www.cdiaonline.org/events/2026/03/24/calling-all-data-furnishers-explore-the-sessions-designed-just-for-you-at-cdia-connect-2026/
+
+Here’s what you can expect for this year’s Data Furnisher Track: Credit Integrity Under Fire: Combatting Washing, Disputes, and Fraud Hear from... The post Calling all data furnishers: explore the sessions designed just for you at CDIA Connect 2026! appeared first on CDIA .
+
+## First Lady Melania Trump Launches Fostering the Future Together, 45 Member Nations Attend the Inaugural Coalition Summit
+- Source: White House
+- Category: Executive
+- Published: 2026-03-24T16:21:59Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-launches-fostering-the-future-together-45-member-nations-attend-the-inaugural-coalition-summit/
 
 ## Microsoft fixes bug causing Classic Outlook sync issues with Gmail
 - Source: BleepingComputer
@@ -27,6 +49,14 @@ Passing MFA doesn't mean a session is safe, attackers can hijack tokens and bypa
 
 Bug bounty platform HackerOne is notifying hundreds of employees that their data was stolen after attackers hacked Navia, one of its U.S. benefits administrators. [...]
 
+## CVE-2026-23669 RPC Runtime Library Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-24T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23669
+
+Corrected CVE title. This is an informational change only.
+
 ## Infinite Campus warns of breach after ShinyHunters claims data theft
 - Source: BleepingComputer
 - Category: IS
@@ -50,6 +80,12 @@ A Russian national was sentenced to nearly 7 years in prison after pleading guil
 - URL: https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/
 
 The Dutch Ministry of Finance confirmed on Monday that some of its systems were breached in a cyberattack detected last week. [...]
+
+## Issuance of Venezuela-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-24T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260324
 
 ## Senators Banks and Warren Urge Commerce Secretary Lutnick to Suspend or Reconsider NVIDIA Export Licenses Amid Supermicro Chip Diversion Indictment
 - Source: Senate Banking
@@ -80,6 +116,12 @@ The Dutch Ministry of Finance confirmed on Monday that some of its systems were 
 - Category: Fintech Watch
 - Published: 2026-03-24T00:00:00Z
 - URL: https://ir.jackhenry.com/news-releases/news-release-details/fm-bank-and-quoin-financial-bank-select-jack-henry-elevate
+
+## Launch your website faster with this $20 AI site builder deal
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/launch-your-website-faster-with-this-20-ai-site-builder-deal/
 
 ## This $80 refurbished Lenovo Chromebook acts as extra travel device
 - Source: BleepingComputer
@@ -149,6 +191,14 @@ Popular anime streaming platform Crunchyroll is investigating a breach after hac
 - Published: 2026-03-23T19:00:00Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-the-anniversary-of-patrick-henrys-give-me-liberty-or-give-me-death-speech/
 
+## Independent review of Silicon Valley Bank failure to be conducted
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-03-23T18:03:59Z
+- URL: https://www.texasbankers.com/independent-review-of-silicon-valley-bank-failure-to-be-conducted/
+
+The Federal Reserve has hired a third party to conduct an independent review of the Silicon Valley Bank failure, Fed Vice Chair for Supervision Michelle Bowman said during a news interview with the Fox Business Network. The Fed previously conducted its own review of the bank failure in 2023. That review placed much of the […] The post Independent review of Silicon Valley Bank…
+
 ## Trivy supply-chain attack spreads to Docker, GitHub repos
 - Source: BleepingComputer
 - Category: IS
@@ -184,14 +234,6 @@ AI agents can access data directly, making data security the foundation of AI se
 - URL: https://www.bleepingcomputer.com/news/microsoft/new-exchange-online-virtual-account-blocks-email-access-via-mobile-mac-apps/
 
 Microsoft is working to address an ongoing service issue that has intermittently prevented some users from accessing their cloud-based Exchange Online mailboxes via Outlook mobile and Mac desktop clients since Thursday. [...]
-
-## FBI warns of Handala hackers using Telegram in malware attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T09:45:55Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/
-
-The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks. [...]
 
 ## CVE-2026-3381 Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
 - Source: Microsoft MSRC
@@ -391,17 +433,17 @@ IR-2026-39, March 23, 2026 — The IRS invites tax professionals and business st
 - Published: 2026-03-23T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-only-16-in-this-deal/
 
+## FBI warns of Handala hackers using Telegram in malware attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-23T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/
+
 ## CISA orders feds to patch DarkSword iOS flaws exploited attacks
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-23T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/
-
-## New KB5085516 emergency update fixes Microsoft account sign-in
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/
 
 ## Metro 2® Webinars
 - Source: CDIA
@@ -444,12 +486,6 @@ The Federal Deposit Insurance Corporation (FDIC) is taking final action to resci
 - Category: Federal Register
 - Published: 2026-03-23T00:00:00Z
 - URL: https://www.federalregister.gov/documents/2026/03/23/2026-05644/sunshine-act-meetings
-
-## VoidStealer malware steals Chrome master key via debugger trick
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-22T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/
 
 ## CVE-2026-27135 nghttp2 Denial of service: Assertion failure due to the missing state validation
 - Source: Microsoft MSRC
@@ -1084,12 +1120,6 @@ This document contains final regulations relating to the definition of qualified
 - Category: OFAC
 - Published: 2026-03-19T20:05:01Z
 - URL: https://home.treasury.gov/news/press-releases/sb0419
-
-## Americans Agree that Operation Epic Fury Is an Overwhelming Success
-- Source: White House
-- Category: Executive
-- Published: 2026-03-19T18:39:41Z
-- URL: https://www.whitehouse.gov/articles/2026/03/americans-agree-that-operation-epic-fury-is-an-overwhelming-success/
 
 ## FDIC Board of Directors Meeting
 - Source: FDIC
@@ -3439,12 +3469,6 @@ Information published.
 
 Information published.
 
-## Counter Terrorism Designations; North Korea Designations and Designation Update; Counter Narcotics Designation Removal
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-12T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260312
-
 ## Updated Tax Withholding Estimator lets millions of taxpayers take One, Big, Beautiful Bill changes into account when calculating their withholding
 - Source: IRS
 - Category: IRS
@@ -3668,9 +3692,3 @@ Information published.
 - URL: https://www.federalregister.gov/documents/2026/03/11/2026-04761/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act
 
 On April 24, 2024, the NCUA Board (Board) published an advance notice of proposed rulemaking (ANPR) to solicit comments on ways the agency can improve and update its vital records preservation program regulation and accompanying guidelines. Based on public comments received in response to the ANPR and upon further consideration of the issues involved, the Board is publishing t…
-
-## President Trump’s Tax Cuts are Putting More Money Back into the Pockets of American Families and Workers
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-03-10T17:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0414
