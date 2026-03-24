@@ -1,7 +1,15 @@
 # RegDashboard — Export
 
-Window: `2026-03-10T14:13:59Z` → `2026-03-24T14:13:59Z` (UTC)
-Last updated: `2026-03-24T09:13:59-05:00` (CT) — `2026-03-24T14:13:59Z` (UTC)
+Window: `2026-03-10T16:03:58Z` → `2026-03-24T16:03:58Z` (UTC)
+Last updated: `2026-03-24T11:03:58-05:00` (CT) — `2026-03-24T16:03:58Z` (UTC)
+
+## Microsoft fixes bug causing Classic Outlook sync issues with Gmail
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T15:12:13Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-sync-issues-for-gmail-users/
+
+​Microsoft has fixed a known issue causing Gmail and Yahoo email synchronization and connection problems for classic Outlook users. [...]
 
 ## Zero Trust: Bridging the Gap Between Authentication and Trust
 - Source: BleepingComputer
@@ -42,6 +50,24 @@ A Russian national was sentenced to nearly 7 years in prison after pleading guil
 - URL: https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/
 
 The Dutch Ministry of Finance confirmed on Monday that some of its systems were breached in a cyberattack detected last week. [...]
+
+## Senators Banks and Warren Urge Commerce Secretary Lutnick to Suspend or Reconsider NVIDIA Export Licenses Amid Supermicro Chip Diversion Indictment
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/senators-banks-and-warren-urge-commerce-secretary-lutnick-to-suspend-or-reconsider-nvidia-export-licenses-amid-supermicro-chip-diversion-indictment
+
+## Warren Questions Beast Industries Over Apparent Crypto Aspirations Following Acquisition of Banking App Designed for Teens
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-questions-beast-industries-over-apparent-crypto-aspirations-following-acquisition-of-banking-app-designed-for-teens
+
+## Warren Presses Trump Administration on Mounting Costs to American Families from President’s Illegal War with Iran
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-trump-administration-on-mounting-costs-to-american-families-from-presidents-illegal-war-with-iran
 
 ## FIS Launches New Cleared Derivatives Solution for Prediction Markets
 - Source: FIS
@@ -166,14 +192,6 @@ Microsoft is working to address an ongoing service issue that has intermittently
 - URL: https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/
 
 The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks. [...]
-
-## CISA orders feds to patch DarkSword iOS flaws exploited attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T08:37:28Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/
-
-CISA ordered U.S. government agencies to patch three iOS vulnerabilities targeted in cryptocurrency theft and cyberespionage attacks using the DarkSword exploit kit. [...]
 
 ## CVE-2026-3381 Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
 - Source: Microsoft MSRC
@@ -373,6 +391,12 @@ IR-2026-39, March 23, 2026 — The IRS invites tax professionals and business st
 - Published: 2026-03-23T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-only-16-in-this-deal/
 
+## CISA orders feds to patch DarkSword iOS flaws exploited attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-23T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/
+
 ## New KB5085516 emergency update fixes Microsoft account sign-in
 - Source: BleepingComputer
 - Category: IS
@@ -426,12 +450,6 @@ The Federal Deposit Insurance Corporation (FDIC) is taking final action to resci
 - Category: IS
 - Published: 2026-03-22T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/
-
-## This $83 refurbished Acer Chromebook deal is great as a backup
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-22T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-83-refurbished-acer-chromebook-deal-is-great-as-a-backup/
 
 ## CVE-2026-27135 nghttp2 Denial of service: Assertion failure due to the missing state validation
 - Source: Microsoft MSRC
@@ -1006,24 +1024,6 @@ IR-2026-37, March 20, 2026 ― The Internal Revenue Service today announced that
 - URL: https://www.irs.gov/newsroom/free-options-and-resources-for-preparing-and-filing-taxes-in-2026
 
 IR-2026-38, March 20, 2026 — The Internal Revenue Service reminds taxpayers who still need to file their 2025 federal tax returns that free options and resources are available on IRS.gov.
-
-## Warren Presses Trump Administration on Mounting Costs to American Families from President’s Illegal War with Iran
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-20T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-trump-administration-on-mounting-costs-to-american-families-from-presidents-illegal-war-with-iran
-
-## Scott Statement on Revised Basel III Endgame Proposal
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-20T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/scott-statement-on-revised-basel-iii-endgame-proposal
-
-## Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-20T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets
 
 ## Chairman Hill Statement on President Trump’s National AI Legislative Framework
 - Source: House Financial Services
@@ -3674,11 +3674,3 @@ On April 24, 2024, the NCUA Board (Board) published an advance notice of propose
 - Category: OFAC
 - Published: 2026-03-10T17:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0414
-
-## Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard C…
-- Source: FRB
-- Category: Banking
-- Published: 2026-03-10T15:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260310a.htm
-
-Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard Chartered Bank

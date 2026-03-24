@@ -1,9 +1,17 @@
 {
-  "window_start": "2026-03-10T14:13:59Z",
-  "window_end": "2026-03-24T14:13:59Z",
-  "generated_at_utc": "2026-03-24T14:13:59Z",
-  "generated_at_ct": "2026-03-24T09:13:59-05:00",
+  "window_start": "2026-03-10T16:03:58Z",
+  "window_end": "2026-03-24T16:03:58Z",
+  "generated_at_utc": "2026-03-24T16:03:58Z",
+  "generated_at_ct": "2026-03-24T11:03:58-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes bug causing Classic Outlook sync issues with Gmail",
+      "published_at": "2026-03-24T15:12:13Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-sync-issues-for-gmail-users/",
+      "summary": "​Microsoft has fixed a known issue causing Gmail and Yahoo email synchronization and connection problems for classic Outlook users. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -43,6 +51,30 @@
       "published_at": "2026-03-24T12:03:08Z",
       "url": "https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/",
       "summary": "The Dutch Ministry of Finance confirmed on Monday that some of its systems were breached in a cyberattack detected last week. [...]"
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Senators Banks and Warren Urge Commerce Secretary Lutnick to Suspend or Reconsider NVIDIA Export Licenses Amid Supermicro Chip Diversion Indictment",
+      "published_at": "2026-03-24T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/senators-banks-and-warren-urge-commerce-secretary-lutnick-to-suspend-or-reconsider-nvidia-export-licenses-amid-supermicro-chip-diversion-indictment",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Questions Beast Industries Over Apparent Crypto Aspirations Following Acquisition of Banking App Designed for Teens",
+      "published_at": "2026-03-24T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-questions-beast-industries-over-apparent-crypto-aspirations-following-acquisition-of-banking-app-designed-for-teens",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Presses Trump Administration on Mounting Costs to American Families from President’s Illegal War with Iran",
+      "published_at": "2026-03-24T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-presses-trump-administration-on-mounting-costs-to-american-families-from-presidents-illegal-war-with-iran",
+      "summary": ""
     },
     {
       "category": "Fintech Watch",
@@ -179,14 +211,6 @@
       "published_at": "2026-03-23T09:45:55Z",
       "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/",
       "summary": "The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "CISA orders feds to patch DarkSword iOS flaws exploited attacks",
-      "published_at": "2026-03-23T08:37:28Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/",
-      "summary": "CISA ordered U.S. government agencies to patch three iOS vulnerabilities targeted in cryptocurrency theft and cyberespionage attacks using the DarkSword exploit kit. [...]"
     },
     {
       "category": "IS",
@@ -391,6 +415,14 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
+      "title": "CISA orders feds to patch DarkSword iOS flaws exploited attacks",
+      "published_at": "2026-03-23T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
       "title": "New KB5085516 emergency update fixes Microsoft account sign-in",
       "published_at": "2026-03-23T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/",
@@ -478,14 +510,6 @@
       "title": "VoidStealer malware steals Chrome master key via debugger trick",
       "published_at": "2026-03-22T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "This $83 refurbished Acer Chromebook deal is great as a backup",
-      "published_at": "2026-03-22T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-83-refurbished-acer-chromebook-deal-is-great-as-a-backup/",
       "summary": ""
     },
     {
@@ -1079,30 +1103,6 @@
       "published_at": "2026-03-20T00:00:00Z",
       "url": "https://www.irs.gov/newsroom/free-options-and-resources-for-preparing-and-filing-taxes-in-2026",
       "summary": "IR-2026-38, March 20, 2026 — The Internal Revenue Service reminds taxpayers who still need to file their 2025 federal tax returns that free options and resources are available on IRS.gov."
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Presses Trump Administration on Mounting Costs to American Families from President’s Illegal War with Iran",
-      "published_at": "2026-03-20T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-presses-trump-administration-on-mounting-costs-to-american-families-from-presidents-illegal-war-with-iran",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Scott Statement on Revised Basel III Endgame Proposal",
-      "published_at": "2026-03-20T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/scott-statement-on-revised-basel-iii-endgame-proposal",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Chairman Scott, Ranking Member Warren Lead Bipartisan Letter to SEC on Risks from China-Linked Entities in U.S. Markets",
-      "published_at": "2026-03-20T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/chairman-scott-ranking-member-warren-lead-bipartisan-letter-to-sec-on-risks-from-china-linked-entities-in-us-markets",
-      "summary": ""
     },
     {
       "category": "Legislative",
@@ -4267,14 +4267,6 @@
       "published_at": "2026-03-10T17:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0414",
       "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "FRB",
-      "title": "Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard C…",
-      "published_at": "2026-03-10T15:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260310a.htm",
-      "summary": "Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard Chartered Bank"
     }
   ]
 }
