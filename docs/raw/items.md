@@ -1,7 +1,363 @@
 # RegDashboard — Export
 
-Window: `2026-03-10T18:59:19Z` → `2026-03-24T18:59:19Z` (UTC)
-Last updated: `2026-03-24T13:59:19-05:00` (CT) — `2026-03-24T18:59:19Z` (UTC)
+Window: `2026-03-11T12:21:43Z` → `2026-03-25T12:21:43Z` (UTC)
+Last updated: `2026-03-25T07:21:43-05:00` (CT) — `2026-03-25T12:21:43Z` (UTC)
+
+## TP-Link warns users to patch critical router auth bypass flaw
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T11:11:00Z
+- URL: https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/
+
+TP-Link has patched several vulnerabilities in its Archer NX router series, including a critical-severity flaw that may allow attackers to bypass authentication and upload new firmware. [...]
+
+## 🌸 Spring Into Savings on Metro 2® Training! 🌸
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-03-25T10:00:47Z
+- URL: https://www.cdiaonline.org/events/2026/03/25/%f0%9f%8c%b8-spring-into-savings-on-metro-2-training-%f0%9f%8c%b8/
+
+Save $100 on CDIA’s Metro 2® Format Fundamentals Webinar Series with code SPRINGFWS100—now through March 31! This live, instructor-led 3-part series is perfect for beginners, new team members,... The post 🌸 Spring Into Savings on Metro 2® Training! 🌸 appeared first on CDIA .
+
+## Manager of botnet used in ransomware attacks gets 2 years in prison
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T08:47:29Z
+- URL: https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/
+
+A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies. [...]
+
+## CVE-2026-2443 Libsoup: out-of-bounds read in libsoup handle_partial_get() leading to heap information disclosure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:36:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2443
+
+Information published.
+
+## CVE-2026-0716 Libsoup: out-of-bounds read in libsoup websocket frame processing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:36:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0716
+
+Information published.
+
+## CVE-2025-58160 Tracing logging user input may result in poisoning logs with ANSI escape sequences
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:36:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58160
+
+Information published.
+
+## CVE-2026-27623 Valkey has Pre-Authentication DOS from malformed RESP request
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:05:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27623
+
+Information published.
+
+## CVE-2026-4519 webbrowser.open() allows leading dashes in URLs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:05:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4519
+
+Information published.
+
+## CVE-2025-13462 tarfile: Skip DIRTYPE normalization during GNU LONGNAME/LONGLINK handling
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:05:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-13462
+
+Information published.
+
+## CVE-2026-33228 flatted: Prototype Pollution via parse()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:05:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33228
+
+Information published.
+
+## CVE-2026-32141 flatted: Unbounded recursion DoS in parse() revive phase
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:05:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32141
+
+Information published.
+
+## CVE-2025-69720
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:04:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69720
+
+Information published.
+
+## CVE-2026-2646 Heap buffer overflow in session parsing with wolfSSL_d2i_SSL_SESSION() function
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:04:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2646
+
+Information published.
+
+## CVE-2026-3547 wolfSSL: out-of-bounds read (DoS) in ALPN parsing due to incomplete validation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:04:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3547
+
+Information published.
+
+## CVE-2026-2645 Acceptance of CertificateVerify Message before ClientKeyExchange in TLS 1.2
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:04:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2645
+
+Information published.
+
+## CVE-2026-3549 ECH parsing heap buffer overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:04:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3549
+
+Information published.
+
+## CVE-2026-3548 Buffer overflow in CRL number parsing in wolfSSL
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:04:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3548
+
+Information published.
+
+## CVE-2026-3503 Fault injection attack with ML-DSA and ML-KEM on ARM
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:04:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3503
+
+Information published.
+
+## CVE-2026-3230 Improper key_share validation in TLS 1.3 HelloRetryRequest
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:04:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3230
+
+Information published.
+
+## CVE-2026-3229 Integer Overflow in Certificate Chain Allocation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:03:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3229
+
+Information published.
+
+## CVE-2026-1005 Integer underflow leads to out-of-bounds access in sniffer AES-GCM/CCM/ARIA-GCM decrypt path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:03:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1005
+
+Information published.
+
+## CVE-2026-3579 Non-constant time multiplication subroutine __muldi3 on RISC-V RV32I
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:03:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3579
+
+Information published.
+
+## CVE-2026-3849 Buffer Overflow in HPKE via Oversized ECH Config
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:03:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3849
+
+Information published.
+
+## CVE-2026-4395 Heap-based buffer overflow in wc_ecc_import_x963_ex KCAPI path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:03:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4395
+
+Information published.
+
+## CVE-2026-3580 Compiler-induced timing leak in sp_256_get_entry_256_9 on RISC-V
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:03:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3580
+
+Information published.
+
+## CVE-2026-4159 wc_PKCS7_DecodeEnvelopedData 1 byte out-of-bounds read
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:03:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4159
+
+Information published.
+
+## CVE-2026-0819 Stack buffer overflow in PKCS7 SignedData encoding with custom signed attributes
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:02:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0819
+
+Information published.
+
+## CVE-2026-2369 Libsoup: libsoup: buffer overread due to integer underflow when handling zero-length resources
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:02:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2369
+
+Information published.
+
+## CVE-2026-3099 Libsoup: libsoup: authentication bypass via digest authentication replay attack
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:02:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3099
+
+Information published.
+
+## CVE-2026-4424 Libarchive: libarchive: information disclosure via heap out-of-bounds read in rar archive processing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:02:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4424
+
+Information published.
+
+## CVE-2026-4426 Libarchive: libarchive: denial of service via malformed iso file processing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:02:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4426
+
+Information published.
+
+## CVE-2026-33055 tar-rs incorrectly ignores PAX size headers if header size is nonzero
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:02:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33055
+
+Information published.
+
+## CVE-2026-33056 tar-rs: unpack_in can chmod arbitrary directories by following symlinks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:01:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33056
+
+Information published.
+
+## CVE-2026-25075 strongSwan 4.5.0 < 6.0.5 EAP-TTLS AVP Parsing Integer Underflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:01:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25075
+
+Information published.
+
+## CVE-2026-4438 gethostbyaddr and gethostbyaddr_r return invalid DNS hostnames
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:01:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4438
+
+Information published.
+
+## CVE-2026-4437 gethostbyaddr and gethostbyaddr_r may incorrectly handle DNS response
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-03-25T08:01:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4437
+
+Information published.
+
+## Secretary Markwayne Mullin Is Ready to Deliver on President Trump’s Agenda
+- Source: White House
+- Category: Executive
+- Published: 2026-03-25T00:26:01Z
+- URL: https://www.whitehouse.gov/articles/2026/03/secretary-markwayne-mullin-is-ready-to-deliver-on-president-trumps-agenda/
+
+## Kali Linux 2026.1 released with 8 new tools, new BackTrack mode
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/linux/kali-linux-20261-released-with-8-new-tools-new-backtrack-mode/
+
+## Get 2TB of lifetime FileJump cloud storage for a one-time $76 payment
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-2tb-of-lifetime-filejump-cloud-storage-for-a-one-time-76-payment/
+
+## Third-Party Servicing of Indirect Vehicle Loans
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-03-25T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/03/25/2026-05797/third-party-servicing-of-indirect-vehicle-loans
+
+The NCUA Board (Board) is seeking comment on a proposed rule that would remove the NCUA's unnecessarily prescriptive regulation regarding third-party servicing of indirect vehicle loans. This action would reduce regulatory burden and provide credit unions with greater operational flexibility, consistent with a principles-based supervisory approach. The intent is to reduce admi…
+
+## Further Continuance of the Federal Emergency Management Agency Review Council
+- Source: White House
+- Category: Executive
+- Published: 2026-03-24T23:13:33Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/further-continuance-of-the-federal-emergency-management-agency-review-council/
+
+## Greek Independence Day: A National Day of Celebration of Greek and American Democracy, 2026
+- Source: White House
+- Category: Executive
+- Published: 2026-03-24T23:08:35Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/greek-independence-day-a-national-day-of-celebration-of-greek-and-american-democracy-2026/
+
+## National Agriculture Day, 2026
+- Source: White House
+- Category: Executive
+- Published: 2026-03-24T23:05:06Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/03/national-agriculture-day-2026/
+
+## PTC warns of imminent threat from critical Windchill, FlexPLM RCE bug
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T23:04:36Z
+- URL: https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/
+
+PTC Inc. is warning of a critical vulnerability in Windchill and FlexPLM, widely used product lifecycle management (PLM) solutions, that could allow remote code execution. [...]
+
+## Popular LiteLLM PyPI package backdoored to steal credentials, auth tokens
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T22:29:01Z
+- URL: https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/
+
+The TeamPCP hacking group continues its supply-chain rampage, now compromising the massively popular "LiteLLM" Python package on PyPI and claiming to have stolen data from hundreds of thousands of devices during the attack. [...]
+
+## FCC bans new routers made outside the USA over security risks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-24T20:41:30Z
+- URL: https://www.bleepingcomputer.com/news/security/fcc-bans-new-routers-made-outside-the-usa-over-security-risks/
+
+The Federal Communications Commission has updated its Covered List to include all consumer routers made in foreign countries, banning the sale of new models in the U.S. [...]
 
 ## Firefox now has a free built-in VPN with 50GB monthly data limit
 - Source: BleepingComputer
@@ -129,6 +485,12 @@ The Dutch Ministry of Finance confirmed on Monday that some of its systems were 
 - Published: 2026-03-24T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-80-refurbished-lenovo-chromebook-acts-as-extra-travel-device/
 
+## Education Services
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.cdiaonline.org/education-services/
+
 ## OpenAI rolls out ChatGPT Library to store your personal files
 - Source: BleepingComputer
 - Category: IS
@@ -145,46 +507,6 @@ OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows y
 
 Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exposed in a security incident detected last December. [...]
 
-## Tycoon2FA phishing platform returns after recent police disruption
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T21:52:58Z
-- URL: https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/
-
-The Tycoon2FA phishing-as-a-service (PhaaS) platform that Europol and partners disrupted on March 4 has already returned to previously observed activity levels. [...]
-
-## CVE-2026-4438 gethostbyaddr and gethostbyaddr_r return invalid DNS hostnames
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-23T21:39:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4438
-
-Information published.
-
-## CVE-2026-4437 gethostbyaddr and gethostbyaddr_r may incorrectly handle DNS response
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-23T21:39:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4437
-
-Information published.
-
-## TeamPCP deploys Iran-targeted wiper in Kubernetes attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T20:09:10Z
-- URL: https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/
-
-The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detects systems configured for Iran. [...]
-
-## Crunchyroll probes breach after hacker claims to steal 6.8M users' data
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T19:21:04Z
-- URL: https://www.bleepingcomputer.com/news/security/crunchyroll-probes-breach-after-hacker-claims-to-steal-68m-users-data/
-
-Popular anime streaming platform Crunchyroll is investigating a breach after hackers claimed to have stolen personal information for approximately 6.8 million people. [...]
-
 ## Presidential Message on the Anniversary of Patrick Henry’s “Give Me Liberty, Or Give Me Death!” Speech
 - Source: White House
 - Category: Executive
@@ -199,41 +521,17 @@ Popular anime streaming platform Crunchyroll is investigating a breach after hac
 
 The Federal Reserve has hired a third party to conduct an independent review of the Silicon Valley Bank failure, Fed Vice Chair for Supervision Michelle Bowman said during a news interview with the Fox Business Network. The Fed previously conducted its own review of the bank failure in 2023. That review placed much of the […] The post Independent review of Silicon Valley Bank…
 
-## Trivy supply-chain attack spreads to Docker, GitHub repos
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T17:40:27Z
-- URL: https://www.bleepingcomputer.com/news/security/trivy-supply-chain-attack-spreads-to-docker-github-repos/
-
-The TeamPCP hackers behind the Trivy supply-chain attack continued to target Aqua Security, pushing malicious Docker images and hijacking the company's GitHub organization to tamper with dozens of repositories. [...]
-
 ## President Trump’s ‘Memphis Safe Task Force’ Delivers Crushing Blow to Crime
 - Source: White House
 - Category: Executive
 - Published: 2026-03-23T16:26:47Z
 - URL: https://www.whitehouse.gov/articles/2026/03/president-trumps-memphis-safe-task-force-delivers-crushing-blow-to-crime/
 
-## Varonis Atlas: Securing AI and the Data That Powers It
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T14:02:12Z
-- URL: https://www.bleepingcomputer.com/news/security/varonis-atlas-securing-ai-and-the-data-that-powers-it/
-
-AI agents can access data directly, making data security the foundation of AI security. Learn more about how Varonis Atlas helps orgs see, secure, and control AI systems and the data they can reach. [...]
-
 ## Treasury Launches the Artificial Intelligence (AI) Innovation Series
 - Source: Treasury
 - Category: OFAC
 - Published: 2026-03-23T13:45:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0421
-
-## Microsoft Exchange Online service change causes email access issues
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T12:17:18Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/new-exchange-online-virtual-account-blocks-email-access-via-mobile-mac-apps/
-
-Microsoft is working to address an ongoing service issue that has intermittently prevented some users from accessing their cloud-based Exchange Online mailboxes via Outlook mobile and Mac desktop clients since Thursday. [...]
 
 ## CVE-2026-3381 Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
 - Source: Microsoft MSRC
@@ -427,23 +725,17 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 IR-2026-39, March 23, 2026 — The IRS invites tax professionals and business stakeholders to attend a webinar on Tuesday, March 24, 2026, at 2:00 p.m. Eastern. Tax professionals can earn two continuing education credits for attending the webinar titled: Understanding the One, Big, Beautiful Bill: Business Tax Provisions.
 
-## Block ads and trackers on 9 devices for only $16 in this deal
+## Tycoon2FA phishing platform returns after recent police disruption
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-23T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/block-ads-and-trackers-on-9-devices-for-only-16-in-this-deal/
+- URL: https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/
 
-## FBI warns of Handala hackers using Telegram in malware attacks
+## TeamPCP deploys Iran-targeted wiper in Kubernetes attacks
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-23T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/
-
-## CISA orders feds to patch DarkSword iOS flaws exploited attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/
+- URL: https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/
 
 ## Metro 2® Webinars
 - Source: CDIA
@@ -676,18 +968,6 @@ The White House released a national policy framework urging Congress to take sev
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26118
 
 Added products to the Security Updates table that document the various packaging methods used to deliver Azure MCP Server Tools.
-
-## First Lady Melania Trump Announces 2026 Spring Garden Tours
-- Source: White House
-- Category: Executive
-- Published: 2026-03-20T13:28:33Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-announces-2026-spring-garden-tours/
-
-## President Donald J. Trump Unveils National AI Legislative Framework
-- Source: White House
-- Category: Executive
-- Published: 2026-03-20T12:20:12Z
-- URL: https://www.whitehouse.gov/articles/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/
 
 ## CVE-2026-23243 RDMA/umad: Reject negative data_len in ib_umad_write
 - Source: Microsoft MSRC
@@ -1032,12 +1312,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23255
 
 Information published.
-
-## Fact Sheet: President Donald J. Trump Strengthens U.S.-Japan Alliance for the Benefit of All Americans
-- Source: White House
-- Category: Executive
-- Published: 2026-03-20T00:21:21Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-strengthens-u-s-japan-alliance-for-the-benefit-of-all-americans/
 
 ## Counter Terrorism Designations; Counter Narcotics and Russia-related Designations Removals
 - Source: OFAC
@@ -2901,14 +3175,6 @@ Information published.
 
 Information published.
 
-## CVE-2025-58160 Tracing logging user input may result in poisoning logs with ANSI escape sequences
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-14T08:36:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58160
-
-Information published.
-
 ## CVE-2026-27171 zlib before 1.3.2 allows CPU consumption via crc32_combine64 and crc32_combine_gen64 because x2nmodp can do right shifts within a loop that has no termination condition.
 - Source: Microsoft MSRC
 - Category: IS
@@ -3341,12 +3607,6 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 
 Federal Reserve Board announces approval of application by Home BancShares
 
-## Nomination and Withdrawals Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-03-12T17:17:54Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/03/nomination-and-withdrawals-sent-to-the-senate/
-
 ## Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses
 - Source: Treasury
 - Category: OFAC
@@ -3503,12 +3763,6 @@ IR-2026-35, March 12, 2026 — The Internal Revenue Service recently unveiled en
 
 This document contains proposed regulations that would update certain arbitrage rules and definitions applicable to tax-exempt and other tax-advantaged bonds by clarifying the time and manner for requesting refunds of overpayment of rebate to the United States, the special transition rule for transferred proceeds, the limitation on allocations to expenditures, and the IRS addr…
 
-## Promoting Fiscal Responsibility in Compensation Practices at the Tennessee Valley Authority
-- Source: White House
-- Category: Executive
-- Published: 2026-03-11T23:30:00Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/03/promoting-fiscal-responsibility-in-compensation-practices-at-the-tennessee-valley-authority/
-
 ## Federal Reserve Board announces approval of application by Associated Banc-Corp
 - Source: FRB
 - Category: Banking
@@ -3556,139 +3810,3 @@ Acknowledgement Updated
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3537
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
-
-## CVE-2026-23865 An integer overflow in the tt_var_load_item_variation_store function of the Freetype library in versions 2.13.2 and 2.13.3 may allow for an out of bounds read operation when parsing HVAR/VVAR/MVAR tables…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:40:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23865
-
-Information published.
-
-## CVE-2026-3713 pnggroup libpng pnm2png pnm2png.c do_pnm2png heap-based overflow
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:03:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3713
-
-Information published.
-
-## CVE-2026-27142 URLs in meta content attribute actions are not escaped in html/template
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:03:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27142
-
-Information published.
-
-## CVE-2025-69644 An issue was discovered in Binutils before 2.46. The objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed debug information. A logic flaw in the handling of D…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:02:56Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69644
-
-Information published.
-
-## CVE-2025-69651 GNU Binutils thru 2.46 readelf contains a vulnerability that leads to an invalid pointer free when processing a crafted ELF binary with malformed relocation or symbol data. If dump_relocations returns ear…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:02:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69651
-
-Information published.
-
-## CVE-2025-69649 GNU Binutils thru 2.46 readelf contains a null pointer dereference vulnerability when processing a crafted ELF binary with malformed header fields. During relocation processing, an invalid or null section…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:02:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69649
-
-Information published.
-
-## CVE-2025-69645 Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug information. A logic error in the handling of DWARF compilation units can result in…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:02:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69645
-
-Information published.
-
-## CVE-2025-69652 GNU Binutils thru 2.46 readelf contains a vulnerability that leads to an abort (SIGABRT) when processing a crafted ELF binary with malformed DWARF abbrev or debug information. Due to incomplete state clea…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:02:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69652
-
-Information published.
-
-## CVE-2025-69650 GNU Binutils thru 2.46 readelf contains a double free vulnerability when processing a crafted ELF binary with malformed relocation data. During GOT relocation handling, dump_relocations may return early w…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:02:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69650
-
-Information published.
-
-## CVE-2025-69646 Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug_rnglists data. A logic error in the handling of the debug_rnglists header can cause…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:02:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69646
-
-Information published.
-
-## CVE-2026-29786 node-tar: Hardlink Path Traversal via Drive-Relative Linkpath
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:02:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-29786
-
-Information published.
-
-## CVE-2024-14027 xattr: switch to CLASS(fd)
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:01:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-14027
-
-Information published.
-
-## CVE-2026-27139 FileInfo can escape from a Root in os
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T08:01:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27139
-
-Information published.
-
-## MPF Announcement Summary 2026-S03
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-summary-2026-s03
-
-## MPF Announcement 2026-13
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-13
-
-## MPF Announcement 2026-12
-- Source: FHLB MPF
-- Category: Mortgage
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-12
-
-## FIS Helps Mizuho Financial Group Navigate New Regulatory Reporting Requirements
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-helps-mizuho-financial-group-navigate-new-regulatory
-
-## Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-11T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/11/2026-04761/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act
-
-On April 24, 2024, the NCUA Board (Board) published an advance notice of proposed rulemaking (ANPR) to solicit comments on ways the agency can improve and update its vital records preservation program regulation and accompanying guidelines. Based on public comments received in response to the ANPR and upon further consideration of the issues involved, the Board is publishing t…
