@@ -1,7 +1,45 @@
 # RegDashboard — Export
 
-Window: `2026-03-11T12:21:43Z` → `2026-03-25T12:21:43Z` (UTC)
-Last updated: `2026-03-25T07:21:43-05:00` (CT) — `2026-03-25T12:21:43Z` (UTC)
+Window: `2026-03-11T16:40:13Z` → `2026-03-25T16:40:13Z` (UTC)
+Last updated: `2026-03-25T11:40:13-05:00` (CT) — `2026-03-25T16:40:13Z` (UTC)
+
+## Federal Reserve Board releases annual audited financial statements
+- Source: FRB
+- Category: Banking
+- Published: 2026-03-25T16:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/other20260325a.htm
+
+Federal Reserve Board releases annual audited financial statements
+
+## Citrix urges admins to patch NetScaler flaws as soon as possible
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T15:52:10Z
+- URL: https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-netscaler-flaws-as-soon-as-possible/
+
+Citrix has patched two NetScaler ADC and NetScaler Gateway vulnerabilities, one of which is very similar to the CitrixBleed and CitrixBleed2 flaws exploited in zero-day attacks in recent years. [...]
+
+## Paid AI Accounts Are Now a Hot Underground Commodity
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T14:02:12Z
+- URL: https://www.bleepingcomputer.com/news/security/paid-ai-accounts-are-now-a-hot-underground-commodity/
+
+AI accounts are becoming part of the cybercrime supply chain, sold like email accounts or VPS access. Flare Systems shows how underground markets bundle and resell premium AI access at scale. [...]
+
+## President Trump Announces Appointments to President’s Council of Advisors on Science and Technology
+- Source: White House
+- Category: Executive
+- Published: 2026-03-25T13:13:52Z
+- URL: https://www.whitehouse.gov/articles/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/
+
+## Kali Linux 2026.1 released with 8 new tools, new BackTrack mode
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T12:31:26Z
+- URL: https://www.bleepingcomputer.com/news/linux/kali-linux-20261-released-with-8-new-tools-new-backtrack-mode/
+
+Kali Linux 2026.1, the first release of the year, is now available for download, featuring 8 new tools, a theme refresh, and a new BackTrack mode for Kali-Undercover. [...]
 
 ## TP-Link warns users to patch critical router auth bypass flaw
 - Source: BleepingComputer
@@ -297,11 +335,95 @@ Information published.
 - Published: 2026-03-25T00:26:01Z
 - URL: https://www.whitehouse.gov/articles/2026/03/secretary-markwayne-mullin-is-ready-to-deliver-on-president-trumps-agenda/
 
-## Kali Linux 2026.1 released with 8 new tools, new BackTrack mode
-- Source: BleepingComputer
-- Category: IS
+## Fiserv Named One of America’s Most Innovative Companies by Fortune for Fourth Consecutive Year
+- Source: Fiserv
+- Category: Fintech Watch
 - Published: 2026-03-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/linux/kali-linux-20261-released-with-8-new-tools-new-backtrack-mode/
+- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-named-one-americas-most-innovative-companies-fortune-0
+
+## Visa to Bring Privacy-Preserving Payments to Canton Network
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
+
+## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
+
+## Visa Completes Acquisition of Prisma and Newpay
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
+
+## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
+
+## Visa Renews Partnership Across Red Bull Formula One Teams
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
+
+## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
+
+## Visa to Participate in Upcoming Investor Conferences
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
+
+## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
+
+## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
+
+## Visa Fiscal First Quarter 2026 Financial Results
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
+
+## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
+
+## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
+
+## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
+
+## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-25T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 
 ## Get 2TB of lifetime FileJump cloud storage for a one-time $76 payment
 - Source: BleepingComputer
@@ -491,21 +613,29 @@ The Dutch Ministry of Finance confirmed on Monday that some of its systems were 
 - Published: 2026-03-24T00:00:00Z
 - URL: https://www.cdiaonline.org/education-services/
 
-## OpenAI rolls out ChatGPT Library to store your personal files
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T23:47:14Z
-- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/danish-smes-lead-europe-in-ai-driven-cost-savings
 
-OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows you to store your personal files or images on OpenAI's cloud storage, so you can reference those items in a future chat. [...]
+High regulatory readiness and pragmatic technology adoption help businesses deliver returns, even as financing constraints grow
 
-## Mazda discloses security breach exposing employee and partner data
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-23T22:12:52Z
-- URL: https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-recognition-from-gartner-fcc
 
-Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exposed in a security incident detected last December. [...]
+The recognition underscores a broader trend identified by Gartner: finance teams are moving beyond basic cloud migration toward unified platforms that support a more autonomous close.
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-24T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/swedish-businesses-turn-to-outsourcing-and-hybrid-tech
+
+Financial discipline, ongoing cyber security investment and selective AI adoption shape business decision‑making in Sweden
 
 ## Presidential Message on the Anniversary of Patrick Henry’s “Give Me Liberty, Or Give Me Death!” Speech
 - Source: White House
@@ -725,23 +855,39 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 IR-2026-39, March 23, 2026 — The IRS invites tax professionals and business stakeholders to attend a webinar on Tuesday, March 24, 2026, at 2:00 p.m. Eastern. Tax professionals can earn two continuing education credits for attending the webinar titled: Understanding the One, Big, Beautiful Bill: Business Tax Provisions.
 
-## Tycoon2FA phishing platform returns after recent police disruption
+## OpenAI rolls out ChatGPT Library to store your personal files
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-23T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/
+- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/
 
-## TeamPCP deploys Iran-targeted wiper in Kubernetes attacks
+## Mazda discloses security breach exposing employee and partner data
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-23T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/
+- URL: https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/
 
 ## Metro 2® Webinars
 - Source: CDIA
 - Category: Compliance Watch
 - Published: 2026-03-23T00:00:00Z
 - URL: https://www.cdiaonline.org/metro-2-webinars/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-23T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-finds-strong-2025-growth-in-us-business-formations
+
+Wolters Kluwer analysis of Secretary of State data across 47 states finds nearly 5.5 million new businesses formed in 2025, reversing a year of pullback and approaching record highs
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-03-23T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-genya-dichiarativi-with-embedded-ai
+
+The new AI‑powered capability simplifies the compilation of tax declarations by combining authoritative ministerial instructions with intelligent, workflow‑embedded guidance
 
 ## Clarification of Deposit Insurance Coverage for Branches of U.S. Banks in the Federated States of Micronesia, the Marshall Islands, and Palau
 - Source: Federal Register
@@ -926,12 +1072,6 @@ Information published.
 - Category: Executive
 - Published: 2026-03-20T20:11:27Z
 - URL: https://www.whitehouse.gov/articles/2026/03/democrats-dhs-shutdown-enters-35th-day-as-airports-plunge-into-chaos-frontline-workers-suffer/
-
-## Presidential Message on Nowruz
-- Source: White House
-- Category: Executive
-- Published: 2026-03-20T18:29:44Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-nowruz/
 
 ## Treasury Sanctions Global Network Diverting Funds to Benefit Hizballah
 - Source: Treasury
@@ -3778,35 +3918,3 @@ Federal Reserve Board announces approval of application by Associated Banc-Corp
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260311a.htm
 
 Federal Reserve Board announces approval of application by FirstSun Capital Bancorp
-
-## Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-11T14:00:33Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40db4bf
-
-SPEECH | MARCH 11, 2026 Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit The following speech was delivered before the American Bankers Association's Washington Summit. Introduction It’s great to join the ABA again for its Washington Summit. Since last January, we have been working hard to reform our supervisory and regulatory approach to bo…
-
-## CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293
-
-Acknowledgement added. This is an informational change only.
-
-## CVE-2026-26148 Microsoft Azure AD SSH Login extension for Linux Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26148
-
-Acknowledgement Updated
-
-## Chromium: CVE-2026-3537 Object lifecycle issue in PowerVR
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-11T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3537
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.

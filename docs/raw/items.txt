@@ -1,3 +1,37 @@
+Banking
+FRB
+2026-03-25T16:00:00Z
+Federal Reserve Board releases annual audited financial statements
+https://www.federalreserve.gov/newsevents/pressreleases/other20260325a.htm
+Federal Reserve Board releases annual audited financial statements
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-25T15:52:10Z
+Citrix urges admins to patch NetScaler flaws as soon as possible
+https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-netscaler-flaws-as-soon-as-possible/
+Citrix has patched two NetScaler ADC and NetScaler Gateway vulnerabilities, one of which is very similar to the CitrixBleed and CitrixBleed2 flaws exploited in zero-day attacks in recent years. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-25T14:02:12Z
+Paid AI Accounts Are Now a Hot Underground Commodity
+https://www.bleepingcomputer.com/news/security/paid-ai-accounts-are-now-a-hot-underground-commodity/
+AI accounts are becoming part of the cybercrime supply chain, sold like email accounts or VPS access. Flare Systems shows how underground markets bundle and resell premium AI access at scale. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-03-25T13:13:52Z
+President Trump Announces Appointments to President’s Council of Advisors on Science and Technology
+https://www.whitehouse.gov/articles/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-03-25T12:31:26Z
+Kali Linux 2026.1 released with 8 new tools, new BackTrack mode
+https://www.bleepingcomputer.com/news/linux/kali-linux-20261-released-with-8-new-tools-new-backtrack-mode/
+Kali Linux 2026.1, the first release of the year, is now available for download, featuring 8 new tools, a theme refresh, and a new BackTrack mode for Kali-Undercover. [...]
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-25T11:11:00Z
@@ -256,11 +290,95 @@ White House
 Secretary Markwayne Mullin Is Ready to Deliver on President Trump’s Agenda
 https://www.whitehouse.gov/articles/2026/03/secretary-markwayne-mullin-is-ready-to-deliver-on-president-trumps-agenda/
 ------------------------------------------------------------
-IS
-BleepingComputer
+Fintech Watch
+Fiserv
 2026-03-25T00:00:00Z
-Kali Linux 2026.1 released with 8 new tools, new BackTrack mode
-https://www.bleepingcomputer.com/news/linux/kali-linux-20261-released-with-8-new-tools-new-backtrack-mode/
+Fiserv Named One of America’s Most Innovative Companies by Fortune for Fourth Consecutive Year
+https://investors.fiserv.com/news-releases/news-release-details/fiserv-named-one-americas-most-innovative-companies-fortune-0
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa to Bring Privacy-Preserving Payments to Canton Network
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa Completes Acquisition of Prisma and Newpay
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa Renews Partnership Across Red Bull Formula One Teams
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa to Participate in Upcoming Investor Conferences
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa Fiscal First Quarter 2026 Financial Results
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-03-25T00:00:00Z
+Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -437,19 +555,26 @@ CDIA
 Education Services
 https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-23T23:47:14Z
-OpenAI rolls out ChatGPT Library to store your personal files
-https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/
-OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows you to store your personal files or images on OpenAI's cloud storage, so you can reference those items in a future chat. [...]
+Compliance Watch
+Wolters Kluwer
+2026-03-24T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/danish-smes-lead-europe-in-ai-driven-cost-savings
+High regulatory readiness and pragmatic technology adoption help businesses deliver returns, even as financing constraints grow
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-03-23T22:12:52Z
-Mazda discloses security breach exposing employee and partner data
-https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/
-Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exposed in a security incident detected last December. [...]
+Compliance Watch
+Wolters Kluwer
+2026-03-24T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/cch-tagetik-recognition-from-gartner-fcc
+The recognition underscores a broader trend identified by Gartner: finance teams are moving beyond basic cloud migration toward unified platforms that support a more autonomous close.
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-24T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/swedish-businesses-turn-to-outsourcing-and-hybrid-tech
+Financial discipline, ongoing cyber security investment and selective AI adoption shape business decision‑making in Sweden
 ------------------------------------------------------------
 Executive
 White House
@@ -647,20 +772,34 @@ IR-2026-39, March 23, 2026 — The IRS invites tax professionals and business st
 IS
 BleepingComputer
 2026-03-23T00:00:00Z
-Tycoon2FA phishing platform returns after recent police disruption
-https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/
+OpenAI rolls out ChatGPT Library to store your personal files
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-03-23T00:00:00Z
-TeamPCP deploys Iran-targeted wiper in Kubernetes attacks
-https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/
+Mazda discloses security breach exposing employee and partner data
+https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
 2026-03-23T00:00:00Z
 Metro 2® Webinars
 https://www.cdiaonline.org/metro-2-webinars/
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-23T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-finds-strong-2025-growth-in-us-business-formations
+Wolters Kluwer analysis of Secretary of State data across 47 states finds nearly 5.5 million new businesses formed in 2025, reversing a year of pullback and approaching record highs
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-03-23T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-genya-dichiarativi-with-embedded-ai
+The new AI‑powered capability simplifies the compilation of tax declarations by combining authoritative ministerial instructions with intelligent, workflow‑embedded guidance
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -825,12 +964,6 @@ White House
 2026-03-20T20:11:27Z
 Democrats’ DHS Shutdown Enters 35th Day as Airports Plunge into Chaos, Frontline Workers Suffer
 https://www.whitehouse.gov/articles/2026/03/democrats-dhs-shutdown-enters-35th-day-as-airports-plunge-into-chaos-frontline-workers-suffer/
-------------------------------------------------------------
-Executive
-White House
-2026-03-20T18:29:44Z
-Presidential Message on Nowruz
-https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-nowruz/
 ------------------------------------------------------------
 OFAC
 Treasury
@@ -3481,32 +3614,4 @@ FRB
 Federal Reserve Board announces approval of application by FirstSun Capital Bancorp
 https://www.federalreserve.gov/newsevents/pressreleases/orders20260311a.htm
 Federal Reserve Board announces approval of application by FirstSun Capital Bancorp
-------------------------------------------------------------
-Banking
-FDIC
-2026-03-11T14:00:33Z
-Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit
-https://content.govdelivery.com/accounts/USFDIC/bulletins/40db4bf
-SPEECH | MARCH 11, 2026 Remarks by FDIC Chairman Travis Hill: An Update on Reforms to the Regulatory Toolkit The following speech was delivered before the American Bankers Association's Washington Summit. Introduction It’s great to join the ABA again for its Washington Summit. Since last January, we have been working hard to reform our supervisory and regulatory approach to bo…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-11T14:00:00Z
-CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293
-Acknowledgement added. This is an informational change only.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-11T14:00:00Z
-CVE-2026-26148 Microsoft Azure AD SSH Login extension for Linux Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26148
-Acknowledgement Updated
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-03-11T14:00:00Z
-Chromium: CVE-2026-3537 Object lifecycle issue in PowerVR
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3537
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.
 ------------------------------------------------------------
