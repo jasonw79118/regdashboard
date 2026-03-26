@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-03-12T14:08:00Z` → `2026-03-26T14:08:00Z` (UTC)
-Last updated: `2026-03-26T09:08:00-05:00` (CT) — `2026-03-26T14:08:00Z` (UTC)
+Window: `2026-03-12T19:02:58Z` → `2026-03-26T19:02:58Z` (UTC)
+Last updated: `2026-03-26T14:02:58-05:00` (CT) — `2026-03-26T19:02:58Z` (UTC)
+
+## UK sanctions Xinbi marketplace linked to Asian scam centers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-26T15:42:43Z
+- URL: https://www.bleepingcomputer.com/news/security/uk-sanctions-xinbi-marketplace-linked-to-asian-scam-centers/
+
+The United Kingdom's Foreign, Commonwealth and Development Office (FCDO) has sanctioned Xinbi, a Chinese-language cryptocurrency-based online marketplace that sells stolen data and satellite internet equipment to scam networks in Southeast Asia. [...]
+
+## TikTok for Business accounts targeted in new phishing campaign
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-26T14:09:17Z
+- URL: https://www.bleepingcomputer.com/news/security/tiktok-for-business-accounts-targeted-in-new-phishing-campaign/
+
+Threat actors are targeting TikTok for Business accounts in a phishing campaign that prevents security bots from analyzing malicious pages. [...]
 
 ## WhatsApp rolls out more AI features, iOS multi-account support
 - Source: BleepingComputer
@@ -735,6 +751,50 @@ Information published.
 - Published: 2026-03-26T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260326
 
+## Tax Time Guide: Steps taxpayers can take now to resolve tax issues and stay on track
+- Source: IRS
+- Category: IRS
+- Published: 2026-03-26T00:00:00Z
+- URL: https://www.irs.gov/newsroom/tax-time-guide-steps-taxpayers-can-take-now-to-resolve-tax-issues-and-stay-on-track
+
+IR-2026-41, March 26, 2026 — Taxpayers who owe taxes or have not yet filed can benefit from acting early.
+
+## Mortgage Rates Average 6.38%
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-03-26T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/03/26/3263250/0/en/Mortgage-Rates-Average-6-38.html
+
+## Chairman Scott Pushes for EXIM Bank Reauthorization to Strengthen American Competitiveness, Counter Chinese Economic Aggression
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-26T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-pushes-for-exim-bank-reauthorization-to-strengthen-american-competitiveness-counter-chinese-economic-aggression
+
+## Warren Statement on Financial Stability Oversight Council Meeting
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-26T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-financial-stability-oversight-council-meeting
+
+## Ranking Member Warren Probes Potential Conflict of Interests of Big Bank Lawyer Who Now Runs Fed's Supervision and Regulation Division
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-26T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/ranking-member-warren-probes-potential-conflict-of-interests-of-big-bank-lawyer-who-now-runs-feds-supervision-and-regulation-division
+
+## Steil: Regulators Must Evolve as Quickly as the Technologies They Oversee
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-26T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411073
+
+## Flood: We Need to Abate the Flooding Risk
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-26T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411075
+
 ## FIS Named a Leader in Gartner® Magic Quadrant™ for Banking Payment Hub Platforms
 - Source: FIS
 - Category: Fintech Watch
@@ -831,11 +891,11 @@ Information published.
 - Published: 2026-03-26T00:00:00Z
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 
-## TikTok for Business accounts targeted in new phishing campaign
+## Edit, convert, and sign PDFs without switching apps for just $40
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-26T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/tiktok-for-business-accounts-targeted-in-new-phishing-campaign/
+- URL: https://www.bleepingcomputer.com/offer/deals/edit-convert-and-sign-pdfs-without-switching-apps-for-just-40/
 
 ## A $15 move that could streamline your shopping routine
 - Source: BleepingComputer
@@ -970,14 +1030,6 @@ TP-Link has patched several vulnerabilities in its Archer NX router series, incl
 - URL: https://www.cdiaonline.org/events/2026/03/25/%f0%9f%8c%b8-spring-into-savings-on-metro-2-training-%f0%9f%8c%b8/
 
 Save $100 on CDIA’s Metro 2® Format Fundamentals Webinar Series with code SPRINGFWS100—now through March 31! This live, instructor-led 3-part series is perfect for beginners, new team members,... The post 🌸 Spring Into Savings on Metro 2® Training! 🌸 appeared first on CDIA .
-
-## Manager of botnet used in ransomware attacks gets 2 years in prison
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-25T08:47:29Z
-- URL: https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/
-
-A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies. [...]
 
 ## CVE-2026-2443 Libsoup: out-of-bounds read in libsoup handle_partial_get() leading to heap information disclosure
 - Source: Microsoft MSRC
@@ -1257,24 +1309,6 @@ Comptroller of the Currency Jonathan V. Gould today issued a statement at the Fi
 - Published: 2026-03-25T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/03/25/3262615/0/en/Freddie-Mac-Issues-Monthly-Volume-Summary-for-February-2026.html
 
-## Warren Statement on Financial Stability Oversight Council Meeting
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-financial-stability-oversight-council-meeting
-
-## Ranking Member Warren Probes Potential Conflict of Interests of Big Bank Lawyer Who Now Runs Fed's Supervision and Regulation Division
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/ranking-member-warren-probes-potential-conflict-of-interests-of-big-bank-lawyer-who-now-runs-feds-supervision-and-regulation-division
-
-## Senators Banks and Warren Urge Commerce Secretary Lutnick to Suspend or Reconsider NVIDIA Export Licenses Amid Supermicro Chip Diversion Indictment
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/senators-banks-and-warren-urge-commerce-secretary-lutnick-to-suspend-or-reconsider-nvidia-export-licenses-amid-supermicro-chip-diversion-indictment
-
 ## Chairman Hill: Today’s Discussion is Vital to Shaping the Future of Our Capital Markets
 - Source: House Financial Services
 - Category: Legislative
@@ -1292,6 +1326,12 @@ Comptroller of the Currency Jonathan V. Gould today issued a statement at the Fi
 - Category: Legislative
 - Published: 2026-03-25T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411071
+
+## Full Committee Evaluates the Role Tokenization Plays in Our Capital Markets
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-03-25T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411074
 
 ## With New Nacha Rules Effective This Year, a 2026 Rulebook is a Must
 - Source: NACHA
@@ -1318,6 +1358,12 @@ Last year’s car is undoubtedly just fine, as is the last iteration of your sma
 - Category: IS
 - Published: 2026-03-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-2tb-of-lifetime-filejump-cloud-storage-for-a-one-time-76-payment/
+
+## Manager of botnet used in ransomware attacks gets 2 years in prison
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/
 
 ## Third-Party Servicing of Indirect Vehicle Loans
 - Source: Federal Register
@@ -1385,18 +1431,6 @@ Corrected CVE title. This is an informational change only.
 - Published: 2026-03-24T00:00:00Z
 - URL: https://ir.jackhenry.com/news-releases/news-release-details/fm-bank-and-quoin-financial-bank-select-jack-henry-elevate
 
-## PTC warns of imminent threat from critical Windchill, FlexPLM RCE bug
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/
-
-## Popular LiteLLM PyPI package backdoored to steal credentials, auth tokens
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-24T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/
-
 ## Education Services
 - Source: CDIA
 - Category: Compliance Watch
@@ -1418,14 +1452,6 @@ High regulatory readiness and pragmatic technology adoption help businesses deli
 - URL: https://www.wolterskluwer.com/en/news/cch-tagetik-recognition-from-gartner-fcc
 
 The recognition underscores a broader trend identified by Gartner: finance teams are moving beyond basic cloud migration toward unified platforms that support a more autonomous close.
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-24T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/swedish-businesses-turn-to-outsourcing-and-hybrid-tech
-
-Financial discipline, ongoing cyber security investment and selective AI adoption shape business decision‑making in Sweden
 
 ## Presidential Message on the Anniversary of Patrick Henry’s “Give Me Liberty, Or Give Me Death!” Speech
 - Source: White House
@@ -3989,12 +4015,6 @@ Community banks are among those on the front lines in the war on fraud, and Scot
 
 The trend among dentists toward electronic claim payments continues, according to new research.The 2025 CAQH Index Report shows 309 million claim payments were made by electronic funds transfer (EFT) in 2024, an 11.2% increase over the prior year.“What’s particularly impressive is that the gain comes even as the total number of dental claim payments rose less than a full perce…
 
-## Hill and Flood Statement on President Trump’s Executive Order on Housing Affordability
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-15T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411053
-
 ## CVE-2026-23868
 - Source: Microsoft MSRC
 - Category: IS
@@ -4449,18 +4469,6 @@ Information published.
 
 IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding practice, the Secretary of the Treasury oversees the operations of all Treasury offices and bureaus, including the Internal Revenue Service. Secretary Scott Bessent’s service as Acting Commissioner of the IRS under the Federal Vacancies Reform Act has expired, and he has not served in that capacity si…
 
-## Meuser: The Facts Need to Be Clear, the Failures Need to Be Understood, and Those Responsible Need to Be Held Accountable with the Transparency and Discipline the Law Requires
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411051
-
-## Hill and Barr Applaud President Trump's Move to Expand Access to Mortgage Credit
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-13T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411052
-
 ## Women’s History Month, 2026
 - Source: White House
 - Category: Executive
@@ -4474,21 +4482,3 @@ IR-2026-36, March 13, 2026 — Consistent with applicable law and longstanding p
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260312a.htm
 
 Federal Reserve Board announces approval of application by Home BancShares
-
-## Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-03-12T16:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0416
-
-## Treasury Continues to Disrupt Hamas’ Sham Charity Network as the Group Refuses to Disarm
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-03-12T16:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0415
-
-## Secretary of the Treasury Scott Bessent to Travel to France
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-03-12T16:07:41Z
-- URL: https://home.treasury.gov/news/press-releases/sb0417
