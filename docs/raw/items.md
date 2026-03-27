@@ -1,15 +1,39 @@
 # RegDashboard — Export
 
-Window: `2026-03-13T13:59:42Z` → `2026-03-27T13:59:42Z` (UTC)
-Last updated: `2026-03-27T08:59:42-05:00` (CT) — `2026-03-27T13:59:42Z` (UTC)
+Window: `2026-03-13T18:08:51Z` → `2026-03-27T18:08:51Z` (UTC)
+Last updated: `2026-03-27T13:08:51-05:00` (CT) — `2026-03-27T18:08:51Z` (UTC)
 
-## European Commission investigating breach after Amazon cloud hack
+## Fake VS Code alerts on GitHub spread malware to developers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-27T16:51:52Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/
+
+A large-scale campaign is targeting developers on GitHub with fake Visual Studio Code (VS Code) security alerts posted in the Discussions section of various projects, to trick users into downloading malware. [...]
+
+## Press Release: FDIC Publishes Enforcement Orders for February 2026
+- Source: FDIC
+- Category: Banking
+- Published: 2026-03-27T16:20:59Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40f0a6c
+
+PRESS RELEASE | MARCH 27, 2026 FDIC Publishes Enforcement Orders for February 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in February 2026. There are no administrative hearings scheduled for April 2026. Notice of Intention to Prohibit from Further P…
+
+## Agentic GRC: Teams Get the Tech. The Mindset Shift Is What's Missing.
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-27T14:02:12Z
+- URL: https://www.bleepingcomputer.com/news/security/agentic-grc-teams-get-the-tech-the-mindset-shift-is-whats-missing/
+
+Agentic GRC automates workflows, forcing teams to rethink their role beyond operations. Anecdotes explains why the biggest challenge is shifting from execution to risk leadership. [...]
+
+## European Commission investigating breach after Amazon cloud account hack
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-27T12:22:19Z
-- URL: https://www.bleepingcomputer.com/news/security/european-commission-investigating-breach-after-amazon-cloud-hack/
+- URL: https://www.bleepingcomputer.com/news/security/european-commission-investigating-breach-after-amazon-cloud-account-hack/
 
-The European Commission, the European Union's main executive body, is investigating a security breach after a threat actor gained access to its Amazon cloud infrastructure. [...]
+The European Commission, the European Union's main executive body, is investigating a security breach after a threat actor gained access to the Commission's Amazon cloud environment. [...]
 
 ## Anti-piracy coalition takes down AnimePlay app with 5 million users
 - Source: BleepingComputer
@@ -523,6 +547,12 @@ Information published.
 
 Information published.
 
+## Global Magnitsky Designations Removals; Russia-related Designations Removals
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-03-27T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260327
+
 ## FDIC Publishes February Enforcement Actions
 - Source: FDIC
 - Category: Banking
@@ -531,17 +561,35 @@ Information published.
 
 FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in February 2026
 
+## Warren Probes Biggest Corporate Landlords on Predatory Rental Practices Across Housing Sector
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-27T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-probes-biggest-corporate-landlords-on-predatory-rental-practices-across-housing-sector
+
+## Warren Statement on Trump Financial Regulators' Giveaway to Morgan Stanley
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-27T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-trump-financial-regulators-giveaway-to-morgan-stanley
+
+## Warren Seeks Answers from Trump's Fed Chair Nominee Warsh on His Record Prioritizing Wall Street Over American Families
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-03-27T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-seeks-answers-from-trumps-fed-chair-nominee-warsh-on-his-record-prioritizing-wall-street-over-american-families
+
 ## HEARINGS NOTICE: House Financial Services Committee Schedule for April 2026
 - Source: House Financial Services
 - Category: Legislative
 - Published: 2026-03-27T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411077
 
-## Agentic GRC: Teams Get the Tech. The Mindset Shift Is What's Missing.
-- Source: BleepingComputer
-- Category: IS
+## Housing and Insurance Subcommittee Reviews Mitigation Tactics to Reduce the Risk of Flooding
+- Source: House Financial Services
+- Category: Legislative
 - Published: 2026-03-27T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/agentic-grc-teams-get-the-tech-the-mindset-shift-is-whats-missing/
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411085
 
 ## This lifetime $160 1TB Koofr cloud storage deal ends in days
 - Source: BleepingComputer
@@ -1247,24 +1295,6 @@ The monthly summary report contains information about Fannie Mae’s monthly and
 - Published: 2026-03-26T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/03/26/3263250/0/en/Mortgage-Rates-Average-6-38.html
 
-## Warren Statement on Trump Financial Regulators' Giveaway to Morgan Stanley
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-26T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-trump-financial-regulators-giveaway-to-morgan-stanley
-
-## Warren Seeks Answers from Trump's Fed Chair Nominee Warsh on His Record Prioritizing Wall Street Over American Families
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-26T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-seeks-answers-from-trumps-fed-chair-nominee-warsh-on-his-record-prioritizing-wall-street-over-american-families
-
-## Chairman Scott Pushes for EXIM Bank Reauthorization to Strengthen American Competitiveness, Counter Chinese Economic Aggression
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-03-26T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-pushes-for-exim-bank-reauthorization-to-strengthen-american-competitiveness-counter-chinese-economic-aggression
-
 ## Steil: Regulators Must Evolve as Quickly as the Technologies They Oversee
 - Source: House Financial Services
 - Category: Legislative
@@ -1414,14 +1444,6 @@ CCH Tagetik has been recognized as a Leading Vendor in the BARC Financial Consol
 - URL: https://www.federalregister.gov/documents/2026/03/26/2026-05836/agency-information-collection-activities-proposed-collection-renewal-comment-request
 
 The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0139). The notices of proposed renewal for these information collections were previously published in the Fede…
-
-## GitHub adds AI-powered bug detection to expand security coverage
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-25T23:23:39Z
-- URL: https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/
-
-GitHub is adopting AI-based scanning for its Code Security tool to expand vulnerability detections beyond the CodeQL static analysis and cover more languages and frameworks. [...]
 
 ## Readouts
 - Source: Treasury
@@ -1731,17 +1753,17 @@ Last year’s car is undoubtedly just fine, as is the last iteration of your sma
 - Published: 2026-03-25T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-named-one-americas-most-innovative-companies-fortune-0
 
+## GitHub adds AI-powered bug detection to expand security coverage
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-03-25T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/
+
 ## PolyShell attacks target 56% of all vulnerable Magento stores
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-03-25T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/polyshell-attacks-target-56-percent-of-all-vulnerable-magento-stores/
-
-## Bubble AI app builder abused to steal Microsoft account credentials
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-03-25T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/bubble-ai-app-builder-abused-to-steal-microsoft-account-credentials/
 
 ## Education Services
 - Source: CDIA
@@ -3082,12 +3104,6 @@ The Federal Reserve Board of Governors in Washington DC.
 - Category: Legislative
 - Published: 2026-03-18T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411059
-
-## National Security, Illicit Finance, and International Financial Institutions Subcommittee Examines the Export-Import Bank
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-03-18T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411060
 
 ## Nacha Honors the 15 Under 40 Award Winners for 2026
 - Source: NACHA
@@ -4624,75 +4640,3 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Category: Executive
 - Published: 2026-03-13T19:29:08Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/promoting-access-to-mortgage-credit/
-
-## Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
-- Source: FRB
-- Category: Banking
-- Published: 2026-03-13T15:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260313a.htm
-
-Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola
-
-## Trump pushes regulatory overhaul to expand housing finance
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-03-13T15:00:00Z
-- URL: https://www.texasbankers.com/trump-pushes-regulatory-overhaul-to-expand-housing-finance/
-
-The White House published an executive order directing federal regulators to review and scale back certain rules to expand access to mortgages and encourage new housing construction. President Trump directed agencies to begin easing regulatory burdens on mortgage lenders—particularly community banks—and to remove environmental and energy-efficiency requirements affecting resid…
-
-## Sunshine Act Notice: FDIC Board of Directors Meeting
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-13T14:11:58Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40dc84c
-
-SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, March 19, 2026 | 10:00 a.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, March 18, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 1…
-
-## CVE-2026-25172 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-13T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25172
-
-The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
-
-## CVE-2026-25173 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-13T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25173
-
-The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
-
-## CVE-2026-26111 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-13T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26111
-
-The hotpatch has been re‑released to ensure comprehensive coverage across all affected scenarios. Customers are advised to apply the updated release to ensure full protection.
-
-## CVE-2026-0385 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-13T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0385
-
-Information published.
-
-## CVE-2026-21257 GitHub Copilot and Visual Studio Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-13T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21257
-
-Changes made to the security updates links and information. This is an informational change only.
-
-## CVE-2026-21256 GitHub Copilot and Visual Studio Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-13T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21256
-
-Changes made to the security updates links and information. This is an informational change only.
