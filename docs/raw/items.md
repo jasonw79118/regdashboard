@@ -1,13 +1,51 @@
 # RegDashboard — Export
 
-Window: `2026-03-25T13:06:54Z` → `2026-04-08T13:06:54Z` (UTC)
-Last updated: `2026-04-08T08:06:54-05:00` (CT) — `2026-04-08T13:06:54Z` (UTC)
+Window: `2026-03-25T17:51:36Z` → `2026-04-08T17:51:36Z` (UTC)
+Last updated: `2026-04-08T12:51:36-05:00` (CT) — `2026-04-08T17:51:36Z` (UTC)
+
+## 13-year-old bug in ActiveMQ lets hackers remotely execute commands
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-08T17:26:40Z
+- URL: https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/
+
+Security researchers discovered a remote code execution (RCE) vulnerability in Apache ActiveMQ Classic that has gone undetected for 13 years and could be exploited to execute arbitrary commands. [...]
+
+## Treasury Proposes Rule to Implement the GENIUS Act’s Requirements to Counter Illicit Finance
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-08T16:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0435
+
+## Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service
+- Source: FRB
+- Category: Banking
+- Published: 2026-04-08T15:30:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm
+
+Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service
+
+## Is a $30,000 GPU Good at Password Cracking?
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-08T14:00:10Z
+- URL: https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/
+
+A $30,000 AI GPU doesn't outperform consumer GPUs at password cracking. Specops explains why attackers don't need exotic hardware to break weak passwords. [...]
 
 ## U.S.-UK Financial Regulatory Working Group Winter 2026: Joint Statement
 - Source: Treasury
 - Category: OFAC
 - Published: 2026-04-08T13:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0434
+
+## Treasury Proposes Rule to Implement the GENIUS Act’s Requirements to Counter Illicit Finance
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-04-08T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/treasury-proposes-rule-implement-genius-acts-requirements-counter-illicit
+
+Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) and the Office of Foreign Assets Control issued a joint proposed rule to implement provisions of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act). The proposed rule, which implements the GENIUS Act’s anti-money laundering and sanctions compliance pro…
 
 ## Finastra and Marketnode transform credit agreement onboarding through AI
 - Source: Finastra
@@ -157,6 +195,12 @@ Information published.
 
 Microsoft has pushed a server-side fix for a known issue that broke the Windows Start Menu search feature on some Windows 11 23H2 devices. [...]
 
+## Issuance of Amended Russia-related General License and Frequently Asked Questions; Publication of Spanish Translations of Venezuela-related General Licenses and Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-04-08T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260408
+
 ## Nacha Announces Walrus Security as a Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention
 - Source: NACHA
 - Category: Payments
@@ -165,11 +209,133 @@ Microsoft has pushed a server-side fix for a known issue that broke the Windows 
 
 RESTON, Virginia, April 8, 2026 – Nacha today welcomed Walrus Security as a Nacha Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention.
 
+## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
+
+## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
+
+## Visa Unveils New Services to Modernize Dispute Resolution Process
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
+
+## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
+
+## Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
+
+## Visa to Bring Privacy-Preserving Payments to Canton Network
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
+
+## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
+
+## Visa Completes Acquisition of Prisma and Newpay
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
+
+## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
+
+## Visa Renews Partnership Across Red Bull Formula One Teams
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
+
+## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
+
+## Visa to Participate in Upcoming Investor Conferences
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
+
+## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
+
+## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
+
+## Visa Fiscal First Quarter 2026 Financial Results
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
+
+## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
+
+## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
+
+## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
+
+## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
+
 ## 2TB of lifetime FileJump cloud storage is $90 in this deal
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-04-08T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/2tb-of-lifetime-filejump-cloud-storage-is-90-in-this-deal/
+
+## Wolters Kluwer news
+- Source: Wolters Kluwer
+- Category: Compliance Watch
+- Published: 2026-04-08T00:00:00Z
+- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-survey-chief-nursing-officers-rank-patient-outcomes
+
+Nearly nine in 10 CNOs note positive impacts from the care models in place at their healthcare organizations. Read the press release.
 
 ## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
 - Source: Federal Register
@@ -655,22 +821,6 @@ Microsoft has resolved a known issue that was preventing some Classic Outlook us
 
 Microsoft has deprecated and removed the Support and Recovery Assistant (SaRA) command-line utility from all in-support versions of Windows updates starting March 10. [...]
 
-## Microsoft links Medusa ransomware affiliate to zero-day attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-06T16:56:01Z
-- URL: https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/
-
-Microsoft says that Storm-1175, a China-based financially motivated cybercriminal group known for deploying Medusa ransomware payloads, has been deploying n-day and zero-day exploits in high-velocity attacks. [...]
-
-## Drift $280M crypto theft linked to 6-month in-person operation
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-06T16:35:03Z
-- URL: https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/
-
-The Drift Protocol says that the $280+ million hack it suffered last week was the result of a long-term, carefully planned operation that included building "a functioning operational presence inside the Drift ecosystem." [...]
-
 ## Treasury Department Designates BNY as Financial Agent to Support New Trump Accounts Program
 - Source: Treasury
 - Category: OFAC
@@ -717,17 +867,17 @@ A quarterly e-newsletter that lists events, initiatives, and other resources off
 
 When it comes to fraudsters, that old saying to “follow the money” clearly applies, because that’s exactly what they do. And it helps explain why check fraud is rising, even as the shift to ACH business-to-business payments continues.
 
-## CISA orders feds to patch exploited Fortinet EMS flaw by Friday
+## Microsoft links Medusa ransomware affiliate to zero-day attacks
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-04-06T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-fortinet-flaw-exploited-in-attacks-by-friday/
+- URL: https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/
 
-## Why Simple Breach Monitoring is No Longer Enough
+## Drift $280M crypto theft linked to 6-month in-person operation
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-04-06T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/why-simple-breach-monitoring-is-no-longer-enough/
+- URL: https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/
 
 ## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
 - Source: Federal Register
@@ -1360,114 +1510,6 @@ RESTON, Virginia, April 2, 2026 – Nacha today announced 20 organizations have 
 - Category: Fintech Watch
 - Published: 2026-04-02T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/small-business-sales-grew-steadily-march-higher-ticket-sizes
-
-## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
-
-## Visa Unveils New Services to Modernize Dispute Resolution Process
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
-
-## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
-
-## Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
-
-## Visa to Bring Privacy-Preserving Payments to Canton Network
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
-
-## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-
-## Visa Completes Acquisition of Prisma and Newpay
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
-
-## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
-
-## Visa Renews Partnership Across Red Bull Formula One Teams
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-## Visa Fiscal First Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
-
-## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
-
-## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
-
-## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
-
-## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 
 ## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
 - Source: Federal Register
@@ -3941,12 +3983,6 @@ The Department of Labor (DOL or the Department) is issuing this Notice of Propos
 - Published: 2026-03-26T23:50:32Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/addressing-dei-discrimination-by-federal-contractors/
 
-## Treasury Announces President Donald J. Trump’s Signature to Appear on Future U.S. Paper Currency
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-03-26T21:39:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0425
-
 ## Federal Reserve Board announces it has made the joint findings with the Office of the Comptroller of the Currency required for the OCC to approve a request by Morgan Stanley Bank, N.A., for an exemption under section 23…
 - Source: FRB
 - Category: Banking
@@ -4507,12 +4543,6 @@ Information published.
 
 Information published.
 
-## Belarus Designations Removals; Issuance of Belarus General License; Rescission of Belarus Directive 1
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-26T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260326
-
 ## Tax Time Guide: Steps taxpayers can take now to resolve tax issues and stay on track
 - Source: IRS
 - Category: IRS
@@ -4566,14 +4596,6 @@ The monthly summary report contains information about Fannie Mae’s monthly and
 - URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-and-fairplay-ai-announce-strategic-partnership
 
 Wolters Kluwer Financial & Corporate Compliance announced a strategic partnership with FairPlay AI, a leader in algorithmic fairness and model optimization technology.
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-26T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-leading-vendor-barc-financial-consolidation-group-accounting
-
-CCH Tagetik has been recognized as a Leading Vendor in the BARC Financial Consolidation & Group Accounting Survey 26.
 
 ## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
 - Source: Federal Register
@@ -4704,11 +4726,3 @@ SpecGx LLC has applied to be registered as a bulk manufacturer of basic class(es
 - Category: Federal Register
 - Published: 2026-03-26T00:00:00Z
 - URL: https://www.federalregister.gov/documents/2026/03/26/2026-05897/notice-of-lodging-of-proposed-consent-decree-under-the-comprehensive-environmental-response
-
-## Federal Reserve Board releases annual audited financial statements
-- Source: FRB
-- Category: Banking
-- Published: 2026-03-25T16:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/other20260325a.htm
-
-Federal Reserve Board releases annual audited financial statements
