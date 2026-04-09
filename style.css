@@ -1,0 +1,380 @@
+/* RegDashboard – tile UI (screenshot-style) */
+
+:root{
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --text: #0b1220;
+  --muted: rgba(11,18,32,.70);
+  --line: rgba(17, 24, 39, .10);
+  --shadow: 0 10px 30px rgba(2, 6, 23, .12);
+
+  --radius-xl: 22px;
+  --radius-lg: 16px;
+
+  --link: #2563eb;
+  --link-hover: #1d4ed8;
+
+  --header-grad: linear-gradient(90deg, #2f7cf6 0%, #5166f2 35%, #2fb37a 100%);
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a{ color: var(--link); text-decoration: none; }
+a:hover{ color: var(--link-hover); text-decoration: underline; }
+
+/* ============================
+   Header (centered report dates)
+   ============================ */
+header{
+  background: var(--header-grad);
+  color: rgba(255,255,255,.95);
+  padding: 14px 18px;
+}
+
+.brand{
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+
+  height: 112px;           /* keeps header compact */
+  overflow: visible;       /* allow logo to extend without increasing header height */
+}
+
+.brand-left{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-self: start;
+  flex: 0 0 auto;
+  min-width: 0;
+  padding-left: 4px;
+  gap: 12px;                /* remove CSS gap */
+}
+
+.brand-logo-img{
+  height: 96px;
+  width: auto;
+  display: block;
+  margin-right: 0px; /* compensate for transparent padding in the logo asset */
+  transform: translateY(4px); /* optical centering */
+}
+
+header h1{
+  padding-left: 6px; /* prevents overlap with logo */
+  margin: 0;
+  font-size: clamp(22px, 2.4vw, 34px);
+  font-weight: 800;
+  letter-spacing: .2px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.brand-center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  pointer-events: none; /* allows clicking through to left/right controls */
+}
+
+.report-range{
+  display: inline-flex;
+  margin: 0 auto;
+  pointer-events: auto;
+
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.16);
+  border: 1px solid rgba(255,255,255,.22);
+  backdrop-filter: blur(6px);
+  font-size: 15px;
+  line-height: 1;
+  color: rgba(255,255,255,.92);
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.brand-actions{
+  justify-self: end;
+  flex: 0 0 auto;
+}
+
+/* Mobile: stack center line */
+@media (max-width: 720px){
+  .brand{ height: auto; }
+  header{ padding: 14px 14px; }
+
+  .brand{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .brand-left{
+    justify-content: flex-start;
+  }
+
+  .brand-center{
+    position: static;
+    transform: none;
+    pointer-events: auto;
+  }
+
+  .brand-actions{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .report-range{
+    justify-content: center;
+    width: 100%;
+  }
+}
+  .brand-center{ justify-self: center; }
+  .brand{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+  }
+  .brand-actions{
+    justify-self: center;
+  }
+}
+
+header nav,
+header .nav{
+  display:none !important; /* ensure old menu never reappears */
+}
+
+.btn{
+  display:inline-block;
+  padding:8px 12px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  border:1px solid rgba(255,255,255,.25);
+  color: rgba(255,255,255,.95);
+  background: rgba(255,255,255,.12);
+  font-size: 13px;
+}
+
+.btn:hover{
+  background: rgba(255,255,255,.18);
+  text-decoration:none;
+}
+
+.btn-primary{
+  border-color: rgba(255,255,255,.25);
+}
+
+/* ============================
+   Main
+   ============================ */
+main{
+  max-width: 1180px;
+  margin: 22px auto 34px auto;
+  padding: 0 18px;
+}
+
+#loading{
+  margin: 24px 0;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* GRID OF TILES */
+.tiles{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+@media (max-width: 1080px){
+  .tiles{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 680px){
+  .tiles{ grid-template-columns: 1fr; }
+}
+
+/* TILE CARD */
+.tile{
+  background: var(--card);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  border: 1px solid rgba(2,6,23,.06);
+  display: flex;
+  flex-direction: column;
+
+  /* fixed/standard tile height */
+  height: 420px;
+}
+
+/* left accent stripe */
+.tile::before{
+  content: "";
+  display: block;
+  width: 6px;
+  background: var(--accent, #2563eb);
+}
+
+/* header row inside tile */
+.tile-head{
+  padding: 16px 18px 10px 18px;
+  border-bottom: 1px solid var(--line);
+  flex: 0 0 auto;
+}
+
+.tile-head h2{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+
+/* scrollable content area for articles */
+.tile-body{
+  padding: 12px 18px 8px 18px;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+}
+
+/* items list inside tile */
+.items{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.items li{ padding: 0; }
+
+.headline{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.headline a{
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+.source{
+  color: rgba(2,6,23,.55);
+  font-size: 12px;
+  margin-right: 8px;
+  font-weight: 650;
+}
+
+.date{
+  color: rgba(2,6,23,.50);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.summary{
+  margin-top: 6px;
+  color: rgba(2,6,23,.70);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.empty{
+  color: rgba(2,6,23,.60);
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+/* tile footer "Sources:" row */
+.tile-foot{
+  padding: 10px 18px 14px 18px;
+  border-top: 1px solid var(--line);
+  color: rgba(2,6,23,.62);
+  font-size: 12px;
+  flex: 0 0 auto;
+}
+
+.tile-foot a{ font-weight: 650; }
+
+/* Optional: nicer scrollbars (Chrome/Edge/Safari) */
+.tile-body::-webkit-scrollbar { width: 10px; }
+.tile-body::-webkit-scrollbar-thumb { background: rgba(2,6,23,.18); border-radius: 999px; }
+.tile-body::-webkit-scrollbar-track { background: rgba(2,6,23,.06); }
+
+/* footer */
+footer{
+  max-width: 1180px;
+  margin: 0 auto 40px auto;
+  padding: 0 18px;
+  color: rgba(2,6,23,.65);
+}
+
+footer hr{
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 18px 0;
+}
+
+.disclaimer{
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+/* Federal Register dropdown filter */
+.fr-filters{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 12px 0;
+}
+
+.fr-label{
+  font-size: 12px;
+  font-weight: 650;
+  color: rgba(2,6,23,.70);
+}
+
+.fr-select{
+  width: 100%;
+  max-width: 320px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(2,6,23,.14);
+  background: rgba(255,255,255,.95);
+  font-size: 12px;
+  font-weight: 650;
+  color: rgba(2,6,23,.85);
+}
+
+.fr-select:focus{
+  outline: 2px solid rgba(37, 99, 235, 0.35);
+  outline-offset: 2px;
+}
+
+.brand-text{
+  margin-left: 0px;
+}

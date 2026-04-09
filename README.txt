@@ -1,24 +1,18 @@
-RegDashboard CSV Pack
+RegDashboard CSV Pack v2
 
-Included files:
+What changed:
+- Added a visible Download CSV button in index.html.
+- Added an Open CSV link that points to data/articles.csv.
+- Added client-side CSV generation so the Download CSV button works even if the static CSV file is missing or not yet published.
+- Filled blank summaries with a generic auto synopsis in the CSV output.
+
+Files to place in your repo:
 - index.html
 - data/articles.csv
 
-What changed:
-- Added a "Download CSV" button in the site header that points to data/articles.csv
-- Created data/articles.csv with these columns:
-  Category
-  Title
-  Date
-  Summary
-  Article URL
-  Source
+Expected static CSV URL after push:
+- https://jasonw79118.github.io/regdashboard/data/articles.csv
 
-How to apply:
-1. Replace your current index.html with the included index.html
-2. Add the included CSV file to your repo at data/articles.csv
-3. Commit and push
-
-Notes:
-- The Date column uses the published_at value from items.json
-- The CSV is UTF-8 with BOM so it should open cleanly in Excel
+Important:
+- The Download CSV button does not rely on the static file. It builds the CSV directly from loaded dashboard data.
+- The Open CSV link does require data/articles.csv to exist in the published repo.

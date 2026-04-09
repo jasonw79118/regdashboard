@@ -25,7 +25,8 @@
       </div>
 
       <div class="brand-actions">
-        <a class="btn btn-primary" href="data/articles.csv" download>Download CSV</a>
+        <button class="btn btn-primary" id="download-csv-btn" type="button">Download CSV</button>
+        <a class="btn btn-primary" href="data/articles.csv">Open CSV</a>
         <a class="btn btn-primary" href="raw/index.html">Static export (Copilot)</a>
       </div>
     </div>
@@ -402,6 +403,56 @@ if (lower === "fintech watch" || lower === "fintech") return "Fintech Watch";
       tilesWrap.appendChild(section);
     }
 
+
+
+    function csvEscape(value) {
+      const s = String(value ?? "");
+      return '"' + s.replace(/"/g, '""') + '"';
+    }
+
+    function buildCsvSummary(item) {
+      const raw = String(item?.summary || '').trim();
+      if (raw) return raw;
+      const source = String(item?.source || 'Unknown source').trim();
+      const category = String(item?.category || 'Uncategorized').trim();
+      const title = String(item?.title || 'Untitled').trim();
+      return `Auto synopsis: ${source} item in ${category} — ${title}.`;
+    }
+
+    function buildCsv(items) {
+      const headers = ['Category', 'Title', 'Date', 'Summary', 'Article URL', 'Source'];
+      const lines = [headers.map(csvEscape).join(',')];
+      (items || []).forEach(item => {
+        const row = [
+          item?.category || '',
+          item?.title || '',
+          item?.published_at || '',
+          buildCsvSummary(item),
+          item?.url || '',
+          item?.source || ''
+        ];
+        lines.push(row.map(csvEscape).join(','));
+      });
+      return '\ufeff' + lines.join('\r\n');
+    }
+
+    function wireCsvDownload(items) {
+      const btn = document.getElementById('download-csv-btn');
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        const csv = buildCsv(items || []);
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'articles.csv';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      });
+    }
+
     function dataUrl() {
       const here = new URL(window.location.href);
       const dir = here.href.endsWith("/") ? here.href : (here.href + "/");
@@ -444,6 +495,8 @@ if (lower === "fintech watch" || lower === "fintech") return "Fintech Watch";
           rr.textContent = (start && end) ? `${start} → ${end} (UTC)` : "";
           rr.style.display = rr.textContent ? "inline-flex" : "none";
         }
+
+        wireCsvDownload(data.items || []);
 
         const c = $("count");
         if (c) c.textContent = `Total items loaded: ${(data.items || []).length}`;
