@@ -1,7 +1,111 @@
 # RegDashboard — Export
 
-Window: `2026-03-26T13:30:16Z` → `2026-04-09T13:30:16Z` (UTC)
-Last updated: `2026-04-09T08:30:16-05:00` (CT) — `2026-04-09T13:30:16Z` (UTC)
+Window: `2026-03-26T21:37:26Z` → `2026-04-09T21:37:26Z` (UTC)
+Last updated: `2026-04-09T16:37:26-05:00` (CT) — `2026-04-09T21:37:26Z` (UTC)
+
+## New VENOM phishing attacks steal senior executives' Microsoft logins
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-09T21:37:04Z
+- URL: https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/
+
+Threat actors using a previously undocumented phishing-as-a-service (PhaaS) platform called "VENOM" are targeting credentials of C-suite executives across multiple industries. [...]
+
+## Advancing the United States-Hungary Bilateral Partnership
+- Source: White House
+- Category: Executive
+- Published: 2026-04-09T21:01:46Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/04/advancing-the-united-states-hungary-bilateral-partnership/
+
+## Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-09T20:05:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
+
+SAN FRANCISCO --(BUSINESS WIRE)--Apr. 9, 2026-- Visa (NYSE: V) will report its fiscal second quarter 2026 financial results on Tuesday, April 28, 2026. After market close, Visa will furnish the results with the Securities and Exchange Commission and post them, along with accompanying financial
+
+## Healthcare IT solutions provider ChipSoft hit by ransomware attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-09T19:46:44Z
+- URL: https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/
+
+Dutch healthcare software vendor ChipSoft has been impacted by a ransomware attack that forced the company to take offline its website and digital services for patients and healthcare providers. [...]
+
+## First Lady Melania Trump’s Statement
+- Source: White House
+- Category: Executive
+- Published: 2026-04-09T18:59:01Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-statement/
+
+## Google Chrome adds infostealer protection against session cookie theft
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-09T18:33:29Z
+- URL: https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/
+
+Google has rolled out Device Bound Session Credentials (DBSC) protection in Chrome 146 for Windows, designed to block info-stealing malware from harvesting session cookies. [...]
+
+## Smart Slider updates hijacked to push malicious WordPress, Joomla versions
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-09T16:15:26Z
+- URL: https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/
+
+Hackers hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla, and pushed a malicious version with multiple backdoors. [...]
+
+## Treasury Launches Cybersecurity Information Sharing Initiative for the Digital Asset Industry
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-09T15:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0437
+
+## Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, I…
+- Source: FRB
+- Category: Banking
+- Published: 2026-04-09T15:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm
+
+Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.
+
+## America 250: Presidential Message on the Anniversary of the Surrender at Appomattox
+- Source: White House
+- Category: Executive
+- Published: 2026-04-09T14:30:27Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/04/america-250-presidential-message-on-the-anniversary-of-the-surrender-at-appomattox/
+
+## Presidential Message on National Former Prisoner of War Recognition Day
+- Source: White House
+- Category: Executive
+- Published: 2026-04-09T14:29:26Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-former-prisoner-of-war-recognition-day/
+
+## Presidential Message on the Masters Tournament
+- Source: White House
+- Category: Executive
+- Published: 2026-04-09T14:27:47Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-masters-tournament/
+
+## When attackers already have the keys, MFA is just another door to open
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-09T14:02:12Z
+- URL: https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/
+
+Stolen credentials turn authentication systems into the attack surface. Token shows how wearable biometric authentication verifies the user—not the session—blocking phishing relays and MFA bypass. [...]
+
+## CVE-2026-26133 M365 Copilot Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-09T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
+
+## CVE-2026-0385 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-09T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0385
 
 ## Webinar: From noise to signal - What threat actors are targeting next
 - Source: BleepingComputer
@@ -32,14 +136,6 @@ Eurail B.V., a European travel operator that provides digital passes covering 33
 - URL: https://www.cdiaonline.org/events/2026/04/09/dont-miss-the-metro-2-format-advanced-workshop-in-las-vegas/
 
 Don’t miss the Metro 2® Format Advanced Workshop—an in-person experience Nov. 17-18 in Las Vegas, where complex reporting challenges take center stage—and experienced industry... The post Don’t miss the Metro 2® Format Advanced Workshop in Las Vegas! appeared first on CDIA .
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-04-09T10:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-publishes-agenda-for-2026-annual-general-meeting
-
-Wolters Kluwer today published the agenda and all related materials for the 2026 Annual General Meeting of Shareholders (AGM) to be held on May 21, 2026.
 
 ## Hackers exploiting Acrobat Reader zero-day flaw since December
 - Source: BleepingComputer
@@ -297,23 +393,37 @@ Bitcoin Depot, which operates one of the largest Bitcoin ATM networks, says atta
 
 Microsoft has suspended developer accounts used to maintain multiple high-profile open-source projects without proper notification and no way to quickly reinstate them, effectively blocking them from publishing new software builds and security patches for Windows users. [...]
 
+## Last-minute filing tips, resources available to help taxpayers who still need to file
+- Source: IRS
+- Category: IRS
+- Published: 2026-04-09T00:00:00Z
+- URL: https://www.irs.gov/newsroom/last-minute-filing-tips-resources-available-to-help-taxpayers-who-still-need-to-file-0
+
+IR-2026-47, April 9, 2026 — The Internal Revenue Service reminds last-minute tax filers that the April 15 tax deadline is next week.
+
+## Mortgage Rates Inch Down
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-04-09T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/04/09/3271258/0/en/Mortgage-Rates-Inch-Down.html
+
+## Warren Releases New Report on “Trump Fees” Costing Americans More Than $86 Billion Every Year
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-04-09T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-releases-new-report-on-trump-fees-costing-americans-more-than-86-billion-every-year
+
+## Warren, Schiff, and Blumenthal Investigate Trump Mar-a-Lago Memecoin Conference
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-04-09T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-schiff-and-blumenthal-investigate-trump-mar-a-lago-memecoin-conference
+
 ## Senator Warren Statement on February 2026 PCE
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-04-09T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-february-2026-pce
-
-## Senator Warren Statement on March 2026 Jobs Report
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-04-09T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-march-2026-jobs-report
-
-## Warren, Merkley Question Bessent Over Plan to Add Trump Signature on U.S. Currency Amid Affordability Crisis
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-04-09T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-merkley-question-bessent-over-plan-to-add-trump-signature-on-us-currency-amid-affordability-crisis
 
 ## Bottomline Now a Nacha Preferred Partner for ACH Experience, Open Banking, and Risk and Fraud Prevention
 - Source: NACHA
@@ -322,6 +432,12 @@ Microsoft has suspended developer accounts used to maintain multiple high-profil
 - URL: https://www.nacha.org/news/bottomline-now-nacha-preferred-partner-ach-experience-open-banking-and-risk-and-fraud
 
 RESTON, Virginia, April 9, 2026 – Nacha announced today that Bottomline has become a Nacha Preferred Partner for ACH Experience, Open Banking, and Risk and Fraud Prevention.Bottomline builds secure and resilient payment technologies which help banks and businesses move money safely and without friction. Bottomline's solutions monitor ACH transactions in real time to spot behav…
+
+## Learn IoT, robotics, and automation in one $49.99 course bundle
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-09T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/learn-iot-robotics-and-automation-in-one-4999-course-bundle/
 
 ## Enhance your online privacy with five years of AdGuard VPN for just $34.97
 - Source: BleepingComputer
@@ -417,6 +533,14 @@ Security researchers discovered a remote code execution (RCE) vulnerability in A
 - Published: 2026-04-08T16:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0435
 
+## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-08T16:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
+
+Part of the Visa Intelligent Commerce portfolio, Intelligent Commerce Connect will enable more ways for agents to pay and merchants to accept agentic transactions in a single integration Currently in pilot with select partners including Aldar, AWS, Diddo, Highnote, Mesh, Payabli, Sumvin, and
+
 ## Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service
 - Source: FRB
 - Category: Banking
@@ -424,14 +548,6 @@ Security researchers discovered a remote code execution (RCE) vulnerability in A
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm
 
 Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service
-
-## Is a $30,000 GPU Good at Password Cracking?
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-08T14:00:10Z
-- URL: https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/
-
-A $30,000 AI GPU doesn't outperform consumer GPUs at password cracking. Specops explains why attackers don't need exotic hardware to break weak passwords. [...]
 
 ## U.S.-UK Financial Regulatory Working Group Winter 2026: Joint Statement
 - Source: Treasury
@@ -531,14 +647,6 @@ Information published.
 
 Information published.
 
-## Microsoft rolls out fix for broken Windows Start Menu search
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-08T07:00:55Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/
-
-Microsoft has pushed a server-side fix for a known issue that broke the Windows Start Menu search feature on some Windows 11 23H2 devices. [...]
-
 ## Issuance of Amended Russia-related General License and Frequently Asked Questions; Publication of Spanish Translations of Venezuela-related General Licenses and Frequently Asked Questions
 - Source: OFAC
 - Category: OFAC
@@ -569,139 +677,23 @@ The Federal Reserve Board of Governors in Washington DC.
 
 RESTON, Virginia, April 8, 2026 – Nacha today welcomed Walrus Security as a Nacha Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention.
 
-## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
-
-## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
-
-## Visa Unveils New Services to Modernize Dispute Resolution Process
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
-
-## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
-
-## Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
-
-## Visa to Bring Privacy-Preserving Payments to Canton Network
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
-
-## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-
-## Visa Completes Acquisition of Prisma and Newpay
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
-
-## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
-
-## Visa Renews Partnership Across Red Bull Formula One Teams
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-## Visa Fiscal First Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
-
-## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
-
-## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
-
-## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
-
-## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-08T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
-
 ## An AI tool to replace your multiple subscriptions for $100
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-04-08T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/an-ai-tool-to-replace-your-multiple-subscriptions-for-100/
 
+## Is a $30,000 GPU Good at Password Cracking?
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-08T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/
+
 ## 2TB of lifetime FileJump cloud storage is $90 in this deal
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-04-08T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/2tb-of-lifetime-filejump-cloud-storage-is-90-in-this-deal/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-04-08T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-survey-chief-nursing-officers-rank-patient-outcomes
-
-Nearly nine in 10 CNOs note positive impacts from the care models in place at their healthcare organizations. Read the press release.
 
 ## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
 - Source: Federal Register
@@ -729,30 +721,6 @@ The NCUA Board (Board) proposes to amend the associational common bond provision
 - Published: 2026-04-08T00:00:00Z
 - URL: https://www.federalregister.gov/documents/2026/04/08/2026-06761/sunshine-act-meetings-notice-of-meeting-to-be-held-with-less-than-seven-days-advance-notice
 
-## Hackers exploit critical flaw in Ninja Forms WordPress plugin
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-07T22:03:01Z
-- URL: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/
-
-A critical vulnerability in the Ninja Forms File Uploads premium add-on for WordPress allows uploading arbitrary files without authentication, which can lead to remote code execution. [...]
-
-## FBI: Americans lost a record $21 billion to cybercrime last year
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-07T20:41:52Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/
-
-U.S. victims lost nearly $21 billion to cyber-enabled crimes last year, driven primarily by investment scams, business email compromise, tech support fraud, and data breaches, the Federal Bureau of Investigation says. [...]
-
-## Snowflake customers hit in data theft attacks after SaaS integrator breach
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-07T19:39:18Z
-- URL: https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/
-
-Over a dozen companies have suffered data theft attacks after a SaaS integration provider was breached and authentication tokens stolen. [...]
-
 ## FDIC Board of Directors Meeting
 - Source: FDIC
 - Category: Banking
@@ -769,38 +737,6 @@ BOARD MEETING | APRIL 7, 2026 FDIC Board of Directors Meeting Today, the Federal
 
 Updated information to include CVSS scores. This is an informational change only.
 
-## Presidential Message on National Child Abuse Prevention Month
-- Source: White House
-- Category: Executive
-- Published: 2026-04-07T13:43:58Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-child-abuse-prevention-month/
-
-## Presidential Message on National Sexual Assault Awareness Month
-- Source: White House
-- Category: Executive
-- Published: 2026-04-07T13:42:35Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-sexual-assault-awareness-month/
-
-## Presidential Message on National Financial Literacy Month
-- Source: White House
-- Category: Executive
-- Published: 2026-04-07T13:41:06Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-financial-literacy-month/
-
-## Presidential Message on National Cancer Control Month
-- Source: White House
-- Category: Executive
-- Published: 2026-04-07T13:39:36Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-cancer-control-month/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-04-07T12:08:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-advances-digital-lending-with-new-secured-party-access-capabilities
-
-Wolters Kluwer Financial & Corporate Compliance today announced the introduction of new, first-to-market secured party access capabilities within its eOriginal eAsset® Management Platform.
-
 ## FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance
 - Source: FinCEN
 - Category: FinCEN
@@ -816,14 +752,6 @@ WASHINGTON—Today, the U.S. Department of the Treasury’s Financial Crimes Enf
 - URL: https://www.cdiaonline.org/events/2026/04/07/exciting-keynote-announcement-for-cdiaconnect/
 
 CDIA is excited to welcome Liz Pagel, SVP, Global Head of Alternative Credit Data Solutions at TransUnion, as a keynote speaker! Join... The post Exciting Keynote announcement for #CDIAConnect appeared first on CDIA .
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-04-07T10:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-accelerates-ai-leadership-with-ai-center-of-excellence-and-fab-platform
-
-Disciplined innovation at scale combines deep expertise, proven governance, and a purpose‑built AI platform to deliver trusted, high‑value solutions — faster.
 
 ## CVE-2026-35414
 - Source: Microsoft MSRC
@@ -1029,17 +957,13 @@ The agencies today invite public comment on a proposed rule for anti-money laund
 
 The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement certain requirements and standards under the GENIUS Act.
 
-## This $40 bundle helps you prep for multiple core IT certifications
-- Source: BleepingComputer
-- Category: IS
+## Stablecoins Are Moving Fast. ACH Is Keeping Them Grounded.
+- Source: NACHA
+- Category: Payments
 - Published: 2026-04-07T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-40-bundle-helps-you-prep-for-multiple-core-it-certifications/
+- URL: https://www.nacha.org/news/stablecoins-are-moving-fast-ach-keeping-them-grounded
 
-## US warns of Iranian hackers targeting critical infrastructure
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-07T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-hackers-targeting-critical-infrastructure/
+Stablecoins are no longer a fringe experiment in digital finance; instead, they are rapidly becoming a practical bridge between blockchain innovation and traditional banking. As regulatory clarity improves and adoption accelerates, financial institutions face a critical question: How can stablecoins be safely, efficiently, and compliantly integrated into today’s payments ecosy…
 
 ## Education Services
 - Source: CDIA
@@ -1068,12 +992,6 @@ FMCSA proposes amendments to its regulations governing the annual Unified Carrie
 - URL: https://www.federalregister.gov/documents/2026/04/07/2026-06693/agency-information-collection-activities-proposed-ecollection-ecomments-requested-extension-of-a
 
 The Bureau of Justice Statistics (BJS), Department of Justice (DOJ) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
-
-## Presidential Message on the NCAA College Basketball National Championship Game
-- Source: White House
-- Category: Executive
-- Published: 2026-04-06T18:49:56Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-ncaa-college-basketball-national-championship-game/
 
 ## Treasury Department Designates BNY as Financial Agent to Support New Trump Accounts Program
 - Source: Treasury
@@ -1501,6 +1419,14 @@ Improper authentication in Azure SRE Agent allows an unauthorized attacker to di
 
 Missing authentication for critical function in Azure MCP Server allows an unauthorized attacker to disclose information over a network.
 
+## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-02T12:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
+
+New Visa research reveals more than half of business leaders surveyed are open to AI-to-AI negotiation, but consumers say trust and override capability are non-negotiable SAN FRANCISCO --(BUSINESS WIRE)--Apr. 2, 2026-- A majority of business leaders are preparing for a world where artificial
+
 ## CVE-2026-34043 Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects
 - Source: Microsoft MSRC
 - Category: IS
@@ -1673,6 +1599,14 @@ IR-2026-43, April 2, 2026 — The Internal Revenue Service continues to deliver 
 - Published: 2026-04-02T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/04/02/3267659/0/en/The-30-Year-Fixed-Rate-Mortgage-Averages-6-46.html
 
+## Nacha Welcomes 20 New Payments Innovation Alliance Members in First Quarter of 2026
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-02T00:00:00Z
+- URL: https://www.nacha.org/news/nacha-welcomes-20-new-payments-innovation-alliance-members-first-quarter-2026
+
+RESTON, Virginia, April 2, 2026 – Nacha today announced 20 organizations have joined the Payments Innovation Alliance during the first quarter of 2026, marking a significant expansion of the cross‑industry network that collaborates on innovation, education and operational improvements across the payments ecosystem.The continued growth of the Payments Innovation Alliance reflec…
+
 ## Small Business Sales Grew Steadily in March as Higher Ticket Sizes Offset Softer Foot Traffic, Fiserv Data Shows
 - Source: Fiserv
 - Category: Fintech Watch
@@ -1724,6 +1658,14 @@ By this rule, Commerce amends its agency-specific acquisition regulation by upda
 - Category: OFAC
 - Published: 2026-04-01T16:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0428
+
+## Visa Unveils New Services to Modernize Dispute Resolution Process
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-01T13:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
+
+Fraudulent disputes and administrative inefficiencies drive billions in avoidable economic costs Six new and enhanced dispute resolution tools utilize AI and proprietary technology to help provide issuers, acquirers and merchants with increased visibility into costly fraud expenses SAN FRANCISCO
 
 ## Banco Angolano de Investimentos selects Finastra to scale with customer and industry demands
 - Source: Finastra
@@ -1941,14 +1883,6 @@ Royal Emerald Pharmaceuticals has applied to be registered as a bulk manufacture
 
 FINANCIAL INSTITUTION LETTER | MARCH 31, 2026 FDIC Consumer Compliance Supervisory Highlights Summary: The FDIC’s Consumer Compliance Supervisory Highlights is an annual publication. Its purpose is to enhance transparency regarding the FDIC’s consumer compliance supervisory activities and provide a high-level overview of consumer compliance issues identified in 2025 through th…
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-31T10:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-inaugurates-its-new-pune-office-in-india
-
-New facility underscores Pune’s role as the company’s largest global engineering hub.
-
 ## CVE-2026-23229 crypto: virtio - Add spinlock protection with virtqueue notification
 - Source: Microsoft MSRC
 - Category: IS
@@ -2148,12 +2082,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4676
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Remarks by U.S. Secretary of the Treasury Scott Bessent at Long Island Business Roundtable
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-03-31T02:45:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0427
 
 ## Counter Narcotics Designations Removals; Russia-related Designations Removals
 - Source: OFAC
@@ -3231,14 +3159,6 @@ It’s hard to stop, take a breather, and congratulate yourself in the world of 
 - Published: 2026-03-31T00:00:00Z
 - URL: https://www.cdiaonline.org/fundamentals-metro-2-webinar-series/
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/pr-barc-score-fpm-2026-report-cch-tagetik
-
-CCH® Tagetik Intelligent Platform with Expert AI has been named a Market Leader in the BARC Score Financial Performance Management (FPM) 2026 report.
-
 ## Fiduciary Duties in Selecting Designated Investment Alternatives
 - Source: Federal Register
 - Category: Federal Register
@@ -3311,13 +3231,13 @@ Mortgage Metrics Report
 - Published: 2026-03-30T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-15
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
+## Phixius by Nacha Adds Advanced Fraud Solutions as Fourth Data Responder
+- Source: NACHA
+- Category: Payments
 - Published: 2026-03-30T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-powers-high-stakes-professional-decision-making-by-advancing-its-expert-ai-strategy
+- URL: https://www.nacha.org/news/phixius-nacha-adds-advanced-fraud-solutions-fourth-data-responder
 
-Grounded in proprietary content and expert validation, Wolters Kluwer’s Expert AI powers confident decision‑making across healthcare, tax, accounting, and beyond.
+RESTON, Virginia, March 30, 2026 – Phixius by Nacha—a secure, peer-to-peer payment information network—announced today that Advanced Fraud Solutions is now live on the Phixius network as a data responder. This addition makes Advanced Fraud Solutions the fourth data responder on Phixius, further expanding the breadth of account validation coverage available to Phixius users.
 
 ## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
 - Source: Federal Register
@@ -3468,6 +3388,14 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1519
 
 Information published.
+
+## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-03-28T11:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
+
+With 75 days to go until the FIFA World Cup 2026™, Visa and partners expand community investment—bringing additional access to sport, education and opportunity to communities across the U.S. SAN FRANCISCO & CHARLOTTE, N.C. --(BUSINESS WIRE)--Mar. 28, 2026-- Visa, the Official Payment Technology
 
 ## CVE-2026-2369 Libsoup: libsoup: buffer overread due to integer underflow when handling zero-length resources
 - Source: Microsoft MSRC
@@ -4061,14 +3989,6 @@ FDIC today published a list of orders of administrative enforcement actions take
 - Published: 2026-03-27T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411085
 
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-03-27T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/big-awards-for-excellence-in-ai
-
-TyMetrix 360° Powered by Expert AI and CCH Tagetik Intelligent Platform honored for embedded, trusted AI across professional workflows in legal and finance
-
 ## Regulatory Capital Rules: Regulatory Capital and Standardized Approach for Risk-Weighted Assets
 - Source: Federal Register
 - Category: Federal Register
@@ -4120,19 +4040,3 @@ The Department of Labor (DOL or the Department) is issuing this Notice of Propos
 - Category: Executive
 - Published: 2026-03-26T23:50:32Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/03/addressing-dei-discrimination-by-federal-contractors/
-
-## Federal Reserve Board announces it has made the joint findings with the Office of the Comptroller of the Currency required for the OCC to approve a request by Morgan Stanley Bank, N.A., for an exemption under section 23…
-- Source: FRB
-- Category: Banking
-- Published: 2026-03-26T21:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260326a.htm
-
-Federal Reserve Board announces it has made the joint findings with the Office of the Comptroller of the Currency required for the OCC to approve a request by Morgan Stanley Bank, N.A., for an exemption under section 23A of the Federal Reserve Act
-
-## Remarks by FDIC Director of Risk Management Supervision Ryan Billingsley, "Innovation at the Speed of Markets: How Regulators Keep Pace with Technology"
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-26T14:01:42Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40ff72a
-
-TESTIMONY | MARCH 26, 2026 Remarks by FDIC Director of Risk Management Supervision Ryan Billingsley, "Innovation at the Speed of Markets: How Regulators Keep Pace with Technology" The following statement was delivered before the Subcommittee on Digital Assets, Financial Technology and Artificial Intelligence of the U.S. House Committee on Financial Services. Introduction Chair…
