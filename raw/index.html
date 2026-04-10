@@ -5,495 +5,142 @@
   <title>RegReport – Regulatory Intelligence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="../assets/style.css" />
-  <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="../assets/logo/apple-touch-icon.png?v=3" />
 </head>
-
 <body>
   <header>
     <div class="brand">
       <div class="brand-left">
         <img class="brand-logo-img" src="../assets/logo/regreport-logo.png?v=14" alt="RegReport logo" />
-        <div class="brand-text">
-          <h1>RegReport</h1>
-        </div>
+        <div class="brand-text"><h1>RegReport</h1></div>
       </div>
-
-      <!-- Centered: running report dates (filled by JS from ../data/items.json) -->
       <div class="brand-center">
         <div id="report-range" class="report-range" aria-live="polite"></div>
       </div>
-
       <div class="brand-actions">
         <button class="btn btn-primary" id="download-csv-btn" type="button">Download CSV</button>
-        <a class="btn btn-primary" href="../data/articles.csv">Open CSV</a>
+        <a class="btn btn-primary" href="../data/articles.csv" target="_blank" rel="noopener">Open CSV</a>
         <a class="btn btn-primary" href="index.html">Static export (Copilot)</a>
       </div>
     </div>
   </header>
-
-  <main id="content">
-    <p id="loading">Loading items…</p>
-  </main>
-
+  <main id="content"><p id="loading">Loading items…</p></main>
   <footer>
     <hr />
-
     <div id="count" style="font-size:13px; opacity:.9; text-align:center; margin: 10px 0 12px 0;"></div>
-
     <p class="disclaimer">
       RegDashboard provides links and original summaries of publicly available regulatory and governmental information.
       Content remains the property of the originating agency or publisher. This site does not reproduce publications in full.
     </p>
-
     <p id="last-updated" style="margin:18px 0;text-align:center;font-size:12px;opacity:.75;"></p>
   </footer>
-
 <script>
-  window.addEventListener("DOMContentLoaded", () => {
-    const GROUPS = [
-      { id: "ofac",     title: "OFAC, Sanctions &amp; AML", keys: ["OFAC","OFAC, Sanctions & AML","OFAC, Sanctions &amp; AML","FinCEN"], accent: "#2563eb",
-        sources: [
-          ["OFAC Recent Actions", "https://ofac.treasury.gov/recent-actions"],
-          ["Treasury Press Releases", "https://home.treasury.gov/news/press-releases"],
-          ["FinCEN Press Releases", "https://www.fincen.gov/news/press-releases"]
-        ]
-      },
-      { id: "irs",      title: "Taxes (IRS)", keys: ["IRS"], accent: "#16a34a",
-        sources: [
-          ["IRS Newsroom", "https://www.irs.gov/newsroom"],
-          ["News Releases – Current Month", "https://www.irs.gov/newsroom/news-releases-for-current-month"],
-          ["IRS Newswire (RSS)", "https://www.irs.gov/downloads/rss"]
-        ]
-      },
-      { id: "payments", title: "Payments (Nacha &amp; FRB)", keys: ["Payments"], accent: "#2563eb",
-        sources: [
-          ["NACHA News", "https://www.nacha.org/news"],
-          ["NACHA Rules", "https://www.nacha.org/rules"],
-          ["FRB Press Releases", "https://www.federalreserve.gov/newsevents/pressreleases.htm"],
-        ]
-      },
-      { id: "banking",  title: "Federal Banking Agencies", keys: ["Banking"], accent: "#16a34a",
-        sources: [
-          ["OCC News Releases", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"],
-          ["FDIC Press Releases", "https://www.fdic.gov/news/press-releases/"],
-          ["FRB Press Releases", "https://www.federalreserve.gov/newsevents/pressreleases.htm"]
-        ]
-      },
-      { id: "mortgage", title: "Mortgage (MPF / GSE)", keys: ["Mortgage"], accent: "#16a34a",
-        sources: [
-          ["FHLB MPF News", "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"],
-          ["Fannie Mae Newsroom", "https://www.fanniemae.com/newsroom/fannie-mae-news"],
-          ["Freddie Mac (GlobeNewswire)", "https://www.globenewswire.com/search/organization/Freddie%20Mac"]
-        ]
-      },
-      { id: "fedreg",   title: "Federal Register", keys: ["Federal Register"], accent: "#2563eb",
-        sources: [
-          ["Federal Register", "https://www.federalregister.gov/"]
-        ]
-      },
-      { id: "exec",     title: "Legislative &amp; Executive", keys: ["Legislative", "Executive"], accent: "#16a34a",
-        sources: [
-          ["Senate Banking Newsroom", "https://www.banking.senate.gov/newsroom"],
-          ["House Financial Services Press Releases", "https://financialservices.house.gov/news/"],
-          ["White House News", "https://www.whitehouse.gov/news/"]
-        ]
-      },
-      { id: "infosec",  title: "Information Security", keys: ["IS", "Information Security"], accent: "#2563eb",
-        sources: [
-          ["BleepingComputer", "https://www.bleepingcomputer.com/"],
-          ["Microsoft MSRC", "https://msrc.microsoft.com/"]
-        ]
-      },
-      { id: "fintech",  title: "Fintech Watch", keys: ["Fintech Watch", "Fintech"], accent: "#16a34a",
-        sources: [
-          ["FIS Investor News", "https://investor.fisglobal.com/press-releases"],
-          ["Fiserv Newsroom", "https://investors.fiserv.com/newsroom/news-releases"],
-          ["Jack Henry IR", "https://ir.jackhenry.com/press-releases"],
-        ]
-      },
-      { id: "cardnet",  title: "Payment Card Networks", keys: ["Payment Card Networks"], accent: "#2563eb",
-        sources: [
-          ["Visa Press Releases", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"],
-          ["Mastercard Press", "https://www.mastercard.com/us/en/news-and-trends/press.html"]
-        ]
-      },
-      { id: "compliancewatch", title: "Compliance Watch", keys: ["Compliance Watch"], accent: "#16a34a",
-        sources: [
-          ["CDIA", "https://www.cdiaonline.org/news-events-blogs"],
-          ["ABA News", "https://www.aba.com/news-research/all-news"],
-          ["Texas Bankers Association", "https://www.texasbankers.com/news/"],
-          ["Wolters Kluwer News", "https://www.wolterskluwer.com/en/news"]
-        ]
-      },
-    ];
-
-    function $(id) { return document.getElementById(id); }
-
-    function fmtDate(iso) {
-      const d = new Date(iso);
-      if (Number.isNaN(d.getTime())) return "";
-      return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
+window.addEventListener("DOMContentLoaded", () => {
+  const GROUPS = [
+    { id: "ofac", title: "OFAC, Sanctions &amp; AML", keys: ["OFAC","OFAC, Sanctions & AML","OFAC, Sanctions &amp; AML","FinCEN"], accent: "#2563eb",
+      sources: [["OFAC Recent Actions","https://ofac.treasury.gov/recent-actions"],["Treasury Press Releases","https://home.treasury.gov/news/press-releases"],["FinCEN Press Releases","https://www.fincen.gov/news/press-releases"]] },
+    { id: "irs", title: "Taxes (IRS)", keys: ["IRS"], accent: "#16a34a",
+      sources: [["IRS Newsroom","https://www.irs.gov/newsroom"],["News Releases – Current Month","https://www.irs.gov/newsroom/news-releases-for-current-month"],["IRS Newswire (RSS)","https://www.irs.gov/downloads/rss"]] },
+    { id: "payments", title: "Payments (Nacha &amp; FRB)", keys: ["Payments"], accent: "#2563eb",
+      sources: [["NACHA News","https://www.nacha.org/news"],["NACHA Rules","https://www.nacha.org/rules"],["FRB Press Releases","https://www.federalreserve.gov/newsevents/pressreleases.htm"]] },
+    { id: "banking", title: "Federal Banking Agencies", keys: ["Banking"], accent: "#16a34a",
+      sources: [["OCC News Releases","https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"],["FDIC Press Releases","https://www.fdic.gov/news/press-releases/"],["FRB Press Releases","https://www.federalreserve.gov/newsevents/pressreleases.htm"]] },
+    { id: "mortgage", title: "Mortgage (MPF / GSE)", keys: ["Mortgage"], accent: "#16a34a",
+      sources: [["FHLB MPF News","https://www.fhlbmpf.com/program-guidelines/mpf-program-updates"],["Fannie Mae Newsroom","https://www.fanniemae.com/newsroom/fannie-mae-news"],["Freddie Mac (GlobeNewswire)","https://www.globenewswire.com/search/organization/Freddie%20Mac"]] },
+    { id: "fedreg", title: "Federal Register", keys: ["Federal Register"], accent: "#2563eb", sources: [["Federal Register","https://www.federalregister.gov/"]] },
+    { id: "exec", title: "Legislative &amp; Executive", keys: ["Legislative", "Executive"], accent: "#16a34a",
+      sources: [["Senate Banking Newsroom","https://www.banking.senate.gov/newsroom"],["House Financial Services Press Releases","https://financialservices.house.gov/news/"],["White House News","https://www.whitehouse.gov/news/"]] },
+    { id: "infosec", title: "Information Security", keys: ["IS", "Information Security"], accent: "#2563eb",
+      sources: [["BleepingComputer","https://www.bleepingcomputer.com/"],["Microsoft MSRC","https://msrc.microsoft.com/"]] },
+    { id: "fintech", title: "Fintech Watch", keys: ["Fintech Watch", "Fintech"], accent: "#16a34a",
+      sources: [["FIS Investor News","https://investor.fisglobal.com/press-releases"],["Fiserv Newsroom","https://investors.fiserv.com/newsroom/news-releases"],["Jack Henry IR","https://ir.jackhenry.com/press-releases"]] },
+    { id: "cardnet", title: "Payment Card Networks", keys: ["Payment Card Networks"], accent: "#2563eb",
+      sources: [["Visa Press Releases","https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"],["Mastercard Press","https://www.mastercard.com/us/en/news-and-trends/press.html"]] },
+    { id: "compliancewatch", title: "Compliance Watch", keys: ["Compliance Watch"], accent: "#16a34a",
+      sources: [["CDIA","https://www.cdiaonline.org/news-events-blogs"],["ABA News","https://www.aba.com/news-research/all-news"],["Texas Bankers Association","https://www.texasbankers.com/news/"],["Wolters Kluwer News","https://www.wolterskluwer.com/en/news"]] }
+  ];
+  function $(id){ return document.getElementById(id); }
+  function fmtDate(iso){ const d=new Date(iso); if(Number.isNaN(d.getTime())) return ""; return d.toLocaleDateString(undefined,{year:"numeric",month:"short",day:"2-digit"}); }
+  function normalizeKey(k){
+    const s=String(k||"").trim(); if(!s) return ""; const lower=s.toLowerCase();
+    if (lower==="infosec"||lower==="info sec"||lower==="information security"||lower==="is") return "IS";
+    if (lower==="ofac, sanctions & aml"||lower==="ofac sanctions & aml"||lower==="fincen") return "OFAC";
+    if (lower==="fintech watch"||lower==="fintech") return "Fintech Watch";
+    if (lower==="payment card networks"||lower==="payment card network"||lower==="card networks"||lower==="card network"||lower==="visa"||lower==="mastercard") return "Payment Card Networks";
+    if (lower==="compliance watch"||lower==="cdia"||lower==="fasb"||lower==="aba"||lower==="tba"||lower==="wolters kluwer"||lower==="bankers online") return "Compliance Watch";
+    return s;
+  }
+  function itemKey(i){ return normalizeKey((i&& (i.category || i.source)) || ""); }
+  function renderSources(group){ const srcs=group.sources||[]; if(!srcs.length) return ""; return "Sources: "+srcs.map(([label,url])=>`<a href="${url}" target="_blank" rel="noopener">${label}</a>`).join(" · "); }
+  let selectedFedRegTag = "";
+  function frPrettyTagLabel(tag){ const s=String(tag||""); const parts=s.split(":"); if(parts.length<2) return s; const kind=parts[0].trim().toLowerCase(); const val=parts.slice(1).join(":").trim().replace(/-/g," ").replace(/\b\w/g,c=>c.toUpperCase()); if(kind==="topic") return val; if(kind==="agency") return `Agency: ${val}`; if(kind==="section") return `Section: ${val}`; return `${kind}: ${val}`; }
+  function frCollectTagCounts(allItems){ const counts=new Map(); (allItems||[]).forEach(it=>{ if(!it||it.source!=="Federal Register") return; (it.fr_tags||[]).forEach(t=>counts.set(t,(counts.get(t)||0)+1)); }); return counts; }
+  function frItemMatches(item, tag){ if(!tag) return true; const tags=item.fr_tags||[]; return Array.isArray(tags)&&tags.includes(tag); }
+  function renderFedRegDropdown(filtersWrap, allItems, rerenderList){
+    filtersWrap.innerHTML=""; const counts=frCollectTagCounts(allItems); const tags=Array.from(counts.keys()); if(!tags.length) return; filtersWrap.className="fr-filters";
+    const label=document.createElement("label"); label.className="fr-label"; label.setAttribute("for","frFilter"); label.textContent="Filter:"; filtersWrap.appendChild(label);
+    const sel=document.createElement("select"); sel.id="frFilter"; sel.className="fr-select";
+    const optAll=document.createElement("option"); optAll.value=""; optAll.textContent="All Federal Register"; sel.appendChild(optAll);
+    const topics=[], agencies=[], sections=[], other=[]; tags.forEach(t=>{ if(String(t).startsWith("topic:")) topics.push(t); else if(String(t).startsWith("agency:")) agencies.push(t); else if(String(t).startsWith("section:")) sections.push(t); else other.push(t); });
+    const sortAlpha=(a,b)=>frPrettyTagLabel(a).localeCompare(frPrettyTagLabel(b)); topics.sort(sortAlpha); agencies.sort(sortAlpha); sections.sort(sortAlpha); other.sort(sortAlpha);
+    function addGroup(groupLabel, values){ if(!values.length) return; const og=document.createElement("optgroup"); og.label=groupLabel; values.forEach(v=>{ const opt=document.createElement("option"); opt.value=v; opt.textContent=`${frPrettyTagLabel(v)} (${counts.get(v)||0})`; og.appendChild(opt); }); sel.appendChild(og); }
+    addGroup("Topics",topics); addGroup("Agencies",agencies); addGroup("Sections",sections); addGroup("Other",other);
+    sel.value=selectedFedRegTag||""; sel.addEventListener("change",()=>{ selectedFedRegTag=sel.value||""; rerenderList(); }); filtersWrap.appendChild(sel);
+  }
+  function renderItemsList(listWrap, groupItems){
+    listWrap.innerHTML=""; if(!groupItems.length){ const empty=document.createElement("div"); empty.className="empty"; empty.textContent=selectedFedRegTag ? "No items match this Federal Register filter in the current rolling window." : "No items in the current rolling window."; listWrap.appendChild(empty); return; }
+    const ul=document.createElement("ul"); ul.className="items";
+    groupItems.forEach(i=>{ const li=document.createElement("li"); li.innerHTML=`<div class="headline"><div><span class="source">[${i.source}]</span><a href="${i.url}" target="_blank" rel="noopener">${i.title}</a></div><span class="date">${fmtDate(i.published_at)}</span></div>${i.summary ? `<div class="summary">${i.summary}</div>` : ""}`; ul.appendChild(li); });
+    listWrap.appendChild(ul);
+  }
+  function renderSection(group, items, tilesWrap){
+    const section=document.createElement("section"); section.id=group.id; section.className="tile"; section.style.setProperty("--accent",group.accent||"#2563eb");
+    const head=document.createElement("div"); head.className="tile-head"; head.innerHTML=`<h2>${group.title}</h2>`; section.appendChild(head);
+    const body=document.createElement("div"); body.className="tile-body";
+    const groupKeys=(group.keys||[]).map(normalizeKey);
+    const groupItemsAll=(items||[]).filter(i=>groupKeys.includes(itemKey(i))).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
+    if(group.id==="fedreg"){
+      const filtersWrap=document.createElement("div"); const listWrap=document.createElement("div");
+      const rerender=()=>{ const filtered=groupItemsAll.filter(it=>frItemMatches(it, selectedFedRegTag)); renderFedRegDropdown(filtersWrap, groupItemsAll, rerender); renderItemsList(listWrap, filtered); };
+      body.appendChild(filtersWrap); body.appendChild(listWrap); rerender();
+    } else if (!groupItemsAll.length){
+      const empty=document.createElement("div"); empty.className="empty"; empty.textContent="No items in the current rolling window."; body.appendChild(empty);
+    } else {
+      const ul=document.createElement("ul"); ul.className="items";
+      groupItemsAll.forEach(i=>{ const li=document.createElement("li"); li.innerHTML=`<div class="headline"><div><span class="source">[${i.source}]</span><a href="${i.url}" target="_blank" rel="noopener">${i.title}</a></div><span class="date">${fmtDate(i.published_at)}</span></div>${i.summary ? `<div class="summary">${i.summary}</div>` : ""}`; ul.appendChild(li); });
+      body.appendChild(ul);
     }
-
-    function normalizeKey(k) {
-      const s = String(k || "").trim();
-      if (!s) return "";
-      const lower = s.toLowerCase();
-
-      if (lower === "infosec" || lower === "info sec" || lower === "information security") return "IS";
-      if (lower === "is") return "IS";
-
-      if (lower === "ofac, sanctions & aml" || lower === "ofac sanctions & aml") return "OFAC";
-      if (lower === "fincen") return "OFAC";
-
-      if (lower === "fintech watch" || lower === "fintech") return "Fintech Watch";
-
-      if (lower === "usda rural development") return "USDA";
-      if (lower === "usda") return "USDA";
-
-      if (lower === "payment card networks" || lower === "payment card network" || lower === "card networks" || lower === "card network") return "Payment Card Networks";
-      if (lower === "visa" || lower === "mastercard") return "Payment Card Networks";
-
-      if (lower === "compliance watch") return "Compliance Watch";
-      if (lower === "cdia" || lower === "fasb" || lower === "aba" || lower === "tba" || lower === "wolters kluwer" || lower === "bankers online") return "Compliance Watch";
-
-      return s;
+    section.appendChild(body);
+    const foot=document.createElement("div"); foot.className="tile-foot"; foot.innerHTML=renderSources(group); section.appendChild(foot); tilesWrap.appendChild(section);
+  }
+  function csvEscape(value){ const s=String(value ?? ""); return '"' + s.replace(/"/g,'""') + '"'; }
+  function buildCsvSummary(item){ const raw=String(item?.summary || "").trim(); if(raw) return raw; const source=String(item?.source || "Unknown source").trim(); const category=String(item?.category || "Uncategorized").trim(); const title=String(item?.title || "Untitled").trim(); return `Auto synopsis: ${source} item in ${category} — ${title}.`; }
+  function buildCsv(items){
+    const headers=["Category","Title","Date","Summary","Article URL","Source"];
+    const lines=[headers.map(csvEscape).join(",")];
+    (items||[]).forEach(item=>lines.push([item?.category||"",item?.title||"",item?.published_at||"",buildCsvSummary(item),item?.url||"",item?.source||""].map(csvEscape).join(",")));
+    return "\ufeff"+lines.join("\r\n");
+  }
+  function wireCsvDownload(items){
+    const btn=$("download-csv-btn"); if(!btn) return;
+    btn.addEventListener("click",()=>{ const csv=buildCsv(items||[]); const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"}); const url=URL.createObjectURL(blob); const a=document.createElement("a"); a.href=url; a.download="articles.csv"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000); });
+  }
+  function dataUrl(){ const here=new URL(window.location.href); const dir=here.href.endsWith("/") ? here.href : (here.href + "/"); const u=new URL("../data/items.json", dir); u.searchParams.set("v", String(Date.now())); return u.toString(); }
+  (async()=>{
+    const content=$("content"); if(!content) return; const loading=$("loading");
+    try{
+      const url=dataUrl(); const r=await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(`HTTP ${r.status} loading ${url}`); const data=await r.json();
+      const rr=$("report-range"); if(rr){ const start=fmtDate(data.window_start); const end=fmtDate(data.window_end); rr.textContent=(start&&end)?`${start} → ${end} (UTC)`:""; rr.style.display=rr.textContent ? "inline-flex" : "none"; }
+      wireCsvDownload(data.items||[]);
+      const c=$("count"); if(c) c.textContent=`Total items loaded: ${(data.items||[]).length}`;
+      const last=$("last-updated"); if(last){ const ct=data.generated_at_ct||""; const utc=data.generated_at_utc||""; last.textContent = ct ? `Last updated: ${ct} (CT)${utc ? " — " + utc + " (UTC)" : ""}` : (utc ? `Last updated: ${utc} (UTC)` : ""); }
+      if(loading) loading.remove(); content.innerHTML=""; const tilesWrap=document.createElement("div"); tilesWrap.className="tiles"; content.appendChild(tilesWrap); GROUPS.forEach(g=>renderSection(g, data.items||[], tilesWrap));
+    }catch(e){
+      if(loading) loading.remove(); console.error(e);
+      content.innerHTML=`<div class="tile" style="--accent:#ff2aa3;"><div class="tile-head"><h2>Could not load dashboard data</h2></div><div class="tile-body"><div class="empty" style="color:#8a004d;"><strong>${String(e)}</strong></div><p style="margin:12px 0 0 0; font-size:13px; color:rgba(2,6,23,.75);">Try: <a href="../" target="_blank" rel="noopener">Static Export</a> · <a href="index.html" target="_blank" rel="noopener">raw/index.html</a></p></div><div class="tile-foot"></div></div>`;
     }
-
-    function itemKey(i) {
-      if (!i) return "";
-      return normalizeKey(i.category || i.source || "");
-    }
-
-    function renderSources(group) {
-      const srcs = group.sources || [];
-      if (!srcs.length) return "";
-      const links = srcs.map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener">${label}</a>`).join(" · ");
-      return `Sources: ${links}`;
-    }
-
-    let selectedFedRegTag = "";
-
-    function frPrettyTagLabel(tag) {
-      const s = String(tag || "");
-      const parts = s.split(":");
-      if (parts.length < 2) return s;
-      const kind = parts[0].trim().toLowerCase();
-      const val = parts.slice(1).join(":").trim();
-
-      const prettyVal = val.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
-
-      if (kind === "topic") return prettyVal;
-      if (kind === "agency") return `Agency: ${prettyVal}`;
-      if (kind === "section") return `Section: ${prettyVal}`;
-      return `${kind}: ${prettyVal}`;
-    }
-
-    function frCollectTagCounts(allItems) {
-      const counts = new Map();
-      (allItems || []).forEach(it => {
-        if (!it || it.source !== "Federal Register") return;
-        const tags = it.fr_tags || [];
-        tags.forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
-      });
-      return counts;
-    }
-
-    function frItemMatches(item, tag) {
-      if (!tag) return true;
-      const tags = item.fr_tags || [];
-      return Array.isArray(tags) && tags.includes(tag);
-    }
-
-    function renderFedRegDropdown(filtersWrap, allItems, rerenderList) {
-      filtersWrap.innerHTML = "";
-      const counts = frCollectTagCounts(allItems);
-      const tags = Array.from(counts.keys());
-      if (!tags.length) return;
-
-      filtersWrap.className = "fr-filters";
-
-      const label = document.createElement("label");
-      label.className = "fr-label";
-      label.setAttribute("for", "frFilter");
-      label.textContent = "Filter:";
-      filtersWrap.appendChild(label);
-
-      const sel = document.createElement("select");
-      sel.id = "frFilter";
-      sel.className = "fr-select";
-
-      const optAll = document.createElement("option");
-      optAll.value = "";
-      optAll.textContent = "All Federal Register";
-      sel.appendChild(optAll);
-
-      const topics = [];
-      const agencies = [];
-      const sections = [];
-      const other = [];
-
-      tags.forEach(t => {
-        if (String(t).startsWith("topic:")) topics.push(t);
-        else if (String(t).startsWith("agency:")) agencies.push(t);
-        else if (String(t).startsWith("section:")) sections.push(t);
-        else other.push(t);
-      });
-
-      const sortAlpha = (a, b) => frPrettyTagLabel(a).localeCompare(frPrettyTagLabel(b));
-      topics.sort(sortAlpha); agencies.sort(sortAlpha); sections.sort(sortAlpha); other.sort(sortAlpha);
-
-      function addGroup(groupLabel, values) {
-        if (!values.length) return;
-        const og = document.createElement("optgroup");
-        og.label = groupLabel;
-        values.forEach(v => {
-          const opt = document.createElement("option");
-          opt.value = v;
-          const count = counts.get(v) || 0;
-          opt.textContent = `${frPrettyTagLabel(v)} (${count})`;
-          og.appendChild(opt);
-        });
-        sel.appendChild(og);
-      }
-
-      addGroup("Topics", topics);
-      addGroup("Agencies", agencies);
-      addGroup("Sections", sections);
-      addGroup("Other", other);
-
-      sel.value = selectedFedRegTag || "";
-      sel.addEventListener("change", () => {
-        selectedFedRegTag = sel.value || "";
-        rerenderList();
-      });
-
-      filtersWrap.appendChild(sel);
-    }
-
-    function renderItemsList(listWrap, groupItems) {
-      listWrap.innerHTML = "";
-      if (!groupItems.length) {
-        const empty = document.createElement("div");
-        empty.className = "empty";
-        empty.textContent = selectedFedRegTag
-          ? "No items match this Federal Register filter in the current rolling window."
-          : "No items in the current rolling window.";
-        listWrap.appendChild(empty);
-        return;
-      }
-
-      const ul = document.createElement("ul");
-      ul.className = "items";
-
-      groupItems.forEach(i => {
-        const li = document.createElement("li");
-        li.innerHTML = `
-          <div class="headline">
-            <div>
-              <span class="source">[${i.source}]</span>
-              <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
-            </div>
-            <span class="date">${fmtDate(i.published_at)}</span>
-          </div>
-          ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
-        `;
-        ul.appendChild(li);
-      });
-
-      listWrap.appendChild(ul);
-    }
-
-    function renderSection(group, items, tilesWrap) {
-      const section = document.createElement("section");
-      section.id = group.id;
-      section.className = "tile";
-      section.style.setProperty("--accent", group.accent || "#2563eb");
-
-      const head = document.createElement("div");
-      head.className = "tile-head";
-      head.innerHTML = `<h2>${group.title}</h2>`;
-      section.appendChild(head);
-
-      const body = document.createElement("div");
-      body.className = "tile-body";
-
-      const groupKeys = (group.keys || []).map(normalizeKey);
-      const groupItemsAll = (items || [])
-        .filter(i => groupKeys.includes(itemKey(i)))
-        .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-
-      if (group.id === "fedreg") {
-        const filtersWrap = document.createElement("div");
-        const listWrap = document.createElement("div");
-
-        const rerender = () => {
-          const filtered = groupItemsAll.filter(it => frItemMatches(it, selectedFedRegTag));
-          renderFedRegDropdown(filtersWrap, groupItemsAll, rerender);
-          renderItemsList(listWrap, filtered);
-        };
-
-        body.appendChild(filtersWrap);
-        body.appendChild(listWrap);
-        rerender();
-      } else {
-        if (!groupItemsAll.length) {
-          const empty = document.createElement("div");
-          empty.className = "empty";
-          empty.textContent = "No items in the current rolling window.";
-          body.appendChild(empty);
-        } else {
-          const ul = document.createElement("ul");
-          ul.className = "items";
-
-          groupItemsAll.forEach(i => {
-            const li = document.createElement("li");
-            li.innerHTML = `
-              <div class="headline">
-                <div>
-                  <span class="source">[${i.source}]</span>
-                  <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
-                </div>
-                <span class="date">${fmtDate(i.published_at)}</span>
-              </div>
-              ${i.summary ? `<div class="summary">${i.summary}</div>` : ""}
-            `;
-            ul.appendChild(li);
-          });
-
-          body.appendChild(ul);
-        }
-      }
-
-      section.appendChild(body);
-
-      const foot = document.createElement("div");
-      foot.className = "tile-foot";
-      foot.innerHTML = renderSources(group);
-      section.appendChild(foot);
-
-      tilesWrap.appendChild(section);
-    }
-
-    function csvEscape(value) {
-      const s = String(value ?? "");
-      return '"' + s.replace(/"/g, '""') + '"';
-    }
-
-    function buildCsvSummary(item) {
-      const raw = String(item?.summary || '').trim();
-      if (raw) return raw;
-      const source = String(item?.source || 'Unknown source').trim();
-      const category = String(item?.category || 'Uncategorized').trim();
-      const title = String(item?.title || 'Untitled').trim();
-      return `Auto synopsis: ${source} item in ${category} — ${title}.`;
-    }
-
-    function buildCsv(items) {
-      const headers = ['Category', 'Title', 'Date', 'Summary', 'Article URL', 'Source'];
-      const lines = [headers.map(csvEscape).join(',')];
-      (items || []).forEach(item => {
-        const row = [
-          item?.category || '',
-          item?.title || '',
-          item?.published_at || '',
-          buildCsvSummary(item),
-          item?.url || '',
-          item?.source || ''
-        ];
-        lines.push(row.map(csvEscape).join(','));
-      });
-      return '\ufeff' + lines.join('\r\n');
-    }
-
-    function wireCsvDownload(items) {
-      const btn = document.getElementById('download-csv-btn');
-      if (!btn) return;
-      btn.addEventListener('click', () => {
-        const csv = buildCsv(items || []);
-        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'articles.csv';
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-        setTimeout(() => URL.revokeObjectURL(url), 1000);
-      });
-    }
-
-    function dataUrl() {
-      const here = new URL(window.location.href);
-      const dir = here.href.endsWith("/") ? here.href : (here.href.substring(0, here.href.lastIndexOf("/") + 1));
-      const u = new URL("../data/items.json", dir);
-      u.searchParams.set("v", String(Date.now()));
-      return u.toString();
-    }
-
-    (async () => {
-      const content = $("content");
-      if (!content) return;
-      const loading = $("loading");
-
-      try {
-        const url = dataUrl();
-        const r = await fetch(url, { cache: "no-store" });
-        if (!r.ok) throw new Error(`HTTP ${r.status} loading ${url}`);
-        const data = await r.json();
-
-        const rr = $("report-range");
-        if (rr) {
-          const start = fmtDate(data.window_start);
-          const end = fmtDate(data.window_end);
-          rr.textContent = (start && end) ? `${start} → ${end} (UTC)` : "";
-          rr.style.display = rr.textContent ? "inline-flex" : "none";
-        }
-
-        wireCsvDownload(data.items || []);
-
-        const c = $("count");
-        if (c) c.textContent = `Total items loaded: ${(data.items || []).length}`;
-
-        const last = $("last-updated");
-        if (last) {
-          const ct = data.generated_at_ct || "";
-          const utc = data.generated_at_utc || "";
-          last.textContent = ct
-            ? `Last updated: ${ct} (CT)${utc ? " — " + utc + " (UTC)" : ""}`
-            : (utc ? `Last updated: ${utc} (UTC)` : "");
-        }
-
-        if (loading) loading.remove();
-        content.innerHTML = "";
-
-        const tilesWrap = document.createElement("div");
-        tilesWrap.className = "tiles";
-        content.appendChild(tilesWrap);
-
-        GROUPS.forEach(g => renderSection(g, data.items || [], tilesWrap));
-      } catch (e) {
-        if (loading) loading.remove();
-        console.error(e);
-
-        content.innerHTML = `
-          <div class="tile" style="--accent:#ff2aa3;">
-            <div class="tile-head"><h2>Could not load dashboard data</h2></div>
-            <div class="tile-body">
-              <div class="empty" style="color:#8a004d;"><strong>${String(e)}</strong></div>
-              <p style="margin:12px 0 0 0; font-size:13px; color:rgba(2,6,23,.75);">
-                Try:
-                <a href="../" target="_blank" rel="noopener">Main Dashboard</a> ·
-                <a href="index.html" target="_blank" rel="noopener">raw/index.html</a>
-              </p>
-            </div>
-            <div class="tile-foot"></div>
-          </div>
-        `;
-      }
-    })();
-  });
+  })();
+});
 </script>
 </body>
 </html>

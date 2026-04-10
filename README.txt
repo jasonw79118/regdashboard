@@ -1,14 +1,19 @@
-RegDashboard raw/index.html fix
+RegDashboard dual CSV fix
 
-Replace:
+Replace these files in your repo:
+- index.html
 - raw/index.html
+- data/articles.csv
 
-What changed:
-- Fixed asset paths for raw page:
-  - assets/style.css -> ../assets/style.css
-  - assets/logo/... -> ../assets/logo/...
-- Fixed CSV link:
-  - data/articles.csv -> ../data/articles.csv
-- Fixed data fetch path:
-  - ../data/items.json
-- Kept Download CSV button and fallback auto synopsis logic
+Why this pack:
+- The live main page is still serving an index without CSV controls.
+- The live raw page is still serving an older static export page.
+- This pack updates BOTH entry points so the CSV is available either way.
+
+What you should see after publish:
+- Main page header: Download CSV, Open CSV, Static export (Copilot)
+- Raw page header: Download CSV, Open CSV, Static export (Copilot)
+
+CSV behavior:
+- Keeps real summaries when present.
+- Fills blanks with: Auto synopsis: {Source} item in {Category} — {Title}.
