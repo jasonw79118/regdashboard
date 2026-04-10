@@ -1,19 +1,19 @@
-RegDashboard dual CSV fix
+RegDashboard docs-based CSV fix
+
+Your GitHub Pages publish source is the docs folder.
 
 Replace these files in your repo:
-- index.html
-- raw/index.html
-- data/articles.csv
+- docs/index.html
+- docs/raw/index.html
+- docs/data/articles.csv
 
-Why this pack:
-- The live main page is still serving an index without CSV controls.
-- The live raw page is still serving an older static export page.
-- This pack updates BOTH entry points so the CSV is available either way.
+Do NOT replace the repo-root index.html or raw/index.html for this fix.
+Those are not what the live site is serving.
 
-What you should see after publish:
-- Main page header: Download CSV, Open CSV, Static export (Copilot)
-- Raw page header: Download CSV, Open CSV, Static export (Copilot)
+What this fixes:
+- Main live page gets Download CSV and Open CSV links
+- raw live page gets Download CSV and Open CSV links
+- docs/data/articles.csv is created at the path GitHub Pages actually serves
 
-CSV behavior:
-- Keeps real summaries when present.
-- Fills blanks with: Auto synopsis: {Source} item in {Category} — {Title}.
+Live CSV URL after publish:
+https://jasonw79118.github.io/regdashboard/data/articles.csv
