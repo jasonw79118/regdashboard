@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+  <meta http-equiv="refresh" content="0; url=./index.html" />
+  <link rel="canonical" href="./index.html" />
+</head>
+<body>
+  <p>Redirecting to <a href="./index.html">Static Export</a>…</p>
+</body>
+</html>

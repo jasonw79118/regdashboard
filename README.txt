@@ -1,19 +1,20 @@
-RegDashboard docs-based CSV fix
+RegDashboard safe CSV fix
 
-Your GitHub Pages publish source is the docs folder.
+This pack restores the original static export page and TXT links.
 
-Replace these files in your repo:
+Replace/add only these files:
 - docs/index.html
-- docs/raw/index.html
 - docs/data/articles.csv
+- docs/raw/index.html
+- docs/raw/html
 
-Do NOT replace the repo-root index.html or raw/index.html for this fix.
-Those are not what the live site is serving.
+What this does:
+- Adds Download CSV and Open CSV to the live app page only
+- Keeps the original static export page intact so:
+  - items.txt
+  - items.md
+  - items.ndjson
+  remain linked exactly as before
+- Adds docs/raw/html as a small redirect to docs/raw/index.html
 
-What this fixes:
-- Main live page gets Download CSV and Open CSV links
-- raw live page gets Download CSV and Open CSV links
-- docs/data/articles.csv is created at the path GitHub Pages actually serves
-
-Live CSV URL after publish:
-https://jasonw79118.github.io/regdashboard/data/articles.csv
+Do not change build.py.
