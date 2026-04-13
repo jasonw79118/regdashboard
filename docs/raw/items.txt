@@ -1,5 +1,26 @@
 IS
 BleepingComputer
+2026-04-13T17:39:10Z
+OpenAI rotates macOS certs after Axios attack hit code-signing workflow
+https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/
+OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-13T17:30:10Z
+New Booking.com data breach forces reservation PIN resets
+https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/
+Booking.com has confirmed via a statement to BleepingComputer that it has detected unauthorized access to its systems that has exposed sensitive reservation and user data. [...]
+------------------------------------------------------------
+Banking
+FDIC
+2026-04-13T17:00:15Z
+Press Release: FDIC Announces Four Senior Leadership Appointments
+https://content.govdelivery.com/accounts/USFDIC/bulletins/412bb4d
+PRESS RELEASE | APRIL 13, 2026 FDIC Announces Four Senior Leadership Appointments WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions: Benjamin Olson has been appointed Director of the FDIC’s Division of Depositor and Consumer Protection (DCP). Prior to his appointment,…
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-04-13T15:37:05Z
 Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw
 https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/
@@ -18,6 +39,13 @@ Visa
 Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock
 https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
 SAN FRANCISCO --(BUSINESS WIRE)--Apr. 13, 2026-- Visa (NYSE: V) today commenced an Exchange Offer pursuant to which its Class B-1 and Class B-2 common stock may be exchanged for a combination of Visa’s Class B-3 common stock, Visa’s Class C common stock, which will be freely tradeable following
+------------------------------------------------------------
+Banking
+FDIC
+2026-04-13T00:00:00Z
+FDIC Announces Four Senior Leadership Appointments
+https://www.fdic.gov/news/press-releases/2026/fdic-announces-four-senior-leadership-appointments
+The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions
 ------------------------------------------------------------
 Payments
 NACHA
@@ -1130,20 +1158,6 @@ White House
 First Lady Melania Trump’s Statement
 https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-statement/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-09T18:33:29Z
-Google Chrome adds infostealer protection against session cookie theft
-https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/
-Google has rolled out Device Bound Session Credentials (DBSC) protection in Chrome 146 for Windows, designed to block info-stealing malware from harvesting session cookies. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-09T16:15:26Z
-Smart Slider updates hijacked to push malicious WordPress, Joomla versions
-https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/
-Hackers hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla, and pushed a malicious version with multiple backdoors. [...]
-------------------------------------------------------------
 OFAC
 Treasury
 2026-04-09T15:00:00Z
@@ -1168,12 +1182,6 @@ White House
 2026-04-09T14:29:26Z
 Presidential Message on National Former Prisoner of War Recognition Day
 https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-former-prisoner-of-war-recognition-day/
-------------------------------------------------------------
-Executive
-White House
-2026-04-09T14:27:47Z
-Presidential Message on the Masters Tournament
-https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-masters-tournament/
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -1392,8 +1400,8 @@ RESTON, Virginia, April 9, 2026 – Nacha announced today that Bottomline has be
 IS
 BleepingComputer
 2026-04-09T00:00:00Z
-Learn IoT, robotics, and automation in one $49.99 course bundle
-https://www.bleepingcomputer.com/offer/deals/learn-iot-robotics-and-automation-in-one-4999-course-bundle/
+Google Chrome adds infostealer protection against session cookie theft
+https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/
 ------------------------------------------------------------
 Federal Register
 Federal Register

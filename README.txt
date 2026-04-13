@@ -1,7 +1,5 @@
-Replace your current build.py with this build.py.
-
-What changed:
-- adds docs/raw/items-array.json output every run
-- adds items-array.json link to docs/raw/index.html via render_raw_html()
-- adds items-array.json to sitemap output
-- updates completion log to include items-array.json
+This ZIP contains the updated build.py based on the current file you uploaded.
+Changes:
+- adds docs/raw/items-array.json output on each run
+- adds items-array.json link to static export page
+- adds items-array.json to sitemap

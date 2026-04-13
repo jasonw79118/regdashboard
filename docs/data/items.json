@@ -1,9 +1,33 @@
 {
-  "window_start": "2026-03-30T15:40:33Z",
-  "window_end": "2026-04-13T15:40:33Z",
-  "generated_at_utc": "2026-04-13T15:40:33Z",
-  "generated_at_ct": "2026-04-13T10:40:33-05:00",
+  "window_start": "2026-03-30T17:45:17Z",
+  "window_end": "2026-04-13T17:45:17Z",
+  "generated_at_utc": "2026-04-13T17:45:17Z",
+  "generated_at_ct": "2026-04-13T12:45:17-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "OpenAI rotates macOS certs after Axios attack hit code-signing workflow",
+      "published_at": "2026-04-13T17:39:10Z",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
+      "summary": "OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "New Booking.com data breach forces reservation PIN resets",
+      "published_at": "2026-04-13T17:30:10Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/",
+      "summary": "Booking.com has confirmed via a statement to BleepingComputer that it has detected unauthorized access to its systems that has exposed sensitive reservation and user data. [...]"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "Press Release: FDIC Announces Four Senior Leadership Appointments",
+      "published_at": "2026-04-13T17:00:15Z",
+      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/412bb4d",
+      "summary": "PRESS RELEASE | APRIL 13, 2026 FDIC Announces Four Senior Leadership Appointments WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions: Benjamin Olson has been appointed Director of the FDIC’s Division of Depositor and Consumer Protection (DCP). Prior to his appointment,…"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -27,6 +51,14 @@
       "published_at": "2026-04-13T13:14:00Z",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html",
       "summary": "SAN FRANCISCO --(BUSINESS WIRE)--Apr. 13, 2026-- Visa (NYSE: V) today commenced an Exchange Offer pursuant to which its Class B-1 and Class B-2 common stock may be exchanged for a combination of Visa’s Class B-3 common stock, Visa’s Class C common stock, which will be freely tradeable following"
+    },
+    {
+      "category": "Banking",
+      "source": "FDIC",
+      "title": "FDIC Announces Four Senior Leadership Appointments",
+      "published_at": "2026-04-13T00:00:00Z",
+      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-announces-four-senior-leadership-appointments",
+      "summary": "The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions"
     },
     {
       "category": "Payments",
@@ -1457,22 +1489,6 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Google Chrome adds infostealer protection against session cookie theft",
-      "published_at": "2026-04-09T18:33:29Z",
-      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
-      "summary": "Google has rolled out Device Bound Session Credentials (DBSC) protection in Chrome 146 for Windows, designed to block info-stealing malware from harvesting session cookies. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Smart Slider updates hijacked to push malicious WordPress, Joomla versions",
-      "published_at": "2026-04-09T16:15:26Z",
-      "url": "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/",
-      "summary": "Hackers hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla, and pushed a malicious version with multiple backdoors. [...]"
-    },
-    {
       "category": "OFAC",
       "source": "Treasury",
       "title": "Treasury Launches Cybersecurity Information Sharing Initiative for the Digital Asset Industry",
@@ -1502,14 +1518,6 @@
       "title": "Presidential Message on National Former Prisoner of War Recognition Day",
       "published_at": "2026-04-09T14:29:26Z",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-former-prisoner-of-war-recognition-day/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Presidential Message on the Masters Tournament",
-      "published_at": "2026-04-09T14:27:47Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-masters-tournament/",
       "summary": ""
     },
     {
@@ -1763,9 +1771,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Learn IoT, robotics, and automation in one $49.99 course bundle",
+      "title": "Google Chrome adds infostealer protection against session cookie theft",
       "published_at": "2026-04-09T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/learn-iot-robotics-and-automation-in-one-4999-course-bundle/",
+      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
       "summary": ""
     },
     {

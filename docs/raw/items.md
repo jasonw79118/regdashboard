@@ -1,7 +1,31 @@
 # RegDashboard — Export
 
-Window: `2026-03-30T15:40:33Z` → `2026-04-13T15:40:33Z` (UTC)
-Last updated: `2026-04-13T10:40:33-05:00` (CT) — `2026-04-13T15:40:33Z` (UTC)
+Window: `2026-03-30T17:45:17Z` → `2026-04-13T17:45:17Z` (UTC)
+Last updated: `2026-04-13T12:45:17-05:00` (CT) — `2026-04-13T17:45:17Z` (UTC)
+
+## OpenAI rotates macOS certs after Axios attack hit code-signing workflow
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T17:39:10Z
+- URL: https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/
+
+OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...]
+
+## New Booking.com data breach forces reservation PIN resets
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T17:30:10Z
+- URL: https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/
+
+Booking.com has confirmed via a statement to BleepingComputer that it has detected unauthorized access to its systems that has exposed sensitive reservation and user data. [...]
+
+## Press Release: FDIC Announces Four Senior Leadership Appointments
+- Source: FDIC
+- Category: Banking
+- Published: 2026-04-13T17:00:15Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/412bb4d
+
+PRESS RELEASE | APRIL 13, 2026 FDIC Announces Four Senior Leadership Appointments WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions: Benjamin Olson has been appointed Director of the FDIC’s Division of Depositor and Consumer Protection (DCP). Prior to his appointment,…
 
 ## Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw
 - Source: BleepingComputer
@@ -26,6 +50,14 @@ New "Storm" infostealer skips local decryption, sending browser data to attacker
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
 
 SAN FRANCISCO --(BUSINESS WIRE)--Apr. 13, 2026-- Visa (NYSE: V) today commenced an Exchange Offer pursuant to which its Class B-1 and Class B-2 common stock may be exchanged for a combination of Visa’s Class B-3 common stock, Visa’s Class C common stock, which will be freely tradeable following
+
+## FDIC Announces Four Senior Leadership Appointments
+- Source: FDIC
+- Category: Banking
+- Published: 2026-04-13T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-announces-four-senior-leadership-appointments
+
+The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions
 
 ## AI is Real, but it’s Not Coming for Your Job
 - Source: NACHA
@@ -1283,22 +1315,6 @@ Dutch healthcare software vendor ChipSoft has been impacted by a ransomware atta
 - Published: 2026-04-09T18:59:01Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-statement/
 
-## Google Chrome adds infostealer protection against session cookie theft
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-09T18:33:29Z
-- URL: https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/
-
-Google has rolled out Device Bound Session Credentials (DBSC) protection in Chrome 146 for Windows, designed to block info-stealing malware from harvesting session cookies. [...]
-
-## Smart Slider updates hijacked to push malicious WordPress, Joomla versions
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-09T16:15:26Z
-- URL: https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/
-
-Hackers hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla, and pushed a malicious version with multiple backdoors. [...]
-
 ## Treasury Launches Cybersecurity Information Sharing Initiative for the Digital Asset Industry
 - Source: Treasury
 - Category: OFAC
@@ -1324,12 +1340,6 @@ Federal Reserve Board announces termination of enforcement actions with Crédit 
 - Category: Executive
 - Published: 2026-04-09T14:29:26Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-former-prisoner-of-war-recognition-day/
-
-## Presidential Message on the Masters Tournament
-- Source: White House
-- Category: Executive
-- Published: 2026-04-09T14:27:47Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-masters-tournament/
 
 ## CVE-2026-0385 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
 - Source: Microsoft MSRC
@@ -1573,11 +1583,11 @@ IR-2026-47, April 9, 2026 — The Internal Revenue Service reminds last-minute t
 
 RESTON, Virginia, April 9, 2026 – Nacha announced today that Bottomline has become a Nacha Preferred Partner for ACH Experience, Open Banking, and Risk and Fraud Prevention.Bottomline builds secure and resilient payment technologies which help banks and businesses move money safely and without friction. Bottomline's solutions monitor ACH transactions in real time to spot behav…
 
-## Learn IoT, robotics, and automation in one $49.99 course bundle
+## Google Chrome adds infostealer protection against session cookie theft
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-04-09T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/learn-iot-robotics-and-automation-in-one-4999-course-bundle/
+- URL: https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/
 
 ## Sunshine Act Meetings: Notice of Meeting Held With Less Than Seven Days' Advance Notice
 - Source: Federal Register
