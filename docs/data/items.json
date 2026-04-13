@@ -1,9 +1,921 @@
 {
-  "window_start": "2026-03-27T14:13:32Z",
-  "window_end": "2026-04-10T14:13:32Z",
-  "generated_at_utc": "2026-04-10T14:13:32Z",
-  "generated_at_ct": "2026-04-10T09:13:32-05:00",
+  "window_start": "2026-03-30T13:16:09Z",
+  "window_end": "2026-04-13T13:16:09Z",
+  "generated_at_utc": "2026-04-13T13:16:09Z",
+  "generated_at_ct": "2026-04-13T08:16:09-05:00",
   "items": [
+    {
+      "category": "Payment Card Networks",
+      "source": "Visa",
+      "title": "Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock",
+      "published_at": "2026-04-13T13:14:00Z",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html",
+      "summary": "SAN FRANCISCO --(BUSINESS WIRE)--Apr. 13, 2026-- Visa (NYSE: V) today commenced an Exchange Offer pursuant to which its Class B-1 and Class B-2 common stock may be exchanged for a combination of Visa’s Class B-3 common stock, Visa’s Class C common stock, which will be freely tradeable following"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Save 73% on a refurbished Microsoft Surface Pro 6 today",
+      "published_at": "2026-04-13T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/save-73-percent-on-a-refurbished-microsoft-surface-pro-6-today/",
+      "summary": ""
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company",
+      "published_at": "2026-04-13T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/04/13/2026-07116/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company",
+      "summary": "",
+      "fr_tags": [
+        "agency:federal-reserve-system",
+        "filter:federal-reserve-system"
+      ],
+      "fedreg_document_number": "2026-07116"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Revisions to the Calculation of Annual Household Income and Net Family Assets in the Section 515 Rural Rental Housing and Section 514/516 Farm Labor Housing Programs",
+      "published_at": "2026-04-13T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/04/13/2026-07064/revisions-to-the-calculation-of-annual-household-income-and-net-family-assets-in-the-section-515",
+      "summary": "The Rural Housing Service (RHS or Agency), a Rural Development (RD) agency of the United States Department of Agriculture (USDA), amends its regulation to implement changes related to income calculation and net family assets for properties that receive funding from the Multi-Family Housing (MFH) Section 515 Rural Rental Housing and the Section 514/516 Farm Labor Housing Direct…",
+      "fr_tags": [
+        "agency:agriculture-department",
+        "agency:rural-housing-service",
+        "topic:insurance",
+        "topic:loan-programs-agriculture",
+        "topic:mortgages"
+      ],
+      "fedreg_document_number": "2026-07064"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Occupations That Customarily and Regularly Received Tips; Definition of Qualified Tips",
+      "published_at": "2026-04-13T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/04/13/2026-07104/occupations-that-customarily-and-regularly-received-tips-definition-of-qualified-tips",
+      "summary": "This document contains final regulations that identify occupations that customarily and regularly received tips on or before December 31, 2024, and provide a definition of qualified tips for purposes of the income tax deduction for qualified tips. These regulations affect individuals who receive tips as part of their occupation.",
+      "fr_tags": [
+        "agency:internal-revenue-service",
+        "agency:treasury-department",
+        "topic:income-taxes"
+      ],
+      "fedreg_document_number": "2026-07104"
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Agency Information Collection Activities; Proposed eCollection; eComments Requested; Revision of a Previously Approved Collection; Title-Registration for Controlled Substances Act Data-Use Request",
+      "published_at": "2026-04-13T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/04/13/2026-07129/agency-information-collection-activities-proposed-ecollection-ecomments-requested-revision-of-a",
+      "summary": "The Department of Justice (DOJ), Drug Enforcement Administration (DEA), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.",
+      "fr_tags": [
+        "agency:justice-department",
+        "filter:justice-department"
+      ],
+      "fedreg_document_number": "2026-07129"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Critical Marimo pre-auth RCE flaw now under active exploitation",
+      "published_at": "2026-04-12T14:20:31Z",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+      "summary": "A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-39856 osslsigncode has an Out-of-Bounds Read via Unvalidated Section Bounds in PE Page Hash Calculation",
+      "published_at": "2026-04-12T08:02:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39856",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-39855 osslsigncode has an Integer Underflow in PE Page Hash Calculation Can Cause Out-of-Bounds Read",
+      "published_at": "2026-04-12T08:02:19Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39855",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-39853 osslsigncode has a Stack Buffer Overflow via Unbounded Digest Copy During Signature Verification",
+      "published_at": "2026-04-12T08:02:14Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39853",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-28390 Possible NULL Dereference When Processing CMS KeyTransportRecipientInfo",
+      "published_at": "2026-04-12T08:02:07Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28390",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-28389 Possible NULL Dereference When Processing CMS KeyAgreeRecipientInfo",
+      "published_at": "2026-04-12T08:02:02Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28389",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-40226",
+      "published_at": "2026-04-12T08:01:57Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40226",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-34757 LIBPNG has a yse-after-free in png_set_PLTE, png_set_tRNS and png_set_hIST leading to corrupted chunk data and potential heap information disclosure",
+      "published_at": "2026-04-12T08:01:49Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34757",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-35206 Helm Chart extraction output directory collapse via `Chart.yaml` name dot-segment",
+      "published_at": "2026-04-12T08:01:40Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35206",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Secure 1TB of Koofr cloud storage with lifetime access for one $130 payment",
+      "published_at": "2026-04-12T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/secure-1tb-of-koofr-cloud-storage-with-lifetime-access-for-one-130-payment/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Over 20,000 crypto fraud victims identified in international crackdown",
+      "published_at": "2026-04-11T14:20:40Z",
+      "url": "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
+      "summary": "An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United States. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-39881 Vim Ex command injection in Vims NetBeans integration",
+      "published_at": "2026-04-11T08:40:57Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39881",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-40024 Sleuth Kit tsk_recover Path Traversal",
+      "published_at": "2026-04-11T08:40:50Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40024",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-40025 Sleuth Kit APFS Keybag Parser Out-of-Bounds Read",
+      "published_at": "2026-04-11T08:40:44Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40025",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-40026 Sleuth Kit ISO9660 SUSP Extension Reference Out-of-Bounds Read",
+      "published_at": "2026-04-11T08:40:37Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40026",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-34743 XZ Utils: Buffer overflow in lzma_index_append()",
+      "published_at": "2026-04-11T08:40:16Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34743",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-35535",
+      "published_at": "2026-04-11T08:40:10Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35535",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-35385",
+      "published_at": "2026-04-11T08:40:03Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35385",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-35386",
+      "published_at": "2026-04-11T08:39:56Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35386",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-35388",
+      "published_at": "2026-04-11T08:39:45Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35388",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-4878 Libcap: libcap: privilege escalation via toctou race condition in cap_set_file()",
+      "published_at": "2026-04-11T08:10:27Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4878",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-33810 Case-sensitive excludedSubtrees name constraints cause Auth Bypass in crypto/x509",
+      "published_at": "2026-04-11T08:10:17Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33810",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-27140 Code execution vulnerability in SWIG code generation in cmd/go",
+      "published_at": "2026-04-11T08:10:08Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27140",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-27143 Missing bound checks can lead to memory corruption in safe Go in cmd/compile",
+      "published_at": "2026-04-11T08:09:42Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27143",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32282 TOCTOU permits root escape on Linux via Root.Chmod in os in internal/syscall/unix",
+      "published_at": "2026-04-11T08:09:15Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32282",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-27144 Miscompilation allows memory corruption via CONVNOP-wrapped array copy in cmd/compile",
+      "published_at": "2026-04-11T08:08:48Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27144",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32280 Unexpected work during chain building in crypto/x509",
+      "published_at": "2026-04-11T08:08:24Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32280",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32283 Unauthenticated TLS 1.3 KeyUpdate record can cause persistent connection retention and DoS in crypto/tls",
+      "published_at": "2026-04-11T08:07:52Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32283",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32289 JsBraceDepth Context Tracking Bugs (XSS) in html/template",
+      "published_at": "2026-04-11T08:07:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32289",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32281 Inefficient policy validation in crypto/x509",
+      "published_at": "2026-04-11T08:06:47Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32281",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32288 Unbounded allocation for old GNU sparse in archive/tar",
+      "published_at": "2026-04-11T08:06:16Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32288",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-31789 Heap Buffer Overflow in Hexadecimal Conversion",
+      "published_at": "2026-04-11T08:05:12Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31789",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-28388 NULL Pointer Dereference When Processing a Delta CRL",
+      "published_at": "2026-04-11T08:04:53Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28388",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-28387 Potential Use-after-free in DANE Client Code",
+      "published_at": "2026-04-11T08:04:19Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28387",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-29181 OpenTelemetry-Go multi-value `baggage` header extraction causes excessive allocations (remote dos amplification)",
+      "published_at": "2026-04-11T08:03:43Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-29181",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-39882 OpenTelemetry-Go OTLP HTTP exporters read unbounded HTTP response bodies",
+      "published_at": "2026-04-11T08:03:08Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39882",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-35611 Addressable has a Regular Expression Denial of Service in Addressable templates",
+      "published_at": "2026-04-11T08:01:39Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35611",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-28810 Predictable DNS Transaction IDs Enable Cache Poisoning in Built-in Resolver",
+      "published_at": "2026-04-11T08:01:30Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28810",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-39316 CUPS has a use-after-free in `cupsdDeleteTemporaryPrinters` via dangling subscription pointer",
+      "published_at": "2026-04-11T08:01:21Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39316",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-39314 CUPS has an integer underflow in `_ppdCreateFromIPP` causes root cupsd crash via negative `job-password-supported`",
+      "published_at": "2026-04-11T08:01:16Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39314",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "ChatGPT rolls out new $100 Pro subscription to challenge Claude",
+      "published_at": "2026-04-11T02:08:16Z",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/",
+      "summary": "OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Day of Celebration in Honor of the Life of Henry Clay, 2026",
+      "published_at": "2026-04-11T01:12:27Z",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/04/day-of-celebration-in-honor-of-the-life-of-henry-clay-2026/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5919 Insufficient validation of untrusted input in WebSockets",
+      "published_at": "2026-04-11T00:32:06Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5919",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5918 Inappropriate implementation in Navigation",
+      "published_at": "2026-04-11T00:32:05Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5918",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5915 Insufficient validation of untrusted input in WebML",
+      "published_at": "2026-04-11T00:32:04Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5915",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5914 Type Confusion in CSS",
+      "published_at": "2026-04-11T00:32:03Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5914",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5913 Out of bounds read in Blink",
+      "published_at": "2026-04-11T00:32:02Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5913",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5912 Integer overflow in WebRTC",
+      "published_at": "2026-04-11T00:32:01Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5912",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5911 Policy bypass in ServiceWorkers",
+      "published_at": "2026-04-11T00:32:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5911",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5910 Integer overflow in Media",
+      "published_at": "2026-04-11T00:31:59Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5910",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5909 Integer overflow in Media",
+      "published_at": "2026-04-11T00:31:58Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5909",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5908 Integer overflow in Media",
+      "published_at": "2026-04-11T00:31:57Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5908",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5907 Insufficient data validation in Media",
+      "published_at": "2026-04-11T00:31:56Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5907",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5906 Incorrect security UI in Omnibox",
+      "published_at": "2026-04-11T00:31:55Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5906",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5905 Incorrect security UI in Permissions",
+      "published_at": "2026-04-11T00:31:54Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5905",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5904 Use after free in V8",
+      "published_at": "2026-04-11T00:31:53Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5904",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5903 Policy bypass in IFrameSandbox",
+      "published_at": "2026-04-11T00:31:52Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5903",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5902 Race in Media",
+      "published_at": "2026-04-11T00:31:51Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5902",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5901 Policy bypass in DevTools",
+      "published_at": "2026-04-11T00:31:50Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5901",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5900 Policy bypass in Downloads",
+      "published_at": "2026-04-11T00:31:49Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5900",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5899 Incorrect security UI in History Navigation",
+      "published_at": "2026-04-11T00:31:48Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5899",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5898 Incorrect security UI in Omnibox",
+      "published_at": "2026-04-11T00:31:47Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5898",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5897 Incorrect security UI in Downloads",
+      "published_at": "2026-04-11T00:31:46Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5897",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5896 Policy bypass in Audio",
+      "published_at": "2026-04-11T00:31:45Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5896",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5895 Incorrect security UI in Omnibox",
+      "published_at": "2026-04-11T00:31:44Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5895",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5894 Inappropriate implementation in PDF",
+      "published_at": "2026-04-11T00:31:43Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5894",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5893 Race in V8",
+      "published_at": "2026-04-11T00:31:42Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5893",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5892 Insufficient policy enforcement in PWAs",
+      "published_at": "2026-04-11T00:31:41Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5892",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5891 Insufficient policy enforcement in browser UI",
+      "published_at": "2026-04-11T00:31:40Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5891",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5890 Race in WebCodecs",
+      "published_at": "2026-04-11T00:31:39Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5890",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5889 Cryptographic Flaw in PDFium",
+      "published_at": "2026-04-11T00:31:38Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5889",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5888 Uninitialized Use in WebCodecs",
+      "published_at": "2026-04-11T00:31:37Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5888",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5887 Insufficient validation of untrusted input in Downloads",
+      "published_at": "2026-04-11T00:31:36Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5887",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5886 Out of bounds read in WebAudio",
+      "published_at": "2026-04-11T00:31:35Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5886",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5885 Insufficient validation of untrusted input in WebML",
+      "published_at": "2026-04-11T00:31:34Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5885",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5884 Insufficient validation of untrusted input in Media",
+      "published_at": "2026-04-11T00:31:33Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5884",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5883 Use after free in Media",
+      "published_at": "2026-04-11T00:31:32Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5883",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5882 Incorrect security UI in Fullscreen",
+      "published_at": "2026-04-11T00:31:31Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5882",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5881 Policy bypass in LocalNetworkAccess",
+      "published_at": "2026-04-11T00:31:30Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5881",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5880 Incorrect security UI in browser UI",
+      "published_at": "2026-04-11T00:31:29Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5880",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5879 Insufficient validation of untrusted input in ANGLE",
+      "published_at": "2026-04-11T00:31:28Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5879",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5878 Incorrect security UI in Blink",
+      "published_at": "2026-04-11T00:31:27Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5878",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5877 Use after free in Navigation",
+      "published_at": "2026-04-11T00:31:26Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5877",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5876 Side-channel information leakage in Navigation",
+      "published_at": "2026-04-11T00:31:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5876",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5875 Policy bypass in Blink",
+      "published_at": "2026-04-11T00:31:24Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5875",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5874 Use after free in PrivateAI",
+      "published_at": "2026-04-11T00:31:23Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5874",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5873 Out of bounds read and write in V8",
+      "published_at": "2026-04-11T00:31:22Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5873",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5872 Use after free in Blink",
+      "published_at": "2026-04-11T00:31:21Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5872",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5871 Type Confusion in V8",
+      "published_at": "2026-04-11T00:31:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5871",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5869 Heap buffer overflow in WebML",
+      "published_at": "2026-04-11T00:31:18Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5869",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5870 Integer overflow in Skia",
+      "published_at": "2026-04-11T00:31:18Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5870",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5868 Heap buffer overflow in ANGLE",
+      "published_at": "2026-04-11T00:31:17Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5868",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5867 Heap buffer overflow in WebML",
+      "published_at": "2026-04-11T00:31:16Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5867",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5866 Use after free in Media",
+      "published_at": "2026-04-11T00:31:15Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5866",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5865 Type Confusion in V8",
+      "published_at": "2026-04-11T00:31:14Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5865",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5864 Heap buffer overflow in WebAudio",
+      "published_at": "2026-04-11T00:31:13Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5864",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5863 Inappropriate implementation in V8",
+      "published_at": "2026-04-11T00:31:12Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5863",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5862 Inappropriate implementation in V8",
+      "published_at": "2026-04-11T00:31:11Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5862",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5861 Use after free in V8",
+      "published_at": "2026-04-11T00:31:10Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5861",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5860 Use after free in WebRTC",
+      "published_at": "2026-04-11T00:31:09Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5860",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5859 Integer overflow in WebML",
+      "published_at": "2026-04-11T00:31:08Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5859",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "Chromium: CVE-2026-5858 Heap buffer overflow in WebML",
+      "published_at": "2026-04-11T00:31:05Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5858",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "This offer gives you lifetime access to all Babbel languages",
+      "published_at": "2026-04-11T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-offer-gives-you-lifetime-access-to-all-babbel-languages/",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.",
+      "published_at": "2026-04-10T20:15:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260410a.htm",
+      "summary": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Nearly 4,000 US industrial devices exposed to Iranian cyberattacks",
+      "published_at": "2026-04-10T15:52:45Z",
+      "url": "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
+      "summary": "The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manufactured by Rockwell Automation. [...]"
+    },
     {
       "category": "IS",
       "source": "BleepingComputer",
@@ -11,6 +923,22 @@
       "published_at": "2026-04-10T14:01:11Z",
       "url": "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
       "summary": "Analysis of 1 billion CISA KEV remediation records reveal a breaking point for human-scale security. Qualys shows most critical flaws are exploited before defenders can patch them. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-33119 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability",
+      "published_at": "2026-04-10T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33119",
+      "summary": "User interface (ui) misrepresentation of critical information in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-33118 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "published_at": "2026-04-10T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33118",
+      "summary": "Information published."
     },
     {
       "category": "IS",
@@ -23,7 +951,7 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Supply chain attack at CPUID pushes malware with CPU-Z/HWMonitor",
+      "title": "CPUID hacked to deliver malware via CPU-Z, HWMonitor downloads",
       "published_at": "2026-04-10T13:12:42Z",
       "url": "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
       "summary": "Hackers gained access to an API for the CPUID project and changed the download links on the official website to serve malicious executables for the popular CPU-Z and HWMonitor tools. [...]"
@@ -127,42 +1055,18 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-39881 Vim Ex command injection in Vims NetBeans integration",
-      "published_at": "2026-04-10T08:01:59Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39881",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-40024 Sleuth Kit tsk_recover Path Traversal",
-      "published_at": "2026-04-10T08:01:54Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40024",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-40025 Sleuth Kit APFS Keybag Parser Out-of-Bounds Read",
-      "published_at": "2026-04-10T08:01:48Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40025",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-40026 Sleuth Kit ISO9660 SUSP Extension Reference Out-of-Bounds Read",
-      "published_at": "2026-04-10T08:01:43Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40026",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-32241 Flannel vulnerable to cross-node remote code execution via extension backend BackendData injection",
       "published_at": "2026-04-10T08:01:36Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32241",
       "summary": "Information published."
+    },
+    {
+      "category": "IRS",
+      "source": "IRS",
+      "title": "IRS announces special Saturday hours at Taxpayer Assistance Centers nationwide April 11 and April 25",
+      "published_at": "2026-04-10T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/irs-announces-special-saturday-hours-at-taxpayer-assistance-centers-nationwide-april-11-and-april-25",
+      "summary": "IR-2026-50, April 10, 2026 — The Internal Revenue Service announced special Saturday hours at select Taxpayer Assistance Centers across the country to provide in-person help for taxpayers."
     },
     {
       "category": "IRS",
@@ -181,11 +1085,11 @@
       "summary": "IR-2026-48, April 10, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations that would provide rules and definitions related to the new excise tax imposed on certain remittance transfers, also referred to as the remittance transfer tax, under the One, Big, Beautiful Bill."
     },
     {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
-      "title": "MPF Announcement 2026-17",
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren, Shaheen, Schumer Release Joint Statement Urging Trump Administration Not to Extend Sanctions Relief for Russian Oil",
       "published_at": "2026-04-10T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-17",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-urging-trump-administration-not-to-extend-sanctions-relief-for-russian-oil",
       "summary": ""
     },
     {
@@ -199,17 +1103,9 @@
     {
       "category": "Legislative",
       "source": "Senate Banking",
-      "title": "Warren Releases New Report on “Trump Fees” Costing Americans More Than $86 Billion Every Year",
+      "title": "Warren, Whitehouse Probe Suspicious Oil Trades Surrounding Trump Iran Announcements",
       "published_at": "2026-04-10T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-releases-new-report-on-trump-fees-costing-americans-more-than-86-billion-every-year",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Schiff, and Blumenthal Investigate Trump Mar-a-Lago Memecoin Conference",
-      "published_at": "2026-04-10T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-schiff-and-blumenthal-investigate-trump-mar-a-lago-memecoin-conference",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-whitehouse-probe-suspicious-oil-trades-surrounding-trump-iran-announcements",
       "summary": ""
     },
     {
@@ -234,6 +1130,7 @@
         "topic:banks-banking",
         "topic:currency",
         "topic:foreign-banking",
+        "topic:holding-companies",
         "topic:investment-companies",
         "topic:savings-associations",
         "topic:securities"
@@ -254,6 +1151,7 @@
         "topic:banks-banking",
         "topic:credit",
         "topic:currency",
+        "topic:holding-companies",
         "topic:securities"
       ],
       "fedreg_document_number": "2026-06963"
@@ -631,28 +1529,12 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Eurail says December data breach impacts 300,000 individuals",
-      "published_at": "2026-04-09T10:31:54Z",
-      "url": "https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/",
-      "summary": "Eurail B.V., a European travel operator that provides digital passes covering 33 national railways, says attackers stole the personal information of over 300,000 individuals in a December 2025 data breach. [...]"
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "Don’t miss the Metro 2® Format Advanced Workshop in Las Vegas!",
       "published_at": "2026-04-09T10:00:37Z",
       "url": "https://www.cdiaonline.org/events/2026/04/09/dont-miss-the-metro-2-format-advanced-workshop-in-las-vegas/",
       "summary": "Don’t miss the Metro 2® Format Advanced Workshop—an in-person experience Nov. 17-18 in Las Vegas, where complex reporting challenges take center stage—and experienced industry... The post Don’t miss the Metro 2® Format Advanced Workshop in Las Vegas! appeared first on CDIA ."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Hackers exploiting Acrobat Reader zero-day flaw since December",
-      "published_at": "2026-04-09T09:22:35Z",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploiting-acrobat-reader-zero-day-flaw-since-december/",
-      "summary": "Attackers have been exploiting a zero-day vulnerability in Adobe Reader using maliciously crafted PDF documents since at least December. [...]"
     },
     {
       "category": "IS",
@@ -801,49 +1683,9 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-28388 NULL Pointer Dereference When Processing a Delta CRL",
-      "published_at": "2026-04-09T08:02:20Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28388",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-31790 Incorrect Failure Handling in RSA KEM RSASVE Encapsulation",
       "published_at": "2026-04-09T08:02:14Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31790",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-28387 Potential Use-after-free in DANE Client Code",
-      "published_at": "2026-04-09T08:02:09Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28387",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-31789 Heap Buffer Overflow in Hexadecimal Conversion",
-      "published_at": "2026-04-09T08:02:03Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31789",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-39314 CUPS has an integer underflow in `_ppdCreateFromIPP` causes root cupsd crash via negative `job-password-supported`",
-      "published_at": "2026-04-09T08:01:57Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39314",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-39316 CUPS has a use-after-free in `cupsdDeleteTemporaryPrinters` via dangling subscription pointer",
-      "published_at": "2026-04-09T08:01:51Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39316",
       "summary": "Information published."
     },
     {
@@ -887,22 +1729,6 @@
       "summary": "Information published."
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Hackers steal $3.6 million from crypto ATM giant Bitcoin Depot",
-      "published_at": "2026-04-09T07:44:55Z",
-      "url": "https://www.bleepingcomputer.com/news/security/crypto-atm-giant-bitcoin-depot-says-hackers-stole-36-million-from-its-wallets/",
-      "summary": "Bitcoin Depot, which operates one of the largest Bitcoin ATM networks, says attackers stole $3.665 million worth of Bitcoin from its crypto wallets after breaching its systems last month. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft suspends dev accounts for high-profile open source projects",
-      "published_at": "2026-04-09T06:46:26Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
-      "summary": "Microsoft has suspended developer accounts used to maintain multiple high-profile open-source projects without proper notification and no way to quickly reinstate them, effectively blocking them from publishing new software builds and security patches for Windows users. [...]"
-    },
-    {
       "category": "IRS",
       "source": "IRS",
       "title": "Last-minute filing tips, resources to help taxpayers who still need to file",
@@ -919,27 +1745,11 @@
       "summary": ""
     },
     {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Bottomline Now a Nacha Preferred Partner for ACH Experience, Open Banking, and Risk and Fraud Prevention",
-      "published_at": "2026-04-09T00:00:00Z",
-      "url": "https://www.nacha.org/news/bottomline-now-nacha-preferred-partner-ach-experience-open-banking-and-risk-and-fraud",
-      "summary": "RESTON, Virginia, April 9, 2026 – Nacha announced today that Bottomline has become a Nacha Preferred Partner for ACH Experience, Open Banking, and Risk and Fraud Prevention.Bottomline builds secure and resilient payment technologies which help banks and businesses move money safely and without friction. Bottomline's solutions monitor ACH transactions in real time to spot behav…"
-    },
-    {
       "category": "IS",
       "source": "BleepingComputer",
       "title": "Learn IoT, robotics, and automation in one $49.99 course bundle",
       "published_at": "2026-04-09T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/learn-iot-robotics-and-automation-in-one-4999-course-bundle/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Enhance your online privacy with five years of AdGuard VPN for just $34.97",
-      "published_at": "2026-04-09T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/enhance-your-online-privacy-with-five-years-of-adguard-vpn-for-just-3497/",
       "summary": ""
     },
     {
@@ -1055,14 +1865,6 @@
       "summary": ""
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Effects of Stablecoin Yield Prohibition on Bank Lending",
-      "published_at": "2026-04-08T09:30:00Z",
-      "url": "https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/",
-      "summary": ""
-    },
-    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2026-4645 Github.com/antchfx/xpath: xpath: denial of service via crafted boolean xpath expressions",
@@ -1149,30 +1951,6 @@
       "published_at": "2026-04-08T00:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents.htm",
       "summary": "The Federal Reserve Board of Governors in Washington DC."
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Nacha Announces Walrus Security as a Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention",
-      "published_at": "2026-04-08T00:00:00Z",
-      "url": "https://www.nacha.org/news/nacha-announces-walrus-security-preferred-partner-account-validation-fraud-monitoring-and-risk",
-      "summary": "RESTON, Virginia, April 8, 2026 – Nacha today welcomed Walrus Security as a Nacha Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Hackers use pixel-large SVG trick to hide credit card stealer",
-      "published_at": "2026-04-08T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Google: New UNC6783 hackers steal corporate Zendesk support tickets",
-      "published_at": "2026-04-08T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
-      "summary": ""
     },
     {
       "category": "Federal Register",
@@ -1345,41 +2123,9 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-35386",
-      "published_at": "2026-04-07T08:02:11Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35386",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-35385",
-      "published_at": "2026-04-07T08:02:05Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35385",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-35387",
       "published_at": "2026-04-07T08:02:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35387",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-35388",
-      "published_at": "2026-04-07T08:01:55Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35388",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-34743 XZ Utils: Buffer overflow in lzma_index_append()",
-      "published_at": "2026-04-07T08:01:44Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34743",
       "summary": "Information published."
     },
     {
@@ -1605,14 +2351,6 @@
         "topic:employment"
       ],
       "fedreg_document_number": "2026-06632"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-35535",
-      "published_at": "2026-04-05T08:02:45Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35535",
-      "summary": "Information published."
     },
     {
       "category": "IS",
@@ -2411,14 +3149,6 @@
       "summary": "Publications"
     },
     {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Abrigo Now a Nacha Preferred Partner for ACH Experience/Compliance/Risk and Fraud Prevention",
-      "published_at": "2026-04-01T00:00:00Z",
-      "url": "https://www.nacha.org/news/abrigo-now-nacha-preferred-partner-ach-experiencecompliancerisk-and-fraud-prevention",
-      "summary": "RESTON, Virginia, April 1, 2026 – Nacha has announced that Abrigo has become a Nacha Preferred Partner for ACH Experience/Compliance/Risk and Fraud Prevention.Abrigo provides artificial intelligence-powered software and services that help more than 2,400 financial institutions detect and prevent fraud, manage risk, and drive growth. Its fraud detection solution enables users t…"
-    },
-    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Rescission of OCC Guidelines Establishing Standards for Recovery Planning by Certain Large Insured National Banks, Insured Federal Savings Associations, and Insured Federal Branches",
@@ -2444,6 +3174,7 @@
         "agency:treasury-department",
         "filter:government-sponsored-enterprise",
         "topic:currency",
+        "topic:holding-companies",
         "topic:investment-companies",
         "topic:securities"
       ],
@@ -4257,6 +4988,7 @@
         "topic:fair-housing",
         "topic:flood-insurance",
         "topic:housing",
+        "topic:mortgage-insurance",
         "topic:mortgages"
       ],
       "fedreg_document_number": "2026-06173"
@@ -4273,376 +5005,6 @@
         "filter:justice-department"
       ],
       "fedreg_document_number": "2026-06208"
-    },
-    {
-      "category": "FinCEN",
-      "source": "FinCEN",
-      "title": "FinCEN Proposes Rule to Pay Whistleblowers",
-      "published_at": "2026-03-30T12:00:00Z",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-pay-whistleblowers",
-      "summary": "Major Milestone in Implementing Whistleblower Program to Fight Illicit Finance"
-    },
-    {
-      "category": "FinCEN",
-      "source": "FinCEN",
-      "title": "FinCEN Issues Advisory on Health Care Fraud Schemes Targeting Medicare, Medicaid, and Other Federal and State Health Care Benefit Programs",
-      "published_at": "2026-03-30T12:00:00Z",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-advisory-health-care-fraud-schemes-targeting-medicare-medicaid-and",
-      "summary": "Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued an Advisory urging financial institutions to be vigilant about health care fraud schemes targeting government health care benefit programs such as Medicare and Medicaid. FinCEN’s Advisory provides financial institutions with an overview of how fraudsters, organized crime groups, a…"
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Issuance of Amended Russia-related General License; Publication of Amended Russia-related Frequently Asked Questions",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260330",
-      "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "OCC",
-      "title": "OCC Reports Mortgage Performance for Fourth Quarter of 2025",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.occ.gov/publications-and-resources/publications/mortgage-metrics-reports/files/mmr-quaterly-report.html",
-      "summary": "Mortgage Metrics Report"
-    },
-    {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
-      "title": "MPF Announcement Summary 2026-S04",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-summary-2026-s04",
-      "summary": ""
-    },
-    {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
-      "title": "MPF Announcement 2026-16",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-16",
-      "summary": ""
-    },
-    {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
-      "title": "MPF Announcement 2026-15",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-15",
-      "summary": ""
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Phixius by Nacha Adds Advanced Fraud Solutions as Fourth Data Responder",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.nacha.org/news/phixius-nacha-adds-advanced-fraud-solutions-fourth-data-responder",
-      "summary": "RESTON, Virginia, March 30, 2026 – Phixius by Nacha—a secure, peer-to-peer payment information network—announced today that Advanced Fraud Solutions is now live on the Phixius network as a data responder. This addition makes Advanced Fraud Solutions the fourth data responder on Phixius, further expanding the breadth of account validation coverage available to Phixius users."
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Formations of, Acquisitions by, and Mergers of Bank Holding Companies",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06101/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies",
-      "summary": "",
-      "fr_tags": [
-        "agency:federal-reserve-system",
-        "filter:federal-reserve-system"
-      ],
-      "fedreg_document_number": "2026-06101"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Authority To Require Supervision and Regulation of Certain Nonbank Financial Companies",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06114/authority-to-require-supervision-and-regulation-of-certain-nonbank-financial-companies",
-      "summary": "This proposed interpretive guidance, which would replace the Financial Stability Oversight Council's existing interpretive guidance on nonbank financial company determinations and its analytic framework for financial stability risks, describes the approach the Council intends to take in prioritizing its work to identify and address potential risks to U.S. financial stability u…",
-      "fr_tags": [
-        "agency:financial-stability-oversight-council",
-        "topic:investments",
-        "topic:securities"
-      ],
-      "fedreg_document_number": "2026-06114"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Agency Information Collection Activities: Comment Request",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06100/agency-information-collection-activities-comment-request",
-      "summary": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) reinstatement of an information collection titled \"Prohibition on Inclusion of Adverse Information in Consumer Reporting in Cases of Human Trafficking (Regulation V)\" approved under OMB Control Number 317…",
-      "fr_tags": [
-        "agency:consumer-financial-protection-bureau",
-        "filter:consumer-financial-protection-bureau"
-      ],
-      "fedreg_document_number": "2026-06100"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Streamlining the Census Bureau's Foreign Trade Regulations",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06133/streamlining-the-census-bureaus-foreign-trade-regulations",
-      "summary": "By this rule, the Census Bureau is amending its foreign trade regulations by consolidating and streamlining certain cross-references to, and restatements of, other regulations and authorities. This action is intended to simplify and streamline the foreign trade regulations, and thereby promote efficiency, without affecting any substantive obligations or entitlements.",
-      "fr_tags": [
-        "agency:census-bureau",
-        "agency:commerce-department",
-        "topic:economic-statistics"
-      ],
-      "fedreg_document_number": "2026-06133"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06048/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors",
-      "summary": "The U.S. Nuclear Regulatory Commission (NRC) is amending its regulations by adding a risk-informed, performance-based, and technology-inclusive regulatory framework for commercial nuclear plants in response to the Nuclear Energy Innovation and Modernization Act (NEIMA). The current application and licensing requirements were primarily developed to address license requests conc…",
-      "fr_tags": [
-        "agency:nuclear-regulatory-commission",
-        "topic:insurance"
-      ],
-      "fedreg_document_number": "2026-06048"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Agency Information Collection Activities; Proposed eCollection eComments Requested; Reinstatement, With Change, of a Previously Approved Collection for Which Approval Has Expired: Census of Prosecutor Offices",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06118/agency-information-collection-activities-proposed-ecollection-ecomments-requested-reinstatement-with",
-      "summary": "The Department of Justice (DOJ), Bureau of Justice Statistics, will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.",
-      "fr_tags": [
-        "agency:justice-department",
-        "filter:justice-department"
-      ],
-      "fedreg_document_number": "2026-06118"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Importer of Controlled Substances Application: Pharmaron Manufacturing Services (US) LLC",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06053/importer-of-controlled-substances-application-pharmaron-manufacturing-services-us-llc",
-      "summary": "Pharmaron Manufacturing Services (US) LLC has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to SUPPLEMENTARY INFORMATION listed below for further drug information.",
-      "fr_tags": [
-        "agency:drug-enforcement-administration",
-        "agency:justice-department",
-        "filter:justice-department"
-      ],
-      "fedreg_document_number": "2026-06053"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Bulk Manufacturer of Controlled Substances Application: Chemtos, LLC",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06052/bulk-manufacturer-of-controlled-substances-application-chemtos-llc",
-      "summary": "Chemtos, LLC has applied to be registered as a bulk manufacturer of basic class(es) of controlled substance(s). Refer to SUPPLEMENTARY INFORMATION listed below for further drug information.",
-      "fr_tags": [
-        "agency:drug-enforcement-administration",
-        "agency:justice-department",
-        "filter:justice-department"
-      ],
-      "fedreg_document_number": "2026-06052"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Importer of Controlled Substances Application: Usona Institute",
-      "published_at": "2026-03-30T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/03/30/2026-06051/importer-of-controlled-substances-application-usona-institute",
-      "summary": "Usona Institute. has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.",
-      "fr_tags": [
-        "agency:drug-enforcement-administration",
-        "agency:justice-department",
-        "filter:justice-department"
-      ],
-      "fedreg_document_number": "2026-06051"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-4833 Orc discount Markdown markdown.c compile recursion",
-      "published_at": "2026-03-29T08:03:30Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4833",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2025-70888",
-      "published_at": "2026-03-29T08:03:20Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-70888",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-33672 Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "published_at": "2026-03-29T08:03:13Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33672",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-33671 Picomatch has a ReDoS vulnerability via extglob quantifiers",
-      "published_at": "2026-03-29T08:03:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33671",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-23399 nf_tables: nft_dynset: fix possible stateful expression memleak in error path",
-      "published_at": "2026-03-29T08:02:34Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23399",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-3591 A stack use-after-return flaw in SIG(0) handling code may enable ACL bypass",
-      "published_at": "2026-03-29T08:02:04Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3591",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-3119 Authenticated query containing a TKEY record may cause named to terminate unexpectedly",
-      "published_at": "2026-03-29T08:01:58Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3119",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-3104 Memory leak in code preparing DNSSEC proofs of non-existence",
-      "published_at": "2026-03-29T08:01:52Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3104",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-34085",
-      "published_at": "2026-03-29T08:01:35Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34085",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-1519 Excessive NSEC3 iterations cause high CPU load during insecure delegation validation",
-      "published_at": "2026-03-29T08:01:29Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1519",
-      "summary": "Information published."
-    },
-    {
-      "category": "Payment Card Networks",
-      "source": "Visa",
-      "title": "Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.",
-      "published_at": "2026-03-28T11:00:00Z",
-      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html",
-      "summary": "With 75 days to go until the FIFA World Cup 2026™, Visa and partners expand community investment—bringing additional access to sport, education and opportunity to communities across the U.S. SAN FRANCISCO & CHARLOTTE, N.C. --(BUSINESS WIRE)--Mar. 28, 2026-- Visa, the Official Payment Technology"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-2369 Libsoup: libsoup: buffer overread due to integer underflow when handling zero-length resources",
-      "published_at": "2026-03-28T08:38:40Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2369",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-33413 etcd: Authorization bypasses in multiple APIs",
-      "published_at": "2026-03-28T08:01:30Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33413",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-33343 etcd: Nested etcd transactions bypass RBAC authorization checks",
-      "published_at": "2026-03-28T08:01:22Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33343",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "Chromium: CVE-2026-4442 Heap buffer overflow in CSS",
-      "published_at": "2026-03-28T01:02:56Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4442",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "Chromium: CVE-2026-4680 Use after free in FedCM",
-      "published_at": "2026-03-28T01:02:55Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4680",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "Chromium: CVE-2026-4677 Out of bounds read in WebAudio",
-      "published_at": "2026-03-28T01:02:54Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4677",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "Chromium: CVE-2026-4679 Integer overflow in Fonts",
-      "published_at": "2026-03-28T01:02:54Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4679",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "Chromium: CVE-2026-4675 Heap buffer overflow in WebGL",
-      "published_at": "2026-03-28T01:02:53Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4675",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "Chromium: CVE-2026-4674 Out of bounds read in CSS",
-      "published_at": "2026-03-28T01:02:52Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4674",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "Chromium: CVE-2026-4673 Heap buffer overflow in WebAudio",
-      "published_at": "2026-03-28T01:02:49Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4673",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Paying Our Great Transportation Security Administration Officers and Employees",
-      "published_at": "2026-03-27T18:29:20Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/memorandum-for-the-secretary-of-homeland-security-and-the-director-of-the-office-of-management-and-budget/",
-      "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "Press Release: FDIC Publishes Enforcement Orders for February 2026",
-      "published_at": "2026-03-27T16:20:59Z",
-      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/40f0a6c",
-      "summary": "PRESS RELEASE | MARCH 27, 2026 FDIC Publishes Enforcement Orders for February 2026 WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in February 2026. There are no administrative hearings scheduled for April 2026. Notice of Intention to Prohibit from Further P…"
     }
   ]
 }
