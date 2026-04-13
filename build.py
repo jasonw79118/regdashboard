@@ -3261,6 +3261,7 @@ def render_raw_html(payload: Dict[str, Any]) -> str:
       <a href="./items.md">items.md</a>
       <a href="./items.txt">items.txt</a>
       <a href="./items.ndjson">items.ndjson</a>
+      <a href="./items-array.json">items-array.json</a>
       <a href="../">Back to app</a>
     </div>
   </header>
@@ -3391,6 +3392,7 @@ def write_raw_aux_files() -> None:
   <url><loc>{raw_base}/items.md</loc></url>
   <url><loc>{raw_base}/items.txt</loc></url>
   <url><loc>{raw_base}/items.ndjson</loc></url>
+  <url><loc>{raw_base}/items-array.json</loc></url>
   <url><loc>{print_base}/items.html</loc></url>
 </urlset>
 """

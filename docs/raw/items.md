@@ -1,7 +1,23 @@
 # RegDashboard — Export
 
-Window: `2026-03-30T13:16:09Z` → `2026-04-13T13:16:09Z` (UTC)
-Last updated: `2026-04-13T08:16:09-05:00` (CT) — `2026-04-13T13:16:09Z` (UTC)
+Window: `2026-03-30T15:40:33Z` → `2026-04-13T15:40:33Z` (UTC)
+Last updated: `2026-04-13T10:40:33-05:00` (CT) — `2026-04-13T15:40:33Z` (UTC)
+
+## Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T15:37:05Z
+- URL: https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/
+
+Adobe has released an emergency security update for Acrobat Reader to fix a vulnerability, tracked as CVE-2026-34621, that has been exploited in zero-day attacks since at least December. [...]
+
+## The silent “Storm”: New infostealer hijacks sessions, decrypts server-side
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T14:05:15Z
+- URL: https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/
+
+New "Storm" infostealer skips local decryption, sending browser data to attacker servers. Varonis shows how server-side decryption enables session hijacking, bypassing passwords and MFA. [...]
 
 ## Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock
 - Source: Visa
@@ -10,6 +26,14 @@ Last updated: `2026-04-13T08:16:09-05:00` (CT) — `2026-04-13T13:16:09Z` (UTC)
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
 
 SAN FRANCISCO --(BUSINESS WIRE)--Apr. 13, 2026-- Visa (NYSE: V) today commenced an Exchange Offer pursuant to which its Class B-1 and Class B-2 common stock may be exchanged for a combination of Visa’s Class B-3 common stock, Visa’s Class C common stock, which will be freely tradeable following
+
+## AI is Real, but it’s Not Coming for Your Job
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-13T00:00:00Z
+- URL: https://www.nacha.org/news/ai-real-its-not-coming-your-job
+
+How real is artificial intelligence in the payments space? “It’s very real, and it’s only going to get much, much better,” said Kevin Miyamoto, Co-Founder and COO of Identifee, a platform that helps financial institutions enhance customer engagement while automating manual tasks. Identifee is also a Nacha Preferred Partner.
 
 ## Save 73% on a refurbished Microsoft Surface Pro 6 today
 - Source: BleepingComputer
@@ -1307,14 +1331,6 @@ Federal Reserve Board announces termination of enforcement actions with Crédit 
 - Published: 2026-04-09T14:27:47Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-masters-tournament/
 
-## When attackers already have the keys, MFA is just another door to open
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-09T14:02:12Z
-- URL: https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/
-
-Stolen credentials turn authentication systems into the attack surface. Token shows how wearable biometric authentication verifies the user—not the session—blocking phishing relays and MFA bypass. [...]
-
 ## CVE-2026-0385 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -1328,14 +1344,6 @@ Stolen credentials turn authentication systems into the attack surface. Token sh
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133
 
 Updated CWE value. This is an informational change only.
-
-## Webinar: From noise to signal - What threat actors are targeting next
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-09T12:20:28Z
-- URL: https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/
-
-Threat actors often signal their intentions before launching attacks, from dark web chatter to access-broker listings and credential requests. Join our upcoming webinar with Flare Systems to learn how to turn those early warning signs into proactive defensive action before an intrusion begins. [...]
 
 ## Raiffeisen Bank reaffirms long-standing commitment to powering core retail services with Finastra
 - Source: Finastra
@@ -1557,6 +1565,14 @@ IR-2026-47, April 9, 2026 — The Internal Revenue Service reminds last-minute t
 - Published: 2026-04-09T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/04/09/3271258/0/en/Mortgage-Rates-Inch-Down.html
 
+## Bottomline Now a Nacha Preferred Partner for ACH Experience, Open Banking, and Risk and Fraud Prevention
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-09T00:00:00Z
+- URL: https://www.nacha.org/news/bottomline-now-nacha-preferred-partner-ach-experience-open-banking-and-risk-and-fraud
+
+RESTON, Virginia, April 9, 2026 – Nacha announced today that Bottomline has become a Nacha Preferred Partner for ACH Experience, Open Banking, and Risk and Fraud Prevention.Bottomline builds secure and resilient payment technologies which help banks and businesses move money safely and without friction. Bottomline's solutions monitor ACH transactions in real time to spot behav…
+
 ## Learn IoT, robotics, and automation in one $49.99 course bundle
 - Source: BleepingComputer
 - Category: IS
@@ -1732,6 +1748,14 @@ IR-2026-45, April 6, 2026 — The Department of the Treasury and the Internal Re
 - URL: https://www.federalreserve.gov/newsevents.htm
 
 The Federal Reserve Board of Governors in Washington DC.
+
+## Nacha Announces Walrus Security as a Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-08T00:00:00Z
+- URL: https://www.nacha.org/news/nacha-announces-walrus-security-preferred-partner-account-validation-fraud-monitoring-and-risk
+
+RESTON, Virginia, April 8, 2026 – Nacha today welcomed Walrus Security as a Nacha Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention.
 
 ## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
 - Source: Federal Register
@@ -2758,6 +2782,14 @@ Information published.
 - URL: https://www.occ.gov/publications-and-resources/publications/index-publications.html
 
 Publications
+
+## Abrigo Now a Nacha Preferred Partner for ACH Experience/Compliance/Risk and Fraud Prevention
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-01T00:00:00Z
+- URL: https://www.nacha.org/news/abrigo-now-nacha-preferred-partner-ach-experiencecompliancerisk-and-fraud-prevention
+
+RESTON, Virginia, April 1, 2026 – Nacha has announced that Abrigo has become a Nacha Preferred Partner for ACH Experience/Compliance/Risk and Fraud Prevention.Abrigo provides artificial intelligence-powered software and services that help more than 2,400 financial institutions detect and prevent fraud, manage risk, and drive growth. Its fraud detection solution enables users t…
 
 ## Rescission of OCC Guidelines Establishing Standards for Recovery Planning by Certain Large Insured National Banks, Insured Federal Savings Associations, and Insured Federal Branches
 - Source: Federal Register

@@ -1,14 +1,7 @@
-RegDashboard build.py patch
+Replace your current build.py with this build.py.
 
 What changed:
-- Added docs/raw/items-array.json output
-- File is generated every time build.py runs
-- Existing scrape and output logic remains unchanged
-
-New output file:
-- docs/raw/items-array.json
-
-How it works:
-- Keeps existing docs/data/items.json wrapper output
-- Keeps existing docs/raw/items.ndjson output
-- Adds a plain JSON array written from payload["items"]
+- adds docs/raw/items-array.json output every run
+- adds items-array.json link to docs/raw/index.html via render_raw_html()
+- adds items-array.json to sitemap output
+- updates completion log to include items-array.json
