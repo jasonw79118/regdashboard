@@ -1,7 +1,457 @@
 # RegDashboard — Export
 
-Window: `2026-03-30T17:45:17Z` → `2026-04-13T17:45:17Z` (UTC)
-Last updated: `2026-04-13T12:45:17-05:00` (CT) — `2026-04-13T17:45:17Z` (UTC)
+Window: `2026-03-31T13:57:21Z` → `2026-04-14T13:57:21Z` (UTC)
+Last updated: `2026-04-14T08:57:21-05:00` (CT) — `2026-04-14T13:57:21Z` (UTC)
+
+## Visa Launches Validator Node on Tempo Blockchain
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-14T13:06:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html
+
+Visa has joined the Tempo network as an anchor validator, supporting transaction validation and accelerating the development of onchain payment infrastructure. SAN FRANCISCO --(BUSINESS WIRE)--Apr. 14, 2026-- Visa (NYSE:V), a global leader in digital payments, today announced it has officially
+
+## CVE-2026-31418 netfilter: ipset: drop logically empty buckets in mtype_del
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:44:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31418
+
+Information published.
+
+## CVE-2026-28390 Possible NULL Dereference When Processing CMS KeyTransportRecipientInfo
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:44:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28390
+
+Information published.
+
+## CVE-2026-3184 Util-linux: util-linux: access control bypass due to improper hostname canonicalization
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:41:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3184
+
+Information published.
+
+## CVE-2026-27456 util-linux: TOCTOU Race Condition in util-linux mount(8) - Loop Device Setup
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:41:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27456
+
+Information published.
+
+## CVE-2026-0964 Libssh: improper sanitation of paths received from scp servers
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:41:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0964
+
+Information published.
+
+## CVE-2026-0966 Libssh: buffer underflow in ssh_get_hexa() on invalid input
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:41:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0966
+
+Information published.
+
+## CVE-2026-0967 Libssh: libssh: denial of service via inefficient regular expression processing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:41:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0967
+
+Information published.
+
+## CVE-2026-0965 Libssh: libssh: denial of service via improper configuration file handling
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:40:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0965
+
+Information published.
+
+## CVE-2026-4647 Binutils: out-of-bounds read in xcoff relocation processing in gnu binutils bfd library
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:40:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4647
+
+Information published.
+
+## CVE-2026-32777
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:39:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32777
+
+Information published.
+
+## CVE-2026-32778
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:39:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32778
+
+Information published.
+
+## CVE-2026-32776
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:39:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32776
+
+Information published.
+
+## CVE-2025-69647
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:39:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69647
+
+Information published.
+
+## CVE-2026-3784 wrong proxy connection reuse with credentials
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:38:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
+
+Information published.
+
+## CVE-2026-1965 bad reuse of HTTP Negotiate connection
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:38:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
+
+Information published.
+
+## CVE-2026-3783 token leak with redirect and netrc
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:38:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3783
+
+Information published.
+
+## CVE-2025-69649 GNU Binutils thru 2.46 readelf contains a null pointer dereference vulnerability when processing a crafted ELF binary with malformed header fields. During relocation processing, an invalid or null section…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:38:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69649
+
+Information published.
+
+## CVE-2025-69645 Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug information. A logic error in the handling of DWARF compilation units can result in…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:38:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69645
+
+Information published.
+
+## CVE-2025-69652 GNU Binutils thru 2.46 readelf contains a vulnerability that leads to an abort (SIGABRT) when processing a crafted ELF binary with malformed DWARF abbrev or debug information. Due to incomplete state clea…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:38:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69652
+
+Information published.
+
+## CVE-2025-69646 Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug_rnglists data. A logic error in the handling of the debug_rnglists header can cause…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:38:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69646
+
+Information published.
+
+## CVE-2025-11839 GNU Binutils prdbg.c tg_tag_type return value
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:37:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11839
+
+Information published.
+
+## CVE-2025-1148 GNU Binutils ld ldelfgen.c link_order_scan memory leak
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:37:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1148
+
+Information published.
+
+## CVE-2025-1147 GNU Binutils nm nm.c internal_strlen buffer overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:37:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1147
+
+Information published.
+
+## CVE-2026-31428 netfilter: nfnetlink_log: fix uninitialized padding leak in NFULA_PAYLOAD
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:02:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31428
+
+Information published.
+
+## CVE-2026-31421 net/sched: cls_fw: fix NULL pointer dereference on shared blocks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:02:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31421
+
+Information published.
+
+## CVE-2026-31420 bridge: mrp: reject zero test interval to avoid OOM panic
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:02:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31420
+
+Information published.
+
+## CVE-2026-31419 net: bonding: fix use-after-free in bond_xmit_broadcast()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:02:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31419
+
+Information published.
+
+## CVE-2026-31426 ACPI: EC: clean up handlers on probe failure in acpi_ec_setup()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:02:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31426
+
+Information published.
+
+## CVE-2026-31427 netfilter: nf_conntrack_sip: fix use of uninitialized rtp_addr in process_sdp
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:02:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31427
+
+Information published.
+
+## CVE-2026-31414 netfilter: nf_conntrack_expect: use expect->helper
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:02:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31414
+
+Information published.
+
+## CVE-2026-31422 net/sched: cls_flow: fix NULL pointer dereference on shared blocks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:01:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31422
+
+Information published.
+
+## CVE-2026-31417 net/x25: Fix overflow when accumulating packets
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:01:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31417
+
+Information published.
+
+## CVE-2026-31424 netfilter: x_tables: restrict xt_check_match/xt_check_target extensions for NFPROTO_ARP
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:01:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31424
+
+Information published.
+
+## CVE-2026-31423 net/sched: sch_hfsc: fix divide-by-zero in rtsc_min()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:01:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31423
+
+Information published.
+
+## CVE-2026-31416 netfilter: nfnetlink_log: account for netlink header size
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:01:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31416
+
+Information published.
+
+## CVE-2026-40393
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:01:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40393
+
+Information published.
+
+## CVE-2026-40385
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:01:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40385
+
+Information published.
+
+## CVE-2026-40386
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-14T08:01:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40386
+
+Information published.
+
+## How is Quantum Computing Used in Everyday Life?
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.nacha.org/news/how-quantum-computing-used-everyday-life
+
+Every time you tap your phone at a terminal, browse the web, or authorize a secure online payment, you aren't just using high-end technology—you are relying on quantum mechanics. While it may sound like science fiction, the physics of the "super-small" is the invisible bedrock of modern financial security and convenience.The first generation of quantum innovation didn't just s…
+
+## How Can Your Organization Build a Quantum-Safe Payments Readiness Plan?
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.nacha.org/news/how-can-your-organization-build-quantum-safe-payments-readiness-plan
+
+The payments industry cannot wait for the arrival of a cryptographically relevant quantum computer to act. Payments participants – financial institutions, third parties, vendors, and more – should have already started their quantum readiness implementation plan to address the looming quantum threat. "Harvest Now, Decrypt Later" (HNDL) isn’t just a technical risk, it’s a system…
+
+## What are the Steps for Conducting a Quantum-Safe Payments Risk Assessment?
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.nacha.org/news/what-are-steps-conducting-quantum-safe-payments-risk-assessment
+
+Payment applications are categorized as critical because they generally operate 24/7/365. Today, most if not all, payment stakeholders regularly perform risk assessments. The quantum risk assessment, specific to your cryptographic infrastructure and that of your providers, can identify vulnerabilities that quantum computing could exploit.Your organization’s risk management pla…
+
+## Are Your Assets—and Their Weak Points—Ready for a Quantum Future?
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.nacha.org/news/are-your-assets-and-their-weak-points-ready-quantum-future
+
+Quantum computing is about to change everything for the payments industry! Today’s cryptography protocols protect against most threats; however, quantum computing will be capable of breaking these math-based algorithms in a matter of seconds. Because payments data is high value and heavily regulated, a data breach within the payments ecosystem can result in substantial materia…
+
+## Why Should Payments Industry Stakeholders Begin Quantum-Safe Strategic Planning?
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.nacha.org/news/why-should-payments-industry-stakeholders-begin-quantum-safe-strategic-planning
+
+The concept of “Years to Quantum” (Y2Q) reflects the looming threat that quantum computers could eventually decrypt today’s widely used encryption methods, potentially disrupting critical systems and data security.
+
+## How Can a Payments Industry Stakeholder Get Started with Becoming Quantum-Safe?
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.nacha.org/news/how-can-payments-industry-stakeholder-get-started-becoming-quantum-safe
+
+As quantum computing moves from theoretical possibility to tangible technological force, financial institutions and payments stakeholders face a rapidly evolving risk landscape. The security models that protect today’s payment systems were never designed with quantum capabilities in mind—making early awareness essential.
+
+## Quantum Payments Myths: What’s Real, What’s Hype, and Why It Matters?
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.nacha.org/news/quantum-payments-myths-whats-real-whats-hype-and-why-it-matters
+
+Quantum computing is one of the hottest topics in technology, and its potential impact on payments has sparked both excitement and confusion. As the industry races to prepare for a quantum future, myths and misconceptions abound. Let’s set the record straight and explore what quantum payments really mean for financial institutions, businesses, and consumers.
+
+## Nacha’s Payments Innovation Alliance Advances Quantum-Safe Payments Education for World Quantum Day
+- Source: NACHA
+- Category: Payments
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.nacha.org/news/nachas-payments-innovation-alliance-advances-quantum-safe-payments-education-world-quantum-day
+
+RESTON, Virginia, April 14, 2026 – In support of World Quantum Day, Nacha’s Payments Innovation Alliance is expanding its leadership on quantum-safe payments with the launch of a new educational blog series from industry experts designed to help the payments ecosystem move from awareness to action.
+
+## Barclays and FIS Extend Partnership Supporting Bank's Online Deposits Growth
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/barclays-and-fis-extend-partnership-supporting-banks-online
+
+## This 21-hour CISSP prep bundle is only $20 right now (was $424)
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-21-hour-cissp-prep-bundle-is-only-20-right-now-was-424/
+
+## United States Department of the Treasury Announces Key Nomination
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-13T23:10:04Z
+- URL: https://home.treasury.gov/news/press-releases/sb0439
+
+## European Gym giant Basic-Fit data breach affects 1 million members
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T21:50:01Z
+- URL: https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/
+
+Dutch fitness giant Basic-Fit announced that hackers breached its systems and gained access to information belonging to a million of its customers. [...]
+
+## Congressional Bills S. 1884 and S. 3971 Signed into Law
+- Source: White House
+- Category: Executive
+- Published: 2026-04-13T21:01:31Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/04/congressional-bills-s-1884-and-s-3971-signed-into-law/
+
+## Stolen Rockstar Games analytics data leaked by extortion gang
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T20:08:10Z
+- URL: https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/
+
+Rockstar Games has suffered a data breach linked to a recent security incident at Anodot, with the ShinyHunters extortion gang now leaking the stolen data on its data leak site. [...]
+
+## Critical flaw in wolfSSL library enables forged certificate use
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T19:56:03Z
+- URL: https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/
+
+A critical vulnerability in the wolfSSL SSL/TLS library can weaken security via improper verification of the hash algorithm or its size when checking Elliptic Curve Digital Signature Algorithm (ECDSA) signatures. [...]
+
+## Nominations Sent to the Senate
+- Source: White House
+- Category: Executive
+- Published: 2026-04-13T19:19:26Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-6df5/
+
+## America 250: Presidential Message on the Birthday of Thomas Jefferson
+- Source: White House
+- Category: Executive
+- Published: 2026-04-13T19:02:50Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/04/america-250-presidential-message-on-the-birthday-of-thomas-jefferson/
+
+## Presidential Message on the Days of Remembrance of Victims of the Holocaust
+- Source: White House
+- Category: Executive
+- Published: 2026-04-13T19:01:01Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-days-of-remembrance-of-victims-of-the-holocaust/
+
+## FBI takedown of W3LL phishing service leads to developer arrest
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T18:55:50Z
+- URL: https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/
+
+The FBI Atlanta Field Office and Indonesian authorities have dismantled the "W3LL" global phishing platform, seizing infrastructure and arresting the alleged developer in what is described as the first coordinated enforcement action between the United States and Indonesia targeting a phishing kit developer. [...]
 
 ## OpenAI rotates macOS certs after Axios attack hit code-signing workflow
 - Source: BleepingComputer
@@ -51,6 +501,14 @@ New "Storm" infostealer skips local decryption, sending browser data to attacker
 
 SAN FRANCISCO --(BUSINESS WIRE)--Apr. 13, 2026-- Visa (NYSE: V) today commenced an Exchange Offer pursuant to which its Class B-1 and Class B-2 common stock may be exchanged for a combination of Visa’s Class B-3 common stock, Visa’s Class C common stock, which will be freely tradeable following
 
+## IRS hosting free webinar to share last-minute tips for the filing season
+- Source: IRS
+- Category: IRS
+- Published: 2026-04-13T00:00:00Z
+- URL: https://www.irs.gov/newsroom/irs-hosting-free-webinar-to-share-last-minute-tips-for-the-filing-season
+
+IR-2026-51, April 13, 2026 — The IRS today announced it will be hosting a free 30-minute webinar for taxpayers and tax professionals to provide last-minute tips for filing season on Tuesday, April 14, at 1 p.m. Eastern time.
+
 ## FDIC Announces Four Senior Leadership Appointments
 - Source: FDIC
 - Category: Banking
@@ -59,6 +517,26 @@ SAN FRANCISCO --(BUSINESS WIRE)--Apr. 13, 2026-- Visa (NYSE: V) today commenced 
 
 The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions
 
+## FOIA
+- Source: FRB
+- Category: Banking
+- Published: 2026-04-13T00:00:00Z
+- URL: https://www.federalreserve.gov/foia/about_foia.htm
+
+The Federal Reserve Board of Governors in Washington DC.
+
+## MPF Announcement 2026-17
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-04-13T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-17
+
+## Chairman Hill, Committee Members Call for Investigation into Little Rock Housing Authority Misconduct
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-04-13T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411087
+
 ## AI is Real, but it’s Not Coming for Your Job
 - Source: NACHA
 - Category: Payments
@@ -66,6 +544,12 @@ The Federal Deposit Insurance Corporation (FDIC) today announced the appointment
 - URL: https://www.nacha.org/news/ai-real-its-not-coming-your-job
 
 How real is artificial intelligence in the payments space? “It’s very real, and it’s only going to get much, much better,” said Kevin Miyamoto, Co-Founder and COO of Identifee, a platform that helps financial institutions enhance customer engagement while automating manual tasks. Identifee is also a Nacha Preferred Partner.
+
+## Instantly enhance skies, portraits, and objects on your phone for $20
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/instantly-enhance-skies-portraits-and-objects-on-your-phone-for-20/
 
 ## Save 73% on a refurbished Microsoft Surface Pro 6 today
 - Source: BleepingComputer
@@ -132,14 +616,6 @@ Information published.
 - Category: IS
 - Published: 2026-04-12T08:02:14Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39853
-
-Information published.
-
-## CVE-2026-28390 Possible NULL Dereference When Processing CMS KeyTransportRecipientInfo
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-12T08:02:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28390
 
 Information published.
 
@@ -985,14 +1461,6 @@ Hackers gained access to an API for the CPUID project and changed the download l
 
 A financially motivated threat actor tracked as Storm-2755 is stealing Canadian employees' salary payments after hijacking their accounts in payroll pirate attacks. [...]
 
-## Google rolls out Gmail end-to-end encryption on mobile devices
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-10T10:44:08Z
-- URL: https://www.bleepingcomputer.com/news/google/google-rolls-out-gmail-end-to-end-encryption-on-mobile-devices/
-
-Google says Gmail end-to-end encryption (E2EE) is now available on all Android and iOS devices, allowing enterprise users to read and compose emails without additional tools. [...]
-
 ## Get to Know Our Main Stage Sessions at #CDIAConnect
 - Source: CDIA
 - Category: Compliance Watch
@@ -1122,12 +1590,6 @@ IR-2026-48, April 10, 2026 — The Department of the Treasury and the Internal R
 - Category: Legislative
 - Published: 2026-04-10T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-whitehouse-probe-suspicious-oil-trades-surrounding-trump-iran-announcements
-
-## Master AI and automation with 12 courses for just $20
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/master-ai-and-automation-with-12-courses-for-just-20/
 
 ## Anti-Money Laundering and Countering the Financing of Terrorism Programs
 - Source: Federal Register
@@ -1271,22 +1733,6 @@ The Foreign Agents Registration Act (FARA) Unit, Counterintelligence and Export 
 - Published: 2026-04-09T22:06:20Z
 - URL: https://home.treasury.gov/news/press-releases/sb0438
 
-## New ‘LucidRook’ malware used in targeted attacks on NGOs, universities
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-09T22:04:31Z
-- URL: https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/
-
-A new Lua-based malware, called LucidRook, is being used in spear-phishing campaigns targeting non-governmental organizations and universities in Taiwan. [...]
-
-## New VENOM phishing attacks steal senior executives' Microsoft logins
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-09T21:37:04Z
-- URL: https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/
-
-Threat actors using a previously undocumented phishing-as-a-service (PhaaS) platform called "VENOM" are targeting credentials of C-suite executives across multiple industries. [...]
-
 ## Advancing the United States-Hungary Bilateral Partnership
 - Source: White House
 - Category: Executive
@@ -1300,14 +1746,6 @@ Threat actors using a previously undocumented phishing-as-a-service (PhaaS) plat
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
 
 SAN FRANCISCO --(BUSINESS WIRE)--Apr. 9, 2026-- Visa (NYSE: V) will report its fiscal second quarter 2026 financial results on Tuesday, April 28, 2026. After market close, Visa will furnish the results with the Securities and Exchange Commission and post them, along with accompanying financial
-
-## Healthcare IT solutions provider ChipSoft hit by ransomware attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-09T19:46:44Z
-- URL: https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/
-
-Dutch healthcare software vendor ChipSoft has been impacted by a ransomware attack that forced the company to take offline its website and digital services for patients and healthcare providers. [...]
 
 ## First Lady Melania Trump’s Statement
 - Source: White House
@@ -1328,18 +1766,6 @@ Dutch healthcare software vendor ChipSoft has been impacted by a ransomware atta
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm
 
 Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.
-
-## America 250: Presidential Message on the Anniversary of the Surrender at Appomattox
-- Source: White House
-- Category: Executive
-- Published: 2026-04-09T14:30:27Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/america-250-presidential-message-on-the-anniversary-of-the-surrender-at-appomattox/
-
-## Presidential Message on National Former Prisoner of War Recognition Day
-- Source: White House
-- Category: Executive
-- Published: 2026-04-09T14:29:26Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-former-prisoner-of-war-recognition-day/
 
 ## CVE-2026-0385 Microsoft Edge (Chromium-based) for Android Spoofing Vulnerability
 - Source: Microsoft MSRC
@@ -1582,12 +2008,6 @@ IR-2026-47, April 9, 2026 — The Internal Revenue Service reminds last-minute t
 - URL: https://www.nacha.org/news/bottomline-now-nacha-preferred-partner-ach-experience-open-banking-and-risk-and-fraud
 
 RESTON, Virginia, April 9, 2026 – Nacha announced today that Bottomline has become a Nacha Preferred Partner for ACH Experience, Open Banking, and Risk and Fraud Prevention.Bottomline builds secure and resilient payment technologies which help banks and businesses move money safely and without friction. Bottomline's solutions monitor ACH transactions in real time to spot behav…
-
-## Google Chrome adds infostealer protection against session cookie theft
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-09T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/
 
 ## Sunshine Act Meetings: Notice of Meeting Held With Less Than Seven Days' Advance Notice
 - Source: Federal Register
@@ -1833,14 +2253,6 @@ CDIA is excited to welcome Liz Pagel, SVP, Global Head of Alternative Credit Dat
 
 Information published.
 
-## CVE-2026-27456 util-linux: TOCTOU Race Condition in util-linux mount(8) - Loop Device Setup
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-07T08:41:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27456
-
-Information published.
-
 ## CVE-2026-23442 ipv6: add NULL checks for idev in SRv6 paths
 - Source: Microsoft MSRC
 - Category: IS
@@ -1894,14 +2306,6 @@ Information published.
 - Category: IS
 - Published: 2026-04-07T08:02:30Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34591
-
-Information published.
-
-## CVE-2026-3184 Util-linux: util-linux: access control bypass due to improper hostname canonicalization
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-07T08:02:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3184
 
 Information published.
 
@@ -2323,14 +2727,6 @@ IR-2026-44, April 3, 2026 — With the April 15 tax deadline fast approaching, t
 
 The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA).
 
-## Next Steps for the New Nacha Risk Management Rules
-- Source: NACHA
-- Category: Payments
-- Published: 2026-04-03T00:00:00Z
-- URL: https://www.nacha.org/news/next-steps-new-nacha-risk-management-rules
-
-The new Nacha Risk Management Rules have started going into effect, reinforcing the importance of strong, risk-based processes to safeguard the ACH Network. While some organizations have defined their risk-based processes, others are still navigating the road to compliance. This is the time to assess and improve compliance. Now that many of us have established a baseline, the…
-
 ## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
 - Source: Federal Register
 - Category: Federal Register
@@ -2483,38 +2879,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-0964 Libssh: improper sanitation of paths received from scp servers
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:39:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0964
-
-Information published.
-
-## CVE-2026-0966 Libssh: buffer underflow in ssh_get_hexa() on invalid input
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:39:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0966
-
-Information published.
-
-## CVE-2026-0967 Libssh: libssh: denial of service via inefficient regular expression processing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:39:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0967
-
-Information published.
-
-## CVE-2026-0965 Libssh: libssh: denial of service via improper configuration file handling
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:39:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0965
-
-Information published.
-
 ## CVE-2026-29111 systemd: Local unprivileged user can trigger an assert
 - Source: Microsoft MSRC
 - Category: IS
@@ -2631,14 +2995,6 @@ IR-2026-43, April 2, 2026 — The Internal Revenue Service continues to deliver 
 - Published: 2026-04-02T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/04/02/3267659/0/en/The-30-Year-Fixed-Rate-Mortgage-Averages-6-46.html
 
-## Nacha Welcomes 20 New Payments Innovation Alliance Members in First Quarter of 2026
-- Source: NACHA
-- Category: Payments
-- Published: 2026-04-02T00:00:00Z
-- URL: https://www.nacha.org/news/nacha-welcomes-20-new-payments-innovation-alliance-members-first-quarter-2026
-
-RESTON, Virginia, April 2, 2026 – Nacha today announced 20 organizations have joined the Payments Innovation Alliance during the first quarter of 2026, marking a significant expansion of the cross‑industry network that collaborates on innovation, education and operational improvements across the payments ecosystem.The continued growth of the Payments Innovation Alliance reflec…
-
 ## Small Business Sales Grew Steadily in March as Higher Ticket Sizes Offset Softer Foot Traffic, Fiserv Data Shows
 - Source: Fiserv
 - Category: Fintech Watch
@@ -2678,12 +3034,6 @@ By this rule, Commerce amends its agency-specific acquisition regulation by upda
 - Category: OFAC
 - Published: 2026-04-01T23:01:59Z
 - URL: https://home.treasury.gov/news/press-releases/sb0430
-
-## Secretary Bessent: “Financial Literacy Unlocks Opportunity for Every American”
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-01T18:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0429
 
 ## Visa Unveils New Services to Modernize Dispute Resolution Process
 - Source: Visa
@@ -2793,14 +3143,6 @@ Information published.
 
 Publications
 
-## Abrigo Now a Nacha Preferred Partner for ACH Experience/Compliance/Risk and Fraud Prevention
-- Source: NACHA
-- Category: Payments
-- Published: 2026-04-01T00:00:00Z
-- URL: https://www.nacha.org/news/abrigo-now-nacha-preferred-partner-ach-experiencecompliancerisk-and-fraud-prevention
-
-RESTON, Virginia, April 1, 2026 – Nacha has announced that Abrigo has become a Nacha Preferred Partner for ACH Experience/Compliance/Risk and Fraud Prevention.Abrigo provides artificial intelligence-powered software and services that help more than 2,400 financial institutions detect and prevent fraud, manage risk, and drive growth. Its fraud detection solution enables users t…
-
 ## Rescission of OCC Guidelines Establishing Standards for Recovery Planning by Certain Large Insured National Banks, Insured Federal Savings Associations, and Insured Federal Branches
 - Source: Federal Register
 - Category: Federal Register
@@ -2908,1303 +3250,3 @@ Royal Emerald Pharmaceuticals has applied to be registered as a bulk manufacture
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/4101448
 
 FINANCIAL INSTITUTION LETTER | MARCH 31, 2026 FDIC Consumer Compliance Supervisory Highlights Summary: The FDIC’s Consumer Compliance Supervisory Highlights is an annual publication. Its purpose is to enhance transparency regarding the FDIC’s consumer compliance supervisory activities and provide a high-level overview of consumer compliance issues identified in 2025 through th…
-
-## CVE-2026-23229 crypto: virtio - Add spinlock protection with virtqueue notification
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:40:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23229
-
-Information published.
-
-## CVE-2026-23228 smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:40:18Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23228
-
-Information published.
-
-## CVE-2026-23222 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:40:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23222
-
-Information published.
-
-## CVE-2026-23169 mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:40:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23169
-
-Information published.
-
-## CVE-2025-71237 nilfs2: Fix potential block overflow that cause system hang
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:39:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71237
-
-Information published.
-
-## CVE-2025-71236 scsi: qla2xxx: Validate sp before freeing associated memory
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:39:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71236
-
-Information published.
-
-## CVE-2025-71235 scsi: qla2xxx: Delay module unload while fabric scan in progress
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:39:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71235
-
-Information published.
-
-## CVE-2025-71232 scsi: qla2xxx: Free sp in error path to fix system crash
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:39:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71232
-
-Information published.
-
-## CVE-2026-23238 romfs: check sb_set_blocksize() return value
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:38:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23238
-
-Information published.
-
-## CVE-2026-25645 Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:38:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25645
-
-Information published.
-
-## CVE-2026-23237 platform/x86: classmate-laptop: Add missing NULL pointer checks
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:38:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23237
-
-Information published.
-
-## CVE-2025-71238 scsi: qla2xxx: Fix bsg_done() causing double free
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:38:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71238
-
-Information published.
-
-## CVE-2026-23236 fbdev: smscufx: properly copy ioctl memory to kernelspace
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:38:02Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23236
-
-Information published.
-
-## CVE-2025-68358 btrfs: fix racy bitfield write in btrfs_clear_space_info_full()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:37:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68358
-
-Information published.
-
-## CVE-2025-71233 PCI: endpoint: Avoid creating sub-groups asynchronously
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:37:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71233
-
-Information published.
-
-## CVE-2026-23221 bus: fsl-mc: fix use-after-free in driver_override_show()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:37:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23221
-
-Information published.
-
-## CVE-2026-33940 Handlebars.js has JavaScript Injection via AST Type Confusion when passing an object as dynamic partial
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:03:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33940
-
-Information published.
-
-## CVE-2026-33939 Handlebars.js has Denial of Service via Malformed Decorator Syntax in Template Compilation
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:03:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33939
-
-Information published.
-
-## CVE-2026-33916 Handlebars.js has Prototype Pollution Leading to XSS through Partial Template Injection
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:03:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33916
-
-Information published.
-
-## CVE-2026-33941 Handlebars.js has JavaScript Injection in CLI Precompiler via Unescaped Names and Options
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:03:08Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33941
-
-Information published.
-
-## CVE-2026-33938 Handlebars.js has JavaScript Injection via AST Type Confusion by tampering @partial-block
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:03:02Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33938
-
-Information published.
-
-## CVE-2026-33891 Forge has Denial of Service via Infinite Loop in BigInteger.modInverse() with Zero Input
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:02:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33891
-
-Information published.
-
-## CVE-2026-33896 Forge has a basicConstraints bypass in its certificate chain verification (RFC 5280 violation)
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:02:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33896
-
-Information published.
-
-## CVE-2026-33895 Forge has signature forgery in Ed25519 due to missing S > L check
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T08:02:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33895
-
-Information published.
-
-## Chromium: CVE-2026-4676 Use after free in Dawn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-03-31T07:35:15Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4676
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Counter Narcotics Designations Removals; Russia-related Designations Removals
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-03-31T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260331
-
-## 4 million children have been signed up for Trump Accounts with 1 million claiming the $1,000 pilot program contribution
-- Source: IRS
-- Category: IRS
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.irs.gov/newsroom/4-million-children-have-been-signed-up-for-trump-accounts-with-1-million-claiming-the-1000-pilot-program-contribution
-
-IR-2026-42, March 31, 2026 – The Internal Revenue Service today announced that taxpayers have signed up more than four million children for tax-favored Trump Accounts, of which more than one million children are covered by elections for the $1,000 Trump Accounts pilot program contribution.
-
-## OCC Guidelines Establishing Standards for Recovery Planning by Certain Large Insured National Banks, Insured Federal Savings Associations, and Insured Federal Branches: Final Guidelines
-- Source: OCC
-- Category: Banking
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-10.html
-
-## FDIC Issues 2026 Consumer Compliance Supervisory Highlights
-- Source: FDIC
-- Category: Banking
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-issues-2026-consumer-compliance-supervisory-highlights
-
-The Federal Deposit Insurance Corporation (FDIC) today issued the 2026 edition of the Consumer Compliance Supervisory Highlights.
-
-## A ‘Chill Vibe’ Awaits Payments Attendees in San Diego
-- Source: NACHA
-- Category: Payments
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.nacha.org/news/chill-vibe-awaits-payments-attendees-san-diego
-
-Yes, education and networking are first and foremost, but the location of the Smarter Faster Payments conference is also highly important. This April it’s in San Diego, and while he’s clearly partial, the president and CEO of the San Diego Tourism Authority knows his town has a lot going for it. “We are a warm and welcoming city. There’s a chill vibe that you have here,” said…
-
-## First-Party Fraud: A Challenge to All Parties
-- Source: NACHA
-- Category: Payments
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.nacha.org/news/first-party-fraud-challenge-all-parties
-
-It’s hard to stop, take a breather, and congratulate yourself in the world of risk management. Fraud is always changing, and when we work hard to close a gap, another opens. Nacha’s focus on risk management continually evolves as we listen to the financial institutions and other parties that make up the ACH Network. We work with our industry participants to identify the latest…
-
-## ### Small businesses can soon enjoy new rewards with the Prime Business and Amazon Business Credit Cards March 31, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/small-businesses-can-soon-enjoy-new-rewards-with-the-prime-busin.html
-
-## ### Mastercard to acquire BVNK to connect on-chain payments and fiat rails March 17, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/Mastercard-to-acquire-BVNK-to-connect-on-chain-payments-and-fiat-rails.html
-
-## ### Mastercard advances its agentic AI strategy with Virtual C-Suite, bringing executive level intelligence to small businesses March 10, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/Mastercard-Virtual-C-Suite-bringing-executive-level-intelligence-to-small-businesses.html
-
-## ### Mastercard reinforces commitment to Canadian small business owners as the Mastercard Small Business Fund opens for 2026 applicants March 3, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/mastercard-reinforces-commitment-to-canadian-small-business-owne.html
-
-## ### SoFi and Mastercard partner to enable SoFiUSD settlement across Mastercard’s global payments network March 3, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/sofi-and-mastercard-partner-to-enable-sofiusd-settlement-across-.html
-
-## ### Rogers Bank introduces Canada’s first-ever World Legend Mastercard March 2, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/rogers-bank-introduces-canada-s-first-ever-world-legend-masterca.html
-
-## ### Ericsson and Mastercard enhance global digital money movement and accelerate digital financial inclusion February 18, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/february/Ericsson-Mastercard-enhance-global-digital-money-movement-accelerate-digital-financial-inclusion.html
-
-## ### Cloudflare and Mastercard partner to extend comprehensive cyber defense across critical infrastructure and small businesses February 17, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/february/cloudflare-and-mastercard-to-extend-comprehensive-cyber-defense-.html
-
-## ### Noah Kahan and Mastercard to premiere ‘The Great Divide’ music video and offer cardholders Priceless experiences January 29, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/noah-kahan-and-mastercard-to-premiere--the-great-divide--music-v.html
-
-## ### Mastercard launches Agent Suite to ready enterprises for a new era January 27, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/mastercard-launches-agent-suite-to-ready-enterprises-for-a-new-e.html
-
-## ### Mastercard spotlights Indigenous small businesses at Toronto Maple Leafs Indigenous Celebration Game January 6, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/Mastercard-spotlights-Indigenous-small-businesses-at-Toronto-Maple-Leafs-Indigenous-Celebration-Game.html
-
-## ### Mastercard SpendingPulse: Savvy shoppers and e-commerce fuel U.S. holiday retail sales growth by 3.9% year over year December 23, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-spendingpulse--savvy-shoppers-and-e-commerce-fuel-u-s.html
-
-## ### Mastercard and LoanPro announce partnership to modernize lending December 16, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-loanpro-announce-partnership-to-modernize-lending.html
-
-## ### Mastercard and the McLaren Formula 1 Team launch Team Priceless December 11, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-the-mclaren-formula-1-team-launch-team-priceless-.html
-
-## ### Mastercard launches La Colección Diez de Diez, honors fans with first-ever Lionel Messi jersey swap December 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/Mastercard-launches-La-Coleccion-Diez-de-Diez-first-Lionel-Messi-jersey-swap.html
-
-## ### Mastercard Spending Pulse: U.S. Black Friday retail sales up +4.1% year over year as holiday momentum builds November 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-spendingpulse--us-black-friday-retail-sales-up--4-1--.html
-
-## ### Mastercard Access Pass enables partners to forge deeper connections with consumers November 25, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-access-pass-enables-partners-to-forge-deeper-connecti.html
-
-## ### Mastercard and L’Oréal to transform the future of beauty commerce November 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-and-l-oreal-to-transform-the-future-of-beauty-commerc.html
-
-## ### Mastercard and Thunes bring stablecoin payouts to the mainstream November 13, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/Mastercard-and-Thunes-bring-stablecoin-payouts-to-the-mainstream.html
-
-## ### Mastercard introduces first-ever threat intelligence solution to combat payment fraud at scale October 27, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-introduces-first-ever-threat-intelligence-solution.html
-
-## ### Mastercard and PayPal join forces to accelerate secure global agentic commerce October 27, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-and-PayPal-join-forces.html
-
-## ### Mastercard and Citi bring Citi Flex Pay Installments to more retailers at checkout October 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-citi-bring-citi-flex-pay-installments-to-more-ret.html
-
-## ### Mastercard and Major League Baseball extend partnership — a celebration of Priceless moments and the fans who make them October 22, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-major-league-baseball-extend-partnership.html
-
-## ### Mastercard welcomes Jill Kramer as chief marketing and communications officer; Raja Rajamannar transitions to senior fellow role October 21, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-welcomes-jill-kramer-as-chief-marketing-and-communica.html
-
-## ### Mastercard and U.S. Bank expands subscription management for credit cardholders October 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-u-s--bank-expands-subscription-management-for-cre.html
-
-## ### Mastercard is supercharging commercial payments innovation October 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/simple-connections--smarter-controls--mastercard-is-superchargin.html
-
-## ### Mastercard launches Merchant Cloud to simplify and support commerce growth in global acceptance ecosystem October 14, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Merchant-Cloud-simplify-and-support-commerce-growth-in-global-acceptance-ecosystem.html
-
-## ### Mastercard at Money 20/20: Where insight meets action October 13, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-at-money-20-20--where-insight-meets-action-.html
-
-## ### Mastercard Payment Optimization Platform uses the power of data to drive more approvals October 13, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Payment-Optimization-Platform-uses-the-power-of-data-to-drive-more-approvals.html
-
-## ### Mastercard launches Small Business Navigator in Canada to enable small business resilience October 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-launches-small-business-navigator-in-canada-to-enable-small-business-resilience.html
-
-## ### Powering smarter and more personal advertising with Mastercard Commerce Media October 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/powering-smarter-and-more-personal-advertising-with-mastercard-commerce-media.html
-
-## ### Corpay and Mastercard Move extend near real-time payments to new markets September 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/corpay-mastercard-move-extend-near-real-time-payments.html
-
-## ### Mastercard unveils Global Reach Partner Program to accelerate customer expansion initiatives September 23, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-global-reach-partner-program-to-accelerate-customer-expansion-initiatives.html
-
-## ### Mastercard welcomes 11 startups to Start Path’s Emerging Fintech program September 22, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-welcomes-11-startups-to-start-path%E2%80%99s-emerging-fintech-program.html
-
-## ### Fueling the digital economy: Mastercard Start Path welcomes five new startups to the Blockchain and Digital Assets program September 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/fueling-the-digital-economy.html
-
-## ### Mastercard, NCR Atleos, and ITCARD to enhance contactless experiences at ATMs September 11, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-ncr-atleos-itcard-enhance-contactless-experiences-at-atms.html
-
-## ### Mastercard unveils customizable decisioning solution for financial institutions September 9, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-customizable-decisioning-solution-for-financial-institutions.html
-
-## ### Mastercard appoints Amb. Ailish Campbell as executive vice president, Public Sector September 2, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-appoints-amb--ailish-campbell-as-executive-vice-presi.html
-
-## ### Fans to be given unparalleled access as McLaren Racing announces Mastercard as official naming partner of the McLaren Formula 1 team from 2026 August 27, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/mclaren-racing-announces-mastercard-as-official-naming-partner-o.html
-
-## ### World Bank Group joins African Development Bank Group and Mastercard as co-chair of Mobilizing Access to the Digital Economy (MADE) Alliance: Africa August 5, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/World-Bank-Group-Mobilizing-Access-to-the-Digital-Economy-MADE-Alliance.html
-
-## ### Clarifying recent headlines on gaming content August 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/clarifying-recent-headlines-on-gaming-content.html
-
-## ### Mastercard and BMO expand Global Money Transfer service to nearly 70 destinations July 30, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/Mastercard-BMO-expand-Global-Money-Transfer-service.html
-
-## ### Mastercard accelerates B2B payment automation globally July 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-accelerates-b2b-payment-automation-globally-with-acce.html
-
-## ### Mastercard unveils AI Card Design Studio: a smarter, faster way to design your perfect card July 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-ai-card-design-studio.html
-
-## ### Mastercard expands global relationship with Uber to enhance payment experiences for drivers, couriers and consumers July 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-global-relationship-with-uber.html
-
-## ### American Airlines and Mastercard renew partnership for even more rewarding travel experiences July 21, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/american-airlines-mastercard-partnership-renewal.html
-
-## ### Delivering pathways to sustained prosperity July 16, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/sustained-prosperity-2024-impact-report.html
-
-## ### Elevating cardholder experiences worldwide with The Mastercard Collection and introduction of World Legend Mastercard July 16, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/elevating-cardholder-experiences-the-mastercard-collection-world-legend-mastercard.html
-
-## ### Mastercard and Jonas Brothers to debut music video in support of Stand Up To Cancer July 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-su2c-jonas-brothers.html
-
-## ### Mastercard expands Small Business Navigator with penny rental offer for Clover July 7, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-small-business-navigator.html
-
-## ### Protecting trust in a digital world: Mastercard launches new Start Path program to accelerate security innovation July 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/Mastercard-new-Start-Path-program-to-accelerate-security-innovation.html
-
-## ### Mastercard partners with the Billie Jean King Cup by Gainbridge June 25, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-billie-jean-king-cup.html
-
-## ### To counter ‘friendly’ fraud, Mastercard expands technology to new markets June 25, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/first-party-trust-countering-friendly-fraud.html
-
-## ### Mastercard partners with Fiserv to accelerate mainstream stablecoin adoption June 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-fiserv-stablecoin-adoption.html
-
-## ### OnePay and Synchrony to launch new industry-leading credit card program with Walmart; credit card to be powered by Mastercard and set to go live this fall June 9, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/onepay-synchrony-walmart-mastercard.html
-
-## ### Mastercard and PayPal to partner on Mastercard One Credential to supercharge choice at checkout June 4, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-paypal-one-credential.html
-
-## ### Deutsche Bank and Mastercard partner to power merchant solutions with open banking payments June 3, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/deutsche-bank-and-mastercard-partner-to-power-merchant-solutions-with-open-banking-payments.html
-
-## ### One year in, Mastercard’s checkout transformation gains ground across Europe June 3, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/one-year-in-mastercard-s-checkout-transformation-gains-ground-across-europe-1.html
-
-## ### Mastercard unveils Small Business Navigator to empower U.S. entrepreneurs with smarter, safer growth May 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-unveils-small-business-navigator-to-empower-u-s-entrepreneurs-with-smarter-safer-growth.html
-
-## ### Mastercard introduces Touch Card by Mastercard™ in Canada, a tactile notch feature designed to help empower the sight loss community May 28, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-introduces-touch-card-by-mastercard-in-canada-a-tactile-notch-feature-designed-to-help-empower-the-sight-loss-community.html
-
-## ### Mastercard and MoonPay team up to mainstream stablecoin payments May 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-and-moonpay-team-up-to-mainstream-stablecoin-payments.html
-
-## ### Mastercard Economics Institute: What moves us? The motivations behind global travel in 2025 May 12, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-economics-institute-what-moves-us-the-motivations-behind-global-travel-in-2025.html
-
-## ### Nuvei offers Canadian businesses near instant pay-outs via Mastercard Move May 7, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/nuvei-offers-canadian-businesses-near-instant-payouts-via-mastercard-move.html
-
-## ### Mastercard center for inclusive growth and Tamkeen partner to launch first Mastercard strive initiative in Bahrain and the middle east May 4, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-center-for-inclusive-growth-and-tamkeen-partner-to-launch-first-mastercard-strive-initiative-in-bahrain-and-the-middle-east.html
-
-## ### CIBC launches CIBC Adapta Mastercard, a credit card that automatically adapts to spending behavior rewarding cardholders more for everyday purchases May 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/cibc-launches-cibc-adapta-mastercard-a-credit-card-that-automatically-adapts-to-spending-behavior-rewarding-cardholders-more-for-everyday-purchases.html
-
-## ### Mastercard unveils Agent Pay, pioneering agentic payments technology to power commerce in the age of AI April 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html
-
-## ### Mastercard unveils end-to-end capabilities to power stablecoin transactions – from wallets to checkouts April 28, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-end-to-end-capabilities-to-power-stablecoin-transactions-from-wallets-to-checkouts.html
-
-## ### Mastercard elevates Sam’s Club Sam’s Cash Bonus Offer Program with personalization and rewards Apri 28, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-elevates-sam-s-club-sam-s-cash-bonus-offer-program-with-personalization-and-rewards.html
-
-## ### Update regarding Mastercard’s Chief Financial Officer April 10, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/update-regarding-mastercard-s-chief-financial-officer.html
-
-## ### MoneyGram and Mastercard collaborate to advance digital money movement April 2, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/moneygram-and-mastercard-collaborate-to-advance-digital-money-movement.html
-
-## ### Mastercard is modernizing commercial payments with embedded virtual card technology March, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/march/mastercard-is-modernizing-commercial-payments-with-embedded-virtual-card-technology.html
-
-## ### ICBA Payments and Mastercard partner to upgrade customer payment experiences for community banks March, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/march/icba-payments-and-mastercard-partner-to-upgrade-customer-payment-experiences-for-community-banks.html
-
-## ### Richard R. Verma rejoins Mastercard to oversee Law, Government Affairs & Policy and Franchise, Tim Murphy named vice chair February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/richard-r-verma-rejoins-mastercard-to-oversee-law-government-affairs-policy-and-franchise-tim-murphy-named-vice-chair.html
-
-## ### Mastercard names Erin Elofson as division president, Canada February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-names-erin-elofson-as-division-president-canada.html
-
-## ### New Mastercard research: Consumers in Canada worry about the impact of fraud on financial health February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/new-mastercard-research-consumers-in-canada-worry-about-the-impact-of-fraud-on-financial-health.html
-
-## ### Mastercard Business Builder program fuels creator growth February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-business-builder-program-fuels-creator-growth.html
-
-## ### Consumers demand more choice and control over how they check out February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/consumers-demand-more-choice-and-control-over-how-they-check-out.html
-
-## ### Mastercard appoints Janet George as executive vice president of artificial intelligence February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-appoints-janet-george-as-executive-vice-president-of-artificial-intelligence.html
-
-## ### Mastercard launches new product innovation to address unmet needs of the middle market February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-new-product-innovation-to-address-unmet-needs-of-the-middle-market.html
-
-## ### Mastercard and Feedzai join forces to protect more consumers and businesses from scams February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-feedzai-join-forces-to-protect-more-consumers-and-businesses-from-scams.html
-
-## ### Mastercard launches anti-money laundering service “TRACE” to combat financial crime in Asia Pacific February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-anti-money-laundering-service-trace-to-combat-financial-crime-in-asia-pacific.html
-
-## ### Mastercard supports Canadian small businesses with new funding: Meet the recipients of the Mastercard x Pier Five Small Business Fund February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-supports-canadian-small-businesses-with-new-funding-meet-the-recipients-of-the-mastercard-x-pier-five-small-business-fund.html
-
-## ### Mastercard and Lady Gaga team up to debut 'Abracadabra' music video, celebrating fans with Priceless Experiences February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-lady-gaga-team-up-to-debut-abracadabra-music-video-celebrating-fans-with-priceless-experiences.html
-
-## ### Porter Airlines, BMO and Mastercard accelerate Canadians’ travel rewards journey with new credit card program January, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/January/porter-airlines-bmo-and-mastercard-accelerate-canadians-travel-rewards-journey-with-new-credit-card-program.html
-
-## ### Mastercard partners with Northeastern University to advance cybersecurity innovation and strengthen Canada’s diverse tech workforce January, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/January/mastercard-partners-with-northeastern-university-to-advance-cybersecurity-innovation-and-strengthen-canadas-diverse-tech-workforce.html
-
-## ### Mastercard SpendingPulse: Total U.S. retail sales grew 3.8%* this holiday season; online remained choice for consumers, increasing 6.7% YOY December, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-spendingpulse-total-us-retail-sales-grew-3-8-this-holiday-season-online-remained-choice-for-consumers-increasing-6-7-yoy.html
-
-## ### Mastercard finalizes acquisition of Recorded Future December, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-finalizes-acquisition-of-recorded-future.html
-
-## ### Mastercard Center for Inclusive Growth and data.org announce AI2AI Challenge awardees December, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-center-for-inclusive-growth-and-data-org-announce-ai2ai-challenge-awardees.html
-
-## ### TD helps its MBNA cardholders support funding reforestation efforts in Canada through the Priceless Planet Coalition December, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/td-helps-its-mbna-cardholders-support-funding-reforestation-efforts-in-canada-through-the-priceless-planet-coalition.html
-
-## ### Mastercard SpendingPulse: U.S. Black Friday retail sales up +3.4% vs. last year November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-spendingpulse-us-black-friday-retail-sales-up-3-4-vs-last-year.html
-
-## ### Supporting underrepresented fintech founders to spur innovation and growth November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/supporting-underrepresented-fintech-founders-to-spur-innovation-and-growth.html
-
-## ### Mastercard empowers small businesses with magical shopping experience November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-empowers-small-businesses-with-magical-shopping-experience.html
-
-## ### Mastercard’s MTN connects to J.P. Morgan’s Kinexys Digital Payments for settlement November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercards-mtn-connects-to-jp-morgans-kinexys-digital-payments-for-settlement.html
-
-## ### Unwrapping 2024 Canadian holiday shopping trends November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/unwrapping-2024-canadian-holiday-shopping-trends.html
-
-## ### Mastercard extends live music footprint with new us benefits for cardholders November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-extends-live-music-footprint-with-new-us-benefits-for-cardholders.html
-
-## ### Mastercard reinvents checkout with password and number free payments November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-reinvents-checkout-with-password-and-number-free-payments.html
-
-## ### Mastercard to supercharge small business operations through new innovative platform November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/small-businesses-can-now-consolidate-operations-payments-and-other-tools-into-a-single-platform.html
-
-## ### Mastercard joins buna the arab regional payment system November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-joins-buna-the-arab-regional-payment-system.html
-
-## ### TheFork and Mastercard join forces to enhance culinary experiences for cardholders November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/thefork-and-mastercard-join-forces-to-enhance-culinary-experiences-for-cardholders.html
-
-## ### Mastercard launches Pay Local to empower digital wallet providers with new ways to pay November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-launches-pay-local-to-empower-digital-wallet-providers-with-new-ways-to-pay.html
-
-## ### Mastercard launches new gen AI digital assistant capabilities to enhance customer value October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-gen-ai-digital-assistant-capabilities-to-enhance-customer-value.html
-
-## ### Mastercard unveils bill Qkr to streamline and enhance the way bills are paid October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-unveils-bill-qkr-to-streamline-and-enhance-the-way-bills-are-paid.html
-
-## ### Mastercard is expanding its U.S. Installments Program to provide more payment flexibility at checkout October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-is-expanding-its-us-installments-program-to-provide-more-payment-flexibility-at-checkout.html
-
-## ### Mastercard expands Product Express platform to help fintechs accelerate the launch of new card programs and other payment solutions October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-product-express-platform-to-help-fintechs-accelerate-the-launch-of-new-card-programs-and-other-payment-solutions.html
-
-## ### Mastercard launches world-class technology infrastructure in Saudi Arabia, enabling the processing of seamless October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-world-class-technology-infrastructure-in-saudi-arabia-enabling-the-processing-of-seamless.html
-
-## ### Mastercard at Money 20/20 innovating at the speed of business October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-at-money-2020-innovating-at-the-speed-of-business.html
-
-## ### Mastercard expands the Priceless Planet Coalition's portfolio of restoration sites October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-the-priceless-planet-coalitions-portfolio-of-restoration-sites.html
-
-## ### Mastercard transforms cross-border payments for banks with industry-first innovation October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-transforms-cross-border-payments-for-banks-with-industry-first-innovation1.html
-
-## ### Mastercard debuts new open banking-powered tools that put consumers in control of their data, safely and securely October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-debuts-new-open-banking-powered-tools-that-put-consumers-in-control-of-their-data-safely-and-securely.html
-
-## ### Citi and Mastercard join forces to transform global cross border payments October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/citi-and-mastercard-join-forces-to-transform-global-cross-border-payments.html
-
-## ### Mastercard spotlights cybersecurity awareness and education with true-crime podcasts to mark Cybersecurity Awareness Month October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/scaling-innovation-with-startups-from-city-planning-to-gamifying-rewards-points.html
-
-## ### Mastercard launches new benefits in support of Canadian small businesses October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-benefits-in-support-of-canadian-small-businesses.html
-
-## ### Mastercard and KaiOS partner to simplify acceptance for millions of SMEs in emerging markets September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-and-kaios-partner-to-simplify-acceptance-for-millions-of-smes-in-emerging-markets2.html
-
-## ### Mastercard expands first-of-its-kind AI technology to help banks protect more consumers from scams in real time September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-first-of-its-kind-ai-technology-to-help-banks-protect-more-consumers-from-scams-in-real-time.html
-
-## ### Mastercard expands support for Canadian entrepreneurs with Mastercard x Pier Five Small Business Fund, now open for 2024 applicants September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-support-for-canadian-entrepreneurs-with-mastercard-x-pier-five-small-business-fund-now-open-for-2024-applicants.html
-
-## ### Update regarding chief financial officer for Mastercard September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/update-regarding-chief-financial-officer-for-mastercard.html
-
-## ### Mastercard invests in continued defense of global digital economy with acquisition of Recorded Future September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-invests-in-continued-defense-of-global-digital-economy-with-acquisition-of-recorded-future.html
-
-## ### Mastercard selects India for the global launch of its Payment Passkey Service, accelerating secure online checkout for millions of shoppers August, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-selects-india-for-the-global-launch-of-its-payment-passkey-service-accelerating-secure-online-checkout-for-millions-of-shoppers.html
-
-## ### What is a passkey? Here’s everything you need to know August, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/everything-you-need-to-know-about-payment-passkeys.html
-
-## ### Helping more individuals and small businesses benefit from the digital economy through Mastercard Open Banking August, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/helping-more-individuals-and-small-businesses-benefit-from-the-digital-economy-through-mastercard-open-banking.html
-
-## ### Mastercard and WestJet announce the launch of the Priceless Platform in Canada, offering cardholders exclusive, always-on access to Priceless experiences August, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-and-westjet-announce-the-launch-of-the-priceless-platform-in-canada-offering-cardholders-exclusive-always-on-access-to-priceless-experiences.html
-
-## ### Mastercard introduces a fast, safe and cost-effective solution for businesses to accept virtual card payment July, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-introduces-a-fast-safe-and-cost-effective-solution-for-businesses-to-accept-virtual-card-payment.html
-
-## ### Mastercard joins forces with McLaren Racing Formula 1 Team July, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/Mastercard-joins-forces-with-McLaren-Racing-Formula-1-Team.html
-
-## ### Expedia Group, Wells Fargo, and Mastercard announce new suite of One Key credit cards July, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/expedia-group-wells-fargo-and-mastercard-announce-new-suite-of-one-key-credit-cards.html
-
-## ### Mastercard and the Medical Tourism Association join forces to revolutionize cross-border health care payments July, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-and-the-medical-tourism-association-join-forces-to-revolutionize-cross-border-health-care-payments.html
-
-## ### Mastercard taps into the power of social media to support stand up to cancer June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-taps-into-the-power-of-social-media-to-support-stand-up-to-cancer.html
-
-## ### Mastercard and Thought Machine accelerate core banking capabilities, providing seamless payment experiences June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-european-cloud-native-issuer-processor-leverages-mastercard-cloud-edge-proving-seamless-payment-experience.html
-
-## ### Mastercard and Beijing Municipal Bureau of Culture and Tourism unveil enhanced Priceless Beijing June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-beijing-municipal-bureau-of-culture-and-tourism-unveil-enhanced-priceless-beijing.html
-
-## ### Ministry for Restoration of Ukraine and Mastercard to cooperate on restoring the tourism industry June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-insights-will-contribute-to-ukraines-economic-recovery-via-tourism.html
-
-## ### Mastercard reimagines online checkout; commits to reaching 100% e-commerce tokenization by 2030 in Europe June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-reimagines-online-checkout-commits-to-reaching-100-e-commerce-tokenization-by-2030-in-europe.html
-
-## ### Mastercard debuts new video 'Giving Back' with Lionel Messi to kick off CONMEBOL Copa América 2024 June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-debuts-new-video-giving-back-with-lionel-messi-to-kick-off-conmebol-copa-america-2024.html
-
-## ### Michael Kors first to debut Shopping Muse, the AI-powered shopping assistant from Dynamic Yield by Mastercard June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/michael-kors-first-to-debut-shopping-muse-the-ai-powered-shopping-assistant-from-dynamic-yield-by-mastercard.html
-
-## ### Mastercard enhances digital financial experiences with deposit switch and bill pay switch June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-enhances-digital-financial-experiences-with-deposit-switch-and-bill-pay-switch.html
-
-## ### Mastercard Center for Inclusive Growth and data.org launch Artificial Intelligence to Accelerate Inclusion challenge June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-center-for-inclusive-growth-and-data-org-launch-artificial-intelligence-to-accelerate-inclusion-challenge.html
-
-## ### Bunq first bank in Europe to leverage AI in open banking with Mastercard June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/bunq-first-bank-in-europe-to-leverage-ai-in-open-banking-with-mastercard.html
-
-## ### Mastercard Crypto Credential goes live with first peer-to-peer pilot transactions, adds new partners to the ecosystem May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-crypto-credential-goes-live-with-first-peer-to-peer-pilot-transactions-adds-new-partners-to-the-ecosystem.html
-
-## ### Mastercard accelerates commitment to digital transformation in Africa May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-commitment-to-digital-transformation-in-africa.html
-
-## ### Mastercard accelerates card fraud detection with generative ai technology May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-card-fraud-detection-with-generative-ai-technology.html
-
-## ### Mastercard and Salesforce announce new integration to transform transaction disputes May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/Mastercard-and-Salesforce-announce-new-integration-to-transform-transaction-disputes.html
-
-## ### Soaring passenger traffic, longer stays: Mastercard Economics Institute on travel in 2024 May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/soaring-passenger-traffic-longer-stays-mastercard-economics-institute-on-travel-in-2024.html
-
-## ### University of New Brunswick Mastercard Cybersecurity Scholarship winners announced May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/university-of-new-brunswick-mastercard-cybersecurity-scholarship-winners-announced.html
-
-## ### Mastercard JV switches first domestic transaction in China May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-jv-switches-first-domestic-transaction-in-china.html
-
-## ### Mastercard drops exclusive, personalized Music Pass as it kicks off season 2 of its Artist Accelerator April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-drops-exclusive-personalized-music-pass-as-it-kicks-off-season-2-of-its-artist-accelerator.html
-
-## ### Enhancing fintech programs, empowering innovation April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/enhancing-fintech-programs-empowering-innovation.html
-
-## ### Mastercard transforms the fight against scams with latest AI tech April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-transforms-the-fight-against-scams-with-latest-ai-tech.html
-
-## ### Mastercard launches mobile virtual card app to simplify travel and business expenses April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-launches-mobile-virtual-card-app-to-simplify-travel-and-business-expenses.html
-
-## ### The Xbox Mastercard issued by Barclays now available in the U.S. with more value April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/the-xbox-mastercard-issued-by-barclays-now-available-in-the-us-with-more-value.html
-
-## ### Nubank and Mastercard exclusive study reveals path to advancing beyond access toward financial health April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/nubank-and-mastercard-exclusive-study-reveals-path-to-advancing-beyond-access-toward-financial-health.html
-
-## ### Turning aspiration into impact April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/turning-aspiration-into-impact.html
-
-## ### Mastercard and leading Canadian fintech VoPay enter strategic partnership to empower Canadians to move money quickly and securely with Mastercard Move April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-and-leading-canadian-fintech-vopay-enter-strategic-partnership-to-empower-canadians-to-move-money-quickly-and-securely-with-mastercard-move.html
-
-## ### Positioning Mastercard for the next era of growth April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/positioning-mastercard-for-the-next-era-of-growth.html
-
-## ### Mastercard announces new cardholder benefits to enhance health and wellness, travel and lifestyle rewards for consumers, small businesses April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-announces-new-cardholder-benefits-to-enhance-health-wellness-travel-and-lifestyle-rewards-for-consumers-small-businesses.html
-
-## ### Mastercard commits to lowering U.S. interchange for small businesses and broader merchant community March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html
-
-## ### Mastercard and Worldpay join forces to fight payment fraud globally March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-and-worldpay-join-forces-to-fight-payment-fraud-globally.html
-
-## ### New Mastercard report reveals key trends and opportunities to digitize remittances in Latin America and the Caribbean March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/new-mastercard-report-reveals-key-trends-opportunities-to-digitize-remittances-in-latin-america-and-the-caribbean.html
-
-## ### Mastercard enables convenient and secure international remittances to Alipay wallet March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-enables-convenient-and-secure-international-remittances-to-alipay-wallet.html
-
-## ### Mastercard simplifies subscription management with smart subscriptions March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-simplifies-subscription-management-with-smart-subscriptions.html
-
-## ### The Mastercard Artist Accelerator kicks off its second season, launches live touring series with OnesToWatch March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/the-mastercard-artist-accelerator-kicks-off-its-second-season-launches-live-touring-series-with-onestowatch.html
-
-## ### Uber partners with Mastercard and Payfare to launch the new Uber Pro Card in Canada March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/uber-partners-with-mastercard-and-payfare-to-launch-the-new-uber-pro-card-in-canada.html
-
-## ### Mastercard open banking enhances the debit and prepaid digital account opening experience February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-open-banking-enhances-the-debit-and-prepaid-digital-account-opening-experience.html
-
-## ### How were co-creating the future of payments with fintechs February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/how-were-co-creating-the-future-of-payments-with-fintechs.html
-
-## ### Mastercard joins us AI safety institute consortium to guide national ai standards February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-joins-us-ai-safety-institute-consortium-to-guide-national-ai-standards.html
-
-## ### Mastercard dedicates its GRAMMY Awards® campaign to forest restoration; teams with SZA in debut bonus performance to raise awareness for the Priceless Planet Coalition February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-dedicates-its-grammy-awards-campaign-to-forest-restoration-teams-with-sza-in-debut-bonus-performance-to-raise-awareness-for-the-priceless-planet-coalition.html
-
-## ### Mastercard supercharges consumer protection with gen AI February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-supercharges-consumer-protection-with-gen-ai.html
-
-## ### Mastercard and BOK Financial Corporation announce expanded payments agreement January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-bok-financial-corporation-announce-expanded-payments-agreement.html
-
-## ### Driving an inclusive digital economy through small business empowerment and open banking innovation January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/meet-15-startups-empowering-small-businesses-with-new-technology.html
-
-## ### Mastercard and the clearing house extend partnership on real time payments January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-the-clearing-house-extend-partnership-on-real-time-payments.html
-
-## ### Mastercard is unlocking efficiencies in B2B healthcare payments through innovative partnership January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-is-unlocking-efficiencies-in-b2b-healthcare-payments-through-innovative-partnership.html
-
-## ### Mastercard announces development of inclusive AI tool to provide personalized, real-time assistance to small business community January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-announces-development-of-inclusive-ai-tool-to-provide-personalized-real-time-assistance-to-small-business-community.html
-
-## ### Mastercard becomes official partner of Hudson Yards, unlocking priceless experiences and discovery for cardholders in New York City January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-becomes-official-partner-of-hudson-yards-unlocking-priceless-experiences-and-discovery-for-cardholders-in-new-york-city.html
-
-## ### Mastercard and Chainlink enable on-chain crypto purchases using Mastercard's 3.5 billion cards June 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
-
-## Fundamentals Metro 2® Format Webinar Series
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.cdiaonline.org/fundamentals-metro-2-webinar-series/
-
-## Fiduciary Duties in Selecting Designated Investment Alternatives
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/31/2026-06178/fiduciary-duties-in-selecting-designated-investment-alternatives
-
-This document contains a proposed regulation that clarifies, and provides a safe harbor for, a fiduciary's duty of prudence under the Employee Retirement Income Security Act of 1974 (ERISA) in connection with selecting designated investment alternatives for a participant-directed individual account plan, including asset allocation funds that include alternative assets. This pr…
-
-## Single Family Housing Guaranteed Loan Program-Income Producing Accessory Dwelling Unit (ADU) Provisions
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/31/2026-06173/single-family-housing-guaranteed-loan-program-income-producing-accessory-dwelling-unit-adu
-
-The Rural Housing Service (RHS or the Agency), an agency of the Rural Development mission area within the United States Department of Agriculture (USDA), is issuing a proposed rule to amend the current Single Family Housing Guaranteed Loan Program (SFHGLP) regulation. These proposed changes are intended to allow the Agency to finance a single family home with a single or multi…
-
-## Meeting of the Religious Liberty Commission
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-03-31T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/03/31/2026-06208/meeting-of-the-religious-liberty-commission
-
-The DOJ is publishing this notice to announce the seventh Federal advisory committee meeting of the Religious Liberty Commission (Commission).
