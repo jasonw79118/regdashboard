@@ -1,3 +1,1927 @@
+OFAC
+Treasury
+2026-04-15T12:00:00Z
+Over 53 Million Filers Claimed At Least One of President Trump’s Signature New Tax Cuts
+https://home.treasury.gov/news/press-releases/sb0441
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-04-15T12:00:00Z
+AIB Bank N.V. of Aruba launches digital transformation journey with Finastra Essence
+https://www.finastra.com/press-media/aib-bank-nv-aruba-launches-digital-transformation-journey-finastra-essence
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-15T11:41:35Z
+Microsoft: April updates trigger BitLocker key prompts on some servers
+https://www.bleepingcomputer.com/news/microsoft/microsoft-some-windows-servers-ask-for-bitlocker-key-after-april-updates/
+Microsoft confirmed on Tuesday that some Windows Server 2025 devices will boot into BitLocker recovery after installing the April 2026 KB5082063 Windows security update. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-15T10:24:53Z
+Microsoft fixes bug behind Windows Server 2025 automatic upgrades
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-server-2025-automatic-upgrades/
+Microsoft has finally fixed a known issue that was causing systems running Windows Server 2019 and 2022 to "unexpectedly" upgrade to Windows Server 2025. [...]
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:49:16Z
+CVE-2026-34757 LIBPNG has a yse-after-free in png_set_PLTE, png_set_tRNS and png_set_hIST leading to corrupted chunk data and potential heap information disclosure
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34757
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:49:03Z
+CVE-2026-27140 Code execution vulnerability in SWIG code generation in cmd/go
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27140
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:48:42Z
+CVE-2026-27143 Missing bound checks can lead to memory corruption in safe Go in cmd/compile
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27143
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:48:20Z
+CVE-2026-32282 TOCTOU permits root escape on Linux via Root.Chmod in os in internal/syscall/unix
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32282
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:47:59Z
+CVE-2026-27144 Miscompilation allows memory corruption via CONVNOP-wrapped array copy in cmd/compile
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27144
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:47:43Z
+CVE-2026-32280 Unexpected work during chain building in crypto/x509
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32280
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:47:16Z
+CVE-2026-32283 Unauthenticated TLS 1.3 KeyUpdate record can cause persistent connection retention and DoS in crypto/tls
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32283
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:46:32Z
+CVE-2026-32281 Inefficient policy validation in crypto/x509
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32281
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:46:07Z
+CVE-2026-32288 Unbounded allocation for old GNU sparse in archive/tar
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32288
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:45:23Z
+CVE-2026-28390 Possible NULL Dereference When Processing CMS KeyTransportRecipientInfo
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28390
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:45:06Z
+CVE-2026-31789 Heap Buffer Overflow in Hexadecimal Conversion
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31789
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:44:54Z
+CVE-2026-28389 Possible NULL Dereference When Processing CMS KeyAgreeRecipientInfo
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28389
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:44:38Z
+CVE-2026-28388 NULL Pointer Dereference When Processing a Delta CRL
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28388
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:44:18Z
+CVE-2026-28387 Potential Use-after-free in DANE Client Code
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28387
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:44:10Z
+CVE-2026-33055 tar-rs incorrectly ignores PAX size headers if header size is nonzero
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33055
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:43:57Z
+CVE-2026-33056 tar-rs: unpack_in can chmod arbitrary directories by following symlinks
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33056
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:43:43Z
+CVE-2026-2646 Heap buffer overflow in session parsing with wolfSSL_d2i_SSL_SESSION() function
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2646
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:43:37Z
+CVE-2026-2645 Acceptance of CertificateVerify Message before ClientKeyExchange in TLS 1.2
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2645
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:43:31Z
+CVE-2026-3579 Non-constant time multiplication subroutine __muldi3 on RISC-V RV32I
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3579
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:43:25Z
+CVE-2026-35611 Addressable has a Regular Expression Denial of Service in Addressable templates
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35611
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:43:25Z
+CVE-2026-3849 Buffer Overflow in HPKE via Oversized ECH Config
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3849
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:42:54Z
+CVE-2026-35093 Libinput: libinput: unauthorized code execution and information disclosure through lua bytecode plugins
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35093
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:42:40Z
+CVE-2026-34743 XZ Utils: Buffer overflow in lzma_index_append()
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34743
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:42:33Z
+CVE-2026-3644 Incomplete control character validation in http.cookies
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3644
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:42:18Z
+CVE-2026-34601 xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34601
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:42:06Z
+CVE-2026-2673 OpenSSL TLS 1.3 server may choose unexpected key agreement group
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2673
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:41:59Z
+CVE-2026-32287 Infinite loop in github.com/antchfx/xpath
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32287
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:41:54Z
+CVE-2026-32777
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32777
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:41:38Z
+CVE-2026-4739 Integer overflow vulnerabilities in InsightSoftwareConsortium/ITK
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4739
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:41:36Z
+CVE-2026-32778
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32778
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:41:18Z
+CVE-2026-32776
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32776
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:41:11Z
+CVE-2026-4176 Perl versions from 5.9.4 before 5.40.4-RC1, from 5.41.0 before 5.42.2-RC1, from 5.43.0 before 5.43.9 contain a vulnerable version of Compress::Raw::Zlib
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4176
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:40:55Z
+CVE-2026-27171 zlib before 1.3.2 allows CPU consumption via crc32_combine64 and crc32_combine_gen64 because x2nmodp can do right shifts within a loop that has no termination condition.
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27171
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:40:46Z
+CVE-2026-27139 FileInfo can escape from a Root in os
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27139
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:39:52Z
+CVE-2025-14523 Libsoup: libsoup: duplicate host header handling causes host-parsing discrepancy (first- vs last-value wins)
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-14523
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:39:35Z
+CVE-2026-33940 Handlebars.js has JavaScript Injection via AST Type Confusion when passing an object as dynamic partial
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33940
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:39:31Z
+CVE-2025-61729 Excessive resource consumption when printing error string for host certificate validation in crypto/x509
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61729
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:39:30Z
+CVE-2026-33939 Handlebars.js has Denial of Service via Malformed Decorator Syntax in Template Compilation
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33939
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:39:24Z
+CVE-2026-33941 Handlebars.js has JavaScript Injection in CLI Precompiler via Unescaped Names and Options
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33941
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:39:18Z
+CVE-2026-33938 Handlebars.js has JavaScript Injection via AST Type Confusion by tampering @partial-block
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33938
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:39:13Z
+CVE-2026-33891 Forge has Denial of Service via Infinite Loop in BigInteger.modInverse() with Zero Input
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33891
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:39:04Z
+CVE-2026-33896 Forge has a basicConstraints bypass in its certificate chain verification (RFC 5280 violation)
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33896
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:38:56Z
+CVE-2026-33895 Forge has signature forgery in Ed25519 due to missing S > L check
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33895
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:38:37Z
+CVE-2026-33671 Picomatch has a ReDoS vulnerability via extglob quantifiers
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33671
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:38:32Z
+CVE-2025-1220 Null byte termination in hostnames
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1220
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:38:23Z
+CVE-2026-1519 Excessive NSEC3 iterations cause high CPU load during insecure delegation validation
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1519
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:38:17Z
+CVE-2026-33636 LIBPNG has ARM NEON Palette Expansion Out-of-Bounds Read on AArch64
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33636
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:38:06Z
+CVE-2026-33416 LIBPNG has use-after-free via pointer aliasing in `png_set_tRNS` and `png_set_PLTE`
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33416
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:37:50Z
+CVE-2025-30258 In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify signatu…
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-30258
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:05:34Z
+CVE-2025-62718 Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-62718
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:05:29Z
+CVE-2026-40175 Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40175
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:05:23Z
+CVE-2026-34480 Apache Log4j Core: Silent log event loss in XmlLayout due to unescaped XML 1.0 forbidden characters
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34480
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:05:18Z
+CVE-2026-34479 Apache Log4j 1 to Log4j 2 bridge: Silent log event loss in Log4j1XmlLayout due to unescaped XML 1.0 forbidden characters
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34479
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:05:12Z
+CVE-2026-34481 Apache Log4j JSON Template Layout: Improper serialization of non-finite floating-point values in JsonTemplateLayout
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34481
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:05:07Z
+CVE-2026-35201 Discount has an Out-of-bounds Read in rdiscount
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35201
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:04:59Z
+CVE-2026-1502 HTTP client proxy tunnel headers not validated for CR/LF
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1502
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:04:48Z
+CVE-2026-5446 wolfSSL ARIA-GCM TLS 1.2/DTLS 1.2 GCM nonce reuse
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5446
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:04:39Z
+CVE-2026-5392 wolfSSL heap OOB read in PKCS7 SignedData streaming
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5392
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:04:31Z
+CVE-2026-5263 URI nameConstraints not enforced in ConfirmNameConstraints()
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5263
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:04:23Z
+CVE-2026-5460 Heap Use-After-Free in PQC Hybrid KeyShare Error Cleanup in wolfSSL TLS 1.3
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5460
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:04:15Z
+CVE-2026-5772 MatchDomainName 1-Byte Stack Buffer Over-Read in Hostname Validation
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5772
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:04:06Z
+CVE-2026-5447 Heap buffer overflow in CertFromX509() via AuthorityKeyIdentifier
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5447
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:03:58Z
+CVE-2026-5778 Integer underflow leads to out-of-bounds access in sniffer ChaCha decrypt path.
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5778
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:03:50Z
+CVE-2026-5188 Integer underflow in X.509 SAN parsing in wolfSSL
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5188
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:03:41Z
+CVE-2026-5295 Stack Buffer Overflow in wolfSSL PKCS7 wc_PKCS7_DecryptOri() via Oversized OID
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5295
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:03:33Z
+CVE-2026-5264 DTLS 1.3 ACK heap buffer overflow
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5264
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:03:24Z
+CVE-2026-5503 out-of-bounds write in TLSX_EchChangeSNI via attacker-controlled publicName
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5503
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:03:16Z
+CVE-2026-5479 wolfSSL EVP ChaCha20-Poly1305 AEAD authentication tag
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5479
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:03:08Z
+CVE-2026-5477 Prefix-substitution forgery via integer overflow in wolfCrypt CMAC
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5477
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:02:59Z
+CVE-2026-5448 1-2 Byte Buffer Overflow in wolfSSL_X509_notAfter/notBefore
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5448
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:02:51Z
+CVE-2026-5507 Session Cache Restore — Arbitrary Free via Deserialized Pointer
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5507
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:02:42Z
+CVE-2026-5501 Improper Certificate Signature Verification in X.509 Chain Validation Allows Forged Leaf Certificates
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5501
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:02:34Z
+CVE-2026-5194 wolfSSL ECDSA Certificate Verification
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5194
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:02:25Z
+CVE-2026-5504 PKCS7 CBC Padding Oracle — Plaintext Recovery
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5504
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:02:16Z
+CVE-2026-5500 Improper Validation of AES-GCM Authentication Tag Length in PKCS#7 Envelope Allows Authentication Bypass
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5500
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:02:08Z
+CVE-2026-5393 OOB Read in DoTls13CertificateVerify with WOLFSSL_DUAL_ALG_CERTS
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5393
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:01:59Z
+CVE-2026-5466 wc_VerifyEccsiHash missing sanity check
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5466
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:01:51Z
+CVE-2026-33555
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33555
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:01:42Z
+CVE-2026-40385
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40385
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-15T08:01:34Z
+CVE-2026-40386
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40386
+Information published.
+------------------------------------------------------------
+Payments
+NACHA
+2026-04-15T00:00:00Z
+Nacha Announces Prometeo is a Nacha Preferred Partner for Account Validation/Open Banking
+https://www.nacha.org/news/nacha-announces-prometeo-nacha-preferred-partner-account-validationopen-banking
+RESTON, Virginia, April 15, 2026 – Nacha announced today that Prometeo is now a Nacha Preferred Partner for Account Validation/Open Banking.Prometeo uses a single API which translates multiple bank formats into a standard language and enriches data allowing for transactions to be completed. Prometeo's API connection allows organizations to validate bank accounts and identity d…
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-15T00:00:00Z
+Rolling Networks: Securing the Transportation Sector
+https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-15T00:00:00Z
+Get a lifetime of documentaries with this Curiosity Stream deal
+https://www.bleepingcomputer.com/offer/deals/get-a-lifetime-of-documentaries-with-this-curiosity-stream-deal/
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-15T00:00:00Z
+Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+https://www.federalregister.gov/documents/2026/04/15/2026-07323/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-15T00:00:00Z
+Agency Information Collection Activities; Proposed eCollection eComments Requested; Revision of a Previously Approved Collection; U.S. Department of Justice Self Reportable Activities
+https://www.federalregister.gov/documents/2026/04/15/2026-07330/agency-information-collection-activities-proposed-ecollection-ecomments-requested-revision-of-a
+The Justice Management Division, Department of Justice (DOJ), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-15T00:00:00Z
+Agency Information Collection Activities; Proposed eCollection eComments Requested; Extension of Currently Approved Collection
+https://www.federalregister.gov/documents/2026/04/15/2026-07287/agency-information-collection-activities-proposed-ecollection-ecomments-requested-extension-of
+The Department of Justice, Office on Violence Against Women (OVW) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T22:23:33Z
+Microsoft adds Windows protections for malicious Remote Desktop files
+https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-windows-protections-for-malicious-remote-desktop-files/
+Microsoft has introduced new Windows protections to defend against phishing attacks that abuse Remote Desktop connection (.rdp) files, adding warnings and disabling risky shared resources by default. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T21:58:31Z
+Crypto-exchange Kraken extorted by hackers after insider breach
+https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/
+The Kraken cryptocurrency exchange announced that a cybercrime group is trying to extort the company by threatening to release videos showing internal systems that host client data. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T20:33:00Z
+Over 100 Chrome Web Store extensions steal user accounts, data
+https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/
+More than 100 malicious extensions in the official Chrome Web Store are attempting to steal Google OAuth2 Bearer tokens, deploy backdoors, and carry out ad fraud. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T18:09:39Z
+Microsoft releases Windows 10 KB5082200 extended security update
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5082200-extended-security-update/
+Microsoft has released the Windows 10 KB5082200 extended security update to fix the April 2026 Patch Tuesday vulnerabilities, including 2 zero-days. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T18:07:07Z
+McGraw-Hill confirms data breach following extortion threat
+https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/
+Education company McGraw-Hill has confirmed in a statement to BleepingComputer that hackers exploited a Salesforce misconfiguration and accessed its internal data. [...]
+------------------------------------------------------------
+Banking
+FRB
+2026-04-14T18:00:00Z
+Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026
+https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm
+Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T17:46:31Z
+Windows 11 cumulative updates KB5083769 & KB5082052 released
+https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5083769-and-kb5082052-released/
+Microsoft has released Windows 11 KB5083769 and KB5082052 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T17:41:13Z
+Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days
+https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2026-patch-tuesday-fixes-167-flaws-2-zero-days/
+Today is Microsoft's April 2026 Patch Tuesday with security updates for 167 flaws, including 2 zero-day vulnerabilities. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T16:37:01Z
+Fake Ledger Live app on Apple’s App Store stole $9.5M in crypto
+https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/
+A malicious Ledger Live app for macOS available from Apple's App Store has drained approximately $9.5 million in cryptocurrency from 50 victims in just a few days this month. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-04-14T16:17:25Z
+First Lady Melania Trump Authorizes Landmark Art Loan to Spotlight American Master, James McNeill Whistler
+https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-authorizes-landmark-art-loan-to-spotlight-american-master-james-mcneill-whistler/
+------------------------------------------------------------
+Executive
+White House
+2026-04-14T15:54:30Z
+Nominations Sent to the Senate
+https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-f01e/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T15:53:50Z
+Microsoft rolls out fast-track to reinstate Windows hardware dev accounts
+https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fast-track-to-reinstate-windows-hardware-dev-accounts/
+Microsoft has rolled out a fast-track process to help developers regain access to accounts recently suspended from its Windows Hardware Program, following widespread complaints that they were locked out without warning. [...]
+------------------------------------------------------------
+Banking
+FDIC
+2026-04-14T15:01:18Z
+Press Release: Principals of U.S., European Banking Union, and U.K. Financial Authorities To Meet for Regular Coordination Exercise on Cross-Border Resolution Planning
+https://content.govdelivery.com/accounts/USFDIC/bulletins/412e141
+PRESS RELEASE | APRIL 14, 2026 Principals of U.S., European Banking Union, and U.K. Financial Authorities To Meet for Regular Coordination Exercise on Cross-Border Resolution Planning WASHINGTON – The heads of resolution and regulatory authorities, central banks, and finance ministries of the United States, the European Banking Union, and the United Kingdom are among leaders t…
+------------------------------------------------------------
+Compliance Watch
+CDIA
+2026-04-14T14:47:42Z
+Now Approved for up to 9 hrs of Continuing Legal Education Credits (CLEs)!
+https://www.cdiaonline.org/events/2026/04/14/now-approved-for-up-to-9-hrs-of-continuing-legal-education-credits-cles/
+Now Approved for up to 9 hrs of Continuing Legal Education Credits (CLEs)! If you’re looking to stay current on continuing legal education while engaging with top... The post Now Approved for up to 9 hrs of Continuing Legal Education Credits (CLEs)! appeared first on CDIA .
+------------------------------------------------------------
+OFAC
+Treasury
+2026-04-14T14:30:00Z
+Treasury Sanctions Cartel-Linked Casinos and Key Associates on U.S.-Mexico Border
+https://home.treasury.gov/news/press-releases/sb0440
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-14T14:02:12Z
+5 Ways Zero Trust Maximizes Identity Security
+https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/
+Stolen credentials remain a top breach vector, often leading to unchecked privilege escalation. Specops explains how identity-first Zero Trust limits access, enforces device trust, and blocks lateral movement. [...]
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-20930 Windows Management Services Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20930
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Management Services allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-25250 MITRE: CVE-2026-25250 Secure Boot disable Eazy Fix
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25250
+Missing cryptographic step in Windows Secure Boot allows an authorized attacker to bypass a security feature locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-23653 GitHub Copilot and Visual Studio Code Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23653
+Improper neutralization of special elements used in a command ('command injection') in GitHub Copilot and Visual Studio Code allows an authorized attacker to disclose information over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-25184 Applocker Filter Driver (applockerfltr.sys) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25184
+Concurrent execution using shared resource with improper synchronization ('race condition') in Applocker Filter Driver (applockerfltr.sys) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-20945 Microsoft SharePoint Server Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20945
+Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-23670 Windows Virtualization-Based Security (VBS) Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23670
+Untrusted pointer dereference in Windows Virtualization-Based Security (VBS) Enclave allows an authorized attacker to bypass a security feature locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26149 Microsoft Power Apps Security Feature Bypass
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26149
+Improper neutralization of escape, meta, or control sequences in Microsoft Power Apps allows an authorized attacker to bypass a security feature over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26151 Remote Desktop Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26151
+Insufficient ui warning of dangerous operations in Windows Remote Desktop allows an unauthorized attacker to perform spoofing over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26154 Windows Server Update Service (WSUS) Tampering Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26154
+Improper input validation in Windows Server Update Service allows an unauthorized attacker to perform tampering over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26155 Microsoft Local Security Authority Subsystem Service Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26155
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26160 Remote Desktop Licensing Service Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26160
+Missing authentication for critical function in Windows Remote Desktop Licensing Service allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26161 Windows Sensor Data Service Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26161
+Untrusted pointer dereference in Windows Sensor Data Service allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26162 Windows OLE Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26162
+Access of resource using incompatible type ('type confusion') in Windows OLE allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26165 Windows Shell Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26165
+Use after free in Windows Shell allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26166 Windows Shell Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26166
+Double free in Windows Shell allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26167 Windows Push Notifications Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26167
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Push Notifications allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26174 Windows Server Update Service (WSUS) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26174
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Server Update Service allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26175 Windows Boot Manager Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26175
+Use of uninitialized resource in Windows Boot Manager allows an unauthorized attacker to bypass a security feature with a physical attack.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26179 Windows Kernel Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26179
+Double free in Windows Kernel allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26180 Windows Kernel Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26180
+Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26181 Microsoft Brokering File System Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26181
+Use after free in Microsoft Brokering File System allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26183 Remote Access Management service/API (RPC server) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26183
+Improper access control in Windows RPC API allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27906 Windows Hello Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27906
+Improper input validation in Windows Hello allows an authorized attacker to bypass a security feature locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27907 Windows Storage Spaces Controller Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27907
+Integer underflow (wrap or wraparound) in Windows Storage Spaces Controller allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27908 Windows TDI Translation Driver (tdx.sys) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27908
+Use after free in Windows TDI Translation Driver (tdx.sys) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27915 Windows UPnP Device Host Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27915
+Use after free in Windows Universal Plug and Play (UPnP) Device Host allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27917 Windows WFP NDIS Lightweight Filter Driver (wfplwfs.sys) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27917
+Use after free in Windows WFP NDIS Lightweight Filter Driver (wfplwfs.sys) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27918 Windows Shell Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27918
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Shell allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27919 Windows UPnP Device Host Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27919
+Untrusted pointer dereference in Windows Universal Plug and Play (UPnP) Device Host allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27921 Windows TDI Translation Driver (tdx.sys) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27921
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows TCP/IP allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27924 Desktop Window Manager Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27924
+Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27926 Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27926
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27927 Windows Projected File System Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27927
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Projected File System allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27929 Windows LUA File Virtualization Filter Driver Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27929
+Time-of-check time-of-use (toctou) race condition in Windows LUAFV allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27931 Windows GDI Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27931
+Out-of-bounds read in Windows GDI allows an unauthorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32071 Windows Local Security Authority Subsystem Service (LSASS) Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32071
+Null pointer dereference in Windows Local Security Authority Subsystem Service (LSASS) allows an unauthorized attacker to deny service over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32073 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32073
+Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32075 Windows UPnP Device Host Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32075
+Use after free in Windows Universal Plug and Play (UPnP) Device Host allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32081 Package Catalog Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32081
+Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32082 Windows Simple Search and Discovery Protocol (SSDP) Service Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32082
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows SSDP Service allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32083 Windows Simple Search and Discovery Protocol (SSDP) Service Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32083
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows SSDP Service allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32085 Remote Procedure Call Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32085
+Exposure of sensitive information to an unauthorized actor in Windows Remote Procedure Call allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32087 Windows Function Discovery Service (fdwsd.dll) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32087
+Heap-based buffer overflow in Function Discovery Service (fdwsd.dll) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32089 Windows Speech Brokered Api Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32089
+Use after free in Windows Speech Brokered Api allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32090 Windows Speech Brokered Api Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32090
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Speech Brokered Api allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32093 Windows Function Discovery Service (fdwsd.dll) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32093
+Concurrent execution using shared resource with improper synchronization ('race condition') in Function Discovery Service (fdwsd.dll) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32152 Desktop Window Manager Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32152
+Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32154 Desktop Window Manager Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32154
+Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32156 Windows UPnP Device Host Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32156
+Use after free in Windows Universal Plug and Play (UPnP) Device Host allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32157 Remote Desktop Client Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32157
+Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32158 Windows Push Notifications Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32158
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Push Notifications allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32159 Windows Push Notifications Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32159
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Push Notifications allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32160 Windows Push Notifications Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32160
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Push Notifications allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-0390 UEFI Secure Boot Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0390
+Reliance on untrusted inputs in a security decision in Windows Boot Loader allows an authorized attacker to bypass a security feature locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32165 Windows User Interface Core Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32165
+Use after free in Windows User Interface Core allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32167 SQL Server Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32167
+Improper neutralization of special elements used in an sql command ('sql injection') in SQL Server allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32168 Azure Monitor Agent Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32168
+Improper input validation in Azure Monitor Agent allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32178 .NET Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32178
+Improper neutralization of special elements in .NET allows an unauthorized attacker to perform spoofing over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32181 Connected User Experiences and Telemetry Service Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32181
+Improper privilege management in Microsoft Windows allows an authorized attacker to deny service locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32183 Windows Snipping Tool Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32183
+Improper neutralization of special elements used in a command ('command injection') in Windows Snipping Tool allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32184 Microsoft High Performance Compute (HPC) Pack Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32184
+Deserialization of untrusted data in Microsoft High Performance Compute Pack (HPC) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32188 Microsoft Excel Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32188
+Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32189 Microsoft Excel Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32189
+Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32192 Azure Monitor Agent Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32192
+Deserialization of untrusted data in Azure Monitor Agent allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32195 Windows Kernel Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32195
+Stack-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32202 Windows Shell Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32202
+Protection mechanism failure in Windows Shell allows an unauthorized attacker to perform spoofing over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32215 Windows Kernel Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32215
+Insertion of sensitive information into log file in Windows Kernel allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32216 Windows Redirected Drive Buffering System Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32216
+Null pointer dereference in Windows Redirected Drive Buffering allows an authorized attacker to deny service locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32217 Windows Kernel Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32217
+Insertion of sensitive information into log file in Windows Kernel allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32218 Windows Kernel Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32218
+Insertion of sensitive information into log file in Windows Kernel allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2023-20585 AMD: CVE-2023-20585 IOMMU Write Buffer Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-20585
+The vulnerability assigned to this CVE could lead to corruption of guest encrypted memory. The mitigation for this vulnerability requires a Windows update. This CVE is being documented in the Security Update Guide to announce that the latest builds of Windows enable the mitigation and provide protection against the vulnerability. Please see the following for more information:…
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32219 Microsoft Brokering File System Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32219
+Double free in Microsoft Brokering File System allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32220 UEFI Secure Boot Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32220
+Improper access control in Windows Virtualization-Based Security (VBS) Enclave allows an authorized attacker to bypass a security feature locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32221 Windows Graphics Component Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32221
+Heap-based buffer overflow in Microsoft Graphics Component allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32222 Windows Win32k Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32222
+Untrusted pointer dereference in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32223 Windows USB Printing Stack (usbprint.sys) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32223
+Heap-based buffer overflow in Windows USB Print Driver allows an unauthorized attacker to elevate privileges with a physical attack.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32224 Windows Server Update Service (WSUS) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32224
+Use after free in Windows Server Update Service allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32226 .NET Framework Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32226
+Concurrent execution using shared resource with improper synchronization ('race condition') in .NET Framework allows an unauthorized attacker to deny service over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33095 Microsoft Word Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33095
+Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33096 HTTP.sys Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33096
+Out-of-bounds read in Windows HTTP.sys allows an unauthorized attacker to deny service over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33098 Windows Container Isolation FS Filter Driver Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33098
+Use after free in Windows Container Isolation FS Filter Driver allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33116 .NET, .NET Framework, and Visual Studio Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33116
+Loop with unreachable exit condition ('infinite loop') in .NET, .NET Framework, Visual Studio allows an unauthorized attacker to deny service over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33120 Microsoft SQL Server Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33120
+Untrusted pointer dereference in SQL Server allows an authorized attacker to execute code over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33822 Microsoft Word Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33822
+Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33825 Microsoft Defender Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33825
+Insufficient granularity of access control in Microsoft Defender allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33826 Windows Active Directory Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33826
+Improper input validation in Windows Active Directory allows an authorized attacker to execute code over an adjacent network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32212 Universal Plug and Play (upnp.dll) Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32212
+Improper link resolution before file access ('link following') in Universal Plug and Play (upnp.dll) allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+ADV990001 Latest Servicing Stack Updates
+https://msrc.microsoft.com/update-guide/vulnerability/ADV990001
+Advisory updated to announce new versions of Servicing Stack Updates are available. Please see the FAQ for details.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2025-6965 Integer Truncation on SQLite
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-6965
+This CVE has been updated to include new package information
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32631 GitHub: CVE-2026-32631 'git clone' from manipulated repositories can leak NTLM hashes
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32631
+[CVE-2026-32631](https://www.cve.org/CVERecord?id=CVE-2026-32631) is regarding a vulnerability where it is possible to obtain a user's NTLM hash by tricking them into cloning a malicious repository, or checking out a malicious branch that accesses an attacker-controlled server. By default, NTLM authentication does not need any user interaction. GitHub created this CVE on their…
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-21637 HackerOne: CVE-2026-21637 TLS PSK/ALPN Callback Exceptions Bypass Error Handlers
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21637
+[CVE-2026-21637](https://www.cve.org/CVERecord?id=CVE-2026-21637) is regarding a vulnerability in Node.js TLS error handling allows remote attackers to crash or exhaust resources of a TLS server when pskCallback or ALPNCallback are in use. Synchronous exceptions thrown during these callbacks bypass standard TLS error handling paths (tlsClientError and error), causing either im…
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-20928 Windows Recovery Environment Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20928
+Improper removal of sensitive information before storage or transfer in Windows Recovery Environment Agent allows an unauthorized attacker to bypass a security feature with a physical attack.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-20806 Windows COM Server Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20806
+Access of resource using incompatible type ('type confusion') in Windows COM allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-23657 Microsoft Word Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23657
+Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-23666 .NET Framework Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23666
+Concurrent execution using shared resource with improper synchronization ('race condition') in .NET Framework allows an unauthorized attacker to deny service over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26143 Microsoft PowerShell Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26143
+Improper input validation in Microsoft PowerShell allows an unauthorized attacker to bypass a security feature locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26152 Microsoft Cryptographic Services Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26152
+Insecure storage of sensitive information in Windows Cryptographic Services allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26153 Windows Encrypted File System (EFS) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26153
+Out-of-bounds read in Windows Encrypting File System (EFS) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26156 Windows Hyper-V Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26156
+Heap-based buffer overflow in Windows Hyper-V allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26159 Remote Desktop Licensing Service Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26159
+Missing authentication for critical function in Windows Remote Desktop Licensing Service allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26163 Windows Kernel Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26163
+Double free in Windows Kernel allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26168 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26168
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26169 Windows Kernel Memory Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26169
+Buffer over-read in Windows Kernel Memory allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26170 PowerShell Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26170
+Improper input validation in Microsoft PowerShell allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26172 Windows Push Notifications Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26172
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Push Notifications allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26173 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26173
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26176 Windows Client Side Caching driver (csc.sys) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26176
+Heap-based buffer overflow in Windows Client Side Caching driver (csc.sys) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26177 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26177
+Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26178 Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26178
+Integer size truncation in Windows Advanced Rasterization Platform (WARP) allows an unauthorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26182 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26182
+Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26184 Windows Projected File System Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26184
+Buffer over-read in Windows Projected File System allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27909 Windows Search Service Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27909
+Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27910 Windows Installer Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27910
+Improper handling of insufficient permissions or privileges in Windows Installer allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27911 Windows User Interface Core Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27911
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows User Interface Core allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27912 Windows Kerberos Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27912
+Improper authorization in Windows Kerberos allows an authorized attacker to elevate privileges over an adjacent network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27913 Windows BitLocker Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27913
+Improper input validation in Windows BitLocker allows an unauthorized attacker to bypass a security feature locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27914 Microsoft Management Console Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27914
+Improper access control in Microsoft Management Console allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27916 Windows UPnP Device Host Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27916
+Use after free in Windows Universal Plug and Play (UPnP) Device Host allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27920 Windows UPnP Device Host Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27920
+Untrusted pointer dereference in Windows Universal Plug and Play (UPnP) Device Host allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27922 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27922
+Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27923 Desktop Window Manager Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27923
+Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27925 Windows UPnP Device Host Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27925
+Use after free in Windows Universal Plug and Play (UPnP) Device Host allows an unauthorized attacker to disclose information over an adjacent network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27928 Windows Hello Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27928
+Improper input validation in Windows Hello allows an unauthorized attacker to bypass a security feature over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-27930 Windows GDI Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27930
+Out-of-bounds read in Windows GDI allows an unauthorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32068 Windows Simple Search and Discovery Protocol (SSDP) Service Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32068
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows SSDP Service allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32069 Windows Projected File System Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32069
+Double free in Windows Projected File System allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32070 Windows Common Log File System Driver Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32070
+Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32072 Active Directory Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32072
+Improper authentication in Windows Active Directory allows an unauthorized attacker to perform spoofing locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32074 Windows Projected File System Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32074
+Double free in Windows Projected File System allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32076 Windows Storage Spaces Controller Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32076
+Out-of-bounds read in Windows Storage Spaces Controller allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32077 Windows UPnP Device Host Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32077
+Untrusted pointer dereference in Windows Universal Plug and Play (UPnP) Device Host allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32078 Windows Projected File System Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32078
+Use after free in Windows Projected File System allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32079 Web Account Manager Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32079
+Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32080 Windows WalletService Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32080
+Use after free in Windows WalletService allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32084 Windows Print Spooler Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32084
+Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32086 Windows Function Discovery Service (fdwsd.dll) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32086
+Concurrent execution using shared resource with improper synchronization ('race condition') in Function Discovery Service (fdwsd.dll) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32088 Windows Biometric Service Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32088
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Biometric Service allows an unauthorized attacker to bypass a security feature with a physical attack.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32091 Microsoft Brokering File System Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32091
+Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Brokering File System allows an unauthorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32149 Windows Hyper-V Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32149
+Improper input validation in Windows Hyper-V allows an authorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32150 Windows Function Discovery Service (fdwsd.dll) Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32150
+Concurrent execution using shared resource with improper synchronization ('race condition') in Function Discovery Service (fdwsd.dll) allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32151 Windows Shell Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32151
+Exposure of sensitive information to an unauthorized actor in Windows Shell allows an authorized attacker to disclose information over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32153 Windows Speech Runtime Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32153
+Use after free in Microsoft Windows Speech allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32155 Desktop Window Manager Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32155
+Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32162 Windows COM Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32162
+Acceptance of extraneous untrusted data with trusted data in Windows COM allows an unauthorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32163 Windows User Interface Core Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32163
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows User Interface Core allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32164 Windows User Interface Core Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32164
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows User Interface Core allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32171 Azure Logic Apps Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32171
+Insufficiently protected credentials in Azure Logic Apps allows an authorized attacker to elevate privileges over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32176 SQL Server Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32176
+Improper neutralization of special elements used in an sql command ('sql injection') in SQL Server allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32190 Microsoft Office Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32190
+Use after free in Microsoft Office allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32196 Windows Admin Center Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32196
+Improper neutralization of input during web page generation ('cross-site scripting') in Windows Admin Center allows an unauthorized attacker to perform spoofing over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32197 Microsoft Excel Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32197
+Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32198 Microsoft Excel Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32198
+Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32199 Microsoft Excel Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32199
+Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32200 Microsoft PowerPoint Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32200
+Use after free in Microsoft Office PowerPoint allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-26171 .NET Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26171
+Uncontrolled resource consumption in .NET allows an unauthorized attacker to deny service over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32203 .NET and Visual Studio Denial of Service Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32203
+Stack-based buffer overflow in .NET and Visual Studio allows an unauthorized attacker to deny service over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32225 Windows Shell Security Feature Bypass Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32225
+Protection mechanism failure in Windows Shell allows an unauthorized attacker to bypass a security feature over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33099 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33099
+Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33100 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33100
+Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33101 Windows Print Spooler Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33101
+Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33103 Microsoft Dynamics 365 (On-Premises) Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33103
+Improper access control in Microsoft Dynamics 365 (on-premises) allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33104 Win32k Elevation of Privilege Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33104
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Win32K - GRFX allows an authorized attacker to elevate privileges locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33114 Microsoft Word Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33114
+Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33115 Microsoft Word Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33115
+Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33827 Windows TCP/IP Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33827
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows TCP/IP allows an unauthorized attacker to execute code over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33824 Windows Internet Key Exchange (IKE) Service Extensions Remote Code Execution Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33824
+Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-33829 Windows Snipping Tool Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33829
+Exposure of sensitive information to an unauthorized actor in Windows Snipping Tool allows an unauthorized attacker to perform spoofing over a network.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32214 Universal Plug and Play (upnp.dll) Information Disclosure Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32214
+Improper access control in Universal Plug and Play (upnp.dll) allows an authorized attacker to disclose information locally.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32201 Microsoft SharePoint Server Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32201
+Added an acknowledgement. This is an informational change only.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-14T14:00:00Z
+CVE-2026-32187 Microsoft Edge (Chromium-based) Defense in Depth Vulnerability - Rejected
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32187
+Microsoft has changed the status of this CVE to Rejected as we have determined that this is not a vulnerability.
+------------------------------------------------------------
 Payment Card Networks
 Visa
 2026-04-14T13:06:00Z
@@ -10,13 +1934,6 @@ Microsoft MSRC
 2026-04-14T08:44:36Z
 CVE-2026-31418 netfilter: ipset: drop logically empty buckets in mtype_del
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31418
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:44:07Z
-CVE-2026-28390 Possible NULL Dereference When Processing CMS KeyTransportRecipientInfo
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28390
 Information published.
 ------------------------------------------------------------
 IS
@@ -66,27 +1983,6 @@ Microsoft MSRC
 2026-04-14T08:40:35Z
 CVE-2026-4647 Binutils: out-of-bounds read in xcoff relocation processing in gnu binutils bfd library
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4647
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:39:46Z
-CVE-2026-32777
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32777
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:39:31Z
-CVE-2026-32778
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32778
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:39:20Z
-CVE-2026-32776
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32776
 Information published.
 ------------------------------------------------------------
 IS
@@ -257,19 +2153,50 @@ CVE-2026-40393
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40393
 Information published.
 ------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:01:26Z
-CVE-2026-40385
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40385
-Information published.
+OFAC
+OFAC
+2026-04-14T00:00:00Z
+Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question
+https://ofac.treasury.gov/recent-actions/20260414
 ------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:01:20Z
-CVE-2026-40386
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40386
-Information published.
+IRS
+IRS
+2026-04-14T00:00:00Z
+If you need more time to file, request an extension
+https://www.irs.gov/newsroom/if-you-need-more-time-to-file-request-an-extension
+IR-2026-52, April 14, 2026 — As the end of filing season approaches, the Internal Revenue Service reminds taxpayers they can get an extension to file their federal income tax return until Oct. 15, 2026, but they must request the extension by April 15, 2026, in order to avoid penalties.
+------------------------------------------------------------
+Banking
+FDIC
+2026-04-14T00:00:00Z
+Principals of U.S., European Banking Union, and U.K. Financial Authorities To Meet for Regular Coordination Exercise on Cross-Border Resolution Planning
+https://www.fdic.gov/news/press-releases/2026/principals-us-european-banking-union-and-uk-financial-authorities-meet
+Trilateral Principal Level Exercise (TPLE) on Saturday, April 18, 2026.
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-04-14T00:00:00Z
+Warren Presses Musk Ahead of X Money Launch, Warns of Consumer, National Security, and Financial Stability Risks a Year After Trump Dismantling of CFPB
+https://www.banking.senate.gov/newsroom/minority/warren-presses-musk-ahead-of-x-money-launch-warns-of-consumer-national-security-and-financial-stability-risks-a-year-after-trump-dismantling-of-cfpb
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-04-14T00:00:00Z
+Statement by Ranking Member Warren on Fed Chair Nominee Hearing
+https://www.banking.senate.gov/newsroom/minority/statement-by-ranking-member-warren-on-fed-chair-nominee-hearing
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-04-14T00:00:00Z
+ICYMI: Chairman Scott Previews Kevin Warsh Hearing, Emphasizes Fed Independence, and U.S. Leadership in Digital Assets on Fox Business
+https://www.banking.senate.gov/newsroom/majority/icymi-chairman-scott-previews-kevin-warsh-hearing-emphasizes-fed-independence-and-us-leadership-in-digital-assets-on-fox-business
+------------------------------------------------------------
+Payments
+NACHA
+2026-04-14T00:00:00Z
+Rising to the Challenge of First-party Fraud
+https://www.nacha.org/news/rising-challenge-first-party-fraud
+Nacha’s Risk Management Advisory Group (RMAG), Rules and Operations Committee, and the First-Party Fraud Workgroup are looking at ways to better identify and mitigate first-party fraud. The first steps are education and raising awareness of the problem. We have issued a series of articles describing first-party fraud and addressing actions for both ODFIs and RDFIs.
 ------------------------------------------------------------
 Payments
 NACHA
@@ -375,7 +2302,7 @@ A critical vulnerability in the wolfSSL SSL/TLS library can weaken security via 
 Executive
 White House
 2026-04-13T19:19:26Z
-Nominations Sent to the Senate
+Nominations and Withdrawal Sent to the Senate
 https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-6df5/
 ------------------------------------------------------------
 Executive
@@ -390,47 +2317,12 @@ White House
 Presidential Message on the Days of Remembrance of Victims of the Holocaust
 https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-days-of-remembrance-of-victims-of-the-holocaust/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-13T18:55:50Z
-FBI takedown of W3LL phishing service leads to developer arrest
-https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/
-The FBI Atlanta Field Office and Indonesian authorities have dismantled the "W3LL" global phishing platform, seizing infrastructure and arresting the alleged developer in what is described as the first coordinated enforcement action between the United States and Indonesia targeting a phishing kit developer. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-13T17:39:10Z
-OpenAI rotates macOS certs after Axios attack hit code-signing workflow
-https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/
-OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-13T17:30:10Z
-New Booking.com data breach forces reservation PIN resets
-https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/
-Booking.com has confirmed via a statement to BleepingComputer that it has detected unauthorized access to its systems that has exposed sensitive reservation and user data. [...]
-------------------------------------------------------------
 Banking
 FDIC
 2026-04-13T17:00:15Z
 Press Release: FDIC Announces Four Senior Leadership Appointments
 https://content.govdelivery.com/accounts/USFDIC/bulletins/412bb4d
 PRESS RELEASE | APRIL 13, 2026 FDIC Announces Four Senior Leadership Appointments WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions: Benjamin Olson has been appointed Director of the FDIC’s Division of Depositor and Consumer Protection (DCP). Prior to his appointment,…
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-13T15:37:05Z
-Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw
-https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/
-Adobe has released an emergency security update for Acrobat Reader to fix a vulnerability, tracked as CVE-2026-34621, that has been exploited in zero-day attacks since at least December. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-13T14:05:15Z
-The silent “Storm”: New infostealer hijacks sessions, decrypts server-side
-https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/
-New "Storm" infostealer skips local decryption, sending browser data to attacker servers. Varonis shows how server-side decryption enables session hijacking, bypassing passwords and MFA. [...]
 ------------------------------------------------------------
 Payment Card Networks
 Visa
@@ -482,14 +2374,14 @@ How real is artificial intelligence in the payments space? “It’s very real, 
 IS
 BleepingComputer
 2026-04-13T00:00:00Z
-Instantly enhance skies, portraits, and objects on your phone for $20
-https://www.bleepingcomputer.com/offer/deals/instantly-enhance-skies-portraits-and-objects-on-your-phone-for-20/
+FBI takedown of W3LL phishing service leads to developer arrest
+https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-04-13T00:00:00Z
-Save 73% on a refurbished Microsoft Surface Pro 6 today
-https://www.bleepingcomputer.com/offer/deals/save-73-percent-on-a-refurbished-microsoft-surface-pro-6-today/
+Instantly enhance skies, portraits, and objects on your phone for $20
+https://www.bleepingcomputer.com/offer/deals/instantly-enhance-skies-portraits-and-objects-on-your-phone-for-20/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -519,13 +2411,6 @@ https://www.federalregister.gov/documents/2026/04/13/2026-07129/agency-informati
 The Department of Justice (DOJ), Drug Enforcement Administration (DEA), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-04-12T14:20:31Z
-Critical Marimo pre-auth RCE flaw now under active exploitation
-https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/
-A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-04-12T08:02:25Z
 CVE-2026-39856 osslsigncode has an Out-of-Bounds Read via Unvalidated Section Bounds in PE Page Hash Calculation
@@ -548,23 +2433,9 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-04-12T08:02:02Z
-CVE-2026-28389 Possible NULL Dereference When Processing CMS KeyAgreeRecipientInfo
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28389
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-04-12T08:01:57Z
 CVE-2026-40226
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40226
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-12T08:01:49Z
-CVE-2026-34757 LIBPNG has a yse-after-free in png_set_PLTE, png_set_tRNS and png_set_hIST leading to corrupted chunk data and potential heap information disclosure
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34757
 Information published.
 ------------------------------------------------------------
 IS
@@ -573,19 +2444,6 @@ Microsoft MSRC
 CVE-2026-35206 Helm Chart extraction output directory collapse via `Chart.yaml` name dot-segment
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35206
 Information published.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-12T00:00:00Z
-Secure 1TB of Koofr cloud storage with lifetime access for one $130 payment
-https://www.bleepingcomputer.com/offer/deals/secure-1tb-of-koofr-cloud-storage-with-lifetime-access-for-one-130-payment/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-11T14:20:40Z
-Over 20,000 crypto fraud victims identified in international crackdown
-https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/
-An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United States. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -613,13 +2471,6 @@ Microsoft MSRC
 2026-04-11T08:40:37Z
 CVE-2026-40026 Sleuth Kit ISO9660 SUSP Extension Reference Out-of-Bounds Read
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40026
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:40:16Z
-CVE-2026-34743 XZ Utils: Buffer overflow in lzma_index_append()
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34743
 Information published.
 ------------------------------------------------------------
 IS
@@ -666,86 +2517,9 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-04-11T08:10:08Z
-CVE-2026-27140 Code execution vulnerability in SWIG code generation in cmd/go
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27140
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:09:42Z
-CVE-2026-27143 Missing bound checks can lead to memory corruption in safe Go in cmd/compile
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27143
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:09:15Z
-CVE-2026-32282 TOCTOU permits root escape on Linux via Root.Chmod in os in internal/syscall/unix
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32282
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:08:48Z
-CVE-2026-27144 Miscompilation allows memory corruption via CONVNOP-wrapped array copy in cmd/compile
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27144
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:08:24Z
-CVE-2026-32280 Unexpected work during chain building in crypto/x509
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32280
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:07:52Z
-CVE-2026-32283 Unauthenticated TLS 1.3 KeyUpdate record can cause persistent connection retention and DoS in crypto/tls
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32283
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-04-11T08:07:20Z
 CVE-2026-32289 JsBraceDepth Context Tracking Bugs (XSS) in html/template
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32289
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:06:47Z
-CVE-2026-32281 Inefficient policy validation in crypto/x509
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32281
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:06:16Z
-CVE-2026-32288 Unbounded allocation for old GNU sparse in archive/tar
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32288
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:05:12Z
-CVE-2026-31789 Heap Buffer Overflow in Hexadecimal Conversion
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31789
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:04:53Z
-CVE-2026-28388 NULL Pointer Dereference When Processing a Delta CRL
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28388
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:04:19Z
-CVE-2026-28387 Potential Use-after-free in DANE Client Code
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28387
 Information published.
 ------------------------------------------------------------
 IS
@@ -760,13 +2534,6 @@ Microsoft MSRC
 2026-04-11T08:03:08Z
 CVE-2026-39882 OpenTelemetry-Go OTLP HTTP exporters read unbounded HTTP response bodies
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39882
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-11T08:01:39Z
-CVE-2026-35611 Addressable has a Regular Expression Denial of Service in Addressable templates
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35611
 Information published.
 ------------------------------------------------------------
 IS
@@ -789,13 +2556,6 @@ Microsoft MSRC
 CVE-2026-39314 CUPS has an integer underflow in `_ppdCreateFromIPP` causes root cupsd crash via negative `job-password-supported`
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39314
 Information published.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-11T02:08:16Z
-ChatGPT rolls out new $100 Pro subscription to challenge Claude
-https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/
-OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan. [...]
 ------------------------------------------------------------
 Executive
 White House
@@ -1223,32 +2983,12 @@ Chromium: CVE-2026-5858 Heap buffer overflow in WebML
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5858
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-11T00:00:00Z
-This offer gives you lifetime access to all Babbel languages
-https://www.bleepingcomputer.com/offer/deals/this-offer-gives-you-lifetime-access-to-all-babbel-languages/
-------------------------------------------------------------
 Banking
 FRB
 2026-04-10T20:15:00Z
 Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.
 https://www.federalreserve.gov/newsevents/pressreleases/orders20260410a.htm
 Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-10T15:52:45Z
-Nearly 4,000 US industrial devices exposed to Iranian cyberattacks
-https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/
-The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manufactured by Rockwell Automation. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-10T14:01:11Z
-Analysis of one billion CISA KEV remediation records exposes limits of human-scale security
-https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/
-Analysis of 1 billion CISA KEV remediation records reveal a breaking point for human-scale security. Qualys shows most critical flaws are exploited before defenders can patch them. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -1270,20 +3010,6 @@ Microsoft MSRC
 CVE-2026-24302 Azure Arc Elevation of Privilege Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24302
 Acknowledgement added. This is an informational change only.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-10T13:12:42Z
-CPUID hacked to deliver malware via CPU-Z, HWMonitor downloads
-https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/
-Hackers gained access to an API for the CPUID project and changed the download links on the official website to serve malicious executables for the popular CPU-Z and HWMonitor tools. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-10T11:56:14Z
-Microsoft: Canadian employees targeted in payroll pirate attacks
-https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/
-A financially motivated threat actor tracked as Storm-2755 is stealing Canadian employees' salary payments after hijacking their accounts in payroll pirate attacks. [...]
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -1382,24 +3108,6 @@ IRS
 Treasury, IRS issue proposed regulations on the new remittance transfer tax established under the One, Big, Beautiful Bill
 https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill
 IR-2026-48, April 10, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations that would provide rules and definitions related to the new excise tax imposed on certain remittance transfers, also referred to as the remittance transfer tax, under the One, Big, Beautiful Bill.
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-04-10T00:00:00Z
-Warren, Shaheen, Schumer Release Joint Statement Urging Trump Administration Not to Extend Sanctions Relief for Russian Oil
-https://www.banking.senate.gov/newsroom/minority/warren-shaheen-schumer-release-joint-statement-urging-trump-administration-not-to-extend-sanctions-relief-for-russian-oil
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-04-10T00:00:00Z
-Senator Warren Statement on March 2026 CPI
-https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-march-2026-cpi
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-04-10T00:00:00Z
-Warren, Whitehouse Probe Suspicious Oil Trades Surrounding Trump Iran Announcements
-https://www.banking.senate.gov/newsroom/minority/warren-whitehouse-probe-suspicious-oil-trades-surrounding-trump-iran-announcements
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -1529,24 +3237,12 @@ Treasury
 Treasury Moves to Prevent Abuse of Community Development Financial Institutions (CDFI) Fund Programs
 https://home.treasury.gov/news/press-releases/sb0438
 ------------------------------------------------------------
-Executive
-White House
-2026-04-09T21:01:46Z
-Advancing the United States-Hungary Bilateral Partnership
-https://www.whitehouse.gov/fact-sheets/2026/04/advancing-the-united-states-hungary-bilateral-partnership/
-------------------------------------------------------------
 Payment Card Networks
 Visa
 2026-04-09T20:05:00Z
 Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
 https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
 SAN FRANCISCO --(BUSINESS WIRE)--Apr. 9, 2026-- Visa (NYSE: V) will report its fiscal second quarter 2026 financial results on Tuesday, April 28, 2026. After market close, Visa will furnish the results with the Securities and Exchange Commission and post them, along with accompanying financial
-------------------------------------------------------------
-Executive
-White House
-2026-04-09T18:59:01Z
-First Lady Melania Trump’s Statement
-https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-statement/
 ------------------------------------------------------------
 OFAC
 Treasury
@@ -1673,13 +3369,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-04-09T08:38:04Z
-CVE-2026-2673 OpenSSL TLS 1.3 server may choose unexpected key agreement group
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2673
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-04-09T08:02:56Z
 CVE-2026-34445 ONNX: Malicious ONNX models can crash servers by exploiting unprotected object settings.
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34445
@@ -1704,13 +3393,6 @@ Microsoft MSRC
 2026-04-09T08:02:34Z
 CVE-2026-34982 Vim modeline bypass via various options affects Vim < 9.2.0276
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34982
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-09T08:02:29Z
-CVE-2026-35093 Libinput: libinput: unauthorized code execution and information disclosure through lua bytecode plugins
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35093
 Information published.
 ------------------------------------------------------------
 IS
@@ -1929,13 +3611,6 @@ News & Events
 https://www.federalreserve.gov/newsevents.htm
 The Federal Reserve Board of Governors in Washington DC.
 ------------------------------------------------------------
-Payments
-NACHA
-2026-04-08T00:00:00Z
-Nacha Announces Walrus Security as a Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention
-https://www.nacha.org/news/nacha-announces-walrus-security-preferred-partner-account-validation-fraud-monitoring-and-risk
-RESTON, Virginia, April 8, 2026 – Nacha today welcomed Walrus Security as a Nacha Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention.
-------------------------------------------------------------
 Federal Register
 Federal Register
 2026-04-08T00:00:00Z
@@ -2126,13 +3801,6 @@ FDIC
 FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards
 https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards
 The FDIC Board of Directors today approved a notice of proposed rulemaking that would implement certain requirements and standards under the GENIUS Act.
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-07T00:00:00Z
-Stablecoins Are Moving Fast. ACH Is Keeping Them Grounded.
-https://www.nacha.org/news/stablecoins-are-moving-fast-ach-keeping-them-grounded
-Stablecoins are no longer a fringe experiment in digital finance; instead, they are rapidly becoming a practical bridge between blockchain innovation and traditional banking. As regulatory clarity improves and adoption accelerates, financial institutions face a critical question: How can stablecoins be safely, efficiently, and compliantly integrated into today’s payments ecosy…
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -2571,27 +4239,6 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-04-02T08:06:35Z
-CVE-2026-33636 LIBPNG has ARM NEON Palette Expansion Out-of-Bounds Read on AArch64
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33636
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-02T08:06:27Z
-CVE-2026-32287 Infinite loop in github.com/antchfx/xpath
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32287
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-02T08:05:59Z
-CVE-2026-33416 LIBPNG has use-after-free via pointer aliasing in `png_set_tRNS` and `png_set_PLTE`
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33416
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-04-02T08:05:41Z
 CVE-2026-2436 Libsoup: libsoup: denial of service via use-after-free in soupserver during tls handshake
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2436
@@ -2620,30 +4267,10 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-04-02T08:04:10Z
-CVE-2026-4739 Integer overflow vulnerabilities in InsightSoftwareConsortium/ITK
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4739
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-02T08:04:04Z
-CVE-2026-4176 Perl versions from 5.9.4 before 5.40.4-RC1, from 5.41.0 before 5.42.2-RC1, from 5.43.0 before 5.43.9 contain a vulnerable version of Compress::Raw::Zlib
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4176
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-04-02T08:01:22Z
 CVE-2026-4046 iconv crash due to assertion failure with untrusted input
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4046
 Information published.
-------------------------------------------------------------
-OFAC
-Treasury
-2026-04-02T00:19:24Z
-Treasury and IRS Announce Tax Filing Relief to DHS Personnel
-https://home.treasury.gov/news/press-releases/sb0431
 ------------------------------------------------------------
 IRS
 IRS
@@ -2689,202 +4316,4 @@ Federal Register
 2026-04-02T00:00:00Z
 Notice of Lodging of Proposed Material Modification of Consent Decree Under the Clean Water Act
 https://www.federalregister.gov/documents/2026/04/02/2026-06329/notice-of-lodging-of-proposed-material-modification-of-consent-decree-under-the-clean-water-act
-------------------------------------------------------------
-OFAC
-Treasury
-2026-04-01T23:01:59Z
-Treasury To Convene First Series of Conversations with Domestic and International Regulators
-https://home.treasury.gov/news/press-releases/sb0430
-------------------------------------------------------------
-Payment Card Networks
-Visa
-2026-04-01T13:00:00Z
-Visa Unveils New Services to Modernize Dispute Resolution Process
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
-Fraudulent disputes and administrative inefficiencies drive billions in avoidable economic costs Six new and enhanced dispute resolution tools utilize AI and proprietary technology to help provide issuers, acquirers and merchants with increased visibility into costly fraud expenses SAN FRANCISCO
-------------------------------------------------------------
-Fintech Watch
-Finastra
-2026-04-01T12:00:00Z
-Banco Angolano de Investimentos selects Finastra to scale with customer and industry demands
-https://www.finastra.com/press-media/banco-angolano-de-investimentos-selects-finastra-scale-customer-and-industry-demands
-------------------------------------------------------------
-Compliance Watch
-CDIA
-2026-04-01T10:00:11Z
-New Speakers Announced for CDIA Connect 2026!
-https://www.cdiaonline.org/events/2026/04/01/new-speakers-announced-for-cdia-connect-2026/
-New Speakers announced for CDIA Connect set to take place on May 6-8 at the Grand Hyatt in Washington DC, including:... The post New Speakers Announced for CDIA Connect 2026! appeared first on CDIA .
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:58:16Z
-CVE-2026-33937 Handlebars.js has JavaScript Injection via AST Type Confusion
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33937
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:57:48Z
-CVE-2026-34353
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34353
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:57:06Z
-CVE-2025-67030
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-67030
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:56:21Z
-CVE-2026-4746 Heap Buffer Over-Write Vulenrabilty in timeplus-io/proton
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4746
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:52:41Z
-CVE-2024-41013 xfs: don't walk off the end of a directory data block
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-41013
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:51:56Z
-CVE-2024-35839 netfilter: bridge: replace physindev with physinif in nf_bridge_info
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35839
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:51:22Z
-CVE-2023-52676 bpf: Guard stack limits against 32bit overflow
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-52676
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:49:12Z
-CVE-2025-68822 Input: alps - fix use-after-free bugs caused by dev3_register_work
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68822
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-01T08:20:03Z
-CVE-2026-21711
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21711
-Information published.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-04-01T00:00:00Z
-Venezuela-related Designation Removal
-https://ofac.treasury.gov/recent-actions/20260401
-------------------------------------------------------------
-Banking
-OCC
-2026-04-01T00:00:00Z
-Featured Publications View All Publications
-https://www.occ.gov/publications-and-resources/publications/index-publications.html
-Publications
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Rescission of OCC Guidelines Establishing Standards for Recovery Planning by Certain Large Insured National Banks, Insured Federal Savings Associations, and Insured Federal Branches
-https://www.federalregister.gov/documents/2026/04/01/2026-06281/rescission-of-occ-guidelines-establishing-standards-for-recovery-planning-by-certain-large-insured
-The OCC is amending its regulations by rescinding "OCC Guidelines Establishing Standards for Recovery Planning by Certain Large Insured National Banks, Insured Federal Savings Associations, and Insured Federal Branches."
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Whistleblower Incentives and Protections
-https://www.federalregister.gov/documents/2026/04/01/2026-06271/whistleblower-incentives-and-protections
-FinCEN is proposing a rule to establish a whistleblower program that offers incentives and protections to encourage individuals who have information about potential violations of the Bank Secrecy Act (BSA), International Emergency Economic Powers Act (IEEPA), Trading With the Enemy Act of 1917 (TWEA), and Foreign Narcotics Kingpin Designation Act (Kingpin Act) to voluntarily r…
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Removal of Regulatory Overreach and Federal Crop Insurance Policy Provisions
-https://www.federalregister.gov/documents/2026/04/01/2026-06277/removal-of-regulatory-overreach-and-federal-crop-insurance-policy-provisions
-The Federal Crop Insurance Corporation (FCIC) is amending its regulations regarding final agency determinations and interpretations of the Federal Crop Insurance Act and its associated regulations. This action is necessary to align agency procedures with Supreme Court precedent and the Administrative Procedure Act, ensuring that interpretive determinations are not improperly c…
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Registering Emergency Medical Services Agencies Under the Protecting Patient Access to Emergency Medications Act of 2017
-https://www.federalregister.gov/documents/2026/04/01/C1-2026-02288/registering-emergency-medical-services-agencies-under-the-protecting-patient-access-to-emergency
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Agency Information Collection Activities; Proposed eCollection eComments Requested; Title-Voice of Customer Survey
-https://www.federalregister.gov/documents/2026/04/01/2026-06312/agency-information-collection-activities-proposed-ecollection-ecomments-requested-title-voice-of
-The Federal Bureau of Investigation, Office of Private Sector, Department of Justice (DOJ), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Importer of Controlled Substances Application: Research Triangle Institute
-https://www.federalregister.gov/documents/2026/04/01/2026-06311/importer-of-controlled-substances-application-research-triangle-institute
-Research Triangle Institute has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to SUPPLEMENTARY INFORMATION listed below for further drug information.
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Bulk Manufacturer of Controlled Substances Application: Pharmaron Manufacturing Services (US) LLC
-https://www.federalregister.gov/documents/2026/04/01/2026-06261/bulk-manufacturer-of-controlled-substances-application-pharmaron-manufacturing-services-us-llc
-Pharmaron Manufacturing Services (US) LLC has applied to be registered as a bulk manufacturer of basic class(es) of controlled substance(s). Refer to SUPPLEMENTARY INFORMATION listed below for further drug information.
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Importer of Controlled Substances Application: Sterling Wisconsin, LLC
-https://www.federalregister.gov/documents/2026/04/01/2026-06260/importer-of-controlled-substances-application-sterling-wisconsin-llc
-Sterling Wisconsin, LLC has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Importer of Controlled Substances Application: Indivior Manufacturing LLC
-https://www.federalregister.gov/documents/2026/04/01/2026-06259/importer-of-controlled-substances-application-indivior-manufacturing-llc
-Indivior Manufacturing LLC has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Importer of Controlled Substances Application: Fisher Clinical Services, Inc.
-https://www.federalregister.gov/documents/2026/04/01/2026-06258/importer-of-controlled-substances-application-fisher-clinical-services-inc
-Fisher Clinical Services, Inc. has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Importer of Controlled Substances Application: Fisher Clinical Services, Inc.
-https://www.federalregister.gov/documents/2026/04/01/2026-06257/importer-of-controlled-substances-application-fisher-clinical-services-inc
-Fisher Clinical Services, Inc. has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-04-01T00:00:00Z
-Bulk Manufacturer of Controlled Substances Application: Royal Emerald Pharmaceuticals
-https://www.federalregister.gov/documents/2026/04/01/2026-06256/bulk-manufacturer-of-controlled-substances-application-royal-emerald-pharmaceuticals
-Royal Emerald Pharmaceuticals has applied to be registered as a bulk manufacturer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.
-------------------------------------------------------------
-Executive
-White House
-2026-03-31T21:52:58Z
-Ensuring Citizenship Verification and Integrity in Federal Elections
-https://www.whitehouse.gov/presidential-actions/2026/03/ensuring-citizenship-verification-and-integrity-in-federal-elections/
-------------------------------------------------------------
-Banking
-FDIC
-2026-03-31T14:02:50Z
-Financial Institution Letter: FDIC Consumer Compliance Supervisory Highlights
-https://content.govdelivery.com/accounts/USFDIC/bulletins/4101448
-FINANCIAL INSTITUTION LETTER | MARCH 31, 2026 FDIC Consumer Compliance Supervisory Highlights Summary: The FDIC’s Consumer Compliance Supervisory Highlights is an annual publication. Its purpose is to enhance transparency regarding the FDIC’s consumer compliance supervisory activities and provide a high-level overview of consumer compliance issues identified in 2025 through th…
 ------------------------------------------------------------
