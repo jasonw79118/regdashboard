@@ -1,13 +1,281 @@
 # RegDashboard — Export
 
-Window: `2026-04-01T13:52:12Z` → `2026-04-15T13:52:12Z` (UTC)
-Last updated: `2026-04-15T08:52:12-05:00` (CT) — `2026-04-15T13:52:12Z` (UTC)
+Window: `2026-04-02T13:16:04Z` → `2026-04-16T13:16:04Z` (UTC)
+Last updated: `2026-04-16T08:16:04-05:00` (CT) — `2026-04-16T13:16:04Z` (UTC)
+
+## Cisco says critical Webex Services flaw requires customer action
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-16T12:01:42Z
+- URL: https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/
+
+Cisco has released security updates to patch four critical vulnerabilities, including a fixed improper certificate validation flaw in the company's cloud-based Webex Services platform that requires further customer action. [...]
+
+## MUFG expands strategic business relationship with Finastra to power U.S. ACH payments
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-04-16T12:00:00Z
+- URL: https://www.finastra.com/press-media/mufg-expands-strategic-business-relationship-finastra-power-us-ach-payments
+
+## Data breach at edtech giant McGraw Hill affects 13.5 million accounts
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-16T10:35:09Z
+- URL: https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/
+
+The ShinyHunters extortion group has leaked data from 13.5 million McGraw Hill user accounts, stolen after breaching the company's Salesforce environment earlier this month. [...]
+
+## US nationals behind DPRK IT worker 'laptop farm' sent to prison
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-16T08:32:13Z
+- URL: https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/
+
+Two U.S. nationals have been sent to prison for helping North Korean remote information technology (IT) workers to pose as U.S. residents and get hired by over 100 companies across the country, including many Fortune 500 firms. [...]
+
+## Microsoft: April Windows Server 2025 update may fail to install
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-16T07:37:44Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-april-windows-server-2025-update-may-fail-to-install/
+
+Microsoft is investigating an issue causing this month's KB5082063 security update to fail to install on some Windows Server 2025 systems. [...]
+
+## FIS Leads Core Banking Modernization for Second Straight Year, Everest Group Core Banking Report Finds
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-04-16T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-leads-core-banking-modernization-second-straight-year
+
+## Get 3 years of Surfshark VPN for $67.20 with this coupon
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-16T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-3-years-of-surfshark-vpn-for-6720-with-this-coupon/
+
+## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-04-16T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/04/16/2026-07457/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+
+## Adoption of Updated EDGAR Filer Manual
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-04-16T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/04/16/2026-07474/adoption-of-updated-edgar-filer-manual
+
+The Securities and Exchange Commission ("Commission") is adopting amendments to Volumes I and II of the Electronic Data Gathering, Analysis, and Retrieval system Filer Manual ("EDGAR Filer Manual" or "Filer Manual") and related rules and forms. EDGAR Release 26.1 was deployed in the EDGAR system on March 16, 2026.
+
+## Deleting Obsolete and Duplicative Wireline Rules
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-04-16T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/04/16/2026-07343/deleting-obsolete-and-duplicative-wireline-rules
+
+In this document, the Federal Communications Commission (the Commission) continues its efforts to modernize its regulatory framework by rescinding facially obsolete provisions of its rules.
+
+## Removing Redundant, Obsolete, and Inefficient Provisions From the Regulations Governing Restrictions on Lobbying
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-04-16T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/04/16/2026-07431/removing-redundant-obsolete-and-inefficient-provisions-from-the-regulations-governing-restrictions
+
+By this rule, Commerce is amending its regulations governing restrictions on lobbying. Specifically, Commerce is amending said regulations by removing two redundant and unnecessary compliance provisions and by removing two reporting requirements that are obsolete and unwarranted. The intended effects of this action are to eliminate redundancy, promote administrative efficiency…
+
+## Critical Nginx UI auth bypass flaw now actively exploited in the wild
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-15T22:35:09Z
+- URL: https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/
+
+A critical vulnerability in Nginx UI with Model Context Protocol (MCP) support is now being exploited in the wild for full server takeover without authentication. [...]
+
+## New AgingFly malware used in attacks on Ukraine govt, hospitals
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-15T21:57:17Z
+- URL: https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/
+
+A new malware family named 'AgingFly' has been identified in attacks against local governments and hospitals that steal authentication data from Chromium-based browsers and WhatsApp messenger. [...]
+
+## WordPress plugin suite hacked to push malware to thousands of sites
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-15T20:33:50Z
+- URL: https://www.bleepingcomputer.com/news/security/wordpress-plugin-suite-hacked-to-push-malware-to-thousands-of-sites/
+
+More than 30 WordPress plugins in the EssentialPlugin package have been compromised with malicious code that allows unauthorized access to websites running them. [...]
+
+## Presidential Permit: Authorizing Enbridge Energy, Limited Partnership to Operate and Maintain Three Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States a…
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T20:31:09Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-three-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/
+
+## Presidential Permit: Authorizing Enbridge Pipelines (Southern Lights) L.L.C. to Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States…
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T20:28:16Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-pipelines-southern-lights-l-l-c-to-operate-and-maintain-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/
+
+## Presidential Permit: Authorizing Enbridge Energy, Limited Partnership to Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Can…
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T20:18:41Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between-the-un-9ef/
+
+## Presidential Permit: Authorizing Enbridge Energy, Limited Partnership to Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Can…
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T20:15:57Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between-the-un-215/
+
+## Presidential Permit: Authorizing Enbridge Energy, Limited Partnership to Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Can…
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T20:11:56Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between-the-un-1c3/
+
+## Presidential Permit: Authorizing Enbridge Energy, Limited Partnership to Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T20:11:52Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-existing-pipeline-facilities-at-st-clair-county-michigan-at-the-international-boundary-between-the-unit-6323/
+
+## Presidential Permit: Authorizing Enbridge Energy Company, INC. to Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T20:06:37Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-company-inc-to-operate-and-maintain-existing-pipeline-facilities-at-st-clair-county-michigan-at-the-international-boundary-between-the-united-stat/
+
+## Presidential Permit: Authorizing Bakken Pipeline Company LP to Operate and Maintain Existing Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States and Canada
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T20:01:03Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-bakken-pipeline-company-lp-to-operate-and-maintain-existing-pipeline-facilities-at-burke-county-north-dakota-at-the-international-boundary-between-the-united-states/
+
+## Treasury International Capital Data for February
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-15T20:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0448
+
+## First Lady Melania Trump Champions New Foster Care Legislation in Congress
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T19:56:35Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-champions-new-foster-care-legislation-in-congress/
+
+## Presidential Permit: Authorizing Bakken Pipeline Company LP to Construct, Connect, Operate, and Maintain Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States and Can…
+- Source: White House
+- Category: Executive
+- Published: 2026-04-15T19:54:24Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-bakken-pipeline-company-lp-to-construct-connect-operate-and-maintain-pipeline-facilities-at-burke-county-north-dakota-at-the-international-boundary-between-the-un/
+
+## Readouts
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-15T19:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/readouts
+
+## Readout from Secretary of the Treasury Scott Bessent’s Meeting with UAE Minister of State for Financial Affairs H.E. Mohamed bin Hadi Al Hussaini
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-15T19:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0447
+
+## Readout from Secretary of the Treasury Scott Bessent’s Meeting with French Minister of Finance Roland Lescure
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-15T18:58:52Z
+- URL: https://home.treasury.gov/news/press-releases/sb0446
+
+## Readout from Secretary of the Treasury Scott Bessent’s Meeting with Mexican Secretary of Finance Edgar Amador Zamora
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-15T18:58:44Z
+- URL: https://home.treasury.gov/news/press-releases/sb0445
+
+## Readout from Secretary of the Treasury Scott Bessent’s Meeting with Saudi Arabian Minister of Finance Mohammed Al-Jadaan
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-15T18:55:29Z
+- URL: https://home.treasury.gov/news/press-releases/sb0444
+
+## Economic Fury Targets Illicit Oil Smuggling Network Run by Iranian Regime Elite
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-15T18:30:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0443
+
+## Signed software abused to deploy antivirus-killing scripts
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-15T17:59:30Z
+- URL: https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/
+
+A digitally signed adware tool has deployed payloads running with SYSTEM privileges that disabled antivirus protections on thousands of endpoints, some in the educational, utilities, government, and healthcare sectors. [...]
+
+## Metro 2® Format Advanced Workshop in 2026 is taking place Nov. 17-18 in Las Vegas
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-04-15T17:55:18Z
+- URL: https://www.cdiaonline.org/events/2026/04/15/metro-2-format-advanced-workshop-in-2026-is-taking-place-nov-17-18-in-las-vegas/
+
+The only Metro 2® Format Advanced Workshop in 2026 is taking place Nov. 17-18 in Las Vegas and is the must-attend event for mastering complex reporting scenarios—and... The post Metro 2® Format Advanced Workshop in 2026 is taking place Nov. 17-18 in Las Vegas appeared first on CDIA .
+
+## Secretary Bessent IMFC-DC Statement
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-04-15T16:20:45Z
+- URL: https://home.treasury.gov/news/press-releases/sb0442
+
+## Microsoft pays $2.3M for cloud and AI flaws at Zero Day Quest
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-15T16:20:21Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/
+
+Microsoft has awarded $2.3 million to security researchers after receiving nearly 700 submissions during this year's Zero Day Quest hacking contest. [...]
+
+## CISA flags Windows Task Host vulnerability as exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-15T14:51:05Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/
+
+CISA warned U.S. government agencies to secure their systems against a Windows Task Host privilege escalation vulnerability that could allow attackers to gain SYSTEM privileges. [...]
+
+## Rolling Networks: Securing the Transportation Sector
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-15T14:00:10Z
+- URL: https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/
+
+Modern trucks are rolling networks packed with sensors, connectivity, and attack surfaces, creating new cyber risks. NMFTA's Cybersecurity Conference brings industry leaders together to tackle emerging threats in transportation. [...]
+
+## CVE-2026-23666 .NET Framework Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-04-15T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23666
+
+Executive Summary updated
 
 ## Over 53 Million Filers Claimed At Least One of President Trump’s Signature New Tax Cuts
 - Source: Treasury
 - Category: OFAC
 - Published: 2026-04-15T12:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0441
+
+## FinCEN’s Rapid Response Program Interdicts Nearly $2 Billion on Behalf of U.S. Cyber-Enabled Fraud Victims
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-04-15T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincens-rapid-response-program-interdicts-nearly-2-billion-behalf-us-cyber
+
+WASHINGTON—Since President Trump resumed office, the Financial Crimes Enforcement Network’s (FinCEN) Rapid Response Program (RRP) has facilitated the interdiction of over $268 million in stolen funds on behalf of U.S. victims, bringing the total to more than $1.8 billion since the program’s inception. The RRP is a partnership between FinCEN, U.S. law enforcement, and foreign p…
 
 ## AIB Bank N.V. of Aruba launches digital transformation journey with Finastra Essence
 - Source: Finastra
@@ -671,6 +939,56 @@ Information published.
 
 Information published.
 
+## Iran-related Designations; Counter Terrorism Designations
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-04-15T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260415
+
+## Data and Insights
+- Source: Fannie Mae
+- Category: Mortgage
+- Published: 2026-04-15T00:00:00Z
+- URL: https://www.fanniemae.com/data-and-insights
+
+Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
+
+## Freddie Mac Multifamily Announces Launch of Integrated Conventional Small Product for Loans Under $10 Million
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-04-15T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/04/15/3274909/0/en/Freddie-Mac-Multifamily-Announces-Launch-of-Integrated-Conventional-Small-Product-for-Loans-Under-10-Million.html
+
+## Warren Statement on CFTC Probe Into Suspicious Oil Trades
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-04-15T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-cftc-probe-into-suspicious-oil-trades
+
+## Warren Requests Fed Records on Warsh Role in 2008 Financial Crisis and Wall Street Bailouts Ahead of Senate Hearing
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-04-15T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-requests-fed-records-on-warsh-role-in-2008-financial-crisis-and-wall-street-bailouts-ahead-of-senate-hearing
+
+## Warren Raises National Security Concerns With NVIDIA’s Acquisition of Critical Software Used in Supercomputing Systems
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-04-15T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-raises-national-security-concerns-with-nvidias-acquisition-of-critical-software-used-in-supercomputing-systems
+
+## Wagner: This Is a Global Problem That Calls For a Multi-Level, Intergovernmental Approach
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-04-15T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411088
+
+## Capital Markets Subcommittee Examines Policies to Combat Financial Fraud
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-04-15T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411089
+
 ## Nacha Announces Prometeo is a Nacha Preferred Partner for Account Validation/Open Banking
 - Source: NACHA
 - Category: Payments
@@ -679,11 +997,17 @@ Information published.
 
 RESTON, Virginia, April 15, 2026 – Nacha announced today that Prometeo is now a Nacha Preferred Partner for Account Validation/Open Banking.Prometeo uses a single API which translates multiple bank formats into a standard language and enriches data allowing for transactions to be completed. Prometeo's API connection allows organizations to validate bank accounts and identity d…
 
-## Rolling Networks: Securing the Transportation Sector
+## Finxact Named Best SaaS Platform at 2026 FinTech Awards
+- Source: Fiserv
+- Category: Fintech Watch
+- Published: 2026-04-15T00:00:00Z
+- URL: https://investors.fiserv.com/news-releases/news-release-details/finxact-named-best-saas-platform-2026-fintech-awards
+
+## Access GPT, Gemini, and Claude in one $30 app to get tasks done faster
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-04-15T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/
+- URL: https://www.bleepingcomputer.com/offer/deals/access-gpt-gemini-and-claude-in-one-30-app-to-get-tasks-done-faster/
 
 ## Get a lifetime of documentaries with this Curiosity Stream deal
 - Source: BleepingComputer
@@ -729,30 +1053,6 @@ Microsoft has introduced new Windows protections to defend against phishing atta
 
 The Kraken cryptocurrency exchange announced that a cybercrime group is trying to extort the company by threatening to release videos showing internal systems that host client data. [...]
 
-## Over 100 Chrome Web Store extensions steal user accounts, data
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-14T20:33:00Z
-- URL: https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/
-
-More than 100 malicious extensions in the official Chrome Web Store are attempting to steal Google OAuth2 Bearer tokens, deploy backdoors, and carry out ad fraud. [...]
-
-## Microsoft releases Windows 10 KB5082200 extended security update
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-14T18:09:39Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5082200-extended-security-update/
-
-Microsoft has released the Windows 10 KB5082200 extended security update to fix the April 2026 Patch Tuesday vulnerabilities, including 2 zero-days. [...]
-
-## McGraw-Hill confirms data breach following extortion threat
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-14T18:07:07Z
-- URL: https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/
-
-Education company McGraw-Hill has confirmed in a statement to BleepingComputer that hackers exploited a Salesforce misconfiguration and accessed its internal data. [...]
-
 ## Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026
 - Source: FRB
 - Category: Banking
@@ -761,49 +1061,11 @@ Education company McGraw-Hill has confirmed in a statement to BleepingComputer t
 
 Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026
 
-## Windows 11 cumulative updates KB5083769 & KB5082052 released
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-14T17:46:31Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5083769-and-kb5082052-released/
-
-Microsoft has released Windows 11 KB5083769 and KB5082052 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]
-
-## Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-14T17:41:13Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2026-patch-tuesday-fixes-167-flaws-2-zero-days/
-
-Today is Microsoft's April 2026 Patch Tuesday with security updates for 167 flaws, including 2 zero-day vulnerabilities. [...]
-
-## Fake Ledger Live app on Apple’s App Store stole $9.5M in crypto
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-14T16:37:01Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/
-
-A malicious Ledger Live app for macOS available from Apple's App Store has drained approximately $9.5 million in cryptocurrency from 50 victims in just a few days this month. [...]
-
-## First Lady Melania Trump Authorizes Landmark Art Loan to Spotlight American Master, James McNeill Whistler
-- Source: White House
-- Category: Executive
-- Published: 2026-04-14T16:17:25Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-authorizes-landmark-art-loan-to-spotlight-american-master-james-mcneill-whistler/
-
 ## Nominations Sent to the Senate
 - Source: White House
 - Category: Executive
 - Published: 2026-04-14T15:54:30Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-f01e/
-
-## Microsoft rolls out fast-track to reinstate Windows hardware dev accounts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-14T15:53:50Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fast-track-to-reinstate-windows-hardware-dev-accounts/
-
-Microsoft has rolled out a fast-track process to help developers regain access to accounts recently suspended from its Windows Hardware Program, following widespread complaints that they were locked out without warning. [...]
 
 ## Press Release: Principals of U.S., European Banking Union, and U.K. Financial Authorities To Meet for Regular Coordination Exercise on Cross-Border Resolution Planning
 - Source: FDIC
@@ -826,14 +1088,6 @@ Now Approved for up to 9 hrs of Continuing Legal Education Credits (CLEs)! If yo
 - Category: OFAC
 - Published: 2026-04-14T14:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0440
-
-## 5 Ways Zero Trust Maximizes Identity Security
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-14T14:02:12Z
-- URL: https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/
-
-Stolen credentials remain a top breach vector, often leading to unchecked privilege escalation. Specops explains how identity-first Zero Trust limits access, enforces device trust, and blocks lateral movement. [...]
 
 ## CVE-2026-20930 Windows Management Services Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -1586,14 +1840,6 @@ Access of resource using incompatible type ('type confusion') in Windows COM all
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23657
 
 Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-23666 .NET Framework Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23666
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in .NET Framework allows an unauthorized attacker to deny service over a network.
 
 ## CVE-2026-26143 Microsoft PowerShell Security Feature Bypass Vulnerability
 - Source: Microsoft MSRC
@@ -2481,24 +2727,6 @@ IR-2026-52, April 14, 2026 — As the end of filing season approaches, the Inter
 
 Trilateral Principal Level Exercise (TPLE) on Saturday, April 18, 2026.
 
-## Warren Presses Musk Ahead of X Money Launch, Warns of Consumer, National Security, and Financial Stability Risks a Year After Trump Dismantling of CFPB
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-04-14T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-musk-ahead-of-x-money-launch-warns-of-consumer-national-security-and-financial-stability-risks-a-year-after-trump-dismantling-of-cfpb
-
-## Statement by Ranking Member Warren on Fed Chair Nominee Hearing
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-04-14T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/statement-by-ranking-member-warren-on-fed-chair-nominee-hearing
-
-## ICYMI: Chairman Scott Previews Kevin Warsh Hearing, Emphasizes Fed Independence, and U.S. Leadership in Digital Assets on Fox Business
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-04-14T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/icymi-chairman-scott-previews-kevin-warsh-hearing-emphasizes-fed-independence-and-us-leadership-in-digital-assets-on-fox-business
-
 ## Rising to the Challenge of First-party Fraud
 - Source: NACHA
 - Category: Payments
@@ -2577,65 +2805,23 @@ RESTON, Virginia, April 14, 2026 – In support of World Quantum Day, Nacha’s 
 - Published: 2026-04-14T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/barclays-and-fis-extend-partnership-supporting-banks-online
 
-## This 21-hour CISSP prep bundle is only $20 right now (was $424)
+## Over 100 Chrome Web Store extensions steal user accounts, data
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-04-14T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-21-hour-cissp-prep-bundle-is-only-20-right-now-was-424/
+- URL: https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/
+
+## Microsoft releases Windows 10 KB5082200 extended security update
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-04-14T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5082200-extended-security-update/
 
 ## United States Department of the Treasury Announces Key Nomination
 - Source: Treasury
 - Category: OFAC
 - Published: 2026-04-13T23:10:04Z
 - URL: https://home.treasury.gov/news/press-releases/sb0439
-
-## European Gym giant Basic-Fit data breach affects 1 million members
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-13T21:50:01Z
-- URL: https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/
-
-Dutch fitness giant Basic-Fit announced that hackers breached its systems and gained access to information belonging to a million of its customers. [...]
-
-## Congressional Bills S. 1884 and S. 3971 Signed into Law
-- Source: White House
-- Category: Executive
-- Published: 2026-04-13T21:01:31Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/congressional-bills-s-1884-and-s-3971-signed-into-law/
-
-## Stolen Rockstar Games analytics data leaked by extortion gang
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-13T20:08:10Z
-- URL: https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/
-
-Rockstar Games has suffered a data breach linked to a recent security incident at Anodot, with the ShinyHunters extortion gang now leaking the stolen data on its data leak site. [...]
-
-## Critical flaw in wolfSSL library enables forged certificate use
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-13T19:56:03Z
-- URL: https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/
-
-A critical vulnerability in the wolfSSL SSL/TLS library can weaken security via improper verification of the hash algorithm or its size when checking Elliptic Curve Digital Signature Algorithm (ECDSA) signatures. [...]
-
-## Nominations and Withdrawal Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-04-13T19:19:26Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-6df5/
-
-## America 250: Presidential Message on the Birthday of Thomas Jefferson
-- Source: White House
-- Category: Executive
-- Published: 2026-04-13T19:02:50Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/america-250-presidential-message-on-the-birthday-of-thomas-jefferson/
-
-## Presidential Message on the Days of Remembrance of Victims of the Holocaust
-- Source: White House
-- Category: Executive
-- Published: 2026-04-13T19:01:01Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-days-of-remembrance-of-victims-of-the-holocaust/
 
 ## Press Release: FDIC Announces Four Senior Leadership Appointments
 - Source: FDIC
@@ -2696,18 +2882,6 @@ The Federal Reserve Board of Governors in Washington DC.
 - URL: https://www.nacha.org/news/ai-real-its-not-coming-your-job
 
 How real is artificial intelligence in the payments space? “It’s very real, and it’s only going to get much, much better,” said Kevin Miyamoto, Co-Founder and COO of Identifee, a platform that helps financial institutions enhance customer engagement while automating manual tasks. Identifee is also a Nacha Preferred Partner.
-
-## FBI takedown of W3LL phishing service leads to developer arrest
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/
-
-## Instantly enhance skies, portraits, and objects on your phone for $20
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-04-13T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/instantly-enhance-skies-portraits-and-objects-on-your-phone-for-20/
 
 ## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
 - Source: Federal Register
@@ -2906,12 +3080,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39314
 
 Information published.
-
-## Day of Celebration in Honor of the Life of Henry Clay, 2026
-- Source: White House
-- Category: Executive
-- Published: 2026-04-11T01:12:27Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/day-of-celebration-in-honor-of-the-life-of-henry-clay-2026/
 
 ## Chromium: CVE-2026-5919 Insufficient validation of untrusted input in WebSockets
 - Source: Microsoft MSRC
@@ -3673,12 +3841,6 @@ The Foreign Agents Registration Act (FARA) Unit, Counterintelligence and Export 
 - Published: 2026-04-10T00:00:00Z
 - URL: https://www.federalregister.gov/documents/2026/04/10/2026-06975/notice-of-lodging-of-proposed-consent-decree-under-the-comprehensive-environmental-response
 
-## Treasury Moves to Prevent Abuse of Community Development Financial Institutions (CDFI) Fund Programs
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-09T22:06:20Z
-- URL: https://home.treasury.gov/news/press-releases/sb0438
-
 ## Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
 - Source: Visa
 - Category: Payment Card Networks
@@ -3686,12 +3848,6 @@ The Foreign Agents Registration Act (FARA) Unit, Counterintelligence and Export 
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
 
 SAN FRANCISCO --(BUSINESS WIRE)--Apr. 9, 2026-- Visa (NYSE: V) will report its fiscal second quarter 2026 financial results on Tuesday, April 28, 2026. After market close, Visa will furnish the results with the Securities and Exchange Commission and post them, along with accompanying financial
-
-## Treasury Launches Cybersecurity Information Sharing Initiative for the Digital Asset Industry
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-09T15:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0437
 
 ## Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, I…
 - Source: FRB
@@ -3949,12 +4105,6 @@ The purpose of this notice is to announce a meeting of the National Crime Preven
 
 In this document, the Federal Communications Commission (Commission or FCC) adopted a Report and Order to update foreign ownership rules for common carrier and broadcast licensees to clarify the Commission's review under section 310(b) of the Communications Act of 1934. With regard to common carrier licensees, the Report and Order adopted rules to codify existing policy regard…
 
-## SEQUESTRATION ORDER FOR FISCAL YEAR 2027 PURSUANT TO SECTION 251A OF THE BALANCED BUDGET AND EMERGENCY DEFICIT CONTROL ACT, AS AMENDED
-- Source: White House
-- Category: Executive
-- Published: 2026-04-08T21:25:47Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/sequestration-order-for-fiscal-year-2027-pursuant-to-section-251a-of-the-balanced-budgetand-emergency-deficit-control-act-as-amended/
-
 ## Minutes of the Federal Open Market Committee, March 17–18, 2026
 - Source: FRB
 - Category: Banking
@@ -3962,18 +4112,6 @@ In this document, the Federal Communications Commission (Commission or FCC) adop
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm
 
 Minutes of the Federal Open Market Committee, March 17–18, 2026
-
-## New Guidance Unlocks Economic Opportunity for Overlooked Communities
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-08T17:59:11Z
-- URL: https://home.treasury.gov/news/press-releases/sb0436
-
-## Treasury Proposes Rule to Implement the GENIUS Act’s Requirements to Counter Illicit Finance
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-08T16:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0435
 
 ## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
 - Source: Visa
@@ -3990,12 +4128,6 @@ Part of the Visa Intelligent Commerce portfolio, Intelligent Commerce Connect wi
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm
 
 Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service
-
-## U.S.-UK Financial Regulatory Working Group Winter 2026: Joint Statement
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-08T13:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0434
 
 ## Treasury Proposes Rule to Implement the GENIUS Act’s Requirements to Counter Illicit Finance
 - Source: FinCEN
@@ -4339,12 +4471,6 @@ FMCSA proposes amendments to its regulations governing the annual Unified Carrie
 
 The Bureau of Justice Statistics (BJS), Department of Justice (DOJ) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
 
-## Treasury Department Designates BNY as Financial Agent to Support New Trump Accounts Program
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-06T14:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0433
-
 ## Texas Bankers Foundation announces 2026 Future Banker Scholarship recipients
 - Source: TBA
 - Category: Compliance Watch
@@ -4405,18 +4531,6 @@ ACF proposes to make changes to the Temporary Assistance for Needy Families (TAN
 
 Information published.
 
-## Urgent National Action to Save College Sports
-- Source: White House
-- Category: Executive
-- Published: 2026-04-03T21:53:11Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/urgent-national-action-to-save-college-sports/
-
-## Liberating the Department of Homeland Security From the Democrat-Caused Shutdown
-- Source: White House
-- Category: Executive
-- Published: 2026-04-03T21:40:45Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/liberating-the-department-of-homeland-security-from-the-democrat-caused-shutdown/
-
 ## Sunshine Act Notice: FDIC Board of Directors Meeting
 - Source: FDIC
 - Category: Banking
@@ -4440,12 +4554,6 @@ Federal Reserve Board issues enforcement action with former employee of United B
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/40f0c1a
 
 PRESS RELEASE | APRIL 3, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON - The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in January 2026. The CRA is a 1977…
-
-## Treasury and IRS to Provide Guidance to Religious Organizations
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-03T13:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0432
 
 ## CVE-2026-2100 P11-kit: p11-kit: null dereference via c_derivekey with specific null parameters
 - Source: Microsoft MSRC
@@ -4681,18 +4789,6 @@ Lipomed/LGC Standards has applied to be registered as an importer of basic class
 
 Blue Rabbit Veterinary LLC has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.
 
-## Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients into the United States
-- Source: White House
-- Category: Executive
-- Published: 2026-04-02T19:39:50Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states/
-
-## Strengthening Actions Taken to Adjust Imports of Aluminum, Steel, and Copper Into the United States
-- Source: White House
-- Category: Executive
-- Published: 2026-04-02T19:38:58Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/strengthening-actions-taken-to-adjust-imports-of-aluminum-steel-and-copper-into-the-united-states/
-
 ## CVE-2026-32213 Azure AI Foundry Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -4748,139 +4844,3 @@ Improper authentication in Azure SRE Agent allows an unauthorized attacker to di
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32211
 
 Missing authentication for critical function in Azure MCP Server allows an unauthorized attacker to disclose information over a network.
-
-## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-02T12:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
-
-New Visa research reveals more than half of business leaders surveyed are open to AI-to-AI negotiation, but consumers say trust and override capability are non-negotiable SAN FRANCISCO --(BUSINESS WIRE)--Apr. 2, 2026-- A majority of business leaders are preparing for a world where artificial
-
-## CVE-2026-34043 Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:40:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34043
-
-Information published.
-
-## CVE-2026-33542 Incus does not verify combined fingerprint when downloading images from simplestreams servers
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:40:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33542
-
-Information published.
-
-## CVE-2026-33750 brace-expansion: Zero-step sequence causes process hang and memory exhaustion
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:39:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33750
-
-Information published.
-
-## CVE-2026-29111 systemd: Local unprivileged user can trigger an assert
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:38:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-29111
-
-Information published.
-
-## CVE-2026-2739 This affects versions of the package bn.js before 5.2.3. Calling maskn(0) on any BN instance corrupts the internal state, causing toString(), divmod(), and other methods to enter an infinite loop, hanging…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:37:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2739
-
-Information published.
-
-## CVE-2026-2436 Libsoup: libsoup: denial of service via use-after-free in soupserver during tls handshake
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:05:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2436
-
-Information published.
-
-## CVE-2026-4732 Out-of-bounds Read Overflow in tildearrow/furnace
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:05:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4732
-
-Information published.
-
-## CVE-2026-5119 Libsoup: libsoup: information disclosure via cleartext transmission of cookies during https tunnel establishment
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:04:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5119
-
-Information published.
-
-## CVE-2026-5121 Libarchive: libarchive: arbitrary code execution via integer overflow in iso9660 image processing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:04:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5121
-
-Information published.
-
-## CVE-2026-4046 iconv crash due to assertion failure with untrusted input
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-02T08:01:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4046
-
-Information published.
-
-## Tax filing season progressing smoothly with timely refund processing and a high use of electronic filing
-- Source: IRS
-- Category: IRS
-- Published: 2026-04-02T00:00:00Z
-- URL: https://www.irs.gov/newsroom/tax-filing-season-progressing-smoothly-with-timely-refund-processing-and-a-high-use-of-electronic-filing
-
-IR-2026-43, April 2, 2026 — The Internal Revenue Service continues to deliver excellent service to taxpayers during the 2026 filing season with the rise in tax refunds, the smooth pace at which taxpayers are getting their refunds and the high use of electronic filing.
-
-## The 30-Year Fixed-Rate Mortgage Averages 6.46%
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-04-02T00:00:00Z
-- URL: https://www.globenewswire.com/news-release/2026/04/02/3267659/0/en/The-30-Year-Fixed-Rate-Mortgage-Averages-6-46.html
-
-## Small Business Sales Grew Steadily in March as Higher Ticket Sizes Offset Softer Foot Traffic, Fiserv Data Shows
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-04-02T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/small-business-sales-grew-steadily-march-higher-ticket-sizes
-
-## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-02T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/02/2026-06401/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
-
-## Privacy Act of 1974; System of Records
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-02T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/02/2026-06428/privacy-act-of-1974-system-of-records
-
-In accordance with the Privacy Act of 1974, as amended, the Federal Deposit Insurance Corporation (FDIC) is modifying an existing system of records titled FDIC-005, "Consumer Complaint and Inquiry Records." This system of records supports the FDIC's regulatory and supervisory functions. It permits the FDIC to receive, investigate, and respond to complaints and inquiries from i…
-
-## Commerce Acquisition Regulation; Minor Amendments
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-02T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/02/2026-06382/commerce-acquisition-regulation-minor-amendments
-
-By this rule, Commerce amends its agency-specific acquisition regulation by updating or removing certain outdated and unnecessary regulatory language, by moving a subpart to better track and correspond with the structure of the government-wide Federal Acquisition Regulation, and by correcting a typographical error. This action is intended to update, correct, and streamline Com…
-
-## Notice of Lodging of Proposed Material Modification of Consent Decree Under the Clean Water Act
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-02T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/02/2026-06329/notice-of-lodging-of-proposed-material-modification-of-consent-decree-under-the-clean-water-act
