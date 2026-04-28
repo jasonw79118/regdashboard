@@ -1,5 +1,350 @@
 IS
 BleepingComputer
+2026-04-28T13:18:36Z
+Microsoft to deprecate legacy TLS in Exchange Online starting July
+https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/
+Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-28T12:50:58Z
+Inside an OPSEC Playbook: How Threat Actors Evade Detection
+https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/
+Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [...]
+------------------------------------------------------------
+Compliance Watch
+CDIA
+2026-04-28T10:00:34Z
+Last chance to register—CDIA Connect starts next week!
+https://www.cdiaonline.org/events/2026/04/28/last-chance-to-register-cdia-connect-starts-next-week/
+Join us for three days of insights, strategy, and connections with leaders across consumer data, including CFPB Deputy Director Geof Gradler,... The post Last chance to register—CDIA Connect starts next week! appeared first on CDIA .
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-28T09:51:26Z
+Microsoft: New Remote Desktop warnings may display incorrectly
+https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/
+Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-28T08:37:12Z
+Microsoft asks iPhone users to reauthenticate after Outlook outage
+https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/
+After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail accounts via the default Mail app. [...]
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-04-28T00:00:00Z
+Fannie Mae Releases March 2026 Monthly Summary
+https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-releases-march-2026-monthly-summary
+The monthly summary report contains information about Fannie Mae’s monthly and year-to-date activities.
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Launches Validator Node on Tempo Blockchain
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Defines the Next Era of Commerce: When AI Becomes the Customer
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Unveils New Services to Modernize Dispute Resolution Process
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa to Bring Privacy-Preserving Payments to Canton Network
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Completes Acquisition of Prisma and Newpay
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Renews Partnership Across Red Bull Formula One Teams
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa to Participate in Upcoming Investor Conferences
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Fiscal First Quarter 2026 Financial Results
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
+------------------------------------------------------------
+Payment Card Networks
+Visa
+2026-04-28T00:00:00Z
+Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-28T00:00:00Z
+This full CISSP training bundle is only $20 (was $424)
+https://www.bleepingcomputer.com/offer/deals/this-full-cissp-training-bundle-is-only-20-was-424/
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-28T00:00:00Z
+Notice of Proposals To Engage in or To Acquire Companies Engaged in Permissible Nonbanking Activities
+https://www.federalregister.gov/documents/2026/04/28/2026-08248/notice-of-proposals-to-engage-in-or-to-acquire-companies-engaged-in-permissible-nonbanking
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-28T00:00:00Z
+Formations of, Acquisitions by, and Mergers of Bank Holding Companies
+https://www.federalregister.gov/documents/2026/04/28/2026-08247/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-28T00:00:00Z
+Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+https://www.federalregister.gov/documents/2026/04/28/2026-08246/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-28T00:00:00Z
+Equal Access to Housing in HUD Programs Revisions
+https://www.federalregister.gov/documents/2026/04/28/2026-08244/equal-access-to-housing-in-hud-programs-revisions
+This proposed rule would harmonize HUD's existing Equal Access regulations with the directions of the Executive Order titled "Defending Women from Gender Ideology Extremism and Restoring Biological Truth to the Federal Government." The rule would remove references to "gender" and "gender identity" from HUD regulations, or remove and replace it with "sex," as defined by the Exe…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-28T00:00:00Z
+Meeting of the CJIS Advisory Policy Board
+https://www.federalregister.gov/documents/2026/04/28/2026-08197/meeting-of-the-cjis-advisory-policy-board
+The purpose of this notice is to announce a meeting of the Federal Bureau of Investigation's (FBI) Criminal Justice Information Services (CJIS) Advisory Policy Board (APB). The CJIS APB is a federal advisory committee established pursuant to the Federal Advisory Committee Act (FACA). This meeting announcement is being published as required by Section 10 of the FACA.
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-28T00:00:00Z
+Schedules of Controlled Substances: Rescheduling of Marijuana; Withdrawal
+https://www.federalregister.gov/documents/2026/04/28/2026-08178/schedules-of-controlled-substances-rescheduling-of-marijuana-withdrawal
+The Department of Justice published a notice of proposed rulemaking in the Federal Register on May 21, 2024, which proposed to transfer marijuana from schedule I of the Controlled Substances Act to schedule III. The Drug Enforcement Administration ("DEA") published a notice of hearing on the proposed rule in the Federal Register on August 29, 2024. Upon further review, DEA is…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-28T00:00:00Z
+Schedules of Controlled Substances: Rescheduling of Marijuana
+https://www.federalregister.gov/documents/2026/04/28/2026-08177/schedules-of-controlled-substances-rescheduling-of-marijuana
+This is notice that the Drug Enforcement Administration ("DEA") will hold a hearing with respect to the proposed rescheduling of marijuana into schedule III of the Controlled Substances Act beginning June 29, 2026. The proposed rescheduling of marijuana was initially proposed in a Notice of Proposed Rulemaking published in the Federal Register on May 21, 2024. In accordance wi…
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-04-28T00:00:00Z
+Schedules of Controlled Substances: Rescheduling of Food and Drug Administration Approved Products Containing Marijuana From Schedule I to Schedule III; Corresponding Change to Permit Requirements
+https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products
+With the issuance of this final rule, which constitutes a final order, the Acting Attorney General of the U.S. Department of Justice places drug products containing marijuana that have been approved by the Food and Drug Administration (FDA) in schedule III of the Controlled Substances Act ("CSA"). This action is required to satisfy the responsibility of the Administrator under…
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T23:11:01Z
+Robinhood account creation flaw abused to send phishing emails
+https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/
+Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T21:41:01Z
+GlassWorm malware attacks return via 73 OpenVSX "sleeper" extensions
+https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/
+A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 "sleeper" extensions that turn malicious after an update. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-04-27T20:35:53Z
+Nominations and Withdrawals Sent to the Senate
+https://www.whitehouse.gov/presidential-actions/2026/04/nominations-and-withdrawals-sent-to-the-senate-d935/
+------------------------------------------------------------
+Executive
+White House
+2026-04-27T20:33:57Z
+Presidential Message on National Apprenticeship Week
+https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-apprenticeship-week/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T20:00:31Z
+Canada arrests three for operating “SMS blaster” device in Toronto
+https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/
+Canadian authorities have arrested three men for operating an "SMS blaster" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T19:56:03Z
+Alleged Silk Typhoon hacker extradited to US for cyberespionage
+https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/
+A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-04-27T19:21:36Z
+Readouts
+https://home.treasury.gov/news/press-releases/readouts
+------------------------------------------------------------
+OFAC
+Treasury
+2026-04-27T19:21:36Z
+READOUT: Secretary of the Treasury Scott Bessent’s Meeting with European Commissioner for Trade and Economic Security Maroš Šefčovič
+https://home.treasury.gov/news/press-releases/sb0474
+------------------------------------------------------------
+Executive
+White House
+2026-04-27T18:01:39Z
+Congressional Bill H.J.Res. 140 Signed into Law
+https://www.whitehouse.gov/briefings-statements/2026/04/congressional-bill-h-j-res-140-signed-into-law/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T16:27:53Z
+FTC: Americans lost over $2.1 billion to social media scams in 2025
+https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/
+The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-04-27T16:00:00Z
+Presidential Message: Birthday of President Ulysses S. Grant
+https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-birthday-of-president-ulysses-s-grant/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T15:17:37Z
+PyPI package with 1.1M monthly downloads hacked to push infostealer
+https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/
+An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T14:43:11Z
+Home security giant ADT data breach affects 5.5 million people
+https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/
+The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notification service Have I Been Pwned. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-04-27T14:30:00Z
+Treasury Moves to Prevent Abuse of Community Development Financial Institutions Fund Programs
+https://home.treasury.gov/news/press-releases/sb0473
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T14:25:35Z
+Webinar: Spotting cyberattacks before they begin
+https://www.bleepingcomputer.com/news/security/webinar-spotting-cyberattacks-before-they-begin/
+On Thursday, April 30 at 2:00 PM ET, BleepingComputer will host a live webinar with threat intelligence company Flare and threat intelligence researcher Tammy Harper, exploring how security teams can identify early warning signs of attacks before they escalate into incidents. [...]
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-04-27T14:00:00Z
+CVE-2026-32202 Windows Shell Spoofing Vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32202
+Corrected the Exploitability Index, Exploited flag and CVSS vector which was incorrect at the time of publication on 4/14/2026. This is an informational change only.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-04-27T13:50:42Z
+Medtronic confirms breach after hackers claim 9 million records theft
+https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/
+Medical device giant Medtronic disclosed last week that hackers breached its network and accessed data in "certain corporate IT systems." [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-04-27T13:01:38Z
 Money launderer linked to $230M crypto heist gets 70 months in prison
 https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/
@@ -11,13 +356,6 @@ BleepingComputer
 Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know
 https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/
 Three seconds of audio is all it takes to clone a voice for fraud. Adaptive Security shows how deepfake calls trick employees into sending real money—and why most defenses don't catch them. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-27T12:03:46Z
-Microsoft says Outlook.com outage is causing sign‑in failures
-https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/
-Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]
 ------------------------------------------------------------
 Fintech Watch
 Finastra
@@ -46,23 +384,89 @@ CVE-2018-0735 Timing attack against ECDSA signature generation
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2018-0735
 Information published.
 ------------------------------------------------------------
+IRS
+IRS
+2026-04-27T00:00:00Z
+IRS announces new option for certain taxpayers to request more time after ERC claim disallowance
+https://www.irs.gov/newsroom/irs-announces-new-option-for-certain-taxpayers-to-request-more-time-after-erc-claim-disallowance
+IR-2026-58, April 27, 2026 — The Internal Revenue Service today announced a new, streamlined way for taxpayers to extend the period of time for the IRS and the IRS Independent Office of Appeals to review a taxpayer’s response to a disallowance of an Employee Retention Credit (ERC) claim to avoid refund litigation.
+------------------------------------------------------------
 Mortgage
 FHLB MPF
 2026-04-27T00:00:00Z
 MPF Announcement 2026-22
 https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-22
 ------------------------------------------------------------
+Mortgage
+Freddie Mac
+2026-04-27T00:00:00Z
+Freddie Mac Issues Monthly Volume Summary for March 2026
+https://www.globenewswire.com/news-release/2026/04/27/3282065/0/en/freddie-mac-issues-monthly-volume-summary-for-march-2026.html
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-04-27T00:00:00Z
+Warren, Van Hollen Press SEC Chair Atkins on Exempting Broad Swaths of Crypto Market from American Securities Laws
+https://www.banking.senate.gov/newsroom/minority/warren-van-hollen-press-sec-chair-atkins-on-exempting-broad-swaths-of-crypto-market-from-american-securities-laws
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-04-27T00:00:00Z
+As Trump Administration Abandons Disaster-Stricken Communities, Warren, Colleagues Renew Push to Support Survivors of Disasters
+https://www.banking.senate.gov/newsroom/minority/as-trump-administration-abandons-disaster-stricken-communities-warren-colleagues-renew-push-to-support-survivors-of-disasters
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-04-27T00:00:00Z
+Warren Statement on Banking Committee Vote on Trump Fed Chair Nominee
+https://www.banking.senate.gov/newsroom/minority/warren-statement-on-banking-committee-vote-on-trump-fed-chair-nominee
+------------------------------------------------------------
+Payments
+NACHA
+2026-04-27T00:00:00Z
+Jubilee Media Founder Jason Y. Lee Flipped the Script on His Life. You Can, Too
+https://www.nacha.org/news/jubilee-media-founder-jason-y-lee-flipped-script-his-life-you-can-too
+SAN DIEGO—Jason Y. Lee remembers coming home from kindergarten one day and telling his parents he wanted to be a cop. But, as Lee quickly found out, his life had a script, and that wasn’t in it. “The script kind of went like this: Get good grades, go to a great college, get a good job, get married, make money, have kids, retire, and then—maybe then—you’ll be happy,” said Lee.…
+------------------------------------------------------------
+Payments
+NACHA
+2026-04-27T00:00:00Z
+The Onion Founder Scott Dikkers: ‘Practice Professional Stupidity’
+https://www.nacha.org/news/onion-founder-scott-dikkers-practice-professional-stupidity
+SAN DIEGO—There aren’t a lot of people who would stand on stage and encourage those in the ballroom to “go off and be boldly stupid,” but that’s exactly what Scott Dikkers did. And he knows of what he speaks, because his lengthy resume in comedy includes being the founder of the satirical humor website The Onion.While no one ever confused working in the Payments industry with,…
+------------------------------------------------------------
+Payments
+NACHA
+2026-04-27T00:00:00Z
+Raising the Limit to $10 Million Reflects the Demand for Same Day ACH
+https://www.nacha.org/news/raising-limit-10-million-reflects-demand-same-day-ach
+Ten is a very important number this year at Nacha and there’s a lot to celebrate.Topping the list is the tenfold increase to the dollar limit for Same Day ACH payments just approved by the Nacha membership. The current $1 million rises to $10 million on Sept. 17, 2027.
+------------------------------------------------------------
+Payments
+NACHA
+2026-04-27T00:00:00Z
+Same Day ACH Per Payment Limit to Increase to $10 Million
+https://www.nacha.org/news/same-day-ach-payment-limit-increase-10-million
+SAN DIEGO, April 27, 2026 – The Same Day ACH per payment limit will rise to $10 million under a Rule change approved by the Nacha membership, Nacha announced today at its Smarter Faster Payments 2026 conference.The increase takes effect Sept. 17, 2027, and will be the third increase in the history of Same Day ACH. The initial $25,000 maximum was raised to $100,000 in 2020, and…
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-04-27T00:00:00Z
-Medtronic confirms breach after hackers claim 9 million records theft
-https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/
+Microsoft says Outlook.com outage is causing sign‑in failures
+https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/
 ------------------------------------------------------------
 IS
 BleepingComputer
 2026-04-27T00:00:00Z
 This $15 course bundle gets you started in AI & automation
 https://www.bleepingcomputer.com/offer/deals/this-15-course-bundle-gets-you-started-in-ai-and-automation/
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-04-27T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/how-artificial-intelligence-is-advancing-public-administration
+Wolters Kluwer invites participants to its third GovTech Prompt-a-thon, focusing on responsible AI, citizen-centric services, and intelligent, AI-enabled administrative processes.
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -96,13 +500,6 @@ Federal Register
 Agency Information Collection Activities: Proposed New Information Collection Activity; Comment Request: Proposed Study Entitled “Pilot Study Examining Interpersonal Violence Experienced by Young Adults”
 https://www.federalregister.gov/documents/2026/04/27/2026-08121/agency-information-collection-activities-proposed-new-information-collection-activity-comment
 The Department of Justice (DOJ), Office of Justice Programs, National Institute of Justice, is submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-26T14:22:34Z
-American utility firm Itron discloses breach of internal IT network
-https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/
-Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -1220,28 +1617,20 @@ Information published.
 IS
 BleepingComputer
 2026-04-26T00:00:00Z
-Get certified in 7 CompTIA disciplines with this $50 training bundle
-https://www.bleepingcomputer.com/offer/deals/get-certified-in-7-comptia-disciplines-with-this-50-training-bundle/
+American utility firm Itron discloses breach of internal IT network
+https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/
 ------------------------------------------------------------
 IS
 BleepingComputer
-2026-04-25T17:07:13Z
-Microsoft rolls out revamped Windows Insider Program
-https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/
-Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]
+2026-04-26T00:00:00Z
+Get certified in 7 CompTIA disciplines with this $50 training bundle
+https://www.bleepingcomputer.com/offer/deals/get-certified-in-7-comptia-disciplines-with-this-50-training-bundle/
 ------------------------------------------------------------
 Executive
 White House
 2026-04-25T16:26:59Z
 President Donald J. Trump and First Lady Melania Trump to Welcome His Majesty King Charles the III of the United Kingdom of Great Britain and Northern Ireland and Her Majesty Queen Camilla for a State Visit
 https://www.whitehouse.gov/briefings-statements/2026/04/president-donald-j-trump-and-first-lady-melania-trump-to-welcome-his-majesty-king-charles-the-iii-of-the-united-kingdom-of-great-britain-and-northern-ireland-and-her-majesty-queen-camilla-for-a-state/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-25T15:07:44Z
-Threat actor uses Microsoft Teams to deploy new “Snow” malware
-https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/
-A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -1383,51 +1772,6 @@ CVE-2026-41080
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41080
 Information published.
 ------------------------------------------------------------
-Legislative
-Senate Banking
-2026-04-25T00:00:00Z
-Warren Statement on Banking Committee Vote on Trump Fed Chair Nominee
-https://www.banking.senate.gov/newsroom/minority/warren-statement-on-banking-committee-vote-on-trump-fed-chair-nominee
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-04-25T00:00:00Z
-Warren, Durbin Question Pirro on Threat to Restart Powell Investigation
-https://www.banking.senate.gov/newsroom/minority/warren-durbin-question-pirro-on-threat-to-restart-powell-investigation
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-04-25T00:00:00Z
-Chairman Scott Welcomes Federal Reserve Inspector General Review of Cost Overruns
-https://www.banking.senate.gov/newsroom/majority/chairman-scott-welcomes-federal-reserve-inspector-general-review-of-cost-overruns
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-25T00:00:00Z
-Kill ads & trackers for just $15.97 in this AdGuard lifetime deal
-https://www.bleepingcomputer.com/offer/deals/kill-ads-and-trackers-for-just-1597-in-this-adguard-lifetime-deal/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T22:53:14Z
-ADT confirms data breach after ShinyHunters leak threat
-https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/
-Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T20:34:08Z
-Firestarter malware survives Cisco firewall updates, security patches
-https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/
-Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or Firepower Threat Defense (FTD) software. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T20:08:26Z
-Windows Update gets new controls to reduce forced restarts
-https://www.bleepingcomputer.com/news/microsoft/windows-update-gets-new-controls-to-reduce-forced-restarts/
-Microsoft is rolling out Windows Update improvements that give users more control over how updates are installed while reducing disruption from frequent or poorly timed restarts. [...]
-------------------------------------------------------------
 Banking
 FRB
 2026-04-24T20:00:00Z
@@ -1454,27 +1798,6 @@ Treasury
 Economic Fury Targets Global Network Fueling Iran’s Oil Trade and Shadow Fleet
 https://home.treasury.gov/news/press-releases/sb0472
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T18:26:27Z
-New BlackFile extortion group linked to surge of vishing attacks
-https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-gang-targets-retail-and-hospitality-orgs/
-A new financially motivated hacking group tracked as BlackFile has been linked to a wave of data theft and extortion attacks against retail and hospitality organizations since February 2026. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T18:13:55Z
-Microsoft to roll out Entra passkeys on Windows in late April
-https://www.bleepingcomputer.com/news/microsoft/microsoft-to-roll-out-entra-passkeys-on-windows-in-late-april/
-Microsoft will roll out passkey support for phishing-resistant passwordless authentication to Microsoft Entra‑protected resources from Windows devices starting late April. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T17:28:46Z
-New ‘Pack2TheRoot’ flaw gives hackers root Linux access
-https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/
-A new vulnerability dubbed Pack2TheRoot could be exploited in the PackageKit daemon to allow local Linux users to install or remove system packages and gain root permissions. [...]
-------------------------------------------------------------
 Banking
 FDIC
 2026-04-24T15:06:58Z
@@ -1487,20 +1810,6 @@ White House
 2026-04-24T15:05:18Z
 Presidential Message on Armenian Remembrance Day
 https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-armenian-remembrance-day/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T14:10:20Z
-DORA and operational resilience: Credential management as a financial risk control
-https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/
-Article 9 of DORA makes authentication and access control a legal obligation for EU financial entities. Here is what the regulation requires, and what a breach looks like when those controls are missing. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T13:35:33Z
-Over 10,000 Zimbra servers vulnerable to ongoing XSS attacks
-https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/
-Over 10,000 Zimbra Collaboration Suite (ZCS) instances exposed online are vulnerable to ongoing attacks exploiting a cross-site scripting (XSS) security flaw. [...]
 ------------------------------------------------------------
 Executive
 White House
@@ -2904,17 +3213,12 @@ Mastercard
 Mastercard and Chainlink enable on-chain crypto purchases using Mastercard's 3.5 billion cards June 24, 2025
 https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
 ------------------------------------------------------------
-IS
-BleepingComputer
+Compliance Watch
+Wolters Kluwer
 2026-04-24T00:00:00Z
-Microsoft now lets admins uninstall Copilot on enterprise devices
-https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-uninstall-copilot-on-enterprise-devices/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-04-24T00:00:00Z
-Learn how people actually speak—not how AI thinks they do
-https://www.bleepingcomputer.com/offer/deals/learn-how-people-actually-speak-not-how-ai-thinks-they-do/
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-enablon-recognized-as-a-2026-environment-energy-leader-awards-winner
+Wolters Kluwer Enablon has been named a winner in the Software & Cloud category of the 2026 Environment+Energy Leader Awards.
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -3736,6 +4040,27 @@ Jack Henry
 Jack Henry & Associates to Provide Webcast of Third Quarter Fiscal 2026 Earnings Call
 https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-associates-provide-webcast-third-quarter-fiscal-2026
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-04-22T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-introduces-expert-ai-powered-search-insights-and-ai-assisted-filing
+Wolters Kluwer announced two new AI-powered enhancements to its Financial & Corporate Compliance portfolio: iLien Search Insights Report and iLien Filing Assistant powered by Expert AI.
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-04-22T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/pr-globee-awards-for-excellence
+Honored for advancing financial performance and ESG reporting through AI-enabled, enterprise-grade solutions.
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-04-22T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-enablon-recognized-with-globee-award-for-excellence
+Enablon received a Globee® Award for Excellence for its Process Hazard Analysis tool, recognizing its contribution to strengthening process safety.
+------------------------------------------------------------
 Federal Register
 Federal Register
 2026-04-22T00:00:00Z
@@ -3826,6 +4151,20 @@ FIS
 FIS Levels the Playing Field: New Trading Platform Gives Firms Wall Street-Grade Investment Tools
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-levels-playing-field-new-trading-platform-gives-firms-wall
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-04-21T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/pr-cch-tagetik-kicks-off-global-intouch-2026-showcasing-expert-ai-for-cfo
+Global inTouch launches a global event series demonstrating how CCH Tagetik with Expert AI is transforming the way finance works with AI-enabled capabilities.
+------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-04-21T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/pr-2026-future-ready-cfo-report-shows-apac-cfo-embrace-ai
+Finance leaders across Asia‑Pacific recognize AI as a major force reshaping finance, while advancing adoption with disciplined focus on governance, value, and oversight
+------------------------------------------------------------
 Federal Register
 Federal Register
 2026-04-21T00:00:00Z
@@ -3859,12 +4198,6 @@ Federal Register
 Importer of Controlled Substances Application: Leading Pharma LLC
 https://www.federalregister.gov/documents/2026/04/21/2026-07696/importer-of-controlled-substances-application-leading-pharma-llc
 Leading Pharma LLC has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.
-------------------------------------------------------------
-Executive
-White House
-2026-04-20T21:04:43Z
-Fact Sheet: President Donald J. Trump Issues Presidential Determination to Support U.S. Air Force Jet Fighter Training Operations
-https://www.whitehouse.gov/fact-sheets/2026/04/fact-sheet-president-donald-j-trump-issues-presidential-determination-to-support-u-s-air-force-jet-fighter-training-operations/
 ------------------------------------------------------------
 Executive
 White House
@@ -3915,12 +4248,6 @@ Microsoft MSRC
 CVE-2026-32077 Windows UPnP Device Host Elevation of Privilege Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32077
 Added Security Only packages to Windows Server 2012 security updates. This is an informational change only.
-------------------------------------------------------------
-OFAC
-Treasury
-2026-04-20T13:00:00Z
-Chair’s Statement of the United States G20 Presidency
-https://home.treasury.gov/news/press-releases/sb0464
 ------------------------------------------------------------
 Fintech Watch
 Finastra
@@ -4008,18 +4335,6 @@ Federal Register
 Accountability in Higher Education and Access Through Demand-Driven Workforce Pell: Student Tuition and Transparency System (STATS) and Earnings Accountability
 https://www.federalregister.gov/documents/2026/04/20/2026-07666/accountability-in-higher-education-and-access-through-demand-driven-workforce-pell-student-tuition
 The Secretary of Education (Secretary) proposes to amend the regulations governing institutional eligibility, general provisions regulations, and the William D. Ford Direct Loan (Direct Loan) Program under title IV of the Higher Education Act (HEA) of 1965, as amended (the title IV, HEA programs). The proposed regulations would implement statutory changes to the title IV, HEA…
-------------------------------------------------------------
-OFAC
-Treasury
-2026-04-19T18:06:57Z
-Readouts
-https://home.treasury.gov/news/press-releases/readouts
-------------------------------------------------------------
-OFAC
-Treasury
-2026-04-19T18:06:57Z
-READOUT: Secretary of the Treasury Scott Bessent’s Meeting with Minister of Finance Ali bin Ahmed Al Kuwari of Qatar
-https://home.treasury.gov/news/press-releases/sb0463
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -4494,6 +4809,13 @@ FIS
 FIS Leads Core Banking Modernization for Second Straight Year, Everest Group Core Banking Report Finds
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-leads-core-banking-modernization-second-straight-year
 ------------------------------------------------------------
+Compliance Watch
+Wolters Kluwer
+2026-04-16T00:00:00Z
+Wolters Kluwer news
+https://www.wolterskluwer.com/en/news/wolters-kluwer-extends-digital-lending-momentum-by-enabling-liquidity-access-for-commercial-assets
+Wolters Kluwer Financial & Corporate Compliance announced support and coordination with FHLB Des Moines following its decision to accept digital CRE, Ag Real Estate, multifamily, HELOC, and other electronic assets as pledged collateral.
+------------------------------------------------------------
 Federal Register
 Federal Register
 2026-04-16T00:00:00Z
@@ -4526,12 +4848,6 @@ White House
 2026-04-15T20:31:09Z
 Presidential Permit: Authorizing Enbridge Energy, Limited Partnership to Operate and Maintain Three Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States a…
 https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-three-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/
-------------------------------------------------------------
-Executive
-White House
-2026-04-15T20:28:16Z
-Presidential Permit: Authorizing Enbridge Pipelines (Southern Lights) L.L.C. to Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States…
-https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-pipelines-southern-lights-l-l-c-to-operate-and-maintain-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -5628,13 +5944,6 @@ Stack-based buffer overflow in Windows Kernel allows an authorized attacker to e
 IS
 Microsoft MSRC
 2026-04-14T14:00:00Z
-CVE-2026-32202 Windows Shell Spoofing Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32202
-Protection mechanism failure in Windows Shell allows an unauthorized attacker to perform spoofing over a network.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T14:00:00Z
 CVE-2026-32215 Windows Kernel Information Disclosure Vulnerability
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32215
 Insertion of sensitive information into log file in Windows Kernel allows an authorized attacker to disclose information locally.
@@ -6324,331 +6633,4 @@ Microsoft MSRC
 CVE-2026-32187 Microsoft Edge (Chromium-based) Defense in Depth Vulnerability - Rejected
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32187
 Microsoft has changed the status of this CVE to Rejected as we have determined that this is not a vulnerability.
-------------------------------------------------------------
-Payment Card Networks
-Visa
-2026-04-14T13:06:00Z
-Visa Launches Validator Node on Tempo Blockchain
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html
-Visa has joined the Tempo network as an anchor validator, supporting transaction validation and accelerating the development of onchain payment infrastructure. SAN FRANCISCO --(BUSINESS WIRE)--Apr. 14, 2026-- Visa (NYSE:V), a global leader in digital payments, today announced it has officially
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:44:36Z
-CVE-2026-31418 netfilter: ipset: drop logically empty buckets in mtype_del
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31418
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:41:57Z
-CVE-2026-3184 Util-linux: util-linux: access control bypass due to improper hostname canonicalization
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3184
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:41:50Z
-CVE-2026-27456 util-linux: TOCTOU Race Condition in util-linux mount(8) - Loop Device Setup
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27456
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:41:19Z
-CVE-2026-0964 Libssh: improper sanitation of paths received from scp servers
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0964
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:41:12Z
-CVE-2026-0966 Libssh: buffer underflow in ssh_get_hexa() on invalid input
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0966
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:41:06Z
-CVE-2026-0967 Libssh: libssh: denial of service via inefficient regular expression processing
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0967
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:40:59Z
-CVE-2026-0965 Libssh: libssh: denial of service via improper configuration file handling
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0965
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:40:35Z
-CVE-2026-4647 Binutils: out-of-bounds read in xcoff relocation processing in gnu binutils bfd library
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4647
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:39:06Z
-CVE-2025-69647
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69647
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:38:59Z
-CVE-2026-3784 wrong proxy connection reuse with credentials
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:38:52Z
-CVE-2026-1965 bad reuse of HTTP Negotiate connection
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:38:46Z
-CVE-2026-3783 token leak with redirect and netrc
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3783
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:38:39Z
-CVE-2025-69649 GNU Binutils thru 2.46 readelf contains a null pointer dereference vulnerability when processing a crafted ELF binary with malformed header fields. During relocation processing, an invalid or null section…
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69649
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:38:32Z
-CVE-2025-69645 Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug information. A logic error in the handling of DWARF compilation units can result in…
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69645
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:38:25Z
-CVE-2025-69652 GNU Binutils thru 2.46 readelf contains a vulnerability that leads to an abort (SIGABRT) when processing a crafted ELF binary with malformed DWARF abbrev or debug information. Due to incomplete state clea…
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69652
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:38:18Z
-CVE-2025-69646 Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug_rnglists data. A logic error in the handling of the debug_rnglists header can cause…
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-69646
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:37:48Z
-CVE-2025-11839 GNU Binutils prdbg.c tg_tag_type return value
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11839
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:37:32Z
-CVE-2025-1148 GNU Binutils ld ldelfgen.c link_order_scan memory leak
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1148
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:37:25Z
-CVE-2025-1147 GNU Binutils nm nm.c internal_strlen buffer overflow
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1147
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:02:38Z
-CVE-2026-31428 netfilter: nfnetlink_log: fix uninitialized padding leak in NFULA_PAYLOAD
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31428
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:02:33Z
-CVE-2026-31421 net/sched: cls_fw: fix NULL pointer dereference on shared blocks
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31421
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:02:27Z
-CVE-2026-31420 bridge: mrp: reject zero test interval to avoid OOM panic
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31420
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:02:22Z
-CVE-2026-31419 net: bonding: fix use-after-free in bond_xmit_broadcast()
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31419
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:02:16Z
-CVE-2026-31426 ACPI: EC: clean up handlers on probe failure in acpi_ec_setup()
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31426
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:02:11Z
-CVE-2026-31427 netfilter: nf_conntrack_sip: fix use of uninitialized rtp_addr in process_sdp
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31427
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:02:05Z
-CVE-2026-31414 netfilter: nf_conntrack_expect: use expect->helper
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31414
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:01:59Z
-CVE-2026-31422 net/sched: cls_flow: fix NULL pointer dereference on shared blocks
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31422
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:01:54Z
-CVE-2026-31417 net/x25: Fix overflow when accumulating packets
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31417
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:01:49Z
-CVE-2026-31424 netfilter: x_tables: restrict xt_check_match/xt_check_target extensions for NFPROTO_ARP
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31424
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:01:43Z
-CVE-2026-31423 net/sched: sch_hfsc: fix divide-by-zero in rtsc_min()
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31423
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:01:38Z
-CVE-2026-31416 netfilter: nfnetlink_log: account for netlink header size
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31416
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-04-14T08:01:32Z
-CVE-2026-40393
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40393
-Information published.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-04-14T00:00:00Z
-Counter Narcotics, Counter Terrorism Designations; Issuance of Related General License; Issuance of Amended Russia-related General Licenses and Frequently Asked Question
-https://ofac.treasury.gov/recent-actions/20260414
-------------------------------------------------------------
-IRS
-IRS
-2026-04-14T00:00:00Z
-If you need more time to file, request an extension
-https://www.irs.gov/newsroom/if-you-need-more-time-to-file-request-an-extension
-IR-2026-52, April 14, 2026 — As the end of filing season approaches, the Internal Revenue Service reminds taxpayers they can get an extension to file their federal income tax return until Oct. 15, 2026, but they must request the extension by April 15, 2026, in order to avoid penalties.
-------------------------------------------------------------
-Banking
-FDIC
-2026-04-14T00:00:00Z
-Principals of U.S., European Banking Union, and U.K. Financial Authorities To Meet for Regular Coordination Exercise on Cross-Border Resolution Planning
-https://www.fdic.gov/news/press-releases/2026/principals-us-european-banking-union-and-uk-financial-authorities-meet
-Trilateral Principal Level Exercise (TPLE) on Saturday, April 18, 2026.
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-Rising to the Challenge of First-party Fraud
-https://www.nacha.org/news/rising-challenge-first-party-fraud
-Nacha’s Risk Management Advisory Group (RMAG), Rules and Operations Committee, and the First-Party Fraud Workgroup are looking at ways to better identify and mitigate first-party fraud. The first steps are education and raising awareness of the problem. We have issued a series of articles describing first-party fraud and addressing actions for both ODFIs and RDFIs.
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-How is Quantum Computing Used in Everyday Life?
-https://www.nacha.org/news/how-quantum-computing-used-everyday-life
-Every time you tap your phone at a terminal, browse the web, or authorize a secure online payment, you aren't just using high-end technology—you are relying on quantum mechanics. While it may sound like science fiction, the physics of the "super-small" is the invisible bedrock of modern financial security and convenience.The first generation of quantum innovation didn't just s…
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-How Can Your Organization Build a Quantum-Safe Payments Readiness Plan?
-https://www.nacha.org/news/how-can-your-organization-build-quantum-safe-payments-readiness-plan
-The payments industry cannot wait for the arrival of a cryptographically relevant quantum computer to act. Payments participants – financial institutions, third parties, vendors, and more – should have already started their quantum readiness implementation plan to address the looming quantum threat. "Harvest Now, Decrypt Later" (HNDL) isn’t just a technical risk, it’s a system…
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-What are the Steps for Conducting a Quantum-Safe Payments Risk Assessment?
-https://www.nacha.org/news/what-are-steps-conducting-quantum-safe-payments-risk-assessment
-Payment applications are categorized as critical because they generally operate 24/7/365. Today, most if not all, payment stakeholders regularly perform risk assessments. The quantum risk assessment, specific to your cryptographic infrastructure and that of your providers, can identify vulnerabilities that quantum computing could exploit.Your organization’s risk management pla…
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-Are Your Assets—and Their Weak Points—Ready for a Quantum Future?
-https://www.nacha.org/news/are-your-assets-and-their-weak-points-ready-quantum-future
-Quantum computing is about to change everything for the payments industry! Today’s cryptography protocols protect against most threats; however, quantum computing will be capable of breaking these math-based algorithms in a matter of seconds. Because payments data is high value and heavily regulated, a data breach within the payments ecosystem can result in substantial materia…
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-Why Should Payments Industry Stakeholders Begin Quantum-Safe Strategic Planning?
-https://www.nacha.org/news/why-should-payments-industry-stakeholders-begin-quantum-safe-strategic-planning
-The concept of “Years to Quantum” (Y2Q) reflects the looming threat that quantum computers could eventually decrypt today’s widely used encryption methods, potentially disrupting critical systems and data security.
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-How Can a Payments Industry Stakeholder Get Started with Becoming Quantum-Safe?
-https://www.nacha.org/news/how-can-payments-industry-stakeholder-get-started-becoming-quantum-safe
-As quantum computing moves from theoretical possibility to tangible technological force, financial institutions and payments stakeholders face a rapidly evolving risk landscape. The security models that protect today’s payment systems were never designed with quantum capabilities in mind—making early awareness essential.
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-Quantum Payments Myths: What’s Real, What’s Hype, and Why It Matters?
-https://www.nacha.org/news/quantum-payments-myths-whats-real-whats-hype-and-why-it-matters
-Quantum computing is one of the hottest topics in technology, and its potential impact on payments has sparked both excitement and confusion. As the industry races to prepare for a quantum future, myths and misconceptions abound. Let’s set the record straight and explore what quantum payments really mean for financial institutions, businesses, and consumers.
-------------------------------------------------------------
-Payments
-NACHA
-2026-04-14T00:00:00Z
-Nacha’s Payments Innovation Alliance Advances Quantum-Safe Payments Education for World Quantum Day
-https://www.nacha.org/news/nachas-payments-innovation-alliance-advances-quantum-safe-payments-education-world-quantum-day
-RESTON, Virginia, April 14, 2026 – In support of World Quantum Day, Nacha’s Payments Innovation Alliance is expanding its leadership on quantum-safe payments with the launch of a new educational blog series from industry experts designed to help the payments ecosystem move from awareness to action.
-------------------------------------------------------------
-Fintech Watch
-FIS
-2026-04-14T00:00:00Z
-Barclays and FIS Extend Partnership Supporting Bank's Online Deposits Growth
-https://www.investor.fisglobal.com/news-releases/news-release-details/barclays-and-fis-extend-partnership-supporting-banks-online
-------------------------------------------------------------
-Banking
-FDIC
-2026-04-13T17:00:15Z
-Press Release: FDIC Announces Four Senior Leadership Appointments
-https://content.govdelivery.com/accounts/USFDIC/bulletins/412bb4d
-PRESS RELEASE | APRIL 13, 2026 FDIC Announces Four Senior Leadership Appointments WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today announced the appointment of the following personnel to serve in senior leadership positions: Benjamin Olson has been appointed Director of the FDIC’s Division of Depositor and Consumer Protection (DCP). Prior to his appointment,…
 ------------------------------------------------------------
