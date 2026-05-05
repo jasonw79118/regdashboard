@@ -2,10 +2,252 @@
   {
     "category": "IS",
     "source": "BleepingComputer",
+    "title": "Vimeo data breach exposes personal information of 119,000 people",
+    "published_at": "2026-05-05T13:03:46Z",
+    "url": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
+    "summary": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]"
+  },
+  {
+    "category": "Fintech Watch",
+    "source": "Finastra",
+    "title": "Finastra and Nammu21 team up to cut loan onboarding time",
+    "published_at": "2026-05-05T12:00:00Z",
+    "url": "https://www.finastra.com/press-media/finastra-and-nammu21-team-cut-loan-onboarding-time",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Google now offers up to $1.5 million for some Android exploits",
+    "published_at": "2026-05-05T11:24:48Z",
+    "url": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
+    "summary": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
+    "published_at": "2026-05-05T10:13:17Z",
+    "url": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
+    "summary": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs",
+    "published_at": "2026-05-05T10:03:52Z",
+    "url": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
+    "summary": "A new version of the CloudZ remote access tool (RAT) is deploying a previously unseen malicious plugin called Pheno that hijacks the Microsoft Phone Link connection to steal sensitive codes from mobile devices. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "ScarCruft hackers push BirdCall Android malware via game platform",
+    "published_at": "2026-05-05T09:04:13Z",
+    "url": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
+    "summary": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-6842 Nano: nano: local attacker can inject malicious .desktop launcher due to insecure directory permissions",
+    "published_at": "2026-05-05T08:42:03Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6842",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2025-11083 GNU Binutils Linker elfcode.h elf_swap_shdr heap-based overflow",
+    "published_at": "2026-05-05T08:41:55Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11083",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2025-8224 GNU Binutils BFD Library elf.c bfd_elf_get_str_section null pointer dereference",
+    "published_at": "2026-05-05T08:41:44Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-8224",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-27141 Sending certain HTTP/2 frames can cause a server to panic in golang.org/x/net",
+    "published_at": "2026-05-05T08:40:31Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27141",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-31431 crypto: algif_aead - Revert to operating out-of-place",
+    "published_at": "2026-05-05T08:03:40Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31431",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-40170 ngtcp2 has a qlog transport parameter serialization stack buffer overflow",
+    "published_at": "2026-05-05T08:03:34Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40170",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-7598 libssh2 userauth.c userauth_password integer overflow",
+    "published_at": "2026-05-05T08:03:22Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7598",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-42798",
+    "published_at": "2026-05-05T08:03:12Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42798",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-37457",
+    "published_at": "2026-05-05T08:03:04Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-37457",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-28532 FRRouting < 10.5.3 Integer Overflow in OSPF TLV Parser Functions",
+    "published_at": "2026-05-05T08:02:55Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28532",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-35469 SpdyStream: DOS on CRI",
+    "published_at": "2026-05-05T08:02:50Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35469",
+    "summary": "Information published."
+  },
+  {
+    "category": "Banking",
+    "source": "OCC",
+    "title": "Risk Governance Workshop: Strategic Oversight for Evolving Risks",
+    "published_at": "2026-05-05T00:00:00Z",
+    "url": "https://www.occ.gov/news-events/events/files/event-comm-bank-dir-wksp-risk-governance-may-2026.html",
+    "summary": "Led by some of the OCC's most experienced and qualified professionals, our workshops provide fundamental concepts, valuable updates, and concepts you can put to work immediately."
+  },
+  {
+    "category": "Banking",
+    "source": "OCC",
+    "title": "Upcoming Events View All Events",
+    "published_at": "2026-05-05T00:00:00Z",
+    "url": "https://www.occ.gov/news-events/events/index-events.html",
+    "summary": "Events"
+  },
+  {
+    "category": "Fintech Watch",
+    "source": "Fiserv",
+    "title": "Fiserv Reports First Quarter 2026 Results",
+    "published_at": "2026-05-05T00:00:00Z",
+    "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-first-quarter-2026-results",
+    "summary": ""
+  },
+  {
+    "category": "Fintech Watch",
+    "source": "Fiserv",
+    "title": "Fiserv to Release First Quarter Earnings Results on May 5, 2026 and Confirms Details for May 14, 2026 Investor Day",
+    "published_at": "2026-05-05T00:00:00Z",
+    "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-release-first-quarter-earnings-results-may-5-2026-and",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "This open-box Microsoft Surface SE drops nearly 50% to just $190",
+    "published_at": "2026-05-05T00:00:00Z",
+    "url": "https://www.bleepingcomputer.com/offer/deals/this-open-box-microsoft-surface-se-drops-nearly-50-percent-to-just-190/",
+    "summary": ""
+  },
+  {
+    "category": "Federal Register",
+    "source": "Federal Register",
+    "title": "Technical Amendments to Rule 610(e) of Regulation NMS and to Delegation of Authority To Grant or Deny Exemptions From Rule 610 of Regulation NMS",
+    "published_at": "2026-05-05T00:00:00Z",
+    "url": "https://www.federalregister.gov/documents/2026/05/05/2026-08721/technical-amendments-to-rule-610e-of-regulation-nms-and-to-delegation-of-authority-to-grant-or-deny",
+    "summary": "The Securities and Exchange Commission (\"Commission\") is adopting technical amendments to correct an outdated cross-reference in its rules relating to locking and crossing quotations, and to correct an outdated cross-reference in its rules delegating authority to the Commission's staff to grant certain exemptions.",
+    "fr_tags": [
+      "agency:securities-and-exchange-commission",
+      "topic:securities"
+    ],
+    "fedreg_document_number": "2026-08721"
+  },
+  {
+    "category": "Federal Register",
+    "source": "Federal Register",
+    "title": "Agency Information Collection Activities; Proposed eCollection, eComments Requested; Extension of a Previously Approved Collection: Title-Law Enforcement Public Contact Data Collection",
+    "published_at": "2026-05-05T00:00:00Z",
+    "url": "https://www.federalregister.gov/documents/2026/05/05/2026-08719/agency-information-collection-activities-proposed-ecollection-ecomments-requested-extension-of-a",
+    "summary": "Criminal Justice Information Services (CJIS) Division, FBI, Department of Justice (DOJ), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.",
+    "fr_tags": [
+      "agency:justice-department",
+      "filter:justice-department"
+    ],
+    "fedreg_document_number": "2026-08719"
+  },
+  {
+    "category": "Executive",
+    "source": "White House",
+    "title": "Congressional Bill S. 723 Signed into Law",
+    "published_at": "2026-05-04T23:31:22Z",
+    "url": "https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bill-s-723-signed-into-law/",
+    "summary": ""
+  },
+  {
+    "category": "Executive",
+    "source": "White House",
+    "title": "Jewish American Heritage Month, 2026",
+    "published_at": "2026-05-04T23:06:14Z",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/05/jewish-american-heritage-month-2026/",
+    "summary": ""
+  },
+  {
+    "category": "Executive",
+    "source": "White House",
+    "title": "America 250: Presidential Message on the Anniversary of the Battle of the Coral Sea",
+    "published_at": "2026-05-04T22:23:03Z",
+    "url": "https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-the-anniversary-of-the-battle-of-the-coral-sea/",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Weaver E-cology critical bug exploited in attacks since March",
+    "published_at": "2026-05-04T22:12:57Z",
+    "url": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+    "summary": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
     "title": "Amazon SES increasingly abused in phishing to evade detection",
     "published_at": "2026-05-04T20:03:28Z",
     "url": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
     "summary": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]"
+  },
+  {
+    "category": "OFAC",
+    "source": "Treasury",
+    "title": "Economic Policy Statements to TBAC: 2026 - 2nd Quarter​",
+    "published_at": "2026-05-04T19:00:00Z",
+    "url": "https://home.treasury.gov/news/press-releases/sb0486",
+    "summary": ""
   },
   {
     "category": "OFAC",
@@ -141,6 +383,14 @@
     "title": "Warren, Heinrich Press White House Chief of Staff Susie Wiles on Trump Administration’s Plans to Lower Energy Prices",
     "published_at": "2026-05-04T00:00:00Z",
     "url": "https://www.banking.senate.gov/newsroom/minority/warren-heinrich-press-white-house-chief-of-staff-susie-wiles-on-trump-administrations-plans-to-lower-energy-prices",
+    "summary": ""
+  },
+  {
+    "category": "Fintech Watch",
+    "source": "FIS",
+    "title": "FIS Brings Agentic AI to Banking with Anthropic, Starting with Financial Crimes",
+    "published_at": "2026-05-04T00:00:00Z",
+    "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-brings-agentic-ai-banking-anthropic-starting-financial",
     "summary": ""
   },
   {
@@ -282,22 +532,6 @@
   },
   {
     "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
-    "published_at": "2026-05-03T18:11:25Z",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
-    "summary": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
-    "published_at": "2026-05-03T14:11:21Z",
-    "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
-    "summary": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]"
-  },
-  {
-    "category": "IS",
     "source": "Microsoft MSRC",
     "title": "CVE-2026-32148 Lockfile checksums not verified in Hex allows dependency integrity bypass",
     "published_at": "2026-05-03T08:03:30Z",
@@ -339,33 +573,9 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-6842 Nano: nano: local attacker can inject malicious .desktop launcher due to insecure directory permissions",
-    "published_at": "2026-05-03T08:02:43Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6842",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-30656",
     "published_at": "2026-05-03T08:02:35Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-30656",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2025-11083 GNU Binutils Linker elfcode.h elf_swap_shdr heap-based overflow",
-    "published_at": "2026-05-03T08:02:26Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11083",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2025-8224 GNU Binutils BFD Library elf.c bfd_elf_get_str_section null pointer dereference",
-    "published_at": "2026-05-03T08:02:16Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-8224",
     "summary": "Information published."
   },
   {
@@ -395,25 +605,9 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-31431 crypto: algif_aead - Revert to operating out-of-place",
-    "published_at": "2026-05-03T08:01:37Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31431",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-37555",
     "published_at": "2026-05-03T08:01:33Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-37555",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-7598 libssh2 userauth.c userauth_password integer overflow",
-    "published_at": "2026-05-03T08:01:24Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7598",
     "summary": "Information published."
   },
   {
@@ -427,18 +621,26 @@
   {
     "category": "IS",
     "source": "BleepingComputer",
-    "title": "Open-box Sony noise-canceling headphones just dropped to $275",
+    "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
     "published_at": "2026-05-03T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/offer/deals/open-box-sony-noise-canceling-headphones-just-dropped-to-275/",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
     "summary": ""
   },
   {
     "category": "IS",
     "source": "BleepingComputer",
-    "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
-    "published_at": "2026-05-02T21:54:00Z",
-    "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-    "summary": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]"
+    "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
+    "published_at": "2026-05-03T00:00:00Z",
+    "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Open-box Sony noise-canceling headphones just dropped to $275",
+    "published_at": "2026-05-03T00:00:00Z",
+    "url": "https://www.bleepingcomputer.com/offer/deals/open-box-sony-noise-canceling-headphones-just-dropped-to-275/",
+    "summary": ""
   },
   {
     "category": "Executive",
@@ -447,14 +649,6 @@
     "published_at": "2026-05-02T14:36:15Z",
     "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-the-kentucky-derby/",
     "summary": ""
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
-    "published_at": "2026-05-02T14:32:25Z",
-    "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
-    "summary": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]"
   },
   {
     "category": "IS",
@@ -491,34 +685,10 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-28532 FRRouting < 10.5.3 Integer Overflow in OSPF TLV Parser Functions",
-    "published_at": "2026-05-02T08:01:30Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28532",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-4948 Firewalld: firewalld: local unprivileged user can modify firewall state due to d-bus setter mis-authorization",
     "published_at": "2026-05-02T08:01:24Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4948",
     "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
-    "published_at": "2026-05-02T00:18:05Z",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
-    "summary": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "This refurbished Dell laptop is a good buy for work and travel at just $390",
-    "published_at": "2026-05-02T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/offer/deals/this-refurbished-dell-laptop-is-a-good-buy-for-work-and-travel-at-just-390/",
-    "summary": ""
   },
   {
     "category": "Executive",
@@ -527,14 +697,6 @@
     "published_at": "2026-05-01T23:45:16Z",
     "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-loyalty-and-law-day-u-s-a/",
     "summary": ""
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
-    "published_at": "2026-05-01T23:43:35Z",
-    "url": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
-    "summary": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]"
   },
   {
     "category": "Banking",
@@ -1169,14 +1331,6 @@
     "summary": ""
   },
   {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "15-year-old detained over French govt agency data breach",
-    "published_at": "2026-05-01T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
-    "summary": ""
-  },
-  {
     "category": "Federal Register",
     "source": "Federal Register",
     "title": "Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)",
@@ -1246,22 +1400,6 @@
       "filter:justice-department"
     ],
     "fedreg_document_number": "2026-08517"
-  },
-  {
-    "category": "Executive",
-    "source": "White House",
-    "title": "Congressional Bill S. 4465 Signed into Law",
-    "published_at": "2026-04-30T23:11:18Z",
-    "url": "https://www.whitehouse.gov/briefings-statements/2026/04/congressional-bill-s-4465-signed-into-law/",
-    "summary": ""
-  },
-  {
-    "category": "Executive",
-    "source": "White House",
-    "title": "Presidential Message on Second Chance Month",
-    "published_at": "2026-04-30T20:45:06Z",
-    "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-second-chance-month/",
-    "summary": ""
   },
   {
     "category": "Executive",
@@ -3202,14 +3340,6 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-27141 Sending certain HTTP/2 frames can cause a server to panic in golang.org/x/net",
-    "published_at": "2026-04-29T08:11:05Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27141",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-29181 OpenTelemetry-Go multi-value `baggage` header extraction causes excessive allocations (remote dos amplification)",
     "published_at": "2026-04-29T08:10:54Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-29181",
@@ -3694,14 +3824,6 @@
     "summary": ""
   },
   {
-    "category": "OFAC",
-    "source": "Treasury",
-    "title": "Economic Fury Targets Iran Shadow Banking Facilitators",
-    "published_at": "2026-04-28T18:30:00Z",
-    "url": "https://home.treasury.gov/news/press-releases/sb0477",
-    "summary": ""
-  },
-  {
     "category": "IS",
     "source": "Microsoft MSRC",
     "title": "Chromium: CVE-2026-6920 Out of bounds read in GPU",
@@ -3792,9 +3914,9 @@
   {
     "category": "Payment Card Networks",
     "source": "Visa",
-    "title": "Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement",
+    "title": "Visa Announces Global Expansion of Agentic Ready Program",
     "published_at": "2026-04-28T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22341.html",
     "summary": ""
   },
   {
@@ -7358,113 +7480,5 @@
     "published_at": "2026-04-21T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26168",
     "summary": "Acknowledgement added. This is an informational change only."
-  },
-  {
-    "category": "OFAC",
-    "source": "OFAC",
-    "title": "Counter Terrorism Designations; Non-Proliferation Designations",
-    "published_at": "2026-04-21T00:00:00Z",
-    "url": "https://ofac.treasury.gov/recent-actions/20260421",
-    "summary": ""
-  },
-  {
-    "category": "Legislative",
-    "source": "House Financial Services",
-    "title": "Chairman Hill: These Bills Support American Competitiveness and Reinforce the Strength and Resilience of Our Financial System",
-    "published_at": "2026-04-21T00:00:00Z",
-    "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411092",
-    "summary": ""
-  },
-  {
-    "category": "Fintech Watch",
-    "source": "FIS",
-    "title": "FIS Levels the Playing Field: New Trading Platform Gives Firms Wall Street-Grade Investment Tools",
-    "published_at": "2026-04-21T00:00:00Z",
-    "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-levels-playing-field-new-trading-platform-gives-firms-wall",
-    "summary": ""
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company",
-    "published_at": "2026-04-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/04/21/2026-07757/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company",
-    "summary": "",
-    "fr_tags": [
-      "agency:federal-reserve-system",
-      "filter:federal-reserve-system"
-    ],
-    "fedreg_document_number": "2026-07757"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Agency Information Collection Activities: Proposed Collection Renewal; Comment Request",
-    "published_at": "2026-04-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/04/21/2026-07749/agency-information-collection-activities-proposed-collection-renewal-comment-request",
-    "summary": "The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to take this opportunity to comment on the renewal of the existing information collection described below (OMB Control No. 3064-0029 and -0177).",
-    "fr_tags": [
-      "agency:federal-deposit-insurance-corporation",
-      "filter:federal-deposit-insurance-corporation"
-    ],
-    "fedreg_document_number": "2026-07749"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Bulk Manufacturer of Controlled Substances Application: AJNA Biosciences",
-    "published_at": "2026-04-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/04/21/2026-07698/bulk-manufacturer-of-controlled-substances-application-ajna-biosciences",
-    "summary": "AJNA Biosciences has applied to be registered as a bulk manufacturer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.",
-    "fr_tags": [
-      "agency:drug-enforcement-administration",
-      "agency:justice-department",
-      "filter:justice-department"
-    ],
-    "fedreg_document_number": "2026-07698"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Importer of Controlled Substances Application: VA Cooperative Studies Program",
-    "published_at": "2026-04-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/04/21/2026-07697/importer-of-controlled-substances-application-va-cooperative-studies-program",
-    "summary": "VA Cooperative Studies Program has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.",
-    "fr_tags": [
-      "agency:drug-enforcement-administration",
-      "agency:justice-department",
-      "filter:justice-department"
-    ],
-    "fedreg_document_number": "2026-07697"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Importer of Controlled Substances Application: Leading Pharma LLC",
-    "published_at": "2026-04-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/04/21/2026-07696/importer-of-controlled-substances-application-leading-pharma-llc",
-    "summary": "Leading Pharma LLC has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.",
-    "fr_tags": [
-      "agency:drug-enforcement-administration",
-      "agency:justice-department",
-      "filter:justice-department"
-    ],
-    "fedreg_document_number": "2026-07696"
-  },
-  {
-    "category": "Executive",
-    "source": "White House",
-    "title": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Grid Infrastructure, Equipment, and Supply Chain Capacity",
-    "published_at": "2026-04-20T20:25:21Z",
-    "url": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-grid-infrastructure-equipment-and-supply-chain-capacity/",
-    "summary": ""
-  },
-  {
-    "category": "Executive",
-    "source": "White House",
-    "title": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large-Scale Energy and Energy‑Related Infrastructure",
-    "published_at": "2026-04-20T20:18:42Z",
-    "url": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-development-manufacturing-and-deployment-of-large-scale-energy-and-energy-related-inf/",
-    "summary": ""
   }
 ]
