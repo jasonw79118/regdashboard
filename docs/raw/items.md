@@ -1,7 +1,553 @@
 # RegDashboard — Export
 
-Window: `2026-04-23T14:19:45Z` → `2026-05-07T14:19:45Z` (UTC)
-Last updated: `2026-05-07T09:19:45-05:00` (CT) — `2026-05-07T14:19:45Z` (UTC)
+Window: `2026-04-24T13:33:21Z` → `2026-05-08T13:33:21Z` (UTC)
+Last updated: `2026-05-08T08:33:21-05:00` (CT) — `2026-05-08T13:33:21Z` (UTC)
+
+## Trellix source code breach claimed by RansomHouse hackers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-08T13:23:23Z
+- URL: https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/
+
+The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]
+
+## CISA gives feds four days to patch Ivanti flaw exploited as zero-day
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-08T12:16:32Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/
+
+CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]
+
+## Zara data breach exposed personal information of 197,000 people
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-08T10:42:22Z
+- URL: https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/
+
+Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned. [...]
+
+## Summer is calling for Metro 2® Bankruptcy Reporting Training ☀️
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-05-08T10:00:48Z
+- URL: https://www.cdiaonline.org/events/2026/05/08/summer-is-calling-for-metro-2-bankruptcy-reporting-training-%e2%98%80%ef%b8%8f/
+
+Join CDIA this summer for two essential webinars designed to help data furnishers strengthen accurate, consistent, and compliant bankruptcy reporting. 📅... The post Summer is calling for Metro 2® Bankruptcy Reporting Training ☀️ appeared first on CDIA .
+
+## Former govt contractor convicted for wiping dozens of federal databases
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-08T08:45:04Z
+- URL: https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/
+
+A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]
+
+## CVE-2025-71289 fs/ntfs3: handle attr_set_size() errors when truncating files
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:44:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71289
+
+Information published.
+
+## CVE-2026-43274 mailbox: mchp-ipc-sbi: fix out-of-bounds access in mchp_ipc_get_cluster_aggr_irq()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:44:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43274
+
+Information published.
+
+## CVE-2026-43116 netfilter: ctnetlink: ensure safe access to master conntrack
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:44:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43116
+
+Information published.
+
+## CVE-2026-43153 xfs: remove xfs_attr_leaf_hasname
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:43:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43153
+
+Information published.
+
+## CVE-2025-71273 wifi: rtw88: Use devm_kmemdup() in rtw_set_supported_band()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:43:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71273
+
+Information published.
+
+## CVE-2026-43172 wifi: iwlwifi: fix 22000 series SMEM parsing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:43:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43172
+
+Information published.
+
+## CVE-2026-43245 ntfs: ->d_compare() must not block
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:43:24Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43245
+
+Information published.
+
+## CVE-2026-43198 tcp: fix potential race in tcp_v6_syn_recv_sock()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:43:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43198
+
+Information published.
+
+## CVE-2026-43161 iommu/vt-d: Skip dev-iotlb flush for inaccessible PCIe device without scalable mode
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:43:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43161
+
+Information published.
+
+## CVE-2026-43248 vhost: move vdpa group bound check to vhost_vdpa
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:42:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43248
+
+Information published.
+
+## CVE-2026-43125 dlm: validate length in dlm_search_rsb_tree
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:42:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43125
+
+Information published.
+
+## CVE-2026-37457
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:42:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-37457
+
+Information published.
+
+## CVE-2026-6843 Nano: nano: format string vulnerability leads to denial of service
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:42:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6843
+
+Information published.
+
+## CVE-2026-6842 Nano: nano: local attacker can inject malicious .desktop launcher due to insecure directory permissions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:42:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6842
+
+Information published.
+
+## CVE-2026-3219 pip doesn't reject concatenated ZIP and tar archives
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:40:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3219
+
+Information published.
+
+## CVE-2026-43083 net: ioam6: fix OOB and missing lock
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:40:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43083
+
+Information published.
+
+## CVE-2026-43199 net/mlx5e: Fix "scheduling while atomic" in IPsec MAC address query
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:39:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43199
+
+Information published.
+
+## CVE-2026-43101 ipv6: ioam: fix potential NULL dereferences in __ioam6_fill_trace_data()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:39:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43101
+
+Information published.
+
+## CVE-2026-43119 Bluetooth: hci_sync: annotate data-races around hdev->req_status
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:39:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43119
+
+Information published.
+
+## CVE-2026-43195 drm/amdgpu: validate user queue size constraints
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:39:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43195
+
+Information published.
+
+## CVE-2026-43250 usb: chipidea: udc: fix DMA and SG cleanup in _ep_nuke()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:39:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43250
+
+Information published.
+
+## CVE-2026-25589 RedisBloom RESTORE invalid memory access may allow remote code execution
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:02:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25589
+
+Information published.
+
+## CVE-2026-25588 RedisTimeSeries RESTORE invalid memory access may allow remote code execution
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:02:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25588
+
+Information published.
+
+## CVE-2026-23479 redis-server use-after-free in unblock client flow may allow remote code execution
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:02:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23479
+
+Information published.
+
+## CVE-2026-31718 ksmbd: fix use-after-free in __ksmbd_close_fd() via durable scavenger
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:02:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31718
+
+Information published.
+
+## CVE-2026-31717 ksmbd: validate owner of durable handle on reconnect
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:02:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31717
+
+Information published.
+
+## CVE-2026-23631 redis-server Lua use-after-free may allow remote code execution
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:01:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23631
+
+Information published.
+
+## CVE-2026-25243 redis-server RESTORE invalid memory access may allow remote code execution
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:01:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25243
+
+Information published.
+
+## CVE-2026-41673 xmldom: Denial of service via uncontrolled recursion in XML serialization
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:01:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41673
+
+Information published.
+
+## CVE-2026-41675 xmldom: XML node injection through unvalidated processing instruction serialization
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:01:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41675
+
+Information published.
+
+## CVE-2026-41674 xmldom: XML injection through unvalidated DocumentType serialization
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:01:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41674
+
+Information published.
+
+## CVE-2026-41672 xmldom: XML node injection through unvalidated comment serialization
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:01:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41672
+
+Information published.
+
+## CVE-2026-43869 Apache Thrift: TSSLTransportFactory.java hostname verification
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-08T08:01:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43869
+
+Information published.
+
+## New Linux 'Dirty Frag' zero-day gives root on all major distros
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-08T07:45:24Z
+- URL: https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/
+
+A new Linux zero-day vulnerability, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]
+
+## FIS Reports First Quarter 2026 Results and Reiterates Full-Year Outlook
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-reports-first-quarter-2026-results-and-reiterates-full-year
+
+## FIS to Report First Quarter Earnings on May 8, 2026
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-first-quarter-earnings-may-8-2026
+
+## Get 5 years of AdGuard VPN access across 70+ global servers for $40
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-5-years-of-adguard-vpn-access-across-70-plus-global-servers-for-40/
+
+## Updated Staple Food Stocking Standards for Retailers in the Supplemental Nutrition Assistance Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09137/updated-staple-food-stocking-standards-for-retailers-in-the-supplemental-nutrition-assistance
+
+This rule codifies a new framework for determining distinct staple food varieties for meeting staple food stocking requirements for retailer participation in the Supplemental Nutrition Assistance Program (SNAP). This rule is needed to implement the previously codified provision of the Agricultural Act of 2014 which increased the minimum number of staple food varieties a SNAP r…
+
+## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09202/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies
+
+## Agency Information Collection Activities; Proposed eCollection eComments Requested; Revision of a Previously Approved Collection; Firearms Transaction Record-ATF Form 5300.9 and 5300.9A (“Form 4473”)
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09183/agency-information-collection-activities-proposed-ecollection-ecomments-requested-revision-of-a
+
+The Department of Justice (DOJ), Bureau of Alcohol, Tobacco, Firearms, and Explosives (ATF), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
+
+## Revising Firearms Transaction Record, “Form 4473”
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09182/revising-firearms-transaction-record-form-4473
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") is proposing to amend Department of Justice ("Department") regulations governing ATF Form 5300.9, Firearms Transaction Record, ("Form 4473"). Specifically, ATF proposes streamlining identity and residence verification requirements and documents; doubling the performance timeframe for transactions under Form 4473…
+
+## Removing Youth Handgun Safety Act Notice
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09165/removing-youth-handgun-safety-act-notice
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes to remove Department of Justice ("Department") regulations regarding the Youth Handgun Safety Act. If finalized, this rule would remove the requirement that federal firearms licensees who deliver handguns to non-licensees post signs and provide written notice regarding the Act's provisions to each handgu…
+
+## Converting Temporary to Permanent Imports for Defense Articles
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09164/converting-temporary-to-permanent-imports-for-defense-articles
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes to amend Department of Justice ("Department") regulations regarding the permanent import provisions of the Arms Export Control Act ("AECA"). The proposed rule would allow importers to apply for ATF authorization to convert items imported temporarily-- under a Department of State ("DOS") authorization or…
+
+## Importing Dual-Use Frames, Receivers, or Barrels
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09163/importing-dual-use-frames-receivers-or-barrels
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes amending Department of Justice ("Department") regulations to clarify that federal firearms licensees ("FFLs") may lawfully import frames, receivers, or barrels that may be used on both sporting and non-sporting firearms ("dual-use frames, receivers, or barrels") if, at the time imported, there is an iden…
+
+## Firearm Activities in Foreign Trade Zones, Customs-Bonded Warehouses
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09162/firearm-activities-in-foreign-trade-zones-customs-bonded-warehouses
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes amending the definition of "importation" in the implementing regulations for the Gun Control Act ("GCA") and the National Firearms Act ("NFA"). Specifically, the rule proposes to create an exclusion from the GCA and NFA's import requirements for items brought into a customs-bonded warehouse ("CBW") (in a…
+
+## Interstate Transport and Temporary Export of National Firearms Act Firearms
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09161/interstate-transport-and-temporary-export-of-national-firearms-act-firearms
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes amending Department of Justice ("Department") regulations for transporting firearms registered under the National Firearms Act ("NFA") in interstate or foreign commerce. ATF proposes to no longer require that persons transporting certain NFA firearms within the United States for short-term purposes (365…
+
+## Implementing PATRIOT Act Improvements: Contraband Cigarettes and Smokeless Tobacco
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09160/implementing-patriot-act-improvements-contraband-cigarettes-and-smokeless-tobacco
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") is amending Department of Justice ("Department") regulations to implement certain provisions of the USA PATRIOT Improvement and Reauthorization Act of 2005 ("PATRIOT Improvement Act") relating to trafficking in contraband cigarettes or smokeless tobacco. This act amended the Contraband Cigarette Trafficking Act (…
+
+## Defining “Willfully” for Firearms Violations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09159/defining-willfully-for-firearms-violations
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes to define the term "willfully" in Department of Justice ("Department") regulations that implement the Gun Control Act.
+
+## Firearms Electronic Record-Keeping
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09158/firearms-electronic-record-keeping
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes amending Department of Justice ("Department") regulations to authorize federal firearms licensees ("FFLs" or "licensees") to generate, maintain, and store records in an electronic record-keeping system.
+
+## Revising Non-Over-the-Counter Firearms Transaction Requirements
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09157/revising-non-over-the-counter-firearms-transaction-requirements
+
+Federal law permits federal firearms licensees ("FFLs") to transfer firearms to a person residing in the same state but who does not appear in person. These are "non-over-the-counter" ("NOTC") sales. The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes amending Department of Justice ("Department") regulations on NOTC sales. These proposed changes would rem…
+
+## Revising Definitions of “Adjudicated as a Mental Defective” and “Committed to a Mental Institution”
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09156/revising-definitions-of-adjudicated-as-a-mental-defective-and-committed-to-a-mental-institution
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes amending Department of Justice ("Department") regulations to update the definitions of "adjudicated as a mental defective" and "committed to a mental institution."
+
+## Changes to National Firearms Act Tax Remittance Provisions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09155/changes-to-national-firearms-act-tax-remittance-provisions
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") is amending Department of Justice ("Department") regulations on the National Firearms Act ("NFA") to reflect statutory changes made to the NFA by the One Big Beautiful Bill Act ("OBBBA"). Among other things, the OBBBA reduced the tax remittance rate for certain NFA firearms. This rule is necessary to make conform…
+
+## Joint Registration for Spouses Under the National Firearms Act
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09154/joint-registration-for-spouses-under-the-national-firearms-act
+
+The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes amending Department of Justice ("Department") regulations to authorize spouses to file a joint application to make, transfer or receive, and register a firearm under the National Firearms Act ("NFA"). If the joint application is approved, both spouses would have a joint right to make or possess the firea…
+
+## Notice Pursuant to the National Cooperative Research and Production Act of 1993-The Open Group, L.L.C.
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09149/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-open-group-llc
+
+## United States et al. v. RealPage, Inc. et al. Response to Public Comments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09147/united-states-et-al-v-realpage-inc-et-al-response-to-public-comments
+
+## Notice of Lodging of Proposed Consent Decree Under the Clean Water Act
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09114/notice-of-lodging-of-proposed-consent-decree-under-the-clean-water-act
+
+## Expanding Fluid Milk Options in Child Nutrition Programs
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-08T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/08/2026-09212/expanding-fluid-milk-options-in-child-nutrition-programs
+
+This final rule with comment period ("final rule") expands fluid milk options by allowing schools and child and adult care providers participating in Child Nutrition Programs to offer whole and reduced-fat milk to participants two years and older. This rule codifies milkfat requirements following enactment of the Whole Milk for Healthy Kids Act and supports the statutory requi…
+
+## Canvas login portals hacked in mass ShinyHunters extortion campaign
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-07T22:36:54Z
+- URL: https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/
+
+The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]
+
+## New TCLBanker malware self-spreads over WhatsApp and Outlook
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-07T22:06:52Z
+- URL: https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/
+
+A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]
+
+## Military Spouse Day, 2026
+- Source: White House
+- Category: Executive
+- Published: 2026-05-07T20:59:39Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/05/military-spouse-day-2026/
+
+## Victory Day for World War II, 2026
+- Source: White House
+- Category: Executive
+- Published: 2026-05-07T20:58:45Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/05/victory-day-for-world-war-ii-2026/
+
+## New PCPJack worm steals credentials, cleans TeamPCP infections
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-07T18:35:50Z
+- URL: https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/
+
+A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]
+
+## Australia warns of ClickFix attacks pushing Vidar Stealer malware
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-07T18:00:59Z
+- URL: https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/
+
+The Australian Cyber Security Center (ACSC) is warning organizations of an ongoing malware campaign using the ClickFix social engineering technique to distribute the Vidar Stealer info-stealing malware. [...]
+
+## U.S. Department of the Treasury Hosts Convening with State Insurance Commissioners on Private Credit and the Insurance Sector
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-05-07T16:38:40Z
+- URL: https://home.treasury.gov/news/press-releases/sb0493
+
+## Ivanti warns of new EPMM flaw exploited in zero-day attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-07T15:20:51Z
+- URL: https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/
+
+Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]
+
+## Economic Fury Targets Iraqi Oil Official, Iran-Backed Terrorist Militias in Iraq
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-05-07T14:30:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0492
 
 ## The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls
 - Source: BleepingComputer
@@ -10,6 +556,1062 @@ Last updated: `2026-05-07T09:19:45-05:00` (CT) — `2026-05-07T14:19:45Z` (UTC)
 - URL: https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/
 
 Your security controls aren't failing, they're missing where most of today's work actually happens. Keep Aware shows how browser activity like copy/paste and AI prompts bypass traditional protections. [...]
+
+## Chromium: CVE-2026-7896 Integer overflow in Blink
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7896
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## CVE-2026-26164 M365 Copilot Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26164
+
+Improper neutralization of special elements in output used by a downstream component ('injection') in M365 Copilot allows an unauthorized attacker to disclose information over a network.
+
+## CVE-2026-26129 M365 Copilot Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26129
+
+Improper neutralization of special elements in M365 Copilot allows an unauthorized attacker to disclose information over a network.
+
+## Chromium: CVE-2026-8021 Script injection in UI
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8021
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8022 Inappropriate implementation in MHTML
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8022
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8019 Insufficient policy enforcement in WebApp
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8019
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8018 Insufficient policy enforcement in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8018
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8017 Side-channel information leakage in Media
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8017
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8014 Inappropriate implementation in Preload
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8014
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8015 Inappropriate implementation in Media
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8015
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8016 Use after free in WebRTC
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8016
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8013 Insufficient validation of untrusted input in FedCM
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8013
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8012 Inappropriate implementation in MHTML
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8012
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8011 Insufficient policy enforcement in Search
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8011
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8010 Insufficient validation of untrusted input in SiteIsolation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8010
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8009 Inappropriate implementation in Cast
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8009
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8008 Inappropriate implementation in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8008
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8007 Insufficient validation of untrusted input in Cast
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8007
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8004 Insufficient policy enforcement in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8004
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8006 Insufficient policy enforcement in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8006
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8005 Insufficient validation of untrusted input in Cast
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8005
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8002 Use after free in Audio
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8002
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8003 Insufficient validation of untrusted input in TabGroups
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8003
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8001 Use after free in Printing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8001
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-8000 Insufficient validation of untrusted input in ChromeDriver
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8000
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7999 Inappropriate implementation in V8
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7999
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7994 Inappropriate implementation in Chromoting
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7994
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7997 Insufficient validation of untrusted input in Updater
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7997
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7998 Insufficient validation of untrusted input in Dialog
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7998
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7995 Out of bounds read in AdFilter
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7995
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7996 Insufficient validation of untrusted input in SSL
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7996
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7991 Use after free in UI
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7991
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7988 Type Confusion in WebRTC
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7988
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7990 Insufficient validation of untrusted input in Updater
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7990
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7992 Insufficient validation of untrusted input in UI
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7992
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7989 Insufficient data validation in DataTransfer
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7989
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7987 Use after free in WebRTC
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7987
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7982 Uninitialized Use in WebCodecs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7982
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7983 Out of bounds read in Dawn
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7983
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7986 Insufficient policy enforcement in Autofill
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7986
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7984 Use after free in ReadingMode
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7984
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7985 Use after free in GPU
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7985
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7981 Out of bounds read in Codecs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7981
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7979 Inappropriate implementation in Media
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7979
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7980 Use after free in WebAudio
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7980
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7978 Inappropriate implementation in Companion
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7978
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7977 Inappropriate implementation in Canvas
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7977
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7976 Use after free in Views
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7976
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7975 Use after free in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7975
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7974 Use after free in Blink
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7974
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7973 Integer overflow in Dawn
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7973
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7972 Uninitialized Use in GPU
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7972
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7971 Inappropriate implementation in ORB
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7971
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7970 Use after free in TopChrome
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7970
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7969 Integer overflow in Network
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7969
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7968 Insufficient validation of untrusted input in CORS
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7968
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7966 Insufficient validation of untrusted input in SiteIsolation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7966
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7967 Insufficient validation of untrusted input in Navigation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7967
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7965 Insufficient validation of untrusted input in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7965
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7964 Insufficient validation of untrusted input in FileSystem
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7964
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7963 Inappropriate implementation in ServiceWorker
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7963
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7962 Insufficient policy enforcement in DirectSockets
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7962
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7961 Insufficient validation of untrusted input in Permissions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7961
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7960 Race in Speech
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7960
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7959 Inappropriate implementation in Navigation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7959
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7958 Inappropriate implementation in ServiceWorker
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7958
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7956 Use after free in Navigation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7956
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7957 Out of bounds write in Media
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7957
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7955 Uninitialized Use in GPU
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7955
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7954 Race in Shared Storage
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7954
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7953 Insufficient validation of untrusted input in Omnibox
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7953
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7952 Insufficient policy enforcement in Extensions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7952
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7951 Out of bounds write in WebRTC
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7951
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7950 Out of bounds read and write in GFX
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7950
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7949 Out of bounds read in Skia
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7949
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7947 Insufficient validation of untrusted input in Network
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7947
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7946 Insufficient policy enforcement in WebUI
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7946
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7948 Race in Chromoting
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7948
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7945 Insufficient validation of untrusted input in COOP
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7945
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7944 Insufficient validation of untrusted input in Persistent Cache
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7944
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7943 Insufficient validation of untrusted input in ANGLE
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7943
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7942 Integer overflow in ANGLE
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7942
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7940 Use after free in V8
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7940
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7938 Use after free in CSS
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7938
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7939 Inappropriate implementation in SanitizerAPI
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7939
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7937 Insufficient policy enforcement in DevTools
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7937
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7934 Insufficient validation of untrusted input in Popup Blocker
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7934
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7935 Inappropriate implementation in Speech
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7935
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7936 Object lifecycle issue in V8
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7936
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7933 Out of bounds read in WebCodecs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7933
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7932 Insufficient policy enforcement in Downloads
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7932
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7929 Use after free in MediaRecording
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7929
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7930 Insufficient validation of untrusted input in Cookies
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7930
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7928 Use after free in WebRTC
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7928
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7926 Use after free in PresentationAPI
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7926
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7927 Type Confusion in Runtime
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7927
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7925 Use after free in Chromoting
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7925
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7922 Use after free in ServiceWorker
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7922
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7924 Uninitialized Use in Dawn
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7924
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7921 Use after free in Passwords
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7921
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7923 Out of bounds write in Skia
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7923
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7920 Use after free in Skia
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7920
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7919 Use after free in Aura
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7919
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7918 Use after free in GPU
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7918
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7916 Insufficient data validation in InterestGroups
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7916
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7917 Use after free in Fullscreen
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7917
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7914 Type Confusion in Accessibility
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7914
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7910 Use after free in Views
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7910
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7911 Use after free in Aura
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7911
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7909 Inappropriate implementation in ServiceWorker
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7909
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7908 Use after free in Fullscreen
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7908
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7907 Use after free in DOM
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7907
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7906 Use after free in SVG
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7906
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7903 Integer overflow in ANGLE
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7903
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7904 Out of bounds read in Fonts
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7904
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7902 Out of bounds memory access in V8
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7902
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7901 Use after free in ANGLE
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7901
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7900 Heap buffer overflow in ANGLE
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7900
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## CVE-2026-33821 Microsoft Dynamics 365 Customer Insights Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33821
+
+Improper privilege management in Microsoft Dynamics 365 Customer Insights allows an authorized attacker to elevate privileges over a network.
+
+## Chromium: CVE-2026-7899 Out of bounds read and write in V8
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7899
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## Chromium: CVE-2026-7898 Use after free in Chromoting
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7898
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026 ) for more information.
+
+## CVE-2026-41105 Azure Monitor Action Group Notification System Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41105
+
+Server-side request forgery (ssrf) in Azure Notification Service allows an authorized attacker to elevate privileges over a network.
+
+## CVE-2026-33111 Copilot Chat (Microsoft Edge) Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33111
+
+Improper neutralization of special elements used in a command ('command injection') in Copilot Chat (Microsoft Edge) allows an unauthorized attacker to disclose information over a network.
+
+## CVE-2026-33109 Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33109
+
+Improper access control in Azure Managed Instance for Apache Cassandra allows an authorized attacker to execute code over a network.
+
+## CVE-2026-40379 Microsoft Enterprise Security Token Service (ESTS) Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40379
+
+Exposure of sensitive information to an unauthorized actor in Azure Entra ID allows an unauthorized attacker to perform spoofing over a network.
+
+## CVE-2026-32207 Azure Machine Learning Notebook Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32207
+
+Improper neutralization of input during web page generation ('cross-site scripting') in Azure Machine Learning allows an unauthorized attacker to perform spoofing over a network.
+
+## CVE-2026-33823 Microsoft Team Events Portal Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33823
+
+Improper authorization in Microsoft Teams allows an authorized attacker to disclose information over a network.
+
+## CVE-2026-33844 Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33844
+
+Improper input validation in Azure Managed Instance for Apache Cassandra allows an authorized attacker to execute code over a network.
+
+## CVE-2026-34327 Microsoft Partner Center Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34327
+
+Externally controlled reference to a resource in another sphere in Microsoft Partner Center allows an unauthorized attacker to perform spoofing over a network.
+
+## CVE-2026-35435 Azure AI Foundry Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35435
+
+Improper access control in Azure AI Foundry M365 published agents allows an unauthorized attacker to elevate privileges over a network.
+
+## CVE-2026-35428 Azure Cloud Shell Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35428
+
+Improper neutralization of special elements used in a command ('command injection') in Azure Cloud Shell allows an unauthorized attacker to perform spoofing over a network.
+
+## CVE-2026-42826 Azure DevOps Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42826
+
+Exposure of sensitive information to an unauthorized actor in Azure DevOps allows an unauthorized attacker to disclose information over a network.
 
 ## Americans sentenced for running 'laptop farms' for North Korea
 - Source: BleepingComputer
@@ -42,14 +1644,6 @@ Modern attacks don't stop at initial compromise. This webinar explores why secur
 - URL: https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/
 
 Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]
-
-## Fake Claude AI website delivers new 'Beagle' Windows malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-07T10:02:35Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/
-
-A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]
 
 ## CVE-2025-68768 inet: frags: flush pending skbs in fqdir_pre_exit()
 - Source: Microsoft MSRC
@@ -291,43 +1885,11 @@ Information published.
 
 Information published.
 
-## CVE-2026-43083 net: ioam6: fix OOB and missing lock
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:09:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43083
-
-Information published.
-
-## CVE-2026-43199 net/mlx5e: Fix "scheduling while atomic" in IPsec MAC address query
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:09:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43199
-
-Information published.
-
-## CVE-2026-43101 ipv6: ioam: fix potential NULL dereferences in __ioam6_fill_trace_data()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:09:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43101
-
-Information published.
-
 ## CVE-2026-43267 wifi: rtw89: fix potential zero beacon interval in beacon tracking
 - Source: Microsoft MSRC
 - Category: IS
 - Published: 2026-05-07T08:09:22Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43267
-
-Information published.
-
-## CVE-2026-43119 Bluetooth: hci_sync: annotate data-races around hdev->req_status
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:09:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43119
 
 Information published.
 
@@ -360,14 +1922,6 @@ Information published.
 - Category: IS
 - Published: 2026-05-07T08:08:55Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71272
-
-Information published.
-
-## CVE-2026-43195 drm/amdgpu: validate user queue size constraints
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:08:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43195
 
 Information published.
 
@@ -411,14 +1965,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-43250 usb: chipidea: udc: fix DMA and SG cleanup in _ep_nuke()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:08:18Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43250
-
-Information published.
-
 ## CVE-2025-71294 drm/amdgpu: fix NULL pointer issue buffer funcs
 - Source: Microsoft MSRC
 - Category: IS
@@ -440,14 +1986,6 @@ Information published.
 - Category: IS
 - Published: 2026-05-07T08:08:01Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43107
-
-Information published.
-
-## CVE-2025-71289 fs/ntfs3: handle attr_set_size() errors when truncating files
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:07:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71289
 
 Information published.
 
@@ -475,35 +2013,11 @@ Information published.
 
 Information published.
 
-## CVE-2026-43274 mailbox: mchp-ipc-sbi: fix out-of-bounds access in mchp_ipc_get_cluster_aggr_irq()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:07:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43274
-
-Information published.
-
-## CVE-2026-43116 netfilter: ctnetlink: ensure safe access to master conntrack
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:07:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43116
-
-Information published.
-
 ## CVE-2026-43129 ima: verify the previous kernel's IMA buffer lies in addressable RAM
 - Source: Microsoft MSRC
 - Category: IS
 - Published: 2026-05-07T08:07:23Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43129
-
-Information published.
-
-## CVE-2026-43153 xfs: remove xfs_attr_leaf_hasname
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:07:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43153
 
 Information published.
 
@@ -520,14 +2034,6 @@ Information published.
 - Category: IS
 - Published: 2026-05-07T08:07:05Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43118
-
-Information published.
-
-## CVE-2025-71273 wifi: rtw88: Use devm_kmemdup() in rtw_set_supported_band()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:06:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71273
 
 Information published.
 
@@ -552,14 +2058,6 @@ Information published.
 - Category: IS
 - Published: 2026-05-07T08:06:39Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71285
-
-Information published.
-
-## CVE-2026-43172 wifi: iwlwifi: fix 22000 series SMEM parsing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:06:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43172
 
 Information published.
 
@@ -603,30 +2101,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-43245 ntfs: ->d_compare() must not block
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:05:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43245
-
-Information published.
-
-## CVE-2026-43198 tcp: fix potential race in tcp_v6_syn_recv_sock()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:05:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43198
-
-Information published.
-
-## CVE-2026-43161 iommu/vt-d: Skip dev-iotlb flush for inaccessible PCIe device without scalable mode
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:05:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43161
-
-Information published.
-
 ## CVE-2026-43127 ntfs3: fix circular locking dependency in run_unpack_ex
 - Source: Microsoft MSRC
 - Category: IS
@@ -664,22 +2138,6 @@ Information published.
 - Category: IS
 - Published: 2026-05-07T08:04:19Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43176
-
-Information published.
-
-## CVE-2026-43248 vhost: move vdpa group bound check to vhost_vdpa
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:04:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43248
-
-Information published.
-
-## CVE-2026-43125 dlm: validate length in dlm_search_rsb_tree
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:04:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43125
 
 Information published.
 
@@ -785,11 +2243,51 @@ Information published.
 - Published: 2026-05-07T02:07:38Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-day-of-prayer/
 
-## Counter Terrorism and Iran-related Designations; Cuba Designation and Designations Updates; Issuance of Cuba-related General License and Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
+## OCC’s Semiannual Risk Perspective Highlights Key Risks in Federal Banking System
+- Source: OCC
+- Category: Banking
 - Published: 2026-05-07T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260507
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-35.html
+
+The Office of the Comptroller of the Currency (OCC) today reported the key issues facing the federal banking system in the Semiannual Risk Perspective for Spring 2026.
+
+## Featured Publications View All Publications
+- Source: OCC
+- Category: Banking
+- Published: 2026-05-07T00:00:00Z
+- URL: https://www.occ.gov/publications-and-resources/publications/index-publications.html
+
+Publications
+
+## MPF Announcement 2026-27
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-05-07T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-27
+
+## Mortgage Rates Average 6.37%
+- Source: Freddie Mac
+- Category: Mortgage
+- Published: 2026-05-07T00:00:00Z
+- URL: https://www.globenewswire.com/news-release/2026/05/07/3290346/0/en/mortgage-rates-average-6-37.html
+
+## Warren Probes Financial Stability, Illicit Finance, and Consumer Protection Concerns Related to Meta’s Integration of Stablecoins on its Platform
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-05-07T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-probes-financial-stability-illicit-finance-and-consumer-protection-concerns-related-to-metas-integration-of-stablecoins-on-its-platform
+
+## Warren Calls For Immediate Reversal of Trump Admin’s Proposal to Exempt 26 of the Largest 31 National Banks from Key Safeguards
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-05-07T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-for-immediate-reversal-of-trump-admins-proposal-to-exempt-26-of-the-largest-31-national-banks-from-key-safeguards
+
+## Warren, Blumenthal, Duckworth, Hirono Probe Credit Reporting Companies on Buy Now Pay Later Loan Reporting
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-05-07T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-blumenthal-duckworth-hirono-probe-credit-reporting-companies-on-buy-now-pay-later-loan-reporting
 
 ## Fiserv Expands Global Manufacturing Footprint with New Clover Facility in Brazil
 - Source: Fiserv
@@ -797,11 +2295,23 @@ Information published.
 - Published: 2026-05-07T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-expands-global-manufacturing-footprint-new-clover
 
+## Don’t miss this Lenovo Chromebook while it’s on sale for just $60
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-07T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/dont-miss-this-lenovo-chromebook-while-its-on-sale-for-just-60/
+
 ## This $80 lifetime AI deal combines all of your subscriptions in one plan
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-05-07T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-80-lifetime-ai-deal-combines-all-of-your-subscriptions-in-one-plan/
+
+## Fake Claude AI website delivers new 'Beagle' Windows malware
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-07T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/
 
 ## Requirements for Insurance
 - Source: Federal Register
@@ -843,30 +2353,6 @@ The NCUA Board (Board) is seeking comment on a proposed rule that would increase
 
 The National Institute of Justice, Office of Justice Programs, Department of Justice (DOJ), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
 
-## Hackers abuse Google ads for GoDaddy ManageWP login phishing
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T21:36:06Z
-- URL: https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/
-
-A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]
-
-## Critical vm2 sandbox bug lets attackers execute code on hosts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T18:38:38Z
-- URL: https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/
-
-A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]
-
-## New Cisco DoS flaw requires manual reboot to revive devices
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T18:06:21Z
-- URL: https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/
-
-Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]
-
 ## Presidential Message on National Nurses Day
 - Source: White House
 - Category: Executive
@@ -879,43 +2365,11 @@ Cisco patched a Crosswork Network Controller and Network Services Orchestrator d
 - Published: 2026-05-06T17:34:22Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/05/first-lady-melania-trump-honors-military-mothers-the-soul-of-our-nation/
 
-## DAEMON Tools devs confirm breach, release malware-free version
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T16:43:30Z
-- URL: https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/
-
-Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]
-
-## Why ransomware attacks succeed even when backups exist
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T14:04:14Z
-- URL: https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/
-
-Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]
-
-## MuddyWater hackers use Chaos ransomware as a decoy in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T13:02:52Z
-- URL: https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/
-
-The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on Microsoft Teams social engineering to gain access and establish persistence. [...]
-
 ## Quarterly Refunding Statement of Deputy Assistant Secretary for Federal Finance Brian Smith
 - Source: Treasury
 - Category: OFAC
 - Published: 2026-05-06T13:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0489
-
-## Webinar: Why network incidents escalate and how to fix response gaps
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T12:56:32Z
-- URL: https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/
-
-Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]
 
 ## Minutes of the Meeting of the Treasury Borrowing Advisory Committee May 5, 2026
 - Source: Treasury
@@ -928,14 +2382,6 @@ Most network incidents don't escalate due to a lack of alerts; they escalate whe
 - Category: OFAC
 - Published: 2026-05-06T12:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0490
-
-## Palo Alto Networks warns of firewall RCE zero-day exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T09:18:16Z
-- URL: https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/
-
-Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]
 
 ## CVE-2026-7598 libssh2 userauth.c userauth_password integer overflow
 - Source: Microsoft MSRC
@@ -1015,24 +2461,6 @@ IR-2026-63, May 6, 2026 — The Internal Revenue Service today announces updates
 - Published: 2026-05-06T00:00:00Z
 - URL: https://capitalmarkets.fanniemae.com/news-commentaries
 
-## Warren, Blumenthal, Duckworth, Hirono Probe Credit Reporting Companies on Buy Now Pay Later Loan Reporting
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-05-06T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-blumenthal-duckworth-hirono-probe-credit-reporting-companies-on-buy-now-pay-later-loan-reporting
-
-## Warren Presses Druckenmiller to Release Kevin Warsh from Confidentiality Agreements on Undisclosed $100 Million
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-05-06T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-druckenmiller-to-release-kevin-warsh-from-confidentiality-agreements-on-undisclosed-100-million
-
-## Warren Statement on Latest Trump DOJ Filing on Bogus Powell Investigation
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-05-06T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-latest-trump-doj-filing-on-bogus-powell-investigation
-
 ## Ignore Stablecoins at Your Own Risk
 - Source: NACHA
 - Category: Payments
@@ -1041,25 +2469,11 @@ IR-2026-63, May 6, 2026 — The Internal Revenue Service today announces updates
 
 SAN DIEGO—At the moment, you’re unlikely to use stablecoin to pay for your new lawnmower or for the mocha latte to give you the energy to use it. But will that always be the case? Molly Woodman sees a day when things will be different.“People need to understand it a little bit better before using it, and that includes the merchants,” said Woodman, Senior Policy Advisor at the…
 
-## Start ethical hacking with 9 multi-lesson courses for just $30
+## Hackers abuse Google ads for GoDaddy ManageWP login phishing
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-05-06T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/start-ethical-hacking-with-9-multi-lesson-courses-for-just-30/
-
-## Everything you need for PDFs (and then some) in one $40 desktop app
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-06T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/everything-you-need-for-pdfs-and-then-some-in-one-40-desktop-app/
-
-## Wolters Kluwer news
-- Source: Wolters Kluwer
-- Category: Compliance Watch
-- Published: 2026-05-06T00:00:00Z
-- URL: https://www.wolterskluwer.com/en/news/cch-tagetik-expert-ai-readiness-program
-
-CCH Tagetik introduces the Expert AI Readiness Program to help finance teams close the AI readiness gap
+- URL: https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/
 
 ## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
 - Source: Federal Register
@@ -1291,14 +2705,6 @@ Pursuant to an Executive order, the Department of the Treasury (Treasury), Burea
 
 In accordance with Section 206A of the National Housing Act, HUD is providing notice of adjustment to the Basic Statutory Mortgage Limits for Multifamily Housing Programs for Calendar Year 2026.
 
-## New stealthy Quasar Linux malware targets software developers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-05T22:01:39Z
-- URL: https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/
-
-A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]
-
 ## Presidential Message on National Astronaut Day
 - Source: White House
 - Category: Executive
@@ -1330,14 +2736,6 @@ PRESS RELEASE | MAY 5, 2026 FDIC Issues List of Banks Examined for CRA Complianc
 - Category: Fintech Watch
 - Published: 2026-05-05T12:00:00Z
 - URL: https://www.finastra.com/press-media/finastra-and-nammu21-team-cut-loan-onboarding-time
-
-## CVE-2026-6842 Nano: nano: local attacker can inject malicious .desktop launcher due to insecure directory permissions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-05T08:42:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6842
-
-Information published.
 
 ## CVE-2025-11083 GNU Binutils Linker elfcode.h elf_swap_shdr heap-based overflow
 - Source: Microsoft MSRC
@@ -1387,14 +2785,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-37457
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-05T08:03:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-37457
-
-Information published.
-
 ## CVE-2026-28532 FRRouting < 10.5.3 Integer Overflow in OSPF TLV Parser Functions
 - Source: Microsoft MSRC
 - Category: IS
@@ -1410,12 +2800,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35469
 
 Information published.
-
-## Issuance of Venezuela-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-05-05T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260505
 
 ## IRS requests applications for 2027 IRSAC membership
 - Source: IRS
@@ -1469,18 +2853,6 @@ SAN DIEGO—It operates quietly day and night. But underestimate the value of th
 - Published: 2026-05-05T00:00:00Z
 - URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-associates-inc-reports-third-quarter-fiscal-2026
 
-## Instructure hacker claims data theft from 8,800 schools, universities
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-05T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/
-
-## DAEMON Tools trojanized in supply-chain attack to deploy backdoor
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-05T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/
-
 ## Technical Amendments to Rule 610(e) of Regulation NMS and to Delegation of Authority To Grant or Deny Exemptions From Rule 610 of Regulation NMS
 - Source: Federal Register
 - Category: Federal Register
@@ -1509,12 +2881,6 @@ Criminal Justice Information Services (CJIS) Division, FBI, Department of Justic
 - Published: 2026-05-04T23:06:14Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/05/jewish-american-heritage-month-2026/
 
-## America 250: Presidential Message on the Anniversary of the Battle of the Coral Sea
-- Source: White House
-- Category: Executive
-- Published: 2026-05-04T22:23:03Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-the-anniversary-of-the-battle-of-the-coral-sea/
-
 ## Treasury Announces Marketable Borrowing Estimates
 - Source: Treasury
 - Category: OFAC
@@ -1535,11 +2901,23 @@ Criminal Justice Information Services (CJIS) Division, FBI, Department of Justic
 
 (AUSTIN) – The Texas Bankers Foundation, the charitable arm of the Texas Bankers Association, is proud to announce the 12 recipients of the 2026 Emerging Leader Awards. Nominated by their bank’s president, CEO or board chairman, these rising leaders were selected for their professional excellence, commitment to service and meaningful impact on the banking industry. […] The pos…
 
-## Issuance of Venezuela-related General License and Amended Frequently Asked Question
-- Source: OFAC
-- Category: OFAC
+## OCC Releases CRA Performance Evaluations for 21 National Banks and Federal Savings Associations
+- Source: OCC
+- Category: Banking
 - Published: 2026-05-04T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260504
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-34.html
+
+## MPF Announcement 2026-26
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-05-04T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-26
+
+## MPF Announcement 2026-25
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-05-04T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-25
 
 ## Freddie Mac Announces Tender Offer for Any and All of Certain STACR Notes
 - Source: Freddie Mac
@@ -1642,14 +3020,6 @@ Information published.
 - Category: IS
 - Published: 2026-05-03T08:03:00Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-20230
-
-Information published.
-
-## CVE-2026-6843 Nano: nano: format string vulnerability leads to denial of service
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-03T08:02:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6843
 
 Information published.
 
@@ -2271,12 +3641,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
 
-## Iran-related Designations; Issuance of Iran-related General License and Frequently Asked Question; Publication of Iran-related OFAC Alert
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-05-01T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260501
-
 ## IRS seeking applications for Tax Counseling for the Elderly and Volunteer Income Tax Assistance program grants
 - Source: IRS
 - Category: IRS
@@ -2284,6 +3648,18 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - URL: https://www.irs.gov/newsroom/irs-seeking-applications-for-tax-counseling-for-the-elderly-and-volunteer-income-tax-assistance-program-grants-0
 
 IR-2026-60 May 1, 2026 — The Internal Revenue Service is now accepting applications for the Tax Counseling for the Elderly and Volunteer Income Tax Assistance grants.
+
+## Agencies Issue Host State Loan-to-Deposit Ratios
+- Source: OCC
+- Category: Banking
+- Published: 2026-05-01T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-33.html
+
+## Prohibition Against Interstate Deposits: Annual Host State Loan-to-Deposit Ratios
+- Source: OCC
+- Category: Banking
+- Published: 2026-05-01T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-19.html
 
 ## Anchor Bank Assumes Insured Deposits of Community Bank and Trust - West Georgia, LaGrange, Georgia
 - Source: FDIC
@@ -2308,6 +3684,12 @@ Federal bank regulatory agencies today jointly issued updated host state loan-to
 - URL: https://www.federalreserve.gov/reform.htm
 
 The Federal Reserve Board of Governors in Washington DC.
+
+## MPF Announcement 2026-24
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-05-01T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-24
 
 ## Fiserv Named a Charter Member of the x402 Foundation
 - Source: Fiserv
@@ -2387,12 +3769,6 @@ With the issuance of this final rule, the Drug Enforcement Administration places
 - Published: 2026-04-30T20:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0482
 
-## Remarks by Secretary of the Treasury Scott Bessent Before the EXIM Annual Conference
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-30T18:45:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0481
-
 ## Statement by TBA CEO Chris Furlow on release of CFPB’s new Sec. 1071 Final Rule
 - Source: TBA
 - Category: Compliance Watch
@@ -2400,12 +3776,6 @@ With the issuance of this final rule, the Drug Enforcement Administration places
 - URL: https://www.texasbankers.com/statement-by-texas-bankers-association-ceo-chris-furlow-on-release-of-cfpbs-new-sec-1071-final-rule/
 
 Texas Bankers Association and MDI Rio Bank filed the original legal challenge to the “suffocating” Biden-Chopra Section 1071 Final Rule “Small business lending is the lifeblood of Texas community banking. The Biden-Chopra version of 1071 would have suffocated small business lending and burdened community banks with more unnecessary reporting requirements. From day one of our […
-
-## Treasury Sanctions Former Democratic Republic of the Congo President for Ties to Armed Conflict
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-04-30T18:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0480
 
 ## CVE-2026-33825 Microsoft Defender Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -2788,14 +4158,6 @@ Information published.
 - Category: IS
 - Published: 2026-04-30T08:49:59Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28387
-
-Information published.
-
-## CVE-2026-3219 pip doesn't reject concatenated ZIP and tar archives
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-30T08:49:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3219
 
 Information published.
 
@@ -3743,12 +5105,6 @@ Information published.
 
 Information published.
 
-## Democratic Republic of the Congo-related Designation
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-04-30T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260430
-
 ## Treasury, IRS provide guidance on a new method for recovering federal excise tax paid on dyed fuel established under the One, Big, Beautiful Bill
 - Source: IRS
 - Category: IRS
@@ -3756,6 +5112,12 @@ Information published.
 - URL: https://www.irs.gov/newsroom/treasury-irs-provide-guidance-on-a-new-method-for-recovering-federal-excise-tax-paid-on-dyed-fuel-established-under-the-one-big-beautiful-bill
 
 IR-2026-59, April 30, 2026 — The Department of the Treasury and the Internal Revenue Service today issued temporary regulations and the accompanying notice of proposed rulemaking on a new method for recovering federal excise tax paid on dyed fuel established under the One, Big, Beautiful Bill.
+
+## MPF Announcement 2026-23
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-04-30T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-23
 
 ## Mortgage Rates Average 6.30%
 - Source: Freddie Mac
@@ -3780,14 +5142,6 @@ IR-2026-59, April 30, 2026 — The Department of the Treasury and the Internal R
 - Category: Legislative
 - Published: 2026-04-30T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411115
-
-## Same Day ACH: No Change to the Amount of the Same Day ACH Fee
-- Source: NACHA
-- Category: Payments
-- Published: 2026-04-30T00:00:00Z
-- URL: https://www.nacha.org/news/same-day-ach-no-change-amount-same-day-ach-fee
-
-March 2026 marked the 8-year anniversary of the effective date of Phase 3 of the original Same Day ACH rules. Those rules provide for a review of the amount of the Same Day ACH fee as of this 8-year date. As with the 5-year review published on April 28, 2023, the review is conducted by comparing the cumulative volume of Same Day ACH payments during this 8-year period to the or…
 
 ## FIS Announces Quarterly Dividend
 - Source: FIS
@@ -4477,12 +5831,6 @@ Information published.
 
 Information published.
 
-## Issuance of Amended Russia-related General License and Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-04-29T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260429
-
 ## News & Events
 - Source: FRB
 - Category: Banking
@@ -4638,12 +5986,6 @@ This CVE has been updated to include the Visual Studios 2026 18.5 as an Affected
 - URL: https://www.cdiaonline.org/events/2026/04/28/last-chance-to-register-cdia-connect-starts-next-week/
 
 Join us for three days of insights, strategy, and connections with leaders across consumer data, including CFPB Deputy Director Geof Gradler,... The post Last chance to register—CDIA Connect starts next week! appeared first on CDIA .
-
-## Counter Terrorism Designation; Iran-related Designations; Issuance of Frequently Asked Question; Publication of Iran-related OFAC Alert
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-04-28T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260428
 
 ## Fannie Mae Releases March 2026 Monthly Summary
 - Source: Fannie Mae
@@ -4885,12 +6227,6 @@ This is notice that the Drug Enforcement Administration ("DEA") will hold a hear
 
 With the issuance of this final rule, which constitutes a final order, the Acting Attorney General of the U.S. Department of Justice places drug products containing marijuana that have been approved by the Food and Drug Administration (FDA) in schedule III of the Controlled Substances Act ("CSA"). This action is required to satisfy the responsibility of the Administrator under…
 
-## Nominations and Withdrawals Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-04-27T20:35:53Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/nominations-and-withdrawals-sent-to-the-senate-d935/
-
 ## CVE-2026-26149 Microsoft Power Apps Desktop Client Spoofing Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -4926,6 +6262,12 @@ Join us October 6 in Wilmington, DE for the final CDIA Consumer Reporting Roundt
 - URL: https://www.irs.gov/newsroom/irs-announces-new-option-for-certain-taxpayers-to-request-more-time-after-erc-claim-disallowance
 
 IR-2026-58, April 27, 2026 — The Internal Revenue Service today announced a new, streamlined way for taxpayers to extend the period of time for the IRS and the IRS Independent Office of Appeals to review a taxpayer’s response to a disallowance of an Employee Retention Credit (ERC) claim to avoid refund litigation.
+
+## MPF Announcement 2026-22
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-04-27T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-22
 
 ## Freddie Mac Issues Monthly Volume Summary for March 2026
 - Source: Freddie Mac
@@ -5632,1353 +6974,3 @@ Federal Reserve Board announces approval of application by Banco de Credito del 
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/4146074
 
 PRESS RELEASE | APRIL 24, 2026 FDIC Publishes Enforcement Orders for March 2026 WASHINGTON – The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in March 2026. There are no administrative hearings scheduled for May 2026. Consent Order: Covington County Bank, Collins, Mississ…
-
-## CVE-2026-5958 Race Condition in GNU Sed
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:41:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-5958
-
-Information published.
-
-## CVE-2026-31450 ext4: publish jinode after initialization
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:39:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31450
-
-Information published.
-
-## CVE-2026-31525 bpf: Fix undefined behavior in interpreter sdiv/smod for INT_MIN
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:39:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31525
-
-Information published.
-
-## CVE-2026-31453 xfs: avoid dereferencing log items after push callbacks
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:39:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31453
-
-Information published.
-
-## CVE-2026-31528 perf: Make sure to use pmu_ctx->pmu for groups
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:38:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31528
-
-Information published.
-
-## CVE-2026-31448 ext4: avoid infinite loops caused by residual data
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:37:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31448
-
-Information published.
-
-## CVE-2026-40706
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40706
-
-Information published.
-
-## CVE-2026-35240
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35240
-
-Information published.
-
-## CVE-2026-35239
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35239
-
-Information published.
-
-## CVE-2026-35238
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35238
-
-Information published.
-
-## CVE-2026-35237
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35237
-
-Information published.
-
-## CVE-2026-35236
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35236
-
-Information published.
-
-## CVE-2026-34308
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34308
-
-Information published.
-
-## CVE-2026-34304
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:18Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34304
-
-Information published.
-
-## CVE-2026-34303
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34303
-
-Information published.
-
-## CVE-2026-34293
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34293
-
-Information published.
-
-## CVE-2026-34278
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:04:02Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34278
-
-Information published.
-
-## CVE-2026-34276
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:57Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34276
-
-Information published.
-
-## CVE-2026-34271
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34271
-
-Information published.
-
-## CVE-2026-34270
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34270
-
-Information published.
-
-## CVE-2026-34267
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34267
-
-Information published.
-
-## CVE-2026-22017
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22017
-
-Information published.
-
-## CVE-2026-22015
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22015
-
-Information published.
-
-## CVE-2026-22009
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22009
-
-Information published.
-
-## CVE-2026-22005
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22005
-
-Information published.
-
-## CVE-2026-22004
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22004
-
-Information published.
-
-## CVE-2026-22002
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22002
-
-Information published.
-
-## CVE-2026-22001
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22001
-
-Information published.
-
-## CVE-2026-21998
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-24T08:03:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21998
-
-Information published.
-
-## Iran-related Designations; Counter Terrorism and Iran-related Designation Update; Issuance of Iran-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-04-24T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260424
-
-## Taxpayer Advocacy Panel issues 2025 Annual Report highlighting taxpayer-focused recommendations to improve tax administration
-- Source: IRS
-- Category: IRS
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.irs.gov/newsroom/taxpayer-advocacy-panel-issues-2025-annual-report-highlighting-taxpayer-focused-recommendations-to-improve-tax-administration
-
-IR-2026-57, April 24, 2026 — The Taxpayer Advocacy Panel today released its 2025 Annual Report highlighting accomplishments and ongoing efforts to strengthen Internal Revenue Service delivery, improve communications with taxpayers, reduce taxpayer burden, and support continued modernization of tax administration.
-
-## IRS recognizes thousands of VITA and TCE volunteers during National Volunteer Week: April 19-25
-- Source: IRS
-- Category: IRS
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.irs.gov/newsroom/irs-recognizes-thousands-of-vita-and-tce-volunteers-during-national-volunteer-week-april-19-25
-
-IR-2026-56, April 24, 2026 — During National Volunteer Week, the Internal Revenue Service recognizes the tens of thousands of volunteers who donate their time to serve their communities and the nation by participating in the Volunteer Income Tax Assistance and Tax Counseling for the Elderly programs.
-
-## FDIC Publishes March Enforcement Actions
-- Source: FDIC
-- Category: Banking
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-publishes-march-enforcement-actions
-
-(FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in March 2026.
-
-## Chairman Hill Welcomes DOJ Decision, Calls for Swift Action on Fed Chairman Nominee Kevin Warsh
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-04-24T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411109
-
-## The Trust for the Americas and the Organization of American States present the 2025 Corporate Citizen of the Americas Award to Mastercard April 24, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/april/the-trust-for-the-americas-and-the-organization-of-american-stat.html
-
-## Mastercard brings tools, mentorship and connections directly to small businesses April 21, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/april/mastercard-brings-tools--mentorship-and-connections-directly-to-.html
-
-## Small businesses can soon enjoy new rewards with the Prime Business and Amazon Business Credit Cards March 31, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/small-businesses-can-soon-enjoy-new-rewards-with-the-prime-busin.html
-
-## Mastercard to acquire BVNK to connect on-chain payments and fiat rails March 17, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/Mastercard-to-acquire-BVNK-to-connect-on-chain-payments-and-fiat-rails.html
-
-## Mastercard advances its agentic AI strategy with Virtual C-Suite, bringing executive level intelligence to small businesses March 10, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/Mastercard-Virtual-C-Suite-bringing-executive-level-intelligence-to-small-businesses.html
-
-## Mastercard reinforces commitment to Canadian small business owners as the Mastercard Small Business Fund opens for 2026 applicants March 3, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/mastercard-reinforces-commitment-to-canadian-small-business-owne.html
-
-## SoFi and Mastercard partner to enable SoFiUSD settlement across Mastercard’s global payments network March 3, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/sofi-and-mastercard-partner-to-enable-sofiusd-settlement-across-.html
-
-## Rogers Bank introduces Canada’s first-ever World Legend Mastercard March 2, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/rogers-bank-introduces-canada-s-first-ever-world-legend-masterca.html
-
-## Ericsson and Mastercard enhance global digital money movement and accelerate digital financial inclusion February 18, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/february/Ericsson-Mastercard-enhance-global-digital-money-movement-accelerate-digital-financial-inclusion.html
-
-## Cloudflare and Mastercard partner to extend comprehensive cyber defense across critical infrastructure and small businesses February 17, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/february/cloudflare-and-mastercard-to-extend-comprehensive-cyber-defense-.html
-
-## Noah Kahan and Mastercard to premiere ‘The Great Divide’ music video and offer cardholders Priceless experiences January 29, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/noah-kahan-and-mastercard-to-premiere--the-great-divide--music-v.html
-
-## Mastercard launches Agent Suite to ready enterprises for a new era January 27, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/mastercard-launches-agent-suite-to-ready-enterprises-for-a-new-e.html
-
-## Mastercard spotlights Indigenous small businesses at Toronto Maple Leafs Indigenous Celebration Game January 6, 2026
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/Mastercard-spotlights-Indigenous-small-businesses-at-Toronto-Maple-Leafs-Indigenous-Celebration-Game.html
-
-## Mastercard SpendingPulse: Savvy shoppers and e-commerce fuel U.S. holiday retail sales growth by 3.9% year over year December 23, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-spendingpulse--savvy-shoppers-and-e-commerce-fuel-u-s.html
-
-## Mastercard and LoanPro announce partnership to modernize lending December 16, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-loanpro-announce-partnership-to-modernize-lending.html
-
-## Mastercard and the McLaren Formula 1 Team launch Team Priceless December 11, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-the-mclaren-formula-1-team-launch-team-priceless-.html
-
-## Mastercard launches La Colección Diez de Diez, honors fans with first-ever Lionel Messi jersey swap December 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/Mastercard-launches-La-Coleccion-Diez-de-Diez-first-Lionel-Messi-jersey-swap.html
-
-## Mastercard Spending Pulse: U.S. Black Friday retail sales up +4.1% year over year as holiday momentum builds November 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-spendingpulse--us-black-friday-retail-sales-up--4-1--.html
-
-## Mastercard Access Pass enables partners to forge deeper connections with consumers November 25, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-access-pass-enables-partners-to-forge-deeper-connecti.html
-
-## Mastercard and L’Oréal to transform the future of beauty commerce November 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-and-l-oreal-to-transform-the-future-of-beauty-commerc.html
-
-## Mastercard and Thunes bring stablecoin payouts to the mainstream November 13, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/Mastercard-and-Thunes-bring-stablecoin-payouts-to-the-mainstream.html
-
-## Mastercard introduces first-ever threat intelligence solution to combat payment fraud at scale October 27, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-introduces-first-ever-threat-intelligence-solution.html
-
-## Mastercard and PayPal join forces to accelerate secure global agentic commerce October 27, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-and-PayPal-join-forces.html
-
-## Mastercard and Citi bring Citi Flex Pay Installments to more retailers at checkout October 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-citi-bring-citi-flex-pay-installments-to-more-ret.html
-
-## Mastercard and Major League Baseball extend partnership — a celebration of Priceless moments and the fans who make them October 22, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-major-league-baseball-extend-partnership.html
-
-## Mastercard welcomes Jill Kramer as chief marketing and communications officer; Raja Rajamannar transitions to senior fellow role October 21, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-welcomes-jill-kramer-as-chief-marketing-and-communica.html
-
-## Mastercard and U.S. Bank expands subscription management for credit cardholders October 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-u-s--bank-expands-subscription-management-for-cre.html
-
-## Mastercard is supercharging commercial payments innovation October 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/simple-connections--smarter-controls--mastercard-is-superchargin.html
-
-## Mastercard launches Merchant Cloud to simplify and support commerce growth in global acceptance ecosystem October 14, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Merchant-Cloud-simplify-and-support-commerce-growth-in-global-acceptance-ecosystem.html
-
-## Mastercard at Money 20/20: Where insight meets action October 13, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-at-money-20-20--where-insight-meets-action-.html
-
-## Mastercard Payment Optimization Platform uses the power of data to drive more approvals October 13, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Payment-Optimization-Platform-uses-the-power-of-data-to-drive-more-approvals.html
-
-## Mastercard launches Small Business Navigator in Canada to enable small business resilience October 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-launches-small-business-navigator-in-canada-to-enable-small-business-resilience.html
-
-## Powering smarter and more personal advertising with Mastercard Commerce Media October 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/powering-smarter-and-more-personal-advertising-with-mastercard-commerce-media.html
-
-## Corpay and Mastercard Move extend near real-time payments to new markets September 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/corpay-mastercard-move-extend-near-real-time-payments.html
-
-## Mastercard unveils Global Reach Partner Program to accelerate customer expansion initiatives September 23, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-global-reach-partner-program-to-accelerate-customer-expansion-initiatives.html
-
-## Mastercard welcomes 11 startups to Start Path’s Emerging Fintech program September 22, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-welcomes-11-startups-to-start-path%E2%80%99s-emerging-fintech-program.html
-
-## Fueling the digital economy: Mastercard Start Path welcomes five new startups to the Blockchain and Digital Assets program September 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/fueling-the-digital-economy.html
-
-## Mastercard, NCR Atleos, and ITCARD to enhance contactless experiences at ATMs September 11, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-ncr-atleos-itcard-enhance-contactless-experiences-at-atms.html
-
-## Mastercard unveils customizable decisioning solution for financial institutions September 9, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-customizable-decisioning-solution-for-financial-institutions.html
-
-## Mastercard appoints Amb. Ailish Campbell as executive vice president, Public Sector September 2, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-appoints-amb--ailish-campbell-as-executive-vice-presi.html
-
-## Fans to be given unparalleled access as McLaren Racing announces Mastercard as official naming partner of the McLaren Formula 1 team from 2026 August 27, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/mclaren-racing-announces-mastercard-as-official-naming-partner-o.html
-
-## World Bank Group joins African Development Bank Group and Mastercard as co-chair of Mobilizing Access to the Digital Economy (MADE) Alliance: Africa August 5, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/World-Bank-Group-Mobilizing-Access-to-the-Digital-Economy-MADE-Alliance.html
-
-## Clarifying recent headlines on gaming content August 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/clarifying-recent-headlines-on-gaming-content.html
-
-## Mastercard and BMO expand Global Money Transfer service to nearly 70 destinations July 30, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/Mastercard-BMO-expand-Global-Money-Transfer-service.html
-
-## Mastercard accelerates B2B payment automation globally July 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-accelerates-b2b-payment-automation-globally-with-acce.html
-
-## Mastercard unveils AI Card Design Studio: a smarter, faster way to design your perfect card July 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-ai-card-design-studio.html
-
-## Mastercard expands global relationship with Uber to enhance payment experiences for drivers, couriers and consumers July 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-global-relationship-with-uber.html
-
-## American Airlines and Mastercard renew partnership for even more rewarding travel experiences July 21, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/american-airlines-mastercard-partnership-renewal.html
-
-## Delivering pathways to sustained prosperity July 16, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/sustained-prosperity-2024-impact-report.html
-
-## Elevating cardholder experiences worldwide with The Mastercard Collection and introduction of World Legend Mastercard July 16, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/elevating-cardholder-experiences-the-mastercard-collection-world-legend-mastercard.html
-
-## Mastercard and Jonas Brothers to debut music video in support of Stand Up To Cancer July 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-su2c-jonas-brothers.html
-
-## Mastercard expands Small Business Navigator with penny rental offer for Clover July 7, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-small-business-navigator.html
-
-## Protecting trust in a digital world: Mastercard launches new Start Path program to accelerate security innovation July 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/Mastercard-new-Start-Path-program-to-accelerate-security-innovation.html
-
-## Mastercard partners with the Billie Jean King Cup by Gainbridge June 25, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-billie-jean-king-cup.html
-
-## To counter ‘friendly’ fraud, Mastercard expands technology to new markets June 25, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/first-party-trust-countering-friendly-fraud.html
-
-## Mastercard partners with Fiserv to accelerate mainstream stablecoin adoption June 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-fiserv-stablecoin-adoption.html
-
-## OnePay and Synchrony to launch new industry-leading credit card program with Walmart; credit card to be powered by Mastercard and set to go live this fall June 9, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/onepay-synchrony-walmart-mastercard.html
-
-## Mastercard and PayPal to partner on Mastercard One Credential to supercharge choice at checkout June 4, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-paypal-one-credential.html
-
-## Deutsche Bank and Mastercard partner to power merchant solutions with open banking payments June 3, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/deutsche-bank-and-mastercard-partner-to-power-merchant-solutions-with-open-banking-payments.html
-
-## One year in, Mastercard’s checkout transformation gains ground across Europe June 3, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/one-year-in-mastercard-s-checkout-transformation-gains-ground-across-europe-1.html
-
-## Mastercard unveils Small Business Navigator to empower U.S. entrepreneurs with smarter, safer growth May 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-unveils-small-business-navigator-to-empower-u-s-entrepreneurs-with-smarter-safer-growth.html
-
-## Mastercard introduces Touch Card by Mastercard™ in Canada, a tactile notch feature designed to help empower the sight loss community May 28, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-introduces-touch-card-by-mastercard-in-canada-a-tactile-notch-feature-designed-to-help-empower-the-sight-loss-community.html
-
-## Mastercard and MoonPay team up to mainstream stablecoin payments May 15, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-and-moonpay-team-up-to-mainstream-stablecoin-payments.html
-
-## Mastercard Economics Institute: What moves us? The motivations behind global travel in 2025 May 12, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-economics-institute-what-moves-us-the-motivations-behind-global-travel-in-2025.html
-
-## Nuvei offers Canadian businesses near instant pay-outs via Mastercard Move May 7, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/nuvei-offers-canadian-businesses-near-instant-payouts-via-mastercard-move.html
-
-## Mastercard center for inclusive growth and Tamkeen partner to launch first Mastercard strive initiative in Bahrain and the middle east May 4, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-center-for-inclusive-growth-and-tamkeen-partner-to-launch-first-mastercard-strive-initiative-in-bahrain-and-the-middle-east.html
-
-## CIBC launches CIBC Adapta Mastercard, a credit card that automatically adapts to spending behavior rewarding cardholders more for everyday purchases May 1, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/cibc-launches-cibc-adapta-mastercard-a-credit-card-that-automatically-adapts-to-spending-behavior-rewarding-cardholders-more-for-everyday-purchases.html
-
-## Mastercard unveils Agent Pay, pioneering agentic payments technology to power commerce in the age of AI April 29, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html
-
-## Mastercard unveils end-to-end capabilities to power stablecoin transactions – from wallets to checkouts April 28, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-end-to-end-capabilities-to-power-stablecoin-transactions-from-wallets-to-checkouts.html
-
-## Mastercard elevates Sam’s Club Sam’s Cash Bonus Offer Program with personalization and rewards Apri 28, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-elevates-sam-s-club-sam-s-cash-bonus-offer-program-with-personalization-and-rewards.html
-
-## Update regarding Mastercard’s Chief Financial Officer April 10, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/update-regarding-mastercard-s-chief-financial-officer.html
-
-## MoneyGram and Mastercard collaborate to advance digital money movement April 2, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/moneygram-and-mastercard-collaborate-to-advance-digital-money-movement.html
-
-## Mastercard is modernizing commercial payments with embedded virtual card technology March, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/march/mastercard-is-modernizing-commercial-payments-with-embedded-virtual-card-technology.html
-
-## ICBA Payments and Mastercard partner to upgrade customer payment experiences for community banks March, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/march/icba-payments-and-mastercard-partner-to-upgrade-customer-payment-experiences-for-community-banks.html
-
-## Richard R. Verma rejoins Mastercard to oversee Law, Government Affairs & Policy and Franchise, Tim Murphy named vice chair February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/richard-r-verma-rejoins-mastercard-to-oversee-law-government-affairs-policy-and-franchise-tim-murphy-named-vice-chair.html
-
-## Mastercard names Erin Elofson as division president, Canada February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-names-erin-elofson-as-division-president-canada.html
-
-## New Mastercard research: Consumers in Canada worry about the impact of fraud on financial health February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/new-mastercard-research-consumers-in-canada-worry-about-the-impact-of-fraud-on-financial-health.html
-
-## Mastercard Business Builder program fuels creator growth February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-business-builder-program-fuels-creator-growth.html
-
-## Consumers demand more choice and control over how they check out February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/consumers-demand-more-choice-and-control-over-how-they-check-out.html
-
-## Mastercard appoints Janet George as executive vice president of artificial intelligence February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-appoints-janet-george-as-executive-vice-president-of-artificial-intelligence.html
-
-## Mastercard launches new product innovation to address unmet needs of the middle market February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-new-product-innovation-to-address-unmet-needs-of-the-middle-market.html
-
-## Mastercard and Feedzai join forces to protect more consumers and businesses from scams February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-feedzai-join-forces-to-protect-more-consumers-and-businesses-from-scams.html
-
-## Mastercard launches anti-money laundering service “TRACE” to combat financial crime in Asia Pacific February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-anti-money-laundering-service-trace-to-combat-financial-crime-in-asia-pacific.html
-
-## Mastercard supports Canadian small businesses with new funding: Meet the recipients of the Mastercard x Pier Five Small Business Fund February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-supports-canadian-small-businesses-with-new-funding-meet-the-recipients-of-the-mastercard-x-pier-five-small-business-fund.html
-
-## Mastercard and Lady Gaga team up to debut 'Abracadabra' music video, celebrating fans with Priceless Experiences February, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-lady-gaga-team-up-to-debut-abracadabra-music-video-celebrating-fans-with-priceless-experiences.html
-
-## Porter Airlines, BMO and Mastercard accelerate Canadians’ travel rewards journey with new credit card program January, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/January/porter-airlines-bmo-and-mastercard-accelerate-canadians-travel-rewards-journey-with-new-credit-card-program.html
-
-## Mastercard partners with Northeastern University to advance cybersecurity innovation and strengthen Canada’s diverse tech workforce January, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/January/mastercard-partners-with-northeastern-university-to-advance-cybersecurity-innovation-and-strengthen-canadas-diverse-tech-workforce.html
-
-## Mastercard SpendingPulse: Total U.S. retail sales grew 3.8%* this holiday season; online remained choice for consumers, increasing 6.7% YOY December, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-spendingpulse-total-us-retail-sales-grew-3-8-this-holiday-season-online-remained-choice-for-consumers-increasing-6-7-yoy.html
-
-## Mastercard finalizes acquisition of Recorded Future December, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-finalizes-acquisition-of-recorded-future.html
-
-## Mastercard Center for Inclusive Growth and data.org announce AI2AI Challenge awardees December, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-center-for-inclusive-growth-and-data-org-announce-ai2ai-challenge-awardees.html
-
-## TD helps its MBNA cardholders support funding reforestation efforts in Canada through the Priceless Planet Coalition December, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/td-helps-its-mbna-cardholders-support-funding-reforestation-efforts-in-canada-through-the-priceless-planet-coalition.html
-
-## Mastercard SpendingPulse: U.S. Black Friday retail sales up +3.4% vs. last year November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-spendingpulse-us-black-friday-retail-sales-up-3-4-vs-last-year.html
-
-## Supporting underrepresented fintech founders to spur innovation and growth November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/supporting-underrepresented-fintech-founders-to-spur-innovation-and-growth.html
-
-## Mastercard empowers small businesses with magical shopping experience November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-empowers-small-businesses-with-magical-shopping-experience.html
-
-## Mastercard’s MTN connects to J.P. Morgan’s Kinexys Digital Payments for settlement November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercards-mtn-connects-to-jp-morgans-kinexys-digital-payments-for-settlement.html
-
-## Unwrapping 2024 Canadian holiday shopping trends November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/unwrapping-2024-canadian-holiday-shopping-trends.html
-
-## Mastercard extends live music footprint with new us benefits for cardholders November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-extends-live-music-footprint-with-new-us-benefits-for-cardholders.html
-
-## Mastercard reinvents checkout with password and number free payments November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-reinvents-checkout-with-password-and-number-free-payments.html
-
-## Mastercard to supercharge small business operations through new innovative platform November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/small-businesses-can-now-consolidate-operations-payments-and-other-tools-into-a-single-platform.html
-
-## Mastercard joins buna the arab regional payment system November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-joins-buna-the-arab-regional-payment-system.html
-
-## TheFork and Mastercard join forces to enhance culinary experiences for cardholders November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/thefork-and-mastercard-join-forces-to-enhance-culinary-experiences-for-cardholders.html
-
-## Mastercard launches Pay Local to empower digital wallet providers with new ways to pay November, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-launches-pay-local-to-empower-digital-wallet-providers-with-new-ways-to-pay.html
-
-## Mastercard launches new gen AI digital assistant capabilities to enhance customer value October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-gen-ai-digital-assistant-capabilities-to-enhance-customer-value.html
-
-## Mastercard unveils bill Qkr to streamline and enhance the way bills are paid October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-unveils-bill-qkr-to-streamline-and-enhance-the-way-bills-are-paid.html
-
-## Mastercard is expanding its U.S. Installments Program to provide more payment flexibility at checkout October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-is-expanding-its-us-installments-program-to-provide-more-payment-flexibility-at-checkout.html
-
-## Mastercard expands Product Express platform to help fintechs accelerate the launch of new card programs and other payment solutions October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-product-express-platform-to-help-fintechs-accelerate-the-launch-of-new-card-programs-and-other-payment-solutions.html
-
-## Mastercard launches world-class technology infrastructure in Saudi Arabia, enabling the processing of seamless October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-world-class-technology-infrastructure-in-saudi-arabia-enabling-the-processing-of-seamless.html
-
-## Mastercard at Money 20/20 innovating at the speed of business October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-at-money-2020-innovating-at-the-speed-of-business.html
-
-## Mastercard expands the Priceless Planet Coalition's portfolio of restoration sites October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-the-priceless-planet-coalitions-portfolio-of-restoration-sites.html
-
-## Mastercard transforms cross-border payments for banks with industry-first innovation October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-transforms-cross-border-payments-for-banks-with-industry-first-innovation1.html
-
-## Mastercard debuts new open banking-powered tools that put consumers in control of their data, safely and securely October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-debuts-new-open-banking-powered-tools-that-put-consumers-in-control-of-their-data-safely-and-securely.html
-
-## Citi and Mastercard join forces to transform global cross border payments October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/citi-and-mastercard-join-forces-to-transform-global-cross-border-payments.html
-
-## Mastercard spotlights cybersecurity awareness and education with true-crime podcasts to mark Cybersecurity Awareness Month October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/scaling-innovation-with-startups-from-city-planning-to-gamifying-rewards-points.html
-
-## Mastercard launches new benefits in support of Canadian small businesses October, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-benefits-in-support-of-canadian-small-businesses.html
-
-## Mastercard and KaiOS partner to simplify acceptance for millions of SMEs in emerging markets September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-and-kaios-partner-to-simplify-acceptance-for-millions-of-smes-in-emerging-markets2.html
-
-## Mastercard expands first-of-its-kind AI technology to help banks protect more consumers from scams in real time September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-first-of-its-kind-ai-technology-to-help-banks-protect-more-consumers-from-scams-in-real-time.html
-
-## Mastercard expands support for Canadian entrepreneurs with Mastercard x Pier Five Small Business Fund, now open for 2024 applicants September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-support-for-canadian-entrepreneurs-with-mastercard-x-pier-five-small-business-fund-now-open-for-2024-applicants.html
-
-## Update regarding chief financial officer for Mastercard September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/update-regarding-chief-financial-officer-for-mastercard.html
-
-## Mastercard invests in continued defense of global digital economy with acquisition of Recorded Future September, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-invests-in-continued-defense-of-global-digital-economy-with-acquisition-of-recorded-future.html
-
-## Mastercard selects India for the global launch of its Payment Passkey Service, accelerating secure online checkout for millions of shoppers August, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-selects-india-for-the-global-launch-of-its-payment-passkey-service-accelerating-secure-online-checkout-for-millions-of-shoppers.html
-
-## What is a passkey? Here’s everything you need to know August, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/everything-you-need-to-know-about-payment-passkeys.html
-
-## Helping more individuals and small businesses benefit from the digital economy through Mastercard Open Banking August, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/helping-more-individuals-and-small-businesses-benefit-from-the-digital-economy-through-mastercard-open-banking.html
-
-## Mastercard and WestJet announce the launch of the Priceless Platform in Canada, offering cardholders exclusive, always-on access to Priceless experiences August, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-and-westjet-announce-the-launch-of-the-priceless-platform-in-canada-offering-cardholders-exclusive-always-on-access-to-priceless-experiences.html
-
-## Mastercard introduces a fast, safe and cost-effective solution for businesses to accept virtual card payment July, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-introduces-a-fast-safe-and-cost-effective-solution-for-businesses-to-accept-virtual-card-payment.html
-
-## Mastercard joins forces with McLaren Racing Formula 1 Team July, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/Mastercard-joins-forces-with-McLaren-Racing-Formula-1-Team.html
-
-## Expedia Group, Wells Fargo, and Mastercard announce new suite of One Key credit cards July, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/expedia-group-wells-fargo-and-mastercard-announce-new-suite-of-one-key-credit-cards.html
-
-## Mastercard and the Medical Tourism Association join forces to revolutionize cross-border health care payments July, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-and-the-medical-tourism-association-join-forces-to-revolutionize-cross-border-health-care-payments.html
-
-## Mastercard taps into the power of social media to support stand up to cancer June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-taps-into-the-power-of-social-media-to-support-stand-up-to-cancer.html
-
-## Mastercard and Thought Machine accelerate core banking capabilities, providing seamless payment experiences June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-european-cloud-native-issuer-processor-leverages-mastercard-cloud-edge-proving-seamless-payment-experience.html
-
-## Mastercard and Beijing Municipal Bureau of Culture and Tourism unveil enhanced Priceless Beijing June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-beijing-municipal-bureau-of-culture-and-tourism-unveil-enhanced-priceless-beijing.html
-
-## Ministry for Restoration of Ukraine and Mastercard to cooperate on restoring the tourism industry June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-insights-will-contribute-to-ukraines-economic-recovery-via-tourism.html
-
-## Mastercard reimagines online checkout; commits to reaching 100% e-commerce tokenization by 2030 in Europe June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-reimagines-online-checkout-commits-to-reaching-100-e-commerce-tokenization-by-2030-in-europe.html
-
-## Mastercard debuts new video 'Giving Back' with Lionel Messi to kick off CONMEBOL Copa América 2024 June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-debuts-new-video-giving-back-with-lionel-messi-to-kick-off-conmebol-copa-america-2024.html
-
-## Michael Kors first to debut Shopping Muse, the AI-powered shopping assistant from Dynamic Yield by Mastercard June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/michael-kors-first-to-debut-shopping-muse-the-ai-powered-shopping-assistant-from-dynamic-yield-by-mastercard.html
-
-## Mastercard enhances digital financial experiences with deposit switch and bill pay switch June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-enhances-digital-financial-experiences-with-deposit-switch-and-bill-pay-switch.html
-
-## Mastercard Center for Inclusive Growth and data.org launch Artificial Intelligence to Accelerate Inclusion challenge June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-center-for-inclusive-growth-and-data-org-launch-artificial-intelligence-to-accelerate-inclusion-challenge.html
-
-## Bunq first bank in Europe to leverage AI in open banking with Mastercard June, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/bunq-first-bank-in-europe-to-leverage-ai-in-open-banking-with-mastercard.html
-
-## Mastercard Crypto Credential goes live with first peer-to-peer pilot transactions, adds new partners to the ecosystem May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-crypto-credential-goes-live-with-first-peer-to-peer-pilot-transactions-adds-new-partners-to-the-ecosystem.html
-
-## Mastercard accelerates commitment to digital transformation in Africa May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-commitment-to-digital-transformation-in-africa.html
-
-## Mastercard accelerates card fraud detection with generative ai technology May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-card-fraud-detection-with-generative-ai-technology.html
-
-## Mastercard and Salesforce announce new integration to transform transaction disputes May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/Mastercard-and-Salesforce-announce-new-integration-to-transform-transaction-disputes.html
-
-## Soaring passenger traffic, longer stays: Mastercard Economics Institute on travel in 2024 May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/soaring-passenger-traffic-longer-stays-mastercard-economics-institute-on-travel-in-2024.html
-
-## University of New Brunswick Mastercard Cybersecurity Scholarship winners announced May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/university-of-new-brunswick-mastercard-cybersecurity-scholarship-winners-announced.html
-
-## Mastercard JV switches first domestic transaction in China May, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-jv-switches-first-domestic-transaction-in-china.html
-
-## Mastercard drops exclusive, personalized Music Pass as it kicks off season 2 of its Artist Accelerator April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-drops-exclusive-personalized-music-pass-as-it-kicks-off-season-2-of-its-artist-accelerator.html
-
-## Enhancing fintech programs, empowering innovation April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/enhancing-fintech-programs-empowering-innovation.html
-
-## Mastercard transforms the fight against scams with latest AI tech April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-transforms-the-fight-against-scams-with-latest-ai-tech.html
-
-## Mastercard launches mobile virtual card app to simplify travel and business expenses April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-launches-mobile-virtual-card-app-to-simplify-travel-and-business-expenses.html
-
-## The Xbox Mastercard issued by Barclays now available in the U.S. with more value April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/the-xbox-mastercard-issued-by-barclays-now-available-in-the-us-with-more-value.html
-
-## Nubank and Mastercard exclusive study reveals path to advancing beyond access toward financial health April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/nubank-and-mastercard-exclusive-study-reveals-path-to-advancing-beyond-access-toward-financial-health.html
-
-## Turning aspiration into impact April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/turning-aspiration-into-impact.html
-
-## Mastercard and leading Canadian fintech VoPay enter strategic partnership to empower Canadians to move money quickly and securely with Mastercard Move April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-and-leading-canadian-fintech-vopay-enter-strategic-partnership-to-empower-canadians-to-move-money-quickly-and-securely-with-mastercard-move.html
-
-## Positioning Mastercard for the next era of growth April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/positioning-mastercard-for-the-next-era-of-growth.html
-
-## Mastercard announces new cardholder benefits to enhance health and wellness, travel and lifestyle rewards for consumers, small businesses April, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-announces-new-cardholder-benefits-to-enhance-health-wellness-travel-and-lifestyle-rewards-for-consumers-small-businesses.html
-
-## Mastercard commits to lowering U.S. interchange for small businesses and broader merchant community March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html
-
-## Mastercard and Worldpay join forces to fight payment fraud globally March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-and-worldpay-join-forces-to-fight-payment-fraud-globally.html
-
-## New Mastercard report reveals key trends and opportunities to digitize remittances in Latin America and the Caribbean March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/new-mastercard-report-reveals-key-trends-opportunities-to-digitize-remittances-in-latin-america-and-the-caribbean.html
-
-## Mastercard enables convenient and secure international remittances to Alipay wallet March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-enables-convenient-and-secure-international-remittances-to-alipay-wallet.html
-
-## Mastercard simplifies subscription management with smart subscriptions March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-simplifies-subscription-management-with-smart-subscriptions.html
-
-## The Mastercard Artist Accelerator kicks off its second season, launches live touring series with OnesToWatch March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/the-mastercard-artist-accelerator-kicks-off-its-second-season-launches-live-touring-series-with-onestowatch.html
-
-## Uber partners with Mastercard and Payfare to launch the new Uber Pro Card in Canada March, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/uber-partners-with-mastercard-and-payfare-to-launch-the-new-uber-pro-card-in-canada.html
-
-## Mastercard open banking enhances the debit and prepaid digital account opening experience February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-open-banking-enhances-the-debit-and-prepaid-digital-account-opening-experience.html
-
-## How were co-creating the future of payments with fintechs February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/how-were-co-creating-the-future-of-payments-with-fintechs.html
-
-## Mastercard joins us AI safety institute consortium to guide national ai standards February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-joins-us-ai-safety-institute-consortium-to-guide-national-ai-standards.html
-
-## Mastercard dedicates its GRAMMY Awards® campaign to forest restoration; teams with SZA in debut bonus performance to raise awareness for the Priceless Planet Coalition February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-dedicates-its-grammy-awards-campaign-to-forest-restoration-teams-with-sza-in-debut-bonus-performance-to-raise-awareness-for-the-priceless-planet-coalition.html
-
-## Mastercard supercharges consumer protection with gen AI February, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-supercharges-consumer-protection-with-gen-ai.html
-
-## Mastercard and BOK Financial Corporation announce expanded payments agreement January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-bok-financial-corporation-announce-expanded-payments-agreement.html
-
-## Driving an inclusive digital economy through small business empowerment and open banking innovation January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/meet-15-startups-empowering-small-businesses-with-new-technology.html
-
-## Mastercard and the clearing house extend partnership on real time payments January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-the-clearing-house-extend-partnership-on-real-time-payments.html
-
-## Mastercard is unlocking efficiencies in B2B healthcare payments through innovative partnership January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-is-unlocking-efficiencies-in-b2b-healthcare-payments-through-innovative-partnership.html
-
-## Mastercard announces development of inclusive AI tool to provide personalized, real-time assistance to small business community January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-announces-development-of-inclusive-ai-tool-to-provide-personalized-real-time-assistance-to-small-business-community.html
-
-## Mastercard becomes official partner of Hudson Yards, unlocking priceless experiences and discovery for cardholders in New York City January, 2024
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-becomes-official-partner-of-hudson-yards-unlocking-priceless-experiences-and-discovery-for-cardholders-in-new-york-city.html
-
-## Mastercard and Chainlink enable on-chain crypto purchases using Mastercard's 3.5 billion cards June 24, 2025
-- Source: Mastercard
-- Category: Payment Card Networks
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
-
-## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/24/2026-08099/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies
-
-## Form PF; Reporting Requirements for All Filers
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/24/2026-07993/form-pf-reporting-requirements-for-all-filers
-
-The Commodity Futures Trading Commission (the "CFTC") and the Securities and Exchange Commission (the "SEC") (collectively, "we" or the "Commissions") are proposing to amend Form PF, the confidential reporting form for certain SEC-registered investment advisers to private funds, including those that also are registered with the CFTC as a commodity pool operator (a "CPO") or a…
-
-## Schedules of Controlled Substances: Placement of MDMB-4en-PINACA in Schedule I
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/24/2026-08104/schedules-of-controlled-substances-placement-of-mdmb-4en-pinaca-in-schedule-i
-
-With the issuance of this final rule, the Drug Enforcement Administration places methyl 3,3-dimethyl-2-(1-(pent-4-en-1-yl)-1H- indazole-3-carboxamido)butanoate (other name: MDMB-4en-PINACA), including its salts, isomers, and salts of isomers whenever the existence of such salts, isomers, and salts of isomers is possible, in schedule I of the Controlled Substances Act. This act…
-
-## United States et al. v. Constellation Energy Corporation, Inc. et al. Response of Plaintiff United States to Public Comments on the Proposed Final Judgment
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-24T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/24/2026-08095/united-states-et-al-v-constellation-energy-corporation-inc-et-al-response-of-plaintiff-united-states
-
-## Press Release: Agencies Finalize Changes to Community Bank Leverage Ratio
-- Source: FDIC
-- Category: Banking
-- Published: 2026-04-23T19:32:39Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/41446b2
-
-PRESS RELEASE | APRIL 23, 2026 Agencies Finalize Changes to Community Bank Leverage Ratio The federal bank regulatory agencies today jointly finalized a rule to modify the community bank leverage ratio consistent with existing statutory authority. This change will provide community banks with greater flexibility to use a simpler measure of capital adequacy and reduce regulator…
-
-## Agencies finalize changes to enhance community bank leverage ratio
-- Source: FRB
-- Category: Banking
-- Published: 2026-04-23T19:30:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm
-
-Agencies finalize changes to enhance community bank leverage ratio
