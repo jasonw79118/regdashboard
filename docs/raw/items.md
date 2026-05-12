@@ -1,7 +1,227 @@
 # RegDashboard — Export
 
-Window: `2026-04-27T13:34:23Z` → `2026-05-11T13:34:23Z` (UTC)
-Last updated: `2026-05-11T08:34:23-05:00` (CT) — `2026-05-11T13:34:23Z` (UTC)
+Window: `2026-04-28T13:38:50Z` → `2026-05-12T13:38:50Z` (UTC)
+Last updated: `2026-05-12T08:38:50-05:00` (CT) — `2026-05-12T13:38:50Z` (UTC)
+
+## Shai Hulud attack ships signed malicious TanStack, Mistral npm packages
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T11:29:36Z
+- URL: https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/
+
+Hundreds of packages across npm and PyPI have been compromised in a new Shai-Hulud supply-chain campaign delivering credential-stealing malware targeting developers. [...]
+
+## SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T11:04:55Z
+- URL: https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/
+
+SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and the S/4HANA ERP suite. [...]
+
+## Instructure reaches 'agreement' with ShinyHunters to stop data leak
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T09:23:56Z
+- URL: https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/
+
+Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an "agreement" with the ShinyHunters extortion group to prevent the data stolen in a recent breach from being leaked online. [...]
+
+## CVE-2026-43353 i3c: mipi-i3c-hci: Fix race in DMA ring dequeue
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T08:42:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43353
+
+Information published.
+
+## CVE-2026-29181 OpenTelemetry-Go multi-value `baggage` header extraction causes excessive allocations (remote dos amplification)
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T08:40:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-29181
+
+Information published.
+
+## CVE-2026-39882 OpenTelemetry-Go OTLP HTTP exporters read unbounded HTTP response bodies
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T08:40:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39882
+
+Information published.
+
+## CVE-2026-43500 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T08:07:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43500
+
+Information published.
+
+## Credit Risk Workshop: Recognize and Respond to Risk
+- Source: OCC
+- Category: Banking
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.occ.gov/news-events/events/files/event-comm-bank-dir-wksp-credit-risk-may-2026.html
+
+Led by some of the OCC's most experienced and qualified professionals, our workshops provide fundamental concepts, valuable updates, and concepts you can put to work immediately.
+
+## Upcoming Events View All Events
+- Source: OCC
+- Category: Banking
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.occ.gov/news-events/events/index-events.html
+
+Events
+
+## Chairman Scott, Senators Lummis, Tillis Release Market Structure Bill Text Ahead of Banking Committee Markup
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-senators-lummis-tillis-release-market-structure-bill-text-ahead-of-banking-committee-markup
+
+## Warren Probes Financial Stability, Illicit Finance, and Consumer Protection Concerns Related to Meta’s Integration of Stablecoins on its Platform
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-probes-financial-stability-illicit-finance-and-consumer-protection-concerns-related-to-metas-integration-of-stablecoins-on-its-platform
+
+## Warren Calls For Immediate Reversal of Trump Admin’s Proposal to Exempt 26 of the Largest 31 National Banks from Key Safeguards
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-for-immediate-reversal-of-trump-admins-proposal-to-exempt-26-of-the-largest-31-national-banks-from-key-safeguards
+
+## FIS® Supply Chain Finance Platform Powers Landmark $2.55 Billion Glencore Oil and Gas Trade Receivables Securitization
+- Source: FIS
+- Category: Fintech Watch
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fisr-supply-chain-finance-platform-powers-landmark-255-billion
+
+## Fiserv Expands Clover’s Restaurant Portfolio with New Fine Dining Solution, Clover Reserve Powered by Tabit
+- Source: Fiserv
+- Category: Fintech Watch
+- Published: 2026-05-12T00:00:00Z
+- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-expands-clovers-restaurant-portfolio-new-fine-dining
+
+## Jack Henry & Associates Adds Five Million Shares to Stock Repurchase Authorization
+- Source: Jack Henry
+- Category: Fintech Watch
+- Published: 2026-05-12T00:00:00Z
+- URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-associates-adds-five-million-shares-stock-repurchase
+
+## Get rid of unwanted ads with AdGuard, now $11 through 5/17
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-rid-of-unwanted-ads-with-adguard-now-11-through-5-17/
+
+## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/12/2026-09390/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies
+
+## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/12/2026-09389/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+
+## Presidential Message on National Salvation Army Week
+- Source: White House
+- Category: Executive
+- Published: 2026-05-11T23:37:46Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-salvation-army-week/
+
+## GM agrees to $12.75M California settlement over sale of drivers’ data
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-11T22:40:34Z
+- URL: https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/
+
+California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Act (CCPA). [...]
+
+## Official CheckMarx Jenkins package compromised with infostealer
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-11T22:03:06Z
+- URL: https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/
+
+Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]
+
+## New GhostLock tool abuses Windows API to block file access
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-11T22:02:00Z
+- URL: https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/
+
+A security researcher has released a proof-of-concept tool named GhostLock that demonstrates how a legitimate Windows file API can be abused in attacks to block access to files stored locally or on SMB network shares. [...]
+
+## Peace Officers Memorial Day and Police Week, 2026
+- Source: White House
+- Category: Executive
+- Published: 2026-05-11T20:42:27Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/05/peace-officers-memorial-day-and-police-week-2026/
+
+## Congressional Bills S. 98 and S. 1020 Signed into Law
+- Source: White House
+- Category: Executive
+- Published: 2026-05-11T20:39:19Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bills-s-98-and-s-1020-signed-into-law/
+
+## Economic Fury Ramps Up Pressure on Iran’s Islamic Revolutionary Guard Corps Oil Operations
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-05-11T19:30:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0498
+
+## Nominations and Withdrawal Sent to the Senate
+- Source: White House
+- Category: Executive
+- Published: 2026-05-11T19:16:33Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/05/nominations-and-withdrawal-sent-to-the-senate-c6ad/
+
+## Instructure confirms hackers used Canvas flaw to deface portals
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-11T15:26:26Z
+- URL: https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/
+
+Education technology giant Instructure has confirmed that a security vulnerability allowed hackers to modify Canvas login portals and leave an extortion message. [...]
+
+## Your Card, Your Security. Tap: A Safer Way to Verify Identity — Visa, Keyno, and Fidelity Bank (Bahamas) Lead the Transformation
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-05-11T14:48:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22406.html
+
+Visa and Keyno reimagine identity verification for the digital era, launching the next generation of Tap use cases — Tap to Confirm and Tap to Activate — first with Fidelity Bank (Bahamas) Limited MIAMI --(BUSINESS WIRE)--May 11, 2026-- Visa (NYSE: V) today announced a major step forward in how
+
+## CVE-2026-20841 Windows Notepad App Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-11T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20841
+
+Added FAQ information. This is an informational change only.
+
+## CVE-2026-32226 .NET Framework Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-11T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32226
+
+This CVE has been updated to include additional Security Updates for .NET Framework
+
+## Why Changing Passwords Doesn’t End an Active Directory Breach
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-11T13:53:56Z
+- URL: https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/
+
+Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]
 
 ## Google: Hackers used AI to develop zero-day exploit for web admin tool
 - Source: BleepingComputer
@@ -11,6 +231,14 @@ Last updated: `2026-05-11T08:34:23-05:00` (CT) — `2026-05-11T13:34:23Z` (UTC)
 
 Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day exploit targeting a popular open-source web administration tool was likely generated using AI. [...]
 
+## Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-05-11T13:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html
+
+SAN FRANCISCO --(BUSINESS WIRE)--May 11, 2026-- Visa (NYSE:V) today announced that its Exchange Offer for Class B-1 and B-2 common stock expired on May 8, 2026. The Exchange Offer allowed each participating holder of Class B common stock to exchange their shares of Class B common stock for a
+
 ## Webinar this week: Prevention alone is not enough against modern attacks
 - Source: BleepingComputer
 - Category: IS
@@ -18,6 +246,22 @@ Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day explo
 - URL: https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/
 
 This upcoming webinar explores how organizations need to combine security, backups, and recovery planning to reduce the impact of modern cyberattacks. [...]
+
+## FinCEN Issues Notice on the Threat of Human Trafficking During the 2026 FIFA World Cup
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-05-11T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-issues-notice-threat-human-trafficking-during-2026-fifa-world-cup
+
+WASHINGTON—Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued a Notice urging increased vigilance by financial institutions located in and around cities hosting the 2026 Fédération Internationale de Football Association (FIFA) World Cup.
+
+## FinCEN Issues Alert to Stop Money Laundering by Iranian Revolutionary Guard Corps
+- Source: FinCEN
+- Category: FinCEN
+- Published: 2026-05-11T12:00:00Z
+- URL: https://www.fincen.gov/news/news-releases/fincen-issues-alert-stop-money-laundering-iranian-revolutionary-guard-corps
+
+WASHINGTON—Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued an Alert to help financial institutions identify and stop funding streams and procurement networks supporting Iran’s Islamic Revolutionary Guard Corps (IRGC). The IRGC has engaged in terrorist activity since its inception with the full support of the Iranian regime.
 
 ## TrickMo Android banker adopts TON blockchain for covert comms
 - Source: BleepingComputer
@@ -232,14 +476,6 @@ Information published.
 - Category: IS
 - Published: 2026-05-11T08:51:35Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21649
-
-Information published.
-
-## CVE-2026-43353 i3c: mipi-i3c-hci: Fix race in DMA ring dequeue
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-11T08:51:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43353
 
 Information published.
 
@@ -2811,6 +3047,18 @@ Information published.
 
 (AUSTIN) – The Texas Bankers Foundation, the charitable arm of the Texas Bankers Association, proudly announces the 22 recipients of the 2026 50-Year Banker Awards. These distinguished individuals are being honored for five decades of dedication, leadership and service to the banking industry. “We are honored to recognize this year’s class of 50-Year Bankers and […] The post T…
 
+## Counter Terrorism Designations; Iran-related Designations
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-05-11T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260511
+
+## News & Commentaries
+- Source: Fannie Mae
+- Category: Mortgage
+- Published: 2026-05-11T00:00:00Z
+- URL: https://capitalmarkets.fanniemae.com/news-commentaries
+
 ## Freddie Mac Announces Results of Tender Offer for Certain STACR Notes
 - Source: Freddie Mac
 - Category: Mortgage
@@ -3095,51 +3343,11 @@ Information published.
 
 Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc.
 
-## NVIDIA confirms GeForce NOW data breach affecting Armenian users
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-08T16:18:31Z
-- URL: https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/
-
-NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]
-
 ## First Lady Melania Trump: Mothers are America’s strength
 - Source: White House
 - Category: Executive
 - Published: 2026-05-08T15:46:26Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/05/first-lady-melania-trump-mothers-are-americas-strength/
-
-## Why More Analysts Won’t Solve Your SOC’s Alert Problem
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-08T14:02:12Z
-- URL: https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/
-
-Attackers move faster than overwhelmed SOC teams can realistically investigate alerts. Prophet Security breaks down how AI can help analysts investigate alerts faster and focus on real threats. [...]
-
-## Trellix source code breach claimed by RansomHouse hackers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-08T13:23:23Z
-- URL: https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/
-
-The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]
-
-## CISA gives feds four days to patch Ivanti flaw exploited as zero-day
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-08T12:16:32Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/
-
-CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]
-
-## Zara data breach exposed personal information of 197,000 people
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-08T10:42:22Z
-- URL: https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/
-
-Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned. [...]
 
 ## Summer is calling for Metro 2® Bankruptcy Reporting Training ☀️
 - Source: CDIA
@@ -3148,14 +3356,6 @@ Hackers who gained access to the databases of Spanish fast-fashion retailer Zara
 - URL: https://www.cdiaonline.org/events/2026/05/08/summer-is-calling-for-metro-2-bankruptcy-reporting-training-%e2%98%80%ef%b8%8f/
 
 Join CDIA this summer for two essential webinars designed to help data furnishers strengthen accurate, consistent, and compliant bankruptcy reporting. 📅... The post Summer is calling for Metro 2® Bankruptcy Reporting Training ☀️ appeared first on CDIA .
-
-## Former govt contractor convicted for wiping dozens of federal databases
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-08T08:45:04Z
-- URL: https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/
-
-A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]
 
 ## CVE-2026-43274 mailbox: mchp-ipc-sbi: fix out-of-bounds access in mchp_ipc_get_cluster_aggr_irq()
 - Source: Microsoft MSRC
@@ -3285,14 +3485,6 @@ Information published.
 
 Information published.
 
-## New Linux 'Dirty Frag' zero-day gives root on all major distros
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-08T07:45:24Z
-- URL: https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/
-
-A new Linux zero-day exploit, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]
-
 ## Counter Terrorism and Counter Narcotics Designation Update, Russia-related Designation Removal
 - Source: OFAC
 - Category: OFAC
@@ -3333,11 +3525,11 @@ SAN DIEGO—Like his counterparts at state treasuries nationwide, Brant Gibson k
 - Published: 2026-05-08T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-first-quarter-earnings-may-8-2026
 
-## Get 5 years of AdGuard VPN access across 70+ global servers for $40
+## NVIDIA confirms GeForce NOW data breach affecting Armenian users
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-05-08T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/get-5-years-of-adguard-vpn-access-across-70-plus-global-servers-for-40/
+- URL: https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/
 
 ## Updated Staple Food Stocking Standards for Retailers in the Supplemental Nutrition Assistance Program
 - Source: Federal Register
@@ -3490,14 +3682,6 @@ The Bureau of Alcohol, Tobacco, Firearms, and Explosives ("ATF") proposes amendi
 - URL: https://www.federalregister.gov/documents/2026/05/08/2026-09212/expanding-fluid-milk-options-in-child-nutrition-programs
 
 This final rule with comment period ("final rule") expands fluid milk options by allowing schools and child and adult care providers participating in Child Nutrition Programs to offer whole and reduced-fat milk to participants two years and older. This rule codifies milkfat requirements following enactment of the Whole Milk for Healthy Kids Act and supports the statutory requi…
-
-## Canvas login portals hacked in mass ShinyHunters extortion campaign
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-07T22:36:54Z
-- URL: https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/
-
-The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]
 
 ## Military Spouse Day, 2026
 - Source: White House
@@ -4979,12 +5163,6 @@ Information published.
 
 Information published.
 
-## Presidential Message on National Day of Prayer
-- Source: White House
-- Category: Executive
-- Published: 2026-05-07T02:07:38Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-day-of-prayer/
-
 ## Counter Terrorism and Iran-related Designations; Cuba Designation and Designations Updates; Issuance of Cuba-related General License and Frequently Asked Questions
 - Source: OFAC
 - Category: OFAC
@@ -5019,35 +5197,11 @@ Publications
 - Published: 2026-05-07T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/05/07/3290346/0/en/mortgage-rates-average-6-37.html
 
-## Warren Probes Financial Stability, Illicit Finance, and Consumer Protection Concerns Related to Meta’s Integration of Stablecoins on its Platform
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-05-07T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-probes-financial-stability-illicit-finance-and-consumer-protection-concerns-related-to-metas-integration-of-stablecoins-on-its-platform
-
-## Warren Calls For Immediate Reversal of Trump Admin’s Proposal to Exempt 26 of the Largest 31 National Banks from Key Safeguards
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-05-07T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-for-immediate-reversal-of-trump-admins-proposal-to-exempt-26-of-the-largest-31-national-banks-from-key-safeguards
-
-## Warren, Blumenthal, Duckworth, Hirono Probe Credit Reporting Companies on Buy Now Pay Later Loan Reporting
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-05-07T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-blumenthal-duckworth-hirono-probe-credit-reporting-companies-on-buy-now-pay-later-loan-reporting
-
 ## Fiserv Expands Global Manufacturing Footprint with New Clover Facility in Brazil
 - Source: Fiserv
 - Category: Fintech Watch
 - Published: 2026-05-07T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-expands-global-manufacturing-footprint-new-clover
-
-## New TCLBanker malware self-spreads over WhatsApp and Outlook
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-07T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/
 
 ## Requirements for Insurance
 - Source: Federal Register
@@ -5088,18 +5242,6 @@ The NCUA Board (Board) is seeking comment on a proposed rule that would increase
 - URL: https://www.federalregister.gov/documents/2026/05/07/2026-09074/agency-information-collection-activities-proposed-ecollection-ecomments-requested-extension-of-a
 
 The National Institute of Justice, Office of Justice Programs, Department of Justice (DOJ), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.
-
-## Presidential Message on National Nurses Day
-- Source: White House
-- Category: Executive
-- Published: 2026-05-06T17:46:22Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-nurses-day/
-
-## First Lady Melania Trump Honors Military Mothers, the Soul of our Nation
-- Source: White House
-- Category: Executive
-- Published: 2026-05-06T17:34:22Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/05/first-lady-melania-trump-honors-military-mothers-the-soul-of-our-nation/
 
 ## Quarterly Refunding Statement of Deputy Assistant Secretary for Federal Finance Brian Smith
 - Source: Treasury
@@ -5190,12 +5332,6 @@ Information published.
 - URL: https://www.irs.gov/newsroom/irs-updates-conservation-easement-site-settlement-opportunity-details-forthcoming
 
 IR-2026-63, May 6, 2026 — The Internal Revenue Service today announces updates to its Conservation Easement page, expanding information on abusive conservation easement transactions, recent court decisions, and warning signs for investors.
-
-## News & Commentaries
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-05-06T00:00:00Z
-- URL: https://capitalmarkets.fanniemae.com/news-commentaries
 
 ## Ignore Stablecoins at Your Own Risk
 - Source: NACHA
@@ -5435,11 +5571,13 @@ Pursuant to an Executive order, the Department of the Treasury (Treasury), Burea
 
 In accordance with Section 206A of the National Housing Act, HUD is providing notice of adjustment to the Basic Statutory Mortgage Limits for Multifamily Housing Programs for Calendar Year 2026.
 
-## Presidential Message on National Astronaut Day
-- Source: White House
-- Category: Executive
-- Published: 2026-05-05T19:39:57Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-astronaut-day-2be4/
+## Visa to Participate in Upcoming Investor Conferences
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-05-05T20:05:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html
+
+SAN FRANCISCO --(BUSINESS WIRE)--May 5, 2026-- Visa (NYSE: V) today announced its participation in the following investor conferences. On Tuesday, May 19, Chris Suh, Chief Financial Officer, will present at the J.P. Morgan Global Technology, Media and Communications Conference.
 
 ## National Physical Fitness and Sports Month, 2026
 - Source: White House
@@ -5832,12 +5970,6 @@ Information published.
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/4157b1d
 
 PRESS RELEASE | MAY 1, 2026 Anchor Bank Assumes Insured Deposits of Community Bank and Trust - West Georgia, LaGrange, Georgia WASHINGTON—Community Bank and Trust - West Georgia of LaGrange, Georgia was closed today by the Georgia Department of Banking and Finance, which appointed the Federal Deposit Insurance Corporation (FDIC) as receiver. The FDIC entered into an agreement…
-
-## Treasury Hosts Liberty University Summit on AI, Energy, and Emerging Technologies
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-05-01T19:00:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0484
 
 ## Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy
 - Source: White House
@@ -6442,18 +6574,6 @@ With the issuance of this final rule, the Drug Enforcement Administration places
 - Category: Executive
 - Published: 2026-04-30T20:06:03Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/04/national-foster-care-month-2026/
-
-## Promoting Retirement-Savings Access for American Workers by Establishing TrumpIRA.gov
-- Source: White House
-- Category: Executive
-- Published: 2026-04-30T20:02:23Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/promoting-retirement-savings-access-for-american-workers-by-establishing-trumpira-gov/
-
-## Promoting Efficiency, Accountability, and Performance in Federal Contracting
-- Source: White House
-- Category: Executive
-- Published: 2026-04-30T20:02:00Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/promoting-efficiency-accountability-and-performance-in-federal-contracting/
 
 ## Statement by TBA CEO Chris Furlow on release of CFPB’s new Sec. 1071 Final Rule
 - Source: TBA
@@ -7747,6 +7867,14 @@ Federal Reserve issues FOMC statement
 
 Acknowledgement added. This is an informational change only.
 
+## Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-29T11:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html
+
+Stablecoin settlement pilot sees record growth 50% quarter over quarter, reaching $7B run rate. SAN FRANCISCO --(BUSINESS WIRE)--Apr. 29, 2026-- Today, Visa (NYSE: V) announced that it is adding five blockchains to its global stablecoin settlement pilot, expanding how issuers and acquirers can
+
 ## Join us in Las Vegas, NV for the Metro 2® Format Advanced Workshop
 - Source: CDIA
 - Category: Compliance Watch
@@ -8075,14 +8203,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-29181 OpenTelemetry-Go multi-value `baggage` header extraction causes excessive allocations (remote dos amplification)
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:10:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-29181
-
-Information published.
-
 ## CVE-2026-6861 Emacs: emacs: memory corruption vulnerability when processing svg css
 - Source: Microsoft MSRC
 - Category: IS
@@ -8367,12 +8487,6 @@ Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Office
 - Published: 2026-04-29T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-new-platform-giving-banks-control-over-digital
 
-## Education Services
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.cdiaonline.org/education-services/
-
 ## Regulatory Capital Rule: Community Bank Leverage Ratio Framework
 - Source: Federal Register
 - Category: Federal Register
@@ -8421,6 +8535,14 @@ Pursuant to the Privacy Act of 1974, and Office of Management and Budget (OMB) C
 
 Pursuant to the Privacy Act of 1974 (5 U.S.C. 552a), CRT proposes to establish a new system of records titled "Civil Rights Division Reporting Portal," JUSTICE/CRT-012. This system of records modernizes how the Division receives reports of alleged civil rights violations from the public. It operates as a web application and database where the public will be able to access a st…
 
+## Visa Fiscal Second Quarter 2026 Financial Results
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-04-28T20:05:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html
+
+SAN FRANCISCO --(BUSINESS WIRE)--Apr. 28, 2026-- Visa (NYSE: V) today announced its fiscal second quarter 2026 financial results through an earnings release that will be furnished with the Securities and Exchange Commission on a Form 8-K and available on its Investor Relations website at
+
 ## Chromium: CVE-2026-6920 Out of bounds read in GPU
 - Source: Microsoft MSRC
 - Category: IS
@@ -8452,277 +8574,3 @@ Added a second Security Only package to Edge security update. This is an informa
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40372
 
 This CVE has been updated to include the Visual Studios 2026 18.5 as an Affected Software
-
-## Last chance to register—CDIA Connect starts next week!
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-04-28T10:00:34Z
-- URL: https://www.cdiaonline.org/events/2026/04/28/last-chance-to-register-cdia-connect-starts-next-week/
-
-Join us for three days of insights, strategy, and connections with leaders across consumer data, including CFPB Deputy Director Geof Gradler,... The post Last chance to register—CDIA Connect starts next week! appeared first on CDIA .
-
-## Counter Terrorism Designation; Iran-related Designations; Issuance of Frequently Asked Question; Publication of Iran-related OFAC Alert
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-04-28T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260428
-
-## Fannie Mae Releases March 2026 Monthly Summary
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-releases-march-2026-monthly-summary
-
-The monthly summary report contains information about Fannie Mae’s monthly and year-to-date activities.
-
-## Freddie Mac Announces Release Date for First Quarter 2026 Financial Results
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.globenewswire.com/news-release/2026/04/28/3283125/0/en/freddie-mac-announces-release-date-for-first-quarter-2026-financial-results.html
-
-## Vice Chairman Huizenga: Republicans Advocate for Capital Rules That Work for Everyday Americans, Not Just Regulators and Big Banks
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-04-28T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411110
-
-## Jack Henry Announces Fiscal 2026 Third Quarter Deconversion Revenue Results
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-04-28T00:00:00Z
-- URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-announces-fiscal-2026-third-quarter-deconversion
-
-## Jack Henry's Annual Survey of Financial Institutions Highlights Priorities Amid Economic Uncertainty and a New Hybrid Monetary Era
-- Source: Jack Henry
-- Category: Fintech Watch
-- Published: 2026-04-28T00:00:00Z
-- URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henrys-annual-survey-financial-institutions-highlights
-
-## Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html
-
-## Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html
-
-## Visa Fiscal Second Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html
-
-## Visa Launches Validator Node on Tempo Blockchain
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html
-
-## Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
-
-## Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
-
-## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
-
-## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
-
-## Visa Unveils New Services to Modernize Dispute Resolution Process
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
-
-## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
-
-## Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
-
-## Visa to Bring Privacy-Preserving Payments to Canton Network
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
-
-## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-
-## Visa Completes Acquisition of Prisma and Newpay
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
-
-## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
-
-## Visa Renews Partnership Across Red Bull Formula One Teams
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-## Visa Fiscal First Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
-
-## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
-
-## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
-
-## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
-
-## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
-
-## Notice of Proposals To Engage in or To Acquire Companies Engaged in Permissible Nonbanking Activities
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/28/2026-08248/notice-of-proposals-to-engage-in-or-to-acquire-companies-engaged-in-permissible-nonbanking
-
-## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/28/2026-08247/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies
-
-## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/28/2026-08246/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
-
-## Equal Access to Housing in HUD Programs Revisions
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/28/2026-08244/equal-access-to-housing-in-hud-programs-revisions
-
-This proposed rule would harmonize HUD's existing Equal Access regulations with the directions of the Executive Order titled "Defending Women from Gender Ideology Extremism and Restoring Biological Truth to the Federal Government." The rule would remove references to "gender" and "gender identity" from HUD regulations, or remove and replace it with "sex," as defined by the Exe…
-
-## Meeting of the CJIS Advisory Policy Board
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/28/2026-08197/meeting-of-the-cjis-advisory-policy-board
-
-The purpose of this notice is to announce a meeting of the Federal Bureau of Investigation's (FBI) Criminal Justice Information Services (CJIS) Advisory Policy Board (APB). The CJIS APB is a federal advisory committee established pursuant to the Federal Advisory Committee Act (FACA). This meeting announcement is being published as required by Section 10 of the FACA.
-
-## Schedules of Controlled Substances: Rescheduling of Marijuana; Withdrawal
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/28/2026-08178/schedules-of-controlled-substances-rescheduling-of-marijuana-withdrawal
-
-The Department of Justice published a notice of proposed rulemaking in the Federal Register on May 21, 2024, which proposed to transfer marijuana from schedule I of the Controlled Substances Act to schedule III. The Drug Enforcement Administration ("DEA") published a notice of hearing on the proposed rule in the Federal Register on August 29, 2024. Upon further review, DEA is…
-
-## Schedules of Controlled Substances: Rescheduling of Marijuana
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/28/2026-08177/schedules-of-controlled-substances-rescheduling-of-marijuana
-
-This is notice that the Drug Enforcement Administration ("DEA") will hold a hearing with respect to the proposed rescheduling of marijuana into schedule III of the Controlled Substances Act beginning June 29, 2026. The proposed rescheduling of marijuana was initially proposed in a Notice of Proposed Rulemaking published in the Federal Register on May 21, 2024. In accordance wi…
-
-## Schedules of Controlled Substances: Rescheduling of Food and Drug Administration Approved Products Containing Marijuana From Schedule I to Schedule III; Corresponding Change to Permit Requirements
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-28T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products
-
-With the issuance of this final rule, which constitutes a final order, the Acting Attorney General of the U.S. Department of Justice places drug products containing marijuana that have been approved by the Food and Drug Administration (FDA) in schedule III of the Controlled Substances Act ("CSA"). This action is required to satisfy the responsibility of the Administrator under…
-
-## CVE-2026-26149 Microsoft Power Apps Desktop Client Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-27T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26149
-
-## CVE-2026-32202 Windows Shell Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-27T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32202
-
-Corrected the Exploitability Index, Exploited flag and CVSS vector which was incorrect at the time of publication on 4/14/2026. This is an informational change only.
