@@ -1,7 +1,2517 @@
 # RegDashboard — Export
 
-Window: `2026-04-28T13:38:50Z` → `2026-05-12T13:38:50Z` (UTC)
-Last updated: `2026-05-12T08:38:50-05:00` (CT) — `2026-05-12T13:38:50Z` (UTC)
+Window: `2026-04-29T14:15:13Z` → `2026-05-13T14:15:13Z` (UTC)
+Last updated: `2026-05-13T09:15:13-05:00` (CT) — `2026-05-13T14:15:13Z` (UTC)
+
+## CVE-2026-42898 Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42898
+
+Updated the fixed version number. This is an informational change only.
+
+## CVE-2026-42833 Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42833
+
+Updated the fixed version number. This is an informational change only.
+
+## Foxconn confirms cyberattack claimed by Nitrogen ransomware gang
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-13T12:49:54Z
+- URL: https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/
+
+Foxconn, the world's largest electronics manufacturer, says some of its North American factories are now working to resume normal operations after a cyberattack. [...]
+
+## 73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-13T12:30:38Z
+- URL: https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/
+
+Attackers can compromise systems in minutes while patching and response still take hours or days. Picus Security breaks down why autonomous validation is becoming critical for modern defense strategies. [...]
+
+## Microsoft says some users can't install Office on Windows 365 devices
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-13T11:53:54Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/
+
+Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]
+
+## Your First Look at the 2026 Metro 2® Format Advanced Workshop Agenda is here!
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-05-13T10:00:18Z
+- URL: https://www.cdiaonline.org/events/2026/05/13/your-first-look-at-the-2026-metro-2-format-advanced-workshop-agenda-is-here/
+
+If Metro 2® reporting is part of your world, this is the event you can’t afford to miss. Developed and led... The post Your First Look at the 2026 Metro 2® Format Advanced Workshop Agenda is here! appeared first on CDIA .
+
+## CVE-2026-44656 Vim: OS Command Injection via 'path' completion
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:43:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44656
+
+Information published.
+
+## CVE-2026-45130 Vim: Heap Buffer Overflow in spell file loading
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:43:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45130
+
+Information published.
+
+## CVE-2026-6666 PgBouncer crash in kill_pool_logins_server_error
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:42:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6666
+
+Information published.
+
+## CVE-2026-6667 PgBouncer missing authorization check in KILL_CLIENT admin command
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:42:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6667
+
+Information published.
+
+## CVE-2026-6665 PgBouncer buffer overflow in SCRAM
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:42:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6665
+
+Information published.
+
+## CVE-2026-6664 PgBouncer integer overflow in PgBouncer network packet parsing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:42:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6664
+
+Information published.
+
+## CVE-2026-35469 SpdyStream: DOS on CRI
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:40:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35469
+
+Information published.
+
+## CVE-2026-41636 Apache Thrift: Node.js skip() recursion
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:40:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41636
+
+Information published.
+
+## CVE-2026-41605 Apache Thrift: Swift Compact Protocol integer overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:40:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41605
+
+Information published.
+
+## CVE-2026-41603 Apache Thrift: Java TSSLTransportFactory hostname verification
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:40:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41603
+
+Information published.
+
+## CVE-2026-41602 Apache Thrift: Go TFramedTransport uint32 overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:40:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41602
+
+Information published.
+
+## CVE-2025-48431 Apache Thrift: Specially crafted input can crash a c_glib Thrift server with invalid pointer error.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:39:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-48431
+
+Information published.
+
+## CVE-2026-42151 Prometheus Azure AD remote write OAuth client secret exposed via config API
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:06:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42151
+
+Information published.
+
+## CVE-2026-42154 Prometheus: remote read endpoint allows denial of service via crafted snappy payload
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:05:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42154
+
+Information published.
+
+## CVE-2026-6210 Type confusion and heap-buffer-overflow in Qt SVG marker handling causing application crash
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:05:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6210
+
+Information published.
+
+## CVE-2026-39817 Invoking "go tool pack" does not sanitize output paths in cmd/go
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:05:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39817
+
+Information published.
+
+## CVE-2026-33811 Crash when handling long CNAME response in net
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:05:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33811
+
+Information published.
+
+## CVE-2026-8177 XML::LibXML versions through 2.0210 for Perl read out-of-bounds heap memory when parsing XML node names containing truncated UTF-8 byte sequences
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:05:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8177
+
+Information published.
+
+## CVE-2026-42501 Malicious module proxy can bypass checksum database in cmd/go
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:05:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42501
+
+Information published.
+
+## CVE-2026-39819 Invoking "go bug" follows symlinks in predictable temporary filenames in cmd/go
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:05:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39819
+
+Information published.
+
+## CVE-2026-39823 Bypass of meta content URL escaping causes XSS in html/template
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:04:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39823
+
+Information published.
+
+## CVE-2026-39820 Quadratic string concatentation in consumeComment in net/mail
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:04:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39820
+
+Information published.
+
+## CVE-2026-39826 Escaper bypass leads to XSS in html/template
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:04:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39826
+
+Information published.
+
+## CVE-2026-39825 ReverseProxy forwards queries with more than urlmaxqueryparams parameters in net/http/httputil
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:04:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39825
+
+Information published.
+
+## CVE-2026-42499 Quadratic string concatenation in consumePhrase in net/mail
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:04:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42499
+
+Information published.
+
+## CVE-2026-39836 Panic in Dial and LookupPort when handling NUL byte on Windows in net
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:04:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39836
+
+Information published.
+
+## CVE-2026-45186
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:03:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45186
+
+Information published.
+
+## CVE-2026-33814 Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.org/x/net
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:03:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33814
+
+Information published.
+
+## CVE-2026-43249 9p/xen: protect xen_9pfs_front_free against concurrent calls
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:01:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43249
+
+Information published.
+
+## CVE-2026-31767 drm/i915/dsi: Don't do DSC horizontal timing adjustments in command mode
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:01:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31767
+
+Information published.
+
+## CVE-2026-41256 jq: Embedded NUL truncates top-level jq programs loaded with -f
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:01:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41256
+
+Information published.
+
+## CVE-2026-40612 jq: Stack overflow via unbounded recursion in jv_contains
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:01:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40612
+
+Information published.
+
+## CVE-2026-43895 jq: Embedded NUL in jq import paths causes local redaction-policy bypass and preserves sensitive fields in published artifacts
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:01:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43895
+
+Information published.
+
+## CVE-2026-43896 jq: Stack Overflow in Recursive Object Merge
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:01:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43896
+
+Information published.
+
+## CVE-2026-43894 jq: Wild stack write via signed-integer overflow in decNumber D2U() macro
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:01:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43894
+
+Information published.
+
+## CVE-2026-41257 jq: Signed-int overflow in `stack_reallocate` (jq VM stack)
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-13T08:01:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41257
+
+Information published.
+
+## IRS announces terms of a time-limited settlement opportunity for eligible taxpayers involved in conservation easement disputes
+- Source: IRS
+- Category: IRS
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.irs.gov/newsroom/irs-announces-terms-of-a-time-limited-settlement-opportunity-for-eligible-taxpayers-involved-in-conservation-easement-disputes
+
+IR-2026-65, May 13, 2026 — The Internal Revenue Service is announcing the terms of a time-limited settlement opportunity for eligible taxpayers involved in conservation easement or historic preservation easement disputes with the IRS.
+
+## Operational Risk Workshop: Navigate Rapid, Wide-Ranging Changes
+- Source: OCC
+- Category: Banking
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.occ.gov/news-events/events/files/event-comm-bank-dir-wksp-operational-risk-may-2026.html
+
+Led by some of the OCC's most experienced and qualified professionals, our workshops provide fundamental concepts, valuable updates, and concepts you can put to work immediately.
+
+## Upcoming Events View All Events
+- Source: OCC
+- Category: Banking
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.occ.gov/news-events/events/index-events.html
+
+Events
+
+## House Passes Four Financial Services Bills
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-05-13T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411116
+
+## Chairman Hill: We Cannot Fight a 21st-Century Threat with 20th-Century Tools
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-05-13T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411117
+
+## Nacha Announces Relish is a Nacha Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention
+- Source: NACHA
+- Category: Payments
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.nacha.org/news/nacha-announces-relish-nacha-preferred-partner-account-validation-fraud-monitoring-and-risk
+
+RESTON, Virginia, May 13, 2026 – Nacha announced today that Relish has become a Nacha Preferred Partner for Account Validation, Fraud Monitoring, and Risk and Fraud Prevention.
+
+## Amazon's new Prime Business and Amazon Business credit cards, powered by U.S. Bank and Mastercard, are now available with enhanced rewards and flexible financing May 13, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/may/amazon-s-new-prime-business-and-amazon-business-credit-cards--po.html
+
+## The Trust for the Americas and the Organization of American States present the 2025 Corporate Citizen of the Americas Award to Mastercard April 24, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/april/the-trust-for-the-americas-and-the-organization-of-american-stat.html
+
+## Mastercard brings tools, mentorship and connections directly to small businesses April 21, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/april/mastercard-brings-tools--mentorship-and-connections-directly-to-.html
+
+## Small businesses can soon enjoy new rewards with the Prime Business and Amazon Business Credit Cards March 31, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/small-businesses-can-soon-enjoy-new-rewards-with-the-prime-busin.html
+
+## Mastercard to acquire BVNK to connect on-chain payments and fiat rails March 17, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/Mastercard-to-acquire-BVNK-to-connect-on-chain-payments-and-fiat-rails.html
+
+## Mastercard advances its agentic AI strategy with Virtual C-Suite, bringing executive level intelligence to small businesses March 10, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/Mastercard-Virtual-C-Suite-bringing-executive-level-intelligence-to-small-businesses.html
+
+## Mastercard reinforces commitment to Canadian small business owners as the Mastercard Small Business Fund opens for 2026 applicants March 3, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/mastercard-reinforces-commitment-to-canadian-small-business-owne.html
+
+## SoFi and Mastercard partner to enable SoFiUSD settlement across Mastercard’s global payments network March 3, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/sofi-and-mastercard-partner-to-enable-sofiusd-settlement-across-.html
+
+## Rogers Bank introduces Canada’s first-ever World Legend Mastercard March 2, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/rogers-bank-introduces-canada-s-first-ever-world-legend-masterca.html
+
+## Ericsson and Mastercard enhance global digital money movement and accelerate digital financial inclusion February 18, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/february/Ericsson-Mastercard-enhance-global-digital-money-movement-accelerate-digital-financial-inclusion.html
+
+## Cloudflare and Mastercard partner to extend comprehensive cyber defense across critical infrastructure and small businesses February 17, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/february/cloudflare-and-mastercard-to-extend-comprehensive-cyber-defense-.html
+
+## Noah Kahan and Mastercard to premiere ‘The Great Divide’ music video and offer cardholders Priceless experiences January 29, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/noah-kahan-and-mastercard-to-premiere--the-great-divide--music-v.html
+
+## Mastercard launches Agent Suite to ready enterprises for a new era January 27, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/mastercard-launches-agent-suite-to-ready-enterprises-for-a-new-e.html
+
+## Mastercard spotlights Indigenous small businesses at Toronto Maple Leafs Indigenous Celebration Game January 6, 2026
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2026/january/Mastercard-spotlights-Indigenous-small-businesses-at-Toronto-Maple-Leafs-Indigenous-Celebration-Game.html
+
+## Mastercard SpendingPulse: Savvy shoppers and e-commerce fuel U.S. holiday retail sales growth by 3.9% year over year December 23, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-spendingpulse--savvy-shoppers-and-e-commerce-fuel-u-s.html
+
+## Mastercard and LoanPro announce partnership to modernize lending December 16, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-loanpro-announce-partnership-to-modernize-lending.html
+
+## Mastercard and the McLaren Formula 1 Team launch Team Priceless December 11, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-the-mclaren-formula-1-team-launch-team-priceless-.html
+
+## Mastercard launches La Colección Diez de Diez, honors fans with first-ever Lionel Messi jersey swap December 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/december/Mastercard-launches-La-Coleccion-Diez-de-Diez-first-Lionel-Messi-jersey-swap.html
+
+## Mastercard Spending Pulse: U.S. Black Friday retail sales up +4.1% year over year as holiday momentum builds November 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-spendingpulse--us-black-friday-retail-sales-up--4-1--.html
+
+## Mastercard Access Pass enables partners to forge deeper connections with consumers November 25, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-access-pass-enables-partners-to-forge-deeper-connecti.html
+
+## Mastercard and L’Oréal to transform the future of beauty commerce November 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/mastercard-and-l-oreal-to-transform-the-future-of-beauty-commerc.html
+
+## Mastercard and Thunes bring stablecoin payouts to the mainstream November 13, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/november/Mastercard-and-Thunes-bring-stablecoin-payouts-to-the-mainstream.html
+
+## Mastercard introduces first-ever threat intelligence solution to combat payment fraud at scale October 27, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-introduces-first-ever-threat-intelligence-solution.html
+
+## Mastercard and PayPal join forces to accelerate secure global agentic commerce October 27, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-and-PayPal-join-forces.html
+
+## Mastercard and Citi bring Citi Flex Pay Installments to more retailers at checkout October 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-citi-bring-citi-flex-pay-installments-to-more-ret.html
+
+## Mastercard and Major League Baseball extend partnership — a celebration of Priceless moments and the fans who make them October 22, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-major-league-baseball-extend-partnership.html
+
+## Mastercard welcomes Jill Kramer as chief marketing and communications officer; Raja Rajamannar transitions to senior fellow role October 21, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-welcomes-jill-kramer-as-chief-marketing-and-communica.html
+
+## Mastercard and U.S. Bank expands subscription management for credit cardholders October 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-and-u-s--bank-expands-subscription-management-for-cre.html
+
+## Mastercard is supercharging commercial payments innovation October 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/simple-connections--smarter-controls--mastercard-is-superchargin.html
+
+## Mastercard launches Merchant Cloud to simplify and support commerce growth in global acceptance ecosystem October 14, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Merchant-Cloud-simplify-and-support-commerce-growth-in-global-acceptance-ecosystem.html
+
+## Mastercard at Money 20/20: Where insight meets action October 13, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-at-money-20-20--where-insight-meets-action-.html
+
+## Mastercard Payment Optimization Platform uses the power of data to drive more approvals October 13, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/Mastercard-Payment-Optimization-Platform-uses-the-power-of-data-to-drive-more-approvals.html
+
+## Mastercard launches Small Business Navigator in Canada to enable small business resilience October 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/mastercard-launches-small-business-navigator-in-canada-to-enable-small-business-resilience.html
+
+## Powering smarter and more personal advertising with Mastercard Commerce Media October 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/october/powering-smarter-and-more-personal-advertising-with-mastercard-commerce-media.html
+
+## Corpay and Mastercard Move extend near real-time payments to new markets September 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/corpay-mastercard-move-extend-near-real-time-payments.html
+
+## Mastercard unveils Global Reach Partner Program to accelerate customer expansion initiatives September 23, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-global-reach-partner-program-to-accelerate-customer-expansion-initiatives.html
+
+## Mastercard welcomes 11 startups to Start Path’s Emerging Fintech program September 22, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-welcomes-11-startups-to-start-path%E2%80%99s-emerging-fintech-program.html
+
+## Fueling the digital economy: Mastercard Start Path welcomes five new startups to the Blockchain and Digital Assets program September 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/fueling-the-digital-economy.html
+
+## Mastercard, NCR Atleos, and ITCARD to enhance contactless experiences at ATMs September 11, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-ncr-atleos-itcard-enhance-contactless-experiences-at-atms.html
+
+## Mastercard unveils customizable decisioning solution for financial institutions September 9, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-customizable-decisioning-solution-for-financial-institutions.html
+
+## Mastercard appoints Amb. Ailish Campbell as executive vice president, Public Sector September 2, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-appoints-amb--ailish-campbell-as-executive-vice-presi.html
+
+## Fans to be given unparalleled access as McLaren Racing announces Mastercard as official naming partner of the McLaren Formula 1 team from 2026 August 27, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/mclaren-racing-announces-mastercard-as-official-naming-partner-o.html
+
+## World Bank Group joins African Development Bank Group and Mastercard as co-chair of Mobilizing Access to the Digital Economy (MADE) Alliance: Africa August 5, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/World-Bank-Group-Mobilizing-Access-to-the-Digital-Economy-MADE-Alliance.html
+
+## Clarifying recent headlines on gaming content August 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/august/clarifying-recent-headlines-on-gaming-content.html
+
+## Mastercard and BMO expand Global Money Transfer service to nearly 70 destinations July 30, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/Mastercard-BMO-expand-Global-Money-Transfer-service.html
+
+## Mastercard accelerates B2B payment automation globally July 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-accelerates-b2b-payment-automation-globally-with-acce.html
+
+## Mastercard unveils AI Card Design Studio: a smarter, faster way to design your perfect card July 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-ai-card-design-studio.html
+
+## Mastercard expands global relationship with Uber to enhance payment experiences for drivers, couriers and consumers July 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-global-relationship-with-uber.html
+
+## American Airlines and Mastercard renew partnership for even more rewarding travel experiences July 21, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/american-airlines-mastercard-partnership-renewal.html
+
+## Delivering pathways to sustained prosperity July 16, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/sustained-prosperity-2024-impact-report.html
+
+## Elevating cardholder experiences worldwide with The Mastercard Collection and introduction of World Legend Mastercard July 16, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/elevating-cardholder-experiences-the-mastercard-collection-world-legend-mastercard.html
+
+## Mastercard and Jonas Brothers to debut music video in support of Stand Up To Cancer July 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-su2c-jonas-brothers.html
+
+## Mastercard expands Small Business Navigator with penny rental offer for Clover July 7, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/july/mastercard-expands-small-business-navigator.html
+
+## Protecting trust in a digital world: Mastercard launches new Start Path program to accelerate security innovation July 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/Mastercard-new-Start-Path-program-to-accelerate-security-innovation.html
+
+## Mastercard partners with the Billie Jean King Cup by Gainbridge June 25, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-billie-jean-king-cup.html
+
+## To counter ‘friendly’ fraud, Mastercard expands technology to new markets June 25, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/first-party-trust-countering-friendly-fraud.html
+
+## Mastercard partners with Fiserv to accelerate mainstream stablecoin adoption June 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-fiserv-stablecoin-adoption.html
+
+## OnePay and Synchrony to launch new industry-leading credit card program with Walmart; credit card to be powered by Mastercard and set to go live this fall June 9, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/onepay-synchrony-walmart-mastercard.html
+
+## Mastercard and PayPal to partner on Mastercard One Credential to supercharge choice at checkout June 4, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-paypal-one-credential.html
+
+## Deutsche Bank and Mastercard partner to power merchant solutions with open banking payments June 3, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/deutsche-bank-and-mastercard-partner-to-power-merchant-solutions-with-open-banking-payments.html
+
+## One year in, Mastercard’s checkout transformation gains ground across Europe June 3, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/one-year-in-mastercard-s-checkout-transformation-gains-ground-across-europe-1.html
+
+## Mastercard unveils Small Business Navigator to empower U.S. entrepreneurs with smarter, safer growth May 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-unveils-small-business-navigator-to-empower-u-s-entrepreneurs-with-smarter-safer-growth.html
+
+## Mastercard introduces Touch Card by Mastercard™ in Canada, a tactile notch feature designed to help empower the sight loss community May 28, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-introduces-touch-card-by-mastercard-in-canada-a-tactile-notch-feature-designed-to-help-empower-the-sight-loss-community.html
+
+## Mastercard and MoonPay team up to mainstream stablecoin payments May 15, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-and-moonpay-team-up-to-mainstream-stablecoin-payments.html
+
+## Mastercard Economics Institute: What moves us? The motivations behind global travel in 2025 May 12, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-economics-institute-what-moves-us-the-motivations-behind-global-travel-in-2025.html
+
+## Nuvei offers Canadian businesses near instant pay-outs via Mastercard Move May 7, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/nuvei-offers-canadian-businesses-near-instant-payouts-via-mastercard-move.html
+
+## Mastercard center for inclusive growth and Tamkeen partner to launch first Mastercard strive initiative in Bahrain and the middle east May 4, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/mastercard-center-for-inclusive-growth-and-tamkeen-partner-to-launch-first-mastercard-strive-initiative-in-bahrain-and-the-middle-east.html
+
+## CIBC launches CIBC Adapta Mastercard, a credit card that automatically adapts to spending behavior rewarding cardholders more for everyday purchases May 1, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/may/cibc-launches-cibc-adapta-mastercard-a-credit-card-that-automatically-adapts-to-spending-behavior-rewarding-cardholders-more-for-everyday-purchases.html
+
+## Mastercard unveils Agent Pay, pioneering agentic payments technology to power commerce in the age of AI April 29, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html
+
+## Mastercard unveils end-to-end capabilities to power stablecoin transactions – from wallets to checkouts April 28, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-end-to-end-capabilities-to-power-stablecoin-transactions-from-wallets-to-checkouts.html
+
+## Mastercard elevates Sam’s Club Sam’s Cash Bonus Offer Program with personalization and rewards Apri 28, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-elevates-sam-s-club-sam-s-cash-bonus-offer-program-with-personalization-and-rewards.html
+
+## Update regarding Mastercard’s Chief Financial Officer April 10, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/update-regarding-mastercard-s-chief-financial-officer.html
+
+## MoneyGram and Mastercard collaborate to advance digital money movement April 2, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/april/moneygram-and-mastercard-collaborate-to-advance-digital-money-movement.html
+
+## Mastercard is modernizing commercial payments with embedded virtual card technology March, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/march/mastercard-is-modernizing-commercial-payments-with-embedded-virtual-card-technology.html
+
+## ICBA Payments and Mastercard partner to upgrade customer payment experiences for community banks March, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/march/icba-payments-and-mastercard-partner-to-upgrade-customer-payment-experiences-for-community-banks.html
+
+## Richard R. Verma rejoins Mastercard to oversee Law, Government Affairs & Policy and Franchise, Tim Murphy named vice chair February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/richard-r-verma-rejoins-mastercard-to-oversee-law-government-affairs-policy-and-franchise-tim-murphy-named-vice-chair.html
+
+## Mastercard names Erin Elofson as division president, Canada February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-names-erin-elofson-as-division-president-canada.html
+
+## New Mastercard research: Consumers in Canada worry about the impact of fraud on financial health February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/new-mastercard-research-consumers-in-canada-worry-about-the-impact-of-fraud-on-financial-health.html
+
+## Mastercard Business Builder program fuels creator growth February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-business-builder-program-fuels-creator-growth.html
+
+## Consumers demand more choice and control over how they check out February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/consumers-demand-more-choice-and-control-over-how-they-check-out.html
+
+## Mastercard appoints Janet George as executive vice president of artificial intelligence February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-appoints-janet-george-as-executive-vice-president-of-artificial-intelligence.html
+
+## Mastercard launches new product innovation to address unmet needs of the middle market February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-new-product-innovation-to-address-unmet-needs-of-the-middle-market.html
+
+## Mastercard and Feedzai join forces to protect more consumers and businesses from scams February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-feedzai-join-forces-to-protect-more-consumers-and-businesses-from-scams.html
+
+## Mastercard launches anti-money laundering service “TRACE” to combat financial crime in Asia Pacific February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-launches-anti-money-laundering-service-trace-to-combat-financial-crime-in-asia-pacific.html
+
+## Mastercard supports Canadian small businesses with new funding: Meet the recipients of the Mastercard x Pier Five Small Business Fund February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-supports-canadian-small-businesses-with-new-funding-meet-the-recipients-of-the-mastercard-x-pier-five-small-business-fund.html
+
+## Mastercard and Lady Gaga team up to debut 'Abracadabra' music video, celebrating fans with Priceless Experiences February, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/february/mastercard-and-lady-gaga-team-up-to-debut-abracadabra-music-video-celebrating-fans-with-priceless-experiences.html
+
+## Porter Airlines, BMO and Mastercard accelerate Canadians’ travel rewards journey with new credit card program January, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/January/porter-airlines-bmo-and-mastercard-accelerate-canadians-travel-rewards-journey-with-new-credit-card-program.html
+
+## Mastercard partners with Northeastern University to advance cybersecurity innovation and strengthen Canada’s diverse tech workforce January, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/January/mastercard-partners-with-northeastern-university-to-advance-cybersecurity-innovation-and-strengthen-canadas-diverse-tech-workforce.html
+
+## Mastercard SpendingPulse: Total U.S. retail sales grew 3.8%* this holiday season; online remained choice for consumers, increasing 6.7% YOY December, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-spendingpulse-total-us-retail-sales-grew-3-8-this-holiday-season-online-remained-choice-for-consumers-increasing-6-7-yoy.html
+
+## Mastercard finalizes acquisition of Recorded Future December, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-finalizes-acquisition-of-recorded-future.html
+
+## Mastercard Center for Inclusive Growth and data.org announce AI2AI Challenge awardees December, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/mastercard-center-for-inclusive-growth-and-data-org-announce-ai2ai-challenge-awardees.html
+
+## TD helps its MBNA cardholders support funding reforestation efforts in Canada through the Priceless Planet Coalition December, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/december/td-helps-its-mbna-cardholders-support-funding-reforestation-efforts-in-canada-through-the-priceless-planet-coalition.html
+
+## Mastercard SpendingPulse: U.S. Black Friday retail sales up +3.4% vs. last year November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-spendingpulse-us-black-friday-retail-sales-up-3-4-vs-last-year.html
+
+## Supporting underrepresented fintech founders to spur innovation and growth November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/supporting-underrepresented-fintech-founders-to-spur-innovation-and-growth.html
+
+## Mastercard empowers small businesses with magical shopping experience November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-empowers-small-businesses-with-magical-shopping-experience.html
+
+## Mastercard’s MTN connects to J.P. Morgan’s Kinexys Digital Payments for settlement November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercards-mtn-connects-to-jp-morgans-kinexys-digital-payments-for-settlement.html
+
+## Unwrapping 2024 Canadian holiday shopping trends November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/unwrapping-2024-canadian-holiday-shopping-trends.html
+
+## Mastercard extends live music footprint with new us benefits for cardholders November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-extends-live-music-footprint-with-new-us-benefits-for-cardholders.html
+
+## Mastercard reinvents checkout with password and number free payments November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-reinvents-checkout-with-password-and-number-free-payments.html
+
+## Mastercard to supercharge small business operations through new innovative platform November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/small-businesses-can-now-consolidate-operations-payments-and-other-tools-into-a-single-platform.html
+
+## Mastercard joins buna the arab regional payment system November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-joins-buna-the-arab-regional-payment-system.html
+
+## TheFork and Mastercard join forces to enhance culinary experiences for cardholders November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/thefork-and-mastercard-join-forces-to-enhance-culinary-experiences-for-cardholders.html
+
+## Mastercard launches Pay Local to empower digital wallet providers with new ways to pay November, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/november/mastercard-launches-pay-local-to-empower-digital-wallet-providers-with-new-ways-to-pay.html
+
+## Mastercard launches new gen AI digital assistant capabilities to enhance customer value October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-gen-ai-digital-assistant-capabilities-to-enhance-customer-value.html
+
+## Mastercard unveils bill Qkr to streamline and enhance the way bills are paid October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-unveils-bill-qkr-to-streamline-and-enhance-the-way-bills-are-paid.html
+
+## Mastercard is expanding its U.S. Installments Program to provide more payment flexibility at checkout October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-is-expanding-its-us-installments-program-to-provide-more-payment-flexibility-at-checkout.html
+
+## Mastercard expands Product Express platform to help fintechs accelerate the launch of new card programs and other payment solutions October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-product-express-platform-to-help-fintechs-accelerate-the-launch-of-new-card-programs-and-other-payment-solutions.html
+
+## Mastercard launches world-class technology infrastructure in Saudi Arabia, enabling the processing of seamless October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-world-class-technology-infrastructure-in-saudi-arabia-enabling-the-processing-of-seamless.html
+
+## Mastercard at Money 20/20 innovating at the speed of business October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-at-money-2020-innovating-at-the-speed-of-business.html
+
+## Mastercard expands the Priceless Planet Coalition's portfolio of restoration sites October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-expands-the-priceless-planet-coalitions-portfolio-of-restoration-sites.html
+
+## Mastercard transforms cross-border payments for banks with industry-first innovation October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-transforms-cross-border-payments-for-banks-with-industry-first-innovation1.html
+
+## Mastercard debuts new open banking-powered tools that put consumers in control of their data, safely and securely October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-debuts-new-open-banking-powered-tools-that-put-consumers-in-control-of-their-data-safely-and-securely.html
+
+## Citi and Mastercard join forces to transform global cross border payments October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/citi-and-mastercard-join-forces-to-transform-global-cross-border-payments.html
+
+## Mastercard spotlights cybersecurity awareness and education with true-crime podcasts to mark Cybersecurity Awareness Month October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/scaling-innovation-with-startups-from-city-planning-to-gamifying-rewards-points.html
+
+## Mastercard launches new benefits in support of Canadian small businesses October, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-benefits-in-support-of-canadian-small-businesses.html
+
+## Mastercard and KaiOS partner to simplify acceptance for millions of SMEs in emerging markets September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-and-kaios-partner-to-simplify-acceptance-for-millions-of-smes-in-emerging-markets2.html
+
+## Mastercard expands first-of-its-kind AI technology to help banks protect more consumers from scams in real time September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-first-of-its-kind-ai-technology-to-help-banks-protect-more-consumers-from-scams-in-real-time.html
+
+## Mastercard expands support for Canadian entrepreneurs with Mastercard x Pier Five Small Business Fund, now open for 2024 applicants September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-support-for-canadian-entrepreneurs-with-mastercard-x-pier-five-small-business-fund-now-open-for-2024-applicants.html
+
+## Update regarding chief financial officer for Mastercard September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/update-regarding-chief-financial-officer-for-mastercard.html
+
+## Mastercard invests in continued defense of global digital economy with acquisition of Recorded Future September, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-invests-in-continued-defense-of-global-digital-economy-with-acquisition-of-recorded-future.html
+
+## Mastercard selects India for the global launch of its Payment Passkey Service, accelerating secure online checkout for millions of shoppers August, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-selects-india-for-the-global-launch-of-its-payment-passkey-service-accelerating-secure-online-checkout-for-millions-of-shoppers.html
+
+## What is a passkey? Here’s everything you need to know August, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/everything-you-need-to-know-about-payment-passkeys.html
+
+## Helping more individuals and small businesses benefit from the digital economy through Mastercard Open Banking August, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/helping-more-individuals-and-small-businesses-benefit-from-the-digital-economy-through-mastercard-open-banking.html
+
+## Mastercard and WestJet announce the launch of the Priceless Platform in Canada, offering cardholders exclusive, always-on access to Priceless experiences August, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/august/mastercard-and-westjet-announce-the-launch-of-the-priceless-platform-in-canada-offering-cardholders-exclusive-always-on-access-to-priceless-experiences.html
+
+## Mastercard introduces a fast, safe and cost-effective solution for businesses to accept virtual card payment July, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-introduces-a-fast-safe-and-cost-effective-solution-for-businesses-to-accept-virtual-card-payment.html
+
+## Mastercard joins forces with McLaren Racing Formula 1 Team July, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/Mastercard-joins-forces-with-McLaren-Racing-Formula-1-Team.html
+
+## Expedia Group, Wells Fargo, and Mastercard announce new suite of One Key credit cards July, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/expedia-group-wells-fargo-and-mastercard-announce-new-suite-of-one-key-credit-cards.html
+
+## Mastercard and the Medical Tourism Association join forces to revolutionize cross-border health care payments July, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/july/mastercard-and-the-medical-tourism-association-join-forces-to-revolutionize-cross-border-health-care-payments.html
+
+## Mastercard taps into the power of social media to support stand up to cancer June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-taps-into-the-power-of-social-media-to-support-stand-up-to-cancer.html
+
+## Mastercard and Thought Machine accelerate core banking capabilities, providing seamless payment experiences June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-european-cloud-native-issuer-processor-leverages-mastercard-cloud-edge-proving-seamless-payment-experience.html
+
+## Mastercard and Beijing Municipal Bureau of Culture and Tourism unveil enhanced Priceless Beijing June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-and-beijing-municipal-bureau-of-culture-and-tourism-unveil-enhanced-priceless-beijing.html
+
+## Ministry for Restoration of Ukraine and Mastercard to cooperate on restoring the tourism industry June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-insights-will-contribute-to-ukraines-economic-recovery-via-tourism.html
+
+## Mastercard reimagines online checkout; commits to reaching 100% e-commerce tokenization by 2030 in Europe June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-reimagines-online-checkout-commits-to-reaching-100-e-commerce-tokenization-by-2030-in-europe.html
+
+## Mastercard debuts new video 'Giving Back' with Lionel Messi to kick off CONMEBOL Copa América 2024 June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-debuts-new-video-giving-back-with-lionel-messi-to-kick-off-conmebol-copa-america-2024.html
+
+## Michael Kors first to debut Shopping Muse, the AI-powered shopping assistant from Dynamic Yield by Mastercard June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/michael-kors-first-to-debut-shopping-muse-the-ai-powered-shopping-assistant-from-dynamic-yield-by-mastercard.html
+
+## Mastercard enhances digital financial experiences with deposit switch and bill pay switch June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-enhances-digital-financial-experiences-with-deposit-switch-and-bill-pay-switch.html
+
+## Mastercard Center for Inclusive Growth and data.org launch Artificial Intelligence to Accelerate Inclusion challenge June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/mastercard-center-for-inclusive-growth-and-data-org-launch-artificial-intelligence-to-accelerate-inclusion-challenge.html
+
+## Bunq first bank in Europe to leverage AI in open banking with Mastercard June, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/june/bunq-first-bank-in-europe-to-leverage-ai-in-open-banking-with-mastercard.html
+
+## Mastercard Crypto Credential goes live with first peer-to-peer pilot transactions, adds new partners to the ecosystem May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-crypto-credential-goes-live-with-first-peer-to-peer-pilot-transactions-adds-new-partners-to-the-ecosystem.html
+
+## Mastercard accelerates commitment to digital transformation in Africa May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-commitment-to-digital-transformation-in-africa.html
+
+## Mastercard accelerates card fraud detection with generative ai technology May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-card-fraud-detection-with-generative-ai-technology.html
+
+## Mastercard and Salesforce announce new integration to transform transaction disputes May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/Mastercard-and-Salesforce-announce-new-integration-to-transform-transaction-disputes.html
+
+## Soaring passenger traffic, longer stays: Mastercard Economics Institute on travel in 2024 May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/soaring-passenger-traffic-longer-stays-mastercard-economics-institute-on-travel-in-2024.html
+
+## University of New Brunswick Mastercard Cybersecurity Scholarship winners announced May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/university-of-new-brunswick-mastercard-cybersecurity-scholarship-winners-announced.html
+
+## Mastercard JV switches first domestic transaction in China May, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-jv-switches-first-domestic-transaction-in-china.html
+
+## Mastercard drops exclusive, personalized Music Pass as it kicks off season 2 of its Artist Accelerator April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-drops-exclusive-personalized-music-pass-as-it-kicks-off-season-2-of-its-artist-accelerator.html
+
+## Enhancing fintech programs, empowering innovation April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/enhancing-fintech-programs-empowering-innovation.html
+
+## Mastercard transforms the fight against scams with latest AI tech April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-transforms-the-fight-against-scams-with-latest-ai-tech.html
+
+## Mastercard launches mobile virtual card app to simplify travel and business expenses April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-launches-mobile-virtual-card-app-to-simplify-travel-and-business-expenses.html
+
+## The Xbox Mastercard issued by Barclays now available in the U.S. with more value April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/the-xbox-mastercard-issued-by-barclays-now-available-in-the-us-with-more-value.html
+
+## Nubank and Mastercard exclusive study reveals path to advancing beyond access toward financial health April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/nubank-and-mastercard-exclusive-study-reveals-path-to-advancing-beyond-access-toward-financial-health.html
+
+## Turning aspiration into impact April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/turning-aspiration-into-impact.html
+
+## Mastercard and leading Canadian fintech VoPay enter strategic partnership to empower Canadians to move money quickly and securely with Mastercard Move April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-and-leading-canadian-fintech-vopay-enter-strategic-partnership-to-empower-canadians-to-move-money-quickly-and-securely-with-mastercard-move.html
+
+## Positioning Mastercard for the next era of growth April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/positioning-mastercard-for-the-next-era-of-growth.html
+
+## Mastercard announces new cardholder benefits to enhance health and wellness, travel and lifestyle rewards for consumers, small businesses April, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/april/mastercard-announces-new-cardholder-benefits-to-enhance-health-wellness-travel-and-lifestyle-rewards-for-consumers-small-businesses.html
+
+## Mastercard commits to lowering U.S. interchange for small businesses and broader merchant community March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html
+
+## Mastercard and Worldpay join forces to fight payment fraud globally March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-and-worldpay-join-forces-to-fight-payment-fraud-globally.html
+
+## New Mastercard report reveals key trends and opportunities to digitize remittances in Latin America and the Caribbean March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/new-mastercard-report-reveals-key-trends-opportunities-to-digitize-remittances-in-latin-america-and-the-caribbean.html
+
+## Mastercard enables convenient and secure international remittances to Alipay wallet March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-enables-convenient-and-secure-international-remittances-to-alipay-wallet.html
+
+## Mastercard simplifies subscription management with smart subscriptions March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-simplifies-subscription-management-with-smart-subscriptions.html
+
+## The Mastercard Artist Accelerator kicks off its second season, launches live touring series with OnesToWatch March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/the-mastercard-artist-accelerator-kicks-off-its-second-season-launches-live-touring-series-with-onestowatch.html
+
+## Uber partners with Mastercard and Payfare to launch the new Uber Pro Card in Canada March, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/march/uber-partners-with-mastercard-and-payfare-to-launch-the-new-uber-pro-card-in-canada.html
+
+## Mastercard open banking enhances the debit and prepaid digital account opening experience February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-open-banking-enhances-the-debit-and-prepaid-digital-account-opening-experience.html
+
+## How were co-creating the future of payments with fintechs February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/how-were-co-creating-the-future-of-payments-with-fintechs.html
+
+## Mastercard joins us AI safety institute consortium to guide national ai standards February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-joins-us-ai-safety-institute-consortium-to-guide-national-ai-standards.html
+
+## Mastercard dedicates its GRAMMY Awards® campaign to forest restoration; teams with SZA in debut bonus performance to raise awareness for the Priceless Planet Coalition February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-dedicates-its-grammy-awards-campaign-to-forest-restoration-teams-with-sza-in-debut-bonus-performance-to-raise-awareness-for-the-priceless-planet-coalition.html
+
+## Mastercard supercharges consumer protection with gen AI February, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-supercharges-consumer-protection-with-gen-ai.html
+
+## Mastercard and BOK Financial Corporation announce expanded payments agreement January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-bok-financial-corporation-announce-expanded-payments-agreement.html
+
+## Driving an inclusive digital economy through small business empowerment and open banking innovation January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/meet-15-startups-empowering-small-businesses-with-new-technology.html
+
+## Mastercard and the clearing house extend partnership on real time payments January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-and-the-clearing-house-extend-partnership-on-real-time-payments.html
+
+## Mastercard is unlocking efficiencies in B2B healthcare payments through innovative partnership January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-is-unlocking-efficiencies-in-b2b-healthcare-payments-through-innovative-partnership.html
+
+## Mastercard announces development of inclusive AI tool to provide personalized, real-time assistance to small business community January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-announces-development-of-inclusive-ai-tool-to-provide-personalized-real-time-assistance-to-small-business-community.html
+
+## Mastercard becomes official partner of Hudson Yards, unlocking priceless experiences and discovery for cardholders in New York City January, 2024
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2024/January/mastercard-becomes-official-partner-of-hudson-yards-unlocking-priceless-experiences-and-discovery-for-cardholders-in-new-york-city.html
+
+## Mastercard and Chainlink enable on-chain crypto purchases using Mastercard's 3.5 billion cards June 24, 2025
+- Source: Mastercard
+- Category: Payment Card Networks
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
+
+## If you need a reliable everyday laptop, this refurbished Dell 15 is now $307
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/if-you-need-a-reliable-everyday-laptop-this-refurbished-dell-15-is-now-307/
+
+## Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/13/2026-09529/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company
+
+## Schedules of Controlled Substances: Placement of CUMYL-PEGACLONE in Schedule I
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/13/2026-09566/schedules-of-controlled-substances-placement-of-cumyl-pegaclone-in-schedule-i
+
+With the issuance of this final rule, the Drug Enforcement Administration places 5-pentyl-2-(2-phenylpropan-2-yl)pyrido[4,3- b]indol-1-one (other names: CUMYL-PEGACLONE; SGT-151), including its salts, isomers, and salts of isomers whenever the existence of such salts, isomers, and salts of isomers is possible, in schedule I of the Controlled Substances Act. This action is bein…
+
+## Privacy Act of 1974; Systems of Records
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/13/2026-09522/privacy-act-of-1974-systems-of-records
+
+Pursuant to the Privacy Act of 1974 and Office of Management and Budget (OMB) Circular No. A-108, notice is hereby given that the Federal Bureau of Investigation (FBI), a component within the United States Department of Justice (DOJ or Department), proposes to modify a system of records notice titled National Crime Information Center (NCIC), JUSTICE/FBI-001, 84 FR 47533 (Sep.…
+
+## Privacy Act of 1974; System of Records
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-05-13T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/05/13/2026-09518/privacy-act-of-1974-system-of-records
+
+Pursuant to the Privacy Act of 1974 and Office of Management and Budget (OMB) Circular No. A-108, notice is hereby given that the United States Department of Justice (Department or DOJ) proposes to modify the DOJ System of Records Notices for the DOJ systems of records listed below.
+
+## US govt seeks Instructure testimony on massive Canvas cyberattack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T23:09:55Z
+- URL: https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/
+
+The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform, allowing threat actors to steal student data and disrupt schools during final exams. [...]
+
+## UK fines water supplier $1.3M for exposing data of 664k customers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T20:17:19Z
+- URL: https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/
+
+The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 663,887 customers and employees. [...]
+
+## Webinar: Fixing the gaps in network incident response
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T19:46:04Z
+- URL: https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/
+
+IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automation and AI-assisted workflows can reduce response times and help prevent outages. [...]
+
+## Signal adds security warnings for social engineering, phishing attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T19:40:31Z
+- URL: https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/
+
+Signal has introduced new in-app confirmations and warning messages as additional safeguards against phishing and social engineering attempts that could lead to various forms of fraud. [...]
+
+## Nominations Sent to the Senate
+- Source: White House
+- Category: Executive
+- Published: 2026-05-12T19:21:49Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/05/nominations-sent-to-the-senate-3857/
+
+## First Lady Melania Trump’s 10 Achievements Transforming Outcomes for Foster Youth Since the Signing the Fostering the Future Executive Order 180 Days Ago
+- Source: White House
+- Category: Executive
+- Published: 2026-05-12T19:00:14Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/05/first-lady-melania-trumps-10-achievements-transforming-outcomes-for-foster-youth-since-the-signing-the-fostering-the-future-executive-order-180-days-ago/
+
+## Microsoft releases Windows 10 KB5087544 extended security update
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T18:58:34Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/
+
+Microsoft has released the Windows 10 KB5087544 extended security update to fix the May 2026 Patch Tuesday vulnerabilities and resolve an issue with the new Remote Desktop warnings. [...]
+
+## Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T18:23:09Z
+- URL: https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/
+
+Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]
+
+## Windows 11 KB5089549 & KB5087420 cumulative updates released
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T18:09:12Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/
+
+Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]
+
+## Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T18:08:06Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/
+
+Today is Microsoft's May 2026 Patch Tuesday, with security updates for 120 flaws and no zero-days disclosed this month. [...]
+
+## Škoda warns of customer data breach after online shop hack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T17:07:01Z
+- URL: https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/
+
+Škoda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the personal information of an undisclosed number of customers. [...]
+
+## Android 17 to expand banking scam call and privacy protections
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T17:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/
+
+Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banking scam calls. [...]
+
+## Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.
+- Source: FRB
+- Category: Banking
+- Published: 2026-05-12T15:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260512a.htm
+
+Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.
+
+## CVE-2026-32204 Azure Monitor Agent Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32204
+
+External control of file name or path in Azure Monitor Agent allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-32177 .NET Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32177
+
+Heap-based buffer overflow in .NET allows an unauthorized attacker to elevate privileges locally.
+
+## CVE-2026-21530 Windows Rich Text Edit Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21530
+
+Double free in Windows Rich Text Edit allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-33117 Azure SDK for Java Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33117
+
+Improper authentication in Azure SDK allows an unauthorized attacker to bypass a security feature over a network.
+
+## CVE-2026-33834 Windows Event Logging Service Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33834
+
+Improper access control in Windows Event Logging Service allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-33839 Win32k Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33839
+
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Win32K - GRFX allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-33840 Win32k Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33840
+
+Use after free in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-33841 Windows Kernel Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33841
+
+Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34329 Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34329
+
+Heap-based buffer overflow in Windows Message Queuing allows an unauthorized attacker to execute code over an adjacent network.
+
+## CVE-2026-34330 Win32k Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34330
+
+Integer overflow or wraparound in Windows Win32K - GRFX allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34331 Win32k Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34331
+
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Win32K - GRFX allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34333 Windows Win32k Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34333
+
+Use after free in Windows Win32K - GRFX allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34342 Windows Print Spooler Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34342
+
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34343 Windows Application Identity (AppID) Subsystem Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34343
+
+Heap-based buffer overflow in Windows Application Identity (AppID) Subsystem allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34344 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34344
+
+Access of resource using incompatible type ('type confusion') in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34345 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34345
+
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34347 Windows Win32k Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34347
+
+Use after free in Windows Win32K - GRFX allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34350 Windows Storport Miniport Driver Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34350
+
+Null pointer dereference in Windows Storport Miniport Driver allows an unauthorized attacker to deny service over a network.
+
+## CVE-2026-34351 Windows TCP/IP Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34351
+
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows TCP/IP allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-35415 Windows Storage Spaces Controller Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35415
+
+Integer overflow or wraparound in Windows Storage Spaces Controller allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-35416 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35416
+
+Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-35417 Windows Win32k Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35417
+
+Access of resource using incompatible type ('type confusion') in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-35418 Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35418
+
+Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-35419 Windows DWM Core Library Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35419
+
+Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to disclose information locally.
+
+## CVE-2026-35420 Windows Kernel Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35420
+
+Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-35421 Windows GDI Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35421
+
+Heap-based buffer overflow in Windows GDI allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-35422 Windows TCP/IP Driver Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35422
+
+Authentication bypass using an alternate path or channel in Windows TCP/IP allows an authorized attacker to bypass a security feature over a network.
+
+## CVE-2026-35423 Windows 11 Telnet Client Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35423
+
+Out-of-bounds read in Telnet Client allows an unauthorized attacker to disclose information over a network.
+
+## CVE-2026-35424 Internet Key Exchange (IKE) Protocol Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35424
+
+Missing release of memory after effective lifetime in Windows Internet Key Exchange (IKE) Protocol allows an unauthorized attacker to deny service over a network.
+
+## CVE-2026-35433 .NET Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35433
+
+Improper input validation in .NET allows an unauthorized attacker to elevate privileges locally.
+
+## CVE-2026-35438 Windows Admin Center Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35438
+
+Missing authorization in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
+
+## CVE-2026-35439 Microsoft SharePoint Server Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35439
+
+Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
+
+## CVE-2026-35440 Microsoft Word Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35440
+
+Files or directories accessible to external parties in Microsoft Office Word allows an unauthorized attacker to disclose information locally.
+
+## CVE-2026-40360 Microsoft Excel Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40360
+
+Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to disclose information locally.
+
+## CVE-2026-40363 Microsoft Office Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40363
+
+Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-40364 Microsoft Word Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40364
+
+Access of resource using incompatible type ('type confusion') in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-40366 Microsoft Word Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40366
+
+Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-40368 Microsoft SharePoint Server Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40368
+
+Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
+
+## CVE-2026-40374 Microsoft Power Automate Desktop Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40374
+
+Exposure of sensitive information to an unauthorized actor in Power Automate allows an authorized attacker to disclose information over a network.
+
+## CVE-2026-40377 Microsoft Cryptographic Services Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40377
+
+Heap-based buffer overflow in Windows Cryptographic Services allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40380 Windows Volume Manager Extension Driver Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40380
+
+Heap-based buffer overflow in Volume Manager Extension Driver allows an authorized attacker to execute code with a physical attack.
+
+## CVE-2026-40399 Windows TCP/IP Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40399
+
+Stack-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40405 Windows TCP/IP Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40405
+
+Null pointer dereference in Windows TCP/IP allows an unauthorized attacker to deny service over a network.
+
+## CVE-2026-40406 Windows TCP/IP Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40406
+
+Use after free in Windows TCP/IP allows an unauthorized attacker to disclose information over a network.
+
+## CVE-2026-40407 Windows Common Log File System Driver Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40407
+
+Heap-based buffer overflow in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40408 Windows WAN ARP Driver Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40408
+
+Use after free in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40410 Windows SMB Client Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40410
+
+Use after free in Windows SMB Client allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40414 Windows TCP/IP Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40414
+
+Null pointer dereference in Windows TCP/IP allows an unauthorized attacker to deny service over an adjacent network.
+
+## CVE-2026-40415 Windows TCP/IP Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40415
+
+Use after free in Windows TCP/IP allows an unauthorized attacker to execute code over a network.
+
+## CVE-2026-40417 Microsoft Dynamics 365 Business Central Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40417
+
+Weak authentication in Dynamics Business Central allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40419 Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40419
+
+Use after free in Microsoft Office allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40421 Microsoft Word Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40421
+
+External control of file name or path in Microsoft Office Word allows an unauthorized attacker to disclose information over a network.
+
+## CVE-2026-41088 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41088
+
+External control of file name or path in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-41089 Windows Netlogon Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41089
+
+Stack-based buffer overflow in Windows Netlogon allows an unauthorized attacker to execute code over a network.
+
+## CVE-2026-41094 Microsoft Data Formulator Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41094
+
+Improper control of generation of code ('code injection') in Microsoft Data Formulator allows an unauthorized attacker to execute code over a network.
+
+## CVE-2026-41095 Data Deduplication Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41095
+
+Use after free in Data Deduplication allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-41096 Windows DNS Client Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41096
+
+Heap-based buffer overflow in Microsoft Windows DNS allows an unauthorized attacker to execute code over a network.
+
+## CVE-2026-41100 Microsoft 365 Copilot for Android Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41100
+
+Improper access control in M365 Copilot allows an authorized attacker to perform spoofing locally.
+
+## CVE-2026-41101 Microsoft Word for Android Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41101
+
+Improper access control in Microsoft Office Word allows an authorized attacker to perform spoofing locally.
+
+## CVE-2026-41102 Microsoft PowerPoint for Android Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41102
+
+Improper access control in Microsoft Office PowerPoint allows an authorized attacker to perform spoofing locally.
+
+## CVE-2026-41109 GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41109
+
+Improper neutralization of special elements in output used by a downstream component ('injection') in GitHub Copilot and Visual Studio allows an unauthorized attacker to bypass a security feature over a network.
+
+## CVE-2026-41610 Visual Studio Code Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41610
+
+Improper neutralization of input during web page generation ('cross-site scripting') in Visual Studio Code allows an unauthorized attacker to bypass a security feature locally.
+
+## CVE-2026-41611 Visual Studio Code Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41611
+
+Improper neutralization of script-related html tags in a web page (basic xss) in Visual Studio Code allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-41612 Visual Studio Code Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41612
+
+Relative path traversal in Visual Studio Code allows an unauthorized attacker to disclose information locally.
+
+## CVE-2026-41614 M365 Copilot for Desktop Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41614
+
+Improper access control in M365 Copilot for Desktop allows an unauthorized attacker to perform spoofing locally.
+
+## CVE-2026-32161 Windows Native WiFi Miniport Driver Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32161
+
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Native WiFi Miniport Driver allows an unauthorized attacker to execute code over an adjacent network.
+
+## CVE-2026-32170 Windows Rich Text Edit Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32170
+
+Double free in Windows Rich Text Edit Control allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-32185 Microsoft Teams Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32185
+
+Files or directories accessible to external parties in Microsoft Teams allows an unauthorized attacker to perform spoofing locally.
+
+## CVE-2026-42831 Microsoft Office Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42831
+
+Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-32175 .NET Core Tampering Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32175
+
+A tampering vulnerability exists when .NET Core improperly handles specially crafted files. An attacker who successfully exploited this vulnerability could write arbitrary files and directories to certain locations on a vulnerable system. However, an attacker would have limited control over the destination of the files and directories. To exploit the vulnerability, an attacker…
+
+## CVE-2026-42825 Windows Telephony Service Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42825
+
+Use after free in Windows Telephony Service allows an authorized attacker to elevate privileges locally.
+
+## ADV990001 Latest Servicing Stack Updates
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/ADV990001
+
+Advisory updated to announce new versions of Servicing Stack Updates are available. Please see the FAQ for details.
+
+## CVE-2026-42896 Windows DWM Core Library Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42896
+
+Integer overflow or wraparound in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-42899 ASP.NET Core Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42899
+
+Loop with unreachable exit condition ('infinite loop') in ASP.NET Core allows an unauthorized attacker to deny service over a network.
+
+## CVE-2026-33110 Microsoft SharePoint Server Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33110
+
+Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
+
+## CVE-2026-33112 Microsoft SharePoint Server Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33112
+
+Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
+
+## CVE-2026-33833 Azure Machine Learning Notebook Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33833
+
+Improper neutralization of special elements in output used by a downstream component ('injection') in Azure Machine Learning allows an unauthorized attacker to perform spoofing over a network.
+
+## CVE-2026-33835 Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33835
+
+Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-33837 Windows TCP/IP Local Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33837
+
+Heap-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-33838 Windows Message Queuing (MSMQ) Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33838
+
+Double free in Windows Message Queuing allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34332 Windows Kernel-Mode Driver Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34332
+
+Use after free in Windows Kernel-Mode Drivers allows an authorized attacker to execute code over a network.
+
+## CVE-2026-34334 Windows TCP/IP Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34334
+
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows TCP/IP allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34336 Windows DWM Core Library Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34336
+
+Buffer over-read in Windows DWM Core Library allows an authorized attacker to disclose information locally.
+
+## CVE-2026-34337 Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34337
+
+Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34338 Windows Telephony Service Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34338
+
+Use after free in Windows Telephony Service allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34339 Windows Lightweight Directory Access Protocol (LDAP) Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34339
+
+Null pointer dereference in Windows LDAP - Lightweight Directory Access Protocol allows an authorized attacker to deny service locally.
+
+## CVE-2026-34340 Windows Projected File System Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34340
+
+Use after free in Windows Projected File System allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-34341 Windows Link-Layer Discovery Protocol (LLDP) Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34341
+
+Double free in Windows Link-Layer Discovery Protocol (LLDP) allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40357 Microsoft SharePoint Server Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40357
+
+Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
+
+## CVE-2026-40358 Microsoft Office Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40358
+
+Use after free in Microsoft Office allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-40359 Microsoft Excel Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40359
+
+Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-40361 Microsoft Word Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40361
+
+Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-40362 Microsoft Excel Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40362
+
+Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-40365 Microsoft SharePoint Server Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40365
+
+Insufficient granularity of access control in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.
+
+## CVE-2026-40367 Microsoft Word Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40367
+
+Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+
+## CVE-2026-40370 SQL Server Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40370
+
+External control of file name or path in SQL Server allows an authorized attacker to execute code over a network.
+
+## CVE-2026-40369 Windows Kernel Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40369
+
+Untrusted pointer dereference in Windows Kernel allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40382 Windows Telephony Service Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40382
+
+Use after free in Windows Telephony Service allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40397 Windows Common Log File System Driver Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40397
+
+Integer underflow (wrap or wraparound) in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-32209 Windows Filtering Platform (WFP) Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32209
+
+Improper access control in Windows Filtering Platform (WFP) allows an authorized attacker to bypass a security feature locally.
+
+## CVE-2026-40398 Windows Remote Desktop Services Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40398
+
+Heap-based buffer overflow in Windows Remote Desktop allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40401 Windows TCP/IP Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40401
+
+Null pointer dereference in Windows TCP/IP allows an unauthorized attacker to deny service locally.
+
+## CVE-2026-40402 Windows Hyper-V Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40402
+
+Use after free in Windows Hyper-V allows an unauthorized attacker to elevate privileges locally.
+
+## CVE-2026-40403 Windows Graphics Component Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40403
+
+Heap-based buffer overflow in Windows Win32K - GRFX allows an authorized attacker to execute code locally.
+
+## CVE-2026-40413 Windows TCP/IP Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40413
+
+Null pointer dereference in Windows TCP/IP allows an unauthorized attacker to deny service over an adjacent network.
+
+## CVE-2026-40418 Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40418
+
+Use after free in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-35436 Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35436
+
+Insufficient granularity of access control in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-40420 Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40420
+
+Improper access control in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-41086 Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41086
+
+Improper access control in Windows Admin Center allows an authorized attacker to elevate privileges over a network.
+
+## CVE-2026-41097 Secure Boot Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41097
+
+Reliance on a component that is not updateable in Windows Secure Boot allows an authorized attacker to bypass a security feature locally.
+
+## CVE-2026-40381 Azure Connected Machine Agent Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40381
+
+Improper access control in Azure Connected Machine Agent allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-41103 Microsoft SSO Plugin for Jira & Confluence Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41103
+
+Incorrect implementation of authentication algorithm in Microsoft SSO Plugin for Jira & Confluence allows an unauthorized attacker to elevate privileges over a network.
+
+## CVE-2026-41613 Visual Studio Code Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41613
+
+Session fixation in Visual Studio Code allows an unauthorized attacker to elevate privileges over a network.
+
+## CVE-2026-42823 Azure Logic Apps Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42823
+
+Improper access control in Azure Logic Apps allows an authorized attacker to elevate privileges over a network.
+
+## CVE-2026-42830 Azure Monitor Agent Metrics Extension Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42830
+
+Untrusted search path in Azure Monitor Agent allows an authorized attacker to elevate privileges locally.
+
+## CVE-2026-42832 Microsoft Office Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42832
+
+Improper access control in Microsoft Office allows an unauthorized attacker to perform spoofing locally.
+
+## CVE-2025-54518 AMD: CVE-2025-54518 CPU OP Cache Corruption
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-54518
+
+This vulnerability was found and addressed by AMD. We are documenting it in the Security Update Guide to encourage customers to install the May 2026 version of Windows as soon as possible. The vulnerability assigned to this CVE is in certain processor models offered by AMD. The mitigation for this vulnerability requires a Windows update. This CVE is being documented in the Sec…
+
+## CVE-2026-42893 Microsoft Outlook for iOS Tampering Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42893
+
+Improper neutralization of special elements used in a command ('command injection') in M365 Copilot allows an unauthorized attacker to perform tampering over a network.
+
+## CVE-2025-6965 Integer Truncation on SQLite
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-05-12T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-6965
 
 ## Shai Hulud attack ships signed malicious TanStack, Mistral npm packages
 - Source: BleepingComputer
@@ -18,14 +2528,6 @@ Hundreds of packages across npm and PyPI have been compromised in a new Shai-Hul
 - URL: https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/
 
 SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and the S/4HANA ERP suite. [...]
-
-## Instructure reaches 'agreement' with ShinyHunters to stop data leak
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-12T09:23:56Z
-- URL: https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/
-
-Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an "agreement" with the ShinyHunters extortion group to prevent the data stolen in a recent breach from being leaked online. [...]
 
 ## CVE-2026-43353 i3c: mipi-i3c-hci: Fix race in DMA ring dequeue
 - Source: Microsoft MSRC
@@ -59,21 +2561,17 @@ Information published.
 
 Information published.
 
-## Credit Risk Workshop: Recognize and Respond to Risk
-- Source: OCC
-- Category: Banking
+## Senator Warren Statement on April 2026 CPI
+- Source: Senate Banking
+- Category: Legislative
 - Published: 2026-05-12T00:00:00Z
-- URL: https://www.occ.gov/news-events/events/files/event-comm-bank-dir-wksp-credit-risk-may-2026.html
+- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-april-2026-cpi
 
-Led by some of the OCC's most experienced and qualified professionals, our workshops provide fundamental concepts, valuable updates, and concepts you can put to work immediately.
-
-## Upcoming Events View All Events
-- Source: OCC
-- Category: Banking
+## The Facts: The CLARITY Act Protects Main Street, Unleashes Responsible Innovation, and Cracks Down on Fraud and Money Laundering
+- Source: Senate Banking
+- Category: Legislative
 - Published: 2026-05-12T00:00:00Z
-- URL: https://www.occ.gov/news-events/events/index-events.html
-
-Events
+- URL: https://www.banking.senate.gov/newsroom/majority/the-facts-the-clarity-act-protects-main-street-unleashes-responsible-innovation-and-cracks-down-on-fraud-and-money-laundering
 
 ## Chairman Scott, Senators Lummis, Tillis Release Market Structure Bill Text Ahead of Banking Committee Markup
 - Source: Senate Banking
@@ -81,17 +2579,19 @@ Events
 - Published: 2026-05-12T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-senators-lummis-tillis-release-market-structure-bill-text-ahead-of-banking-committee-markup
 
-## Warren Probes Financial Stability, Illicit Finance, and Consumer Protection Concerns Related to Meta’s Integration of Stablecoins on its Platform
-- Source: Senate Banking
-- Category: Legislative
+## A Proactive Approach is Behind Nacha’s New Fraud Monitoring Rules
+- Source: NACHA
+- Category: Payments
 - Published: 2026-05-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-probes-financial-stability-illicit-finance-and-consumer-protection-concerns-related-to-metas-integration-of-stablecoins-on-its-platform
+- URL: https://www.nacha.org/news/proactive-approach-behind-nachas-new-fraud-monitoring-rules
 
-## Warren Calls For Immediate Reversal of Trump Admin’s Proposal to Exempt 26 of the Largest 31 National Banks from Key Safeguards
-- Source: Senate Banking
-- Category: Legislative
+SAN DIEGO—If you think today’s fraudster is some dude in black sunglasses sitting in front of a bright monitor in a dark basement, you’re mistaken.“Now we’re talking about an international syndicate. We’re talking about organized crime syndicates with quarterly goals—up against your customer’s AP clerk. This is not a fair fight,” said Angela Sarno, Vice President, Marketing, a…
+
+## FIS to Present at Upcoming Conference
+- Source: FIS
+- Category: Fintech Watch
 - Published: 2026-05-12T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-for-immediate-reversal-of-trump-admins-proposal-to-exempt-26-of-the-largest-31-national-banks-from-key-safeguards
+- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-present-upcoming-conference-26
 
 ## FIS® Supply Chain Finance Platform Powers Landmark $2.55 Billion Glencore Oil and Gas Trade Receivables Securitization
 - Source: FIS
@@ -111,11 +2611,23 @@ Events
 - Published: 2026-05-12T00:00:00Z
 - URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-associates-adds-five-million-shares-stock-repurchase
 
+## This open-box 2-in-1 ASUS Chromebook is on sale for just $160
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-open-box-2-in-1-asus-chromebook-is-on-sale-for-just-160/
+
 ## Get rid of unwanted ads with AdGuard, now $11 through 5/17
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-05-12T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-rid-of-unwanted-ads-with-adguard-now-11-through-5-17/
+
+## Instructure reaches 'agreement' with ShinyHunters to stop data leak
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-05-12T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/
 
 ## Formations of, Acquisitions by, and Mergers of Bank Holding Companies
 - Source: Federal Register
@@ -134,30 +2646,6 @@ Events
 - Category: Executive
 - Published: 2026-05-11T23:37:46Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-salvation-army-week/
-
-## GM agrees to $12.75M California settlement over sale of drivers’ data
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-11T22:40:34Z
-- URL: https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/
-
-California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Act (CCPA). [...]
-
-## Official CheckMarx Jenkins package compromised with infostealer
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-11T22:03:06Z
-- URL: https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/
-
-Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]
-
-## New GhostLock tool abuses Windows API to block file access
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-11T22:02:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/
-
-A security researcher has released a proof-of-concept tool named GhostLock that demonstrates how a legitimate Windows file API can be abused in attacks to block access to files stored locally or on SMB network shares. [...]
 
 ## Peace Officers Memorial Day and Police Week, 2026
 - Source: White House
@@ -183,14 +2671,6 @@ A security researcher has released a proof-of-concept tool named GhostLock that 
 - Published: 2026-05-11T19:16:33Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/05/nominations-and-withdrawal-sent-to-the-senate-c6ad/
 
-## Instructure confirms hackers used Canvas flaw to deface portals
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-11T15:26:26Z
-- URL: https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/
-
-Education technology giant Instructure has confirmed that a security vulnerability allowed hackers to modify Canvas login portals and leave an extortion message. [...]
-
 ## Your Card, Your Security. Tap: A Safer Way to Verify Identity — Visa, Keyno, and Fidelity Bank (Bahamas) Lead the Transformation
 - Source: Visa
 - Category: Payment Card Networks
@@ -215,22 +2695,6 @@ Added FAQ information. This is an informational change only.
 
 This CVE has been updated to include additional Security Updates for .NET Framework
 
-## Why Changing Passwords Doesn’t End an Active Directory Breach
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-11T13:53:56Z
-- URL: https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/
-
-Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]
-
-## Google: Hackers used AI to develop zero-day exploit for web admin tool
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-11T13:02:30Z
-- URL: https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/
-
-Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day exploit targeting a popular open-source web administration tool was likely generated using AI. [...]
-
 ## Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock
 - Source: Visa
 - Category: Payment Card Networks
@@ -238,14 +2702,6 @@ Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day explo
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html
 
 SAN FRANCISCO --(BUSINESS WIRE)--May 11, 2026-- Visa (NYSE:V) today announced that its Exchange Offer for Class B-1 and B-2 common stock expired on May 8, 2026. The Exchange Offer allowed each participating holder of Class B common stock to exchange their shares of Class B common stock for a
-
-## Webinar this week: Prevention alone is not enough against modern attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-11T12:30:00Z
-- URL: https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/
-
-This upcoming webinar explores how organizations need to combine security, backups, and recovery planning to reduce the impact of modern cyberattacks. [...]
 
 ## FinCEN Issues Notice on the Threat of Human Trafficking During the 2026 FIFA World Cup
 - Source: FinCEN
@@ -262,14 +2718,6 @@ WASHINGTON—Today, the U.S. Department of the Treasury’s Financial Crimes Enf
 - URL: https://www.fincen.gov/news/news-releases/fincen-issues-alert-stop-money-laundering-iranian-revolutionary-guard-corps
 
 WASHINGTON—Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued an Alert to help financial institutions identify and stop funding streams and procurement networks supporting Iran’s Islamic Revolutionary Guard Corps (IRGC). The IRGC has engaged in terrorist activity since its inception with the full support of the Iranian regime.
-
-## TrickMo Android banker adopts TON blockchain for covert comms
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-11T09:03:02Z
-- URL: https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/
-
-A new variant of the TrickMo Android banking malware, delivered in campaigns targeting users across Europe, introduces new commands and uses The Open Network (TON) for stealthy command-and-control communications. [...]
 
 ## CVE-2025-21635 rds: sysctl: rds_tcp_{rcv,snd}buf: avoid using current->nsproxy
 - Source: Microsoft MSRC
@@ -2999,14 +5447,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-45186
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-11T08:03:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45186
-
-Information published.
-
 ## CVE-2026-42246 net-imap vulnerable to STARTTLS stripping via invalid response timing
 - Source: Microsoft MSRC
 - Category: IS
@@ -3079,19 +5519,11 @@ RESTON, Virginia, May 11, 2026 – Nacha announced that Trustmi has become a Nac
 - Published: 2026-05-11T00:00:00Z
 - URL: https://ir.jackhenry.com/news-releases/news-release-details/jack-henry-announces-regular-quarterly-dividend
 
-## Home use is covered with this refurbished Lenovo Chromebook—just $80 today
+## GM agrees to $12.75M California settlement over sale of drivers’ data
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-05-11T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/home-use-is-covered-with-this-refurbished-lenovo-chromebook-just-80-today/
-
-## Hackers abuse Google ads, Claude.ai chats to push Mac malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-10T17:52:15Z
-- URL: https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/
-
-Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for "Claude mac download" may come across sponsored search results that list claude.ai as the target website, but lead to instructions that install malware on their Mac. [...]
+- URL: https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/
 
 ## Presidential Message on Mother’s Day
 - Source: White House
@@ -3104,14 +5536,6 @@ Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an act
 - Category: Executive
 - Published: 2026-05-10T14:33:45Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-the-anniversary-of-the-capture-of-fort-ticonderoga/
-
-## Police shut down reboot of Crimenetwork marketplace, arrest admin
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-10T14:16:47Z
-- URL: https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/
-
-German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]
 
 ## CVE-2026-41889 pgx: SQL Injection via placeholder confusion with dollar quoted string literals
 - Source: Microsoft MSRC
@@ -3129,175 +5553,17 @@ Information published.
 
 Information published.
 
-## CVE-2026-42501 Malicious module proxy can bypass checksum database in cmd/go
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:03:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42501
-
-Information published.
-
-## CVE-2026-42499 Quadratic string concatenation in consumePhrase in net/mail
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:03:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42499
-
-Information published.
-
-## CVE-2026-39836 Panic in Dial and LookupPort when handling NUL byte on Windows in net
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:03:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39836
-
-Information published.
-
-## CVE-2026-39826 Escaper bypass leads to XSS in html/template
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:02:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39826
-
-Information published.
-
-## CVE-2026-39825 ReverseProxy forwards queries with more than urlmaxqueryparams parameters in net/http/httputil
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:02:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39825
-
-Information published.
-
-## CVE-2026-39823 Bypass of meta content URL escaping causes XSS in html/template
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:02:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39823
-
-Information published.
-
-## CVE-2026-39820 Quadratic string concatentation in consumeComment in net/mail
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:02:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39820
-
-Information published.
-
-## CVE-2026-39819 Invoking "go bug" follows symlinks in predictable temporary filenames in cmd/go
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:02:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39819
-
-Information published.
-
-## CVE-2026-39817 Invoking "go tool pack" does not sanitize output paths in cmd/go
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:02:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39817
-
-Information published.
-
-## CVE-2026-33814 Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.org/x/net
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:02:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33814
-
-Information published.
-
-## CVE-2026-33811 Crash when handling long CNAME response in net
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:01:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33811
-
-Information published.
-
-## CVE-2026-44656 Vim: OS Command Injection via 'path' completion
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:01:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44656
-
-Information published.
-
-## CVE-2026-45130 Vim: Heap Buffer Overflow in spell file loading
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:01:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45130
-
-Information published.
-
-## CVE-2026-6666 PgBouncer crash in kill_pool_logins_server_error
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:01:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6666
-
-Information published.
-
-## CVE-2026-6667 PgBouncer missing authorization check in KILL_CLIENT admin command
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:01:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6667
-
-Information published.
-
-## CVE-2026-6665 PgBouncer buffer overflow in SCRAM
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:01:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6665
-
-Information published.
-
-## CVE-2026-6664 PgBouncer integer overflow in PgBouncer network packet parsing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-10T08:01:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6664
-
-Information published.
-
 ## FIS Selected to Streamline Reconciliations for Australia's Largest Bank
 - Source: FIS
 - Category: Fintech Watch
 - Published: 2026-05-10T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-selected-streamline-reconciliations-australias-largest-bank
 
-## Upskillers, here’s a solid pick—this AI bundle is $20 today only
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/upskillers-heres-a-solid-pick-this-ai-bundle-is-20-today-only/
-
-## JDownloader site hacked to replace installers with Python RAT malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-09T19:27:58Z
-- URL: https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/
-
-The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access trojan. [...]
-
 ## Remarks by U.S. Secretary of the Treasury Scott Bessent at University of South Carolina Commencement
 - Source: Treasury
 - Category: OFAC
 - Published: 2026-05-09T15:10:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0497
-
-## Fake OpenAI repository on Hugging Face pushes infostealer malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-09T14:26:03Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/
-
-A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's "Privacy Filter" project to deliver information-stealing malware to Windows users. [...]
 
 ## CVE-2026-3832 Gnutls: gnutls: security bypass allows acceptance of revoked server certificates via crafted ocsp response
 - Source: Microsoft MSRC
@@ -3322,12 +5588,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41526
 
 Information published.
-
-## This Babbel deal shows how human-created language learning works better
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-09T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-babbel-deal-shows-how-human-created-language-learning-works-better/
 
 ## Economic Fury Disrupts Networks Supplying Weapons and UAV Components to Iran
 - Source: Treasury
@@ -3524,12 +5784,6 @@ SAN DIEGO—Like his counterparts at state treasuries nationwide, Brant Gibson k
 - Category: Fintech Watch
 - Published: 2026-05-08T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-first-quarter-earnings-may-8-2026
-
-## NVIDIA confirms GeForce NOW data breach affecting Armenian users
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-05-08T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/
 
 ## Updated Staple Food Stocking Standards for Retailers in the Supplemental Nutrition Assistance Program
 - Source: Federal Register
@@ -5075,22 +7329,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-42154 Prometheus: remote read endpoint allows denial of service via crafted snappy payload
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:03:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42154
-
-Information published.
-
-## CVE-2026-42151 Prometheus Azure AD remote write OAuth client secret exposed via config API
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-07T08:03:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42151
-
-Information published.
-
 ## CVE-2026-34319
 - Source: Microsoft MSRC
 - Category: IS
@@ -5655,14 +7893,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-35469 SpdyStream: DOS on CRI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-05T08:02:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35469
-
-Information published.
-
 ## Issuance of Venezuela-related General License
 - Source: OFAC
 - Category: OFAC
@@ -6081,35 +8311,11 @@ Information published.
 
 Information published.
 
-## CVE-2026-41605 Apache Thrift: Swift Compact Protocol integer overflow
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-01T08:04:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41605
-
-Information published.
-
 ## CVE-2026-41607 Apache Thrift: C++ JSON OOB read
 - Source: Microsoft MSRC
 - Category: IS
 - Published: 2026-05-01T08:04:23Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41607
-
-Information published.
-
-## CVE-2025-48431 Apache Thrift: Specially crafted input can crash a c_glib Thrift server with invalid pointer error.
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-01T08:04:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-48431
-
-Information published.
-
-## CVE-2026-41636 Apache Thrift: Node.js skip() recursion
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-01T08:04:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41636
 
 Information published.
 
@@ -6142,14 +8348,6 @@ Information published.
 - Category: IS
 - Published: 2026-05-01T08:03:46Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40355
-
-Information published.
-
-## CVE-2026-41602 Apache Thrift: Go TFramedTransport uint32 overflow
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-05-01T08:03:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41602
 
 Information published.
 
@@ -6568,12 +8766,6 @@ With the issuance of this final rule, the Drug Enforcement Administration places
 - Category: Executive
 - Published: 2026-04-30T20:08:37Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/04/national-fallen-firefighters-memorial-weekend-2026/
-
-## National Foster Care Month, 2026
-- Source: White House
-- Category: Executive
-- Published: 2026-04-30T20:06:03Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/04/national-foster-care-month-2026/
 
 ## Statement by TBA CEO Chris Furlow on release of CFPB’s new Sec. 1071 Final Rule
 - Source: TBA
@@ -7535,14 +9727,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-41603 Apache Thrift: Java TSSLTransportFactory hostname verification
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-30T08:11:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41603
-
-Information published.
-
 ## CVE-2026-31507 net/smc: fix double-free of smc_spd_priv when tee() duplicates splice pipe buffer
 - Source: Microsoft MSRC
 - Category: IS
@@ -7858,719 +10042,3 @@ This supplemental notice of proposed rulemaking re-opens public comment for cert
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm
 
 Federal Reserve issues FOMC statement
-
-## CVE-2026-21246 Windows Graphics Component Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21246
-
-Acknowledgement added. This is an informational change only.
-
-## Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-29T11:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html
-
-Stablecoin settlement pilot sees record growth 50% quarter over quarter, reaching $7B run rate. SAN FRANCISCO --(BUSINESS WIRE)--Apr. 29, 2026-- Today, Visa (NYSE: V) announced that it is adding five blockchains to its global stablecoin settlement pilot, expanding how issuers and acquirers can
-
-## Join us in Las Vegas, NV for the Metro 2® Format Advanced Workshop
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-04-29T10:00:10Z
-- URL: https://www.cdiaonline.org/events/2026/04/29/join-us-in-las-vegas-nv-for-the-metro-2-format-advanced-workshop/
-
-Join us in Las Vegas, NV for the Metro 2® Format Advanced Workshop, taking place November 17-18. Deepen your Metro 2® knowledge, gain industry insights, and engage in valuable networking opportunities. 🎉Bonus... The post Join us in Las Vegas, NV for the Metro 2® Format Advanced Workshop appeared first on CDIA .
-
-## CVE-2026-34591 Poetry Has Wheel Path Traversal Which Can Lead to Arbitrary File Write
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:47:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34591
-
-Information published.
-
-## CVE-2026-23388 Squashfs: check metadata block offset is within range
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:47:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23388
-
-Information published.
-
-## CVE-2026-31658 net: altera-tse: fix skb leak on DMA mapping error in tse_start_xmit()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:47:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31658
-
-Information published.
-
-## CVE-2026-31578 media: as102: fix to not free memory after the device is registered in as102_usb_probe()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:46:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31578
-
-Information published.
-
-## CVE-2026-31649 net: stmmac: fix integer underflow in chain mode
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:46:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31649
-
-Information published.
-
-## CVE-2026-31628 x86/CPU: Fix FPDSS on Zen1
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:45:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31628
-
-Information published.
-
-## CVE-2026-33055 tar-rs incorrectly ignores PAX size headers if header size is nonzero
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:45:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33055
-
-Information published.
-
-## CVE-2026-31657 batman-adv: hold claim backbone gateways by reference
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:45:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31657
-
-Information published.
-
-## CVE-2026-33056 tar-rs: unpack_in can chmod arbitrary directories by following symlinks
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:45:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33056
-
-Information published.
-
-## CVE-2026-31662 tipc: fix bc_ackers underflow on duplicate GRP_ACK_MSG
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:45:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31662
-
-Information published.
-
-## CVE-2026-31587 ASoC: qcom: q6apm: move component registration to unmanaged version
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:44:56Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31587
-
-Information published.
-
-## CVE-2026-2369 Libsoup: libsoup: buffer overread due to integer underflow when handling zero-length resources
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:44:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2369
-
-Information published.
-
-## CVE-2026-31627 i2c: s3c24xx: check the size of the SMBUS message before using it
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:44:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31627
-
-Information published.
-
-## CVE-2026-3784 wrong proxy connection reuse with credentials
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:43:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3784
-
-Information published.
-
-## CVE-2026-31642 rxrpc: Fix call removal to use RCU safe deletion
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:43:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31642
-
-Information published.
-
-## CVE-2026-3783 token leak with redirect and netrc
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:43:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3783
-
-Information published.
-
-## CVE-2026-1965 bad reuse of HTTP Negotiate connection
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:43:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-1965
-
-Information published.
-
-## CVE-2026-22701 filelock Time-of-Check-Time-of-Use (TOCTOU) Symlink Vulnerability in SoftFileLock
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:43:24Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-22701
-
-Information published.
-
-## CVE-2025-68146 filelock has TOCTOU race condition that allows symlink attacks during lock file creation
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:43:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68146
-
-Information published.
-
-## CVE-2026-31665 netfilter: nft_ct: fix use-after-free in timeout object destroy
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:43:08Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31665
-
-Information published.
-
-## CVE-2026-2443 Libsoup: out-of-bounds read in libsoup handle_partial_get() leading to heap information disclosure
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:42:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-2443
-
-Information published.
-
-## CVE-2026-31679 openvswitch: validate MPLS set/set_masked payload length
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:42:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31679
-
-Information published.
-
-## CVE-2026-31674 netfilter: ip6t_rt: reject oversized addrnr in rt_mt6_check()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:42:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31674
-
-Information published.
-
-## CVE-2026-31570 can: gw: fix OOB heap access in cgw_csum_crc8_rel()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:42:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31570
-
-Information published.
-
-## CVE-2026-31682 bridge: br_nd_send: linearize skb before parsing ND options
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:42:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31682
-
-Information published.
-
-## CVE-2026-31637 rxrpc: reject undecryptable rxkad response tickets
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:41:56Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31637
-
-Information published.
-
-## CVE-2026-31566 drm/amdgpu: Fix fence put before wait in amdgpu_amdkfd_submit_ib
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:41:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31566
-
-Information published.
-
-## CVE-2026-31675 net/sched: sch_netem: fix out-of-bounds access in packet corruption
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:41:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31675
-
-Information published.
-
-## CVE-2017-3735
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:41:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-3735
-
-Information published.
-
-## CVE-2026-41254
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:41:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41254
-
-Information published.
-
-## CVE-2026-31638 rxrpc: Only put the call ref if one was acquired
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:41:15Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31638
-
-Information published.
-
-## CVE-2026-31667 Input: uinput - fix circular locking dependency with ff-core
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:40:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31667
-
-Information published.
-
-## CVE-2026-31555 futex: Clear stale exiting pointer in futex_lock_pi() retry path
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:40:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31555
-
-Information published.
-
-## CVE-2026-32147 SFTP chroot bypass via path traversal in SSH_FXP_FSETSTAT
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:40:02Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32147
-
-Information published.
-
-## CVE-2026-41411 Vim: Command injection via backtick expansion in tag filenames
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:39:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41411
-
-Information published.
-
-## CVE-2026-41140 Poetry: Path traversal in tar extraction on Python 3.10.0 - 3.10.12 and 3.11.0 - 3.11.4
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:39:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41140
-
-Information published.
-
-## CVE-2026-31788 xen/privcmd: restrict usage in unprivileged domU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:39:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31788
-
-Information published.
-
-## CVE-2026-23406 apparmor: fix side-effect bug in match_char() macro usage
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:38:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23406
-
-Information published.
-
-## CVE-2026-23395 Bluetooth: L2CAP: Fix accepting multiple L2CAP_ECRED_CONN_REQ
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:38:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23395
-
-Information published.
-
-## CVE-2026-23391 netfilter: xt_CT: drop pending enqueued packets on template removal
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:38:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23391
-
-Information published.
-
-## CVE-2026-6861 Emacs: emacs: memory corruption vulnerability when processing svg css
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:09:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6861
-
-Information published.
-
-## CVE-2026-40556 Insecure Directory Permissions in GNU nano Leading to Privilege Abuse
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:07:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40556
-
-Information published.
-
-## CVE-2026-40225
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:06:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40225
-
-Information published.
-
-## CVE-2026-31648 mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:06:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31648
-
-Information published.
-
-## CVE-2026-31563 net: macb: Use dev_consume_skb_any() to free TX SKBs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:06:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31563
-
-Information published.
-
-## CVE-2026-31672 wifi: rt2x00usb: fix devres lifetime
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:06:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31672
-
-Information published.
-
-## CVE-2026-31671 xfrm_user: fix info leak in build_report()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:06:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31671
-
-Information published.
-
-## CVE-2026-31670 net: rfkill: prevent unlimited numbers of rfkill events from being created
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:06:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31670
-
-Information published.
-
-## CVE-2026-31668 seg6: separate dst_cache for input and output paths in seg6 lwtunnel
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:06:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31668
-
-Information published.
-
-## CVE-2026-31664 xfrm: clear trailing padding in build_polexpire()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:05:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31664
-
-Information published.
-
-## CVE-2026-31661 wifi: brcmsmac: Fix dma_free_coherent() size
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:05:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31661
-
-Information published.
-
-## CVE-2026-31660 nfc: pn533: allocate rx skb before consuming bytes
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:05:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31660
-
-Information published.
-
-## CVE-2026-31659 batman-adv: reject oversized global TT response buffers
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:05:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31659
-
-Information published.
-
-## CVE-2026-31656 drm/i915/gt: fix refcount underflow in intel_engine_park_heartbeat
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:05:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31656
-
-Information published.
-
-## CVE-2026-31651 mmc: vub300: fix NULL-deref on disconnect
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:05:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31651
-
-Information published.
-
-## CVE-2026-31634 rxrpc: fix reference count leak in rxrpc_server_keyring()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:04:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31634
-
-Information published.
-
-## CVE-2026-31625 HID: alps: fix NULL pointer dereference in alps_raw_event()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:04:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31625
-
-Information published.
-
-## CVE-2026-31577 nilfs2: fix NULL i_assoc_inode dereference in nilfs_mdt_save_to_shadow_map
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:03:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31577
-
-Information published.
-
-## CVE-2026-31565 RDMA/irdma: Fix deadlock during netdev reset with active connections
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:02:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31565
-
-Information published.
-
-## CVE-2026-31552 wifi: wlcore: Return -ENOMEM instead of -EAGAIN if there is not enough headroom
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:02:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31552
-
-Information published.
-
-## CVE-2026-31551 wifi: mac80211: Fix static_branch_dec() underflow for aql_disable.
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:02:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31551
-
-Information published.
-
-## CVE-2026-31550 pmdomain: bcm: bcm2835-power: Increase ASB control timeout
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:02:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31550
-
-Information published.
-
-## CVE-2026-31549 i2c: cp2615: fix serial string NULL-deref at probe
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:02:15Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31549
-
-Information published.
-
-## CVE-2026-31548 wifi: cfg80211: cancel pmsr_free_wk in cfg80211_pmsr_wdev_down
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:02:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31548
-
-Information published.
-
-## CVE-2026-31473 media: mc, v4l2: serialize REINIT and REQBUFS with req_queue_mutex
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:01:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31473
-
-Information published.
-
-## CVE-2026-31689 EDAC/mc: Fix error path ordering in edac_mc_alloc()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:01:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-31689
-
-Information published.
-
-## CVE-2026-41079 OpenPrinting CUPS: Heap out-of-bounds read in SNMP supply-level polling leaks stack memory to authenticated users
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-29T08:01:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41079
-
-Information published.
-
-## Issuance of Amended Russia-related General License and Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-04-29T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260429
-
-## News & Events
-- Source: FRB
-- Category: Banking
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.federalreserve.gov/newsevents.htm
-
-The Federal Reserve Board of Governors in Washington DC.
-
-## 2026 FOMC
-- Source: FRB
-- Category: Banking
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/2026-press-fomc.htm
-
-The Federal Reserve Board of Governors in Washington DC.
-
-## Fannie Mae Reports Net Income of $3.7 Billion for First Quarter 2026
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/first-quarter-2026-financial-results
-
-Fannie Mae reported its first quarter 2026 financial results and filed its First Quarter 2026 Form 10-Q with the Securities and Exchange Commission.
-
-## Fannie Mae First Quarter 2026 Financial Results Webcast
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/first-quarter-2026-financial-results-webcast
-
-Adapted from comments delivered by Peter Akwaboah, Acting Chief Executive Officer and Chief Operating Officer, and Chryssa C. Halley, Chief Financial Officer, Fannie Mae, Washington, D.C.
-
-## Fannie Mae Plans to Report First Quarter 2026 Financial Results on April 29, 2026
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/scheduled-release-first-quarter-2026-financial-results
-
-## Full Committee Reviews Updated Basel III and Capital Framework Proposals
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-04-29T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411111
-
-## Lucas: Derivatives Markets are Key to Managing Treasury Market Risk
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-04-29T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411112
-
-## M1 Selects FIS to Replace Legacy Infrastructure with Real-Time Proxy Voting
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/m1-selects-fis-replace-legacy-infrastructure-real-time-proxy
-
-## FIS Launches New Platform Giving Banks Control Over Digital Money
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-new-platform-giving-banks-control-over-digital
-
-## Regulatory Capital Rule: Community Bank Leverage Ratio Framework
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/29/2026-08298/regulatory-capital-rule-community-bank-leverage-ratio-framework
-
-The Office of the Comptroller of the Currency, the Board of Governors of the Federal Reserve System, and the Federal Deposit Insurance Corporation are adopting a final rule that lowers the community bank leverage ratio (CBLR) requirement from 9 percent to 8 percent, consistent with the lower bound provided in section 201 of the Economic Growth, Regulatory Relief, and Consumer…
-
-## National Bank Non-Interest Charges and Fees
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/29/2026-08328/national-bank-non-interest-charges-and-fees
-
-The OCC is adopting an interim final rule to clarify that national banks' power to charge non-interest charges and fees includes the power to assess, collect, impose, levy, receive, reserve, take, or otherwise obtain non-interest charges and fees, including interchange fees from credit and debit card operations. Further, the interim final rule explains that national banks may…
-
-## USCIS Immigration Fees and Related Procedures Required by H.R.1 Reconciliation Bill
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/29/2026-08333/uscis-immigration-fees-and-related-procedures-required-by-hr1-reconciliation-bill
-
-The U.S. Department of Homeland Security (DHS) issues this interim final rule (IFR) to codify certain immigration fees and other provisions required by the One Big Beautiful Bill Act (H.R.1). This IFR amends U.S. Citizenship and Immigration Services (USCIS) regulations to codify: the asylum and annual asylum fees, including the consequences of non-payment of these fees; the ne…
-
-## Notice of Requests for Certification of Capital Counsel Mechanisms of Florida and Mississippi
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/29/2026-08319/notice-of-requests-for-certification-of-capital-counsel-mechanisms-of-florida-and-mississippi
-
-This notice advises the public that the States of Florida and Mississippi have requested certification of their capital counsel mechanisms by the Attorney General and that public comments may be submitted to the Department of Justice regarding these requests.
-
-## Privacy Act of 1974; System of Records
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/29/2026-08318/privacy-act-of-1974-system-of-records
-
-Pursuant to the Privacy Act of 1974, and Office of Management and Budget (OMB) Circular No. A-108, notice is hereby given that the United States Department of Justice (Department or DOJ) Drug Enforcement Administration (DEA) proposes to develop a new system of records titled "DEA Inventory Tracking Records," which will serve as the repository of inventory management records at…
-
-## Privacy Act of 1974; Systems of Records
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-04-29T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/04/29/2026-08317/privacy-act-of-1974-systems-of-records
-
-Pursuant to the Privacy Act of 1974 (5 U.S.C. 552a), CRT proposes to establish a new system of records titled "Civil Rights Division Reporting Portal," JUSTICE/CRT-012. This system of records modernizes how the Division receives reports of alleged civil rights violations from the public. It operates as a web application and database where the public will be able to access a st…
-
-## Visa Fiscal Second Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-04-28T20:05:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html
-
-SAN FRANCISCO --(BUSINESS WIRE)--Apr. 28, 2026-- Visa (NYSE: V) today announced its fiscal second quarter 2026 financial results through an earnings release that will be furnished with the Securities and Exchange Commission on a Form 8-K and available on its Investor Relations website at
-
-## Chromium: CVE-2026-6920 Out of bounds read in GPU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-28T14:00:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6920
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## CVE-2026-33103 Microsoft Dynamics 365 (On-Premises) Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-28T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33103
-
-Added acknowledgements. This is an informational change only.
-
-## Chromium: CVE-2026-6919 Use after free in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-28T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6919
-
-Added a second Security Only package to Edge security update. This is an informational change only.
-
-## CVE-2026-40372 ASP.NET Core Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-04-28T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40372
-
-This CVE has been updated to include the Visual Studios 2026 18.5 as an Affected Software
