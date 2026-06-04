@@ -1,5 +1,608 @@
 [
   {
+    "category": "OFAC",
+    "source": "Treasury",
+    "title": "Statement from Secretary of the Treasury Scott Bessent Before the United States House of Representatives Ways and Means Committee",
+    "published_at": "2026-06-04T14:15:00Z",
+    "url": "https://home.treasury.gov/news/press-releases/sb0522",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook",
+    "published_at": "2026-06-04T14:01:11Z",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
+    "summary": "Threat actors are actively teaching newcomers how to find, exploit, and profit from vulnerable systems. Flare explores what a popular underground hacking tutorial reveals about modern attacker workflows. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Microsoft blames unexpected Windows driver updates on caching issue",
+    "published_at": "2026-06-04T13:41:42Z",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/",
+    "summary": "On Wednesday, Microsoft fixed an issue that caused some Windows devices to install driver updates without notice despite policies configured to prevent auto-updates. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Police dismantles fake ID marketplace used by migrant smugglers",
+    "published_at": "2026-06-04T12:29:12Z",
+    "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/",
+    "summary": "French and Spanish authorities took down an online marketplace selling fake identity documents to migrant smuggling rings operating within the European Union. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Cisco warns of critical Unified CM flaw with PoC exploit code",
+    "published_at": "2026-06-04T11:09:50Z",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/",
+    "summary": "Cisco has released security updates to patch a critical-severity Unified Communications Manager (Unified CM) flaw that allows attackers to gain root privileges. [...]"
+  },
+  {
+    "category": "Compliance Watch",
+    "source": "CDIA",
+    "title": "New Webinar Announcement!",
+    "published_at": "2026-06-04T10:00:54Z",
+    "url": "https://www.cdiaonline.org/events/2026/06/04/new-webinar-announcement/",
+    "summary": "Missed CDIA Connect 2026? You still have an opportunity to hear from one of our standout keynote speakers. Join Liz Pagel,... The post New Webinar Announcement! appeared first on CDIA ."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-9149 Libsolv: heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file",
+    "published_at": "2026-06-04T08:45:36Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9149",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-9150 Libsolv: stack-based buffer overflow in libsolv's debian metadata parser when handling sha384/sha512 checksums",
+    "published_at": "2026-06-04T08:45:29Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9150",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-46598 Invoking pathological inputs can lead to client panic in golang.org/x/crypto/ssh/agent",
+    "published_at": "2026-06-04T08:45:22Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46598",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-27136 Invoking duplicate attributes can cause XSS in golang.org/x/net/html",
+    "published_at": "2026-06-04T08:45:09Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27136",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-42506 Invoking incorrect handling of namespaced elements in foreign content in golang.org/x/net/html",
+    "published_at": "2026-06-04T08:45:02Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42506",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-25681 Invoking incorrect handling of character references in DOCTYPE nodes in golang.org/x/net/html",
+    "published_at": "2026-06-04T08:44:55Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25681",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-39827 Invoking memory leak when rejecting channels can lead to DoS in golang.org/x/crypto/ssh",
+    "published_at": "2026-06-04T08:44:26Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39827",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-39835 Invoking server panic during CheckHostKey/Authenticate in golang.org/x/crypto/ssh",
+    "published_at": "2026-06-04T08:44:06Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39835",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-25680 Invoking denial of service when parsing arbitrary HTML in golang.org/x/net/html",
+    "published_at": "2026-06-04T08:43:47Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25680",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-42502 Invoking incorrect handling of HTML elements in foreign content in golang.org/x/net/html",
+    "published_at": "2026-06-04T08:43:19Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42502",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-39828 Invoking bypass of certificate restrictions in golang.org/x/crypto/ssh",
+    "published_at": "2026-06-04T08:42:55Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39828",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-43964 Postfix before 3.8.16, 3.9 before 3.9.10, and 3.10 before 3.10.9 sometimes allows a buffer over-read and process crash via an enhanced status code that lacks text after the third number.",
+    "published_at": "2026-06-04T08:42:06Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43964",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-41140 Poetry: Path traversal in tar extraction on Python 3.10.0 - 3.10.12 and 3.11.0 - 3.11.4",
+    "published_at": "2026-06-04T08:41:49Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41140",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-35414 OpenSSH before 10.3 mishandles the authorized_keys principals option in uncommon scenarios involving a principals list in conjunction with a Certificate Authority that makes certain use of comma character…",
+    "published_at": "2026-06-04T08:40:55Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35414",
+    "summary": "Information published."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2025-1149 GNU Binutils ld xmalloc.c xstrdup memory leak",
+    "published_at": "2026-06-04T08:39:23Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1149",
+    "summary": "Information published."
+  },
+  {
+    "category": "Legislative",
+    "source": "House Financial Services",
+    "title": "Chairman Hill: The Trump Administration Is Returning the Prudential Regulators to Their Core Regulatory and Supervisory Mission",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411157",
+    "summary": ""
+  },
+  {
+    "category": "Payments",
+    "source": "NACHA",
+    "title": "The New Nacha Rules: New Fraud Compliance Responsibilities for All Organizations Sending ACH Payments",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://www.nacha.org/news/new-nacha-rules-new-fraud-compliance-responsibilities-all-organizations-sending-ach-payments",
+    "summary": "Implementation Dates:"
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa and Brale Explore Private Stablecoin Settlement for Institutional Payments",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22481.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Expands Commercial Solutions Hub with Integration of Visa Accounts Receivable Manager",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22471.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Threats Report: As Network Security Strengthens, Criminals Accelerate Shift to AI-Enabled Social Engineering",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22466.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Men in Blazers Media Network and Visa Team Up to Launch Fan-Powered City Guides Celebrating Soccer Culture and Local Small Businesses",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22461.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa and Jason Sudeikis Turn the Simplest Goal in Football Into the Biggest Fan Moments at the FIFA World Cup 2026™",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22441.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Your Card, Your Security. Tap: A Safer Way to Verify Identity — Visa, Keyno, and Fidelity Bank (Bahamas) Lead the Transformation",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22406.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa to Participate in Upcoming Investor Conferences",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Announces Global Expansion of Agentic Ready Program",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22341.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Fiscal Second Quarter 2026 Financial Results",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Launches Validator Node on Tempo Blockchain",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Defines the Next Era of Commerce: When AI Becomes the Customer",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Unveils New Services to Modernize Dispute Resolution Process",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa to Bring Privacy-Preserving Payments to Canton Network",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Completes Acquisition of Prisma and Newpay",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa to Acquire Prisma Medios de Pago and Newpay in Argentina",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Renews Partnership Across Red Bull Formula One Teams",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa to Participate in Upcoming Investor Conferences",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Fiscal First Quarter 2026 Financial Results",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html",
+    "summary": ""
+  },
+  {
+    "category": "Payment Card Networks",
+    "source": "Visa",
+    "title": "Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Get GPT, Claude, Gemini, image tools, & more in one $60 lifetime app— only through 6/14",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://www.bleepingcomputer.com/offer/deals/get-gpt-claude-gemini-image-tools-and-more-in-one-60-lifetime-app-only-through-6-14/",
+    "summary": ""
+  },
+  {
+    "category": "Federal Register",
+    "source": "Federal Register",
+    "title": "Formations of, Acquisitions by, and Mergers of Bank Holding Companies",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11203/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies",
+    "summary": "",
+    "fr_tags": [
+      "agency:federal-reserve-system",
+      "filter:federal-reserve-system"
+    ],
+    "fedreg_document_number": "2026-11203"
+  },
+  {
+    "category": "Federal Register",
+    "source": "Federal Register",
+    "title": "American Fisheries Act Program Update; Simplifying the Application Process",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11267/american-fisheries-act-program-update-simplifying-the-application-process",
+    "summary": "On July 1, 2025, MARAD published a Notice of Proposed Rulemaking (NPRM), titled \"American Fisheries Act Program Update; Simplifying the Application Process,\" soliciting public comment on steps MARAD could take to simplify and modernize the process for evidencing U.S. citizenship for owners of U.S.-flag fishing industry vessels of 100 feet or greater in registered length. MARAD…",
+    "fr_tags": [
+      "agency:maritime-administration",
+      "agency:transportation-department",
+      "topic:mortgages"
+    ],
+    "fedreg_document_number": "2026-11267"
+  },
+  {
+    "category": "Federal Register",
+    "source": "Federal Register",
+    "title": "Agency Information Collection Activities: Proposed Collection Renewal; Comment Request",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11177/agency-information-collection-activities-proposed-collection-renewal-comment-request",
+    "summary": "The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to take this opportunity to comment on the renewal of the existing information collections described below (OMB Control No. 3064-0057; -0125 and -0175).",
+    "fr_tags": [
+      "agency:federal-deposit-insurance-corporation",
+      "filter:federal-deposit-insurance-corporation"
+    ],
+    "fedreg_document_number": "2026-11177"
+  },
+  {
+    "category": "Federal Register",
+    "source": "Federal Register",
+    "title": "Processing Certain Veteran-Requested Veteran Readiness and Employment Benefit Changes Without Administrative Delays",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11195/processing-certain-veteran-requested-veteran-readiness-and-employment-benefit-changes-without",
+    "summary": "The Department of Veterans Affairs (VA) proposes to amend regulations under the Veteran Readiness and Employment (VR&E) program to ensure veterans' requests to forgo, suspend, reduce, or terminate their benefits and services may be processed timely and without unnecessary delays. The current regulation requires VR&E to provide at least 30 days advance notice and opportunity fo…",
+    "fr_tags": [
+      "agency:veterans-affairs-department",
+      "topic:employment",
+      "topic:loan-programs-education"
+    ],
+    "fedreg_document_number": "2026-11195"
+  },
+  {
+    "category": "Federal Register",
+    "source": "Federal Register",
+    "title": "Agency Information Collection Activities; Proposed eCollection eComments Requested; Reinstatement, With Change, of a Previously Approved Collection for Which Approval Has Expired: Census of Tribal Law Enforcement Agenci…",
+    "published_at": "2026-06-04T00:00:00Z",
+    "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11173/agency-information-collection-activities-proposed-ecollection-ecomments-requested-reinstatement-with",
+    "summary": "The Bureau of Justice Statistics, Department of Justice (DOJ) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.",
+    "fr_tags": [
+      "agency:justice-department",
+      "filter:justice-department"
+    ],
+    "fedreg_document_number": "2026-11173"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
+    "published_at": "2026-06-03T21:45:27Z",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
+    "summary": "A Chinese-speaking cybercrime group has expanded its targeting to the European space, deploying previously undocumented malware and the Atlas backdoor. [...]"
+  },
+  {
+    "category": "Executive",
+    "source": "White House",
+    "title": "Strengthening Customs Enforcement",
+    "published_at": "2026-06-03T20:35:52Z",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/06/strengthening-customs-enforcement/",
+    "summary": ""
+  },
+  {
+    "category": "Executive",
+    "source": "White House",
+    "title": "Implementing Schedule Policy/Career in the Excepted Service",
+    "published_at": "2026-06-03T20:34:27Z",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/06/implementing-schedule-policy-career-in-the-excepted-service/",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
+    "published_at": "2026-06-03T20:31:22Z",
+    "url": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
+    "summary": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activities. [...]"
+  },
+  {
+    "category": "Executive",
+    "source": "White House",
+    "title": "Fact Sheet: President Donald J. Trump Increases Accountability in the Federal Workforce",
+    "published_at": "2026-06-03T20:30:33Z",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
+    "summary": ""
+  },
+  {
+    "category": "Executive",
+    "source": "White House",
+    "title": "Fact Sheet: President Donald J. Trump Strengthens Customs Enforcement",
+    "published_at": "2026-06-03T20:29:46Z",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-strengthens-customs-enforcement/",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "CISA warns of cyberattacks targeting fuel tank monitoring systems",
+    "published_at": "2026-06-03T20:21:56Z",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
+    "summary": "CISA, the FBI, the NSA, the Department of Energy, and other US government partners are warning that hackers are targeting internet-exposed automatic tank gauge (ATG) systems used to monitor fuel and liquid storage tanks across various critical infrastructure sectors. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute",
+    "published_at": "2026-06-03T19:08:19Z",
+    "url": "https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/",
+    "summary": "A new denial-of-service (DoS) attack dubbed HTTP/2 Bomb can be launched from a single machine to take down web servers within seconds. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "CISA warns of active attacks exploiting Android, Linux bugs",
+    "published_at": "2026-06-03T15:36:16Z",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting vulnerabilities in the Linux kernel and Android operating system. [...]"
+  },
+  {
+    "category": "OFAC",
+    "source": "Treasury",
+    "title": "Statement from Secretary of the Treasury Scott Bessent Before the United States Senate Finance Committee",
+    "published_at": "2026-06-03T14:15:00Z",
+    "url": "https://home.treasury.gov/news/press-releases/sb0521",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "What 345 Days of Untested Exposure Looks Like at a Bank",
+    "published_at": "2026-06-03T14:02:12Z",
+    "url": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
+    "summary": "A two-week penetration test can leave roughly 345 days of real-world exposure unvalidated. Sprocket Security explores why continuous testing is becoming critical as attack surfaces constantly change. [...]"
+  },
+  {
     "category": "Fintech Watch",
     "source": "Finastra",
     "title": "CORA Group Acquires Finastra’s Phoenix Core System, Malauzai Digital Banking and Fusion Analytics Businesses",
@@ -242,14 +845,6 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-27136 Invoking duplicate attributes can cause XSS in golang.org/x/net/html",
-    "published_at": "2026-06-03T08:49:01Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27136",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-27140 Code execution vulnerability in SWIG code generation in cmd/go",
     "published_at": "2026-06-03T08:48:57Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27140",
@@ -261,14 +856,6 @@
     "title": "CVE-2026-39836 Panic in Dial and LookupPort when handling NUL byte on Windows in net",
     "published_at": "2026-06-03T08:48:55Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39836",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-42506 Invoking incorrect handling of namespaced elements in foreign content in golang.org/x/net/html",
-    "published_at": "2026-06-03T08:48:48Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42506",
     "summary": "Information published."
   },
   {
@@ -434,25 +1021,9 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-46598 Invoking pathological inputs can lead to client panic in golang.org/x/crypto/ssh/agent",
-    "published_at": "2026-06-03T08:46:49Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46598",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2025-13462 tarfile: Skip DIRTYPE normalization during GNU LONGNAME/LONGLINK handling",
     "published_at": "2026-06-03T08:46:37Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-13462",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-25681 Invoking incorrect handling of character references in DOCTYPE nodes in golang.org/x/net/html",
-    "published_at": "2026-06-03T08:46:33Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25681",
     "summary": "Information published."
   },
   {
@@ -538,14 +1109,6 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-39827 Invoking memory leak when rejecting channels can lead to DoS in golang.org/x/crypto/ssh",
-    "published_at": "2026-06-03T08:45:53Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39827",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-6383 Kubevirt: kubevirt: unauthorized subresource access due to improper rbac evaluation",
     "published_at": "2026-06-03T08:45:51Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6383",
@@ -565,14 +1128,6 @@
     "title": "CVE-2026-3832 Gnutls: gnutls: security bypass allows acceptance of revoked server certificates via crafted ocsp response",
     "published_at": "2026-06-03T08:45:43Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3832",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-39835 Invoking server panic during CheckHostKey/Authenticate in golang.org/x/crypto/ssh",
-    "published_at": "2026-06-03T08:45:24Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39835",
     "summary": "Information published."
   },
   {
@@ -613,14 +1168,6 @@
     "title": "CVE-2026-6842 Nano: nano: local attacker can inject malicious .desktop launcher due to insecure directory permissions",
     "published_at": "2026-06-03T08:44:56Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6842",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-25680 Invoking denial of service when parsing arbitrary HTML in golang.org/x/net/html",
-    "published_at": "2026-06-03T08:44:53Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25680",
     "summary": "Information published."
   },
   {
@@ -669,14 +1216,6 @@
     "title": "CVE-2025-58188 Panic when validating certificates with DSA public keys in crypto/x509",
     "published_at": "2026-06-03T08:44:06Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58188",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-42502 Invoking incorrect handling of HTML elements in foreign content in golang.org/x/net/html",
-    "published_at": "2026-06-03T08:44:03Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42502",
     "summary": "Information published."
   },
   {
@@ -749,14 +1288,6 @@
     "title": "CVE-2025-55551 An issue in the component torch.linalg.lu of pytorch v2.8.0 allows attackers to cause a Denial of Service (DoS) when performing a slice operation.",
     "published_at": "2026-06-03T08:43:17Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-55551",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-39828 Invoking bypass of certificate restrictions in golang.org/x/crypto/ssh",
-    "published_at": "2026-06-03T08:43:11Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39828",
     "summary": "Information published."
   },
   {
@@ -1208,12 +1739,60 @@
     "summary": "Information published."
   },
   {
+    "category": "Compliance Watch",
+    "source": "TBA",
+    "title": "Trump signs executive order to strengthen AI innovation and cybersecurity",
+    "published_at": "2026-06-03T07:00:00Z",
+    "url": "https://www.texasbankers.com/trump-signs-executive-order-to-strengthen-ai-innovation-and-cybersecurity/",
+    "summary": "President Trump signed an executive order instructing federal agencies to address potential cybersecurity risks posed by artificial intelligence, including equipping community banks with the necessary tools to defend themselves. In section two of the order, it reads: “American Systems for Advanced AI: Within 30 days of the date of this order, the Committee on National […] The…"
+  },
+  {
     "category": "IS",
     "source": "BleepingComputer",
     "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
     "published_at": "2026-06-03T06:50:30Z",
     "url": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
     "summary": "A security researcher has released exploit code for a Visual Studio Code (VS Code) zero-day vulnerability that allows attackers to steal GitHub authentication tokens by tricking users into clicking a link. [...]"
+  },
+  {
+    "category": "Mortgage",
+    "source": "FHLB MPF",
+    "title": "MPF Announcement 2026-36",
+    "published_at": "2026-06-03T00:00:00Z",
+    "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-36",
+    "summary": ""
+  },
+  {
+    "category": "Legislative",
+    "source": "Senate Banking",
+    "title": "ICYMI: Chairman Scott Hosts CNBC’s Squawk Box at Senate Banking Committee, Highlights Bipartisan Results and Affordability Agenda",
+    "published_at": "2026-06-03T00:00:00Z",
+    "url": "https://www.banking.senate.gov/newsroom/majority/icymi-chairman-scott-hosts-cnbcs-squawk-box-at-senate-banking-committee-highlights-bipartisan-results-and-affordability-agenda",
+    "summary": ""
+  },
+  {
+    "category": "Legislative",
+    "source": "Senate Banking",
+    "title": "FW: Ranking Members Scott, Sanders, and Warren Slam Trump Administration Plan to Open Americans’ Hard-Earned Retirement Savings to Private Equity and Cryptocurrency",
+    "published_at": "2026-06-03T00:00:00Z",
+    "url": "https://www.banking.senate.gov/newsroom/minority/fw-ranking-members-scott-sanders-and-warren-slam-trump-administration-plan-to-open-americans-hard-earned-retirement-savings-to-private-equity-and-cryptocurrency",
+    "summary": ""
+  },
+  {
+    "category": "Legislative",
+    "source": "Senate Banking",
+    "title": "Warren Statement on Trump Naming FHFA Director Bill Pulte Acting DNI",
+    "published_at": "2026-06-03T00:00:00Z",
+    "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-trump-naming-fhfa-director-bill-pulte-acting-dni",
+    "summary": ""
+  },
+  {
+    "category": "Legislative",
+    "source": "House Financial Services",
+    "title": "Chairman Hill and Vice Chairman Huizenga Warn Obama-Era Conflict Mineral Rules Undermine U.S. National Security",
+    "published_at": "2026-06-03T00:00:00Z",
+    "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411155",
+    "summary": ""
   },
   {
     "category": "Fintech Watch",
@@ -2666,6 +3245,14 @@
   {
     "category": "IS",
     "source": "BleepingComputer",
+    "title": "This Azure certification prep bundle is just $40 right now",
+    "published_at": "2026-06-03T00:00:00Z",
+    "url": "https://www.bleepingcomputer.com/offer/deals/this-azure-certification-prep-bundle-is-just-40-right-now/",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
     "title": "This $95 Surfshark bundle includes VPN, antivirus & data broker removal for a year",
     "published_at": "2026-06-03T00:00:00Z",
     "url": "https://www.bleepingcomputer.com/offer/deals/this-95-surfshark-bundle-includes-vpn-antivirus-and-data-broker-removal-for-a-year/",
@@ -2721,38 +3308,6 @@
     "summary": "Microsoft announced today at its Build 2026 developer conference the release of Coreutils for Windows, bringing many commonly used Linux command-line utilities to Windows as native applications. [...]"
   },
   {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "OpenAI upgrades GPT-5.5, as it plans to retire legacy ChatGPT models",
-    "published_at": "2026-06-02T22:44:50Z",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/",
-    "summary": "OpenAI says it's rolling out a new update that improves the existing GPT-5.5 Instant model, and this move comes ahead of the scheduled retirement of multiple legacy models, including o3. [...]"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Critical Kirki flaw exploited to hijack WordPress admin accounts",
-    "published_at": "2026-06-02T22:12:57Z",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
-    "summary": "Hackers are exploiting a critical privilege escalation vulnerability (CVE-2026-8206) in the Kirki plugin for WordPress to take over any user account, including those belonging to administrators. [...]"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Over 116,000 Minecraft systems infected in WeedHack malware campaign",
-    "published_at": "2026-06-02T21:54:49Z",
-    "url": "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
-    "summary": "A large-scale malware campaign dubbed WeedHack is targeting Minecraft players and has infected more than 116,000 systems since January. [...]"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "AI-built ransomware toolkit automates EDR evasion, AD discovery",
-    "published_at": "2026-06-02T20:01:20Z",
-    "url": "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
-    "summary": "A threat actor is using an AI-built ransomware attack toolkit that automates Active Directory discovery and helps evade endpoint detection and response (EDR) solutions. [...]"
-  },
-  {
     "category": "OFAC",
     "source": "Treasury",
     "title": "Economic Fury Targets Iran’s Largest Digital Asset Exchange for Terror Finance and Sanctions Evasion",
@@ -2785,22 +3340,6 @@
     "summary": ""
   },
   {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Microsoft Exchange Online outage causes email delays, failures",
-    "published_at": "2026-06-02T17:02:40Z",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
-    "summary": "Microsoft is working to address a widespread service issue affecting the mail flow pipeline for Exchange Online customers across North America and Germany. [...]"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Instagram users locked out after Meta AI abused to steal accounts",
-    "published_at": "2026-06-02T15:47:33Z",
-    "url": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
-    "summary": "Multiple Instagram users had their accounts hijacked after attackers convinced Meta's AI-powered support tools that they were the legitimate owners. [...]"
-  },
-  {
     "category": "Executive",
     "source": "White House",
     "title": "Promoting Advanced Artificial Intelligence Innovation and Security",
@@ -2826,14 +3365,6 @@
   },
   {
     "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Why the browser is now the front line for AI security",
-    "published_at": "2026-06-02T14:30:40Z",
-    "url": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
-    "summary": "AI-powered attacks and shadow AI adoption are creating new security risks inside the browser. Push Security explains why browser visibility is becoming critical for both threat detection and AI governance. [...]"
-  },
-  {
-    "category": "IS",
     "source": "Microsoft MSRC",
     "title": "CVE-2026-40361 Microsoft Outlook and Word Remote Code Execution Vulnerability",
     "published_at": "2026-06-02T14:00:00Z",
@@ -2849,28 +3380,12 @@
     "summary": ""
   },
   {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
-    "published_at": "2026-06-02T12:40:33Z",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
-    "summary": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years ago and is now actively exploited in attacks. [...]"
-  },
-  {
     "category": "Fintech Watch",
     "source": "Finastra",
     "title": "Finastra convenes industry leaders in Sydney to shape the next era of banking at Innovating Finance Together Summit",
     "published_at": "2026-06-02T12:00:00Z",
     "url": "https://www.finastra.com/press-media/finastra-convenes-industry-leaders-sydney-shape-next-era-banking-innovating-finance",
     "summary": ""
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
-    "published_at": "2026-06-02T11:10:15Z",
-    "url": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
-    "summary": "Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks. [...]"
   },
   {
     "category": "Compliance Watch",
@@ -3481,38 +3996,6 @@
     "summary": ""
   },
   {
-    "category": "Legislative",
-    "source": "Senate Banking",
-    "title": "FW: Ranking Members Scott, Sanders, and Warren Slam Trump Administration Plan to Open Americans’ Hard-Earned Retirement Savings to Private Equity and Cryptocurrency",
-    "published_at": "2026-06-02T00:00:00Z",
-    "url": "https://www.banking.senate.gov/newsroom/minority/fw-ranking-members-scott-sanders-and-warren-slam-trump-administration-plan-to-open-americans-hard-earned-retirement-savings-to-private-equity-and-cryptocurrency",
-    "summary": ""
-  },
-  {
-    "category": "Legislative",
-    "source": "Senate Banking",
-    "title": "Warren Statement on Trump Naming FHFA Director Bill Pulte Acting DNI",
-    "published_at": "2026-06-02T00:00:00Z",
-    "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-trump-naming-fhfa-director-bill-pulte-acting-dni",
-    "summary": ""
-  },
-  {
-    "category": "Legislative",
-    "source": "Senate Banking",
-    "title": "Warren Probes NVIDIA's Compliance With Export Control Laws and Regulations",
-    "published_at": "2026-06-02T00:00:00Z",
-    "url": "https://www.banking.senate.gov/newsroom/minority/warren-probes-nvidias-compliance-with-export-control-laws-and-regulations",
-    "summary": ""
-  },
-  {
-    "category": "Payments",
-    "source": "NACHA",
-    "title": "The New Nacha Rules: New Fraud Compliance Responsibilities for All Organizations Sending ACH Payments",
-    "published_at": "2026-06-02T00:00:00Z",
-    "url": "https://www.nacha.org/news/new-nacha-rules-new-fraud-compliance-responsibilities-all-organizations-sending-ach-payments",
-    "summary": "Implementation Dates:"
-  },
-  {
     "category": "Fintech Watch",
     "source": "FIS",
     "title": "FIS to Present at Upcoming Conference",
@@ -3531,17 +4014,17 @@
   {
     "category": "IS",
     "source": "BleepingComputer",
-    "title": "PDF Agile is down to $30 for life — but only through 6/7",
+    "title": "OpenAI upgrades GPT-5.5, as it plans to retire legacy ChatGPT models",
     "published_at": "2026-06-02T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/offer/deals/pdf-agile-is-down-to-30-for-life-but-only-through-6-7/",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/",
     "summary": ""
   },
   {
     "category": "IS",
     "source": "BleepingComputer",
-    "title": "Babbel may be the most useful app on your phone before vacation",
+    "title": "Critical Kirki flaw exploited to hijack WordPress admin accounts",
     "published_at": "2026-06-02T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/offer/deals/babbel-may-be-the-most-useful-app-on-your-phone-before-vacation/",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
     "summary": ""
   },
   {
@@ -3570,14 +4053,6 @@
       "topic:loan-programs-agriculture"
     ],
     "fedreg_document_number": "2026-11002"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
-    "published_at": "2026-06-01T22:14:19Z",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-    "summary": "A threat actor tracked as DriveSurge has been operating large-scale malware distribution campaigns using ClickFix and FakeUpdates techniques on compromised sites. [...]"
   },
   {
     "category": "Executive",
@@ -3665,22 +4140,6 @@
     "title": "Publication of Introduction to OFAC Guide",
     "published_at": "2026-06-01T00:00:00Z",
     "url": "https://ofac.treasury.gov/recent-actions/20260601",
-    "summary": ""
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Red Hat npm packages compromised to steal developer credentials",
-    "published_at": "2026-06-01T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
-    "summary": ""
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Spain arrests doxer leaking sensitive data of govt employees",
-    "published_at": "2026-06-01T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
     "summary": ""
   },
   {
@@ -4414,33 +4873,9 @@
   {
     "category": "Executive",
     "source": "White House",
-    "title": "Memorandum from the White House Physician",
-    "published_at": "2026-05-30T03:00:00Z",
-    "url": "https://www.whitehouse.gov/briefings-statements/2026/05/memorandum-from-the-white-house-physician-9440/",
-    "summary": ""
-  },
-  {
-    "category": "Executive",
-    "source": "White House",
     "title": "Realigning United States Core Childhood Vaccine Recommendations with Best Practices from Peer, Developed Countries",
     "published_at": "2026-05-29T22:03:02Z",
     "url": "https://www.whitehouse.gov/presidential-actions/2026/05/realigning-united-states-core-childhood-vaccine-recommendations-with-best-practices-from-peer-developed-countries/",
-    "summary": ""
-  },
-  {
-    "category": "Executive",
-    "source": "White House",
-    "title": "Fact Sheet: President Donald J. Trump Realigns U.S. Core Childhood Vaccine Recommendations with Best Practices from Peer, Developed Countries",
-    "published_at": "2026-05-29T21:59:25Z",
-    "url": "https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-realigns-u-s-core-childhood-vaccine-recommendations-with-best-practices-from-peer-developed-countries/",
-    "summary": ""
-  },
-  {
-    "category": "Executive",
-    "source": "White House",
-    "title": "Congressional Bill S. 4530 Signed into Law",
-    "published_at": "2026-05-29T21:54:28Z",
-    "url": "https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bill-s-4530-signed-into-law/",
     "summary": ""
   },
   {
@@ -4538,14 +4973,6 @@
     "published_at": "2026-05-29T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42898",
     "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-    "category": "OFAC",
-    "source": "Treasury",
-    "title": "Treasury, IRS Issue Section 892 Proposed Regulations to Provide Grandfathering Protection and Transitional Relief to Sovereign Investors",
-    "published_at": "2026-05-29T13:30:00Z",
-    "url": "https://home.treasury.gov/news/press-releases/sb0512",
-    "summary": ""
   },
   {
     "category": "Compliance Watch",
@@ -5319,36 +5746,12 @@
     "fedreg_document_number": "2026-10645"
   },
   {
-    "category": "OFAC",
-    "source": "Treasury",
-    "title": "Secretary Bessent Delivers Economic Security Address, Brings “Trump Accounts Tour” to California",
-    "published_at": "2026-05-28T19:39:35Z",
-    "url": "https://home.treasury.gov/news/press-releases/sb0511",
-    "summary": ""
-  },
-  {
     "category": "Banking",
     "source": "FRB",
     "title": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
     "published_at": "2026-05-28T15:00:00Z",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm",
     "summary": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank"
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-9149 Libsolv: heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file",
-    "published_at": "2026-05-28T08:47:46Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9149",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-9150 Libsolv: stack-based buffer overflow in libsolv's debian metadata parser when handling sha384/sha512 checksums",
-    "published_at": "2026-05-28T08:47:41Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9150",
-    "summary": "Information published."
   },
   {
     "category": "IS",
@@ -6180,254 +6583,6 @@
     "published_at": "2026-05-27T00:00:00Z",
     "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-releases-april-2026-monthly-summary",
     "summary": "The monthly summary report contains information about Fannie Mae’s monthly and year-to-date activities."
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Expands Commercial Solutions Hub with Integration of Visa Accounts Receivable Manager",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22471.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Threats Report: As Network Security Strengthens, Criminals Accelerate Shift to AI-Enabled Social Engineering",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22466.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Men in Blazers Media Network and Visa Team Up to Launch Fan-Powered City Guides Celebrating Soccer Culture and Local Small Businesses",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22461.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa and Jason Sudeikis Turn the Simplest Goal in Football Into the Biggest Fan Moments at the FIFA World Cup 2026™",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22441.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Your Card, Your Security. Tap: A Safer Way to Verify Identity — Visa, Keyno, and Fidelity Bank (Bahamas) Lead the Transformation",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22406.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa to Participate in Upcoming Investor Conferences",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Announces Global Expansion of Agentic Ready Program",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22341.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Fiscal Second Quarter 2026 Financial Results",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Launches Validator Node on Tempo Blockchain",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Defines the Next Era of Commerce: When AI Becomes the Customer",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Unveils New Services to Modernize Dispute Resolution Process",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa to Bring Privacy-Preserving Payments to Canton Network",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Completes Acquisition of Prisma and Newpay",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa to Acquire Prisma Medios de Pago and Newpay in Argentina",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Renews Partnership Across Red Bull Formula One Teams",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa to Participate in Upcoming Investor Conferences",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Fiscal First Quarter 2026 Financial Results",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html",
-    "summary": ""
-  },
-  {
-    "category": "Payment Card Networks",
-    "source": "Visa",
-    "title": "Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth",
-    "published_at": "2026-05-27T00:00:00Z",
-    "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html",
-    "summary": ""
   },
   {
     "category": "Compliance Watch",
@@ -8618,224 +8773,5 @@
       "filter:justice-department"
     ],
     "fedreg_document_number": "2026-10252"
-  },
-  {
-    "category": "Banking",
-    "source": "FRB",
-    "title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "published_at": "2026-05-21T15:00:00Z",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
-    "summary": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank"
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-45585 Windows BitLocker Security Feature Bypass Vulnerability",
-    "published_at": "2026-05-21T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45585",
-    "summary": "Fixed a typographical error. This is an information change only."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-43970 Decompression Bomb in cow_spdy:inflate/2 Allows Memory Exhaustion via Crafted SPDY Frame",
-    "published_at": "2026-05-21T08:03:23Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43970",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-47783 In memcached before 1.6.42, username data for SASL password database authentication has a timing side channel because a loop exits as soon as a valid username is found by sasl_server_userdb_checkpass.",
-    "published_at": "2026-05-21T08:01:59Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47783",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-47784 In memcached before 1.6.42, password data for SASL password database authentication has a timing side channel because memcmp is used by sasl_server_userdb_checkpass.",
-    "published_at": "2026-05-21T08:01:53Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47784",
-    "summary": "Information published."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-46333 ptrace: slightly saner 'get_dumpable()' logic",
-    "published_at": "2026-05-21T08:01:46Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46333",
-    "summary": "Information published."
-  },
-  {
-    "category": "OFAC",
-    "source": "OFAC",
-    "title": "Counter Terrorism Designations",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://ofac.treasury.gov/recent-actions/20260521",
-    "summary": ""
-  },
-  {
-    "category": "Mortgage",
-    "source": "Freddie Mac",
-    "title": "Mortgage Rates Average 6.51%",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.globenewswire.com/news-release/2026/05/21/3299578/0/en/mortgage-rates-average-6-51.html",
-    "summary": ""
-  },
-  {
-    "category": "Legislative",
-    "source": "House Financial Services",
-    "title": "Digital Assets, Financial Technology, and Artificial Intelligence Subcommittee Examines the Role of Bank-Fintech Partnerships in Modernizing Financial Services",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411139",
-    "summary": ""
-  },
-  {
-    "category": "Legislative",
-    "source": "House Financial Services",
-    "title": "Capital Markets Subcommittee Reviews the U.S. Equity Markets",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411140",
-    "summary": ""
-  },
-  {
-    "category": "Legislative",
-    "source": "House Financial Services",
-    "title": "Davidson: If We Want to Stop Money Laundering by the Criminals, Scammers, and Terrorists of This Century, It's Time We Change Course",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411141",
-    "summary": ""
-  },
-  {
-    "category": "Fintech Watch",
-    "source": "FIS",
-    "title": "FIS and InvestCloud Partner to Deliver AI-Powered Wealth Management Tools to Financial Institutions",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-and-investcloud-partner-deliver-ai-powered-wealth-management",
-    "summary": ""
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Formations of, Acquisitions by, and Mergers of Bank Holding Companies",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10214/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies",
-    "summary": "",
-    "fr_tags": [
-      "agency:federal-reserve-system",
-      "filter:federal-reserve-system"
-    ],
-    "fedreg_document_number": "2026-10214"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10213/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company",
-    "summary": "",
-    "fr_tags": [
-      "agency:federal-reserve-system",
-      "filter:federal-reserve-system"
-    ],
-    "fedreg_document_number": "2026-10213"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Change in Bank Control Notices; Acquisitions of Shares of a Savings and Loan Holding Company",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10212/change-in-bank-control-notices-acquisitions-of-shares-of-a-savings-and-loan-holding-company",
-    "summary": "",
-    "fr_tags": [
-      "agency:federal-reserve-system",
-      "filter:federal-reserve-system"
-    ],
-    "fedreg_document_number": "2026-10212"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Enhancement of Emerging Growth Company Accommodations and Simplification of Filer Status for Reporting Companies",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10222/enhancement-of-emerging-growth-company-accommodations-and-simplification-of-filer-status-for",
-    "summary": "The Securities and Exchange Commission (\"Commission\") proposes amendments to streamline filer statuses for Securities Exchange Act of 1934 (\"Exchange Act\") reporting companies into two primary categories: large accelerated filers and non-accelerated filers. The Commission further proposes to raise the threshold and seasoning requirements for large accelerated filer status and…",
-    "fr_tags": [
-      "agency:securities-and-exchange-commission",
-      "topic:securities"
-    ],
-    "fedreg_document_number": "2026-10222"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Authority of Drug Enforcement Administration Supervisory Diversion Investigators, Field Intelligence Managers, and Intelligence Group Supervisors To Sign and Issue Administrative Subpoenas",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10177/authority-of-drug-enforcement-administration-supervisory-diversion-investigators-field-intelligence",
-    "summary": "The Drug Enforcement Administration (\"DEA\") is revising the Appendix to Department of Justice regulations that contains delegations of certain functions under the Controlled Substances Act and its implementing regulations. This rule authorizes additional DEA personnel, specifically Supervisory Diversion Investigators, Field Intelligence Managers, and Intelligence Group Supervi…",
-    "fr_tags": [
-      "agency:justice-department",
-      "filter:justice-department"
-    ],
-    "fedreg_document_number": "2026-10177"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Notice of Lodging of Proposed Consent Decree Under the Comprehensive Environmental Response, Compensation, and Liability Act",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10173/notice-of-lodging-of-proposed-consent-decree-under-the-comprehensive-environmental-response",
-    "summary": "",
-    "fr_tags": [
-      "agency:justice-department",
-      "filter:justice-department"
-    ],
-    "fedreg_document_number": "2026-10173"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Notice of Lodging of Proposed Consent Decree Under the Comprehensive Environmental Response, Compensation, and Liability Act",
-    "published_at": "2026-05-21T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10172/notice-of-lodging-of-proposed-consent-decree-under-the-comprehensive-environmental-response",
-    "summary": "",
-    "fr_tags": [
-      "agency:justice-department",
-      "filter:justice-department"
-    ],
-    "fedreg_document_number": "2026-10172"
-  },
-  {
-    "category": "Executive",
-    "source": "White House",
-    "title": "Nominations Sent to the Senate",
-    "published_at": "2026-05-20T20:07:10Z",
-    "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-sent-to-the-senate-22d2/",
-    "summary": ""
-  },
-  {
-    "category": "Banking",
-    "source": "FRB",
-    "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "published_at": "2026-05-20T20:00:00Z",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "summary": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments"
-  },
-  {
-    "category": "Banking",
-    "source": "FRB",
-    "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-    "published_at": "2026-05-20T18:00:00Z",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
-    "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026"
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-40367 Microsoft Word Remote Code Execution Vulnerability",
-    "published_at": "2026-05-20T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40367",
-    "summary": "Today's changes were made in error and have been reverted. This is an informational change only."
   }
 ]
