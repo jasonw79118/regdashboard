@@ -1,9 +1,345 @@
 {
-  "window_start": "2026-06-03T13:59:08Z",
-  "window_end": "2026-06-17T13:59:08Z",
-  "generated_at_utc": "2026-06-17T13:59:08Z",
-  "generated_at_ct": "2026-06-17T08:59:08-05:00",
+  "window_start": "2026-06-04T14:59:09Z",
+  "window_end": "2026-06-18T14:59:09Z",
+  "generated_at_utc": "2026-06-18T14:59:09Z",
+  "generated_at_ct": "2026-06-18T09:59:09-05:00",
   "items": [
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
+      "published_at": "2026-06-18T14:19:50Z",
+      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+      "summary": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "5 reasons Microsoft 365 backup isn’t enough for business data protection",
+      "published_at": "2026-06-18T13:48:56Z",
+      "url": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
+      "summary": "Microsoft 365 helps keep services running, but protecting and recovering business data remains your responsibility. Acronis breaks down five gaps organizations should consider when evaluating Microsoft 365 data protection. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
+      "published_at": "2026-06-18T13:25:47Z",
+      "url": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+      "summary": "International law enforcement agencies cleaned nearly 15,000 malware-infected WordPress websites and took down more than 100 servers linked to the SocGholish botnet and the Evil Corp Russian cybercrime group. [...]"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "President Trump to Award Medal of Honor",
+      "published_at": "2026-06-18T13:23:51Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/06/president-trump-to-award-medal-of-honor/",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+      "published_at": "2026-06-18T13:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
+      "summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "ShapedPlugin update flow hacked to infect WordPress sites",
+      "published_at": "2026-06-18T12:55:36Z",
+      "url": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+      "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack that distributed infected releases to paying customers via the vendor's official update system. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
+      "published_at": "2026-06-18T12:54:39Z",
+      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+      "summary": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
+      "published_at": "2026-06-18T12:23:58Z",
+      "url": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
+      "summary": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluetooth range to spy on users' conversations. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Telegram admits it couldn't police exam-leak channels, India tells court",
+      "published_at": "2026-06-18T12:18:49Z",
+      "url": "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
+      "summary": "India's government has told the Delhi High Court that Telegram was warned about two weeks before it was blocked, and that the platform admitted it could not proactively detect the channels selling leaked exam papers. Telegram says it cooperated and the ban is unlawful. [...]"
+    },
+    {
+      "category": "FinCEN",
+      "source": "FinCEN",
+      "title": "FinCEN, Agencies Propose Rule to Implement GENIUS Act Customer Identification Program Requirement",
+      "published_at": "2026-06-18T12:00:00Z",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-agencies-propose-rule-implement-genius-act-customer-identification",
+      "summary": "WASHINGTON—Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN), together with the Office of the Comptroller of the Currency, the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, and the National Credit Union Administration issued a joint proposed rule to implement provisions of the Guiding and E…"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
+      "published_at": "2026-06-18T11:33:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "summary": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes Windows Server 2016 security update failures",
+      "published_at": "2026-06-18T10:14:20Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
+      "summary": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-46293 clk: microchip: mpfs-ccc: fix out of bounds access during output registration",
+      "published_at": "2026-06-18T08:50:27Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46293",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-46291 crypto: caam - guard HMAC key hex dumps in hash_digest_key",
+      "published_at": "2026-06-18T08:50:14Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46291",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-46274 io-wq: check that the predecessor is hashed in io_wq_remove_pending()",
+      "published_at": "2026-06-18T08:50:04Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46274",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-28387 Potential Use-after-free in DANE Client Code",
+      "published_at": "2026-06-18T08:50:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-28387",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-46292 pmdomain: core: Fix detach procedure for virtual devices in genpd",
+      "published_at": "2026-06-18T08:49:51Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46292",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-43308 btrfs: don't BUG() on unexpected delayed ref type in run_one_delayed_ref()",
+      "published_at": "2026-06-18T08:48:34Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43308",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-71072 shmem: fix recovery on rename failures",
+      "published_at": "2026-06-18T08:48:17Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71072",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-71073 Input: lkkbd - disable pending work before freeing device",
+      "published_at": "2026-06-18T08:48:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71073",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45445 AES-OCB IV Ignored on EVP_Cipher() Path",
+      "published_at": "2026-06-18T08:46:59Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45445",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-9076 Out-of-Bounds Read in CMS Password-Based Decryption",
+      "published_at": "2026-06-18T08:46:38Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9076",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-34180 Heap Buffer Over-read in ASN.1 Content Parsing",
+      "published_at": "2026-06-18T08:45:56Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34180",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42767 NULL Pointer Dereference in CRMF EncryptedValue Decryption",
+      "published_at": "2026-06-18T08:45:04Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42767",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42766 Possible NULL Dereference in Password-Based CMS Decryption",
+      "published_at": "2026-06-18T08:44:21Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42766",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-7383 Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion",
+      "published_at": "2026-06-18T08:42:51Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7383",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-34182 CMS AuthEnvelopedData Processing May Accept Forged Messages",
+      "published_at": "2026-06-18T08:41:57Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34182",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45447 Heap Use-After-Free in the PKCS7_verify() Function",
+      "published_at": "2026-06-18T08:41:13Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45447",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-25681 Invoking incorrect handling of character references in DOCTYPE nodes in golang.org/x/net/html",
+      "published_at": "2026-06-18T08:40:41Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25681",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-25680 Invoking denial of service when parsing arbitrary HTML in golang.org/x/net/html",
+      "published_at": "2026-06-18T08:40:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25680",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-48854 Unbounded request body accumulation causes memory exhaustion in elixir-grpc/grpc",
+      "published_at": "2026-06-18T08:01:50Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48854",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
+      "published_at": "2026-06-18T01:30:08Z",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
+      "summary": "OpenAI appears to be testing a new subscription and experience for science use cases, but it's unclear if it'll be available to everyone regardless of their background. [...]"
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "FIS",
+      "title": "FIS Sweeps All Three Chartis Enterprise Market Risk Quadrants in 2026",
+      "published_at": "2026-06-18T00:00:00Z",
+      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-sweeps-all-three-chartis-enterprise-market-risk-quadrants",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Compare ChatGPT, Claude & more for $55 with this AI platform deal",
+      "published_at": "2026-06-18T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/compare-chatgpt-claude-and-more-for-55-with-this-ai-platform-deal/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Google to use UK and EU user IP addresses for ad personalization",
+      "published_at": "2026-06-17T21:02:42Z",
+      "url": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
+      "summary": "From August 3, 2026, Google will use IP addresses from UK, EEA and Switzerland users for ad measurement and personalization. It lands as the ICO weighs new consent rules, and years after Google itself called using such signals to identify devices \"wrong.\" [...]"
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Federal Reserve issues FOMC statement",
+      "published_at": "2026-06-17T18:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "summary": "Federal Reserve issues FOMC statement"
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "published_at": "2026-06-17T18:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Why Account Takeovers Are Rising and How to Stop Them",
+      "published_at": "2026-06-17T14:00:10Z",
+      "url": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+      "summary": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores how device trust and continuous verification help reduce account takeover risk. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-35433 .NET Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-17T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35433",
+      "summary": "This CVE was updated to remove Windows 11 (21H1 and 22H2) as impacted"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-47636 Microsoft SharePoint Server Spoofing Vulnerability",
+      "published_at": "2026-06-17T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47636",
+      "summary": "Acknowledgement added. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45475 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-17T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45475",
+      "summary": "Acknowledgement added. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42828 Windows Projected File System Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-17T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42828",
+      "summary": "Acknowledgement added. This is an informational change only."
+    },
     {
       "category": "Executive",
       "source": "White House",
@@ -37,20 +373,12 @@
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity flaw in the Widget Factory Joomla Content Editor (JCE) plugin that is being actively exploited in the wild. [...]"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
-      "published_at": "2026-06-17T08:32:29Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
-      "summary": "Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named \"RoguePlanet,\" disclosed one week ago. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
-      "published_at": "2026-06-17T07:07:56Z",
-      "url": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "summary": "Kodak has confirmed that it's working with external cybersecurity experts to investigate a security breach after hackers gained access to some of the company's data. [...]"
+      "category": "IRS",
+      "source": "IRS",
+      "title": "Electronic Tax Administration Advisory Committee 2026 Annual Report includes recommendations to Congress and IRS",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://www.irs.gov/newsroom/electronic-tax-administration-advisory-committee-2026-annual-report-includes-recommendations-to-congress-and-irs",
+      "summary": "IR-2026-77, June 17, 2026 — The Internal Revenue Service Electronic Tax Administration Advisory Committee released its 2026 annual report today with a total of 18 recommendations – six of which are directed to Congress."
     },
     {
       "category": "Banking",
@@ -59,6 +387,54 @@
       "published_at": "2026-06-17T00:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents.htm",
       "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "2026 FOMC",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press-fomc.htm",
+      "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Fannie Mae",
+      "title": "News & Commentaries",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://capitalmarkets.fanniemae.com/news-commentaries",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "The Facts: The 21st Century ROAD to Housing Act Delivers a Bipartisan, Bicameral Win for Housing Affordability",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/majority/the-facts-the-21st-century-road-to-housing-act-delivers-a-bipartisan-bicameral-win-for-housing-affordability",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Senator Warren Statement on Upcoming FOMC Decision",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/06/17/2026/senator-warren-statement-on-upcoming-fomc-decision",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren, Shaheen Urge President Trump to Finally End Relief for Russian Oil",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-shaheen-urge-president-trump-to-finally-end-relief-for-russian-oil",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "Hill and Davidson Urge FinCEN to Modernize AML Rules and Prioritize High-Risk Financial Crimes",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411165",
+      "summary": ""
     },
     {
       "category": "Fintech Watch",
@@ -71,9 +447,9 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Why Account Takeovers Are Rising and How to Stop Them",
+      "title": "This refurbished Apple Watch Series 11 is on sale for $325 while stock lasts",
       "published_at": "2026-06-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-refurbished-apple-watch-series-11-is-on-sale-for-325-while-stock-lasts/",
       "summary": ""
     },
     {
@@ -82,6 +458,22 @@
       "title": "Surfshark One+ with Incogni is $95 for a year of full privacy coverage",
       "published_at": "2026-06-17T00:00:00Z",
       "url": "https://www.bleepingcomputer.com/offer/deals/surfshark-one-plus-with-incogni-is-95-for-a-year-of-full-privacy-coverage/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
+      "published_at": "2026-06-17T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
       "summary": ""
     },
     {
@@ -119,44 +511,12 @@
       "fedreg_document_number": "2026-12149"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
-      "published_at": "2026-06-16T21:54:50Z",
-      "url": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
-      "summary": "At least 15 malicious plugins found on the JetBrains Marketplace were designed to steal AI API keys from developers. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
-      "published_at": "2026-06-16T20:04:11Z",
-      "url": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
-      "summary": "A new Android banking trojan named Rokarolla is targeting 217 banking and cryptocurrency applications using an extensive set of 137 commands. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
-      "published_at": "2026-06-16T18:27:55Z",
-      "url": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
-      "summary": "Threat actors are abusing Steam Workshop, Valve's community hub for downloading game-related content, to push various malware hidden in wallpaper packages. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "UK to require ID or face scan before you can make social media accounts",
-      "published_at": "2026-06-16T14:38:49Z",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
-      "summary": "Opening a new social media account in the UK will soon mean proving you're over 16 with an ID upload or a facial age scan, under a government ban on under-16s taking effect in spring 2027. Security experts warn the age checks are easy to circumvent and create new data-breach risks. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "GhostTree Attack Abused Recursive Windows Junctions to Hide Malware",
-      "published_at": "2026-06-16T14:17:27Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
-      "summary": "GhostTree uses recursive NTFS junctions to generate vast numbers of valid Windows file paths. Varonis explains how the technique could cause Microsoft Defender folder scans to never complete, leaving malware undetected. [...]"
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "Remarks by Treasury Secretary Scott Bessent before the American Swiss Foundation",
+      "published_at": "2026-06-16T22:53:56Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0534",
+      "summary": ""
     },
     {
       "category": "IS",
@@ -191,52 +551,12 @@
       "summary": "Corrected the CVE description and title. This is an informational change only."
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "FTC warns of record $3.5 billion losses to imposter scams in 2025",
-      "published_at": "2026-06-16T13:42:19Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
-      "summary": "The U.S. Federal Trade Commission (FTC) warned that Americans lost $3.5 billion to imposter scams in 2025, with reported losses nearly tripling since 2020. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
-      "published_at": "2026-06-16T10:47:59Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. government agencies three days to secure their servers against an actively exploited vulnerability (CVE-2026-54420) in the LiteSpeed cPanel user-end plugin. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
-      "published_at": "2026-06-16T10:18:48Z",
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
-      "summary": "DragonForce ransomware used a custom malware named 'Backdoor.Turn' to hide command-and-control traffic inside Microsoft Teams relay infrastructure. [...]"
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "New CDIA Webinar!",
       "published_at": "2026-06-16T10:00:28Z",
       "url": "https://www.cdiaonline.org/events/2026/06/16/new-cdia-webinar/",
       "summary": "Cybersecurity is no longer just an IT issue—it’s essential to compliance, data integrity, and consumer trust. Join CDIA on June 23... The post New CDIA Webinar! appeared first on CDIA ."
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Critical Fortinet FortiSandbox flaws now exploited in attacks",
-      "published_at": "2026-06-16T09:19:51Z",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
-      "summary": "Attackers are now exploiting several critical vulnerabilities in Fortinet's FortiSandbox cyber threat detection platform, according to threat intelligence company Defused. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-34182 CMS AuthEnvelopedData Processing May Accept Forged Messages",
-      "published_at": "2026-06-16T09:14:59Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34182",
-      "summary": "Information published."
     },
     {
       "category": "IS",
@@ -839,30 +1159,6 @@
       "summary": ""
     },
     {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Scott, Warren, Hill, Waters Release Updated Bill Text on Senate Consideration of the 21st Century ROAD to Housing Act",
-      "published_at": "2026-06-16T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/scott-warren-hill-waters-release-updated-bill-text-on-senate-consideration-of-the-21st-century-road-to-housing-act",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Shaheen Urge President Trump to Finally End Relief for Russian Oil",
-      "published_at": "2026-06-16T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-shaheen-urge-president-trump-to-finally-end-relief-for-russian-oil",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren Speaks on Senate Floor In Support of Biggest Housing Bill in 30 Years",
-      "published_at": "2026-06-16T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-speaks-on-senate-floor-in-support-of-biggest-housing-bill-in-30-years",
-      "summary": ""
-    },
-    {
       "category": "Fintech Watch",
       "source": "FIS",
       "title": "FIS Brings Secondary Loan Trading into the Modern Era with Trade & Distribution Manager",
@@ -879,35 +1175,11 @@
       "summary": ""
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Turn 15 minutes into lifetime learning while Headway’s just $48",
+      "category": "Compliance Watch",
+      "source": "CDIA",
+      "title": "Education Services",
       "published_at": "2026-06-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/turn-15-minutes-into-lifetime-learning-while-headways-just-48/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Windows & Mac users—get a feature-rich lifetime PDF editor for $30",
-      "published_at": "2026-06-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/windows-and-mac-users-get-a-feature-rich-lifetime-pdf-editor-for-30/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Windows version of SprySOCKS Linux malware used to attack govt orgs",
-      "published_at": "2026-06-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "iRhythm discloses data breach, says hackers stole patient info",
-      "published_at": "2026-06-16T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
+      "url": "https://www.cdiaonline.org/education-services/",
       "summary": ""
     },
     {
@@ -952,6 +1224,14 @@
       "published_at": "2026-06-15T16:52:25Z",
       "url": "https://www.texasbankers.com/tba-hosts-u-s-treasury-secretary-comptroller-in-houston/",
       "summary": "Meetings focus on protecting the financial system and fighting illicit activity while ensuring access for legitimate businesses FOR IMMEDIATE RELEASE: June 15, 2026 HOUSTON – Bankers from throughout Texas underscored their commitment to supporting the integrity of the financial system while serving legitimate businesses and households in a meeting Friday […] The post TBA hosts…"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Presidential Message on Men’s Health Week",
+      "published_at": "2026-06-15T16:00:00Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-mens-health-week/",
+      "summary": ""
     },
     {
       "category": "IS",
@@ -1124,14 +1404,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-45445 AES-OCB IV Ignored on EVP_Cipher() Path",
-      "published_at": "2026-06-15T08:02:18Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45445",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-42768 Multi-RecipientInfo Bleichenbacher Oracle in CMS_decrypt() and PKCS7_decrypt()",
       "published_at": "2026-06-15T08:01:25Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42768",
@@ -1152,14 +1424,6 @@
       "published_at": "2026-06-15T00:00:00Z",
       "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-announces-leadership-transition",
       "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-06-15T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-successfully-prices-500-million-7-year-eurobond",
-      "summary": "Wolters Kluwer, a global leader in professional information solutions, software and services, today announced that it has successfully priced a new €500 million 7-year senior unsecured Eurobond."
     },
     {
       "category": "Executive",
@@ -1252,33 +1516,9 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-34180 Heap Buffer Over-read in ASN.1 Content Parsing",
-      "published_at": "2026-06-13T08:06:21Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34180",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-42769 Trust-Anchor Substitution via cert/issuer Typo in CMP rootCaKeyUpdate",
       "published_at": "2026-06-13T08:05:54Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42769",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42767 NULL Pointer Dereference in CRMF EncryptedValue Decryption",
-      "published_at": "2026-06-13T08:05:39Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42767",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42766 Possible NULL Dereference in Password-Based CMS Decryption",
-      "published_at": "2026-06-13T08:05:17Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42766",
       "summary": "Information published."
     },
     {
@@ -1300,33 +1540,9 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-9076 Out-of-Bounds Read in CMS Password-Based Decryption",
-      "published_at": "2026-06-13T08:04:21Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9076",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-7383 Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion",
-      "published_at": "2026-06-13T08:03:46Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7383",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-34183 Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler",
       "published_at": "2026-06-13T08:02:56Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34183",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45447 Heap Use-After-Free in the PKCS7_verify() Function",
-      "published_at": "2026-06-13T08:02:40Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45447",
       "summary": "Information published."
     },
     {
@@ -1399,30 +1615,6 @@
       "title": "First Lady Melania Trump’s Remarkable Week Empowering Youth through AI Challenge and Fostering the Future Accounts",
       "published_at": "2026-06-12T20:58:22Z",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/06/first-lady-melania-trumps-remarkable-week-empowering-youth-through-ai-challenge-and-fostering-the-future-accounts/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "America 250: Presidential Message on the 250th Anniversary of the Virginia Declaration of Rights",
-      "published_at": "2026-06-12T20:21:35Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-250th-anniversary-of-the-virginia-declaration-of-rights/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Fact Sheet: President Donald J. Trump Defends America’s Warfighters and Intelligence Officers Against Cyber Threats",
-      "published_at": "2026-06-12T19:36:33Z",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-defends-americas-warfighters-and-intelligence-officers-against-cyber-threats/",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "S. 254 Signed into Law",
-      "published_at": "2026-06-12T19:26:27Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/06/s-254-signed-into-law/",
       "summary": ""
     },
     {
@@ -1904,14 +2096,6 @@
       "summary": ""
     },
     {
-      "category": "Compliance Watch",
-      "source": "Wolters Kluwer",
-      "title": "Wolters Kluwer news",
-      "published_at": "2026-06-11T00:00:00Z",
-      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-leads-the-next-era-of-tax-and-accounting",
-      "summary": "Wolters Kluwer Tax & Accounting spotlights how Expert AI and connected workflows are redefining how professional work gets done"
-    },
-    {
       "category": "Federal Register",
       "source": "Federal Register",
       "title": "Streamlining the Census Bureau's Foreign Trade Regulations; Correction",
@@ -2136,14 +2320,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-46293 clk: microchip: mpfs-ccc: fix out of bounds access during output registration",
-      "published_at": "2026-06-10T08:04:51Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46293",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2025-71315 drm/vkms: Convert to DRM's vblank timer",
       "published_at": "2026-06-10T08:04:46Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-71315",
@@ -2163,14 +2339,6 @@
       "title": "CVE-2026-46302 selinux: allow multiple opens of /sys/fs/selinux/policy",
       "published_at": "2026-06-10T08:04:35Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46302",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-46291 crypto: caam - guard HMAC key hex dumps in hash_digest_key",
-      "published_at": "2026-06-10T08:04:30Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46291",
       "summary": "Information published."
     },
     {
@@ -2200,14 +2368,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-46274 io-wq: check that the predecessor is hashed in io_wq_remove_pending()",
-      "published_at": "2026-06-10T08:04:08Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46274",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-46280 lib: test_hmm: evict device pages on file close to avoid use-after-free",
       "published_at": "2026-06-10T08:04:02Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46280",
@@ -2227,14 +2387,6 @@
       "title": "CVE-2026-46275 Bluetooth: hci_uart: fix UAFs and race conditions in close and init paths",
       "published_at": "2026-06-10T08:03:52Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46275",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-46292 pmdomain: core: Fix detach procedure for virtual devices in genpd",
-      "published_at": "2026-06-10T08:03:46Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46292",
       "summary": "Information published."
     },
     {
@@ -4432,14 +4584,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-45475 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45475",
-      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-45472 Microsoft Office Remote Code Execution Vulnerability",
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45472",
@@ -4928,14 +5072,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-47636 Microsoft SharePoint Server Spoofing Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47636",
-      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-47637 Microsoft SharePoint Server Spoofing Vulnerability",
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47637",
@@ -5132,14 +5268,6 @@
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33113",
       "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42828 Windows Projected File System Elevation of Privilege Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42828",
-      "summary": "Buffer over-read in Windows Projected File System Filter Driver allows an authorized attacker to elevate privileges locally."
     },
     {
       "category": "IS",
@@ -6232,14 +6360,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-25681 Invoking incorrect handling of character references in DOCTYPE nodes in golang.org/x/net/html",
-      "published_at": "2026-06-09T08:43:01Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25681",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-42501 Malicious module proxy can bypass checksum database in cmd/go",
       "published_at": "2026-06-09T08:42:54Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42501",
@@ -6374,27 +6494,11 @@
       "summary": ""
     },
     {
-      "category": "Mortgage",
-      "source": "Fannie Mae",
-      "title": "News & Commentaries",
-      "published_at": "2026-06-09T00:00:00Z",
-      "url": "https://capitalmarkets.fanniemae.com/news-commentaries",
-      "summary": ""
-    },
-    {
       "category": "Legislative",
       "source": "House Financial Services",
       "title": "Meuser: Chinese Money Laundering Networks are the Dominant Money Laundering Partner for Drug Cartels",
       "published_at": "2026-06-09T00:00:00Z",
       "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411159",
-      "summary": ""
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "Education Services",
-      "published_at": "2026-06-09T00:00:00Z",
-      "url": "https://www.cdiaonline.org/education-services/",
       "summary": ""
     },
     {
@@ -6533,14 +6637,6 @@
       "summary": "PRESS RELEASE | JUNE 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON—The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in March 2026. The CRA is a 1977 law t…"
     },
     {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "FinCEN Asks Financial Institutions to Detect and Report Illicit Activity Related to Illegal Aliens",
-      "published_at": "2026-06-05T14:00:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0523",
-      "summary": ""
-    },
-    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "CVE-2026-33841 Windows Kernel Elevation of Privilege Vulnerability",
@@ -6557,28 +6653,12 @@
       "summary": "This CVE was updated to fix the download link for .NET Framework 3.8 & 4.81 for Windows 2025"
     },
     {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-35433 .NET Elevation of Privilege Vulnerability",
-      "published_at": "2026-06-05T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35433",
-      "summary": "This CVE was updated to fix the download link for .NET Framework 3.8 & 4.81 for Windows 2025"
-    },
-    {
       "category": "FinCEN",
       "source": "FinCEN",
       "title": "FinCEN Issues Joint Advisory on Non-Work Authorized Populations and Their Employers and Risks to the Integrity of the U.S. Financial System",
       "published_at": "2026-06-05T12:00:00Z",
       "url": "https://www.fincen.gov/news/news-releases/fincen-issues-joint-advisory-non-work-authorized-populations-and-their-employers",
       "summary": "Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued an Advisory urging financial institutions to be vigilant against risks presented by the unlawful employment of illegal aliens.Treasury Press ReleaseFinCEN Asks Financial Institutions to Detect and Report Illicit Activity related to Illegal AliensAdvisory"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-25680 Invoking denial of service when parsing arbitrary HTML in golang.org/x/net/html",
-      "published_at": "2026-06-05T08:41:37Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25680",
-      "summary": "Information published."
     },
     {
       "category": "OFAC",
@@ -6677,223 +6757,6 @@
         "topic:employment"
       ],
       "fedreg_document_number": "2026-11285"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-48567 Azure HorizonDB Elevation of Privilege Vulnerability",
-      "published_at": "2026-06-04T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48567",
-      "summary": "Authentication bypass by spoofing in Azure HorizonDB allows an unauthorized attacker to elevate privileges over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42824 M365 Copilot Information Disclosure Vulnerability",
-      "published_at": "2026-06-04T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42824",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in M365 Copilot allows an unauthorized attacker to disclose information over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45497 Microsoft M365 Copilot Remote Code Execution Vulnerability",
-      "published_at": "2026-06-04T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45497",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an authorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-47644 Copilot Chat (Microsoft Edge) Information Disclosure Vulnerability",
-      "published_at": "2026-06-04T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47644",
-      "summary": "Improper neutralization of special elements in output used by a downstream component ('injection') in Copilot Chat (Microsoft Edge) allows an unauthorized attacker to disclose information over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-47655 Microsoft Graph Information Disclosure Vulnerability",
-      "published_at": "2026-06-04T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47655",
-      "summary": "Exposure of sensitive information to an unauthorized actor in Microsoft Graph allows an authorized attacker to disclose information over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-48579 Microsoft Exchange Online Information Disclosure Vulnerability",
-      "published_at": "2026-06-04T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48579",
-      "summary": "Improper authorization in Microsoft Exchange Online allows an unauthorized attacker to disclose information over a network."
-    },
-    {
-      "category": "Compliance Watch",
-      "source": "CDIA",
-      "title": "New Webinar Announcement!",
-      "published_at": "2026-06-04T10:00:54Z",
-      "url": "https://www.cdiaonline.org/events/2026/06/04/new-webinar-announcement/",
-      "summary": "Missed CDIA Connect 2026? You still have an opportunity to hear from one of our standout keynote speakers. Join Liz Pagel,... The post New Webinar Announcement! appeared first on CDIA ."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-9149 Libsolv: heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file",
-      "published_at": "2026-06-04T08:45:36Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9149",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-9150 Libsolv: stack-based buffer overflow in libsolv's debian metadata parser when handling sha384/sha512 checksums",
-      "published_at": "2026-06-04T08:45:29Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9150",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-27136 Invoking duplicate attributes can cause XSS in golang.org/x/net/html",
-      "published_at": "2026-06-04T08:45:09Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27136",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42506 Invoking incorrect handling of namespaced elements in foreign content in golang.org/x/net/html",
-      "published_at": "2026-06-04T08:45:02Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42506",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-39828 Invoking bypass of certificate restrictions in golang.org/x/crypto/ssh",
-      "published_at": "2026-06-04T08:42:55Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39828",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-43964 Postfix before 3.8.16, 3.9 before 3.9.10, and 3.10 before 3.10.9 sometimes allows a buffer over-read and process crash via an enhanced status code that lacks text after the third number.",
-      "published_at": "2026-06-04T08:42:06Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43964",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-41140 Poetry: Path traversal in tar extraction on Python 3.10.0 - 3.10.12 and 3.11.0 - 3.11.4",
-      "published_at": "2026-06-04T08:41:49Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41140",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-35414 OpenSSH before 10.3 mishandles the authorized_keys principals option in uncommon scenarios involving a principals list in conjunction with a Certificate Authority that makes certain use of comma character…",
-      "published_at": "2026-06-04T08:40:55Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35414",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2025-1149 GNU Binutils ld xmalloc.c xstrdup memory leak",
-      "published_at": "2026-06-04T08:39:23Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1149",
-      "summary": "Information published."
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Cuba Designations; Issuance of Cuba-related Frequently Asked Question",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260604",
-      "summary": ""
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "IRS announces nationwide hiring events for customer service representatives and tax examining technicians",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/irs-announces-nationwide-hiring-events-for-customer-service-representatives-and-tax-examining-technicians",
-      "summary": "IR-2026-72, June 4, 2026 — The Internal Revenue Service today announced a series of hiring events to take place across the country through July."
-    },
-    {
-      "category": "Mortgage",
-      "source": "Freddie Mac",
-      "title": "Mortgage Rates Decrease to 6.48%",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/06/04/3306996/0/en/mortgage-rates-decrease-to-6-48.html",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "House Financial Services",
-      "title": "Chairman Hill: The Trump Administration Is Returning the Prudential Regulators to Their Core Regulatory and Supervisory Mission",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411157",
-      "summary": ""
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "New Enhancement to Nacha’s Risk Management Portal Helps FIs Keep ACH Contacts Current",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://www.nacha.org/news/new-enhancement-nachas-risk-management-portal-helps-fis-keep-ach-contacts-current",
-      "summary": "Financial Institution Portal administrators: Have you recently reviewed your ACH contacts in Nacha’s Risk Management Portal? A new enhancement is now live, giving financial institutions an easy and reliable way to verify that their ACH Contact Registry information is accurate and up to date."
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "The New Nacha Rules: New Fraud Compliance Responsibilities for All Organizations Sending ACH Payments",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://www.nacha.org/news/new-nacha-rules-new-fraud-compliance-responsibilities-all-organizations-sending-ach-payments",
-      "summary": "Implementation Dates:"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "American Fisheries Act Program Update; Simplifying the Application Process",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11267/american-fisheries-act-program-update-simplifying-the-application-process",
-      "summary": "On July 1, 2025, MARAD published a Notice of Proposed Rulemaking (NPRM), titled \"American Fisheries Act Program Update; Simplifying the Application Process,\" soliciting public comment on steps MARAD could take to simplify and modernize the process for evidencing U.S. citizenship for owners of U.S.-flag fishing industry vessels of 100 feet or greater in registered length. MARAD…",
-      "fr_tags": [
-        "agency:maritime-administration",
-        "agency:transportation-department",
-        "topic:mortgages"
-      ],
-      "fedreg_document_number": "2026-11267"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Agency Information Collection Activities: Proposed Collection Renewal; Comment Request",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11177/agency-information-collection-activities-proposed-collection-renewal-comment-request",
-      "summary": "The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to take this opportunity to comment on the renewal of the existing information collections described below (OMB Control No. 3064-0057; -0125 and -0175).",
-      "fr_tags": [
-        "agency:federal-deposit-insurance-corporation",
-        "filter:federal-deposit-insurance-corporation"
-      ],
-      "fedreg_document_number": "2026-11177"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Processing Certain Veteran-Requested Veteran Readiness and Employment Benefit Changes Without Administrative Delays",
-      "published_at": "2026-06-04T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11195/processing-certain-veteran-requested-veteran-readiness-and-employment-benefit-changes-without",
-      "summary": "The Department of Veterans Affairs (VA) proposes to amend regulations under the Veteran Readiness and Employment (VR&E) program to ensure veterans' requests to forgo, suspend, reduce, or terminate their benefits and services may be processed timely and without unnecessary delays. The current regulation requires VR&E to provide at least 30 days advance notice and opportunity fo…",
-      "fr_tags": [
-        "agency:veterans-affairs-department",
-        "topic:employment",
-        "topic:loan-programs-education"
-      ],
-      "fedreg_document_number": "2026-11195"
     }
   ]
 }
