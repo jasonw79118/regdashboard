@@ -1,32 +1,1022 @@
 {
-  "window_start": "2026-06-04T14:59:09Z",
-  "window_end": "2026-06-18T14:59:09Z",
-  "generated_at_utc": "2026-06-18T14:59:09Z",
-  "generated_at_ct": "2026-06-18T09:59:09-05:00",
+  "window_start": "2026-06-08T13:03:12Z",
+  "window_end": "2026-06-22T13:03:12Z",
+  "generated_at_utc": "2026-06-22T13:03:12Z",
+  "generated_at_ct": "2026-06-22T08:03:12-05:00",
   "items": [
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
-      "published_at": "2026-06-18T14:19:50Z",
-      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "summary": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]"
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
+      "published_at": "2026-06-22T12:45:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
+      "summary": "Federal Reserve notes with deep sadness the passing of Alan Greenspan"
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "5 reasons Microsoft 365 backup isn’t enough for business data protection",
-      "published_at": "2026-06-18T13:48:56Z",
-      "url": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
-      "summary": "Microsoft 365 helps keep services running, but protecting and recovering business data remains your responsibility. Acronis breaks down five gaps organizations should consider when evaluating Microsoft 365 data protection. [...]"
+      "title": "This Babbel app deal is for people looking to learn a new language",
+      "published_at": "2026-06-22T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-babbel-app-deal-is-for-people-looking-to-learn-a-new-language/",
+      "summary": ""
+    },
+    {
+      "category": "Federal Register",
+      "source": "Federal Register",
+      "title": "Permitted Payment Stablecoin Issuer Customer Identification Program",
+      "published_at": "2026-06-22T00:00:00Z",
+      "url": "https://www.federalregister.gov/documents/2026/06/22/2026-12460/permitted-payment-stablecoin-issuer-customer-identification-program",
+      "summary": "The Financial Crimes Enforcement Network (FinCEN), together with the Office of the Comptroller of the Currency (OCC), the Board of Governors of the Federal Reserve System (Board), the Federal Deposit Insurance Corporation (FDIC), and the National Credit Union Administration (NCUA) are jointly issuing this proposed rule to implement certain provisions of the Guiding and Establi…",
+      "fr_tags": [
+        "agency:financial-crimes-enforcement-network",
+        "agency:treasury-department",
+        "topic:banks-banking"
+      ],
+      "fedreg_document_number": "2026-12460"
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Presidential Message on Father’s Day",
+      "published_at": "2026-06-21T16:46:19Z",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-fathers-day/",
+      "summary": ""
     },
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
-      "published_at": "2026-06-18T13:25:47Z",
-      "url": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
-      "summary": "International law enforcement agencies cleaned nearly 15,000 malware-infected WordPress websites and took down more than 100 servers linked to the SocGholish botnet and the Evil Corp Russian cybercrime group. [...]"
+      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "published_at": "2026-06-21T14:14:22Z",
+      "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "summary": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious traffic. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "If you're constantly using PDFs, this $65 lifetime tool is worth a look",
+      "published_at": "2026-06-21T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/if-youre-constantly-using-pdfs-this-65-lifetime-tool-is-worth-a-look/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
+      "published_at": "2026-06-20T15:23:46Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "summary": "A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "published_at": "2026-06-20T14:09:19Z",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "summary": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44967 opentelemetry-cpp: OTLP HTTP exporters read unbounded HTTP response",
+      "published_at": "2026-06-20T08:43:49Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44967",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-46331 net/sched: fix pedit partial COW leading to page cache corruption",
+      "published_at": "2026-06-20T08:43:41Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46331",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-34180 Heap Buffer Over-read in ASN.1 Content Parsing",
+      "published_at": "2026-06-20T08:43:31Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34180",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-7383 Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion",
+      "published_at": "2026-06-20T08:43:24Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7383",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42767 NULL Pointer Dereference in CRMF EncryptedValue Decryption",
+      "published_at": "2026-06-20T08:43:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42767",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42766 Possible NULL Dereference in Password-Based CMS Decryption",
+      "published_at": "2026-06-20T08:42:43Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42766",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45446 Incorrect Tag Processing for Empty Messages in AES-GCM-SIV and AES-SIV modes",
+      "published_at": "2026-06-20T08:42:18Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45446",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-9076 Out-of-Bounds Read in CMS Password-Based Decryption",
+      "published_at": "2026-06-20T08:42:01Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9076",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42768 Multi-RecipientInfo Bleichenbacher Oracle in CMS_decrypt() and PKCS7_decrypt()",
+      "published_at": "2026-06-20T08:41:45Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42768",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-34183 Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler",
+      "published_at": "2026-06-20T08:41:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34183",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45445 AES-OCB IV Ignored on EVP_Cipher() Path",
+      "published_at": "2026-06-20T08:40:55Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45445",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-5791 Users: `root` appended to group listings",
+      "published_at": "2026-06-20T08:40:10Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5791",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-4574 Crossbeam-channel: crossbeam-channel vulnerable to double free on drop",
+      "published_at": "2026-06-20T08:39:58Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-4574",
+      "summary": "Information published."
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Warren Statement on DC Circuit Court Order on Trump's Latest Attempt to Shut Down CFPB",
+      "published_at": "2026-06-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/warren-statement-on-dc-circuit-court-order-on-trumps-latest-attempt-to-shut-down-cfpb",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "Following G7 Summit, Warren and Scott (FL) Send Bipartisan Letter Urging Trump Administration to Address China’s Currency Manipulation",
+      "published_at": "2026-06-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/minority/following-g7-summit-warren-and-scott-fl-send-bipartisan-letter-urging-trump-administration-to-address-chinas-currency-manipulation",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "Senate Banking",
+      "title": "ICYMI: Chairman Scott Highlights Bipartisan Housing Affordability Win, Federal Reserve Focus on Price Stability on CNBC’s Squawk Box",
+      "published_at": "2026-06-20T00:00:00Z",
+      "url": "https://www.banking.senate.gov/newsroom/majority/icymi-chairman-scott-highlights-bipartisan-housing-affordability-win-federal-reserve-focus-on-price-stability-on-cnbcs-squawk-box",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "This tool puts ChatGPT, Claude & more in one place for $70",
+      "published_at": "2026-06-20T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-tool-puts-chatgpt-claude-and-more-in-one-place-for-70/",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+      "published_at": "2026-06-19T22:31:04Z",
+      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "summary": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \"Icarus\" extortion group publicly claims the attack. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12466 Heap buffer overflow in WebRTC",
+      "published_at": "2026-06-19T20:52:59Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12466",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12461 Out of bounds read in WebRTC",
+      "published_at": "2026-06-19T20:52:57Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12461",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12449 Use after free in Chromoting",
+      "published_at": "2026-06-19T20:52:56Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12449",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12444 Out of bounds read in Chromoting",
+      "published_at": "2026-06-19T20:52:55Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12444",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12437 Use after free in WebShare",
+      "published_at": "2026-06-19T20:52:53Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12437",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12468 Inappropriate implementation in Updater",
+      "published_at": "2026-06-19T20:52:52Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12468",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12454 Race in Safe Browsing",
+      "published_at": "2026-06-19T20:52:50Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12454",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12467 Use after free in Extensions",
+      "published_at": "2026-06-19T20:52:48Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12467",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12465 Insufficient validation of untrusted input in Metrics",
+      "published_at": "2026-06-19T20:52:46Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12465",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12464 Use after free in Browser",
+      "published_at": "2026-06-19T20:52:44Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12464",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12463 Inappropriate implementation in Views",
+      "published_at": "2026-06-19T20:52:43Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12463",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12462 Use after free in Media",
+      "published_at": "2026-06-19T20:52:42Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12462",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12460 Insufficient policy enforcement in File System Access",
+      "published_at": "2026-06-19T20:52:40Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12460",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12459 Inappropriate implementation in Serial",
+      "published_at": "2026-06-19T20:52:39Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12459",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12458 Incorrect security UI in Passwords",
+      "published_at": "2026-06-19T20:52:38Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12458",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12457 Insufficient data validation in Extensions",
+      "published_at": "2026-06-19T20:52:37Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12457",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12456 Insufficient validation of untrusted input in Extensions",
+      "published_at": "2026-06-19T20:52:36Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12456",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12455 Use after free in Tab Strip",
+      "published_at": "2026-06-19T20:52:34Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12455",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12453 Insufficient validation of untrusted input in Input",
+      "published_at": "2026-06-19T20:52:33Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12453",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12452 Use after free in Downloads",
+      "published_at": "2026-06-19T20:52:31Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12452",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12451 Use after free in DigitalCredentials",
+      "published_at": "2026-06-19T20:52:30Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12451",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12447 Heap buffer overflow in WebRTC",
+      "published_at": "2026-06-19T20:52:29Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12447",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12446 Insufficient data validation in Passwords",
+      "published_at": "2026-06-19T20:52:27Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12446",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12445 Use after free in Extensions",
+      "published_at": "2026-06-19T20:52:26Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12445",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12443 Use after free in Web Authentication",
+      "published_at": "2026-06-19T20:52:25Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12443",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12441 Use after free in File Input",
+      "published_at": "2026-06-19T20:52:24Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12441",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12440 Use after free in DigitalCredentials",
+      "published_at": "2026-06-19T20:52:22Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12440",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12439 Use after free in Digital Credentials",
+      "published_at": "2026-06-19T20:52:19Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12439",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
+      "published_at": "2026-06-19T20:25:02Z",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "summary": "Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
+      "published_at": "2026-06-19T16:12:41Z",
+      "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+      "summary": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45469 Microsoft Excel Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45469",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45475 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45475",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45472 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45472",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Android. Customers running affected Microsoft Office for Android software should install the update for their product to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45471 Microsoft Word Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45471",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45474 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45474",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Android. Customers running affected Microsoft Office for Android software should install the update for their product to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45486 Microsoft Word Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45486",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45485 Microsoft Office Information Disclosure Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45485",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44817 Microsoft Excel Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44817",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44818 Microsoft Excel Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44818",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44819 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44819",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44820 Microsoft Excel Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44820",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44821 Microsoft Office Information Disclosure Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44821",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44823 Microsoft Excel Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44823",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44824 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44824",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45456 Microsoft Outlook and Word Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45456",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45458 Microsoft Outlook and Word Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45458",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45460 Microsoft Office Information Disclosure Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45460",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Android. Customers running affected Microsoft Office for Android software should install the update for their product to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45461 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45461",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Android. Customers running affected Microsoft Office for Android software should install the update for their product to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45466 Microsoft Word Information Disclosure Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45466",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45643 Microsoft Word Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45643",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45645 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45645",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45649 Office for Android Spoofing Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45649",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Word, PowerPoint, Excel for Android. Customers running affected Microsoft Office for Android software should install the update for their product to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44822 Microsoft Excel Information Disclosure Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44822",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45455 Microsoft Excel Information Disclosure Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45455",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45457 Microsoft Word Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45457",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45459 Microsoft Excel Security Feature Bypass Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45459",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for…"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45463 Microsoft Office Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45463",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Android. Customers running affected Microsoft Office for Android software should install the update for their product to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42903 Windows Kerberos Denial of Service Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42903",
+      "summary": "Updated an acknowledgement. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44803 Windows Graphics Component Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44803",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Word, PowerPoint, Excel for Android. Customers running affected Microsoft Office for Android software should install the update for their product to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-44812 Windows Graphics Component Remote Code Execution Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44812",
+      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Word, PowerPoint, Excel for Android. Customers running affected Microsoft Office for Android software should install the update for their product to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-24289 Windows Kernel Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24289",
+      "summary": "Acknowledgement added. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32177 .NET Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32177",
+      "summary": "Removed incorrectly added rows from the Security Updates table. This is an informational change only."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2025-6965 Integer Truncation on SQLite",
+      "published_at": "2026-06-19T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-6965",
+      "summary": "Added Visual Studio software to the Security Updates table. Customers that are running supported version of Visual Studio are encouraged to update to the indicated version to be protected from this vulnerability."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
+      "published_at": "2026-06-19T13:10:19Z",
+      "url": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
+      "summary": "AI agents can access data, trigger workflows, deploy code, and interact with critical business systems, often with little oversight. Token Security breaks down why AI agents are becoming a new identity and governance challenge. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Webinar: How attackers bypass MFA and how defenders can respond",
+      "published_at": "2026-06-19T12:12:20Z",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
+      "summary": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavioral AI can help security teams detect compromised accounts faster and automate response workflows. [...]"
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "Finastra",
+      "title": "Pollen Street Capital to acquire Universal Banking from Finastra",
+      "published_at": "2026-06-19T12:00:00Z",
+      "url": "https://www.finastra.com/press-media/pollen-street-capital-acquire-universal-banking",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
+      "published_at": "2026-06-19T11:32:34Z",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
+      "summary": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Recycle Bin. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
+      "published_at": "2026-06-19T10:39:58Z",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
+      "summary": "CISA has urged U.S. federal agencies to secure their systems by Sunday against a critical Splunk Enterprise vulnerability that is being exploited in attacks. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "NY man charged after harassing college student with AI-generated nudes",
+      "published_at": "2026-06-19T08:44:08Z",
+      "url": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
+      "summary": "A New York man faces cyberstalking charges after allegedly sharing AI-generated nude images and fabricated racist messages using fake social media profiles to harass a Georgia college student. [...]"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-48914 Qemu-kvm: heap buffer overflow in virtio-blk scsi request handling",
+      "published_at": "2026-06-19T08:43:42Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48914",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-10275 OpenSC pkcs11-tool Key Generation pkcs11-tool.c test_kpgen_certwrite buffer overflow",
+      "published_at": "2026-06-19T08:40:27Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10275",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-8376 Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds",
+      "published_at": "2026-06-19T08:40:20Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8376",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-43966 HTTP Response Splitting via Non-VCHAR Bytes in cow_http_struct_hd:escape_string/2",
+      "published_at": "2026-06-19T08:01:53Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43966",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-9669 bz2.BZ2Decompressor reuse after error can cause a stack buffer overflow",
+      "published_at": "2026-06-19T08:01:47Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9669",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-12087 Socket versions before 2.041 for Perl have an out-of-bounds heap read",
+      "published_at": "2026-06-19T08:01:42Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12087",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-53689",
+      "published_at": "2026-06-19T08:01:36Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53689",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42014 Gnutls: fix use-after-free in gnutls_pkcs11_token_set_pin",
+      "published_at": "2026-06-19T08:01:29Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42014",
+      "summary": "Information published."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
+      "published_at": "2026-06-19T06:47:55Z",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed \"FortiBleed.\" [...]"
+    },
+    {
+      "category": "Fintech Watch",
+      "source": "FIS",
+      "title": "FIS Earns Top Rankings in Two Chartis Reports, Cementing Position as Capital Markets Technology Leader",
+      "published_at": "2026-06-19T00:00:00Z",
+      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-earns-top-rankings-two-chartis-reports-cementing-position",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Keep your files, lose the charges—1TB of lifetime storage is just $130",
+      "published_at": "2026-06-19T00:00:00Z",
+      "url": "https://www.bleepingcomputer.com/offer/deals/keep-your-files-lose-the-charges-1tb-of-lifetime-storage-is-just-130/",
+      "summary": ""
+    },
+    {
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-06-19T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/cfos-rising-pressure-to-deliver-ai-roi",
+      "summary": "CFOs pointed to growing pressure to prove AI ROI beyond pilots at the EMEA Gartner Finance Symposium."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
+      "published_at": "2026-06-18T22:31:52Z",
+      "url": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+      "summary": "The Gentlemen ransomware-as-a-service (RaaS) is actively developing and maintaining a suite of endpoint detection and response (EDR) killers to help affiliates evade detection in attacks. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "Treasury International Capital Data for April",
+      "published_at": "2026-06-18T20:00:00Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0536",
+      "summary": ""
+    },
+    {
+      "category": "Executive",
+      "source": "White House",
+      "title": "Effects of Banning Anti-Competitive Hospital Contracts",
+      "published_at": "2026-06-18T19:31:26Z",
+      "url": "https://www.whitehouse.gov/research/2026/06/effects-of-banning-anti-competitive-hospital-contracts/",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "published_at": "2026-06-18T19:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc."
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
+      "published_at": "2026-06-18T18:31:36Z",
+      "url": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "summary": "Nintendo of America has confirmed to BleepingComputer that threat actors stole survey data from the third-party TinyPulse service used internally, but its systems were not compromised. [...]"
+    },
+    {
+      "category": "OFAC",
+      "source": "Treasury",
+      "title": "Treasury Targets Hizballah-Aligned Officials and Intensifies Pressure on Global Financial Network",
+      "published_at": "2026-06-18T17:00:00Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0535",
+      "summary": ""
+    },
+    {
+      "category": "IS",
+      "source": "BleepingComputer",
+      "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
+      "published_at": "2026-06-18T16:20:06Z",
+      "url": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+      "summary": "Threat actors targeting cryptocurrency wallets have been distributing clipboard-stealing malware with self-spreading capabilities and using the Tor network to conceal communication. [...]"
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
+      "published_at": "2026-06-18T15:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618a.htm",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company"
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-47633 Microsoft Cost Management Information Disclosure Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47633",
+      "summary": "Exposure of sensitive information to an unauthorized actor in Cost Management Interactive Experiences allows an unauthorized attacker to disclose information over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32208 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32208",
+      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Edge (Chromium-based) allows an authorized attacker to perform spoofing over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-32174 Azure Bot Service Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32174",
+      "summary": "Improper authentication in Azure Bot Service allows an authorized attacker to elevate privileges over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-45480 Azure Active Directory Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45480",
+      "summary": "Improper authentication in Azure Active Directory allows an unauthorized attacker to elevate privileges over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-42895 Microsoft Copilot Tampering Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42895",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to perform tampering over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-54130 M365 Copilot Information Disclosure Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54130",
+      "summary": "Missing authentication for critical function in M365 Copilot allows an unauthorized attacker to disclose information over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-47647 Dynamics 365 Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47647",
+      "summary": "Improper access control in Microsoft Dynamics 365 allows an authorized attacker to elevate privileges over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-48584 Microsoft Azure Synapse Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48584",
+      "summary": "Execution with unnecessary privileges in Azure Synapse allows an authorized attacker to elevate privileges over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-48582 Microsoft Exchange Online Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48582",
+      "summary": "Missing authorization in Microsoft Exchange Online allows an authorized attacker to elevate privileges over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-47645 Microsoft 365 Copilot's Business Chat Elevation of Privilege Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47645",
+      "summary": "Url redirection to untrusted site ('open redirect') in Microsoft 365 Copilot's Business Chat allows an unauthorized attacker to elevate privileges over a network."
+    },
+    {
+      "category": "IS",
+      "source": "Microsoft MSRC",
+      "title": "CVE-2026-47646 Dynamics 365 Customer Voice Spoofing Vulnerability",
+      "published_at": "2026-06-18T14:00:00Z",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47646",
+      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Dynamics 365 Customer Voice allows an unauthorized attacker to perform spoofing over a network."
     },
     {
       "category": "Executive",
@@ -45,60 +1035,12 @@
       "summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program"
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "ShapedPlugin update flow hacked to infect WordPress sites",
-      "published_at": "2026-06-18T12:55:36Z",
-      "url": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
-      "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack that distributed infected releases to paying customers via the vendor's official update system. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
-      "published_at": "2026-06-18T12:54:39Z",
-      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-      "summary": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
-      "published_at": "2026-06-18T12:23:58Z",
-      "url": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
-      "summary": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluetooth range to spy on users' conversations. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Telegram admits it couldn't police exam-leak channels, India tells court",
-      "published_at": "2026-06-18T12:18:49Z",
-      "url": "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
-      "summary": "India's government has told the Delhi High Court that Telegram was warned about two weeks before it was blocked, and that the platform admitted it could not proactively detect the channels selling leaked exam papers. Telegram says it cooperated and the ban is unlawful. [...]"
-    },
-    {
       "category": "FinCEN",
       "source": "FinCEN",
       "title": "FinCEN, Agencies Propose Rule to Implement GENIUS Act Customer Identification Program Requirement",
       "published_at": "2026-06-18T12:00:00Z",
       "url": "https://www.fincen.gov/news/news-releases/fincen-agencies-propose-rule-implement-genius-act-customer-identification",
       "summary": "WASHINGTON—Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN), together with the Office of the Comptroller of the Currency, the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, and the National Credit Union Administration issued a joint proposed rule to implement provisions of the Guiding and E…"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
-      "published_at": "2026-06-18T11:33:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-      "summary": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft fixes Windows Server 2016 security update failures",
-      "published_at": "2026-06-18T10:14:20Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
-      "summary": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]"
     },
     {
       "category": "IS",
@@ -167,54 +1109,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-45445 AES-OCB IV Ignored on EVP_Cipher() Path",
-      "published_at": "2026-06-18T08:46:59Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45445",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-9076 Out-of-Bounds Read in CMS Password-Based Decryption",
-      "published_at": "2026-06-18T08:46:38Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9076",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-34180 Heap Buffer Over-read in ASN.1 Content Parsing",
-      "published_at": "2026-06-18T08:45:56Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34180",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42767 NULL Pointer Dereference in CRMF EncryptedValue Decryption",
-      "published_at": "2026-06-18T08:45:04Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42767",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42766 Possible NULL Dereference in Password-Based CMS Decryption",
-      "published_at": "2026-06-18T08:44:21Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42766",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-7383 Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion",
-      "published_at": "2026-06-18T08:42:51Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7383",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-34182 CMS AuthEnvelopedData Processing May Accept Forged Messages",
       "published_at": "2026-06-18T08:41:57Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34182",
@@ -253,12 +1147,36 @@
       "summary": "Information published."
     },
     {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
-      "published_at": "2026-06-18T01:30:08Z",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
-      "summary": "OpenAI appears to be testing a new subscription and experience for science use cases, but it's unclear if it'll be available to everyone regardless of their background. [...]"
+      "category": "OFAC",
+      "source": "OFAC",
+      "title": "Counter Terrorism Designations",
+      "published_at": "2026-06-18T00:00:00Z",
+      "url": "https://ofac.treasury.gov/recent-actions/20260618",
+      "summary": ""
+    },
+    {
+      "category": "Banking",
+      "source": "FRB",
+      "title": "Regulatory Reform",
+      "published_at": "2026-06-18T00:00:00Z",
+      "url": "https://www.federalreserve.gov/reform.htm",
+      "summary": "The Federal Reserve Board of Governors in Washington DC."
+    },
+    {
+      "category": "Mortgage",
+      "source": "Freddie Mac",
+      "title": "Mortgage Rates Decline",
+      "published_at": "2026-06-18T00:00:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/06/18/3314413/0/en/mortgage-rates-decline.html",
+      "summary": ""
+    },
+    {
+      "category": "Legislative",
+      "source": "House Financial Services",
+      "title": "Task Force on Monetary Policy, Treasury Market Resilience, and Economic Prosperity Examines the Role of the Federal Reserve System",
+      "published_at": "2026-06-18T00:00:00Z",
+      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411166",
+      "summary": ""
     },
     {
       "category": "Fintech Watch",
@@ -271,18 +1189,10 @@
     {
       "category": "IS",
       "source": "BleepingComputer",
-      "title": "Compare ChatGPT, Claude & more for $55 with this AI platform deal",
+      "title": "This refurbished Lenovo Chromebook is just $79.99",
       "published_at": "2026-06-18T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/compare-chatgpt-claude-and-more-for-55-with-this-ai-platform-deal/",
+      "url": "https://www.bleepingcomputer.com/offer/deals/this-refurbished-lenovo-chromebook-is-just-7999/",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Google to use UK and EU user IP addresses for ad personalization",
-      "published_at": "2026-06-17T21:02:42Z",
-      "url": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
-      "summary": "From August 3, 2026, Google will use IP addresses from UK, EEA and Switzerland users for ad measurement and personalization. It lands as the ICO weighs new consent rules, and years after Google itself called using such signals to identify devices \"wrong.\" [...]"
     },
     {
       "category": "Banking",
@@ -299,14 +1209,6 @@
       "published_at": "2026-06-17T18:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Why Account Takeovers Are Rising and How to Stop Them",
-      "published_at": "2026-06-17T14:00:10Z",
-      "url": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-      "summary": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores how device trust and continuous verification help reduce account takeover risk. [...]"
     },
     {
       "category": "IS",
@@ -327,14 +1229,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-45475 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-17T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45475",
-      "summary": "Acknowledgement added. This is an informational change only."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-42828 Windows Projected File System Elevation of Privilege Vulnerability",
       "published_at": "2026-06-17T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42828",
@@ -347,30 +1241,6 @@
       "published_at": "2026-06-17T13:23:49Z",
       "url": "https://www.whitehouse.gov/briefings-statements/2026/06/what-they-are-saying-first-lady-melania-trump-launches-fostering-the-future-accounts/",
       "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
-      "published_at": "2026-06-17T13:12:45Z",
-      "url": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
-      "summary": "India has banned Telegram until June 22 after the app was used to circulate leaked exam papers. CEO Pavel Durov accuses telecom Reliance of BGP hijacking that disrupted the app as far away as the UAE. Here's what happened, and how to get around the block with an MTProto proxy. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft confirms Office apps launch issues after June updates",
-      "published_at": "2026-06-17T11:54:21Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
-      "summary": "Microsoft is investigating a new issue preventing third-party applications from launching Microsoft Office applications or opening documents on up-to-date Windows systems. [...]"
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "CISA orders feds to patch max severity Joomla plugin flaw by Friday",
-      "published_at": "2026-06-17T10:09:24Z",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity flaw in the Widget Factory Joomla Content Editor (JCE) plugin that is being actively exploited in the wild. [...]"
     },
     {
       "category": "IRS",
@@ -406,30 +1276,6 @@
     },
     {
       "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "The Facts: The 21st Century ROAD to Housing Act Delivers a Bipartisan, Bicameral Win for Housing Affordability",
-      "published_at": "2026-06-17T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/majority/the-facts-the-21st-century-road-to-housing-act-delivers-a-bipartisan-bicameral-win-for-housing-affordability",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Senator Warren Statement on Upcoming FOMC Decision",
-      "published_at": "2026-06-17T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/06/17/2026/senator-warren-statement-on-upcoming-fomc-decision",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "Senate Banking",
-      "title": "Warren, Shaheen Urge President Trump to Finally End Relief for Russian Oil",
-      "published_at": "2026-06-17T00:00:00Z",
-      "url": "https://www.banking.senate.gov/newsroom/minority/warren-shaheen-urge-president-trump-to-finally-end-relief-for-russian-oil",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
       "source": "House Financial Services",
       "title": "Hill and Davidson Urge FinCEN to Modernize AML Rules and Prioritize High-Risk Financial Crimes",
       "published_at": "2026-06-17T00:00:00Z",
@@ -442,38 +1288,6 @@
       "title": "First Commerce Bank Selects FIS Core Banking to Compete in an AI-Ready Future",
       "published_at": "2026-06-17T00:00:00Z",
       "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/first-commerce-bank-selects-fis-core-banking-compete-ai-ready",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "This refurbished Apple Watch Series 11 is on sale for $325 while stock lasts",
-      "published_at": "2026-06-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/this-refurbished-apple-watch-series-11-is-on-sale-for-325-while-stock-lasts/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Surfshark One+ with Incogni is $95 for a year of full privacy coverage",
-      "published_at": "2026-06-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/offer/deals/surfshark-one-plus-with-incogni-is-95-for-a-year-of-full-privacy-coverage/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
-      "published_at": "2026-06-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
-      "summary": ""
-    },
-    {
-      "category": "IS",
-      "source": "BleepingComputer",
-      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
-      "published_at": "2026-06-17T00:00:00Z",
-      "url": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
       "summary": ""
     },
     {
@@ -1226,14 +2040,6 @@
       "summary": "Meetings focus on protecting the financial system and fighting illicit activity while ensuring access for legitimate businesses FOR IMMEDIATE RELEASE: June 15, 2026 HOUSTON – Bankers from throughout Texas underscored their commitment to supporting the integrity of the financial system while serving legitimate businesses and households in a meeting Friday […] The post TBA hosts…"
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Presidential Message on Men’s Health Week",
-      "published_at": "2026-06-15T16:00:00Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-mens-health-week/",
-      "summary": ""
-    },
-    {
       "category": "IS",
       "source": "Microsoft MSRC",
       "title": "Chromium: CVE-2026-12019 Out of bounds write Codecs",
@@ -1402,14 +2208,6 @@
       "summary": "Information published."
     },
     {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42768 Multi-RecipientInfo Bleichenbacher Oracle in CMS_decrypt() and PKCS7_decrypt()",
-      "published_at": "2026-06-15T08:01:25Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42768",
-      "summary": "Information published."
-    },
-    {
       "category": "Payments",
       "source": "NACHA",
       "title": "Tips and Techniques to Keep Originators Informed on Nacha Rules Changes",
@@ -1426,12 +2224,12 @@
       "summary": ""
     },
     {
-      "category": "Executive",
-      "source": "White House",
-      "title": "Presidential Message on the 251st Birthday of the United States Army",
-      "published_at": "2026-06-14T18:42:20Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-the-251st-birthday-of-the-united-states-army/",
-      "summary": ""
+      "category": "Compliance Watch",
+      "source": "Wolters Kluwer",
+      "title": "Wolters Kluwer news",
+      "published_at": "2026-06-15T00:00:00Z",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-successfully-prices-500-million-7-year-eurobond",
+      "summary": "Wolters Kluwer, a global leader in professional information solutions, software and services, today announced that it has successfully priced a new €500 million 7-year senior unsecured Eurobond."
     },
     {
       "category": "IS",
@@ -1532,22 +2330,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-45446 Incorrect Tag Processing for Empty Messages in AES-GCM-SIV and AES-SIV modes",
-      "published_at": "2026-06-13T08:04:41Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45446",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-34183 Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler",
-      "published_at": "2026-06-13T08:02:56Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34183",
-      "summary": "Information published."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-44705 tmp: Path Traversal via unsanitized prefix/postfix enables directory escape",
       "published_at": "2026-06-13T08:01:59Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44705",
@@ -1607,14 +2389,6 @@
       "title": "FinCEN Issues Guidance to Help Financial Institutions Eliminate Fraud Through Information Sharing",
       "published_at": "2026-06-12T21:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0531",
-      "summary": ""
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "First Lady Melania Trump’s Remarkable Week Empowering Youth through AI Challenge and Fostering the Future Accounts",
-      "published_at": "2026-06-12T20:58:22Z",
-      "url": "https://www.whitehouse.gov/briefings-statements/2026/06/first-lady-melania-trumps-remarkable-week-empowering-youth-through-ai-challenge-and-fostering-the-future-accounts/",
       "summary": ""
     },
     {
@@ -2139,14 +2913,6 @@
       "title": "CVE-2026-47294 Microsoft SharePoint Server Remote Code Execution Vulnerability",
       "published_at": "2026-06-10T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47294",
-      "summary": "Updated an acknowledgement. This is an informational change only."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-42903 Windows Kerberos Denial of Service Vulnerability",
-      "published_at": "2026-06-10T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42903",
       "summary": "Updated an acknowledgement. This is an informational change only."
     },
     {
@@ -4166,14 +4932,6 @@
       "summary": "(AUSTIN) – The Texas Bankers Association (TBA) recently announced the elected Board of Directors for the 2026-27 fiscal year. Named were: Chairman William M. Lucas, Shelby Savings Bank, SSB, Center; Vice Chair Michael A. Neill, First State Bank, Athens; Treasurer Micah C. Boles, First National Bank of Bosque County, Valley Mills; and Past Chairman Ronald D. Butler, II, First F…"
     },
     {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Treasury Releases Social Security and Medicare Trustees Reports",
-      "published_at": "2026-06-09T15:30:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0526",
-      "summary": ""
-    },
-    {
       "category": "Compliance Watch",
       "source": "CDIA",
       "title": "🎲 NEW! Meet the Bureaus Face-to-Face at the 2026 Metro 2® Format Advanced Workshop",
@@ -4576,58 +5334,10 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-45469 Microsoft Excel Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45469",
-      "summary": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45472 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45472",
-      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45471 Microsoft Word Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45471",
-      "summary": "Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45474 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45474",
-      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-45479 Microsoft SharePoint Server Spoofing Vulnerability",
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45479",
       "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45486 Microsoft Word Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45486",
-      "summary": "Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45485 Microsoft Office Information Disclosure Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45485",
-      "summary": "Out-of-bounds read in Microsoft Office allows an unauthorized attacker to disclose information locally."
     },
     {
       "category": "IS",
@@ -4688,106 +5398,10 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-44817 Microsoft Excel Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44817",
-      "summary": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-44818 Microsoft Excel Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44818",
-      "summary": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-44819 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44819",
-      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-44820 Microsoft Excel Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44820",
-      "summary": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-44821 Microsoft Office Information Disclosure Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44821",
-      "summary": "Out-of-bounds read in Microsoft Office allows an unauthorized attacker to disclose information locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-44823 Microsoft Excel Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44823",
-      "summary": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-44824 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44824",
-      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-45453 Microsoft SharePoint Server Spoofing Vulnerability",
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45453",
       "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45456 Microsoft Outlook and Word Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45456",
-      "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45458 Microsoft Outlook and Word Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45458",
-      "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45460 Microsoft Office Information Disclosure Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45460",
-      "summary": "Out-of-bounds read in Microsoft Office allows an unauthorized attacker to disclose information locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45461 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45461",
-      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45466 Microsoft Word Information Disclosure Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45466",
-      "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to disclose information locally."
     },
     {
       "category": "IS",
@@ -4928,34 +5542,10 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-45643 Microsoft Word Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45643",
-      "summary": "Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45645 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45645",
-      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-45648 Windows Active Directory Domain Services Remote Code Execution Vulnerability",
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45648",
       "summary": "Stack-based buffer overflow in Active Directory Domain Services allows an authorized attacker to execute code over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45649 Office for Android Spoofing Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45649",
-      "summary": "Improper access control in Office for Android allows an unauthorized attacker to perform spoofing locally."
     },
     {
       "category": "IS",
@@ -5288,14 +5878,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-44822 Microsoft Excel Information Disclosure Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44822",
-      "summary": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to disclose information over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-45454 Microsoft SharePoint Remote Code Execution Vulnerability",
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45454",
@@ -5304,42 +5886,10 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-45455 Microsoft Excel Information Disclosure Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45455",
-      "summary": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to disclose information over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45457 Microsoft Word Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45457",
-      "summary": "Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45459 Microsoft Excel Security Feature Bypass Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45459",
-      "summary": "Protection mechanism failure in Microsoft Office Excel allows an unauthorized attacker to bypass a security feature locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-45462 Microsoft SharePoint Server Spoofing Vulnerability",
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45462",
       "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-45463 Microsoft Office Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45463",
-      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
     },
     {
       "category": "IS",
@@ -6056,22 +6606,6 @@
     {
       "category": "IS",
       "source": "Microsoft MSRC",
-      "title": "CVE-2026-44803 Windows Graphics Component Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44803",
-      "summary": "Integer overflow or wraparound in Windows Win32K - GRFX allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-44812 Windows Graphics Component Remote Code Execution Vulnerability",
-      "published_at": "2026-06-09T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44812",
-      "summary": "Integer overflow or wraparound in Windows Win32K - GRFX allows an unauthorized attacker to execute code locally."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
       "title": "CVE-2026-42993 Remote Desktop Client Remote Code Execution Vulnerability",
       "published_at": "2026-06-09T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42993",
@@ -6550,213 +7084,6 @@
       "published_at": "2026-06-08T14:00:00Z",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35429",
       "summary": "Updated an acknowledgement. This is an informational change only."
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "More than half the U.S. States signed up to participate in the federal scholarship tax credit program enacted under the One, Big, Beautiful Bill",
-      "published_at": "2026-06-08T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/more-than-half-the-us-states-signed-up-to-participate-in-the-federal-scholarship-tax-credit-program-enacted-under-the-one-big-beautiful-bill",
-      "summary": "IR-2026-76, June 8, 2026 — The IRS announced that 27 states have elected to participate in the Federal Scholarship Tax Credit (FSTC) program, which enables eligible taxpayers to claim a federal tax credit for qualified contributions to Scholarship Granting Organizations (SGOs) providing scholarships for qualified elementary and secondary education expenses."
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "IRS and Security Summit partners announce new framework to better protect taxpayers and tax revenue from fraud",
-      "published_at": "2026-06-08T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/irs-and-security-summit-partners-announce-new-framework-to-better-protect-taxpayers-and-tax-revenue-from-fraud",
-      "summary": "IR-2026-75, June 8, 2026 — The Internal Revenue Service and Security Summit partners today announced a restructuring of the public-private partnership designed to strengthen protections and enhance information sharing across the tax system."
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "IRS statements and announcements",
-      "published_at": "2026-06-08T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/irs-statements-and-announcements",
-      "summary": "Agency statements, comments and additional information."
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Payment Power: How ACH Optimizes Speed, Cost, and Control",
-      "published_at": "2026-06-08T00:00:00Z",
-      "url": "https://www.nacha.org/news/payment-power-how-ach-optimizes-speed-cost-and-control",
-      "summary": "ACH payments operate under the Nacha Operating Rules and Guidelines, providing a standard set of ACH Network Rules and operating practices that link thousands of financial institutions, millions of businesses and consumers to a ubiquitous payment ecosystem. The Rules matter for payment originators (i.e., AP) while supporting predictable processing, clear exception handling, an…"
-    },
-    {
-      "category": "Fintech Watch",
-      "source": "FIS",
-      "title": "FIS Builds Alliance with Fuse to Give Auto and Equipment Lenders a Faster Path to Modern Origination",
-      "published_at": "2026-06-08T00:00:00Z",
-      "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-builds-alliance-fuse-give-auto-and-equipment-lenders-faster",
-      "summary": ""
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Statement on Ability To Repay and Immigration Status",
-      "published_at": "2026-06-08T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/06/08/2026-11447/statement-on-ability-to-repay-and-immigration-status",
-      "summary": "The Consumer Financial Protection Bureau (Bureau or CFPB) is issuing this statement to remind creditors of their obligations under the Truth in Lending Act (TILA) as implemented by Regulation Z, and consistent with Executive Order 14406, titled \"Restoring Integrity to America's Financial System.\"",
-      "fr_tags": [
-        "agency:consumer-financial-protection-bureau",
-        "filter:consumer-financial-protection-bureau"
-      ],
-      "fedreg_document_number": "2026-11447"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-3276 Potential DoS via quadratic complexity in unicodedata.normalize()",
-      "published_at": "2026-06-07T08:03:09Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3276",
-      "summary": "Information published."
-    },
-    {
-      "category": "Executive",
-      "source": "White House",
-      "title": "National Security Presidential Memorandum/NSPM-11",
-      "published_at": "2026-06-05T18:22:57Z",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
-      "summary": ""
-    },
-    {
-      "category": "OFAC",
-      "source": "Treasury",
-      "title": "Economic Fury Targets Iranian LPG Smuggling and Shadow Banking Networks",
-      "published_at": "2026-06-05T15:30:00Z",
-      "url": "https://home.treasury.gov/news/press-releases/sb0524",
-      "summary": ""
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "Press Release: FDIC Issues List of Banks Examined for CRA Compliance",
-      "published_at": "2026-06-05T15:29:46Z",
-      "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/4193a9c",
-      "summary": "PRESS RELEASE | JUNE 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON—The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in March 2026. The CRA is a 1977 law t…"
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-33841 Windows Kernel Elevation of Privilege Vulnerability",
-      "published_at": "2026-06-05T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33841",
-      "summary": "Updated an acknowledgement. This is an informational change only."
-    },
-    {
-      "category": "IS",
-      "source": "Microsoft MSRC",
-      "title": "CVE-2026-32177 .NET Elevation of Privilege Vulnerability",
-      "published_at": "2026-06-05T14:00:00Z",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32177",
-      "summary": "This CVE was updated to fix the download link for .NET Framework 3.8 & 4.81 for Windows 2025"
-    },
-    {
-      "category": "FinCEN",
-      "source": "FinCEN",
-      "title": "FinCEN Issues Joint Advisory on Non-Work Authorized Populations and Their Employers and Risks to the Integrity of the U.S. Financial System",
-      "published_at": "2026-06-05T12:00:00Z",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-joint-advisory-non-work-authorized-populations-and-their-employers",
-      "summary": "Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued an Advisory urging financial institutions to be vigilant against risks presented by the unlawful employment of illegal aliens.Treasury Press ReleaseFinCEN Asks Financial Institutions to Detect and Report Illicit Activity related to Illegal AliensAdvisory"
-    },
-    {
-      "category": "OFAC",
-      "source": "OFAC",
-      "title": "Iran-related Designations; Counter Terrorism Designations Updates",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://ofac.treasury.gov/recent-actions/20260605",
-      "summary": ""
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "IRS describes agency’s activities in fiscal year 2025 Data Book",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/irs-describes-agencys-activities-in-fiscal-year-2025-data-book",
-      "summary": "IR-2026-74, June 5, 2026 — The Internal Revenue Service today issued the 2025 Data Book detailing the agency’s activities during fiscal year 2025."
-    },
-    {
-      "category": "IRS",
-      "source": "IRS",
-      "title": "Treasury, IRS announce intent to issue proposed regulations for excise tax on excess tax-exempt organization executive compensation under the One, Big, Beautiful Bill",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://www.irs.gov/newsroom/treasury-irs-announce-intent-to-issue-proposed-regulations-for-excise-tax-on-excess-tax-exempt-organization-executive-compensation-under-the-one-big-beautiful-bill",
-      "summary": "IR-2026-73, June 5, 2026 — The Department of the Treasury and the Internal Revenue Service today issued Notice 2026-36 announcing intent to issue proposed regulations addressing the tax on excessive compensation and excess parachute payments to employees of tax-exempt organizations under the One, Big, Beautiful Bill."
-    },
-    {
-      "category": "Banking",
-      "source": "FDIC",
-      "title": "FDIC Issues List of Banks Examined for CRA Compliance",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-4",
-      "summary": "The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA)."
-    },
-    {
-      "category": "Mortgage",
-      "source": "FHLB MPF",
-      "title": "MPF Announcement 2026-37",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-37",
-      "summary": ""
-    },
-    {
-      "category": "Legislative",
-      "source": "House Financial Services",
-      "title": "Full Committee Highlights Policy Alignment with Prudential Regulators",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411158",
-      "summary": ""
-    },
-    {
-      "category": "Payments",
-      "source": "NACHA",
-      "title": "Same Day ACH Increased Limit as a Treasury Advantage: Driving Liquidity and Control at Optimal Speed",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://www.nacha.org/news/same-day-ach-increased-limit-treasury-advantage-driving-liquidity-and-control-optimal-speed",
-      "summary": "Since its introduction in 2016, Same Day ACH has evolved from a faster payment option into a strategic treasury tool that helps organizations enhance liquidity, control, and operational efficiency. Same Day ACH will become an even more popular tool on Sept. 17, 2027, when the dollar limit per transaction is increased to $10 million. This will extend Same Day ACH cases to accom…"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Agency Information Collection Activities: Information Collection Extension; Comment Request; Regulatory Capital Reporting for Institutions Subject to the Advanced Capital Adequacy Framework (FFIEC 101)",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11344/agency-information-collection-activities-information-collection-extension-comment-request-regulatory",
-      "summary": "In accordance with the requirements of the Paperwork Reduction Act of 1995 (PRA), the OCC, the Board, and the FDIC (the agencies) may not conduct or sponsor, and the respondent is not required to respond to, an information collection unless it displays a currently valid Office of Management and Budget (OMB) control number. The Federal Financial Institutions Examination Council…",
-      "fr_tags": [
-        "agency:comptroller-of-the-currency",
-        "agency:federal-deposit-insurance-corporation",
-        "agency:federal-reserve-system",
-        "agency:treasury-department",
-        "filter:federal-deposit-insurance-corporation"
-      ],
-      "fedreg_document_number": "2026-11344"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Bank Secrecy Act and Sanctions Compliance Standards for FDIC-Supervised Permitted Payment Stablecoin Issuers",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11342/bank-secrecy-act-and-sanctions-compliance-standards-for-fdic-supervised-permitted-payment-stablecoin",
-      "summary": "The Federal Deposit Insurance Corporation (FDIC) proposes to issue regulations pursuant to the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act) that would implement appropriate Bank Secrecy Act (BSA) and sanctions compliance standards applicable to FDIC-supervised permitted payment stablecoin issuers.",
-      "fr_tags": [
-        "agency:federal-deposit-insurance-corporation",
-        "filter:federal-deposit-insurance-corporation"
-      ],
-      "fedreg_document_number": "2026-11342"
-    },
-    {
-      "category": "Federal Register",
-      "source": "Federal Register",
-      "title": "Clarification of Discretionary Employment Authorization for Certain Aliens",
-      "published_at": "2026-06-05T00:00:00Z",
-      "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11285/clarification-of-discretionary-employment-authorization-for-certain-aliens",
-      "summary": "The Department of Homeland Security proposes to limit and clarify eligibility for discretionary employment authorization for aliens paroled into the United States temporarily for urgent humanitarian reasons or significant public benefit, who have been granted deferred action, or against whom a final order of removal exists and who are temporarily released from custody on an or…",
-      "fr_tags": [
-        "agency:homeland-security-department",
-        "topic:employment"
-      ],
-      "fedreg_document_number": "2026-11285"
     }
   ]
 }
