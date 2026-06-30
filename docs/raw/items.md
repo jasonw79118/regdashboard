@@ -1,7 +1,487 @@
 # RegDashboard — Export
 
-Window: `2026-06-15T14:48:51Z` → `2026-06-29T14:48:51Z` (UTC)
-Last updated: `2026-06-29T09:48:51-05:00` (CT) — `2026-06-29T14:48:51Z` (UTC)
+Window: `2026-06-16T16:14:53Z` → `2026-06-30T16:14:53Z` (UTC)
+Last updated: `2026-06-30T11:14:53-05:00` (CT) — `2026-06-30T16:14:53Z` (UTC)
+
+## Fake Perplexity extension on Chrome Web Store tracked searches
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-30T15:46:19Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/
+
+A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing information. [...]
+
+## Terrorist Financing Targeting Center Jointly Designates Hizballah Financial Institutions and Senior Officials
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-06-30T14:40:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0546
+
+## Press Release: Agencies Release List of Distressed or Underserved Nonmetropolitan Middle-Income Geographies
+- Source: FDIC
+- Category: Banking
+- Published: 2026-06-30T14:21:28Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/41e40b0
+
+PRESS RELEASE | JUNE 30, 2026 Agencies Release List of Distressed or Underserved Nonmetropolitan Middle-Income Geographies WASHINGTON — Federal bank regulatory agencies today released the 2026 list of certain geographies where certain bank activities are eligible for Community Reinvestment Act (CRA) credit. Under the CRA, the agencies assess a bank’s record of meeting the cred…
+
+## Lessons from the Underground: How to Combat Business Email Compromise
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-30T14:00:10Z
+- URL: https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/
+
+Business Email Compromise is more than an email scam. It's a coordinated operation involving compromised accounts, financial research, and cash-out networks. Flare explores how underground forums reveal how BEC attacks are planned and executed. [...]
+
+## Agencies release list of distressed or underserved nonmetropolitan middle-income geographies
+- Source: FRB
+- Category: Banking
+- Published: 2026-06-30T14:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm
+
+Agencies release list of distressed or underserved nonmetropolitan middle-income geographies
+
+## CVE-2026-42910 Windows Hotpatch Monitoring Service Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-06-30T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42910
+
+Updated an acknowledgement. This is an informational change only.
+
+## Insurance giant Aflac discloses data breach after subsidiary hack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-30T11:12:18Z
+- URL: https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/
+
+American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. [...]
+
+## Microsoft adds smarter bot protection to Teams meetings
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-30T10:52:26Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/
+
+Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]
+
+## Early Bird Ends June 30th! Make sure to register early and save!
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-06-30T10:15:17Z
+- URL: https://www.cdiaonline.org/events/2026/06/30/early-bird-ends-june-30th-make-sure-to-register-early-and-save/
+
+Seats are filling fast for the Metro 2® Format Advanced Workshop in Las Vegas, NV! Don’t miss this interactive opportunity to... The post Early Bird Ends June 30th! Make sure to register early and save! appeared first on CDIA .
+
+## Federal agencies release 2026 list of CRA-eligible communities
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-06-30T10:00:00Z
+- URL: https://www.texasbankers.com/federal-agencies-release-2026-list-of-cra-eligible-communities/
+
+Federal bank regulatory agencies released the 2026 list of geographies where certain bank activities are eligible for Community Reinvestment Act (CRA) credit. Under the CRA, the agencies assess a bank’s record of meeting the credit needs of its entire community, including low- and moderate-income neighborhoods, in a manner consistent with safe and sound operations. The […] The…
+
+## Kali Linux 2026.2 released with 9 new tools, NetHunter updates
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-30T09:46:39Z
+- URL: https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/
+
+Kali Linux 2026.2, the second release of the year, is now available for download, featuring 9 new tools and numerous Kali NetHunter improvements. [...]
+
+## Blackfield ransomware asks Nidec Corporation for $2 million ransom
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-30T09:41:05Z
+- URL: https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/
+
+The Blackfield ransomware gang is asking for a $2 million ransom from Nidec Corporation, a large Japanese manufacturer of electronic components for automotive and computing applications. [...]
+
+## CISA: Windows BlueHammer flaw now exploited by ransomware gangs
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-30T08:53:13Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/
+
+CISA confirmed on Monday that ransomware gangs are now exploiting a Microsoft Defender privilege escalation vulnerability, dubbed BlueHammer, that has previously been abused in zero-day attacks. [...]
+
+## CVE-2026-11979 Stack-Based Buffer Overflow in libxml2
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-06-30T08:02:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11979
+
+Information published.
+
+## CVE-2026-53325 agp/amd64: Fix broken error propagation in agp_amd64_probe()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-06-30T08:02:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53325
+
+Information published.
+
+## CVE-2026-41992 Global Buffer Overflow in GNU gzip
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-06-30T08:02:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41992
+
+Information published.
+
+## CVE-2026-41991 Predictable Temporary File in GNU gzip
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-06-30T08:01:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41991
+
+Information published.
+
+## CVE-2026-54371 attr < 2.6.0 Symlink Traversal Privilege Escalation via getfattr/setfattr
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-06-30T08:01:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54371
+
+Information published.
+
+## CVE-2026-54369 acl < 2.4.0 Symlink Traversal Privilege Escalation via libacl Functions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-06-30T08:01:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54369
+
+Information published.
+
+## Agencies Release List of Distressed or Underserved Nonmetropolitan Middle-Income Geographies
+- Source: FDIC
+- Category: Banking
+- Published: 2026-06-30T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/agencies-release-list-distressed-or-underserved-nonmetropolitan-middle
+
+Federal bank regulatory agencies today released the 2026 list of certain geographies where certain bank activities are eligible for Community Reinvestment Act
+
+## House Passes Committee Bill to Reauthorize the Terrorism Risk Insurance Program
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-06-30T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411185
+
+## Chairman Hill: The Bills Before Us Today Reflect a Common-Sense Approach to Financial Services Policy
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-06-30T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411186
+
+## Visa: AI and Digital Commerce Power Global Economy Growth Amid Rising Costs
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22536.html
+
+## Visa Redefines Its Role in Travel With the Global Launch of Visa Destinations
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22521.html
+
+## Visa Partners with OpenAI to Power the Next Generation of AI Commerce
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22496.html
+
+## Visa and Brale Explore Private Stablecoin Settlement for Institutional Payments
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22481.html
+
+## Visa Expands Commercial Solutions Hub with Integration of Visa Accounts Receivable Manager
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22471.html
+
+## Visa Threats Report: As Network Security Strengthens, Criminals Accelerate Shift to AI-Enabled Social Engineering
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22466.html
+
+## Men in Blazers Media Network and Visa Team Up to Launch Fan-Powered City Guides Celebrating Soccer Culture and Local Small Businesses
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22461.html
+
+## Visa and Jason Sudeikis Turn the Simplest Goal in Football Into the Biggest Fan Moments at the FIFA World Cup 2026™
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22441.html
+
+## Your Card, Your Security. Tap: A Safer Way to Verify Identity — Visa, Keyno, and Fidelity Bank (Bahamas) Lead the Transformation
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22406.html
+
+## Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html
+
+## Visa to Participate in Upcoming Investor Conferences
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html
+
+## Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html
+
+## Visa Fiscal Second Quarter 2026 Financial Results
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html
+
+## Visa Launches Validator Node on Tempo Blockchain
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html
+
+## Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
+
+## Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
+
+## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
+
+## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
+
+## Visa Unveils New Services to Modernize Dispute Resolution Process
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
+
+## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
+
+## Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
+
+## Visa to Bring Privacy-Preserving Payments to Canton Network
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
+
+## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
+
+## Visa Completes Acquisition of Prisma and Newpay
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
+
+## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
+
+## Visa Renews Partnership Across Red Bull Formula One Teams
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
+
+## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
+
+## Visa to Participate in Upcoming Investor Conferences
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
+
+## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
+
+## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
+
+## Visa Fiscal First Quarter 2026 Financial Results
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
+
+## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
+
+## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
+
+## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
+
+## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T00:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
+
+## Build cybersecurity skills with this $53 InfoSec4TC membership
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-30T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/build-cybersecurity-skills-with-this-53-infosec4tc-membership/
+
+## Metro 2® Format Advanced Workshop
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-06-30T00:00:00Z
+- URL: https://www.cdiaonline.org/advanced-metro-2-format-workshop/
+
+## Assessments Thresholds, Rate Schedules, and Adjustments
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-06-30T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/06/30/2026-13192/assessments-thresholds-rate-schedules-and-adjustments
+
+The Federal Deposit Insurance Corporation (FDIC) invites public comment on a proposed rule that would amend the assessment regulations in 12 CFR part 327 to: update the $10 billion asset threshold in the definitions of small and large institutions to $30 billion and adjust the threshold every four years to reflect inflation, pursuant to a pre-determined indexing methodology; d…
+
+## Resolution Submissions Required for Covered Insured Depository Institutions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-06-30T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/06/30/2026-13191/resolution-submissions-required-for-covered-insured-depository-institutions
+
+The FDIC is seeking comment on a proposal to revise its regulations that require resolution submissions by insured depository institutions (IDIs) with at least $50 billion in total assets. The proposed rule would modify the current rule by raising and automatically updating the dollar threshold that determines the scope of applicability; reducing the requirements regarding the…
+
+## Disclosure of Information
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-06-30T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/06/30/2026-13123/disclosure-of-information
+
+The Federal Deposit Insurance Corporation (FDIC) is inviting comment on a notice of proposed rulemaking that would update, clarify, and supplement the FDIC's regulations regarding the disclosure of confidential information by the FDIC and other parties, including by enhancing the ability of insured depository institutions to share confidential supervisory information with affi…
+
+## Declaration of Emergency and Authorization for Temporary Duty Free Importation of Phosphate Fertilizer Morocco
+- Source: White House
+- Category: Executive
+- Published: 2026-06-29T23:31:17Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/06/declaration-of-emergency-and-authorization-for-temporary-duty-free-importation-of-phosphate-fertilizer-morocco/
+
+## Fact Sheet: President Donald J. Trump Declares an Emergency and Authorizes the Temporary Suspension of Certain Duties on Phosphate Fertilizer from Morocco
+- Source: White House
+- Category: Executive
+- Published: 2026-06-29T23:26:58Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-declares-an-emergency-and-authorizes-the-temporary-suspension-of-certain-duties-on-phosphate-fertilizer-from-morocco/
+
+## Nissan discloses employee data breach linked to Oracle zero-day attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-29T20:40:44Z
+- URL: https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
+
+Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to the ShinyHunters extortion group. [...]
+
+## NAIC says public data stolen in ShinyHunters' PeopleSoft breach
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-29T20:30:28Z
+- URL: https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/
+
+The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, and configuration files after breaching its systems by exploiting a zero-day vulnerability in an Oracle PeopleSoft server. [...]
+
+## Fact Sheet: President Donald J. Trump Lowers the Cost of Living by Promoting the Freedom to Fix
+- Source: White House
+- Category: Executive
+- Published: 2026-06-29T19:54:29Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-lowers-the-cost-of-living-by-promoting-the-freedom-to-fix/
+
+## Lowering the Cost of Living by Promoting the Freedom to Fix
+- Source: White House
+- Category: Executive
+- Published: 2026-06-29T19:53:41Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/06/lowering-the-cost-of-living-by-promoting-the-freedom-to-fix/
+
+## WhatsApp rolls out usernames to help users hide their phone number
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-29T17:48:28Z
+- URL: https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/
+
+WhatsApp is finally allowing users to reserve usernames, a privacy feature that lets them hide their phone numbers from people not in their contact list. [...]
+
+## Microsoft extends Windows Server 2022 hotpatching until October 2027
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-29T17:11:15Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/
+
+Microsoft has extended Windows Server 2022 hotpatching until October 2027, one year after the mainstream end date of October 2026. [...]
+
+## U.S. offers $10 million for hackers targeting WhatsApp, Signal users
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-29T15:09:43Z
+- URL: https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/
+
+The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker groups, which are linked to Russia's intelligence and military services. [...]
 
 ## Agentic AI Has an Identity Problem and Attackers Know It
 - Source: BleepingComputer
@@ -27,27 +507,11 @@ Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-485
 
 Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to threat intelligence company Defused. [...]
 
-## Webinar: Why business email compromise attacks keep succeeding
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-29T12:14:22Z
-- URL: https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/
-
-Business email compromise attacks increasingly rely on convincing impersonation rather than malware, making them harder for employees and traditional email defenses to detect. This webinar explores how behavioral AI can help identify sophisticated email threats and automate response workflows. [...]
-
 ## Maldives Premier Bank selects Finastra to power international banking capabilities
 - Source: Finastra
 - Category: Fintech Watch
 - Published: 2026-06-29T12:00:00Z
 - URL: https://www.finastra.com/press-media/maldives-premier-bank-selects-finastra-power-international-banking-capabilities
-
-## US seizes hundreds of FIFA World Cup illegal streaming domains
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-29T11:21:03Z
-- URL: https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/
-
-The U.S. Justice Department's Criminal Division has seized nearly 400 web domains used for illegally streaming matches at the FIFA World Cup. [...]
 
 ## 📢 New to Metro 2® Reporting?
 - Source: CDIA
@@ -113,11 +577,71 @@ Information published.
 
 Information published.
 
+## The Fair Credit Reporting Act Protects Consumers. Its Liability Rules Protect Trial Lawyers.
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-06-29T01:00:36Z
+- URL: https://www.cdiaonline.org/news/2026/06/29/the-fair-credit-reporting-act-protects-consumers-its-liability-rules-protect-trial-lawyers/
+
+By Dan Smith, President and CEO, Consumer Data Industry Association The Fair Credit Reporting Act is one of the most important... The post The Fair Credit Reporting Act Protects Consumers. Its Liability Rules Protect Trial Lawyers. appeared first on CDIA .
+
 ## Russia-related Designations Removals
 - Source: OFAC
 - Category: OFAC
 - Published: 2026-06-29T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260629
+
+## Treasury, IRS provide safe harbor for certain contributions to Trump Accounts under the Working Families Tax Cuts
+- Source: IRS
+- Category: IRS
+- Published: 2026-06-29T00:00:00Z
+- URL: https://www.irs.gov/newsroom/treasury-irs-provide-safe-harbor-for-certain-contributions-to-trump-accounts-under-the-working-families-tax-cuts
+
+IR-2026-80, June 29, 2026 — The Department of the Treasury and the Internal Revenue Service today issued Revenue Procedure 2026-25 providing a gift tax reporting safe harbor for certain contributions to Trump accounts created under the Working Families Tax Cuts.
+
+## Fannie Mae Announces the Results of its Thirty-sixth Reperforming Loan Sale Transaction
+- Source: Fannie Mae
+- Category: Mortgage
+- Published: 2026-06-29T00:00:00Z
+- URL: https://www.fanniemae.com/newsroom/fannie-mae-news/results-thirty-sixth-reperforming-loan-sale-transaction
+
+Fannie Mae announced the results of its thirty-sixth reperforming loan sale transaction.
+
+## News & Commentaries
+- Source: Fannie Mae
+- Category: Mortgage
+- Published: 2026-06-29T00:00:00Z
+- URL: https://capitalmarkets.fanniemae.com/news-commentaries
+
+## Warren Statement on Supreme Court Commissioners Decision
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-06-29T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-commissioners-decision
+
+## Warren Statement on Lisa Cook Supreme Court Decision
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-06-29T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-lisa-cook-supreme-court-decision
+
+## Senator Warren Statement on May 2026 PCE
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-06-29T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-may-2026-pce
+
+## Webinar: Why business email compromise attacks keep succeeding
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-29T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/
+
+## US seizes hundreds of FIFA World Cup illegal streaming domains
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-06-29T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/
 
 ## AdGuard’s Family Plan is on sale for a one-time $15 through 7/1
 - Source: BleepingComputer
@@ -136,14 +660,6 @@ Information published.
 - Category: Federal Register
 - Published: 2026-06-29T00:00:00Z
 - URL: https://www.federalregister.gov/documents/2026/06/29/2026-13115/sunshine-act-meetings
-
-## Data breach exposes up to 14.2 million email logins at six ISPs
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-28T14:13:46Z
-- URL: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
-
-Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]
 
 ## CVE-2026-53228 ipv6: sit: reload inner IPv6 header after GSO offloads
 - Source: Microsoft MSRC
@@ -4649,19 +5165,11 @@ Information published.
 
 Information published.
 
-## Understand AI security with this 6-course bundle for $20 through 6/28
+## Data breach exposes up to 14.2 million email logins at six ISPs
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-06-28T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/understand-ai-security-with-this-6-course-bundle-for-20-through-6-28/
-
-## Clean GitHub repo tricks AI coding agents into running malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-27T14:22:36Z
-- URL: https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/
-
-An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisible to security scanners, AI agents, and human reviewers. [...]
+- URL: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
 
 ## Chromium: CVE-2026-13038 Use after free in Autofill
 - Source: Microsoft MSRC
@@ -4775,49 +5283,11 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
 
-## Get a durable, refurbished Lenovo Chromebook for $55
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-27T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/get-a-durable-refurbished-lenovo-chromebook-for-55/
-
-## FBI: Russian hackers now target Signal backup recovery keys
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-26T22:06:17Z
-- URL: https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/
-
-The FBI and CISA are warning that a phishing campaign targeting Signal users tied to Russian intelligence services has evolved to steal Signal Backup Recovery Keys, allowing attackers to access victims' historical messages. [...]
-
 ## S. 1003 Signed into Law
 - Source: White House
 - Category: Executive
 - Published: 2026-06-26T20:55:58Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/06/s-1003-signed-into-law/
-
-## CISA sets urgent deadline to fix Cisco flaw exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-26T19:43:06Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]
-
-## Polymarket customers lose $3 million in supply-chain attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-26T18:04:12Z
-- URL: https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/
-
-Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's frontend following a breach at a third-party vendor. [...]
-
-## Cybersecurity firms targeted by fraudulent OpenAI organization invites
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-26T17:49:07Z
-- URL: https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/
-
-Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company information in chats and projects. [...]
 
 ## Treasury Sanctions Networks Fueling Sudan’s Civil War and Worsening Humanitarian Crisis
 - Source: Treasury
@@ -4832,14 +5302,6 @@ Threat actors are creating OpenAI tenants that impersonate legitimate companies 
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/41da64c
 
 PRESS RELEASE | JUNE 26, 2026 FDIC Publishes Enforcement Orders for May 2026 WASHINGTON—The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in May 2026. There are no administrative hearings scheduled for July 2026. Order to Pay Civil Money Penalty: Alliance Community Bank, P…
-
-## Your First GRC Agent: A Red Teamer's Walkthrough
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-26T14:01:11Z
-- URL: https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/
-
-AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and opens remediation tasks. [...]
 
 ## CVE-2026-4367 Libxpm: libxpm: denial of service via out-of-bounds read in xpm file parsing
 - Source: Microsoft MSRC
@@ -4933,25 +5395,11 @@ FDIC today published a list of orders of administrative enforcement actions take
 
 The monthly summary report contains information about Fannie Mae’s monthly and year-to-date activities.
 
-## Applications & Technology
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-06-26T00:00:00Z
-- URL: https://multifamily.fanniemae.com/applications-technology
-
-Learn more about Fannie Mae’s Multifamily library of applications; DUS Disclose, DUS Docway, DUS Gateway, DUS Insights, DUS Navigate and more.
-
 ## Capital Markets Subcommittee Reviews the Evolving Investment Landscape and Market Regulation
 - Source: House Financial Services
 - Category: Legislative
 - Published: 2026-06-26T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411184
-
-## One year of trusted Bitdefender antivirus protection is now only $20
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-26T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/one-year-of-trusted-bitdefender-antivirus-protection-is-now-only-20/
 
 ## Sunshine Act Meetings: Notice of Meeting To Be Held With Less Than Seven Days' Advance Notice
 - Source: Federal Register
@@ -4971,30 +5419,6 @@ Learn more about Fannie Mae’s Multifamily library of applications; DUS Disclos
 - Published: 2026-06-25T23:00:00Z
 - URL: https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-advances-regenerative-agriculture-and-strengthens-american-farm-resilience/
 
-## Anthropic is testing desktop-like Claude Cowork for mobile
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-25T22:53:32Z
-- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/
-
-Anthropic appears to be testing Claude Cowork support on mobile, allowing you to manage long-running Claude tasks from your phone. [...]
-
-## Poland busts SIM-swapping gang tied to millions in crypto theft
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-25T22:37:42Z
-- URL: https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/
-
-Authorities in Poland have arrested four members of an organized cybercrime group accused of breaching telecommunications partners and hijacking email accounts to carry out SIM-swapping attacks. [...]
-
-## Order-tracking app Shop abused to push callback phishing attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-06-25T19:45:48Z
-- URL: https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/
-
-Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick them into providing sensitive data or installing remote access software. [...]
-
 ## FDIC Board of Directors Meeting
 - Source: FDIC
 - Category: Banking
@@ -5009,14 +5433,6 @@ BOARD MEETING | JUNE 25, 2026 FDIC Board of Directors Meeting Today, the Federal
 - Published: 2026-06-25T18:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0543
 
-## Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.
-- Source: FRB
-- Category: Banking
-- Published: 2026-06-25T15:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm
-
-Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.
-
 ## Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.
 - Source: FRB
 - Category: Banking
@@ -5024,6 +5440,14 @@ Federal Reserve Board issues enforcement action with employee of Bank of Eufaula
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm
 
 Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.
+
+## Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.
+- Source: FRB
+- Category: Banking
+- Published: 2026-06-25T15:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm
+
+Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.
 
 ## CVE-2026-41086 Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -5099,24 +5523,6 @@ The FDIC Board of Directors approved a notice of proposed rulemaking to amend Pa
 - Published: 2026-06-25T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/06/25/3317803/0/en/mortgage-rates-average-6-49.html
 
-## Senator Warren Statement on May 2026 PCE
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-may-2026-pce
-
-## At Nomination Hearing, Trump Nominee for CEA Chair Failed to Answer Basic Facts When Pressed on Trump’s Economy
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/at-nomination-hearing-trump-nominee-for-cea-chair-failed-to-answer-basic-facts-when-pressed-on-trumps-economy
-
-## Chairman Scott: President Trump’s Nominees Will Help Restore Accountability and Serve the American People
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/majority/chairman-scott-president-trumps-nominees-will-help-restore-accountability-and-serve-the-american-people
-
 ## Wagner: Understanding How and Where Americans Invest is Crucial to Crafting Policies that Support Them
 - Source: House Financial Services
 - Category: Legislative
@@ -5128,210 +5534,6 @@ The FDIC Board of Directors approved a notice of proposed rulemaking to amend Pa
 - Category: Legislative
 - Published: 2026-06-25T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411183
-
-## Visa Redefines Its Role in Travel With the Global Launch of Visa Destinations
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22521.html
-
-## Visa Announces New AI, Stablecoin and Token Innovations to Power Intelligent, Programmable Commerce at Visa Payments Forum
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22491.html
-
-## Visa and Brale Explore Private Stablecoin Settlement for Institutional Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22481.html
-
-## Visa Expands Commercial Solutions Hub with Integration of Visa Accounts Receivable Manager
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22471.html
-
-## Visa Threats Report: As Network Security Strengthens, Criminals Accelerate Shift to AI-Enabled Social Engineering
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22466.html
-
-## Men in Blazers Media Network and Visa Team Up to Launch Fan-Powered City Guides Celebrating Soccer Culture and Local Small Businesses
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22461.html
-
-## Visa and Jason Sudeikis Turn the Simplest Goal in Football Into the Biggest Fan Moments at the FIFA World Cup 2026™
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22441.html
-
-## Your Card, Your Security. Tap: A Safer Way to Verify Identity — Visa, Keyno, and Fidelity Bank (Bahamas) Lead the Transformation
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22406.html
-
-## Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html
-
-## Visa Announces Global Expansion of Agentic Ready Program
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22341.html
-
-## Visa Fiscal Second Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html
-
-## Visa Launches Validator Node on Tempo Blockchain
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html
-
-## Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
-
-## Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
-
-## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
-
-## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
-
-## Visa Unveils New Services to Modernize Dispute Resolution Process
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
-
-## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
-
-## Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
-
-## Visa to Bring Privacy-Preserving Payments to Canton Network
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
-
-## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-
-## Visa Completes Acquisition of Prisma and Newpay
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
-
-## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
-
-## Visa Renews Partnership Across Red Bull Formula One Teams
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-## Visa Fiscal First Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
-
-## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
-
-## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
-
-## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
-
-## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-25T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 
 ## Prohibition on the Use of Reputation Risk
 - Source: Federal Register
@@ -5574,12 +5776,6 @@ Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Netw
 - Category: Legislative
 - Published: 2026-06-23T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411179
-
-## America 250: Presidential Message on the Anniversary of the Battle of Okinawa
-- Source: White House
-- Category: Executive
-- Published: 2026-06-23T00:00:00Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-anniversary-of-the-battle-of-okinawa/
 
 ## Fiserv Announces Pricing of Tender Offers for Any and All of its Outstanding 5.150% Senior Notes due 2027 and 4.400% Senior Notes due 2049
 - Source: Fiserv
@@ -6679,12 +6875,6 @@ Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Netw
 - Published: 2026-06-23T00:00:00Z
 - URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
 
-## Fact Sheet: President Donald J. Trump Secures the Nation Against Advanced Cryptographic Attacks
-- Source: White House
-- Category: Executive
-- Published: 2026-06-22T20:39:42Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-secures-the-nation-against-advanced-cryptographic-attacks/
-
 ## Ushering in the Next Frontier of Quantum Innovation
 - Source: White House
 - Category: Executive
@@ -7735,12 +7925,6 @@ The Federal Reserve Board of Governors in Washington DC.
 
 The Federal Reserve Board of Governors in Washington DC.
 
-## News & Commentaries
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-06-17T00:00:00Z
-- URL: https://capitalmarkets.fanniemae.com/news-commentaries
-
 ## Hill and Davidson Urge FinCEN to Modernize AML Rules and Prioritize High-Risk Financial Crimes
 - Source: House Financial Services
 - Category: Legislative
@@ -7768,679 +7952,3 @@ The Securities and Exchange Commission ("Commission" or "SEC") is proposing amen
 - URL: https://www.federalregister.gov/documents/2026/06/17/2026-12149/equal-credit-opportunity-regulation-b-special-purpose-credit-programs-rescission
 
 The Consumer Financial Protection Bureau (Bureau) is rescinding an advisory opinion issued in December 2020 regarding Regulation B, which implements the Equal Credit Opportunity Act (ECOA), as it applies to certain aspects of special purpose credit programs designed and implemented by for-profit organizations to meet special social needs.
-
-## Remarks by Treasury Secretary Scott Bessent before the American Swiss Foundation
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-06-16T22:53:56Z
-- URL: https://home.treasury.gov/news/press-releases/sb0534
-
-## CVE-2026-40371 Microsoft Dynamics 365 (on-premises) Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40371
-
-Updated the fixed version information and download link. The fix was previously believed to be included in Dynamics 365 Server (on-premises) version 6.2; however, it has been confirmed that the fix is included in Dynamics 365 Server v9.1 (on-premises) Update 1.45 (version 9.1.0045.0011). The download link, release notes, and build number has been updated accordingly in the Upd…
-
-## CVE-2026-45602 Windows Dynamic Host Configuration Protocol (DHCP) Tampering Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45602
-
-Updated CWE value. This is an informational change only.
-
-## CVE-2026-50656 Microsoft Defender Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50656
-
-Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as "RoguePlanet ". We are working to provide a high quality security update that addresses this vulnerability. We will provide information in this CVE when the update is available.
-
-## New CDIA Webinar!
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-06-16T10:00:28Z
-- URL: https://www.cdiaonline.org/events/2026/06/16/new-cdia-webinar/
-
-Cybersecurity is no longer just an IT issue—it’s essential to compliance, data integrity, and consumer trust. Join CDIA on June 23... The post New CDIA Webinar! appeared first on CDIA .
-
-## CVE-2026-54411 Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-…
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T08:01:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54411
-
-Information published.
-
-## Chromium: CVE-2026-11700 Use after free in Tracing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:15:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11701
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11699 Use after free in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:15:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11700
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11698 Use after free in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:15:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11699
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11697 Insufficient validation of untrusted input in UI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:15:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11698
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11696 Uninitialized Use in Video
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:15:02Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11697
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11695 Inappropriate implementation in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:15:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11696
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11694 Use after free in ServiceWorker
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11695
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11693 Inappropriate implementation in Plugins
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11694
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11692 Use after free in Read Anything
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:57Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11693
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11691 Insufficient validation of untrusted input in New Tab Page
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11692
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11690 Out of bounds read and write in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11691
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11689 Insufficient validation of untrusted input in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11690
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11688 Object lifecycle issue in SVG
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11689
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11687 Use after free in Dawn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11688
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11686 Insufficient validation of untrusted input in Dawn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11687
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11685 Insufficient data validation in MediaCapture
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11686
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11684 Insufficient policy enforcement in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11685
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11683 Use after free in WebCodecs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11684
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11682 Insufficient validation of untrusted input in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11683
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11681 Use after free in Ozone
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11682
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11680 Use after free in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11681
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11679 Use after free in Codecs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11680
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11678 Integer overflow in libyuv
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11679
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11677 Race in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11678
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11676 Insufficient validation of untrusted input in Dawn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11677
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11675 Insufficient validation of untrusted input in Skia
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11676
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11674 Use after free in Guest View
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11675
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11673 Use after free in InterestGroups
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11674
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11672 Out of bounds write in GPU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11673
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11671 Use after free in Navigation
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11672
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11670 Use after free in PDF
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11671
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11669 Integer overflow in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11670
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11668 Uninitialized Use in Codecs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11669
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11667 Out of bounds read in WebRTC
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:24Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11668
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11666 Insufficient validation of untrusted input in Input
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11667
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11665 Out of bounds read in Dawn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11666
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11664 Use after free in Payments
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11665
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11663 Use after free in Skia
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11664
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11662 Type Confusion in Bindings
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:18Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11663
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11661 Use after free in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11662
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11660 Insufficient validation of untrusted input in New Tab Page
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:15Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11661
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11659 Insufficient validation of untrusted input in UI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11660
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11658 Insufficient validation of untrusted input in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11659
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11657 Use after free in Payments
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:10Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11658
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11656 Use after free in ServiceWorker
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11657
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11655 Integer overflow in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11656
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11654 Use after free in CameraCapture
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11655
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11653 Insufficient validation of untrusted input in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11654
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11652 Use after free in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11653
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11651 Use after free in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11652
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11650 Use after free in V8
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:14:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11651
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11649 Use after free in V8
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11650
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11648 Use after free in FullScreen
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:57Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11649
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11647 Use after free in Printing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:56Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11648
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11646 Use after free in ViewTransitions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11646
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11645 Out of bounds memory access in V8
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11645
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11644 Use after free in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11644
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11643 Use after free in Proxy
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11643
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11642 Use after free in Web Apps
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11642
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11641 Use after free in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11641
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11640 Integer overflow in libyuv
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11640
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11639 Use after free in Compositing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11639
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11638 Use after free in Printing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11638
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11637 Use after free in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11637
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11636 Use after free in Autofill
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11636
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11635 Use after free in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11635
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11634 Use after free in Gamepad
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11634
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11633 Use after free in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11633
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11632 Use after free in TabStrip
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11632
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11631 Use after free in Aura
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11631
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11630 Use after free in File Input
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11630
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11629 Use after free in Ozone
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11629
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## Chromium: CVE-2026-11628 Use after free in Ozone
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-16T02:13:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11628
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
-
-## FIS Brings Secondary Loan Trading into the Modern Era with Trade & Distribution Manager
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-06-16T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-brings-secondary-loan-trading-modern-era-trade-distribution
-
-## Fiserv Announces Launch of Tender Offers for Any and All of its Outstanding 5.150% Senior Notes due 2027 and 4.400% Senior Notes due 2049
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-06-16T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-announces-launch-tender-offers-any-and-all-its
-
-## Education Services
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-06-16T00:00:00Z
-- URL: https://www.cdiaonline.org/education-services/
-
-## Notice to All Interested Parties of Intent To Terminate Receiverships
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-16T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/16/2026-12010/notice-to-all-interested-parties-of-intent-to-terminate-receiverships
-
-## Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-16T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/16/2026-12058/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act
-
-On March 11, 2026, the NCUA (or `agency') published a proposed rule to solicit comments on ways to improve and update the vital records preservation program regulation and accompanying guidelines. Based on the comments received, and upon further consideration of the issues involved, the NCUA Board is publishing this final rule, mostly as proposed, to clarify the purpose of par…
-
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-06-15T21:53:41Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/06/nominations-sent-to-the-senate-4101/
-
-## TBA hosts U.S. Treasury Secretary, Comptroller in Houston
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-06-15T16:52:25Z
-- URL: https://www.texasbankers.com/tba-hosts-u-s-treasury-secretary-comptroller-in-houston/
-
-Meetings focus on protecting the financial system and fighting illicit activity while ensuring access for legitimate businesses FOR IMMEDIATE RELEASE: June 15, 2026 HOUSTON – Bankers from throughout Texas underscored their commitment to supporting the integrity of the financial system while serving legitimate businesses and households in a meeting Friday […] The post TBA hosts…
