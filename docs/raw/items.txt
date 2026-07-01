@@ -1,5 +1,520 @@
 IS
 BleepingComputer
+2026-07-01T14:01:11Z
+Turning Indicators into Intelligence in OpenCTI with Criminal IP
+https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/
+Threat intelligence is only as useful as the context behind it. Criminal IP explains how its integration enriches threat indicators in OpenCTI with risk scoring, infrastructure intelligence, and phishing analysis. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-07-01T14:00:00Z
+Treasury Opens the New Designation Cycle for Opportunity Zones
+https://home.treasury.gov/news/press-releases/sb0550
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-01T12:30:01Z
+Over 900 Oracle E-Business instances exposed to ongoing attacks
+https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/
+Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw. [...]
+------------------------------------------------------------
+Fintech Watch
+Finastra
+2026-07-01T12:00:00Z
+BanBif strengthens its digital solutions for foreign trade operations with Finastra, supporting business growth
+https://www.finastra.com/press-media/banbif-strengthens-its-digital-solutions-foreign-trade-operations-finastra-supporting
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-01T10:52:26Z
+Microsoft fixes GIF functionality in the Windows Emoji Panel
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-gif-functionality-in-the-windows-emoji-panel/
+Microsoft has fixed the GIF functionality in the Emoji Panel for Windows 11 users after the provider shut down its service. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-01T09:43:27Z
+Amazon fined $2.25M for withholding evidence from fraud victims
+https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/
+The U.S. Federal Trade Commission (FTC) says Amazon will pay a $2.25 million civil penalty to settle charges that it blocked identity theft victims' access to transaction records. [...]
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:40:53Z
+CVE-2026-41992 Global Buffer Overflow in GNU gzip
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41992
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:40:05Z
+CVE-2026-57062 CMS (Cryptographic Message Syntax) parsing in gpgsm in GnuPG through 2.5.20 mishandles the CMS format for AES-GCM because aes-ICVlen is supposed to be 12 bytes but 4 bytes is accepted. NOTE: this is relat…
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57062
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:57Z
+CVE-2026-13595 Util-linux: util-linux: heap use-after-free in libblkid nested partition probing
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13595
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:51Z
+CVE-2026-11625 Bytes::Random::Secure versions through 0.29 for Perl share internal state across forked processes
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11625
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:43Z
+CVE-2026-58050 libssh2 - Integer Overflow in publickey Subsystem Attribute Allocation
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58050
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:37Z
+CVE-2026-58051 libssh2 - Free of Uninitialized Pointer in publickey List Cleanup
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58051
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:32Z
+CVE-2026-7531 Use-after-free in PQC hybrid key-share handling
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7531
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:26Z
+CVE-2026-6412 Continued acceptance of SHA-1/MD5 digests in certificate processing
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6412
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:20Z
+CVE-2026-6092 Encrypt-then-MAC could fall back to MAC-then-Encrypt when HAVE_ENCRYPT_THEN_MAC is configured
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6092
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:13Z
+CVE-2026-11310 X.509 trust-chain bypass in wolfSSL_X509_verify_cert() via untrusted intermediate anchoring
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11310
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:07Z
+CVE-2026-10097 ML-KEM-1024 x64 AVX2 incomplete cipher text comparison enables IND-CCA2 break and static private-key recovery
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10097
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:06:01Z
+CVE-2026-10098 OCSP CertID serial-number length-confusion in wolfSSL_OCSP_resp_find_status
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10098
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:55Z
+CVE-2026-8720 HMAC-BLAKE2 final discards message when key length exceeds block size
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8720
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:49Z
+CVE-2026-12340 Out-of-bounds heap read in SM2/SM3 certificate Subject Key Identifier computation
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12340
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:43Z
+CVE-2026-10512 X25519 x86_64 assembly final reduction leaves non-canonical field element
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10512
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:36Z
+CVE-2026-10592 Wildcard DNS SAN bypasses CA name-constraint checks
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10592
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:25Z
+CVE-2026-6091 Partial-chain verification accepts untrusted intermediate as trust anchor
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6091
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:19Z
+CVE-2026-6325 Out-of-bounds write in SetSuitesHashSigAlgo on oversized signature algorithms list
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6325
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:13Z
+CVE-2026-55958 Renesas TSIP TLS 1.3 transcript buffer out-of-bounds write in tsip_StoreMessage
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55958
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:06Z
+CVE-2026-6731 X.509 name constraint bypass via Subject CN treated as a DNS name
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6731
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:05:00Z
+CVE-2026-7511 PKCS7_verify signer confusion allows forged signatures to be accepted
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7511
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:54Z
+CVE-2026-6330 ML-KEM ARM64 NEON ciphertext comparison only compares half of the input
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6330
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:48Z
+CVE-2026-6331 HMAC zero-length tag forgery in EVP_DigestVerifyFinal
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6331
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:41Z
+CVE-2026-6094 Heap buffer overread in wc_PKCS7_DecodeEnvelopedData parsing crafted PKCS7 EnvelopedData
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6094
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:35Z
+CVE-2026-6678 Integer underflow in wc_PKCS7_DecryptOri handling crafted Other Recipient Info
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6678
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:29Z
+CVE-2026-55961 wolfSSL_PKCS7_verify() reports success for degenerate (certs-only) PKCS#7 with no signer
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55961
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:22Z
+CVE-2026-6329 PKCS#12 MAC verification uses attacker-controlled comparison length
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6329
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:16Z
+CVE-2026-11999 X.509 trust-chain bypass via path-depth exhaustion in wolfSSL_X509_verify_cert()
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11999
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:10Z
+CVE-2026-55962 TLS 1.3 post-handshake authentication: server accepts Finished without client Certificate/CertificateVerify
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55962
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:04:04Z
+CVE-2026-55967 AES-GCM streaming APIs do not reject >64 GiB cumulative single messages, enabling counter wrap and keystream reuse
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55967
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:57Z
+CVE-2026-11703 Missing SNI/ALPN binding on stateful (session-ID) TLS session resumption
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11703
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:51Z
+CVE-2026-55964 Chain intermediate CA:TRUE without keyCertSign accepted as a signing CA (temporary CA exemption)
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55964
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:45Z
+CVE-2026-55960 Un-negotiated Raw Public Key (RFC 7250) accepted in place of X.509, bypassing chain validation
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55960
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:39Z
+CVE-2026-6450 CRL critical extension bypass in ParseCRL_Extensions
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6450
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:32Z
+CVE-2026-7532 iPAddress name constraints not enforced when WOLFSSL_IP_ALT_NAME is undefined
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-7532
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:26Z
+CVE-2026-6291 Bleichenbacher padding oracle in PKCS#7 KTRI RSA PKCS#1 v1.5 decryption
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6291
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:19Z
+CVE-2026-57918 libnfs through 6.0.2 before 935b8db has an xid integer underflow in READ_IOVEC in rpc_read_from_socket in lib/socket.c during a connection to a crafted NFS server, when the expected pdu size exceeds the a…
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57918
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:12Z
+CVE-2026-57231 Podman: Malformed Image can trick podman run into leaking host environment variables into the container
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57231
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:03:05Z
+CVE-2026-13325 Virt-handler-rhel9: kubevirt: kubevirt: disabletls migration setting removes authentication, exposing unauthenticated virtqemud proxy on all interfaces
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13325
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:59Z
+CVE-2026-13218 Kubevirt: kubevirt: symlink following in writetocachedfile allows host file overwrite from virt-launcher
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13218
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:53Z
+CVE-2026-13208 Kubevirt: virt-handler-rhel9: kubevirt: virt-handler notify server trusts vmi identity from unauthenticated grpc request body
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13208
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:46Z
+CVE-2026-13318 Virt-api-rhel9: kubevirt: kubevirt: ssrf in virt-api port-forward via unvalidated guest-agent-reported ip
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13318
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:40Z
+CVE-2026-13322 Kubevirt: virt-handler-rhel9: kubevirt: unbounded virtio-serial readline in virt-handler causes oom denial of service
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13322
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:33Z
+CVE-2026-58055 nghttp2 nghttpx - HTTP Request/Response Smuggling via Upgrade Request with Content-Length
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58055
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:21Z
+CVE-2026-58014 Glib: off-by-one error in glib/gkeyfile.c via "g_key_file_get_locale_string_list"
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58014
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:15Z
+CVE-2026-58013 Glib: buffer over-read in glib/giochannel.c via "g_io_channel_read_line_backend"
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58013
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:07Z
+CVE-2026-58011 Glib: out-of-bounds read in glib/gdatetime.c:g_date_time_get_ymd via invalid gdatetime
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58011
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:02:01Z
+CVE-2026-58012 Glib: buffer over-read in g_regex_replace() via glib/gregex.c:string_append() and g_utf8_next_char()
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58012
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:01:55Z
+CVE-2026-58016 Glib: integer underflow in gio/gdbusintrospection.c via "g_dbus_node_info_new_for_xml"
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58016
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:01:49Z
+CVE-2026-58015 Glib: path traversal in glib/gio/gdbusauthmechanismsha1.c via keyring_lookup_entry and mechanism_client_data_receive
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58015
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:01:42Z
+CVE-2026-58010 Glib: buffer over-read in glib/gvariant-serialiser.c via gvs_tuple_is_normal()
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58010
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:01:34Z
+CVE-2026-54371 attr < 2.6.0 Symlink Traversal Privilege Escalation via getfattr/setfattr
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54371
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:01:28Z
+CVE-2026-48779 ws: Memory exhaustion DoS from tiny fragments and data chunks
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48779
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-01T08:01:22Z
+CVE-2026-42055 NGINX ngx_http_proxy_v2_module and ngx_http_grpc_module vulnerability
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42055
+Information published.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-01T07:34:52Z
+Adobe patches seven max severity ColdFusion, Campaign flaws
+https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/
+Adobe has released security patches for seven maximum-severity vulnerabilities in the ColdFusion web app development platform and the Campaign Classic marketing automation platform. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-01T00:35:14Z
+Anthropic to restore Claude Fable access on Wednesday
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/
+Anthropic has confirmed that the Department of Commerce has lifted export controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]
+------------------------------------------------------------
+OFAC
+OFAC
+2026-07-01T00:00:00Z
+Counter Narcotics Designations; Counter Terrorism Designations and Designation Update
+https://ofac.treasury.gov/recent-actions/20260701
+------------------------------------------------------------
+Mortgage
+FHLB MPF
+2026-07-01T00:00:00Z
+MPF Announcement 2026-42
+https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-42
+------------------------------------------------------------
+Legislative
+House Financial Services
+2026-07-01T00:00:00Z
+Chairman Hill Applauds World Bank Decision to Phase Out Lending to China
+https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411187
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-01T00:00:00Z
+One app. 150+ languages. One $70 payment for lifetime access.
+https://www.bleepingcomputer.com/offer/deals/one-app-150-plus-languages-one-70-payment-for-lifetime-access/
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-07-01T00:00:00Z
+Accountability in Higher Education and Access Through Demand- Driven Workforce Pell: Student Tuition and Transparency System (STATS) and Earnings Accountability
+https://www.federalregister.gov/documents/2026/07/01/2026-13286/accountability-in-higher-education-and-access-through-demand--driven-workforce-pell-student-tuition
+The Secretary of Education (Secretary) amends the regulations governing institutional eligibility, general provisions, and the William D. Ford Direct Loan (Direct Loan) Program under title IV of the Higher Education Act (HEA) of 1965, as amended (the title IV, HEA programs) to implement statutory changes to the title IV, HEA programs included in the Working Families Tax Cuts A…
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-06-30T23:13:07Z
+Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/
+Anthropic is now rolling out Sonnet 5, and it's almost as good as the Opus range, but it is designed to be cheaper than the company's flagship model. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-06-30T21:50:24Z
+New BioShocking attack manipulates AI browser into data theft
+https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/
+A new prompt injection attack dubbed "BioShocking" could trick AI-powered browsers into treating real-world risky actions as part of a fictional scenario, causing them to ignore any safety guardrails. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-06-30T21:20:06Z
+Microsoft accelerates quantum-safe roadmap as risks grow
+https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/
+Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to replace today's encryption standards sooner than previously expected. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-06-30T21:02:55Z
+Malicious PyPI packages give hackers control of Telegram bot servers
+https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/
+A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-06-30T20:01:47Z
+URIF Holds Fourth Board Meeting at Ukraine Recovery Conference
+https://home.treasury.gov/news/press-releases/sb0548
+------------------------------------------------------------
+OFAC
+Treasury
+2026-06-30T17:30:00Z
+Treasury Targets Criminal Facilitators Behind CJNG’s Cross‑Border Fuel Smuggling Schemes
+https://home.treasury.gov/news/press-releases/sb0545
+------------------------------------------------------------
+OFAC
+Treasury
+2026-06-30T16:50:00Z
+Readouts
+https://home.treasury.gov/news/press-releases/readouts
+------------------------------------------------------------
+OFAC
+Treasury
+2026-06-30T16:50:00Z
+READOUT: Financial Action Task Force’s June 2026 Working Group and Plenary
+https://home.treasury.gov/news/press-releases/sb0547
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-06-30T15:46:19Z
 Fake Perplexity extension on Chrome Web Store tracked searches
 https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/
@@ -39,12 +554,19 @@ CVE-2026-42910 Windows Hotpatch Monitoring Service Elevation of Privilege Vulner
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42910
 Updated an acknowledgement. This is an informational change only.
 ------------------------------------------------------------
+FinCEN
+FinCEN
+2026-06-30T12:00:00Z
+FinCEN Issues Supplemental Alert on Fuel Smuggling and Tax Evasion Schemes on the Southern Border Associated with Mexico-Based Cartels
+https://www.fincen.gov/news/news-releases/fincen-issues-supplemental-alert-fuel-smuggling-and-tax-evasion-schemes-southern
+Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) issued a supplemental Alert to advise financial institutions to be vigilant in detecting, identifying, and reporting suspicious activity connected to Cartel de Jalisco Nueva Generacion (CJNG) and other Mexico-based transnational criminal organizations smuggling fuel from the United State…
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-06-30T11:12:18Z
 Insurance giant Aflac discloses data breach after subsidiary hack
 https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/
-American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. [...]
+American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information of 4.38 million customers. [...]
 ------------------------------------------------------------
 IS
 BleepingComputer
@@ -75,20 +597,6 @@ https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new
 Kali Linux 2026.2, the second release of the year, is now available for download, featuring 9 new tools and numerous Kali NetHunter improvements. [...]
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-06-30T09:41:05Z
-Blackfield ransomware asks Nidec Corporation for $2 million ransom
-https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/
-The Blackfield ransomware gang is asking for a $2 million ransom from Nidec Corporation, a large Japanese manufacturer of electronic components for automotive and computing applications. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-30T08:53:13Z
-CISA: Windows BlueHammer flaw now exploited by ransomware gangs
-https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/
-CISA confirmed on Monday that ransomware gangs are now exploiting a Microsoft Defender privilege escalation vulnerability, dubbed BlueHammer, that has previously been abused in zero-day attacks. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-06-30T08:02:15Z
 CVE-2026-11979 Stack-Based Buffer Overflow in libxml2
@@ -104,23 +612,9 @@ Information published.
 ------------------------------------------------------------
 IS
 Microsoft MSRC
-2026-06-30T08:02:02Z
-CVE-2026-41992 Global Buffer Overflow in GNU gzip
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41992
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
 2026-06-30T08:01:56Z
 CVE-2026-41991 Predictable Temporary File in GNU gzip
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41991
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-30T08:01:49Z
-CVE-2026-54371 attr < 2.6.0 Symlink Traversal Privilege Escalation via getfattr/setfattr
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54371
 Information published.
 ------------------------------------------------------------
 IS
@@ -130,12 +624,36 @@ CVE-2026-54369 acl < 2.4.0 Symlink Traversal Privilege Escalation via libacl Fun
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54369
 Information published.
 ------------------------------------------------------------
+OFAC
+OFAC
+2026-06-30T00:00:00Z
+Counter Narcotics Designations; Russia-related Designations Removals; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)
+https://ofac.treasury.gov/recent-actions/20260630
+------------------------------------------------------------
 Banking
 FDIC
 2026-06-30T00:00:00Z
 Agencies Release List of Distressed or Underserved Nonmetropolitan Middle-Income Geographies
 https://www.fdic.gov/news/press-releases/2026/agencies-release-list-distressed-or-underserved-nonmetropolitan-middle
 Federal bank regulatory agencies today released the 2026 list of certain geographies where certain bank activities are eligible for Community Reinvestment Act
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-06-30T00:00:00Z
+Warren, Sanders, Merkley, Hirono Press KKR Executives On Deal with Sallie Mae to Expand Private Equity's Reach Over Student Loans
+https://www.banking.senate.gov/newsroom/minority/warren-sanders-merkley-hirono-press-kkr-executives-on-deal-with-sallie-mae-to-expand-private-equitys-reach-over-student-loans
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-06-30T00:00:00Z
+Warren Presses NCUA Chair Hauptman On Proposals To Weaken Credit Unions
+https://www.banking.senate.gov/newsroom/minority/warren-presses-ncua-chair-hauptman-on-proposals-to-weaken-credit-unions
+------------------------------------------------------------
+Legislative
+Senate Banking
+2026-06-30T00:00:00Z
+Scott, Hagerty Introduce Bill to Secure U.S. Technology Supply Chains from Foreign Adversaries
+https://www.banking.senate.gov/newsroom/majority/scott-hagerty-introduce-bill-to-secure-us-technology-supply-chains-from-foreign-adversaries
 ------------------------------------------------------------
 Legislative
 House Financial Services
@@ -164,8 +682,8 @@ https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22521.html
 Payment Card Networks
 Visa
 2026-06-30T00:00:00Z
-Visa Partners with OpenAI to Power the Next Generation of AI Commerce
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22496.html
+Visa Announces New AI, Stablecoin and Token Innovations to Power Intelligent, Programmable Commerce at Visa Payments Forum
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22491.html
 ------------------------------------------------------------
 Payment Card Networks
 Visa
@@ -218,8 +736,8 @@ https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html
 Payment Card Networks
 Visa
 2026-06-30T00:00:00Z
-Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html
+Visa Announces Global Expansion of Agentic Ready Program
+https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22341.html
 ------------------------------------------------------------
 Payment Card Networks
 Visa
@@ -362,8 +880,32 @@ https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 IS
 BleepingComputer
 2026-06-30T00:00:00Z
+This $56 PDF tool handles almost all editing tasks you throw at it
+https://www.bleepingcomputer.com/offer/deals/this-56-pdf-tool-handles-almost-all-editing-tasks-you-throw-at-it/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-06-30T00:00:00Z
 Build cybersecurity skills with this $53 InfoSec4TC membership
 https://www.bleepingcomputer.com/offer/deals/build-cybersecurity-skills-with-this-53-infosec4tc-membership/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-06-30T00:00:00Z
+Blackfield ransomware asks Nidec Corporation for $2 million ransom
+https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-06-30T00:00:00Z
+CISA: Windows BlueHammer flaw now exploited by ransomware gangs
+https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/
+------------------------------------------------------------
+Compliance Watch
+CDIA
+2026-06-30T00:00:00Z
+Education Services
+https://www.cdiaonline.org/education-services/
 ------------------------------------------------------------
 Compliance Watch
 CDIA
@@ -404,20 +946,6 @@ White House
 Fact Sheet: President Donald J. Trump Declares an Emergency and Authorizes the Temporary Suspension of Certain Duties on Phosphate Fertilizer from Morocco
 https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-declares-an-emergency-and-authorizes-the-temporary-suspension-of-certain-duties-on-phosphate-fertilizer-from-morocco/
 ------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T20:40:44Z
-Nissan discloses employee data breach linked to Oracle zero-day attacks
-https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
-Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to the ShinyHunters extortion group. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T20:30:28Z
-NAIC says public data stolen in ShinyHunters' PeopleSoft breach
-https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/
-The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, and configuration files after breaching its systems by exploiting a zero-day vulnerability in an Oracle PeopleSoft server. [...]
-------------------------------------------------------------
 Executive
 White House
 2026-06-29T19:54:29Z
@@ -429,48 +957,6 @@ White House
 2026-06-29T19:53:41Z
 Lowering the Cost of Living by Promoting the Freedom to Fix
 https://www.whitehouse.gov/presidential-actions/2026/06/lowering-the-cost-of-living-by-promoting-the-freedom-to-fix/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T17:48:28Z
-WhatsApp rolls out usernames to help users hide their phone number
-https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/
-WhatsApp is finally allowing users to reserve usernames, a privacy feature that lets them hide their phone numbers from people not in their contact list. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T17:11:15Z
-Microsoft extends Windows Server 2022 hotpatching until October 2027
-https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/
-Microsoft has extended Windows Server 2022 hotpatching until October 2027, one year after the mainstream end date of October 2026. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T15:09:43Z
-U.S. offers $10 million for hackers targeting WhatsApp, Signal users
-https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/
-The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker groups, which are linked to Russia's intelligence and military services. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T14:01:11Z
-Agentic AI Has an Identity Problem and Attackers Know It
-https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/
-AI agents can access data, trigger workflows, and take action across enterprise systems. Token Security explains why governing these privileged identities is becoming essential for enterprise security. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T14:00:00Z
-Critical SimpleHelp flaw exploited to deploy new stealer malware
-https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
-Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform information stealer targeting Windows, macOS, and Linux. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T13:46:17Z
-Hackers now exploit critical Oracle E-Business flaw in attacks
-https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/
-Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to threat intelligence company Defused. [...]
 ------------------------------------------------------------
 Fintech Watch
 Finastra
@@ -490,27 +976,6 @@ Microsoft MSRC
 2026-06-29T08:06:47Z
 CVE-2026-58058 Nmap - Integer Underflow in IPv6 Extension Header Parsing
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58058
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-29T08:06:34Z
-CVE-2026-58055 nghttp2 nghttpx - HTTP Request/Response Smuggling via Upgrade Request with Content-Length
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58055
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-29T08:06:18Z
-CVE-2026-58051 libssh2 - Free of Uninitialized Pointer in publickey List Cleanup
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58051
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-29T08:05:57Z
-CVE-2026-58050 libssh2 - Integer Overflow in publickey Subsystem Attribute Allocation
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58050
 Information published.
 ------------------------------------------------------------
 IS
@@ -566,42 +1031,6 @@ Fannie Mae
 2026-06-29T00:00:00Z
 News & Commentaries
 https://capitalmarkets.fanniemae.com/news-commentaries
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-06-29T00:00:00Z
-Warren Statement on Supreme Court Commissioners Decision
-https://www.banking.senate.gov/newsroom/minority/warren-statement-on-supreme-court-commissioners-decision
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-06-29T00:00:00Z
-Warren Statement on Lisa Cook Supreme Court Decision
-https://www.banking.senate.gov/newsroom/minority/warren-statement-on-lisa-cook-supreme-court-decision
-------------------------------------------------------------
-Legislative
-Senate Banking
-2026-06-29T00:00:00Z
-Senator Warren Statement on May 2026 PCE
-https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-may-2026-pce
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T00:00:00Z
-Webinar: Why business email compromise attacks keep succeeding
-https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T00:00:00Z
-US seizes hundreds of FIFA World Cup illegal streaming domains
-https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-06-29T00:00:00Z
-AdGuard’s Family Plan is on sale for a one-time $15 through 7/1
-https://www.bleepingcomputer.com/offer/deals/adguards-family-plan-is-on-sale-for-a-one-time-15-through-7-1/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -4557,12 +4986,6 @@ https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53320
 Information published.
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-06-28T00:00:00Z
-Data breach exposes up to 14.2 million email logins at six ISPs
-https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-06-27T00:46:45Z
 Chromium: CVE-2026-13038 Use after free in Autofill
@@ -5061,12 +5484,6 @@ White House
 2026-06-23T16:18:27Z
 Nominations Sent to the Senate
 https://www.whitehouse.gov/presidential-actions/2026/06/nominations-sent-to-the-senate-a2ce/
-------------------------------------------------------------
-OFAC
-Treasury
-2026-06-23T14:30:00Z
-Treasury Further Dismantles Overseas Scam Operations Targeting Americans
-https://home.treasury.gov/news/press-releases/sb0538
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -6224,12 +6641,6 @@ White House
 Securing the Nation Against Advanced Cryptographic Attacks
 https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/
 ------------------------------------------------------------
-OFAC
-Treasury
-2026-06-22T17:30:11Z
-Treasury Targets ISIS Facilitators and Disrupts Terrorist Financial Networks
-https://home.treasury.gov/news/press-releases/sb0537
-------------------------------------------------------------
 Compliance Watch
 TBA
 2026-06-22T16:22:56Z
@@ -6854,24 +7265,12 @@ FIS
 FIS Earns Top Rankings in Two Chartis Reports, Cementing Position as Capital Markets Technology Leader
 https://www.investor.fisglobal.com/news-releases/news-release-details/fis-earns-top-rankings-two-chartis-reports-cementing-position
 ------------------------------------------------------------
-OFAC
-Treasury
-2026-06-18T20:00:00Z
-Treasury International Capital Data for April
-https://home.treasury.gov/news/press-releases/sb0536
-------------------------------------------------------------
 Banking
 FRB
 2026-06-18T19:00:00Z
 Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.
 https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm
 Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.
-------------------------------------------------------------
-OFAC
-Treasury
-2026-06-18T17:00:00Z
-Treasury Targets Hizballah-Aligned Officials and Intensifies Pressure on Global Financial Network
-https://home.treasury.gov/news/press-releases/sb0535
 ------------------------------------------------------------
 Banking
 FRB
@@ -7048,12 +7447,6 @@ CVE-2026-48854 Unbounded request body accumulation causes memory exhaustion in e
 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48854
 Information published.
 ------------------------------------------------------------
-OFAC
-OFAC
-2026-06-18T00:00:00Z
-Counter Terrorism Designations
-https://ofac.treasury.gov/recent-actions/20260618
-------------------------------------------------------------
 Banking
 FRB
 2026-06-18T00:00:00Z
@@ -7099,72 +7492,4 @@ TBA
 Fed Warsh reveals plans, holds rates steady
 https://www.texasbankers.com/fed-warsh-to-launch-review-on-monetary-policy/
 At his first press conference as Federal Reserve chairman, Kevin Warsh revealed plans to establish five task forces focused on different aspects of monetary policy, including data utilization and balance sheet management. Sworn in last month, Warsh participated in his initial Federal Open Market Committee meeting this week, where members unanimously agreed to keep the […] The…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-17T14:00:00Z
-CVE-2026-35433 .NET Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35433
-This CVE was updated to remove Windows 11 (21H1 and 22H2) as impacted
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-17T14:00:00Z
-CVE-2026-47636 Microsoft SharePoint Server Spoofing Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47636
-Acknowledgement added. This is an informational change only.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-17T14:00:00Z
-CVE-2026-42828 Windows Projected File System Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42828
-Acknowledgement added. This is an informational change only.
-------------------------------------------------------------
-IRS
-IRS
-2026-06-17T00:00:00Z
-Electronic Tax Administration Advisory Committee 2026 Annual Report includes recommendations to Congress and IRS
-https://www.irs.gov/newsroom/electronic-tax-administration-advisory-committee-2026-annual-report-includes-recommendations-to-congress-and-irs
-IR-2026-77, June 17, 2026 — The Internal Revenue Service Electronic Tax Administration Advisory Committee released its 2026 annual report today with a total of 18 recommendations – six of which are directed to Congress.
-------------------------------------------------------------
-Banking
-FRB
-2026-06-17T00:00:00Z
-News & Events
-https://www.federalreserve.gov/newsevents.htm
-The Federal Reserve Board of Governors in Washington DC.
-------------------------------------------------------------
-Banking
-FRB
-2026-06-17T00:00:00Z
-2026 FOMC
-https://www.federalreserve.gov/newsevents/pressreleases/2026-press-fomc.htm
-The Federal Reserve Board of Governors in Washington DC.
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-06-17T00:00:00Z
-Hill and Davidson Urge FinCEN to Modernize AML Rules and Prioritize High-Risk Financial Crimes
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411165
-------------------------------------------------------------
-Fintech Watch
-FIS
-2026-06-17T00:00:00Z
-First Commerce Bank Selects FIS Core Banking to Compete in an AI-Ready Future
-https://www.investor.fisglobal.com/news-releases/news-release-details/first-commerce-bank-selects-fis-core-banking-compete-ai-ready
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-06-17T00:00:00Z
-The Trade-Through Rule and Locked and Crossed Markets Provisions of Regulation NMS
-https://www.federalregister.gov/documents/2026/06/17/2026-12163/the-trade-through-rule-and-locked-and-crossed-markets-provisions-of-regulation-nms
-The Securities and Exchange Commission ("Commission" or "SEC") is proposing amendments to Regulation NMS ("Regulation NMS") under the Securities Exchange Act of 1934 ("Exchange Act"). The proposed amendments would rescind the trade-through rule for NMS stocks, the provision regarding locking and crossing quotations for NMS stocks, and certain defined terms. The proposed amendm…
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-06-17T00:00:00Z
-Equal Credit Opportunity (Regulation B); Special Purpose Credit Programs; Rescission
-https://www.federalregister.gov/documents/2026/06/17/2026-12149/equal-credit-opportunity-regulation-b-special-purpose-credit-programs-rescission
-The Consumer Financial Protection Bureau (Bureau) is rescinding an advisory opinion issued in December 2020 regarding Regulation B, which implements the Equal Credit Opportunity Act (ECOA), as it applies to certain aspects of special purpose credit programs designed and implemented by for-profit organizations to meet special social needs.
 ------------------------------------------------------------
