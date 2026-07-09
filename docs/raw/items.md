@@ -1,84 +1,188 @@
 # RegDashboard — Export
 
-Window: `2026-06-23T12:57:25Z` → `2026-07-07T12:57:25Z` (UTC)
-Last updated: `2026-07-07T07:57:25-05:00` (CT) — `2026-07-07T12:57:25Z` (UTC)
+Window: `2026-06-25T13:23:29Z` → `2026-07-09T13:23:29Z` (UTC)
+Last updated: `2026-07-09T08:23:29-05:00` (CT) — `2026-07-09T13:23:29Z` (UTC)
 
-## Webinar tomorrow: Why modern email attacks require a new approach to defense
+## Microsoft to retire the OWA Light client in Exchange Server
 - Source: BleepingComputer
 - Category: IS
-- Published: 2026-07-07T12:12:20Z
-- URL: https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/
+- Published: 2026-07-09T11:00:35Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/
 
-Tomorrow's webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover attacks while reducing alert fatigue through automated investigation and response workflows. [...]
+Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]
 
-## New Januscape Linux flaw allows VM escape on Intel, AMD devices
+## State AI & ADMT Laws Are Reshaping Compliance.
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-07-09T10:00:41Z
+- URL: https://www.cdiaonline.org/events/2026/07/09/state-ai-admt-laws-are-reshaping-compliance/
+
+New state laws governing artificial intelligence and automated decision-making technologies (ADMT) are emerging quickly—and many do not include FCRA or GLBA... The post State AI & ADMT Laws Are Reshaping Compliance. appeared first on CDIA .
+
+## Police arrests 5,800 suspects in global anti-fraud crackdown
 - Source: BleepingComputer
 - Category: IS
-- Published: 2026-07-07T12:06:09Z
-- URL: https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/
+- Published: 2026-07-09T09:47:28Z
+- URL: https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/
 
-A 16-year-old Linux kernel vulnerability, dubbed Januscape, allows attackers to escape a virtual machine and execute arbitrary code on the host. [...]
+Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]
 
-## Microsoft to enable Windows settings backup by default for orgs
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-07T09:41:19Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/
-
-Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems after upgrading to Windows 11 26H2. [...]
-
-## CVE-2026-9080 UAF after pause in socket callback
+## CVE-2026-54891 Plaintext APPLICATION_DATA injected during TLS handshake delivered to client application post-handshake in ssl
 - Source: Microsoft MSRC
 - Category: IS
-- Published: 2026-07-07T08:43:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9080
+- Published: 2026-07-09T08:50:30Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54891
 
 Information published.
 
-## CVE-2026-8926 password leak with netrc and user in URL
+## CVE-2026-55952 TLS 1.3 server denial of service via malformed ClientHello pre-shared key extension
 - Source: Microsoft MSRC
 - Category: IS
-- Published: 2026-07-07T08:43:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8926
+- Published: 2026-07-09T08:50:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55952
 
 Information published.
 
-## CVE-2026-10536 HTTP/2 stream-dependency tree UAF
+## CVE-2026-53359 KVM: x86: Fix shadow paging use-after-free due to unexpected role
 - Source: Microsoft MSRC
 - Category: IS
-- Published: 2026-07-07T08:42:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10536
+- Published: 2026-07-09T08:50:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53359
+
+Information published.
+
+## CVE-2026-14355 ext/openssl: Memory corruption in openssl_encrypt with AES-WRAP-PAD
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:50:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14355
 
 Information published.
 
 ## CVE-2026-8286 wrong STARTTLS connection reuse
 - Source: Microsoft MSRC
 - Category: IS
-- Published: 2026-07-07T08:42:34Z
+- Published: 2026-07-09T08:50:03Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8286
+
+Information published.
+
+## CVE-2026-8925 SASL double-free
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:49:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8925
+
+Information published.
+
+## CVE-2026-8926 password leak with netrc and user in URL
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:49:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8926
+
+Information published.
+
+## CVE-2026-8927 env-set cross-proxy Digest auth state leak
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:49:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8927
+
+Information published.
+
+## CVE-2026-9080 UAF after pause in socket callback
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:49:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9080
+
+Information published.
+
+## CVE-2026-10536 HTTP/2 stream-dependency tree UAF
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:48:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-10536
+
+Information published.
+
+## CVE-2026-12064 proto-default skips SSH verification
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:48:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-12064
 
 Information published.
 
 ## CVE-2026-8458 wrong reuse for different services
 - Source: Microsoft MSRC
 - Category: IS
-- Published: 2026-07-07T08:42:14Z
+- Published: 2026-07-09T08:48:27Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8458
+
+Information published.
+
+## CVE-2026-46252 regulator: core: fix locking in regulator_resolve_supply() error path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:48:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46252
 
 Information published.
 
 ## CVE-2026-8924 trailing dot domain super cookie
 - Source: Microsoft MSRC
 - Category: IS
-- Published: 2026-07-07T08:41:55Z
+- Published: 2026-07-09T08:48:07Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8924
+
+Information published.
+
+## CVE-2026-46242 eventpoll: fix ep_remove struct eventpoll / struct file UAF
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:48:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46242
+
+Information published.
+
+## CVE-2026-46135 nvmet-tcp: fix race between ICReq handling and queue teardown
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:47:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46135
+
+Information published.
+
+## CVE-2026-11856 cross-origin Digest auth state leak
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:47:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11856
+
+Information published.
+
+## CVE-2026-46054 selinux: fix overlayfs mmap() and mprotect() access checks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:47:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46054
+
+Information published.
+
+## CVE-2026-9547 SSH improper host validation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:47:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9547
 
 Information published.
 
 ## CVE-2026-8932 incomplete mTLS config matching in conn reuse
 - Source: Microsoft MSRC
 - Category: IS
-- Published: 2026-07-07T08:41:30Z
+- Published: 2026-07-09T08:46:48Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-8932
 
 Information published.
@@ -86,10 +190,608 @@ Information published.
 ## CVE-2026-9545 exposing HTTP/3 early data
 - Source: Microsoft MSRC
 - Category: IS
-- Published: 2026-07-07T08:41:09Z
+- Published: 2026-07-09T08:46:22Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9545
 
 Information published.
+
+## CVE-2026-53167 fuse: limit FUSE_NOTIFY_RETRIEVE to uptodate folios
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:46:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53167
+
+Information published.
+
+## CVE-2026-9079 stale proxy password leak
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:46:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-9079
+
+Information published.
+
+## CVE-2026-4360 Tarfile.extract() doesn't fully respect filter parameter
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:45:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4360
+
+Information published.
+
+## CVE-2026-53339 i2c: qcom-cci: Fix NULL pointer dereference in cci_remove()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:45:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53339
+
+Information published.
+
+## CVE-2026-53336 nvmem: layouts: onie-tlv: fix hang on unknown types
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:44:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53336
+
+Information published.
+
+## CVE-2026-53327 debugobjects: Do not fill_pool() if pi_blocked_on
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:44:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53327
+
+Information published.
+
+## CVE-2026-53332 slimbus: qcom-ngd-ctrl: Register callbacks after creating the ngd
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:44:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53332
+
+Information published.
+
+## CVE-2026-43010 bpf: Reject sleepable kprobe_multi programs at attach time
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:44:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43010
+
+Information published.
+
+## CVE-2026-53345 KVM: Don't WARN if memory is dirtied without a vCPU when the VM is dying
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:44:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53345
+
+Information published.
+
+## CVE-2026-53354 arm64: errata: Mitigate TLBI errata on various Arm CPUs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:44:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53354
+
+Information published.
+
+## CVE-2026-23278 netfilter: nf_tables: always walk all pending catchall elements
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:43:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23278
+
+Information published.
+
+## CVE-2026-58055 nghttp2 nghttpx - HTTP Request/Response Smuggling via Upgrade Request with Content-Length
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:43:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58055
+
+Information published.
+
+## CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:42:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61727
+
+Information published.
+
+## CVE-2026-47241 Net::IMAP: Denial of Service via incomplete raw argument validation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:42:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47241
+
+Information published.
+
+## CVE-2025-58188 Panic when validating certificates with DSA public keys in crypto/x509
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:41:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58188
+
+Information published.
+
+## CVE-2025-61724 Excessive CPU consumption in Reader.ReadResponse in net/textproto
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:40:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61724
+
+Information published.
+
+## CVE-2026-46140 Bluetooth: btmtk: validate WMT event SKB length before struct access
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:40:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46140
+
+Information published.
+
+## CVE-2026-46331 net/sched: fix pedit partial COW leading to page cache corruption
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:40:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46331
+
+Information published.
+
+## CVE-2025-23131 dlm: prevent NPD when writing a positive value to event_done
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:40:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-23131
+
+Information published.
+
+## CVE-2026-54908 Pion DTLS: Denial of service via panic while parsing a crafted ECDHE_PSK ServerKeyExchange message
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:03:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54908
+
+Information published.
+
+## CVE-2026-38969 ruby webrick through v1.9.2 WEBrick reparses trailer Content-Length into canonical request state, enabling request smuggling.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-38969
+
+Information published.
+
+## CVE-2026-38968 ntopng through 6.6 is vulnerable to Predictable Session Identifier which can lead to Session Hijacking. HTTP session identifiers in src/HTTPserver.cpp use weak time-seeded pseudo-randomness during session…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-38968
+
+Information published.
+
+## CVE-2026-14191 WinRAR / UnRAR RAR5 recovery-volume (.rev) out-of-bounds heap write in RecVolumes5::ReadHeader
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14191
+
+Information published.
+
+## CVE-2026-53269 netfilter: synproxy: add mutex to guard hook reference counting
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53269
+
+Information published.
+
+## CVE-2026-56000 xorg-x11-server / xwayland GLX contextTags Use-After-Free in CommonMakeCurrent()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56000
+
+Information published.
+
+## CVE-2026-55999 xorg-server / xwayland glamor font atlas Heap Buffer Overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55999
+
+Information published.
+
+## CVE-2026-56002 libXfont2 PCF Font Parsing Heap Buffer Overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56002
+
+Information published.
+
+## CVE-2026-56003 libXfont2 computeProps Property Buffer Heap Buffer Overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56003
+
+Information published.
+
+## CVE-2026-56001 libXfont2 BitmapScaleBitmaps Integer Overflow Heap Buffer Overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:02:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56001
+
+Information published.
+
+## CVE-2026-60002 ssh in OpenSSH before 10.4 can have a use-after-free when a server changes its host key during a key re-exchange. (This outcome occurs only on the client side.)
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:01:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-60002
+
+Information published.
+
+## CVE-2026-59999 In sshd in OpenSSH before 10.4, DisableForwarding=yes was supposed to take precedence over PermitTunnel=yes, but did not.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:01:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59999
+
+Information published.
+
+## CVE-2026-60000 sshd in OpenSSH before 10.4 allows remote attackers to cause a denial of service (resource consumption from excessive authentication attempts) because MaxAuthTries was mishandled for GSSAPIAuthentication.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:01:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-60000
+
+Information published.
+
+## CVE-2026-60001 sshd in OpenSSH before 10.4 does not always honor the minimum authentication delay.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:01:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-60001
+
+Information published.
+
+## CVE-2026-59995 sftp in OpenSSH before 10.4 does not properly constrain the location of downloaded files when "sftp server:/path ." is used with an attacker-controlled server.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:01:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59995
+
+Information published.
+
+## CVE-2026-59996 scp in OpenSSH before 10.4 may place a file in the parent directory of an intended directory when the copy occurs between two remote destinations.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:01:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59996
+
+Information published.
+
+## CVE-2026-59997 internal-sftp in sshd in OpenSSH before 10.4 recognizes only the first 9 command-line arguments, which can be important if a later command-line argument would have helped to ensure the intended security p…
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-09T08:01:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59997
+
+Information published.
+
+## AssuranceAmerica data breach exposes records of 6.9 million drivers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-09T07:47:16Z
+- URL: https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/
+
+American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year. [...]
+
+## Microsoft patches RoguePlanet Defender zero-day vulnerability
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-09T05:42:49Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
+
+Microsoft has released a security patch to address a Defender zero-day vulnerability known as "RoguePlanet," disclosed after the June 2026 Patch Tuesday. [...]
+
+## Fact Sheet: President Donald J. Trump Secures Historic Defense Investment from NATO Allies, Powering American Industry
+- Source: White House
+- Category: Executive
+- Published: 2026-07-09T00:20:35Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-secures-historic-defense-investment-from-nato-allies-powering-american-industry/
+
+## This Dell Latitude refurb includes 16GB RAM and Windows 11 Pro for $249.99
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-09T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-dell-latitude-refurb-includes-16gb-ram-and-windows-11-pro-for-24999/
+
+## Anti-Money Laundering and Countering the Financing of Terrorism Programs
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/09/2026-13919/anti-money-laundering-and-countering-the-financing-of-terrorism-programs
+
+The Board of Governors of the Federal Reserve System (the Board) is inviting comment on a proposed rule that would require its supervised banks to establish and maintain effective anti-money laundering and countering the financing of terrorism (AML/CFT) programs reasonably designed to identify, assess, and mitigate risks of illicit finance. Among other changes, this proposed r…
+
+## Zero-Based Regulating
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/09/2026-13875/zero-based-regulating
+
+Due to receipt of adverse comments, the Department of Energy (DOE) is withdrawing the direct final rule titled "Zero-Based Regulating," which published on May 29, 2026.
+
+## Request for Information Regarding Promoting Access to Mortgage Credit
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/09/2026-13834/request-for-information-regarding-promoting-access-to-mortgage-credit
+
+This notice requests information from the public about potential regulatory changes that may reduce regulatory burdens and promote access to mortgage credit, as appropriate and consistent with applicable law. The Consumer Financial Protection Bureau (Bureau or CFPB) seeks to reduce unwarranted regulatory burdens to ensure that creditworthy borrowers can access mortgage credit.…
+
+## Charitable Remainder Annuity Trust Listed Transaction
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/09/2026-13851/charitable-remainder-annuity-trust-listed-transaction
+
+This document contains final regulations that identify certain charitable remainder annuity trust (CRAT) transactions and substantially similar transactions as listed transactions, a type of reportable transaction. Material advisors and certain participants in these listed transactions are required to file disclosures with the IRS and will be subject to penalties for failure t…
+
+## Information Reporting and Transfer for Valuable Consideration Rules for Section 1035 Exchanges of Life Insurance and Certain Other Life Insurance Contract Transactions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/09/2026-13830/information-reporting-and-transfer-for-valuable-consideration-rules-for-section-1035-exchanges-of
+
+This document contains final regulations providing guidance on the application of the transfer for valuable consideration rules and associated information reporting requirements for reportable policy sales of interests in life insurance contracts to exchanges of life insurance contracts qualifying for nonrecognition of gain or loss and certain acquisitions of interests in life…
+
+## Revisions to the Biorefinery, Renewable Chemical, and Biobased Product Manufacturing Assistance Loan Program
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/09/2026-13841/revisions-to-the-biorefinery-renewable-chemical-and-biobased-product-manufacturing-assistance-loan
+
+The Biorefinery, Renewable Chemical, and Biobased Product Manufacturing Program (also referred to as the Section 9003 program) provides loan guarantees up to $250 million to assist in the development, construction, and retrofitting of new and emerging technologies. These technologies are: advanced biofuels, renewable chemicals, and biobased products. Collectively, Rural Develo…
+
+## Supplemental Disaster Assistance Programs, Marketing Assistance Loans, and Sugar Provisions
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-09T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/09/2026-13878/supplemental-disaster-assistance-programs-marketing-assistance-loans-and-sugar-provisions
+
+This rule revises the regulations of the Emergency Assistance for Livestock, Honeybees, and Farm-Raised Fish Program (ELAP), the Livestock Forage Disaster Program (LFP), the Livestock Indemnity Program (LIP), the Tree Assistance Program (TAP), the Marketing Assistance Loan (MAL) and Loan Deficiency Payments (LDP) Programs, and the Sugar Program to conform with provisions of th…
+
+## Mount Royal University confirms breach as hackers claim attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T21:26:59Z
+- URL: https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/
+
+Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]
+
+## Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T19:54:59Z
+- URL: https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/
+
+Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]
+
+## Hackers exploit Roundcube flaw to spy on academic researchers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T18:56:02Z
+- URL: https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/
+
+A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]
+
+## Minutes of the Federal Open Market Committee, June 16-17, 2026
+- Source: FRB
+- Category: Banking
+- Published: 2026-07-08T18:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm
+
+Minutes of the Federal Open Market Committee, June 16-17, 2026
+
+## Entra passkey enrollment vishing targets Microsoft 365 users
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T16:47:25Z
+- URL: https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/
+
+A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]
+
+## 3 Ways AI Powers Service Desk Attacks and How to Prevent Them
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T14:01:11Z
+- URL: https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/
+
+Specops Software explains how AI is making service desk impersonation attacks more convincing, personalized, and scalable, along with practical steps organizations can take to strengthen onboarding and identity verification. [...]
+
+## CVE-2026-42980 NT OS Kernel Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-08T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42980
+
+Updated an acknowledgement. This is an informational change only.
+
+## CVE-2026-50656 Microsoft Defender Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-08T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50656
+
+Microsoft has released an update to the Microsoft Malware Protection Engine that addresses the vulnerability identified by CVE-2026-50656. Please see the FAQ for more information on how to check if the new version has been installed.
+
+## CVE-2026-58525 Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-08T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58525
+
+Improper access control in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security feature over a network.
+
+## Visa Research: The Great Wealth Transfer Is Already Reshaping How Americans Spend
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-07-08T13:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22571.html
+
+Visa Business and Economic Insights (VBEI) estimates $36 trillion will transfer to younger generations over the next 20 years, with much of the impact already visible in housing, travel and major purchases After accounting for liabilities, removing the top 1 percent of households and subtracting
+
+## DuckDuckGo browser now blocks YouTube video ads
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T12:00:00Z
+- URL: https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/
+
+DuckDuckGo announced that its browser can now block most video ads on YouTube, including those shown before the video starts playing and during playback. [...]
+
+## Telco giant KDDI says data breach affects over 12 million people
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T11:24:16Z
+- URL: https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/
+
+Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. [...]
+
+## CISA orders feds to prioritize patching Langflow auth bypass flaw
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T09:58:11Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]
+
+## Ubiquiti warns of new max severity UniFi OS vulnerability
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T08:15:20Z
+- URL: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
+
+Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
+
+## CISA orders feds to patch max severity ColdFusion flaw by Friday
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T07:16:55Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]
+
+## Issuance of Amended Russia-related General License and Frequently Asked Questions
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-07-08T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260708
+
+## IRS simplifies penalty relief, introduces automatic process for eligible taxpayers
+- Source: IRS
+- Category: IRS
+- Published: 2026-07-08T00:00:00Z
+- URL: https://www.irs.gov/newsroom/irs-simplifies-penalty-relief-introduces-automatic-process-for-eligible-taxpayers
+
+IR-2026-83, July 8, 2026 — The Internal Revenue Service today announced a new automatic process to provide penalty relief for taxpayers with a history of filing and paying on time, reducing the need for them to request assistance.
+
+## Treasury, IRS issue final regulations naming certain charitable remainder annuity trust transactions as listed transactions
+- Source: IRS
+- Category: IRS
+- Published: 2026-07-08T00:00:00Z
+- URL: https://www.irs.gov/newsroom/treasury-irs-issue-final-regulations-naming-certain-charitable-remainder-annuity-trust-transactions-as-listed-transactions
+
+IR-2026-82, July 8, 2026 —The Department of the Treasury and the Internal Revenue Service today issued final regulations identifying certain arrangements purporting to be Charitable Remainder Annuity Trusts as listed transactions.
+
+## News & Events
+- Source: FRB
+- Category: Banking
+- Published: 2026-07-08T00:00:00Z
+- URL: https://www.federalreserve.gov/newsevents.htm
+
+The Federal Reserve Board of Governors in Washington DC.
+
+## Warren Questions Agency Heads Following Reports of Trump Family Ties to a $2 Billion Federal Assistance Package for Kazakhstan Mining Deal
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-07-08T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-questions-agency-heads-following-reports-of-trump-family-ties-to-a-2-billion-federal-assistance-package-for-kazakhstan-mining-deal
+
+## Warren Presses Citi CEO on Reported Acquisition Plans, Raises Concerns Over Systemic Risk
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-07-08T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-citi-ceo-on-reported-acquisition-plans-raises-concerns-over-systemic-risk
+
+## Warren Calls on Pulte to Resign from ODNI and FHFA As Committee Report Details Abuses of Power
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-07-08T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-on-pulte-to-resign-from-odni-and-fhfa-as-committee-report-details-abuses-of-power
+
+## Stay connected privately with 5 years of AdGuard VPN for just $35
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/stay-connected-privately-with-5-years-of-adguard-vpn-for-just-35/
+
+## Cancel monthly fees and get this PDF editor for life on sale for $40
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-08T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/cancel-monthly-fees-and-get-this-pdf-editor-for-life-on-sale-for-40/
+
+## Accenture confirms breach after hacker offers stolen data for sale
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-07T22:06:07Z
+- URL: https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/
+
+IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]
+
+## Visa to Announce Fiscal Third Quarter 2026 Financial Results on July 28, 2026
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-07-07T20:05:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22566.html
+
+SAN FRANCISCO --(BUSINESS WIRE)--Jul. 7, 2026-- Visa (NYSE: V) will report its fiscal third quarter 2026 financial results on Tuesday, July 28, 2026. After market close, Visa will furnish the results with the Securities and Exchange Commission and post them, along with accompanying financial
+
+## Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs
+- Source: FRB
+- Category: Banking
+- Published: 2026-07-07T19:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm
+
+Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs
+
+## Fed requests comment on changes to AML program rules
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-07-07T17:00:00Z
+- URL: https://www.texasbankers.com/fed-requests-comment-on-changes-to-aml-program-rules/
+
+The Federal Reserve requests public comments on a proposal to amend its requirements for banks to maintain anti-money laundering programs. The amendments are intended to align with changes to anti-money laundering program requirements proposed separately by four other agencies. Among other changes, the proposal would require banks to allocate anti-money laundering resources ba…
+
+## Treasury Calls for Large Position Reports
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-07-07T14:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0556
+
+## CVE-2026-45638 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-07T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45638
+
+Updated an acknowledgement. This is an informational change only.
 
 ## CVE-2026-39827 Invoking memory leak when rejecting channels can lead to DoS in golang.org/x/crypto/ssh
 - Source: Microsoft MSRC
@@ -107,14 +809,6 @@ Information published.
 
 Information published.
 
-## BeyondTrust warns of critical flaws in remote access software
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-07T08:12:10Z
-- URL: https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/
-
-BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow attackers to bypass authentication. [...]
-
 ## CVE-2026-14647 onnx onnxruntime old.cc convPoolShapeInference_opset19 out-of-bounds
 - Source: Microsoft MSRC
 - Category: IS
@@ -131,14 +825,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-54891 Plaintext APPLICATION_DATA injected during TLS handshake delivered to client application post-handshake in ssl
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-07T08:01:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54891
-
-Information published.
-
 ## CVE-2026-54886 SSH SFTP server denial of service via extended channel data infinite loop
 - Source: Microsoft MSRC
 - Category: IS
@@ -147,21 +833,19 @@ Information published.
 
 Information published.
 
-## CVE-2026-55952 TLS 1.3 server denial of service via malformed ClientHello pre-shared key extension
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-07T08:01:15Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55952
+## Issuance of Amended Iran-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-07-07T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260707
 
-Information published.
+## IRS, Security Summit launch summer series to help tax pros protect clients from identity theft
+- Source: IRS
+- Category: IRS
+- Published: 2026-07-07T00:00:00Z
+- URL: https://www.irs.gov/newsroom/irs-security-summit-launch-summer-series-to-help-tax-pros-protect-clients-from-identity-theft
 
-## Microsoft testing new Cloud Rebuild Windows 11 recovery feature
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-07T07:37:38Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/
-
-Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Windows 11 Insider Preview builds released for users in the Experimental channel. [...]
+IR-2026-81, July 7, 2026 — The IRS and Security Summit partners today launched the summer “Protect Your Clients; Protect Yourself” campaign, a five-week series highlighting practical steps tax professionals can take to protect client data, their businesses, and themselves from evolving tax-related identity theft threats.
 
 ## Frankfurt International Bank Selects FIS to Bypass Legacy Infrastructure and Power Cloud-Native Treasury from Day One
 - Source: FIS
@@ -169,11 +853,17 @@ Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Win
 - Published: 2026-07-07T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/frankfurt-international-bank-selects-fis-bypass-legacy
 
-## Build your cybersecurity skills with this $20 CISSP course bundle
+## Chinese hackers develop LONGLEASH malware to expand ORB network
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-07-07T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/build-your-cybersecurity-skills-with-this-20-cissp-course-bundle/
+- URL: https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
+
+## Get ChatGPT, Claude, Gemini & more in one workspace for just $60
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-07T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-chatgpt-claude-gemini-and-more-in-one-workspace-for-just-60/
 
 ## Making Market History: America Celebrates President Trump’s Joint Bell-Ringing Ceremony as Trump Accounts Launch
 - Source: Treasury
@@ -181,75 +871,11 @@ Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Win
 - Published: 2026-07-06T23:40:20Z
 - URL: https://home.treasury.gov/news/press-releases/sb0555
 
-## Phishing poses as big-brand job interview to steal Google accounts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-06T20:27:37Z
-- URL: https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/
-
-A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing professionals. [...]
-
-## Fake IT support calls on Microsoft Teams push EtherRAT malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-06T20:23:45Z
-- URL: https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/
-
-Threat actors are abusing Microsoft Teams voice calls by impersonating corporate IT support staff to trick employees into installing the EtherRAT malware, giving attackers initial access to corporate networks. [...]
-
-## Vietnam arrests suspects behind HiAnime anime piracy service
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-06T18:25:06Z
-- URL: https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/
-
-​Vietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]
-
-## Software Is Now Written at the Speed of Thought. Security Isn't.
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-06T14:00:10Z
-- URL: https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/
-
-Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security decisions have traditionally taken place. [...]
-
-## Max severity Adobe ColdFusion flaw now exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-06T13:18:37Z
-- URL: https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/
-
-Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]
-
-## Warren Calls on Pulte to Resign from ODNI and FHFA As Committee Report Details Abuses of Power
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-07-06T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-calls-on-pulte-to-resign-from-odni-and-fhfa-as-committee-report-details-abuses-of-power
-
-## Shaheen, Wilson, Warren Urge State Department to Remove Syria from State Sponsor of Terrorism List
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-07-06T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/shaheen-wilson-warren-urge-state-department-to-remove-syria-from-state-sponsor-of-terrorism-list
-
-## Warren Presses Fed Governor Waller to Cease His Effort to Unilaterally Diminish Power of Regional Fed Banks in Service of President Trump
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-07-06T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-fed-governor-waller-to-cease-his-effort-to-unilaterally-diminish-power-of-regional-fed-banks-in-service-of-president-trump
-
 ## Small Business Sales Grow on Higher Tickets and Retail Rebound, Fiserv Data Shows
 - Source: Fiserv
 - Category: Fintech Watch
 - Published: 2026-07-06T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/small-business-sales-grow-higher-tickets-and-retail-rebound
-
-## New Costco Gold Star Members—Join for $65 and Receive a $50 Digital Costco Shop Card
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-06T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/new-costco-gold-star-members-join-for-65-and-receive-a-50-digital-costco-shop-card/
 
 ## Agency Information Collection Activities: Proposed Collection Renewal; Comment Request
 - Source: Federal Register
@@ -271,33 +897,11 @@ The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995 (
 - Published: 2026-07-05T23:02:52Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-anniversary-of-the-united-states-secret-service/
 
-## Flipper Zero firmware development continues with community help
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-05T14:14:52Z
-- URL: https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/
-
-Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]
-
-## 5 years of VPN protection on 10 devices is just $20 through tonight
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-05T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/5-years-of-vpn-protection-on-10-devices-is-just-20-through-tonight/
-
 ## U.S. Treasury Announces the Official Launch of Trump Accounts and Full Scope of the App
 - Source: Treasury
 - Category: OFAC
 - Published: 2026-07-04T16:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0554
-
-## JadePuffer ransomware used AI agent to automate entire attack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-04T14:16:38Z
-- URL: https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/
-
-Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]
 
 ## CVE-2026-53223 net: guard timestamp cmsgs to real error queue skbs
 - Source: Microsoft MSRC
@@ -307,33 +911,11 @@ Researchers identified what they believe is the first documented case of a ranso
 
 Information published.
 
-## Get a year of Surfshark One+ VPN, data removal, and more for only $95
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-04T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/get-a-year-of-surfshark-one-plus-vpn-data-removal-and-more-for-only-95/
-
 ## 250th Anniversary of the Adoption of the Declaration of Independence
 - Source: White House
 - Category: Executive
 - Published: 2026-07-03T19:57:05Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/07/250th-anniversary-of-the-adoption-of-the-declaration-of-independence/
-
-## NetNut proxy network disrupted, 2 million infected devices cut off
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-03T17:50:04Z
-- URL: https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/
-
-A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]
-
-## ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-03T14:12:22Z
-- URL: https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/
-
-A new phishing-as-a-service (PhaaS) platform dubbed "ARToken" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to compromise Microsoft 365. [...]
 
 ## Chromium: CVE-2026-13874 Inappropriate implementation in DataTransfer
 - Source: Microsoft MSRC
@@ -2999,14 +3581,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-58055 nghttp2 nghttpx - HTTP Request/Response Smuggling via Upgrade Request with Content-Length
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T08:09:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58055
-
-Information published.
-
 ## CVE-2026-58051 libssh2 - Free of Uninitialized Pointer in publickey List Cleanup
 - Source: Microsoft MSRC
 - Category: IS
@@ -3180,14 +3754,6 @@ Information published.
 - Category: IS
 - Published: 2026-07-03T08:04:36Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53046
-
-Information published.
-
-## CVE-2026-4360 Tarfile.extract() doesn't fully respect filter parameter
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T08:04:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4360
 
 Information published.
 
@@ -3446,20 +4012,6 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-52946
 
 Information published.
-
-## Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-03T01:37:09Z
-- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/
-
-Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan soon. [...]
-
-## Why pay monthly? Get access to ChatGPT, Claude & more for a one-time $70.
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-03T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/why-pay-monthly-get-access-to-chatgpt-claude-and-more-for-a-one-time-70/
 
 ## A Look at the First-Year Results of the Working Families Tax Cuts
 - Source: Treasury
@@ -4049,18 +4601,6 @@ The Secretary of Education (Secretary) amends the regulations governing institut
 - Published: 2026-06-30T17:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0545
 
-## Readouts
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-06-30T16:50:00Z
-- URL: https://home.treasury.gov/news/press-releases/readouts
-
-## READOUT: Financial Action Task Force’s June 2026 Working Group and Plenary
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-06-30T16:50:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0547
-
 ## Press Release: Agencies Release List of Distressed or Underserved Nonmetropolitan Middle-Income Geographies
 - Source: FDIC
 - Category: Banking
@@ -4084,6 +4624,14 @@ Agencies release list of distressed or underserved nonmetropolitan middle-income
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42910
 
 Updated an acknowledgement. This is an informational change only.
+
+## Visa: AI and Digital Commerce Power Global Economy Growth Amid Rising Costs
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-30T13:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22536.html
+
+SAN FRANCISCO --(BUSINESS WIRE)--Jun. 30, 2026-- The global economy is expected to grow 2.4% in 2026, according to Visa Business and Economic Insights’ (VBEI) 2026 Midyear Global Economic Outlook. While higher energy prices are squeezing household budgets and creating fresh challenges, a surge in
 
 ## FinCEN Issues Supplemental Alert on Fuel Smuggling and Tax Evasion Schemes on the Southern Border Associated with Mexico-Based Cartels
 - Source: FinCEN
@@ -4159,228 +4707,6 @@ Federal bank regulatory agencies today released the 2026 list of certain geograp
 - Published: 2026-06-30T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411186
 
-## Visa: AI and Digital Commerce Power Global Economy Growth Amid Rising Costs
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22536.html
-
-## Visa Redefines Its Role in Travel With the Global Launch of Visa Destinations
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22521.html
-
-## Visa Announces New AI, Stablecoin and Token Innovations to Power Intelligent, Programmable Commerce at Visa Payments Forum
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22491.html
-
-## Visa and Brale Explore Private Stablecoin Settlement for Institutional Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22481.html
-
-## Visa Expands Commercial Solutions Hub with Integration of Visa Accounts Receivable Manager
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22471.html
-
-## Visa Threats Report: As Network Security Strengthens, Criminals Accelerate Shift to AI-Enabled Social Engineering
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22466.html
-
-## Men in Blazers Media Network and Visa Team Up to Launch Fan-Powered City Guides Celebrating Soccer Culture and Local Small Businesses
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22461.html
-
-## Visa and Jason Sudeikis Turn the Simplest Goal in Football Into the Biggest Fan Moments at the FIFA World Cup 2026™
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22441.html
-
-## Your Card, Your Security. Tap: A Safer Way to Verify Identity — Visa, Keyno, and Fidelity Bank (Bahamas) Lead the Transformation
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22406.html
-
-## Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html
-
-## Visa Announces Global Expansion of Agentic Ready Program
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22341.html
-
-## Visa Fiscal Second Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html
-
-## Visa Launches Validator Node on Tempo Blockchain
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html
-
-## Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
-
-## Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
-
-## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
-
-## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
-
-## Visa Unveils New Services to Modernize Dispute Resolution Process
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
-
-## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
-
-## Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
-
-## Visa to Bring Privacy-Preserving Payments to Canton Network
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
-
-## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-
-## Visa Completes Acquisition of Prisma and Newpay
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
-
-## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
-
-## Visa Renews Partnership Across Red Bull Formula One Teams
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-## Visa Fiscal First Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
-
-## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
-
-## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
-
-## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
-
-## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-06-30T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
-
-## Education Services
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-06-30T00:00:00Z
-- URL: https://www.cdiaonline.org/education-services/
-
-## Metro 2® Format Advanced Workshop
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-06-30T00:00:00Z
-- URL: https://www.cdiaonline.org/advanced-metro-2-format-workshop/
-
 ## Assessments Thresholds, Rate Schedules, and Adjustments
 - Source: Federal Register
 - Category: Federal Register
@@ -4410,12 +4736,6 @@ The Federal Deposit Insurance Corporation (FDIC) is inviting comment on a notice
 - Category: Executive
 - Published: 2026-06-29T23:31:17Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/06/declaration-of-emergency-and-authorization-for-temporary-duty-free-importation-of-phosphate-fertilizer-morocco/
-
-## Fact Sheet: President Donald J. Trump Declares an Emergency and Authorizes the Temporary Suspension of Certain Duties on Phosphate Fertilizer from Morocco
-- Source: White House
-- Category: Executive
-- Published: 2026-06-29T23:26:58Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-declares-an-emergency-and-authorizes-the-temporary-suspension-of-certain-duties-on-phosphate-fertilizer-from-morocco/
 
 ## Lowering the Cost of Living by Promoting the Freedom to Fix
 - Source: White House
@@ -5159,14 +5479,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-46140 Bluetooth: btmtk: validate WMT event SKB length before struct access
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T09:01:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46140
-
-Information published.
-
 ## CVE-2024-56712 udmabuf: fix memory leak on last export_udmabuf() error path
 - Source: Microsoft MSRC
 - Category: IS
@@ -5284,14 +5596,6 @@ Information published.
 - Category: IS
 - Published: 2026-06-28T09:00:55Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-38096
-
-Information published.
-
-## CVE-2026-23278 netfilter: nf_tables: always walk all pending catchall elements
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T09:00:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23278
 
 Information published.
 
@@ -5420,14 +5724,6 @@ Information published.
 - Category: IS
 - Published: 2026-06-28T09:00:08Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4224
-
-Information published.
-
-## CVE-2026-46331 net/sched: fix pedit partial COW leading to page cache corruption
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T09:00:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46331
 
 Information published.
 
@@ -5796,14 +6092,6 @@ Information published.
 - Category: IS
 - Published: 2026-06-28T08:57:39Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-50277
-
-Information published.
-
-## CVE-2025-23131 dlm: prevent NPD when writing a positive value to event_done
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T08:57:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-23131
 
 Information published.
 
@@ -6279,14 +6567,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-46252 regulator: core: fix locking in regulator_resolve_supply() error path
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T08:54:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46252
-
-Information published.
-
 ## CVE-2025-68230 drm/amdgpu: fix gpu page fault after hibernation on PF passthrough
 - Source: Microsoft MSRC
 - Category: IS
@@ -6567,14 +6847,6 @@ Information published.
 
 Information published.
 
-## CVE-2025-61727 Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T08:52:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61727
-
-Information published.
-
 ## CVE-2024-57875 block: RCU protect disk->conv_zones_bitmap
 - Source: Microsoft MSRC
 - Category: IS
@@ -6636,14 +6908,6 @@ Information published.
 - Category: IS
 - Published: 2026-06-28T08:52:14Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53156
-
-Information published.
-
-## CVE-2026-46242 eventpoll: fix ep_remove struct eventpoll / struct file UAF
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T08:52:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46242
 
 Information published.
 
@@ -6916,14 +7180,6 @@ Information published.
 - Category: IS
 - Published: 2026-06-28T08:50:38Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49918
-
-Information published.
-
-## CVE-2026-46135 nvmet-tcp: fix race between ICReq handling and queue teardown
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T08:50:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46135
 
 Information published.
 
@@ -7279,14 +7535,6 @@ Information published.
 
 Information published.
 
-## CVE-2025-58188 Panic when validating certificates with DSA public keys in crypto/x509
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T08:48:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-58188
-
-Information published.
-
 ## CVE-2026-53217 net: mvpp2: sync RX data at the hardware packet offset
 - Source: Microsoft MSRC
 - Category: IS
@@ -7324,14 +7572,6 @@ Information published.
 - Category: IS
 - Published: 2026-06-28T08:48:06Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-46834
-
-Information published.
-
-## CVE-2025-61724 Excessive CPU consumption in Reader.ReadResponse in net/textproto
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T08:48:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-61724
 
 Information published.
 
@@ -7580,14 +7820,6 @@ Information published.
 - Category: IS
 - Published: 2026-06-28T08:46:39Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-41045
-
-Information published.
-
-## CVE-2026-46054 selinux: fix overlayfs mmap() and mprotect() access checks
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-28T08:46:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46054
 
 Information published.
 
@@ -9037,6 +9269,14 @@ Federal Reserve Board issues enforcement action with employee of Bank of Eufaula
 
 Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.
 
+## Visa Redefines Its Role in Travel With the Global Launch of Visa Destinations
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-06-25T14:00:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22521.html
+
+A new consumer Visa travel platform is now live across 10 locations, including flagship cities such as Paris, London and New York City, with more destinations to be added later this year. This platform connects Visa cardholders with curated experiences and exclusive access aligned to passion-led
+
 ## CVE-2026-41086 Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -9050,261 +9290,5 @@ Updated an acknowledgement. This is an informational change only.
 - Category: IS
 - Published: 2026-06-25T14:00:00Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45637
-
-Updated an acknowledgement. This is an informational change only.
-
-## ⏰ Prices Increase July 1st for the 2026 Metro 2® Format Advanced Workshop in Las Vegas!
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-06-25T10:00:45Z
-- URL: https://www.cdiaonline.org/events/2026/06/25/%e2%8f%b0-prices-increase-july-1st-for-the-2026-metro-2-format-advanced-workshop-in-las-vegas/
-
-Gain expert insights from the Metro 2® Task Force and sharpen your skills in one of the industry’s most complex areas:... The post ⏰ Prices Increase July 1st for the 2026 Metro 2® Format Advanced Workshop in Las Vegas! appeared first on CDIA .
-
-## CVE-2026-11816 Path Traversal in keras-team/keras
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-25T08:03:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-11816
-
-Information published.
-
-## Democratic Republic of the Congo-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-06-25T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260625
-
-## FDIC Board Approves Proposal to Amend Resolution Submissions by Covered Insured Depository Institutions
-- Source: FDIC
-- Category: Banking
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-proposal-amend-resolution-submissions-covered-insured
-
-On June 25, 2026, the FDIC Board Approves Proposal to Amend Resolution Submissions by Covered Insured Depository Institutions.
-
-## FDIC Board Approves Proposal to Revise Deposit Insurance Assessment Thresholds, Rate Schedules, and Adjustments
-- Source: FDIC
-- Category: Banking
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-proposal-revise-deposit-insurance-assessment
-
-The FDIC Board of Directors today approved a notice of proposed rulemaking that would revise the FDIC’s assessment regulations for all FDIC-insured institutions
-
-## FDIC Board Approves Proposal to Amend Regulations Regarding the Disclosure of Information
-- Source: FDIC
-- Category: Banking
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-board-approves-proposal-amend-regulations-regarding-disclosure
-
-The FDIC Board of Directors approved a notice of proposed rulemaking to amend Part 309 of its regulations governing the disclosure of confidential information
-
-## Freddie Mac Issues Monthly Volume Summary for May 2026
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.globenewswire.com/news-release/2026/06/25/3317959/0/en/freddie-mac-issues-monthly-volume-summary-for-may-2026.html
-
-## Mortgage Rates Average 6.49%
-- Source: Freddie Mac
-- Category: Mortgage
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.globenewswire.com/news-release/2026/06/25/3317803/0/en/mortgage-rates-average-6-49.html
-
-## Wagner: Understanding How and Where Americans Invest is Crucial to Crafting Policies that Support Them
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-06-25T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411182
-
-## House Passes Committee Bill to Combat Financial Fraud and Scams
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-06-25T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411183
-
-## Prohibition on the Use of Reputation Risk
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/25/2026-12856/prohibition-on-the-use-of-reputation-risk
-
-On October 21, 2025, the Board issued its Notice of Proposed Rulemaking to codify the elimination of reputation risk from its supervisory framework. This change aligns with Executive Order 14331, "Guaranteeing Fair Banking for All Americans." Effective September 25, 2025, the NCUA ceased examining for reputation risk. This final rule affirms that the agency will not consider r…
-
-## Definition of Huione Group, a Financial Institution Operating Outside the United States of Primary Money Laundering Concern
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/25/2026-12794/definition-of-huione-group-a-financial-institution-operating-outside-the-united-states-of-primary
-
-FinCEN is issuing a notice of proposed rulemaking (NPRM), pursuant to section 311 of the USA PATRIOT Act, that proposes amending the existing definition of Huione Group to include, within the definition of that group, H-Pay Service PLC, and adding and defining the term "successor entity." With this NPRM, FinCEN does not alter its assessment that Huione Group is a financial ins…
-
-## Financial Data Transparency Act Joint Data Standards
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/25/2026-12787/financial-data-transparency-act-joint-data-standards
-
-The OCC, Board, FDIC, NCUA, CFPB, FHFA, CFTC, SEC, and Treasury are publishing a final joint rule to establish data standards to promote interoperability of financial regulatory data across these agencies. The standards established pursuant to this joint rule will later be considered for potential incorporation (to the extent feasible) into data standards to be adopted for cer…
-
-## Technical Amendments to Form X-17A-5 Part IIA
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/25/2026-12779/technical-amendments-to-form-x-17a-5-part-iia
-
-The Securities and Exchange Commission is adopting technical amendments to Form X-17A-5 ("FOCUS Report") Part IIA under the Securities Exchange Act of 1934 ("Exchange Act").
-
-## Agricultural Foreign Investment Disclosure Act of 1978
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-25T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/25/2026-12808/agricultural-foreign-investment-disclosure-act-of-1978
-
-The United States Department of Agriculture (USDA) is proposing to update its regulations regarding the Agricultural Foreign Investment Disclosure Act of 1978 (the AFIDA). The revisions would reflect Congressional directives to establish a streamlined process for electronic submission and retention of disclosures made under AFIDA, including the deployment of an internet databa…
-
-## Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses
-- Source: FRB
-- Category: Banking
-- Published: 2026-06-24T20:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm
-
-Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses
-
-## Survey shows more banks preparing for cyber attacks with AI rise
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-06-24T18:00:36Z
-- URL: https://www.texasbankers.com/survey-shows-more-banks-preparing-for-cyber-attacks-with-ai-rise/
-
-A recent survey conducted by KPMG LLP found that many banks are increasing their cybersecurity budgets and developing strategies in response to the rise in the use of artificial intelligence (AI). The survey findings show that 76% of banking executives reported an increase in cybersecurity attacks on their banks over the past year; 92% of […] The post Survey shows more banks p…
-
-## Sunshine Act Notice: FDIC Board of Directors Meeting
-- Source: FDIC
-- Category: Banking
-- Published: 2026-06-24T15:24:45Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/41b3ded
-
-SUNSHINE ACT MEETING NOTICE The FDIC Board of Directors will meet in an open session: Date and Time: Thursday, June 25, 2026 | 2:00 p.m. ET Place: The Board meeting will be open to public observation by webcast . Members of the media should contact the Office of Communications by Wednesday, June 24, at MediaRequests@FDIC.gov to attend in person from FDIC Headquarters, 550 17th…
-
-## Nomination Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-06-24T14:08:26Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/06/nomination-sent-to-the-senate-648d/
-
-## Finastra’s Regional and Community Banking Forum explores the future of financial services
-- Source: Finastra
-- Category: Fintech Watch
-- Published: 2026-06-24T12:00:00Z
-- URL: https://www.finastra.com/press-media/finastras-regional-and-community-banking-forum-explores-future-financial-services
-
-## CVE-2026-46285 mtd: docg3: fix use-after-free in docg3_release()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-24T09:43:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46285
-
-Information published.
-
-## Russia-related Designations Removals
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-06-24T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260624
-
-## National Taxpayer Advocate issues 2026 mid-year report to Congress
-- Source: IRS
-- Category: IRS
-- Published: 2026-06-24T00:00:00Z
-- URL: https://www.irs.gov/newsroom/national-taxpayer-advocate-issues-2026-mid-year-report-to-congress
-
-IR-2026-79, June 24, 2026 — National Taxpayer Advocate Erin M. Collins today released her Fiscal Year 2027 Objectives Report to Congress, highlighting a largely successful 2026 filing season in which the IRS processed nearly 139 million individual tax returns, issued more than 90 million refunds, and successfully implemented extensive tax law changes despite significant operat…
-
-## Subcommittee on Financial Institutions Chairman Barr: The American Payments System is a Critical Component of Our Financial Infrastructure
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-06-24T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411180
-
-## Full Committee Examines Payments Innovation and the Future of Financial Services
-- Source: House Financial Services
-- Category: Legislative
-- Published: 2026-06-24T00:00:00Z
-- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411181
-
-## Fiserv Announces Results of Tender Offers for Any and All of its Outstanding 5.150% Senior Notes due 2027 and 4.400% Senior Notes due 2049
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-06-24T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-announces-results-tender-offers-any-and-all-its
-
-## Permitted Payment Stablecoin Issuer Anti-Money Laundering/Countering the Financing of Terrorism and Sanctions Compliance Risk Management
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-24T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/24/2026-12692/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism-and
-
-The Office of the Comptroller of the Currency (OCC), in coordination with the Department of the Treasury's Financial Crimes Enforcement Network (FinCEN) and the Office of Foreign Assets Control (OFAC), proposes to issue regulations to implement the Guiding and Establishing National Innovation for U.S. Stablecoins Act's requirement to issue regulations implementing appropriate…
-
-## Enterprise Duty To Serve Underserved Markets
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-24T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/24/2026-12750/enterprise-duty-to-serve-underserved-markets
-
-The Federal Housing Finance Agency (FHFA or Agency) proposes to rescind its regulation on Duty to Serve Underserved Markets and replace it with a new rule. If adopted as proposed, the new rule would enable the Federal National Mortgage Association (Fannie Mae) and the Federal Home Loan Mortgage Corporation (Freddie Mac) (collectively, the Enterprises) to better serve the needs…
-
-## Agency Information Collection Activities: Proposed Collection Renewal; Comment Request
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-24T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/24/2026-12690/agency-information-collection-activities-proposed-collection-renewal-comment-request
-
-The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0029, and -0177). The notices of proposed renewal for these information collections were previously published…
-
-## Modernizing Materials Licensing
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-06-24T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/06/24/2026-12702/modernizing-materials-licensing
-
-The U.S. Nuclear Regulatory Commission (NRC) is proposing to amend its regulations for byproduct, source, and special nuclear material to modernize the NRC's materials licensing requirements. This proposed action is responsive to several executive orders and the NRC's mission to enable safe, efficient, and reliable licensing. These changes are deregulatory in nature and includ…
-
-## Texas Bankers and Mortgage Bankers applaud final house passage of landmark housing legislation
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-06-23T21:08:01Z
-- URL: https://www.texasbankers.com/texas-bankers-and-mortgage-bankers-applaud-final-house-passage-of-landmark-housing-legislation/
-
-AUSTIN, Texas — The Texas Mortgage Bankers Association and Texas Bankers Association today applauded the U.S. House of Representatives for final passage of the 21st Century ROAD to Housing Act, clearing the bipartisan housing package for consideration by President Donald J. Trump. The House action follows the Senate’s overwhelming 85-5 approval of the legislation Monday. The […
-
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-06-23T16:18:27Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/06/nominations-sent-to-the-senate-a2ce/
-
-## CVE-2026-42915 Microsoft Windows VMSwitch Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-23T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42915
-
-Updated an acknowledgement. This is an informational change only.
-
-## CVE-2026-45504 Microsoft Exchange Server Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-23T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45504
-
-Acknowledgement added. This is an informational change only.
-
-## CVE-2026-33840 Win32k Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-06-23T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33840
 
 Updated an acknowledgement. This is an informational change only.
