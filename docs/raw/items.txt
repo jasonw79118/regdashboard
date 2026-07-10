@@ -1,5 +1,140 @@
 IS
 BleepingComputer
+2026-07-10T11:47:38Z
+Zimbra urges customers to patch critical web client XSS flaw
+https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/
+The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-10T08:17:52Z
+Former ransomware negotiator gets 4 years for BlackCat attacks
+https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/
+A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-10T08:01:37Z
+CVE-2026-56288 NULL Pointer Dereference in GNU patch
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56288
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-10T08:01:27Z
+CVE-2026-56289 Loop with Unreachable Exit Condition in GNU patch
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56289
+Information published.
+------------------------------------------------------------
+IS
+Microsoft MSRC
+2026-07-10T08:01:17Z
+CVE-2026-59818 etcd: gRPC client listener does not enforce `--client-crl-file` certificate revocation
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59818
+Information published.
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-07-10T00:00:00Z
+Applications & Technology
+https://multifamily.fanniemae.com/applications-technology
+Learn more about Fannie Mae’s Multifamily library of applications; DUS Disclose, DUS Docway, DUS Gateway, DUS Insights, DUS Navigate and more.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-10T00:00:00Z
+This $60 educational kids’ app makes learning fun
+https://www.bleepingcomputer.com/offer/deals/this-60-educational-kids-app-makes-learning-fun/
+------------------------------------------------------------
+Federal Register
+Federal Register
+2026-07-10T00:00:00Z
+Rescission of Floodplain Management and Protection of Wetlands; Minimum Property Standards for Flood Hazard Exposure; Building to the Federal Flood Risk Management Standard
+https://www.federalregister.gov/documents/2026/07/10/2026-13939/rescission-of-floodplain-management-and-protection-of-wetlands-minimum-property-standards-for-flood
+This proposed rule would revise HUD's regulations governing floodplain management and the protection of wetlands in accordance with Executive Order 14148, entitled "Initial Rescissions of Harmful Executive Orders and Actions." Executive Order 14148 revoked an earlier executive order that formed a basis for the final rule that HUD published on April 23, 2024, entitled "Floodpla…
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-09T22:14:13Z
+OpenMandriva Linux says contributor tried to sabotage the project
+https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/
+The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]
+------------------------------------------------------------
+Executive
+White House
+2026-07-09T20:23:18Z
+Fact Sheet: President Donald J. Trump Adjusts Imports of Commercial Aircraft, Jet Engines, and Aircraft and Engine Parts into the United States
+https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-adjusts-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states/
+------------------------------------------------------------
+Executive
+White House
+2026-07-09T20:21:16Z
+Adjusting Imports of Commercial Aircraft, Jet Engines, and Aircraft and Engine Parts into the United States
+https://www.whitehouse.gov/presidential-actions/2026/07/adjusting-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states/
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-09T20:10:00Z
+Injective SDK on npm infected with cryptocurrency wallet stealer
+https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/
+Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]
+------------------------------------------------------------
+Banking
+FRB
+2026-07-09T19:00:00Z
+Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm
+Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-09T17:08:29Z
+New Helix vishing group emerges in SharePoint data theft attacks
+https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/
+A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-09T17:00:00Z
+Microsoft expects more Windows security updates from AI-discovered flaws
+https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/
+Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]
+------------------------------------------------------------
+OFAC
+Treasury
+2026-07-09T15:20:00Z
+Statements & Remarks
+https://home.treasury.gov/news/press-releases/statements-remarks
+------------------------------------------------------------
+OFAC
+Treasury
+2026-07-09T15:20:00Z
+Secretary Scott Bessent Delivers Remarks at the Official Unveiling of the President Donald J. Trump Bridge along Interstate 40 in Dandridge, Tennessee
+https://home.treasury.gov/news/press-releases/sb0557
+------------------------------------------------------------
+Banking
+FRB
+2026-07-09T15:00:00Z
+Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.
+https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm
+Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-09T14:39:51Z
+New Forg365 phishing platform uses AI to target Microsoft 365 accounts
+https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/
+A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure generation. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-09T14:02:12Z
+The Hidden Security Risks of Reduced Summer IT Coverage
+https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/
+Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organizations maintain consistent security operations and reduce reliance on manual processes year-round. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
 2026-07-09T11:00:35Z
 Microsoft to retire the OWA Light client in Exchange Server
 https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/
@@ -438,6 +573,37 @@ White House
 Fact Sheet: President Donald J. Trump Secures Historic Defense Investment from NATO Allies, Powering American Industry
 https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-secures-historic-defense-investment-from-nato-allies-powering-american-industry/
 ------------------------------------------------------------
+Mortgage
+FHLB MPF
+2026-07-09T00:00:00Z
+MPF Announcement 2026-43
+https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-43
+------------------------------------------------------------
+Mortgage
+Fannie Mae
+2026-07-09T00:00:00Z
+News & Commentaries
+https://capitalmarkets.fanniemae.com/news-commentaries
+------------------------------------------------------------
+Mortgage
+Freddie Mac
+2026-07-09T00:00:00Z
+Mortgage Rates Hover in Mid-Six Percent Range
+https://www.globenewswire.com/news-release/2026/07/09/3325072/0/en/mortgage-rates-hover-in-mid-six-percent-range.html
+------------------------------------------------------------
+Payments
+NACHA
+2026-07-09T00:00:00Z
+Fraud Among the Big Topics at Nacha Hill Day 2026
+https://www.nacha.org/news/fraud-among-big-topics-nacha-hill-day-2026
+For all the talk about inertia in Congress, Brian Dao believes if you’d walked a mile in his shoes on Nacha’s Hill Day, you’d have come home with a different view.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-07-09T00:00:00Z
+Store up to 1TB of files for life with Koofr cloud storage for $130
+https://www.bleepingcomputer.com/offer/deals/store-up-to-1tb-of-files-for-life-with-koofr-cloud-storage-for-130/
+------------------------------------------------------------
 IS
 BleepingComputer
 2026-07-09T00:00:00Z
@@ -522,20 +688,6 @@ https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm
 Minutes of the Federal Open Market Committee, June 16-17, 2026
 ------------------------------------------------------------
 IS
-BleepingComputer
-2026-07-08T16:47:25Z
-Entra passkey enrollment vishing targets Microsoft 365 users
-https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/
-A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-08T14:01:11Z
-3 Ways AI Powers Service Desk Attacks and How to Prevent Them
-https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/
-Specops Software explains how AI is making service desk impersonation attacks more convincing, personalized, and scalable, along with practical steps organizations can take to strengthen onboarding and identity verification. [...]
-------------------------------------------------------------
-IS
 Microsoft MSRC
 2026-07-08T14:00:00Z
 CVE-2026-42980 NT OS Kernel Elevation of Privilege Vulnerability
@@ -562,41 +714,6 @@ Visa
 Visa Research: The Great Wealth Transfer Is Already Reshaping How Americans Spend
 https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22571.html
 Visa Business and Economic Insights (VBEI) estimates $36 trillion will transfer to younger generations over the next 20 years, with much of the impact already visible in housing, travel and major purchases After accounting for liabilities, removing the top 1 percent of households and subtracting
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-08T12:00:00Z
-DuckDuckGo browser now blocks YouTube video ads
-https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/
-DuckDuckGo announced that its browser can now block most video ads on YouTube, including those shown before the video starts playing and during playback. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-08T11:24:16Z
-Telco giant KDDI says data breach affects over 12 million people
-https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/
-Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-08T09:58:11Z
-CISA orders feds to prioritize patching Langflow auth bypass flaw
-https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-08T08:15:20Z
-Ubiquiti warns of new max severity UniFi OS vulnerability
-https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
-Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-08T07:16:55Z
-CISA orders feds to patch max severity ColdFusion flaw by Friday
-https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]
 ------------------------------------------------------------
 OFAC
 OFAC
@@ -652,15 +769,8 @@ https://www.bleepingcomputer.com/offer/deals/stay-connected-privately-with-5-yea
 IS
 BleepingComputer
 2026-07-08T00:00:00Z
-Cancel monthly fees and get this PDF editor for life on sale for $40
-https://www.bleepingcomputer.com/offer/deals/cancel-monthly-fees-and-get-this-pdf-editor-for-life-on-sale-for-40/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-07T22:06:07Z
-Accenture confirms breach after hacker offers stolen data for sale
-https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/
-IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]
+Entra passkey enrollment vishing targets Microsoft 365 users
+https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/
 ------------------------------------------------------------
 Payment Card Networks
 Visa
@@ -749,18 +859,6 @@ FIS
 2026-07-07T00:00:00Z
 Frankfurt International Bank Selects FIS to Bypass Legacy Infrastructure and Power Cloud-Native Treasury from Day One
 https://www.investor.fisglobal.com/news-releases/news-release-details/frankfurt-international-bank-selects-fis-bypass-legacy
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-07T00:00:00Z
-Chinese hackers develop LONGLEASH malware to expand ORB network
-https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-07T00:00:00Z
-Get ChatGPT, Claude, Gemini & more in one workspace for just $60
-https://www.bleepingcomputer.com/offer/deals/get-chatgpt-claude-gemini-and-more-in-one-workspace-for-just-60/
 ------------------------------------------------------------
 OFAC
 Treasury
@@ -4009,12 +4107,6 @@ FHLB MPF
 MPF Announcement 2026-42
 https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-42
 ------------------------------------------------------------
-Mortgage
-Fannie Mae
-2026-07-01T00:00:00Z
-News & Commentaries
-https://capitalmarkets.fanniemae.com/news-commentaries
-------------------------------------------------------------
 Legislative
 House Financial Services
 2026-07-01T00:00:00Z
@@ -4039,12 +4131,6 @@ Treasury
 2026-06-30T20:01:47Z
 URIF Holds Fourth Board Meeting at Ukraine Recovery Conference
 https://home.treasury.gov/news/press-releases/sb0548
-------------------------------------------------------------
-OFAC
-Treasury
-2026-06-30T17:30:00Z
-Treasury Targets Criminal Facilitators Behind CJNG’s Cross‑Border Fuel Smuggling Schemes
-https://home.treasury.gov/news/press-releases/sb0545
 ------------------------------------------------------------
 Banking
 FDIC
@@ -8019,146 +8105,4 @@ FDIC
 FDIC Publishes Enforcement Orders for May 2026
 https://content.govdelivery.com/accounts/USFDIC/bulletins/41da64c
 PRESS RELEASE | JUNE 26, 2026 FDIC Publishes Enforcement Orders for May 2026 WASHINGTON—The Federal Deposit Insurance Corporation (FDIC) today published a list of orders of administrative enforcement actions taken against banks and individuals in May 2026. There are no administrative hearings scheduled for July 2026. Order to Pay Civil Money Penalty: Alliance Community Bank, P…
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-26T08:41:41Z
-CVE-2026-4367 Libxpm: libxpm: denial of service via out-of-bounds read in xpm file parsing
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4367
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-26T08:41:26Z
-CVE-2026-46320 tap: free page on error paths in tap_get_user_xdp()
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46320
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-26T08:41:18Z
-CVE-2026-46322 tun: free page on build_skb failure in tun_xdp_one()
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46322
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-26T08:41:11Z
-CVE-2026-46321 tun: free page on short-frame rejection in tun_xdp_one()
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-46321
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-26T08:40:44Z
-CVE-2026-45930 net: mctp: ensure our nlmsg responses are initialised
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45930
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-26T08:40:31Z
-CVE-2026-45850 ipvs: skip ipv6 extension headers for csum checks
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45850
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-26T08:39:56Z
-CVE-2025-68736 landlock: Fix handling of disconnected directories
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68736
-Information published.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-26T08:39:42Z
-CVE-2025-68296 drm, fbcon, vga_switcheroo: Avoid race condition in fbcon setup
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-68296
-Information published.
-------------------------------------------------------------
-OFAC
-OFAC
-2026-06-26T00:00:00Z
-Sudan-related Designations
-https://ofac.treasury.gov/recent-actions/20260626
-------------------------------------------------------------
-Banking
-FDIC
-2026-06-26T00:00:00Z
-FDIC Publishes May Enforcement Actions
-https://www.fdic.gov/news/press-releases/2026/fdic-publishes-may-enforcement-actions
-FDIC today published a list of orders of administrative enforcement actions taken against banks and individuals in May 2026.
-------------------------------------------------------------
-Mortgage
-FHLB MPF
-2026-06-26T00:00:00Z
-MPF Announcement 2026-41
-https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/announcement-2026-41
-------------------------------------------------------------
-Mortgage
-Fannie Mae
-2026-06-26T00:00:00Z
-Fannie Mae Releases May 2026 Monthly Summary
-https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-releases-may-2026-monthly-summary
-The monthly summary report contains information about Fannie Mae’s monthly and year-to-date activities.
-------------------------------------------------------------
-Legislative
-House Financial Services
-2026-06-26T00:00:00Z
-Capital Markets Subcommittee Reviews the Evolving Investment Landscape and Market Regulation
-https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411184
-------------------------------------------------------------
-Federal Register
-Federal Register
-2026-06-26T00:00:00Z
-Sunshine Act Meetings: Notice of Meeting To Be Held With Less Than Seven Days' Advance Notice
-https://www.federalregister.gov/documents/2026/06/26/2026-12923/sunshine-act-meetings-notice-of-meeting-to-be-held-with-less-than-seven-days-advance-notice
-------------------------------------------------------------
-Executive
-White House
-2026-06-25T23:00:19Z
-Advancing Regenerative Agriculture and Strengthening American Farm Resilience
-https://www.whitehouse.gov/presidential-actions/2026/06/advancing-regenerative-agriculture-and-strengthening-american-farm-resilience/
-------------------------------------------------------------
-Banking
-FDIC
-2026-06-25T19:20:30Z
-FDIC Board of Directors Meeting
-https://content.govdelivery.com/accounts/USFDIC/bulletins/41da372
-BOARD MEETING | JUNE 25, 2026 FDIC Board of Directors Meeting Today, the Federal Deposit Insurance Corporation’s Board of Directors met in open session to consider the following matters. Materials and information relative to the open Board actions are available on the Board Matters webpage . Items Addressed in Open Session: Notice of Proposed Rulemaking: Resolution Submissions…
-------------------------------------------------------------
-Banking
-FRB
-2026-06-25T15:00:00Z
-Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.
-https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm
-Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.
-------------------------------------------------------------
-Banking
-FRB
-2026-06-25T15:00:00Z
-Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.
-https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm
-Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.
-------------------------------------------------------------
-Payment Card Networks
-Visa
-2026-06-25T14:00:00Z
-Visa Redefines Its Role in Travel With the Global Launch of Visa Destinations
-https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22521.html
-A new consumer Visa travel platform is now live across 10 locations, including flagship cities such as Paris, London and New York City, with more destinations to be added later this year. This platform connects Visa cardholders with curated experiences and exclusive access aligned to passion-led
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-25T14:00:00Z
-CVE-2026-41086 Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-41086
-Updated an acknowledgement. This is an informational change only.
-------------------------------------------------------------
-IS
-Microsoft MSRC
-2026-06-25T14:00:00Z
-CVE-2026-45637 Microsoft DWM Core Library Elevation of Privilege Vulnerability
-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45637
-Updated an acknowledgement. This is an informational change only.
 ------------------------------------------------------------
