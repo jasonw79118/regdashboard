@@ -1,7 +1,817 @@
 # RegDashboard — Export
 
-Window: `2026-07-03T13:24:13Z` → `2026-07-17T13:24:13Z` (UTC)
-Last updated: `2026-07-17T08:24:13-05:00` (CT) — `2026-07-17T13:24:13Z` (UTC)
+Window: `2026-07-06T13:39:31Z` → `2026-07-20T13:39:31Z` (UTC)
+Last updated: `2026-07-20T08:39:31-05:00` (CT) — `2026-07-20T13:39:31Z` (UTC)
+
+## Hugging Face warns an autonomous AI agent hacked its network
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T11:56:28Z
+- URL: https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/
+
+The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]
+
+## Microsoft confirms Windows Server Update Services sync delays
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T10:47:28Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/
+
+Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]
+
+## Windows KB5121767 OOB update fixes shutdowns on some Dell PCs
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T10:06:17Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/
+
+Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]
+
+## Critical ServiceNow code execution flaw now exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T09:29:20Z
+- URL: https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/
+
+Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]
+
+## CVE-2026-62389 ws < 8.21.1 Default maxFragments Allows Memory Exhaustion DoS
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:40:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62389
+
+Information published.
+
+## CVE-2026-45784 rust-openssl: Potential out-of-bounds write in `CipherCtxRef::cipher_update_inplace` for AES-KW-PAD ciphers
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:40:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45784
+
+Information published.
+
+## CVE-2026-63808 exfat: fix potential use-after-free in exfat_find_dir_entry()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:08:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63808
+
+Information published.
+
+## CVE-2026-53381 virtiofs: fix UAF on submount umount
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:08:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53381
+
+Information published.
+
+## CVE-2026-63827 apparmor: fix use-after-free in rawdata dedup loop
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:08:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63827
+
+Information published.
+
+## CVE-2026-53398 NFSD: Fix SECINFO_NO_NAME decode error cleanup
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:08:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53398
+
+Information published.
+
+## CVE-2026-63795 9p: avoid putting oldfid in p9_client_walk() error path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:08:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63795
+
+Information published.
+
+## CVE-2026-53382 media: vidtv: fix NULL pointer dereference in vidtv_mux_push_si
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53382
+
+Information published.
+
+## CVE-2026-53383 ksmbd: reject non-VALID session in compound request branch
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53383
+
+Information published.
+
+## CVE-2026-63814 f2fs: validate ACL entry sizes in f2fs_acl_from_disk()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63814
+
+Information published.
+
+## CVE-2026-63828 apparmor: mediate the implicit connect of TCP fast open sendmsg
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63828
+
+Information published.
+
+## CVE-2026-63801 tipc: fix slab-use-after-free Read in tipc_aead_decrypt_done
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63801
+
+Information published.
+
+## CVE-2026-53390 ksmbd: fix out-of-bounds read in smb_check_perm_dacl()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53390
+
+Information published.
+
+## CVE-2026-53385 vc_screen: fix null-ptr-deref in vcs_notifier() during concurrent vcs_write
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53385
+
+Information published.
+
+## CVE-2026-63812 f2fs: fix incorrect FI_NO_EXTENT handling in __destroy_extent_node()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63812
+
+Information published.
+
+## CVE-2026-63802 blk-cgroup: fix UAF in __blkcg_rstat_flush()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63802
+
+Information published.
+
+## CVE-2026-63831 mac802154: llsec: add skb_cow_data() before in-place crypto
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:07:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63831
+
+Information published.
+
+## CVE-2026-63804 gfs2: fix use-after-free in gfs2_qd_dealloc
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63804
+
+Information published.
+
+## CVE-2026-63817 f2fs: validate compress cache inode only when enabled
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63817
+
+Information published.
+
+## CVE-2026-63796 ocfs2: reject oversized group bitmap descriptors
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63796
+
+Information published.
+
+## CVE-2026-63797 rpmsg: char: Fix use-after-free on probe error path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63797
+
+Information published.
+
+## CVE-2026-63800 pNFS: Fix use-after-free in pnfs_update_layout()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:30Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63800
+
+Information published.
+
+## CVE-2026-63823 keys: Pin request_key_auth payload in instantiate paths
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:24Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63823
+
+Information published.
+
+## CVE-2026-63798 irqchip/imgpdc: Fix resource leak, add missing chained handler cleanup on remove
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63798
+
+Information published.
+
+## CVE-2026-63824 KEYS: fix overflow in keyctl_pkey_params_get_2()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63824
+
+Information published.
+
+## CVE-2026-63821 wifi: rtw88: usb: fix memory leaks on USB write failures
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:06:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63821
+
+Information published.
+
+## CVE-2026-63836 batman-adv: tp_meter: avoid divide-by-zero for dec_cwnd
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63836
+
+Information published.
+
+## CVE-2026-53397 nfsd: fix posix_acl leak on SETACL decode failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53397
+
+Information published.
+
+## CVE-2026-63794 KVM: SVM: Fix page overflow in sev_dbg_crypt() for ENCRYPT path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63794
+
+Information published.
+
+## CVE-2026-53388 fuse: re-lock request before replacing page cache folio
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53388
+
+Information published.
+
+## CVE-2026-63822 wifi: ath11k: fix warning when unbinding
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63822
+
+Information published.
+
+## CVE-2026-53391 NFSv4/pNFS: reject zero-length r_addr in nfs4_decode_mp_ds_addr
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53391
+
+Information published.
+
+## CVE-2026-63830 net: skmsg: preserve sg.copy across SG transforms
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63830
+
+Information published.
+
+## CVE-2026-53384 serial: 8250_dw: unregister 8250 port if clk_notifier_register() fails
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53384
+
+Information published.
+
+## CVE-2026-63834 batman-adv: tp_meter: restrict number of unacked list entries
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63834
+
+Information published.
+
+## CVE-2026-63803 hdlc_ppp: sync per-proto timers before freeing hdlc state
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:05:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63803
+
+Information published.
+
+## CVE-2026-63807 KVM: x86/mmu: Ensure hugepage is in by slot before checking max mapping level
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63807
+
+Information published.
+
+## CVE-2026-63835 batman-adv: v: prevent OGM aggregation on disabled hardif
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63835
+
+Information published.
+
+## CVE-2026-63809 bpf: use kvfree() for replaced sysctl write buffer
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63809
+
+Information published.
+
+## CVE-2026-53393 nfsd: reset write verifier on deferred writeback errors
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53393
+
+Information published.
+
+## CVE-2026-53387 iio: light: veml6075: add bounds check to veml6075_it_ms index
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53387
+
+Information published.
+
+## CVE-2026-63832 wifi: mt76: add wcid publish check in mt76_sta_add
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:24Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63832
+
+Information published.
+
+## CVE-2026-53375 drm/amdgpu/vce: Prevent partial address patches
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53375
+
+Information published.
+
+## CVE-2026-63829 net: ip_gre: require CAP_NET_ADMIN in the device netns for changelink
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63829
+
+Information published.
+
+## CVE-2026-63818 f2fs: validate orphan inode entry count
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63818
+
+Information published.
+
+## CVE-2026-63858 netfilter: nf_tables: add hook transactions for device deletions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:04:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63858
+
+Information published.
+
+## CVE-2026-63826 fbdev: fix use-after-free in store_modes()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63826
+
+Information published.
+
+## CVE-2026-53399 nfsd: release layout stid on setlease failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53399
+
+Information published.
+
+## CVE-2026-63872 esp: fix page frag reference leak on skb_to_sgvec failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63872
+
+Information published.
+
+## CVE-2026-63871 Bluetooth: ISO: Fix data-race on iso_pi fields in hci_get_route calls
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63871
+
+Information published.
+
+## CVE-2026-63833 ntfs3: reject direct userspace writes to reserved $LX* xattrs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63833
+
+Information published.
+
+## CVE-2026-53400 i2c: core: fix adapter registration race
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53400
+
+Information published.
+
+## CVE-2026-53368 f2fs: fix fsck inconsistency caused by incorrect nat_entry flag usage
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53368
+
+Information published.
+
+## CVE-2026-53377 drm/msm: always recover the gpu
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53377
+
+Information published.
+
+## CVE-2026-63806 KVM: Replace guest-triggerable BUG_ON() in ioeventfd datamatch with get_unaligned()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:03:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63806
+
+Information published.
+
+## CVE-2026-53376 drm/amdkfd: Add upper bound check for num_of_nodes
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53376
+
+Information published.
+
+## CVE-2026-53403 fbdev: Fix fb_new_modelist to prevent null-ptr-deref in fb_videomode_to_var
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53403
+
+Information published.
+
+## CVE-2026-63793 ntfs: serialize volume label accesses
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63793
+
+Information published.
+
+## CVE-2026-53374 drm/amdgpu: zero-initialize GART table on allocation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53374
+
+Information published.
+
+## CVE-2026-53392 NFSv4/flexfiles: reject zero filehandle version count
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53392
+
+Information published.
+
+## CVE-2026-63811 f2fs: read COW data with the original inode during atomic write
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63811
+
+Information published.
+
+## CVE-2026-53401 fbdev: omap2: fix use-after-free in omapfb_mmap
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53401
+
+Information published.
+
+## CVE-2026-63810 block: Avoid mounting the bdev pseudo-filesystem in userspace
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63810
+
+Information published.
+
+## CVE-2026-63819 f2fs: fix to do sanity check on f2fs_get_node_folio_ra()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63819
+
+Information published.
+
+## CVE-2026-53402 fbdev: fbcon: fix out-of-bounds read in err_out of fbcon_do_set_font()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:02:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53402
+
+Information published.
+
+## CVE-2026-63853 drm/amdgpu/vcn: set no_user_fence for VCN v4.0 enc ring
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:01:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63853
+
+Information published.
+
+## CVE-2026-53386 iio: adc: ti-ads1298: add bounds check to pga_settings index
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:01:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53386
+
+Information published.
+
+## CVE-2026-63825 gcov: use atomic counter updates to fix concurrent access crashes
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:01:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63825
+
+Information published.
+
+## CVE-2026-63816 f2fs: atomic: fix UAF issue on f2fs_inode_info.atomic_inode
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:01:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63816
+
+Information published.
+
+## CVE-2026-63805 crypto: nx - fix nx_crypto_ctx_exit argument
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:01:30Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63805
+
+Information published.
+
+## CVE-2026-63815 f2fs: bound i_inline_xattr_size for non-inline-xattr inodes
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T08:01:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63815
+
+Information published.
+
+## AdGuard’s popular VPN is only $35 for a 5-year subscription
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/adguards-popular-vpn-is-only-35-for-a-5-year-subscription/
+
+## Reporting Forms and Instructions Associated With Requirements and Standards for FDIC-Supervised Permitted Payment Stablecoin Issuers
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-20T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/20/2026-14589/reporting-forms-and-instructions-associated-with-requirements-and-standards-for-fdic-supervised
+
+The FDIC invites comment on new forms and instructions associated with an Office of Management and Budget (OMB) control number (3064-0225) assigned in connection with a notice of proposed rulemaking. In accordance with the requirements of the Paperwork Reduction Act of 1995 (PRA), the FDIC may not conduct or sponsor, and the respondent is not required to respond to, an informa…
+
+## Hackers abuse ViPNet software to target Russian govt agencies
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-19T14:23:46Z
+- URL: https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/
+
+An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]
+
+## Get pro-level edits with little effort—this Luminar Neo deal is $80
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-19T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-pro-level-edits-with-little-effort-this-luminar-neo-deal-is-80/
+
+## Update now: 7-Zip fixes RCE flaw exploitable with malicious archives
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-18T19:32:02Z
+- URL: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
+
+7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
+
+## WordPress Core "wp2shell" RCE flaws get public exploits, patch now
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-18T17:22:47Z
+- URL: https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/
+
+Public exploits have been released for the critical "wp2shell" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]
+
+## Microsoft warns of surge in ACR Stealer attacks on customers
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-18T14:17:19Z
+- URL: https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/
+
+Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]
+
+## The Future of Age Verification: Your Face Never Leaves Your Device
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-18T13:15:24Z
+- URL: https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/
+
+As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]
+
+## CVE-2026-50012 Squid: Memory corruption in cache_digest reply handling
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T08:01:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50012
+
+Information published.
+
+## CVE-2026-47729 Squid: Memory disclosure in FTP gateway
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T08:01:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47729
+
+Information published.
+
+## CVE-2026-62299 CoreDNS: rewrite-plugin EDNS0 response-revert nil-pointer panic (remote DoS) when a downstream plugin returns a response with no OPT record
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T08:01:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62299
+
+Information published.
+
+## CVE-2026-62309 CoreDNS: proxyproto plugin panics on PPv2 datagram with non-UDP transport — single 28-byte packet remote DoS
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T08:01:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62309
+
+Information published.
+
+## Chromium: CVE-2026-15905 Use after free in Aura
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T00:42:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15905
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
+
+## Chromium: CVE-2026-15904 Use after free in Ozone
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T00:42:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15904
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
+
+## Chromium: CVE-2026-15903 Out of bounds read and write in V8
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T00:42:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15903
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
+
+## Chromium: CVE-2026-15902 Use after free in Cast
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T00:42:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15902
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
+
+## Chromium: CVE-2026-15901 Use after free in Network
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T00:42:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15901
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
+
+## Chromium: CVE-2026-15900 Use after free in GPU
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T00:42:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15900
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
+
+## Chromium: CVE-2026-15899 Use after free in CameraCapture
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-18T00:42:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15899
+
+This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
+
+## This $79.99 Mac app replaces a whole stack of PDF tools
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-18T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-7999-mac-app-replaces-a-whole-stack-of-pdf-tools/
+
+## Press Release: The Farmers State Bank of Oakley, Kansas Assumes All Deposits of Small Business Bank, Lenexa, Kansas
+- Source: FDIC
+- Category: Banking
+- Published: 2026-07-17T21:41:35Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/420fa4b
+
+PRESS RELEASE | JULY 17, 2026 The Farmers State Bank of Oakley, Kansas Assumes All Deposits of Small Business Bank, Lenexa, Kansas WASHINGTON — Small Business Bank in Lenexa, Kansas, was closed today by the Kansas Office of the State Bank Commissioner, which appointed the Federal Deposit Insurance Corporation (FDIC) as receiver. The FDIC entered into an agreement with The Farm…
+
+## Abbott probes two cyber incidents amid extortion claims
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-17T20:45:52Z
+- URL: https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/
+
+Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]
+
+## Texas Bankers Foundation reopens Flood Relief Fund following widespread Texas flooding
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-07-17T19:27:27Z
+- URL: https://www.texasbankers.com/texas-bankers-foundation-reopens-flood-relief-fund-following-widespread-texas-flooding/
+
+https://www.texasbankers.com/foundation-flood-relief-fund/ The post Texas Bankers Foundation reopens Flood Relief Fund following widespread Texas flooding appeared first on Texas Bankers Association .
+
+## HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-17T17:56:21Z
+- URL: https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/
+
+A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]
+
+## Ernst & Young discloses data breach after support system hack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-17T14:55:28Z
+- URL: https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/
+
+Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]
+
+## Inside the Search for "Clean" Residential Proxies for Carding
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-17T14:00:10Z
+- URL: https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/
+
+Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek "clean" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection. [...]
+
+## CVE-2026-56159 DHCP Server Service Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-17T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56159
+
+Added acknowledgements. This is an informational change only.
 
 ## New Windows LegacyHive zero-day gives hackers admin privileges
 - Source: BleepingComputer
@@ -18,14 +828,6 @@ A security researcher using the "Nightmare Eclipse" handle has released a Window
 - URL: https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/
 
 Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]
-
-## US charges two over laundering $43 million from investment fraud
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T08:13:37Z
-- URL: https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/
-
-U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]
 
 ## CVE-2026-59886 pyasn1: Uncontrolled resource consumption when converting decoded REAL values
 - Source: Microsoft MSRC
@@ -147,19 +949,61 @@ Information published.
 
 Information published.
 
-## CISA urges immediate action on actively exploited Fortinet flaws
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T07:03:33Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/
+## Hong Kong-related Designations Updates and Removals
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-07-17T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260717
 
-CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]
+## The Farmers State Bank of Oakley, Kansas Assumes All Deposits of Small Business Bank, Lenexa, Kansas
+- Source: FDIC
+- Category: Banking
+- Published: 2026-07-17T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/farmers-state-bank-oakley-kansas-assumes-all-deposits-small-business-bank
+
+Small Business Bank in Lenexa, Kansas, was closed today by the Kansas Office of the State Bank Commissioner, which appointed the FDIC as receiver.
+
+## FWD: Senators Kim and Warren Press Acting CFPB Director Vought on How He is Failing American Consumers
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-07-17T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/fwd-senators-kim-and-warren-press-acting-cfpb-director-vought-on-how-he-is-failing-american-consumers
+
+## Warren Requests President Trump’s Updated Financial Disclosures Covering Full First Half of 2026 as Senate Considers Crypto Legislation
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-07-17T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-requests-president-trumps-updated-financial-disclosures-covering-full-first-half-of-2026-as-senate-considers-crypto-legislation
+
+## Warren in Fox News: The Housing Bill Is Law Without Trump. Families Need Congress To Keep Sprinting
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-07-17T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/warren-in-fox-news-the-housing-bill-is-law-without-trump-families-need-congress-to-keep-sprinting
+
+## Steil: The CLARITY Act Will Unlock the Next 250 Years of Innovation Here in the United States
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-07-17T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411196
+
+## One Year Later, Digital Assets Subcommittee Highlights the Importance of the CLARITY Act
+- Source: House Financial Services
+- Category: Legislative
+- Published: 2026-07-17T00:00:00Z
+- URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411198
 
 ## Learn networking, cybersecurity & cloud skills from home for just $50
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-07-17T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/learn-networking-cybersecurity-and-cloud-skills-from-home-for-just-50/
+
+## US charges two over laundering $43 million from investment fraud
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/
 
 ## Update to Notice of Financial Institutions for Which the Federal Deposit Insurance Corporation Has Been Appointed Either Receiver, Liquidator, or Manager
 - Source: Federal Register
@@ -177,22 +1021,6 @@ Notice is hereby given that the Federal Deposit Insurance Corporation (Corporati
 
 The Department of Homeland Security (DHS) is amending its regulations to change the admission period in the F, J, and I classifications from duration of status to an admission for a fixed time period, and additional changes to admission and extension requirements. This final rule will provide additional protections and oversight of these nonimmigrant categories and will allow…
 
-## New ClickLock macOS malware traps users into revealing login password
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T21:52:54Z
-- URL: https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/
-
-A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]
-
-## Coca-Cola says Fairlife ransomware attack halts US dairy production
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T21:09:41Z
-- URL: https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/
-
-The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]
-
 ## Readouts
 - Source: Treasury
 - Category: OFAC
@@ -204,22 +1032,6 @@ The Coca-Cola Company disclosed today that a ransomware attack impacting its Fai
 - Category: OFAC
 - Published: 2026-07-16T20:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0568
-
-## Claude Chrome extension flaw lets malicious extensions trigger AI actions
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T19:26:07Z
-- URL: https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/
-
-A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access to connected services such as Gmail, Google Docs, Google Calendar, and Salesforce. [...]
-
-## New OkoBot framework deploys 20 payloads to steal data, crypto
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T19:09:35Z
-- URL: https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/
-
-A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]
 
 ## Press Release: Agencies Issue Joint Statement on Handling of Highly Sensitive Information During Bank Examinations
 - Source: FDIC
@@ -252,14 +1064,6 @@ Federal Reserve Board issues enforcement action with former chief lending office
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22591.html
 
 The Visa Stablecoin Platform gives financial institutions, fintechs and other payment providers a single environment to come onchain and run stablecoin operations with Visa. SAN FRANCISCO --(BUSINESS WIRE)--Jul. 16, 2026-- Today, Visa (NYSE: V) announced the Visa Stablecoin Platform (VSP), a new
-
-## AI Agents Broke the Security Playbook. Here's What Replaces It.
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T14:00:10Z
-- URL: https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/
-
-Traditional security workflows were built for environments that changed at human speed. Token Security explains why AI agents require a new approach: building on a live identity foundation while giving security teams the flexibility to create workflows tailored to their own environments. [...]
 
 ## CVE-2026-59117 Windows Terminal Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
@@ -357,51 +1161,11 @@ Updated product information in the Software Update table. This is an information
 
 Exposure of private personal information to an unauthorized actor in Windows RDP allows an unauthorized attacker to disclose information over a network.
 
-## 23andMe to pay $18 million in new genetics data breach settlement
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T13:47:23Z
-- URL: https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/
-
-Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]
-
 ## Secretary Bessent Delivers Remarks Before the Ministerial on the Resurgence of Political Terrorism
 - Source: Treasury
 - Category: OFAC
 - Published: 2026-07-16T13:35:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0566
-
-## Scattered Spider members behind TfL hack get five years in prison
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T12:31:29Z
-- URL: https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/
-
-Two leading members of the Scattered Spider cybercrime collective were sentenced to five years and six months in prison each for hacking Transport for London (TfL) in 2024. [...]
-
-## Windows 11 24H2 Home and Pro reach end of support in 90 days
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T11:59:24Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/
-
-Microsoft announced on Wednesday that systems running Windows 10 Enterprise LTSB 2016 and Home and Pro editions of Windows 11 24H2 will stop receiving updates in three months. [...]
-
-## CISA orders feds to patch actively exploited Oracle flaw by Saturday
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T10:56:03Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/
-
-CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]
-
-## Russian hackers trojanize WebEx, Zoom apps to push Starland malware
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T10:19:34Z
-- URL: https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/
-
-A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a new backdoor called Starland RAT. [...]
 
 ## New to Metro 2® Reporting? Start with the Right Foundation.
 - Source: CDIA
@@ -410,14 +1174,6 @@ A financially motivated Russian threat actor tracked as UAT-11795 is using troja
 - URL: https://www.cdiaonline.org/events/2026/07/16/new-to-metro-2-reporting-start-with-the-right-foundation/
 
 Accurate Metro 2® reporting is critical to compliance, reducing disputes, and improving consumer outcomes. That’s why proper training matters. CDIA’s Metro 2®... The post New to Metro 2® Reporting? Start with the Right Foundation. appeared first on CDIA .
-
-## New Spirals ransomware encrypts victim network in under 24 hours
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T10:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/
-
-A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]
 
 ## CVE-2026-59831 GitHub CLI `gh codespace jupyter` could allow remote code execution when connecting to a malicious Codespace
 - Source: Microsoft MSRC
@@ -441,24 +1197,6 @@ WASHINGTON—The federal bank regulatory agencies today issued a joint statement
 - Published: 2026-07-16T00:00:00Z
 - URL: https://www.globenewswire.com/news-release/2026/07/16/3328703/0/en/mortgage-rates-average-6-55.html
 
-## Warren Requests President Trump’s Updated Financial Disclosures Covering Full First Half of 2026 as Senate Considers Crypto Legislation
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-07-16T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-requests-president-trumps-updated-financial-disclosures-covering-full-first-half-of-2026-as-senate-considers-crypto-legislation
-
-## Warren in Fox News: The Housing Bill Is Law Without Trump. Families Need Congress To Keep Sprinting
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-07-16T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-in-fox-news-the-housing-bill-is-law-without-trump-families-need-congress-to-keep-sprinting
-
-## Warren Presses Vought on CFPB Cancelling Consumer Relief from Huge Companies That Donated to Trump
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-07-16T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/warren-presses-vought-on-cfpb-cancelling-consumer-relief-from-huge-companies-that-donated-to-trump
-
 ## Full Committee Examines CFPB Accountability, Reform, and Consumer Protection
 - Source: House Financial Services
 - Category: Legislative
@@ -477,18 +1215,6 @@ WASHINGTON—The federal bank regulatory agencies today issued a joint statement
 - Published: 2026-07-16T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-sweeps-all-five-chartis-credit-lending-operations-segments
 
-## A Surfshark VPN plan for all your devices is now 84% off
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/a-surfshark-vpn-plan-for-all-your-devices-is-now-84-percent-off/
-
-## This refurbished 2-in-1 Chromebook with stylus is only $145 through 7/19
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-refurbished-2-in-1-chromebook-with-stylus-is-only-145-through-7-19/
-
 ## Presidential Message on the Birthday of Saint Frances Xavier Cabrini
 - Source: White House
 - Category: Executive
@@ -500,6 +1226,14 @@ WASHINGTON—The federal bank regulatory agencies today issued a joint statement
 - Category: OFAC
 - Published: 2026-07-15T20:15:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0565
+
+## Fed Chair Warsh shares annual monetary policy report with Congress
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-07-15T17:00:00Z
+- URL: https://www.texasbankers.com/fed-chair-warsh-shares-annual-monetary-policy-report-with-congress/
+
+In the annual monetary policy report, Federal Reserve Chairman Kevin Warsh told the House Financial Services Committee and the Senate Banking Committee that the economy continues to expand at a solid pace, but he emphasized that the Fed remains firmly focused on controlling inflation. Warsh offered no indication of imminent rate relief and noted continued […] The post Fed Chai…
 
 ## Measuring Balance of Payments Deficits
 - Source: White House
@@ -1902,18 +2636,6 @@ While there’s a healthy competition among the thousands of banks and credit un
 - Category: Payment Card Networks
 - Published: 2026-07-15T00:00:00Z
 - URL: https://www.mastercard.com/us/en/news-and-trends/press/2025/june/mastercard-chainlink-crypto.html
-
-## Dutch police bust investment fraud ring stealing over €100 million
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-15T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/
-
-## Zoom warns of critical account takeover vulnerability
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-15T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/
 
 ## Treasury Intensifies Pressure on Shamkhani’s Expansive Illicit Shipping Empire
 - Source: Treasury
@@ -5739,14 +6461,6 @@ Improper access control in Microsoft Office SharePoint allows an authorized atta
 
 Improper neutralization of special elements in output used by a downstream component ('injection') in GitHub Copilot and Visual Studio allows an unauthorized attacker to bypass a security feature over a network.
 
-## CVE-2026-56159 DHCP Server Service Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56159
-
-Heap-based buffer overflow in Windows DHCP Server allows an unauthorized attacker to execute code over a network.
-
 ## CVE-2026-50359 Microsoft XML Core Services Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -6513,14 +7227,6 @@ Information published.
 
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 
-## Applications & Technology
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-07-14T00:00:00Z
-- URL: https://multifamily.fanniemae.com/applications-technology
-
-Learn more about Fannie Mae’s Multifamily library of applications; DUS Disclose, DUS Docway, DUS Gateway, DUS Insights, DUS Navigate and more.
-
 ## Chairman Hill: Reform is the Mechanism by Which the Fed Can Become the Best Version of Itself for the American People
 - Source: House Financial Services
 - Category: Legislative
@@ -6565,12 +7271,6 @@ When it comes to earning Nacha accreditations, Stephanie Prebish looks at it thi
 - Published: 2026-07-13T22:14:23Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/07/modifying-the-bears-ears-national-monument/
 
-## Fact Sheet: President Donald J. Trump Modifies Two National Monuments, Restoring Sensible Land Management
-- Source: White House
-- Category: Executive
-- Published: 2026-07-13T22:13:50Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-modifies-two-national-monuments-restoring-sensible-land-management/
-
 ## Modifying the Grand Staircase-Escalante National Monument
 - Source: White House
 - Category: Executive
@@ -6582,6 +7282,14 @@ When it comes to earning Nacha accreditations, Stephanie Prebish looks at it thi
 - Category: Executive
 - Published: 2026-07-13T20:39:42Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-3fd0/
+
+## Fed agencies release guidance on lending to undocumented workers
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-07-13T17:00:00Z
+- URL: https://www.texasbankers.com/fed-agencies-release-guidance-on-lending-to-undocumented-workers/
+
+Lending to individuals who are not legally authorized to work in the U.S. may pose elevated credit risk for financial institutions, according to joint guidance issued by the Federal Deposit Insurance Corporation, the Office of the Comptroller of the Currency, and the National Credit Union Administration. President Trump issued an executive order in May this […] The post Fed ag…
 
 ## Death of Senator Lindsey Graham
 - Source: White House
@@ -8780,2647 +9488,3 @@ IR-2026-81, July 7, 2026 — The IRS and Security Summit partners today launched
 - Category: Fintech Watch
 - Published: 2026-07-07T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/frankfurt-international-bank-selects-fis-bypass-legacy
-
-## Small Business Sales Grow on Higher Tickets and Retail Rebound, Fiserv Data Shows
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-07-06T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/small-business-sales-grow-higher-tickets-and-retail-rebound
-
-## Agency Information Collection Activities: Proposed Collection Renewal; Comment Request
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-07-06T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/07/06/2026-13506/agency-information-collection-activities-proposed-collection-renewal-comment-request
-
-The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to take this opportunity to comment on this extension without change of the existing information collection described below (OMB Control No. 3064-0127). The notice of proposed renewal for this collection was previously published in the Fed…
-
-## CVE-2026-53223 net: guard timestamp cmsgs to real error queue skbs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-04T08:03:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-53223
-
-Information published.
-
-## 250th Anniversary of the Adoption of the Declaration of Independence
-- Source: White House
-- Category: Executive
-- Published: 2026-07-03T19:57:05Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/250th-anniversary-of-the-adoption-of-the-declaration-of-independence/
-
-## Chromium: CVE-2026-13874 Inappropriate implementation in DataTransfer
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13874
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13953 Inappropriate implementation in SplitView
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13953
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14142 Inappropriate implementation in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14142
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14131 Insufficient validation of untrusted input in WebAppInstalls
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14131
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14020 Insufficient validation of untrusted input in WebXR
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14020
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13798 Heap buffer overflow in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:59Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13798
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13797 Insufficient validation of untrusted input in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13797
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13952 Inappropriate implementation in PerformanceAPIs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13952
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14130 Incorrect security UI in Omnibox
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14130
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14019 Inappropriate implementation in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14019
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14073 Insufficient policy enforcement in WebXR
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:58Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14073
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13873 Out of bounds memory access in Layout
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:57Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13873
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13951 Policy bypass in USB
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:57Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13951
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14129 Incorrect security UI in PreviewTab
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:57Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14129
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14072 Incorrect security UI in SplitView
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:57Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14072
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14018 Use after free in Updater
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:57Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14018
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13871 Insufficient data validation in GuestView
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:56Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13871
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14116 Insufficient validation of untrusted input in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:56Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14116
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13796 Integer overflow in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:56Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13796
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13794 Insufficient validation of untrusted input in WebAppInstalls
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13794
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13869 Use after free in Device
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13869
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13950 Uninitialized Use in GPU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13950
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14105 Insufficient policy enforcement in Speech
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14105
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14127 Inappropriate implementation in Printing
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14127
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14017 Inappropriate implementation in Navigation
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:55Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14017
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14125 Uninitialized Use in ANGLE
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14125
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13793 Insufficient policy enforcement in SVG
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13793
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14092 Insufficient policy enforcement in Privacy
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14092
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14070 Uninitialized Use in WebNN
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:54Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14070
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13790 Side-channel information leakage in Scroll
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13790
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13865 Insufficient validation of untrusted input in Enterprise
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13865
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13947 Uninitialized Use in XR
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13947
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14082 Race in Storage
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14082
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14124 Inappropriate implementation in CredentialProvider
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14124
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14069 Integer overflow in WebNN
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14069
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14015 Inappropriate implementation in WebRTC
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:53Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14015
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13945 Insufficient policy enforcement in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13945
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14122 Insufficient validation of untrusted input in WebAppInstalls
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14122
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14014 Inappropriate implementation in Paint
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14014
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14068 Inappropriate implementation in Omnibox
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:52Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14068
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13864 Insufficient policy enforcement in WebHID
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13864
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13942 Insufficient validation of untrusted input in Video Capture
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13942
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14071 Side-channel information leakage in WebAudio
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14071
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14121 Use after free in Chromoting
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14121
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14065 Insufficient validation of untrusted input in PageInfo
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14065
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14013 Inappropriate implementation in SVG
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:51Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14013
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13787 Use after free in Chromoting
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13787
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13861 Use after free in Core
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13861
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13941 Inappropriate implementation in SiteSettings
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13941
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14059 Insufficient policy enforcement in Related-Website-Sets
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14059
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14064 Use after free in PageInfo
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:50Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14064
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13786 Use after free in Ozone
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13786
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13860 Incorrect security UI in Autofill
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13860
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14012 Side-channel information leakage in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14012
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14120 Inappropriate implementation in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14120
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14049 Inappropriate implementation in GPU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:49Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14049
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13784 Use after free in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13784
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13859 Inappropriate implementation in ANGLE
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13859
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13940 Uninitialized Use in Cast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13940
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14039 Insufficient policy enforcement in GetUserMedia
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14039
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14119 Type Confusion in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14119
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14063 Out of bounds memory access in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14063
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14011 Out of bounds read in SurfaceCapture
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:48Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14011
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13858 Out of bounds read in FFmpeg
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13858
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13938 Integer overflow in Fonts
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13938
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14027 Use after free in SignIn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14027
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14062 Inappropriate implementation in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14062
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14118 Insufficient data validation in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14118
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14010 Uninitialized Use in Codecs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:47Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14010
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13783 Use after free in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13783
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13857 Inappropriate implementation in Geometry
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13857
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13937 Insufficient policy enforcement in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13937
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14117 Insufficient validation of untrusted input in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14117
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14061 Inappropriate implementation in Dawn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14061
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14009 Insufficient data validation in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:46Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14009
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13782 Use after free in Browser
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13782
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13935 Side-channel information leakage in ComputePressure
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13935
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14016 Insufficient policy enforcement in SVG
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14016
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14060 Insufficient validation of untrusted input in Chromoting
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:45Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14060
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13781 Insufficient validation of untrusted input in Skia
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13781
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13855 Use after free in Ozone
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13855
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13934 Insufficient validation of untrusted input in Dawn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13934
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14006 Use after free in Navigation
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14006
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14008 Uninitialized Use in WebXR
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14008
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13780 Insufficient validation of untrusted input in ANGLE
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13780
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13854 Use after free in Ozone
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13854
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13989 Insufficient policy enforcement in PageInfo
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13989
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14115 Insufficient validation of untrusted input in Cast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14115
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14007 Insufficient policy enforcement in PermissionsPolicy
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:43Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14007
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13933 Insufficient policy enforcement in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13933
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13779 Use after free in Chromoting
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13779
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13853 Use after free in Journeys
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13853
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14058 Policy bypass in Parser
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14058
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13849 Insufficient validation of untrusted input in Chromoting
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13849
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13931 Inappropriate implementation in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13931
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13973 Inappropriate implementation in UI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13973
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14004 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14004
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14113 Use after free in Updater
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14113
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14057 Insufficient policy enforcement in FedCM
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:41Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14057
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13776 Type Confusion in Dawn
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13776
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13848 Use after free in Forms
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13848
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13961 Insufficient validation of untrusted input in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13961
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14112 Inappropriate implementation in Enterprise
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14112
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14056 Insufficient validation of untrusted input in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14056
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14003 Insufficient policy enforcement in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:40Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14003
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13948 Insufficient policy enforcement in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13948
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14055 Insufficient validation of untrusted input in Device Trust
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14055
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14111 Use after free in WebProtect
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14111
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13775 Use after free in GPU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13775
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13928 Insufficient validation of untrusted input in Enterprise
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13928
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13930 Insufficient policy enforcement in Actor
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13930
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14110 Inappropriate implementation in DarkMode
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14110
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14002 Inappropriate implementation in Geolocation
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14002
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14054 Insufficient policy enforcement in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14054
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13844 Use after free in Updater
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13844
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13903 Insufficient policy enforcement in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13903
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13925 Inappropriate implementation in Downloads
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13925
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14001 Inappropriate implementation in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:37Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14001
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13841 Integer overflow in Skia
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13841
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13922 Side-channel information leakage in Paint
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13922
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14109 Insufficient policy enforcement in Mojo
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14109
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14000 Inappropriate implementation in XML
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14000
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14053 Insufficient policy enforcement in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14053
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13840 Insufficient policy enforcement in Canvas
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13840
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13883 Type Confusion in ANGLE
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13883
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13921 Insufficient validation of untrusted input in DeviceBoundSessionCredentials
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13921
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14052 Insufficient policy enforcement in FileSystem
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14052
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13999 Inappropriate implementation in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13999
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14108 Use after free in PDFium
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:35Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14108
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13867 Inappropriate implementation in Geolocation
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13867
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14051 Uninitialized Use in GamepadAPI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14051
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14107 Use after free in Scheduling
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:34Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14107
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13839 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13839
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13845 Use after free in DOM
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13845
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14050 Insufficient policy enforcement in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14050
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14106 Insufficient validation of untrusted input in Text
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14106
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13996 Incorrect security UI in Permissions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13996
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13920 Insufficient validation of untrusted input in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:33Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13920
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13838 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13838
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13919 Insufficient data validation in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13919
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13993 Incorrect security UI in WebAppInstalls
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13993
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13832 Use after free in Headless
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13832
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13837 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13837
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13911 Insufficient data validation in Spellcheck
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13911
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13990 Insufficient validation of untrusted input in DataTransfer
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:31Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13990
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13814 Use after free in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13814
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13836 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13836
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14104 Insufficient validation of untrusted input in WebAppInstalls
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14104
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14048 Use after free in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14048
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13909 Insufficient policy enforcement in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13909
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14103 Use after free in SSL
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14103
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14047 Insufficient policy enforcement in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14047
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13988 Inappropriate implementation in Paint
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13988
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13835 Inappropriate implementation in XML
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13835
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13906 Out of bounds read in Codecs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13906
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14156 Policy bypass in StorageAccessAPI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14156
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14102 Use after free in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14102
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14046 Inappropriate implementation in CustomTabs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14046
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13986 Inappropriate implementation in Media UI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:28Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13986
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13834 Insufficient validation of untrusted input in ANGLE
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13834
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14100 Insufficient data validation in NetworkCache
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14100
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14045 Insufficient validation of untrusted input in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:27Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14045
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14155 Insufficient policy enforcement in StorageAccessAPI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14155
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14098 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14098
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13985 Inappropriate implementation in MediaCapture
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13985
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13901 Insufficient validation of untrusted input in Serial
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13901
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14154 Inappropriate implementation in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14154
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14044 Use after free in ANGLE
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14044
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13984 Incorrect security UI in TabStrip
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:25Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13984
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13831 Use after free in GPU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:24Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13831
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13900 Insufficient validation of untrusted input in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:24Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13900
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14097 Inappropriate implementation in WebAppInstalls
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:24Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14097
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14043 Use after free in GetUserMedia
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:24Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14043
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13982 Incorrect security UI in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:24Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13982
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13830 Use after free in Chromoting
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13830
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13899 Use after free in HTML
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13899
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14095 Insufficient validation of untrusted input in Browser
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14095
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14042 Inappropriate implementation in Isolated Web Apps
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14042
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13979 Inappropriate implementation in Paint
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:23Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13979
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13829 Insufficient validation of untrusted input in Settings
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13829
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14152 Out of bounds write in ANGLE
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14152
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14094 Use after free in Installer
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14094
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14041 Insufficient policy enforcement in Serial
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14041
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13978 Insufficient policy enforcement in PageInfo
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13978
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13898 Use after free in Cast Receiver
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13898
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14151 Inappropriate implementation in AI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14151
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14093 Use after free in Cast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14093
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14040 Use after free in BrowserTag
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14040
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13977 Inappropriate implementation in HTMLParser
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:21Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13977
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13828 Inappropriate implementation in Enterprise
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13828
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13897 Insufficient policy enforcement in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13897
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14150 Insufficient validation of untrusted input in Speech
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:20Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14150
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13824 Insufficient validation of untrusted input in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13824
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13896 Insufficient policy enforcement in Glic
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13896
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14149 Use after free in Audio
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14149
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14091 Use after free in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14091
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13976 Heap buffer overflow in Storage
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13976
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13823 Use after free in Glic
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:18Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13823
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14038 Insufficient validation of untrusted input in New Tab Page
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:18Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14038
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13821 Use after free in Canvas
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13821
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13895 Inappropriate implementation in Autofill
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13895
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14148 Type Confusion in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14148
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14037 Insufficient policy enforcement in GPU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14037
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13972 Inappropriate implementation in Paint
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:17Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13972
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13820 Out of bounds read in Skia
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13820
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13894 Insufficient policy enforcement in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13894
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14147 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14147
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14089 Insufficient validation of untrusted input in PopupBlocker
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14089
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14036 Insufficient policy enforcement in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14036
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13971 Uninitialized Use in Skia
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13971
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14146 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:15Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14146
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14088 Uninitialized Use in Canvas
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:15Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14088
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14035 Insufficient policy enforcement in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:15Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14035
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13818 Inappropriate implementation in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13818
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13893 Insufficient validation of untrusted input in WebUI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13893
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14145 Inappropriate implementation in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14145
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14087 Insufficient validation of untrusted input in WebNN
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14087
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13970 Uninitialized Use in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13970
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14034 Inappropriate implementation in WebXR
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:14Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14034
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13817 Insufficient validation of untrusted input in Glic
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13817
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13891 Insufficient validation of untrusted input in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13891
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14144 Incorrect security UI in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14144
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13968 Insufficient validation of untrusted input in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:13Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13968
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13815 Use after free in Blink
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13815
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13890 Out of bounds read in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13890
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14086 Insufficient policy enforcement in HID
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14086
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14033 Insufficient policy enforcement in Media
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14033
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13967 Type Confusion in V8
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:12Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13967
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13888 Use after free in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13888
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14143 Incorrect security UI in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14143
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14032 Use after free in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14032
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14085 Side-channel information leakage in CSS
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14085
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13966 Inappropriate implementation in History
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13966
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13811 Use after free in IME
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:10Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13811
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13886 Policy bypass in Isolated Web Apps
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:10Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13886
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14084 Insufficient validation of untrusted input in Chromoting
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:10Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14084
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14031 Incorrect security UI in File Input
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:10Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14031
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13965 Use after free in Oilpan
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:10Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13965
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14141 Incorrect security UI in Document Picture-in-Picture
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14141
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14083 Insufficient validation of untrusted input in HTML
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14083
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14030 Incorrect security UI in SplitView
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:09Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14030
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13810 Inappropriate implementation in Input
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:08Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13810
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13884 Heap buffer overflow in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:08Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13884
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14140 Insufficient validation of untrusted input in Input
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:08Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14140
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13963 Inappropriate implementation in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:08Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13963
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13962 Insufficient data validation in PDF
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13962
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14139 Inappropriate implementation in TabStrip
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14139
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14081 Insufficient policy enforcement in DevTools
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14081
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13806 Insufficient validation of untrusted input in Accessibility
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:07Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13806
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13804 Use after free in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13804
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13882 Inappropriate implementation in USB
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13882
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13960 Inappropriate implementation in Passwords
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13960
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14026 Incorrect security UI in SplitView
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:06Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14026
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13803 Type Confusion in Chrome Tabs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13803
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13881 Insufficient data validation in WebAppInstalls
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13881
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13959 Insufficient validation of untrusted input in Blink
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13959
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14080 Insufficient validation of untrusted input in TabSwitcher
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14080
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14138 Inappropriate implementation in WebAppInstalls
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14138
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14025 Use after free in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:05Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14025
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13802 Use after free in Views
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13802
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13958 Uninitialized Use in Codecs
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13958
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14079 Policy bypass in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14079
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14024 Use after free in Ozone
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14024
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14135 Insufficient validation of untrusted input in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:04Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14135
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13801 Integer overflow in Chromecast
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13801
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13879 Use after free in Bluetooth
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13879
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13957 Incorrect security UI in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13957
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14078 Policy bypass in WebRTC
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14078
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14134 Inappropriate implementation in Autofill
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14134
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14023 Insufficient validation of untrusted input in SanitizerAPI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14023
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13877 Insufficient validation of untrusted input in ANGLE
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:02Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13877
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14133 Race in History Embeddings
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:02Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14133
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14077 Incorrect security UI in Select
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:02Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14077
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13876 Inappropriate implementation in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13876
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13956 Incorrect security UI in PageInfo
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13956
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13774 Use after free in Extensions
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13774
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14132 Inappropriate implementation in WebXR
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14132
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14076 Policy bypass in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14076
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14022 Insufficient validation of untrusted input in Network
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14022
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-13800 Inappropriate implementation in Updater
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13800
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14153 Inappropriate implementation in Glic
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14153
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## CVE-2026-55945 Microsoft Edge (Chromium-based) Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55945
-
-Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Edge (Chromium-based) allows an authorized attacker to disclose information locally.
-
-## CVE-2026-56645 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56645
-
-Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-57975 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57975
-
-Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-57983 Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57983
-
-Improper authorization in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security feature over a network.
-
-## CVE-2026-57984 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57984
-
-Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-57985 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57985
-
-Improper input validation in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-57987 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57987
-
-Server-side request forgery (ssrf) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-57988 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57988
-
-Relative path traversal in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-57992 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57992
-
-Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-57993 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57993
-
-Server-side request forgery (ssrf) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-56646 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56646
-
-Exposure of sensitive information to an unauthorized actor in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-58282 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58282
-
-Improper access control in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-58283 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58283
-
-Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-58287 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58287
-
-Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58299 Microsoft Edge for Android Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58299
-
-Time-of-check time-of-use (toctou) race condition in Microsoft Edge for Android allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58522 Microsoft Edge for Android Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58522
-
-Relative path traversal in Microsoft Edge for Android allows an unauthorized attacker to disclose information locally.
-
-## Chromium: CVE-2026-13875 Insufficient validation of untrusted input in GPU
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13875
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14074 Side-channel information leakage in WebAuthentication
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14074
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## CVE-2026-45488 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45488
-
-User interface (ui) misrepresentation of critical information in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-57974 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57974
-
-Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-57977 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57977
-
-Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-57981 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57981
-
-Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-57986 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57986
-
-Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58276 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58276
-
-Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## Chromium: CVE-2026-13954 Insufficient policy enforcement in XML
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13954
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## CVE-2026-58278 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58278
-
-Server-side request forgery (ssrf) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-58284 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58284
-
-Improper authorization in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58285 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58285
-
-Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58286 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58286
-
-Improper access control in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-58288 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58288
-
-Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58289 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58289
-
-Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58290 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58290
-
-Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58292 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58292
-
-Improper input validation in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58293 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58293
-
-External control of file name or path in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58294 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58294
-
-Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.
-
-## CVE-2026-58295 Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58295
-
-Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security feature over a network.
-
-## CVE-2026-58296 Microsoft Edge for Android Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58296
-
-Exposure of private personal information to an unauthorized actor in Microsoft Edge for Android allows an unauthorized attacker to disclose information over a network.
-
-## CVE-2026-58297 Microsoft Edge for Android Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58297
-
-Exposure of private personal information to an unauthorized actor in Microsoft Edge for Android allows an unauthorized attacker to disclose information over a network.
-
-## CVE-2026-58298 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58298
-
-Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-58300 Microsoft Edge for Android Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58300
-
-Absolute path traversal in Microsoft Edge for Android allows an unauthorized attacker to disclose information locally.
-
-## CVE-2026-58524 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58524
-
-Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## CVE-2026-58597 Microsoft Edge (Chromium-based) Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58597
-
-Insufficient ui warning of dangerous operations in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.
-
-## Chromium: CVE-2026-13799 Use after free in QUIC
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-13799
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## Chromium: CVE-2026-14021 Insufficient validation of untrusted input in StorageAccessAPI
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14021
-
-This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
-
-## CVE-2026-58291 Microsoft Edge (Chromium-based) Information Disclosure Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58291
-
-Operation on a resource after expiration or release in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network.
-
-## CVE-2026-58523 Microsoft Edge for Android Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-03T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58523
-
-Improper access control in Microsoft Edge for Android allows an unauthorized attacker to bypass a security feature over a network.
