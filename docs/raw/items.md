@@ -1,7 +1,831 @@
 # RegDashboard — Export
 
-Window: `2026-07-06T13:39:31Z` → `2026-07-20T13:39:31Z` (UTC)
-Last updated: `2026-07-20T08:39:31-05:00` (CT) — `2026-07-20T13:39:31Z` (UTC)
+Window: `2026-07-07T13:19:00Z` → `2026-07-21T13:19:00Z` (UTC)
+Last updated: `2026-07-21T08:19:00-05:00` (CT) — `2026-07-21T13:19:00Z` (UTC)
+
+## Bank of Maldives to transform core banking with Finastra
+- Source: Finastra
+- Category: Fintech Watch
+- Published: 2026-07-21T12:00:00Z
+- URL: https://www.finastra.com/press-media/bank-maldives-transform-core-banking-finastra
+
+## US seizes over 1,000 websites in FIFA World Cup piracy crackdown
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-21T11:07:07Z
+- URL: https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/
+
+The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]
+
+## Treasury Successfully Implements New Safeguard to Stop Payments to Deceased Individuals
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-07-21T10:30:15Z
+- URL: https://home.treasury.gov/news/press-releases/sb0569
+
+## Critical Palo Alto VPN bug now exploited by Qilin ransomware gang
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-21T10:12:24Z
+- URL: https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
+
+The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]
+
+## Microsoft shares manual fix for WSUS sync delays and timeouts
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-21T09:05:50Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/
+
+Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that causes Windows Update scans to fail or time out. [...]
+
+## CVE-2026-63831 mac802154: llsec: add skb_cow_data() before in-place crypto
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:44:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63831
+
+Information published.
+
+## CVE-2026-63796 ocfs2: reject oversized group bitmap descriptors
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:44:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63796
+
+Information published.
+
+## CVE-2026-63800 pNFS: Fix use-after-free in pnfs_update_layout()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:44:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63800
+
+Information published.
+
+## CVE-2026-63824 KEYS: fix overflow in keyctl_pkey_params_get_2()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:44:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63824
+
+Information published.
+
+## CVE-2026-3842 Qemu-kvm: hyperv/syndbg: missing mapped-length guard after cpu_physical_memory_map causes host oob write
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:42:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3842
+
+Information published.
+
+## CVE-2026-38755 A heap overflow in the evalcommand() function (shell/ash.c) of Busybox v1.38.0 allows attackers to cause a Denial of Service (DoS) via supplying a crafted input.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:42:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-38755
+
+Information published.
+
+## CVE-2026-38754 A heap overflow in the ifsbreakup() function (shell/ash.c) of Busybox v1.38.0 allows attackers to cause a Denial of Service (DoS) via supplying a crafted input.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:41:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-38754
+
+Information published.
+
+## CVE-2026-62299 CoreDNS: rewrite-plugin EDNS0 response-revert nil-pointer panic (remote DoS) when a downstream plugin returns a response with no OPT record
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:41:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62299
+
+Information published.
+
+## CVE-2026-60081 DBI::ProfileData versions before 1.651 for Perl do not limit the path index
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:41:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-60081
+
+Information published.
+
+## CVE-2026-15392 DBD::File versions before 1.651 for Perl do not ensure the table file is not a symlink to an untrusted location
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:41:24Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15392
+
+Information published.
+
+## CVE-2026-60082 DBI versions before 1.651 for Perl do not enforce statement handle consistency with the row
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:41:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-60082
+
+Information published.
+
+## CVE-2026-15043 DBI::SQL::Nano versions from 1.42 before 1.651 for Perl have inverted <= and >= SQL operators on text
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:41:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15043
+
+Information published.
+
+## CVE-2026-57433 Storable versions before 3.41 for Perl have a signed integer overflow when deserializing a crafted SX_HOOK record
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:41:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57433
+
+Information published.
+
+## CVE-2026-48863 Libsolv: stack-based buffer overflow in libsolv eddsa pgp signature verification allows denial of service
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:40:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48863
+
+Information published.
+
+## CVE-2026-63827 apparmor: fix use-after-free in rawdata dedup loop
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:39:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63827
+
+Information published.
+
+## CVE-2026-63828 apparmor: mediate the implicit connect of TCP fast open sendmsg
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:39:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63828
+
+Information published.
+
+## CVE-2026-63801 tipc: fix slab-use-after-free Read in tipc_aead_decrypt_done
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:39:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63801
+
+Information published.
+
+## Windows LegacyHive zero-day flaw gets free, unofficial patches
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-21T08:06:26Z
+- URL: https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/
+
+Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]
+
+## CVE-2026-42770 FFC-DH Peer Validation Uses Attacker-Supplied q
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:05:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42770
+
+Information published.
+
+## CVE-2026-42769 Trust-Anchor Substitution via cert/issuer Typo in CMP rootCaKeyUpdate
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:05:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42769
+
+Information published.
+
+## CVE-2026-45447 Heap Use-After-Free in the PKCS7_verify() Function
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:05:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45447
+
+Information published.
+
+## CVE-2026-38752 A stack overflow in the evaluate() function (editors/awk.c) of BusyBox commit 371fe9 allows attackers to cause a Denial of Service (DoS) via supplying a crafted AWK script.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:05:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-38752
+
+Information published.
+
+## CVE-2026-38753 A use-after-free in the awk_sub() function (editors/awk.c) of Busybox v1.38.0 allows attackers to cause a Denial of Service (DoS) via supplying a crafted AWK script.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:05:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-38753
+
+Information published.
+
+## CVE-2026-64082 riscv: Fix register corruption from uninitialized cregs on error
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:05:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64082
+
+Information published.
+
+## CVE-2026-64146 erofs: fix metabuf leak in inode xattr initialization
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:05:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64146
+
+Information published.
+
+## CVE-2026-63974 Bluetooth: hci_sync: Set HCI_CMD_DRAIN_WORKQUEUE during device close
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:05:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63974
+
+Information published.
+
+## CVE-2026-63978 net/handshake: Drain pending requests at net namespace exit
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63978
+
+Information published.
+
+## CVE-2026-63999 ethtool: rss: fix indir_table and hkey leak on get_rxfh failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63999
+
+Information published.
+
+## CVE-2026-64017 blk-mq: pop cached request if it is usable
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64017
+
+Information published.
+
+## CVE-2026-63979 net/handshake: hand off the pinned file reference to accept_doit
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63979
+
+Information published.
+
+## CVE-2026-64060 netfs: Fix leak of request in netfs_write_begin() error handling
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64060
+
+Information published.
+
+## CVE-2026-64076 netfilter: bridge: eb_tables: close module init race
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64076
+
+Information published.
+
+## CVE-2026-64112 rbd: eliminate a race in lock_dwork draining on unmap
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64112
+
+Information published.
+
+## CVE-2026-63882 drm/amdkfd: fix NULL pointer bug in svm_range_set_attr
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63882
+
+Information published.
+
+## CVE-2026-64154 drm/msm/adreno: Fix a reference leak in a6xx_gpu_init()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64154
+
+Information published.
+
+## CVE-2026-64111 lsm: hold cred_guard_mutex for lsm_set_self_attr()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:04:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64111
+
+Information published.
+
+## CVE-2026-63879 drm/amdgpu: fix amdgpu_hmm_range_get_pages
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63879
+
+Information published.
+
+## CVE-2026-63963 usb: typec: tcpm: validate VDO count in Discover Identity ACK handlers
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63963
+
+Information published.
+
+## CVE-2026-63961 usb: typec: altmodes/displayport: validate count before reading Status Update VDO
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63961
+
+Information published.
+
+## CVE-2026-63881 drm/amdkfd: fix a vulnerability of integer overflow in kfd debugger
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63881
+
+Information published.
+
+## CVE-2026-63960 usb: typec: wcove: don't write past struct pd_message in wcove_read_rx_buffer()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63960
+
+Information published.
+
+## CVE-2026-63964 usb: typec: ucsi: ccg: reject firmware images without a ':' record header
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63964
+
+Information published.
+
+## CVE-2026-63983 net/sched: fix packet loop on netem when duplicate is on
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63983
+
+Information published.
+
+## CVE-2026-64077 netfilter: ebtables: move to two-stage removal scheme
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64077
+
+Information published.
+
+## CVE-2026-63940 KVM: SEV: Ignore Port I/O requests of length '0'
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:03:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63940
+
+Information published.
+
+## CVE-2026-64078 netfilter: x_tables: add and use xtables_unregister_table_exit
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64078
+
+Information published.
+
+## CVE-2026-64097 drm/amd/display: Validate GPIO pin LUT table size before iterating
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64097
+
+Information published.
+
+## CVE-2026-63954 hpfs: fix a crash if hpfs_map_dnode_bitmap fails
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63954
+
+Information published.
+
+## CVE-2026-64117 wifi: mac80211: capture fast-RX rate before mesh reuses skb->cb
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64117
+
+Information published.
+
+## CVE-2026-63958 usb: typec: ucsi: validate connector number in ucsi_connector_change()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63958
+
+Information published.
+
+## CVE-2026-63962 usb: typec: tcpm: bound altmode_desc[] per iteration in svdm_consume_modes()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63962
+
+Information published.
+
+## CVE-2026-64015 security/keys: fix missed RCU read section on lookup
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64015
+
+Information published.
+
+## CVE-2026-64070 powerpc/hv-gpci: fix preempt count leak in sysfs show paths
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64070
+
+Information published.
+
+## CVE-2026-63959 usb: typec: tcpm/tcpci_maxim: validate header NDO against RX_BYTE_CNT
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63959
+
+Information published.
+
+## CVE-2026-64138 ksmbd: validate SID in parent security descriptor during ACL inheritance
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:02:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64138
+
+Information published.
+
+## CVE-2026-64160 netfs: Fix potential for tearing in ->remote_i_size and ->zero_point
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:01:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64160
+
+Information published.
+
+## CVE-2026-64001 ALSA: pcm: oss: Fix setup list UAF on proc write error
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:01:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64001
+
+Information published.
+
+## CVE-2026-64133 ALSA: asihpi: Fix potential OOB array access at reading cache
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:01:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64133
+
+Information published.
+
+## CVE-2026-64079 netfilter: x_tables: allocate hook ops while under mutex
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:01:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64079
+
+Information published.
+
+## CVE-2026-64036 cgroup/rstat: validate cpu before css_rstat_cpu() access
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:01:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64036
+
+Information published.
+
+## CVE-2026-64038 hwmon: (lm90) Stop work before releasing hwmon device
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-21T08:01:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64038
+
+Information published.
+
+## Fiserv to Power Embedded Banking and Payments for Datavault AI, Including Its NIL Exchange
+- Source: Fiserv
+- Category: Fintech Watch
+- Published: 2026-07-21T00:00:00Z
+- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-power-embedded-banking-and-payments-datavault-ai
+
+## A lifetime of Koofr 1TB storage is on sale for one $160 payment
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-21T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/a-lifetime-of-koofr-1tb-storage-is-on-sale-for-one-160-payment/
+
+## Electronic Delivery of Information Under the Federal Securities Laws
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-21T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/21/2026-14679/electronic-delivery-of-information-under-the-federal-securities-laws
+
+The Securities and Exchange Commission (the "SEC" or the "Commission") is proposing Regulation E-Delivery. The proposed rule sets forth conditions for covered entities to deliver covered information to covered recipients electronically without first obtaining their affirmative consent. The proposed rule further establishes conditions under which the Commission would consider d…
+
+## General Technical, Organizational, Conforming, and Correcting Amendments to the Federal Motor Carrier Safety Regulations
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-07-21T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/07/21/2026-14701/general-technical-organizational-conforming-and-correcting-amendments-to-the-federal-motor-carrier
+
+FMCSA amends its regulations by making technical corrections throughout the Federal Motor Carrier Safety Regulations (FMCSR). The Agency makes minor changes to correct inadvertent errors and omissions, remove or update obsolete references, and improve the clarity and consistency of certain regulatory provisions. FMCSA also makes a change to its rules of organization, procedure…
+
+## Presidential Message on Space Exploration Day
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T23:06:31Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-space-exploration-day-8e77/
+
+## Estée Lauder discloses data breach via Oracle E-Business flaw
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T22:39:30Z
+- URL: https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
+
+Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]
+
+## SonicWall SMA1000 flaws exploited as zero-days to push custom malware
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T22:23:23Z
+- URL: https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
+
+Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]
+
+## Hackers steal $23.7 million in crypto from Ostium in off-chain attack
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T22:22:56Z
+- URL: https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/
+
+The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]
+
+## Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T21:14:42Z
+- URL: https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/
+
+Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]
+
+## JadePuffer agentic attacks now target AI model data with ransomware
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T21:08:02Z
+- URL: https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/
+
+The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]
+
+## Imposing Additional Duties to Offset Canadian Discrimination Against the Commerce of the United States with Respect to Motor Vehicles
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T21:00:00Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/07/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/
+
+## Imposing Additional Duties to Offset Canadian Discrimination Against the Commerce of the United States with Respect to Alcoholic Beverages
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T21:00:00Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/07/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-alcoholic-beverages/
+
+## Imposing Additional Duties to Offset Canadian Discrimination Against the Commerce of the United States with Respect to Dairy
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T21:00:00Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/07/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-dairy/
+
+## Fact Sheet: President Donald J. Trump Imposes Additional Tariffs on Canada
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T21:00:00Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-imposes-additional-tariffs-on-canada/
+
+## Fact Sheet: President Donald J. Trump Takes Further Action To Adjust Imports Of Aluminum Into The United States
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T19:44:17Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-takes-further-action-to-adjust-imports-of-aluminum-into-the-united-states/
+
+## Further Strengthening Actions Taken to Adjust Imports of Aluminum into the United States
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T19:44:08Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/
+
+## Fact Sheet: President Donald J. Trump Secures America’s Defense Supply Chains and Ensures Domestic Acquisition of Critical Materials
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T19:38:30Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-secures-americas-defense-supply-chains-and-ensures-domestic-acquisition-of-critical-materials/
+
+## Securing America’s Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T19:38:18Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/
+
+## Nomination Sent to the Senate
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T19:37:49Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/07/nomination-sent-to-the-senate-4c22/
+
+## Captive Nations Week, 2026
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T19:33:45Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/07/captive-nations-week-2026/
+
+## Made in America Week, 2026
+- Source: White House
+- Category: Executive
+- Published: 2026-07-20T19:30:18Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/07/made-in-america-week-2026/
+
+## New HollowGraph malware uses Microsoft Graph for stealthy C2 comms
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T17:43:01Z
+- URL: https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/
+
+A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]
+
+## An AI SOC Evaluation Guide for Security Leaders
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-07-20T14:01:11Z
+- URL: https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/
+
+Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC solutions, including how to validate accuracy, operating models, long-term reliability, and production readiness. [...]
+
+## CVE-2026-47302 .NET Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47302
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50652 Azure Active Directory Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50652
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50653 Azure Active Directory Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50653
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-47304 .NET Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47304
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50304 Windows Active Directory Federation Services Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50304
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50368 Windows Active Directory Federation Services Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50368
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50324 Windows Active Directory Federation Services Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50324
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50355 Windows Active Directory Federation Services Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50355
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50411 Windows Active Directory Federation Services Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50411
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50525 .NET Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50525
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50527 .NET Framework Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50527
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50646 .NET Framework Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50646
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50647 Active Directory Federation Server Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50647
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50648 .NET Framework Denial of Service Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50648
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50649 .NET Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50649
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50650 .NET Framework Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50650
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2026-50659 .NET Spoofing Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50659
+
+Updated product information in the Software Update table. This is an informational change only.
+
+## CVE-2024-35248 Microsoft Dynamics 365 Business Central Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-07-20T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35248
+
+Updated the build numbers. This is an informational update only.
 
 ## Hugging Face warns an autonomous AI agent hacked its network
 - Source: BleepingComputer
@@ -67,14 +891,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-63827 apparmor: fix use-after-free in rawdata dedup loop
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-20T08:08:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63827
-
-Information published.
-
 ## CVE-2026-53398 NFSD: Fix SECINFO_NO_NAME decode error cleanup
 - Source: Microsoft MSRC
 - Category: IS
@@ -115,22 +931,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-63828 apparmor: mediate the implicit connect of TCP fast open sendmsg
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-20T08:07:39Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63828
-
-Information published.
-
-## CVE-2026-63801 tipc: fix slab-use-after-free Read in tipc_aead_decrypt_done
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-20T08:07:32Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63801
-
-Information published.
-
 ## CVE-2026-53390 ksmbd: fix out-of-bounds read in smb_check_perm_dacl()
 - Source: Microsoft MSRC
 - Category: IS
@@ -163,14 +963,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-63831 mac802154: llsec: add skb_cow_data() before in-place crypto
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-20T08:07:01Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63831
-
-Information published.
-
 ## CVE-2026-63804 gfs2: fix use-after-free in gfs2_qd_dealloc
 - Source: Microsoft MSRC
 - Category: IS
@@ -187,27 +979,11 @@ Information published.
 
 Information published.
 
-## CVE-2026-63796 ocfs2: reject oversized group bitmap descriptors
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-20T08:06:42Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63796
-
-Information published.
-
 ## CVE-2026-63797 rpmsg: char: Fix use-after-free on probe error path
 - Source: Microsoft MSRC
 - Category: IS
 - Published: 2026-07-20T08:06:36Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63797
-
-Information published.
-
-## CVE-2026-63800 pNFS: Fix use-after-free in pnfs_update_layout()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-20T08:06:30Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63800
 
 Information published.
 
@@ -224,14 +1000,6 @@ Information published.
 - Category: IS
 - Published: 2026-07-20T08:06:17Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63798
-
-Information published.
-
-## CVE-2026-63824 KEYS: fix overflow in keyctl_pkey_params_get_2()
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-20T08:06:11Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63824
 
 Information published.
 
@@ -603,6 +1371,20 @@ Information published.
 
 Information published.
 
+## Russia-related Designations Updates
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-07-20T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260720
+
+## Account Validation Coverage Expanded with the Phixius by Nacha and Kinexys by J.P. Morgan Collaboration
+- Source: NACHA
+- Category: Payments
+- Published: 2026-07-20T00:00:00Z
+- URL: https://www.nacha.org/news/account-validation-coverage-expanded-phixius-nacha-and-kinexys-jp-morgan-collaboration
+
+Validating payment information in the U.S. payments world is a search for that true source of data. A collaboration between Nacha and Kinexys by J.P. Morgan is providing a path for addressing the coverage gaps.
+
 ## AdGuard’s popular VPN is only $35 for a 5-year subscription
 - Source: BleepingComputer
 - Category: IS
@@ -620,48 +1402,14 @@ The FDIC invites comment on new forms and instructions associated with an Office
 ## Hackers abuse ViPNet software to target Russian govt agencies
 - Source: BleepingComputer
 - Category: IS
-- Published: 2026-07-19T14:23:46Z
+- Published: 2026-07-19T00:00:00Z
 - URL: https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/
-
-An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]
 
 ## Get pro-level edits with little effort—this Luminar Neo deal is $80
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-07-19T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/get-pro-level-edits-with-little-effort-this-luminar-neo-deal-is-80/
-
-## Update now: 7-Zip fixes RCE flaw exploitable with malicious archives
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-18T19:32:02Z
-- URL: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
-
-7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
-
-## WordPress Core "wp2shell" RCE flaws get public exploits, patch now
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-18T17:22:47Z
-- URL: https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/
-
-Public exploits have been released for the critical "wp2shell" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]
-
-## Microsoft warns of surge in ACR Stealer attacks on customers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-18T14:17:19Z
-- URL: https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/
-
-Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]
-
-## The Future of Age Verification: Your Face Never Leaves Your Device
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-18T13:15:24Z
-- URL: https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/
-
-As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]
 
 ## CVE-2026-50012 Squid: Memory corruption in cache_digest reply handling
 - Source: Microsoft MSRC
@@ -676,14 +1424,6 @@ Information published.
 - Category: IS
 - Published: 2026-07-18T08:01:34Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47729
-
-Information published.
-
-## CVE-2026-62299 CoreDNS: rewrite-plugin EDNS0 response-revert nil-pointer panic (remote DoS) when a downstream plugin returns a response with no OPT record
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-18T08:01:26Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62299
 
 Information published.
 
@@ -751,11 +1491,11 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information.
 
-## This $79.99 Mac app replaces a whole stack of PDF tools
+## Update now: 7-Zip fixes RCE flaw exploitable with malicious archives
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-07-18T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/this-7999-mac-app-replaces-a-whole-stack-of-pdf-tools/
+- URL: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
 
 ## Press Release: The Farmers State Bank of Oakley, Kansas Assumes All Deposits of Small Business Bank, Lenexa, Kansas
 - Source: FDIC
@@ -765,14 +1505,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 PRESS RELEASE | JULY 17, 2026 The Farmers State Bank of Oakley, Kansas Assumes All Deposits of Small Business Bank, Lenexa, Kansas WASHINGTON — Small Business Bank in Lenexa, Kansas, was closed today by the Kansas Office of the State Bank Commissioner, which appointed the Federal Deposit Insurance Corporation (FDIC) as receiver. The FDIC entered into an agreement with The Farm…
 
-## Abbott probes two cyber incidents amid extortion claims
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T20:45:52Z
-- URL: https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/
-
-Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]
-
 ## Texas Bankers Foundation reopens Flood Relief Fund following widespread Texas flooding
 - Source: TBA
 - Category: Compliance Watch
@@ -781,30 +1513,6 @@ Abbott Laboratories is investigating two separate cybersecurity incidents after 
 
 https://www.texasbankers.com/foundation-flood-relief-fund/ The post Texas Bankers Foundation reopens Flood Relief Fund following widespread Texas flooding appeared first on Texas Bankers Association .
 
-## HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T17:56:21Z
-- URL: https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/
-
-A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]
-
-## Ernst & Young discloses data breach after support system hack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T14:55:28Z
-- URL: https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/
-
-Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]
-
-## Inside the Search for "Clean" Residential Proxies for Carding
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T14:00:10Z
-- URL: https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/
-
-Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek "clean" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection. [...]
-
 ## CVE-2026-56159 DHCP Server Service Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -812,22 +1520,6 @@ Residential proxies are no longer the silver bullet they once were for carding. 
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56159
 
 Added acknowledgements. This is an informational change only.
-
-## New Windows LegacyHive zero-day gives hackers admin privileges
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T11:05:30Z
-- URL: https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/
-
-A security researcher using the "Nightmare Eclipse" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]
-
-## Windows Server 2022 reach end of mainstream support in 90 days
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T09:10:15Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/
-
-Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]
 
 ## CVE-2026-59886 pyasn1: Uncontrolled resource consumption when converting decoded REAL values
 - Source: Microsoft MSRC
@@ -850,46 +1542,6 @@ Information published.
 - Category: IS
 - Published: 2026-07-17T08:02:35Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59885
-
-Information published.
-
-## CVE-2026-60081 DBI::ProfileData versions before 1.651 for Perl do not limit the path index
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-17T08:02:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-60081
-
-Information published.
-
-## CVE-2026-15392 DBD::File versions before 1.651 for Perl do not ensure the table file is not a symlink to an untrusted location
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-17T08:02:22Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15392
-
-Information published.
-
-## CVE-2026-60082 DBI versions before 1.651 for Perl do not enforce statement handle consistency with the row
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-17T08:02:16Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-60082
-
-Information published.
-
-## CVE-2026-15043 DBI::SQL::Nano versions from 1.42 before 1.651 for Perl have inverted <= and >= SQL operators on text
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-17T08:02:10Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15043
-
-Information published.
-
-## CVE-2026-57433 Storable versions before 3.41 for Perl have a signed integer overflow when deserializing a crafted SX_HOOK record
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-17T08:02:03Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57433
 
 Information published.
 
@@ -941,14 +1593,6 @@ Information published.
 
 Information published.
 
-## CVE-2026-48863 Libsolv: stack-based buffer overflow in libsolv eddsa pgp signature verification allows denial of service
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-17T08:01:19Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48863
-
-Information published.
-
 ## Hong Kong-related Designations Updates and Removals
 - Source: OFAC
 - Category: OFAC
@@ -992,18 +1636,6 @@ Small Business Bank in Lenexa, Kansas, was closed today by the Kansas Office of 
 - Category: Legislative
 - Published: 2026-07-17T00:00:00Z
 - URL: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=411198
-
-## Learn networking, cybersecurity & cloud skills from home for just $50
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/learn-networking-cybersecurity-and-cloud-skills-from-home-for-just-50/
-
-## US charges two over laundering $43 million from investment fraud
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/
 
 ## Update to Notice of Financial Institutions for Which the Federal Deposit Insurance Corporation Has Been Appointed Either Receiver, Liquidator, or Manager
 - Source: Federal Register
@@ -1073,22 +1705,6 @@ The Visa Stablecoin Platform gives financial institutions, fintechs and other pa
 
 Integer overflow or wraparound in Windows Terminal allows an unauthorized attacker to execute code over a network.
 
-## CVE-2026-50652 Azure Active Directory Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50652
-
-Updated product information in the Software Update table. This is an informational change only.
-
-## CVE-2026-50653 Azure Active Directory Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50653
-
-Updated product information in the Software Update table. This is an informational change only.
-
 ## CVE-2026-58643 Windows Admin Center Spoofing Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -1104,54 +1720,6 @@ Improper neutralization of input during web page generation ('cross-site scripti
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58598
 
 Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Backup Engine allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-50304 Windows Active Directory Federation Services Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50304
-
-Updated product information in the Software Update table. This is an informational change only.
-
-## CVE-2026-50368 Windows Active Directory Federation Services Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50368
-
-Updated product information in the Software Update table. This is an informational change only.
-
-## CVE-2026-50324 Windows Active Directory Federation Services Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50324
-
-Updated product information in the Software Update table. This is an informational change only.
-
-## CVE-2026-50355 Windows Active Directory Federation Services Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50355
-
-Updated product information in the Software Update table. This is an informational change only.
-
-## CVE-2026-50411 Windows Active Directory Federation Services Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50411
-
-Updated product information in the Software Update table. This is an informational change only.
-
-## CVE-2026-50647 Active Directory Federation Server Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-16T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50647
-
-Updated product information in the Software Update table. This is an informational change only.
 
 ## CVE-2026-56171 Windows Remote Desktop Protocol (RDP) Information Disclosure Vulnerability
 - Source: Microsoft MSRC
@@ -1215,12 +1783,6 @@ WASHINGTON—The federal bank regulatory agencies today issued a joint statement
 - Published: 2026-07-16T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-sweeps-all-five-chartis-credit-lending-operations-segments
 
-## Presidential Message on the Birthday of Saint Frances Xavier Cabrini
-- Source: White House
-- Category: Executive
-- Published: 2026-07-15T20:50:29Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-birthday-of-saint-frances-xavier-cabrini/
-
 ## READOUT: Financial Stability Oversight Council Meeting on July 15, 2026
 - Source: Treasury
 - Category: OFAC
@@ -1234,12 +1796,6 @@ WASHINGTON—The federal bank regulatory agencies today issued a joint statement
 - URL: https://www.texasbankers.com/fed-chair-warsh-shares-annual-monetary-policy-report-with-congress/
 
 In the annual monetary policy report, Federal Reserve Chairman Kevin Warsh told the House Financial Services Committee and the Senate Banking Committee that the economy continues to expand at a solid pace, but he emphasized that the Fed remains firmly focused on controlling inflation. Warsh offered no indication of imminent rate relief and noted continued […] The post Fed Chai…
-
-## Measuring Balance of Payments Deficits
-- Source: White House
-- Category: Executive
-- Published: 2026-07-15T16:12:50Z
-- URL: https://www.whitehouse.gov/research/2026/07/measuring-balance-of-payments-deficits/
 
 ## Treasury Targets Global Network Procuring Weapons for Iranian Regime
 - Source: Treasury
@@ -2741,14 +3297,6 @@ Heap-based buffer overflow in Windows Bluetooth Port Driver allows an unauthoriz
 
 Incorrect implementation of authentication algorithm in ASP.NET Core allows an authorized attacker to elevate privileges over a network.
 
-## CVE-2026-47302 .NET Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47302
-
-Allocation of resources without limits or throttling in .NET allows an unauthorized attacker to deny service over a network.
-
 ## CVE-2026-47303 ASP.NET Core Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -3628,14 +4176,6 @@ Missing release of memory after effective lifetime in Windows Cryptographic Serv
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40378
 
 Memory allocation with excessive size value in Windows Local Security Authority Subsystem Service (LSASS) allows an unauthorized attacker to deny service over a network.
-
-## CVE-2026-47304 .NET Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47304
-
-Improper verification of cryptographic signature in .NET allows an unauthorized attacker to bypass a security feature over a network.
 
 ## CVE-2026-44800 Windows Push Notifications Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -5453,14 +5993,6 @@ Improper restriction of names for files and other resources in Github Copilot al
 
 Heap-based buffer overflow in Windows DHCP Server allows an unauthorized attacker to execute code over a network.
 
-## CVE-2026-50525 .NET Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50525
-
-Allocation of resources without limits or throttling in .NET allows an unauthorized attacker to deny service over a network.
-
 ## CVE-2026-50526 .NET Tampering Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -5469,14 +6001,6 @@ Allocation of resources without limits or throttling in .NET allows an unauthori
 
 Improper link resolution before file access ('link following') in .NET allows an authorized attacker to perform tampering locally.
 
-## CVE-2026-50527 .NET Framework Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50527
-
-Stack-based buffer overflow in .NET Framework allows an unauthorized attacker to deny service over a network.
-
 ## CVE-2026-50528 .NET Security Feature Bypass Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -5484,38 +6008,6 @@ Stack-based buffer overflow in .NET Framework allows an unauthorized attacker to
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50528
 
 Incorrect authorization in .NET allows an unauthorized attacker to bypass a security feature over a network.
-
-## CVE-2026-50646 .NET Framework Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50646
-
-Protection mechanism failure in .NET Framework allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-50648 .NET Framework Denial of Service Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50648
-
-Allocation of resources without limits or throttling in .NET Framework allows an unauthorized attacker to deny service over a network.
-
-## CVE-2026-50649 .NET Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50649
-
-Deserialization of untrusted data in .NET allows an unauthorized attacker to execute code locally.
-
-## CVE-2026-50650 .NET Framework Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50650
-
-Improper control of generation of code ('code injection') in .NET Framework allows an unauthorized attacker to elevate privileges locally.
 
 ## CVE-2026-50651 .NET Denial of Service Vulnerability
 - Source: Microsoft MSRC
@@ -5548,14 +6040,6 @@ Exposure of private personal information to an unauthorized actor in Microsoft D
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50658
 
 Time-of-check time-of-use (toctou) race condition in Microsoft Defender allows an authorized attacker to elevate privileges locally.
-
-## CVE-2026-50659 .NET Spoofing Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50659
-
-Improper encoding or escaping of output in .NET allows an authorized attacker to perform spoofing over a network.
 
 ## CVE-2026-50661 Windows BitLocker Security Feature Bypass Vulnerability
 - Source: Microsoft MSRC
@@ -7253,35 +7737,11 @@ When it comes to earning Nacha accreditations, Stephanie Prebish looks at it thi
 - Published: 2026-07-14T00:00:00Z
 - URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-risk-technology-takes-top-industry-honors-ai-embedded
 
-## Fact Sheet: President Donald J. Trump Grants Further Regulatory Relief from Burdensome EPA Restrictions to Promote American Security
-- Source: White House
-- Category: Executive
-- Published: 2026-07-13T22:23:56Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-grants-further-regulatory-relief-from-burdensome-epa-restrictions-to-promote-american-security/
-
 ## Regulatory Relief for Certain Stationary Sources to Promote American Chemical Manufacturing Security
 - Source: White House
 - Category: Executive
 - Published: 2026-07-13T22:23:12Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/07/regulatory-relief-for-certain-stationary-sources-to-promote-american-chemical-manufacturing-security-be40/
-
-## Modifying the Bears Ears National Monument
-- Source: White House
-- Category: Executive
-- Published: 2026-07-13T22:14:23Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/modifying-the-bears-ears-national-monument/
-
-## Modifying the Grand Staircase-Escalante National Monument
-- Source: White House
-- Category: Executive
-- Published: 2026-07-13T22:10:38Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/modifying-the-grand-staircase-escalante-national-monument/
-
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-07-13T20:39:42Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-3fd0/
 
 ## Fed agencies release guidance on lending to undocumented workers
 - Source: TBA
@@ -7290,12 +7750,6 @@ When it comes to earning Nacha accreditations, Stephanie Prebish looks at it thi
 - URL: https://www.texasbankers.com/fed-agencies-release-guidance-on-lending-to-undocumented-workers/
 
 Lending to individuals who are not legally authorized to work in the U.S. may pose elevated credit risk for financial institutions, according to joint guidance issued by the Federal Deposit Insurance Corporation, the Office of the Comptroller of the Currency, and the National Credit Union Administration. President Trump issued an executive order in May this […] The post Fed ag…
-
-## Death of Senator Lindsey Graham
-- Source: White House
-- Category: Executive
-- Published: 2026-07-13T16:06:47Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/death-of-senator-lindsey-graham/
 
 ## Press Release: Agencies Issue Guidance on Lending to Individuals Not Legally Authorized to Work in the United States
 - Source: FDIC
@@ -8747,12 +9201,6 @@ Information published.
 
 PRESS RELEASE | JULY 10, 2026 Kentland Bank Assumes All Deposits of Kentland Federal Savings and Loan Association WASHINGTON — Kentland Federal Savings and Loan Association of Kentland, Indiana was closed today by the Office of the Comptroller of the Currency, which appointed the Federal Deposit Insurance Corporation (FDIC) as receiver. The FDIC entered into an agreement with…
 
-## Treasury Targets Key Supreme Leader Financier and Iran’s Shadow Exchange Houses
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-07-10T18:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0558
-
 ## CVE-2026-59818 etcd: gRPC client listener does not enforce `--client-crl-file` certificate revocation
 - Source: Microsoft MSRC
 - Category: IS
@@ -8790,12 +9238,6 @@ Technology Manager allows registered users of Fannie Mae applications to view an
 - URL: https://www.federalregister.gov/documents/2026/07/10/2026-13939/rescission-of-floodplain-management-and-protection-of-wetlands-minimum-property-standards-for-flood
 
 This proposed rule would revise HUD's regulations governing floodplain management and the protection of wetlands in accordance with Executive Order 14148, entitled "Initial Rescissions of Harmful Executive Orders and Actions." Executive Order 14148 revoked an earlier executive order that formed a basis for the final rule that HUD published on April 23, 2024, entitled "Floodpla…
-
-## Adjusting Imports of Commercial Aircraft, Jet Engines, and Aircraft and Engine Parts into the United States
-- Source: White House
-- Category: Executive
-- Published: 2026-07-09T20:21:16Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/adjusting-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states/
 
 ## Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
 - Source: FRB
@@ -9444,47 +9886,3 @@ The Federal Reserve requests public comments on a proposal to amend its requirem
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45638
 
 Updated an acknowledgement. This is an informational change only.
-
-## CVE-2026-39827 Invoking memory leak when rejecting channels can lead to DoS in golang.org/x/crypto/ssh
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-07T08:40:36Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-39827
-
-Information published.
-
-## CVE-2026-25681 Invoking incorrect handling of character references in DOCTYPE nodes in golang.org/x/net/html
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-07T08:40:29Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-25681
-
-Information published.
-
-## CVE-2026-14647 onnx onnxruntime old.cc convPoolShapeInference_opset19 out-of-bounds
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-07T08:01:44Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-14647
-
-Information published.
-
-## Issuance of Amended Iran-related General License
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-07-07T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260707
-
-## IRS, Security Summit launch summer series to help tax pros protect clients from identity theft
-- Source: IRS
-- Category: IRS
-- Published: 2026-07-07T00:00:00Z
-- URL: https://www.irs.gov/newsroom/irs-security-summit-launch-summer-series-to-help-tax-pros-protect-clients-from-identity-theft
-
-IR-2026-81, July 7, 2026 — The IRS and Security Summit partners today launched the summer “Protect Your Clients; Protect Yourself” campaign, a five-week series highlighting practical steps tax professionals can take to protect client data, their businesses, and themselves from evolving tax-related identity theft threats.
-
-## Frankfurt International Bank Selects FIS to Bypass Legacy Infrastructure and Power Cloud-Native Treasury from Day One
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-07-07T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/frankfurt-international-bank-selects-fis-bypass-legacy
