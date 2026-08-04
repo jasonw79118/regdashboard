@@ -1,0 +1,21 @@
+OCC ARTICLE PATCH - August 4, 2026
+
+Copy the contents of this ZIP directly into:
+C:\Users\jason\regdashboard
+
+Choose "Replace the files in the destination" when prompted.
+Only scripts\build.py is replaced.
+
+This patch:
+- keeps every existing source URL and fallback;
+- adds an OCC-specific table extractor;
+- reads dates from each OCC table row;
+- recognizes OCC and interagency release URL variants;
+- uses the existing Jina proxy only when the normal OCC page yields no release links.
+
+After copying, run:
+python -u scripts/build.py
+
+The OCC section should show release links captured from the 2026 year page and should no longer report zero qualifying OCC items when releases fall inside the rolling window.
+
+Do not copy any Git-history backup ZIP into the repository.

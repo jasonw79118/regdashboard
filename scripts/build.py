@@ -278,6 +278,16 @@ SOURCE_RULES: Dict[str, Dict[str, Any]] = {
         "allow_path_prefixes": {"/accounts/USDARD/bulletins", "/bulletins/", "/newsroom/"},
     },
 
+    # OCC's current yearly release pages use table rows rather than article cards.
+    # Keep both the current detail URL family and the newer newsroom listing pages.
+    "OCC": {
+        "allow_domains": {"www.occ.gov", "occ.gov"},
+        "allow_path_prefixes": {
+            "/news-issuances/news-releases/",
+            "/news-events/newsroom/news-issuances-by-year/news-releases/",
+        },
+    },
+
     "OFAC": {
         "allow_domains": {"ofac.treasury.gov"},
         "allow_path_prefixes": {"/recent-actions/"},
@@ -1724,6 +1734,105 @@ def fhlbmpf_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[dat
 
 
 # ============================
+# OCC
+# ============================
+
+OCC_RELEASE_PATH_RE = re.compile(
+    r"^/news-issuances/news-releases/\d{4}/nr-[a-z0-9]+-\d{4}-\d+\.html$",
+    re.I,
+)
+OCC_MARKDOWN_LINK_RE = re.compile(
+    r"\[([^\]]{8,260})\]\((https?://(?:www\.)?occ\.gov/news-issuances/news-releases/\d{4}/nr-[a-z0-9]+-\d{4}-\d+\.html)\)",
+    re.I,
+)
+
+
+def occ_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    """Extract OCC releases from the current yearly table.
+
+    OCC's year pages place release links inside table cells, so the generic
+    heading/article/list-item heuristic misses them. Dates are read from the
+    same table row. Markdown/plain-URL fallbacks support proxy-rendered pages.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    container = pick_container(soup) or soup
+    links: List[Tuple[str, str, Optional[datetime]]] = []
+    seen: set[str] = set()
+
+    for a in container.select('a[href*="/news-issuances/news-releases/"]'):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#"):
+            continue
+
+        url = canonical_url(urljoin(page_url, href))
+        if not OCC_RELEASE_PATH_RE.match(path(url)):
+            continue
+        if not allowed_for_source("OCC", url):
+            continue
+
+        title = clean_text(
+            (a.get_text(" ", strip=True) or "").strip()
+            or (a.get("aria-label") or "").strip()
+            or (a.get("title") or "").strip(),
+            260,
+        )
+        if not title or is_probably_nav_link("OCC", title, url):
+            continue
+        if url in seen:
+            continue
+
+        row = a.find_parent("tr")
+        dt = None
+        if row is not None:
+            dt = extract_any_date(clean_text(row.get_text(" ", strip=True), 1200), source="OCC")
+        if dt is None:
+            dt = find_time_near_anchor(a, "OCC")
+
+        seen.add(url)
+        links.append((title, url, dt))
+        if len(links) >= MAX_LISTING_LINKS:
+            return links
+
+    # Jina and other text proxies may return Markdown instead of HTML.
+    if not links:
+        for m in OCC_MARKDOWN_LINK_RE.finditer(html or ""):
+            title = clean_text(m.group(1), 260)
+            url = canonical_url(m.group(2))
+            if not title or not allowed_for_source("OCC", url) or url in seen:
+                continue
+
+            # The rendered line usually begins with the date and release ID.
+            line_start = max(0, (html or "").rfind("\n", 0, m.start()) + 1)
+            line_end = (html or "").find("\n", m.end())
+            if line_end < 0:
+                line_end = min(len(html or ""), m.end() + 300)
+            dt = extract_any_date((html or "")[line_start:line_end], source="OCC")
+
+            seen.add(url)
+            links.append((title, url, dt))
+            if len(links) >= MAX_LISTING_LINKS:
+                return links
+
+    # Last fallback: retain detail URLs even when proxy text omits link labels.
+    if not links:
+        url_re = re.compile(
+            r"https?://(?:www\.)?occ\.gov/news-issuances/news-releases/\d{4}/nr-[a-z0-9]+-\d{4}-\d+\.html",
+            re.I,
+        )
+        for m in url_re.finditer(html or ""):
+            url = canonical_url(m.group(0))
+            if url in seen or not allowed_for_source("OCC", url):
+                continue
+            slug = path(url).rsplit("/", 1)[-1].rsplit(".", 1)[0]
+            seen.add(url)
+            links.append((f"OCC news release {slug}", url, None))
+            if len(links) >= MAX_LISTING_LINKS:
+                break
+
+    return links
+
+
+# ============================
 # OFAC
 # ============================
 
@@ -2979,6 +3088,15 @@ def nacha_links(page_url: str, html: str) -> List[Tuple[str, str, Optional[datet
     return out
 
 def main_content_links(source: str, page_url: str, html: str) -> List[Tuple[str, str, Optional[datetime]]]:
+    if source == "OCC":
+        links = occ_links(page_url, html)
+        if len(links) < 1:
+            proxy_html = polite_get(_jina_proxy_url(page_url))
+            if proxy_html:
+                proxy_links = occ_links(page_url, proxy_html)
+                if len(proxy_links) > len(links):
+                    links = proxy_links
+        return links
     if source == "OFAC":
         return ofac_links(page_url, html)
     if source == "Treasury":
