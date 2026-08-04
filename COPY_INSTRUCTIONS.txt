@@ -1,0 +1,11 @@
+REGDASHBOARD FULL COPY-AND-REPLACE PACKAGE
+Created: 2026-08-04
+
+1. Open this ZIP.
+2. Copy the project folders and files directly into:
+   C:\Users\jason\regdashboard
+3. Choose Replace the files in the destination when prompted.
+4. DO NOT extract or copy _GIT_HISTORY_BACKUP_DO_NOT_COPY.zip into the active .git folder.
+   It is included only so this package contains the complete uploaded repository history.
+
+All existing source URLs were preserved. New alternate source URLs were added alongside them.

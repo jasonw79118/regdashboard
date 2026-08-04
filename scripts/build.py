@@ -3099,6 +3099,11 @@ KNOWN_FEEDS: Dict[str, List[str]] = {
     "Microsoft MSRC": ["https://api.msrc.microsoft.com/update-guide/rss"],
     "Fiserv": ["https://investors.fiserv.com/newsroom/rss"],  # ✅ unchanged
 
+    # Official backup feeds. These are additive and do not replace the
+    # existing listing pages below.
+    "USDA Rural Development": ["https://www.rd.usda.gov/rss.xml"],
+    "ABA": ["https://www.aba.com/rss/press"],
+
     # ✅ NEW: TCS press releases RSS (commonly referenced as Feedburner)
     "TCS": ["http://feeds2.feedburner.com/tcspress"],
 }
@@ -3128,9 +3133,13 @@ def get_start_pages() -> List[SourcePage]:
 
         # USDA RD
         SourcePage("USDA Rural Development", "https://www.rd.usda.gov/newsroom/news-releases"),
+        SourcePage("USDA Rural Development", "https://www.rd.usda.gov/newsroom"),
 
         # Banking regulators
         SourcePage("OCC", "https://www.occ.gov/news-issuances/news-releases/index-news-releases.html"),
+        SourcePage("OCC", "https://www.occ.gov/news-events/newsroom/news-issuances-by-year/news-releases/index-news-releases.html"),
+        SourcePage("OCC", f"https://www.occ.gov/news-events/newsroom/news-issuances-by-year/news-releases/{y}-news-releases.html"),
+        SourcePage("OCC", "https://www.occ.gov/news-events/newsroom/index.html"),
         SourcePage("FDIC", "https://www.fdic.gov/news/press-releases/"),
         SourcePage("FRB", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
         SourcePage("FRB Payments", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
@@ -3146,6 +3155,7 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("House Financial Services", "https://financialservices.house.gov/news/"),
         SourcePage("White House", "https://www.whitehouse.gov/news/"),
         SourcePage("White House", "https://www.whitehouse.gov/presidential-actions/"),
+        SourcePage("White House", "https://www.whitehouse.gov/briefings-statements/"),
 
         # Payments
         SourcePage("NACHA", "https://www.nacha.org/news"),
@@ -3154,13 +3164,16 @@ def get_start_pages() -> List[SourcePage]:
         SourcePage("FIS", "https://www.investor.fisglobal.com/press-releases/"),
         SourcePage("Fiserv", "https://investors.fiserv.com/newsroom/news-releases"),
         SourcePage("Jack Henry", "https://ir.jackhenry.com/press-releases"),
+        SourcePage("Jack Henry", "https://jkhy.client.shareholder.com/press-releases?mobile=1&view=all"),
         SourcePage("Finastra", "https://www.finastra.com/news-events/media-room"),
+        SourcePage("TCS", "https://www.tcs.com/who-we-are/newsroom/press-release"),
       
         # Payment Networks
         SourcePage("Visa", "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html"),
 
         # Mastercard
         SourcePage("Mastercard", "https://www.mastercard.com/us/en/news-and-trends/press.html"),
+        SourcePage("Mastercard", "https://www.mastercard.com/global/en/news-and-trends/press.html"),
     ]
 
     for u in mc_year_pages:
@@ -3177,11 +3190,14 @@ def get_start_pages() -> List[SourcePage]:
 
             # FASB
             SourcePage("FASB", "https://www.fasb.org/news-and-meetings/in-the-news"),
+            SourcePage("FASB", "https://www.fasb.org/news-and-meetings"),
 
             # Compliance Watch sources
             SourcePage("ABA", "https://www.aba.com/news-research/all-news#sort=%40fcontentdate%20descending"),
+            SourcePage("ABA", "https://www.aba.com/about-us/press-room"),
             SourcePage("TBA", "https://www.texasbankers.com/news/"),
             SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news?f:contenttype=News%20Page%7CPress%20Release%20Page"),
+            SourcePage("Wolters Kluwer", "https://www.wolterskluwer.com/en/news"),
             SourcePage("Bankers Online", "https://www.bankersonline.com/topstory"),
         ]
     )

@@ -1,0 +1,39 @@
+RegDashboard additive source alternatives
+Version: 2026-08-04-alt-sources
+
+Changed file:
+- scripts/build.py
+
+Safety approach:
+- No existing source URL was removed, replaced, disabled, reordered, or edited.
+- No source cap, category mapping, parser, rolling-window setting, output path, or deduplication rule was changed.
+- Every original line in scripts/build.py was verified to remain unchanged and in its original order.
+- The update adds 16 lines only.
+
+Added official backup feeds:
+- USDA Rural Development: https://www.rd.usda.gov/rss.xml
+- American Bankers Association: https://www.aba.com/rss/press
+
+Added alternative listing pages while retaining all existing pages:
+- USDA Rural Development newsroom
+- OCC current newsroom archive, current-year releases, and newsroom landing page
+- White House Briefings & Statements
+- Jack Henry shareholder.com press-release mirror
+- TCS official press-release listing
+- Mastercard global press-release listing
+- FASB News & Meetings landing page
+- ABA Press Room
+- Wolters Kluwer unfiltered newsroom
+
+Validation completed:
+- Python syntax compilation passed.
+- Additive-preservation test passed: all 3,650 original lines remain unchanged and in order.
+- Updated script contains 3,666 lines, a net addition of 16 lines.
+
+Recommended command after replacing/extracting the project:
+python -u scripts/build.py
+
+Expected behavior:
+- The crawler will still attempt every old source exactly as before.
+- The new feeds and pages are additional opportunities to recover items when an older page is blocked, moved, empty, or incomplete.
+- Existing canonical-URL deduplication should remove duplicate articles found through multiple pages.
