@@ -1,7 +1,29 @@
 # RegDashboard — Export
 
-Window: `2026-07-21T14:33:30Z` → `2026-08-04T14:33:30Z` (UTC)
-Last updated: `2026-08-04T09:33:30-05:00` (CT) — `2026-08-04T14:33:30Z` (UTC)
+Window: `2026-07-21T18:01:29Z` → `2026-08-04T18:01:29Z` (UTC)
+Last updated: `2026-08-04T13:01:29-05:00` (CT) — `2026-08-04T18:01:29Z` (UTC)
+
+## Press Release: FDIC Launches New Office of Supervisory Appeals
+- Source: FDIC
+- Category: Banking
+- Published: 2026-08-04T16:52:41Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/423929b
+
+PRESS RELEASE | AUGUST 4, 2026 FDIC Launches New Office of Supervisory Appeals WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today announced the launch of a new Office of Supervisory Appeals (OSA) panel comprised of independent officials who will consider and resolve appeals of material supervisory determinations brought before the agency. The OSA is a standalo…
+
+## Massive ChainDrop npm supply-chain attack infects hundreds of packages
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-04T15:24:35Z
+- URL: https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/
+
+Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]
+
+## U.S.-UK Financial Regulatory Working Group Summer 2026: Joint Statement
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-08-04T15:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0586
 
 ## Press Release: FDIC Approves the Deposit Insurance Application for Augustus National Bank, N.A., Dallas, Texas
 - Source: FDIC
@@ -41,6 +63,14 @@ Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to t
 
 IR-2026-85, Aug. 4, 2026 — The Internal Revenue Service and Security Summit partners today warned tax professionals to watch for phishing emails and other schemes designed to steal sensitive taxpayer data.
 
+## FDIC Launches New Office of Supervisory Appeals
+- Source: FDIC
+- Category: Banking
+- Published: 2026-08-04T00:00:00Z
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-launches-new-office-supervisory-appeals
+
+The FDIC today announced the launch of a new Office of Supervisory Appeals (OSA) panel comprised of independent officials who will consider and resolve appeals
+
 ## FDIC Approves the Deposit Insurance Application for Augustus National Bank, N.A., Dallas, Texas
 - Source: FDIC
 - Category: Banking
@@ -55,17 +85,17 @@ The FDIC today approved a deposit insurance application for Augustus National Ba
 - Published: 2026-08-04T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-pressley-members-of-congress-probe-insurance-companies-on-usage-of-credit-based-insurance-scores-as-costs-rise
 
+## Following Investor Losses, Warren and Blumenthal Urge SEC to Investigate President Trump’s Memecoin
+- Source: Senate Banking
+- Category: Legislative
+- Published: 2026-08-04T00:00:00Z
+- URL: https://www.banking.senate.gov/newsroom/minority/following-investor-losses-warren-and-blumenthal-urge-sec-to-investigate-president-trumps-memecoin
+
 ## Warren Statement on Trump Media API Launch
 - Source: Senate Banking
 - Category: Legislative
 - Published: 2026-08-04T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-statement-on-trump-media-api-launch
-
-## Banking Democrats Statement on Trump Administration Move to Gut Community Reinvestment Act
-- Source: Senate Banking
-- Category: Legislative
-- Published: 2026-08-04T00:00:00Z
-- URL: https://www.banking.senate.gov/newsroom/minority/banking-democrats-statement-on-trump-administration-move-to-gut-community-reinvestment-act
 
 ## FIS Reports Second Quarter 2026 Results
 - Source: FIS
@@ -84,6 +114,12 @@ The FDIC today approved a deposit insurance application for Augustus National Ba
 - Category: Fintech Watch
 - Published: 2026-08-04T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-and-mastercard-deepen-global-partnership-help-merchants
+
+## This $70 lifetime Headway offer makes learning fit your schedule
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-04T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/this-70-lifetime-headway-offer-makes-learning-fit-your-schedule/
 
 ## Edit, sign, convert, and organize PDFs with one Mac app for just $80
 - Source: BleepingComputer
@@ -149,6 +185,12 @@ Fake Xeno Executor installers are infecting unsuspecting Roblox players with mal
 - Published: 2026-08-03T19:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0584
 
+## Fact Sheet: President Donald J. Trump Establishes the President’s Military Spouse Commission
+- Source: White House
+- Category: Executive
+- Published: 2026-08-03T18:55:57Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-establishes-the-presidents-military-spouse-commission/
+
 ## N-able warns of N-central auth bypass flaw exploited in attacks
 - Source: BleepingComputer
 - Category: IS
@@ -156,6 +198,14 @@ Fake Xeno Executor installers are infecting unsuspecting Roblox players with mal
 - URL: https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/
 
 N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]
+
+## Paoletta is new CFPB acting director
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-08-03T17:00:00Z
+- URL: https://www.texasbankers.com/paoletta-is-new-cfpb-acting-director/
+
+Mark Paoletta became the acting director of the Consumer Financial Protection Bureau after acting director Russell Vought’s term expired over the weekend, according to American Banker. Paoletta is general counsel at OMB and served as second-in-command at the bureau under Vought. Vought, the director of the Office of Management and Budget, has served as acting […] The post Paol…
 
 ## ExfilSquad hackers leak info of over 100,000 UK police officers, staff
 - Source: BleepingComputer
@@ -231,12 +281,6 @@ It takes a Corporate to know a Corporate’s payments pain points. At Leggett & 
 - Published: 2026-08-03T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/one-place-for-chatgpt-claude-and-more-just-5925-for-lifetime-access/
 
-## Metro 2® Webinars
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-08-03T00:00:00Z
-- URL: https://www.cdiaonline.org/metro-2-webinars/
-
 ## Reduction in Force
 - Source: Federal Register
 - Category: Federal Register
@@ -307,14 +351,6 @@ Pharmaceutical company Amgen says it suffered a data breach after threat actors 
 
 The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]
 
-## Online ad firm Adform’s script compromised to steal cryptocurrency
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-31T21:09:25Z
-- URL: https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/
-
-Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]
-
 ## To Facilitate Positive Adjustment to Competition from Imports of Quartz Surface Products
 - Source: White House
 - Category: Executive
@@ -328,6 +364,14 @@ Online advertising firm Adform suffered a supply-chain attack that delivered cry
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/42305d8
 
 PRESS RELEASE | JULY 31, 2026 Joint Statement of Enforcement Policy in support of Venezuela’s Economic Recovery and Earthquake Relief Efforts WASHINGTON — The staffs of the Board of Governors of the Federal Reserve System (Federal Reserve), the Federal Deposit Insurance Corporation (FDIC), the National Credit Union Administration (NCUA), and the Office of the Comptroller of th…
+
+## Texas Stock Exchange celebrates official launch of trading
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-07-31T17:00:00Z
+- URL: https://www.texasbankers.com/texas-stock-exchange-celebrates-official-launch-of-trading/
+
+The Texas Stock Exchange (TXSE) celebrated the successful launch of production trading with a bell ceremony at its Dallas headquarters, marking the completion of the phased rollout of all National Market System symbols on its platform. Over 18 months, TXSE built a custom order-matching engine and delivered a fully integrated exchange. With more than 50 […] The post Texas Stock…
 
 ## FDIC Board of Directors Approve New Actions
 - Source: FDIC
@@ -366,6 +410,22 @@ Federal Reserve Board requests comment on a proposal to modernize rules for mutu
 - Category: OFAC
 - Published: 2026-07-31T13:08:35Z
 - URL: https://home.treasury.gov/news/press-releases/sb0583
+
+## ABA Statement on Federal Reserve Modernization of Mutual Banking Regulations
+- Source: ABA
+- Category: Compliance Watch
+- Published: 2026-07-31T04:00:00Z
+- URL: https://www.aba.com/about-us/press-room/press-releases/aba-statement-on-federal-reserve-modernization-of-mutual-banking-regulations
+
+ABA Statement on Federal Reserve Modernization of Mutual Banking Regulations
+
+## ABA Statement on Joint OCC/FDIC Community Reinvestment Act Rule Proposal
+- Source: ABA
+- Category: Compliance Watch
+- Published: 2026-07-31T04:00:00Z
+- URL: https://www.aba.com/about-us/press-room/press-releases/aba-statement-on-joint-occ-fdic-community-reinvestment-act-rule-proposal
+
+ABA Statement on Joint OCC/FDIC Community Reinvestment Act Rule Proposal
 
 ## Joint Statement of Enforcement Policy in support of Venezuela’s Economic Recovery and Earthquake Relief Efforts
 - Source: FDIC
@@ -415,17 +475,11 @@ Learn more about Fannie Mae’s Multifamily library of applications; DUS Disclos
 
 Many financial institutions and ACH Originators have told Nacha that first-party fraud is of increasing concern. Nacha workgroups have been deliberating on a defined role for RDFIs in identifying instances of first-party fraud, just as previous deliberations identified a role for RDFIs in transaction monitoring for credit-push fraud that was ultimately approved as a Nacha Rule.
 
-## OpenAI says its new GPT 5.6 models are becoming more cost-efficient
+## Online ad firm Adform’s script compromised to steal cryptocurrency
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-07-31T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/
-
-## Hacker uses DeepSeek AI to autonomously attack vulnerable servers
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-31T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/
+- URL: https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/
 
 ## Agency Information Collection Activities: Proposed Collection Renewal; Comment Request
 - Source: Federal Register
@@ -442,6 +496,12 @@ The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, 
 - URL: https://www.federalregister.gov/documents/2026/07/31/2026-15567/reducing-bureaucracy-and-burden-for-family-assistance-programs
 
 This final rule amends the Grants to States for Public Assistance Programs regulations, the General Administration--State Plans and Grant Appeals regulations, the General Administration--Public Assistance Programs regulations, the Training and Use of Subprofessionals and Volunteers regulations, the Coverage and Conditions of Eligibility in Financial Assistance Programs regulat…
+
+## Fact Sheet: President Donald J. Trump Delegates Defense Production Act Authority with Respect to Recoverable Critical Minerals and Materials That Are Essential to Our National Defense
+- Source: White House
+- Category: Executive
+- Published: 2026-07-30T20:34:56Z
+- URL: https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-delegates-defense-production-act-authority-with-respect-to-recoverable-critical-minerals-and-materials-that-are-essential-to-our-national-defense/
 
 ## Presidential Permit: Authorizing Cameron County, Texas, To Own, Operate, and Maintain the Brownsville and Matamoros Bridge in Brownsville, Texas
 - Source: White House
@@ -517,6 +577,20 @@ Improper access control in Azure Cosmos DB allows an unauthorized attacker to ex
 
 Informational Change. CVE ID stays the same.
 
+## First Lady Melania Trump Facilitates Her Fifth Ukraine–Russia Family Reunification
+- Source: White House
+- Category: Executive
+- Published: 2026-07-30T11:04:08Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/07/first-lady-melania-trump-facilitates-her-fifth-ukrainerussia-family-reunification/
+
+## ABA, Ohio Bankers League Release New Ad Encouraging Senator Jon Husted to Keep Fighting for Ohio Families
+- Source: ABA
+- Category: Compliance Watch
+- Published: 2026-07-30T04:00:00Z
+- URL: https://www.aba.com/about-us/press-room/press-releases/senator-jon-husted-voter-education-ad
+
+ABA, Ohio Bankers League Release New Ad Encouraging Senator Jon Husted to Keep Fighting for Ohio Families
+
 ## Counter Terrorism Designations; Non-Proliferation Designation Update
 - Source: OFAC
 - Category: OFAC
@@ -573,6 +647,12 @@ RESTON, Virginia, July 30, 2026 – A nearly 30% jump in the number of Same Day 
 
 The Federal Open Market Committee voted to hold the federal funds rate steady despite pressures. The committee’s majority voted to keep the rate at 3.5%-3.75%, but three members opposed the action, preferring to raise the rate. Voting against the monetary policy action were Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to […] The post Fed votes to hold rate…
 
+## Presidential Message on the Birthday of Alexis de Tocqueville
+- Source: White House
+- Category: Executive
+- Published: 2026-07-29T19:44:12Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-birthday-of-alexis-de-tocqueville/
+
 ## Federal Reserve issues FOMC statement
 - Source: FRB
 - Category: Banking
@@ -592,6 +672,14 @@ Federal Reserve issues FOMC statement
 - Category: OFAC
 - Published: 2026-07-29T12:27:40Z
 - URL: https://home.treasury.gov/news/press-releases/sb0580
+
+## ABA Testifies Before Senate Aging Committee on Protecting Seniors from AI-Generated Fraud
+- Source: ABA
+- Category: Compliance Watch
+- Published: 2026-07-29T04:00:00Z
+- URL: https://www.aba.com/about-us/press-room/press-releases/aba-testifies-before-senate-aging-committee-on-protecting-seniors-from-ai-generated-fraud
+
+ABA Testifies Before Senate Aging Committee on Protecting Seniors from AI-Generated Fraud
 
 ## Iran-related Designations
 - Source: OFAC
@@ -706,6 +794,12 @@ Corrected Build Number in the Security Updates table. This is an informational c
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59117
 
 Change the name of the affected software from **Microsoft Power Apps** to **Microsoft Power Apps Desktop Client**. This is an informational change only.
+
+## Presidential Message on the 45th Anniversary of the Martyrdom of Father Stanley Rother
+- Source: White House
+- Category: Executive
+- Published: 2026-07-28T04:30:00Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-45th-anniversary-of-the-martyrdom-of-father-stanley-rother/
 
 ## IRS recognizes National Whistleblower Day with $8 billion recovered since 2007
 - Source: IRS
@@ -973,6 +1067,12 @@ IR-2026-84, July 28, 2026 — The Internal Revenue Service today highlighted the
 - Published: 2026-07-28T00:00:00Z
 - URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
 
+## Presidential Message on National Korean War Veterans Armistice Day
+- Source: White House
+- Category: Executive
+- Published: 2026-07-27T22:51:46Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-national-korean-war-veterans-armistice-day-3cd7/
+
 ## Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission
 - Source: Treasury
 - Category: OFAC
@@ -1016,6 +1116,12 @@ Updated an acknowledgement. This is an informational change only.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56159
 
 Updated an acknowledgement. This is an informational change only.
+
+## First Lady Melania Trump Announces Opening of Christmas Volunteer & Performer Applications
+- Source: White House
+- Category: Executive
+- Published: 2026-07-27T13:04:29Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/07/first-lady-melania-trump-announces-opening-of-christmas-volunteer-performer-applications-be30/
 
 ## FinCEN Issues Statement of Enforcement Policy in Support of Venezuela’s Economic Recovery and Earthquake Relief Efforts
 - Source: FinCEN
@@ -1143,12 +1249,6 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 - Published: 2026-07-24T15:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0577
 
-## Treasury Further Dismantles Iranian Financier Zanjani’s Network
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-07-24T14:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0576
-
 ## CVE-2026-62835 Azure Portal Information Disclosure Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -1196,6 +1296,14 @@ Information published.
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59676
 
 Information published.
+
+## ABA, CBA Urge Federal Reserve to Strengthen Safeguards for Proposed Payment Accounts
+- Source: ABA
+- Category: Compliance Watch
+- Published: 2026-07-24T04:00:00Z
+- URL: https://www.aba.com/about-us/press-room/press-releases/aba-cba-urge-federal-reserve-to-strengthen-safeguards-for-proposed-payment-accounts
+
+ABA, CBA Urge Federal Reserve to Strengthen Safeguards for Proposed Payment Accounts
 
 ## Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions; Issuance of Amended Venezuela-related Frequently Asked Question; Publication of Regulatory Amendments
 - Source: OFAC
@@ -1975,6 +2083,22 @@ Information published.
 
 Information published.
 
+## Banking Trades Statement on Updated Clarity Act
+- Source: ABA
+- Category: Compliance Watch
+- Published: 2026-07-22T04:00:00Z
+- URL: https://www.aba.com/about-us/press-room/press-releases/banking-trades-statement-on-updated-clarity-act
+
+Banking Trades Statement on Updated Clarity Act
+
+## ABA Welcomes House Financial Services Committee Report on Fraud and Scams
+- Source: ABA
+- Category: Compliance Watch
+- Published: 2026-07-22T04:00:00Z
+- URL: https://www.aba.com/about-us/press-room/press-releases/aba-welcomes-house-financial-services-committee-report-on-fraud-and-scams
+
+ABA Welcomes House Financial Services Committee Report on Fraud and Scams
+
 ## Chairman Hill, Oversight Chairman Meuser Issue Staff Report on Financial Fraud and Scams
 - Source: House Financial Services
 - Category: Legislative
@@ -2015,16 +2139,14 @@ Being a banker, William Mills knows better than most that managing risk can easi
 
 The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to take this opportunity to comment on the renewal of the existing information collection described below (OMB Control No. 3064-0139).
 
+## Presidential Message on the Anniversary of the Liberation of Guam
+- Source: White House
+- Category: Executive
+- Published: 2026-07-21T21:30:51Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-anniversary-of-the-liberation-of-guam/
+
 ## Nominations Sent to the Senate
 - Source: White House
 - Category: Executive
 - Published: 2026-07-21T19:58:17Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-60e9/
-
-## FCC issues warning about bank impersonation scams
-- Source: TBA
-- Category: Compliance Watch
-- Published: 2026-07-21T17:00:00Z
-- URL: https://www.texasbankers.com/fcc-issues-warning-about-bank-impersonation-scams/
-
-The Federal Communications Commission issued an advisory warning consumers about bank impersonation scams and offering tips for avoiding them. Bank impersonation scams account for the highest losses among all impersonation scam categories, with victims often losing everything in their accounts. The scams typically pressure consumers to take immediate action to secure their acc…
