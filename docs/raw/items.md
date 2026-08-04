@@ -1,7 +1,47 @@
 # RegDashboard — Export
 
-Window: `2026-07-21T18:01:29Z` → `2026-08-04T18:01:29Z` (UTC)
-Last updated: `2026-08-04T13:01:29-05:00` (CT) — `2026-08-04T18:01:29Z` (UTC)
+Window: `2026-07-21T20:58:09Z` → `2026-08-04T20:58:09Z` (UTC)
+Last updated: `2026-08-04T15:58:09-05:00` (CT) — `2026-08-04T20:58:09Z` (UTC)
+
+## Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.
+- Source: FRB
+- Category: Banking
+- Published: 2026-08-04T20:30:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm
+
+Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.
+
+## Federal Reserve Board announces approval of the application by FS Bancorp, Inc.
+- Source: FRB
+- Category: Banking
+- Published: 2026-08-04T20:30:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm
+
+Federal Reserve Board announces approval of the application by FS Bancorp, Inc.
+
+## Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.
+- Source: FRB
+- Category: Banking
+- Published: 2026-08-04T20:30:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm
+
+Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.
+
+## New XCSSET variant targets macOS devs via compromised Xcode projects
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-04T19:03:09Z
+- URL: https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/
+
+A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]
+
+## 77 Open VSX extensions found harvesting developer info
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-04T18:50:55Z
+- URL: https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/
+
+77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]
 
 ## Press Release: FDIC Launches New Office of Supervisory Appeals
 - Source: FDIC
@@ -55,11 +95,11 @@ AI agents need broad access to be useful, but traditional access controls cannot
 
 Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]
 
-## Tax pros should watch out for phishing emails and other attacks, Security Summit warns
+## Security Summit warns tax pros to watch out for phishing emails and other attacks
 - Source: IRS
 - Category: IRS
 - Published: 2026-08-04T00:00:00Z
-- URL: https://www.irs.gov/newsroom/tax-pros-should-watch-out-for-phishing-emails-and-other-attacks-security-summit-warns-0
+- URL: https://www.irs.gov/newsroom/security-summit-warns-tax-pros-to-watch-out-for-phishing-emails-and-other-attacks
 
 IR-2026-85, Aug. 4, 2026 — The Internal Revenue Service and Security Summit partners today warned tax professionals to watch for phishing emails and other schemes designed to steal sensitive taxpayer data.
 
@@ -261,6 +301,20 @@ WASHINGTON—Today, the Department of the Treasury’s Financial Crimes Enforcem
 - Published: 2026-08-03T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260803
 
+## OCC Requests Comment on Proposed Rulemaking on the OCC Rules Regarding the Availability of OCC Information
+- Source: OCC
+- Category: Banking
+- Published: 2026-08-03T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-65.html
+
+## OCC Requests Comment on Proposed Rulemaking on the OCC Rules Regarding the Availability of OCC Information
+- Source: OCC
+- Category: Banking
+- Published: 2026-08-03T00:00:00Z
+- URL: https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-65.html
+
+The Office of the Comptroller of the Currency (OCC) today requested comment on a proposal to implement structural and substantive changes to its rules governing the disclosure of OCC information.
+
 ## For Improving Working Capital, ACH is ‘a Game Changer’ at Leggett & Platt
 - Source: NACHA
 - Category: Payments
@@ -334,22 +388,6 @@ Google is preparing a new Chrome security feature that would block policy-instal
 - URL: https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
 
 A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]
-
-## Amgen says cloud data breach exposed patient health, proprietary info
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-31T22:16:42Z
-- URL: https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
-
-Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]
-
-## Arch Linux disables AUR package adoption to stop malware flood
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-07-31T21:38:08Z
-- URL: https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/
-
-The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]
 
 ## To Facilitate Positive Adjustment to Competition from Imports of Quartz Surface Products
 - Source: White House
@@ -427,6 +465,20 @@ ABA Statement on Federal Reserve Modernization of Mutual Banking Regulations
 
 ABA Statement on Joint OCC/FDIC Community Reinvestment Act Rule Proposal
 
+## Agencies Issue Joint Proposal Amending the Community Reinvestment Act Rules
+- Source: OCC
+- Category: Banking
+- Published: 2026-07-31T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-64.html
+
+## Agencies Issue Joint Proposal Amending the Community Reinvestment Act Rules
+- Source: OCC
+- Category: Banking
+- Published: 2026-07-31T00:00:00Z
+- URL: https://occ.gov/news-issuances/news-releases/2026/nr-ia-2026-64.html
+
+The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (the agencies) today proposed targeted changes to their current rules implementing the Community Reinvestment Act (CRA) to better align with the statutory mandate; better ensure that community development grants reach the communities they are intended to benefit; reduce burden for banks…
+
 ## Joint Statement of Enforcement Policy in support of Venezuela’s Economic Recovery and Earthquake Relief Efforts
 - Source: FDIC
 - Category: Banking
@@ -475,11 +527,11 @@ Learn more about Fannie Mae’s Multifamily library of applications; DUS Disclos
 
 Many financial institutions and ACH Originators have told Nacha that first-party fraud is of increasing concern. Nacha workgroups have been deliberating on a defined role for RDFIs in identifying instances of first-party fraud, just as previous deliberations identified a role for RDFIs in transaction monitoring for credit-push fraud that was ultimately approved as a Nacha Rule.
 
-## Online ad firm Adform’s script compromised to steal cryptocurrency
+## Amgen says cloud data breach exposed patient health, proprietary info
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-07-31T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/
+- URL: https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
 
 ## Agency Information Collection Activities: Proposed Collection Renewal; Comment Request
 - Source: Federal Register
@@ -521,14 +573,6 @@ This final rule amends the Grants to States for Public Assistance Programs regul
 - Published: 2026-07-30T17:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0582
 
-## Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank
-- Source: FRB
-- Category: Banking
-- Published: 2026-07-30T15:00:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm
-
-Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank
-
 ## Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank
 - Source: FRB
 - Category: Banking
@@ -536,6 +580,14 @@ Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and T
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm
 
 Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank
+
+## Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank
+- Source: FRB
+- Category: Banking
+- Published: 2026-07-30T15:00:00Z
+- URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm
+
+Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank
 
 ## CVE-2026-54128 Windows DHCP Client Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
@@ -596,6 +648,34 @@ ABA, Ohio Bankers League Release New Ad Encouraging Senator Jon Husted to Keep F
 - Category: OFAC
 - Published: 2026-07-30T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260730
+
+## OCC Continues Community Bank Comeback with Revised CBLR Framework
+- Source: OCC
+- Category: Banking
+- Published: 2026-07-30T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-62.html
+
+## OCC Releases CRA Performance Evaluations for 14 National Banks and Federal Savings Associations
+- Source: OCC
+- Category: Banking
+- Published: 2026-07-30T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-63.html
+
+## OCC Releases CRA Performance Evaluations for 14 National Banks and Federal Savings Associations
+- Source: OCC
+- Category: Banking
+- Published: 2026-07-30T00:00:00Z
+- URL: https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-63.html
+
+The Office of the Comptroller of the Currency (OCC) today released a list of Community Reinvestment Act (CRA) performance evaluations that became public during the period of July 1, 2026, through July 30, 2026.
+
+## OCC Continues Community Bank Comeback with Revised CBLR Framework
+- Source: OCC
+- Category: Banking
+- Published: 2026-07-30T00:00:00Z
+- URL: https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-62.html
+
+The Office of the Comptroller of the Currency today issued a revised compliance guide for the community bank leverage ratio (CBLR) framework as part of its ongoing work to provide regulatory relief for community banks.
 
 ## Regulatory Reform
 - Source: FRB
@@ -1176,6 +1256,20 @@ Information published.
 - Category: OFAC
 - Published: 2026-07-27T00:00:00Z
 - URL: https://ofac.treasury.gov/recent-actions/20260727
+
+## Comptroller Gould Highlights OCCâs Financial Literacy Efforts at Financial Literacy and Education Commission Meeting
+- Source: OCC
+- Category: Banking
+- Published: 2026-07-27T00:00:00Z
+- URL: https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-61.html
+
+## Comptroller Gould Highlights OCC’s Financial Literacy Efforts at Financial Literacy and Education Commission Meeting
+- Source: OCC
+- Category: Banking
+- Published: 2026-07-27T00:00:00Z
+- URL: https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-61.html
+
+WASHINGTON - Comptroller of the Currency Jonathan V. Gould today highlighted the OCC's efforts to expand financial literacy, support responsible innovation, and provide consumers with practical educational resources in remarks at the Financial Literacy and Education Commission meeting.
 
 ## MPF Announcement 2026-46
 - Source: FHLB MPF
@@ -2144,9 +2238,3 @@ The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995 (
 - Category: Executive
 - Published: 2026-07-21T21:30:51Z
 - URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-anniversary-of-the-liberation-of-guam/
-
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-07-21T19:58:17Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-60e9/

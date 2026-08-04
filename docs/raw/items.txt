@@ -1,4 +1,39 @@
 Banking
+FRB
+2026-08-04T20:30:00Z
+Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.
+https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm
+Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.
+------------------------------------------------------------
+Banking
+FRB
+2026-08-04T20:30:00Z
+Federal Reserve Board announces approval of the application by FS Bancorp, Inc.
+https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm
+Federal Reserve Board announces approval of the application by FS Bancorp, Inc.
+------------------------------------------------------------
+Banking
+FRB
+2026-08-04T20:30:00Z
+Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.
+https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm
+Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-08-04T19:03:09Z
+New XCSSET variant targets macOS devs via compromised Xcode projects
+https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/
+A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]
+------------------------------------------------------------
+IS
+BleepingComputer
+2026-08-04T18:50:55Z
+77 Open VSX extensions found harvesting developer info
+https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/
+77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]
+------------------------------------------------------------
+Banking
 FDIC
 2026-08-04T16:52:41Z
 Press Release: FDIC Launches New Office of Supervisory Appeals
@@ -48,8 +83,8 @@ Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to t
 IRS
 IRS
 2026-08-04T00:00:00Z
-Tax pros should watch out for phishing emails and other attacks, Security Summit warns
-https://www.irs.gov/newsroom/tax-pros-should-watch-out-for-phishing-emails-and-other-attacks-security-summit-warns-0
+Security Summit warns tax pros to watch out for phishing emails and other attacks
+https://www.irs.gov/newsroom/security-summit-warns-tax-pros-to-watch-out-for-phishing-emails-and-other-attacks
 IR-2026-85, Aug. 4, 2026 — The Internal Revenue Service and Security Summit partners today warned tax professionals to watch for phishing emails and other schemes designed to steal sensitive taxpayer data.
 ------------------------------------------------------------
 Banking
@@ -235,6 +270,19 @@ OFAC
 Issuance of Amended Venezuela-related General License and Frequently Asked Question
 https://ofac.treasury.gov/recent-actions/20260803
 ------------------------------------------------------------
+Banking
+OCC
+2026-08-03T00:00:00Z
+OCC Requests Comment on Proposed Rulemaking on the OCC Rules Regarding the Availability of OCC Information
+https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-65.html
+------------------------------------------------------------
+Banking
+OCC
+2026-08-03T00:00:00Z
+OCC Requests Comment on Proposed Rulemaking on the OCC Rules Regarding the Availability of OCC Information
+https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-65.html
+The Office of the Comptroller of the Currency (OCC) today requested comment on a proposal to implement structural and substantive changes to its rules governing the disclosure of OCC information.
+------------------------------------------------------------
 Payments
 NACHA
 2026-08-03T00:00:00Z
@@ -301,20 +349,6 @@ BleepingComputer
 Rails patches critical Active Storage flaw with RCE potential
 https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
 A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-31T22:16:42Z
-Amgen says cloud data breach exposed patient health, proprietary info
-https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
-Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]
-------------------------------------------------------------
-IS
-BleepingComputer
-2026-07-31T21:38:08Z
-Arch Linux disables AUR package adoption to stop malware flood
-https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/
-The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]
 ------------------------------------------------------------
 Executive
 White House
@@ -385,6 +419,19 @@ https://www.aba.com/about-us/press-room/press-releases/aba-statement-on-joint-oc
 ABA Statement on Joint OCC/FDIC Community Reinvestment Act Rule Proposal
 ------------------------------------------------------------
 Banking
+OCC
+2026-07-31T00:00:00Z
+Agencies Issue Joint Proposal Amending the Community Reinvestment Act Rules
+https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-64.html
+------------------------------------------------------------
+Banking
+OCC
+2026-07-31T00:00:00Z
+Agencies Issue Joint Proposal Amending the Community Reinvestment Act Rules
+https://occ.gov/news-issuances/news-releases/2026/nr-ia-2026-64.html
+The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (the agencies) today proposed targeted changes to their current rules implementing the Community Reinvestment Act (CRA) to better align with the statutory mandate; better ensure that community development grants reach the communities they are intended to benefit; reduce burden for banks…
+------------------------------------------------------------
+Banking
 FDIC
 2026-07-31T00:00:00Z
 Joint Statement of Enforcement Policy in support of Venezuela’s Economic Recovery and Earthquake Relief Efforts
@@ -429,8 +476,8 @@ Many financial institutions and ACH Originators have told Nacha that first-party
 IS
 BleepingComputer
 2026-07-31T00:00:00Z
-Online ad firm Adform’s script compromised to steal cryptocurrency
-https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/
+Amgen says cloud data breach exposed patient health, proprietary info
+https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
 ------------------------------------------------------------
 Federal Register
 Federal Register
@@ -473,16 +520,16 @@ https://home.treasury.gov/news/press-releases/sb0582
 Banking
 FRB
 2026-07-30T15:00:00Z
-Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank
-https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm
-Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank
+Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank
+https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm
+Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank
 ------------------------------------------------------------
 Banking
 FRB
 2026-07-30T15:00:00Z
-Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank
-https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm
-Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank
+Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank
+https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm
+Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank
 ------------------------------------------------------------
 IS
 Microsoft MSRC
@@ -537,6 +584,32 @@ OFAC
 2026-07-30T00:00:00Z
 Counter Terrorism Designations; Non-Proliferation Designation Update
 https://ofac.treasury.gov/recent-actions/20260730
+------------------------------------------------------------
+Banking
+OCC
+2026-07-30T00:00:00Z
+OCC Continues Community Bank Comeback with Revised CBLR Framework
+https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-62.html
+------------------------------------------------------------
+Banking
+OCC
+2026-07-30T00:00:00Z
+OCC Releases CRA Performance Evaluations for 14 National Banks and Federal Savings Associations
+https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-63.html
+------------------------------------------------------------
+Banking
+OCC
+2026-07-30T00:00:00Z
+OCC Releases CRA Performance Evaluations for 14 National Banks and Federal Savings Associations
+https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-63.html
+The Office of the Comptroller of the Currency (OCC) today released a list of Community Reinvestment Act (CRA) performance evaluations that became public during the period of July 1, 2026, through July 30, 2026.
+------------------------------------------------------------
+Banking
+OCC
+2026-07-30T00:00:00Z
+OCC Continues Community Bank Comeback with Revised CBLR Framework
+https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-62.html
+The Office of the Comptroller of the Currency today issued a revised compliance guide for the community bank leverage ratio (CBLR) framework as part of its ongoing work to provide regulatory relief for community banks.
 ------------------------------------------------------------
 Banking
 FRB
@@ -1088,6 +1161,19 @@ OFAC
 2026-07-27T00:00:00Z
 Sanctions List Removals; Sanctions List Updates
 https://ofac.treasury.gov/recent-actions/20260727
+------------------------------------------------------------
+Banking
+OCC
+2026-07-27T00:00:00Z
+Comptroller Gould Highlights OCCâs Financial Literacy Efforts at Financial Literacy and Education Commission Meeting
+https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-61.html
+------------------------------------------------------------
+Banking
+OCC
+2026-07-27T00:00:00Z
+Comptroller Gould Highlights OCC’s Financial Literacy Efforts at Financial Literacy and Education Commission Meeting
+https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-61.html
+WASHINGTON - Comptroller of the Currency Jonathan V. Gould today highlighted the OCC's efforts to expand financial literacy, support responsible innovation, and provide consumers with practical educational resources in remarks at the Financial Literacy and Education Commission meeting.
 ------------------------------------------------------------
 Mortgage
 FHLB MPF
@@ -1947,10 +2033,4 @@ White House
 2026-07-21T21:30:51Z
 Presidential Message on the Anniversary of the Liberation of Guam
 https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-anniversary-of-the-liberation-of-guam/
-------------------------------------------------------------
-Executive
-White House
-2026-07-21T19:58:17Z
-Nominations Sent to the Senate
-https://www.whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-60e9/
 ------------------------------------------------------------
