@@ -1,7 +1,2763 @@
 # RegDashboard — Export
 
-Window: `2026-07-27T13:59:16Z` → `2026-08-10T13:59:16Z` (UTC)
-Last updated: `2026-08-10T08:59:16-05:00` (CT) — `2026-08-10T13:59:16Z` (UTC)
+Window: `2026-07-28T13:20:26Z` → `2026-08-11T13:20:26Z` (UTC)
+Last updated: `2026-08-11T08:20:26-05:00` (CT) — `2026-08-11T13:20:26Z` (UTC)
+
+## Vague Task, Total Access: When AI Delegation Becomes a Security Risk
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-11T13:15:24Z
+- URL: https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/
+
+AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around what each agent was actually created to do. [...]
+
+## Treasury Announces Employer Contributions to Trump Accounts, Drawing Corporate Support
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-08-11T13:00:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0602
+
+## DDoS attacks over 1 Tbps surged fivefold in the second quarter
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-11T13:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/
+
+Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]
+
+## CISA: Microsoft SharePoint flaw now exploited in ransomware attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-11T12:12:16Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/
+
+CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]
+
+## Cisco warns of high-severity ClamAV flaws with public exploits
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-11T11:03:01Z
+- URL: https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/
+
+Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning process in denial-of-service (DoS) attacks. [...]
+
+## The First Step to Accurate Credit Data? Metro 2® Fundamentals Training
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-08-11T10:00:53Z
+- URL: https://www.cdiaonline.org/events/2026/08/11/the-first-step-to-accurate-credit-data-metro-2-fundamentals-training/
+
+The first step to accurate credit data? Start with the fundamentals. For data furnishers, understanding the Metro 2® Format is essential... The post The First Step to Accurate Credit Data? Metro 2® Fundamentals Training appeared first on CDIA .
+
+## US and South Korea warn of Gunra ransomware targeting govt agencies
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-11T09:47:06Z
+- URL: https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/
+
+U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]
+
+## CVE-2024-57888 workqueue: Do not warn when cancelling WQ_MEM_RECLAIM work from !WQ_MEM_RECLAIM worker
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:47:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-57888
+
+Information published.
+
+## CVE-2024-57795 RDMA/rxe: Remove the direct link to net_device
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:47:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-57795
+
+Information published.
+
+## CVE-2026-3087 shutil.unpack_archive() doesn't check for Windows absolute paths in ZIPs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:47:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3087
+
+Information published.
+
+## CVE-2024-57857 RDMA/siw: Remove direct link to net_device
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:47:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-57857
+
+Information published.
+
+## CVE-2024-57899 wifi: mac80211: fix mbss changed flags corruption on 32 bit systems
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:47:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-57899
+
+Information published.
+
+## CVE-2025-21629 net: reenable NETIF_F_IPV6_CSUM offload for BIG TCP packets
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:47:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21629
+
+Information published.
+
+## CVE-2025-2309 HDF5 Type Conversion Logic H5T__bit_copy heap-based overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:47:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2309
+
+Information published.
+
+## CVE-2025-2308 HDF5 Scale-Offset Filter H5Z__scaleoffset_decompress_one_byte heap-based overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:46:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2308
+
+Information published.
+
+## CVE-2024-57893 ALSA: seq: oss: Fix races at processing SysEx messages
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:46:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-57893
+
+Information published.
+
+## CVE-2025-21682 eth: bnxt: always recalculate features after XDP clearing, fix null-deref
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:46:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21682
+
+Information published.
+
+## CVE-2024-52005 The sideband payload is passed unfiltered to the terminal in git
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:46:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-52005
+
+Information published.
+
+## CVE-2024-57895 ksmbd: set ATTR_CTIME flags when setting mtime
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:45:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-57895
+
+Information published.
+
+## CVE-2025-37938 tracing: Verify event formats that have "%*p.."
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:44:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37938
+
+Information published.
+
+## CVE-2025-37931 btrfs: adjust subpage bit start based on sectorsize
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:44:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37931
+
+Information published.
+
+## CVE-2025-37961 ipvs: fix uninit-value for saddr in do_output_route4
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:44:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37961
+
+Information published.
+
+## CVE-2025-37959 bpf: Scrub packet on bpf_redirect_peer
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:44:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37959
+
+Information published.
+
+## CVE-2025-37856 btrfs: harden block_group::bg_list against list_del() races
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:43:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37856
+
+Information published.
+
+## CVE-2025-37945 net: phy: allow MDIO bus PM ops to start/stop state machine for phylink-controlled PHY
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:43:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37945
+
+Information published.
+
+## CVE-2024-57898 wifi: cfg80211: clear link ID from bitmap during link delete after clean up
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:43:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-57898
+
+Information published.
+
+## CVE-2025-37903 drm/amd/display: Fix slab-use-after-free in hdcp
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:43:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37903
+
+Information published.
+
+## CVE-2025-37853 drm/amdkfd: debugfs hang_hws skip GPU with MES
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:43:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37853
+
+Information published.
+
+## CVE-2025-37852 drm/amdgpu: handle amdgpu_cgs_create_device() errors in amd_powerplay_create()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:42:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37852
+
+Information published.
+
+## CVE-2025-37849 KVM: arm64: Tear down vGIC on failed vCPU creation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:42:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37849
+
+Information published.
+
+## CVE-2025-37842 spi: fsl-qspi: use devm function instead of driver remove
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:42:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37842
+
+Information published.
+
+## CVE-2025-37980 block: fix resource leak in blk_register_queue() error path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:42:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37980
+
+Information published.
+
+## CVE-2025-37877 iommu: Clear iommu-dma ops on cleanup
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:42:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37877
+
+Information published.
+
+## CVE-2025-37957 KVM: SVM: Forcibly leave SMM mode on SHUTDOWN interception
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:42:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37957
+
+Information published.
+
+## CVE-2025-37884 bpf: Fix deadlock between rcu_tasks_trace and event_mutex.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:42:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37884
+
+Information published.
+
+## CVE-2025-37879 9p/net: fix improper handling of bogus negative read/write replies
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:41:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37879
+
+Information published.
+
+## CVE-2025-37878 perf/core: Fix WARN_ON(!ctx) in __free_event() for partial init
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:41:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37878
+
+Information published.
+
+## CVE-2025-37920 xsk: Fix race condition in AF_XDP generic RX path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:41:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37920
+
+Information published.
+
+## CVE-2025-37861 scsi: mpi3mr: Synchronous access b/w reset and tm thread for reply queue
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:41:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37861
+
+Information published.
+
+## CVE-2024-42079 gfs2: Fix NULL pointer dereference in gfs2_log_flush
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:40:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-42079
+
+Information published.
+
+## CVE-2026-64654 GitHub CLI: Terminal escape sequence injection in multiple `gh` commands
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:18:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64654
+
+Information published.
+
+## CVE-2026-68304 wifi: brcmfmac: fix 802.1X-SHA256 call trace warning
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68304
+
+Information published.
+
+## CVE-2026-20338 ClamAV ZIP File Format Processing Memory Corruption Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20338
+
+Information published.
+
+## CVE-2026-68216 media: pwc: Return queued buffers on start_streaming() failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68216
+
+Information published.
+
+## CVE-2026-20337 ClamAV ZIP File Format Processing Memory Corruption Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20337
+
+Information published.
+
+## CVE-2026-68251 drm/amdgpu/sdma6.0: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68251
+
+Information published.
+
+## CVE-2026-20339 ClamAV PESpin File Format Processing Integer Overflow Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20339
+
+Information published.
+
+## CVE-2026-68243 drm/i915/gem: Fix NULL deref in I915_CONTEXT_PARAM_SSEU
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68243
+
+Information published.
+
+## CVE-2026-20346 ClamAV PDF File Format Processing Memory Corruption Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20346
+
+Information published.
+
+## CVE-2026-68105 drm/amdgpu: Fix kernel panic during driver load failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68105
+
+Information published.
+
+## CVE-2026-20347 ClamAV Mach-O File Format Processing Memory Corruption Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20347
+
+Information published.
+
+## CVE-2026-68085 Bluetooth: hci_uart: clear HCI_UART_SENDING when write_work is canceled
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68085
+
+Information published.
+
+## CVE-2026-20345 ClamAV GPT File Format Processing Memory Corruption Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20345
+
+Information published.
+
+## CVE-2026-68196 wifi: wilc1000: validate assoc response length before subtracting header
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68196
+
+Information published.
+
+## CVE-2026-20348 ClamAV XAR File Format Processing Memory Corruption Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20348
+
+Information published.
+
+## CVE-2026-68313 tipc: fix infinite loop in __tipc_nl_compat_dumpit
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68313
+
+Information published.
+
+## CVE-2026-72568 Redis - Heap Out-of-Bounds Read in Cluster Bus PING Message Handler
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72568
+
+Information published.
+
+## CVE-2026-68132 super: fix emergency thaw deadlock on frozen block devices
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68132
+
+Information published.
+
+## CVE-2026-68370 usb: gadget: dummy_hcd: prevent fifo_req reuse during giveback
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:17:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68370
+
+Information published.
+
+## CVE-2026-68233 drm/vc4: Shut down BO cache timer before teardown
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68233
+
+Information published.
+
+## CVE-2026-68229 media: cedrus: skip invalid H.264 reference list entries
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68229
+
+Information published.
+
+## CVE-2026-68359 hwmon: (nzxt-smart2) Stop device IO before calling hid_hw_stop
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68359
+
+Information published.
+
+## CVE-2026-68271 drm/nouveau: fix reversed error cleanup order in ucopy functions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68271
+
+Information published.
+
+## CVE-2026-68102 drm/amdgpu: fix aperture mapping leak
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68102
+
+Information published.
+
+## CVE-2026-68325 iommu/amd: Bound the early ACPI HID map
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68325
+
+Information published.
+
+## CVE-2026-68121 pppoe: reload header pointer after dev_hard_header()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68121
+
+Information published.
+
+## CVE-2026-68209 media: sun4i-csi: Return queued buffers on start_streaming() failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68209
+
+Information published.
+
+## CVE-2026-68373 wifi: at76c50x-usb: avoid length underflow in at76_guess_freq()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68373
+
+Information published.
+
+## CVE-2026-68327 wan: wanxl: Only reset hardware after BAR mapping
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68327
+
+Information published.
+
+## CVE-2026-68162 sctp: avoid auth_enable sysctl UAF during netns teardown
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68162
+
+Information published.
+
+## CVE-2026-68214 media: rtl2832: fix use-after-free in rtl2832_remove()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68214
+
+Information published.
+
+## CVE-2026-68324 iommu/intel: Fix out-of-bounds memset in dmar_latency_disable()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68324
+
+Information published.
+
+## CVE-2026-68322 rds: Fix inet6_addr_lst NULL dereference when IPv6 is disabled
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68322
+
+Information published.
+
+## CVE-2026-68084 staging: vme_user: fix location monitor leak in tsi148 bridge
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68084
+
+Information published.
+
+## CVE-2026-68169 mptcp: pm: userspace: fix use-after-free in get_local_id
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68169
+
+Information published.
+
+## CVE-2026-68339 Bluetooth: btusb: validate Realtek vendor event length
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68339
+
+Information published.
+
+## CVE-2026-68153 libceph: remove debugfs files before client teardown
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68153
+
+Information published.
+
+## CVE-2026-68360 hwmon: (corsair-cpro) Stop device IO before calling hid_hw_stop
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68360
+
+Information published.
+
+## CVE-2026-68343 smb: client: validate DFS referral PathConsumed
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:16:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68343
+
+Information published.
+
+## CVE-2026-68377 net/sched: act_tunnel_key: Defer dst_release to RCU callback
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68377
+
+Information published.
+
+## CVE-2026-68124 mctp: serial: handle zero-length frames to prevent rx buffer overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68124
+
+Information published.
+
+## CVE-2026-68126 mac802154: hold an interface reference across the scan worker
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68126
+
+Information published.
+
+## CVE-2026-68146 ftrace: Add global mutex to serialize trace_parser access
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68146
+
+Information published.
+
+## CVE-2026-68090 debugobjects: Plug race against a concurrent OOM disable
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68090
+
+Information published.
+
+## CVE-2026-68245 drm/amdgpu: fix lifetime issue of amdgpu_vm_get_task_info_pasid()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68245
+
+Information published.
+
+## CVE-2026-68147 fscrypt: Avoid dynamic allocation in fscrypt_get_devices()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68147
+
+Information published.
+
+## CVE-2026-68188 Bluetooth: RFCOMM: Fix session UAF in set_termios
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68188
+
+Information published.
+
+## CVE-2026-68340 hwmon: occ: validate poll response sensor blocks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68340
+
+Information published.
+
+## CVE-2026-68381 ksmbd: pin conn during async oplock break notification
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68381
+
+Information published.
+
+## CVE-2026-68416 mtd: fix double free and WARN_ON in add_mtd_device() error paths
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68416
+
+Information published.
+
+## CVE-2026-68361 hwmon: (corsair-psu) Stop device IO before calling hid_hw_stop
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68361
+
+Information published.
+
+## CVE-2026-68212 media: saa7134: Fix a possible memory leak in saa7134_video_init1
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68212
+
+Information published.
+
+## CVE-2026-68253 drm/i915/hdcp: check streams[] bounds before overflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68253
+
+Information published.
+
+## CVE-2026-68151 binfmt_elf_fdpic: only honour the first PT_INTERP
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68151
+
+Information published.
+
+## CVE-2026-68093 KVM: SVM: Bump asid_generation on CPU online to avoid ASID collision after hotplug
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68093
+
+Information published.
+
+## CVE-2026-68401 firmware: arm_ffa: Fix out-of-bound writes in ffa_setup_and_transmit()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68401
+
+Information published.
+
+## CVE-2026-68184 cdrom: fix stack out-of-bounds read in CDROMVOLCTRL
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68184
+
+Information published.
+
+## CVE-2026-68149 fs: preserve ACL_DONT_CACHE state in forget_cached_acl()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68149
+
+Information published.
+
+## CVE-2026-68247 drm/i915/bios: range check LFP Data Block panel_type2
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68247
+
+Information published.
+
+## CVE-2026-68326 wifi: mwifiex: bound uAP association event IEs to the event buffer
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68326
+
+Information published.
+
+## CVE-2026-68410 wifi: libertas: fix memory leak in helper_firmware_cb()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68410
+
+Information published.
+
+## CVE-2026-68117 tipc: clear sock->sk on the failed-insert path in tipc_sk_create()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:15:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68117
+
+Information published.
+
+## CVE-2026-68293 net/mlx5: Fix MCIA register buffer overflow on 32 dword reads
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68293
+
+Information published.
+
+## CVE-2026-68106 drm/amdgpu: fix division by zero with invalid uvd dimensions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68106
+
+Information published.
+
+## CVE-2026-68349 wifi: carl9170: fix buffer overflow in rx_stream failover path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68349
+
+Information published.
+
+## CVE-2026-68418 RDMA/irdma: Prevent user-triggered null deref on QP create
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68418
+
+Information published.
+
+## CVE-2026-68103 drm/amdgpu: reject mapping a reserved doorbell to a new queue
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68103
+
+Information published.
+
+## CVE-2026-68376 sctp: fix auth_hmacs array size in struct sctp_cookie
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68376
+
+Information published.
+
+## CVE-2026-68294 net: qrtr: restrict socket creation to the initial network namespace
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68294
+
+Information published.
+
+## CVE-2026-68396 scsi: core: wake eh reliably when using scsi_schedule_eh
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68396
+
+Information published.
+
+## CVE-2026-68204 media: vivid: check for vb2_is_busy() when toggling caps
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68204
+
+Information published.
+
+## CVE-2026-68269 drm/i915/gem: Add missing nospec on parallel submit slot
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68269
+
+Information published.
+
+## CVE-2026-68135 net: hip04: fix RX buffer leak on build_skb failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68135
+
+Information published.
+
+## CVE-2026-68236 drm/amd/display: set new_stream to NULL after release
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68236
+
+Information published.
+
+## CVE-2026-68301 net: hsr: fix memory leak on slave unregistration by removing synced VLANs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68301
+
+Information published.
+
+## CVE-2026-68335 rds: drop incoming messages that cross network namespace boundaries
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68335
+
+Information published.
+
+## CVE-2026-68160 ceph: fix pre-auth out-of-bounds read on snaptrace in ceph_handle_caps()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68160
+
+Information published.
+
+## CVE-2026-68107 drm/amdgpu/vcn4: avoid rereading IB param length
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68107
+
+Information published.
+
+## CVE-2026-68402 wifi: cfg80211: bound element ID read when checking non-inheritance
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68402
+
+Information published.
+
+## CVE-2026-68140 net/iucv: fix use-after-free of a severed iucv_path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:14:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68140
+
+Information published.
+
+## CVE-2026-68329 iommu/amd: Wait for completion instead of returning early in iommu_completion_wait()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68329
+
+Information published.
+
+## CVE-2026-68367 usb: gadget: f_tcm: synchronize delayed set_alt with teardown
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68367
+
+Information published.
+
+## CVE-2026-68248 drm/i915: Return NULL on error in active_instance
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:53Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68248
+
+Information published.
+
+## CVE-2026-68368 usb: gadget: f_ncm: validate datagram bounds in ncm_unwrap_ntb()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68368
+
+Information published.
+
+## CVE-2026-68113 drm/amdgpu/gfx12: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68113
+
+Information published.
+
+## CVE-2026-68310 wifi: mt76: mt7915: guard HE capability lookups
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68310
+
+Information published.
+
+## CVE-2026-68164 mm/damon/core: disallow overlapping input ranges for damon_set_regions()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68164
+
+Information published.
+
+## CVE-2026-68309 wifi: mt76: connac: fix possible NULL-pointer deref in mt76_connac_mcu_uni_bss_he_tlv()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68309
+
+Information published.
+
+## CVE-2026-68246 drm/amdgpu/gfx11: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68246
+
+Information published.
+
+## CVE-2026-68144 phonet: pep: fix use-after-free in pep_get_sb()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68144
+
+Information published.
+
+## CVE-2026-68086 mm/khugepaged: write all dirty file folios when collapsing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:30Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68086
+
+Information published.
+
+## CVE-2026-68142 geneve: require CAP_NET_ADMIN in the device netns for changelink
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68142
+
+Information published.
+
+## CVE-2026-68386 bpf, sockmap: Reject unhashed UDP sockets on sockmap update
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68386
+
+Information published.
+
+## CVE-2026-68257 drm/amdkfd: fix 32-bit overflow in CWSR total size calculation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68257
+
+Information published.
+
+## CVE-2026-68192 wifi: brcmfmac: make release_scratchbuffers idempotent
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68192
+
+Information published.
+
+## CVE-2026-68226 media: cx23885: add ioremap return check and cleanup
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:19Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68226
+
+Information published.
+
+## CVE-2026-68219 media: nxp: imx8-isi: Fix potential out-of-bounds issues
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68219
+
+Information published.
+
+## CVE-2026-68354 firewire: net: Fix fragmented datagram reassembly
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68354
+
+Information published.
+
+## CVE-2026-68425 IB/mad: Drop unmatched RMPP responses before reassembly
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:08Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68425
+
+Information published.
+
+## CVE-2026-68279 drm/dp/mst: fix OOB reads in remote DPCD/I2C sideband reply parsers
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:07Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68279
+
+Information published.
+
+## CVE-2026-68336 bonding: fix devconf_all NULL dereference when IPv6 is disabled
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:13:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68336
+
+Information published.
+
+## CVE-2026-68300 sctp: auth: verify auth requirement when auth_chunk is NULL
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68300
+
+Information published.
+
+## CVE-2026-68180 intel_th: fix MSC output device reference leak
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68180
+
+Information published.
+
+## CVE-2026-68116 vxlan: mdb: Fix source list corruption on a failed replace
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68116
+
+Information published.
+
+## CVE-2026-68392 Bluetooth: mgmt: fix locking in unpair_device/disconnect_sync
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68392
+
+Information published.
+
+## CVE-2026-68409 wifi: mac80211: defer link RX stats percpu free to RCU
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68409
+
+Information published.
+
+## CVE-2026-68419 RDMA/irdma: Prevent rereg_mr for non-mem regions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68419
+
+Information published.
+
+## CVE-2026-68099 ksmbd: restore DACL size on check_add_overflow() to avoid malformed ACL
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68099
+
+Information published.
+
+## CVE-2026-68426 xfrm: fix stale skb->prev after async crypto steals a GSO segment
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68426
+
+Information published.
+
+## CVE-2026-68157 libceph: guard missing CRUSH type name lookup
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68157
+
+Information published.
+
+## CVE-2026-68357 watchdog: pretimeout: Fix UAF in watchdog_unregister_governor()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68357
+
+Information published.
+
+## CVE-2026-68202 ALSA: seq: close a re-opened queue timer in the destructor
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68202
+
+Information published.
+
+## CVE-2026-68109 drm/amdgpu/sdma7.1: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68109
+
+Information published.
+
+## CVE-2026-68406 wifi: cfg80211: validate PMSR FTM preamble range
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68406
+
+Information published.
+
+## CVE-2026-68320 sctp: fix auth_chunk_list capacity check in sctp_auth_ep_add_chunkid
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68320
+
+Information published.
+
+## CVE-2026-68317 pds_core: fix auxiliary device add/del races
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68317
+
+Information published.
+
+## CVE-2026-68223 media: meson: vdec: Fix memory leak in error path of vdec_open
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68223
+
+Information published.
+
+## CVE-2026-68364 drm/amd/display: Fix ISM dc_lock deadlock during suspend
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68364
+
+Information published.
+
+## CVE-2026-68199 wifi: ath6kl: fix OOB access from firmware ADDBA window size
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68199
+
+Information published.
+
+## CVE-2026-68137 net/x25: fix use-after-free in x25_kill_by_neigh()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68137
+
+Information published.
+
+## CVE-2026-68369 usb: gadget: printer: fix infinite loop in printer_read()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68369
+
+Information published.
+
+## CVE-2026-68417 RDMA/siw: publish QP after initialization
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68417
+
+Information published.
+
+## CVE-2026-68154 libceph: reject zero bucket types in crush_decode
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68154
+
+Information published.
+
+## CVE-2026-68123 openvswitch: fix GSO userspace truncation underflow
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68123
+
+Information published.
+
+## CVE-2026-68303 drm/vc4: hvs/v3d: Fix null dereference in unbind
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:12:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68303
+
+Information published.
+
+## CVE-2026-68217 media: pwc: Drain fill_buf on start_streaming() failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68217
+
+Information published.
+
+## CVE-2026-68328 nfp: Check resource mutex allocation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68328
+
+Information published.
+
+## CVE-2026-68404 wifi: cfg80211: use wiphy work for socket owner autodisconnect
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68404
+
+Information published.
+
+## CVE-2026-68284 bpf, sockmap: Fix cork use-after-free in tcp_bpf_sendmsg()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68284
+
+Information published.
+
+## CVE-2026-68408 wifi: cfg80211: convert pmsr_free_wk to wiphy_work to fix deadlock
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68408
+
+Information published.
+
+## CVE-2026-68088 usb: gadget: function: rndis: add length check to response query
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:44Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68088
+
+Information published.
+
+## CVE-2026-68165 mm/damon/core: validate ranges in damon_set_regions()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68165
+
+Information published.
+
+## CVE-2026-68218 media: pci: dm1105: Free allocated workqueue
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68218
+
+Information published.
+
+## CVE-2026-68250 drm/amdgpu/sdma5.2: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68250
+
+Information published.
+
+## CVE-2026-68207 media: ti: vpe: unwind v4l2 device registration on probe error
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68207
+
+Information published.
+
+## CVE-2026-68138 net/sched: serialize qdisc_rtab_list against concurrent get/put
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68138
+
+Information published.
+
+## CVE-2026-68108 drm/amdgpu/vce: fix integer overflow in image size
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68108
+
+Information published.
+
+## CVE-2026-68422 btrfs: fix root leak if its reloc root is unexpected in merge_reloc_roots()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68422
+
+Information published.
+
+## CVE-2026-68129 gve: fix Rx queue stall on alloc failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68129
+
+Information published.
+
+## CVE-2026-68156 libceph: refresh auth->authorizer_buf{,_len} after authorizer update
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68156
+
+Information published.
+
+## CVE-2026-68259 drm/amdkfd: Check bounds in allocate_event_notification_slot
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:20Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68259
+
+Information published.
+
+## CVE-2026-68299 vmxnet3: fix BUG_ON in vmxnet3_get_hdr_len() for Geneve packets
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68299
+
+Information published.
+
+## CVE-2026-68231 media: airspy: Return queued buffers on start_streaming() failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68231
+
+Information published.
+
+## CVE-2026-68112 drm/amdgpu/gfx9.4.3: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68112
+
+Information published.
+
+## CVE-2026-68118 tcp: challenge ACK for non-exact RST in SYN-RECEIVED
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68118
+
+Information published.
+
+## CVE-2026-68205 media: v4l2-fwnode: Fix subdev owner overwritten in v4l2_async_register_subdev_sensor()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68205
+
+Information published.
+
+## CVE-2026-68175 tracing: Fix resource leak on mmiotrace trace_pipe close
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:11:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68175
+
+Information published.
+
+## CVE-2026-68131 rbd: Reset positive result codes to zero in object map update path
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68131
+
+Information published.
+
+## CVE-2026-68091 HID: wacom: stop hardware after post-start probe failures
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68091
+
+Information published.
+
+## CVE-2026-68159 libceph: bound pg_{temp,upmap,upmap_items} length to CEPH_PG_MAX_SIZE
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68159
+
+Information published.
+
+## CVE-2026-68198 wifi: ath6kl: fix use-after-free in aggr_reset_state()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68198
+
+Information published.
+
+## CVE-2026-68194 wifi: mt76: mt7921: drop TXRX_NOTIFY on non-mmio buses
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68194
+
+Information published.
+
+## CVE-2026-68182 comedi: comedi_parport: deal with premature interrupt
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68182
+
+Information published.
+
+## CVE-2026-68331 dpaa2-eth: put MAC endpoint device on disconnect
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68331
+
+Information published.
+
+## CVE-2026-68398 ppp: defer channel free to an RCU grace period to fix pppol2tp RX UAF
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:41Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68398
+
+Information published.
+
+## CVE-2026-68215 media: radio-si476x: Unregister v4l2_device on probe failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68215
+
+Information published.
+
+## CVE-2026-68280 drm/bridge: cdns-dsi: Replace deprecated UNIVERSAL_DEV_PM_OPS()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68280
+
+Information published.
+
+## CVE-2026-68413 wifi: ipw2100: fix potential memory leak in ipw2100_pci_init_one()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68413
+
+Information published.
+
+## CVE-2026-68222 media: msi2500: Return queued buffers on start_streaming() failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68222
+
+Information published.
+
+## CVE-2026-68428 KVM: x86/mmu: Fix use-after-free on vendor module reload
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68428
+
+Information published.
+
+## CVE-2026-68166 userfaultfd: prevent registration of special VMAs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:26Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68166
+
+Information published.
+
+## CVE-2026-68414 wifi: cfg80211: cancel sched scan results work on unregister
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68414
+
+Information published.
+
+## CVE-2026-68277 drm/dp/mst: fix OOB reads on 2-byte fields in sideband reply parsers
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68277
+
+Information published.
+
+## CVE-2026-68115 drm/amdgpu/gfx10: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68115
+
+Information published.
+
+## CVE-2026-68389 Bluetooth: hci_qca: Clear memdump state on invalid dump size
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68389
+
+Information published.
+
+## CVE-2026-68318 pds_core: fix use-after-free on workqueue during remove
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68318
+
+Information published.
+
+## CVE-2026-68100 ksmbd: validate num_subauth when copying ACE in set_ntacl_dacl
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:10Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68100
+
+Information published.
+
+## CVE-2026-68158 libceph: Fix multiplication overflow in decode_new_up_state_weight()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68158
+
+Information published.
+
+## CVE-2026-68278 drm/dp/mst: fix buffer overflows in sideband chunk accumulation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68278
+
+Information published.
+
+## CVE-2026-68255 drm/virtio: bound EDID block reads to the response buffer
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68255
+
+Information published.
+
+## CVE-2026-68405 wifi: mac80211: free AP_VLAN bc_buf SKBs outside IRQ lock
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:10:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68405
+
+Information published.
+
+## CVE-2026-68220 media: nxp: imx8-isi: Add missing v4l2_subdev_cleanup() in crossbar and pipe
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68220
+
+Information published.
+
+## CVE-2026-68234 drm/amdgpu: fix bo->pin leaking in amdgpu_bo_create_reserved
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68234
+
+Information published.
+
+## CVE-2026-68125 mac802154: llsec: reject frames shorter than the authentication tag
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68125
+
+Information published.
+
+## CVE-2026-68145 iomap: fix out-of-bounds bitmap_set() with zero-length range
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68145
+
+Information published.
+
+## CVE-2026-68366 usb: gadget: uvc: clamp SEND_RESPONSE length to the response buffer
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68366
+
+Information published.
+
+## CVE-2026-68176 tracing: Fix mmiotrace possible NULL dereferencing of hiter->dev
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68176
+
+Information published.
+
+## CVE-2026-68206 media: v4l2-ctrls: validate HEVC active reference counts
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68206
+
+Information published.
+
+## CVE-2026-68143 net: slip: serialize receive against buffer reallocation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68143
+
+Information published.
+
+## CVE-2026-68111 drm/amdgpu/gfx9: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68111
+
+Information published.
+
+## CVE-2026-68195 wifi: mt76: mt7615: drop TXRX_NOTIFY on non-mmio buses
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68195
+
+Information published.
+
+## CVE-2026-68287 drop_monitor: fix size calculations for 64-bit attributes
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68287
+
+Information published.
+
+## CVE-2026-68403 wifi: brcmfmac: initialize SDIO data work before cleanup
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:31Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68403
+
+Information published.
+
+## CVE-2026-68355 wifi: ath11k: fix potential buffer underflow in ath11k_hal_rx_msdu_list_get()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68355
+
+Information published.
+
+## CVE-2026-68141 net/af_iucv: fix NULL deref in afiucv_hs_callback_syn()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68141
+
+Information published.
+
+## CVE-2026-68371 usb: musb: omap2430: Do not put borrowed of_node in probe
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68371
+
+Information published.
+
+## CVE-2026-68110 drm/amdgpu/sdma4.4.2: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68110
+
+Information published.
+
+## CVE-2026-68185 LoongArch: Move jump_label_init() before parse_early_param()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68185
+
+Information published.
+
+## CVE-2026-68096 audit: fix recursive locking deadlock in audit_dupe_exe()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68096
+
+Information published.
+
+## CVE-2026-68297 tipc: fix u16 MTU truncation in media and bearer MTU validation
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68297
+
+Information published.
+
+## CVE-2026-68395 ata: sata_dwc_460ex: enable SATA interrupts only after IRQ handler is registered
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68395
+
+Information published.
+
+## CVE-2026-68338 net/packet: avoid fanout hook re-registration after unregister
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:09:05Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68338
+
+Information published.
+
+## CVE-2026-68337 bpf: Reject redirect helpers without a bpf_net_context
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68337
+
+Information published.
+
+## CVE-2026-68130 ksmbd: defer destroy_previous_session() until after NTLM authentication
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:56Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68130
+
+Information published.
+
+## CVE-2026-68350 wifi: carl9170: fix OOB read from off-by-two in TX status handler
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:54Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68350
+
+Information published.
+
+## CVE-2026-72522 libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72522
+
+Information published.
+
+## CVE-2026-68312 cifs: fix cifsFileInfo leak on kmalloc failure in deferred close drain paths
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:45Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68312
+
+Information published.
+
+## CVE-2026-68306 wifi: mt76: mt7996: fix possible NULL-pointer deref in mt7996_mcu_sta_bfer_eht()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:43Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68306
+
+Information published.
+
+## CVE-2026-66484 Path Traversal in GNU cpio
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:34Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66484
+
+Information published.
+
+## CVE-2026-68161 sctp: close UDP tunnel sockets during netns teardown
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68161
+
+Information published.
+
+## CVE-2026-68397 net/iucv: take a reference on the socket found in afiucv_hs_rcv()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68397
+
+Information published.
+
+## CVE-2026-66485 Uncontrolled Memory Allocation in GNU cpio
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:24Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66485
+
+Information published.
+
+## CVE-2026-68155 libceph: Reject monmaps advertising zero monitors
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68155
+
+Information published.
+
+## CVE-2026-68249 drm/amdgpu/sdma5.0: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68249
+
+Information published.
+
+## CVE-2026-66486 Improper Output Encoding in GNU cpio
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:12Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66486
+
+Information published.
+
+## CVE-2026-68148 fscrypt: Add missing superblock check in find_or_insert_direct_key()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68148
+
+Information published.
+
+## CVE-2026-68197 wifi: mwifiex: fix NULL dereference when the AP has HT-cap but no HT-oper
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68197
+
+Information published.
+
+## CVE-2026-15534 Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-15534
+
+Information published.
+
+## CVE-2026-68272 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:08:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68272
+
+Information published.
+
+## CVE-2026-68315 sctp: validate stream count in sctp_process_strreset_inreq()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:07:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68315
+
+Information published.
+
+## CVE-2026-68241 drm/i915/mst: limit DP MST ESI service loop
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:07:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68241
+
+Information published.
+
+## CVE-2026-68362 wifi: ath11k: fix NULL pointer dereference in ath11k_hal_srng_access_begin
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:07:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68362
+
+Information published.
+
+## CVE-2026-68427 gpu: host1x: Fix use-after-free in host1x_bo_clear_cached_mappings
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:07:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68427
+
+Information published.
+
+## CVE-2026-68238 drm/amdgpu: Release VFCT ACPI table reference
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:07:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68238
+
+Information published.
+
+## CVE-2026-68254 drm/i915/vrr: require valid min/max vfreq for VRR
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:07:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68254
+
+Information published.
+
+## CVE-2026-68333 dpaa2-switch: put MAC endpoint device on disconnect
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:07:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68333
+
+Information published.
+
+## CVE-2026-68302 amt: re-read skb header pointers after every pull
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68302
+
+Information published.
+
+## CVE-2026-68286 drop_monitor: perform u64_stats updates under IRQ-disabled section
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68286
+
+Information published.
+
+## CVE-2026-68083 ksmbd: fix path resolution in ksmbd_vfs_kern_path_create
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68083
+
+Information published.
+
+## CVE-2026-68352 wifi: ath6kl: fix OOB read from firmware IE lengths in connect event
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68352
+
+Information published.
+
+## CVE-2026-68365 USB: serial: io_edgeport: cap received transmit credits
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68365
+
+Information published.
+
+## CVE-2026-68391 Bluetooth: mgmt: hold reference for hci_conn in mgmt_pending_cmds
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68391
+
+Information published.
+
+## CVE-2026-68351 wifi: carl9170: bound memcpy length in cmd callback to prevent OOB read
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68351
+
+Information published.
+
+## CVE-2026-68136 net: gro: fix double aggregation of flush-marked skbs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68136
+
+Information published.
+
+## CVE-2026-68308 wifi: mt76: mt7996: check pointer returned by mt76_connac_get_he_phy_cap()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:02Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68308
+
+Information published.
+
+## CVE-2026-68189 Bluetooth: hci_sync: Protect UUID list traversal
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:06:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68189
+
+Information published.
+
+## CVE-2026-68411 wifi: mac80211_hwsim: clamp virtio RX length before skb_put
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:51Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68411
+
+Information published.
+
+## CVE-2026-68152 amt: fix use-after-free in AMT delayed works
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68152
+
+Information published.
+
+## CVE-2026-68187 exec: fix unsigned loop counter wrap in transfer_args_to_stack()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:39Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68187
+
+Information published.
+
+## CVE-2026-68348 ASoC: tas2781: bound firmware description string parsing
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:37Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68348
+
+Information published.
+
+## CVE-2026-68374 usb: core: sysfs: add lock to bos_descriptors_read()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:28Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68374
+
+Information published.
+
+## CVE-2026-68353 wifi: ath6kl: fix OOB read from firmware num_msg in TX complete handler
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68353
+
+Information published.
+
+## CVE-2026-68181 mei: bus: access mei_device under device_lock on cleanup
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68181
+
+Information published.
+
+## CVE-2026-64581 xfrm: fix sk_dst_cache double-free in xfrm_user_policy()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:15Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64581
+
+Information published.
+
+## CVE-2026-68252 drm/amdgpu/sdma7.0: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68252
+
+Information published.
+
+## CVE-2026-68242 drm/i915/gt: Fix NULL deref on sched_engine alloc failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68242
+
+Information published.
+
+## CVE-2026-68256 drm/amd/display: detect_link_and_local_sink: DP alt mode timeout path leaks prev_sink reference
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:05:01Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68256
+
+Information published.
+
+## CVE-2026-55995 Double-free in the iSNS attribute decoder in open-iscsi
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:58Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55995
+
+Information published.
+
+## CVE-2026-68289 tipc: fix integer overflow in tipc_recvmsg() and tipc_recvstream()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:52Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68289
+
+Information published.
+
+## CVE-2026-68288 net: drop_monitor: fix info leak in NET_DM_ATTR_PAYLOAD
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:50Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68288
+
+Information published.
+
+## CVE-2026-68171 arm64: syscall: Ensure saved x0 is kept in-sync with tracer updates
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:40Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68171
+
+Information published.
+
+## CVE-2026-68388 smb/client: handle overlapping allocated ranges in fallocate
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:38Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68388
+
+Information published.
+
+## CVE-2026-65819 gopacket: Multiple layer decoders panic on crafted packets (out-of-bounds/underflow) enabling unauthenticated remote DoS via DecodingLayerParser
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:29Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65819
+
+Information published.
+
+## CVE-2026-68363 wifi: ath9k: hif_usb: don't dereference hif_dev after re-arming firmware request
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:27Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68363
+
+Information published.
+
+## CVE-2026-68244 drm/i915/gem: Do not leak siblings[] on proto context error
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:25Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68244
+
+Information published.
+
+## CVE-2026-64563 rhashtable: clear stale iter->p on table restart
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:24Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64563
+
+Information published.
+
+## CVE-2026-71557 go-git: Malicious reference names may modify files outside the reference storage
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71557
+
+Information published.
+
+## CVE-2026-68127 ila: reload IPv6 header after pskb_may_pull in checksum adjust
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:14Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68127
+
+Information published.
+
+## CVE-2026-54332 GoPacket's sFlow ExtendedGatewayFlow decoder: unbounded attacker-controlled allocation (104-byte UDP datagram -> up to 16 GiB make) -> unauthenticated remote DoS
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:13Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54332
+
+Information published.
+
+## CVE-2026-68399 bpf: Fix UAF in sock clone early bailouts
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:11Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68399
+
+Information published.
+
+## CVE-2026-71556 go-git: Worktree operations may follow symlinks
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71556
+
+Information published.
+
+## CVE-2026-68323 tipc: serialize udp bearer replicast list updates
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:04:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68323
+
+Information published.
+
+## CVE-2026-43871 Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: TCompactProtocol varint byte-count limit
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:59Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-43871
+
+Information published.
+
+## CVE-2026-68210 media: stm32: dcmi: unregister notifier on probe failure
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:57Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68210
+
+Information published.
+
+## CVE-2026-55969 Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: integer overflow in TProtocol::checkReadBytesAvailable()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:47Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55969
+
+Information published.
+
+## CVE-2026-68407 wifi: nl80211: free RNR data on MBSSID mismatch
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:46Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68407
+
+Information published.
+
+## CVE-2026-6879 Quadratic Behavior in xml.etree.ElementPath Index Predicates
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6879
+
+Information published.
+
+## CVE-2026-61477 Libvirt: libvirt: newline injection in network xml dns txt/srv fields allows dnsmasq config directive injection
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61477
+
+Information published.
+
+## CVE-2026-68104 drm/amdgpu: invoke pm_genpd_remove() before freeing genpd
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:33Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68104
+
+Information published.
+
+## CVE-2026-68235 drm/amd/display: dce100: skip non-DP stream encoders for DP MST
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:32Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68235
+
+Information published.
+
+## CVE-2026-64539 Bluetooth: eir: Fix stack OOB write when prepending the Flags AD
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:23Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64539
+
+Information published.
+
+## CVE-2026-68097 ksmbd: validate ACE size against SID sub-authorities
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:18Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68097
+
+Information published.
+
+## CVE-2026-68412 wifi: cfg80211: Fix an error handling path in cfg80211_wext_siwscan()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68412
+
+Information published.
+
+## CVE-2026-71497 jsoup: Cleaner may expose markup with custom raw-text elements
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:16Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71497
+
+Information published.
+
+## CVE-2024-14040 net: nexthop: Increase weight to u16
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:09Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-14040
+
+Information published.
+
+## CVE-2026-68098 ksmbd: bound DACL dedup walk to copied ACEs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:04Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68098
+
+Information published.
+
+## CVE-2026-68273 drm/amdgpu: Fix context pstate override handling
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68273
+
+Information published.
+
+## CVE-2026-64655 GitHub CLI: Attestation Verification Bypass via Unescaped Regex Metacharacters in SAN Matching
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:03:03Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64655
+
+Information published.
+
+## CVE-2026-64525 xfrm: move policy_bydst RCU sync from per-netns .exit to .pre_exit
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:55Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64525
+
+Information published.
+
+## CVE-2026-68183 firmware: stratix10-svc: fix memory leaks and list corruption bugs
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68183
+
+Information published.
+
+## CVE-2026-68190 staging: rtl8723bs: fix OOB reads in rtw_get_wps_ie()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:49Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68190
+
+Information published.
+
+## CVE-2026-64652 GitHub CLI: Partial token disclosure in `gh auth status` output
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:48Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64652
+
+Information published.
+
+## CVE-2026-64388 smb/client: fix chown/chgrp with SMB3 POSIX Extensions
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:42Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64388
+
+Information published.
+
+## CVE-2026-68186 binfmt_misc: set have_execfd only once the interpreter is opened
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:36Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68186
+
+Information published.
+
+## CVE-2026-64653 GitHub CLI: Unescaped variable components in request URLs could allow path traversal
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64653
+
+Information published.
+
+## CVE-2026-68114 drm/amdgpu/gfx12.1: replace BUG_ON() with WARN_ON()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:35Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68114
+
+Information published.
+
+## CVE-2026-64523 net/handshake: Take a long-lived file reference at submit
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:30Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64523
+
+Information published.
+
+## CVE-2026-68258 drm/amdkfd: Check bounds on CRIU restore queue type and mqd size
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:22Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68258
+
+Information published.
+
+## CVE-2026-68203 media: vivid: fix cleanup bugs in vivid_init()
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:21Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68203
+
+Information published.
+
+## CVE-2026-64377 cpufreq: qcom-cpufreq-hw: Fix possible double free
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:17Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64377
+
+Information published.
+
+## CVE-2026-64513 KVM: x86: Unconditionally recompute CR8 intercept on PPR update
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-11T08:02:06Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64513
+
+Information published.
+
+## MPF Announcement 2026-49
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-08-11T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-49
+
+## Mozilla updates GPG signing key for Firefox releases after exposure
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/
+
+## A lifetime of IT training from a popular course platform is now only $53
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-11T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/a-lifetime-of-it-training-from-a-popular-course-platform-is-now-only-53/
+
+## Regulatory Changes Required by the Energy Security and Lightering Independence Act of 2022
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-08-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/08/11/2026-16319/regulatory-changes-required-by-the-energy-security-and-lightering-independence-act-of-2022
+
+The Energy Security and Lightering Independence Act of 2022 amended the nonimmigrant classifications for aliens in transit (C) and for aliens serving as crewmen (D) to include individuals who perform ship-to-ship liquid cargo transfer operations to or from another vessel engaged in foreign trade (lightering). The statute authorizes qualifying aliens to seek admission to the Un…
+
+## Adjudication of Civil Penalties Against International Marriage Brokers
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-08-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/08/11/2026-16290/adjudication-of-civil-penalties-against-international-marriage-brokers
+
+This interim final rule ("IFR") amends Department of Justice ("Department") regulations to specify the procedures for adjudicating alleged violations of the International Marriage Broker Regulation Act of 2005 ("IMBRA") by international marriage brokers ("IMBs") doing business in the United States that fail to provide required information to persons recruited for matchmaking s…
+
+## Employer Contributions to Trump Accounts and Nondiscrimination Rules for Dependent Care Assistance Programs
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-08-11T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/08/11/2026-16314/employer-contributions-to-trump-accounts-and-nondiscrimination-rules-for-dependent-care-assistance
+
+This document contains proposed regulations that would provide guidance with respect to employer contributions to Trump accounts, including applicable nondiscrimination rules, and the nondiscrimination rules for dependent care assistance programs. This document also provides a notice of a public hearing on the proposed regulations. The proposed regulations would affect employe…
+
+## Hackers breached a small Polish energy plant via private APN last year
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-10T23:07:21Z
+- URL: https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/
+
+Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]
+
+## BdThemes plugins supply-chain hack creates rogue WordPress admins
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-10T21:12:10Z
+- URL: https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
+
+A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]
+
+## Presidential Message on National Shooting Sports Month
+- Source: White House
+- Category: Executive
+- Published: 2026-08-10T21:06:36Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-national-shooting-sports-month-4561/
+
+## OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-10T19:24:40Z
+- URL: https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/
+
+OpenAI has developed a new model called "GPT 5.6 Cyber," designed for vulnerability research, penetration testing, incident response, and remediation. [...]
+
+## Press Release: FDIC Announces New Review Process for Deposit Insurance Applications
+- Source: FDIC
+- Category: Banking
+- Published: 2026-08-10T18:10:04Z
+- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/42448d0
+
+PRESS RELEASE | AUGUST 10, 2026 Press Release: FDIC Announces New Review Process for Deposit Insurance Applications WASHINGTON—The Federal Deposit Insurance Corporation (FDIC) today announced a new two-phase process the agency will use to review new deposit insurance applications. The new procedures are intended to encourage new bank formation, accelerate the speed of the revi…
+
+## New StormEncryptor ransomware used by former Medusa affiliate
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-10T17:42:00Z
+- URL: https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/
+
+A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]
+
+## Remarks from Secretary of the Treasury Scott Bessent at Joint Base Lindsey Graham Renaming Ceremony
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-08-10T17:05:11Z
+- URL: https://home.treasury.gov/news/press-releases/sb0601
+
+## Credit Washing, Disputes and Fraud: What you need to know in our upcoming webinar
+- Source: CDIA
+- Category: Compliance Watch
+- Published: 2026-08-10T15:36:43Z
+- URL: https://www.cdiaonline.org/events/2026/08/10/credit-washing-disputes-and-fraud-what-you-need-to-know-in-our-upcoming-webinar/
+
+Credit Washing is not going away just yet and we have already seen how it can distort credit risk assessments, undermine confidence... The post Credit Washing, Disputes and Fraud: What you need to know in our upcoming webinar appeared first on CDIA .
+
+## CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-10T14:34:32Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/
+
+CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]
+
+## When Credentials Are No Longer Enough: Device Trust in the AI Era
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-10T14:01:11Z
+- URL: https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/
+
+AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]
+
+## CVE-2024-21380 Microsoft Dynamics Business Central/NAV Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21380
+
+Updated the build numbers. This is an informational update only.
+
+## CVE-2026-50309 Windows NTFS Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50309
+
+Updated an acknowledgement. This is an informational change only.
+
+## CVE-2026-50357 Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50357
+
+Acknowledgement Updated
+
+## CVE-2026-40417 Microsoft Dynamics 365 Business Central Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40417
+
+Updated the build numbers. This is an informational update only.
+
+## CVE-2025-29821 Microsoft Dynamics Business Central Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-29821
+
+Updated the build numbers. This is an informational update only.
+
+## CVE-2021-34474 Microsoft Dynamics 365 Business Central Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34474
+
+Updated the build numbers. This is an informational update only.
+
+## CVE-2021-40440 Microsoft Dynamics Business Central Cross-site Scripting Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40440
+
+Updated the build numbers. This is an informational update only.
+
+## CVE-2024-38225 Microsoft Dynamics 365 Business Central Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38225
+
+Updated the build numbers. This is an informational update only.
+
+## CVE-2021-36946 Microsoft Dynamics Business Central Cross-site Scripting Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-10T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36946
+
+Updated the build numbers. This is an informational update only.
 
 ## Member of The Com sent to prison for blackmail, sextortion
 - Source: BleepingComputer
@@ -26,14 +2782,6 @@ LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as pa
 - URL: https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/
 
 Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]
-
-## Critical Progress LoadMaster flaw now actively exploited in attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-10T09:49:37Z
-- URL: https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]
 
 ## CVE-2026-54876 Client-Side Memory Leak in OCSP Response Checking
 - Source: Microsoft MSRC
@@ -179,17 +2927,41 @@ Information published.
 
 Information published.
 
-## When Credentials Are No Longer Enough: Device Trust in the AI Era
-- Source: BleepingComputer
-- Category: IS
+## ABA Donates $25,000 to Support Washington State Wildfire Relief Efforts
+- Source: ABA
+- Category: Compliance Watch
+- Published: 2026-08-10T04:00:00Z
+- URL: https://www.aba.com/about-us/press-room/press-releases/aba-donates-25000-to-support-washington-state-wildfire-relief-efforts
+
+ABA Donates $25,000 to Support Washington State Wildfire Relief Efforts
+
+## FDIC Announces New Review Process for Deposit Insurance Applications
+- Source: FDIC
+- Category: Banking
 - Published: 2026-08-10T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/
+- URL: https://www.fdic.gov/news/press-releases/2026/fdic-announces-new-review-process-deposit-insurance-applications
+
+The FDIC today announced a new two-phase process the agency will use to review new deposit insurance applications.
+
+## Strengthening Financial Institution-Corporate Partnerships: Risk Management ‘is Everyone’s Full-Time Job’
+- Source: NACHA
+- Category: Payments
+- Published: 2026-08-10T00:00:00Z
+- URL: https://www.nacha.org/news/strengthening-financial-institution-corporate-partnerships-risk-management-everyones-full-time
+
+If your financial institution treats clients’ risk management as a one-and-done task, Greg Miles believes something is very wrong. “Risk management is a continuous, integrated component of the client relationship. It’s not a one-time discussion,” said Miles, Executive Vice President, Treasury Management Products and Services at Regions Bank, a Nacha Direct Member. “We talk abo…
 
 ## This lifetime subscription of AdGuard works across 9 devices, only $11
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-08-10T00:00:00Z
 - URL: https://www.bleepingcomputer.com/offer/deals/this-lifetime-subscription-of-adguard-works-across-9-devices-only-11/
+
+## Critical Progress LoadMaster flaw now actively exploited in attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-10T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
 
 ## Backup Withholding on Third Party Network Transactions
 - Source: Federal Register
@@ -559,22 +3331,6 @@ Information published.
 
 Information published.
 
-## Hackers breach TrueConf to trojanize client installers with backdoors
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-08T14:16:23Z
-- URL: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
-
-The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
-
-## CVE-2026-55995 Double-free in the iSNS attribute decoder in open-iscsi
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-08-08T08:41:38Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55995
-
-Information published.
-
 ## CVE-2026-44944 iscsiuio control-socket authentication bypass in open-iscsi
 - Source: Microsoft MSRC
 - Category: IS
@@ -588,14 +3344,6 @@ Information published.
 - Category: IS
 - Published: 2026-08-08T08:41:21Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44943
-
-Information published.
-
-## CVE-2026-6879 Quadratic Behavior in xml.etree.ElementPath Index Predicates
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-08-08T08:41:10Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-6879
 
 Information published.
 
@@ -663,6 +3411,12 @@ Information published.
 
 Information published.
 
+## Hackers breach TrueConf to trojanize client installers with backdoors
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-08T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
+
 ## Lifetime access to 1TB of cloud storage is just $129.99 through 8/10
 - Source: BleepingComputer
 - Category: IS
@@ -681,28 +3435,6 @@ Information published.
 - Published: 2026-08-07T20:39:09Z
 - URL: https://home.treasury.gov/news/press-releases/sb0599
 
-## Metabase SQLi zero-day exploited in customer data-theft attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-07T20:14:46Z
-- URL: https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/
-
-A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]
-
-## Fact Sheet: President Donald J. Trump Announces Billions in New Deals and Investments to Power American Mining
-- Source: White House
-- Category: Executive
-- Published: 2026-08-07T19:44:19Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-announces-billions-in-new-deals-and-investments-to-power-american-mining/
-
-## Unlimited Technology Systems breach impacts 3.8 million people
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-07T19:30:41Z
-- URL: https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/
-
-Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]
-
 ## Treasury Sanctions Crypto Exchanges Funding Iran’s IRGC and Enabling Illicit Finance
 - Source: Treasury
 - Category: OFAC
@@ -720,28 +3452,6 @@ Healthcare software company Unlimited Technology Systems reported that more than
 - Category: OFAC
 - Published: 2026-08-07T17:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0597
-
-## Levi Strauss & Co. says hackers stole corporate data in cyberattack
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-07T15:48:20Z
-- URL: https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/
-
-Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]
-
-## Nominations Sent to the Senate
-- Source: White House
-- Category: Executive
-- Published: 2026-08-07T15:09:20Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/08/nominations-sent-to-the-senate-e61c/
-
-## Real emails, hijacked payments: Two H1 2026 attack chains
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-07T14:00:10Z
-- URL: https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/
-
-Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]
 
 ## CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
@@ -766,14 +3476,6 @@ Acknowledgement Updated
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47303
 
 Acknowledgement Updated
-
-## North Carolina Ports confirms cyberattack disrupting operations
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-07T13:34:40Z
-- URL: https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/
-
-The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]
 
 ## FinCEN Renews Minnesota Geographic Targeting Order
 - Source: FinCEN
@@ -893,78 +3595,6 @@ IR-2026-89, August 7, 2026 — The Department of the Treasury and the Internal R
 - Published: 2026-08-07T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-probes-compass-mred-partnership-over-private-real-estate-listings-that-could-create-anticompetitive-two-tiered-housing-market
 
-## Upgrade your AI skills for $25 with this five-course bundle
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-07T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/upgrade-your-ai-skills-for-25-with-this-five-course-bundle/
-
-## Protect your identity for less with this LifeLock Core deal
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-07T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/protect-your-identity-for-less-with-this-lifelock-core-deal/
-
-## OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-06T22:48:22Z
-- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/
-
-OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]
-
-## ClickFix attack pushes macOS infostealer for crypto theft attacks
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-06T22:37:17Z
-- URL: https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/
-
-A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]
-
-## Fact Sheet: President Donald J. Trump Ends Birth Tourism and Protects the Meaning and Value of American Citizenship
-- Source: White House
-- Category: Executive
-- Published: 2026-08-06T21:11:38Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-ends-birth-tourism-and-protects-the-meaning-and-value-of-american-citizenship/
-
-## Continuing to Protect the Meaning and Value of American Citizenship
-- Source: White House
-- Category: Executive
-- Published: 2026-08-06T21:08:24Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/08/continuing-to-protect-the-meaning-and-value-of-american-citizenship/
-
-## Ending Birth Tourism
-- Source: White House
-- Category: Executive
-- Published: 2026-08-06T21:07:11Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/08/ending-birth-tourism/
-
-## Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Polysilicon and its Derivatives
-- Source: White House
-- Category: Executive
-- Published: 2026-08-06T21:04:59Z
-- URL: https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-polysilicon-and-its-derivatives/
-
-## Adjusting Imports of Polysilicon and its Derivatives into the United States
-- Source: White House
-- Category: Executive
-- Published: 2026-08-06T21:03:35Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states/
-
-## National Purple Heart Day, 2026
-- Source: White House
-- Category: Executive
-- Published: 2026-08-06T20:54:24Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/08/national-purple-heart-day-2026/
-
-## Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-06T20:07:24Z
-- URL: https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/
-
-A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]
-
 ## Statements & Remarks
 - Source: Treasury
 - Category: OFAC
@@ -977,19 +3607,11 @@ A recent wave of cyberattacks targeting hedge funds, private-equity firms, and o
 - Published: 2026-08-06T19:40:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0595
 
-## Swiss government SharePoint breach compromised 200 accounts
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-06T18:14:19Z
-- URL: https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/
-
-Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]
-
 ## The Full Picture Matters: Why the tri-merge protects homebuyers
 - Source: CDIA
 - Category: Compliance Watch
 - Published: 2026-08-06T15:00:24Z
-- URL: https://www.cdiaonline.org/news/2026/08/06/the-full-picture-matters-why-the-tri-merge-protects-homebuyers/
+- URL: https://www.cdiaonline.org/views/2026/08/06/the-full-picture-matters-why-the-tri-merge-protects-homebuyers/
 
 By Dan Smith, President and CEO, Consumer Data Industry Association On July 1, Fannie Mae and Freddie Mac released historical FICO... The post The Full Picture Matters: Why the tri-merge protects homebuyers appeared first on CDIA .
 
@@ -1269,18 +3891,6 @@ An ACH reversal is an ACH entry that allows an Originator to correct certain pay
 - Published: 2026-08-06T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-second-quarter-2026-results
 
-## Train for all eight CISSP domains from home for just $20
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-06T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/train-for-all-eight-cissp-domains-from-home-for-just-20/
-
-## Education Services
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-08-06T00:00:00Z
-- URL: https://www.cdiaonline.org/education-services/
-
 ## Extensions of Credit to Insiders
 - Source: Federal Register
 - Category: Federal Register
@@ -1412,18 +4022,6 @@ PRESS RELEASE | AUGUST 5, 2026 FDIC Issues List of Banks Examined for CRA Compli
 - Category: OFAC
 - Published: 2026-08-05T14:00:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0593
-
-## Quarterly Refunding Statement of Deputy Assistant Secretary for Federal Finance Brian Smith
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-08-05T12:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0590
-
-## Report to the Secretary of the Treasury from the Treasury Borrowing Advisory Committee
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-08-05T12:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0591
 
 ## Presidential Message on the Birthday of the United States Coast Guard
 - Source: White House
@@ -1583,12 +4181,6 @@ The Board is inviting public comment on proposed amendments to Regulation O, whi
 
 The Board invites comment on a notice of proposed rulemaking (proposal) to modernize the regulatory framework applicable to mutual holding companies (MHCs), primarily through proposed revisions to Regulation MM (12 CFR part 239), which governs the formation, operations, activities, and conversion of savings and loan holding companies in mutual form. The proposal would amend Re…
 
-## Establishing the President’s Military Spouse Commission
-- Source: White House
-- Category: Executive
-- Published: 2026-08-03T19:13:55Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/08/establishing-the-presidents-military-spouse-commission-af64/
-
 ## Paoletta is new CFPB acting director
 - Source: TBA
 - Category: Compliance Watch
@@ -1620,6 +4212,14 @@ Acknowledgement Updated
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50493
 
 Acknowledgement Updated
+
+## Visa to Acquire BioCatch
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-08-03T12:30:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22626.html
+
+BioCatch’s behavioral and device intelligence expertise expected to help detect scams, account takeovers and digital fraud before they happen SAN FRANCISCO & TEL AVIV, Israel --(BUSINESS WIRE)--Aug. 3, 2026-- Visa (NYSE: V) today announced it has signed a definitive agreement to acquire BioCatch, a
 
 ## FinCEN Assesses Historic $125 Million Penalty Against UBS Financial Services Inc. for Recidivist BSA Violations
 - Source: FinCEN
@@ -1678,12 +4278,6 @@ The Office of Personnel Management (OPM) is revising its reduction in force (RIF
 - URL: https://www.federalregister.gov/documents/2026/08/03/2026-15614/section-898c-transition-rule-for-allocating-foreign-taxes-and-section-960d4-foreign-tax-credit
 
 This document contains proposed regulations that relate to allocating foreign taxes of foreign corporations affected by the repeal of the one-month deferral election and to the disallowance of foreign tax credits on certain distributions of previously taxed earnings and profits. The proposed regulations would affect taxpayers that operate in foreign countries through certain f…
-
-## To Facilitate Positive Adjustment to Competition from Imports of Quartz Surface Products
-- Source: White House
-- Category: Executive
-- Published: 2026-07-31T21:00:00Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/to-facilitate-positive-adjustment-to-competition-from-imports-of-quartz-surface-products/
 
 ## Press Release: Joint Statement of Enforcement Policy in support of Venezuela’s Economic Recovery and Earthquake Relief Efforts
 - Source: FDIC
@@ -1818,18 +4412,6 @@ The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, 
 - URL: https://www.federalregister.gov/documents/2026/07/31/2026-15567/reducing-bureaucracy-and-burden-for-family-assistance-programs
 
 This final rule amends the Grants to States for Public Assistance Programs regulations, the General Administration--State Plans and Grant Appeals regulations, the General Administration--Public Assistance Programs regulations, the Training and Use of Subprofessionals and Volunteers regulations, the Coverage and Conditions of Eligibility in Financial Assistance Programs regulat…
-
-## Presidential Permit: Authorizing Cameron County, Texas, To Own, Operate, and Maintain the Brownsville and Matamoros Bridge in Brownsville, Texas
-- Source: White House
-- Category: Executive
-- Published: 2026-07-30T20:34:13Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/presidential-permit-authorizing-cameron-county-texas-to-own-operate-and-maintain-the-brownsville-and-matamoros-bridge-in-brownsville-texas/
-
-## Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials
-- Source: White House
-- Category: Executive
-- Published: 2026-07-30T20:33:26Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/07/presidential-determination-pursuant-to-section-101-of-the-defense-production-act-of-1950-as-amended-on-recoverable-critical-minerals-and-materials/
 
 ## Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank
 - Source: FRB
@@ -2085,6 +4667,14 @@ This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromiu
 
 This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
 
+## Visa Fiscal Third Quarter 2026 Financial Results
+- Source: Visa
+- Category: Payment Card Networks
+- Published: 2026-07-28T20:05:00Z
+- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22601.html
+
+SAN FRANCISCO --(BUSINESS WIRE)--Jul. 28, 2026-- Visa (NYSE: V) today announced its fiscal third quarter 2026 financial results through an earnings release that will be furnished with the Securities and Exchange Commission on a Form 8-K and available on its Investor Relations website at
+
 ## CVE-2026-50422 Windows NTFS Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -2108,307 +4698,3 @@ Corrected Build Number in the Security Updates table. This is an informational c
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59117
 
 Change the name of the affected software from **Microsoft Power Apps** to **Microsoft Power Apps Desktop Client**. This is an informational change only.
-
-## Presidential Message on the 45th Anniversary of the Martyrdom of Father Stanley Rother
-- Source: White House
-- Category: Executive
-- Published: 2026-07-28T04:30:00Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-45th-anniversary-of-the-martyrdom-of-father-stanley-rother/
-
-## IRS recognizes National Whistleblower Day with $8 billion recovered since 2007
-- Source: IRS
-- Category: IRS
-- Published: 2026-07-28T00:00:00Z
-- URL: https://www.irs.gov/newsroom/irs-recognizes-national-whistleblower-day-with-8-billion-recovered-since-2007
-
-IR-2026-84, July 28, 2026 — The Internal Revenue Service today highlighted the upcoming National Whistleblower Day, and the important role whistleblowers play in exposing fraud, reducing the tax gap, and strengthening compliance.
-
-## Visa to Acquire BioCatch
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22626.html
-
-## Visa Fiscal Third Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22601.html
-
-## New Visa Data Reveals How the FIFA World Cup 2026™ Created Pop-Up Economies Across Canada, Mexico and the United States
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22596.html
-
-## Visa Introduces Platform for Stablecoin Minting, Movement and Management
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22591.html
-
-## Visa Introduces AI Financial Assistant, Helping Banks Guide Customers from Insight to Action
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22576.html
-
-## Visa Research: The Great Wealth Transfer Is Already Reshaping How Americans Spend
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22571.html
-
-## Visa to Announce Fiscal Third Quarter 2026 Financial Results on July 28, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22566.html
-
-## Visa: AI and Digital Commerce Power Global Economy Growth Amid Rising Costs
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22536.html
-
-## Visa Redefines Its Role in Travel With the Global Launch of Visa Destinations
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22521.html
-
-## Visa Partners with OpenAI to Power the Next Generation of AI Commerce
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22496.html
-
-## Visa and Brale Explore Private Stablecoin Settlement for Institutional Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22481.html
-
-## Visa Expands Commercial Solutions Hub with Integration of Visa Accounts Receivable Manager
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22471.html
-
-## Visa Threats Report: As Network Security Strengthens, Criminals Accelerate Shift to AI-Enabled Social Engineering
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22466.html
-
-## Men in Blazers Media Network and Visa Team Up to Launch Fan-Powered City Guides Celebrating Soccer Culture and Local Small Businesses
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22461.html
-
-## Visa and Jason Sudeikis Turn the Simplest Goal in Football Into the Biggest Fan Moments at the FIFA World Cup 2026™
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22441.html
-
-## Your Card, Your Security. Tap: A Safer Way to Verify Identity — Visa, Keyno, and Fidelity Bank (Bahamas) Lead the Transformation
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22406.html
-
-## Visa Announces Expiration and Results of Exchange Offer for Class B-1 and Class B-2 Common Stock
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22386.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22376.html
-
-## Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html
-
-## Visa Fiscal Second Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22321.html
-
-## Visa Launches Validator Node on Tempo Blockchain
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22311.html
-
-## Visa Commences Exchange Offer for Class B-1 and Class B-2 Common Stock
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22291.html
-
-## Visa to Announce Fiscal Second Quarter 2026 Financial Results on April 28, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22281.html
-
-## Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html
-
-## Visa Defines the Next Era of Commerce: When AI Becomes the Customer
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22266.html
-
-## Visa Unveils New Services to Modernize Dispute Resolution Process
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html
-
-## Visa, Street Soccer USA and Bank of America to Bring Visa Street Soccer Parks to Every FIFA World Cup 2026™ Host City in the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22256.html
-
-## Visa Launches Enhanced Subscription Manager, Giving Consumers Greater Control Over Recurring Payments
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22236.html
-
-## Visa to Bring Privacy-Preserving Payments to Canton Network
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html
-
-## Visa and Bridge Expand Collaboration, with Plans to Bring Stablecoin-Linked Cards to Over 100 Countries
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html
-
-## Visa Completes Acquisition of Prisma and Newpay
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22186.html
-
-## Visa to Acquire Prisma Medios de Pago and Newpay in Argentina
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22176.html
-
-## Visa Renews Partnership Across Red Bull Formula One Teams
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22171.html
-
-## Italy Sees Economic Boost From the Opening Weekend of the Olympic Winter Games Milano Cortina 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22146.html
-
-## Visa to Participate in Upcoming Investor Conferences
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22126.html
-
-## Visa Introduces Visa & Main, A New Platform to Accelerate Small Business Growth Across the U.S.
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22121.html
-
-## Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22101.html
-
-## Visa Fiscal First Quarter 2026 Financial Results
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22086.html
-
-## Visa Spending Study Shows How Americans Will Use AI to Plan, Book and Spend on Winter Sports
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22026.html
-
-## Visa Debuts Milano Cortina 2026 Campaign Starring Record‑Breaking Athletes Mikaela Shiffrin and Oksana Masters
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22021.html
-
-## Visa to Announce Fiscal First Quarter 2026 Financial Results on January 29, 2026
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22011.html
-
-## Visa 2026 Global Economic Outlook: AI Adoption and Shifting Trade Patterns Drive Economic Transformation Beneath Steady Growth
-- Source: Visa
-- Category: Payment Card Networks
-- Published: 2026-07-28T00:00:00Z
-- URL: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22006.html
-
-## Presidential Message on National Korean War Veterans Armistice Day
-- Source: White House
-- Category: Executive
-- Published: 2026-07-27T22:51:46Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-national-korean-war-veterans-armistice-day-3cd7/
-
-## CVE-2026-50333 Windows Spaceport.sys Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-27T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50333
-
-Updated an acknowledgement. This is an informational change only.
-
-## CVE-2026-50697 Windows Common Log File System Driver Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-27T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50697
-
-Updated an acknowledgement. This is an informational change only.
-
-## CVE-2026-50343 Microsoft Install Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-27T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50343
-
-Updated an acknowledgement. This is an informational change only.
-
-## CVE-2026-56159 DHCP Server Service Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-07-27T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56159
-
-Updated an acknowledgement. This is an informational change only.
