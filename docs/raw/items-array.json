@@ -2,10 +2,175 @@
   {
     "category": "IS",
     "source": "BleepingComputer",
+    "title": "Microsoft tests faster Windows File Explorer, new context menu",
+    "published_at": "2026-08-18T11:14:28Z",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
+    "summary": "Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds rolling out to Insiders this week. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+    "published_at": "2026-08-18T10:32:16Z",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
+    "published_at": "2026-08-18T09:24:49Z",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
+    "summary": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint Online, and OneDrive. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+    "published_at": "2026-08-18T08:12:08Z",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+    "summary": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Get 5 years of AdGuard VPN on 10 devices for just $35",
+    "published_at": "2026-08-18T00:00:00Z",
+    "url": "https://www.bleepingcomputer.com/offer/deals/get-5-years-of-adguard-vpn-on-10-devices-for-just-35/",
+    "summary": ""
+  },
+  {
+    "category": "Federal Register",
+    "source": "Federal Register",
+    "title": "GENIUS Act Regulations on Payment Stablecoin Issuance, Offer, and Sale",
+    "published_at": "2026-08-18T00:00:00Z",
+    "url": "https://www.federalregister.gov/documents/2026/08/18/2026-16796/genius-act-regulations-on-payment-stablecoin-issuance-offer-and-sale",
+    "summary": "The Department of the Treasury (Treasury) proposes to issue regulations to implement section 3 of the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act regarding the statutory prohibitions and limitations on payment stablecoin issuance, offer, and sale in the United States.",
+    "fr_tags": [
+      "agency:treasury-department",
+      "topic:banks-banking"
+    ],
+    "fedreg_document_number": "2026-16796"
+  },
+  {
+    "category": "OFAC",
+    "source": "Treasury",
+    "title": "Treasury International Capital Data for June",
+    "published_at": "2026-08-17T20:00:00Z",
+    "url": "https://home.treasury.gov/news/press-releases/sb0606",
+    "summary": ""
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+    "published_at": "2026-08-17T19:35:01Z",
+    "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+    "summary": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+    "published_at": "2026-08-17T19:12:39Z",
+    "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+    "summary": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
+    "title": "Microsoft confirms GitHub is down worldwide",
+    "published_at": "2026-08-17T14:47:08Z",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+    "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "BleepingComputer",
     "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
     "published_at": "2026-08-17T14:00:10Z",
     "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
     "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+    "summary": "Acknowledgement Updated"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-56188 Windows Server Network driver Remote Code Execution Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56188",
+    "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-62722 Microsoft Brokering File System Elevation of Privilege Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62722",
+    "summary": "Corrected the CVE description and title. This is an informational change only."
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-66807 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66807",
+    "summary": "Acknowledgement Updated"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-63519 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63519",
+    "summary": "Acknowledgement Updated"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-63513 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63513",
+    "summary": "Acknowledgement Updated"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-70337 Microsoft PowerShell Remote Code Execution Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70337",
+    "summary": "Acknowledgement Updated"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-58612 PowerShell Information Disclosure Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58612",
+    "summary": "Acknowledgement Updated"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-62886 .NET Elevation of Privilege Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62886",
+    "summary": "Acknowledgement Updated"
+  },
+  {
+    "category": "IS",
+    "source": "Microsoft MSRC",
+    "title": "CVE-2026-63518 Microsoft Office Word Remote Code Execution Vulnerability",
+    "published_at": "2026-08-17T14:00:00Z",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63518",
+    "summary": "Acknowledgement Updated"
   },
   {
     "category": "Executive",
@@ -54,6 +219,22 @@
     "published_at": "2026-08-17T09:05:33Z",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
     "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]"
+  },
+  {
+    "category": "Mortgage",
+    "source": "Fannie Mae",
+    "title": "Data and Insights",
+    "published_at": "2026-08-17T00:00:00Z",
+    "url": "https://www.fanniemae.com/data-and-insights",
+    "summary": "Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow."
+  },
+  {
+    "category": "Mortgage",
+    "source": "Fannie Mae",
+    "title": "News & Commentaries",
+    "published_at": "2026-08-17T00:00:00Z",
+    "url": "https://capitalmarkets.fanniemae.com/news-commentaries",
+    "summary": ""
   },
   {
     "category": "Fintech Watch",
@@ -111,14 +292,6 @@
   },
   {
     "category": "IS",
-    "source": "BleepingComputer",
-    "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-    "published_at": "2026-08-16T15:07:44Z",
-    "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-    "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]"
-  },
-  {
-    "category": "IS",
     "source": "Microsoft MSRC",
     "title": "CVE-2026-65768 Microsoft Teams Remote Code Execution Vulnerability",
     "published_at": "2026-08-16T14:00:00Z",
@@ -160,18 +333,18 @@
   {
     "category": "IS",
     "source": "BleepingComputer",
-    "title": "Get access to ChatGPT, Claude & Gemini for just $69.97 today",
+    "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
     "published_at": "2026-08-16T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/offer/deals/get-access-to-chatgpt-claude-and-gemini-for-just-6997-today/",
+    "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
     "summary": ""
   },
   {
     "category": "IS",
     "source": "BleepingComputer",
-    "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-    "published_at": "2026-08-15T14:14:38Z",
-    "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-    "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]"
+    "title": "Get access to ChatGPT, Claude & Gemini for just $69.97 today",
+    "published_at": "2026-08-16T00:00:00Z",
+    "url": "https://www.bleepingcomputer.com/offer/deals/get-access-to-chatgpt-claude-and-gemini-for-just-6997-today/",
+    "summary": ""
   },
   {
     "category": "Legislative",
@@ -200,9 +373,9 @@
   {
     "category": "IS",
     "source": "BleepingComputer",
-    "title": "Own 2TB of cloud storage for life with FileJump for just $59 in this deal",
+    "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
     "published_at": "2026-08-15T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/offer/deals/own-2tb-of-cloud-storage-for-life-with-filejump-for-just-59-in-this-deal/",
+    "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
     "summary": ""
   },
   {
@@ -246,22 +419,6 @@
     "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2025) for more information."
   },
   {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "How Anthropic plans to watermark Claude's AI-generated text",
-    "published_at": "2026-08-14T23:24:17Z",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-    "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-    "published_at": "2026-08-14T18:04:26Z",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-    "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...]"
-  },
-  {
     "category": "Executive",
     "source": "White House",
     "title": "Presidential Message on the Anniversary of Winning World War II",
@@ -284,22 +441,6 @@
     "published_at": "2026-08-14T16:09:05Z",
     "url": "https://www.cdiaonline.org/news/2026/08/14/a-win-for-national-uniformity-in-credit-reporting/",
     "summary": "By Denise Norgle Senior Vice President of Public Policy, Legal and Regulatory Affairs, CDIA On August 10, a federal judge in... The post A Win for National Uniformity in Credit Reporting appeared first on CDIA ."
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-    "published_at": "2026-08-14T14:59:55Z",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-    "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]"
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
-    "published_at": "2026-08-14T14:00:10Z",
-    "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-    "summary": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]"
   },
   {
     "category": "IS",
@@ -376,25 +517,9 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-58612 PowerShell Information Disclosure Vulnerability",
-    "published_at": "2026-08-14T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58612",
-    "summary": "The security updates for Powershell have been updated."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-59119 PowerShell Elevation of Privilege Vulnerability",
     "published_at": "2026-08-14T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59119",
-    "summary": "The security updates for Powershell have been updated."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-70337 Microsoft PowerShell Remote Code Execution Vulnerability",
-    "published_at": "2026-08-14T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70337",
     "summary": "The security updates for Powershell have been updated."
   },
   {
@@ -420,14 +545,6 @@
     "published_at": "2026-08-14T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69414",
     "summary": "Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as \"ShieldBreak \". We are working to provide a high quality security update that addresses this vulnerability. We will provide information in this CVE when the update is available."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
-    "published_at": "2026-08-14T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
-    "summary": "Acknowledgement Updated"
   },
   {
     "category": "IS",
@@ -462,14 +579,6 @@
     "summary": "This CVE has been discovered to be an Elevation of Privilege and not an Information Disclosure. The CVE's Impact has been updated."
   },
   {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
-    "published_at": "2026-08-14T13:45:18Z",
-    "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
-    "summary": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]"
-  },
-  {
     "category": "Compliance Watch",
     "source": "CDIA",
     "title": "Back From the Dead: The Impacts of the Renewed Section 1033 Rulemaking on the Credit Reporting Industry",
@@ -500,22 +609,6 @@
     "published_at": "2026-08-14T00:00:00Z",
     "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/2026-stress-test-results",
     "summary": "As required under the Dodd-Frank legislation, Fannie Mae conducted a stress test in 2026 reflecting a hypothetical severely adverse economic scenario."
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Shell investigates 'potential incident' after Clop data theft claims",
-    "published_at": "2026-08-14T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-    "summary": ""
-  },
-  {
-    "category": "IS",
-    "source": "BleepingComputer",
-    "title": "Get 6 Claude & ChatGPT project management courses for just $20",
-    "published_at": "2026-08-14T00:00:00Z",
-    "url": "https://www.bleepingcomputer.com/offer/deals/get-6-claude-and-chatgpt-project-management-courses-for-just-20/",
-    "summary": ""
   },
   {
     "category": "Federal Register",
@@ -791,14 +884,6 @@
     "title": "CVE-2026-62871 .NET Elevation of Privilege Vulnerability",
     "published_at": "2026-08-13T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62871",
-    "summary": "Removed Linux and macOS products from the Affected Software table. This is an informational change only."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-62886 .NET Elevation of Privilege Vulnerability",
-    "published_at": "2026-08-13T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62886",
     "summary": "Removed Linux and macOS products from the Affected Software table. This is an informational change only."
   },
   {
@@ -1840,14 +1925,6 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-62722 Windows Bind Filter Driver Elevation of Privilege Vulnerability",
-    "published_at": "2026-08-11T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62722",
-    "summary": "Heap-based buffer overflow in Windows Bind Filter Driver allows an authorized attacker to elevate privileges locally."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-62723 Windows Telephony Service Elevation of Privilege Vulnerability",
     "published_at": "2026-08-11T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62723",
@@ -2272,14 +2349,6 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-63513 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
-    "published_at": "2026-08-11T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63513",
-    "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-63515 Microsoft Office Remote Code Execution Vulnerability",
     "published_at": "2026-08-11T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63515",
@@ -2296,26 +2365,10 @@
   {
     "category": "IS",
     "source": "Microsoft MSRC",
-    "title": "CVE-2026-63518 Microsoft Office Word Remote Code Execution Vulnerability",
-    "published_at": "2026-08-11T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63518",
-    "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
     "title": "CVE-2026-63521 Microsoft Office Word Information Disclosure Vulnerability",
     "published_at": "2026-08-11T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63521",
     "summary": "Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to disclose information locally."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-63519 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
-    "published_at": "2026-08-11T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63519",
-    "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
   },
   {
     "category": "IS",
@@ -4060,14 +4113,6 @@
     "published_at": "2026-08-11T14:00:00Z",
     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66806",
     "summary": "Off-by-one error in Microsoft Office Word allows an unauthorized attacker to disclose information locally."
-  },
-  {
-    "category": "IS",
-    "source": "Microsoft MSRC",
-    "title": "CVE-2026-66807 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
-    "published_at": "2026-08-11T14:00:00Z",
-    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66807",
-    "summary": "Stack-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally."
   },
   {
     "category": "IS",
@@ -7653,14 +7698,6 @@
     "summary": ""
   },
   {
-    "category": "OFAC",
-    "source": "Treasury",
-    "title": "Treasury Continues to Follow the Money in Minnesota to Eliminate Fraud",
-    "published_at": "2026-08-07T17:00:00Z",
-    "url": "https://home.treasury.gov/news/press-releases/sb0597",
-    "summary": ""
-  },
-  {
     "category": "Executive",
     "source": "White House",
     "title": "Nominations Sent to the Senate",
@@ -8451,101 +8488,5 @@
     "published_at": "2026-08-04T14:07:06Z",
     "url": "https://content.govdelivery.com/accounts/USFDIC/bulletins/4238e4a",
     "summary": "PRESS RELEASE | AUGUST 4, 2026 FDIC Approves the Deposit Insurance Application for Augustus National Bank, N.A., Dallas, Texas WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today approved a deposit insurance application for Augustus National Bank, N.A. (Augustus National Bank), a newly chartered national bank to be headquartered in Dallas, Texas. The organizers…"
-  },
-  {
-    "category": "Fintech Watch",
-    "source": "Finastra",
-    "title": "Dominion Lending Centres acquires Filogix, a leading Canadian mortgage technology and connectivity platform",
-    "published_at": "2026-08-04T12:00:00Z",
-    "url": "https://www.finastra.com/press-media/dominion-lending-centres-acquires-filogix-leading-canadian-mortgage-technology-and",
-    "summary": ""
-  },
-  {
-    "category": "IRS",
-    "source": "IRS",
-    "title": "Security Summit warns tax pros to watch out for phishing emails and other attacks",
-    "published_at": "2026-08-04T00:00:00Z",
-    "url": "https://www.irs.gov/newsroom/security-summit-warns-tax-pros-to-watch-out-for-phishing-emails-and-other-attacks",
-    "summary": "IR-2026-85, Aug. 4, 2026 — The Internal Revenue Service and Security Summit partners today warned tax professionals to watch for phishing emails and other schemes designed to steal sensitive taxpayer data."
-  },
-  {
-    "category": "Banking",
-    "source": "FDIC",
-    "title": "FDIC Launches New Office of Supervisory Appeals",
-    "published_at": "2026-08-04T00:00:00Z",
-    "url": "https://www.fdic.gov/news/press-releases/2026/fdic-launches-new-office-supervisory-appeals",
-    "summary": "The FDIC today announced the launch of a new Office of Supervisory Appeals (OSA) panel comprised of independent officials who will consider and resolve appeals"
-  },
-  {
-    "category": "Banking",
-    "source": "FDIC",
-    "title": "FDIC Approves the Deposit Insurance Application for Augustus National Bank, N.A., Dallas, Texas",
-    "published_at": "2026-08-04T00:00:00Z",
-    "url": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-deposit-insurance-application-augustus-national-bank-na",
-    "summary": "The FDIC today approved a deposit insurance application for Augustus National Bank, N.A., a newly chartered national bank to be headquartered in Dallas, Texas."
-  },
-  {
-    "category": "Fintech Watch",
-    "source": "FIS",
-    "title": "FIS Reports Second Quarter 2026 Results",
-    "published_at": "2026-08-04T00:00:00Z",
-    "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-reports-second-quarter-2026-results",
-    "summary": ""
-  },
-  {
-    "category": "Fintech Watch",
-    "source": "FIS",
-    "title": "FIS to Report Second Quarter Earnings on August 4, 2026",
-    "published_at": "2026-08-04T00:00:00Z",
-    "url": "https://www.investor.fisglobal.com/news-releases/news-release-details/fis-report-second-quarter-earnings-august-4-2026",
-    "summary": ""
-  },
-  {
-    "category": "Fintech Watch",
-    "source": "Fiserv",
-    "title": "Fiserv and Mastercard Deepen Global Partnership to Help Merchants Innovate & Expand",
-    "published_at": "2026-08-04T00:00:00Z",
-    "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-and-mastercard-deepen-global-partnership-help-merchants",
-    "summary": ""
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Loans to Executive Officers, Directors, and Principal Shareholders of Member Banks; Bank Holding Companies",
-    "published_at": "2026-08-04T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15777/loans-to-executive-officers-directors-and-principal-shareholders-of-member-banks-bank-holding",
-    "summary": "The Board is inviting public comment on proposed amendments to Regulation O, which governs loans by member banks to their insiders and insiders of their affiliates. The proposed amendments would update and modernize the regulation, increase transparency by clarifying requirements and incorporating existing interpretations, and promote efficiency by reducing regulatory burden.…",
-    "fr_tags": [
-      "agency:federal-reserve-system",
-      "topic:banks-banking",
-      "topic:credit",
-      "topic:holding-companies",
-      "topic:investments",
-      "topic:securities"
-    ],
-    "fedreg_document_number": "2026-15777"
-  },
-  {
-    "category": "Federal Register",
-    "source": "Federal Register",
-    "title": "Regulatory Modernization and Relief for Mutual Holding Companies",
-    "published_at": "2026-08-04T00:00:00Z",
-    "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15774/regulatory-modernization-and-relief-for-mutual-holding-companies",
-    "summary": "The Board invites comment on a notice of proposed rulemaking (proposal) to modernize the regulatory framework applicable to mutual holding companies (MHCs), primarily through proposed revisions to Regulation MM (12 CFR part 239), which governs the formation, operations, activities, and conversion of savings and loan holding companies in mutual form. The proposal would amend Re…",
-    "fr_tags": [
-      "agency:federal-reserve-system",
-      "topic:banks-banking",
-      "topic:holding-companies",
-      "topic:securities"
-    ],
-    "fedreg_document_number": "2026-15774"
-  },
-  {
-    "category": "Compliance Watch",
-    "source": "TBA",
-    "title": "Paoletta is new CFPB acting director",
-    "published_at": "2026-08-03T17:00:00Z",
-    "url": "https://www.texasbankers.com/paoletta-is-new-cfpb-acting-director/",
-    "summary": "Mark Paoletta became the acting director of the Consumer Financial Protection Bureau after acting director Russell Vought’s term expired over the weekend, according to American Banker. Paoletta is general counsel at OMB and served as second-in-command at the bureau under Vought. Vought, the director of the Office of Management and Budget, has served as acting […] The post Paol…"
   }
 ]
