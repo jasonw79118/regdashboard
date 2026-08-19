@@ -1,7 +1,151 @@
 # RegDashboard — Export
 
-Window: `2026-08-04T13:08:30Z` → `2026-08-18T13:08:30Z` (UTC)
-Last updated: `2026-08-18T08:08:30-05:00` (CT) — `2026-08-18T13:08:30Z` (UTC)
+Window: `2026-08-05T12:36:22Z` → `2026-08-19T12:36:22Z` (UTC)
+Last updated: `2026-08-19T07:36:22-05:00` (CT) — `2026-08-19T12:36:22Z` (UTC)
+
+## Treasury Announces Increased Sizes of Nominal Long-End
+- Source: Treasury
+- Category: OFAC
+- Published: 2026-08-19T12:30:00Z
+- URL: https://home.treasury.gov/news/press-releases/sb0607
+
+## Microsoft fixes known issue causing Windows Defender crashes
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-19T11:14:28Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/
+
+Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]
+
+## Critical RCE flaw in Windows IKE Extension now actively exploited
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-19T10:12:24Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions component. [...]
+
+## Windows 11 24H2 Home and Pro reach end of support in 2 months
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-19T09:10:20Z
+- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/
+
+Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]
+
+## CISA: Medusa ransomware hit over 500 critical infrastructure orgs
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-19T08:00:48Z
+- URL: https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/
+
+The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]
+
+## Temporary Suspension of Additional Duties to Offset Canadian Discrimination Against the Commerce of the United States with Respect to Alcoholic Beverages, Dairy, and Motor Vehicles
+- Source: White House
+- Category: Executive
+- Published: 2026-08-19T02:34:18Z
+- URL: https://www.whitehouse.gov/presidential-actions/2026/08/temporary-suspension-of-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-alcoholic-beverages-dairy-and-motor-vehicles/
+
+## MPF Announcement 2026-51
+- Source: FHLB MPF
+- Category: Mortgage
+- Published: 2026-08-19T00:00:00Z
+- URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-51
+
+## Own an all-in-one PDF editor & converter for just $40
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-19T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/own-an-all-in-one-pdf-editor-and-converter-for-just-40/
+
+## Rescission of Rural Development's Construction and Repair Regulation
+- Source: Federal Register
+- Category: Federal Register
+- Published: 2026-08-19T00:00:00Z
+- URL: https://www.federalregister.gov/documents/2026/08/19/2026-16914/rescission-of-rural-developments-construction-and-repair-regulation
+
+The Rural Business-Cooperative Service (RBCS), Rural Housing Service (RHS), and Rural Utilities Service (RUS), together make up the Rural Development (RD or the Agency) mission area within the U.S. Department of Agriculture (USDA). RD is issuing this proposed rule to rescind its regulation regarding construction and repairs. RD found this regulation to be unnecessary and undul…
+
+## Comcast turns your Xfinity WiFi into a home motion detector
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-18T20:14:58Z
+- URL: https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/
+
+Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]
+
+## Clop created custom web shell for Windchill data theft attacks
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-18T17:29:51Z
+- URL: https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/
+
+A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]
+
+## Your Controls Block Known Attacks. What About the Behavior?
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-18T14:01:11Z
+- URL: https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/
+
+Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by technique and why behavioral testing is needed to uncover those gaps. [...]
+
+## CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-18T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301
+
+Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.
+
+## CVE-2026-65791 Windows iSCSI Target Service Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-18T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65791
+
+Acknowledgement Updated
+
+## CVE-2026-66804 Microsoft Windows Cross Device Service Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-18T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66804
+
+Acknowledgement Updated
+
+## CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-18T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338
+
+Acknowledgement Updated
+
+## CVE-2026-47632 Azure Connected Machine Agent Elevation of Privilege Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-18T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47632
+
+Corrected the affected product from **Azure Monitor Agent Metrics Extension** to **Azure Connected Machine Agent** and updated the Security Updates table. This is an informational change only.
+
+## CVE-2026-50419 Windows Kernel Information Disclosure Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-18T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50419
+
+Acknowledgement Updated
+
+## CVE-2026-56642 Microsoft Fabric Data Warehouse Remote Code Execution Vulnerability
+- Source: Microsoft MSRC
+- Category: IS
+- Published: 2026-08-18T14:00:00Z
+- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56642
+
+Updated the Security Updates table by removing an affected software entry. No user action is required. This is an informational change only.
 
 ## Microsoft tests faster Windows File Explorer, new context menu
 - Source: BleepingComputer
@@ -35,6 +179,24 @@ Microsoft says some users are experiencing issues searching in Microsoft 365 app
 
 Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]
 
+## International Criminal Court-related Designations; Venezuela-related Designation; Issuance of International Criminal Court-related General License
+- Source: OFAC
+- Category: OFAC
+- Published: 2026-08-18T00:00:00Z
+- URL: https://ofac.treasury.gov/recent-actions/20260818
+
+## News & Commentaries
+- Source: Fannie Mae
+- Category: Mortgage
+- Published: 2026-08-18T00:00:00Z
+- URL: https://capitalmarkets.fanniemae.com/news-commentaries
+
+## Get training across all 8 CISSP certification domains for just $19.99
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-18T00:00:00Z
+- URL: https://www.bleepingcomputer.com/offer/deals/get-training-across-all-8-cissp-certification-domains-for-just-1999/
+
 ## Get 5 years of AdGuard VPN on 10 devices for just $35
 - Source: BleepingComputer
 - Category: IS
@@ -48,6 +210,12 @@ Microsoft announced that it removed the Windows Management Instrumentation Comma
 - URL: https://www.federalregister.gov/documents/2026/08/18/2026-16796/genius-act-regulations-on-payment-stablecoin-issuance-offer-and-sale
 
 The Department of the Treasury (Treasury) proposes to issue regulations to implement section 3 of the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act regarding the statutory prohibitions and limitations on payment stablecoin issuance, offer, and sale in the United States.
+
+## Presidential Message on National Employer Support of the Guard and Reserve Week
+- Source: White House
+- Category: Executive
+- Published: 2026-08-17T21:15:00Z
+- URL: https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-national-employer-support-of-the-guard-and-reserve-week-1d9a/
 
 ## Treasury International Capital Data for June
 - Source: Treasury
@@ -179,38 +347,6 @@ Acknowledgement Updated
 - Published: 2026-08-17T12:45:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0605
 
-## Windows Server 2022 reaches end of mainstream support in 60 days
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-17T12:33:11Z
-- URL: https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/
-
-Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]
-
-## Philips and GE investigating Clop ransomware data theft claims
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-17T11:25:02Z
-- URL: https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/
-
-Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]
-
-## French tax authority data breach affects 678,000 individuals
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-17T10:09:48Z
-- URL: https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/
-
-The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]
-
-## Microsoft working on Defender patch for ShieldBreak zero-day
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-17T09:05:33Z
-- URL: https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/
-
-Microsoft is working on a security patch for the "ShieldBreak" zero-day vulnerability disclosed last week by security researcher "Nightmare Eclipse" and now tracked as CVE-2026-69414. [...]
-
 ## Data and Insights
 - Source: Fannie Mae
 - Category: Mortgage
@@ -219,23 +355,23 @@ Microsoft is working on a security patch for the "ShieldBreak" zero-day vulnerab
 
 Fannie Mae’s market intelligence helps you understand changes in the housing and economic environment today and what it might signal for tomorrow.
 
-## News & Commentaries
-- Source: Fannie Mae
-- Category: Mortgage
-- Published: 2026-08-17T00:00:00Z
-- URL: https://capitalmarkets.fanniemae.com/news-commentaries
-
 ## Fiserv and Flagstar Bank Announce Strategic Core Banking Relationship
 - Source: Fiserv
 - Category: Fintech Watch
 - Published: 2026-08-17T00:00:00Z
 - URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-and-flagstar-bank-announce-strategic-core-banking
 
-## Own a learning bundle that connects AI & Six Sigma for just $40
+## Windows Server 2022 reaches end of mainstream support in 60 days
 - Source: BleepingComputer
 - Category: IS
 - Published: 2026-08-17T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/own-a-learning-bundle-that-connects-ai-and-six-sigma-for-just-40/
+- URL: https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/
+
+## Philips and GE investigating Clop ransomware data theft claims
+- Source: BleepingComputer
+- Category: IS
+- Published: 2026-08-17T00:00:00Z
+- URL: https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/
 
 ## Proposed Removal of a Reporting Requirement for Trusts Whose Charitable Contribution Deductions Are Solely for Contributions Made by Passthrough Entities
 - Source: Federal Register
@@ -244,30 +380,6 @@ Fannie Mae’s market intelligence helps you understand changes in the housing a
 - URL: https://www.federalregister.gov/documents/2026/08/17/2026-16769/proposed-removal-of-a-reporting-requirement-for-trusts-whose-charitable-contribution-deductions-are
 
 This document contains proposed regulations that would amend existing regulations that require certain trusts to report all charitable contributions and amounts permanently set aside for a charitable purpose on Form 1041-A, U.S. Information Return Trust Accumulation of Charitable Amounts. The proposed regulations would remove the reporting requirement for these trusts with res…
-
-## SafePal data breach impacts 39,798 customers, stolen info for sale
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-16T23:47:06Z
-- URL: https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/
-
-Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]
-
-## Anthropic confirms Claude is down in major outage affecting multiple services
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-16T22:28:57Z
-- URL: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/
-
-Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]
-
-## Large-scale DDoS attacks disrupted Threema secure messaging service
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-16T17:29:52Z
-- URL: https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/
-
-Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]
 
 ## CVE-2026-65768 Microsoft Teams Remote Code Execution Vulnerability
 - Source: Microsoft MSRC
@@ -309,18 +421,6 @@ Corrected build number for the security update. This in an informational change 
 
 Corrected the listed software in the Security Updates table. Microsoft recommends installing the security update as soon as possible.
 
-## New AmnesiaStealer macOS malware hijacks browser sessions via remote control
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/
-
-## Get access to ChatGPT, Claude & Gemini for just $69.97 today
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-16T00:00:00Z
-- URL: https://www.bleepingcomputer.com/offer/deals/get-access-to-chatgpt-claude-and-gemini-for-just-6997-today/
-
 ## Following Approval of Trump Crypto Company Bank Application, Warren and Colleagues to Introduce the Ending Presidential Corruption in Banking Act
 - Source: Senate Banking
 - Category: Legislative
@@ -338,12 +438,6 @@ Corrected the listed software in the Security Updates table. Microsoft recommend
 - Category: Legislative
 - Published: 2026-08-15T00:00:00Z
 - URL: https://www.banking.senate.gov/newsroom/minority/warren-urges-occ-fdic-fed-to-block-a-predatory-lender-from-spreading-nationwide
-
-## New Evooo1Bot Linux botnet turns routers into traffic relay nodes
-- Source: BleepingComputer
-- Category: IS
-- Published: 2026-08-15T00:00:00Z
-- URL: https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/
 
 ## Chromium: CVE-2026-19560 Use after free in Blink
 - Source: Microsoft MSRC
@@ -461,14 +555,6 @@ Acknowledgement Updated
 
 Acknowledgement Updated
 
-## CVE-2026-66804 Microsoft Windows Cross Device Service Elevation of Privilege Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-08-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66804
-
-Acknowledgement Updated
-
 ## CVE-2026-59126 Windows Event Logging Service Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -482,14 +568,6 @@ Acknowledgement Updated
 - Category: IS
 - Published: 2026-08-14T14:00:00Z
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59119
-
-The security updates for Powershell have been updated.
-
-## CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-08-14T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338
 
 The security updates for Powershell have been updated.
 
@@ -540,6 +618,14 @@ Acknowledgement Updated
 - URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48566
 
 This CVE has been discovered to be an Elevation of Privilege and not an Information Disclosure. The CVE's Impact has been updated.
+
+## OCC updates 2026 Bank Accounting Advisory Series
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-08-14T11:00:00Z
+- URL: https://www.texasbankers.com/occ-updates-2026-bank-accounting-advisory-series/
+
+The Office of the Comptroller of the Currency released its annual update to the Bank Accounting Advisory Series (BAAS). The BAAS provides staff responses to frequently asked questions from the banking industry and bank examiners on a range of accounting topics. It promotes consistent application of accounting standards and regulatory reporting among national banks and federal…
 
 ## Back From the Dead: The Impacts of the Renewed Section 1033 Rulemaking on the Credit Reporting Industry
 - Source: CDIA
@@ -634,6 +720,14 @@ Publication of the 2026 Unified Agenda of Federal Regulatory and Deregulatory Ac
 - URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260813a.htm
 
 Federal Reserve Board issues enforcement action with former employee of Regions Bank
+
+## White House announces expansion to combat cybercrime
+- Source: TBA
+- Category: Compliance Watch
+- Published: 2026-08-13T15:00:00Z
+- URL: https://www.texasbankers.com/white-house-announces-expansion-to-combat-cybercrime/
+
+President Donald Trump signed a National Security Presidential Memorandum (NSPM) empowering U.S. Federal law enforcement to use cyber tools to disrupt transnational criminal organizations (TCOs) operating in foreign jurisdictions that attack Americans. The fact sheet reads: Learn more about the NSPM here. The post White House announces expansion to combat cybercrime appeared f…
 
 ## CVE-2026-49798 Windows Kernel Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
@@ -3935,14 +4029,6 @@ Use after free in Windows Autopilot allows an authorized attacker to elevate pri
 
 Heap-based buffer overflow in Windows Message Queuing allows an authorized attacker to elevate privileges locally.
 
-## CVE-2026-65791 Windows iSCSI Target Service Remote Code Execution Vulnerability
-- Source: Microsoft MSRC
-- Category: IS
-- Published: 2026-08-11T14:00:00Z
-- URL: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65791
-
-Heap-based buffer overflow in Windows iSCSI Target Service allows an unauthorized attacker to execute code over a network.
-
 ## CVE-2026-65795 Windows DNS Elevation of Privilege Vulnerability
 - Source: Microsoft MSRC
 - Category: IS
@@ -6777,12 +6863,6 @@ The Office of the Comptroller of the Currency continues to prioritize reinvigora
 - Published: 2026-08-11T00:00:00Z
 - URL: https://www.fhlbmpf.com/program-guidelines/mpf-program-updates/mpf-announcement-2026-49
 
-## Education Services
-- Source: CDIA
-- Category: Compliance Watch
-- Published: 2026-08-11T00:00:00Z
-- URL: https://www.cdiaonline.org/education-services/
-
 ## Regulatory Changes Required by the Energy Security and Lightering Independence Act of 2022
 - Source: Federal Register
 - Category: Federal Register
@@ -7547,12 +7627,6 @@ Information published.
 - Published: 2026-08-07T17:30:00Z
 - URL: https://home.treasury.gov/news/press-releases/sb0598
 
-## Treasury Dismantles Iranian Regime’s Global Clandestine Currency Networks
-- Source: Treasury
-- Category: OFAC
-- Published: 2026-08-07T17:30:00Z
-- URL: https://home.treasury.gov/news/press-releases/sb0596
-
 ## Nominations Sent to the Senate
 - Source: White House
 - Category: Executive
@@ -7692,12 +7766,6 @@ IR-2026-89, Aug. 7, 2026 — The Department of the Treasury and the Internal Rev
 - Category: Executive
 - Published: 2026-08-06T21:03:35Z
 - URL: https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states/
-
-## National Purple Heart Day, 2026
-- Source: White House
-- Category: Executive
-- Published: 2026-08-06T20:54:24Z
-- URL: https://www.whitehouse.gov/presidential-actions/2026/08/national-purple-heart-day-2026/
 
 ## The Full Picture Matters: Why the tri-merge protects homebuyers
 - Source: CDIA
@@ -8094,97 +8162,3 @@ The NCUA Board (Board) is amending its regulations that establish the requiremen
 - URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/421aaa6
 
 PRESS RELEASE | AUGUST 5, 2026 FDIC Issues List of Banks Examined for CRA Compliance WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA). The list covers evaluation ratings that the FDIC assigned to institutions in May 2026. The CRA is a 1977 law…
-
-## Presidential Message on the Birthday of the United States Coast Guard
-- Source: White House
-- Category: Executive
-- Published: 2026-08-05T00:47:48Z
-- URL: https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-the-birthday-of-the-united-states-coast-guard/
-
-## Counter Terrorism Designations Removals and Update
-- Source: OFAC
-- Category: OFAC
-- Published: 2026-08-05T00:00:00Z
-- URL: https://ofac.treasury.gov/recent-actions/20260805
-
-## Treasury, IRS Issue Guidance on the Permanent Expansion of Paid Family and Medical Leave under the Working Families Tax Cuts
-- Source: IRS
-- Category: IRS
-- Published: 2026-08-05T00:00:00Z
-- URL: https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-permanent-expansion-of-paid-family-and-medical-leave-under-the-working-families-tax-cuts
-
-IR-2026-86, Aug. 5, 2026 — The Department of the Treasury and the Internal Revenue Service (IRS) issued Notice 2026-28, providing guidance on the employer credit for paid family and medical leave (PFML) under the Working Families Tax Cuts (WFTC).
-
-## FDIC Issues List of Banks Examined for CRA Compliance
-- Source: FDIC
-- Category: Banking
-- Published: 2026-08-05T00:00:00Z
-- URL: https://www.fdic.gov/news/press-releases/2026/fdic-issues-list-banks-examined-cra-compliance-6
-
-The FDIC today issued its list of state nonmember banks recently evaluated for compliance with the Community Reinvestment Act (CRA).
-
-## FIS Launches Digital One™ Commercial to Help APAC Banks Scale Business Banking Across Growth Markets
-- Source: FIS
-- Category: Fintech Watch
-- Published: 2026-08-05T00:00:00Z
-- URL: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-launches-digital-onetm-commercial-help-apac-banks-scale
-
-## Fiserv and Stuut Partner to Bring Agentic AI to Enterprise Receivables
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-08-05T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/fiserv-and-stuut-partner-bring-agentic-ai-enterprise-receivables
-
-## UW Credit Union Selects DNA from Fiserv to Power its Next Stage of Growth
-- Source: Fiserv
-- Category: Fintech Watch
-- Published: 2026-08-05T00:00:00Z
-- URL: https://investors.fiserv.com/news-releases/news-release-details/uw-credit-union-selects-dna-fiserv-power-its-next-stage-growth
-
-## OCC Rules Regarding the Availability of OCC Information
-- Source: Federal Register
-- Category: Federal Register
-- Published: 2026-08-05T00:00:00Z
-- URL: https://www.federalregister.gov/documents/2026/08/05/2026-15867/occ-rules-regarding-the-availability-of-occ-information
-
-The Office of the Comptroller of the Currency (OCC) is proposing changes to its rules on information disclosure. The proposal would clarify the process for obtaining OCC approval to disclose non- public OCC information and allow for the disclosure of confidential supervisory information without OCC approval in certain circumstances, provided that applicable safeguards are obse…
-
-## Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.
-- Source: FRB
-- Category: Banking
-- Published: 2026-08-04T20:30:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm
-
-Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.
-
-## Federal Reserve Board announces approval of the application by FS Bancorp, Inc.
-- Source: FRB
-- Category: Banking
-- Published: 2026-08-04T20:30:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm
-
-Federal Reserve Board announces approval of the application by FS Bancorp, Inc.
-
-## Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.
-- Source: FRB
-- Category: Banking
-- Published: 2026-08-04T20:30:00Z
-- URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm
-
-Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.
-
-## Press Release: FDIC Launches New Office of Supervisory Appeals
-- Source: FDIC
-- Category: Banking
-- Published: 2026-08-04T16:52:41Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/423929b
-
-PRESS RELEASE | AUGUST 4, 2026 FDIC Launches New Office of Supervisory Appeals WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today announced the launch of a new Office of Supervisory Appeals (OSA) panel comprised of independent officials who will consider and resolve appeals of material supervisory determinations brought before the agency. The OSA is a standalo…
-
-## Press Release: FDIC Approves the Deposit Insurance Application for Augustus National Bank, N.A., Dallas, Texas
-- Source: FDIC
-- Category: Banking
-- Published: 2026-08-04T14:07:06Z
-- URL: https://content.govdelivery.com/accounts/USFDIC/bulletins/4238e4a
-
-PRESS RELEASE | AUGUST 4, 2026 FDIC Approves the Deposit Insurance Application for Augustus National Bank, N.A., Dallas, Texas WASHINGTON — The Federal Deposit Insurance Corporation (FDIC) today approved a deposit insurance application for Augustus National Bank, N.A. (Augustus National Bank), a newly chartered national bank to be headquartered in Dallas, Texas. The organizers…
